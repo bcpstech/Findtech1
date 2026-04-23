@@ -4,28 +4,15 @@ on:
   schedule:
     - cron: '0 3 * * *'
   workflow_dispatch:
-    inputs:
-      stores:
-        description: Tienda a scrapear
-        required: false
-        default: todas
-        type: choice
-        options:
-          - todas
-          - n1g
-          - alltec
-          - cg
-          - centrale
-          - pcexpress
 
 permissions:
   contents: write
 
 jobs:
   scrape:
-    name: Scraping FindTech.cl
+    name: Scraping via SoloTodo API
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 30
 
     steps:
       - name: Checkout
@@ -51,50 +38,22 @@ jobs:
         env:
           DB_PATH: ./db/techcompara.db
 
-      - name: Scrapear N1G
-        if: github.event.inputs.stores == 'todas' || github.event.inputs.stores == 'n1g' || github.event_name == 'schedule'
-        run: node scraper/stores/n1g.js || echo "N1G fallo, continuando..."
+      - name: Scrapear via SoloTodo API
+        run: node scraper/stores/solotodo.js
         env:
           DB_PATH: ./db/techcompara.db
           NODE_ENV: production
-
-      - name: Scrapear Alltec
-        if: github.event.inputs.stores == 'todas' || github.event.inputs.stores == 'alltec' || github.event_name == 'schedule'
-        run: node scraper/stores/alltec.js || echo "Alltec fallo, continuando..."
-        env:
-          DB_PATH: ./db/techcompara.db
-          NODE_ENV: production
-
-      - name: Scrapear CentralGamer
-        if: github.event.inputs.stores == 'todas' || github.event.inputs.stores == 'cg' || github.event_name == 'schedule'
-        run: node scraper/stores/centralgamer.js || echo "CentralGamer fallo, continuando..."
-        env:
-          DB_PATH: ./db/techcompara.db
-          NODE_ENV: production
-
-      - name: Scrapear Centrale
-        if: github.event.inputs.stores == 'todas' || github.event.inputs.stores == 'centrale' || github.event_name == 'schedule'
-        run: node scraper/stores/centrale.js || echo "Centrale fallo, continuando..."
-        env:
-          DB_PATH: ./db/techcompara.db
-          NODE_ENV: production
-
-      - name: Scrapear PC-Express
-        if: github.event.inputs.stores == 'todas' || github.event.inputs.stores == 'pcexpress' || github.event_name == 'schedule'
-        run: node scraper/stores/pcexpress.js || echo "PC-Express fallo, continuando..."
-        env:
-          DB_PATH: ./db/techcompara.db
-          NODE_ENV: production
+          SCRAPE_TIMEOUT: '30000'
 
       - name: Exportar JSON
         run: node scripts/export-json.js
         env:
           DB_PATH: ./db/techcompara.db
 
-      - name: Verificar productos exportados
+      - name: Verificar productos
         run: |
-          echo "Productos en JSON:"
-          cat docs/data/products.json | python3 -c "import sys,json; data=json.load(sys.stdin); print(f'{len(data)} productos encontrados')"
+          echo "Productos exportados:"
+          python3 -c "import json; data=json.load(open('docs/data/products.json')); print(f'{len(data)} productos')"
 
       - name: Commit y Push
         run: |
