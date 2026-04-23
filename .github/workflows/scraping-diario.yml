@@ -112,7 +112,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git add docs/data/
           git diff --staged --quiet || git commit -m "precios ${{ matrix.store.name }} $(date '+%Y-%m-%d')"
-          git pull --rebase origin main
-          git push
+          git fetch origin main
+          git reset --soft origin/main
+          git add docs/data/
+          git diff --staged --quiet || git commit -m "precios ${{ matrix.store.name }} $(date '+%Y-%m-%d')"
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
