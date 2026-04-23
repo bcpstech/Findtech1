@@ -1,134 +1,161 @@
 /**
  * scraper/stores/solotodo.js
  * Obtiene precios reales usando la API pública de SoloTodo.cl
- * No requiere Puppeteer ni scraping HTML — usa JSON directamente
- * Documentación: https://www.solotodo.cl/api/
  */
-const BaseScraper = require('../base-scraper');
+require('dotenv').config();
+const axios   = require('axios');
+const { upsertProduct, upsertPrice, logScrape } = require('../../db/database');
+const logger  = require('../logger');
 
-// IDs de tiendas en SoloTodo que corresponden a las nuestras
-// Estos IDs se obtienen de: https://www.solotodo.cl/api/stores/?format=json
-const STORE_IDS = {
-  n1g:        14,   // N1G
-  alltec:     6,    // Alltec
-  cg:         43,   // CentralGamer
-  centrale:   29,   // Centrale
-  pcexpress:  17,   // PC-Express
+// IDs de tiendas en SoloTodo → IDs en nuestra DB
+const STORE_MAP = {
+  14: 'n1g',
+  6:  'alltec',
+  43: 'cg',
+  29: 'centrale',
+  17: 'pcexpress',
 };
 
-// IDs de categorías en SoloTodo
-// https://www.solotodo.cl/api/categories/?format=json
-const CATEGORY_IDS = {
-  gpu:     2,   // Tarjetas de video
-  cpu:     3,   // Procesadores
-  ram:     5,   // Memorias RAM
-  storage: 7,   // Almacenamiento
-  cooling: 11,  // Refrigeración
-  mobo:    4,   // Placas madre
-  psu:     8,   // Fuentes de poder
-  case:    9,   // Gabinetes
-  monitor: 10,  // Monitores
-  periph:  12,  // Periféricos
+// IDs de categorías en SoloTodo → IDs en nuestra DB
+const CATEGORY_MAP = {
+  2:  'gpu',
+  3:  'cpu',
+  5:  'ram',
+  7:  'storage',
+  11: 'cooling',
+  4:  'mobo',
+  8:  'psu',
+  9:  'case',
+  10: 'monitor',
+  12: 'periph',
 };
 
-class SoloTodoScraper extends BaseScraper {
-  constructor() { super('solotodo', 'SoloTodo API'); }
-
-  async scrapeAll() {
-    // Obtener todas las categorías
-    for (const [catId, soloTodoCatId] of Object.entries(CATEGORY_IDS)) {
-      try {
-        await this.scrapeCategory(catId, soloTodoCatId);
-        await this.delay(1000, 2000);
-      } catch (err) {
-        this.stats.errors++;
-        this.log('warn', `Error en ${catId}: ${err.message}`);
-      }
-    }
+const client = axios.create({
+  timeout: 30000,
+  headers: {
+    'User-Agent': 'Mozilla/5.0 (compatible; FindTech.cl/1.0)',
+    'Accept': 'application/json',
   }
+});
 
-  async scrapeCategory(catId, soloTodoCatId) {
+function slugify(text) {
+  return text.toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '')
+    .slice(0, 100);
+}
+
+function extractBrand(name) {
+  const brands = ['NVIDIA','AMD','Intel','Samsung','WD','Seagate','Corsair',
+    'G.Skill','Kingston','Crucial','ASUS','MSI','Gigabyte','ASRock',
+    'Noctua','Arctic','Seasonic','Cooler Master','NZXT','LG','BenQ',
+    'AOC','Acer','Logitech','Razer','SteelSeries','HyperX'];
+  return brands.find(b => name.toUpperCase().includes(b.toUpperCase())) || 'Genérico';
+}
+
+async function fetchJSON(url) {
+  try {
+    const res = await client.get(url);
+    return res.data;
+  } catch (err) {
+    logger.warn(`Error fetching ${url}: ${err.message}`);
+    return null;
+  }
+}
+
+async function delay(min = 500, max = 1500) {
+  const ms = Math.floor(Math.random() * (max - min + 1)) + min;
+  return new Promise(r => setTimeout(r, ms));
+}
+
+async function run() {
+  const startTime = Date.now();
+  const logId = logScrape('n1g', 'running'); // usamos n1g como referencia
+  let found = 0, updated = 0, errors = 0;
+
+  logger.info('⬇️  Iniciando scraping via SoloTodo API');
+
+  for (const [soloTodoCatId, catId] of Object.entries(CATEGORY_MAP)) {
+    logger.info(`Categoría: ${catId} (SoloTodo ID: ${soloTodoCatId})`);
     let page = 1;
     let hasMore = true;
-    const PAGE_SIZE = 100;
 
-    while (hasMore && page <= 10) {
-      const url = `https://www.solotodo.cl/api/products/?category=${soloTodoCatId}&page_size=${PAGE_SIZE}&page=${page}&format=json`;
-      this.log('info', `Categoría ${catId} pág ${page}`);
+    while (hasMore && page <= 5) {
+      const url = `https://www.solotodo.cl/api/products/?category=${soloTodoCatId}&page_size=50&page=${page}&format=json`;
+      const data = await fetchJSON(url);
 
-      const $ = await this.fetchPage(url);
-      if (!$) { this.stats.errors++; break; }
-
-      // La API devuelve JSON — lo parseamos del texto
-      let data;
-      try {
-        const text = $.root().text();
-        data = JSON.parse(text);
-      } catch (e) {
-        this.log('warn', `Error parseando JSON: ${e.message}`);
-        break;
-      }
-
-      if (!data.results || !data.results.length) { hasMore = false; break; }
+      if (!data || !data.results) { hasMore = false; break; }
 
       for (const product of data.results) {
-        // Obtener precios de cada tienda para este producto
-        await this.fetchPrices(product, catId);
-        await this.delay(200, 500);
+        try {
+          // Obtener precios del producto
+          const entitiesUrl = `https://www.solotodo.cl/api/products/${product.id}/entities/?format=json`;
+          const entitiesData = await fetchJSON(entitiesUrl);
+          if (!entitiesData) continue;
+
+          const entities = entitiesData.results || entitiesData;
+          if (!entities.length) continue;
+
+          // Filtrar solo nuestras tiendas
+          const relevantEntities = entities.filter(e => STORE_MAP[e.store?.id]);
+          if (!relevantEntities.length) continue;
+
+          // Guardar producto
+          const external_id = `solotodo_${product.id}`;
+          const row = upsertProduct({
+            external_id,
+            category_id: catId,
+            brand:       product.brand?.name || extractBrand(product.name),
+            name:        product.name,
+            slug:        slugify(product.name),
+            image_url:   product.thumbnail_url || null,
+            specs:       product.specs ? JSON.stringify(product.specs) : null,
+            tags:        null,
+          });
+
+          if (!row?.id) continue;
+
+          // Guardar precio por cada tienda
+          for (const entity of relevantEntities) {
+            const storeId = STORE_MAP[entity.store.id];
+            const price = parseInt(
+              entity.active_registry?.cell_monthly_payment ||
+              entity.active_registry?.normal_price
+            );
+            if (!price || price < 1000) continue;
+
+            upsertPrice({
+              product_id:   row.id,
+              store_id:     storeId,
+              price,
+              price_normal: null,
+              discount_pct: null,
+              stock:        entity.condition === 'https://schema.org/InStock' ? 'in_stock' : 'out_of_stock',
+              product_url:  entity.external_url || null,
+            });
+            updated++;
+          }
+          found++;
+        } catch (err) {
+          errors++;
+          logger.warn(`Error procesando ${product.name}: ${err.message}`);
+        }
+
+        await delay(300, 800);
       }
 
       hasMore = !!data.next;
       page++;
-      await this.delay(1000, 2000);
+      await delay(1000, 2000);
     }
   }
 
-  async fetchPrices(product, catId) {
-    try {
-      const url = `https://www.solotodo.cl/api/products/${product.id}/entities/?format=json`;
-      const $ = await this.fetchPage(url);
-      if (!$) return;
-
-      let data;
-      try {
-        data = JSON.parse($.root().text());
-      } catch (e) { return; }
-
-      const entities = data.results || data;
-      if (!entities.length) return;
-
-      for (const entity of entities) {
-        // Solo procesar tiendas que nos interesan
-        const storeId = Object.entries(STORE_IDS).find(([, id]) => id === entity.store?.id)?.[0];
-        if (!storeId) continue;
-
-        const price = parseInt(entity.active_registry?.cell_monthly_payment || entity.active_registry?.normal_price);
-        if (!price || price < 1000) continue;
-
-        this.stats.found++;
-        this.saveProduct(
-          {
-            name:     product.name,
-            category: catId,
-            brand:    product.brand?.name || this.extractBrand(product.name),
-            imageUrl: product.thumbnail_url || null,
-            specs:    product.specs || null,
-          },
-          {
-            current:  price,
-            stock:    entity.condition === 'https://schema.org/InStock' ? 'in_stock' : 'out_of_stock',
-            url:      entity.external_url || null,
-            storeId,
-          }
-        );
-      }
-    } catch (err) {
-      this.log('warn', `Error obteniendo precios de ${product.name}: ${err.message}`);
-    }
-  }
+  const duration = Date.now() - startTime;
+  logger.info(`✅ Completado en ${(duration/1000).toFixed(1)}s — ${found} productos, ${updated} precios`);
+  return { success: true, found, updated, errors, duration };
 }
 
-if (require.main === module) {
-  new SoloTodoScraper().run().then(r => { console.log('SoloTodo:', r); process.exit(r.success ? 0 : 1); });
-}
-module.exports = SoloTodoScraper;
+run()
+  .then(r => { console.log('SoloTodo API:', r); process.exit(0); })
+  .catch(err => { console.error('Error fatal:', err); process.exit(1); });
