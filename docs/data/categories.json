@@ -1,0 +1,159 @@
+[
+  {
+    "id": "gpu",
+    "name": "Tarjetas Gráficas",
+    "icon": "🎮",
+    "parent_id": null,
+    "sort_order": 1,
+    "product_count": 0,
+    "subcategories": [
+      {
+        "id": "gpu-nvidia",
+        "name": "NVIDIA GeForce RTX",
+        "icon": "🎮",
+        "parent_id": "gpu",
+        "sort_order": 1
+      },
+      {
+        "id": "gpu-amd",
+        "name": "AMD Radeon RX",
+        "icon": "🎮",
+        "parent_id": "gpu",
+        "sort_order": 2
+      }
+    ]
+  },
+  {
+    "id": "cpu",
+    "name": "Procesadores",
+    "icon": "⚡",
+    "parent_id": null,
+    "sort_order": 2,
+    "product_count": 0,
+    "subcategories": [
+      {
+        "id": "cpu-intel",
+        "name": "Intel Core Ultra",
+        "icon": "⚡",
+        "parent_id": "cpu",
+        "sort_order": 1
+      },
+      {
+        "id": "cpu-amd",
+        "name": "AMD Ryzen",
+        "icon": "⚡",
+        "parent_id": "cpu",
+        "sort_order": 2
+      }
+    ]
+  },
+  {
+    "id": "ram",
+    "name": "Memorias RAM",
+    "icon": "💾",
+    "parent_id": null,
+    "sort_order": 3,
+    "product_count": 0,
+    "subcategories": [
+      {
+        "id": "ram-ddr5",
+        "name": "DDR5",
+        "icon": "💾",
+        "parent_id": "ram",
+        "sort_order": 1
+      },
+      {
+        "id": "ram-ddr4",
+        "name": "DDR4",
+        "icon": "💾",
+        "parent_id": "ram",
+        "sort_order": 2
+      }
+    ]
+  },
+  {
+    "id": "storage",
+    "name": "Almacenamiento",
+    "icon": "💿",
+    "parent_id": null,
+    "sort_order": 4,
+    "product_count": 0,
+    "subcategories": [
+      {
+        "id": "ssd-nvme",
+        "name": "NVMe M.2 PCIe 5.0/4.0",
+        "icon": "💿",
+        "parent_id": "storage",
+        "sort_order": 1
+      },
+      {
+        "id": "ssd-sata",
+        "name": "SSD SATA",
+        "icon": "💿",
+        "parent_id": "storage",
+        "sort_order": 2
+      },
+      {
+        "id": "hdd",
+        "name": "HDD",
+        "icon": "💿",
+        "parent_id": "storage",
+        "sort_order": 3
+      }
+    ]
+  },
+  {
+    "id": "cooling",
+    "name": "Refrigeración",
+    "icon": "❄️",
+    "parent_id": null,
+    "sort_order": 5,
+    "product_count": 0,
+    "subcategories": []
+  },
+  {
+    "id": "mobo",
+    "name": "Placas Madre",
+    "icon": "🔌",
+    "parent_id": null,
+    "sort_order": 6,
+    "product_count": 0,
+    "subcategories": []
+  },
+  {
+    "id": "psu",
+    "name": "Fuentes de Poder",
+    "icon": "⚙️",
+    "parent_id": null,
+    "sort_order": 7,
+    "product_count": 0,
+    "subcategories": []
+  },
+  {
+    "id": "case",
+    "name": "Gabinetes",
+    "icon": "🖥️",
+    "parent_id": null,
+    "sort_order": 8,
+    "product_count": 0,
+    "subcategories": []
+  },
+  {
+    "id": "monitor",
+    "name": "Monitores",
+    "icon": "🖱️",
+    "parent_id": null,
+    "sort_order": 9,
+    "product_count": 0,
+    "subcategories": []
+  },
+  {
+    "id": "periph",
+    "name": "Periféricos",
+    "icon": "⌨️",
+    "parent_id": null,
+    "sort_order": 10,
+    "product_count": 0,
+    "subcategories": []
+  }
+]
