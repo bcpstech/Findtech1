@@ -1,0 +1,118 @@
+name: Scraping Diario FindTech.cl
+ 
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+    inputs:
+      stores:
+        description: Tienda a scrapear
+        required: false
+        default: todas
+        type: choice
+        options:
+          - todas
+          - n1g
+          - alltec
+          - cg
+          - centrale
+          - pcexpress
+ 
+permissions:
+  contents: write
+ 
+jobs:
+  scrape:
+    name: ${{ matrix.store.name }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      max-parallel: 1
+      matrix:
+        store:
+          - id: n1g
+            name: N1G.cl
+            script: scraper/stores/n1g.js
+          - id: alltec
+            name: Alltec.cl
+            script: scraper/stores/alltec.js
+          - id: cg
+            name: CentralGamer.cl
+            script: scraper/stores/centralgamer.js
+          - id: centrale
+            name: Centrale.cl
+            script: scraper/stores/centrale.js
+          - id: pcexpress
+            name: PC-Express.cl
+            script: scraper/stores/pcexpress.js
+ 
+    steps:
+      - name: Validar ejecucion
+        id: should_run
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ github.event.inputs.stores }}" = "todas" ] || [ "${{ github.event.inputs.stores }}" = "${{ matrix.store.id }}" ]; then
+            echo "run=true" >> $GITHUB_OUTPUT
+          else
+            echo "run=false" >> $GITHUB_OUTPUT
+          fi
+ 
+      - name: Checkout
+        if: steps.should_run.outputs.run == 'true'
+        uses: actions/checkout@v4
+ 
+      - name: Setup Node.js 20
+        if: steps.should_run.outputs.run == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+ 
+      - name: Cache node_modules
+        if: steps.should_run.outputs.run == 'true'
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: node-${{ hashFiles('package.json') }}
+          restore-keys: node-
+ 
+      - name: Instalar dependencias
+        if: steps.should_run.outputs.run == 'true'
+        run: npm install
+ 
+      - name: Restaurar base de datos
+        if: steps.should_run.outputs.run == 'true'
+        uses: actions/cache@v4
+        with:
+          path: db/techcompara.db
+          key: db-${{ github.run_id }}
+          restore-keys: db-
+ 
+      - name: Inicializar DB
+        if: steps.should_run.outputs.run == 'true'
+        run: if [ ! -f db/techcompara.db ]; then node db/init.js; fi
+        env:
+          DB_PATH: ./db/techcompara.db
+ 
+      - name: Ejecutar scraper
+        if: steps.should_run.outputs.run == 'true'
+        run: node ${{ matrix.store.script }}
+        env:
+          DB_PATH: ./db/techcompara.db
+          NODE_ENV: production
+ 
+      - name: Exportar JSON
+        if: steps.should_run.outputs.run == 'true'
+        run: node scripts/export-json.js
+        env:
+          DB_PATH: ./db/techcompara.db
+ 
+      - name: Commit y Push
+        if: steps.should_run.outputs.run == 'true'
+        run: |
+          git config user.email "bot@github.com"
+          git config user.name "github-actions[bot]"
+          git add docs/data/
+          git diff --staged --quiet || git commit -m "precios ${{ matrix.store.name }} $(date '+%Y-%m-%d')"
+          git pull --rebase origin main
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
