@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   scrape:
-    name: Scraping via SoloTodo API
+    name: Scraping via Cloudflare Worker
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
@@ -38,12 +38,13 @@ jobs:
         env:
           DB_PATH: ./db/techcompara.db
 
-      - name: Scrapear via SoloTodo API
-        run: node scraper/stores/solotodo.js
+      - name: Scrapear via Cloudflare Worker
+        run: node scraper/stores/via-worker.js
         env:
           DB_PATH: ./db/techcompara.db
           NODE_ENV: production
-          SCRAPE_TIMEOUT: '30000'
+          CF_WORKER_URL: ${{ secrets.CF_WORKER_URL }}
+          CF_SECRET_TOKEN: ${{ secrets.CF_SECRET_TOKEN }}
 
       - name: Exportar JSON
         run: node scripts/export-json.js
@@ -52,8 +53,7 @@ jobs:
 
       - name: Verificar productos
         run: |
-          echo "Productos exportados:"
-          python3 -c "import json; data=json.load(open('docs/data/products.json')); print(f'{len(data)} productos')"
+          python3 -c "import json; data=json.load(open('docs/data/products.json')); print(f'{len(data)} productos exportados')"
 
       - name: Commit y Push
         run: |
