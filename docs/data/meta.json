@@ -1,7 +1,15 @@
 {
-  "last_update": null,
-  "generated_at": "2026-04-24T18:35:07.382Z",
-  "total_products": 0,
+  "last_update": "2026-04-24",
+  "generated_at": "2026-04-24T18:36:33.778Z",
+  "total_products": 39,
   "total_stores": 5,
-  "last_runs": []
+  "last_runs": [
+    {
+      "store_id": "cg",
+      "status": "success",
+      "products_updated": 39,
+      "errors_count": 5,
+      "finished_at": "2026-04-24 18:36:33"
+    }
+  ]
 }
