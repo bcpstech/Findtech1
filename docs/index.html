@@ -1161,21 +1161,36 @@ function submitForm() {
 
 const _openProductBase = openProduct;
 async function openProduct(id) {
+  // Buscar el producto en memoria primero
+  const existing = PRODUCTS.find(x => x.id === id);
+  
+  // Si no tiene precios individuales, construirlos desde best_price
+  if (existing && (!existing.prices || !Object.keys(existing.prices).length)) {
+    if (existing._bestStoreId && existing._bestPrice) {
+      existing.prices = { [existing._bestStoreId]: existing._bestPrice };
+    } else if (existing._bestStoreName && existing._bestPrice) {
+      const store = STORES.find(s => s.name === existing._bestStoreName);
+      if (store) existing.prices = { [store.id]: existing._bestPrice };
+    }
+  }
+
+  // Intentar cargar detalle individual (puede no existir)
   try {
     const res = await fetch(`${DATA_BASE}/products/${id}.json`);
     if (res.ok) {
       const p = await res.json();
       const priceMap = {};
       (p.prices||[]).forEach(pr => { priceMap[pr.store_id] = pr.price; });
-      const idx = PRODUCTS.findIndex(x=>x.id===id);
-      const base = idx>=0 ? PRODUCTS[idx] : {};
-      const merged = { ...base, ...p, category:p.category_id,
-        emoji:base.emoji||CATEGORIES.find(c=>c.id===p.category_id)?.icon||'📦',
-        prices:priceMap, _apiPrices:p.prices,
-        specs:{ ...(base.specs||{}), ...(p.specs||{}) } };
-      if (idx>=0) PRODUCTS[idx]=merged; else PRODUCTS.push(merged);
+      const base = existing || {};
+      const merged = { ...base, ...p, category: p.category_id,
+        emoji: base.emoji || CATEGORIES.find(c=>c.id===p.category_id)?.icon || '📦',
+        prices: priceMap, _apiPrices: p.prices,
+        specs: { ...(base.specs||{}), ...(p.specs||{}) } };
+      const idx = PRODUCTS.findIndex(x => x.id === id);
+      if (idx >= 0) PRODUCTS[idx] = merged; else PRODUCTS.push(merged);
     }
   } catch {}
+  
   _openProductBase(id);
 }
 
