@@ -1,6 +1,8 @@
 /**
  * scraper/stores/centralgamer.js
  * WooCommerce REST API — solo categorías de hardware verificadas
+ * NOTA: La API devuelve el precio de tarjeta/Webpay.
+ *       El precio efectivo/transferencia es tarjeta / 1.0526 (~5% descuento)
  */
 const BaseScraper = require('../base-scraper');
 
@@ -16,6 +18,9 @@ const CATEGORIES = [
   { slug: 'gabinetes-gamer',    catId: 'case'    },
   { slug: 'fuentes-de-poder',   catId: 'psu'     },
 ];
+
+// La API entrega precio tarjeta. Efectivo = tarjeta / 1.0526
+const CARD_FACTOR = 1.0526;
 
 class CentralGamerScraper extends BaseScraper {
   constructor() { super('cg', 'CentralGamer'); }
@@ -48,12 +53,18 @@ class CentralGamerScraper extends BaseScraper {
         if (!products?.length) break;
 
         for (const p of products) {
-          const price = parseInt(p.prices?.price);
-          if (!price || price < 1000) continue;
+          // La API devuelve precio tarjeta/Webpay
+          const priceCard = parseInt(p.prices?.price);
+          if (!priceCard || priceCard < 1000) continue;
 
-          const regularPrice = parseInt(p.prices?.regular_price);
-          // Precio tarjeta +5.26% (verificado en centralgamer.cl)
-          const priceCard = Math.round(price * 1.0526);
+          // Precio efectivo/transferencia: ~5% menos que tarjeta
+          const priceCash = Math.round(priceCard / CARD_FACTOR);
+
+          const regularPriceRaw = parseInt(p.prices?.regular_price);
+          // regular_price también viene en precio tarjeta
+          const regularPriceCash = regularPriceRaw > priceCard
+            ? Math.round(regularPriceRaw / CARD_FACTOR)
+            : null;
 
           this.stats.found++;
           this.saveProduct(
@@ -63,14 +74,16 @@ class CentralGamerScraper extends BaseScraper {
               brand:    p.brands?.[0]?.name || this.extractBrand(p.name),
               imageUrl: p.images?.[0]?.src || null,
               specs: {
-                'Efectivo/Transferencia':    `$${price.toLocaleString('es-CL')}`,
-                'Tarjeta crédito/débito':    `$${priceCard.toLocaleString('es-CL')}`,
+                'Efectivo/Transferencia': `$${priceCash.toLocaleString('es-CL')}`,
+                'Webpay / Tarjeta crédito-débito': `$${priceCard.toLocaleString('es-CL')}`,
               }
             },
             {
-              current:  price,
-              normal:   regularPrice > price ? regularPrice : null,
-              discount: regularPrice > price ? Math.round((1 - price/regularPrice)*100) : null,
+              current:  priceCash,
+              normal:   regularPriceCash,
+              discount: regularPriceCash
+                ? Math.round((1 - priceCash / regularPriceCash) * 100)
+                : null,
               stock:    p.is_in_stock ? 'in_stock' : 'out_of_stock',
               url:      p.permalink || null,
             }
