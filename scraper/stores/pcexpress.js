@@ -1,27 +1,24 @@
 /**
  * scraper/stores/pcexpress.js
  * OpenCart HTML scraping — tienda.pc-express.cl
- * Usa endpoint de búsqueda (?route=product/search) que devuelve HTML estático
- * con productos y precios. Las categorías directas cargan productos via JS.
  */
 const BaseScraper = require('../base-scraper');
 const cheerio = require('cheerio');
 
 const BASE_URL = 'https://tienda.pc-express.cl';
 
-// Términos de búsqueda por categoría de hardware
 const SEARCHES = [
-  { query: 'tarjeta de video',    catId: 'gpu'     },
-  { query: 'procesador amd',      catId: 'cpu'     },
-  { query: 'procesador intel',    catId: 'cpu'     },
-  { query: 'placa madre',         catId: 'mobo'    },
-  { query: 'memoria ram ddr',     catId: 'ram'     },
-  { query: 'ssd nvme m.2',        catId: 'storage' },
-  { query: 'ssd sata',            catId: 'storage' },
-  { query: 'disco duro hdd',      catId: 'storage' },
-  { query: 'fuente de poder',     catId: 'psu'     },
-  { query: 'gabinete gamer',      catId: 'case'    },
-  { query: 'cooler cpu',          catId: 'cooling' },
+  { query: 'tarjeta de video',      catId: 'gpu'     },
+  { query: 'procesador amd',        catId: 'cpu'     },
+  { query: 'procesador intel',      catId: 'cpu'     },
+  { query: 'placa madre',           catId: 'mobo'    },
+  { query: 'memoria ram ddr',       catId: 'ram'     },
+  { query: 'ssd nvme m.2',          catId: 'storage' },
+  { query: 'ssd sata',              catId: 'storage' },
+  { query: 'disco duro hdd',        catId: 'storage' },
+  { query: 'fuente de poder',       catId: 'psu'     },
+  { query: 'gabinete gamer',        catId: 'case'    },
+  { query: 'cooler cpu',            catId: 'cooling' },
   { query: 'refrigeracion liquida', catId: 'cooling' },
 ];
 
@@ -29,7 +26,6 @@ const CARD_SURCHARGE = 1.03;
 
 class PCExpressScraper extends BaseScraper {
   constructor() { super('pcexpress', 'PC-Express'); }
-
 
   isAccessory(name) {
     const lower = name.toLowerCase();
@@ -70,18 +66,14 @@ class PCExpressScraper extends BaseScraper {
           }
         });
 
+        // Log HTML para debug
+        this.log('info', `[pcx] HTML snippet: ${res.data.slice(200, 600)}`);
+
         const $ = cheerio.load(res.data);
-
-        // PC-Express OpenCart: productos en .product-layout o divs con class product-*
-        // Buscar cualquier elemento que contenga precio y enlace de producto
         const items = $('.product-layout, .product-thumb');
+        let newInPage = 0;
 
-        // Si no hay con esos selectores, buscar por estructura de precio
-        let found = false;
         if (items.length) {
-          found = true;
-          let newInPage = 0;
-
           items.each((_, el) => {
             try {
               const $el = $(el);
@@ -103,7 +95,6 @@ class PCExpressScraper extends BaseScraper {
               const priceOldRaw = $el.find('.price-old').first().text().trim();
               const regularPrice = priceOldRaw ? this.parsePrice(priceOldRaw) : null;
               const priceCard = Math.round(price * CARD_SURCHARGE);
-
               const imageUrl = $el.find('img').first().attr('src') || null;
 
               this.stats.found++;
@@ -126,14 +117,8 @@ class PCExpressScraper extends BaseScraper {
           if (items.length < 25) break;
 
         } else {
-          // Fallback: buscar por estructura alternativa de OpenCart
-          const priceEls = $('[class*="price"]');
-          if (!priceEls.length) {
-            this.log('info', `[pcx] Sin productos para "${query}" pág ${page}`);
-            break;
-          }
-
-          // Extraer productos buscando pares nombre+precio
+          // Fallback: buscar h4 con links a productos
+          let found = false;
           $('h4').each((_, el) => {
             const $h4 = $(el);
             const link = $h4.find('a[href*="product_id"]');
@@ -144,9 +129,8 @@ class PCExpressScraper extends BaseScraper {
             this.seenUrls.add(productUrl);
 
             const name = link.text().trim();
-            if (!name) return;
+            if (!name || this.isAccessory(name)) return;
 
-            // Buscar precio en el contenedor padre
             const $container = $h4.closest('div');
             const priceRaw = $container.find('[class*="price"]').first().text().trim();
             const price = this.parsePrice(priceRaw);
@@ -157,6 +141,7 @@ class PCExpressScraper extends BaseScraper {
 
             this.stats.found++;
             found = true;
+            newInPage++;
             this.saveProduct(
               { name, category: catId, brand: this.extractBrand(name), imageUrl,
                 specs: {
@@ -169,6 +154,7 @@ class PCExpressScraper extends BaseScraper {
             );
           });
 
+          this.log('info', `[pcx] ✓ "${query}" pág ${page}: ${newInPage} nuevos (fallback)`);
           if (!found) break;
         }
 
