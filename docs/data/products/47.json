@@ -1,42 +1,45 @@
 {
   "id": 47,
-  "external_id": "n1g_powercolor-rx-7600-8gb-gddr6-128-bit-fighter-radeon-rx7600-8g-f",
-  "category_id": "gpu",
-  "brand": "Genérico",
-  "name": "PowerColor RX 7600 8GB GDDR6 128-bit Fighter Radeon RX7600 8G-F",
-  "slug": "powercolor-rx-7600-8gb-gddr6-128-bit-fighter-radeon-rx7600-8g-f",
-  "image_url": "https://n1g.cl/Home/15755-home_default/powercolor-radeon-radeon-rx-7600-8gb-gddr6-fighter-8gb-gddr6-128-bit-rx7600-8g-f.jpg",
+  "external_id": "cg_memoria-ram-kingston-fury-beast-64gb-ddr5-5600mhz-rgb",
+  "category_id": "ram",
+  "brand": "Kingston",
+  "name": "Memoria Ram Kingston Fury Beast 64GB DDR5 5600Mhz RGB",
+  "slug": "memoria-ram-kingston-fury-beast-64gb-ddr5-5600mhz-rgb",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1769712561000.jpg?fit=1000%2C1000&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Efectivo/Transferencia": "$1.005.910",
+    "Webpay / Tarjeta crédito-débito": "$1.058.821"
+  },
   "tags": [],
-  "created_at": "2026-04-24 09:18:11",
-  "updated_at": "2026-04-24 09:18:44",
+  "created_at": "2026-04-24 19:23:03",
+  "updated_at": "2026-04-24 19:23:03",
   "prices": [
     {
       "id": 47,
       "product_id": 47,
-      "store_id": "n1g",
-      "price": 289000,
-      "price_normal": 304210,
-      "discount_pct": 5,
+      "store_id": "cg",
+      "price": 1005910,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3083-powercolor-radeon-radeon-rx-7600-8gb-gddr6-fighter-8gb-gddr6-128-bit-rx7600-8g-f.html",
+      "product_url": "https://centralgamer.cl/memorias-ram/memoria-kingston-64gb-5600mt-s-ddr5-cl36-dimm-ki/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 09:18:44",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "scraped_at": "2026-04-24 19:23:03",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
+      "store_id": "cg",
+      "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 289000
+      "price": 1005910
     }
   ],
   "scraped_at": "2026-04-24"

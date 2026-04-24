@@ -1,42 +1,45 @@
 {
   "id": 41,
-  "external_id": "n1g_sparkle-intel-arc-a380-elf-6gb-gddr6-single-fan-sa380e-6g",
-  "category_id": "gpu",
-  "brand": "Intel",
-  "name": "SPARKLE Intel Arc A380 ELF 6GB  GDDR6, Single Fan, SA380E-6G",
-  "slug": "sparkle-intel-arc-a380-elf-6gb-gddr6-single-fan-sa380e-6g",
-  "image_url": "https://n1g.cl/Home/15711-home_default/intel-sparkle-arc-a380-elf-6gb-gddr6-single-fan-sa380e-6g.jpg",
+  "external_id": "cg_kingston-fury-beast-rgb-64gb-ddr5-2-x-32-gb-cl30",
+  "category_id": "ram",
+  "brand": "Kingston",
+  "name": "Kingston Fury Beast RGB 64GB DDR5 (2 x 32 GB) CL30",
+  "slug": "kingston-fury-beast-rgb-64gb-ddr5-2-x-32-gb-cl30",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1774983778010.jpg?fit=1000%2C1000&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Efectivo/Transferencia": "$950.019",
+    "Webpay / Tarjeta crédito-débito": "$999.990"
+  },
   "tags": [],
-  "created_at": "2026-04-24 09:18:11",
-  "updated_at": "2026-04-24 09:18:44",
+  "created_at": "2026-04-24 19:23:03",
+  "updated_at": "2026-04-24 19:23:03",
   "prices": [
     {
       "id": 41,
       "product_id": 41,
-      "store_id": "n1g",
-      "price": 179900,
-      "price_normal": 189368,
-      "discount_pct": 5,
+      "store_id": "cg",
+      "price": 950019,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3686-intel-sparkle-arc-a380-elf-6gb-gddr6-single-fan-sa380e-6g.html",
+      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-kingston-fury-beast-rgb-64gb-2x32gb-6000mt-s-ddr5/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 09:18:44",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "scraped_at": "2026-04-24 19:23:03",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
+      "store_id": "cg",
+      "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 179900
+      "price": 950019
     }
   ],
   "scraped_at": "2026-04-24"
