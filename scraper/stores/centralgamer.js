@@ -58,11 +58,14 @@ class CentralGamerScraper extends BaseScraper {
         if (!products || !products.length) { hasMore = false; break; }
 
         for (const p of products) {
-          // Precio viene como string "449990" — sin centavos
+          // Precio efectivo/transferencia (precio base de la API)
           const price = parseInt(p.prices?.price);
           const regularPrice = parseInt(p.prices?.regular_price);
 
           if (!price || price < 1000) continue;
+
+          // Precio tarjeta = precio efectivo + ~5.26% (recargo CentralGamer verificado)
+          const priceCard = Math.round(price * 1.0526);
 
           this.stats.found++;
           this.saveProduct(
@@ -71,6 +74,10 @@ class CentralGamerScraper extends BaseScraper {
               category: catId,
               brand:    this.extractBrand(p.name),
               imageUrl: p.images?.[0]?.src || null,
+              specs: {
+                'Precio efectivo/transferencia': `$${price.toLocaleString('es-CL')}`,
+                'Precio tarjeta crédito/débito': `$${priceCard.toLocaleString('es-CL')}`,
+              }
             },
             {
               current:  price,
