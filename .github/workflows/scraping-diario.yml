@@ -47,10 +47,12 @@ jobs:
         run: npm install
 
       - name: Inicializar DB
-        run: node db/init.js
+        run: |
+          rm -f db/techcompara.db
+          node db/init.js
         env:
           DB_PATH: ./db/techcompara.db
-
+          
       - name: Scrapear N1G
         if: github.event.inputs.stores == 'todas' || github.event.inputs.stores == 'n1g' || github.event_name == 'schedule'
         run: node scraper/stores/n1g.js || echo "N1G fallo, continuando..."
