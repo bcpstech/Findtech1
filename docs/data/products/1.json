@@ -1,45 +1,42 @@
 {
   "id": 1,
-  "external_id": "cg_silla-gamer-cougar-defensor",
-  "category_id": "periph",
+  "external_id": "n1g_exelink-conversor-hdmi-vga-30cm",
+  "category_id": "gpu",
   "brand": "Genérico",
-  "name": "Silla Gamer Cougar Defensor",
-  "slug": "silla-gamer-cougar-defensor",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/04/1_1776806433830.png?fit=1200%2C1200&ssl=1",
+  "name": "Exelink CONVERSOR HDMI @ VGA 30cm",
+  "slug": "exelink-conversor-hdmi-vga-30cm",
+  "image_url": "https://n1g.cl/Home/2094-home_default/exelink-conversor-hdmi-vga-30cm.jpg",
   "description": null,
-  "specs": {
-    "Precio efectivo/transferencia": "$249.990",
-    "Precio tarjeta crédito/débito": "$263.139"
-  },
+  "specs": null,
   "tags": [],
-  "created_at": "2026-04-24 01:22:51",
-  "updated_at": "2026-04-24 01:22:51",
+  "created_at": "2026-04-24 09:18:11",
+  "updated_at": "2026-04-24 09:18:44",
   "prices": [
     {
       "id": 1,
       "product_id": 1,
-      "store_id": "cg",
-      "price": 249990,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 9900,
+      "price_normal": 10421,
+      "discount_pct": 5,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/sillas-gamer/silla-gamer-cougar-defensor/",
+      "product_url": "https://n1g.cl/Home/computacion/364-exelink-conversor-hdmi-vga-30cm.html",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 01:22:51",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 09:18:44",
+      "store_name": "N1G",
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl",
+      "store_rating": 4.3,
+      "review_count": 1280
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "n1g",
+      "store_name": "N1G",
       "date": "2026-04-24",
-      "price": 249990
+      "price": 9900
     }
   ],
   "scraped_at": "2026-04-24"

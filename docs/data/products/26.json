@@ -1,45 +1,42 @@
 {
   "id": 26,
-  "external_id": "cg_kingston-fury-beast-rgb-64gb-ddr5-2-x-32-gb-cl30",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Kingston Fury Beast RGB 64GB DDR5 (2 x 32 GB) CL30",
-  "slug": "kingston-fury-beast-rgb-64gb-ddr5-2-x-32-gb-cl30",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1774983778010.jpg?fit=1000%2C1000&ssl=1",
+  "external_id": "n1g_ezdiy-fab-riser-recto-black-30cm-pci-express-gen-4-16x-extreme-flexible-pci-express-4-0-ezdpc172-3",
+  "category_id": "gpu",
+  "brand": "Genérico",
+  "name": "EZDIY-FAB Riser RECTO BLACK 30cm PCI Express Gen 4 16x Extreme Flexible PCI Express 4.0 EZDPC172-3",
+  "slug": "ezdiy-fab-riser-recto-black-30cm-pci-express-gen-4-16x-extreme-flexible-pci-express-4-0-ezdpc172-3",
+  "image_url": "https://n1g.cl/Home/14895-home_default/ezdiy-fab-riser-recto-black-30cm-pci-express-gen-4-16x-extreme-flexible-pci-express-40-ezdpc172-3.jpg",
   "description": null,
-  "specs": {
-    "Precio efectivo/transferencia": "$999.990",
-    "Precio tarjeta crédito/débito": "$1.052.589"
-  },
+  "specs": null,
   "tags": [],
-  "created_at": "2026-04-24 01:22:51",
-  "updated_at": "2026-04-24 01:22:51",
+  "created_at": "2026-04-24 09:18:11",
+  "updated_at": "2026-04-24 09:18:44",
   "prices": [
     {
       "id": 26,
       "product_id": 26,
-      "store_id": "cg",
-      "price": 999990,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 39900,
+      "price_normal": 42000,
+      "discount_pct": 5,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-kingston-fury-beast-rgb-64gb-2x32gb-6000mt-s-ddr5/",
+      "product_url": "https://n1g.cl/Home/computacion/3488-ezdiy-fab-riser-recto-black-30cm-pci-express-gen-4-16x-extreme-flexible-pci-express-40-ezdpc172-3.html",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 01:22:51",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 09:18:44",
+      "store_name": "N1G",
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl",
+      "store_rating": 4.3,
+      "review_count": 1280
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "n1g",
+      "store_name": "N1G",
       "date": "2026-04-24",
-      "price": 999990
+      "price": 39900
     }
   ],
   "scraped_at": "2026-04-24"

@@ -1,45 +1,42 @@
 {
   "id": 27,
-  "external_id": "cg_placa-madre-asus-prime-b760m-a-d4-csm",
-  "category_id": "mobo",
-  "brand": "ASUS",
-  "name": "Placa Madre ASUS Prime B760M-A D4 CSM",
-  "slug": "placa-madre-asus-prime-b760m-a-d4-csm",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1774885498061.jpg?fit=1000%2C1000&ssl=1",
+  "external_id": "n1g_li-lian-li-strimer-12vhpwr-gpu-connector-3x8-pin-to-12-4-pin-8-light-guides-g89-pw168-8pv2-00",
+  "category_id": "gpu",
+  "brand": "Genérico",
+  "name": "LI LIAN LI STRIMER 12VHPWR GPU connector 3X8 PIN to 12+4-PIN 8 light guides G89.PW168-8PV2.00",
+  "slug": "li-lian-li-strimer-12vhpwr-gpu-connector-3x8-pin-to-12-4-pin-8-light-guides-g89-pw168-8pv2-00",
+  "image_url": "https://n1g.cl/Home/9646-home_default/lian-li-12vhpwr-gpu-connector-3x8-pin-to-124-pin-8-light-guides-g89pw168-8pv200-.jpg",
   "description": null,
-  "specs": {
-    "Precio efectivo/transferencia": "$96.990",
-    "Precio tarjeta crédito/débito": "$102.092"
-  },
+  "specs": null,
   "tags": [],
-  "created_at": "2026-04-24 01:22:51",
-  "updated_at": "2026-04-24 01:22:51",
+  "created_at": "2026-04-24 09:18:11",
+  "updated_at": "2026-04-24 09:18:44",
   "prices": [
     {
       "id": 27,
       "product_id": 27,
-      "store_id": "cg",
-      "price": 96990,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 49000,
+      "price_normal": 51579,
+      "discount_pct": 5,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-b760m-a-d4-csm/",
+      "product_url": "https://n1g.cl/Home/computacion/2398-lian-li-12vhpwr-gpu-connector-3x8-pin-to-124-pin-8-light-guides-g89pw168-8pv200-.html",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 01:22:51",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 09:18:44",
+      "store_name": "N1G",
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl",
+      "store_rating": 4.3,
+      "review_count": 1280
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "n1g",
+      "store_name": "N1G",
       "date": "2026-04-24",
-      "price": 96990
+      "price": 49000
     }
   ],
   "scraped_at": "2026-04-24"

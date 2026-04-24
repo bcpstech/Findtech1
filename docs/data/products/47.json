@@ -1,45 +1,42 @@
 {
   "id": 47,
-  "external_id": "cg_teclado-logitech-pebble-keys-2-k380s-grafito-espanol",
-  "category_id": "periph",
-  "brand": "Logitech",
-  "name": "Teclado Logitech Pebble Keys 2 K380s Grafito Español",
-  "slug": "teclado-logitech-pebble-keys-2-k380s-grafito-espanol",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1772119760000.png?fit=1320%2C1320&ssl=1",
+  "external_id": "n1g_powercolor-rx-7600-8gb-gddr6-128-bit-fighter-radeon-rx7600-8g-f",
+  "category_id": "gpu",
+  "brand": "Genérico",
+  "name": "PowerColor RX 7600 8GB GDDR6 128-bit Fighter Radeon RX7600 8G-F",
+  "slug": "powercolor-rx-7600-8gb-gddr6-128-bit-fighter-radeon-rx7600-8g-f",
+  "image_url": "https://n1g.cl/Home/15755-home_default/powercolor-radeon-radeon-rx-7600-8gb-gddr6-fighter-8gb-gddr6-128-bit-rx7600-8g-f.jpg",
   "description": null,
-  "specs": {
-    "Precio efectivo/transferencia": "$34.590",
-    "Precio tarjeta crédito/débito": "$36.409"
-  },
+  "specs": null,
   "tags": [],
-  "created_at": "2026-04-24 01:22:51",
-  "updated_at": "2026-04-24 01:22:51",
+  "created_at": "2026-04-24 09:18:11",
+  "updated_at": "2026-04-24 09:18:44",
   "prices": [
     {
       "id": 47,
       "product_id": 47,
-      "store_id": "cg",
-      "price": 34590,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 289000,
+      "price_normal": 304210,
+      "discount_pct": 5,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/teclado-gamer/teclado-logitech-pebble-keys-2-k380s-grafito-espanol/",
+      "product_url": "https://n1g.cl/Home/computacion/3083-powercolor-radeon-radeon-rx-7600-8gb-gddr6-fighter-8gb-gddr6-128-bit-rx7600-8g-f.html",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 01:22:51",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 09:18:44",
+      "store_name": "N1G",
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl",
+      "store_rating": 4.3,
+      "review_count": 1280
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "n1g",
+      "store_name": "N1G",
       "date": "2026-04-24",
-      "price": 34590
+      "price": 289000
     }
   ],
   "scraped_at": "2026-04-24"
