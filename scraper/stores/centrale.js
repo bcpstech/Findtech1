@@ -1,81 +1,112 @@
 /**
  * scraper/stores/centrale.js
- * Centrale bloquea con 403 — usamos su API JSON directa
+ * WooCommerce REST API — centrale.cl
+ * NOTA: La API devuelve precio Transferencia/Efectivo directamente.
+ *       Precio tarjeta = precio * 1.055 (+5.5% recargo)
  */
 const BaseScraper = require('../base-scraper');
 
-const CATEGORY_URLS = [
-  { url: 'https://www.centrale.cl/tarjetas-de-video',  catId: 'gpu'     },
-  { url: 'https://www.centrale.cl/procesadores',       catId: 'cpu'     },
-  { url: 'https://www.centrale.cl/memorias-ram',       catId: 'ram'     },
-  { url: 'https://www.centrale.cl/almacenamiento',     catId: 'storage' },
-  { url: 'https://www.centrale.cl/refrigeracion',      catId: 'cooling' },
-  { url: 'https://www.centrale.cl/placas-madre',       catId: 'mobo'    },
-  { url: 'https://www.centrale.cl/fuentes-de-poder',   catId: 'psu'     },
-  { url: 'https://www.centrale.cl/gabinetes',          catId: 'case'    },
-  { url: 'https://www.centrale.cl/monitores',          catId: 'monitor' },
-  { url: 'https://www.centrale.cl/perifericos',        catId: 'periph'  },
+const BASE_API = 'https://centrale.cl/wp-json/wc/store/v1/products';
+
+const CATEGORIES = [
+  { slug: 'tarjetas-graficas-para-pc',  catId: 'gpu'     },
+  { slug: 'procesadores-para-pc',       catId: 'cpu'     },
+  { slug: 'placas-madres-para-pc',      catId: 'mobo'    },
+  { slug: 'memorias-ram-para-pc',       catId: 'ram'     },
+  { slug: 'almacenamiento-para-pc',     catId: 'storage' },
+  { slug: 'refrigeracion-liquida',      catId: 'cooling' },
+  { slug: 'coolers-de-aire',            catId: 'cooling' },
+  { slug: 'ventiladores',               catId: 'cooling' },
+  { slug: 'fuentes-de-poder-para-pc',   catId: 'psu'     },
+  { slug: 'gabinetes-para-pc',          catId: 'case'    },
 ];
 
+// API entrega precio efectivo. Tarjeta = efectivo * 1.055
+const CARD_FACTOR = 1.055;
+
 class CentraleScraper extends BaseScraper {
-  constructor() {
-    super('centrale', 'Centrale');
-    // Centrale requiere headers especiales
-    this.client.defaults.headers['Referer'] = 'https://www.centrale.cl/';
-    this.client.defaults.headers['Origin'] = 'https://www.centrale.cl';
-  }
+  constructor() { super('centrale', 'Centrale'); }
 
   async scrapeAll() {
-    for (const { url, catId } of CATEGORY_URLS) {
-      try { await this.scrapeCategory(url, catId); await this.delay(3000, 5000); }
-      catch (err) { this.stats.errors++; this.log('warn', `Error ${catId}: ${err.message}`); }
+    for (const { slug, catId } of CATEGORIES) {
+      try {
+        await this.scrapeCategory(slug, catId);
+        await this.delay(1000, 2000);
+      } catch (err) {
+        this.stats.errors++;
+        this.log('warn', `Error ${catId}: ${err.message}`);
+      }
     }
   }
 
-  async scrapeCategory(baseUrl, catId) {
-    let page = 1; let hasMore = true;
-    while (hasMore && page <= 10) {
-      const url = page === 1 ? baseUrl : `${baseUrl}?page=${page}`;
-      const $ = await this.fetchPage(url);
-      if (!$) { this.stats.errors++; break; }
+  async scrapeCategory(slug, catId) {
+    let page = 1;
+    const PER_PAGE = 100;
 
-      const products = [];
-      const selectors = [
-        '.product-card', '.product-item', 'article.product',
-        '[class*="ProductCard"]', '[class*="product-card"]',
-        '.card-product', '.item-product'
-      ];
+    while (page <= 20) {
+      const url = `${BASE_API}?category=${slug}&per_page=${PER_PAGE}&page=${page}`;
+      this.log('info', `[centrale] ${catId} pág ${page}`);
 
-      let found = false;
-      for (const sel of selectors) {
-        if ($(sel).length > 0) {
-          $(sel).each((_, el) => {
-            const name  = $(el).find('h2, h3, [class*="name"], [class*="title"]').first().text().trim();
-            const price = $(el).find('[class*="price"], .precio').first().text().trim();
-            const href  = $(el).find('a').first().attr('href');
-            const img   = $(el).find('img').first().attr('src') || $(el).find('img').first().attr('data-src');
-            if (name && price && name.length > 3) products.push({ name, price, href, img });
-          });
-          found = true; break;
+      try {
+        const res = await this.client.get(url, {
+          headers: { 'Accept': 'application/json' }
+        });
+        const products = res.data;
+        if (!products?.length) break;
+
+        for (const p of products) {
+          // API entrega precio efectivo/transferencia directamente
+          const priceCash = parseInt(p.prices?.price);
+          if (!priceCash || priceCash < 1000) continue;
+
+          // Precio tarjeta = efectivo + 5.5%
+          const priceCard = Math.round(priceCash * CARD_FACTOR / 10) * 10;
+
+          const regularPriceRaw = parseInt(p.prices?.regular_price);
+          const regularPrice = regularPriceRaw > priceCash ? regularPriceRaw : null;
+
+          this.stats.found++;
+          this.saveProduct(
+            {
+              name:     p.name,
+              category: catId,
+              brand:    p.brands?.[0]?.name || this.extractBrand(p.name),
+              imageUrl: p.images?.[0]?.src || null,
+              specs: {
+                'Transferencia / Efectivo':      `$${priceCash.toLocaleString('es-CL')}`,
+                'Tarjetas de Crédito / Débito':  `$${priceCard.toLocaleString('es-CL')}`,
+              }
+            },
+            {
+              current:  priceCash,
+              normal:   regularPrice,
+              discount: regularPrice
+                ? Math.round((1 - priceCash / regularPrice) * 100)
+                : null,
+              stock:    p.is_in_stock ? 'in_stock' : 'out_of_stock',
+              url:      p.permalink || null,
+            }
+          );
         }
+
+        if (products.length < PER_PAGE) break;
+        page++;
+        await this.delay(500, 1000);
+
+      } catch (err) {
+        this.stats.errors++;
+        this.log('warn', `[centrale] Error API ${slug} pág ${page}: ${err.message}`);
+        break;
       }
-
-      if (!found || !products.length) { hasMore = false; break; }
-
-      for (const p of products) {
-        const current = this.parsePrice(p.price); if (!current) continue;
-        this.stats.found++;
-        this.saveProduct({ name: p.name, category: catId, imageUrl: p.img },
-          { current, url: p.href });
-      }
-
-      hasMore = $('a[aria-label="Next"], .pagination .next').length > 0;
-      page++; await this.delay(2000, 4000);
     }
+    this.log('info', `✓ centrale ${catId}: ${this.stats.found} productos`);
   }
 }
 
 if (require.main === module) {
-  new CentraleScraper().run().then(r => { console.log('Centrale:', r); process.exit(r.success ? 0 : 1); });
+  new CentraleScraper().run().then(r => {
+    console.log('Centrale:', r);
+    process.exit(r.success ? 0 : 1);
+  });
 }
 module.exports = CentraleScraper;
