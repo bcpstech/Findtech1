@@ -1,45 +1,45 @@
 {
   "id": 282,
-  "external_id": "cg_monitor-samsung-gamer-32-8243-odyssey-g6-curvo-8211-ls32bg650elxzs",
-  "category_id": "monitor",
-  "brand": "Samsung",
-  "name": "Monitor Samsung Gamer 32&#8243; Odyssey G6 Curvo &#8211; LS32BG650ELXZS",
-  "slug": "monitor-samsung-gamer-32-8243-odyssey-g6-curvo-8211-ls32bg650elxzs",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/04/1_1776920118729.jpg?fit=1000%2C1000&ssl=1",
+  "external_id": "n1g_kingston-nv3-4tb-m-2-2280-nvme-pcie-4-0-x4-nand-3d-6000mb-s-snv3s-4000g",
+  "category_id": "storage",
+  "brand": "Kingston",
+  "name": "Kingston NV3 4TB M.2 2280 NVMe PCIe 4.0 x4 NAND 3D 6000MB/s SNV3S/4000G",
+  "slug": "kingston-nv3-4tb-m-2-2280-nvme-pcie-4-0-x4-nand-3d-6000mb-s-snv3s-4000g",
+  "image_url": "https://n1g.cl/Home/15968-home_default/kingston-nv3-2tb-m2-2230-nvme-pcie-40-x4-nand-3d-6000mbs-snv3sm32t0.jpg",
   "description": null,
   "specs": {
-    "Precio efectivo/transferencia": "$381.560",
-    "Precio tarjeta crédito/débito": "$401.630"
+    "Efectivo/Transferencia": "$369.000",
+    "Tarjeta crédito/débito": "$380.070"
   },
   "tags": [],
-  "created_at": "2026-04-24 01:22:59",
-  "updated_at": "2026-04-24 01:22:59",
+  "created_at": "2026-04-24 20:15:11",
+  "updated_at": "2026-04-24 20:15:11",
   "prices": [
     {
       "id": 282,
       "product_id": 282,
-      "store_id": "cg",
-      "price": 381560,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 369000,
+      "price_normal": 388421,
+      "discount_pct": 5,
       "currency": "CLP",
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/monitores-gamer/samsung-led-backlit-lcd-monitor-3d-curved-screen-32-2560-x-1440-va-hdmi-black-touchscreen/",
+      "stock": "out_of_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3742-kingston-nv3-2tb-m2-2230-nvme-pcie-40-x4-nand-3d-6000mbs-snv3sm32t0.html",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 01:22:59",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 20:15:11",
+      "store_name": "N1G",
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl",
+      "store_rating": 4.3,
+      "review_count": 1280
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "n1g",
+      "store_name": "N1G",
       "date": "2026-04-24",
-      "price": 381560
+      "price": 369000
     }
   ],
   "scraped_at": "2026-04-24"

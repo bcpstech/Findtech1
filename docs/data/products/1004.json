@@ -1,42 +1,45 @@
 {
   "id": 1004,
-  "external_id": "n1g_asus-a21-white-mini-tower-micro-atx-usb-3-2-psu-atx",
-  "category_id": "case",
-  "brand": "ASUS",
-  "name": "ASUS A21 White Mini-Tower Micro ATX USB 3.2 PSU ATX",
-  "slug": "asus-a21-white-mini-tower-micro-atx-usb-3-2-psu-atx",
-  "image_url": "https://n1g.cl/Home/11045-home_default/gabinete-asus-a21-blk-micro-atx-.jpg",
+  "external_id": "centrale_ssd-crucial-bx500-500gb-sata-iii-2-5-8243-velocidad-lectura-hasta-540mb-s",
+  "category_id": "storage",
+  "brand": "Crucial",
+  "name": "SSD Crucial BX500, 500GB, SATA III, 2.5&#8243;, Velocidad Lectura hasta 540MB/s",
+  "slug": "ssd-crucial-bx500-500gb-sata-iii-2-5-8243-velocidad-lectura-hasta-540mb-s",
+  "image_url": "https://centrale.cl/wp-content/uploads/Crucial-Disco-De-Estado-Solido-Ssd-Bx500-500Gb-3D-Nand-Sata-2-5-540-Mbs_TCDRhqk-1.webp",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Transferencia / Efectivo": "$89.670",
+    "Tarjetas de Crédito / Débito": "$94.600"
+  },
   "tags": [],
-  "created_at": "2026-04-24 09:19:52",
-  "updated_at": "2026-04-24 09:20:23",
+  "created_at": "2026-04-24 20:16:37",
+  "updated_at": "2026-04-24 20:16:37",
   "prices": [
     {
       "id": 1004,
       "product_id": 1004,
-      "store_id": "n1g",
-      "price": 99000,
-      "price_normal": 104211,
-      "discount_pct": 5,
+      "store_id": "centrale",
+      "price": 89670,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2814-gabinete-asus-a21-blk-micro-atx-.html",
+      "product_url": "https://centrale.cl/producto/ssd-crucial-bx500-500gb-sata-iii-2-5-velocidad-lectura-hasta-540mb-s/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 09:20:23",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "scraped_at": "2026-04-24 20:16:37",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 99000
+      "price": 89670
     }
   ],
   "scraped_at": "2026-04-24"

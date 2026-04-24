@@ -1,45 +1,45 @@
 {
   "id": 52,
-  "external_id": "cg_memoria-ram-xpg-gammix-d35-16gb-ddr4-white-3200mhz",
-  "category_id": "ram",
-  "brand": "Genérico",
-  "name": "Memoria Ram XPG GAMMIX D35 16GB DDR4 WHITE 3200Mhz",
-  "slug": "memoria-ram-xpg-gammix-d35-16gb-ddr4-white-3200mhz",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/12/1_1765997444683.jpg?fit=1000%2C1000&ssl=1",
+  "external_id": "n1g_msi-rtx-5060-8gb-shadow-2x-nvidia-geforce-oc-edition-8-gb-gddr7-128-bits-pcie-5-0-g5060-8s2c",
+  "category_id": "gpu",
+  "brand": "NVIDIA",
+  "name": "MSI RTX 5060 8GB Shadow 2x Nvidia GeForce OC Edition - 8 GB, GDDR7, 128 bits - PCIe 5.0 - G5060-8S2C",
+  "slug": "msi-rtx-5060-8gb-shadow-2x-nvidia-geforce-oc-edition-8-gb-gddr7-128-bits-pcie-5-0-g5060-8s2c",
+  "image_url": "https://n1g.cl/Home/14263-home_default/msi-shadow-rtx-5060-8gb-gddr7-pci-express-50-x-16-use-x8-ddr7-912-v537-037.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$118.744",
-    "Webpay / Tarjeta crédito-débito": "$124.990"
+    "Efectivo/Transferencia": "$397.900",
+    "Tarjeta crédito/débito": "$409.837"
   },
   "tags": [],
-  "created_at": "2026-04-24 19:23:03",
-  "updated_at": "2026-04-24 19:23:03",
+  "created_at": "2026-04-24 20:14:44",
+  "updated_at": "2026-04-24 20:14:44",
   "prices": [
     {
       "id": 52,
       "product_id": 52,
-      "store_id": "cg",
-      "price": 118744,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 397900,
+      "price_normal": 418842,
+      "discount_pct": 5,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-xpg-d35-16gb-rgb-white/",
+      "product_url": "https://n1g.cl/Home/computacion/3349-msi-shadow-rtx-5060-8gb-gddr7-pci-express-50-x-16-use-x8-ddr7-912-v537-037.html",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 19:23:03",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 20:14:44",
+      "store_name": "N1G",
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl",
+      "store_rating": 4.3,
+      "review_count": 1280
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "n1g",
+      "store_name": "N1G",
       "date": "2026-04-24",
-      "price": 118744
+      "price": 397900
     }
   ],
   "scraped_at": "2026-04-24"

@@ -1,42 +1,45 @@
 {
   "id": 971,
-  "external_id": "n1g_hyte-powered-usb-hub-hyte-4x-usb-2-0-usb-c-5v-4a-magnetic-powered-usb-hub-hyte-4x-usb-2-0-acc-hyte-u",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "Hyte Powered USB Hub HYTE 4x USB 2.0 - USB-C 5V 4A Magnetic Powered USB Hub HYTE 4x USB 2.0 ACC-HYTE-USB-HUB",
-  "slug": "hyte-powered-usb-hub-hyte-4x-usb-2-0-usb-c-5v-4a-magnetic-powered-usb-hub-hyte-4x-usb-2-0-acc-hyte-u",
-  "image_url": "https://n1g.cl/Home/13902-home_default/hyte-powered-usb-hub-hyte-4x-usb-20-usb-c-5v-4a-magnetic-powered-usb-hub-hyte-4x-usb-20-acc-hyte-usb-hub.jpg",
+  "external_id": "centrale_disco-duro-8tb-hdd-seagate-barracuda-3-5-8243-5400rpm-256mb-cache-sata",
+  "category_id": "storage",
+  "brand": "Seagate",
+  "name": "Disco Duro 8TB HDD Seagate Barracuda 3.5&#8243;, 5400RPM, 256MB Cache, SATA",
+  "slug": "disco-duro-8tb-hdd-seagate-barracuda-3-5-8243-5400rpm-256mb-cache-sata",
+  "image_url": "https://centrale.cl/wp-content/uploads/Disco-Duro-8TB-HDD-Seagate-Barracuda-3.5-5400RPM-256MB-Cache-SATA_RVUkXs5.webp",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Transferencia / Efectivo": "$341.580",
+    "Tarjetas de Crédito / Débito": "$360.370"
+  },
   "tags": [],
-  "created_at": "2026-04-24 09:19:52",
-  "updated_at": "2026-04-24 09:20:23",
+  "created_at": "2026-04-24 20:16:37",
+  "updated_at": "2026-04-24 20:16:37",
   "prices": [
     {
       "id": 971,
       "product_id": 971,
-      "store_id": "n1g",
-      "price": 34900,
-      "price_normal": 36737,
-      "discount_pct": 5,
+      "store_id": "centrale",
+      "price": 341580,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3287-hyte-powered-usb-hub-hyte-4x-usb-20-usb-c-5v-4a-magnetic-powered-usb-hub-hyte-4x-usb-20-acc-hyte-usb-hub.html",
+      "product_url": "https://centrale.cl/producto/disco-duro-8tb-hdd-seagate-barracuda-3-5-5400rpm-256mb-cache-sata/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 09:20:23",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "scraped_at": "2026-04-24 20:16:37",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 34900
+      "price": 341580
     }
   ],
   "scraped_at": "2026-04-24"

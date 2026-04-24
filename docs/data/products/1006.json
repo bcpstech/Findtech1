@@ -1,42 +1,45 @@
 {
   "id": 1006,
-  "external_id": "n1g_rackeable-4u-para-server-atx-e-atx-rackmount-incluye-manillas",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "Rackeable 4U para server ATX, E-ATX Rackmount Incluye manillas",
-  "slug": "rackeable-4u-para-server-atx-e-atx-rackmount-incluye-manillas",
-  "image_url": "https://n1g.cl/Home/2056-home_default/gabinete-rackeable-4u-para-server-atx-e-atx-rackmount-incluye-rieles-y-manillas.jpg",
+  "external_id": "centrale_cartucho-de-datos-hpe-lto-6-ultrium-rw-6-25tb-1-4tb-h-cifrado-aes",
+  "category_id": "storage",
+  "brand": "Hpe",
+  "name": "Cartucho de datos Hpe LTO-6 Ultrium RW, 6,25TB, 1,4TB/h, cifrado AES",
+  "slug": "cartucho-de-datos-hpe-lto-6-ultrium-rw-6-25tb-1-4tb-h-cifrado-aes",
+  "image_url": "https://centrale.cl/wp-content/uploads/Hpe-Ultrium-Rw-Data-Cartridge-Lto-Ultrium-6-X-1-Soportes-De-Almacenamie_xU7Nhiw-1.webp",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Transferencia / Efectivo": "$52.480",
+    "Tarjetas de Crédito / Débito": "$55.370"
+  },
   "tags": [],
-  "created_at": "2026-04-24 09:19:52",
-  "updated_at": "2026-04-24 09:20:23",
+  "created_at": "2026-04-24 20:16:37",
+  "updated_at": "2026-04-24 20:16:37",
   "prices": [
     {
       "id": 1006,
       "product_id": 1006,
-      "store_id": "n1g",
-      "price": 129900,
-      "price_normal": 136737,
-      "discount_pct": 5,
+      "store_id": "centrale",
+      "price": 52480,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/544-gabinete-rackeable-4u-para-server-atx-e-atx-rackmount-incluye-rieles-y-manillas.html",
+      "product_url": "https://centrale.cl/producto/cartucho-de-datos-hpe-lto-6-ultrium-rw-625tb-14tb-h-cifrado-aes/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 09:20:23",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "scraped_at": "2026-04-24 20:16:37",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 129900
+      "price": 52480
     }
   ],
   "scraped_at": "2026-04-24"

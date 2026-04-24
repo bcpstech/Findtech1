@@ -1,45 +1,45 @@
 {
   "id": 18,
-  "external_id": "cg_procesador-amd-ryzen-5-5500",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 5 5500",
-  "slug": "procesador-amd-ryzen-5-5500",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/02/1_1740424577628.jpg?fit=1500%2C1500&ssl=1",
+  "external_id": "n1g_ezdiy-fab-kit-v2-all-white-extension-kit-6-cable-psu-300mm-16awg-300mm-24p-eps-8p-4-4p-2-pcie8p-6-2p",
+  "category_id": "gpu",
+  "brand": "Genérico",
+  "name": "EZDIY-FAB KIT V2 All White Extensión KIT 6 cable PSU 300mm 16AWG 300mm 24P/EPS 8P-4+4P*2/ PCIE8P-6+2P*3 EZDPI228-1",
+  "slug": "ezdiy-fab-kit-v2-all-white-extension-kit-6-cable-psu-300mm-16awg-300mm-24p-eps-8p-4-4p-2-pcie8p-6-2p",
+  "image_url": "https://n1g.cl/Home/14751-home_default/ezdiy-fab-kit-v2-all-white-extension-kit-6-cable-psu-300mm-16awg-300mm-24peps-8p-44p2-pcie8p-62p3-.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$104.494",
-    "Webpay / Tarjeta crédito-débito": "$109.990"
+    "Efectivo/Transferencia": "$29.900",
+    "Tarjeta crédito/débito": "$30.797"
   },
   "tags": [],
-  "created_at": "2026-04-24 19:22:57",
-  "updated_at": "2026-04-24 19:22:57",
+  "created_at": "2026-04-24 20:14:41",
+  "updated_at": "2026-04-24 20:14:41",
   "prices": [
     {
       "id": 18,
       "product_id": 18,
-      "store_id": "cg",
-      "price": 104494,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 29900,
+      "price_normal": 31474,
+      "discount_pct": 5,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-5500/",
+      "product_url": "https://n1g.cl/Home/computacion/3448-ezdiy-fab-kit-v2-all-white-extension-kit-6-cable-psu-300mm-16awg-300mm-24peps-8p-44p2-pcie8p-62p3-.html",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 19:22:57",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 20:14:41",
+      "store_name": "N1G",
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl",
+      "store_rating": 4.3,
+      "review_count": 1280
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "n1g",
+      "store_name": "N1G",
       "date": "2026-04-24",
-      "price": 104494
+      "price": 29900
     }
   ],
   "scraped_at": "2026-04-24"

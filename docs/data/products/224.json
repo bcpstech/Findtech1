@@ -1,45 +1,45 @@
 {
   "id": 224,
-  "external_id": "cg_pc-gamer-intel-i5-14600kf-rtx-5060-ti-32gb-ram-ddr5-1-tb-m-2-nvme",
-  "category_id": "periph",
-  "brand": "Intel",
-  "name": "PC GAMER INTEL I5 14600KF / RTX 5060 Ti / 32GB RAM DDR5 / 1 Tb M.2 Nvme",
-  "slug": "pc-gamer-intel-i5-14600kf-rtx-5060-ti-32gb-ram-ddr5-1-tb-m-2-nvme",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1773265485157.jpg?fit=600%2C600&ssl=1",
+  "external_id": "n1g_hiksemi-armor-16gb-ddr5-5600mt-white-cl40-hsc516u56e2-dimm",
+  "category_id": "ram",
+  "brand": "Genérico",
+  "name": "Hiksemi Armor 16GB DDR5 5600MT White CL40 HSC516U56E2 DIMM",
+  "slug": "hiksemi-armor-16gb-ddr5-5600mt-white-cl40-hsc516u56e2-dimm",
+  "image_url": "https://n1g.cl/Home/15135-home_default/hiksemi-armor-16gb-ddr5-5600mt-white-cl40-hsc516u56e2-dimm-.jpg",
   "description": null,
   "specs": {
-    "Precio efectivo/transferencia": "$1.929.990",
-    "Precio tarjeta crédito/débito": "$2.031.507"
+    "Efectivo/Transferencia": "$189.000",
+    "Tarjeta crédito/débito": "$194.670"
   },
   "tags": [],
-  "created_at": "2026-04-24 01:22:59",
-  "updated_at": "2026-04-24 01:22:59",
+  "created_at": "2026-04-24 20:15:05",
+  "updated_at": "2026-04-24 20:15:05",
   "prices": [
     {
       "id": 224,
       "product_id": 224,
-      "store_id": "cg",
-      "price": 1929990,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 189000,
+      "price_normal": 198947,
+      "discount_pct": 5,
       "currency": "CLP",
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/pc-medium/pc-gamer-intel-i5-14600kf-rtx-5060-ti-32gb-ram-ddr5-1-tb-m-2-pcie-4-0/",
+      "stock": "out_of_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3540-hiksemi-armor-16gb-ddr5-5600mt-white-cl40-hsc516u56e2-dimm-.html",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 01:22:59",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 20:15:05",
+      "store_name": "N1G",
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl",
+      "store_rating": 4.3,
+      "review_count": 1280
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "n1g",
+      "store_name": "N1G",
       "date": "2026-04-24",
-      "price": 1929990
+      "price": 189000
     }
   ],
   "scraped_at": "2026-04-24"

@@ -1,42 +1,45 @@
 {
   "id": 944,
-  "external_id": "n1g_adata-legend-710-2tb-pcie-gen3-x4-m-2-2280-ssd-2400mb-s-escritura-1800mb-s",
+  "external_id": "centrale_disco-duro-hdd-20tb-seagate-ironwolf-pro-nas-3-5-8243-sata-6gb-s-7200-rpm",
   "category_id": "storage",
-  "brand": "Genérico",
-  "name": "AData Legend 710 2TB PCIe Gen3 x4 M.2 2280 SSD 2400MB/s Escritura 1800MB/s",
-  "slug": "adata-legend-710-2tb-pcie-gen3-x4-m-2-2280-ssd-2400mb-s-escritura-1800mb-s",
-  "image_url": "https://n1g.cl/Home/14805-home_default/adata-legend-710-2tb-pcie-gen3-x4-m2-2280-ssd-2400mbs-escritura-1800mbs.jpg",
+  "brand": "Seagate",
+  "name": "Disco Duro HDD 20TB Seagate Ironwolf Pro NAS 3.5&#8243; SATA 6GB/s 7200 Rpm",
+  "slug": "disco-duro-hdd-20tb-seagate-ironwolf-pro-nas-3-5-8243-sata-6gb-s-7200-rpm",
+  "image_url": "https://centrale.cl/wp-content/uploads/Disco-Duro-HDD-20TB-Seagate-Ironwolf-Pro-NAS-3.5-SATA-6GB-s-7200-Rpm-1.webp",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Transferencia / Efectivo": "$946.520",
+    "Tarjetas de Crédito / Débito": "$998.580"
+  },
   "tags": [],
-  "created_at": "2026-04-24 09:19:36",
-  "updated_at": "2026-04-24 09:19:36",
+  "created_at": "2026-04-24 20:16:37",
+  "updated_at": "2026-04-24 20:16:37",
   "prices": [
     {
       "id": 944,
       "product_id": 944,
-      "store_id": "n1g",
-      "price": 189000,
-      "price_normal": 198947,
-      "discount_pct": 5,
+      "store_id": "centrale",
+      "price": 946520,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3460-adata-legend-710-2tb-pcie-gen3-x4-m2-2280-ssd-2400mbs-escritura-1800mbs.html",
+      "product_url": "https://centrale.cl/producto/disco-duro-hdd-20tb-seagate-ironwolf-pro-nas-3-5-sata-6gb-s-7200-rpm/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 09:19:36",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "scraped_at": "2026-04-24 20:16:37",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 189000
+      "price": 946520
     }
   ],
   "scraped_at": "2026-04-24"

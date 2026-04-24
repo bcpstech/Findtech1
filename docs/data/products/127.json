@@ -1,45 +1,45 @@
 {
   "id": 127,
-  "external_id": "cg_placa-madre-asrock-b450m-ac-r2-0",
-  "category_id": "mobo",
-  "brand": "ASRock",
-  "name": "Placa Madre ASRock B450M/ac R2.0",
-  "slug": "placa-madre-asrock-b450m-ac-r2-0",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/12/1_1766777624000.jpg?fit=1000%2C1000&ssl=1",
+  "external_id": "n1g_intel-core-ultra-9-285k-lga-1851-24-core-8p-16e-125w-bx80768285k",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Intel Core Ultra 9 285K LGA 1851 24-Core (8P+16E) 125W  BX80768285K",
+  "slug": "intel-core-ultra-9-285k-lga-1851-24-core-8p-16e-125w-bx80768285k",
+  "image_url": "https://n1g.cl/Home/15125-home_default/intel-core-ultra-9-285k-core-ultra-9-series-2-arrow-lake-24-core-8p16e-lga-1851-125w-bx80768285k.jpg",
   "description": null,
   "specs": {
-    "Precio efectivo/transferencia": "$94.990",
-    "Precio tarjeta crédito/débito": "$99.986"
+    "Efectivo/Transferencia": "$749.000",
+    "Tarjeta crédito/débito": "$771.470"
   },
   "tags": [],
-  "created_at": "2026-04-24 01:22:56",
-  "updated_at": "2026-04-24 01:22:56",
+  "created_at": "2026-04-24 20:14:52",
+  "updated_at": "2026-04-24 20:14:52",
   "prices": [
     {
       "id": 127,
       "product_id": 127,
-      "store_id": "cg",
-      "price": 94990,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 749000,
+      "price_normal": 788421,
+      "discount_pct": 5,
       "currency": "CLP",
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asrock-b450m-ac-r2-0/",
+      "stock": "out_of_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3536-intel-core-ultra-9-285k-core-ultra-9-series-2-arrow-lake-24-core-8p16e-lga-1851-125w-bx80768285k.html",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 01:22:56",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 20:14:52",
+      "store_name": "N1G",
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl",
+      "store_rating": 4.3,
+      "review_count": 1280
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "n1g",
+      "store_name": "N1G",
       "date": "2026-04-24",
-      "price": 94990
+      "price": 749000
     }
   ],
   "scraped_at": "2026-04-24"

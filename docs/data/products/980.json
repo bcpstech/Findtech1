@@ -1,42 +1,45 @@
 {
   "id": 980,
-  "external_id": "n1g_deepcool-ch260-black-micro-tower-black-mini-itx-micro-atx-micro-atx",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "DeepCool CH260 Black Micro Tower Black Mini-ITX / Micro-ATX/ Micro-ATX",
-  "slug": "deepcool-ch260-black-micro-tower-black-mini-itx-micro-atx-micro-atx",
-  "image_url": "https://n1g.cl/Home/15881-home_default/deepcool-ch260-wh-micro-tower-black-mini-itx-micro-atx-micro-atx-posterior-connector.jpg",
+  "external_id": "centrale_disco-duro-2-tb-western-digital-wd-blue-interno-3-5-8243-sata-6gb-s-7200rpm",
+  "category_id": "storage",
+  "brand": "Western Digital",
+  "name": "Disco Duro 2 TB Western Digital WD Blue Interno 3.5&#8243; SATA 6GB/s 7200rpm",
+  "slug": "disco-duro-2-tb-western-digital-wd-blue-interno-3-5-8243-sata-6gb-s-7200rpm",
+  "image_url": "https://centrale.cl/wp-content/uploads/Disco-Duro-2-TB-Western-Digital-WD-Blue-Interno-3.5-SATA-6GB-s-7200rpm_q0TsVsg-1.webp",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Transferencia / Efectivo": "$98.990",
+    "Tarjetas de Crédito / Débito": "$104.430"
+  },
   "tags": [],
-  "created_at": "2026-04-24 09:19:52",
-  "updated_at": "2026-04-24 09:20:23",
+  "created_at": "2026-04-24 20:16:37",
+  "updated_at": "2026-04-24 20:16:37",
   "prices": [
     {
       "id": 980,
       "product_id": 980,
-      "store_id": "n1g",
-      "price": 79900,
-      "price_normal": 84105,
-      "discount_pct": 5,
+      "store_id": "centrale",
+      "price": 98990,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3726-deepcool-ch260-wh-micro-tower-black-mini-itx-micro-atx-micro-atx-posterior-connector.html",
+      "product_url": "https://centrale.cl/producto/disco-duro-2-tb-western-digital-wd-blue-interno-3-5-sata-6gb-s-7200rpm/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 09:20:23",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "scraped_at": "2026-04-24 20:16:37",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 79900
+      "price": 98990
     }
   ],
   "scraped_at": "2026-04-24"

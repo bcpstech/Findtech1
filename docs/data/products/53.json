@@ -1,45 +1,45 @@
 {
   "id": 53,
-  "external_id": "cg_mouse-logitech-m196-bluetooth-grafito",
-  "category_id": "periph",
-  "brand": "Logitech",
-  "name": "Mouse Logitech M196 Bluetooth Grafito",
-  "slug": "mouse-logitech-m196-bluetooth-grafito",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1773683612320.jpg?fit=1000%2C1000&ssl=1",
+  "external_id": "n1g_zotac-rtx-5060-8gb-gddr7-twin-edge-oc-white-edition-pci-express-5-0-x8-graphics-zt-b50600q-10m",
+  "category_id": "gpu",
+  "brand": "Genérico",
+  "name": "ZOTAC RTX 5060 8GB GDDR7 Twin Edge OC White Edition PCI Express 5.0 x8 Graphics ZT-B50600Q-10M",
+  "slug": "zotac-rtx-5060-8gb-gddr7-twin-edge-oc-white-edition-pci-express-5-0-x8-graphics-zt-b50600q-10m",
+  "image_url": "https://n1g.cl/Home/16170-home_default/zotac-rtx-5060-8gb-gddr7-twin-edge-oc-white-edition-pci-express-50-x8-graphics-zt-b50600q-10m.jpg",
   "description": null,
   "specs": {
-    "Precio efectivo/transferencia": "$10.990",
-    "Precio tarjeta crédito/débito": "$11.568"
+    "Efectivo/Transferencia": "$399.000",
+    "Tarjeta crédito/débito": "$410.970"
   },
   "tags": [],
-  "created_at": "2026-04-24 01:22:51",
-  "updated_at": "2026-04-24 01:22:51",
+  "created_at": "2026-04-24 20:14:44",
+  "updated_at": "2026-04-24 20:14:44",
   "prices": [
     {
       "id": 53,
       "product_id": 53,
-      "store_id": "cg",
-      "price": 10990,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 399000,
+      "price_normal": 420000,
+      "discount_pct": 5,
       "currency": "CLP",
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/mouse-gamer/mouse-logitech-m196-bluetooth-grafito/",
+      "stock": "out_of_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3784-zotac-rtx-5060-8gb-gddr7-twin-edge-oc-white-edition-pci-express-50-x8-graphics-zt-b50600q-10m.html",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 01:22:51",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 20:14:44",
+      "store_name": "N1G",
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl",
+      "store_rating": 4.3,
+      "review_count": 1280
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "n1g",
+      "store_name": "N1G",
       "date": "2026-04-24",
-      "price": 10990
+      "price": 399000
     }
   ],
   "scraped_at": "2026-04-24"

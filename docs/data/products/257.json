@@ -1,45 +1,45 @@
 {
   "id": 257,
-  "external_id": "cg_pc-gamer-amd-ryzen-5-9600x-9070-xt-16gb-ram-ddr5-1-tb-ssd-m-2",
-  "category_id": "periph",
-  "brand": "AMD",
-  "name": "PC GAMER AMD RYZEN 5 9600X / 9070 XT / 16GB RAM DDR5 / 1 Tb SSD M.2",
-  "slug": "pc-gamer-amd-ryzen-5-9600x-9070-xt-16gb-ram-ddr5-1-tb-ssd-m-2",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1774042621775.jpg?fit=600%2C600&ssl=1",
+  "external_id": "n1g_airflow-perfect-plus-ssd-512gb-cache-nvme-pcie-gen3x4-3d-nand1-3-m-2-2280-3200mb-s-oem",
+  "category_id": "storage",
+  "brand": "Genérico",
+  "name": "Airflow Perfect PLUS SSD 512GB + Cache NVMe PCIe Gen3x4 3D NAND1.3 M.2 2280 3200MB/s OEM",
+  "slug": "airflow-perfect-plus-ssd-512gb-cache-nvme-pcie-gen3x4-3d-nand1-3-m-2-2280-3200mb-s-oem",
+  "image_url": "https://n1g.cl/Home/13165-home_default/airflow-perfect-plus-ssd-512gb-cache-nvme-pcie-gen3x4-3d-nand13-m2-2280-2500mbs-oem.jpg",
   "description": null,
   "specs": {
-    "Precio efectivo/transferencia": "$1.799.990",
-    "Precio tarjeta crédito/débito": "$1.894.669"
+    "Efectivo/Transferencia": "$79.900",
+    "Tarjeta crédito/débito": "$82.297"
   },
   "tags": [],
-  "created_at": "2026-04-24 01:22:59",
-  "updated_at": "2026-04-24 01:22:59",
+  "created_at": "2026-04-24 20:15:11",
+  "updated_at": "2026-04-24 20:15:11",
   "prices": [
     {
       "id": 257,
       "product_id": 257,
-      "store_id": "cg",
-      "price": 1799990,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 79900,
+      "price_normal": 84105,
+      "discount_pct": 5,
       "currency": "CLP",
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/pc-medium/pc-gamer-amd-ryzen-5-9600x-9070-xt-64gb-ram-ddr5-1-tb-nvme/",
+      "stock": "out_of_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3111-airflow-perfect-plus-ssd-512gb-cache-nvme-pcie-gen3x4-3d-nand13-m2-2280-2500mbs-oem.html",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 01:22:59",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 20:15:11",
+      "store_name": "N1G",
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl",
+      "store_rating": 4.3,
+      "review_count": 1280
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "n1g",
+      "store_name": "N1G",
       "date": "2026-04-24",
-      "price": 1799990
+      "price": 79900
     }
   ],
   "scraped_at": "2026-04-24"

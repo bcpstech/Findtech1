@@ -1,42 +1,45 @@
 {
   "id": 964,
-  "external_id": "n1g_lian-li-o11d-evo-front-mesh-kit-white-g89-o11de-4w-00-o11de-4w",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "LIAN LI O11D EVO Front Mesh Kit WHITE G89.O11DE-4W.00  O11DE-4W",
-  "slug": "lian-li-o11d-evo-front-mesh-kit-white-g89-o11de-4w-00-o11de-4w",
-  "image_url": "https://n1g.cl/Home/9641-home_default/lian-li-o11d-evo-front-mesh-kit-white-g89o11de-4w00-o11de-4w.jpg",
+  "external_id": "centrale_hdd-nas-wd-red-2tb-5400rpm-3-5-8243-sata-6gb-s-64mb-bufer",
+  "category_id": "storage",
+  "brand": "Western Digital",
+  "name": "HDD NAS WD Red 2TB, 5400RPM, 3.5&#8243; SATA 6Gb/s, 64MB Búfer",
+  "slug": "hdd-nas-wd-red-2tb-5400rpm-3-5-8243-sata-6gb-s-64mb-bufer",
+  "image_url": "https://centrale.cl/wp-content/uploads/Western-Digital-Wd-Red-Disco-Duro-2-Tb-Interno-3.5-Sata-6Gb-S-5400-Rpm-_r7LW6Fx-1.webp",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Transferencia / Efectivo": "$119.570",
+    "Tarjetas de Crédito / Débito": "$126.150"
+  },
   "tags": [],
-  "created_at": "2026-04-24 09:19:52",
-  "updated_at": "2026-04-24 09:20:23",
+  "created_at": "2026-04-24 20:16:37",
+  "updated_at": "2026-04-24 20:16:37",
   "prices": [
     {
       "id": 964,
       "product_id": 964,
-      "store_id": "n1g",
-      "price": 19900,
-      "price_normal": 20947,
-      "discount_pct": 5,
+      "store_id": "centrale",
+      "price": 119570,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2396-lian-li-o11d-evo-front-mesh-kit-white-g89o11de-4w00-o11de-4w.html",
+      "product_url": "https://centrale.cl/producto/hdd-nas-wd-red-2tb-5400rpm-3-5-sata-6gb-s-64mb-bufer/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 09:20:23",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "scraped_at": "2026-04-24 20:16:37",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 19900
+      "price": 119570
     }
   ],
   "scraped_at": "2026-04-24"

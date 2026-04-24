@@ -1,42 +1,45 @@
 {
   "id": 940,
-  "external_id": "n1g_ssd-adata-1tb-legend-710-gen3-x4-m-2-nvme-2280-aleg-710-1tcs",
+  "external_id": "centrale_ssd-wd-green-sn3000-500gb-nvme-pcie-gen4-m-2-2280",
   "category_id": "storage",
-  "brand": "Genérico",
-  "name": "SSD ADATA 1TB LEGEND 710 GEN3 X4 M.2 NVME 2280 ALEG-710-1TCS",
-  "slug": "ssd-adata-1tb-legend-710-gen3-x4-m-2-nvme-2280-aleg-710-1tcs",
-  "image_url": "https://n1g.cl/Home/10466-home_default/ssd-adata-1tb-legend-710-gen3-x4-m2-nvme-2280-aleg-710-1tcs.jpg",
+  "brand": "SanDisk",
+  "name": "SSD WD Green SN3000 500GB NVMe PCIe Gen4 M.2 2280",
+  "slug": "ssd-wd-green-sn3000-500gb-nvme-pcie-gen4-m-2-2280",
+  "image_url": "https://centrale.cl/wp-content/uploads/Sandisk-Western-Digital-Wd-Verde-Sn3000-Disco-Duro-Interno-500-Gb-M.2-Solid-Sta.webp",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Transferencia / Efectivo": "$114.110",
+    "Tarjetas de Crédito / Débito": "$120.390"
+  },
   "tags": [],
-  "created_at": "2026-04-24 09:19:36",
-  "updated_at": "2026-04-24 09:19:36",
+  "created_at": "2026-04-24 20:16:37",
+  "updated_at": "2026-04-24 20:16:37",
   "prices": [
     {
       "id": 940,
       "product_id": 940,
-      "store_id": "n1g",
-      "price": 119000,
-      "price_normal": 125263,
-      "discount_pct": 5,
+      "store_id": "centrale",
+      "price": 114110,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2651-ssd-adata-1tb-legend-710-gen3-x4-m2-nvme-2280-aleg-710-1tcs.html",
+      "product_url": "https://centrale.cl/producto/ssd-wd-green-sn3000-500gb-nvme-pcie-gen4-m-2-2280/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 09:19:36",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "scraped_at": "2026-04-24 20:16:37",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 119000
+      "price": 114110
     }
   ],
   "scraped_at": "2026-04-24"

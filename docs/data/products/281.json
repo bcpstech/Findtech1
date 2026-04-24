@@ -1,45 +1,45 @@
 {
   "id": 281,
-  "external_id": "cg_procesador-intel-core-ultra-7-265k",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core Ultra 7 265K",
-  "slug": "procesador-intel-core-ultra-7-265k",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/03/1_1741895884961.jpg?fit=1500%2C1500&ssl=1",
+  "external_id": "n1g_toshiba-n300-12tb-nas-disco-duro-3-5-cmr-sata-6-gb-s-7200-rpm-512-mb-cache-hdwg51cuzsva",
+  "category_id": "storage",
+  "brand": "Genérico",
+  "name": "Toshiba N300 12TB NAS Disco Duro 3.5\" CMR SATA 6 Gb/s 7200 RPM 512 MB Cache HDWG51CUZSVA",
+  "slug": "toshiba-n300-12tb-nas-disco-duro-3-5-cmr-sata-6-gb-s-7200-rpm-512-mb-cache-hdwg51cuzsva",
+  "image_url": "https://n1g.cl/Home/15361-home_default/toshiba-n300-12tb-nas-disco-duro-35-cmr-sata-6-gbs-7200-rpm-512-mb-cache-hdwg51cuzsva.jpg",
   "description": null,
   "specs": {
-    "Precio efectivo/transferencia": "$393.742",
-    "Precio tarjeta crédito/débito": "$414.453"
+    "Efectivo/Transferencia": "$319.000",
+    "Tarjeta crédito/débito": "$328.570"
   },
   "tags": [],
-  "created_at": "2026-04-24 01:22:59",
-  "updated_at": "2026-04-24 01:22:59",
+  "created_at": "2026-04-24 20:15:11",
+  "updated_at": "2026-04-24 20:15:11",
   "prices": [
     {
       "id": 281,
       "product_id": 281,
-      "store_id": "cg",
-      "price": 393742,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 319000,
+      "price_normal": 335789,
+      "discount_pct": 5,
       "currency": "CLP",
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-7-265k-3-9-ghz-20-core-lga1851/",
+      "stock": "out_of_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3601-toshiba-n300-12tb-nas-disco-duro-35-cmr-sata-6-gbs-7200-rpm-512-mb-cache-hdwg51cuzsva.html",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 01:22:59",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 20:15:11",
+      "store_name": "N1G",
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl",
+      "store_rating": 4.3,
+      "review_count": 1280
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "n1g",
+      "store_name": "N1G",
       "date": "2026-04-24",
-      "price": 393742
+      "price": 319000
     }
   ],
   "scraped_at": "2026-04-24"

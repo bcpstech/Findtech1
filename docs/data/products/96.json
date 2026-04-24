@@ -1,45 +1,45 @@
 {
   "id": 96,
-  "external_id": "cg_pc-gamer-intel-i5-14400-rtx-5060-16gb-ram-1tb-ssd-m-2",
-  "category_id": "periph",
-  "brand": "Intel",
-  "name": "PC GAMER INTEL I5 14400 / RTX 5060 / 16GB RAM / 1TB SSD M.2",
-  "slug": "pc-gamer-intel-i5-14400-rtx-5060-16gb-ram-1tb-ssd-m-2",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1773860790372.jpg?fit=600%2C600&ssl=1",
+  "external_id": "n1g_amd-ryzen-5-8600g-socket-am5-6-core-12-hilos-4-3-ghz-65w-amd-radeon-760m-100-100001237box",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD Ryzen 5 8600G Socket AM5, 6 Core 12 Hilos 4.3 GHz  65W AMD Radeon 760M 100-100001237BOX",
+  "slug": "amd-ryzen-5-8600g-socket-am5-6-core-12-hilos-4-3-ghz-65w-amd-radeon-760m-100-100001237box",
+  "image_url": "https://n1g.cl/Home/10379-home_default/amd-ryzen-5-8600g-socket-am5-6-core-12-hilos-43-ghz-65w-amd-radeon-760m-100-100001237box.jpg",
   "description": null,
   "specs": {
-    "Precio efectivo/transferencia": "$1.169.990",
-    "Precio tarjeta crédito/débito": "$1.231.531"
+    "Efectivo/Transferencia": "$198.500",
+    "Tarjeta crédito/débito": "$204.455"
   },
   "tags": [],
-  "created_at": "2026-04-24 01:22:51",
-  "updated_at": "2026-04-24 01:22:51",
+  "created_at": "2026-04-24 20:14:49",
+  "updated_at": "2026-04-24 20:14:49",
   "prices": [
     {
       "id": 96,
       "product_id": 96,
-      "store_id": "cg",
-      "price": 1169990,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 198500,
+      "price_normal": 208947,
+      "discount_pct": 5,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/pc-starter/pc-gamer-intel-i5-14400-rtx-5060-16gb-ram-1tb-ssd-m-2/",
+      "product_url": "https://n1g.cl/Home/computacion/2620-amd-ryzen-5-8600g-socket-am5-6-core-12-hilos-43-ghz-65w-amd-radeon-760m-100-100001237box.html",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 01:22:51",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 20:14:49",
+      "store_name": "N1G",
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl",
+      "store_rating": 4.3,
+      "review_count": 1280
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "n1g",
+      "store_name": "N1G",
       "date": "2026-04-24",
-      "price": 1169990
+      "price": 198500
     }
   ],
   "scraped_at": "2026-04-24"

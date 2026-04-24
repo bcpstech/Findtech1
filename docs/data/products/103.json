@@ -1,45 +1,45 @@
 {
   "id": 103,
-  "external_id": "cg_gabinete-slim-esgaming-j01-matx",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "Gabinete Slim Esgaming J01 MATX",
-  "slug": "gabinete-slim-esgaming-j01-matx",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/01/1_1767970318019.jpg?fit=1000%2C1000&ssl=1",
+  "external_id": "n1g_amd-ryzen-5-9600-am5-3-8ghz-6core-12hilos-tdp-65w-am5-incluye-disipador",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD Ryzen 5 9600 AM5 3.8GHz 6Core/12hilos (TDP 65W) (AM5) Incluye disipador",
+  "slug": "amd-ryzen-5-9600-am5-3-8ghz-6core-12hilos-tdp-65w-am5-incluye-disipador",
+  "image_url": "https://n1g.cl/Home/14511-home_default/amd-ryzen-5-9600-am5-38ghz-6core12hilos-tdp-65w-am5-incluye-disipador.jpg",
   "description": null,
   "specs": {
-    "Precio efectivo/transferencia": "$46.990",
-    "Precio tarjeta crédito/débito": "$49.462"
+    "Efectivo/Transferencia": "$258.500",
+    "Tarjeta crédito/débito": "$266.255"
   },
   "tags": [],
-  "created_at": "2026-04-24 01:22:56",
-  "updated_at": "2026-04-24 01:22:56",
+  "created_at": "2026-04-24 20:14:49",
+  "updated_at": "2026-04-24 20:14:49",
   "prices": [
     {
       "id": 103,
       "product_id": 103,
-      "store_id": "cg",
-      "price": 46990,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 258500,
+      "price_normal": 272105,
+      "discount_pct": 5,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/gabinetes-gamer/gabinete-slim-j01-matx-itx-650w-usb-c-usb-2-0-usb-3-0-negro/",
+      "product_url": "https://n1g.cl/Home/computacion/3403-amd-ryzen-5-9600-am5-38ghz-6core12hilos-tdp-65w-am5-incluye-disipador.html",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 01:22:56",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 20:14:49",
+      "store_name": "N1G",
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl",
+      "store_rating": 4.3,
+      "review_count": 1280
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "n1g",
+      "store_name": "N1G",
       "date": "2026-04-24",
-      "price": 46990
+      "price": 258500
     }
   ],
   "scraped_at": "2026-04-24"

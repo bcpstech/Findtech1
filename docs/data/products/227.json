@@ -1,45 +1,45 @@
 {
   "id": 227,
-  "external_id": "cg_pc-gamer-amd-ryzen-5-5500-rx-7600-16gb-ram-3200-mhz-1tb-ssd-m-2",
-  "category_id": "periph",
-  "brand": "AMD",
-  "name": "PC GAMER AMD RYZEN 5 5500 / RX 7600 / 16GB RAM 3200 Mhz / 1TB SSD M.2",
-  "slug": "pc-gamer-amd-ryzen-5-5500-rx-7600-16gb-ram-3200-mhz-1tb-ssd-m-2",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1773860217649.jpg?fit=600%2C600&ssl=1",
+  "external_id": "n1g_samsung-ddr5-32-gb-so-dimm-4800-mhz-pc5-38400-cl40-1-1-v",
+  "category_id": "ram",
+  "brand": "Samsung",
+  "name": "Samsung DDR5 32 GB SO-DIMM 4800 MHz / PC5-38400 CL40 1.1 V",
+  "slug": "samsung-ddr5-32-gb-so-dimm-4800-mhz-pc5-38400-cl40-1-1-v",
+  "image_url": "https://n1g.cl/Home/8395-home_default/samsung-ddr5-32-gb-so-dimm-4800-mhz-pc5-38400-cl40-11-v.jpg",
   "description": null,
   "specs": {
-    "Precio efectivo/transferencia": "$899.990",
-    "Precio tarjeta crédito/débito": "$947.329"
+    "Efectivo/Transferencia": "$219.000",
+    "Tarjeta crédito/débito": "$225.570"
   },
   "tags": [],
-  "created_at": "2026-04-24 01:22:59",
-  "updated_at": "2026-04-24 01:22:59",
+  "created_at": "2026-04-24 20:15:05",
+  "updated_at": "2026-04-24 20:15:05",
   "prices": [
     {
       "id": 227,
       "product_id": 227,
-      "store_id": "cg",
-      "price": 899990,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 219000,
+      "price_normal": 230526,
+      "discount_pct": 5,
       "currency": "CLP",
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/pc-starter/pc-gamer-amd-ryzen-5-5500-rx-7600-16gb-ram-3200-mhz-1tb-nvme-4-0/",
+      "stock": "out_of_stock",
+      "product_url": "https://n1g.cl/Home/computacion/2033-samsung-ddr5-32-gb-so-dimm-4800-mhz-pc5-38400-cl40-11-v.html",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 01:22:59",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 20:15:05",
+      "store_name": "N1G",
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl",
+      "store_rating": 4.3,
+      "review_count": 1280
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "n1g",
+      "store_name": "N1G",
       "date": "2026-04-24",
-      "price": 899990
+      "price": 219000
     }
   ],
   "scraped_at": "2026-04-24"

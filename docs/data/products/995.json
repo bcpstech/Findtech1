@@ -1,42 +1,45 @@
 {
   "id": 995,
-  "external_id": "n1g_thermaltake-core-v1-snow-edition-extreme-case-mini-itx-cube-compatible-air-y-liquid-cooling-gabinete",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "Thermaltake Core V1 Snow Edition Extreme Case Mini ITX Cube Compatible Air y Liquid Cooling Gabinete",
-  "slug": "thermaltake-core-v1-snow-edition-extreme-case-mini-itx-cube-compatible-air-y-liquid-cooling-gabinete",
-  "image_url": "https://n1g.cl/Home/4219-home_default/thermaltake-core-v1-snow-edition-extreme-case-mini-itx-cube-compatible-air-y-liquid-cooling-gabinete.jpg",
+  "external_id": "centrale_disco-ssd-256gb-kingston-kc600-2-5-sata3-auto-encript",
+  "category_id": "storage",
+  "brand": "Kingston",
+  "name": "Disco SSD 256GB Kingston KC600 2.5″ SATA3 Auto Encript",
+  "slug": "disco-ssd-256gb-kingston-kc600-2-5-sata3-auto-encript",
+  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-256GB-Kingston-KC600-2.5-SATA3-Auto-Encript_NsekFby-1.webp",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Transferencia / Efectivo": "$111.880",
+    "Tarjetas de Crédito / Débito": "$118.030"
+  },
   "tags": [],
-  "created_at": "2026-04-24 09:19:52",
-  "updated_at": "2026-04-24 09:20:23",
+  "created_at": "2026-04-24 20:16:37",
+  "updated_at": "2026-04-24 20:16:37",
   "prices": [
     {
       "id": 995,
       "product_id": 995,
-      "store_id": "n1g",
-      "price": 89000,
-      "price_normal": 93684,
-      "discount_pct": 5,
+      "store_id": "centrale",
+      "price": 111880,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/1008-thermaltake-core-v1-snow-edition-extreme-case-mini-itx-cube-compatible-air-y-liquid-cooling-gabinete.html",
+      "product_url": "https://centrale.cl/producto/disco-ssd-256gb-kingston-kc600-2-5%e2%80%b3-sata3-auto-encript/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 09:20:23",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "scraped_at": "2026-04-24 20:16:37",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 89000
+      "price": 111880
     }
   ],
   "scraped_at": "2026-04-24"

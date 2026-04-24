@@ -1,42 +1,45 @@
 {
   "id": 1008,
-  "external_id": "n1g_lian-li-o11d-mini-v2-flow-black-case-atx-incluye-5x-fan-reverso",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "LIAN LI O11D MINI V2 Flow BLACK Case ATX Incluye 5x Fan Reverso",
-  "slug": "lian-li-o11d-mini-v2-flow-black-case-atx-incluye-5x-fan-reverso",
-  "image_url": "https://n1g.cl/Home/15001-home_default/lian-li-o11d-mini-v2-flow-black-case-atx-incluye-5x-fan-reverso.jpg",
+  "external_id": "centrale_disco-ssd-2tb-kingston-fury-renegade-pcie-4-0-nvme-con-disipador-ps5-compatible",
+  "category_id": "storage",
+  "brand": "Kingston",
+  "name": "Disco SSD 2TB Kingston Fury Renegade PCIe 4.0 NVMe con Disipador PS5 Compatible",
+  "slug": "disco-ssd-2tb-kingston-fury-renegade-pcie-4-0-nvme-con-disipador-ps5-compatible",
+  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-2TB-Kingston-Fury-Renegade-PCIe-4.0-NVMe-con-Disipador-PS5-Co_uk45wPn.webp",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Transferencia / Efectivo": "$400.730",
+    "Tarjetas de Crédito / Débito": "$422.770"
+  },
   "tags": [],
-  "created_at": "2026-04-24 09:19:52",
-  "updated_at": "2026-04-24 09:20:23",
+  "created_at": "2026-04-24 20:16:37",
+  "updated_at": "2026-04-24 20:16:37",
   "prices": [
     {
       "id": 1008,
       "product_id": 1008,
-      "store_id": "n1g",
-      "price": 149900,
-      "price_normal": 157789,
-      "discount_pct": 5,
+      "store_id": "centrale",
+      "price": 400730,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3512-lian-li-o11d-mini-v2-flow-black-case-atx-incluye-5x-fan-reverso.html",
+      "product_url": "https://centrale.cl/producto/disco-ssd-2tb-kingston-fury-renegade-pcie-4-0-nvme-con-disipador-ps5-compatible/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 09:20:23",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "scraped_at": "2026-04-24 20:16:37",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 149900
+      "price": 400730
     }
   ],
   "scraped_at": "2026-04-24"

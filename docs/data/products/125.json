@@ -1,45 +1,45 @@
 {
   "id": 125,
-  "external_id": "cg_memoria-ram-adata-8gb-ddr5-5600mt-s-cl45",
-  "category_id": "ram",
-  "brand": "Genérico",
-  "name": "Memoria Ram ADATA 8GB DDR5 5600MT/S CL45",
-  "slug": "memoria-ram-adata-8gb-ddr5-5600mt-s-cl45",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/12/1_1766850779452.png?fit=800%2C800&ssl=1",
+  "external_id": "n1g_amd-ryzen-9-9900x3d-12-core-4-4-ghz-zen-5-socket-am5-120w-100-100001368wof",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD Ryzen 9 9900X3D 12-Core 4.4 GHz Zen 5 Socket AM5 120W - 100-100001368WOF",
+  "slug": "amd-ryzen-9-9900x3d-12-core-4-4-ghz-zen-5-socket-am5-120w-100-100001368wof",
+  "image_url": "https://n1g.cl/Home/13355-home_default/amd-ryzen-9-9900x-3d-socket-am5-12c24t-44ghz-hasta-55-ghz-zen-5-tdp-120w-100-100001368wof.jpg",
   "description": null,
   "specs": {
-    "Precio efectivo/transferencia": "$104.990",
-    "Precio tarjeta crédito/débito": "$110.512"
+    "Efectivo/Transferencia": "$689.000",
+    "Tarjeta crédito/débito": "$709.670"
   },
   "tags": [],
-  "created_at": "2026-04-24 01:22:56",
-  "updated_at": "2026-04-24 01:22:56",
+  "created_at": "2026-04-24 20:14:49",
+  "updated_at": "2026-04-24 20:14:49",
   "prices": [
     {
       "id": 125,
       "product_id": 125,
-      "store_id": "cg",
-      "price": 104990,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 689000,
+      "price_normal": 725263,
+      "discount_pct": 5,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-adata-8gb-ddr5-5600mt-s-cl45/",
+      "product_url": "https://n1g.cl/Home/computacion/3165-amd-ryzen-9-9900x-3d-socket-am5-12c24t-44ghz-hasta-55-ghz-zen-5-tdp-120w-100-100001368wof.html",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 01:22:56",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 20:14:49",
+      "store_name": "N1G",
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl",
+      "store_rating": 4.3,
+      "review_count": 1280
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "n1g",
+      "store_name": "N1G",
       "date": "2026-04-24",
-      "price": 104990
+      "price": 689000
     }
   ],
   "scraped_at": "2026-04-24"

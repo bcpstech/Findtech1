@@ -1,45 +1,45 @@
 {
   "id": 39,
-  "external_id": "cg_placa-madre-asus-prime-a620m-k-ddr5",
-  "category_id": "mobo",
-  "brand": "ASUS",
-  "name": "Placa Madre ASUS Prime A620M-K DDR5",
-  "slug": "placa-madre-asus-prime-a620m-k-ddr5",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/05/1_1742230416000.jpg?fit=1500%2C1500&ssl=1",
+  "external_id": "n1g_msi-gt-1030-4gb-lp-gddr4-pci-express-3-0-x16-uses-x4-atx-low-profile-oc-912-v812-001",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "MSI GT 1030 4GB LP GDDR4 PCI Express 3.0 x16 (uses x4) ATX  Low Profile OC 912-V812-001",
+  "slug": "msi-gt-1030-4gb-lp-gddr4-pci-express-3-0-x16-uses-x4-atx-low-profile-oc-912-v812-001",
+  "image_url": "https://n1g.cl/Home/15693-home_default/msi-gt-1030-4gb-lp-gddr4-pci-express-30-x16-uses-x4-atx-low-profile-oc.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$93.093",
-    "Webpay / Tarjeta crédito-débito": "$97.990"
+    "Efectivo/Transferencia": "$129.900",
+    "Tarjeta crédito/débito": "$133.797"
   },
   "tags": [],
-  "created_at": "2026-04-24 19:23:00",
-  "updated_at": "2026-04-24 19:23:00",
+  "created_at": "2026-04-24 20:14:41",
+  "updated_at": "2026-04-24 20:14:41",
   "prices": [
     {
       "id": 39,
       "product_id": 39,
-      "store_id": "cg",
-      "price": 93093,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 129900,
+      "price_normal": 136737,
+      "discount_pct": 5,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-a620m-k-ddr5/",
+      "product_url": "https://n1g.cl/Home/computacion/3680-msi-gt-1030-4gb-lp-gddr4-pci-express-30-x16-uses-x4-atx-low-profile-oc.html",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 19:23:00",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 20:14:41",
+      "store_name": "N1G",
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl",
+      "store_rating": 4.3,
+      "review_count": 1280
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "n1g",
+      "store_name": "N1G",
       "date": "2026-04-24",
-      "price": 93093
+      "price": 129900
     }
   ],
   "scraped_at": "2026-04-24"
