@@ -1,29 +1,32 @@
 {
   "id": 2,
-  "external_id": "cg_tarjeta-de-video-gigabyte-rx-9060xt-oc-ice-16g",
-  "category_id": "gpu",
-  "brand": "Gigabyte",
-  "name": "Tarjeta de Video Gigabyte RX 9060XT OC Ice 16G",
-  "slug": "tarjeta-de-video-gigabyte-rx-9060xt-oc-ice-16g",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/02/1_1771451661932.jpg?fit=1000%2C1000&ssl=1",
+  "external_id": "cg_silla-gamer-cougar-defensor-f",
+  "category_id": "periph",
+  "brand": "Genérico",
+  "name": "Silla Gamer Cougar Defensor F",
+  "slug": "silla-gamer-cougar-defensor-f",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/04/1_1776806674741.png?fit=1200%2C1200&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Precio efectivo/transferencia": "$249.990",
+    "Precio tarjeta crédito/débito": "$263.139"
+  },
   "tags": [],
-  "created_at": "2026-04-24 00:58:57",
-  "updated_at": "2026-04-24 00:58:57",
+  "created_at": "2026-04-24 01:22:51",
+  "updated_at": "2026-04-24 01:22:51",
   "prices": [
     {
       "id": 2,
       "product_id": 2,
       "store_id": "cg",
-      "price": 579990,
+      "price": 249990,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/tarjetas-de-video/tarjeta-de-video-gigabyte-rx-9060xt-oc-ice-16g/",
+      "product_url": "https://centralgamer.cl/sillas-gamer/silla-gamer-cougar-defensor-f/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 00:58:57",
+      "scraped_at": "2026-04-24 01:22:51",
       "store_name": "CentralGamer",
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl",
@@ -36,7 +39,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 579990
+      "price": 249990
     }
   ],
   "scraped_at": "2026-04-24"

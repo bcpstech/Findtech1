@@ -1,29 +1,32 @@
 {
   "id": 34,
-  "external_id": "cg_memoria-ram-kingston-fury-beast-16gb-5600mhz-ddr5-cl36",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria Ram Kingston Fury Beast 16GB 5600Mhz DDR5 CL36",
-  "slug": "memoria-ram-kingston-fury-beast-16gb-5600mhz-ddr5-cl36",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/02/1_1769712127000.jpg?fit=1000%2C1000&ssl=1",
+  "external_id": "cg_teclado-mecanico-fantech-mk921-maxfit8-op-luffy-8211-switch-white",
+  "category_id": "periph",
+  "brand": "Genérico",
+  "name": "Teclado Mecánico Fantech MK921 MAXFIT8  OP LUFFY  &#8211; Switch White",
+  "slug": "teclado-mecanico-fantech-mk921-maxfit8-op-luffy-8211-switch-white",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1774452273485.jpg?fit=1000%2C1000&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Precio efectivo/transferencia": "$85.990",
+    "Precio tarjeta crédito/débito": "$90.513"
+  },
   "tags": [],
-  "created_at": "2026-04-24 00:59:03",
-  "updated_at": "2026-04-24 00:59:03",
+  "created_at": "2026-04-24 01:22:51",
+  "updated_at": "2026-04-24 01:22:51",
   "prices": [
     {
       "id": 34,
       "product_id": 34,
       "store_id": "cg",
-      "price": 255908,
+      "price": 85990,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/memorias-ram/memoria-16gb-5600mt-s-ddr5-cl36-dimm-fury-beast-bl/",
+      "product_url": "https://centralgamer.cl/teclado-gamer/teclado-mecanico-fantech-mk921-maxfit8-op-luffy-switch-white/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 00:59:03",
+      "scraped_at": "2026-04-24 01:22:51",
       "store_name": "CentralGamer",
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl",
@@ -36,7 +39,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 255908
+      "price": 85990
     }
   ],
   "scraped_at": "2026-04-24"

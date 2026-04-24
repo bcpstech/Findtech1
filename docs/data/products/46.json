@@ -1,29 +1,32 @@
 {
   "id": 46,
-  "external_id": "cg_pasta-termica-cooler-master-cryofuze-5-3gr",
-  "category_id": "cooling",
-  "brand": "Cooler Master",
-  "name": "Pasta Térmica Cooler Master CryoFuze 5 3Gr",
-  "slug": "pasta-termica-cooler-master-cryofuze-5-3gr",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/04/1_1776461292631.jpg?fit=300%2C300&ssl=1",
+  "external_id": "cg_teclado-logitech-k270-inalambrico-espanol",
+  "category_id": "periph",
+  "brand": "Logitech",
+  "name": "Teclado Logitech K270 Inalámbrico Español",
+  "slug": "teclado-logitech-k270-inalambrico-espanol",
+  "image_url": null,
   "description": null,
-  "specs": null,
+  "specs": {
+    "Precio efectivo/transferencia": "$18.990",
+    "Precio tarjeta crédito/débito": "$19.989"
+  },
   "tags": [],
-  "created_at": "2026-04-24 00:59:11",
-  "updated_at": "2026-04-24 00:59:11",
+  "created_at": "2026-04-24 01:22:51",
+  "updated_at": "2026-04-24 01:22:51",
   "prices": [
     {
       "id": 46,
       "product_id": 46,
       "store_id": "cg",
-      "price": 9990,
+      "price": 18990,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/refrigeracion-pc/pasta-termica-cooler-master-cryofuze-5-3gr/",
+      "product_url": "https://centralgamer.cl/teclado-gamer/teclado-logitech-k270-inalambrico-espanol/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 00:59:11",
+      "scraped_at": "2026-04-24 01:22:51",
       "store_name": "CentralGamer",
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl",
@@ -36,7 +39,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 9990
+      "price": 18990
     }
   ],
   "scraped_at": "2026-04-24"

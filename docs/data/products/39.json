@@ -1,29 +1,32 @@
 {
   "id": 39,
-  "external_id": "cg_disco-ssd-kingston-kc3000-4tb-m-2-nvme-pcie-7000-7000mb-s",
-  "category_id": "storage",
-  "brand": "Kingston",
-  "name": "Disco SSD Kingston KC3000 4TB M.2 NVMe PCIe 7000/7000mb/s",
-  "slug": "disco-ssd-kingston-kc3000-4tb-m-2-nvme-pcie-7000-7000mb-s",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/06/1_1747258266000.jpg?fit=512%2C512&ssl=1",
+  "external_id": "cg_gabinete-gamer-esgaming-aircraft-007-series",
+  "category_id": "case",
+  "brand": "Genérico",
+  "name": "Gabinete Gamer Esgaming Aircraft 007 Series",
+  "slug": "gabinete-gamer-esgaming-aircraft-007-series",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1773341040564.jpg?fit=1000%2C1000&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Precio efectivo/transferencia": "$209.990",
+    "Precio tarjeta crédito/débito": "$221.035"
+  },
   "tags": [],
-  "created_at": "2026-04-24 00:59:07",
-  "updated_at": "2026-04-24 00:59:07",
+  "created_at": "2026-04-24 01:22:51",
+  "updated_at": "2026-04-24 01:22:51",
   "prices": [
     {
       "id": 39,
       "product_id": 39,
       "store_id": "cg",
-      "price": 643581,
+      "price": 209990,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/almacenamiento/disco-ssd-kingston-kc3000-4tb-m-2-nvme-pcie-7000-7000mb-s/",
+      "product_url": "https://centralgamer.cl/gabinetes-gamer/gabinete-gamer-esgaming-aircraft-007-series/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 00:59:07",
+      "scraped_at": "2026-04-24 01:22:51",
       "store_name": "CentralGamer",
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl",
@@ -36,7 +39,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 643581
+      "price": 209990
     }
   ],
   "scraped_at": "2026-04-24"

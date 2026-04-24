@@ -1,29 +1,32 @@
 {
   "id": 13,
-  "external_id": "cg_procesador-intel-core-i7-12700",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core i7-12700",
-  "slug": "procesador-intel-core-i7-12700",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/03/1_1741899085448.jpg?fit=1500%2C1500&ssl=1",
+  "external_id": "cg_silla-ergonomica-dragster-m3-trimesh-black",
+  "category_id": "periph",
+  "brand": "Genérico",
+  "name": "Silla Ergonómica DRAGSTER M3 TriMesh Black",
+  "slug": "silla-ergonomica-dragster-m3-trimesh-black",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/04/1_1776728969851.png?fit=643%2C643&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Precio efectivo/transferencia": "$239.900",
+    "Precio tarjeta crédito/débito": "$252.519"
+  },
   "tags": [],
-  "created_at": "2026-04-24 00:58:59",
-  "updated_at": "2026-04-24 00:58:59",
+  "created_at": "2026-04-24 01:22:51",
+  "updated_at": "2026-04-24 01:22:51",
   "prices": [
     {
       "id": 13,
       "product_id": 13,
       "store_id": "cg",
-      "price": 420287,
+      "price": 239900,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/intel-core-i7-12700-2-1-ghz-12-nucleos-20-hilos-25-mb-cache-lga1700-socket-caja/",
+      "product_url": "https://centralgamer.cl/sillas-gamer/silla-ergonomica-dragster-m3-trimesh-black/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 00:58:59",
+      "scraped_at": "2026-04-24 01:22:51",
       "store_name": "CentralGamer",
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl",
@@ -36,7 +39,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 420287
+      "price": 239900
     }
   ],
   "scraped_at": "2026-04-24"

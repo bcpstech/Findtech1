@@ -1,29 +1,32 @@
 {
   "id": 48,
-  "external_id": "cg_refrigeracion-liquida-airflow-cosmos-cryovision-777-argb-con-pantalla-amoled-curva-360mm",
-  "category_id": "cooling",
-  "brand": "Genérico",
-  "name": "Refrigeración Líquida Airflow Cosmos CryoVision 777 ARGB con Pantalla AMOLED Curva 360mm",
-  "slug": "refrigeracion-liquida-airflow-cosmos-cryovision-777-argb-con-pantalla-amoled-curva-360mm",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1773263694968.jpg?fit=1000%2C1000&ssl=1",
+  "external_id": "cg_combo-teclado-mouse-logitech-mk250-bluetooth-wireless-espanol-grafito",
+  "category_id": "periph",
+  "brand": "Logitech",
+  "name": "Combo Teclado Mouse Logitech MK250 Bluetooth Wireless Español Grafito",
+  "slug": "combo-teclado-mouse-logitech-mk250-bluetooth-wireless-espanol-grafito",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/2_1772121394000.jpg?fit=1500%2C1500&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Precio efectivo/transferencia": "$27.990",
+    "Precio tarjeta crédito/débito": "$29.462"
+  },
   "tags": [],
-  "created_at": "2026-04-24 00:59:11",
-  "updated_at": "2026-04-24 00:59:11",
+  "created_at": "2026-04-24 01:22:51",
+  "updated_at": "2026-04-24 01:22:51",
   "prices": [
     {
       "id": 48,
       "product_id": 48,
       "store_id": "cg",
-      "price": 245990,
+      "price": 27990,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/refrigeracion-pc/refrigeracion-liquida-360mm-airflow-cosmos-cryovision-777-argb-con-pantalla-amoled-curva/",
+      "product_url": "https://centralgamer.cl/teclado-gamer/combo-teclado-mouse-logitech-mk250-bluetooth-wireless-espanol-grafito/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 00:59:11",
+      "scraped_at": "2026-04-24 01:22:51",
       "store_name": "CentralGamer",
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl",
@@ -36,7 +39,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 245990
+      "price": 27990
     }
   ],
   "scraped_at": "2026-04-24"

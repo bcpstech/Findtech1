@@ -1,29 +1,32 @@
 {
   "id": 57,
-  "external_id": "cg_placa-madre-msi-pro-h610m-a-ddr4",
-  "category_id": "mobo",
-  "brand": "MSI",
-  "name": "Placa Madre MSI PRO H610M-A DDR4",
-  "slug": "placa-madre-msi-pro-h610m-a-ddr4",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1773079261777.jpg?fit=1000%2C1000&ssl=1",
+  "external_id": "cg_silla-gamer-hype-legend-evil-gray",
+  "category_id": "periph",
+  "brand": "Genérico",
+  "name": "Silla Gamer Hype Legend Evil Gray",
+  "slug": "silla-gamer-hype-legend-evil-gray",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1773254238949.jpg?fit=920%2C920&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Precio efectivo/transferencia": "$136.832",
+    "Precio tarjeta crédito/débito": "$144.029"
+  },
   "tags": [],
-  "created_at": "2026-04-24 00:59:15",
-  "updated_at": "2026-04-24 00:59:15",
+  "created_at": "2026-04-24 01:22:51",
+  "updated_at": "2026-04-24 01:22:51",
   "prices": [
     {
       "id": 57,
       "product_id": 57,
       "store_id": "cg",
-      "price": 73990,
+      "price": 136832,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-msi-pro-h610m-addr4/",
+      "product_url": "https://centralgamer.cl/sillas-gamer/silla-gamer-hype-legend-evil-gray/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 00:59:15",
+      "scraped_at": "2026-04-24 01:22:51",
       "store_name": "CentralGamer",
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl",
@@ -36,7 +39,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 73990
+      "price": 136832
     }
   ],
   "scraped_at": "2026-04-24"

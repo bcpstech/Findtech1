@@ -1,29 +1,32 @@
 {
   "id": 11,
-  "external_id": "cg_procesador-intel-core-ultra-5-245k",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core Ultra 5 245K",
-  "slug": "procesador-intel-core-ultra-5-245k",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1748469829000.jpg?fit=1000%2C1000&ssl=1",
+  "external_id": "cg_silla-gamer-dragster-gt500-pro-alcantara-miami",
+  "category_id": "periph",
+  "brand": "Genérico",
+  "name": "Silla Gamer Dragster GT500 PRO Alcantara Miami",
+  "slug": "silla-gamer-dragster-gt500-pro-alcantara-miami",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/04/1_1776725131923.png?fit=437%2C437&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Precio efectivo/transferencia": "$229.900",
+    "Precio tarjeta crédito/débito": "$241.993"
+  },
   "tags": [],
-  "created_at": "2026-04-24 00:58:59",
-  "updated_at": "2026-04-24 00:58:59",
+  "created_at": "2026-04-24 01:22:51",
+  "updated_at": "2026-04-24 01:22:51",
   "prices": [
     {
       "id": 11,
       "product_id": 11,
       "store_id": "cg",
-      "price": 248799,
+      "price": 229900,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-5-245k-4-2-ghz-14-core-lga1851/",
+      "product_url": "https://centralgamer.cl/sillas-gamer/silla-gamer-dragster-gt500-pro-alcantara-miami/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 00:58:59",
+      "scraped_at": "2026-04-24 01:22:51",
       "store_name": "CentralGamer",
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl",
@@ -36,7 +39,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 248799
+      "price": 229900
     }
   ],
   "scraped_at": "2026-04-24"

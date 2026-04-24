@@ -1,29 +1,32 @@
 {
   "id": 14,
-  "external_id": "cg_procesador-amd-ryzen-5-7600",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 5 7600",
-  "slug": "procesador-amd-ryzen-5-7600",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/03/1_1741884469691.jpg?fit=1500%2C1500&ssl=1",
+  "external_id": "cg_reposapies-multifuncional-dragster-ergostep-black",
+  "category_id": "periph",
+  "brand": "Genérico",
+  "name": "Reposapiés Multifuncional DRAGSTER ErgoStep Black",
+  "slug": "reposapies-multifuncional-dragster-ergostep-black",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/04/1_1776728518668.png?fit=300%2C300&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Precio efectivo/transferencia": "$31.990",
+    "Precio tarjeta crédito/débito": "$33.673"
+  },
   "tags": [],
-  "created_at": "2026-04-24 00:58:59",
-  "updated_at": "2026-04-24 00:58:59",
+  "created_at": "2026-04-24 01:22:51",
+  "updated_at": "2026-04-24 01:22:51",
   "prices": [
     {
       "id": 14,
       "product_id": 14,
       "store_id": "cg",
-      "price": 233982,
+      "price": 31990,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/amd-ryzen-5-7600-3-8-ghz-6-nucleos-12-hilos-32-mb-cache-socket-am5-caja/",
+      "product_url": "https://centralgamer.cl/sillas-gamer/reposapies-multifuncional-dragster-ergostep-black/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 00:58:59",
+      "scraped_at": "2026-04-24 01:22:51",
       "store_name": "CentralGamer",
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl",
@@ -36,7 +39,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 233982
+      "price": 31990
     }
   ],
   "scraped_at": "2026-04-24"

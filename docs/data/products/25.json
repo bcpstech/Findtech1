@@ -1,29 +1,32 @@
 {
   "id": 25,
-  "external_id": "cg_memoria-ram-kingston-fury-beast-32gb-ddr5-2x16gb-cl36",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria Ram Kingston Fury Beast 32GB DDR5 (2x16GB) CL36",
-  "slug": "memoria-ram-kingston-fury-beast-32gb-ddr5-2x16gb-cl36",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/04/1_1775841191209.jpg?fit=1000%2C1000&ssl=1",
+  "external_id": "cg_tarjeta-de-video-asus-dual-rtx-5060-oc-8gb-evo",
+  "category_id": "gpu",
+  "brand": "ASUS",
+  "name": "Tarjeta de Video ASUS DUAL RTX 5060 OC 8GB EVO",
+  "slug": "tarjeta-de-video-asus-dual-rtx-5060-oc-8gb-evo",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1774985390804.jpg?fit=1000%2C1000&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Precio efectivo/transferencia": "$449.990",
+    "Precio tarjeta crédito/débito": "$473.659"
+  },
   "tags": [],
-  "created_at": "2026-04-24 00:59:03",
-  "updated_at": "2026-04-24 00:59:03",
+  "created_at": "2026-04-24 01:22:51",
+  "updated_at": "2026-04-24 01:22:51",
   "prices": [
     {
       "id": 25,
       "product_id": 25,
       "store_id": "cg",
-      "price": 509990,
+      "price": 449990,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-kingston-fury-beast-32gb-ddr5-2x16gb-cl36/",
+      "product_url": "https://centralgamer.cl/grafica-asus/tarjeta-de-video-asus-dual-rtx-5060-oc-8gb-evo/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 00:59:03",
+      "scraped_at": "2026-04-24 01:22:51",
       "store_name": "CentralGamer",
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl",
@@ -36,7 +39,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 509990
+      "price": 449990
     }
   ],
   "scraped_at": "2026-04-24"

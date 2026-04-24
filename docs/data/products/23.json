@@ -1,29 +1,32 @@
 {
   "id": 23,
-  "external_id": "cg_procesador-amd-ryzen-5-9600x",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 5 9600X",
-  "slug": "procesador-amd-ryzen-5-9600x",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/02/1_1740691529268.jpg?fit=1500%2C1500&ssl=1",
+  "external_id": "cg_gabinete-gamer-esgaming-zero-max-atx-black-argb-3-fan",
+  "category_id": "case",
+  "brand": "Genérico",
+  "name": "Gabinete Gamer Esgaming Zero Max | ATX Black ARGB 3 Fan",
+  "slug": "gabinete-gamer-esgaming-zero-max-atx-black-argb-3-fan",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/04/1_1775579350997.jpg?fit=1000%2C1000&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Precio efectivo/transferencia": "$99.990",
+    "Precio tarjeta crédito/débito": "$105.249"
+  },
   "tags": [],
-  "created_at": "2026-04-24 00:58:59",
-  "updated_at": "2026-04-24 00:58:59",
+  "created_at": "2026-04-24 01:22:51",
+  "updated_at": "2026-04-24 01:22:51",
   "prices": [
     {
       "id": 23,
       "product_id": 23,
       "store_id": "cg",
-      "price": 265990,
+      "price": 99990,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-9600x/",
+      "product_url": "https://centralgamer.cl/gabinetes-gamer/gabinete-gamer-esgaming-zero-max-atx-black-argb-3-fan/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 00:58:59",
+      "scraped_at": "2026-04-24 01:22:51",
       "store_name": "CentralGamer",
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl",
@@ -36,7 +39,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 265990
+      "price": 99990
     }
   ],
   "scraped_at": "2026-04-24"

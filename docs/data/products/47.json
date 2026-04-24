@@ -1,29 +1,32 @@
 {
   "id": 47,
-  "external_id": "cg_pasta-termica-cooler-master-de-alto-rendimiento-htk-002",
-  "category_id": "cooling",
-  "brand": "Cooler Master",
-  "name": "Pasta Térmica Cooler Master De Alto Rendimiento HTK-002",
-  "slug": "pasta-termica-cooler-master-de-alto-rendimiento-htk-002",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/04/1_1776209690073.png?fit=1200%2C1200&ssl=1",
+  "external_id": "cg_teclado-logitech-pebble-keys-2-k380s-grafito-espanol",
+  "category_id": "periph",
+  "brand": "Logitech",
+  "name": "Teclado Logitech Pebble Keys 2 K380s Grafito Español",
+  "slug": "teclado-logitech-pebble-keys-2-k380s-grafito-espanol",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1772119760000.png?fit=1320%2C1320&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Precio efectivo/transferencia": "$34.590",
+    "Precio tarjeta crédito/débito": "$36.409"
+  },
   "tags": [],
-  "created_at": "2026-04-24 00:59:11",
-  "updated_at": "2026-04-24 00:59:11",
+  "created_at": "2026-04-24 01:22:51",
+  "updated_at": "2026-04-24 01:22:51",
   "prices": [
     {
       "id": 47,
       "product_id": 47,
       "store_id": "cg",
-      "price": 3990,
+      "price": 34590,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/refrigeracion-pc/pasta-termica-cooler-master-de-alto-rendimiento-htk-002/",
+      "product_url": "https://centralgamer.cl/teclado-gamer/teclado-logitech-pebble-keys-2-k380s-grafito-espanol/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 00:59:11",
+      "scraped_at": "2026-04-24 01:22:51",
       "store_name": "CentralGamer",
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl",
@@ -36,7 +39,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 3990
+      "price": 34590
     }
   ],
   "scraped_at": "2026-04-24"

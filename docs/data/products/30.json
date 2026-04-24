@@ -1,29 +1,32 @@
 {
   "id": 30,
-  "external_id": "cg_memoria-ram-xpg-spectrix-d35g-8gb-rgb-ddr4-3200mhz-white",
-  "category_id": "ram",
+  "external_id": "cg_teclado-mecanico-fantech-mk921-maxfit8-op-gear-5-8211-switch-white",
+  "category_id": "periph",
   "brand": "Genérico",
-  "name": "Memoria Ram XPG SPECTRIX D35G 8GB RGB DDR4 3200Mhz White",
-  "slug": "memoria-ram-xpg-spectrix-d35g-8gb-rgb-ddr4-3200mhz-white",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/12/1_1765922476721.jpg?fit=1000%2C1000&ssl=1",
+  "name": "Teclado Mecánico Fantech MK921 MAXFIT8  OP GEAR 5  &#8211; Switch White",
+  "slug": "teclado-mecanico-fantech-mk921-maxfit8-op-gear-5-8211-switch-white",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1774455133813.jpg?fit=1000%2C1000&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Precio efectivo/transferencia": "$85.990",
+    "Precio tarjeta crédito/débito": "$90.513"
+  },
   "tags": [],
-  "created_at": "2026-04-24 00:59:03",
-  "updated_at": "2026-04-24 00:59:03",
+  "created_at": "2026-04-24 01:22:51",
+  "updated_at": "2026-04-24 01:22:51",
   "prices": [
     {
       "id": 30,
       "product_id": 30,
       "store_id": "cg",
-      "price": 89990,
+      "price": 85990,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-spectrix-d35g-8gb-ddr4-white/",
+      "product_url": "https://centralgamer.cl/teclado-gamer/teclado-mecanico-fantech-mk921-maxfit8-op-gear-5-switch-white/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 00:59:03",
+      "scraped_at": "2026-04-24 01:22:51",
       "store_name": "CentralGamer",
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl",
@@ -36,7 +39,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 89990
+      "price": 85990
     }
   ],
   "scraped_at": "2026-04-24"

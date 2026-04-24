@@ -1,29 +1,32 @@
 {
   "id": 56,
-  "external_id": "cg_placa-madre-asus-prime-b760m-a-d4-csm",
-  "category_id": "mobo",
-  "brand": "ASUS",
-  "name": "Placa Madre ASUS Prime B760M-A D4 CSM",
-  "slug": "placa-madre-asus-prime-b760m-a-d4-csm",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1774885498061.jpg?fit=1000%2C1000&ssl=1",
+  "external_id": "cg_silla-gamer-hype-legend-evil-silver",
+  "category_id": "periph",
+  "brand": "Genérico",
+  "name": "Silla Gamer Hype Legend Evil Silver",
+  "slug": "silla-gamer-hype-legend-evil-silver",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1773254612393.png?fit=592%2C592&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Precio efectivo/transferencia": "$136.832",
+    "Precio tarjeta crédito/débito": "$144.029"
+  },
   "tags": [],
-  "created_at": "2026-04-24 00:59:15",
-  "updated_at": "2026-04-24 00:59:15",
+  "created_at": "2026-04-24 01:22:51",
+  "updated_at": "2026-04-24 01:22:51",
   "prices": [
     {
       "id": 56,
       "product_id": 56,
       "store_id": "cg",
-      "price": 96990,
+      "price": 136832,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-b760m-a-d4-csm/",
+      "product_url": "https://centralgamer.cl/sillas-gamer/silla-gamer-hype-legend-evil-silver/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 00:59:15",
+      "scraped_at": "2026-04-24 01:22:51",
       "store_name": "CentralGamer",
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl",
@@ -36,7 +39,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 96990
+      "price": 136832
     }
   ],
   "scraped_at": "2026-04-24"

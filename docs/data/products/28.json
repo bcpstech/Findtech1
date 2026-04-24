@@ -1,29 +1,32 @@
 {
   "id": 28,
-  "external_id": "cg_memoria-ram-kingston-fury-beast-cl16-16gb-ddr4-3200mhz-rgb",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria Ram Kingston Fury Beast CL16 16GB DDR4 3200Mhz RGB",
-  "slug": "memoria-ram-kingston-fury-beast-cl16-16gb-ddr4-3200mhz-rgb",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/12/1_1766163135399.jpg?fit=1000%2C1000&ssl=1",
+  "external_id": "cg_audifonos-gamenote-h2029u",
+  "category_id": "periph",
+  "brand": "Genérico",
+  "name": "Audífonos GAMENOTE H2029U",
+  "slug": "audifonos-gamenote-h2029u",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1774545964691.jpg?fit=1000%2C1000&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Precio efectivo/transferencia": "$22.990",
+    "Precio tarjeta crédito/débito": "$24.199"
+  },
   "tags": [],
-  "created_at": "2026-04-24 00:59:03",
-  "updated_at": "2026-04-24 00:59:03",
+  "created_at": "2026-04-24 01:22:51",
+  "updated_at": "2026-04-24 01:22:51",
   "prices": [
     {
       "id": 28,
       "product_id": 28,
       "store_id": "cg",
-      "price": 134990,
+      "price": 22990,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-kingston-fury-beast-cl16-16gb-ddr4-3200mhz/",
+      "product_url": "https://centralgamer.cl/audifonos-gamer/audifonos-gamenote-h2029/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 00:59:03",
+      "scraped_at": "2026-04-24 01:22:51",
       "store_name": "CentralGamer",
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl",
@@ -36,7 +39,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 134990
+      "price": 22990
     }
   ],
   "scraped_at": "2026-04-24"
