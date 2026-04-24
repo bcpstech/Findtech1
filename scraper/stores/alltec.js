@@ -24,7 +24,7 @@ const CATEGORIES = [
 const CARD_SURCHARGE = 1.03; // +3%
 
 class AlltecScraper extends BaseScraper {
-  constructor() { super('at', 'Alltec'); }
+  constructor() { super('alltec', 'Alltec'); }
 
   async scrapeAll() {
     // Usamos un Set para evitar productos duplicados entre subcategorías
