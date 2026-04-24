@@ -1,7 +1,13 @@
 /**
  * scraper/stores/n1g.js
- * PrestaShop HTML scraping — n1g.cl
- * Precio formato: "49.900 $" (número primero, símbolo después)
+ * PrestaShop HTML scraping — n1g.cl (NiceOne)
+ * Selectores verificados en consola:
+ *   - Items: article.product-miniature (48 por página)
+ *   - Nombre: h3.h3.product-title a
+ *   - Marca: .pl_manufacturer strong
+ *   - Precio: .product-miniature .price → "49.900 $"
+ *   - URL: h3.product-title a[href]
+ *   - Imagen: .product-image-container img
  */
 const BaseScraper = require('../base-scraper');
 const cheerio = require('cheerio');
@@ -19,8 +25,15 @@ const CATEGORIES = [
   { url: '/Home/23-fuentes-de-poder',  catId: 'psu'     },
 ];
 
-// N1G no muestra precio diferenciado efectivo/tarjeta en la lista
-// Asumimos precio único (efectivo). Si hay recargo tarjeta confirmar.
+// Palabras clave que indican accesorios a filtrar
+const ACCESSORY_KEYWORDS = [
+  'cable', 'adaptador', 'bracket', 'tornillo', 'pasta termica',
+  'pasta térmica', 'soporte', 'accesorio', 'herramienta', 'limpiador',
+  'teclado', 'mouse', 'auricular', 'headset', 'parlante', 'monitor',
+  'silla', 'escritorio', 'pad', 'mousepad', 'webcam', 'microfono',
+  'micrófono', 'control', 'joystick', 'cargador', 'hub usb',
+];
+
 const CARD_SURCHARGE = 1.03;
 
 class N1GScraper extends BaseScraper {
@@ -34,9 +47,14 @@ class N1GScraper extends BaseScraper {
         await this.delay(1500, 2500);
       } catch (err) {
         this.stats.errors++;
-        this.log('warn', `Error ${catId} (${url}): ${err.message}`);
+        this.log('warn', `Error ${catId}: ${err.message}`);
       }
     }
+  }
+
+  isAccessory(name) {
+    const lower = name.toLowerCase();
+    return ACCESSORY_KEYWORDS.some(kw => lower.includes(kw));
   }
 
   async scrapeCategory(categoryPath, catId) {
@@ -49,9 +67,15 @@ class N1GScraper extends BaseScraper {
       try {
         const res = await this.client.get(url, {
           headers: {
-            'Accept': 'text/html,application/xhtml+xml',
-            'Accept-Language': 'es-CL,es;q=0.9',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+            'Accept-Language': 'es-CL,es;q=0.9,en-US;q=0.8',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+            'Referer': 'https://n1g.cl/Home/',
+            'Cache-Control': 'max-age=0',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'same-origin',
           }
         });
 
@@ -68,27 +92,38 @@ class N1GScraper extends BaseScraper {
         items.each((_, el) => {
           try {
             const $el = $(el);
-            const productUrl = $el.find('a.thumbnail').attr('href')
-                            || $el.find('.product-title a').attr('href') || '';
 
+            // URL del producto
+            const productUrl = $el.find('h3.product-title a, h3.h3.product-title a').attr('href')
+                            || $el.find('a').first().attr('href') || '';
             if (this.seenUrls.has(productUrl)) return;
             this.seenUrls.add(productUrl);
 
-            const name = $el.find('.product-title, h3.product-title').text().trim();
-            if (!name) return;
+            // Nombre
+            const name = $el.find('h3.product-title a, h3.h3.product-title a').text().trim();
+            if (!name || name.length < 3) return;
 
-            // Precio en formato "49.900 $" — limpiar símbolo al final
+            // Filtrar accesorios
+            if (this.isAccessory(name)) return;
+
+            // Precio formato "49.900 $" — remover $ y espacios
             const priceRaw = $el.find('.price').first().text().trim();
-            const price = this.parsePrice(priceRaw);
+            const price = this.parseN1GPrice(priceRaw);
             if (!price || price < 1000) return;
 
-            const regularRaw = $el.find('.regular-price').text().trim();
-            const regularPrice = regularRaw ? this.parsePrice(regularRaw) : null;
+            // Precio tachado
+            const oldRaw = $el.find('.regular-price, .old-price').first().text().trim();
+            const regularPrice = oldRaw ? this.parseN1GPrice(oldRaw) : null;
 
             const priceCard = Math.round(price * CARD_SURCHARGE);
 
-            const imageUrl = $el.find('img.product-thumbnail').attr('data-src')
-                          || $el.find('img.product-thumbnail').attr('src')
+            // Marca
+            const brand = $el.find('.pl_manufacturer strong').text().trim()
+                       || this.extractBrand(name);
+
+            // Imagen
+            const imageUrl = $el.find('.product-image-container img').attr('data-src')
+                          || $el.find('.product-image-container img').attr('src')
                           || $el.find('img').first().attr('src') || null;
 
             this.stats.found++;
@@ -98,23 +133,24 @@ class N1GScraper extends BaseScraper {
               {
                 name,
                 category: catId,
-                brand: this.extractBrand(name),
+                brand,
                 imageUrl,
                 specs: {
-                  'Efectivo/Transferencia':    `$${price.toLocaleString('es-CL')}`,
-                  'Tarjeta crédito/débito':    `$${priceCard.toLocaleString('es-CL')}`,
+                  'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
+                  'Tarjeta crédito/débito': `$${priceCard.toLocaleString('es-CL')}`,
                 }
               },
               {
                 current:  price,
                 normal:   regularPrice > price ? regularPrice : null,
-                discount: regularPrice > price ? Math.round((1 - price / regularPrice) * 100) : null,
+                discount: regularPrice > price
+                  ? Math.round((1 - price / regularPrice) * 100) : null,
                 stock:    $el.find('.product-unavailable').length ? 'out_of_stock' : 'in_stock',
                 url:      productUrl || null,
               }
             );
           } catch (err) {
-            this.log('warn', `[n1g] Error parseando item: ${err.message}`);
+            this.log('warn', `[n1g] Error item: ${err.message}`);
           }
         });
 
@@ -130,6 +166,15 @@ class N1GScraper extends BaseScraper {
       }
     }
     this.log('info', `✓ n1g ${catId} total: ${this.stats.found}`);
+  }
+
+  // Precio formato N1G: "49.900 $" → 49900
+  parseN1GPrice(str) {
+    if (!str) return null;
+    const clean = str.replace(/\$/g, '').replace(/\./g, '').replace(/\s/g, '');
+    const num = parseInt(clean);
+    if (isNaN(num) || num < 1000 || num > 100000000) return null;
+    return num;
   }
 }
 
