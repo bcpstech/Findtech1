@@ -1,1 +1,740 @@
-[]
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FindTech Admin — Gestión de Precios</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0d0d0d;
+  --bg2: #141414;
+  --bg3: #1a1a1a;
+  --surface: #222;
+  --surface2: #2a2a2a;
+  --border: #333;
+  --border2: #444;
+  --accent: #00ff88;
+  --accent2: #ff6b35;
+  --text: #f0f0f0;
+  --text2: #888;
+  --text3: #555;
+  --red: #ff4444;
+  --amber: #ffb800;
+  --mono: 'IBM Plex Mono', monospace;
+  --sans: 'IBM Plex Sans', sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:100vh}
+::-webkit-scrollbar{width:4px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
+
+/* HEADER */
+.header{background:var(--bg2);border-bottom:1px solid var(--border);padding:0 32px;height:56px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
+.logo{font-family:var(--mono);font-size:14px;font-weight:600;color:var(--accent);letter-spacing:1px}
+.logo span{color:var(--text2)}
+.header-right{display:flex;align-items:center;gap:16px}
+.status-badge{font-family:var(--mono);font-size:11px;padding:4px 10px;border-radius:2px;background:rgba(0,255,136,0.1);color:var(--accent);border:1px solid rgba(0,255,136,0.2)}
+
+/* LAYOUT */
+.layout{display:grid;grid-template-columns:240px 1fr;min-height:calc(100vh - 56px)}
+.sidebar{background:var(--bg2);border-right:1px solid var(--border);padding:24px 0}
+.main{padding:32px}
+
+/* SIDEBAR */
+.sidebar-section{margin-bottom:8px}
+.sidebar-label{font-family:var(--mono);font-size:10px;color:var(--text3);letter-spacing:2px;text-transform:uppercase;padding:0 20px 8px}
+.sidebar-item{display:flex;align-items:center;gap:10px;padding:9px 20px;font-size:13px;color:var(--text2);cursor:pointer;transition:all .15s;border-left:2px solid transparent}
+.sidebar-item:hover{color:var(--text);background:var(--bg3)}
+.sidebar-item.active{color:var(--accent);border-left-color:var(--accent);background:rgba(0,255,136,0.05)}
+.sidebar-item .icon{font-size:14px;width:18px;text-align:center}
+.sidebar-count{margin-left:auto;font-family:var(--mono);font-size:10px;background:var(--surface);padding:2px 6px;border-radius:2px;color:var(--text3)}
+
+/* PAGES */
+.page{display:none}
+.page.active{display:block}
+
+/* PAGE HEADER */
+.page-header{margin-bottom:32px}
+.page-title{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--text);margin-bottom:6px}
+.page-sub{font-size:13px;color:var(--text2)}
+
+/* STATS */
+.stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:32px}
+.stat-card{background:var(--bg2);border:1px solid var(--border);padding:20px;border-radius:4px}
+.stat-label{font-family:var(--mono);font-size:10px;color:var(--text3);letter-spacing:1px;text-transform:uppercase;margin-bottom:8px}
+.stat-num{font-family:var(--mono);font-size:28px;font-weight:600;color:var(--text)}
+.stat-num.green{color:var(--accent)}
+.stat-num.amber{color:var(--amber)}
+.stat-sub{font-size:11px;color:var(--text3);margin-top:4px}
+
+/* TOOLBAR */
+.toolbar{display:flex;align-items:center;gap:12px;margin-bottom:20px;flex-wrap:wrap}
+.toolbar-left{display:flex;align-items:center;gap:10px;flex:1}
+.search-box{background:var(--bg2);border:1px solid var(--border);border-radius:3px;padding:8px 12px;font-family:var(--mono);font-size:12px;color:var(--text);outline:none;width:240px;transition:border-color .15s}
+.search-box:focus{border-color:var(--accent)}
+.search-box::placeholder{color:var(--text3)}
+.select-box{background:var(--bg2);border:1px solid var(--border);border-radius:3px;padding:8px 12px;font-family:var(--mono);font-size:12px;color:var(--text);outline:none;cursor:pointer}
+.btn{padding:8px 16px;border-radius:3px;font-family:var(--mono);font-size:12px;font-weight:500;cursor:pointer;transition:all .15s;border:1px solid;display:inline-flex;align-items:center;gap:6px}
+.btn-primary{background:var(--accent);color:#000;border-color:var(--accent)}
+.btn-primary:hover{opacity:0.85}
+.btn-ghost{background:transparent;color:var(--text2);border-color:var(--border)}
+.btn-ghost:hover{color:var(--text);border-color:var(--border2)}
+.btn-danger{background:transparent;color:var(--red);border-color:var(--red)}
+.btn-danger:hover{background:rgba(255,68,68,0.1)}
+.btn-amber{background:transparent;color:var(--amber);border-color:var(--amber)}
+.btn-amber:hover{background:rgba(255,184,0,0.1)}
+
+/* TABLE */
+.table-wrap{background:var(--bg2);border:1px solid var(--border);border-radius:4px;overflow:hidden}
+.table{width:100%;border-collapse:collapse}
+.table th{font-family:var(--mono);font-size:10px;color:var(--text3);letter-spacing:1px;text-transform:uppercase;padding:12px 16px;text-align:left;border-bottom:1px solid var(--border);background:var(--bg3)}
+.table td{padding:12px 16px;font-size:13px;border-bottom:1px solid var(--border);vertical-align:middle}
+.table tr:last-child td{border-bottom:none}
+.table tr:hover td{background:rgba(255,255,255,0.02)}
+.table .mono{font-family:var(--mono);font-size:12px}
+.price-cell{font-family:var(--mono);font-size:13px;font-weight:500}
+.price-input{background:var(--bg3);border:1px solid var(--border);border-radius:3px;padding:5px 10px;font-family:var(--mono);font-size:12px;color:var(--text);outline:none;width:110px;transition:border-color .15s}
+.price-input:focus{border-color:var(--accent)}
+.badge{font-family:var(--mono);font-size:10px;padding:2px 7px;border-radius:2px;font-weight:500}
+.badge-green{background:rgba(0,255,136,0.1);color:var(--accent)}
+.badge-amber{background:rgba(255,184,0,0.1);color:var(--amber)}
+.badge-red{background:rgba(255,68,68,0.1);color:var(--red)}
+.badge-gray{background:var(--surface);color:var(--text3)}
+
+/* MODAL */
+.modal-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.7);z-index:200;align-items:center;justify-content:center}
+.modal-overlay.open{display:flex}
+.modal{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:32px;width:560px;max-height:90vh;overflow-y:auto}
+.modal-title{font-family:var(--mono);font-size:16px;font-weight:600;margin-bottom:24px;color:var(--accent)}
+.form-group{margin-bottom:18px}
+.form-label{font-family:var(--mono);font-size:11px;color:var(--text2);letter-spacing:0.5px;display:block;margin-bottom:6px}
+.form-input{width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:3px;padding:9px 12px;font-family:var(--mono);font-size:13px;color:var(--text);outline:none;transition:border-color .15s}
+.form-input:focus{border-color:var(--accent)}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.form-actions{display:flex;gap:10px;justify-content:flex-end;margin-top:24px;padding-top:20px;border-top:1px solid var(--border)}
+
+/* JSON EDITOR */
+.json-editor{background:var(--bg3);border:1px solid var(--border);border-radius:4px;padding:0;overflow:hidden}
+.json-toolbar{background:var(--bg2);border-bottom:1px solid var(--border);padding:10px 16px;display:flex;align-items:center;justify-content:space-between}
+.json-lang{font-family:var(--mono);font-size:11px;color:var(--accent)}
+textarea.json-area{width:100%;background:transparent;border:none;outline:none;font-family:var(--mono);font-size:12px;color:var(--text);line-height:1.6;padding:16px;resize:vertical;min-height:300px}
+
+/* TOAST */
+.toast{position:fixed;bottom:24px;right:24px;background:var(--surface);border:1px solid var(--border);border-radius:4px;padding:12px 20px;font-family:var(--mono);font-size:12px;color:var(--text);z-index:300;transform:translateY(80px);opacity:0;transition:all .3s;display:flex;align-items:center;gap:8px}
+.toast.show{transform:translateY(0);opacity:1}
+.toast.success{border-color:var(--accent);color:var(--accent)}
+.toast.error{border-color:var(--red);color:var(--red)}
+
+/* EXPORT */
+.export-box{background:var(--bg2);border:1px solid var(--border);border-radius:4px;padding:24px;margin-top:24px}
+.export-title{font-family:var(--mono);font-size:13px;font-weight:600;margin-bottom:16px;color:var(--text)}
+.export-steps{display:flex;flex-direction:column;gap:12px}
+.export-step{display:flex;gap:12px;align-items:flex-start}
+.step-num{width:22px;height:22px;border-radius:2px;background:var(--accent);color:#000;font-family:var(--mono);font-size:11px;font-weight:600;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px}
+.step-text{font-size:13px;color:var(--text2);line-height:1.5}
+.step-text code{font-family:var(--mono);font-size:11px;background:var(--surface);padding:1px 5px;border-radius:2px;color:var(--accent)}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .layout{grid-template-columns:1fr}
+  .sidebar{display:none}
+  .stats-grid{grid-template-columns:1fr 1fr}
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">FIND<span>TECH</span>.CL <span style="color:var(--text3);font-weight:300">// admin</span></div>
+  <div class="header-right">
+    <span class="status-badge" id="last-update">● sin datos</span>
+    <button class="btn btn-primary" onclick="exportJSON()">↓ Exportar JSON</button>
+  </div>
+</header>
+
+<div class="layout">
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">Navegación</div>
+      <div class="sidebar-item active" onclick="showPage('dashboard')" id="nav-dashboard">
+        <span class="icon">▦</span> Dashboard
+      </div>
+      <div class="sidebar-item" onclick="showPage('products')" id="nav-products">
+        <span class="icon">◈</span> Productos
+        <span class="sidebar-count" id="count-products">0</span>
+      </div>
+      <div class="sidebar-item" onclick="showPage('stores')" id="nav-stores">
+        <span class="icon">◎</span> Tiendas
+        <span class="sidebar-count">5</span>
+      </div>
+      <div class="sidebar-item" onclick="showPage('export')" id="nav-export">
+        <span class="icon">↗</span> Exportar
+      </div>
+    </div>
+    <div class="sidebar-section" style="margin-top:16px">
+      <div class="sidebar-label">Categorías</div>
+      <div class="sidebar-item" onclick="filterCat('gpu')"><span class="icon">🎮</span> GPUs</div>
+      <div class="sidebar-item" onclick="filterCat('cpu')"><span class="icon">⚡</span> CPUs</div>
+      <div class="sidebar-item" onclick="filterCat('ram')"><span class="icon">💾</span> RAM</div>
+      <div class="sidebar-item" onclick="filterCat('storage')"><span class="icon">💿</span> Storage</div>
+      <div class="sidebar-item" onclick="filterCat('cooling')"><span class="icon">❄️</span> Cooling</div>
+      <div class="sidebar-item" onclick="filterCat('mobo')"><span class="icon">🔌</span> Placas</div>
+      <div class="sidebar-item" onclick="filterCat('psu')"><span class="icon">⚙️</span> Fuentes</div>
+      <div class="sidebar-item" onclick="filterCat('monitor')"><span class="icon">🖥️</span> Monitores</div>
+    </div>
+  </aside>
+
+  <main class="main">
+
+    <!-- DASHBOARD -->
+    <div class="page active" id="page-dashboard">
+      <div class="page-header">
+        <div class="page-title">// dashboard</div>
+        <div class="page-sub">Estado general de productos y precios en FindTech.cl</div>
+      </div>
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-label">Productos</div>
+          <div class="stat-num green" id="stat-total">0</div>
+          <div class="stat-sub">en base de datos</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Con precios</div>
+          <div class="stat-num" id="stat-with-prices">0</div>
+          <div class="stat-sub">productos activos</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Tiendas</div>
+          <div class="stat-num amber">5</div>
+          <div class="stat-sub">monitoreadas</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Última actualización</div>
+          <div class="stat-num" style="font-size:14px;padding-top:6px" id="stat-date">—</div>
+          <div class="stat-sub">fecha de datos</div>
+        </div>
+      </div>
+
+      <div class="table-wrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Categoría</th>
+              <th>Productos</th>
+              <th>Precio mín</th>
+              <th>Precio máx</th>
+              <th>Estado</th>
+            </tr>
+          </thead>
+          <tbody id="dashboard-table"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- PRODUCTS -->
+    <div class="page" id="page-products">
+      <div class="page-header">
+        <div class="page-title">// productos</div>
+        <div class="page-sub">Edita nombres, precios y datos de cada producto</div>
+      </div>
+      <div class="toolbar">
+        <div class="toolbar-left">
+          <input class="search-box" type="text" placeholder="buscar producto..." id="search-input" oninput="renderProducts()">
+          <select class="select-box" id="filter-cat" onchange="renderProducts()">
+            <option value="">todas las categorías</option>
+            <option value="gpu">Tarjetas Gráficas</option>
+            <option value="cpu">Procesadores</option>
+            <option value="ram">Memorias RAM</option>
+            <option value="storage">Almacenamiento</option>
+            <option value="cooling">Refrigeración</option>
+            <option value="mobo">Placas Madre</option>
+            <option value="psu">Fuentes</option>
+            <option value="case">Gabinetes</option>
+            <option value="monitor">Monitores</option>
+            <option value="periph">Periféricos</option>
+          </select>
+          <select class="select-box" id="filter-store" onchange="renderProducts()">
+            <option value="">todas las tiendas</option>
+            <option value="n1g">N1G</option>
+            <option value="alltec">Alltec</option>
+            <option value="cg">CentralGamer</option>
+            <option value="centrale">Centrale</option>
+            <option value="pcexpress">PC-Express</option>
+          </select>
+        </div>
+        <button class="btn btn-primary" onclick="openAddModal()">+ Agregar producto</button>
+      </div>
+      <div class="table-wrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Categoría</th>
+              <th>N1G</th>
+              <th>Alltec</th>
+              <th>CentralGamer</th>
+              <th>Centrale</th>
+              <th>PC-Express</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="products-table"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- STORES -->
+    <div class="page" id="page-stores">
+      <div class="page-header">
+        <div class="page-title">// tiendas</div>
+        <div class="page-sub">Información de las tiendas monitoreadas</div>
+      </div>
+      <div class="table-wrap">
+        <table class="table">
+          <thead>
+            <tr><th>Tienda</th><th>URL</th><th>Rating</th><th>Estado</th><th>Productos</th></tr>
+          </thead>
+          <tbody id="stores-table"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- EXPORT -->
+    <div class="page" id="page-export">
+      <div class="page-header">
+        <div class="page-title">// exportar</div>
+        <div class="page-sub">Genera los archivos JSON para subir a GitHub Pages</div>
+      </div>
+
+      <div class="json-editor">
+        <div class="json-toolbar">
+          <span class="json-lang">products.json</span>
+          <div style="display:flex;gap:8px">
+            <button class="btn btn-ghost" onclick="copyJSON()">copiar</button>
+            <button class="btn btn-primary" onclick="downloadJSON()">↓ descargar</button>
+          </div>
+        </div>
+        <textarea class="json-area" id="json-preview" readonly></textarea>
+      </div>
+
+      <div class="export-box">
+        <div class="export-title">// cómo subir a GitHub</div>
+        <div class="export-steps">
+          <div class="export-step">
+            <div class="step-num">1</div>
+            <div class="step-text">Descarga el archivo <code>products.json</code> con el botón de arriba</div>
+          </div>
+          <div class="export-step">
+            <div class="step-num">2</div>
+            <div class="step-text">Ve a tu repositorio en GitHub: <code>bcpstech/Findtech1</code></div>
+          </div>
+          <div class="export-step">
+            <div class="step-num">3</div>
+            <div class="step-text">Navega a <code>docs/data/products.json</code> → clic en el lápiz ✏️ → selecciona todo → pega el nuevo contenido → Commit</div>
+          </div>
+          <div class="export-step">
+            <div class="step-num">4</div>
+            <div class="step-text">En ~2 minutos findtech.cl mostrará los precios actualizados ✓</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+</div>
+
+<!-- MODAL AGREGAR/EDITAR -->
+<div class="modal-overlay" id="modal">
+  <div class="modal">
+    <div class="modal-title" id="modal-title">// agregar producto</div>
+    <div class="form-row">
+      <div class="form-group">
+        <label class="form-label">Marca</label>
+        <input class="form-input" id="f-brand" placeholder="ej: NVIDIA">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Categoría</label>
+        <select class="form-input" id="f-cat">
+          <option value="gpu">Tarjetas Gráficas</option>
+          <option value="cpu">Procesadores</option>
+          <option value="ram">Memorias RAM</option>
+          <option value="storage">Almacenamiento</option>
+          <option value="cooling">Refrigeración</option>
+          <option value="mobo">Placas Madre</option>
+          <option value="psu">Fuentes de Poder</option>
+          <option value="case">Gabinetes</option>
+          <option value="monitor">Monitores</option>
+          <option value="periph">Periféricos</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Nombre del producto</label>
+      <input class="form-input" id="f-name" placeholder="ej: GeForce RTX 5090 32GB GDDR7">
+    </div>
+    <div class="form-group">
+      <label class="form-label">URL imagen (opcional)</label>
+      <input class="form-input" id="f-img" placeholder="https://...">
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label class="form-label">Precio N1G (CLP)</label>
+        <input class="form-input" id="f-n1g" type="number" placeholder="0">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Precio Alltec (CLP)</label>
+        <input class="form-input" id="f-alltec" type="number" placeholder="0">
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label class="form-label">Precio CentralGamer (CLP)</label>
+        <input class="form-input" id="f-cg" type="number" placeholder="0">
+      </div>
+      <div class="form-group">
+        <label class="form-label">Precio Centrale (CLP)</label>
+        <input class="form-input" id="f-centrale" type="number" placeholder="0">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Precio PC-Express (CLP)</label>
+      <input class="form-input" id="f-pcexpress" type="number" placeholder="0" style="max-width:200px">
+    </div>
+    <div class="form-actions">
+      <button class="btn btn-ghost" onclick="closeModal()">Cancelar</button>
+      <button class="btn btn-primary" onclick="saveProduct()">Guardar producto</button>
+    </div>
+  </div>
+</div>
+
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<script>
+// ═══════════════════════════════════════════════════════
+// DATA
+// ═══════════════════════════════════════════════════════
+const STORES = [
+  { id:'n1g',       name:'N1G',         url:'www.n1g.cl',           rating:4.3 },
+  { id:'alltec',    name:'Alltec',       url:'www.alltec.cl',        rating:4.5 },
+  { id:'cg',        name:'CentralGamer', url:'www.centralgamer.cl',  rating:4.1 },
+  { id:'centrale',  name:'Centrale',     url:'www.centrale.cl',      rating:4.4 },
+  { id:'pcexpress', name:'PC-Express',   url:'tienda.pc-express.cl', rating:4.2 },
+];
+
+const CAT_NAMES = {
+  gpu:'Tarjetas Gráficas', cpu:'Procesadores', ram:'Memorias RAM',
+  storage:'Almacenamiento', cooling:'Refrigeración', mobo:'Placas Madre',
+  psu:'Fuentes de Poder', case:'Gabinetes', monitor:'Monitores', periph:'Periféricos'
+};
+
+const CAT_ICONS = {
+  gpu:'🎮', cpu:'⚡', ram:'💾', storage:'💿', cooling:'❄️',
+  mobo:'🔌', psu:'⚙️', case:'🖥️', monitor:'🖱️', periph:'⌨️'
+};
+
+// Cargar datos desde localStorage o usar demo
+let products = JSON.parse(localStorage.getItem('ft_products') || 'null') || [
+  { id:1, cat:'gpu', brand:'NVIDIA', name:'GeForce RTX 5090 32GB GDDR7', img:'', prices:{n1g:2990000,alltec:2949000,cg:3050000,centrale:2980000,pcexpress:3020000} },
+  { id:2, cat:'gpu', brand:'NVIDIA', name:'GeForce RTX 5080 16GB GDDR7', img:'', prices:{n1g:1890000,alltec:1849000,cg:1920000,centrale:1870000,pcexpress:1910000} },
+  { id:3, cat:'gpu', brand:'AMD',    name:'Radeon RX 9070 XT 16GB GDDR6', img:'', prices:{n1g:890000,alltec:875000,cg:910000,centrale:885000,pcexpress:920000} },
+  { id:4, cat:'cpu', brand:'AMD',    name:'Ryzen 9 9950X 16 núcleos', img:'', prices:{n1g:639000,alltec:619000,cg:660000,centrale:635000,pcexpress:650000} },
+  { id:5, cat:'cpu', brand:'Intel',  name:'Core Ultra 9 285K 24 núcleos', img:'', prices:{n1g:599000,alltec:585000,cg:620000,centrale:595000,pcexpress:610000} },
+  { id:6, cat:'ram', brand:'G.Skill','name':'Trident Z5 32GB DDR5-6400', img:'', prices:{n1g:175000,alltec:169000,cg:182000,centrale:172000,pcexpress:180000} },
+  { id:7, cat:'storage', brand:'Samsung', name:'990 Pro 2TB NVMe PCIe 4.0', img:'', prices:{n1g:129000,alltec:119000,cg:135000,centrale:125000,pcexpress:132000} },
+  { id:8, cat:'cooling', brand:'Arctic', name:'Liquid Freezer III 360mm', img:'', prices:{n1g:189000,alltec:179000,cg:199000,centrale:185000,pcexpress:195000} },
+  { id:9, cat:'mobo', brand:'MSI',   name:'MAG X870E Tomahawk WiFi AM5', img:'', prices:{n1g:299000,alltec:285000,cg:310000,centrale:295000,pcexpress:305000} },
+  { id:10, cat:'monitor', brand:'LG', name:'27GS95QE 27" OLED QHD 240Hz', img:'', prices:{n1g:849000,alltec:829000,cg:880000,centrale:845000,pcexpress:870000} },
+];
+
+let editingId = null;
+let currentPage = 'dashboard';
+
+function save() {
+  localStorage.setItem('ft_products', JSON.stringify(products));
+  localStorage.setItem('ft_updated', new Date().toISOString());
+  updateStats();
+}
+
+function fmt(n) {
+  if (!n || n === 0) return '—';
+  return '$' + parseInt(n).toLocaleString('es-CL');
+}
+
+// ═══════════════════════════════════════════════════════
+// NAVIGATION
+// ═══════════════════════════════════════════════════════
+function showPage(p) {
+  document.querySelectorAll('.page').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.sidebar-item').forEach(el => el.classList.remove('active'));
+  document.getElementById('page-' + p).classList.add('active');
+  document.getElementById('nav-' + p)?.classList.add('active');
+  currentPage = p;
+  if (p === 'products') renderProducts();
+  if (p === 'stores')   renderStores();
+  if (p === 'export')   renderExport();
+  if (p === 'dashboard') renderDashboard();
+}
+
+function filterCat(cat) {
+  showPage('products');
+  document.getElementById('filter-cat').value = cat;
+  renderProducts();
+}
+
+// ═══════════════════════════════════════════════════════
+// STATS
+// ═══════════════════════════════════════════════════════
+function updateStats() {
+  const total = products.length;
+  const withPrices = products.filter(p => Object.values(p.prices||{}).some(v => v > 0)).length;
+  document.getElementById('stat-total').textContent = total;
+  document.getElementById('stat-with-prices').textContent = withPrices;
+  document.getElementById('count-products').textContent = total;
+  const updated = localStorage.getItem('ft_updated');
+  if (updated) {
+    const d = new Date(updated);
+    const str = d.toLocaleDateString('es-CL') + ' ' + d.toLocaleTimeString('es-CL', {hour:'2-digit',minute:'2-digit'});
+    document.getElementById('stat-date').textContent = str;
+    document.getElementById('last-update').textContent = '● ' + str;
+  }
+}
+
+// ═══════════════════════════════════════════════════════
+// DASHBOARD
+// ═══════════════════════════════════════════════════════
+function renderDashboard() {
+  const tbody = document.getElementById('dashboard-table');
+  const cats = [...new Set(products.map(p => p.cat))];
+  tbody.innerHTML = cats.map(cat => {
+    const prods = products.filter(p => p.cat === cat);
+    const prices = prods.flatMap(p => Object.values(p.prices||{}).filter(v => v > 0));
+    const min = prices.length ? Math.min(...prices) : 0;
+    const max = prices.length ? Math.max(...prices) : 0;
+    return `<tr>
+      <td>${CAT_ICONS[cat]||''} ${CAT_NAMES[cat]||cat}</td>
+      <td class="mono">${prods.length}</td>
+      <td class="price-cell">${fmt(min)}</td>
+      <td class="price-cell">${fmt(max)}</td>
+      <td><span class="badge ${prods.length > 0 ? 'badge-green' : 'badge-gray'}">${prods.length > 0 ? 'activo' : 'vacío'}</span></td>
+    </tr>`;
+  }).join('');
+}
+
+// ═══════════════════════════════════════════════════════
+// PRODUCTS TABLE
+// ═══════════════════════════════════════════════════════
+function renderProducts() {
+  const q      = document.getElementById('search-input').value.toLowerCase();
+  const catF   = document.getElementById('filter-cat').value;
+  const storeF = document.getElementById('filter-store').value;
+
+  let filtered = products.filter(p => {
+    const matchQ = !q || p.name.toLowerCase().includes(q) || p.brand.toLowerCase().includes(q);
+    const matchC = !catF || p.cat === catF;
+    const matchS = !storeF || (p.prices?.[storeF] > 0);
+    return matchQ && matchC && matchS;
+  });
+
+  const tbody = document.getElementById('products-table');
+  tbody.innerHTML = filtered.map(p => {
+    const storeCells = STORES.map(s =>
+      `<td><input class="price-input" type="number" value="${p.prices?.[s.id]||''}" placeholder="—"
+        onchange="updatePrice(${p.id},'${s.id}',this.value)"
+        onfocus="this.style.borderColor='var(--accent)'"
+        onblur="this.style.borderColor='var(--border)'"></td>`
+    ).join('');
+    return `<tr>
+      <td>
+        <div style="font-weight:500;font-size:13px">${p.name}</div>
+        <div style="font-size:11px;color:var(--text3);font-family:var(--mono);margin-top:2px">${p.brand}</div>
+      </td>
+      <td><span class="badge badge-gray">${CAT_NAMES[p.cat]||p.cat}</span></td>
+      ${storeCells}
+      <td>
+        <div style="display:flex;gap:6px">
+          <button class="btn btn-ghost" style="padding:5px 10px;font-size:11px" onclick="editProduct(${p.id})">✎</button>
+          <button class="btn btn-danger" style="padding:5px 10px;font-size:11px" onclick="deleteProduct(${p.id})">✕</button>
+        </div>
+      </td>
+    </tr>`;
+  }).join('');
+}
+
+function updatePrice(id, store, value) {
+  const p = products.find(p => p.id === id);
+  if (!p) return;
+  if (!p.prices) p.prices = {};
+  p.prices[store] = parseInt(value) || 0;
+  save();
+  showToast('Precio actualizado', 'success');
+}
+
+// ═══════════════════════════════════════════════════════
+// STORES
+// ═══════════════════════════════════════════════════════
+function renderStores() {
+  const tbody = document.getElementById('stores-table');
+  tbody.innerHTML = STORES.map(s => {
+    const count = products.filter(p => p.prices?.[s.id] > 0).length;
+    return `<tr>
+      <td><strong>${s.name}</strong></td>
+      <td class="mono" style="font-size:12px;color:var(--text2)">${s.url}</td>
+      <td class="mono">${s.rating} ★</td>
+      <td><span class="badge badge-green">activa</span></td>
+      <td class="mono">${count}</td>
+    </tr>`;
+  }).join('');
+}
+
+// ═══════════════════════════════════════════════════════
+// MODAL
+// ═══════════════════════════════════════════════════════
+function openAddModal() {
+  editingId = null;
+  document.getElementById('modal-title').textContent = '// agregar producto';
+  ['brand','name','img','n1g','alltec','cg','centrale','pcexpress'].forEach(f => {
+    document.getElementById('f-'+f).value = '';
+  });
+  document.getElementById('f-cat').value = 'gpu';
+  document.getElementById('modal').classList.add('open');
+}
+
+function editProduct(id) {
+  const p = products.find(x => x.id === id);
+  if (!p) return;
+  editingId = id;
+  document.getElementById('modal-title').textContent = '// editar producto';
+  document.getElementById('f-brand').value   = p.brand || '';
+  document.getElementById('f-name').value    = p.name  || '';
+  document.getElementById('f-cat').value     = p.cat   || 'gpu';
+  document.getElementById('f-img').value     = p.img   || '';
+  document.getElementById('f-n1g').value     = p.prices?.n1g       || '';
+  document.getElementById('f-alltec').value  = p.prices?.alltec    || '';
+  document.getElementById('f-cg').value      = p.prices?.cg        || '';
+  document.getElementById('f-centrale').value= p.prices?.centrale  || '';
+  document.getElementById('f-pcexpress').value=p.prices?.pcexpress || '';
+  document.getElementById('modal').classList.add('open');
+}
+
+function closeModal() {
+  document.getElementById('modal').classList.remove('open');
+}
+
+function saveProduct() {
+  const name = document.getElementById('f-name').value.trim();
+  if (!name) { showToast('El nombre es obligatorio', 'error'); return; }
+
+  const data = {
+    brand: document.getElementById('f-brand').value.trim(),
+    name,
+    cat:   document.getElementById('f-cat').value,
+    img:   document.getElementById('f-img').value.trim(),
+    prices: {
+      n1g:       parseInt(document.getElementById('f-n1g').value)      || 0,
+      alltec:    parseInt(document.getElementById('f-alltec').value)   || 0,
+      cg:        parseInt(document.getElementById('f-cg').value)       || 0,
+      centrale:  parseInt(document.getElementById('f-centrale').value) || 0,
+      pcexpress: parseInt(document.getElementById('f-pcexpress').value)|| 0,
+    }
+  };
+
+  if (editingId) {
+    const idx = products.findIndex(p => p.id === editingId);
+    if (idx >= 0) products[idx] = { ...products[idx], ...data };
+    showToast('Producto actualizado ✓', 'success');
+  } else {
+    data.id = Date.now();
+    products.push(data);
+    showToast('Producto agregado ✓', 'success');
+  }
+
+  save();
+  closeModal();
+  renderProducts();
+}
+
+function deleteProduct(id) {
+  if (!confirm('¿Eliminar este producto?')) return;
+  products = products.filter(p => p.id !== id);
+  save();
+  renderProducts();
+  showToast('Producto eliminado', 'success');
+}
+
+// ═══════════════════════════════════════════════════════
+// EXPORT
+// ═══════════════════════════════════════════════════════
+function buildJSON() {
+  return products.map(p => {
+    const prices = Object.entries(p.prices||{}).filter(([,v]) => v > 0);
+    const bestPrice = prices.length ? Math.min(...prices.map(([,v]) => v)) : null;
+    const bestStore = prices.length ? prices.reduce((a,b) => a[1] < b[1] ? a : b)[0] : null;
+    return {
+      id:             p.id,
+      category_id:    p.cat,
+      brand:          p.brand,
+      name:           p.name,
+      image_url:      p.img || null,
+      tags:           [],
+      best_price:     bestPrice,
+      best_store_id:  bestStore,
+      best_store_name: bestStore ? (STORES.find(s=>s.id===bestStore)?.name||bestStore) : null,
+      store_count:    prices.length,
+      prices:         Object.fromEntries(prices),
+      updated_at:     new Date().toISOString(),
+    };
+  });
+}
+
+function renderExport() {
+  const json = JSON.stringify(buildJSON(), null, 2);
+  document.getElementById('json-preview').value = json;
+}
+
+function exportJSON() {
+  renderExport();
+  downloadJSON();
+}
+
+function downloadJSON() {
+  const json = JSON.stringify(buildJSON(), null, 2);
+  const blob = new Blob([json], { type: 'application/json' });
+  const a    = document.createElement('a');
+  a.href     = URL.createObjectURL(blob);
+  a.download = 'products.json';
+  a.click();
+  showToast('products.json descargado ✓', 'success');
+}
+
+function copyJSON() {
+  const json = JSON.stringify(buildJSON(), null, 2);
+  navigator.clipboard.writeText(json);
+  showToast('JSON copiado al portapapeles ✓', 'success');
+}
+
+// ═══════════════════════════════════════════════════════
+// TOAST
+// ═══════════════════════════════════════════════════════
+function showToast(msg, type = 'success') {
+  const t = document.getElementById('toast');
+  t.textContent = (type === 'success' ? '✓ ' : '✕ ') + msg;
+  t.className = 'toast ' + type + ' show';
+  setTimeout(() => t.classList.remove('show'), 3000);
+}
+
+// Cerrar modal al clic fuera
+document.getElementById('modal').addEventListener('click', function(e) {
+  if (e.target === this) closeModal();
+});
+
+// ═══════════════════════════════════════════════════════
+// INIT
+// ═══════════════════════════════════════════════════════
+updateStats();
+renderDashboard();
+</script>
+</body>
+</html>
