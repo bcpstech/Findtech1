@@ -30,6 +30,16 @@ const CARD_SURCHARGE = 1.03;
 class AlltecScraper extends BaseScraper {
   constructor() { super('alltec', 'Alltec'); }
 
+
+  isAccessory(name) {
+    const lower = name.toLowerCase();
+    const keywords = ['cable','adaptador','bracket','tornillo','pasta termica',
+      'pasta térmica','soporte','accesorio','herramienta','teclado','mouse',
+      'auricular','headset','parlante','silla','pad','mousepad','webcam',
+      'microfono','micrófono','joystick','cargador','hub usb'];
+    return keywords.some(kw => lower.includes(kw));
+  }
+
   async scrapeAll() {
     this.seenUrls = new Set();
     for (const { url, catId } of CATEGORIES) {
@@ -87,6 +97,7 @@ class AlltecScraper extends BaseScraper {
             const name = $el.find('.product-name').text().trim()
                       || $el.find('a.products-block-image').attr('title') || '';
             if (!name) return;
+            if (this.isAccessory(name)) return;
 
             // Precio formato: "$ 52,900" — remover $ y reemplazar coma por punto
             const priceRaw = $el.find('.price-box span.price, .price').first().text().trim();
