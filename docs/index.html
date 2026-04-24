@@ -483,6 +483,116 @@ footer{
 .toast.success{border-color:var(--green);color:var(--green)}
 
 
+
+/* ── PÁGINA DETALLE PRODUCTO ── */
+#page-detail { display:none }
+#page-detail.active { display:block }
+
+.detail-wrap{
+  display:grid;grid-template-columns:340px 1fr;
+  gap:28px;align-items:start;
+  max-width:1100px;margin:0 auto;
+}
+.detail-img-box{
+  background:var(--bg2);border:1px solid var(--border);
+  border-radius:16px;padding:32px;
+  display:flex;align-items:center;justify-content:center;
+  aspect-ratio:1;position:sticky;top:84px;
+}
+.detail-img-box img{max-width:100%;max-height:280px;object-fit:contain}
+.detail-img-box .emoji{font-size:80px}
+.detail-right{display:flex;flex-direction:column;gap:20px}
+.detail-brand{font-size:12px;font-weight:700;color:var(--accent);
+  text-transform:uppercase;letter-spacing:1px}
+.detail-name{font-size:22px;font-weight:800;line-height:1.3;color:var(--text)}
+.detail-cat{font-size:13px;color:var(--text3);margin-top:4px}
+
+.detail-prices-box{
+  background:var(--bg2);border:1px solid var(--border);
+  border-radius:12px;overflow:hidden;
+}
+.detail-prices-title{
+  padding:14px 20px;font-size:13px;font-weight:700;
+  color:var(--text3);text-transform:uppercase;letter-spacing:1px;
+  border-bottom:1px solid var(--border);background:var(--bg3);
+}
+.detail-price-row{
+  display:flex;align-items:center;padding:14px 20px;
+  border-bottom:1px solid var(--border);gap:12px;
+  transition:background .15s;
+}
+.detail-price-row:last-child{border-bottom:none}
+.detail-price-row:hover{background:var(--bg3)}
+.detail-price-row.best-row{background:rgba(34,197,94,0.04);}
+.dpr-store{
+  display:flex;flex-direction:column;gap:3px;flex:1;
+}
+.dpr-store-name{font-size:14px;font-weight:600;color:var(--text)}
+.dpr-best-badge{
+  display:inline-block;font-size:9px;font-weight:700;
+  background:rgba(34,197,94,0.15);color:var(--green);
+  padding:2px 7px;border-radius:3px;letter-spacing:0.5px;
+  margin-left:6px;vertical-align:middle;
+}
+.dpr-methods{display:flex;flex-direction:column;gap:4px;align-items:flex-end}
+.dpr-cash{
+  font-family:var(--mono);font-size:18px;font-weight:700;color:var(--green)
+}
+.dpr-cash-label{font-size:10px;color:var(--text3)}
+.dpr-card{font-family:var(--mono);font-size:13px;color:var(--text2)}
+.dpr-card-label{font-size:10px;color:var(--text3)}
+.dpr-link{
+  padding:8px 16px;border-radius:var(--r);
+  background:var(--accent);color:#fff;
+  font-size:12px;font-weight:600;white-space:nowrap;
+  transition:opacity .15s;flex-shrink:0;
+}
+.dpr-link:hover{opacity:0.85}
+
+.detail-specs-box{
+  background:var(--bg2);border:1px solid var(--border);
+  border-radius:12px;overflow:hidden;
+}
+.detail-specs-title{
+  padding:14px 20px;font-size:13px;font-weight:700;
+  color:var(--text3);text-transform:uppercase;letter-spacing:1px;
+  border-bottom:1px solid var(--border);background:var(--bg3);
+}
+.detail-specs-grid{
+  display:grid;grid-template-columns:1fr 1fr;
+  gap:1px;background:var(--border);
+}
+.detail-spec-item{
+  background:var(--bg2);padding:12px 16px;
+}
+.detail-spec-key{font-size:11px;color:var(--text3);margin-bottom:3px}
+.detail-spec-val{font-size:13px;font-weight:500;color:var(--text)}
+
+.btn-back{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:8px 16px;border-radius:var(--r);
+  background:var(--bg2);border:1px solid var(--border);
+  color:var(--text2);font-size:13px;cursor:pointer;
+  transition:all .15s;margin-bottom:20px;
+}
+.btn-back:hover{color:var(--text);border-color:var(--text2)}
+
+.detail-opinion-btn{
+  width:100%;padding:12px;border-radius:var(--r);
+  background:transparent;color:var(--text2);
+  font-family:var(--sans);font-size:14px;font-weight:500;
+  border:1px solid var(--border2);cursor:pointer;
+  transition:all .15s;
+  display:flex;align-items:center;justify-content:center;gap:8px;
+}
+.detail-opinion-btn:hover{color:var(--accent);border-color:var(--accent)}
+
+@media(max-width:768px){
+  .detail-wrap{grid-template-columns:1fr}
+  .detail-img-box{position:relative;top:0;aspect-ratio:auto;padding:24px}
+  .detail-specs-grid{grid-template-columns:1fr}
+}
+
 /* ── OPINION MODAL ── */
 .opinion-overlay{
   display:none;position:fixed;inset:0;
@@ -864,6 +974,33 @@ select.form-input{cursor:pointer}
       </div>
 
       <div class="prod-grid" id="prod-grid"></div>
+    </div>
+
+
+    <!-- DETAIL PAGE -->
+    <div class="page" id="page-detail">
+      <button class="btn-back" onclick="goBack()">← Volver</button>
+      <div class="detail-wrap">
+        <div class="detail-img-box" id="detail-img"></div>
+        <div class="detail-right">
+          <div>
+            <div class="detail-brand" id="detail-brand"></div>
+            <div class="detail-name" id="detail-name"></div>
+            <div class="detail-cat" id="detail-cat"></div>
+          </div>
+          <div class="detail-prices-box">
+            <div class="detail-prices-title">💰 Precios por tienda</div>
+            <div id="detail-prices"></div>
+          </div>
+          <div class="detail-specs-box" id="detail-specs-box" style="display:none">
+            <div class="detail-specs-title">📋 Especificaciones</div>
+            <div class="detail-specs-grid" id="detail-specs-grid"></div>
+          </div>
+          <button class="detail-opinion-btn" onclick="openOpinion()">
+            ✍️ Dar opinión sobre este producto
+          </button>
+        </div>
+      </div>
     </div>
 
     <!-- STORES PAGE -->
@@ -1275,7 +1412,7 @@ function cardHtml(p) {
     + `<div class="emoji" style="display:none">${cat.icon}</div>`
     : `<div class="emoji">${cat.icon}</div>`;
 
-  return `<div class="prod-card" onclick="openModal(${p.id})">
+  return `<div class="prod-card" onclick="openDetail(${p.id})">
     <div class="prod-img">
       ${imgHtml}
     </div>
@@ -1297,7 +1434,7 @@ function cardHtml(p) {
       </div>
     </div>
     <div class="card-actions">
-      <button class="btn-ver" onclick="event.stopPropagation();openModal(${p.id})">Ver precios</button>
+      <button class="btn-ver" onclick="event.stopPropagation();openDetail(${p.id})">Ver precios</button>
       ${p.url ? `<a class="btn-cmp" href="${p.url}" target="_blank" onclick="event.stopPropagation()">🔗</a>` : ''}
     </div>
   </div>`;
@@ -1450,6 +1587,109 @@ async function loadData() {
 // ═══════════════════════════════════════════════
 // INIT
 // ═══════════════════════════════════════════════
+
+
+// ═══════════════════════════════════════════════
+// PÁGINA DETALLE
+// ═══════════════════════════════════════════════
+let _prevPage = 'hardware';
+
+function goBack() {
+  showPage(_prevPage);
+}
+
+function openDetail(id) {
+  const p = PRODUCTS.find(x => x.id === id);
+  if (!p) return;
+  currentOpinionProduct = p;
+  _prevPage = currentPage;
+
+  const cat = CATS[p.category] || { icon: '📦', name: p.category };
+
+  // Imagen
+  const imgEl = document.getElementById('detail-img');
+  imgEl.innerHTML = p.imageUrl
+    ? `<img src="${p.imageUrl}" alt="${p.name}" onerror="this.style.display='none'">`
+    : `<div class="emoji">${cat.icon}</div>`;
+
+  // Info básica
+  document.getElementById('detail-brand').textContent = p.brand || cat.name;
+  document.getElementById('detail-name').textContent = p.name;
+  document.getElementById('detail-cat').textContent = cat.icon + ' ' + cat.name;
+
+  // Precios por tienda
+  const pricesEl = document.getElementById('detail-prices');
+  const storePrices = Object.entries(p.prices || {}).filter(([, v]) => v > 0);
+  storePrices.sort((a, b) => a[1] - b[1]);
+
+  if (!storePrices.length && p._bestPrice) {
+    const s = STORES.find(x => x.id === p._bestStoreId);
+    storePrices.push([p._bestStoreId, p._bestPrice]);
+  }
+
+  if (storePrices.length) {
+    const bestPrice = storePrices[0][1];
+    pricesEl.innerHTML = storePrices.map(([sid, sprice], i) => {
+      const s = STORES.find(x => x.id === sid);
+      const storeName = s?.name || sid;
+      const cardPrice = Math.round(sprice * 1.0526);
+      const isBest = sprice === bestPrice;
+      const specs = p.specs || {};
+      // Intentar obtener precio tarjeta desde specs
+      const cardFromSpecs = Object.entries(specs).find(([k]) =>
+        k.toLowerCase().includes('tarjeta') || k.toLowerCase().includes('webpay') || k.toLowerCase().includes('crédito')
+      );
+      const cashFromSpecs = Object.entries(specs).find(([k]) =>
+        k.toLowerCase().includes('efectivo') || k.toLowerCase().includes('transferencia')
+      );
+
+      const cashLabel = cashFromSpecs ? cashFromSpecs[0] : 'Efectivo / Transferencia';
+      const cardLabel = cardFromSpecs ? cardFromSpecs[0] : 'Webpay / Tarjeta';
+      const cardVal = cardFromSpecs ? cardFromSpecs[1] : '$' + cardPrice.toLocaleString('es-CL');
+
+      return `<div class="detail-price-row${isBest ? ' best-row' : ''}">
+        <div class="dpr-store">
+          <span class="dpr-store-name">${storeName}${isBest ? '<span class="dpr-best-badge">MEJOR PRECIO</span>' : ''}</span>
+        </div>
+        <div class="dpr-methods">
+          <span class="dpr-cash-label">${cashLabel}</span>
+          <span class="dpr-cash">$${sprice.toLocaleString('es-CL')}</span>
+          <span class="dpr-card-label">${cardLabel}</span>
+          <span class="dpr-card">${cardVal}</span>
+        </div>
+        ${p.url ? `<a class="dpr-link" href="${p.url}" target="_blank">Ir a tienda →</a>` : ''}
+      </div>`;
+    }).join('');
+  } else {
+    pricesEl.innerHTML = '<div style="padding:20px;color:var(--text3);text-align:center">Sin precios disponibles</div>';
+  }
+
+  // Specs
+  const specs = p.specs || {};
+  const specKeys = Object.keys(specs).filter(k =>
+    !k.toLowerCase().includes('efectivo') &&
+    !k.toLowerCase().includes('tarjeta') &&
+    !k.toLowerCase().includes('webpay') &&
+    !k.toLowerCase().includes('transferencia')
+  );
+  const specsBox = document.getElementById('detail-specs-box');
+  const specsGrid = document.getElementById('detail-specs-grid');
+  if (specKeys.length) {
+    specsGrid.innerHTML = specKeys.map(k =>
+      `<div class="detail-spec-item">
+        <div class="detail-spec-key">${k}</div>
+        <div class="detail-spec-val">${specs[k]}</div>
+      </div>`
+    ).join('');
+    specsBox.style.display = '';
+  } else {
+    specsBox.style.display = 'none';
+  }
+
+  // Scroll al top y mostrar página
+  window.scrollTo(0, 0);
+  showPage('detail');
+}
 
 // ═══════════════════════════════════════════════
 // EMAILJS + OPINION FORM
