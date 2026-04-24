@@ -1,5 +1,17 @@
 name: Scraping Diario FindTech.cl
 
+workflow_dispatch:
+    inputs:
+      stores:
+        type: choice
+        options:
+          - todas
+          - n1g
+          - alltec
+          - cg
+          - centrale
+          - pcexpress
+
 on:
   schedule:
     - cron: '0 3 * * *'
