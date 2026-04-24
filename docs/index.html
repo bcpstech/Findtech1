@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FindTech.cl — Compara precios de hardware en Chile</title>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root {
   --bg:       #0b0d11;
@@ -21,9 +21,29 @@
   --text:     #eef0f6;
   --text2:    #7a8499;
   --text3:    #3d4557;
-  --mono:     'JetBrains Mono', monospace;
+  --mono:     'Inter', 'JetBrains Mono', monospace;
   --sans:     'Outfit', sans-serif;
   --r:        8px;
+  --logo-dark:  block;
+  --logo-light: none;
+}
+[data-theme="light"] {
+  --bg:       #f0f2f7;
+  --bg2:      #ffffff;
+  --bg3:      #e8eaf0;
+  --surface:  rgba(0,0,0,0.03);
+  --border:   rgba(0,0,0,0.09);
+  --border2:  rgba(0,0,0,0.15);
+  --accent:   #00bcd4;
+  --accent2:  #0097a7;
+  --green:    #16a34a;
+  --red:      #dc2626;
+  --amber:    #d97706;
+  --text:     #0f1117;
+  --text2:    #4b5563;
+  --text3:    #9ca3af;
+  --logo-dark:  none;
+  --logo-light: block;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
@@ -32,12 +52,26 @@ body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:1
 ::-webkit-scrollbar-track{background:var(--bg)}
 ::-webkit-scrollbar-thumb{background:var(--bg3);border-radius:3px}
 img{max-width:100%;display:block}
+/* ── THEME TOGGLE ── */
+.theme-toggle{
+  width:36px;height:36px;border-radius:var(--r);
+  background:var(--bg3);border:1px solid var(--border);
+  color:var(--text2);font-size:16px;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;
+  transition:all .15s;flex-shrink:0;
+}
+.theme-toggle:hover{color:var(--accent);border-color:var(--accent)}
+
+/* ── LOGO IMG ── */
+.logo-img-dark { display:var(--logo-dark); height:28px; width:auto; }
+.logo-img-light { display:var(--logo-light); height:28px; width:auto; }
+
 a{text-decoration:none;color:inherit}
 
 /* ── HEADER ── */
 header{
   position:sticky;top:0;z-index:200;
-  background:rgba(11,13,17,0.95);
+  background:color-mix(in srgb, var(--bg) 95%, transparent);
   backdrop-filter:blur(12px);
   border-bottom:1px solid var(--border);
   height:60px;
@@ -463,8 +497,9 @@ footer{
 
 <!-- HEADER -->
 <header>
-  <div class="logo" onclick="showPage('home')">
-    <div class="dot"></div>Find<em>Tech</em>.cl
+  <div class="logo" onclick="showPage('home')" style="cursor:pointer">
+    <img src="./img/FINDWH.webp" alt="FindTech.cl" class="logo-img-dark">
+    <img src="./img/FINDBLACK.webp" alt="FindTech.cl" class="logo-img-light">
   </div>
 
   <nav>
@@ -535,6 +570,7 @@ footer{
     <span class="search-icon">🔍</span>
     <input type="text" placeholder="Buscar componentes..." id="header-search" oninput="onSearch(this.value)">
   </div>
+  <button class="theme-toggle" id="theme-btn" onclick="toggleTheme()" title="Cambiar tema">🌙</button>
 </header>
 
 <!-- LAYOUT -->
@@ -772,7 +808,10 @@ footer{
 <footer>
   <div class="footer-grid">
     <div class="footer-brand">
-      <div class="logo"><div class="dot"></div>Find<em>Tech</em>.cl</div>
+      <div class="logo" style="cursor:pointer" onclick="showPage('home')">
+        <img src="./img/FINDWH.webp" alt="FindTech.cl" class="logo-img-dark" style="height:22px">
+        <img src="./img/FINDBLACK.webp" alt="FindTech.cl" class="logo-img-light" style="height:22px">
+      </div>
       <p style="margin-top:12px">Comparamos precios de hardware en las principales tiendas de Chile. Actualizado diariamente.</p>
     </div>
     <div class="footer-col">
@@ -1204,10 +1243,44 @@ async function loadData() {
 // ═══════════════════════════════════════════════
 // INIT
 // ═══════════════════════════════════════════════
+// ═══════════════════════════════════════════════
+// THEME TOGGLE
+// ═══════════════════════════════════════════════
+function toggleTheme() {
+  const html = document.documentElement;
+  const btn = document.getElementById('theme-btn');
+  if (html.getAttribute('data-theme') === 'light') {
+    html.removeAttribute('data-theme');
+    btn.textContent = '🌙';
+    localStorage.setItem('ft_theme', 'dark');
+  } else {
+    html.setAttribute('data-theme', 'light');
+    btn.textContent = '☀️';
+    localStorage.setItem('ft_theme', 'light');
+  }
+}
+
+// Aplicar tema guardado
+(function() {
+  const saved = localStorage.getItem('ft_theme');
+  if (saved === 'light') {
+    document.documentElement.setAttribute('data-theme', 'light');
+    document.addEventListener('DOMContentLoaded', () => {
+      const btn = document.getElementById('theme-btn');
+      if (btn) btn.textContent = '☀️';
+    });
+  }
+})();
+
 (async () => {
   await loadData();
   renderHome();
   renderProds();
+  // Sync toggle icon on load
+  if (localStorage.getItem('ft_theme') === 'light') {
+    const btn = document.getElementById('theme-btn');
+    if (btn) btn.textContent = '☀️';
+  }
 })();
 </script>
 </body>
