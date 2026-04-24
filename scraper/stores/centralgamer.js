@@ -58,9 +58,9 @@ class CentralGamerScraper extends BaseScraper {
         if (!products || !products.length) { hasMore = false; break; }
 
         for (const p of products) {
-          // Precio en formato "449990" (sin símbolo, en centavos WC)
-          const price = parseInt(p.prices?.price) / 100;
-          const regularPrice = parseInt(p.prices?.regular_price) / 100;
+          // Precio viene como string "449990" — sin centavos
+          const price = parseInt(p.prices?.price);
+          const regularPrice = parseInt(p.prices?.regular_price);
 
           if (!price || price < 1000) continue;
 
@@ -73,8 +73,8 @@ class CentralGamerScraper extends BaseScraper {
               imageUrl: p.images?.[0]?.src || null,
             },
             {
-              current:  Math.round(price),
-              normal:   regularPrice && regularPrice > price ? Math.round(regularPrice) : null,
+              current:  price,
+              normal:   regularPrice && regularPrice > price ? regularPrice : null,
               discount: regularPrice > price ? Math.round((1 - price/regularPrice)*100) : null,
               stock:    p.is_in_stock ? 'in_stock' : 'out_of_stock',
               url:      p.permalink || null,
