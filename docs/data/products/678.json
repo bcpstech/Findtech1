@@ -1,32 +1,32 @@
 {
   "id": 678,
-  "external_id": "centrale_procesador-intel-core-ultra-7-265f-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core Ultra 7 265F Hasta 5.3Ghz 30Mb Cache 20 Core S1851 P/N",
-  "slug": "procesador-intel-core-ultra-7-265f-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-7-265F-Hasta-5.3Ghz-30Mb-Cache-20-Core-S185_nzZFLWZ.webp",
+  "external_id": "centrale_placa-madre-asus-prime-b650m-f-micro-atx-amd-b650-socket-am5-ddr5",
+  "category_id": "mobo",
+  "brand": "Asus",
+  "name": "Placa madre Asus PRIME B650M-F Micro ATX AMD B650 Socket AM5 DDR5",
+  "slug": "placa-madre-asus-prime-b650m-f-micro-atx-amd-b650-socket-am5-ddr5",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-madre-Asus-PRIME-B650M-F-Micro-ATX-AMD-B650-Socket-AM5-DDR5.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$426.200",
-    "Tarjetas de Crédito / Débito": "$449.640"
+    "Transferencia / Efectivo": "$97.870",
+    "Tarjetas de Crédito / Débito": "$103.250"
   },
   "tags": [],
-  "created_at": "2026-04-24 20:16:27",
-  "updated_at": "2026-04-24 20:16:27",
+  "created_at": "2026-04-24 21:46:03",
+  "updated_at": "2026-04-24 21:46:03",
   "prices": [
     {
       "id": 678,
       "product_id": 678,
       "store_id": "centrale",
-      "price": 426200,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 97870,
+      "price_normal": 113920,
+      "discount_pct": 14,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265f-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n/",
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b650m-f-micro-atx-amd-b650-socket-am5-ddr5/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 20:16:27",
+      "scraped_at": "2026-04-24 21:46:03",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 426200
+      "price": 97870
     }
   ],
   "scraped_at": "2026-04-24"

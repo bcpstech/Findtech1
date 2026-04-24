@@ -1,32 +1,32 @@
 {
   "id": 606,
-  "external_id": "centrale_tarjeta-grafica-msi-geforce-rtx-5070-12gb-ventus-3x-oc-gddr6",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "Tarjeta Gráfica MSI GeForce RTX 5070 12GB VENTUS 3X OC GDDR6",
-  "slug": "tarjeta-grafica-msi-geforce-rtx-5070-12gb-ventus-3x-oc-gddr6",
-  "image_url": "https://centrale.cl/wp-content/uploads/Msi-Geforce-Rtx-5070-12G-Ventus-3X-Oc-912-V532-205-1775866617.webp",
+  "external_id": "centrale_procesador-amd-ryzen-7-9850x3d-8-core-16-threads-4-7-8211-5-6ghz-120w",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 7 9850X3D (8-Core, 16-Threads, 4.7 &#8211; 5.6GHz, 120W)",
+  "slug": "procesador-amd-ryzen-7-9850x3d-8-core-16-threads-4-7-8211-5-6ghz-120w",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-9850X3D-8-Core-16-Threads-47-56GHz-120W.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$811.410",
-    "Tarjetas de Crédito / Débito": "$856.040"
+    "Transferencia / Efectivo": "$581.920",
+    "Tarjetas de Crédito / Débito": "$613.930"
   },
   "tags": [],
-  "created_at": "2026-04-24 20:16:25",
-  "updated_at": "2026-04-24 20:16:25",
+  "created_at": "2026-04-24 21:46:00",
+  "updated_at": "2026-04-24 21:46:00",
   "prices": [
     {
       "id": 606,
       "product_id": 606,
       "store_id": "centrale",
-      "price": 811410,
+      "price": 581920,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5070-12gb-ventus-3x-oc-gddr6/",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-9850x3d-8-core-16-threads-4-7-5-6ghz-120w/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 20:16:25",
+      "scraped_at": "2026-04-24 21:46:00",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 811410
+      "price": 581920
     }
   ],
   "scraped_at": "2026-04-24"

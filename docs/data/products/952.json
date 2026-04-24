@@ -1,32 +1,32 @@
 {
   "id": 952,
-  "external_id": "centrale_unidad-ssd-xpg-adata-legend-710-512gb-m-2-pcie-3-0-x4-nvme-con-disipador",
+  "external_id": "centrale_disco-ssd-960gb-kingston-a400-2-5-sata3",
   "category_id": "storage",
-  "brand": "XPG",
-  "name": "Unidad SSD XPG Adata Legend 710 512GB M.2 PCIe 3.0 x4 NVMe con disipador",
-  "slug": "unidad-ssd-xpg-adata-legend-710-512gb-m-2-pcie-3-0-x4-nvme-con-disipador",
-  "image_url": "https://centrale.cl/wp-content/uploads/Xpg-Unidad-Ssd-512Gb-Pcie-Nvme-Gen3-M.2-Legend-710-ALEG-710-512GCS.webp",
+  "brand": "Kingston",
+  "name": "Disco SSD 960GB Kingston A400 2.5″ SATA3",
+  "slug": "disco-ssd-960gb-kingston-a400-2-5-sata3",
+  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-960GB-Kingston-A400-2.5-SATA3_DR2DTuB.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$102.390",
-    "Tarjetas de Crédito / Débito": "$108.020"
+    "Transferencia / Efectivo": "$171.020",
+    "Tarjetas de Crédito / Débito": "$180.430"
   },
   "tags": [],
-  "created_at": "2026-04-24 20:16:37",
-  "updated_at": "2026-04-24 20:16:37",
+  "created_at": "2026-04-24 21:46:10",
+  "updated_at": "2026-04-24 21:46:10",
   "prices": [
     {
       "id": 952,
       "product_id": 952,
       "store_id": "centrale",
-      "price": 102390,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 171020,
+      "price_normal": 196530,
+      "discount_pct": 13,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/unidad-ssd-xpg-adata-legend-710-512gb-m-2-pcie-3-0-x4-nvme-con-disipador/",
+      "product_url": "https://centrale.cl/producto/disco-ssd-960gb-kingston-a400-2-5%e2%80%b3-sata3/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 20:16:37",
+      "scraped_at": "2026-04-24 21:46:10",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 102390
+      "price": 171020
     }
   ],
   "scraped_at": "2026-04-24"

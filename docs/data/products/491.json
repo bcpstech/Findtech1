@@ -1,45 +1,45 @@
 {
   "id": 491,
-  "external_id": "n1g_airflow-roble-artis-black-madera-usb-c-x4-fan-gabinete-atx-e-atx-ssi-ceb-y-ssi-eeb",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "AirFlow ROBLE Artis Black/Madera, USB-C x4 Fan, Gabinete ATX E-ATX SSI CEB y SSI EEB",
-  "slug": "airflow-roble-artis-black-madera-usb-c-x4-fan-gabinete-atx-e-atx-ssi-ceb-y-ssi-eeb",
-  "image_url": "https://n1g.cl/Home/15624-home_default/airflow-roble-work-blackmadera-usb-c-x4-fan-gabinete-atx-e-atx-ssi-ceb-y-ssi-eeb.jpg",
+  "external_id": "cg_procesador-amd-ryzen-5-5600gt",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 5 5600GT",
+  "slug": "procesador-amd-ryzen-5-5600gt",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/02/1_1740494652780.jpg?fit=1500%2C1500&ssl=1",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$89.900",
-    "Tarjeta crédito/débito": "$92.597"
+    "Efectivo/Transferencia": "$146.290",
+    "Webpay / Tarjeta crédito-débito": "$153.990"
   },
   "tags": [],
-  "created_at": "2026-04-24 20:15:30",
-  "updated_at": "2026-04-24 20:15:30",
+  "created_at": "2026-04-24 21:45:42",
+  "updated_at": "2026-04-24 21:45:42",
   "prices": [
     {
       "id": 491,
       "product_id": 491,
-      "store_id": "n1g",
-      "price": 89900,
-      "price_normal": 94632,
-      "discount_pct": 5,
+      "store_id": "cg",
+      "price": 146290,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3651-airflow-roble-work-blackmadera-usb-c-x4-fan-gabinete-atx-e-atx-ssi-ceb-y-ssi-eeb.html",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-5600gt/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 20:15:30",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "scraped_at": "2026-04-24 21:45:42",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
+      "store_id": "cg",
+      "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 89900
+      "price": 146290
     }
   ],
   "scraped_at": "2026-04-24"

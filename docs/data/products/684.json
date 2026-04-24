@@ -1,32 +1,32 @@
 {
   "id": 684,
-  "external_id": "centrale_procesador-intel-core-i9-14900f-lga1700-24-nucleos-5-8ghz-36mb",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core i9-14900F LGA1700, 24 núcleos, 5.8GHz, 36MB",
-  "slug": "procesador-intel-core-i9-14900f-lga1700-24-nucleos-5-8ghz-36mb",
-  "image_url": "https://centrale.cl/wp-content/uploads/Intel-Procesador-Core-I9-14900F-S-1700-2.0Ghz-24-Core-36Mb-Smart-Cache-1.webp",
+  "external_id": "centrale_placa-madre-asus-b860m-ayw-gaming-wifi-micro-atx-lga-1851-2x-ddr5-wifi-6",
+  "category_id": "mobo",
+  "brand": "Asus",
+  "name": "Placa Madre ASUS B860M AYW GAMING WIFI (Micro ATX, LGA 1851, 2x DDR5, WiFi 6)",
+  "slug": "placa-madre-asus-b860m-ayw-gaming-wifi-micro-atx-lga-1851-2x-ddr5-wifi-6",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASUS-B860M-AYW-GAMING-WIFI-Micro-ATX-LGA-1851-2x-DDR5-WiFi-6.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$725.270",
-    "Tarjetas de Crédito / Débito": "$765.160"
+    "Transferencia / Efectivo": "$153.500",
+    "Tarjetas de Crédito / Débito": "$161.940"
   },
   "tags": [],
-  "created_at": "2026-04-24 20:16:27",
-  "updated_at": "2026-04-24 20:16:27",
+  "created_at": "2026-04-24 21:46:03",
+  "updated_at": "2026-04-24 21:46:03",
   "prices": [
     {
       "id": 684,
       "product_id": 684,
       "store_id": "centrale",
-      "price": 725270,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 153500,
+      "price_normal": 171310,
+      "discount_pct": 10,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900f-lga1700-24-nucleos-5-8ghz-36mb/",
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-b860m-ayw-gaming-wifi-micro-atx-lga-1851-2x-ddr5-wifi-6/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 20:16:27",
+      "scraped_at": "2026-04-24 21:46:03",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 725270
+      "price": 153500
     }
   ],
   "scraped_at": "2026-04-24"

@@ -1,32 +1,32 @@
 {
   "id": 649,
-  "external_id": "centrale_tarjeta-grafica-gigabyte-geforce-rtx-5050-windforce-oc-8gb-gddr6-128-bit",
-  "category_id": "gpu",
-  "brand": "Gigabyte",
-  "name": "Tarjeta Gráfica Gigabyte GeForce RTX 5050 Windforce OC 8GB GDDR6 128-bit",
-  "slug": "tarjeta-grafica-gigabyte-geforce-rtx-5050-windforce-oc-8gb-gddr6-128-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-Gigabyte-GeForce-RTX-5050-Windforce-OC-8GB-GDDR7-1.webp",
+  "external_id": "centrale_procesador-intel-core-i5-12400f-2-5ghz-18mb-6-cores-lga-1700",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i5-12400F 2.5Ghz 18Mb 6 Cores LGA 1700",
+  "slug": "procesador-intel-core-i5-12400f-2-5ghz-18mb-6-cores-lga-1700",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i5-12400F-2.5Ghz-18Mb-6-Cores-LGA-1700_JYLZnGg-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$356.010",
-    "Tarjetas de Crédito / Débito": "$375.590"
+    "Transferencia / Efectivo": "$156.880",
+    "Tarjetas de Crédito / Débito": "$165.510"
   },
   "tags": [],
-  "created_at": "2026-04-24 20:16:25",
-  "updated_at": "2026-04-24 20:16:25",
+  "created_at": "2026-04-24 21:46:00",
+  "updated_at": "2026-04-24 21:46:00",
   "prices": [
     {
       "id": 649,
       "product_id": 649,
       "store_id": "centrale",
-      "price": 356010,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 156880,
+      "price_normal": 194340,
+      "discount_pct": 19,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-gigabyte-geforce-rtx-5050-windforce-oc-8gb-gddr6-128-bit/",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-12400f-2-5ghz-18mb-6-cores-lga-1700/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 20:16:25",
+      "scraped_at": "2026-04-24 21:46:00",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 356010
+      "price": 156880
     }
   ],
   "scraped_at": "2026-04-24"

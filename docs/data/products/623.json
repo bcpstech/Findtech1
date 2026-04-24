@@ -1,32 +1,32 @@
 {
   "id": 623,
-  "external_id": "centrale_tarjeta-grafica-msi-rtx-5070-12g-shadow-2x-oc",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "Tarjeta Grafica MSI RTX 5070 12G SHADOW 2X OC",
-  "slug": "tarjeta-grafica-msi-rtx-5070-12g-shadow-2x-oc",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-Grafica-MSI-RTX-5070-12G-SHADOW-2X-OC.webp",
+  "external_id": "centrale_procesador-intel-core-ultra-5-225f-arrow-lake-6-p-cores-4-e-cores-lga-1851",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core Ultra 5 225F Arrow Lake (6 P-Cores + 4 E-Cores, LGA 1851)",
+  "slug": "procesador-intel-core-ultra-5-225f-arrow-lake-6-p-cores-4-e-cores-lga-1851",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-5-225F-Arrow-Lake-6-P-Cores-4-E-Cores-LGA-1851-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$793.830",
-    "Tarjetas de Crédito / Débito": "$837.490"
+    "Transferencia / Efectivo": "$184.000",
+    "Tarjetas de Crédito / Débito": "$194.120"
   },
   "tags": [],
-  "created_at": "2026-04-24 20:16:25",
-  "updated_at": "2026-04-24 20:16:25",
+  "created_at": "2026-04-24 21:46:00",
+  "updated_at": "2026-04-24 21:46:00",
   "prices": [
     {
       "id": 623,
       "product_id": 623,
       "store_id": "centrale",
-      "price": 793830,
-      "price_normal": 891500,
-      "discount_pct": 11,
+      "price": 184000,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5070-12g-shadow-2x-oc/",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-5-225f-arrow-lake-6-p-cores-4-e-cores-lga-1851/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 20:16:25",
+      "scraped_at": "2026-04-24 21:46:00",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 793830
+      "price": 184000
     }
   ],
   "scraped_at": "2026-04-24"

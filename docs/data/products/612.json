@@ -1,32 +1,32 @@
 {
   "id": 612,
-  "external_id": "centrale_tarjeta-grafica-zotac-gaming-rtx-5050-8gb-gddr6-128-bits-dual-ventilador",
-  "category_id": "gpu",
-  "brand": "Zotac",
-  "name": "Tarjeta Gráfica Zotac Gaming RTX 5050 8GB GDDR6, 128 bits, Dual Ventilador",
-  "slug": "tarjeta-grafica-zotac-gaming-rtx-5050-8gb-gddr6-128-bits-dual-ventilador",
-  "image_url": "https://centrale.cl/wp-content/uploads/Zotac-Gaming-Geforce-Rtx-5050-Solo-ZT-B50500G-10L.webp",
+  "external_id": "centrale_procesador-intel-core-i9-14900k-raptor-lake-s-lga1700-uhd-graphics",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i9-14900K Raptor Lake-S LGA1700, UHD Graphics",
+  "slug": "procesador-intel-core-i9-14900k-raptor-lake-s-lga1700-uhd-graphics",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i9-14900K-Raptor-Lake-S-LGA1700-UHD-Graphics_n4rqkpO-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$341.630",
-    "Tarjetas de Crédito / Débito": "$360.420"
+    "Transferencia / Efectivo": "$613.970",
+    "Tarjetas de Crédito / Débito": "$647.740"
   },
   "tags": [],
-  "created_at": "2026-04-24 20:16:25",
-  "updated_at": "2026-04-24 20:16:25",
+  "created_at": "2026-04-24 21:46:00",
+  "updated_at": "2026-04-24 21:46:00",
   "prices": [
     {
       "id": 612,
       "product_id": 612,
       "store_id": "centrale",
-      "price": 341630,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 613970,
+      "price_normal": 685010,
+      "discount_pct": 10,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-rtx-5050-8gb-gddr6-128-bits-dual-ventilador/",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900k-raptor-lake-s-lga1700-uhd-graphics/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 20:16:25",
+      "scraped_at": "2026-04-24 21:46:00",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 341630
+      "price": 613970
     }
   ],
   "scraped_at": "2026-04-24"

@@ -1,32 +1,32 @@
 {
   "id": 627,
-  "external_id": "centrale_tarjeta-grafica-pny-nvidia-quadro-rtx-2000-ada-16gb-gddr6-ecc-pcie-4-0-x8",
-  "category_id": "gpu",
-  "brand": "Pny",
-  "name": "Tarjeta Gráfica PNY Nvidia Quadro RTX 2000 Ada 16GB GDDR6 ECC, PCIe 4.0 x8",
-  "slug": "tarjeta-grafica-pny-nvidia-quadro-rtx-2000-ada-16gb-gddr6-ecc-pcie-4-0-x8",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-PNY-Nvidia-Quadro-RTX-2000-Ada-16GB-GDDR6-ECC-PCIe-4.0-x8-1.webp",
+  "external_id": "centrale_procesador-amd-ryzen-7-7700-socket-am5-8-cores-16-hilos-3-8-5-3ghz",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 7 7700, Socket AM5, 8 Cores, 16 Hilos, 3.8/5.3Ghz",
+  "slug": "procesador-amd-ryzen-7-7700-socket-am5-8-cores-16-hilos-3-8-5-3ghz",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-7700-Socket-AM5-8-Cores-16-Hilos-3.8-5.3Ghz_Qq53L4z-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$949.900",
-    "Tarjetas de Crédito / Débito": "$1.002.140"
+    "Transferencia / Efectivo": "$349.660",
+    "Tarjetas de Crédito / Débito": "$368.890"
   },
   "tags": [],
-  "created_at": "2026-04-24 20:16:25",
-  "updated_at": "2026-04-24 20:16:25",
+  "created_at": "2026-04-24 21:46:00",
+  "updated_at": "2026-04-24 21:46:00",
   "prices": [
     {
       "id": 627,
       "product_id": 627,
       "store_id": "centrale",
-      "price": 949900,
+      "price": 349660,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-pny-nvidia-quadro-rtx-2000-ada-16gb-gddr6-ecc-pcie-4-0-x8/",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-7700-socket-am5-8-cores-16-hilos-3-8-5-3ghz/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 20:16:25",
+      "scraped_at": "2026-04-24 21:46:00",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 949900
+      "price": 349660
     }
   ],
   "scraped_at": "2026-04-24"

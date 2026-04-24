@@ -1,32 +1,32 @@
 {
   "id": 663,
-  "external_id": "centrale_tarjeta-grafica-pny-nvidia-rtx-a1000-8gb-gddr6-ecc-128-bit",
-  "category_id": "gpu",
-  "brand": "Pny",
-  "name": "Tarjeta Gráfica PNY Nvidia RTX A1000 8GB GDDR6 ECC 128-bit",
-  "slug": "tarjeta-grafica-pny-nvidia-rtx-a1000-8gb-gddr6-ecc-128-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-PNY-Nvidia-RTX-A1000-8GB-GDDR6-ECC-128-bit_ogBLiYx-1.webp",
+  "external_id": "centrale_procesador-intel-core-i7-12700f-2-1-ghz-12-core-lga-1700",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i7-12700F 2.1 Ghz 12-Core LGA 1700",
+  "slug": "procesador-intel-core-i7-12700f-2-1-ghz-12-core-lga-1700",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i7-12700F-2.1-Ghz-12-Core-LGA-1700_UR4JtGq.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$647.660",
-    "Tarjetas de Crédito / Débito": "$683.280"
+    "Transferencia / Efectivo": "$305.780",
+    "Tarjetas de Crédito / Débito": "$322.600"
   },
   "tags": [],
-  "created_at": "2026-04-24 20:16:25",
-  "updated_at": "2026-04-24 20:16:25",
+  "created_at": "2026-04-24 21:46:00",
+  "updated_at": "2026-04-24 21:46:00",
   "prices": [
     {
       "id": 663,
       "product_id": 663,
       "store_id": "centrale",
-      "price": 647660,
+      "price": 305780,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-pny-nvidia-rtx-a1000-8gb-gddr6-ecc-128-bit/",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-12700f-2-1-ghz-12-core-lga-1700/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 20:16:25",
+      "scraped_at": "2026-04-24 21:46:00",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 647660
+      "price": 305780
     }
   ],
   "scraped_at": "2026-04-24"
