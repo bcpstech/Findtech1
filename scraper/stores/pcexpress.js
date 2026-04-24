@@ -1,25 +1,46 @@
 /**
  * scraper/stores/pcexpress.js
- * OpenCart HTML scraping — tienda.pc-express.cl
+ * OpenCart — categorías específicas por path
+ * Los productos cargan vía JS en el browser, pero la búsqueda devuelve HTML estático
  */
 const BaseScraper = require('../base-scraper');
 const cheerio = require('cheerio');
 
 const BASE_URL = 'https://tienda.pc-express.cl';
 
-const SEARCHES = [
-  { query: 'tarjeta de video',      catId: 'gpu'     },
-  { query: 'procesador amd',        catId: 'cpu'     },
-  { query: 'procesador intel',      catId: 'cpu'     },
-  { query: 'placa madre',           catId: 'mobo'    },
-  { query: 'memoria ram ddr',       catId: 'ram'     },
-  { query: 'ssd nvme m.2',          catId: 'storage' },
-  { query: 'ssd sata',              catId: 'storage' },
-  { query: 'disco duro hdd',        catId: 'storage' },
-  { query: 'fuente de poder',       catId: 'psu'     },
-  { query: 'gabinete gamer',        catId: 'case'    },
-  { query: 'cooler cpu',            catId: 'cooling' },
-  { query: 'refrigeracion liquida', catId: 'cooling' },
+// Categorías específicas verificadas — sin accesorios
+const CATEGORIES = [
+  // GPU
+  { path: '460_475_158', catId: 'gpu'     }, // AMD Radeon
+  { path: '460_475_159', catId: 'gpu'     }, // NVIDIA Gamer
+  { path: '460_475_602', catId: 'gpu'     }, // Intel Arc
+  // CPU
+  { path: '460_473_367', catId: 'cpu'     }, // AMD AM4
+  { path: '460_473_591', catId: 'cpu'     }, // AMD TR5
+  { path: '460_473_583', catId: 'cpu'     }, // Intel s1200
+  { path: '460_473_588', catId: 'cpu'     }, // Intel s1700
+  { path: '460_473_600', catId: 'cpu'     }, // Intel s1851
+  // Placas Madre
+  { path: '460_472_369', catId: 'mobo'    }, // AMD AM4
+  { path: '460_472_590', catId: 'mobo'    }, // AMD AM5
+  { path: '460_472_584', catId: 'mobo'    }, // Intel s1200
+  { path: '460_472_589', catId: 'mobo'    }, // Intel s1700
+  { path: '460_472_599', catId: 'mobo'    }, // Intel s1851
+  // RAM
+  { path: '72_126',      catId: 'ram'     }, // Memorias PC
+  // Almacenamiento
+  { path: '62_331_406',  catId: 'storage' }, // SSD M.2
+  { path: '62_331_407',  catId: 'storage' }, // SSD SATA
+  { path: '62_331_408',  catId: 'storage' }, // SSD NVMe PCIe
+  { path: '62_413_101',  catId: 'storage' }, // HDD PC
+  // Fuentes
+  { path: '460_461_118', catId: 'psu'     }, // Estándar
+  { path: '460_461_279', catId: 'psu'     }, // Certificadas
+  // Gabinetes
+  { path: '460_462_119', catId: 'case'    }, // Básicos
+  { path: '460_462_120', catId: 'case'    }, // Gamer
+  // Refrigeración
+  { path: '460_473_169', catId: 'cooling' }, // Ventilación CPU
 ];
 
 const CARD_SURCHARGE = 1.03;
@@ -27,34 +48,26 @@ const CARD_SURCHARGE = 1.03;
 class PCExpressScraper extends BaseScraper {
   constructor() { super('pcexpress', 'PC-Express'); }
 
-  isAccessory(name) {
-    const lower = name.toLowerCase();
-    const keywords = ['cable','adaptador','bracket','tornillo','pasta termica',
-      'pasta térmica','soporte','accesorio','herramienta','teclado','mouse',
-      'auricular','headset','parlante','silla','pad','mousepad','webcam',
-      'microfono','micrófono','joystick','cargador','hub usb'];
-    return keywords.some(kw => lower.includes(kw));
-  }
-
   async scrapeAll() {
     this.seenUrls = new Set();
-    for (const { query, catId } of SEARCHES) {
+    for (const cat of CATEGORIES) {
       try {
-        await this.scrapeSearch(query, catId);
+        await this.scrapeCategory(cat);
         await this.delay(1500, 2500);
       } catch (err) {
         this.stats.errors++;
-        this.log('warn', `Error ${catId} (${query}): ${err.message}`);
+        this.log('warn', `Error ${cat.catId} (${cat.path}): ${err.message}`);
       }
     }
   }
 
-  async scrapeSearch(query, catId) {
+  async scrapeCategory({ path, catId }) {
     let page = 1;
 
     while (page <= 10) {
-      const url = `${BASE_URL}/index.php?route=product/search&search=${encodeURIComponent(query)}&sort=p.price&order=ASC&limit=25&page=${page}`;
-      this.log('info', `[pcx] ${catId} "${query}" pág ${page}`);
+      // Intentar con el endpoint de búsqueda por categoría
+      const url = `${BASE_URL}/index.php?route=product/category&path=${path}&limit=100&sort=p.price&order=ASC&page=${page}`;
+      this.log('info', `[pcx] ${catId} path=${path} pág ${page}`);
 
       try {
         const res = await this.client.get(url, {
@@ -66,30 +79,31 @@ class PCExpressScraper extends BaseScraper {
           }
         });
 
-        // Log HTML para debug
-        this.log('info', `[pcx] HTML snippet: ${res.data.slice(200, 600)}`);
-
         const $ = cheerio.load(res.data);
-        const items = $('.product-layout, .product-thumb');
+
+        // Intentar múltiples selectores de OpenCart
+        let items = $('.product-layout');
+        if (!items.length) items = $('.product-thumb');
+        if (!items.length) items = $('[class*="product-layout"]');
+
         let newInPage = 0;
 
         if (items.length) {
           items.each((_, el) => {
             try {
               const $el = $(el);
-              const productUrl = $el.find('a').first().attr('href') || '';
-              if (!productUrl.includes('product_id=')) return;
+              const productUrl = $el.find('a[href*="product_id"]').first().attr('href') || '';
+              if (!productUrl) return;
               if (this.seenUrls.has(productUrl)) return;
               this.seenUrls.add(productUrl);
 
-              const name = $el.find('h4 a, .name a, [class*="name"] a').first().text().trim()
+              const name = $el.find('h4 a, .caption h4 a').first().text().trim()
                         || $el.find('img').first().attr('alt') || '';
               if (!name || name.length < 3) return;
-              if (this.isAccessory(name)) return;
 
-              const priceNew = $el.find('.price-new').first().text().trim()
+              const priceRaw = $el.find('.price-new').first().text().trim()
                             || $el.find('.price').first().text().trim();
-              const price = this.parsePrice(priceNew);
+              const price = this.parsePrice(priceRaw);
               if (!price || price < 1000) return;
 
               const priceOldRaw = $el.find('.price-old').first().text().trim();
@@ -113,34 +127,29 @@ class PCExpressScraper extends BaseScraper {
             } catch(e) { this.log('warn', `[pcx] Error item: ${e.message}`); }
           });
 
-          this.log('info', `[pcx] ✓ "${query}" pág ${page}: ${newInPage} nuevos`);
-          if (items.length < 25) break;
+          this.log('info', `[pcx] ✓ ${catId} path=${path} pág ${page}: ${newInPage} nuevos`);
+          if (items.length < 100) break;
 
         } else {
-          // Fallback: buscar h4 con links a productos
-          let found = false;
-          $('h4').each((_, el) => {
-            const $h4 = $(el);
-            const link = $h4.find('a[href*="product_id"]');
-            if (!link.length) return;
-
-            const productUrl = link.attr('href') || '';
+          // Fallback: buscar h4 con links directos a productos
+          $('h4 a[href*="product_id"]').each((_, el) => {
+            const $a = $(el);
+            const productUrl = $a.attr('href') || '';
             if (this.seenUrls.has(productUrl)) return;
             this.seenUrls.add(productUrl);
 
-            const name = link.text().trim();
-            if (!name || this.isAccessory(name)) return;
+            const name = $a.text().trim();
+            if (!name || name.length < 3) return;
 
-            const $container = $h4.closest('div');
+            const $container = $a.closest('div');
             const priceRaw = $container.find('[class*="price"]').first().text().trim();
             const price = this.parsePrice(priceRaw);
             if (!price || price < 1000) return;
 
-            const imageUrl = $container.find('img').first().attr('src') || null;
             const priceCard = Math.round(price * CARD_SURCHARGE);
+            const imageUrl = $container.find('img').first().attr('src') || null;
 
             this.stats.found++;
-            found = true;
             newInPage++;
             this.saveProduct(
               { name, category: catId, brand: this.extractBrand(name), imageUrl,
@@ -154,8 +163,8 @@ class PCExpressScraper extends BaseScraper {
             );
           });
 
-          this.log('info', `[pcx] ✓ "${query}" pág ${page}: ${newInPage} nuevos (fallback)`);
-          if (!found) break;
+          this.log('info', `[pcx] ✓ ${catId} path=${path} pág ${page}: ${newInPage} (fallback)`);
+          if (!newInPage) break;
         }
 
         page++;
@@ -163,7 +172,7 @@ class PCExpressScraper extends BaseScraper {
 
       } catch (err) {
         this.stats.errors++;
-        this.log('warn', `[pcx] Error HTTP "${query}" pág ${page}: ${err.message}`);
+        this.log('warn', `[pcx] Error HTTP path=${path} pág ${page}: ${err.message}`);
         break;
       }
     }
