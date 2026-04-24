@@ -3,505 +3,459 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>TechCompara.cl — Compara precios de hardware en Chile</title>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<title>FindTech.cl — Compara precios de hardware en Chile</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 :root {
-  --bg: #0a0c0f;
-  --bg2: #111318;
-  --bg3: #181c23;
-  --surface: #1e2330;
-  --surface2: #252c3a;
-  --border: rgba(255,255,255,0.07);
-  --border2: rgba(255,255,255,0.12);
-  --accent: #00e5ff;
-  --accent2: #7c3aed;
-  --accent3: #10b981;
-  --text: #f0f2f8;
-  --text2: #8892a4;
-  --text3: #4a5568;
-  --red: #ef4444;
-  --amber: #f59e0b;
-  --green: #10b981;
-  --font-head: 'Syne', sans-serif;
-  --font-body: 'DM Sans', sans-serif;
-  --radius: 10px;
-  --radius-lg: 16px;
+  --bg:       #0b0d11;
+  --bg2:      #13161c;
+  --bg3:      #1a1e27;
+  --surface:  #20263200;
+  --border:   rgba(255,255,255,0.07);
+  --border2:  rgba(255,255,255,0.13);
+  --accent:   #3b82f6;
+  --accent2:  #06b6d4;
+  --green:    #22c55e;
+  --red:      #ef4444;
+  --amber:    #f59e0b;
+  --text:     #eef0f6;
+  --text2:    #7a8499;
+  --text3:    #3d4557;
+  --mono:     'JetBrains Mono', monospace;
+  --sans:     'Outfit', sans-serif;
+  --r:        8px;
 }
-* { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
-body {
-  font-family: var(--font-body);
-  background: var(--bg);
-  color: var(--text);
-  min-height: 100vh;
-  font-size: 15px;
-  line-height: 1.6;
-}
-
-/* ── SCROLLBAR ── */
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: var(--bg); }
-::-webkit-scrollbar-thumb { background: var(--surface2); border-radius: 3px; }
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:100vh;font-size:15px}
+::-webkit-scrollbar{width:5px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--bg3);border-radius:3px}
+img{max-width:100%;display:block}
+a{text-decoration:none;color:inherit}
 
 /* ── HEADER ── */
-header {
-  position: sticky; top: 0; z-index: 100;
-  background: rgba(10,12,15,0.92);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border);
+header{
+  position:sticky;top:0;z-index:200;
+  background:rgba(11,13,17,0.95);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--border);
+  height:60px;
+  display:flex;align-items:center;
+  padding:0 24px;gap:24px;
 }
-.header-inner {
-  max-width: 1400px; margin: 0 auto;
-  display: flex; align-items: center; gap: 24px;
-  padding: 0 24px; height: 64px;
+.logo{
+  font-family:var(--sans);font-size:18px;font-weight:800;
+  color:var(--text);white-space:nowrap;
+  display:flex;align-items:center;gap:2px;
 }
-.logo {
-  font-family: var(--font-head); font-size: 20px; font-weight: 800;
-  color: var(--text); text-decoration: none; white-space: nowrap;
-  display: flex; align-items: center; gap: 8px;
+.logo .dot{
+  width:7px;height:7px;border-radius:50%;
+  background:var(--accent);margin-right:4px;
 }
-.logo span { color: var(--accent); }
-.logo-dot {
-  width: 8px; height: 8px; border-radius: 50%;
-  background: var(--accent); display: inline-block;
-  box-shadow: 0 0 8px var(--accent);
-}
-nav { display: flex; align-items: center; gap: 4px; flex: 1; }
-nav a {
-  color: var(--text2); text-decoration: none; padding: 6px 12px;
-  border-radius: 6px; font-size: 14px; font-weight: 500;
-  transition: all .2s; cursor: pointer; white-space: nowrap;
-}
-nav a:hover, nav a.active { color: var(--text); background: var(--surface); }
-.search-wrap {
-  display: flex; align-items: center; gap: 8px;
-  background: var(--surface); border: 1px solid var(--border2);
-  border-radius: 8px; padding: 0 12px; height: 38px;
-  flex: 1; max-width: 340px; min-width: 200px;
-}
-.search-wrap input {
-  background: none; border: none; outline: none;
-  color: var(--text); font-family: var(--font-body); font-size: 14px;
-  flex: 1;
-}
-.search-wrap input::placeholder { color: var(--text3); }
-.search-icon { color: var(--text3); font-size: 16px; flex-shrink: 0; }
-.btn-primary {
-  background: var(--accent); color: #000; border: none;
-  padding: 8px 18px; border-radius: 8px; font-weight: 600;
-  font-family: var(--font-body); font-size: 13px; cursor: pointer;
-  white-space: nowrap; transition: opacity .2s;
-}
-.btn-primary:hover { opacity: 0.85; }
+.logo em{color:var(--accent);font-style:normal}
 
-/* ── PAGES ── */
-.page { display: none; }
-.page.active { display: block; }
+/* NAV */
+nav{display:flex;align-items:center;gap:4px;flex:1}
+.nav-item{
+  padding:6px 12px;border-radius:var(--r);
+  font-size:14px;font-weight:500;color:var(--text2);
+  cursor:pointer;transition:all .15s;white-space:nowrap;
+  position:relative;
+}
+.nav-item:hover,.nav-item.active{color:var(--text);background:var(--bg3)}
+
+/* MEGA MENU */
+.mega-wrap{position:relative}
+.mega-menu{
+  display:none;
+  position:absolute;top:calc(100% + 8px);left:-16px;
+  background:var(--bg2);border:1px solid var(--border2);
+  border-radius:12px;padding:20px;
+  min-width:640px;
+  box-shadow:0 20px 60px rgba(0,0,0,0.5);
+  z-index:300;
+  animation:fadeIn .15s ease;
+}
+@keyframes fadeIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
+.mega-wrap:hover .mega-menu{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.mega-col h4{
+  font-size:11px;font-weight:600;color:var(--accent);
+  letter-spacing:1.5px;text-transform:uppercase;
+  margin-bottom:10px;
+}
+.mega-col a{
+  display:block;font-size:13px;color:var(--text2);
+  padding:4px 0;transition:color .12s;
+}
+.mega-col a:hover{color:var(--text)}
+.mega-col .sub{
+  font-size:12px;color:var(--text3);
+  padding:2px 0 2px 10px;
+  border-left:1px solid var(--border);
+}
+.mega-col .sub:hover{color:var(--text2);border-left-color:var(--accent)}
+
+/* SEARCH */
+.search-wrap{
+  flex:1;max-width:380px;
+  position:relative;
+}
+.search-wrap input{
+  width:100%;background:var(--bg3);border:1px solid var(--border);
+  border-radius:var(--r);padding:8px 12px 8px 36px;
+  font-family:var(--sans);font-size:13px;color:var(--text);outline:none;
+  transition:border-color .15s;
+}
+.search-wrap input:focus{border-color:var(--accent)}
+.search-wrap input::placeholder{color:var(--text3)}
+.search-icon{
+  position:absolute;left:10px;top:50%;transform:translateY(-50%);
+  font-size:14px;color:var(--text3);pointer-events:none;
+}
+
+/* ── MAIN LAYOUT ── */
+.layout{display:grid;grid-template-columns:220px 1fr;gap:0;min-height:calc(100vh - 60px)}
+
+/* SIDEBAR */
+.sidebar{
+  background:var(--bg2);
+  border-right:1px solid var(--border);
+  padding:20px 0;
+  position:sticky;top:60px;height:calc(100vh - 60px);
+  overflow-y:auto;
+}
+.sb-section{margin-bottom:6px}
+.sb-label{
+  font-size:10px;font-weight:600;color:var(--text3);
+  letter-spacing:2px;text-transform:uppercase;
+  padding:0 16px 6px;
+}
+.sb-cat{
+  display:flex;align-items:center;gap:8px;
+  padding:8px 16px;font-size:13px;font-weight:500;
+  color:var(--text2);cursor:pointer;transition:all .12s;
+  border-left:2px solid transparent;
+}
+.sb-cat:hover{color:var(--text);background:var(--bg3)}
+.sb-cat.active{color:var(--accent);background:rgba(59,130,246,0.08);border-left-color:var(--accent)}
+.sb-cat .ico{font-size:15px;width:18px;text-align:center;flex-shrink:0}
+.sb-cat .count{margin-left:auto;font-size:10px;font-family:var(--mono);background:var(--bg3);padding:1px 5px;border-radius:3px;color:var(--text3)}
+
+/* SUBCATS */
+.sb-sub{display:none;padding-left:32px}
+.sb-cat.open + .sb-sub{display:block}
+.sb-sub-item{
+  display:block;font-size:12px;color:var(--text3);
+  padding:5px 8px;border-radius:4px;cursor:pointer;transition:color .12s;
+}
+.sb-sub-item:hover,.sb-sub-item.active{color:var(--accent)}
+
+/* MAIN */
+.main{padding:24px;overflow-x:hidden}
+
+/* PAGE HERO */
+.page-hero{
+  background:linear-gradient(135deg,var(--bg2) 0%,var(--bg3) 100%);
+  border:1px solid var(--border);border-radius:12px;
+  padding:28px 32px;margin-bottom:24px;
+  display:flex;align-items:center;justify-content:space-between;
+  gap:24px;
+}
+.hero-left h1{font-size:26px;font-weight:800;margin-bottom:6px}
+.hero-left h1 em{color:var(--accent);font-style:normal}
+.hero-left p{font-size:14px;color:var(--text2)}
+.hero-stats{display:flex;gap:24px}
+.stat{text-align:center}
+.stat-n{font-family:var(--mono);font-size:22px;font-weight:600;color:var(--accent)}
+.stat-l{font-size:11px;color:var(--text3);margin-top:2px}
+
+/* TOOLBAR */
+.toolbar{
+  display:flex;align-items:center;gap:10px;
+  margin-bottom:20px;flex-wrap:wrap;
+}
+.toolbar-left{display:flex;align-items:center;gap:8px;flex:1}
+.pill{
+  padding:6px 14px;border-radius:20px;font-size:12px;font-weight:500;
+  border:1px solid var(--border2);color:var(--text2);cursor:pointer;
+  transition:all .12s;background:var(--bg2);white-space:nowrap;
+}
+.pill:hover,.pill.active{
+  background:var(--accent);color:#fff;border-color:var(--accent);
+}
+.select-box{
+  background:var(--bg2);border:1px solid var(--border);
+  border-radius:var(--r);padding:7px 12px;
+  font-family:var(--sans);font-size:12px;color:var(--text2);
+  outline:none;cursor:pointer;
+}
+.results-count{font-size:13px;color:var(--text3);white-space:nowrap}
+
+/* PRODUCT GRID */
+.prod-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+  gap:16px;
+}
+
+/* PRODUCT CARD */
+.prod-card{
+  background:var(--bg2);border:1px solid var(--border);
+  border-radius:12px;overflow:hidden;cursor:pointer;
+  transition:all .2s;display:flex;flex-direction:column;
+}
+.prod-card:hover{
+  border-color:rgba(59,130,246,0.3);
+  transform:translateY(-2px);
+  box-shadow:0 8px 24px rgba(0,0,0,0.3);
+}
+.prod-img{
+  aspect-ratio:1;background:var(--bg3);
+  display:flex;align-items:center;justify-content:center;
+  padding:16px;position:relative;overflow:hidden;
+}
+.prod-img img{
+  max-height:140px;object-fit:contain;
+  transition:transform .3s;
+}
+.prod-card:hover .prod-img img{transform:scale(1.05)}
+.prod-img .emoji{font-size:48px}
+.prod-badge{
+  position:absolute;top:8px;left:8px;
+  font-size:10px;font-weight:600;padding:2px 7px;border-radius:3px;
+  font-family:var(--mono);
+}
+.badge-sale{background:rgba(239,68,68,0.15);color:#ef4444;border:1px solid rgba(239,68,68,0.3)}
+.badge-new{background:rgba(34,197,94,0.15);color:#22c55e;border:1px solid rgba(34,197,94,0.3)}
+.badge-hot{background:rgba(245,158,11,0.15);color:#f59e0b;border:1px solid rgba(245,158,11,0.3)}
+
+.prod-body{padding:14px;flex:1;display:flex;flex-direction:column;gap:6px}
+.prod-brand{font-size:11px;font-weight:600;color:var(--accent);letter-spacing:0.5px;text-transform:uppercase}
+.prod-name{font-size:13px;font-weight:500;line-height:1.4;color:var(--text)}
+.prod-stores{font-size:11px;color:var(--text3);margin-top:auto}
+
+/* DUAL PRICE */
+.dual-price{margin-top:8px;padding-top:10px;border-top:1px solid var(--border)}
+.price-row{display:flex;align-items:center;justify-content:space-between;padding:3px 0}
+.price-label{font-size:11px;color:var(--text3)}
+.price-val{font-family:var(--mono);font-size:14px;font-weight:600;color:var(--text)}
+.price-val.best{color:var(--green)}
+.price-val.card{color:var(--text2);font-size:12px}
+.price-store{
+  font-size:10px;color:var(--accent);
+  background:rgba(59,130,246,0.1);
+  padding:1px 6px;border-radius:3px;
+  margin-left:auto;
+}
+
+/* COMPARE BTN */
+.card-actions{
+  padding:0 14px 12px;
+  display:flex;gap:6px;
+}
+.btn-ver{
+  flex:1;padding:8px;border-radius:var(--r);
+  background:var(--accent);color:#fff;
+  font-family:var(--sans);font-size:12px;font-weight:600;
+  border:none;cursor:pointer;transition:opacity .15s;
+}
+.btn-ver:hover{opacity:0.85}
+.btn-cmp{
+  padding:8px 10px;border-radius:var(--r);
+  background:var(--bg3);color:var(--text2);
+  font-size:12px;border:1px solid var(--border);
+  cursor:pointer;transition:all .15s;
+}
+.btn-cmp:hover{color:var(--accent);border-color:var(--accent)}
+
+/* ── MODAL PRODUCTO ── */
+.modal-overlay{
+  display:none;position:fixed;inset:0;
+  background:rgba(0,0,0,0.8);z-index:400;
+  align-items:center;justify-content:center;
+  padding:20px;
+}
+.modal-overlay.open{display:flex}
+.modal{
+  background:var(--bg2);border:1px solid var(--border2);
+  border-radius:16px;width:100%;max-width:820px;
+  max-height:90vh;overflow-y:auto;
+  animation:slideUp .2s ease;
+}
+@keyframes slideUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.modal-header{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:20px 24px;border-bottom:1px solid var(--border);
+}
+.modal-title{font-size:16px;font-weight:700}
+.modal-close{
+  width:32px;height:32px;border-radius:var(--r);
+  background:var(--bg3);border:none;color:var(--text2);
+  font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;
+  transition:all .15s;
+}
+.modal-close:hover{color:var(--text);background:var(--surface)}
+.modal-body{padding:24px;display:grid;grid-template-columns:240px 1fr;gap:24px}
+.modal-img{
+  background:var(--bg3);border-radius:10px;
+  aspect-ratio:1;display:flex;align-items:center;justify-content:center;
+  padding:20px;
+}
+.modal-img img{max-height:180px;object-fit:contain}
+.modal-img .emoji{font-size:72px}
+.modal-info h2{font-size:18px;font-weight:700;margin-bottom:6px;line-height:1.3}
+.modal-brand{font-size:12px;color:var(--accent);font-weight:600;text-transform:uppercase;margin-bottom:16px}
+.modal-prices{display:flex;flex-direction:column;gap:8px;margin-bottom:20px}
+.modal-price-row{
+  display:flex;align-items:center;justify-content:space-between;
+  background:var(--bg3);border-radius:var(--r);padding:12px 16px;
+  border:1px solid var(--border);
+}
+.modal-price-row.best-price{border-color:rgba(34,197,94,0.3);background:rgba(34,197,94,0.05)}
+.mp-left{display:flex;flex-direction:column;gap:2px}
+.mp-store{font-size:11px;color:var(--text3)}
+.mp-method{font-size:12px;color:var(--text2)}
+.mp-price{font-family:var(--mono);font-size:18px;font-weight:700}
+.mp-price.green{color:var(--green)}
+.mp-link{
+  padding:6px 14px;border-radius:var(--r);
+  background:var(--accent);color:#fff;font-size:12px;
+  font-weight:600;transition:opacity .15s;
+  white-space:nowrap;
+}
+.mp-link:hover{opacity:0.85}
+.modal-specs{margin-top:16px}
+.specs-title{font-size:12px;font-weight:600;color:var(--text3);letter-spacing:1px;text-transform:uppercase;margin-bottom:10px}
+.specs-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.spec-item{background:var(--bg3);border-radius:var(--r);padding:10px 12px}
+.spec-key{font-size:11px;color:var(--text3);margin-bottom:3px}
+.spec-val{font-size:13px;font-weight:500;color:var(--text)}
 
 /* ── HOME ── */
-.hero {
-  max-width: 1400px; margin: 0 auto; padding: 80px 24px 60px;
-  display: grid; grid-template-columns: 1fr 420px; gap: 60px; align-items: center;
+.home-hero{
+  background:linear-gradient(135deg,#0d1525 0%,#0b1020 50%,#0d1525 100%);
+  border:1px solid var(--border);border-radius:16px;
+  padding:48px;margin-bottom:32px;
+  position:relative;overflow:hidden;
 }
-.hero-text h1 {
-  font-family: var(--font-head); font-size: 56px; font-weight: 800;
-  line-height: 1.1; margin-bottom: 20px;
+.home-hero::before{
+  content:'';position:absolute;
+  width:400px;height:400px;border-radius:50%;
+  background:radial-gradient(circle,rgba(59,130,246,0.12) 0%,transparent 70%);
+  top:-100px;right:-100px;pointer-events:none;
 }
-.hero-text h1 em { color: var(--accent); font-style: normal; }
-.hero-text p { color: var(--text2); font-size: 17px; max-width: 480px; margin-bottom: 32px; }
-.hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
-.btn-ghost {
-  background: var(--surface); color: var(--text); border: 1px solid var(--border2);
-  padding: 10px 20px; border-radius: 8px; font-weight: 500;
-  font-family: var(--font-body); font-size: 14px; cursor: pointer; transition: all .2s;
+.home-hero h1{
+  font-size:42px;font-weight:800;line-height:1.15;
+  margin-bottom:16px;max-width:540px;
 }
-.btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
-.hero-stats {
-  display: flex; gap: 32px; margin-top: 48px; padding-top: 32px;
-  border-top: 1px solid var(--border);
+.home-hero h1 em{color:var(--accent);font-style:normal}
+.home-hero p{font-size:16px;color:var(--text2);margin-bottom:28px;max-width:480px}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn-primary{
+  padding:12px 28px;border-radius:var(--r);
+  background:var(--accent);color:#fff;
+  font-size:15px;font-weight:600;cursor:pointer;
+  border:none;transition:opacity .15s;
 }
-.stat-item { display: flex; flex-direction: column; gap: 4px; }
-.stat-num { font-family: var(--font-head); font-size: 28px; font-weight: 700; color: var(--text); }
-.stat-label { font-size: 13px; color: var(--text2); }
-.hero-card {
-  background: var(--surface); border: 1px solid var(--border2);
-  border-radius: var(--radius-lg); padding: 24px; display: flex; flex-direction: column; gap: 16px;
+.btn-primary:hover{opacity:0.85}
+.btn-secondary{
+  padding:12px 28px;border-radius:var(--r);
+  background:transparent;color:var(--text2);
+  font-size:15px;font-weight:500;cursor:pointer;
+  border:1px solid var(--border2);transition:all .15s;
 }
-.hero-card-title { font-size: 13px; font-weight: 500; color: var(--text2); text-transform: uppercase; letter-spacing: 0.5px; }
-.deal-row {
-  display: flex; align-items: center; gap: 12px;
-  padding: 12px; background: var(--bg3); border-radius: var(--radius); cursor: pointer; transition: background .2s;
+.btn-secondary:hover{color:var(--text);border-color:var(--text)}
+
+.stores-strip{
+  display:flex;gap:12px;flex-wrap:wrap;margin-bottom:32px;
 }
-.deal-row:hover { background: var(--surface2); }
-.deal-img {
-  width: 44px; height: 44px; object-fit: contain; border-radius: 6px;
-  background: var(--bg2); padding: 4px; flex-shrink: 0;
+.store-chip{
+  display:flex;align-items:center;gap:8px;
+  background:var(--bg2);border:1px solid var(--border);
+  border-radius:var(--r);padding:10px 16px;cursor:pointer;
+  transition:all .15s;
 }
-.deal-img-placeholder {
-  width: 44px; height: 44px; border-radius: 6px; background: var(--bg2);
-  display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;
+.store-chip:hover{border-color:var(--accent);color:var(--accent)}
+.store-chip .ico{font-size:16px}
+.store-chip .name{font-size:13px;font-weight:500}
+.store-chip .cnt{font-size:11px;color:var(--text3);margin-left:auto}
+
+.section-header{
+  display:flex;align-items:center;justify-content:space-between;
+  margin-bottom:16px;
 }
-.deal-info { flex: 1; min-width: 0; }
-.deal-name { font-size: 13px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.deal-store { font-size: 11px; color: var(--text3); }
-.deal-price { font-family: var(--font-head); font-size: 15px; font-weight: 700; color: var(--accent); white-space: nowrap; }
-.deal-badge {
-  background: rgba(16,185,129,0.15); color: var(--green);
-  font-size: 11px; font-weight: 600; padding: 2px 6px; border-radius: 4px;
+.section-title{font-size:17px;font-weight:700}
+.section-link{font-size:13px;color:var(--accent);cursor:pointer}
+.section-link:hover{text-decoration:underline}
+
+/* DEALS GRID */
+.deals-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(200px,1fr));
+  gap:14px;margin-bottom:32px;
 }
 
-/* Categorías */
-.section-title {
-  font-family: var(--font-head); font-size: 26px; font-weight: 700; margin-bottom: 8px;
+/* FOOTER */
+footer{
+  background:var(--bg2);border-top:1px solid var(--border);
+  padding:40px 48px;margin-top:48px;
 }
-.section-sub { color: var(--text2); font-size: 15px; margin-bottom: 32px; }
-.container { max-width: 1400px; margin: 0 auto; padding: 0 24px; }
-.section { padding: 60px 0; }
-.section + .section { border-top: 1px solid var(--border); }
-
-.categories-grid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px;
-}
-.cat-card {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--radius-lg); padding: 24px 20px; cursor: pointer;
-  transition: all .2s; text-decoration: none; color: var(--text);
-  display: flex; flex-direction: column; gap: 12px;
-}
-.cat-card:hover { border-color: var(--accent); transform: translateY(-2px); background: var(--surface2); }
-.cat-icon { font-size: 28px; }
-.cat-name { font-family: var(--font-head); font-size: 16px; font-weight: 600; }
-.cat-count { font-size: 13px; color: var(--text2); }
-.cat-sub { display: flex; flex-direction: column; gap: 4px; margin-top: 4px; }
-.cat-sub a {
-  font-size: 12px; color: var(--text3); text-decoration: none; transition: color .15s;
-}
-.cat-sub a:hover { color: var(--accent); }
-
-/* Tiendas featured */
-.stores-row {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px;
-}
-.store-chip {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--radius-lg); padding: 20px; cursor: pointer;
-  transition: all .2s; display: flex; flex-direction: column; gap: 10px;
-}
-.store-chip:hover { border-color: var(--border2); transform: translateY(-2px); }
-.store-logo-area {
-  font-family: var(--font-head); font-size: 18px; font-weight: 700;
-  color: var(--accent);
-}
-.store-url { font-size: 12px; color: var(--text3); }
-.store-rating { display: flex; gap: 4px; align-items: center; }
-.stars { color: var(--amber); font-size: 12px; }
-.rating-num { font-size: 13px; font-weight: 500; }
-
-/* ── PRODUCTS PAGE ── */
-.products-layout {
-  display: grid; grid-template-columns: 260px 1fr; gap: 24px;
-  max-width: 1400px; margin: 0 auto; padding: 32px 24px;
-}
-.sidebar {
-  position: sticky; top: 80px; align-self: start;
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--radius-lg); padding: 24px; max-height: calc(100vh - 100px); overflow-y: auto;
-}
-.sidebar h3 { font-family: var(--font-head); font-size: 16px; font-weight: 600; margin-bottom: 16px; }
-.filter-section { margin-bottom: 24px; }
-.filter-label { font-size: 12px; font-weight: 600; color: var(--text2); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px; }
-.filter-options { display: flex; flex-direction: column; gap: 6px; }
-.filter-opt {
-  display: flex; align-items: center; gap: 8px; font-size: 13px;
-  color: var(--text2); cursor: pointer; padding: 4px 0; transition: color .15s;
-}
-.filter-opt:hover { color: var(--text); }
-.filter-opt input[type=checkbox] { accent-color: var(--accent); }
-.price-range { display: flex; gap: 8px; margin-top: 8px; }
-.price-input {
-  flex: 1; background: var(--bg3); border: 1px solid var(--border2);
-  border-radius: 6px; padding: 6px 10px; color: var(--text);
-  font-family: var(--font-body); font-size: 13px; outline: none;
-}
-.price-input:focus { border-color: var(--accent); }
-
-.products-main {}
-.products-topbar {
-  display: flex; align-items: center; justify-content: space-between;
-  margin-bottom: 20px; flex-wrap: wrap; gap: 12px;
-}
-.products-topbar h2 { font-family: var(--font-head); font-size: 22px; font-weight: 700; }
-.sort-select {
-  background: var(--surface); border: 1px solid var(--border2);
-  border-radius: 8px; padding: 6px 12px; color: var(--text);
-  font-family: var(--font-body); font-size: 13px; outline: none; cursor: pointer;
-}
-.products-grid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px;
-}
-.prod-card {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--radius-lg); overflow: hidden; cursor: pointer;
-  transition: all .2s;
-}
-.prod-card:hover { border-color: var(--border2); transform: translateY(-2px); }
-.prod-img-wrap {
-  background: var(--bg3); padding: 20px;
-  display: flex; align-items: center; justify-content: center; height: 160px;
-}
-.prod-img-wrap .emoji { font-size: 64px; }
-.prod-body { padding: 16px; }
-.prod-brand { font-size: 11px; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 0.5px; }
-.prod-name { font-size: 14px; font-weight: 500; margin: 4px 0 12px; line-height: 1.4; }
-.prod-prices { display: flex; flex-direction: column; gap: 4px; }
-.best-price {
-  font-family: var(--font-head); font-size: 22px; font-weight: 700; color: var(--text);
-}
-.best-price small { font-size: 13px; font-weight: 400; color: var(--text2); }
-.price-from { font-size: 12px; color: var(--text2); }
-.prod-footer {
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 12px 16px; border-top: 1px solid var(--border);
-}
-.store-count { font-size: 12px; color: var(--text2); }
-.badge-new {
-  background: rgba(0,229,255,0.1); color: var(--accent);
-  font-size: 11px; padding: 2px 7px; border-radius: 4px; font-weight: 600;
-}
-.badge-discount {
-  background: rgba(239,68,68,0.1); color: var(--red);
-  font-size: 11px; padding: 2px 7px; border-radius: 4px; font-weight: 600;
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;margin-bottom:32px}
+.footer-brand .logo{margin-bottom:12px}
+.footer-brand p{font-size:13px;color:var(--text2);line-height:1.6}
+.footer-col h4{font-size:13px;font-weight:600;margin-bottom:12px}
+.footer-col a{display:block;font-size:13px;color:var(--text3);padding:3px 0;transition:color .12s}
+.footer-col a:hover{color:var(--text2)}
+.footer-bottom{
+  border-top:1px solid var(--border);padding-top:20px;
+  display:flex;align-items:center;justify-content:space-between;
+  font-size:12px;color:var(--text3);
 }
 
-/* ── PRODUCT DETAIL ── */
-#page-detail { }
-.detail-wrap {
-  max-width: 1400px; margin: 0 auto; padding: 32px 24px;
-}
-.breadcrumb {
-  display: flex; gap: 8px; font-size: 13px; color: var(--text3);
-  margin-bottom: 32px; align-items: center; flex-wrap: wrap;
-}
-.breadcrumb span { color: var(--text2); cursor: pointer; }
-.breadcrumb span:hover { color: var(--accent); }
-.detail-grid {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-bottom: 48px;
-}
-.detail-img-area {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--radius-lg); padding: 40px;
-  display: flex; align-items: center; justify-content: center; min-height: 380px;
-}
-.detail-img-area .emoji { font-size: 120px; }
-.detail-info { display: flex; flex-direction: column; gap: 20px; }
-.detail-brand { font-size: 12px; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 1px; }
-.detail-name { font-family: var(--font-head); font-size: 32px; font-weight: 700; line-height: 1.2; }
-.detail-price-box {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--radius); padding: 16px 20px;
-}
-.detail-best-price {
-  font-family: var(--font-head); font-size: 36px; font-weight: 800; color: var(--text);
-  margin-bottom: 4px;
-}
-.detail-store-note { font-size: 13px; color: var(--text2); }
-.detail-tags { display: flex; gap: 8px; flex-wrap: wrap; }
-.tag {
-  background: var(--bg3); border: 1px solid var(--border);
-  font-size: 12px; padding: 4px 10px; border-radius: 20px; color: var(--text2);
-}
+/* PAGES */
+.page{display:none}
+.page.active{display:block}
 
-/* Specs table */
-.specs-section { margin-bottom: 40px; }
-.specs-section h3 { font-family: var(--font-head); font-size: 20px; font-weight: 600; margin-bottom: 16px; }
-.specs-table { width: 100%; border-collapse: collapse; }
-.specs-table tr { border-bottom: 1px solid var(--border); }
-.specs-table td {
-  padding: 10px 4px; font-size: 14px;
-  vertical-align: top;
+/* EMPTY STATE */
+.empty{
+  text-align:center;padding:60px 20px;
+  color:var(--text2);
 }
-.specs-table td:first-child { color: var(--text2); width: 42%; font-weight: 500; }
+.empty .ico{font-size:48px;margin-bottom:16px}
+.empty h3{font-size:18px;font-weight:600;margin-bottom:8px}
+.empty p{font-size:14px;color:var(--text3)}
 
-/* Stores comparison */
-.stores-comparison { }
-.stores-comparison h3 { font-family: var(--font-head); font-size: 20px; font-weight: 600; margin-bottom: 16px; }
-.store-row-item {
-  display: grid; grid-template-columns: 1fr auto auto auto; gap: 16px; align-items: center;
-  padding: 16px; background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--radius); margin-bottom: 10px; transition: border-color .2s;
+/* LOADING */
+.skeleton{
+  background:linear-gradient(90deg,var(--bg3) 25%,var(--bg2) 50%,var(--bg3) 75%);
+  background-size:200% 100%;
+  animation:shimmer 1.5s infinite;
+  border-radius:var(--r);
 }
-.store-row-item.best { border-color: var(--accent); }
-.store-row-item:hover { border-color: var(--border2); }
-.store-row-name { font-weight: 600; font-size: 15px; }
-.store-row-sub { font-size: 12px; color: var(--text2); margin-top: 2px; }
-.store-row-rating { font-size: 13px; color: var(--text2); white-space: nowrap; }
-.store-row-price {
-  font-family: var(--font-head); font-size: 20px; font-weight: 700;
-  color: var(--text); white-space: nowrap;
-}
-.store-row-item.best .store-row-price { color: var(--accent); }
-.btn-visit {
-  background: var(--surface2); border: 1px solid var(--border2);
-  color: var(--text2); padding: 7px 14px; border-radius: 7px; font-size: 13px;
-  font-family: var(--font-body); cursor: pointer; white-space: nowrap; transition: all .2s; font-weight: 500;
-}
-.btn-visit:hover { background: var(--accent); color: #000; border-color: var(--accent); }
-.best-badge {
-  background: rgba(0,229,255,0.12); color: var(--accent);
-  font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 4px; letter-spacing: 0.5px;
-}
+@keyframes shimmer{0%{background-position:200% 0}100%{background-position:-200% 0}}
 
-/* ── STORES LIST PAGE ── */
-.stores-page { max-width: 1400px; margin: 0 auto; padding: 40px 24px; }
-.stores-page-grid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px;
+/* TOAST */
+.toast{
+  position:fixed;bottom:24px;right:24px;
+  background:var(--bg2);border:1px solid var(--border2);
+  border-radius:var(--r);padding:12px 20px;
+  font-size:13px;z-index:500;
+  transform:translateY(60px);opacity:0;
+  transition:all .25s;pointer-events:none;
 }
-.store-full-card {
-  background: var(--surface); border: 1px solid var(--border);
-  border-radius: var(--radius-lg); padding: 28px; transition: all .2s;
-}
-.store-full-card:hover { border-color: var(--border2); transform: translateY(-2px); }
-.store-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 16px; }
-.store-name-big { font-family: var(--font-head); font-size: 22px; font-weight: 700; }
-.store-url-badge {
-  background: var(--bg3); color: var(--text2); font-size: 11px;
-  padding: 3px 8px; border-radius: 4px;
-}
-.store-rating-big { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
-.stars-big { font-size: 16px; color: var(--amber); }
-.rating-num-big { font-size: 16px; font-weight: 600; }
-.rating-count { font-size: 13px; color: var(--text2); }
-.store-desc { font-size: 14px; color: var(--text2); line-height: 1.6; margin-bottom: 16px; }
-.store-meta { display: flex; gap: 20px; flex-wrap: wrap; }
-.meta-item { display: flex; flex-direction: column; gap: 2px; }
-.meta-label { font-size: 11px; color: var(--text3); text-transform: uppercase; letter-spacing: 0.5px; }
-.meta-val { font-size: 14px; font-weight: 500; }
-.store-btn-row { margin-top: 20px; display: flex; gap: 10px; }
+.toast.show{transform:translateY(0);opacity:1}
+.toast.success{border-color:var(--green);color:var(--green)}
 
-/* ── CONTACT PAGE ── */
-.contact-page { max-width: 900px; margin: 0 auto; padding: 60px 24px; }
-.contact-grid { display: grid; grid-template-columns: 1fr 1.4fr; gap: 48px; }
-.contact-info h2 { font-family: var(--font-head); font-size: 32px; font-weight: 700; margin-bottom: 16px; }
-.contact-info p { color: var(--text2); font-size: 15px; line-height: 1.7; margin-bottom: 32px; }
-.contact-item { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 20px; }
-.contact-icon {
-  width: 40px; height: 40px; border-radius: 10px;
-  background: var(--surface); display: flex; align-items: center; justify-content: center;
-  font-size: 18px; flex-shrink: 0;
-}
-.contact-detail-title { font-size: 13px; font-weight: 600; margin-bottom: 2px; }
-.contact-detail-val { font-size: 14px; color: var(--text2); }
-.contact-form { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); padding: 32px; }
-.form-group { margin-bottom: 20px; }
-.form-label { display: block; font-size: 13px; font-weight: 500; margin-bottom: 8px; color: var(--text2); }
-.form-input {
-  width: 100%; background: var(--bg3); border: 1px solid var(--border2);
-  border-radius: 8px; padding: 10px 14px; color: var(--text);
-  font-family: var(--font-body); font-size: 14px; outline: none; transition: border-color .2s;
-}
-.form-input:focus { border-color: var(--accent); }
-textarea.form-input { resize: vertical; min-height: 120px; }
-.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-.form-submit {
-  width: 100%; padding: 12px; background: var(--accent); color: #000;
-  border: none; border-radius: 8px; font-size: 15px; font-weight: 700;
-  font-family: var(--font-body); cursor: pointer; transition: opacity .2s;
-}
-.form-submit:hover { opacity: 0.85; }
-
-/* ── TAGS ── */
-.tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 24px; }
-.filter-tag {
-  background: var(--surface); border: 1px solid var(--border2);
-  color: var(--text2); font-size: 12px; padding: 5px 12px; border-radius: 20px;
-  cursor: pointer; transition: all .15s; font-family: var(--font-body); font-weight: 500;
-}
-.filter-tag:hover, .filter-tag.active { background: var(--accent); color: #000; border-color: var(--accent); }
-
-/* ── FOOTER ── */
-footer {
-  background: var(--bg2); border-top: 1px solid var(--border);
-  padding: 48px 0 24px;
-}
-.footer-inner {
-  max-width: 1400px; margin: 0 auto; padding: 0 24px;
-  display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px;
-  margin-bottom: 40px;
-}
-.footer-brand p { color: var(--text2); font-size: 14px; margin-top: 12px; max-width: 280px; }
-.footer-col h4 { font-family: var(--font-head); font-size: 14px; font-weight: 600; margin-bottom: 16px; }
-.footer-col a {
-  display: block; color: var(--text2); text-decoration: none; font-size: 13px;
-  margin-bottom: 10px; transition: color .15s; cursor: pointer;
-}
-.footer-col a:hover { color: var(--accent); }
-.footer-bottom {
-  max-width: 1400px; margin: 0 auto; padding: 24px 24px 0;
-  border-top: 1px solid var(--border); display: flex; justify-content: space-between;
-  align-items: center; flex-wrap: gap; font-size: 12px; color: var(--text3);
-}
-.update-badge {
-  background: rgba(16,185,129,0.1); color: var(--green);
-  font-size: 12px; padding: 3px 10px; border-radius: 4px; font-weight: 600;
-}
-
-/* ── BACK BUTTON ── */
-.back-btn {
-  display: inline-flex; align-items: center; gap: 6px;
-  color: var(--text2); background: none; border: none; cursor: pointer;
-  font-family: var(--font-body); font-size: 14px; padding: 0; margin-bottom: 24px;
-  transition: color .15s;
-}
-.back-btn:hover { color: var(--accent); }
-
-/* ── SEARCH RESULTS ── */
-.search-results { display: none; }
-.search-results.active {
-  display: block; position: absolute; top: 100%; left: 0; right: 0;
-  background: var(--surface); border: 1px solid var(--border2); border-radius: var(--radius);
-  box-shadow: 0 8px 32px rgba(0,0,0,0.5); max-height: 320px; overflow-y: auto; z-index: 200;
-}
-.search-item {
-  display: flex; align-items: center; gap: 12px;
-  padding: 10px 14px; cursor: pointer; transition: background .15s;
-}
-.search-item:hover { background: var(--surface2); }
-.search-item .s-emoji { font-size: 24px; }
-.search-item .s-name { font-size: 14px; font-weight: 500; }
-.search-item .s-cat { font-size: 12px; color: var(--text2); }
-.search-wrap { position: relative; }
-
-/* ── MISC ── */
-.divider { height: 1px; background: var(--border); margin: 0; }
-.page-header-bar {
-  background: var(--surface); border-bottom: 1px solid var(--border);
-  padding: 32px 24px;
-}
-.page-header-bar-inner {
-  max-width: 1400px; margin: 0 auto;
-}
-.page-title { font-family: var(--font-head); font-size: 36px; font-weight: 800; }
-.page-subtitle { color: var(--text2); font-size: 15px; margin-top: 6px; }
-.update-tag { display: inline-flex; align-items: center; gap: 6px; margin-top: 10px; }
-
-/* ── RESPONSIVE ── */
-@media (max-width: 900px) {
-  .hero { grid-template-columns: 1fr; }
-  .hero-card { display: none; }
-  .detail-grid { grid-template-columns: 1fr; }
-  .products-layout { grid-template-columns: 1fr; }
-  .sidebar { display: none; }
-  .contact-grid { grid-template-columns: 1fr; }
-  .footer-inner { grid-template-columns: 1fr 1fr; }
-}
-@media (max-width: 600px) {
-  .header-inner { padding: 0 16px; }
-  nav { display: none; }
-  .hero-text h1 { font-size: 36px; }
-  .footer-inner { grid-template-columns: 1fr; }
-  .form-row { grid-template-columns: 1fr; }
-  .store-row-item { grid-template-columns: 1fr 1fr; }
+@media(max-width:768px){
+  .layout{grid-template-columns:1fr}
+  .sidebar{display:none}
+  .prod-grid{grid-template-columns:repeat(2,1fr)}
+  .modal-body{grid-template-columns:1fr}
+  .home-hero{padding:28px}
+  .home-hero h1{font-size:26px}
+  header{padding:0 16px}
+  .main{padding:16px}
 }
 </style>
 </head>
@@ -509,212 +463,306 @@ footer {
 
 <!-- HEADER -->
 <header>
-  <div class="header-inner">
-    <a class="logo" onclick="showPage('home')">
-      <span class="logo-dot"></span>Tech<span>Compara</span>.cl
-    </a>
-    <nav>
-      <a onclick="showPage('home')" id="nav-home" class="active">Inicio</a>
-      <a onclick="showPage('products')" id="nav-products">Hardware</a>
-      <a onclick="showPage('stores')" id="nav-stores">Tiendas</a>
-      <a onclick="showPage('contact')" id="nav-contact">Contacto</a>
-    </nav>
-    <div class="search-wrap" style="position:relative;">
-      <span class="search-icon">🔍</span>
-      <input type="text" id="search-input" placeholder="Buscar componentes..." oninput="handleSearch(this.value)" onfocus="handleSearch(this.value)" onblur="setTimeout(()=>closeSearch(),200)">
-      <div class="search-results" id="search-results"></div>
+  <div class="logo" onclick="showPage('home')">
+    <div class="dot"></div>Find<em>Tech</em>.cl
+  </div>
+
+  <nav>
+    <div class="nav-item" onclick="showPage('home')">Inicio</div>
+    <div class="nav-item mega-wrap" id="nav-hardware">
+      Hardware ▾
+      <div class="mega-menu" id="mega-hw">
+        <div class="mega-col">
+          <h4>Tarjetas Video</h4>
+          <a onclick="filterSub('gpu','nvidia')">NVIDIA GeForce</a>
+          <a onclick="filterSub('gpu','amd')">AMD Radeon</a>
+          <a onclick="filterCat('gpu')">Ver todas</a>
+        </div>
+        <div class="mega-col">
+          <h4>Procesadores</h4>
+          <a onclick="filterSub('cpu','intel')">Intel Core</a>
+          <a onclick="filterSub('cpu','amd')">AMD Ryzen</a>
+          <a onclick="filterCat('cpu')">Ver todos</a>
+        </div>
+        <div class="mega-col">
+          <h4>Placas Madre</h4>
+          <a onclick="filterSub('mobo','am4')">AMD AM4</a>
+          <a onclick="filterSub('mobo','am5')">AMD AM5</a>
+          <a onclick="filterSub('mobo','lga1700')">Intel LGA1700</a>
+          <a onclick="filterSub('mobo','lga1851')">Intel LGA1851</a>
+          <a onclick="filterCat('mobo')">Ver todas</a>
+        </div>
+        <div class="mega-col">
+          <h4>Memorias RAM</h4>
+          <a onclick="filterSub('ram','ddr4')">DDR4</a>
+          <a onclick="filterSub('ram','ddr5')">DDR5</a>
+          <a onclick="filterCat('ram')">Ver todas</a>
+        </div>
+        <div class="mega-col">
+          <h4>Almacenamiento</h4>
+          <a onclick="filterSub('storage','nvme')">SSD NVMe M.2</a>
+          <a onclick="filterSub('storage','sata')">SSD SATA 2.5"</a>
+          <a onclick="filterSub('storage','hdd')">Discos Duros</a>
+          <a onclick="filterCat('storage')">Ver todos</a>
+        </div>
+        <div class="mega-col">
+          <h4>Refrigeración</h4>
+          <a onclick="filterSub('cooling','liquida')">Líquida</a>
+          <a onclick="filterSub('cooling','aire')">Por Aire</a>
+          <a onclick="filterSub('cooling','fans')">Ventiladores</a>
+          <a onclick="filterCat('cooling')">Ver todas</a>
+        </div>
+        <div class="mega-col">
+          <h4>Fuentes de Poder</h4>
+          <a onclick="filterSub('psu','modular')">Modulares</a>
+          <a onclick="filterSub('psu','certificada')">Certificadas</a>
+          <a onclick="filterCat('psu')">Ver todas</a>
+        </div>
+        <div class="mega-col">
+          <h4>Gabinetes</h4>
+          <a onclick="filterSub('case','atx')">ATX</a>
+          <a onclick="filterSub('case','matx')">Micro ATX</a>
+          <a onclick="filterSub('case','itx')">Mini ITX</a>
+          <a onclick="filterCat('case')">Ver todos</a>
+        </div>
+      </div>
     </div>
+    <div class="nav-item" onclick="showPage('stores')">Tiendas</div>
+    <div class="nav-item" onclick="showPage('contact')">Contacto</div>
+  </nav>
+
+  <div class="search-wrap">
+    <span class="search-icon">🔍</span>
+    <input type="text" placeholder="Buscar componentes..." id="header-search" oninput="onSearch(this.value)">
   </div>
 </header>
 
-<!-- ============================================================ HOME ============================================================ -->
-<div class="page active" id="page-home">
-  <div class="hero">
-    <div class="hero-text">
-      <h1>Compara precios de<br><em>hardware</em> en Chile</h1>
-      <p>Monitoreamos las mejores tiendas de computación en tiempo real. Encuentra el mejor precio para tu próxima GPU, CPU, RAM y más.</p>
-      <div class="hero-actions">
-        <button class="btn-primary" onclick="showPage('products')">Explorar productos</button>
-        <button class="btn-ghost" onclick="showPage('stores')">Ver tiendas</button>
+<!-- LAYOUT -->
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sb-section">
+      <div class="sb-label">Categorías</div>
+      <div class="sb-cat" onclick="filterCat(''); showPage('hardware')" id="sb-all">
+        <span class="ico">🏠</span> Todos
+        <span class="count" id="sb-count-all">0</span>
       </div>
-      <div class="hero-stats">
-        <div class="stat-item"><span class="stat-num">5</span><span class="stat-label">Tiendas monitoreadas</span></div>
-        <div class="stat-item"><span class="stat-num">400+</span><span class="stat-label">Productos comparados</span></div>
-        <div class="stat-item"><span class="stat-num">00:00</span><span class="stat-label">Actualización diaria</span></div>
+      <div class="sb-cat" onclick="toggleSub('gpu')" id="sb-gpu">
+        <span class="ico">🎮</span> Tarjetas de Video
+        <span class="count" id="sb-count-gpu">0</span>
+      </div>
+      <div class="sb-sub" id="sub-gpu">
+        <span class="sb-sub-item" onclick="filterSub('gpu','nvidia')">NVIDIA GeForce</span>
+        <span class="sb-sub-item" onclick="filterSub('gpu','amd')">AMD Radeon</span>
+      </div>
+      <div class="sb-cat" onclick="toggleSub('cpu')" id="sb-cpu">
+        <span class="ico">⚡</span> Procesadores
+        <span class="count" id="sb-count-cpu">0</span>
+      </div>
+      <div class="sb-sub" id="sub-cpu">
+        <span class="sb-sub-item" onclick="filterSub('cpu','intel')">Intel Core</span>
+        <span class="sb-sub-item" onclick="filterSub('cpu','amd')">AMD Ryzen</span>
+      </div>
+      <div class="sb-cat" onclick="toggleSub('mobo')" id="sb-mobo">
+        <span class="ico">🔌</span> Placas Madre
+        <span class="count" id="sb-count-mobo">0</span>
+      </div>
+      <div class="sb-sub" id="sub-mobo">
+        <span class="sb-sub-item" onclick="filterSub('mobo','am4')">AM4</span>
+        <span class="sb-sub-item" onclick="filterSub('mobo','am5')">AM5</span>
+        <span class="sb-sub-item" onclick="filterSub('mobo','lga1700')">LGA1700</span>
+        <span class="sb-sub-item" onclick="filterSub('mobo','lga1851')">LGA1851</span>
+      </div>
+      <div class="sb-cat" onclick="toggleSub('ram')" id="sb-ram">
+        <span class="ico">💾</span> Memorias RAM
+        <span class="count" id="sb-count-ram">0</span>
+      </div>
+      <div class="sb-sub" id="sub-ram">
+        <span class="sb-sub-item" onclick="filterSub('ram','ddr4')">DDR4</span>
+        <span class="sb-sub-item" onclick="filterSub('ram','ddr5')">DDR5</span>
+      </div>
+      <div class="sb-cat" onclick="toggleSub('storage')" id="sb-storage">
+        <span class="ico">💿</span> Almacenamiento
+        <span class="count" id="sb-count-storage">0</span>
+      </div>
+      <div class="sb-sub" id="sub-storage">
+        <span class="sb-sub-item" onclick="filterSub('storage','nvme')">SSD NVMe</span>
+        <span class="sb-sub-item" onclick="filterSub('storage','sata')">SSD SATA</span>
+        <span class="sb-sub-item" onclick="filterSub('storage','hdd')">Disco Duro</span>
+      </div>
+      <div class="sb-cat" onclick="toggleSub('cooling')" id="sb-cooling">
+        <span class="ico">❄️</span> Refrigeración
+        <span class="count" id="sb-count-cooling">0</span>
+      </div>
+      <div class="sb-sub" id="sub-cooling">
+        <span class="sb-sub-item" onclick="filterSub('cooling','liquida')">Líquida</span>
+        <span class="sb-sub-item" onclick="filterSub('cooling','aire')">Por Aire</span>
+        <span class="sb-sub-item" onclick="filterSub('cooling','fans')">Ventiladores</span>
+      </div>
+      <div class="sb-cat" onclick="filterCat('psu'); showPage('hardware')" id="sb-psu">
+        <span class="ico">⚙️</span> Fuentes de Poder
+        <span class="count" id="sb-count-psu">0</span>
+      </div>
+      <div class="sb-cat" onclick="toggleSub('case')" id="sb-case">
+        <span class="ico">🖥️</span> Gabinetes
+        <span class="count" id="sb-count-case">0</span>
+      </div>
+      <div class="sb-sub" id="sub-case">
+        <span class="sb-sub-item" onclick="filterSub('case','atx')">ATX</span>
+        <span class="sb-sub-item" onclick="filterSub('case','matx')">Micro ATX</span>
+        <span class="sb-sub-item" onclick="filterSub('case','itx')">Mini ITX</span>
+      </div>
+      <div class="sb-cat" onclick="filterCat('monitor'); showPage('hardware')" id="sb-monitor">
+        <span class="ico">🖱️</span> Monitores
+        <span class="count" id="sb-count-monitor">0</span>
       </div>
     </div>
-    <div class="hero-card">
-      <div class="hero-card-title">🔥 Mejores precios hoy</div>
-      <div id="hot-deals"></div>
-    </div>
-  </div>
 
-  <div class="section container">
-    <div class="section-title">Categorías de Hardware</div>
-    <div class="section-sub">Explora por componente y encuentra el mejor precio entre las tiendas</div>
-    <div class="categories-grid" id="categories-grid"></div>
-  </div>
-
-  <div class="section container">
-    <div class="section-title">Tiendas disponibles</div>
-    <div class="section-sub">Comparamos precios de estas tiendas actualizadas diariamente a las 00:00</div>
-    <div class="stores-row" id="stores-row"></div>
-  </div>
-</div>
-
-<!-- ============================================================ PRODUCTS ============================================================ -->
-<div class="page" id="page-products">
-  <div class="page-header-bar">
-    <div class="page-header-bar-inner">
-      <div class="page-title" id="products-page-title">Tarjetas Gráficas</div>
-      <div class="page-subtitle">Compara precios entre tiendas y elige el mejor negocio</div>
-      <div class="update-tag"><span class="update-badge">● Actualizado hoy</span></div>
-    </div>
-  </div>
-  <div class="products-layout">
-    <aside class="sidebar">
-      <h3>Filtros</h3>
-      <div class="filter-section">
-        <div class="filter-label">Categoría</div>
-        <div class="filter-options" id="sidebar-cats"></div>
+    <div class="sb-section" style="margin-top:16px">
+      <div class="sb-label">Tiendas</div>
+      <div class="sb-cat" onclick="filterStore('n1g')">
+        <span class="ico">🏪</span> N1G
       </div>
-      <div class="filter-section">
-        <div class="filter-label">Marca</div>
-        <div class="filter-options" id="sidebar-brands"></div>
+      <div class="sb-cat" onclick="filterStore('alltec')">
+        <span class="ico">🏪</span> Alltec
       </div>
-      <div class="filter-section">
-        <div class="filter-label">Precio (CLP)</div>
-        <div class="price-range">
-          <input class="price-input" type="number" placeholder="Mín" id="price-min" oninput="filterProducts()">
-          <input class="price-input" type="number" placeholder="Máx" id="price-max" oninput="filterProducts()">
+      <div class="sb-cat" onclick="filterStore('cg')">
+        <span class="ico">🏪</span> CentralGamer
+      </div>
+      <div class="sb-cat" onclick="filterStore('centrale')">
+        <span class="ico">🏪</span> Centrale
+      </div>
+      <div class="sb-cat" onclick="filterStore('pcexpress')">
+        <span class="ico">🏪</span> PC-Express
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="main">
+
+    <!-- HOME PAGE -->
+    <div class="page active" id="page-home">
+      <div class="home-hero">
+        <h1>Encuentra el mejor precio de <em>hardware</em> en Chile</h1>
+        <p>Comparamos precios en tiempo real de N1G, Alltec, CentralGamer, Centrale y PC-Express para que siempre pagues menos.</p>
+        <div class="hero-btns">
+          <button class="btn-primary" onclick="showPage('hardware');filterCat('')">Ver todos los productos</button>
+          <button class="btn-secondary" onclick="showPage('hardware');filterCat('gpu')">Tarjetas de video →</button>
         </div>
       </div>
-      <div class="filter-section">
-        <div class="filter-label">Tienda</div>
-        <div class="filter-options" id="sidebar-stores"></div>
+
+      <div class="stores-strip" id="stores-strip"></div>
+
+      <div class="section-header">
+        <div class="section-title">🔥 Mejores precios hoy</div>
+        <span class="section-link" onclick="showPage('hardware');filterCat('')">Ver todos →</span>
       </div>
-    </aside>
-    <main class="products-main">
-      <div class="products-topbar">
-        <h2 id="products-count">Cargando...</h2>
-        <div style="display:flex;gap:10px;align-items:center;">
-          <select class="sort-select" id="sort-select" onchange="filterProducts()">
-            <option value="price-asc">Precio: menor a mayor</option>
-            <option value="price-desc">Precio: mayor a menor</option>
-            <option value="name-asc">Nombre A-Z</option>
-            <option value="rating-desc">Mejor calificación</option>
+      <div class="deals-grid" id="home-deals"></div>
+
+      <div class="section-header" style="margin-top:32px">
+        <div class="section-title">🎮 Tarjetas de Video</div>
+        <span class="section-link" onclick="showPage('hardware');filterCat('gpu')">Ver todas →</span>
+      </div>
+      <div class="deals-grid" id="home-gpu"></div>
+
+      <div class="section-header" style="margin-top:32px">
+        <div class="section-title">⚡ Procesadores</div>
+        <span class="section-link" onclick="showPage('hardware');filterCat('cpu')">Ver todos →</span>
+      </div>
+      <div class="deals-grid" id="home-cpu"></div>
+    </div>
+
+    <!-- HARDWARE PAGE -->
+    <div class="page" id="page-hardware">
+      <div class="page-hero">
+        <div class="hero-left">
+          <h1 id="hw-title">Componentes de <em>PC</em></h1>
+          <p id="hw-sub">Compara precios entre las principales tiendas de Chile</p>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-n" id="hw-stat-prods">0</div>
+            <div class="stat-l">Productos</div>
+          </div>
+          <div class="stat">
+            <div class="stat-n" id="hw-stat-stores">5</div>
+            <div class="stat-l">Tiendas</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <div class="toolbar-left">
+          <input type="text" class="select-box" placeholder="🔍 buscar..." id="prod-search" oninput="renderProds()" style="width:180px">
+          <select class="select-box" id="sort-sel" onchange="renderProds()">
+            <option value="price-asc">Menor precio</option>
+            <option value="price-desc">Mayor precio</option>
+            <option value="name-asc">A → Z</option>
+          </select>
+          <select class="select-box" id="store-sel" onchange="renderProds()">
+            <option value="">Todas las tiendas</option>
+            <option value="n1g">N1G</option>
+            <option value="alltec">Alltec</option>
+            <option value="cg">CentralGamer</option>
+            <option value="centrale">Centrale</option>
+            <option value="pcexpress">PC-Express</option>
           </select>
         </div>
+        <span class="results-count" id="prod-count"></span>
       </div>
-      <div class="tag-row" id="cat-tags"></div>
-      <div class="products-grid" id="products-grid"></div>
-    </main>
-  </div>
+
+      <div class="prod-grid" id="prod-grid"></div>
+    </div>
+
+    <!-- STORES PAGE -->
+    <div class="page" id="page-stores">
+      <div class="page-hero">
+        <div class="hero-left">
+          <h1>Tiendas <em>monitoreadas</em></h1>
+          <p>Comparamos precios en estas 5 tiendas de hardware en Chile</p>
+        </div>
+      </div>
+      <div id="stores-detail"></div>
+    </div>
+
+    <!-- CONTACT PAGE -->
+    <div class="page" id="page-contact">
+      <div class="page-hero">
+        <div class="hero-left">
+          <h1>Contacto</h1>
+          <p>¿Tienes sugerencias o encontraste un error? Escríbenos.</p>
+        </div>
+      </div>
+      <div style="max-width:480px;margin-top:24px">
+        <div style="background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:28px;display:flex;flex-direction:column;gap:16px">
+          <input type="text" class="select-box" placeholder="Tu nombre" style="width:100%;padding:10px 14px">
+          <input type="email" class="select-box" placeholder="tu@email.com" style="width:100%;padding:10px 14px">
+          <textarea class="select-box" placeholder="Tu mensaje..." rows="5" style="width:100%;padding:10px 14px;resize:vertical"></textarea>
+          <button class="btn-primary" onclick="showToast('¡Mensaje enviado! 📧','success')">Enviar mensaje</button>
+        </div>
+        <p style="font-size:13px;color:var(--text3);margin-top:16px">O escríbenos a contacto@findtech.cl</p>
+      </div>
+    </div>
+
+  </main>
 </div>
 
-<!-- ============================================================ PRODUCT DETAIL ============================================================ -->
-<div class="page" id="page-detail">
-  <div class="detail-wrap">
-    <button class="back-btn" onclick="showPage('products')">← Volver a productos</button>
-    <div class="breadcrumb" id="detail-breadcrumb"></div>
-    <div class="detail-grid">
-      <div class="detail-img-area" id="detail-img"></div>
-      <div class="detail-info" id="detail-info"></div>
+<!-- MODAL PRODUCTO -->
+<div class="modal-overlay" id="modal" onclick="if(event.target===this)closeModal()">
+  <div class="modal">
+    <div class="modal-header">
+      <div class="modal-title" id="modal-title">Producto</div>
+      <button class="modal-close" onclick="closeModal()">✕</button>
     </div>
-    <div class="detail-grid" style="grid-template-columns:1fr 1fr;gap:32px;">
-      <div>
-        <div class="specs-section">
-          <h3>Especificaciones técnicas</h3>
-          <table class="specs-table" id="detail-specs"></table>
-        </div>
-      </div>
-      <div>
-        <div class="stores-comparison">
-          <h3>Comparativa de precios</h3>
-          <div id="detail-stores"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- ============================================================ STORES ============================================================ -->
-<div class="page" id="page-stores">
-  <div class="page-header-bar">
-    <div class="page-header-bar-inner">
-      <div class="page-title">Tiendas de computación</div>
-      <div class="page-subtitle">Tiendas monitoreadas con actualización automática diaria</div>
-    </div>
-  </div>
-  <div class="stores-page">
-    <div class="stores-page-grid" id="stores-page-grid"></div>
-  </div>
-</div>
-
-<!-- ============================================================ CONTACT ============================================================ -->
-<div class="page" id="page-contact">
-  <div class="contact-page">
-    <div class="contact-grid">
-      <div class="contact-info">
-        <h2>Contáctanos</h2>
-        <p>¿Tienes alguna consulta, sugerencia o quieres que agreguemos tu tienda? Escríbenos y te respondemos a la brevedad.</p>
-        <div class="contact-item">
-          <div class="contact-icon">📧</div>
-          <div>
-            <div class="contact-detail-title">Email</div>
-            <div class="contact-detail-val">contacto@techcompara.cl</div>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="contact-icon">📍</div>
-          <div>
-            <div class="contact-detail-title">Ubicación</div>
-            <div class="contact-detail-val">Santiago, Región Metropolitana, Chile</div>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="contact-icon">🕐</div>
-          <div>
-            <div class="contact-detail-title">Horario de atención</div>
-            <div class="contact-detail-val">Lunes a Viernes, 9:00 – 18:00</div>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="contact-icon">🔄</div>
-          <div>
-            <div class="contact-detail-title">Actualización de precios</div>
-            <div class="contact-detail-val">Automática cada día a las 00:00 hrs</div>
-          </div>
-        </div>
-      </div>
-      <div class="contact-form">
-        <h3 style="font-family:var(--font-head);font-size:22px;font-weight:700;margin-bottom:24px;">Envíanos un mensaje</h3>
-        <div class="form-row">
-          <div class="form-group">
-            <label class="form-label">Nombre</label>
-            <input class="form-input" type="text" placeholder="Tu nombre">
-          </div>
-          <div class="form-group">
-            <label class="form-label">Email</label>
-            <input class="form-input" type="email" placeholder="tu@email.cl">
-          </div>
-        </div>
-        <div class="form-group">
-          <label class="form-label">Asunto</label>
-          <select class="form-input">
-            <option>Consulta general</option>
-            <option>Reportar un precio incorrecto</option>
-            <option>Agregar mi tienda</option>
-            <option>Sugerencia de producto</option>
-            <option>Otro</option>
-          </select>
-        </div>
-        <div class="form-group">
-          <label class="form-label">Mensaje</label>
-          <textarea class="form-input" placeholder="Escribe tu mensaje aquí..."></textarea>
-        </div>
-        <button class="form-submit" onclick="submitForm()">Enviar mensaje</button>
-        <p style="font-size:12px;color:var(--text3);text-align:center;margin-top:12px;">Respondemos en menos de 48 horas hábiles.</p>
+    <div class="modal-body">
+      <div class="modal-img" id="modal-img"></div>
+      <div class="modal-info">
+        <div class="modal-brand" id="modal-brand"></div>
+        <h2 id="modal-name"></h2>
+        <div class="modal-prices" id="modal-prices"></div>
+        <div class="modal-specs" id="modal-specs"></div>
       </div>
     </div>
   </div>
@@ -722,490 +770,445 @@ footer {
 
 <!-- FOOTER -->
 <footer>
-  <div class="footer-inner">
+  <div class="footer-grid">
     <div class="footer-brand">
-      <div class="logo" style="font-size:18px;cursor:pointer;" onclick="showPage('home')">
-        <span class="logo-dot"></span>Tech<span style="color:var(--accent)">Compara</span>.cl
-      </div>
-      <p>Comparador de precios de hardware y tecnología en Chile. Actualización automática diaria a las 00:00 hrs.</p>
+      <div class="logo"><div class="dot"></div>Find<em>Tech</em>.cl</div>
+      <p style="margin-top:12px">Comparamos precios de hardware en las principales tiendas de Chile. Actualizado diariamente.</p>
     </div>
     <div class="footer-col">
       <h4>Hardware</h4>
-      <a onclick="filterByCategory('Tarjetas Gráficas');showPage('products')">Tarjetas Gráficas</a>
-      <a onclick="filterByCategory('Procesadores');showPage('products')">Procesadores</a>
-      <a onclick="filterByCategory('Memorias RAM');showPage('products')">Memorias RAM</a>
-      <a onclick="filterByCategory('Almacenamiento');showPage('products')">Almacenamiento</a>
-      <a onclick="filterByCategory('Refrigeración');showPage('products')">Refrigeración</a>
+      <a onclick="filterCat('gpu');showPage('hardware')">Tarjetas de Video</a>
+      <a onclick="filterCat('cpu');showPage('hardware')">Procesadores</a>
+      <a onclick="filterCat('ram');showPage('hardware')">Memorias RAM</a>
+      <a onclick="filterCat('storage');showPage('hardware')">Almacenamiento</a>
+      <a onclick="filterCat('mobo');showPage('hardware')">Placas Madre</a>
     </div>
     <div class="footer-col">
       <h4>Tiendas</h4>
-      <a onclick="showPage('stores')">N1G.cl</a>
-      <a onclick="showPage('stores')">Alltec.cl</a>
-      <a onclick="showPage('stores')">CentralGamer.cl</a>
-      <a onclick="showPage('stores')">Centrale.cl</a>
-      <a onclick="showPage('stores')">PC-Express.cl</a>
+      <a href="https://n1g.cl" target="_blank">N1G</a>
+      <a href="https://alltec.cl" target="_blank">Alltec</a>
+      <a href="https://centralgamer.cl" target="_blank">CentralGamer</a>
+      <a href="https://centrale.cl" target="_blank">Centrale</a>
+      <a href="https://tienda.pc-express.cl" target="_blank">PC-Express</a>
     </div>
     <div class="footer-col">
-      <h4>Sitio</h4>
-      <a onclick="showPage('home')">Inicio</a>
-      <a onclick="showPage('products')">Productos</a>
-      <a onclick="showPage('stores')">Tiendas</a>
+      <h4>Info</h4>
       <a onclick="showPage('contact')">Contacto</a>
+      <a>Sobre nosotros</a>
+      <a>Privacidad</a>
     </div>
   </div>
   <div class="footer-bottom">
-    <span>© 2025 TechCompara.cl — Todos los precios son referenciales</span>
-    <span class="update-badge">● Precios actualizados hoy</span>
+    <span>© 2025 FindTech.cl — Todos los precios son referenciales</span>
+    <span id="footer-update"></span>
   </div>
 </footer>
 
+<div class="toast" id="toast"></div>
+
 <script>
-// ═══════════════════════════════════════════════════════
-// DATA
-// ═══════════════════════════════════════════════════════
+// ═══════════════════════════════════════════════
+// CONFIG
+// ═══════════════════════════════════════════════
 const STORES = [
-  { id:'n1g', name:'N1G', url:'www.n1g.cl', fullUrl:'https://www.n1g.cl', rating:4.3, reviews:1280, desc:'Tienda especializada en componentes gaming y hardware de alto rendimiento. Excelente stock de GPUs y periféricos.', shipping:'24-48 hrs', payment:'Débito, Crédito, Transferencia', founded:'2015' },
-  { id:'alltec', name:'Alltec', url:'www.alltec.cl', fullUrl:'https://www.alltec.cl', rating:4.5, reviews:2340, desc:'Una de las tiendas con mayor variedad de componentes. Conocida por sus precios competitivos y buen servicio de post-venta.', shipping:'24-72 hrs', payment:'Todos los medios', founded:'2010' },
-  { id:'cg', name:'CentralGamer', url:'www.centralgamer.cl', fullUrl:'https://www.centralgamer.cl', rating:4.1, reviews:890, desc:'Especialistas en gaming. Enfocados en periféricos, PCs armadas y componentes para alto rendimiento en juegos.', shipping:'48-72 hrs', payment:'Débito, Crédito, WebPay', founded:'2017' },
-  { id:'centrale', name:'Centrale', url:'www.centrale.cl', fullUrl:'https://www.centrale.cl', rating:4.4, reviews:1650, desc:'Tienda con gran variedad de productos tecnológicos. Buenos precios en memorias RAM, almacenamiento y monitores.', shipping:'24-48 hrs', payment:'Todos los medios', founded:'2012' },
-  { id:'pcexpress', name:'PC-Express', url:'tienda.pc-express.cl', fullUrl:'https://tienda.pc-express.cl', rating:4.2, reviews:760, desc:'Especialistas en armado de PCs a medida. Buena relación calidad-precio en CPUs y placas madre.', shipping:'48-96 hrs', payment:'Transferencia, Débito, Crédito', founded:'2014' }
+  { id:'n1g',       name:'N1G',         url:'https://n1g.cl',                 color:'#e84393' },
+  { id:'alltec',    name:'Alltec',       url:'https://www.alltec.cl',          color:'#3b82f6' },
+  { id:'cg',        name:'CentralGamer', url:'https://centralgamer.cl',        color:'#10b981' },
+  { id:'centrale',  name:'Centrale',     url:'https://www.centrale.cl',        color:'#f59e0b' },
+  { id:'pcexpress', name:'PC-Express',   url:'https://tienda.pc-express.cl',   color:'#ef4444' },
 ];
 
-const CATEGORIES = [
-  { id:'gpu', name:'Tarjetas Gráficas', icon:'🎮', sub:['NVIDIA GeForce RTX','AMD Radeon RX','Workstation'], count:48 },
-  { id:'cpu', name:'Procesadores', icon:'⚡', sub:['Intel Core i9/i7/i5','AMD Ryzen 9/7/5','HEDT'], count:62 },
-  { id:'ram', name:'Memorias RAM', icon:'💾', sub:['DDR5','DDR4','ECC/Server'], count:85 },
-  { id:'storage', name:'Almacenamiento', icon:'💿', sub:['NVMe M.2 PCIe 5.0/4.0','SSD SATA','HDD'], count:94 },
-  { id:'cooling', name:'Refrigeración', icon:'❄️', sub:['Refrigeración líquida AIO','Torre aire','Pasta térmica'], count:37 },
-  { id:'mobo', name:'Placas Madre', icon:'🔌', sub:['Intel LGA 1851/1700','AMD AM5/AM4','HEDT'], count:71 },
-  { id:'psu', name:'Fuentes de Poder', icon:'⚙️', sub:['Modular 1000W+','Semi-Modular','No-Modular'], count:43 },
-  { id:'case', name:'Gabinetes', icon:'🖥️', sub:['Full Tower','Mid Tower','Mini-ITX'], count:56 },
-  { id:'monitor', name:'Monitores', icon:'🖱️', sub:['4K 144Hz+','1440p 165Hz+','1080p Gaming'], count:38 },
-  { id:'periph', name:'Periféricos', icon:'⌨️', sub:['Teclados mecánicos','Ratones gaming','Headsets'], count:120 }
-];
+const CATS = {
+  gpu:     { name:'Tarjetas de Video', icon:'🎮' },
+  cpu:     { name:'Procesadores',      icon:'⚡' },
+  ram:     { name:'Memorias RAM',      icon:'💾' },
+  storage: { name:'Almacenamiento',    icon:'💿' },
+  cooling: { name:'Refrigeración',     icon:'❄️' },
+  mobo:    { name:'Placas Madre',      icon:'🔌' },
+  psu:     { name:'Fuentes de Poder',  icon:'⚙️' },
+  case:    { name:'Gabinetes',         icon:'🖥️' },
+  monitor: { name:'Monitores',         icon:'🖱️' },
+  periph:  { name:'Periféricos',       icon:'⌨️' },
+};
 
-const fmt = n => '$ ' + n.toLocaleString('es-CL');
+const SUBCATS = {
+  gpu:     { nvidia:['rtx','geforce','nvidia'], amd:['radeon','rx ','amd'] },
+  cpu:     { intel:['intel','core','i3','i5','i7','i9'], amd:['ryzen','amd','threadripper'] },
+  ram:     { ddr5:['ddr5'], ddr4:['ddr4'] },
+  storage: { nvme:['nvme','m.2','pcie'], sata:['sata','2.5'], hdd:['hdd','disco duro','hd '] },
+  cooling: { liquida:['liquid','aio','360','240','280'], aire:['tower','cooler','disipador'], fans:['fan','ventilador','argb'] },
+  mobo:    { am5:['am5'], am4:['am4'], lga1700:['lga1700','1700'], lga1851:['lga1851','1851'] },
+  case:    { atx:['atx'], matx:['micro atx','matx','m-atx'], itx:['itx','mini-itx'] },
+  psu:     { modular:['modular'], certificada:['80+','gold','platinum','bronze'] },
+};
 
-const PRODUCTS = [
-  { id:1, category:'gpu', brand:'NVIDIA', name:'GeForce RTX 5090 32GB GDDR7', emoji:'🎮', tags:['Top gama','4K gaming'], specs:{'Arquitectura':'Blackwell GB202','VRAM':'32 GB GDDR7','Velocidad memoria':'28 Gbps','Bus':'512-bit','TDP':'575W','Puertos':'3x DP 2.1, 1x HDMI 2.1a','API':'DirectX 13 / Vulkan 1.4'}, prices:{n1g:2990000,alltec:2949000,cg:3050000,centrale:2980000,pcexpress:3020000} },
-  { id:2, category:'gpu', brand:'NVIDIA', name:'GeForce RTX 5080 16GB GDDR7', emoji:'🎮', tags:['1440p/4K'], specs:{'Arquitectura':'Blackwell GB203','VRAM':'16 GB GDDR7','Velocidad memoria':'30 Gbps','Bus':'256-bit','TDP':'360W','Puertos':'3x DP 2.1, 1x HDMI 2.1a','API':'DirectX 13 / Vulkan 1.4'}, prices:{n1g:1890000,alltec:1849000,cg:1920000,centrale:1870000,pcexpress:1910000} },
-  { id:3, category:'gpu', brand:'AMD', name:'Radeon RX 9070 XT 16GB GDDR6', emoji:'🎮', tags:['1440p gaming'], specs:{'Arquitectura':'RDNA 4 Navi 44','VRAM':'16 GB GDDR6','Velocidad memoria':'20 Gbps','Bus':'256-bit','TDP':'304W','Puertos':'2x DP 2.1, 2x HDMI 2.1','API':'DirectX 12 Ultimate'}, prices:{n1g:890000,alltec:875000,cg:910000,centrale:885000,pcexpress:920000} },
-  { id:4, category:'gpu', brand:'NVIDIA', name:'GeForce RTX 5070 Ti 16GB GDDR7', emoji:'🎮', tags:['1440p/4K'], specs:{'Arquitectura':'Blackwell GB205','VRAM':'16 GB GDDR7','Velocidad memoria':'28 Gbps','Bus':'256-bit','TDP':'300W','Puertos':'3x DP 2.1, 1x HDMI 2.1a'}, prices:{n1g:1290000,alltec:1265000,cg:1320000,centrale:1280000,pcexpress:1310000} },
-  { id:5, category:'gpu', brand:'AMD', name:'Radeon RX 9070 16GB GDDR6', emoji:'🎮', tags:['1080p/1440p'], specs:{'Arquitectura':'RDNA 4 Navi 44','VRAM':'16 GB GDDR6','Velocidad memoria':'18 Gbps','Bus':'256-bit','TDP':'220W'}, prices:{n1g:750000,alltec:739000,cg:770000,centrale:745000,pcexpress:760000} },
-  { id:6, category:'gpu', brand:'NVIDIA', name:'GeForce RTX 4060 Ti 8GB GDDR6', emoji:'🎮', tags:['1080p gaming'], specs:{'Arquitectura':'Ada Lovelace AD106','VRAM':'8 GB GDDR6','Velocidad memoria':'18 Gbps','Bus':'128-bit','TDP':'165W'}, prices:{n1g:490000,alltec:479000,cg:510000,centrale:485000,pcexpress:500000} },
-
-  { id:7, category:'cpu', brand:'Intel', name:'Core Ultra 9 285K 24 núcleos', emoji:'⚡', tags:['Flagship','OC'], specs:{'Socket':'LGA1851','Núcleos':'8P + 16E = 24C/24T','Boost':'5.7 GHz','Cache':'36 MB L3','TDP':'125W/253W','Litografía':'Intel 3 (4nm)','iGPU':'Intel UHD 770'}, prices:{n1g:599000,alltec:585000,cg:620000,centrale:595000,pcexpress:610000} },
-  { id:8, category:'cpu', brand:'Intel', name:'Core Ultra 7 265K 20 núcleos', emoji:'⚡', tags:['Gaming','Productividad'], specs:{'Socket':'LGA1851','Núcleos':'8P + 12E = 20C/20T','Boost':'5.5 GHz','Cache':'30 MB L3','TDP':'125W','Litografía':'Intel 3'}, prices:{n1g:449000,alltec:439000,cg:465000,centrale:445000,pcexpress:460000} },
-  { id:9, category:'cpu', brand:'AMD', name:'Ryzen 9 9950X 16 núcleos', emoji:'⚡', tags:['Flagship AMD'], specs:{'Socket':'AM5','Núcleos':'16C/32T','Boost':'5.7 GHz','Cache':'64 MB L3','TDP':'170W','Litografía':'TSMC 4nm'}, prices:{n1g:639000,alltec:619000,cg:660000,centrale:635000,pcexpress:650000} },
-  { id:10, category:'cpu', brand:'AMD', name:'Ryzen 7 9700X 8 núcleos', emoji:'⚡', tags:['Eficiencia','Gaming'], specs:{'Socket':'AM5','Núcleos':'8C/16T','Boost':'5.5 GHz','Cache':'32 MB L3','TDP':'65W','Litografía':'TSMC 4nm'}, prices:{n1g:369000,alltec:355000,cg:380000,centrale:360000,pcexpress:375000} },
-  { id:11, category:'cpu', brand:'AMD', name:'Ryzen 5 9600X 6 núcleos', emoji:'⚡', tags:['Precio/rendimiento'], specs:{'Socket':'AM5','Núcleos':'6C/12T','Boost':'5.4 GHz','Cache':'32 MB L3','TDP':'65W'}, prices:{n1g:289000,alltec:275000,cg:300000,centrale:282000,pcexpress:295000} },
-
-  { id:12, category:'ram', brand:'G.Skill', name:'Trident Z5 32GB DDR5-6400 CL32', emoji:'💾', tags:['DDR5','Gaming'], specs:{'Capacidad':'32 GB (2x16 GB)','Velocidad':'DDR5-6400 (PC5-51200)','Latencia':'CL32-39-39-102','Voltaje':'1.4V','Perfil':'XMP 3.0 / EXPO','Altura':'44mm (con disipador)'}, prices:{n1g:175000,alltec:169000,cg:182000,centrale:172000,pcexpress:180000} },
-  { id:13, category:'ram', brand:'Kingston', name:'Fury Beast 32GB DDR5-6000 CL30', emoji:'💾', tags:['DDR5'], specs:{'Capacidad':'32 GB (2x16 GB)','Velocidad':'DDR5-6000','Latencia':'CL30-40-40','Voltaje':'1.35V'}, prices:{n1g:145000,alltec:139000,cg:152000,centrale:142000,pcexpress:149000} },
-  { id:14, category:'ram', brand:'Corsair', name:'Vengeance 64GB DDR5-5600 CL36', emoji:'💾', tags:['DDR5','64GB'], specs:{'Capacidad':'64 GB (2x32 GB)','Velocidad':'DDR5-5600','Latencia':'CL36','Voltaje':'1.25V','Perfil':'Intel XMP 3.0'}, prices:{n1g:299000,alltec:285000,cg:310000,centrale:292000,pcexpress:305000} },
-
-  { id:15, category:'storage', brand:'Samsung', name:'990 Pro 2TB NVMe PCIe 4.0', emoji:'💿', tags:['PCIe 4.0','Alta velocidad'], specs:{'Capacidad':'2 TB','Interfaz':'NVMe PCIe 4.0 x4','Lectura seq.':'7,450 MB/s','Escritura seq.':'6,900 MB/s','Formato':'M.2 2280','Garantía':'5 años'}, prices:{n1g:129000,alltec:119000,cg:135000,centrale:125000,pcexpress:132000} },
-  { id:16, category:'storage', brand:'WD', name:'Black SN850X 2TB NVMe PCIe 4.0', emoji:'💿', tags:['PCIe 4.0','Gaming'], specs:{'Capacidad':'2 TB','Interfaz':'NVMe PCIe 4.0 x4','Lectura seq.':'7,300 MB/s','Escritura seq.':'6,600 MB/s','Formato':'M.2 2280'}, prices:{n1g:115000,alltec:109000,cg:122000,centrale:112000,pcexpress:118000} },
-  { id:17, category:'storage', brand:'Samsung', name:'990 EVO Plus 2TB NVMe PCIe 5.0', emoji:'💿', tags:['PCIe 5.0'], specs:{'Capacidad':'2 TB','Interfaz':'NVMe PCIe 5.0 x2','Lectura seq.':'7,250 MB/s','Escritura seq.':'6,300 MB/s','Formato':'M.2 2280'}, prices:{n1g:159000,alltec:149000,cg:165000,centrale:155000,pcexpress:162000} },
-
-  { id:18, category:'cooling', brand:'Arctic', name:'Liquid Freezer III 360mm ARGB', emoji:'❄️', tags:['360mm AIO','ARGB'], specs:{'Tipo':'AIO refrigeración líquida','Radiador':'360mm','Ventiladores':'3x 120mm ARGB','RPM':'200 – 2100 RPM','Ruido':'0.5 – 22.5 dB(A)','Socket':'LGA1851/1700/AM5/AM4','Garantía':'6 años'}, prices:{n1g:189000,alltec:179000,cg:199000,centrale:185000,pcexpress:195000} },
-  { id:19, category:'cooling', brand:'Noctua', name:'NH-D15 G2 Disipador Dual Torre', emoji:'❄️', tags:['Air cooling','Silencioso'], specs:{'Tipo':'Disipador aire dual torre','Ventiladores':'2x NF-A15 140mm','TDP max.':'400W+','Altura':'168mm','Peso':'1320g','Socket':'LGA1851/AM5/AM4'}, prices:{n1g:145000,alltec:139000,cg:152000,centrale:142000,pcexpress:148000} },
-  { id:20, category:'cooling', brand:'Corsair', name:'iCUE H150i Elite LCD 360mm', emoji:'❄️', tags:['360mm AIO','LCD Pantalla'], specs:{'Tipo':'AIO refrigeración líquida','Radiador':'360mm','Ventiladores':'3x 120mm ARGB','Display':'LCD a color','Socket':'LGA1851/1700/AM5/AM4'}, prices:{n1g:229000,alltec:219000,cg:240000,centrale:225000,pcexpress:235000} },
-
-  { id:21, category:'mobo', brand:'ASUS', name:'ROG MAXIMUS Z890 APEX (LGA1851)', emoji:'🔌', tags:['Intel Z890','OC Extremo'], specs:{'Socket':'Intel LGA1851','Chipset':'Z890','Formato':'E-ATX','RAM slots':'4x DDR5 (hasta 192 GB)','PCIe':'1x PCIe 5.0 x16, 2x PCIe 4.0','M.2 slots':'5x M.2 (PCIe 5.0/4.0)','USB':'20G, 10G, Thunderbolt 5'}, prices:{n1g:890000,alltec:859000,cg:920000,centrale:880000,pcexpress:900000} },
-  { id:22, category:'mobo', brand:'MSI', name:'MAG X870E Tomahawk WiFi (AM5)', emoji:'🔌', tags:['AMD AM5','WiFi 7'], specs:{'Socket':'AMD AM5','Chipset':'X870E','Formato':'ATX','RAM slots':'4x DDR5 (hasta 256 GB)','PCIe':'1x PCIe 5.0 x16','M.2 slots':'4x M.2 PCIe 5.0/4.0','Wi-Fi':'Wi-Fi 7 (BE200)'}, prices:{n1g:299000,alltec:285000,cg:310000,centrale:295000,pcexpress:305000} },
-
-  { id:23, category:'psu', brand:'Corsair', name:'RM1000x SHIFT 1000W 80+ Gold', emoji:'⚙️', tags:['1000W','Modular'], specs:{'Potencia':'1000W','Certificación':'80+ Gold','Tipo':'Totalmente modular','Conector ATX3.1':'Sí (PCIe 5.1 16-pin)','Garantía':'10 años','Ruido':'Semi-pasivo < 400W'}, prices:{n1g:189000,alltec:175000,cg:199000,centrale:182000,pcexpress:192000} },
-  { id:24, category:'psu', brand:'Seasonic', name:'PRIME TX-1300 1300W 80+ Titanium', emoji:'⚙️', tags:['1300W','Titanium'], specs:{'Potencia':'1300W','Certificación':'80+ Titanium','Tipo':'Totalmente modular','Garantía':'12 años','Eficiencia':'92%+ a carga típica'}, prices:{n1g:459000,alltec:439000,cg:479000,centrale:449000,pcexpress:465000} },
-
-  { id:25, category:'monitor', brand:'LG', name:'27GS95QE 27" OLED QHD 240Hz', emoji:'🖥️', tags:['OLED','240Hz','1440p'], specs:{'Panel':'WOLED','Resolución':'2560 x 1440 (QHD)','Tasa refresco':'240 Hz','Tiempo respuesta':'0.03ms GTG','HDR':'VESA DisplayHDR True Black 400','Color':'99% DCI-P3','Conectividad':'2x HDMI 2.1, 1x DP 1.4'}, prices:{n1g:849000,alltec:829000,cg:880000,centrale:845000,pcexpress:870000} },
-  { id:26, category:'monitor', brand:'Samsung', name:'Odyssey G9 49" OLED DQHD 240Hz', emoji:'🖥️', tags:['OLED','Ultrawide 49"'], specs:{'Panel':'QD-OLED','Resolución':'5120 x 1440 (DQHD)','Tasa refresco':'240 Hz','Curvatura':'1800R','HDR':'DisplayHDR True Black 400','Conectividad':'2x HDMI 2.1, 1x DP 1.4, 4x USB'}, prices:{n1g:1899000,alltec:1849000,cg:1950000,centrale:1879000,pcexpress:1920000} }
-];
-
-// ═══════════════════════════════════════════════════════
-// STATE
-// ═══════════════════════════════════════════════════════
+let PRODUCTS = [];
+let currentCat = '';
+let currentSub = '';
+let currentStore = '';
 let currentPage = 'home';
-let activeCategory = 'gpu';
-let currentProduct = null;
 
-function getMinPrice(p) {
+// ═══════════════════════════════════════════════
+// UTILS
+// ═══════════════════════════════════════════════
+function fmt(n) {
+  if (!n || n <= 0) return '—';
+  return '$' + parseInt(n).toLocaleString('es-CL');
+}
+
+function getPrice(p) {
   if (p._bestPrice) return p._bestPrice;
-  const vals = Object.values(p.prices||{}).filter(v => v > 0);
+  const vals = Object.values(p.prices||{}).filter(v=>v>0);
   return vals.length ? Math.min(...vals) : 0;
 }
-function getBestStore(p) {
-  if (p._bestStoreId) return STORES.find(s => s.id === p._bestStoreId) || STORES[0];
-  const prices = Object.entries(p.prices||{}).filter(([,v]) => v > 0);
-  if (!prices.length) return STORES.find(s => s.name === p._bestStoreName) || STORES[0];
-  const bestId = prices.reduce((a,b) => a[1] < b[1] ? a : b)[0];
-  return STORES.find(s => s.id === bestId) || STORES[0];
-}
-function starsHtml(r) {
-  let s = '';
-  for(let i=1;i<=5;i++) s += i <= Math.round(r) ? '★' : '☆';
-  return s;
+
+function getCardPrice(p) {
+  const base = getPrice(p);
+  if (!base) return 0;
+  return Math.round(base * 1.0526);
 }
 
-// ═══════════════════════════════════════════════════════
-// PAGE NAV
-// ═══════════════════════════════════════════════════════
-function showPage(page) {
-  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-  document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
-  document.getElementById('page-'+page).classList.add('active');
-  const navMap = { home:'nav-home', products:'nav-products', stores:'nav-stores', contact:'nav-contact', detail:'nav-products' };
-  if(navMap[page]) document.getElementById(navMap[page]).classList.add('active');
-  currentPage = page;
+function getBestStore(p) {
+  if (p._bestStoreId) return STORES.find(s=>s.id===p._bestStoreId);
+  const prices = Object.entries(p.prices||{}).filter(([,v])=>v>0);
+  if (!prices.length) return STORES.find(s=>s.name===p._bestStoreName) || STORES[0];
+  const bestId = prices.reduce((a,b)=>a[1]<b[1]?a:b)[0];
+  return STORES.find(s=>s.id===bestId) || STORES[0];
+}
+
+function matchSub(p, cat, sub) {
+  const keys = SUBCATS[cat]?.[sub] || [];
+  const txt = (p.name + ' ' + (p.brand||'')).toLowerCase();
+  return keys.some(k => txt.includes(k));
+}
+
+function showToast(msg, type='success') {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.className = 'toast ' + type + ' show';
+  setTimeout(() => t.classList.remove('show'), 2500);
+}
+
+// ═══════════════════════════════════════════════
+// NAVIGATION
+// ═══════════════════════════════════════════════
+function showPage(p) {
+  document.querySelectorAll('.page').forEach(el=>el.classList.remove('active'));
+  document.getElementById('page-'+p).classList.add('active');
+  currentPage = p;
+  if (p==='hardware') renderProds();
+  if (p==='stores') renderStores();
+  if (p==='home') renderHome();
   window.scrollTo(0,0);
 }
 
-// ═══════════════════════════════════════════════════════
-// HOME
-// ═══════════════════════════════════════════════════════
-function buildHome() {
-  // Hot deals
-  const hotProds = [...PRODUCTS].sort((a,b) => getMinPrice(a)-getMinPrice(b)).slice(0,5);
-  document.getElementById('hot-deals').innerHTML = hotProds.map(p => {
-    const best = getBestStore(p);
-    return `<div class="deal-row" onclick="openProduct(${p.id})">
-      <div class="deal-img-placeholder">${p.emoji}</div>
-      <div class="deal-info">
-        <div class="deal-name">${p.name}</div>
-        <div class="deal-store">${best.name}</div>
-      </div>
-      <div>
-        <div class="deal-price">${fmt(getMinPrice(p))}</div>
-      </div>
+function filterCat(cat) {
+  currentCat = cat;
+  currentSub = '';
+  currentStore = '';
+  document.querySelectorAll('.sb-cat').forEach(el=>el.classList.remove('active'));
+  const id = cat ? 'sb-'+cat : 'sb-all';
+  document.getElementById(id)?.classList.add('active');
+  const catObj = CATS[cat];
+  document.getElementById('hw-title').innerHTML = cat
+    ? `${catObj.icon} ${catObj.name}`
+    : 'Componentes de <em>PC</em>';
+  showPage('hardware');
+}
+
+function filterSub(cat, sub) {
+  currentCat = cat;
+  currentSub = sub;
+  currentStore = '';
+  showPage('hardware');
+}
+
+function filterStore(store) {
+  currentStore = store;
+  currentCat = '';
+  currentSub = '';
+  showPage('hardware');
+}
+
+function toggleSub(cat) {
+  const el = document.getElementById('sb-'+cat);
+  const sub = document.getElementById('sub-'+cat);
+  el.classList.toggle('open');
+  filterCat(cat);
+}
+
+function onSearch(val) {
+  if (currentPage !== 'hardware') showPage('hardware');
+  document.getElementById('prod-search').value = val;
+  renderProds();
+}
+
+// ═══════════════════════════════════════════════
+// RENDER HOME
+// ═══════════════════════════════════════════════
+function renderHome() {
+  // Stores strip
+  const strip = document.getElementById('stores-strip');
+  strip.innerHTML = STORES.map(s => {
+    const cnt = PRODUCTS.filter(p=>p.prices?.[s.id]>0||p._bestStoreId===s.id).length;
+    return `<div class="store-chip" onclick="filterStore('${s.id}')">
+      <span class="ico">🏪</span>
+      <span class="name">${s.name}</span>
+      <span class="cnt">${cnt} prods</span>
     </div>`;
   }).join('');
 
-  // Categories
-  document.getElementById('categories-grid').innerHTML = CATEGORIES.map(c => `
-    <div class="cat-card" onclick="filterByCategory(c_${c.id})">
-      <div class="cat-icon">${c.icon}</div>
-      <div>
-        <div class="cat-name">${c.name}</div>
-        <div class="cat-count">${c.count} productos</div>
-      </div>
-      <div class="cat-sub">${c.sub.slice(0,3).map(s=>`<a>${s}</a>`).join('')}</div>
-    </div>
-  `).join('');
+  // Best deals
+  const sorted = [...PRODUCTS].filter(p=>getPrice(p)>0)
+    .sort((a,b)=>getPrice(a)-getPrice(b));
+  document.getElementById('home-deals').innerHTML = sorted.slice(0,8).map(p=>cardHtml(p)).join('');
+  document.getElementById('home-gpu').innerHTML = sorted.filter(p=>p.category==='gpu').slice(0,4).map(p=>cardHtml(p)).join('');
+  document.getElementById('home-cpu').innerHTML = sorted.filter(p=>p.category==='cpu').slice(0,4).map(p=>cardHtml(p)).join('');
 
-  // Fix category click - inline onclick doesn't work with const inside string
-  document.querySelectorAll('.cat-card').forEach((el,i) => {
-    el.onclick = () => { filterByCategory(CATEGORIES[i].name); showPage('products'); };
+  // Footer update
+  const meta = localStorage.getItem('ft_meta');
+  if (meta) {
+    const m = JSON.parse(meta);
+    document.getElementById('footer-update').textContent = 'Actualizado: ' + (m.last_update||'');
+  }
+}
+
+// ═══════════════════════════════════════════════
+// RENDER PRODUCTS
+// ═══════════════════════════════════════════════
+function renderProds() {
+  const q      = (document.getElementById('prod-search')?.value||'').toLowerCase();
+  const sort   = document.getElementById('sort-sel')?.value||'price-asc';
+  const storeF = document.getElementById('store-sel')?.value||currentStore||'';
+
+  let prods = PRODUCTS.filter(p => {
+    if (currentCat && p.category !== currentCat) return false;
+    if (currentSub && !matchSub(p, currentCat, currentSub)) return false;
+    if (storeF && !p.prices?.[storeF] && p._bestStoreId !== storeF) return false;
+    if (q && !p.name.toLowerCase().includes(q) && !(p.brand||'').toLowerCase().includes(q)) return false;
+    if (getPrice(p) <= 0) return false;
+    return true;
   });
 
-  // Stores
-  document.getElementById('stores-row').innerHTML = STORES.map(s => `
-    <div class="store-chip" onclick="showPage('stores')">
-      <div class="store-logo-area">${s.name}</div>
-      <div class="store-url">${s.url}</div>
-      <div class="store-rating">
-        <span class="stars">${starsHtml(s.rating)}</span>
-        <span class="rating-num">${s.rating}</span>
-        <span style="font-size:12px;color:var(--text3)">(${s.reviews.toLocaleString()})</span>
-      </div>
+  if (sort==='price-asc')  prods.sort((a,b)=>getPrice(a)-getPrice(b));
+  if (sort==='price-desc') prods.sort((a,b)=>getPrice(b)-getPrice(a));
+  if (sort==='name-asc')   prods.sort((a,b)=>a.name.localeCompare(b.name));
+
+  document.getElementById('prod-count').textContent = `${prods.length} producto${prods.length!==1?'s':''}`;
+  document.getElementById('hw-stat-prods').textContent = prods.length;
+
+  // Update sidebar counts
+  Object.keys(CATS).forEach(cat => {
+    const el = document.getElementById('sb-count-'+cat);
+    if (el) el.textContent = PRODUCTS.filter(p=>p.category===cat&&getPrice(p)>0).length;
+  });
+  const allEl = document.getElementById('sb-count-all');
+  if (allEl) allEl.textContent = PRODUCTS.filter(p=>getPrice(p)>0).length;
+
+  const grid = document.getElementById('prod-grid');
+  if (!prods.length) {
+    grid.innerHTML = `<div class="empty" style="grid-column:1/-1">
+      <div class="ico">🔍</div>
+      <h3>Sin resultados</h3>
+      <p>Prueba con otros filtros o términos de búsqueda</p>
+    </div>`;
+    return;
+  }
+  grid.innerHTML = prods.map(p => cardHtml(p)).join('');
+}
+
+// ═══════════════════════════════════════════════
+// CARD HTML
+// ═══════════════════════════════════════════════
+function cardHtml(p) {
+  const price = getPrice(p);
+  const cardPrice = getCardPrice(p);
+  const store = getBestStore(p);
+  const cat = CATS[p.category] || { icon:'📦', name:p.category };
+  const imgHtml = p.imageUrl
+    ? `<img src="${p.imageUrl}" alt="${p.name}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
+    + `<div class="emoji" style="display:none">${cat.icon}</div>`
+    : `<div class="emoji">${cat.icon}</div>`;
+
+  return `<div class="prod-card" onclick="openModal(${p.id})">
+    <div class="prod-img">
+      ${imgHtml}
     </div>
-  `).join('');
-}
-
-// ═══════════════════════════════════════════════════════
-// PRODUCTS
-// ═══════════════════════════════════════════════════════
-function filterByCategory(catName) {
-  const cat = CATEGORIES.find(c => c.name === catName);
-  if(cat) activeCategory = cat.id;
-  buildProductsPage();
-}
-
-function buildProductsPage() {
-  // Cat tags
-  document.getElementById('cat-tags').innerHTML = CATEGORIES.map(c => `
-    <button class="filter-tag ${activeCategory===c.id?'active':''}" onclick="activeCategory='${c.id}';buildProductsPage()">
-      ${c.icon} ${c.name}
-    </button>
-  `).join('');
-
-  // Sidebar brands
-  const catProds = PRODUCTS.filter(p => p.category === activeCategory);
-  const brands = [...new Set(catProds.map(p=>p.brand))];
-  document.getElementById('sidebar-brands').innerHTML = brands.map(b => `
-    <label class="filter-opt"><input type="checkbox" onchange="filterProducts()"> ${b}</label>
-  `).join('');
-
-  // Sidebar stores
-  document.getElementById('sidebar-stores').innerHTML = STORES.map(s => `
-    <label class="filter-opt"><input type="checkbox" onchange="filterProducts()"> ${s.name}</label>
-  `).join('');
-
-  const catObj = CATEGORIES.find(c=>c.id===activeCategory);
-  document.getElementById('products-page-title').textContent = catObj ? catObj.name : 'Productos';
-
-  filterProducts();
-}
-
-function filterProducts() {
-  let prods = PRODUCTS.filter(p => p.category === activeCategory);
-  const minP = parseInt(document.getElementById('price-min')?.value || 0);
-  const maxP = parseInt(document.getElementById('price-max')?.value || Infinity);
-  if(minP) prods = prods.filter(p => getMinPrice(p) >= minP);
-  if(maxP && maxP !== Infinity) prods = prods.filter(p => getMinPrice(p) <= maxP);
-
-  // Brand filter
-  const checkedBrands = [...document.querySelectorAll('#sidebar-brands input:checked')].map(i => i.parentElement.textContent.trim());
-  if(checkedBrands.length) prods = prods.filter(p => checkedBrands.includes(p.brand));
-
-  // Sort
-  const sort = document.getElementById('sort-select')?.value || 'price-asc';
-  if(sort==='price-asc') prods.sort((a,b)=>getMinPrice(a)-getMinPrice(b));
-  else if(sort==='price-desc') prods.sort((a,b)=>getMinPrice(b)-getMinPrice(a));
-  else if(sort==='name-asc') prods.sort((a,b)=>a.name.localeCompare(b.name));
-
-  document.getElementById('products-count').textContent = `${prods.length} producto${prods.length!==1?'s':''}`;
-  document.getElementById('products-grid').innerHTML = prods.map(p => {
-    const minPrice = getMinPrice(p);
-    const storeCount = p._storeCount || Object.values(p.prices||{}).filter(v=>v>0).length || 1;
-    const catObj = CATEGORIES.find(c=>c.id===p.category);
-    const imgHtml = p.imageUrl
-      ? `<img src="${p.imageUrl}" style="max-width:100%;max-height:120px;object-fit:contain;" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">`
-      + `<div class="emoji" style="display:none">${p.emoji}</div>`
-      : `<div class="emoji">${p.emoji}</div>`;
-    return `<div class="prod-card" onclick="openProduct(${p.id})">
-      <div class="prod-img-wrap">${imgHtml}</div>
-      <div class="prod-body">
-        <div class="prod-brand">${p.brand}</div>
-        <div class="prod-name">${p.name}</div>
-        <div class="prod-prices">
-          <div class="best-price">${fmt(minPrice)}</div>
-          <div class="price-from">Mejor precio disponible</div>
+    <div class="prod-body">
+      <div class="prod-brand">${p.brand||cat.name}</div>
+      <div class="prod-name">${p.name}</div>
+      <div class="dual-price">
+        <div class="price-row">
+          <span class="price-label">Efectivo/Transferencia</span>
+        </div>
+        <div class="price-row">
+          <span class="price-val best">${fmt(price)}</span>
+          <span class="price-store">${store?.name||'—'}</span>
+        </div>
+        <div class="price-row" style="margin-top:4px">
+          <span class="price-label">Tarjeta / Otros medios</span>
+          <span class="price-val card">${fmt(cardPrice)}</span>
         </div>
       </div>
-      <div class="prod-footer">
-        <span class="store-count">${storeCount} tiendas</span>
-        ${p.tags.length ? `<span class="badge-new">${p.tags[0]}</span>` : ''}
-      </div>
-    </div>`;
-  }).join('');
+    </div>
+    <div class="card-actions">
+      <button class="btn-ver" onclick="event.stopPropagation();openModal(${p.id})">Ver precios</button>
+      ${p.url ? `<a class="btn-cmp" href="${p.url}" target="_blank" onclick="event.stopPropagation()">🔗</a>` : ''}
+    </div>
+  </div>`;
 }
 
-// ═══════════════════════════════════════════════════════
-// PRODUCT DETAIL
-// ═══════════════════════════════════════════════════════
-function openProduct(id) {
+// ═══════════════════════════════════════════════
+// MODAL
+// ═══════════════════════════════════════════════
+function openModal(id) {
   const p = PRODUCTS.find(x=>x.id===id);
-  if(!p) return;
-  currentProduct = p;
-  const catObj = CATEGORIES.find(c=>c.id===p.category);
-  const minPrice = getMinPrice(p);
-  const best = getBestStore(p);
+  if (!p) return;
+  const cat = CATS[p.category]||{icon:'📦'};
+  const price = getPrice(p);
+  const cardPrice = getCardPrice(p);
+  const store = getBestStore(p);
 
-  document.getElementById('detail-breadcrumb').innerHTML = `
-    <span onclick="showPage('home')">Inicio</span> › 
-    <span onclick="showPage('products');filterByCategory('${catObj?.name}')">${catObj?.name}</span> › 
-    <span style="color:var(--text)">${p.brand} ${p.name}</span>
-  `;
-  document.getElementById('detail-img').innerHTML = `<div class="emoji" style="font-size:120px">${p.emoji}</div>`;
-  document.getElementById('detail-info').innerHTML = `
-    <div class="detail-brand">${p.brand}</div>
-    <div class="detail-name">${p.name}</div>
-    <div class="detail-price-box">
-      <div class="detail-best-price">${fmt(minPrice)}</div>
-      <div class="detail-store-note">Mejor precio en <strong>${best.name}</strong> • Actualizado hoy</div>
-    </div>
-    <div class="detail-tags">${p.tags.map(t=>`<span class="tag">${t}</span>`).join('')}
-      <span class="tag">${catObj?.name}</span>
-    </div>
-    <div style="font-size:14px;color:var(--text2);background:var(--surface);padding:14px;border-radius:var(--radius);border:1px solid var(--border)">
-      💡 <strong>Consejo:</strong> Los precios se actualizan diariamente a las 00:00 hrs. Verifica disponibilidad antes de comprar.
-    </div>
-  `;
-  document.getElementById('detail-specs').innerHTML = Object.entries(p.specs).map(([k,v])=>`
-    <tr><td>${k}</td><td>${v}</td></tr>
-  `).join('');
+  document.getElementById('modal-title').textContent = p.name;
+  document.getElementById('modal-brand').textContent = p.brand||'';
+  document.getElementById('modal-name').textContent = p.name;
 
-  // Stores sorted by price
-  const storeList = Object.entries(p.prices).sort((a,b)=>a[1]-b[1]);
-  document.getElementById('detail-stores').innerHTML = storeList.map(([stId, price], i) => {
-    const store = STORES.find(s=>s.id===stId);
-    const isBest = i===0;
-    return `<div class="store-row-item ${isBest?'best':''}">
-      <div>
-        <div class="store-row-name">${store.name} ${isBest?'<span class="best-badge">MEJOR PRECIO</span>':''}</div>
-        <div class="store-row-sub">${starsHtml(store.rating)} ${store.rating} • ${store.url}</div>
+  // Image
+  const imgEl = document.getElementById('modal-img');
+  imgEl.innerHTML = p.imageUrl
+    ? `<img src="${p.imageUrl}" alt="${p.name}" style="max-height:200px;object-fit:contain" onerror="this.innerHTML='<span style=\\'font-size:72px\\'>${cat.icon}</span>'">`
+    : `<span style="font-size:72px">${cat.icon}</span>`;
+
+  // Prices
+  const pricesEl = document.getElementById('modal-prices');
+  let pricesHtml = `
+    <div class="modal-price-row best-price">
+      <div class="mp-left">
+        <div class="mp-store">${store?.name||'Mejor precio'}</div>
+        <div class="mp-method">Efectivo / Transferencia</div>
       </div>
-      <div class="store-row-rating">${starsHtml(store.rating)}<br><span style="font-size:11px">${store.reviews.toLocaleString()} reseñas</span></div>
-      <div class="store-row-price">${fmt(price)}</div>
-      <button class="btn-visit" onclick="window.open('${store.fullUrl}','_blank')">Visitar →</button>
+      <div class="mp-price green">${fmt(price)}</div>
+      ${p.url ? `<a class="mp-link" href="${p.url}" target="_blank">Ver →</a>` : ''}
+    </div>
+    <div class="modal-price-row">
+      <div class="mp-left">
+        <div class="mp-store">${store?.name||'—'}</div>
+        <div class="mp-method">Webpay / Tarjeta crédito-débito</div>
+      </div>
+      <div class="mp-price">${fmt(cardPrice)}</div>
     </div>`;
-  }).join('');
 
-  showPage('detail');
+  // Prices from other stores
+  const storePrices = Object.entries(p.prices||{}).filter(([,v])=>v>0);
+  if (storePrices.length > 1) {
+    storePrices.sort((a,b)=>a[1]-b[1]).forEach(([sid, sprice]) => {
+      if (sid === store?.id) return;
+      const s = STORES.find(x=>x.id===sid);
+      pricesHtml += `
+        <div class="modal-price-row">
+          <div class="mp-left">
+            <div class="mp-store">${s?.name||sid}</div>
+            <div class="mp-method">Efectivo / Transferencia</div>
+          </div>
+          <div class="mp-price">${fmt(sprice)}</div>
+        </div>`;
+    });
+  }
+  pricesEl.innerHTML = pricesHtml;
+
+  // Specs
+  const specs = p.specs||{};
+  const specKeys = Object.keys(specs).filter(k => !k.includes('Precio'));
+  const specsEl = document.getElementById('modal-specs');
+  if (specKeys.length) {
+    specsEl.innerHTML = `<div class="specs-title">Especificaciones</div>
+      <div class="specs-grid">
+        ${specKeys.map(k=>`<div class="spec-item"><div class="spec-key">${k}</div><div class="spec-val">${specs[k]}</div></div>`).join('')}
+      </div>`;
+  } else {
+    specsEl.innerHTML = '';
+  }
+
+  document.getElementById('modal').classList.add('open');
+  document.body.style.overflow = 'hidden';
 }
 
-// ═══════════════════════════════════════════════════════
+function closeModal() {
+  document.getElementById('modal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', e => { if (e.key==='Escape') closeModal(); });
+
+// ═══════════════════════════════════════════════
 // STORES PAGE
-// ═══════════════════════════════════════════════════════
-function buildStoresPage() {
-  document.getElementById('stores-page-grid').innerHTML = STORES.map(s => `
-    <div class="store-full-card">
-      <div class="store-header">
-        <div>
-          <div class="store-name-big">${s.name}</div>
-          <div class="store-url-badge">${s.url}</div>
-        </div>
-      </div>
-      <div class="store-rating-big">
-        <span class="stars-big">${starsHtml(s.rating)}</span>
-        <span class="rating-num-big">${s.rating}</span>
-        <span class="rating-count">(${s.reviews.toLocaleString()} reseñas)</span>
-      </div>
-      <div class="store-desc">${s.desc}</div>
-      <div class="store-meta">
-        <div class="meta-item"><span class="meta-label">Despacho</span><span class="meta-val">${s.shipping}</span></div>
-        <div class="meta-item"><span class="meta-label">Desde</span><span class="meta-val">${s.founded}</span></div>
-      </div>
-      <div class="meta-item" style="margin-top:10px"><span class="meta-label">Pagos aceptados</span><span class="meta-val" style="font-size:13px">${s.payment}</span></div>
-      <div class="store-btn-row">
-        <button class="btn-primary" onclick="window.open('${s.fullUrl}','_blank')">Visitar tienda →</button>
-        <button class="btn-ghost" onclick="filterByStore('${s.id}')">Ver productos</button>
-      </div>
-    </div>
-  `).join('');
+// ═══════════════════════════════════════════════
+function renderStores() {
+  const el = document.getElementById('stores-detail');
+  el.innerHTML = `<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px">
+    ${STORES.map(s => {
+      const cnt = PRODUCTS.filter(p=>p.prices?.[s.id]>0||p._bestStoreId===s.id).length;
+      return `<div style="background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:24px">
+        <div style="font-size:18px;font-weight:700;margin-bottom:4px">${s.name}</div>
+        <div style="font-size:13px;color:var(--text3);margin-bottom:12px">${s.url}</div>
+        <div style="font-size:28px;font-weight:800;color:var(--accent);font-family:var(--mono)">${cnt}</div>
+        <div style="font-size:12px;color:var(--text3)">productos comparados</div>
+        <a href="${s.url}" target="_blank" style="display:inline-block;margin-top:12px;padding:6px 16px;background:var(--bg3);border:1px solid var(--border);border-radius:6px;font-size:12px;transition:all .15s" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">Visitar tienda →</a>
+      </div>`;
+    }).join('')}
+  </div>`;
 }
 
-function filterByStore(storeId) {
-  showPage('products');
-  buildProductsPage();
-}
-
-// ═══════════════════════════════════════════════════════
-// SEARCH
-// ═══════════════════════════════════════════════════════
-function handleSearch(val) {
-  const res = document.getElementById('search-results');
-  if(!val || val.length < 2) { res.classList.remove('active'); return; }
-  const q = val.toLowerCase();
-  const matches = PRODUCTS.filter(p => p.name.toLowerCase().includes(q) || p.brand.toLowerCase().includes(q)).slice(0,6);
-  if(!matches.length) { res.classList.remove('active'); return; }
-  res.innerHTML = matches.map(p => {
-    const cat = CATEGORIES.find(c=>c.id===p.category);
-    return `<div class="search-item" onclick="openProduct(${p.id})">
-      <span class="s-emoji">${p.emoji}</span>
-      <div>
-        <div class="s-name">${p.brand} ${p.name}</div>
-        <div class="s-cat">${cat?.name} • ${fmt(getMinPrice(p))}</div>
-      </div>
-    </div>`;
-  }).join('');
-  res.classList.add('active');
-}
-function closeSearch() { document.getElementById('search-results').classList.remove('active'); }
-
-// ═══════════════════════════════════════════════════════
-// DATOS EN VIVO — carga JSONs generados por el scraper
-// ═══════════════════════════════════════════════════════
+// ═══════════════════════════════════════════════
+// DATA LOADING
+// ═══════════════════════════════════════════════
 const DATA_BASE = './data';
 
-async function loadStaticData() {
+async function loadData() {
   try {
     const [prodsRes, metaRes] = await Promise.all([
-      fetch(`${DATA_BASE}/products.json`),
-      fetch(`${DATA_BASE}/meta.json`)
+      fetch(`${DATA_BASE}/products.json?t=${Date.now()}`),
+      fetch(`${DATA_BASE}/meta.json?t=${Date.now()}`)
     ]);
-    if (!prodsRes.ok) throw new Error('Sin datos reales aún');
+    if (!prodsRes.ok) throw new Error('Sin datos');
     const apiProds = await prodsRes.json();
-    if (!apiProds || !apiProds.length) throw new Error('JSON vacío');
+    if (!apiProds?.length) throw new Error('Vacío');
 
-    const apiMeta = metaRes.ok ? await metaRes.json() : null;
-    if (apiMeta?.last_update) {
-      document.querySelectorAll('.update-badge').forEach(el => {
-        el.textContent = '● Actualizado ' + apiMeta.last_update;
-      });
-    }
+    const meta = metaRes.ok ? await metaRes.json() : null;
+    if (meta) localStorage.setItem('ft_meta', JSON.stringify(meta));
 
-    // Reemplazar TODOS los productos demo con los reales
-    PRODUCTS.length = 0;
-    apiProds.forEach(ap => {
-      PRODUCTS.push({
-        id:             ap.id,
-        category:       ap.category_id,
-        brand:          ap.brand || 'Genérico',
-        name:           ap.name,
-        emoji:          CATEGORIES.find(c=>c.id===ap.category_id)?.icon || '📦',
-        tags:           ap.tags || [],
-        specs:          {},
-        prices:         ap.prices || {},
-        imageUrl:       ap.image_url || null,
-        _bestPrice:     ap.best_price,
-        _bestStoreName: ap.best_store_name,
-        _storeCount:    ap.store_count || 1,
-      });
-    });
+    PRODUCTS = apiProds.map(ap => ({
+      id:             ap.id,
+      category:       ap.category_id,
+      brand:          ap.brand||'Genérico',
+      name:           ap.name,
+      imageUrl:       ap.image_url||null,
+      tags:           ap.tags||[],
+      specs:          ap.specs||{},
+      prices:         ap.prices||{},
+      url:            ap.url||null,
+      _bestPrice:     ap.best_price,
+      _bestStoreId:   ap.best_store_id,
+      _bestStoreName: ap.best_store_name,
+      _storeCount:    ap.store_count||1,
+    }));
 
-    console.log(`[FindTech] ${PRODUCTS.length} productos reales cargados`);
+    console.log(`[FindTech] ${PRODUCTS.length} productos cargados`);
     return true;
   } catch(e) {
-    console.info('[FindTech] Usando datos demo —', e.message);
+    console.warn('[FindTech] Sin datos reales:', e.message);
     return false;
   }
 }
 
-// ═══════════════════════════════════════════════════════
-// CONTACT FORM
-// ═══════════════════════════════════════════════════════
-function submitForm() {
-  alert('¡Mensaje enviado! Te responderemos pronto. 📧');
-}
-
-const _openProductBase = openProduct;
-async function openProduct(id) {
-  // Buscar el producto en memoria primero
-  const existing = PRODUCTS.find(x => x.id === id);
-  
-  // Si no tiene precios individuales, construirlos desde best_price
-  if (existing && (!existing.prices || !Object.keys(existing.prices).length)) {
-    if (existing._bestStoreId && existing._bestPrice) {
-      existing.prices = { [existing._bestStoreId]: existing._bestPrice };
-    } else if (existing._bestStoreName && existing._bestPrice) {
-      const store = STORES.find(s => s.name === existing._bestStoreName);
-      if (store) existing.prices = { [store.id]: existing._bestPrice };
-    }
-  }
-
-  // Intentar cargar detalle individual (puede no existir)
-  try {
-    const res = await fetch(`${DATA_BASE}/products/${id}.json`);
-    if (res.ok) {
-      const p = await res.json();
-      const priceMap = {};
-      (p.prices||[]).forEach(pr => { priceMap[pr.store_id] = pr.price; });
-      const base = existing || {};
-      const merged = { ...base, ...p, category: p.category_id,
-        emoji: base.emoji || CATEGORIES.find(c=>c.id===p.category_id)?.icon || '📦',
-        prices: priceMap, _apiPrices: p.prices,
-        specs: { ...(base.specs||{}), ...(p.specs||{}) } };
-      const idx = PRODUCTS.findIndex(x => x.id === id);
-      if (idx >= 0) PRODUCTS[idx] = merged; else PRODUCTS.push(merged);
-    }
-  } catch {}
-  
-  _openProductBase(id);
-}
-
-// ═══════════════════════════════════════════════════════
+// ═══════════════════════════════════════════════
 // INIT
-// ═══════════════════════════════════════════════════════
-async function init() {
-  await loadStaticData();
-  buildHome();
-  buildProductsPage();
-  buildStoresPage();
-}
-init();
-buildProductsPage();
-buildStoresPage();
+// ═══════════════════════════════════════════════
+(async () => {
+  await loadData();
+  renderHome();
+  renderProds();
+})();
 </script>
 </body>
 </html>
