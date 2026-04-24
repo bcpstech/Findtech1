@@ -1598,11 +1598,29 @@ function goBack() {
   showPage(_prevPage);
 }
 
-function openDetail(id) {
+async function openDetail(id) {
   const p = PRODUCTS.find(x => x.id === id);
   if (!p) return;
   currentOpinionProduct = p;
   _prevPage = currentPage;
+
+  // Mostrar página primero con datos básicos
+  showPage('detail');
+  window.scrollTo(0, 0);
+
+  // Cargar detalle completo desde products/{id}.json
+  try {
+    const res = await fetch(`${DATA_BASE}/products/${id}.json?t=${Date.now()}`);
+    if (res.ok) {
+      const detail = await res.json();
+      // Enriquecer el producto con datos del detalle
+      p.specs   = detail.specs   || p.specs   || {};
+      p.prices  = detail.prices  || p.prices  || {};
+      p._allPrices = detail.prices || [];
+    }
+  } catch(e) {
+    console.warn('[FindTech] No se pudo cargar detalle:', e.message);
+  }
 
   const cat = CATS[p.category] || { icon: '📦', name: p.category };
 
@@ -1617,51 +1635,56 @@ function openDetail(id) {
   document.getElementById('detail-name').textContent = p.name;
   document.getElementById('detail-cat').textContent = cat.icon + ' ' + cat.name;
 
-  // Precios por tienda
+  // Precios por tienda — usar _allPrices si está disponible (del JSON detalle)
   const pricesEl = document.getElementById('detail-prices');
-  const storePrices = Object.entries(p.prices || {}).filter(([, v]) => v > 0);
-  storePrices.sort((a, b) => a[1] - b[1]);
+  const allPrices = p._allPrices;
 
-  if (!storePrices.length && p._bestPrice) {
-    const s = STORES.find(x => x.id === p._bestStoreId);
-    storePrices.push([p._bestStoreId, p._bestPrice]);
-  }
-
-  if (storePrices.length) {
-    const bestPrice = storePrices[0][1];
-    pricesEl.innerHTML = storePrices.map(([sid, sprice], i) => {
-      const s = STORES.find(x => x.id === sid);
-      const storeName = s?.name || sid;
-      const cardPrice = Math.round(sprice * 1.0526);
-      const isBest = sprice === bestPrice;
+  if (allPrices && allPrices.length) {
+    // Datos completos desde products/{id}.json
+    const bestPrice = Math.min(...allPrices.map(x => x.price));
+    pricesEl.innerHTML = allPrices.map(row => {
+      const isBest = row.price === bestPrice;
       const specs = p.specs || {};
-      // Intentar obtener precio tarjeta desde specs
-      const cardFromSpecs = Object.entries(specs).find(([k]) =>
-        k.toLowerCase().includes('tarjeta') || k.toLowerCase().includes('webpay') || k.toLowerCase().includes('crédito')
-      );
-      const cashFromSpecs = Object.entries(specs).find(([k]) =>
-        k.toLowerCase().includes('efectivo') || k.toLowerCase().includes('transferencia')
-      );
-
-      const cashLabel = cashFromSpecs ? cashFromSpecs[0] : 'Efectivo / Transferencia';
-      const cardLabel = cardFromSpecs ? cardFromSpecs[0] : 'Webpay / Tarjeta';
-      const cardVal = cardFromSpecs ? cardFromSpecs[1] : '$' + cardPrice.toLocaleString('es-CL');
+      // Obtener labels de precio desde specs del producto
+      const cashKey = Object.keys(specs).find(k =>
+        k.toLowerCase().includes('efectivo') || k.toLowerCase().includes('transferencia'));
+      const cardKey = Object.keys(specs).find(k =>
+        k.toLowerCase().includes('tarjeta') || k.toLowerCase().includes('webpay') || k.toLowerCase().includes('crédito'));
+      const cashLabel = cashKey || 'Efectivo / Transferencia';
+      const cardLabel = cardKey || 'Webpay / Tarjeta';
+      const cardPrice = Math.round(row.price * 1.0526);
+      const cardVal = cardKey ? specs[cardKey] : '$' + cardPrice.toLocaleString('es-CL');
 
       return `<div class="detail-price-row${isBest ? ' best-row' : ''}">
         <div class="dpr-store">
-          <span class="dpr-store-name">${storeName}${isBest ? '<span class="dpr-best-badge">MEJOR PRECIO</span>' : ''}</span>
+          <span class="dpr-store-name">${row.store_name}${isBest ? '<span class="dpr-best-badge">MEJOR PRECIO</span>' : ''}</span>
         </div>
         <div class="dpr-methods">
           <span class="dpr-cash-label">${cashLabel}</span>
-          <span class="dpr-cash">$${sprice.toLocaleString('es-CL')}</span>
+          <span class="dpr-cash">$${row.price.toLocaleString('es-CL')}</span>
           <span class="dpr-card-label">${cardLabel}</span>
           <span class="dpr-card">${cardVal}</span>
         </div>
-        ${p.url ? `<a class="dpr-link" href="${p.url}" target="_blank">Ir a tienda →</a>` : ''}
+        ${row.product_url ? `<a class="dpr-link" href="${row.product_url}" target="_blank">Ir a tienda →</a>` : ''}
       </div>`;
     }).join('');
   } else {
-    pricesEl.innerHTML = '<div style="padding:20px;color:var(--text3);text-align:center">Sin precios disponibles</div>';
+    // Fallback: usar datos básicos del índice
+    const fallbackPrices = [];
+    if (p._bestPrice) fallbackPrices.push({ store_name: p._bestStoreName || p._bestStoreId, price: p._bestPrice, product_url: p.url });
+    if (fallbackPrices.length) {
+      pricesEl.innerHTML = fallbackPrices.map(row => `
+        <div class="detail-price-row best-row">
+          <div class="dpr-store"><span class="dpr-store-name">${row.store_name}<span class="dpr-best-badge">MEJOR PRECIO</span></span></div>
+          <div class="dpr-methods">
+            <span class="dpr-cash-label">Efectivo / Transferencia</span>
+            <span class="dpr-cash">$${row.price.toLocaleString('es-CL')}</span>
+          </div>
+          ${row.product_url ? `<a class="dpr-link" href="${row.product_url}" target="_blank">Ir a tienda →</a>` : ''}
+        </div>`).join('');
+    } else {
+      pricesEl.innerHTML = '<div style="padding:20px;color:var(--text3);text-align:center">Cargando precios...</div>';
+    }
   }
 
   // Specs
@@ -1686,9 +1709,58 @@ function openDetail(id) {
     specsBox.style.display = 'none';
   }
 
-  // Scroll al top y mostrar página
-  window.scrollTo(0, 0);
-  showPage('detail');
+  // Actualizar vista con datos enriquecidos
+  renderDetailPrices(p);
+  renderDetailSpecs(p);
+}
+
+function renderDetailPrices(p) {
+  // Re-renderizar precios después de cargar detalle
+  const pricesEl = document.getElementById('detail-prices');
+  if (!pricesEl) return;
+  const allPrices = p._allPrices;
+  if (!allPrices || !allPrices.length) return;
+  const bestPrice = Math.min(...allPrices.map(x => x.price));
+  pricesEl.innerHTML = allPrices.map(row => {
+    const isBest = row.price === bestPrice;
+    const cardPrice = Math.round(row.price * 1.0526);
+    return `<div class="detail-price-row${isBest ? ' best-row' : ''}">
+      <div class="dpr-store">
+        <span class="dpr-store-name">${row.store_name}${isBest ? '<span class="dpr-best-badge">MEJOR PRECIO</span>' : ''}</span>
+      </div>
+      <div class="dpr-methods">
+        <span class="dpr-cash-label">Efectivo / Transferencia</span>
+        <span class="dpr-cash">$${row.price.toLocaleString('es-CL')}</span>
+        <span class="dpr-card-label">Webpay / Tarjeta</span>
+        <span class="dpr-card">$${cardPrice.toLocaleString('es-CL')}</span>
+      </div>
+      ${row.product_url ? `<a class="dpr-link" href="${row.product_url}" target="_blank">Ir a tienda →</a>` : ''}
+    </div>`;
+  }).join('');
+}
+
+function renderDetailSpecs(p) {
+  const specs = p.specs || {};
+  const specKeys = Object.keys(specs).filter(k =>
+    !k.toLowerCase().includes('efectivo') &&
+    !k.toLowerCase().includes('tarjeta') &&
+    !k.toLowerCase().includes('webpay') &&
+    !k.toLowerCase().includes('transferencia')
+  );
+  const specsBox = document.getElementById('detail-specs-box');
+  const specsGrid = document.getElementById('detail-specs-grid');
+  if (!specsBox || !specsGrid) return;
+  if (specKeys.length) {
+    specsGrid.innerHTML = specKeys.map(k =>
+      `<div class="detail-spec-item">
+        <div class="detail-spec-key">${k}</div>
+        <div class="detail-spec-val">${specs[k]}</div>
+      </div>`
+    ).join('');
+    specsBox.style.display = '';
+  } else {
+    specsBox.style.display = 'none';
+  }
 }
 
 // ═══════════════════════════════════════════════
