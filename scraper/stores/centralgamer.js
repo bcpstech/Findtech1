@@ -58,12 +58,12 @@ class CentralGamerScraper extends BaseScraper {
           if (!priceCard || priceCard < 1000) continue;
 
           // Precio efectivo/transferencia: ~5% menos que tarjeta
-          const priceCash = Math.round(priceCard / CARD_FACTOR);
+          const priceCash = Math.round(priceCard / CARD_FACTOR / 10) * 10;
 
           const regularPriceRaw = parseInt(p.prices?.regular_price);
           // regular_price también viene en precio tarjeta
           const regularPriceCash = regularPriceRaw > priceCard
-            ? Math.round(regularPriceRaw / CARD_FACTOR)
+            ? Math.round(regularPriceRaw / CARD_FACTOR / 10) * 10
             : null;
 
           this.stats.found++;
