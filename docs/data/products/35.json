@@ -1,42 +1,45 @@
 {
   "id": 35,
-  "external_id": "n1g_thermal-grizzly-wireview-gpu-1x12vhpwr-to-3x8pin-pcie-normal-tg-wv-p38h1n-mide-consumo-de-gpu-monito",
-  "category_id": "gpu",
-  "brand": "Genérico",
-  "name": "Thermal Grizzly WireView GPU 1x12VHPWR to 3x8Pin PCIe Normal TG-WV-P38H1N mide consumo de GPU Monitoreo Made in Alemania",
-  "slug": "thermal-grizzly-wireview-gpu-1x12vhpwr-to-3x8pin-pcie-normal-tg-wv-p38h1n-mide-consumo-de-gpu-monito",
-  "image_url": "https://n1g.cl/Home/14438-home_default/thermal-grizzly-wireview-gpu-1x12vhpwr-to-3x8pin-pcie-normal-tg-wv-p38h1n-mide-consumo-de-gpu-monitoreo-made-in-alemania.jpg",
+  "external_id": "cg_placa-madre-asus-rog-strix-z890-e-wifi",
+  "category_id": "mobo",
+  "brand": "ASUS",
+  "name": "Placa Madre Asus Rog Strix Z890-E Wifi",
+  "slug": "placa-madre-asus-rog-strix-z890-e-wifi",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/03/1_1742832077173.jpg?fit=1000%2C1000&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Efectivo/Transferencia": "$593.594",
+    "Tarjeta crédito/débito": "$624.817"
+  },
   "tags": [],
-  "created_at": "2026-04-24 09:18:11",
-  "updated_at": "2026-04-24 09:18:44",
+  "created_at": "2026-04-24 18:26:10",
+  "updated_at": "2026-04-24 18:26:10",
   "prices": [
     {
       "id": 35,
       "product_id": 35,
-      "store_id": "n1g",
-      "price": 74900,
-      "price_normal": 78842,
-      "discount_pct": 5,
+      "store_id": "cg",
+      "price": 593594,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3391-thermal-grizzly-wireview-gpu-1x12vhpwr-to-3x8pin-pcie-normal-tg-wv-p38h1n-mide-consumo-de-gpu-monitoreo-made-in-alemania.html",
+      "product_url": "https://centralgamer.cl/placas-madre/asus-motherboard-rog-strix-z890-e-gaming-1851-d/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 09:18:44",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "scraped_at": "2026-04-24 18:26:10",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
+      "store_id": "cg",
+      "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 74900
+      "price": 593594
     }
   ],
   "scraped_at": "2026-04-24"

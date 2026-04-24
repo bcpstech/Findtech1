@@ -1,42 +1,45 @@
 {
   "id": 24,
-  "external_id": "n1g_ezdiy-fab-riser-black-20cm-pci-express-gen-4-16x-extreme-flexible-pci-express-4-0-ezdpc172",
-  "category_id": "gpu",
-  "brand": "Genérico",
-  "name": "EZDIY-FAB Riser BLACK 20cm PCI Express Gen 4 16x Extreme Flexible, PCI Express 4.0 EZDPC172",
-  "slug": "ezdiy-fab-riser-black-20cm-pci-express-gen-4-16x-extreme-flexible-pci-express-4-0-ezdpc172",
-  "image_url": "https://n1g.cl/Home/14883-home_default/ezdiy-fab-pcie-gen-4-16x-extreme-flexible-pci-express-40-rtx30903090ti40804090-ezdpc184.jpg",
+  "external_id": "cg_procesador-amd-ryzen-7-8700g",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 7 8700G",
+  "slug": "procesador-amd-ryzen-7-8700g",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/02/1_1740691670514.jpg?fit=1500%2C1500&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Efectivo/Transferencia": "$301.990",
+    "Tarjeta crédito/débito": "$317.875"
+  },
   "tags": [],
-  "created_at": "2026-04-24 09:18:11",
-  "updated_at": "2026-04-24 09:18:44",
+  "created_at": "2026-04-24 18:26:08",
+  "updated_at": "2026-04-24 18:26:08",
   "prices": [
     {
       "id": 24,
       "product_id": 24,
-      "store_id": "n1g",
-      "price": 39900,
-      "price_normal": 42000,
-      "discount_pct": 5,
+      "store_id": "cg",
+      "price": 301990,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3487-ezdiy-fab-pcie-gen-4-16x-extreme-flexible-pci-express-40-rtx30903090ti40804090-ezdpc184.html",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-7-8700g/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 09:18:44",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "scraped_at": "2026-04-24 18:26:08",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
+      "store_id": "cg",
+      "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 39900
+      "price": 301990
     }
   ],
   "scraped_at": "2026-04-24"

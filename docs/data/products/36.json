@@ -1,42 +1,45 @@
 {
   "id": 36,
-  "external_id": "n1g_ezdiy-fab-soporte-de-montaje-vertical-all-white-pcie-4-0-gp-led-argb-5v-y-3-pines-pcie-4-0-x16-gen4-",
-  "category_id": "gpu",
-  "brand": "Genérico",
-  "name": "EZDIY-FAB Soporte de montaje vertical All White PCIe 4.0 GP LED ARGB  5V y 3 pines, PCIe 4.0 X16 Gen4 YIHPI333-18",
-  "slug": "ezdiy-fab-soporte-de-montaje-vertical-all-white-pcie-4-0-gp-led-argb-5v-y-3-pines-pcie-4-0-x16-gen4-",
-  "image_url": "https://n1g.cl/Home/14649-home_default/ezdiy-fab-soporte-de-montaje-vertical-pcie-40-gp-led-argb-5v-y-3-pines-pcie-40-x16-gen4-67-in669-pulgadas-yihpi333-18.jpg",
+  "external_id": "cg_placa-madre-msi-a520m-a-pro",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "Placa Madre MSI A520M-A PRO",
+  "slug": "placa-madre-msi-a520m-a-pro",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1740426433000.jpg?fit=1500%2C1500&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Efectivo/Transferencia": "$63.897",
+    "Tarjeta crédito/débito": "$67.258"
+  },
   "tags": [],
-  "created_at": "2026-04-24 09:18:11",
-  "updated_at": "2026-04-24 09:18:44",
+  "created_at": "2026-04-24 18:26:10",
+  "updated_at": "2026-04-24 18:26:10",
   "prices": [
     {
       "id": 36,
       "product_id": 36,
-      "store_id": "n1g",
-      "price": 79900,
-      "price_normal": 84105,
-      "discount_pct": 5,
+      "store_id": "cg",
+      "price": 63897,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3430-ezdiy-fab-soporte-de-montaje-vertical-pcie-40-gp-led-argb-5v-y-3-pines-pcie-40-x16-gen4-67-in669-pulgadas-yihpi333-18.html",
+      "product_url": "https://centralgamer.cl/placas-madre/msi-a520m-a-pro-motherboard/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 09:18:44",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "scraped_at": "2026-04-24 18:26:10",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
+      "store_id": "cg",
+      "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 79900
+      "price": 63897
     }
   ],
   "scraped_at": "2026-04-24"

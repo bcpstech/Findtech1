@@ -1,42 +1,45 @@
 {
   "id": 37,
-  "external_id": "n1g_lian-li-riser-cable-pcie-5-0-premium-pci-e-16x-5-0-extensor-de-ancho-de-banda-doble-pcie-4-0-pw-pci-",
-  "category_id": "gpu",
-  "brand": "Genérico",
-  "name": "Lian Li Riser Cable PCIE 5.0 Premium PCI-E 16X 5.0, extensor de ancho de banda doble, PCIe 4.0 (PW-PCI-520X)",
-  "slug": "lian-li-riser-cable-pcie-5-0-premium-pci-e-16x-5-0-extensor-de-ancho-de-banda-doble-pcie-4-0-pw-pci-",
-  "image_url": "https://n1g.cl/Home/16422-home_default/lian-li-riser-cable-pcie-50-premium-pci-e-16x-50-extensor-de-ancho-de-banda-doble-pcie-40-pw-pci-520x.jpg",
+  "external_id": "cg_placa-madre-asus-prime-a520m-k",
+  "category_id": "mobo",
+  "brand": "ASUS",
+  "name": "Placa Madre ASUS Prime A520M-K",
+  "slug": "placa-madre-asus-prime-a520m-k",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/03/1_1742225322000.jpg?fit=1500%2C1500&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Efectivo/Transferencia": "$65.660",
+    "Tarjeta crédito/débito": "$69.114"
+  },
   "tags": [],
-  "created_at": "2026-04-24 09:18:11",
-  "updated_at": "2026-04-24 09:18:44",
+  "created_at": "2026-04-24 18:26:10",
+  "updated_at": "2026-04-24 18:26:10",
   "prices": [
     {
       "id": 37,
       "product_id": 37,
-      "store_id": "n1g",
-      "price": 74900,
-      "price_normal": 78842,
-      "discount_pct": 5,
+      "store_id": "cg",
+      "price": 65660,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3832-lian-li-riser-cable-pcie-50-premium-pci-e-16x-50-extensor-de-ancho-de-banda-doble-pcie-40-pw-pci-520x.html",
+      "product_url": "https://centralgamer.cl/placas-madre/asus-prime-a520m-k-placa-base-micro-atx-socket-am4-amd-a520-chipset-usb-3-2-gen-1-gigabit-lan-tarjeta-grafica-cpu-necesaria-hd-audio-8-canales/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 09:18:44",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "scraped_at": "2026-04-24 18:26:10",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
+      "store_id": "cg",
+      "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 74900
+      "price": 65660
     }
   ],
   "scraped_at": "2026-04-24"

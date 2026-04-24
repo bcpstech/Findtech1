@@ -1,42 +1,45 @@
 {
   "id": 16,
-  "external_id": "n1g_ezdiy-fab-kit-all-white-12vhpwr-extension-kit-4-cable-psu-300mm-16awg-24p-eps-8p-4-4p-12-4p-ezdpi227",
-  "category_id": "gpu",
-  "brand": "Genérico",
-  "name": "EZDIY-FAB KIT All White 12VHPWR Extensión KIT 4 Cable PSU 300mm 16AWG  24P/EPS 8P-4+4P/12+4P EZDPI227-1",
-  "slug": "ezdiy-fab-kit-all-white-12vhpwr-extension-kit-4-cable-psu-300mm-16awg-24p-eps-8p-4-4p-12-4p-ezdpi227",
-  "image_url": "https://n1g.cl/Home/14744-home_default/ezdiy-fab-kit-12vhpwr-extension-kit-4-cable-all-white-psu-300mm-16awg-24peps-8p-44p124p-ezdpi227-1-.jpg",
+  "external_id": "cg_procesador-intel-core-ultra-7-265k",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core Ultra 7 265K",
+  "slug": "procesador-intel-core-ultra-7-265k",
+  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/03/1_1741895884961.jpg?fit=1500%2C1500&ssl=1",
   "description": null,
-  "specs": null,
+  "specs": {
+    "Efectivo/Transferencia": "$394.758",
+    "Tarjeta crédito/débito": "$415.522"
+  },
   "tags": [],
-  "created_at": "2026-04-24 09:18:11",
-  "updated_at": "2026-04-24 09:20:23",
+  "created_at": "2026-04-24 18:26:08",
+  "updated_at": "2026-04-24 18:26:08",
   "prices": [
     {
       "id": 16,
       "product_id": 16,
-      "store_id": "n1g",
-      "price": 29900,
-      "price_normal": 31474,
-      "discount_pct": 5,
+      "store_id": "cg",
+      "price": 394758,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3447-ezdiy-fab-kit-12vhpwr-extension-kit-4-cable-all-white-psu-300mm-16awg-24peps-8p-44p124p-ezdpi227-1-.html",
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-7-265k-3-9-ghz-20-core-lga1851/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 09:20:23",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "scraped_at": "2026-04-24 18:26:08",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
+      "store_id": "cg",
+      "store_name": "CentralGamer",
       "date": "2026-04-24",
-      "price": 29900
+      "price": 394758
     }
   ],
   "scraped_at": "2026-04-24"
