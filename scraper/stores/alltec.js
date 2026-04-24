@@ -1,12 +1,6 @@
 /**
  * scraper/stores/alltec.js
- * HTML scraping — alltec.cl (PrestaShop con tema personalizado)
- * Selectores reales verificados en consola del navegador:
- *   - Items: ul.products > li
- *   - Nombre: .product-name (dentro de h5 > a)
- *   - URL: a.products-block-image[href]
- *   - Imagen: img.img-responsive[src]
- *   - Precio: .price-box span.price → "$ 52,900" (coma como miles)
+ * Categorías específicas verificadas — sin accesorios
  */
 const BaseScraper = require('../base-scraper');
 const cheerio = require('cheerio');
@@ -14,30 +8,36 @@ const cheerio = require('cheerio');
 const BASE_URL = 'https://www.alltec.cl';
 
 const CATEGORIES = [
+  // GPU
+  { url: '/63-amd',                        catId: 'gpu'     },
+  { url: '/64-nvidia',                     catId: 'gpu'     },
+  // CPU
+  { url: '/28-amd',                        catId: 'cpu'     },
+  { url: '/29-intel',                      catId: 'cpu'     },
+  // Placas Madre
   { url: '/31-para-amd',                   catId: 'mobo'    },
   { url: '/79-para-intel',                 catId: 'mobo'    },
-  { url: '/81-sin-fuente-de-poder',        catId: 'case'    },
-  { url: '/82-con-fuente-de-poder',        catId: 'case'    },
+  // RAM
+  { url: '/37-ddr4',                       catId: 'ram'     },
+  { url: '/118-ddr5',                      catId: 'ram'     },
+  // Almacenamiento
+  { url: '/34-ssd',                        catId: 'storage' },
+  { url: '/33-mecanicos-rigidos',          catId: 'storage' },
+  // Refrigeración
+  { url: '/92-water-cooling',              catId: 'cooling' },
+  { url: '/93-cpu-cooler',                 catId: 'cooling' },
+  // Fuentes
   { url: '/38-potencia-nominal-estandar',  catId: 'psu'     },
   { url: '/80-potencia-real-certificadas', catId: 'psu'     },
-  { url: '/16-gabinetes',                  catId: 'case'    },
-  { url: '/18-fuentes-de-poder',           catId: 'psu'     },
-  { url: '/17-placas-madre',               catId: 'mobo'    },
+  // Gabinetes
+  { url: '/81-sin-fuente-de-poder',        catId: 'case'    },
+  { url: '/82-con-fuente-de-poder',        catId: 'case'    },
 ];
 
 const CARD_SURCHARGE = 1.03;
 
 class AlltecScraper extends BaseScraper {
   constructor() { super('alltec', 'Alltec'); }
-
-  isAccessory(name) {
-    const lower = name.toLowerCase();
-    const keywords = ['cable','adaptador','bracket','tornillo','pasta termica',
-      'pasta térmica','soporte','accesorio','herramienta','teclado','mouse',
-      'auricular','headset','parlante','silla','pad','mousepad','webcam',
-      'microfono','micrófono','joystick','cargador','hub usb'];
-    return keywords.some(kw => lower.includes(kw));
-  }
 
   async scrapeAll() {
     this.seenUrls = new Set();
@@ -69,21 +69,15 @@ class AlltecScraper extends BaseScraper {
           }
         });
 
-        // Debug: ver qué HTML recibe el scraper
-        this.log('info', `[alltec] HTML snippet: ${res.data.slice(200, 700)}`);
-
         const $ = cheerio.load(res.data);
         const items = $('ul.products li');
 
         if (!items.length) {
-          this.log('info', `[alltec] Sin productos en pág ${page} (ul.products li = 0)`);
-          // Debug: ver qué selectores alternativos hay
-          this.log('info', `[alltec] alternativas - li: ${$('li').length}, ul: ${$('ul').length}, div.product: ${$('[class*="product"]').length}`);
+          this.log('info', `[alltec] Sin productos pág ${page} — li:${$('li').length} ul:${$('ul').length}`);
           break;
         }
 
         let newInPage = 0;
-
         items.each((_, el) => {
           try {
             const $el = $(el);
@@ -95,7 +89,6 @@ class AlltecScraper extends BaseScraper {
             const name = $el.find('.product-name').text().trim()
                       || $el.find('a.products-block-image').attr('title') || '';
             if (!name) return;
-            if (this.isAccessory(name)) return;
 
             const priceRaw = $el.find('.price-box span.price, .price').first().text().trim();
             const price = this.parseAlltecPrice(priceRaw);
@@ -104,33 +97,24 @@ class AlltecScraper extends BaseScraper {
             const oldRaw = $el.find('.price-box .old-price, .regular-price').text().trim();
             const regularPrice = oldRaw ? this.parseAlltecPrice(oldRaw) : null;
             const priceCard = Math.round(price * CARD_SURCHARGE);
-
             const imageUrl = $el.find('img.img-responsive').attr('src')
                           || $el.find('img').first().attr('src') || null;
 
             this.stats.found++;
             newInPage++;
-
             this.saveProduct(
-              {
-                name, category: catId,
-                brand: this.extractBrand(name),
-                imageUrl,
+              { name, category: catId, brand: this.extractBrand(name), imageUrl,
                 specs: {
                   'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
                   'Tarjeta crédito/débito': `$${priceCard.toLocaleString('es-CL')}`,
                 }
               },
-              {
-                current:  price,
-                normal:   regularPrice > price ? regularPrice : null,
-                discount: regularPrice > price ? Math.round((1 - price / regularPrice) * 100) : null,
-                stock:    'in_stock',
-                url:      productUrl || null,
-              }
+              { current: price, normal: regularPrice > price ? regularPrice : null,
+                discount: regularPrice > price ? Math.round((1-price/regularPrice)*100) : null,
+                stock: 'in_stock', url: productUrl || null }
             );
           } catch (err) {
-            this.log('warn', `[alltec] Error parseando item: ${err.message}`);
+            this.log('warn', `[alltec] Error item: ${err.message}`);
           }
         });
 
@@ -148,7 +132,6 @@ class AlltecScraper extends BaseScraper {
     this.log('info', `✓ alltec ${catId} total: ${this.stats.found}`);
   }
 
-  // Precio formato Alltec: "$ 52,900" → 52900
   parseAlltecPrice(str) {
     if (!str) return null;
     const clean = str.replace(/\$/g, '').replace(/,/g, '').replace(/\s/g, '');
