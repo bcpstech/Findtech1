@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FindTech.cl — Compara precios de hardware en Chile</title>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -481,6 +482,119 @@ footer{
 .toast.show{transform:translateY(0);opacity:1}
 .toast.success{border-color:var(--green);color:var(--green)}
 
+
+/* ── OPINION MODAL ── */
+.opinion-overlay{
+  display:none;position:fixed;inset:0;
+  background:rgba(0,0,0,0.85);z-index:500;
+  align-items:center;justify-content:center;
+  padding:20px;
+}
+.opinion-overlay.open{display:flex}
+.opinion-modal{
+  background:var(--bg2);border:1px solid var(--border2);
+  border-radius:16px;width:100%;max-width:600px;
+  max-height:92vh;overflow-y:auto;
+  animation:slideUp .2s ease;
+}
+.opinion-header{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:20px 24px;border-bottom:1px solid var(--border);
+  position:sticky;top:0;background:var(--bg2);z-index:1;
+}
+.opinion-header h3{font-size:16px;font-weight:700}
+.opinion-body{padding:24px;display:flex;flex-direction:column;gap:16px}
+.opinion-product-ref{
+  background:var(--bg3);border-radius:var(--r);padding:12px 16px;
+  font-size:13px;color:var(--text2);border-left:3px solid var(--accent);
+}
+.form-group{display:flex;flex-direction:column;gap:6px}
+.form-label{font-size:12px;font-weight:600;color:var(--text2);text-transform:uppercase;letter-spacing:0.5px}
+.form-input{
+  background:var(--bg3);border:1px solid var(--border);
+  border-radius:var(--r);padding:10px 14px;
+  font-family:var(--sans);font-size:14px;color:var(--text);
+  outline:none;transition:border-color .15s;width:100%;
+}
+.form-input:focus{border-color:var(--accent)}
+.form-input::placeholder{color:var(--text3)}
+textarea.form-input{resize:vertical;min-height:80px}
+select.form-input{cursor:pointer}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.file-upload{
+  background:var(--bg3);border:2px dashed var(--border2);
+  border-radius:var(--r);padding:16px;text-align:center;
+  cursor:pointer;transition:all .15s;position:relative;
+}
+.file-upload:hover{border-color:var(--accent);background:rgba(0,188,212,0.05)}
+.file-upload input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%}
+.file-upload .fu-icon{font-size:24px;margin-bottom:6px}
+.file-upload .fu-text{font-size:12px;color:var(--text2)}
+.file-upload .fu-name{font-size:11px;color:var(--accent);margin-top:4px}
+.rating-group{display:flex;gap:8px;align-items:center}
+.rating-btn{
+  width:40px;height:40px;border-radius:var(--r);
+  background:var(--bg3);border:1px solid var(--border);
+  cursor:pointer;font-size:18px;display:flex;align-items:center;justify-content:center;
+  transition:all .15s;
+}
+.rating-btn:hover,.rating-btn.active{background:var(--accent);border-color:var(--accent)}
+.rating-label{font-size:11px;color:var(--text3);margin-left:4px}
+.btn-submit{
+  width:100%;padding:12px;border-radius:var(--r);
+  background:var(--accent);color:#fff;
+  font-family:var(--sans);font-size:15px;font-weight:600;
+  border:none;cursor:pointer;transition:opacity .15s;
+  margin-top:4px;
+}
+.btn-submit:hover{opacity:0.85}
+.btn-submit:disabled{opacity:0.5;cursor:not-allowed}
+.form-success{
+  text-align:center;padding:32px 24px;
+  display:none;flex-direction:column;align-items:center;gap:12px;
+}
+.form-success.show{display:flex}
+.form-success .ico{font-size:48px}
+.form-success h3{font-size:18px;font-weight:700;color:var(--green)}
+.form-success p{font-size:14px;color:var(--text2)}
+
+/* Botón opinión en modal */
+.btn-opinion{
+  width:100%;padding:10px;border-radius:var(--r);
+  background:transparent;color:var(--text2);
+  font-family:var(--sans);font-size:13px;font-weight:500;
+  border:1px solid var(--border2);cursor:pointer;
+  transition:all .15s;margin-top:8px;
+  display:flex;align-items:center;justify-content:center;gap:6px;
+}
+.btn-opinion:hover{color:var(--accent);border-color:var(--accent)}
+
+/* Modal precios multi-tienda */
+.store-prices-list{display:flex;flex-direction:column;gap:8px;margin-bottom:16px}
+.store-price-item{
+  display:flex;align-items:center;justify-content:space-between;
+  background:var(--bg3);border-radius:var(--r);padding:12px 16px;
+  border:1px solid var(--border);
+}
+.store-price-item.best{border-color:rgba(34,197,94,0.4);background:rgba(34,197,94,0.05)}
+.spi-left{display:flex;flex-direction:column;gap:3px}
+.spi-store{font-size:13px;font-weight:600;color:var(--text)}
+.spi-method{font-size:11px;color:var(--text3)}
+.spi-prices{display:flex;flex-direction:column;align-items:flex-end;gap:2px}
+.spi-cash{font-family:var(--mono);font-size:16px;font-weight:700;color:var(--green)}
+.spi-card{font-family:var(--mono);font-size:12px;color:var(--text2)}
+.spi-link{
+  padding:6px 12px;border-radius:6px;
+  background:var(--accent);color:#fff;
+  font-size:11px;font-weight:600;white-space:nowrap;margin-left:12px;
+}
+.spi-link:hover{opacity:0.85}
+.spi-badge-best{
+  font-size:9px;font-weight:700;
+  background:rgba(34,197,94,0.2);color:var(--green);
+  padding:2px 6px;border-radius:3px;letter-spacing:0.5px;
+}
+
 @media(max-width:768px){
   .layout{grid-template-columns:1fr}
   .sidebar{display:none}
@@ -798,8 +912,100 @@ footer{
         <div class="modal-brand" id="modal-brand"></div>
         <h2 id="modal-name"></h2>
         <div class="modal-prices" id="modal-prices"></div>
+        <button class="btn-opinion" onclick="openOpinion()">✍️ Dar opinión sobre este producto</button>
         <div class="modal-specs" id="modal-specs"></div>
       </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- OPINION MODAL -->
+<div class="opinion-overlay" id="opinion-modal" onclick="if(event.target===this)closeOpinion()">
+  <div class="opinion-modal">
+    <div class="opinion-header">
+      <h3>✍️ Dar opinión</h3>
+      <button class="modal-close" onclick="closeOpinion()">✕</button>
+    </div>
+    <div class="opinion-body" id="opinion-body">
+      <div class="opinion-product-ref" id="opinion-product-ref"></div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">Nombre *</label>
+          <input type="text" class="form-input" id="op-nombre" placeholder="Tu nombre completo">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Teléfono</label>
+          <input type="tel" class="form-input" id="op-telefono" placeholder="+56 9 1234 5678">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Correo electrónico *</label>
+        <input type="email" class="form-input" id="op-correo" placeholder="tu@correo.com">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Tienda *</label>
+        <select class="form-input" id="op-tienda">
+          <option value="">Selecciona la tienda</option>
+          <option value="N1G">N1G</option>
+          <option value="Alltec">Alltec</option>
+          <option value="CentralGamer">CentralGamer</option>
+          <option value="Centrale">Centrale</option>
+          <option value="PC-Express">PC-Express</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label">📎 Adjuntar boleta</label>
+          <div class="file-upload" id="fu-boleta">
+            <input type="file" id="op-boleta" accept="image/*,.pdf" onchange="updateFileLabel('op-boleta','fu-boleta-name')">
+            <div class="fu-icon">🧾</div>
+            <div class="fu-text">Haz clic para subir</div>
+            <div class="fu-name" id="fu-boleta-name"></div>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">📦 Número de pedido</label>
+          <input type="text" class="form-input" id="op-pedido" placeholder="Ej: ORD-12345">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Comentario sobre la tienda</label>
+        <textarea class="form-input" id="op-comment-tienda" placeholder="¿Cómo fue tu experiencia con la tienda? Despacho, atención, etc." rows="3"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Comentario sobre el producto</label>
+        <textarea class="form-input" id="op-comment-producto" placeholder="¿El producto cumplió tus expectativas?" rows="3"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Calificación de la tienda</label>
+        <div class="rating-group" id="rating-group">
+          <button class="rating-btn" onclick="setRating(1)" id="rb-1" title="1 - Muy malo">🖥️</button>
+          <button class="rating-btn" onclick="setRating(2)" id="rb-2" title="2 - Malo">🖥️</button>
+          <button class="rating-btn" onclick="setRating(3)" id="rb-3" title="3 - Regular">🖥️</button>
+          <button class="rating-btn" onclick="setRating(4)" id="rb-4" title="4 - Bueno">🖥️</button>
+          <button class="rating-btn" onclick="setRating(5)" id="rb-5" title="5 - Excelente">🖥️</button>
+          <span class="rating-label" id="rating-label">Sin calificar</span>
+        </div>
+      </div>
+
+      <button class="btn-submit" id="op-submit" onclick="submitOpinion()">
+        Enviar opinión
+      </button>
+    </div>
+
+    <div class="form-success" id="opinion-success">
+      <div class="ico">✅</div>
+      <h3>¡Opinión enviada!</h3>
+      <p>Gracias por tu comentario. Lo revisaremos antes de publicarlo en FindTech.cl.</p>
+      <button class="btn-ver" style="margin-top:8px;max-width:200px" onclick="closeOpinion()">Cerrar</button>
     </div>
   </div>
 </div>
@@ -1103,6 +1309,7 @@ function cardHtml(p) {
 function openModal(id) {
   const p = PRODUCTS.find(x=>x.id===id);
   if (!p) return;
+  currentOpinionProduct = p;
   const cat = CATS[p.category]||{icon:'📦'};
   const price = getPrice(p);
   const cardPrice = getCardPrice(p);
@@ -1243,6 +1450,124 @@ async function loadData() {
 // ═══════════════════════════════════════════════
 // INIT
 // ═══════════════════════════════════════════════
+
+// ═══════════════════════════════════════════════
+// EMAILJS + OPINION FORM
+// ═══════════════════════════════════════════════
+emailjs.init('ONFIlmymISKV-k-sB');
+
+let currentOpinionProduct = null;
+let currentRating = 0;
+
+function openOpinion() {
+  const modal = document.getElementById('opinion-modal');
+  const p = currentOpinionProduct;
+  if (p) {
+    document.getElementById('opinion-product-ref').innerHTML =
+      `<strong>Producto:</strong> ${p.name} &nbsp;|&nbsp; <strong>Categoría:</strong> ${CATS[p.category]?.name || p.category}`;
+  }
+  // Reset form
+  document.getElementById('opinion-body').style.display = '';
+  document.getElementById('opinion-success').classList.remove('show');
+  document.getElementById('op-nombre').value = '';
+  document.getElementById('op-correo').value = '';
+  document.getElementById('op-telefono').value = '';
+  document.getElementById('op-tienda').value = '';
+  document.getElementById('op-pedido').value = '';
+  document.getElementById('op-comment-tienda').value = '';
+  document.getElementById('op-comment-producto').value = '';
+  document.getElementById('op-boleta').value = '';
+  document.getElementById('fu-boleta-name').textContent = '';
+  setRating(0);
+  modal.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeOpinion() {
+  document.getElementById('opinion-modal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function setRating(n) {
+  currentRating = n;
+  const labels = ['Sin calificar','Muy malo','Malo','Regular','Bueno','Excelente'];
+  document.getElementById('rating-label').textContent = n ? labels[n] : 'Sin calificar';
+  for (let i = 1; i <= 5; i++) {
+    const btn = document.getElementById('rb-' + i);
+    btn.classList.toggle('active', i <= n);
+  }
+}
+
+function updateFileLabel(inputId, labelId) {
+  const input = document.getElementById(inputId);
+  const label = document.getElementById(labelId);
+  if (input.files && input.files[0]) {
+    label.textContent = input.files[0].name;
+  }
+}
+
+async function submitOpinion() {
+  const nombre = document.getElementById('op-nombre').value.trim();
+  const correo = document.getElementById('op-correo').value.trim();
+  const tienda = document.getElementById('op-tienda').value;
+  
+  if (!nombre || !correo || !tienda) {
+    showToast('Por favor completa los campos obligatorios (*)','error');
+    return;
+  }
+
+  const btn = document.getElementById('op-submit');
+  btn.disabled = true;
+  btn.textContent = 'Enviando...';
+
+  // Convertir boleta a base64 si existe
+  let boletaB64 = '';
+  let boletaNombre = '';
+  const boletaFile = document.getElementById('op-boleta').files[0];
+  if (boletaFile) {
+    boletaB64 = await fileToBase64(boletaFile);
+    boletaNombre = boletaFile.name;
+  }
+
+  const producto = currentOpinionProduct;
+  const ratingStars = currentRating ? '🖥️'.repeat(currentRating) + ' (' + currentRating + '/5)' : 'Sin calificar';
+
+  const templateParams = {
+    from_name:        nombre,
+    from_email:       correo,
+    telefono:         document.getElementById('op-telefono').value || 'No indicado',
+    tienda:           tienda,
+    pedido:           document.getElementById('op-pedido').value || 'No indicado',
+    producto_nombre:  producto ? producto.name : 'No especificado',
+    producto_cat:     producto ? (CATS[producto.category]?.name || producto.category) : '',
+    comment_tienda:   document.getElementById('op-comment-tienda').value || 'Sin comentario',
+    comment_producto: document.getElementById('op-comment-producto').value || 'Sin comentario',
+    calificacion:     ratingStars,
+    boleta_nombre:    boletaNombre || 'No adjuntada',
+    to_email:         'contacto.findtech@gmail.com',
+  };
+
+  try {
+    await emailjs.send('service_626rrfu', 'template_y5vz2z8', templateParams);
+    document.getElementById('opinion-body').style.display = 'none';
+    document.getElementById('opinion-success').classList.add('show');
+  } catch (err) {
+    console.error('EmailJS error:', err);
+    showToast('Error al enviar. Intenta de nuevo.','error');
+    btn.disabled = false;
+    btn.textContent = 'Enviar opinión';
+  }
+}
+
+function fileToBase64(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(reader.result.split(',')[1]);
+    reader.onerror = reject;
+    reader.readAsDataURL(file);
+  });
+}
+
 // ═══════════════════════════════════════════════
 // THEME TOGGLE
 // ═══════════════════════════════════════════════
