@@ -1,45 +1,45 @@
 {
   "id": 493,
-  "external_id": "cg_procesador-amd-ryzen-5-9600x",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 5 9600X",
-  "slug": "procesador-amd-ryzen-5-9600x",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/02/1_1740691529268.jpg?fit=1500%2C1500&ssl=1",
+  "external_id": "centrale_tarjeta-grafica-gigabyte-amd-radeon-rx-9060-xt-16gb-gddr6",
+  "category_id": "gpu",
+  "brand": "Gigabyte",
+  "name": "Tarjeta Gráfica Gigabyte AMD Radeon RX 9060 XT 16GB GDDR6",
+  "slug": "tarjeta-grafica-gigabyte-amd-radeon-rx-9060-xt-16gb-gddr6",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-Gigabyte-AMD-Radeon-RX-9060-XT-16GB-GDDR6-1.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$252.700",
-    "Webpay / Tarjeta crédito-débito": "$265.990"
+    "Transferencia / Efectivo": "$602.230",
+    "Tarjetas de Crédito / Débito": "$635.350"
   },
   "tags": [],
-  "created_at": "2026-04-24 21:45:42",
-  "updated_at": "2026-04-24 21:45:42",
+  "created_at": "2026-04-24 22:15:25",
+  "updated_at": "2026-04-24 22:15:25",
   "prices": [
     {
       "id": 493,
       "product_id": 493,
-      "store_id": "cg",
-      "price": 252700,
+      "store_id": "centrale",
+      "price": 602230,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-9600x/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-gigabyte-amd-radeon-rx-9060-xt-16gb-gddr6/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 21:45:42",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 22:15:25",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 252700
+      "price": 602230
     }
   ],
   "scraped_at": "2026-04-24"

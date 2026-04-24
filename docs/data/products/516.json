@@ -1,45 +1,45 @@
 {
   "id": 516,
-  "external_id": "cg_memoria-ram-kingston-fury-beast-32gb-5600mhz",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria Ram Kingston Fury Beast 32GB 5600Mhz",
-  "slug": "memoria-ram-kingston-fury-beast-32gb-5600mhz",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/02/1_1769712957000.jpg?fit=1000%2C1000&ssl=1",
+  "external_id": "centrale_procesador-intel-core-ultra-7-265-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel  Core Ultra 7 265 Hasta 5.3Ghz 30Mb Cache 20 Core S1851 P/N",
+  "slug": "procesador-intel-core-ultra-7-265-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-7-265-Hasta-5.3Ghz-30Mb-Cache-20-Core-S1851-P-N.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$473.140",
-    "Webpay / Tarjeta crédito-débito": "$498.024"
+    "Transferencia / Efectivo": "$432.060",
+    "Tarjetas de Crédito / Débito": "$455.820"
   },
   "tags": [],
-  "created_at": "2026-04-24 21:45:47",
-  "updated_at": "2026-04-24 21:45:47",
+  "created_at": "2026-04-24 22:15:27",
+  "updated_at": "2026-04-24 22:15:27",
   "prices": [
     {
       "id": 516,
       "product_id": 516,
-      "store_id": "cg",
-      "price": 473140,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "centrale",
+      "price": 432060,
+      "price_normal": 500090,
+      "discount_pct": 14,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/memorias-ram/memoria-kingston-32gb-5600mt-s-ddr5-cl36-dimm-kit/",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 21:45:47",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 22:15:27",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 473140
+      "price": 432060
     }
   ],
   "scraped_at": "2026-04-24"

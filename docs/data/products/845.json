@@ -1,32 +1,32 @@
 {
   "id": 845,
-  "external_id": "centrale_memoria-ram-notebook-32gb-ddr5-5600mt-s-cl46-kingston-sodimm-2rx8-1-1v-16gbit",
-  "category_id": "ram",
+  "external_id": "centrale_disco-ssd-nvme-1tb-kingston-kc3000-pcie-4-0-7000-mb-s",
+  "category_id": "storage",
   "brand": "Kingston",
-  "name": "Memoria RAM Notebook 32GB DDR5 5600MT/s CL46 Kingston SODIMM 2RX8 1.1V 16Gbit",
-  "slug": "memoria-ram-notebook-32gb-ddr5-5600mt-s-cl46-kingston-sodimm-2rx8-1-1v-16gbit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-Notebook-32GB-DDR5-5600MT-s-CL46-Kingston-SODIMM-2RX8-1.1V-_uRSaCTC-1.webp",
+  "name": "Disco SSD NVMe 1TB Kingston KC3000 PCIe 4.0 7000 MB/s",
+  "slug": "disco-ssd-nvme-1tb-kingston-kc3000-pcie-4-0-7000-mb-s",
+  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-NVMe-1TB-Kingston-KC3000-PCIe-4.0-7000-MB-s_Sv0nui3.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$400.010",
-    "Tarjetas de Crédito / Débito": "$422.010"
+    "Transferencia / Efectivo": "$199.940",
+    "Tarjetas de Crédito / Débito": "$210.940"
   },
   "tags": [],
-  "created_at": "2026-04-24 21:46:06",
-  "updated_at": "2026-04-24 21:46:06",
+  "created_at": "2026-04-24 22:15:35",
+  "updated_at": "2026-04-24 22:15:35",
   "prices": [
     {
       "id": 845,
       "product_id": 845,
       "store_id": "centrale",
-      "price": 400010,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 199940,
+      "price_normal": 236530,
+      "discount_pct": 15,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-32gb-ddr5-5600mt-s-cl46-kingston-sodimm-2rx8-1-1v-16gbit/",
+      "product_url": "https://centrale.cl/producto/disco-ssd-nvme-1tb-kingston-kc3000-pcie-4-0-7000-mb-s/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 21:46:06",
+      "scraped_at": "2026-04-24 22:15:35",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 400010
+      "price": 199940
     }
   ],
   "scraped_at": "2026-04-24"

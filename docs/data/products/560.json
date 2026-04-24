@@ -1,32 +1,32 @@
 {
   "id": 560,
-  "external_id": "centrale_tarjeta-grafica-asus-rog-astral-geforce-rtx-5080-gaming-oc-16gb-gddr7-256-bit",
-  "category_id": "gpu",
-  "brand": "Rog",
-  "name": "Tarjeta Gráfica ASUS ROG Astral GeForce RTX 5080 GAMING OC 16GB GDDR7 256-bit",
-  "slug": "tarjeta-grafica-asus-rog-astral-geforce-rtx-5080-gaming-oc-16gb-gddr7-256-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-ASUS-ROG-Astral-GeForce-RTX-5080-GAMING-OC-16GB-GDDR7-192-bit-1.webp",
+  "external_id": "centrale_procesador-intel-core-i5-14600kf-raptor-lake-s-lga1700-14-cores-20-hilos",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i5-14600KF Raptor Lake-S LGA1700, 14 Cores, 20 Hilos",
+  "slug": "procesador-intel-core-i5-14600kf-raptor-lake-s-lga1700-14-cores-20-hilos",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i5-14600KF-Raptor-Lake-S-LGA1700-14-Cores-20-Hilo_8TSUW4u-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$2.324.080",
-    "Tarjetas de Crédito / Débito": "$2.451.900"
+    "Transferencia / Efectivo": "$271.030",
+    "Tarjetas de Crédito / Débito": "$285.940"
   },
   "tags": [],
-  "created_at": "2026-04-24 21:45:57",
-  "updated_at": "2026-04-24 21:45:57",
+  "created_at": "2026-04-24 22:15:27",
+  "updated_at": "2026-04-24 22:15:27",
   "prices": [
     {
       "id": 560,
       "product_id": 560,
       "store_id": "centrale",
-      "price": 2324080,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 271030,
+      "price_normal": 379800,
+      "discount_pct": 29,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-rog-astral-geforce-rtx-5080-gaming-oc-16gb-gddr7-256-bit/",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-14600kf-raptor-lake-s-lga1700-14-cores-20-hilos/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 21:45:57",
+      "scraped_at": "2026-04-24 22:15:27",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 2324080
+      "price": 271030
     }
   ],
   "scraped_at": "2026-04-24"

@@ -1,32 +1,32 @@
 {
   "id": 542,
-  "external_id": "centrale_tarjeta-grafica-msi-rtx-5080-inspire-3x-oc-16gb-gddr7-256-bit",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "Tarjeta Gráfica MSI RTX 5080 INSPIRE 3X OC 16GB GDDR7, 256-bit",
-  "slug": "tarjeta-grafica-msi-rtx-5080-inspire-3x-oc-16gb-gddr7-256-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Msi-Tarjeta-De-Video-Nvidia-Geforce-Rtx-5080-Inspire-3X-Oc-16Gb-Gddr7-2_jN7aybi.webp",
+  "external_id": "centrale_procesador-amd-ryzen-7-5700g-4-60ghz-graficos-integrados",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 7 5700G 4.60Ghz Gráficos Integrados",
+  "slug": "procesador-amd-ryzen-7-5700g-4-60ghz-graficos-integrados",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-5700G-4.60Ghz-GrC3A1ficos-Integrados_1C3hcYy-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$1.753.310",
-    "Tarjetas de Crédito / Débito": "$1.849.740"
+    "Transferencia / Efectivo": "$201.900",
+    "Tarjetas de Crédito / Débito": "$213.000"
   },
   "tags": [],
-  "created_at": "2026-04-24 21:45:57",
-  "updated_at": "2026-04-24 21:45:57",
+  "created_at": "2026-04-24 22:15:27",
+  "updated_at": "2026-04-24 22:15:27",
   "prices": [
     {
       "id": 542,
       "product_id": 542,
       "store_id": "centrale",
-      "price": 1753310,
-      "price_normal": 2070070,
-      "discount_pct": 15,
+      "price": 201900,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5080-inspire-3x-oc-16gb-gddr7-256-bit/",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-5700g-4-60ghz-graficos-integrados/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 21:45:57",
+      "scraped_at": "2026-04-24 22:15:27",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 1753310
+      "price": 201900
     }
   ],
   "scraped_at": "2026-04-24"

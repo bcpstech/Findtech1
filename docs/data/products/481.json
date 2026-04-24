@@ -1,45 +1,45 @@
 {
   "id": 481,
-  "external_id": "cg_procesador-intel-core-ultra-5-245k",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core Ultra 5 245K",
-  "slug": "procesador-intel-core-ultra-5-245k",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1748469829000.jpg?fit=1000%2C1000&ssl=1",
+  "external_id": "centrale_tarjeta-grafica-asus-prime-geforce-rtx-5070-oc-edition-12gb-gddr7-sff-ready",
+  "category_id": "gpu",
+  "brand": "Asus",
+  "name": "Tarjeta Gráfica ASUS Prime GeForce RTX 5070 OC Edition 12GB GDDR7 SFF-Ready",
+  "slug": "tarjeta-grafica-asus-prime-geforce-rtx-5070-oc-edition-12gb-gddr7-sff-ready",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-ASUS-Prime-GeForce-RTX-5070-OC-Edition-12GB-GDDR7-SFF-Ready-1.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$236.980",
-    "Webpay / Tarjeta crédito-débito": "$249.442"
+    "Transferencia / Efectivo": "$801.340",
+    "Tarjetas de Crédito / Débito": "$845.410"
   },
   "tags": [],
-  "created_at": "2026-04-24 21:45:42",
-  "updated_at": "2026-04-24 21:45:42",
+  "created_at": "2026-04-24 22:15:25",
+  "updated_at": "2026-04-24 22:15:25",
   "prices": [
     {
       "id": 481,
       "product_id": 481,
-      "store_id": "cg",
-      "price": 236980,
+      "store_id": "centrale",
+      "price": 801340,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-5-245k-4-2-ghz-14-core-lga1851/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-prime-geforce-rtx-5070-oc-edition-12gb-gddr7-sff-ready/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 21:45:42",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 22:15:25",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 236980
+      "price": 801340
     }
   ],
   "scraped_at": "2026-04-24"

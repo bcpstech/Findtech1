@@ -1,32 +1,32 @@
 {
   "id": 535,
-  "external_id": "centrale_tarjeta-grafica-msi-geforce-rtx-5050-shadow-2x-oc-8gb-gddr6-pcie-5-0-128-bit",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "Tarjeta Gráfica MSI GeForce RTX 5050 Shadow 2X OC 8GB GDDR6 Pcie 5.0 128-bit",
-  "slug": "tarjeta-grafica-msi-geforce-rtx-5050-shadow-2x-oc-8gb-gddr6-pcie-5-0-128-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-MSI-GeForce-RTX-5050-Shadow-2X-OC-8GB-GDDR6-Pcie-5.0-12_pFUYw7o.webp",
+  "external_id": "centrale_procesador-amd-ryzen-5-9600x-6-cores-12-threads-3-9-a-5-4ghz-65w",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 5 9600X, 6 Cores 12 Threads, 3.9 a 5.4GHz, 65W",
+  "slug": "procesador-amd-ryzen-5-9600x-6-cores-12-threads-3-9-a-5-4ghz-65w",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-5-9600X-6-Cores-12-Threads-3.9-a-5.4GHz-65W_sKkf1NT-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$366.510",
-    "Tarjetas de Crédito / Débito": "$386.670"
+    "Transferencia / Efectivo": "$257.940",
+    "Tarjetas de Crédito / Débito": "$272.130"
   },
   "tags": [],
-  "created_at": "2026-04-24 21:45:57",
-  "updated_at": "2026-04-24 21:45:57",
+  "created_at": "2026-04-24 22:15:27",
+  "updated_at": "2026-04-24 22:15:27",
   "prices": [
     {
       "id": 535,
       "product_id": 535,
       "store_id": "centrale",
-      "price": 366510,
-      "price_normal": 425470,
-      "discount_pct": 14,
+      "price": 257940,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5050-shadow-2x-oc-8gb-gddr6-pcie-5-0-128-bit/",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-9600x-6-cores-12-threads-3-9-a-5-4ghz-65w/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 21:45:57",
+      "scraped_at": "2026-04-24 22:15:27",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 366510
+      "price": 257940
     }
   ],
   "scraped_at": "2026-04-24"

@@ -1,45 +1,45 @@
 {
   "id": 482,
-  "external_id": "cg_procesador-intel-core-i7-12700k",
-  "category_id": "cpu",
-  "brand": "Zona Intel",
-  "name": "Procesador Intel Core i7-12700K",
-  "slug": "procesador-intel-core-i7-12700k",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/03/1_1741899344221.jpg?fit=1500%2C1500&ssl=1",
+  "external_id": "centrale_tarjeta-grafica-zotac-gaming-nvidia-geforce-rtx-5060-twin-edge-oc-8gb-gddr7",
+  "category_id": "gpu",
+  "brand": "Zotac",
+  "name": "Tarjeta Gráfica Zotac Gaming Nvidia GeForce RTX 5060 Twin Edge OC 8GB GDDR7",
+  "slug": "tarjeta-grafica-zotac-gaming-nvidia-geforce-rtx-5060-twin-edge-oc-8gb-gddr7",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-Zotac-Gaming-Nvidia-GeForce-RTX-5060-Twin-Edge-OC-8GB-GDDR7.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$432.120",
-    "Webpay / Tarjeta crédito-débito": "$454.852"
+    "Transferencia / Efectivo": "$482.140",
+    "Tarjetas de Crédito / Débito": "$508.660"
   },
   "tags": [],
-  "created_at": "2026-04-24 21:45:42",
-  "updated_at": "2026-04-24 21:45:42",
+  "created_at": "2026-04-24 22:15:25",
+  "updated_at": "2026-04-24 22:15:25",
   "prices": [
     {
       "id": 482,
       "product_id": 482,
-      "store_id": "cg",
-      "price": 432120,
+      "store_id": "centrale",
+      "price": 482140,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/intel-core-i7-12700k-3-6-ghz-12-nucleos-20-hilos-25-mb-cache-lga1700-socket-caja-sin-refrigerante/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-nvidia-geforce-rtx-5060-twin-edge-oc-8gb-gddr7/",
       "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 21:45:42",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-24 22:15:25",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-24",
-      "price": 432120
+      "price": 482140
     }
   ],
   "scraped_at": "2026-04-24"
