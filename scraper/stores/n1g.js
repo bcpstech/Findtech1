@@ -1,62 +1,142 @@
 /**
  * scraper/stores/n1g.js
- * N1G usa PrestaShop con URLs /Home/ID-nombre
+ * PrestaShop HTML scraping — n1g.cl
+ * Precio formato: "49.900 $" (número primero, símbolo después)
  */
 const BaseScraper = require('../base-scraper');
+const cheerio = require('cheerio');
 
-const CATEGORY_URLS = [
-  { url: 'https://n1g.cl/Home/39-tarjetas-graficas',     catId: 'gpu'     },
-  { url: 'https://n1g.cl/Home/2-procesadores',           catId: 'cpu'     },
-  { url: 'https://n1g.cl/Home/5-memorias-ram',           catId: 'ram'     },
-  { url: 'https://n1g.cl/Home/54-discos-ssd',            catId: 'storage' },
-  { url: 'https://n1g.cl/Home/6-refrigeracion',          catId: 'cooling' },
-  { url: 'https://n1g.cl/Home/3-placas-madre',           catId: 'mobo'    },
-  { url: 'https://n1g.cl/Home/4-fuentes-de-poder',       catId: 'psu'     },
-  { url: 'https://n1g.cl/Home/24-gabinetes',             catId: 'case'    },
-  { url: 'https://n1g.cl/Home/8-monitores',              catId: 'monitor' },
-  { url: 'https://n1g.cl/Home/9-perifericos',            catId: 'periph'  },
+const BASE_URL = 'https://n1g.cl';
+
+const CATEGORIES = [
+  { url: '/Home/39-tarjetas-graficas', catId: 'gpu'     },
+  { url: '/Home/34-procesadores',      catId: 'cpu'     },
+  { url: '/Home/33-placas-madre',      catId: 'mobo'    },
+  { url: '/Home/27-memorias',          catId: 'ram'     },
+  { url: '/Home/22-almacenamiento',    catId: 'storage' },
+  { url: '/Home/35-refrigeracion',     catId: 'cooling' },
+  { url: '/Home/24-gabinetes',         catId: 'case'    },
+  { url: '/Home/23-fuentes-de-poder',  catId: 'psu'     },
 ];
+
+// N1G no muestra precio diferenciado efectivo/tarjeta en la lista
+// Asumimos precio único (efectivo). Si hay recargo tarjeta confirmar.
+const CARD_SURCHARGE = 1.03;
 
 class N1GScraper extends BaseScraper {
   constructor() { super('n1g', 'N1G'); }
 
   async scrapeAll() {
-    for (const { url, catId } of CATEGORY_URLS) {
-      try { await this.scrapeCategory(url, catId); await this.delay(); }
-      catch (err) { this.stats.errors++; this.log('warn', `Error ${catId}: ${err.message}`); }
+    this.seenUrls = new Set();
+    for (const { url, catId } of CATEGORIES) {
+      try {
+        await this.scrapeCategory(url, catId);
+        await this.delay(1500, 2500);
+      } catch (err) {
+        this.stats.errors++;
+        this.log('warn', `Error ${catId} (${url}): ${err.message}`);
+      }
     }
   }
 
-  async scrapeCategory(baseUrl, catId) {
-    let page = 1; let hasMore = true;
-    while (hasMore && page <= 10) {
-      const url = page === 1 ? baseUrl : `${baseUrl}?p=${page}`;
-      this.log('info', `Pág ${page} — ${catId}`, { url });
-      const $ = await this.fetchPage(url);
-      if (!$) { this.stats.errors++; break; }
-      const products = [];
-      $('.product-miniature, .js-product, article.product-miniature').each((_, el) => {
-        const name  = $(el).find('.product-title a, h3.product-title').first().text().trim();
-        const price = $(el).find('.price').not('.regular-price').first().text().trim();
-        const normal = $(el).find('.regular-price').first().text().trim();
-        const href  = $(el).find('a').first().attr('href');
-        const img   = $(el).find('img').first().attr('data-src') || $(el).find('img').first().attr('src');
-        if (name && price) products.push({ name, price, normal, href, img });
-      });
-      if (!products.length) { hasMore = false; break; }
-      for (const p of products) {
-        const current = this.parsePrice(p.price); if (!current) continue;
-        const normal = this.parsePrice(p.normal); this.stats.found++;
-        this.saveProduct({ name: p.name, category: catId, imageUrl: p.img },
-          { current, normal, discount: normal ? Math.round((1-current/normal)*100) : null, url: p.href });
+  async scrapeCategory(categoryPath, catId) {
+    let page = 1;
+
+    while (page <= 20) {
+      const url = `${BASE_URL}${categoryPath}?page=${page}`;
+      this.log('info', `[n1g] ${catId} pág ${page}`);
+
+      try {
+        const res = await this.client.get(url, {
+          headers: {
+            'Accept': 'text/html,application/xhtml+xml',
+            'Accept-Language': 'es-CL,es;q=0.9',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+          }
+        });
+
+        const $ = cheerio.load(res.data);
+        const items = $('article.product-miniature');
+
+        if (!items.length) {
+          this.log('info', `[n1g] Sin productos en pág ${page}`);
+          break;
+        }
+
+        let newInPage = 0;
+
+        items.each((_, el) => {
+          try {
+            const $el = $(el);
+            const productUrl = $el.find('a.thumbnail').attr('href')
+                            || $el.find('.product-title a').attr('href') || '';
+
+            if (this.seenUrls.has(productUrl)) return;
+            this.seenUrls.add(productUrl);
+
+            const name = $el.find('.product-title, h3.product-title').text().trim();
+            if (!name) return;
+
+            // Precio en formato "49.900 $" — limpiar símbolo al final
+            const priceRaw = $el.find('.price').first().text().trim();
+            const price = this.parsePrice(priceRaw);
+            if (!price || price < 1000) return;
+
+            const regularRaw = $el.find('.regular-price').text().trim();
+            const regularPrice = regularRaw ? this.parsePrice(regularRaw) : null;
+
+            const priceCard = Math.round(price * CARD_SURCHARGE);
+
+            const imageUrl = $el.find('img.product-thumbnail').attr('data-src')
+                          || $el.find('img.product-thumbnail').attr('src')
+                          || $el.find('img').first().attr('src') || null;
+
+            this.stats.found++;
+            newInPage++;
+
+            this.saveProduct(
+              {
+                name,
+                category: catId,
+                brand: this.extractBrand(name),
+                imageUrl,
+                specs: {
+                  'Efectivo/Transferencia':    `$${price.toLocaleString('es-CL')}`,
+                  'Tarjeta crédito/débito':    `$${priceCard.toLocaleString('es-CL')}`,
+                }
+              },
+              {
+                current:  price,
+                normal:   regularPrice > price ? regularPrice : null,
+                discount: regularPrice > price ? Math.round((1 - price / regularPrice) * 100) : null,
+                stock:    $el.find('.product-unavailable').length ? 'out_of_stock' : 'in_stock',
+                url:      productUrl || null,
+              }
+            );
+          } catch (err) {
+            this.log('warn', `[n1g] Error parseando item: ${err.message}`);
+          }
+        });
+
+        this.log('info', `[n1g] ✓ ${catId} pág ${page}: ${newInPage} nuevos`);
+        if (items.length < 12) break;
+        page++;
+        await this.delay(1000, 2000);
+
+      } catch (err) {
+        this.stats.errors++;
+        this.log('warn', `[n1g] Error HTTP ${categoryPath} pág ${page}: ${err.message}`);
+        break;
       }
-      hasMore = $('.pagination .next, a[rel="next"]').length > 0;
-      page++; await this.delay(1500, 3000);
     }
+    this.log('info', `✓ n1g ${catId} total: ${this.stats.found}`);
   }
 }
 
 if (require.main === module) {
-  new N1GScraper().run().then(r => { console.log('N1G:', r); process.exit(r.success ? 0 : 1); });
+  new N1GScraper().run().then(r => {
+    console.log('N1G:', r);
+    process.exit(r.success ? 0 : 1);
+  });
 }
 module.exports = N1GScraper;
