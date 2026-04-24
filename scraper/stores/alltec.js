@@ -30,7 +30,6 @@ const CARD_SURCHARGE = 1.03;
 class AlltecScraper extends BaseScraper {
   constructor() { super('alltec', 'Alltec'); }
 
-
   isAccessory(name) {
     const lower = name.toLowerCase();
     const keywords = ['cable','adaptador','bracket','tornillo','pasta termica',
@@ -70,13 +69,16 @@ class AlltecScraper extends BaseScraper {
           }
         });
 
-        const $ = cheerio.load(res.data);
+        // Debug: ver qué HTML recibe el scraper
+        this.log('info', `[alltec] HTML snippet: ${res.data.slice(200, 700)}`);
 
-        // Selector real: ul.products > li (tema personalizado Alltec)
+        const $ = cheerio.load(res.data);
         const items = $('ul.products li');
 
         if (!items.length) {
-          this.log('info', `[alltec] Sin productos en pág ${page}`);
+          this.log('info', `[alltec] Sin productos en pág ${page} (ul.products li = 0)`);
+          // Debug: ver qué selectores alternativos hay
+          this.log('info', `[alltec] alternativas - li: ${$('li').length}, ul: ${$('ul').length}, div.product: ${$('[class*="product"]').length}`);
           break;
         }
 
@@ -85,32 +87,24 @@ class AlltecScraper extends BaseScraper {
         items.each((_, el) => {
           try {
             const $el = $(el);
-
-            // URL desde el enlace de imagen
             const productUrl = $el.find('a.products-block-image').attr('href')
                             || $el.find('a').first().attr('href') || '';
-
             if (this.seenUrls.has(productUrl)) return;
             this.seenUrls.add(productUrl);
 
-            // Nombre desde .product-name o del atributo title del enlace
             const name = $el.find('.product-name').text().trim()
                       || $el.find('a.products-block-image').attr('title') || '';
             if (!name) return;
             if (this.isAccessory(name)) return;
 
-            // Precio formato: "$ 52,900" — remover $ y reemplazar coma por punto
             const priceRaw = $el.find('.price-box span.price, .price').first().text().trim();
             const price = this.parseAlltecPrice(priceRaw);
             if (!price || price < 1000) return;
 
-            // Precio tachado si hay oferta
             const oldRaw = $el.find('.price-box .old-price, .regular-price').text().trim();
             const regularPrice = oldRaw ? this.parseAlltecPrice(oldRaw) : null;
-
             const priceCard = Math.round(price * CARD_SURCHARGE);
 
-            // Imagen
             const imageUrl = $el.find('img.img-responsive').attr('src')
                           || $el.find('img').first().attr('src') || null;
 
@@ -119,8 +113,7 @@ class AlltecScraper extends BaseScraper {
 
             this.saveProduct(
               {
-                name,
-                category: catId,
+                name, category: catId,
                 brand: this.extractBrand(name),
                 imageUrl,
                 specs: {
@@ -131,8 +124,7 @@ class AlltecScraper extends BaseScraper {
               {
                 current:  price,
                 normal:   regularPrice > price ? regularPrice : null,
-                discount: regularPrice > price
-                  ? Math.round((1 - price / regularPrice) * 100) : null,
+                discount: regularPrice > price ? Math.round((1 - price / regularPrice) * 100) : null,
                 stock:    'in_stock',
                 url:      productUrl || null,
               }
@@ -159,7 +151,6 @@ class AlltecScraper extends BaseScraper {
   // Precio formato Alltec: "$ 52,900" → 52900
   parseAlltecPrice(str) {
     if (!str) return null;
-    // Remover símbolo $, espacios y reemplazar coma por nada (es separador de miles)
     const clean = str.replace(/\$/g, '').replace(/,/g, '').replace(/\s/g, '');
     const num = parseInt(clean);
     if (isNaN(num) || num < 1000 || num > 100000000) return null;
