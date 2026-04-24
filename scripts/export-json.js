@@ -73,10 +73,25 @@ const products = db.prepare(`
   GROUP BY pr.id
   HAVING best_price IS NOT NULL
   ORDER BY best_price ASC
-`).all(latestDate || '').map(p => ({
-  ...p,
-  tags: p.tags ? JSON.parse(p.tags) : []
-}));
+`).all(latestDate || '').map(p => {
+  // Obtener precios por tienda para este producto
+  const storePrices = db.prepare(`
+    SELECT p2.store_id, s.name as store_name, p2.price, p2.product_url
+    FROM prices p2 JOIN stores s ON s.id = p2.store_id
+    WHERE p2.product_id = ? AND date(p2.scraped_at) = ?
+    ORDER BY p2.price ASC
+  `).all(p.id, latestDate || '');
+
+  const pricesMap = {};
+  storePrices.forEach(row => { pricesMap[row.store_id] = row.price; });
+
+  return {
+    ...p,
+    tags:  p.tags  ? JSON.parse(p.tags)  : [],
+    prices: pricesMap,
+    url: storePrices[0]?.product_url || null,
+  };
+});
 write(path.join(OUT_DIR, 'products.json'), products);
 
 // ── 4. Detalle de cada producto ───────────────────────────────────────────
