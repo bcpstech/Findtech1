@@ -35,6 +35,25 @@ const SEARCHES = [
 
 const CARD_SURCHARGE = 1.03;
 
+// Frases que OpenCart usa para indicar sin stock
+const OUT_OF_STOCK_PHRASES = [
+  'out of stock', 'sin stock', 'agotado', 'no disponible',
+  'not available', 'sold out',
+];
+
+function detectStock($container) {
+  const text = ($container.find('[class*="stock"], .stock, .availability').text()
+    + $container.find('button[disabled]').text()).toLowerCase();
+  if (OUT_OF_STOCK_PHRASES.some(p => text.includes(p))) return 'out_of_stock';
+  // Si el botón "Agregar al carro" está deshabilitado → sin stock
+  const addBtn = $container.find('button').filter((_, el) => {
+    const t = $(el).text().toLowerCase();
+    return t.includes('agregar') || t.includes('add to cart') || t.includes('comprar');
+  });
+  if (addBtn.length && addBtn.attr('disabled') !== undefined) return 'out_of_stock';
+  return 'in_stock';
+}
+
 class PCExpressScraper extends BaseScraper {
   constructor() { super('pcexpress', 'PC-Express'); }
 
@@ -95,6 +114,9 @@ class PCExpressScraper extends BaseScraper {
 
             this.seenUrls.add(productUrl);
 
+            // FIX: detectar stock real desde el HTML
+            const stock = detectStock($container);
+
             const priceOldRaw = $container.find('.price-old').first().text().trim();
             const regularPrice = priceOldRaw ? this.parsePrice(priceOldRaw) : null;
             const priceCard = Math.round(price * CARD_SURCHARGE);
@@ -112,7 +134,8 @@ class PCExpressScraper extends BaseScraper {
               { current: price,
                 normal: regularPrice > price ? regularPrice : null,
                 discount: regularPrice > price ? Math.round((1-price/regularPrice)*100) : null,
-                stock: 'in_stock', url: productUrl }
+                stock,      // FIX: valor real
+                url: productUrl }
             );
           } catch(e) {}
         }
