@@ -9,6 +9,7 @@ const axios   = require('axios');
 const cheerio = require('cheerio');
 const { upsertProduct, upsertPrice, logScrape } = require('../db/database');
 const logger  = require('./logger');
+const { mirrorImage } = require('./r2-images');
 const { fetchIcecatData } = require('./icecat');
 
 // Configurar reintentos automáticos
@@ -16,7 +17,8 @@ let axiosRetry;
 try { axiosRetry = require('axios-retry'); } catch(e) {}
 
 const TIMEOUT   = parseInt(process.env.SCRAPE_TIMEOUT   || 60000);
-const USE_ICECAT = process.env.USE_ICECAT !== 'false'; // activado por defecto
+const USE_ICECAT = process.env.USE_ICECAT !== 'false';
+const USE_R2 = process.env.R2_KEY_ID ? true : false; // activado por defecto
 const DELAY_MIN = parseInt(process.env.SCRAPE_DELAY_MIN || 800);
 const DELAY_MAX = parseInt(process.env.SCRAPE_DELAY_MAX || 2500);
 const MAX_RETRY = parseInt(process.env.SCRAPE_MAX_RETRIES || 3);
@@ -112,6 +114,16 @@ class BaseScraper {
   }
 
   // ── Guardar en DB ───────────────────────────────────
+  async saveProductWithR2(product, price) {
+    // Mirror imagen a R2 si está configurado
+    if (USE_R2 && product.imageUrl) {
+      const slug = this.slugify(product.name);
+      const r2Url = await mirrorImage(product.imageUrl, slug);
+      if (r2Url) product.imageUrl = r2Url;
+    }
+    return this.saveProduct(product, price);
+  }
+
   saveProduct(product, price) {
     try {
       const external_id = `${this.storeId}_${this.slugify(product.name)}`;
