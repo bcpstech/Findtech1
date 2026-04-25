@@ -1,6 +1,6 @@
 /**
  * scraper/stores/pcexpress.js
- * PC-Express OpenCart — búsquedas específicas por categoría
+ * PC-Express OpenCart — con specs desde página de detalle
  */
 const BaseScraper = require('../base-scraper');
 const cheerio = require('cheerio');
@@ -34,23 +34,12 @@ const SEARCHES = [
 ];
 
 const CARD_SURCHARGE = 1.03;
-
-// Frases que OpenCart usa para indicar sin stock
-const OUT_OF_STOCK_PHRASES = [
-  'out of stock', 'sin stock', 'agotado', 'no disponible',
-  'not available', 'sold out',
-];
+const OUT_OF_STOCK_PHRASES = ['out of stock','sin stock','agotado','no disponible','not available','sold out'];
 
 function detectStock($container) {
-  const text = ($container.find('[class*="stock"], .stock, .availability').text()
+  const text = ($container.find('[class*="stock"],.stock,.availability').text()
     + $container.find('button[disabled]').text()).toLowerCase();
   if (OUT_OF_STOCK_PHRASES.some(p => text.includes(p))) return 'out_of_stock';
-  // Si el botón "Agregar al carro" está deshabilitado → sin stock
-  const addBtn = $container.find('button').filter((_, el) => {
-    const t = $(el).text().toLowerCase();
-    return t.includes('agregar') || t.includes('add to cart') || t.includes('comprar');
-  });
-  if (addBtn.length && addBtn.attr('disabled') !== undefined) return 'out_of_stock';
   return 'in_stock';
 }
 
@@ -60,31 +49,21 @@ class PCExpressScraper extends BaseScraper {
   async scrapeAll() {
     this.seenUrls = new Set();
     for (const cat of SEARCHES) {
-      try {
-        await this.scrapeSearch(cat);
-        await this.delay(2000, 3000);
-      } catch (err) {
-        this.stats.errors++;
-        this.log('warn', `Error ${cat.catId} "${cat.query}": ${err.message}`);
-      }
+      try { await this.scrapeSearch(cat); await this.delay(2000, 3000); }
+      catch (err) { this.stats.errors++; this.log('warn', `Error ${cat.catId} "${cat.query}": ${err.message}`); }
     }
   }
 
   async scrapeSearch({ query, catId, minPrice }) {
     let page = 1;
-
     while (page <= 5) {
       const directUrl = `${BASE_URL}/index.php?route=product/search&search=${encodeURIComponent(query)}&sort=p.price&order=ASC&limit=50&page=${page}`;
       const url = proxify(directUrl);
       this.log('info', `[pcx] ${catId} "${query}" pág ${page}`);
-
       try {
         const res = await this.client.get(url, {
-          headers: {
-            'Accept': 'text/html,application/xhtml+xml',
-            'Accept-Language': 'es-CL,es;q=0.9',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-          }
+          headers: { 'Accept': 'text/html,application/xhtml+xml', 'Accept-Language': 'es-CL,es;q=0.9',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36' }
         });
 
         const $ = cheerio.load(res.data);
@@ -97,45 +76,47 @@ class PCExpressScraper extends BaseScraper {
             if (this.seenUrls.has(productUrl)) continue;
 
             let pname = $a.text().trim();
-            if (!pname || pname.length < 5) {
-              pname = $a.closest('div').find('h4').first().text().trim() || '';
-            }
+            if (!pname || pname.length < 5) pname = $a.closest('div').find('h4').first().text().trim() || '';
             if (!pname || pname.length < 5) continue;
 
-            const $container = $a.closest('.product-layout, .product-thumb, div').first();
-            let priceRaw = $container.find('.price-new, .price').first().text().trim();
-            if (!priceRaw) {
-              priceRaw = $a.parent().find('[class*="price"]').first().text().trim()
-                      || $a.parent().parent().find('[class*="price"]').first().text().trim();
-            }
-
+            const $container = $a.closest('.product-layout,.product-thumb,div').first();
+            let priceRaw = $container.find('.price-new,.price').first().text().trim()
+                        || $a.parent().find('[class*="price"]').first().text().trim();
             const price = this.parsePrice(priceRaw);
             if (!price || price < (minPrice || 5000)) continue;
 
             this.seenUrls.add(productUrl);
-
-            // FIX: detectar stock real desde el HTML
             const stock = detectStock($container);
-
             const priceOldRaw = $container.find('.price-old').first().text().trim();
             const regularPrice = priceOldRaw ? this.parsePrice(priceOldRaw) : null;
             const priceCard = Math.round(price * CARD_SURCHARGE);
             const imageUrl = $container.find('img').first().attr('src') || null;
 
+            // Specs desde página de detalle
+            let techSpecs = {};
+            if (productUrl) {
+              const fullUrl = productUrl.startsWith('http') ? productUrl : `${BASE_URL}${productUrl}`;
+              techSpecs = await this.fetchProductSpecs(fullUrl, proxify);
+              await this.delay(300, 600);
+            }
+
             this.stats.found++;
             newInPage++;
             await this.saveProductWithR2(
-              { name: pname, category: catId, brand: this.extractBrand(pname), imageUrl,
+              {
+                name: pname, category: catId, brand: this.extractBrand(pname), imageUrl,
                 specs: {
+                  ...techSpecs,
                   'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
                   'Tarjeta crédito/débito': `$${priceCard.toLocaleString('es-CL')}`,
                 }
               },
-              { current: price,
+              {
+                current: price,
                 normal: regularPrice > price ? regularPrice : null,
                 discount: regularPrice > price ? Math.round((1-price/regularPrice)*100) : null,
-                stock,      // FIX: valor real
-                url: productUrl }
+                stock, url: productUrl
+              }
             );
           } catch(e) {}
         }
@@ -144,7 +125,6 @@ class PCExpressScraper extends BaseScraper {
         if (newInPage === 0) break;
         page++;
         await this.delay(1500, 2500);
-
       } catch (err) {
         this.stats.errors++;
         this.log('warn', `[pcx] Error HTTP "${query}" pág ${page}: ${err.message}`);
@@ -156,9 +136,6 @@ class PCExpressScraper extends BaseScraper {
 }
 
 if (require.main === module) {
-  new PCExpressScraper().run().then(r => {
-    console.log('PC-Express:', r);
-    process.exit(r.success ? 0 : 1);
-  });
+  new PCExpressScraper().run().then(r => { console.log('PC-Express:', r); process.exit(r.success ? 0 : 1); });
 }
 module.exports = PCExpressScraper;
