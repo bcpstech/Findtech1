@@ -9,6 +9,17 @@ const cheerio = require('cheerio');
 
 const BASE_URL = 'https://tienda.pc-express.cl';
 
+const PROXY_URL = process.env.CF_PROXY_URL || '';
+const PROXY_SECRET = process.env.CF_PROXY_SECRET || '';
+
+function getProxiedUrl(targetUrl) {
+  if (PROXY_URL) {
+    return `${PROXY_URL}?url=${encodeURIComponent(targetUrl)}&secret=${PROXY_SECRET}`;
+  }
+  return targetUrl;
+}
+
+
 // Búsquedas específicas por categoría — verificado que devuelve HTML estático
 const SEARCHES = [
   // GPU
@@ -61,7 +72,8 @@ class PCExpressScraper extends BaseScraper {
     let page = 1;
 
     while (page <= 5) {
-      const url = `${BASE_URL}/index.php?route=product/search&search=${encodeURIComponent(query)}&sort=p.price&order=ASC&limit=50&page=${page}`;
+      const directUrl = `${BASE_URL}/index.php?route=product/search&search=${encodeURIComponent(query)}&sort=p.price&order=ASC&limit=50&page=${page}`;
+      const url = getProxiedUrl(directUrl);
       this.log('info', `[pcx] ${catId} "${query}" pág ${page}`);
 
       try {
@@ -115,7 +127,7 @@ class PCExpressScraper extends BaseScraper {
 
             this.stats.found++;
             newInPage++;
-            this.saveProduct(
+            await this.saveProductEnriched(
               { name: pname, category: catId, brand: this.extractBrand(pname), imageUrl,
                 specs: {
                   'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
@@ -128,7 +140,7 @@ class PCExpressScraper extends BaseScraper {
                 stock: 'in_stock', url: productUrl }
             );
           } catch(e) {}
-        });
+        }
 
         this.log('info', `[pcx] ✓ "${query}" pág ${page}: ${newInPage} nuevos`);
         if (newInPage === 0) break;
