@@ -591,7 +591,15 @@ footer{
   .detail-wrap{grid-template-columns:1fr}
   .detail-img-box{position:relative;top:0;aspect-ratio:auto;padding:24px}
   .detail-specs-grid{grid-template-columns:1fr}
-  .dpr-store-name{font-size:13px}
+  .dpr-method-row{display:flex;justify-content:space-between;align-items:center;gap:8px;min-width:0}
+.dpr-stars{font-size:11px;color:#f59e0b;letter-spacing:1px;margin-top:2px}
+.dpr-discount-badge{
+  display:inline-block;background:#ef4444;color:#fff;
+  font-size:10px;font-weight:700;border-radius:4px;
+  padding:1px 5px;margin-left:6px;vertical-align:middle;
+}
+.dpr-store-name{display:flex;align-items:center;flex-wrap:wrap;gap:4px;font-weight:600;font-size:14px}
+.dpr-store{display:flex;flex-direction:column;gap:2px;min-width:120px}
   .dpr-cash{font-size:15px}
   .detail-price-row{flex-wrap:wrap;gap:8px}
   .dpr-link{width:100%;text-align:center;padding:8px}
@@ -1463,7 +1471,6 @@ function showPage(p) {
   if (p==='stores') renderStores();
   if (p==='home') renderHome();
   window.scrollTo(0,0);
-  // Cerrar sidebar en mobile al navegar
   if (window.innerWidth <= 768) closeSidebar();
 }
 
@@ -1728,7 +1735,6 @@ function renderStores() {
 // ═══════════════════════════════════════════════
 // DATA LOADING
 // ═══════════════════════════════════════════════
-// Path absoluto — funciona en GitHub Pages sin importar la URL de acceso
 const DATA_BASE = (() => {
   const href = window.location.href.split('?')[0].split('#')[0];
   const base = href.endsWith('/') ? href : href.substring(0, href.lastIndexOf('/') + 1);
@@ -1786,6 +1792,35 @@ function goBack() {
   showPage(_prevPage);
 }
 
+// Labels de método de pago por tienda
+const STORE_LABELS = {
+  n1g:        { cash: 'Efectivo / Transferencia', card: 'Tarjeta crédito/débito', factor: 1.03  },
+  alltec:     { cash: 'Efectivo / Transferencia', card: 'Tarjeta crédito/débito', factor: 1.03  },
+  cg:         { cash: 'Efectivo / Transferencia', card: 'Webpay / Tarjeta',       factor: 1.0526 },
+  centrale:   { cash: 'Transferencia / Efectivo', card: 'Tarjetas Crédito/Débito',factor: 1.055  },
+  pcexpress:  { cash: 'Efectivo / Transferencia', card: 'Tarjeta crédito/débito', factor: 1.03  },
+  spdigital:  { cash: 'Transferencia / Efectivo', card: 'Webpay / Tarjeta',       factor: 1.03  },
+  myshop:     { cash: 'Transferencia / Efectivo', card: 'Webpay / Tarjeta',       factor: 1.03  },
+  progaming:  { cash: 'Efectivo / Transferencia', card: 'Webpay / Tarjeta',       factor: 1.03  },
+  dust2:      { cash: 'Efectivo / Transferencia', card: 'Webpay / Tarjeta',       factor: 1.03  },
+  tytgamer:   { cash: 'Efectivo / Transferencia', card: 'Webpay / Tarjeta',       factor: 1.03  },
+  mybox:      { cash: 'Efectivo / Transferencia', card: 'Webpay / Tarjeta',       factor: 1.03  },
+  megabytes:  { cash: 'Efectivo / Transferencia', card: 'Webpay / Tarjeta',       factor: 1.03  },
+  sandos:     { cash: 'Efectivo / Transferencia', card: 'Webpay / Tarjeta',       factor: 1.03  },
+  trulustore: { cash: 'Efectivo / Transferencia', card: 'Webpay / Tarjeta',       factor: 1.03  },
+  winpy:      { cash: 'Precio',                   card: null,                      factor: null   },
+  sipo:       { cash: 'Efectivo / Transferencia', card: 'Webpay / Tarjeta',       factor: 1.03  },
+  megadrive:  { cash: 'Precio',                   card: null,                      factor: null   },
+  'infor-ingen': { cash: 'Precio',                card: null,                      factor: null   },
+};
+
+// Palabras clave de precio — se excluyen de specs técnicas
+const PRICE_KEYS = ['efectivo','transferencia','tarjeta','webpay','crédito','credito','precio'];
+function isPriceKey(k) {
+  const l = k.toLowerCase();
+  return PRICE_KEYS.some(w => l.includes(w));
+}
+
 async function openDetail(id) {
   const p = PRODUCTS.find(x => x.id === id);
   if (!p) return;
@@ -1793,82 +1828,93 @@ async function openDetail(id) {
   _prevPage = currentPage;
 
   const cat = CATS[p.category] || { icon: '📦', name: p.category };
-
-  // Imagen
   const imgEl = document.getElementById('detail-img');
-  imgEl.innerHTML = p.image_url
-    ? `<img src="${p.image_url}" alt="${p.name}" onerror="this.style.display='none'">`
+  const pricesEl = document.getElementById('detail-prices');
+  const specsBox = document.getElementById('detail-specs-box');
+  const specsGrid = document.getElementById('detail-specs-grid');
+
+  // Imagen inicial desde el índice
+  imgEl.innerHTML = p.imageUrl
+    ? `<img src="${p.imageUrl}" alt="${p.name}" onerror="this.style.display='none'">`
     : `<div class="emoji">${cat.icon}</div>`;
 
-  // Info básica
   document.getElementById('detail-brand').textContent = p.brand || cat.name;
   document.getElementById('detail-name').textContent = p.name;
   document.getElementById('detail-cat').textContent = cat.icon + ' ' + cat.name;
 
-  // Precios placeholder mientras carga
-  const pricesEl = document.getElementById('detail-prices');
-  pricesEl.innerHTML = '<div style="padding:20px;color:var(--text3);text-align:center">Cargando precios...</div>';
+  pricesEl.innerHTML = '<div style="padding:20px;color:var(--text3);text-align:center">⏳ Cargando precios...</div>';
+  specsBox.style.display = 'none';
 
-  // Mostrar página
   showPage('detail');
   window.scrollTo(0, 0);
 
-  // Cargar detalle completo
+  // Calcular DATA_BASE igual que loadData
+  const href = window.location.href.split('?')[0].split('#')[0];
+  const base = href.endsWith('/') ? href : href.substring(0, href.lastIndexOf('/') + 1);
+  const dataBase = base + 'data';
+
   try {
-    const res = await fetch(`${DATA_BASE}/products/${id}.json?t=${Date.now()}`);
+    const res = await fetch(`${dataBase}/products/${id}.json?t=${Date.now()}`);
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const detail = await res.json();
 
-    // Renderizar precios desde el array prices
+    // ── Actualizar imagen con la del detalle (más confiable) ──────────────
+    const imgSrc = detail.image_url || p.imageUrl;
+    if (imgSrc) {
+      imgEl.innerHTML = `<img src="${imgSrc}" alt="${detail.name}" onerror="this.style.display='none'">`;
+    }
+
+    // ── Precios por tienda ────────────────────────────────────────────────
     const prices = detail.prices || [];
     if (prices.length) {
       const bestPrice = Math.min(...prices.map(x => x.price));
       pricesEl.innerHTML = prices.map(row => {
         const isBest = row.price === bestPrice;
-        const cardPrice = Math.round(row.price * 1.055);
-        // Obtener labels desde specs del producto
-        const specs = detail.specs || {};
-        const cashKey = Object.keys(specs).find(k =>
-          k.toLowerCase().includes('efectivo') || k.toLowerCase().includes('transferencia'));
-        const cardKey = Object.keys(specs).find(k =>
-          k.toLowerCase().includes('tarjeta') || k.toLowerCase().includes('webpay') || k.toLowerCase().includes('crédito'));
-        const cashLabel = cashKey || 'Efectivo / Transferencia';
-        const cardLabel = cardKey || 'Webpay / Tarjeta';
-        const cashVal = cashKey ? specs[cashKey] : '$' + row.price.toLocaleString('es-CL');
-        const cardVal = cardKey ? specs[cardKey] : '$' + cardPrice.toLocaleString('es-CL');
-        const stars = row.store_rating ? '⭐'.repeat(Math.round(row.store_rating)) : '';
+        const lbl = STORE_LABELS[row.store_id] || { cash: 'Efectivo / Transferencia', card: 'Webpay / Tarjeta', factor: 1.03 };
+        const cashPrice = row.price;
+        const cardPrice = lbl.factor ? Math.round(cashPrice * lbl.factor) : null;
+        const discount  = row.discount_pct || (row.price_normal > cashPrice ? Math.round((1 - cashPrice / row.price_normal) * 100) : null);
+
+        // Estrellas de rating
+        const rating = row.store_rating || 0;
+        const stars  = rating ? '★'.repeat(Math.round(rating)) + '☆'.repeat(5 - Math.round(rating)) : '';
 
         return `<div class="detail-price-row${isBest ? ' best-row' : ''}">
           <div class="dpr-store">
-            <span class="dpr-store-name">${row.store_name}${isBest ? '<span class="dpr-best-badge">MEJOR PRECIO</span>' : ''}</span>
-            <span style="font-size:11px;color:var(--text3)">${stars} ${row.store_rating ? row.store_rating + '/5' : ''}</span>
+            <div class="dpr-store-name">
+              ${row.store_name}
+              ${isBest ? '<span class="dpr-best-badge">MEJOR PRECIO</span>' : ''}
+              ${discount ? `<span class="dpr-discount-badge">-${discount}%</span>` : ''}
+            </div>
+            ${stars ? `<div class="dpr-stars" title="${rating}/5">${stars} <span style="font-size:10px;color:var(--text3)">${rating}/5</span></div>` : ''}
           </div>
           <div class="dpr-methods">
-            <span class="dpr-cash-label">${cashLabel}</span>
-            <span class="dpr-cash">$${row.price.toLocaleString('es-CL')}</span>
-            <span class="dpr-card-label">${cardLabel}</span>
-            <span class="dpr-card">${cardVal}</span>
+            <div class="dpr-method-row">
+              <span class="dpr-cash-label">${lbl.cash}</span>
+              <span class="dpr-cash">$${cashPrice.toLocaleString('es-CL')}</span>
+            </div>
+            ${cardPrice && lbl.card ? `<div class="dpr-method-row">
+              <span class="dpr-card-label">${lbl.card}</span>
+              <span class="dpr-card">$${cardPrice.toLocaleString('es-CL')}</span>
+            </div>` : ''}
+            ${row.price_normal && row.price_normal > cashPrice ? `<div class="dpr-method-row" style="opacity:0.5">
+              <span class="dpr-cash-label">Precio normal</span>
+              <span style="text-decoration:line-through;font-size:12px;color:var(--text3)">$${row.price_normal.toLocaleString('es-CL')}</span>
+            </div>` : ''}
           </div>
-          ${row.product_url ? `<a class="dpr-link" href="${row.product_url}" target="_blank">Ir →</a>` : ''}
+          ${row.product_url ? `<a class="dpr-link" href="${row.product_url}" target="_blank" rel="noopener">Ir →</a>` : ''}
         </div>`;
       }).join('');
     } else {
       pricesEl.innerHTML = '<div style="padding:20px;color:var(--text3);text-align:center">Sin precios disponibles</div>';
     }
 
-    // Specs (excluir precios)
+    // ── Specs técnicas (excluir filas de precio) ──────────────────────────
     const specs = detail.specs || {};
-    const specKeys = Object.keys(specs).filter(k =>
-      !k.toLowerCase().includes('efectivo') &&
-      !k.toLowerCase().includes('tarjeta') &&
-      !k.toLowerCase().includes('webpay') &&
-      !k.toLowerCase().includes('transferencia') &&
-      !k.toLowerCase().includes('crédito')
-    );
-    const specsBox = document.getElementById('detail-specs-box');
-    const specsGrid = document.getElementById('detail-specs-grid');
-    if (specKeys.length) {
-      specsGrid.innerHTML = specKeys.map(k =>
+    const techKeys = Object.keys(specs).filter(k => !isPriceKey(k));
+
+    if (techKeys.length) {
+      specsGrid.innerHTML = techKeys.map(k =>
         `<div class="detail-spec-item">
           <div class="detail-spec-key">${k}</div>
           <div class="detail-spec-val">${specs[k]}</div>
@@ -1879,29 +1925,27 @@ async function openDetail(id) {
       specsBox.style.display = 'none';
     }
 
-    // Actualizar imagen si viene del detalle
-    if (detail.image_url && !p.image_url) {
-      imgEl.innerHTML = `<img src="${detail.image_url}" alt="${detail.name}" onerror="this.style.display='none'">`;
-    }
-
-    // Guardar para el formulario de opinión
     currentOpinionProduct = { ...p, ...detail };
 
   } catch(err) {
     console.warn('[FindTech] Error cargando detalle:', err.message);
-    // Fallback con datos del índice
-    if (p._bestPrice) {
+    // Fallback desde datos del índice
+    const fb = p._bestPrice || p.best_price;
+    const fbStore = p._bestStoreName || p.best_store_name || '';
+    if (fb) {
       pricesEl.innerHTML = `<div class="detail-price-row best-row">
-        <div class="dpr-store"><span class="dpr-store-name">${p.best_store_name || p._bestStoreId}<span class="dpr-best-badge">MEJOR PRECIO</span></span></div>
+        <div class="dpr-store"><div class="dpr-store-name">${fbStore} <span class="dpr-best-badge">MEJOR PRECIO</span></div></div>
         <div class="dpr-methods">
-          <span class="dpr-cash-label">Efectivo / Transferencia</span>
-          <span class="dpr-cash">$${p.best_price?.toLocaleString('es-CL') || p._bestPrice?.toLocaleString('es-CL')}</span>
+          <div class="dpr-method-row">
+            <span class="dpr-cash-label">Efectivo / Transferencia</span>
+            <span class="dpr-cash">$${fb.toLocaleString('es-CL')}</span>
+          </div>
         </div>
       </div>`;
     } else {
       pricesEl.innerHTML = '<div style="padding:20px;color:var(--text3);text-align:center">Sin precios disponibles</div>';
     }
-    document.getElementById('detail-specs-box').style.display = 'none';
+    specsBox.style.display = 'none';
   }
 }
 function renderDetailPrices(p) {
