@@ -2,13 +2,16 @@ name: Scraping FindTech.cl
 
 on:
   schedule:
-    - cron: '0 18 * * *'   # 18:00 UTC = 15:00 CLT / 14:00 CLST
+    - cron: '0 18 * * *'
   workflow_dispatch:
     inputs:
       store:
         description: 'Tienda a scrapear (dejar vacío para todas)'
         required: false
         default: ''
+
+permissions:
+  contents: write
 
 jobs:
   scrape:
@@ -20,11 +23,18 @@ jobs:
       CF_PROXY_URL: ${{ secrets.CF_PROXY_URL }}
       CF_PROXY_SECRET: ${{ secrets.CF_PROXY_SECRET }}
       ICECAT_USER: BCPSTECH
-      USE_ICECAT: 'true'
+      USE_ICECAT: 'false'
+      R2_KEY_ID: ${{ secrets.R2_KEY_ID }}
+      R2_SECRET: ${{ secrets.R2_SECRET }}
+      R2_ENDPOINT: https://d51c60da1c778105ece9b7cfcc08451b.r2.cloudflarestorage.com
+      R2_BUCKET: findtech-images
+      R2_PUBLIC: https://images.findtech.cl
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
