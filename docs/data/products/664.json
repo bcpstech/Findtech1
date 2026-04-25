@@ -1,46 +1,46 @@
 {
   "id": 664,
-  "external_id": "centrale_memoria-xpg-lancer-blade-ddr5-16gb-6000mhz-blanca",
-  "category_id": "ram",
-  "brand": "XPG",
-  "name": "Memoria XPG Lancer Blade DDR5 16GB 6000MHz Blanca",
-  "slug": "memoria-xpg-lancer-blade-ddr5-16gb-6000mhz-blanca",
-  "image_url": "https://centrale.cl/wp-content/uploads/Xpg-Memoria-Pc-Ddr5-16Gb-6000Mhz-Lancer-Blade-Blanca-AX5U6000C4816G-SLABWH.webp",
+  "external_id": "cg_placa-madre-msi-pro-h610m-a-ddr4",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "Placa Madre MSI PRO H610M-A DDR4",
+  "slug": "placa-madre-msi-pro-h610m-a-ddr4",
+  "image_url": "https://images.findtech.cl/products/placa-madre-msi-pro-h610m-a-ddr4.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$324.390",
-    "Tarjetas de Crédito / Débito": "$342.230"
+    "Efectivo/Transferencia": "$70.290",
+    "Webpay / Tarjeta crédito-débito": "$73.990"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:31",
-  "updated_at": "2026-04-24 22:15:31",
+  "created_at": "2026-04-25 04:53:28",
+  "updated_at": "2026-04-25 04:53:28",
   "prices": [
     {
       "id": 664,
       "product_id": 664,
-      "store_id": "centrale",
-      "price": 324390,
+      "store_id": "cg",
+      "price": 70290,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-xpg-lancer-blade-ddr5-16gb-6000mhz-blanca/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:31",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-msi-pro-h610m-addr4/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:53:28",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 324390
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-25",
+      "price": 70290
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

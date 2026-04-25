@@ -1,32 +1,32 @@
 {
   "id": 736,
-  "external_id": "centrale_memoria-ram-notebook-48gb-ddr5-5600mt-s-cl46-crucial-sodimm",
-  "category_id": "ram",
-  "brand": "Crucial",
-  "name": "Memoria RAM Notebook 48GB DDR5 5600MT/s CL46 Crucial SODIMM",
-  "slug": "memoria-ram-notebook-48gb-ddr5-5600mt-s-cl46-crucial-sodimm",
-  "image_url": "https://centrale.cl/wp-content/uploads/Crucial-Memoria-RAM-para-Notebook-48GB-DDR5-5600MT-s-CL46-SODIMM-1.webp",
+  "external_id": "centrale_tarjeta-grafica-asus-tuf-rx-9060-xt-16gb-gddr6-pcie-5-0",
+  "category_id": "gpu",
+  "brand": "Asus",
+  "name": "Tarjeta Gráfica ASUS TUF RX 9060 XT 16GB GDDR6, PCIe 5.0",
+  "slug": "tarjeta-grafica-asus-tuf-rx-9060-xt-16gb-gddr6-pcie-5-0",
+  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Tuf-Rx6900Xt-O16G-Gaming-Pci-Express-40-Amd-Amd-Radeon-Rx-6900-Xt-Gddr6.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$528.830",
-    "Tarjetas de Crédito / Débito": "$557.920"
+    "Transferencia / Efectivo": "$691.640",
+    "Tarjetas de Crédito / Débito": "$729.680"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:32",
-  "updated_at": "2026-04-24 22:15:32",
+  "created_at": "2026-04-25 04:54:20",
+  "updated_at": "2026-04-25 04:54:20",
   "prices": [
     {
       "id": 736,
       "product_id": 736,
       "store_id": "centrale",
-      "price": 528830,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 691640,
+      "price_normal": 797740,
+      "discount_pct": 13,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-48gb-ddr5-5600mt-s-cl46-crucial-sodimm/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:32",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-tuf-rx-9060-xt-16gb-gddr6-pcie-5-0/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:54:20",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -38,9 +38,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 528830
+      "date": "2026-04-25",
+      "price": 691640
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

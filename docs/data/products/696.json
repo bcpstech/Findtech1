@@ -1,46 +1,46 @@
 {
   "id": 696,
-  "external_id": "centrale_memoria-ram-16gb-ddr4-3600mt-s-cl18-kingston-fury-beast-rgb",
-  "category_id": "ram",
+  "external_id": "cg_disco-duro-kingston-dc600m-960gb-sata",
+  "category_id": "storage",
   "brand": "Kingston",
-  "name": "Memoria RAM 16GB DDR4 3600MT/s CL18 Kingston Fury Beast RGB",
-  "slug": "memoria-ram-16gb-ddr4-3600mt-s-cl18-kingston-fury-beast-rgb",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-16GB-DDR4-3600MT-s-CL18-Kingston-Fury-Beast-RGB_JcI0IV5-1.webp",
+  "name": "Disco Duro Kingston DC600M 960GB Sata",
+  "slug": "disco-duro-kingston-dc600m-960gb-sata",
+  "image_url": "https://images.findtech.cl/products/disco-duro-kingston-dc600m-960gb-sata.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$149.980",
-    "Tarjetas de Crédito / Débito": "$158.230"
+    "Efectivo/Transferencia": "$497.570",
+    "Webpay / Tarjeta crédito-débito": "$523.740"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:32",
-  "updated_at": "2026-04-24 22:15:32",
+  "created_at": "2026-04-25 04:53:47",
+  "updated_at": "2026-04-25 04:53:47",
   "prices": [
     {
       "id": 696,
       "product_id": 696,
-      "store_id": "centrale",
-      "price": 149980,
-      "price_normal": 195800,
-      "discount_pct": 23,
+      "store_id": "cg",
+      "price": 497570,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr4-3600mt-s-cl18-kingston-fury-beast-rgb/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:32",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/almacenamiento/kingston-dc600m-ssd-mixed-use-960-gb-interno-2-5-sata-6gb-s/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:53:47",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 149980
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-25",
+      "price": 497570
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

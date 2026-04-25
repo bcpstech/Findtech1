@@ -1,46 +1,46 @@
 {
   "id": 444,
-  "external_id": "centrale_tarjeta-grafica-asus-tuf-rx-9060-xt-16gb-gddr6-pcie-5-0",
-  "category_id": "gpu",
-  "brand": "Asus",
-  "name": "Tarjeta Gráfica ASUS TUF RX 9060 XT 16GB GDDR6, PCIe 5.0",
-  "slug": "tarjeta-grafica-asus-tuf-rx-9060-xt-16gb-gddr6-pcie-5-0",
-  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Tuf-Rx6900Xt-O16G-Gaming-Pci-Express-40-Amd-Amd-Radeon-Rx-6900-Xt-Gddr6.webp",
+  "external_id": "alltec_2-5ghz-intel-i5-12400-4-4ghz-turbo",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "2.5GHz INTEL I5-12400 (4.4GHz TURBO,...",
+  "slug": "2-5ghz-intel-i5-12400-4-4ghz-turbo",
+  "image_url": "https://images.findtech.cl/products/2-5ghz-intel-i5-12400-4-4ghz-turbo.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$691.640",
-    "Tarjetas de Crédito / Débito": "$729.680"
+    "Efectivo/Transferencia": "$169.900",
+    "Tarjeta crédito/débito": "$174.997"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:25",
-  "updated_at": "2026-04-24 22:15:25",
+  "created_at": "2026-04-25 04:46:16",
+  "updated_at": "2026-04-25 04:46:16",
   "prices": [
     {
       "id": 444,
       "product_id": 444,
-      "store_id": "centrale",
-      "price": 691640,
-      "price_normal": 797740,
-      "discount_pct": 13,
+      "store_id": "alltec",
+      "price": 169900,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-tuf-rx-9060-xt-16gb-gddr6-pcie-5-0/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:25",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/intel/1847-5ghz-intel-i5-12400-44ghz-turbo-6c12t-18mb-cache-65w-lga1700-12th-generacion.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:46:16",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 691640
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 169900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

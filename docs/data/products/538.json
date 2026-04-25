@@ -1,46 +1,46 @@
 {
   "id": 538,
-  "external_id": "centrale_procesador-amd-ryzen-7-9800x3d-8-nucleos-16-hilos-4-7-a-5-2-ghz-amd-3d-v-cache",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 7 9800X3D, 8 Núcleos 16 Hilos, 4,7 a 5,2 GHz AMD 3D V-Caché",
-  "slug": "procesador-amd-ryzen-7-9800x3d-8-nucleos-16-hilos-4-7-a-5-2-ghz-amd-3d-v-cache",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-9800X3D-8-NC3BAcleos-16-Hilos-47-a-52-GHz-AMD-3D-V-CachC3A9-1.webp",
+  "external_id": "alltec_1tb-m-2-pcie-gen3x4-ssd-kingspec-na900s",
+  "category_id": "storage",
+  "brand": "Genérico",
+  "name": "1TB M.2 PCIe Gen3x4 SSD KINGSPEC NA900S...",
+  "slug": "1tb-m-2-pcie-gen3x4-ssd-kingspec-na900s",
+  "image_url": "https://images.findtech.cl/products/1tb-m-2-pcie-gen3x4-ssd-kingspec-na900s.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$550.480",
-    "Tarjetas de Crédito / Débito": "$580.760"
+    "Efectivo/Transferencia": "$140.900",
+    "Tarjeta crédito/débito": "$145.127"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:27",
-  "updated_at": "2026-04-24 22:15:27",
+  "created_at": "2026-04-25 04:49:20",
+  "updated_at": "2026-04-25 04:49:20",
   "prices": [
     {
       "id": 538,
       "product_id": 538,
-      "store_id": "centrale",
-      "price": 550480,
+      "store_id": "alltec",
+      "price": 140900,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-9800x3d-8-nucleos-16-hilos-47-a-52-ghz-amd-3d-v-cache/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:27",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/ssd/2451-1tb-m2-pcie-gen3x4-ssd-kingspec-na900s-macbook-6950509911199.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:49:20",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 550480
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 140900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

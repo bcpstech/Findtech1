@@ -1,46 +1,46 @@
 {
   "id": 495,
-  "external_id": "centrale_tarjeta-grafica-asus-tuf-gaming-geforce-rtx-5070-12gb-gddr7-oc-edition",
-  "category_id": "gpu",
-  "brand": "Asus",
-  "name": "Tarjeta Gráfica ASUS TUF Gaming GeForce RTX 5070 12GB GDDR7 OC Edition",
-  "slug": "tarjeta-grafica-asus-tuf-gaming-geforce-rtx-5070-12gb-gddr7-oc-edition",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-ASUS-TUF-Gaming-GeForce-RTX-5070-12GB-GDDR7-OC-Edition_n0VvK6t-1.webp",
+  "external_id": "alltec_m-b-asus-prime-b760m-k-d4-lga1700-ddr4",
+  "category_id": "mobo",
+  "brand": "ASUS",
+  "name": "M.B. ASUS PRIME B760M-K D4 (LGA1700) DDR4...",
+  "slug": "m-b-asus-prime-b760m-k-d4-lga1700-ddr4",
+  "image_url": "https://images.findtech.cl/products/m-b-asus-prime-b760m-k-d4-lga1700-ddr4.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$886.890",
-    "Tarjetas de Crédito / Débito": "$935.670"
+    "Efectivo/Transferencia": "$118.700",
+    "Tarjeta crédito/débito": "$122.261"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:25",
-  "updated_at": "2026-04-24 22:15:25",
+  "created_at": "2026-04-25 04:47:49",
+  "updated_at": "2026-04-25 04:47:49",
   "prices": [
     {
       "id": 495,
       "product_id": 495,
-      "store_id": "centrale",
-      "price": 886890,
-      "price_normal": 1022900,
-      "discount_pct": 13,
+      "store_id": "alltec",
+      "price": 118700,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-tuf-gaming-geforce-rtx-5070-12gb-gddr7-oc-edition/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:25",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/para-intel/2467-mb-asus-prime-b760m-k-d4-lga1700-ddr4-intel-141312-generacion.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:47:49",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 886890
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 118700
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

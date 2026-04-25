@@ -1,46 +1,46 @@
 {
   "id": 701,
-  "external_id": "centrale_memoria-ram-48gb-2x-24gb-ddr5-8400mt-s-cl40-kingston-fury-renegade-silver-rgb",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM 48GB (2x 24GB) DDR5 8400MT/s CL40 Kingston Fury Renegade Silver RGB",
-  "slug": "memoria-ram-48gb-2x-24gb-ddr5-8400mt-s-cl40-kingston-fury-renegade-silver-rgb",
-  "image_url": "https://centrale.cl/wp-content/uploads/Kingston-Fury-Ddr5-Sdram-48Gb-8400Mt-S-Cl40-Cudimm-Kit-KF584CU40RSAK2-48-1.webp",
+  "external_id": "cg_refrigeracion-liquida-airflow-cosmos-cryovision-777-argb-con-pantalla-amoled-curva-360mm",
+  "category_id": "cooling",
+  "brand": "Genérico",
+  "name": "Refrigeración Líquida Airflow Cosmos CryoVision 777 ARGB con Pantalla AMOLED Curva 360mm",
+  "slug": "refrigeracion-liquida-airflow-cosmos-cryovision-777-argb-con-pantalla-amoled-curva-360mm",
+  "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-airflow-cosmos-cryovision-777-argb-con-pantalla-amoled-curva-360mm.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$997.640",
-    "Tarjetas de Crédito / Débito": "$1.052.510"
+    "Efectivo/Transferencia": "$233.700",
+    "Webpay / Tarjeta crédito-débito": "$245.990"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:32",
-  "updated_at": "2026-04-24 22:15:32",
+  "created_at": "2026-04-25 04:53:55",
+  "updated_at": "2026-04-25 04:53:55",
   "prices": [
     {
       "id": 701,
       "product_id": 701,
-      "store_id": "centrale",
-      "price": 997640,
+      "store_id": "cg",
+      "price": 233700,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-48gb-2x-24gb-ddr5-8400mt-s-cl40-kingston-fury-renegade-silver-rgb/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:32",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/refrigeracion-pc/refrigeracion-liquida-360mm-airflow-cosmos-cryovision-777-argb-con-pantalla-amoled-curva/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:53:55",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 997640
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-25",
+      "price": 233700
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

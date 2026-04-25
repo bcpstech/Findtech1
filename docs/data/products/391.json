@@ -1,46 +1,46 @@
 {
   "id": 391,
-  "external_id": "cg_procesador-intel-core-i7-12700",
-  "category_id": "cpu",
-  "brand": "Zona Intel",
-  "name": "Procesador Intel Core i7-12700",
-  "slug": "procesador-intel-core-i7-12700",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/03/1_1741899085448.jpg?fit=1500%2C1500&ssl=1",
+  "external_id": "alltec_t-v-evga-geforce-rtx-3070-ftw3-ultra",
+  "category_id": "gpu",
+  "brand": "EVGA",
+  "name": "T.V. EVGA GEFORCE RTX 3070 FTW3 ULTRA...",
+  "slug": "t-v-evga-geforce-rtx-3070-ftw3-ultra",
+  "image_url": "https://images.findtech.cl/products/t-v-evga-geforce-rtx-3070-ftw3-ultra.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$400.320",
-    "Webpay / Tarjeta crédito-débito": "$421.372"
+    "Efectivo/Transferencia": "$759.900",
+    "Tarjeta crédito/débito": "$782.697"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:10",
-  "updated_at": "2026-04-24 22:15:10",
+  "created_at": "2026-04-25 04:44:39",
+  "updated_at": "2026-04-25 04:44:39",
   "prices": [
     {
       "id": 391,
       "product_id": 391,
-      "store_id": "cg",
-      "price": 400320,
+      "store_id": "alltec",
+      "price": 759900,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/intel-core-i7-12700-2-1-ghz-12-nucleos-20-hilos-25-mb-cache-lga1700-socket-caja/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:10",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "product_url": "https://www.alltec.cl/nvidia/1897-tv-evga-geforce-rtx-3070-ftw3-ultra-gaming-8gb-gddr6-08g-p5-3767-kl.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:44:39",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-04-24",
-      "price": 400320
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 759900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

@@ -1,46 +1,46 @@
 {
   "id": 714,
-  "external_id": "centrale_memoria-ram-16gb-ddr5-5600mt-s-cl46-xpg-lancer-blade-black",
-  "category_id": "ram",
-  "brand": "XPG",
-  "name": "Memoria RAM 16GB DDR5 5600MT/s CL46 XPG Lancer Blade Black",
-  "slug": "memoria-ram-16gb-ddr5-5600mt-s-cl46-xpg-lancer-blade-black",
-  "image_url": "https://centrale.cl/wp-content/uploads/Xpg-Memoria-Ram-Lancer-Blade-Negro-De-16Gb-Ddr5-5600Mhz-Cl46-Xmp-Expo-Dimm-1.webp",
+  "external_id": "cg_gabinete-gamer-nexustech-valiant-black",
+  "category_id": "case",
+  "brand": "Genérico",
+  "name": "Gabinete Gamer Nexustech Valiant Black",
+  "slug": "gabinete-gamer-nexustech-valiant-black",
+  "image_url": "https://images.findtech.cl/products/gabinete-gamer-nexustech-valiant-black.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$193.990",
-    "Tarjetas de Crédito / Débito": "$204.660"
+    "Efectivo/Transferencia": "$70.290",
+    "Webpay / Tarjeta crédito-débito": "$73.990"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:32",
-  "updated_at": "2026-04-24 22:15:32",
+  "created_at": "2026-04-25 04:54:05",
+  "updated_at": "2026-04-25 04:54:05",
   "prices": [
     {
       "id": 714,
       "product_id": 714,
-      "store_id": "centrale",
-      "price": 193990,
+      "store_id": "cg",
+      "price": 70290,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-5600mt-s-cl46-xpg-lancer-blade-black/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:32",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/gabinetes-gamer/gabinete-gamer-nexustech-valiant-matx/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:54:05",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 193990
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-25",
+      "price": 70290
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

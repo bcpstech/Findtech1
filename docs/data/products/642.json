@@ -1,46 +1,46 @@
 {
   "id": 642,
-  "external_id": "centrale_placa-madre-atx-msi-mag-b760-tomahawk-wifi-intel-lga-1700-ddr5-wifi-6e",
-  "category_id": "mobo",
-  "brand": "MSI",
-  "name": "Placa Madre ATX MSI MAG B760 TOMAHAWK WIFI, Intel LGA 1700, DDR5, WiFi 6E",
-  "slug": "placa-madre-atx-msi-mag-b760-tomahawk-wifi-intel-lga-1700-ddr5-wifi-6e",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ATX-MSI-MAG-B760-TOMAHAWK-WIFI-Intel-LGA-1700-DDR5-WiFi-6E_iRcOYRD-1.webp",
+  "external_id": "cg_tarjeta-de-video-asus-prime-rtx-5050-oc-8gb-gddr6",
+  "category_id": "gpu",
+  "brand": "ASUS",
+  "name": "Tarjeta de Video ASUS Prime RTX 5050 OC 8GB GDDR6",
+  "slug": "tarjeta-de-video-asus-prime-rtx-5050-oc-8gb-gddr6",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-asus-prime-rtx-5050-oc-8gb-gddr6.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$239.900",
-    "Tarjetas de Crédito / Débito": "$253.090"
+    "Efectivo/Transferencia": "$399.000",
+    "Webpay / Tarjeta crédito-débito": "$419.990"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:29",
-  "updated_at": "2026-04-24 22:15:29",
+  "created_at": "2026-04-25 04:53:12",
+  "updated_at": "2026-04-25 04:53:12",
   "prices": [
     {
       "id": 642,
       "product_id": 642,
-      "store_id": "centrale",
-      "price": 239900,
+      "store_id": "cg",
+      "price": 399000,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-atx-msi-mag-b760-tomahawk-wifi-intel-lga-1700-ddr5-wifi-6e/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:29",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/grafica-asus/tarjeta-de-video-asus-prime-rtx-5050-oc-8gb-gddr6/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:53:12",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 239900
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-25",
+      "price": 399000
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

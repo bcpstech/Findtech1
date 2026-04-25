@@ -1,46 +1,46 @@
 {
   "id": 416,
-  "external_id": "cg_placa-madre-asus-prime-a520m-a-ii",
-  "category_id": "mobo",
-  "brand": "ASUS",
-  "name": "Placa Madre Asus Prime A520M-A II",
-  "slug": "placa-madre-asus-prime-a520m-a-ii",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1774369847000.jpg?fit=1000%2C1000&ssl=1",
+  "external_id": "alltec_amd-ryzen-9-9950x3d-4-3ghz-5-7ghz-turbo",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD RYZEN 9 9950X3D (4.3GHz/5.7GHz TURBO)...",
+  "slug": "amd-ryzen-9-9950x3d-4-3ghz-5-7ghz-turbo",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-9-9950x3d-4-3ghz-5-7ghz-turbo.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$75.990",
-    "Webpay / Tarjeta crédito-débito": "$79.990"
+    "Efectivo/Transferencia": "$825.900",
+    "Tarjeta crédito/débito": "$850.677"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:13",
-  "updated_at": "2026-04-24 22:15:13",
+  "created_at": "2026-04-25 04:45:27",
+  "updated_at": "2026-04-25 04:45:27",
   "prices": [
     {
       "id": 416,
       "product_id": 416,
-      "store_id": "cg",
-      "price": 75990,
+      "store_id": "alltec",
+      "price": 825900,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-a520m-a-ii/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:13",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "product_url": "https://www.alltec.cl/amd/2376-amd-ryzen-9-9950x3d-43ghz57ghz-turbo-sixteen-core-tdp-170w-am5.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:45:27",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-04-24",
-      "price": 75990
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 825900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

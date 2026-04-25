@@ -1,32 +1,32 @@
 {
   "id": 795,
-  "external_id": "centrale_disco-duro-6tb-hdd-seagate-skyhawk-videovigilancia-6tb-3-5-8243-256mb-sata",
-  "category_id": "storage",
-  "brand": "Seagate",
-  "name": "Disco Duro 6TB HDD Seagate Skyhawk Videovigilancia 6TB 3.5&#8243; 256MB SATA",
-  "slug": "disco-duro-6tb-hdd-seagate-skyhawk-videovigilancia-6tb-3-5-8243-256mb-sata",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-Duro-HDD-6TB-Seagate-Skyhawk-Videovigilancia-6TB-3.5-256MB-SATA-1.webp",
+  "external_id": "centrale_tarjeta-grafica-asus-prime-geforce-rtx-5070-ti-oc-edition-16gb-gddr7-sff-ready",
+  "category_id": "gpu",
+  "brand": "Asus",
+  "name": "Tarjeta Gráfica ASUS Prime GeForce RTX 5070 Ti OC Edition 16GB GDDR7 SFF-Ready",
+  "slug": "tarjeta-grafica-asus-prime-geforce-rtx-5070-ti-oc-edition-16gb-gddr7-sff-ready",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-ASUS-Prime-GeForce-RTX-5070-Ti-OC-Edition-16GB-GDDR7-SFF-Ready-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$267.130",
-    "Tarjetas de Crédito / Débito": "$281.820"
+    "Transferencia / Efectivo": "$1.169.000",
+    "Tarjetas de Crédito / Débito": "$1.233.300"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:35",
-  "updated_at": "2026-04-24 22:15:35",
+  "created_at": "2026-04-25 04:54:20",
+  "updated_at": "2026-04-25 04:54:20",
   "prices": [
     {
       "id": 795,
       "product_id": 795,
       "store_id": "centrale",
-      "price": 267130,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 1169000,
+      "price_normal": 1361290,
+      "discount_pct": 14,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-duro-6tb-hdd-seagate-skyhawk-videovigilancia-6tb-3-5-256mb-sata/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:35",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-prime-geforce-rtx-5070-ti-oc-edition-16gb-gddr7-sff-ready/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:54:20",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -38,9 +38,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 267130
+      "date": "2026-04-25",
+      "price": 1169000
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

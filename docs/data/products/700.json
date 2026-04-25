@@ -1,46 +1,46 @@
 {
   "id": 700,
-  "external_id": "centrale_memoria-ram-32gb-ddr5-5600mt-s-cl46-2rx8-1-1v-16gbit-kingston-system-specific",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM 32GB DDR5 5600MT/s CL46 2RX8 1.1V 16Gbit Kingston System Specific",
-  "slug": "memoria-ram-32gb-ddr5-5600mt-s-cl46-2rx8-1-1v-16gbit-kingston-system-specific",
-  "image_url": "https://centrale.cl/wp-content/uploads/Kingston-32Gb-Ddr5-5600Mt-S-Module-KCP556UD8-32-1.webp",
+  "external_id": "cg_pasta-termica-cooler-master-de-alto-rendimiento-htk-002",
+  "category_id": "cooling",
+  "brand": "Cooler Master",
+  "name": "Pasta Térmica Cooler Master De Alto Rendimiento HTK-002",
+  "slug": "pasta-termica-cooler-master-de-alto-rendimiento-htk-002",
+  "image_url": "https://images.findtech.cl/products/pasta-termica-cooler-master-de-alto-rendimiento-htk-002.png",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$436.390",
-    "Tarjetas de Crédito / Débito": "$460.390"
+    "Efectivo/Transferencia": "$3.790",
+    "Webpay / Tarjeta crédito-débito": "$3.990"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:32",
-  "updated_at": "2026-04-24 22:15:32",
+  "created_at": "2026-04-25 04:53:54",
+  "updated_at": "2026-04-25 04:53:54",
   "prices": [
     {
       "id": 700,
       "product_id": 700,
-      "store_id": "centrale",
-      "price": 436390,
-      "price_normal": 524020,
-      "discount_pct": 17,
+      "store_id": "cg",
+      "price": 3790,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-32gb-ddr5-5600mt-s-cl46-2rx8-1-1v-16gbit-kingston-system-specific/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:32",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/refrigeracion-pc/pasta-termica-cooler-master-de-alto-rendimiento-htk-002/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:53:54",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 436390
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-25",
+      "price": 3790
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

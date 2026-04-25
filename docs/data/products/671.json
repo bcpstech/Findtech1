@@ -1,46 +1,46 @@
 {
   "id": 671,
-  "external_id": "centrale_memoria-ram-64gb-ddr5-5600mt-s-cl36-kingston-fury-black-expo-xmp",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM 64GB DDR5 5600MT/s CL36 Kingston Fury Black (EXPO/XMP)",
-  "slug": "memoria-ram-64gb-ddr5-5600mt-s-cl36-kingston-fury-black-expo-xmp",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-64GB-DDR5-5600MT-s-CL36-Kingston-Fury-Black-EXPO-XMP.webp",
+  "external_id": "cg_placa-madre-gigabyte-h610m-k-v2-ddr5",
+  "category_id": "mobo",
+  "brand": "Gigabyte",
+  "name": "Placa Madre Gigabyte H610M K V2 DDR5",
+  "slug": "placa-madre-gigabyte-h610m-k-v2-ddr5",
+  "image_url": "https://images.findtech.cl/products/placa-madre-gigabyte-h610m-k-v2-ddr5.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$1.097.670",
-    "Tarjetas de Crédito / Débito": "$1.158.040"
+    "Efectivo/Transferencia": "$82.640",
+    "Webpay / Tarjeta crédito-débito": "$86.990"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:31",
-  "updated_at": "2026-04-24 22:15:31",
+  "created_at": "2026-04-25 04:53:30",
+  "updated_at": "2026-04-25 04:53:30",
   "prices": [
     {
       "id": 671,
       "product_id": 671,
-      "store_id": "centrale",
-      "price": 1097670,
+      "store_id": "cg",
+      "price": 82640,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-64gb-ddr5-5600mt-s-cl36-kingston-fury-black-expo-xmp/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:31",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-gigabyte-h610m-k-v2-ddr5/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:53:30",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 1097670
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-25",
+      "price": 82640
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

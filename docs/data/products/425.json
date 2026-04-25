@@ -1,46 +1,46 @@
 {
   "id": 425,
-  "external_id": "cg_memoria-ram-kingston-fury-beast-64gb-ddr5-5600mhz-rgb",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria Ram Kingston Fury Beast 64GB DDR5 5600Mhz RGB",
-  "slug": "memoria-ram-kingston-fury-beast-64gb-ddr5-5600mhz-rgb",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1769712561000.jpg?fit=1000%2C1000&ssl=1",
+  "external_id": "alltec_amd-ryzen-5-5600xt-3-7ghz-4-7ghz-turbo",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD RYZEN 5 5600XT 3.7GHz (4.7GHz TURBO)...",
+  "slug": "amd-ryzen-5-5600xt-3-7ghz-4-7ghz-turbo",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-5-5600xt-3-7ghz-4-7ghz-turbo.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$1.005.910",
-    "Webpay / Tarjeta crédito-débito": "$1.058.821"
+    "Efectivo/Transferencia": "$182.900",
+    "Tarjeta crédito/débito": "$188.387"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:15",
-  "updated_at": "2026-04-24 22:15:15",
+  "created_at": "2026-04-25 04:45:30",
+  "updated_at": "2026-04-25 04:45:30",
   "prices": [
     {
       "id": 425,
       "product_id": 425,
-      "store_id": "cg",
-      "price": 1005910,
+      "store_id": "alltec",
+      "price": 182900,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/memorias-ram/memoria-kingston-64gb-5600mt-s-ddr5-cl36-dimm-ki/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:15",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "product_url": "https://www.alltec.cl/amd/2339-amd-ryzen-5-5600xt-37ghz-47ghz-turbo-six-core-tdp-65w-am4.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:45:30",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-04-24",
-      "price": 1005910
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 182900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

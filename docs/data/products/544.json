@@ -1,46 +1,46 @@
 {
   "id": 544,
-  "external_id": "centrale_procesador-amd-ryzen-9-7950x-4-5ghz-16-nucleos-32-hilos-socket-am5",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 9 7950X, 4.5Ghz, 16 Núcleos / 32 Hilos, Socket AM5",
-  "slug": "procesador-amd-ryzen-9-7950x-4-5ghz-16-nucleos-32-hilos-socket-am5",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-9-7950X-4.5Ghz-16-NC3BAcleos-32-Hilos-Socket-AM5_BJOP85F-1.webp",
+  "external_id": "alltec_1tb-ssd-sata-6gb-s-adata-su650-3d",
+  "category_id": "storage",
+  "brand": "Genérico",
+  "name": "1TB SSD SATA 6Gb/s ADATA SU650 3D...",
+  "slug": "1tb-ssd-sata-6gb-s-adata-su650-3d",
+  "image_url": "https://images.findtech.cl/products/1tb-ssd-sata-6gb-s-adata-su650-3d.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$633.360",
-    "Tarjetas de Crédito / Débito": "$668.190"
+    "Efectivo/Transferencia": "$120.000",
+    "Tarjeta crédito/débito": "$123.600"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:27",
-  "updated_at": "2026-04-24 22:15:27",
+  "created_at": "2026-04-25 04:49:22",
+  "updated_at": "2026-04-25 04:49:22",
   "prices": [
     {
       "id": 544,
       "product_id": 544,
-      "store_id": "centrale",
-      "price": 633360,
+      "store_id": "alltec",
+      "price": 120000,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-7950x-4-5ghz-16-nucleos-32-hilos-socket-am5/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:27",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/ssd/2408-1tb-ssd-sata-6gbs-adata-su650-3d-asu650ss-1tt-r.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:49:22",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 633360
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 120000
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

@@ -1,32 +1,32 @@
 {
   "id": 757,
-  "external_id": "centrale_memoria-ram-8gb-ddr4-3600mt-s-cl17-kingston-fury-beast-black",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM 8GB DDR4 3600MT/s CL17 Kingston Fury Beast Black",
-  "slug": "memoria-ram-8gb-ddr4-3600mt-s-cl17-kingston-fury-beast-black",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-8GB-DDR4-3600MT-s-CL17-Kingston-Fury-Beast-Black.webp",
+  "external_id": "centrale_tarjeta-grafica-msi-geforce-rtx-5060-ventus-2x-white-8gb-gddr7-128-bit",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "Tarjeta Gráfica MSI GeForce RTX 5060 VENTUS 2X White 8GB GDDR7 128-bit",
+  "slug": "tarjeta-grafica-msi-geforce-rtx-5060-ventus-2x-white-8gb-gddr7-128-bit",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-MSI-GeForce-RTX-5060-VENTUS-2X-White-8GB-GDDR7-128-bit.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$79.640",
-    "Tarjetas de Crédito / Débito": "$84.020"
+    "Transferencia / Efectivo": "$464.890",
+    "Tarjetas de Crédito / Débito": "$490.460"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:32",
-  "updated_at": "2026-04-24 22:15:32",
+  "created_at": "2026-04-25 04:54:20",
+  "updated_at": "2026-04-25 04:54:20",
   "prices": [
     {
       "id": 757,
       "product_id": 757,
       "store_id": "centrale",
-      "price": 79640,
-      "price_normal": 117940,
-      "discount_pct": 32,
+      "price": 464890,
+      "price_normal": 528280,
+      "discount_pct": 12,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr4-3600mt-s-cl17-kingston-fury-beast-black/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:32",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5060-ventus-2x-white-8gb-gddr7-128-bit/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:54:20",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -38,9 +38,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 79640
+      "date": "2026-04-25",
+      "price": 464890
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

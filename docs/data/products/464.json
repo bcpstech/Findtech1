@@ -1,46 +1,46 @@
 {
   "id": 464,
-  "external_id": "centrale_tarjeta-de-video-msi-geforce-rtx-5070-ventus-2x-oc-12gb-gddr7",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "Tarjeta De Video Msi GeForce RTX 5070 Ventus 2X OC 12GB GDDR7",
-  "slug": "tarjeta-de-video-msi-geforce-rtx-5070-ventus-2x-oc-12gb-gddr7",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-De-Video-Msi-Geforce-Rtx-5070-Ventus-2X-Oc-De-12Gb-Gddr7.webp",
+  "external_id": "alltec_3-7ghz-intel-i5-12600kf-4-9ghz-turbo",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "3.7GHz INTEL I5-12600KF (4.9GHz TURBO,...",
+  "slug": "3-7ghz-intel-i5-12600kf-4-9ghz-turbo",
+  "image_url": "https://images.findtech.cl/products/3-7ghz-intel-i5-12600kf-4-9ghz-turbo.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$778.140",
-    "Tarjetas de Crédito / Débito": "$820.940"
+    "Efectivo/Transferencia": "$299.900",
+    "Tarjeta crédito/débito": "$308.897"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:25",
-  "updated_at": "2026-04-24 22:15:25",
+  "created_at": "2026-04-25 04:46:22",
+  "updated_at": "2026-04-25 04:46:22",
   "prices": [
     {
       "id": 464,
       "product_id": 464,
-      "store_id": "centrale",
-      "price": 778140,
+      "store_id": "alltec",
+      "price": 299900,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-de-video-msi-geforce-rtx-5070-ventus-2x-oc-12gb-gddr7/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:25",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/intel/2176-7ghz-intel-i5-12600kf-49ghz-turbo-10c16t-20mb-cache-125w150w-lga1700-12th-generacion.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:46:22",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 778140
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 299900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

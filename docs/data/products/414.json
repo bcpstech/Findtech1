@@ -1,46 +1,46 @@
 {
   "id": 414,
-  "external_id": "cg_placa-madre-msi-a520m-a-pro",
-  "category_id": "mobo",
-  "brand": "MSI",
-  "name": "Placa Madre MSI A520M-A PRO",
-  "slug": "placa-madre-msi-a520m-a-pro",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2026/03/1_1740426433000.jpg?fit=1500%2C1500&ssl=1",
+  "external_id": "alltec_amd-ryzen-5-5600gt-3-6ghz-4-6ghz-turbo",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD RYZEN 5 5600GT 3.6GHz (4.6GHz TURBO)...",
+  "slug": "amd-ryzen-5-5600gt-3-6ghz-4-6ghz-turbo",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-5-5600gt-3-6ghz-4-6ghz-turbo.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$60.700",
-    "Webpay / Tarjeta crédito-débito": "$63.897"
+    "Efectivo/Transferencia": "$192.900",
+    "Tarjeta crédito/débito": "$198.687"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:13",
-  "updated_at": "2026-04-24 22:15:13",
+  "created_at": "2026-04-25 04:45:26",
+  "updated_at": "2026-04-25 04:45:26",
   "prices": [
     {
       "id": 414,
       "product_id": 414,
-      "store_id": "cg",
-      "price": 60700,
+      "store_id": "alltec",
+      "price": 192900,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/placas-madre/msi-a520m-a-pro-motherboard/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:13",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "product_url": "https://www.alltec.cl/amd/2508-amd-ryzen-5-5600gt-36ghz-46ghz-turbo-six-core-tdp-65w-am4.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:45:26",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-04-24",
-      "price": 60700
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 192900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

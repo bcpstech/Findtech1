@@ -1,46 +1,46 @@
 {
   "id": 489,
-  "external_id": "centrale_tarjeta-grafica-zotac-gaming-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bit",
-  "category_id": "gpu",
-  "brand": "Zotac",
-  "name": "Tarjeta Gráfica ZOTAC GAMING GeForce RTX 5070 SOLID OC 12GB GDDR7 192-bit",
-  "slug": "tarjeta-grafica-zotac-gaming-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-ZOTAC-GAMING-GeForce-RTX-5070-SOLID-OC-12GB-GDDR7-192-bit.webp",
+  "external_id": "alltec_m-b-asrock-h510m-hdv-m-2-se-lga1200",
+  "category_id": "mobo",
+  "brand": "ASRock",
+  "name": "M.B. ASROCK H510M-HDV/M.2 SE (LGA1200)...",
+  "slug": "m-b-asrock-h510m-hdv-m-2-se-lga1200",
+  "image_url": "https://images.findtech.cl/products/m-b-asrock-h510m-hdv-m-2-se-lga1200.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$862.090",
-    "Tarjetas de Crédito / Débito": "$909.500"
+    "Efectivo/Transferencia": "$79.900",
+    "Tarjeta crédito/débito": "$82.297"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:25",
-  "updated_at": "2026-04-24 22:15:25",
+  "created_at": "2026-04-25 04:47:47",
+  "updated_at": "2026-04-25 04:47:47",
   "prices": [
     {
       "id": 489,
       "product_id": 489,
-      "store_id": "centrale",
-      "price": 862090,
-      "price_normal": 1679980,
-      "discount_pct": 49,
+      "store_id": "alltec",
+      "price": 79900,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bit/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:25",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/para-intel/2187-mb-asrock-h510m-hdvm2-se-lga1200-ddr4-intel-1011-generacion.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:47:47",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 862090
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 79900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

@@ -1,46 +1,46 @@
 {
   "id": 507,
-  "external_id": "centrale_procesador-intel-core-i9-12900-alder-lake-lga1700-16-cores-24-hilos",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core i9-12900 Alder Lake LGA1700, 16 Cores, 24 Hilos",
-  "slug": "procesador-intel-core-i9-12900-alder-lake-lga1700-16-cores-24-hilos",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i9-12900-Alder-Lake-LGA1700-16-Cores-24-Hilos_MEKPJob-1.webp",
+  "external_id": "alltec_8gb-ddr4-3200mhz-cl16-a-data-xpg-spectrix",
+  "category_id": "ram",
+  "brand": "Genérico",
+  "name": "8GB DDR4 3200MHz CL16 A-DATA XPG SPECTRIX...",
+  "slug": "8gb-ddr4-3200mhz-cl16-a-data-xpg-spectrix",
+  "image_url": "https://images.findtech.cl/products/8gb-ddr4-3200mhz-cl16-a-data-xpg-spectrix.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$495.060",
-    "Tarjetas de Crédito / Débito": "$522.290"
+    "Efectivo/Transferencia": "$49.500",
+    "Tarjeta crédito/débito": "$50.985"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:27",
-  "updated_at": "2026-04-24 22:15:27",
+  "created_at": "2026-04-25 04:48:29",
+  "updated_at": "2026-04-25 04:48:29",
   "prices": [
     {
       "id": 507,
       "product_id": 507,
-      "store_id": "centrale",
-      "price": 495060,
+      "store_id": "alltec",
+      "price": 49500,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-12900-alder-lake-lga1700-16-cores-24-hilos/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:27",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/ddr4/1315-8gb-ddr4-3200mhz-cl16-a-data-xpg-spectrix-d80-liquid-cooling-black-ax4u320038g16a-sb80.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:48:29",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 495060
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 49500
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

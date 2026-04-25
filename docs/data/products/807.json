@@ -1,32 +1,32 @@
 {
   "id": 807,
-  "external_id": "centrale_disco-ssd-1tb-kingston-nv3-m-2-2230-nvme-pcie-4-0-x4-nand-3d",
-  "category_id": "storage",
-  "brand": "Kingston",
-  "name": "Disco SSD 1TB Kingston NV3 M.2 2230 NVMe PCIe 4.0 x4, Nand 3D",
-  "slug": "disco-ssd-1tb-kingston-nv3-m-2-2230-nvme-pcie-4-0-x4-nand-3d",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-1TB-Kingston-NV3-M.2-2230-NVMe-PCIe-4.0-x4-Nand-3D-1.webp",
+  "external_id": "centrale_procesador-intel-core-i9-14900-24-core-3-2-5-8ghz-lga1700-36mb-cache",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i9-14900, 24-Core, 3.2-5.8GHz, LGA1700, 36MB Cache",
+  "slug": "procesador-intel-core-i9-14900-24-core-3-2-5-8ghz-lga1700-36mb-cache",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i9-14900-24-Core-3.2-5.8GHz-LGA1700-36MB-Cache_Qmq4z9p-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$210.150",
-    "Tarjetas de Crédito / Débito": "$221.710"
+    "Transferencia / Efectivo": "$732.690",
+    "Tarjetas de Crédito / Débito": "$772.990"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:35",
-  "updated_at": "2026-04-24 22:15:35",
+  "created_at": "2026-04-25 04:54:25",
+  "updated_at": "2026-04-25 04:54:25",
   "prices": [
     {
       "id": 807,
       "product_id": 807,
       "store_id": "centrale",
-      "price": 210150,
-      "price_normal": 241330,
-      "discount_pct": 13,
+      "price": 732690,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-1tb-kingston-nv3-m-2-2230-nvme-pcie-4-0-x4-nand-3d/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:35",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900-24-core-3-2-5-8ghz-lga1700-36mb-cache/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:54:25",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -38,9 +38,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 210150
+      "date": "2026-04-25",
+      "price": 732690
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

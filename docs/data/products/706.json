@@ -1,46 +1,46 @@
 {
   "id": 706,
-  "external_id": "centrale_memoria-ram-32gb-2x-16gb-ddr5-6000mt-s-cl36-kingston-fury-beast-black-expo",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM 32GB (2x 16GB) DDR5 6000MT/s CL36 Kingston Fury Beast Black (EXPO)",
-  "slug": "memoria-ram-32gb-2x-16gb-ddr5-6000mt-s-cl36-kingston-fury-beast-black-expo",
-  "image_url": "https://centrale.cl/wp-content/uploads/Kingston-Memoria-32Gb-6000Mt-S-Ddr5-Cl36-Dimm-Kit-Of-2-Fu-KF560C36BBE2K2-32-1.webp",
+  "external_id": "cg_watercooling-cooler-master-masterliquid-ml240-illusion",
+  "category_id": "cooling",
+  "brand": "Cooler Master",
+  "name": "WaterCooling Cooler Master MasterLiquid ML240 Illusion",
+  "slug": "watercooling-cooler-master-masterliquid-ml240-illusion",
+  "image_url": "https://images.findtech.cl/products/watercooling-cooler-master-masterliquid-ml240-illusion.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$481.880",
-    "Tarjetas de Crédito / Débito": "$508.380"
+    "Efectivo/Transferencia": "$75.040",
+    "Webpay / Tarjeta crédito-débito": "$78.990"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:32",
-  "updated_at": "2026-04-24 22:15:32",
+  "created_at": "2026-04-25 04:53:56",
+  "updated_at": "2026-04-25 04:53:56",
   "prices": [
     {
       "id": 706,
       "product_id": 706,
-      "store_id": "centrale",
-      "price": 481880,
-      "price_normal": 568480,
-      "discount_pct": 15,
+      "store_id": "cg",
+      "price": 75040,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-32gb-2x-16gb-ddr5-6000mt-s-cl36-kingston-fury-beast-black-expo/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:32",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/refrigeracion-pc/watercooling-cooler-master-masterliquid-ml240-illusion/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:53:56",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 481880
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-25",
+      "price": 75040
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

@@ -1,32 +1,32 @@
 {
   "id": 1044,
-  "external_id": "centrale_fuente-de-poder-2200w-seasonic-2-x-pcie-5-1-full-modular-80-platinum-12y",
-  "category_id": "psu",
-  "brand": "Seasonic",
-  "name": "Fuente de Poder 2200W Seasonic (2 x PCIe 5.1, Full Modular, 80+ Platinum, 12Y)",
-  "slug": "fuente-de-poder-2200w-seasonic-2-x-pcie-5-1-full-modular-80-platinum-12y",
-  "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-2200W-Seasonic-2-x-PCIe-5.1-Full-Modular-80-Platinum-12_Rz8NQQY.webp",
+  "external_id": "centrale_memoria-ram-notebook-16gb-3200mt-s-ddr4-cl20-kingston-fury-impact-sodimm",
+  "category_id": "ram",
+  "brand": "Kingston",
+  "name": "Memoria RAM Notebook 16GB 3200MT/s DDR4 CL20 Kingston Fury Impact SODIMM",
+  "slug": "memoria-ram-notebook-16gb-3200mt-s-ddr4-cl20-kingston-fury-impact-sodimm",
+  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-Notebook-16GB-3200MT-s-DDR4-CL20-Kingston-Fury-Impact-SODIM_R9S28Py.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$788.430",
-    "Tarjetas de Crédito / Débito": "$831.790"
+    "Transferencia / Efectivo": "$132.530",
+    "Tarjetas de Crédito / Débito": "$139.820"
   },
   "tags": [],
-  "created_at": "2026-04-24 21:46:20",
-  "updated_at": "2026-04-24 21:46:20",
+  "created_at": "2026-04-25 04:54:29",
+  "updated_at": "2026-04-25 04:54:29",
   "prices": [
     {
       "id": 1044,
       "product_id": 1044,
       "store_id": "centrale",
-      "price": 788430,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 132530,
+      "price_normal": 154710,
+      "discount_pct": 14,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-2200w-seasonic-2-x-pcie-5-1-full-modular-80-platinum-12y/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 21:46:20",
+      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-16gb-3200mt-s-ddr4-cl20-kingston-fury-impact-sodimm/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:54:29",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -38,9 +38,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 788430
+      "date": "2026-04-25",
+      "price": 132530
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

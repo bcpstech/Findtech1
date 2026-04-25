@@ -1,32 +1,32 @@
 {
   "id": 739,
-  "external_id": "centrale_memoria-ram-notebook-kingston-fury-impact-16gb-ddr5-5600mt-s-sodimm",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM Notebook Kingston Fury Impact 16GB DDR5 5600MT/s SODIMM",
-  "slug": "memoria-ram-notebook-kingston-fury-impact-16gb-ddr5-5600mt-s-sodimm",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-16GB-DDR5-5600MT-s-SODIMM-Kingston-Fury-Impact-1.webp",
+  "external_id": "centrale_tarjeta-grafica-zotac-gaming-rtx-5050-8gb-gddr6-128-bits-dual-ventilador",
+  "category_id": "gpu",
+  "brand": "Zotac",
+  "name": "Tarjeta Gráfica Zotac Gaming RTX 5050 8GB GDDR6, 128 bits, Dual Ventilador",
+  "slug": "tarjeta-grafica-zotac-gaming-rtx-5050-8gb-gddr6-128-bits-dual-ventilador",
+  "image_url": "https://centrale.cl/wp-content/uploads/Zotac-Gaming-Geforce-Rtx-5050-Solo-ZT-B50500G-10L.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$276.510",
-    "Tarjetas de Crédito / Débito": "$291.720"
+    "Transferencia / Efectivo": "$341.630",
+    "Tarjetas de Crédito / Débito": "$360.420"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:32",
-  "updated_at": "2026-04-24 22:15:32",
+  "created_at": "2026-04-25 04:54:20",
+  "updated_at": "2026-04-25 04:54:20",
   "prices": [
     {
       "id": 739,
       "product_id": 739,
       "store_id": "centrale",
-      "price": 276510,
-      "price_normal": 308700,
-      "discount_pct": 10,
+      "price": 341630,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-kingston-fury-impact-16gb-ddr5-5600mt-s-sodimm/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:32",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-rtx-5050-8gb-gddr6-128-bits-dual-ventilador/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:54:20",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -38,9 +38,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 276510
+      "date": "2026-04-25",
+      "price": 341630
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

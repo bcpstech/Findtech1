@@ -1,46 +1,46 @@
 {
   "id": 712,
-  "external_id": "centrale_memoria-ram-hp-e5k48a-1gb-ddr3-800mhz-so-dimm-laserjet-m506-m527",
-  "category_id": "ram",
-  "brand": "HP",
-  "name": "Memoria RAM HP E5K48A 1GB DDR3 800MHz SO-DIMM, LaserJet M506/M527",
-  "slug": "memoria-ram-hp-e5k48a-1gb-ddr3-800mhz-so-dimm-laserjet-m506-m527",
-  "image_url": "https://centrale.cl/wp-content/uploads/Hp-Memoria-Ram-1Gb-Ddr3-800Mhz-E5K48A-1.webp",
+  "external_id": "cg_gabinete-slim-esgaming-j01-matx",
+  "category_id": "case",
+  "brand": "Genérico",
+  "name": "Gabinete Slim Esgaming J01 MATX",
+  "slug": "gabinete-slim-esgaming-j01-matx",
+  "image_url": "https://images.findtech.cl/products/gabinete-slim-esgaming-j01-matx.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$147.700",
-    "Tarjetas de Crédito / Débito": "$155.820"
+    "Efectivo/Transferencia": "$44.640",
+    "Webpay / Tarjeta crédito-débito": "$46.990"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:32",
-  "updated_at": "2026-04-24 22:15:32",
+  "created_at": "2026-04-25 04:54:04",
+  "updated_at": "2026-04-25 04:54:04",
   "prices": [
     {
       "id": 712,
       "product_id": 712,
-      "store_id": "centrale",
-      "price": 147700,
+      "store_id": "cg",
+      "price": 44640,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-hp-e5k48a-1gb-ddr3-800mhz-so-dimm-laserjet-m506-m527/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:32",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/gabinetes-gamer/gabinete-slim-j01-matx-itx-650w-usb-c-usb-2-0-usb-3-0-negro/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:54:04",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 147700
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-25",
+      "price": 44640
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

@@ -1,32 +1,32 @@
 {
   "id": 744,
-  "external_id": "centrale_memoria-ram-8gb-ddr4-3200mt-s-cl16-kingston-fury-beast-rgb",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM 8GB DDR4 3200MT/s CL16 Kingston Fury Beast RGB",
-  "slug": "memoria-ram-8gb-ddr4-3200mt-s-cl16-kingston-fury-beast-rgb",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-8GB-DDR4-3200MT-s-CL16-Kingston-Fury-Beast-RGB_AdX7Ck3-1.webp",
+  "external_id": "centrale_tarjeta-grafica-profesional-asus-turbo-radeon-ai-pro-r9700-32gb",
+  "category_id": "gpu",
+  "brand": "Asus",
+  "name": "Tarjeta Gráfica Profesional ASUS TURBO Radeon AI PRO R9700 32GB",
+  "slug": "tarjeta-grafica-profesional-asus-turbo-radeon-ai-pro-r9700-32gb",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-Profesional-ASUS-TURBO-Radeon-AI-PRO-R9700-32GB.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$72.490",
-    "Tarjetas de Crédito / Débito": "$76.480"
+    "Transferencia / Efectivo": "$1.863.200",
+    "Tarjetas de Crédito / Débito": "$1.965.680"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:32",
-  "updated_at": "2026-04-24 22:15:32",
+  "created_at": "2026-04-25 04:54:20",
+  "updated_at": "2026-04-25 04:54:20",
   "prices": [
     {
       "id": 744,
       "product_id": 744,
       "store_id": "centrale",
-      "price": 72490,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 1863200,
+      "price_normal": 2135780,
+      "discount_pct": 13,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr4-3200mt-s-cl16-kingston-fury-beast-rgb/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:32",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-profesional-asus-turbo-radeon-ai-pro-r9700-32gb/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:54:20",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -38,9 +38,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 72490
+      "date": "2026-04-25",
+      "price": 1863200
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

@@ -1,46 +1,46 @@
 {
   "id": 670,
-  "external_id": "centrale_memoria-kingston-de-8gb-ddr5-5600mt-s-non-ecc-unbuffered-dimm",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria Kingston de 8GB DDR5 5600MT/s Non-ECC Unbuffered DIMM",
-  "slug": "memoria-kingston-de-8gb-ddr5-5600mt-s-non-ecc-unbuffered-dimm",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-Kingston-de-8GB-DDR5-5600MT-s-Non-ECC-Unbuffered-DIMM-1.webp",
+  "external_id": "cg_placa-madre-asus-prime-b650m-a-ii",
+  "category_id": "mobo",
+  "brand": "ASUS",
+  "name": "Placa Madre ASUS Prime B650M-A II",
+  "slug": "placa-madre-asus-prime-b650m-a-ii",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asus-prime-b650m-a-ii.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$156.380",
-    "Tarjetas de Crédito / Débito": "$164.980"
+    "Efectivo/Transferencia": "$142.490",
+    "Webpay / Tarjeta crédito-débito": "$149.990"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:31",
-  "updated_at": "2026-04-24 22:15:31",
+  "created_at": "2026-04-25 04:53:29",
+  "updated_at": "2026-04-25 04:53:29",
   "prices": [
     {
       "id": 670,
       "product_id": 670,
-      "store_id": "centrale",
-      "price": 156380,
-      "price_normal": 179550,
-      "discount_pct": 13,
+      "store_id": "cg",
+      "price": 142490,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-kingston-de-8gb-ddr5-5600mt-s-non-ecc-unbuffered-dimm/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:31",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-b650m-a-ii/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:53:29",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 156380
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-25",
+      "price": 142490
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

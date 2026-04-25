@@ -1,46 +1,46 @@
 {
   "id": 440,
-  "external_id": "centrale_tarjeta-grafica-msi-rtx-5070-12gb-gddr7-world-of-warcraft-midnight-light",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "Tarjeta Gráfica MSI RTX 5070 12GB GDDR7 World of Warcraft Midnight Light",
-  "slug": "tarjeta-grafica-msi-rtx-5070-12gb-gddr7-world-of-warcraft-midnight-light",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-MSI-RTX-5070-12GB-GDDR7-World-of-Warcraft-Midnight-Ligh_e2YjrLn.webp",
+  "external_id": "alltec_amd-ryzen-3-5300g-4-0ghz-4-2ghz-turbo",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD RYZEN 3 5300G 4.0GHz (4.2GHz TURBO)...",
+  "slug": "amd-ryzen-3-5300g-4-0ghz-4-2ghz-turbo",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-3-5300g-4-0ghz-4-2ghz-turbo.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$1.061.950",
-    "Tarjetas de Crédito / Débito": "$1.120.360"
+    "Efectivo/Transferencia": "$108.500",
+    "Tarjeta crédito/débito": "$111.755"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:25",
-  "updated_at": "2026-04-24 22:15:25",
+  "created_at": "2026-04-25 04:45:35",
+  "updated_at": "2026-04-25 04:45:35",
   "prices": [
     {
       "id": 440,
       "product_id": 440,
-      "store_id": "centrale",
-      "price": 1061950,
+      "store_id": "alltec",
+      "price": 108500,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5070-12gb-gddr7-world-of-warcraft-midnight-light/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:25",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/amd/2194-amd-ryzen-3-5300g-40ghz-42ghz-turbo-quad-core-tdp-65w-am4.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:45:35",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 1061950
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 108500
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

@@ -1,32 +1,32 @@
 {
   "id": 843,
-  "external_id": "centrale_disco-ssd-nvme-2tb-kingston-kc3000-pcie-4-0-7000-mb-s",
-  "category_id": "storage",
-  "brand": "Kingston",
-  "name": "Disco SSD NVMe 2TB Kingston KC3000 PCIe 4.0 7000 MB/s",
-  "slug": "disco-ssd-nvme-2tb-kingston-kc3000-pcie-4-0-7000-mb-s",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-NVMe-2TB-Kingston-KC3000-PCIe-4.0-7000-MB-s_FoRS3Y6.webp",
+  "external_id": "centrale_procesador-amd-ryzen-5-8500g-3-5-a-5-00ghz-6-nucleos-12-hilos-socket-am5",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 5 8500G, 3.5 a 5.00Ghz, 6 Nùcleos, 12 Hilos, Socket AM5",
+  "slug": "procesador-amd-ryzen-5-8500g-3-5-a-5-00ghz-6-nucleos-12-hilos-socket-am5",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-5-8500G-3.5-a-5.00Ghz-6-NC3B9cleos-12-Hilos-Socket-AM_AuEoKHw-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$319.490",
-    "Tarjetas de Crédito / Débito": "$337.060"
+    "Transferencia / Efectivo": "$159.580",
+    "Tarjetas de Crédito / Débito": "$168.360"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:35",
-  "updated_at": "2026-04-24 22:15:35",
+  "created_at": "2026-04-25 04:54:25",
+  "updated_at": "2026-04-25 04:54:25",
   "prices": [
     {
       "id": 843,
       "product_id": 843,
       "store_id": "centrale",
-      "price": 319490,
+      "price": 159580,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-nvme-2tb-kingston-kc3000-pcie-4-0-7000-mb-s/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:35",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-8500g-3-5-a-5-00ghz-6-nucleos-12-hilos-socket-am5/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:54:25",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -38,9 +38,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 319490
+      "date": "2026-04-25",
+      "price": 159580
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

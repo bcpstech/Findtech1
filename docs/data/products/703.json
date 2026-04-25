@@ -1,46 +1,46 @@
 {
   "id": 703,
-  "external_id": "centrale_memoria-kingston-valueram-48gb-ddr5-5600mt-s-cl46-dimm-288-pines",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria Kingston ValueRAM 48GB DDR5 5600MT/s CL46, DIMM 288 pines",
-  "slug": "memoria-kingston-valueram-48gb-ddr5-5600mt-s-cl46-dimm-288-pines",
-  "image_url": "https://centrale.cl/wp-content/uploads/Kingston-Memoria-48Gb-Ddr5-5600Mt-S-Module-KCP556UD8-48-2.webp",
+  "external_id": "cg_controlador-argb-control-remoto-hype-legend",
+  "category_id": "cooling",
+  "brand": "Genérico",
+  "name": "Controlador ARGB + Control Remoto Hype Legend",
+  "slug": "controlador-argb-control-remoto-hype-legend",
+  "image_url": "https://images.findtech.cl/products/controlador-argb-control-remoto-hype-legend.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$854.840",
-    "Tarjetas de Crédito / Débito": "$901.860"
+    "Efectivo/Transferencia": "$9.490",
+    "Webpay / Tarjeta crédito-débito": "$9.990"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:32",
-  "updated_at": "2026-04-24 22:15:32",
+  "created_at": "2026-04-25 04:53:56",
+  "updated_at": "2026-04-25 04:53:56",
   "prices": [
     {
       "id": 703,
       "product_id": 703,
-      "store_id": "centrale",
-      "price": 854840,
+      "store_id": "cg",
+      "price": 9490,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-kingston-valueram-48gb-ddr5-5600mt-s-cl46-dimm-288-pines/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:32",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/cables-y-accesorios/controlador-argb-control-remoto-hype-legend/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:53:56",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 854840
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-25",
+      "price": 9490
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

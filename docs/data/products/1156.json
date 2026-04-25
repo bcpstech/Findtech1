@@ -1,32 +1,32 @@
 {
   "id": 1156,
-  "external_id": "centrale_gabinete-gamer-antec-c5-curve-argb",
-  "category_id": "case",
-  "brand": "Antec",
-  "name": "Gabinete Gamer ANTEC C5 Curve ARGB",
-  "slug": "gabinete-gamer-antec-c5-curve-argb",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Gamer-ANTEC-C5-Curve-ARGB_W0FHbaC.webp",
+  "external_id": "centrale_refrigeracion-liquida-asus-tuf-gaming-lc-iii-360-argb-lcd-blanco",
+  "category_id": "cooling",
+  "brand": "Asus",
+  "name": "Refrigeración Líquida ASUS TUF Gaming LC III 360 ARGB LCD Blanco",
+  "slug": "refrigeracion-liquida-asus-tuf-gaming-lc-iii-360-argb-lcd-blanco",
+  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Tuf-Gaming-Lc-Iii-360-Fan-Unit-90RC01A2-B0AAY0.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$107.190",
-    "Tarjetas de Crédito / Débito": "$113.090"
+    "Transferencia / Efectivo": "$180.890",
+    "Tarjetas de Crédito / Débito": "$190.840"
   },
   "tags": [],
-  "created_at": "2026-04-24 20:16:49",
-  "updated_at": "2026-04-24 20:16:49",
+  "created_at": "2026-04-25 04:54:35",
+  "updated_at": "2026-04-25 04:54:35",
   "prices": [
     {
       "id": 1156,
       "product_id": 1156,
       "store_id": "centrale",
-      "price": 107190,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 180890,
+      "price_normal": 224790,
+      "discount_pct": 20,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-gamer-antec-c5-curve-argb/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 20:16:49",
+      "product_url": "https://centrale.cl/producto/refrigeracion-liquida-asus-tuf-gaming-lc-iii-360-argb-lcd-blanco/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:54:35",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -38,9 +38,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 107190
+      "date": "2026-04-25",
+      "price": 180890
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

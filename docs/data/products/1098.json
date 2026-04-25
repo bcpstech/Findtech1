@@ -1,32 +1,32 @@
 {
   "id": 1098,
-  "external_id": "centrale_gabinete-rackeable-4u-para-multiples-gpu-e-atx-1600w-crps-platinum-redundante",
-  "category_id": "case",
-  "brand": "Centrale",
-  "name": "Gabinete Rackeable 4U para múltiples GPU, E-ATX, 1600W CRPS Platinum Redundante",
-  "slug": "gabinete-rackeable-4u-para-multiples-gpu-e-atx-1600w-crps-platinum-redundante",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-4U-Multiple-GPU-E-ATX-2xPSU-CRPS-1600W-1.webp",
+  "external_id": "centrale_disco-ssd-1tb-kingston-nv3-m-2-2230-nvme-pcie-4-0-x4-nand-3d",
+  "category_id": "storage",
+  "brand": "Kingston",
+  "name": "Disco SSD 1TB Kingston NV3 M.2 2230 NVMe PCIe 4.0 x4, Nand 3D",
+  "slug": "disco-ssd-1tb-kingston-nv3-m-2-2230-nvme-pcie-4-0-x4-nand-3d",
+  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-1TB-Kingston-NV3-M.2-2230-NVMe-PCIe-4.0-x4-Nand-3D-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$1.349.980",
-    "Tarjetas de Crédito / Débito": "$1.424.230"
+    "Transferencia / Efectivo": "$210.150",
+    "Tarjetas de Crédito / Débito": "$221.710"
   },
   "tags": [],
-  "created_at": "2026-04-24 21:46:21",
-  "updated_at": "2026-04-24 21:46:21",
+  "created_at": "2026-04-25 04:54:32",
+  "updated_at": "2026-04-25 04:54:32",
   "prices": [
     {
       "id": 1098,
       "product_id": 1098,
       "store_id": "centrale",
-      "price": 1349980,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 210150,
+      "price_normal": 241330,
+      "discount_pct": 13,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-rackeable-4u-para-multiples-gpu-e-atx-1600w-crps-platinum-redundante/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 21:46:21",
+      "product_url": "https://centrale.cl/producto/disco-ssd-1tb-kingston-nv3-m-2-2230-nvme-pcie-4-0-x4-nand-3d/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:54:32",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -38,9 +38,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 1349980
+      "date": "2026-04-25",
+      "price": 210150
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

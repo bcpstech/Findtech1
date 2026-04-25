@@ -1,46 +1,46 @@
 {
   "id": 498,
-  "external_id": "centrale_tarjeta-grafica-pny-nvidia-rtx-a1000-8gb-gddr6-ecc-128-bit",
-  "category_id": "gpu",
-  "brand": "Pny",
-  "name": "Tarjeta Gráfica PNY Nvidia RTX A1000 8GB GDDR6 ECC 128-bit",
-  "slug": "tarjeta-grafica-pny-nvidia-rtx-a1000-8gb-gddr6-ecc-128-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-PNY-Nvidia-RTX-A1000-8GB-GDDR6-ECC-128-bit_ogBLiYx-1.webp",
+  "external_id": "alltec_m-b-asrock-d1800m-intel-dual-core",
+  "category_id": "mobo",
+  "brand": "Intel",
+  "name": "M.B. ASROCK D1800M (Intel® Dual-Core...",
+  "slug": "m-b-asrock-d1800m-intel-dual-core",
+  "image_url": "https://images.findtech.cl/products/m-b-asrock-d1800m-intel-dual-core.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$647.660",
-    "Tarjetas de Crédito / Débito": "$683.280"
+    "Efectivo/Transferencia": "$79.000",
+    "Tarjeta crédito/débito": "$81.370"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:25",
-  "updated_at": "2026-04-24 22:15:25",
+  "created_at": "2026-04-25 04:47:50",
+  "updated_at": "2026-04-25 04:47:50",
   "prices": [
     {
       "id": 498,
       "product_id": 498,
-      "store_id": "centrale",
-      "price": 647660,
+      "store_id": "alltec",
+      "price": 79000,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-pny-nvidia-rtx-a1000-8gb-gddr6-ecc-128-bit/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:25",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/para-intel/1995-mb-asrock-d1800m-intel-dual-core-j1800-241-ghz-2xddr3-udimm.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:47:50",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 647660
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 79000
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

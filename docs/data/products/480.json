@@ -1,46 +1,46 @@
 {
   "id": 480,
-  "external_id": "centrale_tarjeta-grafica-asus-dual-geforce-rtx-3050-oc-edition-6gb-gddr6",
-  "category_id": "gpu",
-  "brand": "Asus",
-  "name": "Tarjeta Gráfica ASUS Dual GeForce RTX 3050 OC Edition 6GB GDDR6",
-  "slug": "tarjeta-grafica-asus-dual-geforce-rtx-3050-oc-edition-6gb-gddr6",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-ASUS-Dual-GeForce-RTX-3050-OC-Edition-6GB-GDDR6-1.webp",
+  "external_id": "alltec_m-b-asus-prime-b650m-f-am5-ddr5-ryzen",
+  "category_id": "mobo",
+  "brand": "ASUS",
+  "name": "M.B. ASUS PRIME B650M-F (AM5) DDR5 (RYZEN...",
+  "slug": "m-b-asus-prime-b650m-f-am5-ddr5-ryzen",
+  "image_url": "https://images.findtech.cl/products/m-b-asus-prime-b650m-f-am5-ddr5-ryzen.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$255.520",
-    "Tarjetas de Crédito / Débito": "$269.570"
+    "Efectivo/Transferencia": "$109.000",
+    "Tarjeta crédito/débito": "$112.270"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:25",
-  "updated_at": "2026-04-24 22:15:25",
+  "created_at": "2026-04-25 04:47:06",
+  "updated_at": "2026-04-25 04:47:06",
   "prices": [
     {
       "id": 480,
       "product_id": 480,
-      "store_id": "centrale",
-      "price": 255520,
+      "store_id": "alltec",
+      "price": 109000,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-dual-geforce-rtx-3050-oc-edition-6gb-gddr6/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:25",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/para-amd/2483-mb-asus-prime-b650m-f-am5-ddr5-ryzen-700080009000.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:47:06",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 255520
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 109000
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

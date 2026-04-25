@@ -1,46 +1,46 @@
 {
   "id": 683,
-  "external_id": "centrale_memoria-kingston-valueram-32gb-ddr4-3200mt-s-sodimm-260-pines-cl22",
+  "external_id": "cg_memoria-ram-xpg-spectrix-d35g-8gb-rgb-ddr4-3200mhz-white",
   "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria Kingston ValueRAM 32GB DDR4 3200MT/s SODIMM 260 pines CL22",
-  "slug": "memoria-kingston-valueram-32gb-ddr4-3200mt-s-sodimm-260-pines-cl22",
-  "image_url": "https://centrale.cl/wp-content/uploads/Kingston-Valueram-Ddr4-MC3B3dulo-32-Gb-So-Dimm-De-260-Contactos-1600-Mhz_gIMApMe.webp",
+  "brand": "Genérico",
+  "name": "Memoria Ram XPG SPECTRIX D35G 8GB RGB DDR4 3200Mhz White",
+  "slug": "memoria-ram-xpg-spectrix-d35g-8gb-rgb-ddr4-3200mhz-white",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-xpg-spectrix-d35g-8gb-rgb-ddr4-3200mhz-white.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$321.350",
-    "Tarjetas de Crédito / Débito": "$339.020"
+    "Efectivo/Transferencia": "$85.490",
+    "Webpay / Tarjeta crédito-débito": "$89.990"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:31",
-  "updated_at": "2026-04-24 22:15:31",
+  "created_at": "2026-04-25 04:53:38",
+  "updated_at": "2026-04-25 04:53:38",
   "prices": [
     {
       "id": 683,
       "product_id": 683,
-      "store_id": "centrale",
-      "price": 321350,
-      "price_normal": 387520,
-      "discount_pct": 17,
+      "store_id": "cg",
+      "price": 85490,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-kingston-valueram-32gb-ddr4-3200mt-s-sodimm-260-pines-cl22/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:31",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-spectrix-d35g-8gb-ddr4-white/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:53:38",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 321350
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-25",
+      "price": 85490
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

@@ -1,46 +1,46 @@
 {
   "id": 434,
-  "external_id": "centrale_tarjeta-grafica-msi-geforce-rtx-5090-ventus-3x-oc-32gb-gddr7-512-bit",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "Tarjeta Gráfica MSI GeForce RTX 5090 VENTUS 3X OC 32GB GDDR7 512-Bit",
-  "slug": "tarjeta-grafica-msi-geforce-rtx-5090-ventus-3x-oc-32gb-gddr7-512-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-MSI-GeForce-RTX-5090-VENTUS-3X-OC-32GB-GDDR7-512-Bit.webp",
+  "external_id": "alltec_amd-ryzen-5-8500g-3-5ghz-5-0ghz-turbo",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD RYZEN 5 8500G 3.5GHz (5.0GHz TURBO)...",
+  "slug": "amd-ryzen-5-8500g-3-5ghz-5-0ghz-turbo",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-5-8500g-3-5ghz-5-0ghz-turbo.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$3.999.810",
-    "Tarjetas de Crédito / Débito": "$4.219.800"
+    "Efectivo/Transferencia": "$159.900",
+    "Tarjeta crédito/débito": "$164.697"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:25",
-  "updated_at": "2026-04-24 22:15:25",
+  "created_at": "2026-04-25 04:45:33",
+  "updated_at": "2026-04-25 04:45:33",
   "prices": [
     {
       "id": 434,
       "product_id": 434,
-      "store_id": "centrale",
-      "price": 3999810,
+      "store_id": "alltec",
+      "price": 159900,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5090-ventus-3x-oc-32gb-gddr7-512-bit/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:25",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/amd/2199-amd-ryzen-5-8500g-35ghz-50ghz-turbo-six-core-tdp-65w-am5-amd-radeon-740m-graphics.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:45:33",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 3999810
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 159900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

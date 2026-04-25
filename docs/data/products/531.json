@@ -1,46 +1,46 @@
 {
   "id": 531,
-  "external_id": "centrale_procesador-amd-ryzen-9-7900x-4-7ghz-12-nucleos-24-hilos-socket-am5",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 9 7900X, 4.7Ghz, 12 Núcleos / 24 Hilos, Socket AM5",
-  "slug": "procesador-amd-ryzen-9-7900x-4-7ghz-12-nucleos-24-hilos-socket-am5",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-9-7900X-4.7Ghz-12-NC3BAcleos-24-Hilos-Socket-AM5_hDOKxQS-1.webp",
+  "external_id": "alltec_1024gb-m-2-pcie-ssd-hikvision-g4000",
+  "category_id": "storage",
+  "brand": "Genérico",
+  "name": "1024GB M.2 PCIe SSD HIKVISION G4000...",
+  "slug": "1024gb-m-2-pcie-ssd-hikvision-g4000",
+  "image_url": "https://images.findtech.cl/products/1024gb-m-2-pcie-ssd-hikvision-g4000.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$418.660",
-    "Tarjetas de Crédito / Débito": "$441.690"
+    "Efectivo/Transferencia": "$139.900",
+    "Tarjeta crédito/débito": "$144.097"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:27",
-  "updated_at": "2026-04-24 22:15:27",
+  "created_at": "2026-04-25 04:49:18",
+  "updated_at": "2026-04-25 04:49:18",
   "prices": [
     {
       "id": 531,
       "product_id": 531,
-      "store_id": "centrale",
-      "price": 418660,
+      "store_id": "alltec",
+      "price": 139900,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-7900x-4-7ghz-12-nucleos-24-hilos-socket-am5/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:27",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/ssd/1922-1024gb-m2-pcie-ssd-hikvision-g4000-hs-ssd-g4000-1024g-7450-mbs-read6600-mbs-write.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:49:18",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 418660
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 139900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

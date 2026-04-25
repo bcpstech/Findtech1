@@ -1,32 +1,32 @@
 {
   "id": 1032,
-  "external_id": "centrale_fuente-de-poder-gigabyte-gp-p650g-650w-80plus-gold-cables-fijos",
-  "category_id": "psu",
-  "brand": "Gigabyte",
-  "name": "Fuente de Poder Gigabyte GP-P650G 650W 80Plus Gold, Cables Fijos",
-  "slug": "fuente-de-poder-gigabyte-gp-p650g-650w-80plus-gold-cables-fijos",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gigabyte-Fuente-De-Poder-650W-Gar1-80Plus-Gold-P-N-Gp-P650G-Pg5-Gar1.webp",
+  "external_id": "centrale_memoria-ram-32gb-ddr4-3600mt-s-cl18-kingston-fury-renegade-black",
+  "category_id": "ram",
+  "brand": "Kingston",
+  "name": "Memoria RAM 32GB DDR4 3600MT/s CL18 Kingston Fury Renegade Black",
+  "slug": "memoria-ram-32gb-ddr4-3600mt-s-cl18-kingston-fury-renegade-black",
+  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-32GB-DDR4-3600MT-s-CL18-Kingston-Fury-Renegade-Black_c3poTKU-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$58.980",
-    "Tarjetas de Crédito / Débito": "$62.220"
+    "Transferencia / Efectivo": "$435.470",
+    "Tarjetas de Crédito / Débito": "$459.420"
   },
   "tags": [],
-  "created_at": "2026-04-24 21:46:20",
-  "updated_at": "2026-04-24 21:46:20",
+  "created_at": "2026-04-25 04:54:29",
+  "updated_at": "2026-04-25 04:54:29",
   "prices": [
     {
       "id": 1032,
       "product_id": 1032,
       "store_id": "centrale",
-      "price": 58980,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 435470,
+      "price_normal": 500190,
+      "discount_pct": 13,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-gigabyte-gp-p650g-650w-80plus-gold-cables-fijos/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 21:46:20",
+      "product_url": "https://centrale.cl/producto/memoria-ram-32gb-ddr4-3600mt-s-cl18-kingston-fury-renegade-black/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:54:29",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -38,9 +38,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 58980
+      "date": "2026-04-25",
+      "price": 435470
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

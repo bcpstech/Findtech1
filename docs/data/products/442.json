@@ -1,46 +1,46 @@
 {
   "id": 442,
-  "external_id": "centrale_tarjeta-grafica-msi-rtx-5080-inspire-3x-oc-16gb-gddr7-256-bit",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "Tarjeta Gráfica MSI RTX 5080 INSPIRE 3X OC 16GB GDDR7, 256-bit",
-  "slug": "tarjeta-grafica-msi-rtx-5080-inspire-3x-oc-16gb-gddr7-256-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Msi-Tarjeta-De-Video-Nvidia-Geforce-Rtx-5080-Inspire-3X-Oc-16Gb-Gddr7-2_jN7aybi.webp",
+  "external_id": "alltec_2-9ghz-intel-i5-10400f-4-3ghz-turbo",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "2.9GHz INTEL I5-10400F (4.3GHz TURBO,...",
+  "slug": "2-9ghz-intel-i5-10400f-4-3ghz-turbo",
+  "image_url": "https://images.findtech.cl/products/2-9ghz-intel-i5-10400f-4-3ghz-turbo.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$1.753.310",
-    "Tarjetas de Crédito / Débito": "$1.849.740"
+    "Efectivo/Transferencia": "$119.900",
+    "Tarjeta crédito/débito": "$123.497"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:25",
-  "updated_at": "2026-04-24 22:15:25",
+  "created_at": "2026-04-25 04:46:16",
+  "updated_at": "2026-04-25 04:46:16",
   "prices": [
     {
       "id": 442,
       "product_id": 442,
-      "store_id": "centrale",
-      "price": 1753310,
-      "price_normal": 2070070,
-      "discount_pct": 15,
+      "store_id": "alltec",
+      "price": 119900,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5080-inspire-3x-oc-16gb-gddr7-256-bit/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:25",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/intel/1394-9ghz-intel-i5-10400f-43ghz-turbo-6c12t-12mb-cache-65w-lga1200-10ma-generacion.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:46:16",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 1753310
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 119900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

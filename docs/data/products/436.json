@@ -1,46 +1,46 @@
 {
   "id": 436,
-  "external_id": "centrale_tarjeta-grafica-msi-geforce-rtx-5060-ti-shadow-2x-oc-plus-8gb-gddr7-128-bit",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "Tarjeta Gráfica MSI GeForce RTX 5060 Ti SHADOW 2X OC PLUS 8GB GDDR7 128-bit",
-  "slug": "tarjeta-grafica-msi-geforce-rtx-5060-ti-shadow-2x-oc-plus-8gb-gddr7-128-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-MSI-GeForce-RTX-5060-Ti-SHADOW-2X-OC-PLUS-8GB-GDDR7-128_3mGgXYm.webp",
+  "external_id": "alltec_amd-ryzen-3-4100-mpk-3-8ghz-4-0ghz",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD RYZEN 3 4100 (MPK) 3.8GHz (4.0GHz...",
+  "slug": "amd-ryzen-3-4100-mpk-3-8ghz-4-0ghz",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-3-4100-mpk-3-8ghz-4-0ghz.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$506.250",
-    "Tarjetas de Crédito / Débito": "$534.090"
+    "Efectivo/Transferencia": "$74.500",
+    "Tarjeta crédito/débito": "$76.735"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:25",
-  "updated_at": "2026-04-24 22:15:25",
+  "created_at": "2026-04-25 04:45:33",
+  "updated_at": "2026-04-25 04:45:33",
   "prices": [
     {
       "id": 436,
       "product_id": 436,
-      "store_id": "centrale",
-      "price": 506250,
+      "store_id": "alltec",
+      "price": 74500,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5060-ti-shadow-2x-oc-plus-8gb-gddr7-128-bit/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:25",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/amd/2026-amd-ryzen-3-4100-mpk-38ghz-40ghz-turbo-quad-core-tdp-65w-am4-7123456789012.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:45:33",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 506250
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 74500
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

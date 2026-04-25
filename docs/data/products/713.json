@@ -1,46 +1,46 @@
 {
   "id": 713,
-  "external_id": "centrale_memoria-ram-16gb-ddr5-5600mt-s-cl46-dimm-kingston-value-ram",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM 16GB DDR5 5600MT/s CL46 DIMM Kingston Value Ram",
-  "slug": "memoria-ram-16gb-ddr5-5600mt-s-cl46-dimm-kingston-value-ram",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-16GB-DDR5-5600MT-s-CL46-DIMM-Kingston-Value-Ram-1.webp",
+  "external_id": "cg_gabinete-gamer-esgaming-h60-bk-black",
+  "category_id": "case",
+  "brand": "Genérico",
+  "name": "Gabinete Gamer Esgaming H60-BK Black",
+  "slug": "gabinete-gamer-esgaming-h60-bk-black",
+  "image_url": "https://images.findtech.cl/products/gabinete-gamer-esgaming-h60-bk-black.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$216.480",
-    "Tarjetas de Crédito / Débito": "$228.390"
+    "Efectivo/Transferencia": "$46.540",
+    "Webpay / Tarjeta crédito-débito": "$48.990"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:32",
-  "updated_at": "2026-04-24 22:15:32",
+  "created_at": "2026-04-25 04:54:04",
+  "updated_at": "2026-04-25 04:54:04",
   "prices": [
     {
       "id": 713,
       "product_id": 713,
-      "store_id": "centrale",
-      "price": 216480,
+      "store_id": "cg",
+      "price": 46540,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-5600mt-s-cl46-dimm-kingston-value-ram/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:32",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/gabinetes-gamer/gabinete-gamer-h60-bk-5-fan-argb-1-fan-trasero-2-arriba-2-abajo-m-atx-itx-usb-3-0-usb-2-0-audio-c-remoto-sin-fuente-esgaming/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:54:04",
+      "store_name": "CentralGamer",
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl",
+      "store_rating": 4.1,
+      "review_count": 890
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 216480
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-25",
+      "price": 46540
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

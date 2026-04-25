@@ -1,46 +1,46 @@
 {
   "id": 529,
-  "external_id": "centrale_procesador-amd-ryzen-threadripper-9980x-64-cores-128-threads-3-2-8211-5-4ghz",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen Threadripper 9980X (64 cores, 128 threads, 3.2 &#8211; 5.4GHz)",
-  "slug": "procesador-amd-ryzen-threadripper-9980x-64-cores-128-threads-3-2-8211-5-4ghz",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-Threadripper-9980X-64-cores-128-threads-3.2-5.4G_rOHLqMO.webp",
+  "external_id": "alltec_1024gb-ssd-2-5-sata3-0-6gb-s-hikvision",
+  "category_id": "storage",
+  "brand": "Genérico",
+  "name": "1024GB SSD 2.5\" SATA3.0 6Gb/s HIKVISION...",
+  "slug": "1024gb-ssd-2-5-sata3-0-6gb-s-hikvision",
+  "image_url": "https://images.findtech.cl/products/1024gb-ssd-2-5-sata3-0-6gb-s-hikvision.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$6.790.000",
-    "Tarjetas de Crédito / Débito": "$7.163.450"
+    "Efectivo/Transferencia": "$74.900",
+    "Tarjeta crédito/débito": "$77.147"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:27",
-  "updated_at": "2026-04-24 22:15:27",
+  "created_at": "2026-04-25 04:49:17",
+  "updated_at": "2026-04-25 04:49:17",
   "prices": [
     {
       "id": 529,
       "product_id": 529,
-      "store_id": "centrale",
-      "price": 6790000,
+      "store_id": "alltec",
+      "price": 74900,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-threadripper-9980x-64-cores-128-threads-3-2-5-4ghz/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:27",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/ssd/1914-1024gb-ssd-25-sata30-6gbs-hikvision-v300-v300-1024g-ssd-560-mbs-read520-mbs-write.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:49:17",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 6790000
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 74900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

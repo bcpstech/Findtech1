@@ -1,32 +1,32 @@
 {
   "id": 1099,
-  "external_id": "centrale_gabinete-corporativo-msi-pro-shield-m100p-micro-atx-mini-itx-4-usb-frontales",
-  "category_id": "case",
-  "brand": "MSI",
-  "name": "Gabinete Corporativo MSI PRO SHIELD M100P (Micro ATX, Mini ITX, 4 USB Frontales)",
-  "slug": "gabinete-corporativo-msi-pro-shield-m100p-micro-atx-mini-itx-4-usb-frontales",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Corporativo-MSI-PRO-SHIELD-M100P-Micro-ATX-Mini-ITX-4-USB-Frontales-1.webp",
+  "external_id": "centrale_disco-ssd-2tb-kingston-nv3-m-2-2230-nvme-pcie-4-0-x4-nand-3d",
+  "category_id": "storage",
+  "brand": "Kingston",
+  "name": "Disco SSD 2TB Kingston NV3 M.2 2230 NVMe PCIe 4.0 x4, Nand 3D",
+  "slug": "disco-ssd-2tb-kingston-nv3-m-2-2230-nvme-pcie-4-0-x4-nand-3d",
+  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-2TB-Kingston-NV3-M.2-2230-NVMe-PCIe-4.0-x4-Nand-3D-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$30.890",
-    "Tarjetas de Crédito / Débito": "$32.590"
+    "Transferencia / Efectivo": "$220.340",
+    "Tarjetas de Crédito / Débito": "$232.460"
   },
   "tags": [],
-  "created_at": "2026-04-24 21:46:21",
-  "updated_at": "2026-04-24 21:46:21",
+  "created_at": "2026-04-25 04:54:32",
+  "updated_at": "2026-04-25 04:54:32",
   "prices": [
     {
       "id": 1099,
       "product_id": 1099,
       "store_id": "centrale",
-      "price": 30890,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 220340,
+      "price_normal": 281560,
+      "discount_pct": 22,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-corporativo-msi-pro-shield-m100p-micro-atx-mini-itx-4-usb-frontales/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 21:46:21",
+      "product_url": "https://centrale.cl/producto/disco-ssd-2tb-kingston-nv3-m-2-2230-nvme-pcie-4-0-x4-nand-3d/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:54:32",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -38,9 +38,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 30890
+      "date": "2026-04-25",
+      "price": 220340
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

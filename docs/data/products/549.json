@@ -1,46 +1,46 @@
 {
   "id": 549,
-  "external_id": "centrale_procesador-intel-core-i5-12400f-2-5ghz-18mb-6-cores-lga-1700",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core i5-12400F 2.5Ghz 18Mb 6 Cores LGA 1700",
-  "slug": "procesador-intel-core-i5-12400f-2-5ghz-18mb-6-cores-lga-1700",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i5-12400F-2.5Ghz-18Mb-6-Cores-LGA-1700_JYLZnGg-1.webp",
+  "external_id": "alltec_water-cooling-gamemax-iceburg-240",
+  "category_id": "cooling",
+  "brand": "Genérico",
+  "name": "WATER COOLING GAMEMAX ICEBURG 240",
+  "slug": "water-cooling-gamemax-iceburg-240",
+  "image_url": "https://images.findtech.cl/products/water-cooling-gamemax-iceburg-240.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$156.880",
-    "Tarjetas de Crédito / Débito": "$165.510"
+    "Efectivo/Transferencia": "$68.900",
+    "Tarjeta crédito/débito": "$70.967"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:27",
-  "updated_at": "2026-04-24 22:15:27",
+  "created_at": "2026-04-25 04:50:05",
+  "updated_at": "2026-04-25 04:50:05",
   "prices": [
     {
       "id": 549,
       "product_id": 549,
-      "store_id": "centrale",
-      "price": 156880,
-      "price_normal": 194340,
-      "discount_pct": 19,
+      "store_id": "alltec",
+      "price": 68900,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-12400f-2-5ghz-18mb-6-cores-lga-1700/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:27",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/water-cooling/1477-water-cooling-gamemax-iceburg-240.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:50:05",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 156880
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 68900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

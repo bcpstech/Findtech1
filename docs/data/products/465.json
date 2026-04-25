@@ -1,46 +1,46 @@
 {
   "id": 465,
-  "external_id": "centrale_tarjeta-grafica-msi-geforce-rtx-5060-ventus-2x-white-8gb-gddr7-128-bit",
-  "category_id": "gpu",
+  "external_id": "alltec_m-b-msi-a520m-a-pro-am4-ddr4-ryzen-5000",
+  "category_id": "mobo",
   "brand": "MSI",
-  "name": "Tarjeta Gráfica MSI GeForce RTX 5060 VENTUS 2X White 8GB GDDR7 128-bit",
-  "slug": "tarjeta-grafica-msi-geforce-rtx-5060-ventus-2x-white-8gb-gddr7-128-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-MSI-GeForce-RTX-5060-VENTUS-2X-White-8GB-GDDR7-128-bit.webp",
+  "name": "M.B. MSI A520M-A PRO (AM4) DDR4 (RYZEN 5000)",
+  "slug": "m-b-msi-a520m-a-pro-am4-ddr4-ryzen-5000",
+  "image_url": "https://images.findtech.cl/products/m-b-msi-a520m-a-pro-am4-ddr4-ryzen-5000.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$464.890",
-    "Tarjetas de Crédito / Débito": "$490.460"
+    "Efectivo/Transferencia": "$67.900",
+    "Tarjeta crédito/débito": "$69.937"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:25",
-  "updated_at": "2026-04-24 22:15:25",
+  "created_at": "2026-04-25 04:47:02",
+  "updated_at": "2026-04-25 04:47:02",
   "prices": [
     {
       "id": 465,
       "product_id": 465,
-      "store_id": "centrale",
-      "price": 464890,
-      "price_normal": 528280,
-      "discount_pct": 12,
+      "store_id": "alltec",
+      "price": 67900,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5060-ventus-2x-white-8gb-gddr7-128-bit/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:25",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/para-amd/1677-mb-msi-a520m-a-pro-am4-ddr4-ryzen-5000.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:47:02",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 464890
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 67900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

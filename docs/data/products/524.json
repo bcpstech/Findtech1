@@ -1,46 +1,46 @@
 {
   "id": 524,
-  "external_id": "centrale_procesador-intel-core-ultra-7-265k-20-nucleos-3-9ghz-a-5-5ghz-lga-1851",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core Ultra 7 265K, 20 Núcleos, 3.9Ghz a 5.5Ghz,  LGA 1851",
-  "slug": "procesador-intel-core-ultra-7-265k-20-nucleos-3-9ghz-a-5-5ghz-lga-1851",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-7-265K-20-NC3BAcleos-3.9Ghz-a-5.5Ghz-LGA-1851-1.webp",
+  "external_id": "alltec_512gb-m-2-2280-nvme-pcie-gen3x4-ssd-a-data",
+  "category_id": "storage",
+  "brand": "Genérico",
+  "name": "512GB M.2 2280 NVME PCIe GEN3x4 SSD A-DATA...",
+  "slug": "512gb-m-2-2280-nvme-pcie-gen3x4-ssd-a-data",
+  "image_url": "https://images.findtech.cl/products/512gb-m-2-2280-nvme-pcie-gen3x4-ssd-a-data.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$352.460",
-    "Tarjetas de Crédito / Débito": "$371.850"
+    "Efectivo/Transferencia": "$73.900",
+    "Tarjeta crédito/débito": "$76.117"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:27",
-  "updated_at": "2026-04-24 22:15:27",
+  "created_at": "2026-04-25 04:49:15",
+  "updated_at": "2026-04-25 04:49:15",
   "prices": [
     {
       "id": 524,
       "product_id": 524,
-      "store_id": "centrale",
-      "price": 352460,
-      "price_normal": 393190,
-      "discount_pct": 10,
+      "store_id": "alltec",
+      "price": 73900,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265k-20-nucleos-3-9ghz-a-5-5ghz-lga-1851/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:27",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/ssd/1123-512gb-m2-2280-nvme-pcie-gen3x4-ssd-a-data-xpg-spectrix-s40g-rgb-as40g-512gt-c.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:49:15",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 352460
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 73900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

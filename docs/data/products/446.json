@@ -1,46 +1,46 @@
 {
   "id": 446,
-  "external_id": "centrale_tarjeta-zotac-geforce-rtx5060ti-twin-edge-oc-8gb-gddr6",
-  "category_id": "gpu",
-  "brand": "Zotac",
-  "name": "Tarjeta Zotac GeForce RTX5060Ti Twin Edge OC 8GB GDDR6",
-  "slug": "tarjeta-zotac-geforce-rtx5060ti-twin-edge-oc-8gb-gddr6",
-  "image_url": "https://centrale.cl/wp-content/uploads/Zotac-Geforce-Rtx5060Ti-Twin-Edge-Oc-ZT-B50610H-10A.webp",
+  "external_id": "alltec_2-1ghz-intel-i7-12700f-4-9ghz-turbo",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "2.1GHz INTEL I7-12700F (4.9GHz TURBO,...",
+  "slug": "2-1ghz-intel-i7-12700f-4-9ghz-turbo",
+  "image_url": "https://images.findtech.cl/products/2-1ghz-intel-i7-12700f-4-9ghz-turbo.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$516.760",
-    "Tarjetas de Crédito / Débito": "$545.180"
+    "Efectivo/Transferencia": "$299.900",
+    "Tarjeta crédito/débito": "$308.897"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:25",
-  "updated_at": "2026-04-24 22:15:25",
+  "created_at": "2026-04-25 04:46:17",
+  "updated_at": "2026-04-25 04:46:17",
   "prices": [
     {
       "id": 446,
       "product_id": 446,
-      "store_id": "centrale",
-      "price": 516760,
+      "store_id": "alltec",
+      "price": 299900,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-zotac-geforce-rtx5060ti-twin-edge-oc-8gb-gddr6/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:25",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/intel/1850-1ghz-intel-i7-12700f-49ghz-turbo-12c20t-25mb-cache-65w-lga1700-sin-video-12th-generacion.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:46:17",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 516760
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 299900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

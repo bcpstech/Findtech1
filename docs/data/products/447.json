@@ -1,46 +1,46 @@
 {
   "id": 447,
-  "external_id": "centrale_tarjeta-grafica-zotac-gaming-rtx-5050-8gb-gddr6-128-bits-dual-ventilador",
-  "category_id": "gpu",
-  "brand": "Zotac",
-  "name": "Tarjeta Gráfica Zotac Gaming RTX 5050 8GB GDDR6, 128 bits, Dual Ventilador",
-  "slug": "tarjeta-grafica-zotac-gaming-rtx-5050-8gb-gddr6-128-bits-dual-ventilador",
-  "image_url": "https://centrale.cl/wp-content/uploads/Zotac-Gaming-Geforce-Rtx-5050-Solo-ZT-B50500G-10L.webp",
+  "external_id": "alltec_3-3ghz-intel-i3-12100-4-3ghz-turbo",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "3.3GHz INTEL I3-12100 (4.3GHz TURBO,...",
+  "slug": "3-3ghz-intel-i3-12100-4-3ghz-turbo",
+  "image_url": "https://images.findtech.cl/products/3-3ghz-intel-i3-12100-4-3ghz-turbo.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$341.630",
-    "Tarjetas de Crédito / Débito": "$360.420"
+    "Efectivo/Transferencia": "$129.900",
+    "Tarjeta crédito/débito": "$133.797"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:25",
-  "updated_at": "2026-04-24 22:15:25",
+  "created_at": "2026-04-25 04:46:17",
+  "updated_at": "2026-04-25 04:46:17",
   "prices": [
     {
       "id": 447,
       "product_id": 447,
-      "store_id": "centrale",
-      "price": 341630,
+      "store_id": "alltec",
+      "price": 129900,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-rtx-5050-8gb-gddr6-128-bits-dual-ventilador/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:25",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/intel/1852-3ghz-intel-i3-12100-43ghz-turbo-4c8t-12mb-cache-65w-lga1700-12th-generacion.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:46:17",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 341630
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 129900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

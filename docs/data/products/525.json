@@ -1,46 +1,46 @@
 {
   "id": 525,
-  "external_id": "centrale_procesador-intel-core-ultra-5-225-6p-cores-4e-cores-4-9-ghz-lga1851",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core Ultra 5 225 (6P Cores + 4E Cores, 4.9 GHz, LGA1851)",
-  "slug": "procesador-intel-core-ultra-5-225-6p-cores-4e-cores-4-9-ghz-lga1851",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-5-225-6P-Cores-4E-Cores-4.9-GHz-LGA1851-1.webp",
+  "external_id": "alltec_256gb-ssd-sata3-2-5-lexar-ns100",
+  "category_id": "storage",
+  "brand": "Genérico",
+  "name": "256GB SSD SATA3 2.5 LEXAR NS100...",
+  "slug": "256gb-ssd-sata3-2-5-lexar-ns100",
+  "image_url": "https://images.findtech.cl/products/256gb-ssd-sata3-2-5-lexar-ns100.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$198.500",
-    "Tarjetas de Crédito / Débito": "$209.420"
+    "Efectivo/Transferencia": "$43.900",
+    "Tarjeta crédito/débito": "$45.217"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:27",
-  "updated_at": "2026-04-24 22:15:27",
+  "created_at": "2026-04-25 04:49:16",
+  "updated_at": "2026-04-25 04:49:16",
   "prices": [
     {
       "id": 525,
       "product_id": 525,
-      "store_id": "centrale",
-      "price": 198500,
+      "store_id": "alltec",
+      "price": 43900,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-5-225-6p-cores-4e-cores-4-9-ghz-lga1851/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:27",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/ssd/1177-256gb-ssd-sata3-25-lexar-ns100-lns100-256rbna.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:49:16",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 198500
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 43900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

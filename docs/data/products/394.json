@@ -1,46 +1,46 @@
 {
   "id": 394,
-  "external_id": "cg_procesador-intel-core-ultra-7-265k",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core Ultra 7 265K",
-  "slug": "procesador-intel-core-ultra-7-265k",
-  "image_url": "https://i0.wp.com/centralgamer.cl/wp-content/uploads/2025/03/1_1741895884961.jpg?fit=1500%2C1500&ssl=1",
+  "external_id": "alltec_t-v-pny-nvidia-rtx-a2000-6gb-gddr6",
+  "category_id": "gpu",
+  "brand": "NVIDIA",
+  "name": "T.V. PNY NVIDIA RTX A2000 6GB GDDR6...",
+  "slug": "t-v-pny-nvidia-rtx-a2000-6gb-gddr6",
+  "image_url": "https://images.findtech.cl/products/t-v-pny-nvidia-rtx-a2000-6gb-gddr6.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$375.030",
-    "Webpay / Tarjeta crédito-débito": "$394.758"
+    "Efectivo/Transferencia": "$579.900",
+    "Tarjeta crédito/débito": "$597.297"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:10",
-  "updated_at": "2026-04-24 22:15:10",
+  "created_at": "2026-04-25 04:44:41",
+  "updated_at": "2026-04-25 04:44:41",
   "prices": [
     {
       "id": 394,
       "product_id": 394,
-      "store_id": "cg",
-      "price": 375030,
+      "store_id": "alltec",
+      "price": 579900,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-7-265k-3-9-ghz-20-core-lga1851/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:10",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "product_url": "https://www.alltec.cl/nvidia/2366-tv-pny-nvidia-rtx-a2000-6gb-gddr6-vcnrtxa2000-pb.html",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:44:41",
+      "store_name": "Alltec",
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl",
+      "store_rating": 4.5,
+      "review_count": 2340
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-04-24",
-      "price": 375030
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-25",
+      "price": 579900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }

@@ -1,32 +1,32 @@
 {
   "id": 841,
-  "external_id": "centrale_disco-ssd-1tb-kingston-fury-renegade-pcie-4-0-nvme-con-disipador-heatsink",
-  "category_id": "storage",
-  "brand": "Kingston",
-  "name": "Disco SSD 1TB Kingston Fury Renegade PCIe 4.0 NVMe con Disipador, Heatsink",
-  "slug": "disco-ssd-1tb-kingston-fury-renegade-pcie-4-0-nvme-con-disipador-heatsink",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-1TB-Kingston-Fury-Renegade-PCIe-4.0-NVMe-con-Disipador-Heatsi_Qusc4UO.webp",
+  "external_id": "centrale_procesador-intel-core-i5-12400f-2-5ghz-18mb-6-cores-lga-1700",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i5-12400F 2.5Ghz 18Mb 6 Cores LGA 1700",
+  "slug": "procesador-intel-core-i5-12400f-2-5ghz-18mb-6-cores-lga-1700",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i5-12400F-2.5Ghz-18Mb-6-Cores-LGA-1700_JYLZnGg-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$198.900",
-    "Tarjetas de Crédito / Débito": "$209.840"
+    "Transferencia / Efectivo": "$156.880",
+    "Tarjetas de Crédito / Débito": "$165.510"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:35",
-  "updated_at": "2026-04-24 22:15:35",
+  "created_at": "2026-04-25 04:54:25",
+  "updated_at": "2026-04-25 04:54:25",
   "prices": [
     {
       "id": 841,
       "product_id": 841,
       "store_id": "centrale",
-      "price": 198900,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 156880,
+      "price_normal": 194340,
+      "discount_pct": 19,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-1tb-kingston-fury-renegade-pcie-4-0-nvme-con-disipador-heatsink/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:35",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-12400f-2-5ghz-18mb-6-cores-lga-1700/",
+      "price_date": "2026-04-25",
+      "scraped_at": "2026-04-25 04:54:25",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -38,9 +38,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 198900
+      "date": "2026-04-25",
+      "price": 156880
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-25"
 }
