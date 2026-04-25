@@ -66,7 +66,7 @@ class CentraleScraper extends BaseScraper {
           const regularPrice = regularPriceRaw > priceCash ? regularPriceRaw : null;
 
           this.stats.found++;
-          this.saveProduct(
+          await this.saveProductEnriched(
             {
               name:     p.name,
               category: catId,
