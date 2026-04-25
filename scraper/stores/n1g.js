@@ -7,6 +7,17 @@ const cheerio = require('cheerio');
 
 const BASE_URL = 'https://n1g.cl';
 
+const PROXY_URL = process.env.CF_PROXY_URL || '';
+const PROXY_SECRET = process.env.CF_PROXY_SECRET || '';
+
+function getUrl(targetUrl) {
+  if (PROXY_URL) {
+    return `${PROXY_URL}?url=${encodeURIComponent(targetUrl)}&secret=${PROXY_SECRET}`;
+  }
+  return targetUrl;
+}
+
+
 const CATEGORIES = [
   // GPU — subcategorías específicas
   { url: '/Home/111-amd',                       catId: 'gpu',     minPrice: 80000  },
@@ -66,7 +77,8 @@ class N1GScraper extends BaseScraper {
     let page = 1;
 
     while (page <= 20) {
-      const url = `${BASE_URL}${categoryPath}?page=${page}`;
+      const directUrl = `${BASE_URL}${categoryPath}?page=${page}`;
+      const url = getUrl(directUrl);
       this.log('info', `[n1g] ${catId} ${categoryPath} pág ${page}`);
 
       try {
@@ -89,7 +101,7 @@ class N1GScraper extends BaseScraper {
         }
 
         let newInPage = 0;
-        items.each((_, el) => {
+        for (const el of items.toArray()) {
           try {
             const $el = $(el);
             const productUrl = $el.find('h3.product-title a, h3.h3.product-title a').attr('href')
@@ -117,7 +129,7 @@ class N1GScraper extends BaseScraper {
 
             this.stats.found++;
             newInPage++;
-            this.saveProduct(
+            await this.saveProductEnriched(
               { name, category: catId, brand, imageUrl,
                 specs: {
                   'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
@@ -133,7 +145,7 @@ class N1GScraper extends BaseScraper {
           } catch (err) {
             this.log('warn', `[n1g] Error item: ${err.message}`);
           }
-        });
+        }
 
         this.log('info', `[n1g] ✓ ${catId} pág ${page}: ${newInPage} nuevos`);
         if (items.length < 12) break;
