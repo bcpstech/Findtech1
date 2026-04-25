@@ -1,7 +1,6 @@
 /**
  * scraper/base-scraper.js
  * Clase base con axios + cheerio (sin Puppeteer/Chromium)
- * Mucho más rápido y liviano — instalación en segundos.
  */
 
 require('dotenv').config();
@@ -10,20 +9,16 @@ const cheerio = require('cheerio');
 const { upsertProduct, upsertPrice, logScrape } = require('../db/database');
 const logger  = require('./logger');
 const { mirrorImage } = require('./r2-images');
-const { fetchIcecatData } = require('./icecat');
 
-// Configurar reintentos automáticos
 let axiosRetry;
 try { axiosRetry = require('axios-retry'); } catch(e) {}
 
 const TIMEOUT   = parseInt(process.env.SCRAPE_TIMEOUT   || 60000);
-const USE_ICECAT = process.env.USE_ICECAT !== 'false';
-const USE_R2 = process.env.R2_KEY_ID ? true : false; // activado por defecto
 const DELAY_MIN = parseInt(process.env.SCRAPE_DELAY_MIN || 800);
 const DELAY_MAX = parseInt(process.env.SCRAPE_DELAY_MAX || 2500);
 const MAX_RETRY = parseInt(process.env.SCRAPE_MAX_RETRIES || 3);
+const USE_R2    = !!process.env.R2_KEY_ID;
 
-// Headers realistas para evitar bloqueos
 const DEFAULT_HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
   'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
@@ -43,7 +38,6 @@ class BaseScraper {
     this.storeName = storeName;
     this.stats     = { found: 0, updated: 0, errors: 0 };
 
-    // Crear instancia axios con reintentos
     this.client = axios.create({
       timeout: TIMEOUT,
       headers: DEFAULT_HEADERS,
@@ -60,7 +54,6 @@ class BaseScraper {
     }
   }
 
-  // ── Utilidades ──────────────────────────────────────
   delay(min = DELAY_MIN, max = DELAY_MAX) {
     const ms = Math.floor(Math.random() * (max - min + 1)) + min;
     return new Promise(r => setTimeout(r, ms));
@@ -74,7 +67,6 @@ class BaseScraper {
     if (!raw) return null;
     const cleaned = String(raw).replace(/[^\d]/g, '');
     const num = parseInt(cleaned, 10);
-    // Filtrar precios inválidos (< $1.000 o > $100.000.000)
     if (isNaN(num) || num < 1000 || num > 100000000) return null;
     return num;
   }
@@ -102,7 +94,6 @@ class BaseScraper {
     return 'other';
   }
 
-  // ── Fetch HTML ──────────────────────────────────────
   async fetchPage(url) {
     try {
       const res = await this.client.get(url);
@@ -113,13 +104,13 @@ class BaseScraper {
     }
   }
 
-  // ── Guardar en DB ───────────────────────────────────
   async saveProductWithR2(product, price) {
-    // Mirror imagen a R2 si está configurado
     if (USE_R2 && product.imageUrl) {
-      const slug = this.slugify(product.name);
-      const r2Url = await mirrorImage(product.imageUrl, slug);
-      if (r2Url) product.imageUrl = r2Url;
+      try {
+        const slug = this.slugify(product.name);
+        const r2Url = await mirrorImage(product.imageUrl, slug);
+        if (r2Url) product.imageUrl = r2Url;
+      } catch(e) {}
     }
     return this.saveProduct(product, price);
   }
@@ -164,22 +155,21 @@ class BaseScraper {
     return brands.find(b => upper.includes(b.toUpperCase())) || 'Genérico';
   }
 
-  // ── Ejecutar scraping completo ──────────────────────
   async run() {
     const startTime = Date.now();
     const logId = logScrape(this.storeId, 'running');
-    this.log('info', `⬇️  Iniciando scraping (axios+cheerio)`);
+    this.log('info', `Iniciando scraping (axios+cheerio)`);
 
     try {
       await this.scrapeAll();
       const duration = Date.now() - startTime;
       logScrape(this.storeId, 'success', { ...this.stats, duration, logId });
-      this.log('info', `✅ Completado en ${(duration/1000).toFixed(1)}s — ${this.stats.updated} productos`);
+      this.log('info', `Completado en ${(duration/1000).toFixed(1)}s - ${this.stats.updated} productos`);
       return { success: true, ...this.stats, duration };
     } catch (err) {
       const duration = Date.now() - startTime;
       logScrape(this.storeId, 'failed', { ...this.stats, errorDetail: err.message, duration, logId });
-      this.log('error', `❌ Error fatal: ${err.message}`);
+      this.log('error', `Error fatal: ${err.message}`);
       return { success: false, error: err.message, ...this.stats };
     }
   }
