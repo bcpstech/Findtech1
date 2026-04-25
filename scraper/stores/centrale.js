@@ -3,6 +3,9 @@
  * WooCommerce REST API — centrale.cl
  * NOTA: La API devuelve precio Transferencia/Efectivo directamente.
  *       Precio tarjeta = precio * 1.055 (+5.5% recargo)
+ *
+ * IMÁGENES: Centrale bloquea descarga masiva con 403. Se guarda la URL
+ * original de WordPress — es pública y accesible desde el frontend.
  */
 const BaseScraper = require('../base-scraper');
 
@@ -21,7 +24,6 @@ const CATEGORIES = [
   { slug: 'gabinetes-para-pc',          catId: 'case'    },
 ];
 
-// API entrega precio efectivo. Tarjeta = efectivo * 1.055
 const CARD_FACTOR = 1.055;
 
 class CentraleScraper extends BaseScraper {
@@ -55,23 +57,23 @@ class CentraleScraper extends BaseScraper {
         if (!products?.length) break;
 
         for (const p of products) {
-          // API entrega precio efectivo/transferencia directamente
           const priceCash = parseInt(p.prices?.price);
           if (!priceCash || priceCash < 1000) continue;
 
-          // Precio tarjeta = efectivo + 5.5%
           const priceCard = Math.round(priceCash * CARD_FACTOR / 10) * 10;
-
           const regularPriceRaw = parseInt(p.prices?.regular_price);
           const regularPrice = regularPriceRaw > priceCash ? regularPriceRaw : null;
 
+          // FIX: usar saveProduct directamente en vez de saveProductWithR2
+          // Centrale bloquea descarga de imágenes con 403 — guardamos URL original
+          // que sí es pública y funciona desde el navegador del usuario final.
           this.stats.found++;
-          await this.saveProductWithR2(
+          this.saveProduct(
             {
               name:     p.name,
               category: catId,
               brand:    p.brands?.[0]?.name || this.extractBrand(p.name),
-              imageUrl: p.images?.[0]?.src || null,
+              imageUrl: p.images?.[0]?.src || null,  // URL original de WordPress
               specs: {
                 'Transferencia / Efectivo':      `$${priceCash.toLocaleString('es-CL')}`,
                 'Tarjetas de Crédito / Débito':  `$${priceCard.toLocaleString('es-CL')}`,
