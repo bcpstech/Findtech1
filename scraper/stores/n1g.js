@@ -1,6 +1,6 @@
 /**
  * scraper/stores/n1g.js
- * N1G PrestaShop — categorías específicas verificadas
+ * N1G PrestaShop — con specs técnicas desde página de detalle
  */
 const BaseScraper = require('../base-scraper');
 const cheerio = require('cheerio');
@@ -10,9 +10,7 @@ const PROXY_URL    = process.env.CF_PROXY_URL    || '';
 const PROXY_SECRET = process.env.CF_PROXY_SECRET || '';
 
 function getUrl(targetUrl) {
-  if (PROXY_URL) {
-    return `${PROXY_URL}?url=${encodeURIComponent(targetUrl)}&secret=${PROXY_SECRET}`;
-  }
+  if (PROXY_URL) return `${PROXY_URL}?url=${encodeURIComponent(targetUrl)}&secret=${PROXY_SECRET}`;
   return targetUrl;
 }
 
@@ -32,41 +30,22 @@ const CATEGORIES = [
 ];
 
 const EXCLUDE_KEYWORDS = [
-  'cable', 'adaptador', 'bracket', 'tornillo', 'pasta termica', 'pasta térmica',
-  'soporte', 'accesorio', 'herramienta', 'limpiador', 'teclado', 'mouse',
-  'auricular', 'headset', 'parlante', 'silla', 'escritorio', 'pad', 'mousepad',
-  'webcam', 'microfono', 'micrófono', 'joystick', 'cargador', 'hub usb',
-  'thermal grease', 'thermal pad', 'backplate', 'riser', 'extension pcie',
-  'ventilador', 'fan ', ' fan', 'rgb strip', 'tira led',
+  'cable','adaptador','bracket','tornillo','pasta termica','pasta térmica',
+  'soporte','accesorio','herramienta','limpiador','teclado','mouse',
+  'auricular','headset','parlante','silla','escritorio','pad','mousepad',
+  'webcam','microfono','micrófono','joystick','cargador','hub usb',
+  'thermal grease','thermal pad','backplate','riser','extension pcie',
+  'ventilador','fan ',' fan','rgb strip','tira led',
 ];
 
-// Frases PrestaShop que indican sin stock
-const OUT_OF_STOCK_PHRASES = [
-  'sin stock', 'agotado', 'out of stock', 'no disponible',
-  'sold out', 'unavailable', 'no hay stock',
-];
-
+const OUT_OF_STOCK_PHRASES = ['sin stock','agotado','out of stock','no disponible','sold out','unavailable'];
 const CARD_SURCHARGE = 1.03;
 
 function detectStock($el) {
-  // Clase específica de PrestaShop para sin stock
-  if ($el.find('.product-unavailable').length) return 'out_of_stock';
-
-  // Otras clases comunes
-  if ($el.find('.out-of-stock, .product-out-of-stock, .label-out-of-stock').length) {
-    return 'out_of_stock';
-  }
-
-  // Texto de disponibilidad
-  const availText = $el.find(
-    '.availability, .product-availability, [class*="stock"], .label-danger, .availability-ooc'
-  ).text().toLowerCase();
-  if (OUT_OF_STOCK_PHRASES.some(p => availText.includes(p))) return 'out_of_stock';
-
-  // Texto completo del card
-  const fullText = $el.text().toLowerCase();
-  if (OUT_OF_STOCK_PHRASES.some(p => fullText.includes(p))) return 'out_of_stock';
-
+  if ($el.find('.product-unavailable,.out-of-stock,.product-out-of-stock,.label-out-of-stock').length) return 'out_of_stock';
+  const txt = $el.find('.availability,.product-availability,[class*="stock"],.label-danger,.availability-ooc').text().toLowerCase()
+            + $el.text().toLowerCase();
+  if (OUT_OF_STOCK_PHRASES.some(p => txt.includes(p))) return 'out_of_stock';
   return 'in_stock';
 }
 
@@ -74,8 +53,7 @@ class N1GScraper extends BaseScraper {
   constructor() { super('n1g', 'N1G'); }
 
   isExcluded(name) {
-    const lower = name.toLowerCase();
-    return EXCLUDE_KEYWORDS.some(kw => lower.includes(kw));
+    return EXCLUDE_KEYWORDS.some(kw => name.toLowerCase().includes(kw));
   }
 
   async scrapeAll() {
@@ -93,30 +71,22 @@ class N1GScraper extends BaseScraper {
 
   async scrapeCategory({ url: categoryPath, catId, minPrice = 1000 }) {
     let page = 1;
-
     while (page <= 20) {
-      const directUrl = `${BASE_URL}${categoryPath}?page=${page}`;
-      const url = getUrl(directUrl);
+      const url = getUrl(`${BASE_URL}${categoryPath}?page=${page}`);
       this.log('info', `[n1g] ${catId} ${categoryPath} pág ${page}`);
-
       try {
         const res = await this.client.get(url, {
           headers: {
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-            'Accept-Language': 'es-CL,es;q=0.9,en-US;q=0.8',
+            'Accept-Language': 'es-CL,es;q=0.9',
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
             'Referer': 'https://n1g.cl/Home/',
-            'Cache-Control': 'max-age=0',
           }
         });
 
         const $ = cheerio.load(res.data);
         const items = $('article.product-miniature');
-
-        if (!items.length) {
-          this.log('info', `[n1g] Sin productos pág ${page}`);
-          break;
-        }
+        if (!items.length) { this.log('info', `[n1g] Sin productos pág ${page}`); break; }
 
         let newInPage = 0;
         for (const el of items.toArray()) {
@@ -128,35 +98,35 @@ class N1GScraper extends BaseScraper {
             this.seenUrls.add(productUrl);
 
             const name = $el.find('h3.product-title a, h3.h3.product-title a').text().trim();
-            if (!name || name.length < 3) continue;
-            if (this.isExcluded(name)) continue;
+            if (!name || name.length < 3 || this.isExcluded(name)) continue;
 
             const priceRaw = $el.find('.price').first().text().trim();
             const price = this.parseN1GPrice(priceRaw);
             if (!price || price < minPrice) continue;
 
-            // FIX: detección robusta de stock
             const stock = detectStock($el);
-
-            const oldRaw = $el.find('.regular-price, .old-price').first().text().trim();
+            const oldRaw = $el.find('.regular-price,.old-price').first().text().trim();
             const regularPrice = oldRaw ? this.parseN1GPrice(oldRaw) : null;
             const priceCard = Math.round(price * CARD_SURCHARGE);
-
-            const brand = $el.find('.pl_manufacturer strong').text().trim()
-                       || this.extractBrand(name);
+            const brand = $el.find('.pl_manufacturer strong').text().trim() || this.extractBrand(name);
             const imageUrl = $el.find('.product-image-container img').attr('data-src')
                           || $el.find('.product-image-container img').attr('src')
                           || $el.find('img').first().attr('src') || null;
+
+            // Specs técnicas desde página de detalle (solo si es producto nuevo)
+            let techSpecs = {};
+            if (productUrl) {
+              techSpecs = await this.fetchProductSpecs(productUrl, getUrl);
+              await this.delay(300, 600); // pequeña pausa entre detalle y siguiente item
+            }
 
             this.stats.found++;
             newInPage++;
             await this.saveProductWithR2(
               {
-                name,
-                category: catId,
-                brand,
-                imageUrl,
+                name, category: catId, brand, imageUrl,
                 specs: {
+                  ...techSpecs,
                   'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
                   'Tarjeta crédito/débito': `$${priceCard.toLocaleString('es-CL')}`,
                 }
@@ -165,7 +135,7 @@ class N1GScraper extends BaseScraper {
                 current:  price,
                 normal:   regularPrice > price ? regularPrice : null,
                 discount: regularPrice > price ? Math.round((1 - price / regularPrice) * 100) : null,
-                stock,    // FIX: valor real
+                stock,
                 url:      productUrl || null,
               }
             );
@@ -178,7 +148,6 @@ class N1GScraper extends BaseScraper {
         if (items.length < 12) break;
         page++;
         await this.delay(1000, 2000);
-
       } catch (err) {
         this.stats.errors++;
         this.log('warn', `[n1g] Error HTTP ${categoryPath} pág ${page}: ${err.message}`);
@@ -190,7 +159,7 @@ class N1GScraper extends BaseScraper {
 
   parseN1GPrice(str) {
     if (!str) return null;
-    const clean = str.replace(/\$/g, '').replace(/\./g, '').replace(/\s/g, '');
+    const clean = str.replace(/\$/g,'').replace(/\./g,'').replace(/\s/g,'');
     const num = parseInt(clean);
     if (isNaN(num) || num < 1000 || num > 100000000) return null;
     return num;
@@ -198,9 +167,6 @@ class N1GScraper extends BaseScraper {
 }
 
 if (require.main === module) {
-  new N1GScraper().run().then(r => {
-    console.log('N1G:', r);
-    process.exit(r.success ? 0 : 1);
-  });
+  new N1GScraper().run().then(r => { console.log('N1G:', r); process.exit(r.success ? 0 : 1); });
 }
 module.exports = N1GScraper;
