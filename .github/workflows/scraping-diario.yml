@@ -67,6 +67,15 @@ jobs:
         if: ${{ github.event.inputs.store == '' || github.event.inputs.store == 'pcexpress' }}
         run: node scraper/stores/pcexpress.js || echo "PC-Express fallo, continuando..."
 
+      - name: Debug stock en DB
+        run: |
+          node -e "
+          const {getDb} = require('./db/database');
+          const db = getDb();
+          const rows = db.prepare('SELECT store_id, stock, COUNT(*) as cnt FROM prices GROUP BY store_id, stock ORDER BY store_id').all();
+          console.table(rows);
+          "
+          
       - name: Exportar JSON
         run: node scripts/export-json.js
 
