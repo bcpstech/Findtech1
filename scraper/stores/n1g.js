@@ -129,7 +129,7 @@ class N1GScraper extends BaseScraper {
 
             this.stats.found++;
             newInPage++;
-            await this.saveProductEnriched(
+            await this.saveProductWithR2(
               { name, category: catId, brand, imageUrl,
                 specs: {
                   'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
