@@ -1,15 +1,11 @@
 /**
  * scraper/stores/centrale.js
- * WooCommerce REST API — centrale.cl
- * NOTA: La API devuelve precio Transferencia/Efectivo directamente.
- *       Precio tarjeta = precio * 1.055 (+5.5% recargo)
- *
- * IMÁGENES: Centrale bloquea descarga masiva con 403. Se guarda la URL
- * original de WordPress — es pública y accesible desde el frontend.
+ * WooCommerce REST API — specs desde p.attributes
  */
 const BaseScraper = require('../base-scraper');
 
-const BASE_API = 'https://centrale.cl/wp-json/wc/store/v1/products';
+const BASE_API    = 'https://centrale.cl/wp-json/wc/store/v1/products';
+const CARD_FACTOR = 1.055;
 
 const CATEGORIES = [
   { slug: 'tarjetas-graficas-para-pc',  catId: 'gpu'     },
@@ -23,8 +19,6 @@ const CATEGORIES = [
   { slug: 'fuentes-de-poder-para-pc',   catId: 'psu'     },
   { slug: 'gabinetes-para-pc',          catId: 'case'    },
 ];
-
-const CARD_FACTOR = 1.055;
 
 class CentraleScraper extends BaseScraper {
   constructor() { super('centrale', 'Centrale'); }
@@ -44,37 +38,33 @@ class CentraleScraper extends BaseScraper {
   async scrapeCategory(slug, catId) {
     let page = 1;
     const PER_PAGE = 100;
-
     while (page <= 20) {
       const url = `${BASE_API}?category=${slug}&per_page=${PER_PAGE}&page=${page}`;
       this.log('info', `[centrale] ${catId} pág ${page}`);
-
       try {
-        const res = await this.client.get(url, {
-          headers: { 'Accept': 'application/json' }
-        });
+        const res = await this.client.get(url, { headers: { Accept: 'application/json' } });
         const products = res.data;
         if (!products?.length) break;
 
         for (const p of products) {
           const priceCash = parseInt(p.prices?.price);
           if (!priceCash || priceCash < 1000) continue;
-
           const priceCard = Math.round(priceCash * CARD_FACTOR / 10) * 10;
-          const regularPriceRaw = parseInt(p.prices?.regular_price);
-          const regularPrice = regularPriceRaw > priceCash ? regularPriceRaw : null;
+          const regularRaw = parseInt(p.prices?.regular_price);
+          const regularPrice = regularRaw > priceCash ? regularRaw : null;
 
-          // FIX: usar saveProduct directamente en vez de saveProductWithR2
-          // Centrale bloquea descarga de imágenes con 403 — guardamos URL original
-          // que sí es pública y funciona desde el navegador del usuario final.
+          // Specs técnicas desde atributos WooCommerce
+          const techSpecs = this.extractWooSpecs(p);
+
           this.stats.found++;
           this.saveProduct(
             {
               name:     p.name,
               category: catId,
               brand:    p.brands?.[0]?.name || this.extractBrand(p.name),
-              imageUrl: p.images?.[0]?.src || null,  // URL original de WordPress
+              imageUrl: p.images?.[0]?.src || null,
               specs: {
+                ...techSpecs,
                 'Transferencia / Efectivo':      `$${priceCash.toLocaleString('es-CL')}`,
                 'Tarjetas de Crédito / Débito':  `$${priceCard.toLocaleString('es-CL')}`,
               }
@@ -82,19 +72,15 @@ class CentraleScraper extends BaseScraper {
             {
               current:  priceCash,
               normal:   regularPrice,
-              discount: regularPrice
-                ? Math.round((1 - priceCash / regularPrice) * 100)
-                : null,
+              discount: regularPrice ? Math.round((1 - priceCash / regularPrice) * 100) : null,
               stock:    p.is_in_stock ? 'in_stock' : 'out_of_stock',
               url:      p.permalink || null,
             }
           );
         }
-
         if (products.length < PER_PAGE) break;
         page++;
         await this.delay(500, 1000);
-
       } catch (err) {
         this.stats.errors++;
         this.log('warn', `[centrale] Error API ${slug} pág ${page}: ${err.message}`);
@@ -106,9 +92,6 @@ class CentraleScraper extends BaseScraper {
 }
 
 if (require.main === module) {
-  new CentraleScraper().run().then(r => {
-    console.log('Centrale:', r);
-    process.exit(r.success ? 0 : 1);
-  });
+  new CentraleScraper().run().then(r => { console.log('Centrale:', r); process.exit(r.success ? 0 : 1); });
 }
 module.exports = CentraleScraper;
