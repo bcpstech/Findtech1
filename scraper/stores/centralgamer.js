@@ -67,7 +67,7 @@ class CentralGamerScraper extends BaseScraper {
             : null;
 
           this.stats.found++;
-          await this.saveProductEnriched(
+          await this.saveProductWithR2(
             {
               name:     p.name,
               category: catId,
