@@ -1,6 +1,8 @@
 /**
  * scraper/stores/alltec.js
- * Categorías específicas verificadas — sin accesorios
+ * Alltec usa PrestaShop pero los productos se cargan via AJAX.
+ * Solución: usar el endpoint AJAX interno de PrestaShop ps_facetedsearch
+ * o el endpoint de categorías con parámetro ajax=1
  */
 const BaseScraper = require('../base-scraper');
 const cheerio = require('cheerio');
@@ -8,30 +10,22 @@ const cheerio = require('cheerio');
 const BASE_URL = 'https://www.alltec.cl';
 
 const CATEGORIES = [
-  // GPU
-  { url: '/63-amd',                        catId: 'gpu'     },
-  { url: '/64-nvidia',                     catId: 'gpu'     },
-  // CPU
-  { url: '/28-amd',                        catId: 'cpu'     },
-  { url: '/29-intel',                      catId: 'cpu'     },
-  // Placas Madre
-  { url: '/31-para-amd',                   catId: 'mobo'    },
-  { url: '/79-para-intel',                 catId: 'mobo'    },
-  // RAM
-  { url: '/37-ddr4',                       catId: 'ram'     },
-  { url: '/118-ddr5',                      catId: 'ram'     },
-  // Almacenamiento
-  { url: '/34-ssd',                        catId: 'storage' },
-  { url: '/33-mecanicos-rigidos',          catId: 'storage' },
-  // Refrigeración
-  { url: '/92-water-cooling',              catId: 'cooling' },
-  { url: '/93-cpu-cooler',                 catId: 'cooling' },
-  // Fuentes
-  { url: '/38-potencia-nominal-estandar',  catId: 'psu'     },
-  { url: '/80-potencia-real-certificadas', catId: 'psu'     },
-  // Gabinetes
-  { url: '/81-sin-fuente-de-poder',        catId: 'case'    },
-  { url: '/82-con-fuente-de-poder',        catId: 'case'    },
+  { id: 63,  catId: 'gpu',     name: 'GPU AMD'       },
+  { id: 64,  catId: 'gpu',     name: 'GPU NVIDIA'    },
+  { id: 28,  catId: 'cpu',     name: 'CPU AMD'       },
+  { id: 29,  catId: 'cpu',     name: 'CPU Intel'     },
+  { id: 31,  catId: 'mobo',    name: 'Mobo AMD'      },
+  { id: 79,  catId: 'mobo',    name: 'Mobo Intel'    },
+  { id: 37,  catId: 'ram',     name: 'RAM DDR4'      },
+  { id: 118, catId: 'ram',     name: 'RAM DDR5'      },
+  { id: 34,  catId: 'storage', name: 'SSD'           },
+  { id: 33,  catId: 'storage', name: 'HDD'           },
+  { id: 92,  catId: 'cooling', name: 'Water Cooling' },
+  { id: 93,  catId: 'cooling', name: 'CPU Cooler'    },
+  { id: 38,  catId: 'psu',     name: 'PSU Estándar'  },
+  { id: 80,  catId: 'psu',     name: 'PSU Cert.'     },
+  { id: 81,  catId: 'case',    name: 'Gabinete S/F'  },
+  { id: 82,  catId: 'case',    name: 'Gabinete C/F'  },
 ];
 
 const CARD_SURCHARGE = 1.03;
@@ -41,95 +35,124 @@ class AlltecScraper extends BaseScraper {
 
   async scrapeAll() {
     this.seenUrls = new Set();
-    for (const { url, catId } of CATEGORIES) {
+    for (const cat of CATEGORIES) {
       try {
-        await this.scrapeCategory(url, catId);
-        await this.delay(1500, 2500);
+        await this.scrapeCategoryAjax(cat);
+        await this.delay(2000, 3000);
       } catch (err) {
         this.stats.errors++;
-        this.log('warn', `Error ${catId} (${url}): ${err.message}`);
+        this.log('warn', `Error ${cat.name}: ${err.message}`);
       }
     }
   }
 
-  async scrapeCategory(categoryPath, catId) {
-    let page = 1;
+  async scrapeCategoryAjax({ id, catId, name }) {
+    // Intentar endpoint AJAX de PrestaShop
+    // PrestaShop expone los productos via módulo ps_facetedsearch o via controller category con ajax
+    const endpoints = [
+      // Endpoint 1: controller category con ajax
+      `${BASE_URL}/index.php?fc=module&module=ps_facetedsearch&action=search&id_category=${id}&resultsPerPage=48&page=1`,
+      // Endpoint 2: API REST de PrestaShop (sin key, solo lectura pública)  
+      `${BASE_URL}/api/products?filter[id_category_default]=${id}&output_format=JSON&display=[id,name,price,link_rewrite]&limit=50`,
+      // Endpoint 3: categoria normal con parámetro extra
+      `${BASE_URL}/${id}?n=48`,
+    ];
 
-    while (page <= 20) {
-      const url = `${BASE_URL}${categoryPath}?page=${page}`;
-      this.log('info', `[alltec] ${catId} ${categoryPath} pág ${page}`);
+    let found = false;
 
+    for (const url of endpoints) {
       try {
+        this.log('info', `[alltec] ${name} probando: ${url.slice(0,80)}`);
         const res = await this.client.get(url, {
           headers: {
-            'Accept': 'text/html,application/xhtml+xml',
-            'Accept-Language': 'es-CL,es;q=0.9',
+            'Accept': 'application/json, text/html, */*',
+            'X-Requested-With': 'XMLHttpRequest',
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-            'Referer': 'https://www.alltec.cl/',
-          }
+            'Referer': `${BASE_URL}/`,
+          },
+          timeout: 15000,
         });
 
-        const $ = cheerio.load(res.data);
-        const items = $('ul.products li');
+        const ct = res.headers['content-type'] || '';
 
-        if (!items.length) {
-          this.log('info', `[alltec] Sin productos pág ${page} — li:${$('li').length} ul:${$('ul').length}`);
-          break;
+        if (ct.includes('json')) {
+          // Respuesta JSON
+          const data = res.data;
+          const prods = data.products || data.psxCart?.products || data.cart?.products || [];
+          if (prods.length) {
+            this.log('info', `[alltec] ${name} JSON: ${prods.length} productos`);
+            for (const p of prods) {
+              const price = parseInt(p.price) || parseInt(p.price_amount) || 0;
+              if (!price) continue;
+              const priceCard = Math.round(price * CARD_SURCHARGE);
+              this.stats.found++;
+              this.saveProduct(
+                { name: p.name, category: catId, brand: this.extractBrand(p.name),
+                  imageUrl: p.cover?.bySize?.home_default?.url || p.image?.url || null,
+                  specs: {
+                    'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
+                    'Tarjeta crédito/débito': `$${priceCard.toLocaleString('es-CL')}`,
+                  }
+                },
+                { current: price, normal: null, discount: null,
+                  stock: 'in_stock',
+                  url: `${BASE_URL}/${p.id}-${p.link_rewrite}.html` }
+              );
+            }
+            found = true;
+            break;
+          }
+        } else {
+          // Respuesta HTML — parsear
+          const $ = cheerio.load(res.data);
+          const items = $('ul.products li, .product-miniature, [class*="product-item"]');
+          if (items.length) {
+            this.log('info', `[alltec] ${name} HTML: ${items.length} items`);
+            let newItems = 0;
+            items.each((_, el) => {
+              const $el = $(el);
+              const productUrl = $el.find('a').first().attr('href') || '';
+              if (this.seenUrls.has(productUrl)) return;
+              this.seenUrls.add(productUrl);
+
+              const pname = $el.find('.product-name, h3 a, h4 a').first().text().trim()
+                         || $el.find('a').first().attr('title') || '';
+              if (!pname) return;
+
+              const priceRaw = $el.find('.price, [class*="price"]').first().text().trim();
+              const price = this.parseAlltecPrice(priceRaw);
+              if (!price) return;
+
+              const priceCard = Math.round(price * CARD_SURCHARGE);
+              const imageUrl = $el.find('img').first().attr('src')
+                            || $el.find('img').first().attr('data-src') || null;
+
+              this.stats.found++;
+              newItems++;
+              this.saveProduct(
+                { name: pname, category: catId, brand: this.extractBrand(pname), imageUrl,
+                  specs: {
+                    'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
+                    'Tarjeta crédito/débito': `$${priceCard.toLocaleString('es-CL')}`,
+                  }
+                },
+                { current: price, normal: null, discount: null,
+                  stock: 'in_stock', url: productUrl }
+              );
+            });
+            if (newItems > 0) { found = true; break; }
+          }
         }
-
-        let newInPage = 0;
-        items.each((_, el) => {
-          try {
-            const $el = $(el);
-            const productUrl = $el.find('a.products-block-image').attr('href')
-                            || $el.find('a').first().attr('href') || '';
-            if (this.seenUrls.has(productUrl)) return;
-            this.seenUrls.add(productUrl);
-
-            const name = $el.find('.product-name').text().trim()
-                      || $el.find('a.products-block-image').attr('title') || '';
-            if (!name) return;
-
-            const priceRaw = $el.find('.price-box span.price, .price').first().text().trim();
-            const price = this.parseAlltecPrice(priceRaw);
-            if (!price || price < 1000) return;
-
-            const oldRaw = $el.find('.price-box .old-price, .regular-price').text().trim();
-            const regularPrice = oldRaw ? this.parseAlltecPrice(oldRaw) : null;
-            const priceCard = Math.round(price * CARD_SURCHARGE);
-            const imageUrl = $el.find('img.img-responsive').attr('src')
-                          || $el.find('img').first().attr('src') || null;
-
-            this.stats.found++;
-            newInPage++;
-            this.saveProduct(
-              { name, category: catId, brand: this.extractBrand(name), imageUrl,
-                specs: {
-                  'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
-                  'Tarjeta crédito/débito': `$${priceCard.toLocaleString('es-CL')}`,
-                }
-              },
-              { current: price, normal: regularPrice > price ? regularPrice : null,
-                discount: regularPrice > price ? Math.round((1-price/regularPrice)*100) : null,
-                stock: 'in_stock', url: productUrl || null }
-            );
-          } catch (err) {
-            this.log('warn', `[alltec] Error item: ${err.message}`);
-          }
-        });
-
-        this.log('info', `[alltec] ✓ ${catId} pág ${page}: ${newInPage} nuevos`);
-        if (items.length < 8) break;
-        page++;
-        await this.delay(1000, 2000);
-
-      } catch (err) {
-        this.stats.errors++;
-        this.log('warn', `[alltec] Error HTTP ${categoryPath} pág ${page}: ${err.message}`);
-        break;
+      } catch (e) {
+        this.log('warn', `[alltec] ${name} endpoint falló: ${e.message}`);
       }
+      await this.delay(500, 1000);
     }
-    this.log('info', `✓ alltec ${catId} total: ${this.stats.found}`);
+
+    if (!found) {
+      this.log('warn', `[alltec] ${name} sin productos en ningún endpoint`);
+    }
+    this.log('info', `✓ alltec ${name} total: ${this.stats.found}`);
   }
 
   parseAlltecPrice(str) {
