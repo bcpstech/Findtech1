@@ -1,119 +1,68 @@
-name: Scraping Diario FindTech.cl
+name: Scraping FindTech.cl
 
 on:
   schedule:
-    - cron: '0 3 * * *'
+    - cron: '0 18 * * *'   # 18:00 UTC = 15:00 CLT / 14:00 CLST
   workflow_dispatch:
     inputs:
-      stores:
-        description: 'Tienda a scrapear'
+      store:
+        description: 'Tienda a scrapear (dejar vacío para todas)'
         required: false
-        default: 'todas'
-        type: choice
-        options:
-          - todas
-          - n1g
-          - alltec
-          - cg
-          - centrale
-          - pcexpress
-
-permissions:
-  contents: write
+        default: ''
 
 jobs:
   scrape:
-    name: Scraping FindTech.cl
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 60
+
+    env:
+      DB_PATH: ./db/techcompara.db
+      CF_PROXY_URL: ${{ secrets.CF_PROXY_URL }}
+      CF_PROXY_SECRET: ${{ secrets.CF_PROXY_SECRET }}
 
     steps:
-      - name: Checkout
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Setup Node.js 20
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
 
-      - name: Cache node_modules
-        uses: actions/cache@v4
-        with:
-          path: node_modules
-          key: node-${{ hashFiles('package.json') }}
-          restore-keys: node-
+      - name: Install dependencies
+        run: npm ci
 
-      - name: Instalar dependencias
-        run: npm install
+      - name: Init database
+        run: node db/init.js
 
-      - name: Inicializar DB
-        run: |
-          rm -f db/techcompara.db
-          node db/init.js
-        env:
-          DB_PATH: ./db/techcompara.db
-          
       - name: Scrapear N1G
-        if: github.event.inputs.stores == 'todas' || github.event.inputs.stores == 'n1g' || github.event_name == 'schedule'
+        if: ${{ github.event.inputs.store == '' || github.event.inputs.store == 'n1g' }}
         run: node scraper/stores/n1g.js || echo "N1G fallo, continuando..."
-        env:
-          DB_PATH: ./db/techcompara.db
-          NODE_ENV: production
-          SCRAPE_TIMEOUT: '60000'
 
       - name: Scrapear Alltec
-        if: github.event.inputs.stores == 'todas' || github.event.inputs.stores == 'alltec' || github.event_name == 'schedule'
+        if: ${{ github.event.inputs.store == '' || github.event.inputs.store == 'alltec' }}
         run: node scraper/stores/alltec.js || echo "Alltec fallo, continuando..."
-        env:
-          DB_PATH: ./db/techcompara.db
-          NODE_ENV: production
-          SCRAPE_TIMEOUT: '60000'
 
       - name: Scrapear CentralGamer
-        if: github.event.inputs.stores == 'todas' || github.event.inputs.stores == 'cg' || github.event_name == 'schedule'
+        if: ${{ github.event.inputs.store == '' || github.event.inputs.store == 'centralgamer' }}
         run: node scraper/stores/centralgamer.js || echo "CentralGamer fallo, continuando..."
-        env:
-          DB_PATH: ./db/techcompara.db
-          NODE_ENV: production
-          SCRAPE_TIMEOUT: '60000'
 
       - name: Scrapear Centrale
-        if: github.event.inputs.stores == 'todas' || github.event.inputs.stores == 'centrale' || github.event_name == 'schedule'
+        if: ${{ github.event.inputs.store == '' || github.event.inputs.store == 'centrale' }}
         run: node scraper/stores/centrale.js || echo "Centrale fallo, continuando..."
-        env:
-          DB_PATH: ./db/techcompara.db
-          NODE_ENV: production
-          SCRAPE_TIMEOUT: '60000'
 
       - name: Scrapear PC-Express
-        if: github.event.inputs.stores == 'todas' || github.event.inputs.stores == 'pcexpress' || github.event_name == 'schedule'
+        if: ${{ github.event.inputs.store == '' || github.event.inputs.store == 'pcexpress' }}
         run: node scraper/stores/pcexpress.js || echo "PC-Express fallo, continuando..."
-        env:
-          DB_PATH: ./db/techcompara.db
-          NODE_ENV: production
-          SCRAPE_TIMEOUT: '60000'
 
       - name: Exportar JSON
         run: node scripts/export-json.js
-        env:
-          DB_PATH: ./db/techcompara.db
 
-      - name: Verificar productos
+      - name: Commit y push datos
         run: |
-          python3 -c "
-          import json
-          data = json.load(open('docs/data/products.json'))
-          print(f'{len(data)} productos exportados')
-          if data:
-            print(f'Ejemplo: {data[0][\"name\"]} - \${data[0].get(\"best_price\",0):,}')
-          "
-
-      - name: Commit y Push
-        run: |
-          git config user.email "bot@github.com"
-          git config user.name "github-actions[bot]"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git add docs/data/
-          git diff --staged --quiet || git commit -m "precios actualizados $(date '+%Y-%m-%d %H:%M') CLT"
+          git diff --staged --quiet || git commit -m "chore: actualizar datos $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
