@@ -19,8 +19,10 @@ const CATEGORIES = [
   { slug: 'fuentes-de-poder',   catId: 'psu'     },
 ];
 
-// La API entrega precio tarjeta. Efectivo = tarjeta / 1.0526
 const CARD_FACTOR = 1.0526;
+
+// FIX: delay entre categorías para evitar 429
+const DELAY_BETWEEN_CATEGORIES = 4000; // 4s
 
 class CentralGamerScraper extends BaseScraper {
   constructor() { super('cg', 'CentralGamer'); }
@@ -29,7 +31,8 @@ class CentralGamerScraper extends BaseScraper {
     for (const { slug, catId } of CATEGORIES) {
       try {
         await this.scrapeCategory(slug, catId);
-        await this.delay(1000, 2000);
+        // FIX: esperar entre categorías para no gatillar rate limit
+        await this.delay(DELAY_BETWEEN_CATEGORIES, DELAY_BETWEEN_CATEGORIES + 2000);
       } catch (err) {
         this.stats.errors++;
         this.log('warn', `Error ${catId}: ${err.message}`);
@@ -53,15 +56,12 @@ class CentralGamerScraper extends BaseScraper {
         if (!products?.length) break;
 
         for (const p of products) {
-          // La API devuelve precio tarjeta/Webpay
           const priceCard = parseInt(p.prices?.price);
           if (!priceCard || priceCard < 1000) continue;
 
-          // Precio efectivo/transferencia: ~5% menos que tarjeta
           const priceCash = Math.round(priceCard / CARD_FACTOR / 10) * 10;
 
           const regularPriceRaw = parseInt(p.prices?.regular_price);
-          // regular_price también viene en precio tarjeta
           const regularPriceCash = regularPriceRaw > priceCard
             ? Math.round(regularPriceRaw / CARD_FACTOR / 10) * 10
             : null;
@@ -92,11 +92,18 @@ class CentralGamerScraper extends BaseScraper {
 
         if (products.length < PER_PAGE) break;
         page++;
-        await this.delay(500, 1000);
+        // FIX: delay entre páginas también
+        await this.delay(2000, 3000);
 
       } catch (err) {
         this.stats.errors++;
         this.log('warn', `Error API ${slug} pág ${page}: ${err.message}`);
+
+        // FIX: si es 429, esperar más antes de continuar con la siguiente categoría
+        if (err.response?.status === 429) {
+          this.log('warn', `[cg] Rate limit hit en ${slug} — esperando 15s`);
+          await new Promise(r => setTimeout(r, 15000));
+        }
         break;
       }
     }
