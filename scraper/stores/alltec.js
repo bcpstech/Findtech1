@@ -9,6 +9,17 @@ const cheerio = require('cheerio');
 
 const BASE_URL = 'https://www.alltec.cl';
 
+const PROXY_URL = process.env.CF_PROXY_URL || '';
+const PROXY_SECRET = process.env.CF_PROXY_SECRET || '';
+
+function getProxiedUrl(targetUrl) {
+  if (PROXY_URL) {
+    return `${PROXY_URL}?url=${encodeURIComponent(targetUrl)}&secret=${PROXY_SECRET}`;
+  }
+  return targetUrl;
+}
+
+
 const CATEGORIES = [
   { id: 63,  catId: 'gpu',     name: 'GPU AMD'       },
   { id: 64,  catId: 'gpu',     name: 'GPU NVIDIA'    },
@@ -86,7 +97,7 @@ class AlltecScraper extends BaseScraper {
               if (!price) continue;
               const priceCard = Math.round(price * CARD_SURCHARGE);
               this.stats.found++;
-              this.saveProduct(
+              await this.saveProductEnriched(
                 { name: p.name, category: catId, brand: this.extractBrand(p.name),
                   imageUrl: p.cover?.bySize?.home_default?.url || p.image?.url || null,
                   specs: {
@@ -109,7 +120,7 @@ class AlltecScraper extends BaseScraper {
           if (items.length) {
             this.log('info', `[alltec] ${name} HTML: ${items.length} items`);
             let newItems = 0;
-            items.each((_, el) => {
+            for (const el of items.toArray()) {
               const $el = $(el);
               const productUrl = $el.find('a').first().attr('href') || '';
               if (this.seenUrls.has(productUrl)) return;
@@ -129,7 +140,7 @@ class AlltecScraper extends BaseScraper {
 
               this.stats.found++;
               newItems++;
-              this.saveProduct(
+              await this.saveProductEnriched(
                 { name: pname, category: catId, brand: this.extractBrand(pname), imageUrl,
                   specs: {
                     'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
