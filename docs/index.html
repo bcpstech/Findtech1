@@ -591,6 +591,10 @@ footer{
   .detail-wrap{grid-template-columns:1fr}
   .detail-img-box{position:relative;top:0;aspect-ratio:auto;padding:24px}
   .detail-specs-grid{grid-template-columns:1fr}
+  .dpr-store-name{font-size:13px}
+  .dpr-cash{font-size:15px}
+  .detail-price-row{flex-wrap:wrap;gap:8px}
+  .dpr-link{width:100%;text-align:center;padding:8px}
 }
 
 /* ── OPINION MODAL ── */
@@ -705,15 +709,186 @@ select.form-input{cursor:pointer}
   padding:2px 6px;border-radius:3px;letter-spacing:0.5px;
 }
 
+
+/* ── HAMBURGER BTN (solo mobile) ── */
+.hamburger{
+  display:none;
+  width:40px;height:40px;border-radius:var(--r);
+  background:var(--bg3);border:1px solid var(--border);
+  color:var(--text2);font-size:20px;cursor:pointer;
+  align-items:center;justify-content:center;flex-shrink:0;
+  transition:all .15s;
+}
+.hamburger:hover{color:var(--accent);border-color:var(--accent)}
+
+/* ── SIDEBAR OVERLAY (solo mobile) ── */
+.sidebar-overlay{
+  display:none;position:fixed;inset:0;
+  background:rgba(0,0,0,0.6);z-index:150;
+  backdrop-filter:blur(2px);
+}
+.sidebar-overlay.open{display:block}
+
+/* ══════════════════════════════════════
+   TABLET  ≤ 1024px
+══════════════════════════════════════ */
+@media(max-width:1024px){
+  .layout{grid-template-columns:200px 1fr}
+  .sidebar{padding:16px 0}
+  .sb-cat{padding:9px 14px;font-size:13px}
+  .sb-label{padding:0 14px 8px}
+  .mega-menu{min-width:480px;grid-template-columns:repeat(3,1fr)}
+  .search-wrap{max-width:240px}
+  .footer-grid{grid-template-columns:1.5fr 1fr 1fr}
+  .footer-grid .footer-col:last-child{display:none}
+  .home-hero{padding:36px}
+  .home-hero h1{font-size:34px}
+}
+
+/* ══════════════════════════════════════
+   MOBILE  ≤ 768px
+══════════════════════════════════════ */
 @media(max-width:768px){
+
+  /* HEADER */
+  header{
+    padding:0 14px;gap:10px;height:60px;
+    justify-content:space-between;
+  }
+  .hamburger{display:flex}
+  nav{display:none}  /* ocultar nav desktop */
+  .search-wrap{
+    flex:1;max-width:none;
+    order:3;display:none; /* se muestra cuando el usuario toca buscar */
+  }
+  .search-wrap.mobile-open{display:block}
+  /* botón buscar en header */
+  .search-toggle{
+    width:40px;height:40px;border-radius:var(--r);
+    background:var(--bg3);border:1px solid var(--border);
+    color:var(--text2);font-size:18px;cursor:pointer;
+    display:flex;align-items:center;justify-content:center;flex-shrink:0;
+  }
+  .search-toggle:hover{color:var(--accent);border-color:var(--accent)}
+
+  /* LAYOUT */
   .layout{grid-template-columns:1fr}
-  .sidebar{display:none}
-  .prod-grid{grid-template-columns:repeat(2,1fr)}
-  .modal-body{grid-template-columns:1fr}
-  .home-hero{padding:28px}
-  .home-hero h1{font-size:26px}
-  header{padding:0 16px}
-  .main{padding:16px}
+
+  /* SIDEBAR → DRAWER */
+  .sidebar{
+    position:fixed;left:-260px;top:60px;
+    width:260px;height:calc(100vh - 60px);
+    z-index:160;transition:left .25s ease;
+    box-shadow:4px 0 24px rgba(0,0,0,0.4);
+    overflow-y:auto;
+  }
+  .sidebar.open{left:0}
+
+  /* MAIN */
+  .main{padding:14px}
+
+  /* HOME HERO */
+  .home-hero{
+    padding:24px 20px;
+    flex-direction:column;gap:20px;
+    text-align:center;
+  }
+  .home-hero::before{display:none}
+  .home-hero h1{font-size:24px;max-width:100%}
+  .home-hero p{font-size:14px;max-width:100%}
+  .hero-btns{justify-content:center}
+  .btn-primary,.btn-secondary{padding:10px 20px;font-size:14px}
+
+  /* STORES STRIP */
+  .stores-strip{
+    overflow-x:auto;flex-wrap:nowrap;
+    padding-bottom:4px;gap:8px;
+    scrollbar-width:none;
+  }
+  .stores-strip::-webkit-scrollbar{display:none}
+  .store-chip{flex-shrink:0}
+
+  /* PAGE HERO */
+  .page-hero{
+    flex-direction:column;gap:14px;padding:20px;
+  }
+  .hero-left h1{font-size:20px}
+  .hero-stats{gap:16px}
+  .stat-n{font-size:18px}
+
+  /* TOOLBAR */
+  .toolbar{gap:8px}
+  .toolbar-left{flex-wrap:wrap;gap:6px}
+  .toolbar-left input,.select-box{font-size:12px}
+
+  /* PRODUCT GRID */
+  .prod-grid{grid-template-columns:repeat(2,1fr);gap:10px}
+  .deals-grid{grid-template-columns:repeat(2,1fr);gap:10px}
+
+  /* PRODUCT CARD */
+  .prod-img{padding:10px}
+  .prod-img img{max-height:100px}
+  .prod-body{padding:10px;gap:4px}
+  .prod-name{font-size:12px}
+  .prod-brand{font-size:10px}
+  .price-val{font-size:13px}
+  .price-val.card{font-size:11px}
+  .card-actions{padding:0 10px 10px;gap:4px}
+  .btn-ver{padding:7px;font-size:11px}
+  .btn-cmp{padding:7px 8px;font-size:11px}
+
+  /* MODAL PRODUCTO */
+  .modal-overlay{padding:0;align-items:flex-end}
+  .modal{
+    border-radius:16px 16px 0 0;
+    max-height:92vh;width:100%;
+  }
+  .modal-body{grid-template-columns:1fr;gap:16px;padding:16px}
+  .modal-img{max-height:160px;padding:16px}
+  .modal-header{padding:16px}
+  .specs-grid{grid-template-columns:1fr}
+
+  /* MODAL PRECIO: apilar en móvil */
+  .modal-price-row{flex-wrap:wrap;gap:8px}
+  .mp-link{width:100%;text-align:center}
+
+  /* OPINION MODAL */
+  .opinion-overlay{padding:0;align-items:flex-end}
+  .opinion-modal{
+    border-radius:16px 16px 0 0;
+    max-height:94vh;
+  }
+  .form-row{grid-template-columns:1fr}
+  .opinion-body{padding:16px;gap:12px}
+
+  /* MEGA MENU → oculto, reemplazado por sidebar */
+  .mega-menu{display:none!important}
+
+  /* FOOTER */
+  footer{padding:28px 16px}
+  .footer-grid{
+    grid-template-columns:1fr;gap:24px;
+  }
+  .footer-bottom{
+    flex-direction:column;gap:8px;text-align:center;
+  }
+
+  /* TOAST */
+  .toast{bottom:16px;right:16px;left:16px;text-align:center}
+
+  /* SECTION HEADER */
+  .section-title{font-size:15px}
+}
+
+/* ══════════════════════════════════════
+   SMALL MOBILE  ≤ 400px
+══════════════════════════════════════ */
+@media(max-width:400px){
+  .prod-grid{grid-template-columns:1fr}
+  .deals-grid{grid-template-columns:1fr}
+  .home-hero h1{font-size:21px}
+  .hero-btns{flex-direction:column}
+  .btn-primary,.btn-secondary{width:100%;text-align:center}
 }
 </style>
 </head>
@@ -721,6 +896,8 @@ select.form-input{cursor:pointer}
 
 <!-- HEADER -->
 <header>
+  <button class="hamburger" id="hamburger-btn" onclick="toggleSidebar()" aria-label="Menú">☰</button>
+
   <div class="logo" onclick="showPage('home')" style="cursor:pointer">
     <img src="./img/FINDWH.webp" alt="FindTech.cl" class="logo-img-dark">
     <img src="./img/FINDBLACK.webp" alt="FindTech.cl" class="logo-img-light">
@@ -790,12 +967,16 @@ select.form-input{cursor:pointer}
     <div class="nav-item" onclick="showPage('contact')">Contacto</div>
   </nav>
 
-  <div class="search-wrap">
+  <div class="search-wrap" id="search-wrap">
     <span class="search-icon">🔍</span>
     <input type="text" placeholder="Buscar componentes..." id="header-search" oninput="onSearch(this.value)">
   </div>
+  <button class="search-toggle" onclick="toggleMobileSearch()" title="Buscar">🔍</button>
   <button class="theme-toggle" id="theme-btn" onclick="toggleTheme()" title="Cambiar tema">🌙</button>
 </header>
+
+<!-- SIDEBAR OVERLAY (mobile) -->
+<div class="sidebar-overlay" id="sidebar-overlay" onclick="closeSidebar()"></div>
 
 <!-- LAYOUT -->
 <div class="layout">
@@ -1883,6 +2064,57 @@ function fileToBase64(file) {
 }
 
 // ═══════════════════════════════════════════════
+// MOBILE NAV
+// ═══════════════════════════════════════════════
+function toggleSidebar() {
+  const sidebar = document.getElementById('sidebar');
+  const overlay = document.getElementById('sidebar-overlay');
+  const isOpen = sidebar.classList.contains('open');
+  sidebar.classList.toggle('open', !isOpen);
+  overlay.classList.toggle('open', !isOpen);
+  document.body.style.overflow = isOpen ? '' : 'hidden';
+}
+
+function closeSidebar() {
+  document.getElementById('sidebar').classList.remove('open');
+  document.getElementById('sidebar-overlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function toggleMobileSearch() {
+  const wrap = document.getElementById('search-wrap');
+  const isMobile = window.innerWidth <= 768;
+  if (!isMobile) return;
+  wrap.classList.toggle('mobile-open');
+  if (wrap.classList.contains('mobile-open')) {
+    wrap.querySelector('input').focus();
+  }
+}
+
+// Cerrar sidebar al cambiar de página en mobile
+const _origShowPage = showPage;
+function showPage(p) {
+  _origShowPage(p);
+  if (window.innerWidth <= 768) closeSidebar();
+}
+
+// Cerrar sidebar con Escape
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') {
+    closeSidebar();
+    closeModal();
+  }
+});
+
+// Ajustar layout al rotar pantalla
+window.addEventListener('resize', () => {
+  if (window.innerWidth > 768) {
+    closeSidebar();
+    document.getElementById('search-wrap').classList.remove('mobile-open');
+    document.body.style.overflow = '';
+  }
+});
+
 // THEME TOGGLE
 // ═══════════════════════════════════════════════
 function toggleTheme() {
