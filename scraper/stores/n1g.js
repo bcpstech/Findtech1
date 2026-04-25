@@ -1,6 +1,6 @@
 /**
  * scraper/stores/n1g.js
- * N1G usa URLs por categoría y marca — selectores PrestaShop verificados
+ * N1G PrestaShop — categorías específicas verificadas
  */
 const BaseScraper = require('../base-scraper');
 const cheerio = require('cheerio');
@@ -8,32 +8,46 @@ const cheerio = require('cheerio');
 const BASE_URL = 'https://n1g.cl';
 
 const CATEGORIES = [
-  // GPU por marca
-  { url: '/Home/brand/40-amd',             catId: 'gpu',     filter: /radeon|rx\s?\d|vega/i },
-  { url: '/Home/brand/43-gigabyte',        catId: 'gpu',     filter: /rtx|gtx|radeon|rx\s?\d/i },
-  { url: '/Home/brand/60-zotac',           catId: 'gpu',     filter: /rtx|gtx/i },
-  // CPU por categoría directa
-  { url: '/Home/34-procesadores',          catId: 'cpu',     filter: null },
+  // GPU — subcategorías específicas
+  { url: '/Home/111-amd',                       catId: 'gpu',     minPrice: 80000  },
+  { url: '/Home/110-nvidia',                    catId: 'gpu',     minPrice: 80000  },
+  // CPU — subcategorías AMD e Intel
+  { url: '/Home/71-amd-cpu',                    catId: 'cpu',     minPrice: 20000  },
+  { url: '/Home/72-intel-cpu',                  catId: 'cpu',     minPrice: 20000  },
   // Placas Madre
-  { url: '/Home/33-placas-madre',          catId: 'mobo',    filter: null },
+  { url: '/Home/33-placas-madre',               catId: 'mobo',    minPrice: 30000  },
   // RAM
-  { url: '/Home/27-memorias',              catId: 'ram',     filter: /ddr[45]|ram|memoria/i },
+  { url: '/Home/27-memorias',                   catId: 'ram',     minPrice: 10000  },
   // Almacenamiento
-  { url: '/Home/22-almacenamiento',        catId: 'storage', filter: /ssd|nvme|hdd|m\.2|disco/i },
+  { url: '/Home/22-almacenamiento',             catId: 'storage', minPrice: 10000  },
   // Refrigeración
-  { url: '/Home/35-refrigeracion',         catId: 'cooling', filter: /cooler|disipador|aio|liquid|water|refriger/i },
-  // Fuentes
-  { url: '/Home/23-fuentes-de-poder',      catId: 'psu',     filter: null },
-  // Gabinetes
-  { url: '/Home/24-gabinetes',             catId: 'case',    filter: /gabinete|case|torre/i },
-  // Tarjetas de video directa
-  { url: '/Home/39-tarjetas-graficas',     catId: 'gpu',     filter: null },
+  { url: '/Home/35-refrigeracion',              catId: 'cooling', minPrice: 8000   },
+  // Fuentes — subcategorías específicas
+  { url: '/Home/57-fuentes-certificadas-modular',     catId: 'psu', minPrice: 25000 },
+  { url: '/Home/58-fuentes-certificadas-no-modular',  catId: 'psu', minPrice: 20000 },
+  { url: '/Home/23-fuentes-de-poder',           catId: 'psu',     minPrice: 20000  },
+  // Gabinetes — precio mínimo filtra accesorios
+  { url: '/Home/24-gabinetes',                  catId: 'case',    minPrice: 25000  },
+];
+
+const EXCLUDE_KEYWORDS = [
+  'cable', 'adaptador', 'bracket', 'tornillo', 'pasta termica', 'pasta térmica',
+  'soporte', 'accesorio', 'herramienta', 'limpiador', 'teclado', 'mouse',
+  'auricular', 'headset', 'parlante', 'silla', 'escritorio', 'pad', 'mousepad',
+  'webcam', 'microfono', 'micrófono', 'joystick', 'cargador', 'hub usb',
+  'thermal grease', 'thermal pad', 'backplate', 'riser', 'extension pcie',
+  'ventilador', 'fan ', ' fan', 'rgb strip', 'tira led',
 ];
 
 const CARD_SURCHARGE = 1.03;
 
 class N1GScraper extends BaseScraper {
   constructor() { super('n1g', 'N1G'); }
+
+  isExcluded(name) {
+    const lower = name.toLowerCase();
+    return EXCLUDE_KEYWORDS.some(kw => lower.includes(kw));
+  }
 
   async scrapeAll() {
     this.seenUrls = new Set();
@@ -43,12 +57,12 @@ class N1GScraper extends BaseScraper {
         await this.delay(1500, 2500);
       } catch (err) {
         this.stats.errors++;
-        this.log('warn', `Error ${cat.catId}: ${err.message}`);
+        this.log('warn', `Error ${cat.catId} (${cat.url}): ${err.message}`);
       }
     }
   }
 
-  async scrapeCategory({ url: categoryPath, catId, filter }) {
+  async scrapeCategory({ url: categoryPath, catId, minPrice = 1000 }) {
     let page = 1;
 
     while (page <= 20) {
@@ -85,13 +99,11 @@ class N1GScraper extends BaseScraper {
 
             const name = $el.find('h3.product-title a, h3.h3.product-title a').text().trim();
             if (!name || name.length < 3) return;
-
-            // Aplicar filtro de categoría si existe
-            if (filter && !filter.test(name)) return;
+            if (this.isExcluded(name)) return;
 
             const priceRaw = $el.find('.price').first().text().trim();
             const price = this.parseN1GPrice(priceRaw);
-            if (!price || price < 1000) return;
+            if (!price || price < minPrice) return;
 
             const oldRaw = $el.find('.regular-price, .old-price').first().text().trim();
             const regularPrice = oldRaw ? this.parseN1GPrice(oldRaw) : null;
@@ -112,7 +124,8 @@ class N1GScraper extends BaseScraper {
                   'Tarjeta crédito/débito': `$${priceCard.toLocaleString('es-CL')}`,
                 }
               },
-              { current: price, normal: regularPrice > price ? regularPrice : null,
+              { current: price,
+                normal: regularPrice > price ? regularPrice : null,
                 discount: regularPrice > price ? Math.round((1-price/regularPrice)*100) : null,
                 stock: $el.find('.product-unavailable').length ? 'out_of_stock' : 'in_stock',
                 url: productUrl || null }
