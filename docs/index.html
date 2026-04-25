@@ -1463,6 +1463,8 @@ function showPage(p) {
   if (p==='stores') renderStores();
   if (p==='home') renderHome();
   window.scrollTo(0,0);
+  // Cerrar sidebar en mobile al navegar
+  if (window.innerWidth <= 768) closeSidebar();
 }
 
 function filterCat(cat) {
@@ -1726,7 +1728,12 @@ function renderStores() {
 // ═══════════════════════════════════════════════
 // DATA LOADING
 // ═══════════════════════════════════════════════
-const DATA_BASE = './data';
+// Path absoluto — funciona en GitHub Pages sin importar la URL de acceso
+const DATA_BASE = (() => {
+  const href = window.location.href.split('?')[0].split('#')[0];
+  const base = href.endsWith('/') ? href : href.substring(0, href.lastIndexOf('/') + 1);
+  return base + 'data';
+})();
 
 async function loadData() {
   try {
@@ -1808,7 +1815,7 @@ async function openDetail(id) {
 
   // Cargar detalle completo
   try {
-    const res = await fetch(`./data/products/${id}.json?t=${Date.now()}`);
+    const res = await fetch(`${DATA_BASE}/products/${id}.json?t=${Date.now()}`);
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const detail = await res.json();
 
@@ -2089,13 +2096,6 @@ function toggleMobileSearch() {
   if (wrap.classList.contains('mobile-open')) {
     wrap.querySelector('input').focus();
   }
-}
-
-// Cerrar sidebar al cambiar de página en mobile
-const _origShowPage = showPage;
-function showPage(p) {
-  _origShowPage(p);
-  if (window.innerWidth <= 768) closeSidebar();
 }
 
 // Cerrar sidebar con Escape
