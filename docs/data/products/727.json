@@ -1,32 +1,32 @@
 {
   "id": 727,
-  "external_id": "centrale_tarjeta-grafica-asus-prime-geforce-rtx-5070-oc-edition-12gb-gddr7-sff-ready",
-  "category_id": "gpu",
-  "brand": "Asus",
-  "name": "Tarjeta Gráfica ASUS Prime GeForce RTX 5070 OC Edition 12GB GDDR7 SFF-Ready",
-  "slug": "tarjeta-grafica-asus-prime-geforce-rtx-5070-oc-edition-12gb-gddr7-sff-ready",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-ASUS-Prime-GeForce-RTX-5070-OC-Edition-12GB-GDDR7-SFF-Ready-1.webp",
+  "external_id": "centrale_procesador-intel-core-i5-14400f-raptor-lake-lga1700-2-5-4-7-ghz-10-nucleos",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i5-14400F Raptor Lake LGA1700, 2.5/4.7 GHz, 10 Nucleos",
+  "slug": "procesador-intel-core-i5-14400f-raptor-lake-lga1700-2-5-4-7-ghz-10-nucleos",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i5-14400F-Raptor-Lake-LGA1700-2.5-4.7-GHz-10-Nucl_pGfZlhk.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$801.340",
-    "Tarjetas de Crédito / Débito": "$845.410"
+    "Transferencia / Efectivo": "$216.800",
+    "Tarjetas de Crédito / Débito": "$228.720"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:57:35",
-  "updated_at": "2026-04-25 12:57:35",
+  "created_at": "2026-04-25 18:19:55",
+  "updated_at": "2026-04-25 18:19:55",
   "prices": [
     {
       "id": 727,
       "product_id": 727,
       "store_id": "centrale",
-      "price": 801340,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 216800,
+      "price_normal": 261420,
+      "discount_pct": 17,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-prime-geforce-rtx-5070-oc-edition-12gb-gddr7-sff-ready/",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-14400f-raptor-lake-lga1700-2-5-4-7-ghz-10-nucleos/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:57:35",
+      "scraped_at": "2026-04-25 18:19:55",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 801340
+      "price": 216800
     }
   ],
   "scraped_at": "2026-04-25"

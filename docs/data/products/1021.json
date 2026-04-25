@@ -1,32 +1,32 @@
 {
   "id": 1021,
-  "external_id": "centrale_disco-duro-wd-red-plus-4tb-3-5-8243-sata-iii-5400rpm-128mb-nas-cmr",
+  "external_id": "centrale_ssd-micron-5400-max-1-92tb-sata-2-5-8243-540mb-s-lectura-tlc-enterprise",
   "category_id": "storage",
-  "brand": "Western Digital",
-  "name": "Disco Duro WD Red Plus 4TB 3.5&#8243; SATA III 5400RPM 128MB, NAS CMR",
-  "slug": "disco-duro-wd-red-plus-4tb-3-5-8243-sata-iii-5400rpm-128mb-nas-cmr",
-  "image_url": "https://centrale.cl/wp-content/uploads/Western-Digital-Red-Plus-Disco-Duro-Disco-Duro-Interno-4-Tb-3.5-5-WD40EFZZ.webp",
+  "brand": "Micron",
+  "name": "SSD Micron 5400 Max 1.92TB SATA 2.5&#8243;, 540MB/s Lectura, TLC Enterprise",
+  "slug": "ssd-micron-5400-max-1-92tb-sata-2-5-8243-540mb-s-lectura-tlc-enterprise",
+  "image_url": "https://centrale.cl/wp-content/uploads/Micron-Ssd-1920Gb-5400-Max-Nand-Flash-Sata-2-MTFDDAK1T9TGB-1BC1ZABYYR-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$159.370",
-    "Tarjetas de Crédito / Débito": "$168.140"
+    "Transferencia / Efectivo": "$520.610",
+    "Tarjetas de Crédito / Débito": "$549.240"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:57:45",
-  "updated_at": "2026-04-25 12:57:45",
+  "created_at": "2026-04-25 18:20:04",
+  "updated_at": "2026-04-25 18:20:04",
   "prices": [
     {
       "id": 1021,
       "product_id": 1021,
       "store_id": "centrale",
-      "price": 159370,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 520610,
+      "price_normal": 869980,
+      "discount_pct": 40,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-duro-wd-red-plus-4tb-3-5-sata-iii-5400rpm-128mb-nas-cmr/",
+      "product_url": "https://centrale.cl/producto/ssd-micron-5400-max-1-92tb-sata-2-5-540mb-s-lectura-tlc-enterprise/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:57:45",
+      "scraped_at": "2026-04-25 18:20:04",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 159370
+      "price": 520610
     }
   ],
   "scraped_at": "2026-04-25"

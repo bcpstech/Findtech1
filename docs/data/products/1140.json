@@ -1,32 +1,32 @@
 {
   "id": 1140,
-  "external_id": "centrale_disipador-cpu-coler-noctua-nh-u12s-redux-am5-amp-lga-1700",
-  "category_id": "cooling",
-  "brand": "Noctua",
-  "name": "Disipador CPU Coler Noctua NH-U12S redux AM5 &amp; LGA 1700",
-  "slug": "disipador-cpu-coler-noctua-nh-u12s-redux-am5-amp-lga-1700",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disipador-CPU-Coler-Noctua-NH-U12S-redux-AM5-LGA-1700_7mKzuGn-1.webp",
+  "external_id": "centrale_fuente-gigabyte-gp-ud1000gm-1000w-80-plus-gold-pcie-5-0",
+  "category_id": "psu",
+  "brand": "Gigabyte",
+  "name": "Fuente Gigabyte GP-UD1000GM 1000W 80 Plus Gold PCIe 5.0",
+  "slug": "fuente-gigabyte-gp-ud1000gm-1000w-80-plus-gold-pcie-5-0",
+  "image_url": "https://centrale.cl/wp-content/uploads/Gigabyte-Fuente-De-Poder-1000W-Ud1000Gm-80-Plus-Gold-Full-Modular-No-Pg5-P-N.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$67.490",
-    "Tarjetas de Crédito / Débito": "$71.200"
+    "Transferencia / Efectivo": "$117.980",
+    "Tarjetas de Crédito / Débito": "$124.470"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:57:48",
-  "updated_at": "2026-04-25 12:57:48",
+  "created_at": "2026-04-25 18:20:13",
+  "updated_at": "2026-04-25 18:20:13",
   "prices": [
     {
       "id": 1140,
       "product_id": 1140,
       "store_id": "centrale",
-      "price": 67490,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 117980,
+      "price_normal": 149900,
+      "discount_pct": 21,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disipador-cpu-coler-noctua-nh-u12s-redux-am5-lga-1700/",
+      "product_url": "https://centrale.cl/producto/fuente-gigabyte-gp-ud1000gm-1000w-80-plus-gold-pcie-5-0/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:57:48",
+      "scraped_at": "2026-04-25 18:20:13",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 67490
+      "price": 117980
     }
   ],
   "scraped_at": "2026-04-25"

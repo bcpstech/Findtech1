@@ -1,32 +1,32 @@
 {
   "id": 1001,
-  "external_id": "centrale_memoria-ram-8gb-ddr4-3600mt-s-cl17-kingston-fury-beast-black",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM 8GB DDR4 3600MT/s CL17 Kingston Fury Beast Black",
-  "slug": "memoria-ram-8gb-ddr4-3600mt-s-cl17-kingston-fury-beast-black",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-8GB-DDR4-3600MT-s-CL17-Kingston-Fury-Beast-Black.webp",
+  "external_id": "centrale_sandisk-ssd-nvme-1tb-sn350-m-2-2280-pcie-3-0-x4",
+  "category_id": "storage",
+  "brand": "SanDisk",
+  "name": "Sandisk SSD NVMe 1TB SN350, M.2 2280, PCIe 3.0 x4",
+  "slug": "sandisk-ssd-nvme-1tb-sn350-m-2-2280-pcie-3-0-x4",
+  "image_url": "https://centrale.cl/wp-content/uploads/Sandisk-SSD-NVMe-1TB-SN350-M.2-2280-PCIe-3.0-x4.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$79.640",
-    "Tarjetas de Crédito / Débito": "$84.020"
+    "Transferencia / Efectivo": "$195.630",
+    "Tarjetas de Crédito / Débito": "$206.390"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:57:42",
-  "updated_at": "2026-04-25 12:57:42",
+  "created_at": "2026-04-25 18:20:04",
+  "updated_at": "2026-04-25 18:20:04",
   "prices": [
     {
       "id": 1001,
       "product_id": 1001,
       "store_id": "centrale",
-      "price": 79640,
-      "price_normal": 117940,
-      "discount_pct": 32,
+      "price": 195630,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr4-3600mt-s-cl17-kingston-fury-beast-black/",
+      "product_url": "https://centrale.cl/producto/sandisk-ssd-nvme-1tb-sn350-m-2-2280-pcie-3-0-x4/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:57:42",
+      "scraped_at": "2026-04-25 18:20:04",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 79640
+      "price": 195630
     }
   ],
   "scraped_at": "2026-04-25"

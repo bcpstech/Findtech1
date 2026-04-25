@@ -1,32 +1,32 @@
 {
   "id": 802,
-  "external_id": "centrale_procesador-intel-core-i7-12700kf-3-6ghz-lga-1700",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core i7-12700KF 3.6Ghz LGA 1700",
-  "slug": "procesador-intel-core-i7-12700kf-3-6ghz-lga-1700",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i7-12700KF-3.6Ghz-LGA-1700_64Lg55g-1.webp",
+  "external_id": "centrale_placa-madre-msi-pro-h610m-a-ddr4-microatx-lga-1700-pcie-4-0-ddr4",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "Placa madre MSI PRO H610M-A DDR4 (MicroATX, LGA 1700,  PCIe 4.0, DDR4)",
+  "slug": "placa-madre-msi-pro-h610m-a-ddr4-microatx-lga-1700-pcie-4-0-ddr4",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-madre-MSI-PRO-H610M-A-DDR4-MicroATX-LGA-1700-PCIe-4.0-DDR4.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$328.090",
-    "Tarjetas de Crédito / Débito": "$346.130"
+    "Transferencia / Efectivo": "$75.670",
+    "Tarjetas de Crédito / Débito": "$79.830"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:57:37",
-  "updated_at": "2026-04-25 12:57:37",
+  "created_at": "2026-04-25 18:19:58",
+  "updated_at": "2026-04-25 18:19:58",
   "prices": [
     {
       "id": 802,
       "product_id": 802,
       "store_id": "centrale",
-      "price": 328090,
+      "price": 75670,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-12700kf-3-6ghz-lga-1700/",
+      "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-h610m-a-ddr4-microatx-lga-1700-pcie-4-0-ddr4/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:57:37",
+      "scraped_at": "2026-04-25 18:19:58",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 328090
+      "price": 75670
     }
   ],
   "scraped_at": "2026-04-25"

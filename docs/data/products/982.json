@@ -1,32 +1,32 @@
 {
   "id": 982,
-  "external_id": "centrale_memoria-ram-16gb-ddr4-3200mt-s-cl22-kingston-16gbit-dimm",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM 16GB DDR4 3200MT/s CL22 Kingston 16Gbit DIMM",
-  "slug": "memoria-ram-16gb-ddr4-3200mt-s-cl22-kingston-16gbit-dimm",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-16GB-DDR4-3200MT-s-CL22-Kingston-16Gbit-DIMM-1.webp",
+  "external_id": "centrale_disco-duro-wd-red-plus-4tb-3-5-8243-sata-iii-5400rpm-128mb-nas-cmr",
+  "category_id": "storage",
+  "brand": "Western Digital",
+  "name": "Disco Duro WD Red Plus 4TB 3.5&#8243; SATA III 5400RPM 128MB, NAS CMR",
+  "slug": "disco-duro-wd-red-plus-4tb-3-5-8243-sata-iii-5400rpm-128mb-nas-cmr",
+  "image_url": "https://centrale.cl/wp-content/uploads/Western-Digital-Red-Plus-Disco-Duro-Disco-Duro-Interno-4-Tb-3.5-5-WD40EFZZ.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$187.650",
-    "Tarjetas de Crédito / Débito": "$197.970"
+    "Transferencia / Efectivo": "$159.210",
+    "Tarjetas de Crédito / Débito": "$167.970"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:57:42",
-  "updated_at": "2026-04-25 12:57:42",
+  "created_at": "2026-04-25 18:20:04",
+  "updated_at": "2026-04-25 18:20:04",
   "prices": [
     {
       "id": 982,
       "product_id": 982,
       "store_id": "centrale",
-      "price": 187650,
-      "price_normal": 212660,
-      "discount_pct": 12,
+      "price": 159210,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr4-3200mt-s-cl22-kingston-16gbit-dimm/",
+      "product_url": "https://centrale.cl/producto/disco-duro-wd-red-plus-4tb-3-5-sata-iii-5400rpm-128mb-nas-cmr/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:57:42",
+      "scraped_at": "2026-04-25 18:20:04",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 187650
+      "price": 159210
     }
   ],
   "scraped_at": "2026-04-25"

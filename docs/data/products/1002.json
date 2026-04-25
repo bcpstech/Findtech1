@@ -1,32 +1,32 @@
 {
   "id": 1002,
-  "external_id": "centrale_memoria-ram-notebook-8gb-3200mhz-ddr4-kingston-fury-impact-sodimm",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM Notebook 8GB 3200Mhz DDR4 Kingston Fury Impact SODIMM",
-  "slug": "memoria-ram-notebook-8gb-3200mhz-ddr4-kingston-fury-impact-sodimm",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-Notebook-8GB-3200Mhz-DDR4-Kingston-Fury-Impact-SODIMM_jTeV8lF.webp",
+  "external_id": "centrale_hdd-nas-wd-red-2tb-5400rpm-3-5-8243-sata-6gb-s-64mb-bufer",
+  "category_id": "storage",
+  "brand": "Western Digital",
+  "name": "HDD NAS WD Red 2TB, 5400RPM, 3.5&#8243; SATA 6Gb/s, 64MB Búfer",
+  "slug": "hdd-nas-wd-red-2tb-5400rpm-3-5-8243-sata-6gb-s-64mb-bufer",
+  "image_url": "https://centrale.cl/wp-content/uploads/Western-Digital-Wd-Red-Disco-Duro-2-Tb-Interno-3.5-Sata-6Gb-S-5400-Rpm-_r7LW6Fx-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$64.900",
-    "Tarjetas de Crédito / Débito": "$68.470"
+    "Transferencia / Efectivo": "$119.430",
+    "Tarjetas de Crédito / Débito": "$126.000"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:57:42",
-  "updated_at": "2026-04-25 12:57:42",
+  "created_at": "2026-04-25 18:20:04",
+  "updated_at": "2026-04-25 18:20:04",
   "prices": [
     {
       "id": 1002,
       "product_id": 1002,
       "store_id": "centrale",
-      "price": 64900,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 119430,
+      "price_normal": 132840,
+      "discount_pct": 10,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-8gb-3200mhz-ddr4-kingston-fury-impact-sodimm/",
+      "product_url": "https://centrale.cl/producto/hdd-nas-wd-red-2tb-5400rpm-3-5-sata-6gb-s-64mb-bufer/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:57:42",
+      "scraped_at": "2026-04-25 18:20:04",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 64900
+      "price": 119430
     }
   ],
   "scraped_at": "2026-04-25"

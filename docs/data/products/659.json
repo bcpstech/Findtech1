@@ -1,45 +1,45 @@
 {
   "id": 659,
-  "external_id": "cg_procesador-amd-ryzen-5-5600gt",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 5 5600GT",
-  "slug": "procesador-amd-ryzen-5-5600gt",
-  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-5-5600gt.jpg",
+  "external_id": "centrale_msi-tarjeta-de-video-nvidia-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-128-bit",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "Msi Tarjeta De Video Nvidia Geforce Rtx 5060 Shadow 2X Oc, 8Gb Gddr7, 128-Bit",
+  "slug": "msi-tarjeta-de-video-nvidia-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-128-bit",
+  "image_url": "https://centrale.cl/wp-content/uploads/Msi-Tarjeta-De-Video-Nvidia-Geforce-Rtx-5060-Shadow-2X-Oc-8Gb-Gddr7-128-Bit.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$146.290",
-    "Webpay / Tarjeta crédito-débito": "$153.990"
+    "Transferencia / Efectivo": "$431.830",
+    "Tarjetas de Crédito / Débito": "$455.580"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:55:39",
-  "updated_at": "2026-04-25 12:55:39",
+  "created_at": "2026-04-25 18:19:52",
+  "updated_at": "2026-04-25 18:19:52",
   "prices": [
     {
       "id": 659,
       "product_id": 659,
-      "store_id": "cg",
-      "price": 146290,
+      "store_id": "centrale",
+      "price": 431830,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-5600gt/",
+      "product_url": "https://centrale.cl/producto/msi-tarjeta-de-video-nvidia-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-128-bit/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:55:39",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-25 18:19:52",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 146290
+      "price": 431830
     }
   ],
   "scraped_at": "2026-04-25"

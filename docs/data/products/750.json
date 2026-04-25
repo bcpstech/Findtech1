@@ -1,32 +1,32 @@
 {
   "id": 750,
-  "external_id": "centrale_tarjeta-grafica-msi-geforce-rtx-3050-lp-oc-6gb-gddr6-low-profile",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "Tarjeta Gráfica MSI GeForce RTX 3050 LP OC 6GB GDDR6 (Low Profile)",
-  "slug": "tarjeta-grafica-msi-geforce-rtx-3050-lp-oc-6gb-gddr6-low-profile",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-MSI-GeForce-RTX-3050-LP-OC-6GB-GDDR6-Low-Profile.webp",
+  "external_id": "centrale_procesador-intel-core-i7-14700-lga1700-2-1ghz-a-5-4-ghz-20-nucleos-28-hilos",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i7-14700 (LGA1700, 2.1GHz a 5.4 GHz, 20 Nucleos, 28 Hilos)",
+  "slug": "procesador-intel-core-i7-14700-lga1700-2-1ghz-a-5-4-ghz-20-nucleos-28-hilos",
+  "image_url": "https://centrale.cl/wp-content/uploads/Intel-Procesador-Core-I7-14700-S-1700-2.10Ghz-20-Core-33Mb-Smart-Cache_seMK1Ds-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$281.880",
-    "Tarjetas de Crédito / Débito": "$297.380"
+    "Transferencia / Efectivo": "$446.550",
+    "Tarjetas de Crédito / Débito": "$471.110"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:57:35",
-  "updated_at": "2026-04-25 12:57:35",
+  "created_at": "2026-04-25 18:19:55",
+  "updated_at": "2026-04-25 18:19:55",
   "prices": [
     {
       "id": 750,
       "product_id": 750,
       "store_id": "centrale",
-      "price": 281880,
-      "price_normal": 322760,
-      "discount_pct": 13,
+      "price": 446550,
+      "price_normal": 499400,
+      "discount_pct": 11,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-3050-lp-oc-6gb-gddr6-low-profile/",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700-lga1700-2-1ghz-a-5-4-ghz-20-nucleos-28-hilos/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:57:35",
+      "scraped_at": "2026-04-25 18:19:55",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 281880
+      "price": 446550
     }
   ],
   "scraped_at": "2026-04-25"

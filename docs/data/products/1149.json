@@ -1,32 +1,32 @@
 {
   "id": 1149,
-  "external_id": "centrale_disipador-termico-hpe-para-proliant-dl380-gen10-disipacion-optima",
-  "category_id": "cooling",
-  "brand": "Hpe",
-  "name": "Disipador Térmico HPE para ProLiant DL380 Gen10+, Disipación Óptima",
-  "slug": "disipador-termico-hpe-para-proliant-dl380-gen10-disipacion-optima",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disipador-TC3A9rmico-HPE-para-ProLiant-DL380-Gen10-DisipaciC3B3n-C393ptima_u4GuZ6Z.webp",
+  "external_id": "centrale_fuente-asus-prime-750w-gold-atx-3-0-80-plus-gold-modular-blanca",
+  "category_id": "psu",
+  "brand": "Asus",
+  "name": "Fuente ASUS Prime 750W Gold ATX 3.0, 80 PLUS Gold, Modular, Blanca",
+  "slug": "fuente-asus-prime-750w-gold-atx-3-0-80-plus-gold-modular-blanca",
+  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Power-Supply-Ap-750G-90YE00U1-B0AA00.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$53.150",
-    "Tarjetas de Crédito / Débito": "$56.070"
+    "Transferencia / Efectivo": "$105.570",
+    "Tarjetas de Crédito / Débito": "$111.380"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:57:48",
-  "updated_at": "2026-04-25 12:57:48",
+  "created_at": "2026-04-25 18:20:13",
+  "updated_at": "2026-04-25 18:20:13",
   "prices": [
     {
       "id": 1149,
       "product_id": 1149,
       "store_id": "centrale",
-      "price": 53150,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 105570,
+      "price_normal": 125690,
+      "discount_pct": 16,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disipador-termico-hpe-para-proliant-dl380-gen10-disipacion-optima/",
+      "product_url": "https://centrale.cl/producto/fuente-asus-prime-750w-gold-atx-3-0-80-plus-gold-modular-blanca/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:57:48",
+      "scraped_at": "2026-04-25 18:20:13",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 53150
+      "price": 105570
     }
   ],
   "scraped_at": "2026-04-25"

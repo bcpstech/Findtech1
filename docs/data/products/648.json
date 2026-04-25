@@ -1,45 +1,45 @@
 {
   "id": 648,
-  "external_id": "cg_procesador-amd-ryzen-7-9700x",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 7 9700X",
-  "slug": "procesador-amd-ryzen-7-9700x",
-  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-7-9700x.jpg",
+  "external_id": "centrale_tarjeta-grafica-msi-rtx-5070-12gb-gddr7-world-of-warcraft-midnight-light",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "Tarjeta Gráfica MSI RTX 5070 12GB GDDR7 World of Warcraft Midnight Light",
+  "slug": "tarjeta-grafica-msi-rtx-5070-12gb-gddr7-world-of-warcraft-midnight-light",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-MSI-RTX-5070-12GB-GDDR7-World-of-Warcraft-Midnight-Ligh_e2YjrLn.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$360.750",
-    "Webpay / Tarjeta crédito-débito": "$379.729"
+    "Transferencia / Efectivo": "$1.061.950",
+    "Tarjetas de Crédito / Débito": "$1.120.360"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:55:36",
-  "updated_at": "2026-04-25 12:55:36",
+  "created_at": "2026-04-25 18:19:52",
+  "updated_at": "2026-04-25 18:19:52",
   "prices": [
     {
       "id": 648,
       "product_id": 648,
-      "store_id": "cg",
-      "price": 360750,
+      "store_id": "centrale",
+      "price": 1061950,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-7-9700x-2/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5070-12gb-gddr7-world-of-warcraft-midnight-light/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:55:36",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-25 18:19:52",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 360750
+      "price": 1061950
     }
   ],
   "scraped_at": "2026-04-25"

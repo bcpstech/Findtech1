@@ -1,32 +1,32 @@
 {
   "id": 719,
-  "external_id": "centrale_tarjeta-grafica-pny-nvidia-rtx-pro-4000-blackwell-24gb-ecc",
-  "category_id": "gpu",
-  "brand": "Pny",
-  "name": "Tarjeta Gráfica PNY NVIDIA RTX PRO 4000 Blackwell 24GB ECC",
-  "slug": "tarjeta-grafica-pny-nvidia-rtx-pro-4000-blackwell-24gb-ecc",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-PNY-NVIDIA-RTX-PRO-4000-Blackwell-24GB-ECC.webp",
+  "external_id": "centrale_procesador-intel-core-i9-14900k-raptor-lake-s-lga1700-uhd-graphics",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i9-14900K Raptor Lake-S LGA1700, UHD Graphics",
+  "slug": "procesador-intel-core-i9-14900k-raptor-lake-s-lga1700-uhd-graphics",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i9-14900K-Raptor-Lake-S-LGA1700-UHD-Graphics_n4rqkpO-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$2.390.000",
-    "Tarjetas de Crédito / Débito": "$2.521.450"
+    "Transferencia / Efectivo": "$613.290",
+    "Tarjetas de Crédito / Débito": "$647.020"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:57:35",
-  "updated_at": "2026-04-25 12:57:35",
+  "created_at": "2026-04-25 18:19:55",
+  "updated_at": "2026-04-25 18:19:55",
   "prices": [
     {
       "id": 719,
       "product_id": 719,
       "store_id": "centrale",
-      "price": 2390000,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 613290,
+      "price_normal": 685010,
+      "discount_pct": 10,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-pny-nvidia-rtx-pro-4000-blackwell-24gb-ecc/",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900k-raptor-lake-s-lga1700-uhd-graphics/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:57:35",
+      "scraped_at": "2026-04-25 18:19:55",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 2390000
+      "price": 613290
     }
   ],
   "scraped_at": "2026-04-25"
