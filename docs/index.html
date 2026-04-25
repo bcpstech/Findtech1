@@ -1381,12 +1381,26 @@ select.form-input{cursor:pointer}
 // ═══════════════════════════════════════════════
 // CONFIG
 // ═══════════════════════════════════════════════
-const STORES = [
-  { id:'n1g',       name:'N1G',         url:'https://n1g.cl',                 color:'#e84393' },
-  { id:'alltec',    name:'Alltec',       url:'https://www.alltec.cl',          color:'#3b82f6' },
-  { id:'cg',        name:'CentralGamer', url:'https://centralgamer.cl',        color:'#10b981' },
-  { id:'centrale',  name:'Centrale',     url:'https://www.centrale.cl',        color:'#f59e0b' },
-  { id:'pcexpress', name:'PC-Express',   url:'https://tienda.pc-express.cl',   color:'#ef4444' },
+// Ratings se actualizan desde stores.json — estos son defaults
+let STORES = [
+  { id:'n1g',         name:'N1G',         url:'https://n1g.cl',                  color:'#e84393', rating:0, review_count:0 },
+  { id:'alltec',      name:'Alltec',       url:'https://www.alltec.cl',           color:'#3b82f6', rating:0, review_count:0 },
+  { id:'cg',          name:'CentralGamer', url:'https://centralgamer.cl',         color:'#10b981', rating:0, review_count:0 },
+  { id:'centrale',    name:'Centrale',     url:'https://www.centrale.cl',         color:'#f59e0b', rating:0, review_count:0 },
+  { id:'pcexpress',   name:'PC-Express',   url:'https://tienda.pc-express.cl',    color:'#ef4444', rating:0, review_count:0 },
+  { id:'spdigital',   name:'SP Digital',   url:'https://www.spdigital.cl',        color:'#8b5cf6', rating:0, review_count:0 },
+  { id:'myshop',      name:'MyShop',       url:'https://www.myshop.cl',           color:'#06b6d4', rating:0, review_count:0 },
+  { id:'progaming',   name:'ProGaming',    url:'https://www.progaming.cl',        color:'#f97316', rating:0, review_count:0 },
+  { id:'dust2',       name:'Dust2',        url:'https://www.dust2.gg',            color:'#eab308', rating:0, review_count:0 },
+  { id:'tytgamer',    name:'TYT Gamer',    url:'https://www.tytgamer.cl',         color:'#ec4899', rating:0, review_count:0 },
+  { id:'mybox',       name:'MyBox',        url:'https://www.mybox.cl',            color:'#14b8a6', rating:0, review_count:0 },
+  { id:'megabytes',   name:'MegaBytes',    url:'https://www.megabytes.cl',        color:'#a855f7', rating:0, review_count:0 },
+  { id:'sandos',      name:'Sandos',       url:'https://www.sandos.cl',           color:'#84cc16', rating:0, review_count:0 },
+  { id:'trulustore',  name:'TruluStore',   url:'https://www.trulustore.cl',       color:'#f43f5e', rating:0, review_count:0 },
+  { id:'winpy',       name:'Winpy',        url:'https://www.winpy.cl',            color:'#0ea5e9', rating:0, review_count:0 },
+  { id:'sipo',        name:'Sipo',         url:'https://sipo.cl',                 color:'#fb923c', rating:0, review_count:0 },
+  { id:'megadrive',   name:'MegaDrive',    url:'https://www.megadrive.cl',        color:'#4ade80', rating:0, review_count:0 },
+  { id:'infor-ingen', name:'Infor-Ingen',  url:'https://store.infor-ingen.com',   color:'#818cf8', rating:0, review_count:0 },
 ];
 
 const CATS = {
@@ -1743,9 +1757,10 @@ const DATA_BASE = (() => {
 
 async function loadData() {
   try {
-    const [prodsRes, metaRes] = await Promise.all([
+    const [prodsRes, metaRes, storesRes] = await Promise.all([
       fetch(`${DATA_BASE}/products.json?t=${Date.now()}`),
-      fetch(`${DATA_BASE}/meta.json?t=${Date.now()}`)
+      fetch(`${DATA_BASE}/meta.json?t=${Date.now()}`),
+      fetch(`${DATA_BASE}/stores.json?t=${Date.now()}`),
     ]);
     if (!prodsRes.ok) throw new Error('Sin datos');
     const apiProds = await prodsRes.json();
@@ -1753,6 +1768,21 @@ async function loadData() {
 
     const meta = metaRes.ok ? await metaRes.json() : null;
     if (meta) localStorage.setItem('ft_meta', JSON.stringify(meta));
+
+    // Actualizar ratings reales desde la DB
+    if (storesRes.ok) {
+      const dbStores = await storesRes.json();
+      dbStores.forEach(dbS => {
+        const local = STORES.find(s => s.id === dbS.id);
+        if (local) {
+          if (dbS.rating > 0)       local.rating       = dbS.rating;
+          if (dbS.review_count > 0) local.review_count = dbS.review_count;
+          if (dbS.description)      local.description  = dbS.description;
+          if (dbS.shipping)         local.shipping     = dbS.shipping;
+          if (dbS.payment)          local.payment      = dbS.payment;
+        }
+      });
+    }
 
     PRODUCTS = apiProds.map(ap => ({
       id:             ap.id,
