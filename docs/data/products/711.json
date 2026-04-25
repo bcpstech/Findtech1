@@ -1,45 +1,45 @@
 {
   "id": 711,
-  "external_id": "cg_gabinete-atx-deepcool-cg580-4f-v2",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "Gabinete ATX DeepCool CG580 4F V2",
-  "slug": "gabinete-atx-deepcool-cg580-4f-v2",
-  "image_url": "https://images.findtech.cl/products/gabinete-atx-deepcool-cg580-4f-v2.jpg",
+  "external_id": "centrale_tarjeta-grafica-msi-geforce-rtx-5060-ventus-2x-white-8gb-gddr7-128-bit",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "Tarjeta Gráfica MSI GeForce RTX 5060 VENTUS 2X White 8GB GDDR7 128-bit",
+  "slug": "tarjeta-grafica-msi-geforce-rtx-5060-ventus-2x-white-8gb-gddr7-128-bit",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-MSI-GeForce-RTX-5060-VENTUS-2X-White-8GB-GDDR7-128-bit.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$85.490",
-    "Webpay / Tarjeta crédito-débito": "$89.990"
+    "Transferencia / Efectivo": "$464.890",
+    "Tarjetas de Crédito / Débito": "$490.460"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:04",
-  "updated_at": "2026-04-25 04:54:04",
+  "created_at": "2026-04-25 12:57:35",
+  "updated_at": "2026-04-25 12:57:35",
   "prices": [
     {
       "id": 711,
       "product_id": 711,
-      "store_id": "cg",
-      "price": 85490,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "centrale",
+      "price": 464890,
+      "price_normal": 528280,
+      "discount_pct": 12,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/gabinetes-gamer/gabinete-atx-deepcool-cg580-4f-v2/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5060-ventus-2x-white-8gb-gddr7-128-bit/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:04",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-25 12:57:35",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 85490
+      "price": 464890
     }
   ],
   "scraped_at": "2026-04-25"

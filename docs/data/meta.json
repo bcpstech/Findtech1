@@ -1,7 +1,7 @@
 {
   "last_update": "2026-04-25",
-  "generated_at": "2026-04-25T04:56:25.774Z",
-  "total_products": 1323,
+  "generated_at": "2026-04-25T12:59:34.838Z",
+  "total_products": 1275,
   "total_stores": 5,
   "last_runs": [
     {
@@ -9,35 +9,35 @@
       "status": "success",
       "products_updated": 141,
       "errors_count": 0,
-      "finished_at": "2026-04-25 04:56:24"
+      "finished_at": "2026-04-25 12:59:33"
     },
     {
       "store_id": "centrale",
       "status": "success",
-      "products_updated": 578,
+      "products_updated": 576,
       "errors_count": 0,
-      "finished_at": "2026-04-25 04:54:43"
+      "finished_at": "2026-04-25 12:57:56"
     },
     {
       "store_id": "cg",
       "status": "success",
-      "products_updated": 84,
-      "errors_count": 0,
-      "finished_at": "2026-04-25 04:54:19"
+      "products_updated": 38,
+      "errors_count": 5,
+      "finished_at": "2026-04-25 12:57:34"
     },
     {
       "store_id": "alltec",
       "status": "success",
       "products_updated": 275,
       "errors_count": 0,
-      "finished_at": "2026-04-25 04:53:11"
+      "finished_at": "2026-04-25 12:55:26"
     },
     {
       "store_id": "n1g",
       "status": "success",
       "products_updated": 364,
       "errors_count": 0,
-      "finished_at": "2026-04-25 04:43:45"
+      "finished_at": "2026-04-25 12:46:01"
     }
   ]
 }

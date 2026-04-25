@@ -1,45 +1,45 @@
 {
   "id": 690,
-  "external_id": "cg_memoria-ram-xpg-gammix-d35-16gb-ddr4-white-3200mhz",
-  "category_id": "ram",
-  "brand": "Genérico",
-  "name": "Memoria Ram XPG GAMMIX D35 16GB DDR4 WHITE 3200Mhz",
-  "slug": "memoria-ram-xpg-gammix-d35-16gb-ddr4-white-3200mhz",
-  "image_url": "https://images.findtech.cl/products/memoria-ram-xpg-gammix-d35-16gb-ddr4-white-3200mhz.jpg",
+  "external_id": "centrale_tarjeta-grafica-asus-tuf-rx-9060-xt-16gb-gddr6-pcie-5-0",
+  "category_id": "gpu",
+  "brand": "Asus",
+  "name": "Tarjeta Gráfica ASUS TUF RX 9060 XT 16GB GDDR6, PCIe 5.0",
+  "slug": "tarjeta-grafica-asus-tuf-rx-9060-xt-16gb-gddr6-pcie-5-0",
+  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Tuf-Rx6900Xt-O16G-Gaming-Pci-Express-40-Amd-Amd-Radeon-Rx-6900-Xt-Gddr6.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$118.740",
-    "Webpay / Tarjeta crédito-débito": "$124.990"
+    "Transferencia / Efectivo": "$691.640",
+    "Tarjetas de Crédito / Débito": "$729.680"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:53:40",
-  "updated_at": "2026-04-25 04:53:40",
+  "created_at": "2026-04-25 12:57:35",
+  "updated_at": "2026-04-25 12:57:35",
   "prices": [
     {
       "id": 690,
       "product_id": 690,
-      "store_id": "cg",
-      "price": 118740,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "centrale",
+      "price": 691640,
+      "price_normal": 797740,
+      "discount_pct": 13,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-xpg-d35-16gb-rgb-white/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-tuf-rx-9060-xt-16gb-gddr6-pcie-5-0/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:53:40",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-25 12:57:35",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 118740
+      "price": 691640
     }
   ],
   "scraped_at": "2026-04-25"

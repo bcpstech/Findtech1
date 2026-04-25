@@ -1,32 +1,32 @@
 {
   "id": 778,
-  "external_id": "centrale_msi-geforce-rtx-5060-8g-ventus-2x-oc-8gb-gddr7-pcie-gen-5-3840-cuda",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "MSI GeForce RTX 5060 8G VENTUS 2X OC, 8GB GDDR7, PCIe Gen 5, 3840 CUDA",
-  "slug": "msi-geforce-rtx-5060-8g-ventus-2x-oc-8gb-gddr7-pcie-gen-5-3840-cuda",
-  "image_url": "https://centrale.cl/wp-content/uploads/MSI-GeForce-RTX-5060-8G-VENTUS-2X-OC-8GB-GDDR7-PCIe-Gen-5-3840-CUDA-1.webp",
+  "external_id": "centrale_procesador-amd-ryzen-9-9900x3d-12-cores-24tthreads-4-4ghz-am5-zen-5",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 9 9900X3D (12 Cores / 24Tthreads, 4.4GHz, AM5, Zen 5)",
+  "slug": "procesador-amd-ryzen-9-9900x3d-12-cores-24tthreads-4-4ghz-am5-zen-5",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-9-9900X3D-12-Cores-24Tthreads-4.4GHz-AM5-Zen-5.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$430.060",
-    "Tarjetas de Crédito / Débito": "$453.710"
+    "Transferencia / Efectivo": "$693.500",
+    "Tarjetas de Crédito / Débito": "$731.640"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:20",
-  "updated_at": "2026-04-25 04:54:20",
+  "created_at": "2026-04-25 12:57:37",
+  "updated_at": "2026-04-25 12:57:37",
   "prices": [
     {
       "id": 778,
       "product_id": 778,
       "store_id": "centrale",
-      "price": 430060,
+      "price": 693500,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/msi-geforce-rtx-5060-8g-ventus-2x-oc-8gb-gddr7-pcie-gen-5-3840-cuda/",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-9900x3d-12-cores-24tthreads-4-4ghz-am5-zen-5/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:20",
+      "scraped_at": "2026-04-25 12:57:37",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 430060
+      "price": 693500
     }
   ],
   "scraped_at": "2026-04-25"

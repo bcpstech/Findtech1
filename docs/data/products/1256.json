@@ -1,45 +1,45 @@
 {
   "id": 1256,
-  "external_id": "centrale_fuente-de-poder-650w-gigabyte-p650ss-ice-no-modular-80-silver-atx-3-0",
-  "category_id": "psu",
-  "brand": "Gigabyte",
-  "name": "Fuente de Poder 650W Gigabyte P650SS ICE (No-Modular, 80+ Silver, ATX 3.0)",
-  "slug": "fuente-de-poder-650w-gigabyte-p650ss-ice-no-modular-80-silver-atx-3-0",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gigabyte-Fuente-De-Poder-650W-Certificacion-Silver-Color-Blanco-1.webp",
+  "external_id": "pcexpress_1032213-tarjeta-de-video-msi-nvidia-geforce-rtx-5050-shadow-8gb-2x-oc",
+  "category_id": "gpu",
+  "brand": "NVIDIA",
+  "name": "1032213 - tarjeta de video msi nvidia geforce rtx 5050 shadow 8gb 2x oc",
+  "slug": "1032213-tarjeta-de-video-msi-nvidia-geforce-rtx-5050-shadow-8gb-2x-oc",
+  "image_url": null,
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$53.250",
-    "Tarjetas de Crédito / Débito": "$56.180"
+    "Efectivo/Transferencia": "$380.500",
+    "Tarjeta crédito/débito": "$391.915"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:40",
-  "updated_at": "2026-04-25 04:54:40",
+  "created_at": "2026-04-25 12:57:58",
+  "updated_at": "2026-04-25 12:57:58",
   "prices": [
     {
       "id": 1256,
       "product_id": 1256,
-      "store_id": "centrale",
-      "price": 53250,
+      "store_id": "pcexpress",
+      "price": 380500,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-650w-gigabyte-p650ss-ice-no-modular-80-silver-atx-3-0/",
+      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=1032213&search=tarjeta+video+nvidia+rtx&sort=p.price&order=ASC&page=1&limit=50",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:40",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "scraped_at": "2026-04-25 12:57:58",
+      "store_name": "PC-Express",
+      "store_url": "tienda.pc-express.cl",
+      "full_url": "https://tienda.pc-express.cl",
+      "store_rating": 4.2,
+      "review_count": 760
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
+      "store_id": "pcexpress",
+      "store_name": "PC-Express",
       "date": "2026-04-25",
-      "price": 53250
+      "price": 380500
     }
   ],
   "scraped_at": "2026-04-25"

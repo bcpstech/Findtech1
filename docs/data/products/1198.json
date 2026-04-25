@@ -1,32 +1,32 @@
 {
   "id": 1198,
-  "external_id": "centrale_ventilador-gabinete-120mm-gamemax-fn12a-n2-negro-pwm-argb-54-cfm-1-98mm-h2o",
-  "category_id": "cooling",
-  "brand": "GameMax",
-  "name": "Ventilador Gabinete 120mm GameMax FN12A-N2 Negro (PWM, ARGB, 54 CFM, 1.98mm H2O)",
-  "slug": "ventilador-gabinete-120mm-gamemax-fn12a-n2-negro-pwm-argb-54-cfm-1-98mm-h2o",
-  "image_url": "https://centrale.cl/wp-content/uploads/Ventilador-Gabinete-120mm-GameMax-FN12A-N2-Negro-PWM-ARGB-54-CFM-1.98mm_Im3aePk.webp",
+  "external_id": "centrale_fuente-de-poder-550w-xpg-pylon-no-modular-80-bronze",
+  "category_id": "psu",
+  "brand": "XPG",
+  "name": "Fuente de Poder 550W XPG Pylon (No Modular, 80+ Bronze)",
+  "slug": "fuente-de-poder-550w-xpg-pylon-no-modular-80-bronze",
+  "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-550W-XPG-Pylon-No-Modular-80-Bronze-PCIe-5.0.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$6.970",
-    "Tarjetas de Crédito / Débito": "$7.350"
+    "Transferencia / Efectivo": "$45.220",
+    "Tarjetas de Crédito / Débito": "$47.710"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:38",
-  "updated_at": "2026-04-25 04:54:38",
+  "created_at": "2026-04-25 12:57:53",
+  "updated_at": "2026-04-25 12:57:53",
   "prices": [
     {
       "id": 1198,
       "product_id": 1198,
       "store_id": "centrale",
-      "price": 6970,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 45220,
+      "price_normal": 55330,
+      "discount_pct": 18,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ventilador-gabinete-120mm-gamemax-fn12a-n2-negro-pwm-argb-54-cfm-1-98mm-h2o/",
+      "product_url": "https://centrale.cl/producto/fuente-de-poder-550w-xpg-pylon-no-modular-80-bronze/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:38",
+      "scraped_at": "2026-04-25 12:57:53",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 6970
+      "price": 45220
     }
   ],
   "scraped_at": "2026-04-25"

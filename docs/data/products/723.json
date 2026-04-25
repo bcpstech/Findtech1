@@ -1,45 +1,45 @@
 {
   "id": 723,
-  "external_id": "cg_fuente-de-poder-raidmax-rx-800ae-m-cobra-80plus-gold",
-  "category_id": "psu",
-  "brand": "Genérico",
-  "name": "Fuente de poder Raidmax RX-800AE-M Cobra 80Plus gold",
-  "slug": "fuente-de-poder-raidmax-rx-800ae-m-cobra-80plus-gold",
-  "image_url": "https://images.findtech.cl/products/fuente-de-poder-raidmax-rx-800ae-m-cobra-80plus-gold.jpg",
+  "external_id": "centrale_tarjeta-grafica-asus-prime-geforce-rtx-5050-8gb-gddr6-oc-edition",
+  "category_id": "gpu",
+  "brand": "Asus",
+  "name": "Tarjeta Gráfica ASUS Prime GeForce RTX™ 5050 8GB GDDR6 OC Edition",
+  "slug": "tarjeta-grafica-asus-prime-geforce-rtx-5050-8gb-gddr6-oc-edition",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-Video-Asus-Prime-GeForce-RTX-5050-8GB-GDDR6-OC-Edition-1.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$100.690",
-    "Webpay / Tarjeta crédito-débito": "$105.990"
+    "Transferencia / Efectivo": "$389.990",
+    "Tarjetas de Crédito / Débito": "$411.440"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:14",
-  "updated_at": "2026-04-25 04:54:14",
+  "created_at": "2026-04-25 12:57:35",
+  "updated_at": "2026-04-25 12:57:35",
   "prices": [
     {
       "id": 723,
       "product_id": 723,
-      "store_id": "cg",
-      "price": 100690,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "centrale",
+      "price": 389990,
+      "price_normal": 441090,
+      "discount_pct": 12,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/fuentes-de-poder/fuente-de-poder-raidmax-rx-800ae-m-cobra-80plus-gold/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-prime-geforce-rtx-5050-8gb-gddr6-oc-edition/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:14",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-25 12:57:35",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 100690
+      "price": 389990
     }
   ],
   "scraped_at": "2026-04-25"

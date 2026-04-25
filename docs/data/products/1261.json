@@ -1,45 +1,45 @@
 {
   "id": 1261,
-  "external_id": "centrale_fuente-de-poder-1250w-gamemax-80-plus-platinum-full-modular-atx3-0-pcie-5-0",
-  "category_id": "psu",
-  "brand": "GameMax",
-  "name": "Fuente de Poder 1250W GameMax 80 PLUS Platinum Full Modular, ATX3.0, PCIe 5.0",
-  "slug": "fuente-de-poder-1250w-gamemax-80-plus-platinum-full-modular-atx3-0-pcie-5-0",
-  "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-1250W-GameMax-80-PLUS-Platinum-Full-Modular-ATX3.0-PCIe_H1NN1PV-1.webp",
+  "external_id": "pcexpress_1032859-tarjeta-de-video-msi-geforce-rtx-5070-12g-ventus-3x-oc-gddr7-p-n-912-v532-205",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "1032859 - tarjeta de video msi geforce rtx 5070 12g ventus 3x oc gddr7 p/n 912-v532-205",
+  "slug": "1032859-tarjeta-de-video-msi-geforce-rtx-5070-12g-ventus-3x-oc-gddr7-p-n-912-v532-205",
+  "image_url": null,
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$132.280",
-    "Tarjetas de Crédito / Débito": "$139.560"
+    "Efectivo/Transferencia": "$815.500",
+    "Tarjeta crédito/débito": "$839.965"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:40",
-  "updated_at": "2026-04-25 04:54:40",
+  "created_at": "2026-04-25 12:57:58",
+  "updated_at": "2026-04-25 12:57:58",
   "prices": [
     {
       "id": 1261,
       "product_id": 1261,
-      "store_id": "centrale",
-      "price": 132280,
+      "store_id": "pcexpress",
+      "price": 815500,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-1250w-gamemax-80-plus-platinum-full-modular-atx3-0-pcie-5-0/",
+      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=1032859&search=tarjeta+video+nvidia+rtx&sort=p.price&order=ASC&page=1&limit=50",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:40",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "scraped_at": "2026-04-25 12:57:58",
+      "store_name": "PC-Express",
+      "store_url": "tienda.pc-express.cl",
+      "full_url": "https://tienda.pc-express.cl",
+      "store_rating": 4.2,
+      "review_count": 760
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
+      "store_id": "pcexpress",
+      "store_name": "PC-Express",
       "date": "2026-04-25",
-      "price": 132280
+      "price": 815500
     }
   ],
   "scraped_at": "2026-04-25"

@@ -1,32 +1,32 @@
 {
   "id": 768,
-  "external_id": "centrale_tarjeta-grafica-pny-nvidia-rtx-a400-4gb-gddr6-64-bits-nvidia-ampere",
-  "category_id": "gpu",
-  "brand": "Pny",
-  "name": "Tarjeta Gráfica PNY Nvidia RTX A400 4GB GDDR6 64-bits Nvidia Ampere",
-  "slug": "tarjeta-grafica-pny-nvidia-rtx-a400-4gb-gddr6-64-bits-nvidia-ampere",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-PNY-Nvidia-RTX-A400-4GB-GDDR6-64-bits-Nvidia-Ampere-1.webp",
+  "external_id": "centrale_procesador-amd-ryzen-threadripper-pro-9975wx-8211-4-0-a-5-4ghz-32-nucleos-64-hilos",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen Threadripper PRO 9975WX &#8211; 4.0 a 5.4Ghz, 32 Núcleos 64 Hilos",
+  "slug": "procesador-amd-ryzen-threadripper-pro-9975wx-8211-4-0-a-5-4ghz-32-nucleos-64-hilos",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-Threadripper-PRO-9975WX-4.0-a-5.4Ghz-32-NC3BAcleos-_qEYeesY.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$223.090",
-    "Tarjetas de Crédito / Débito": "$235.360"
+    "Transferencia / Efectivo": "$5.856.320",
+    "Tarjetas de Crédito / Débito": "$6.178.420"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:20",
-  "updated_at": "2026-04-25 04:54:20",
+  "created_at": "2026-04-25 12:57:37",
+  "updated_at": "2026-04-25 12:57:37",
   "prices": [
     {
       "id": 768,
       "product_id": 768,
       "store_id": "centrale",
-      "price": 223090,
+      "price": 5856320,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-pny-nvidia-rtx-a400-4gb-gddr6-64-bits-nvidia-ampere/",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-threadripper-pro-9975wx-4-0-a-5-4ghz-32-nucleos-64-hilos/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:20",
+      "scraped_at": "2026-04-25 12:57:37",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 223090
+      "price": 5856320
     }
   ],
   "scraped_at": "2026-04-25"

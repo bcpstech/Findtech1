@@ -1,45 +1,45 @@
 {
   "id": 1280,
-  "external_id": "centrale_gabinete-gamer-antec-c5-curve-argb",
-  "category_id": "case",
-  "brand": "Antec",
-  "name": "Gabinete Gamer ANTEC C5 Curve ARGB",
-  "slug": "gabinete-gamer-antec-c5-curve-argb",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Gamer-ANTEC-C5-Curve-ARGB_W0FHbaC.webp",
+  "external_id": "pcexpress_658165-procesador-intel-core-ultra-5-225-4-9-ghz-10core-slga1851",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "658165 - procesador intel core ultra 5 225 4.9 ghz 10core slga1851",
+  "slug": "658165-procesador-intel-core-ultra-5-225-4-9-ghz-10core-slga1851",
+  "image_url": null,
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$107.190",
-    "Tarjetas de Crédito / Débito": "$113.090"
+    "Efectivo/Transferencia": "$216.900",
+    "Tarjeta crédito/débito": "$223.407"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:42",
-  "updated_at": "2026-04-25 04:54:42",
+  "created_at": "2026-04-25 12:58:16",
+  "updated_at": "2026-04-25 12:58:16",
   "prices": [
     {
       "id": 1280,
       "product_id": 1280,
-      "store_id": "centrale",
-      "price": 107190,
+      "store_id": "pcexpress",
+      "price": 216900,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-gamer-antec-c5-curve-argb/",
+      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=658165&search=procesador+core+intel&sort=p.price&order=ASC&page=1&limit=50",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:42",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "scraped_at": "2026-04-25 12:58:16",
+      "store_name": "PC-Express",
+      "store_url": "tienda.pc-express.cl",
+      "full_url": "https://tienda.pc-express.cl",
+      "store_rating": 4.2,
+      "review_count": 760
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
+      "store_id": "pcexpress",
+      "store_name": "PC-Express",
       "date": "2026-04-25",
-      "price": 107190
+      "price": 216900
     }
   ],
   "scraped_at": "2026-04-25"

@@ -1,32 +1,32 @@
 {
   "id": 806,
-  "external_id": "centrale_procesador-intel-core-i9-12900kf-core-3-2ghz-30mb-lga1700",
+  "external_id": "centrale_procesador-intel-core-i5-14600kf-raptor-lake-s-lga1700-14-cores-20-hilos",
   "category_id": "cpu",
   "brand": "Intel",
-  "name": "Procesador Intel Core i9-12900KF Core 3.2GHz 30MB LGA1700",
-  "slug": "procesador-intel-core-i9-12900kf-core-3-2ghz-30mb-lga1700",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i9-12900KF-Core-3.2GHz-30MB-LGA1700_1KAqViA.webp",
+  "name": "Procesador Intel Core i5-14600KF Raptor Lake-S LGA1700, 14 Cores, 20 Hilos",
+  "slug": "procesador-intel-core-i5-14600kf-raptor-lake-s-lga1700-14-cores-20-hilos",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i5-14600KF-Raptor-Lake-S-LGA1700-14-Cores-20-Hilo_8TSUW4u-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$532.110",
-    "Tarjetas de Crédito / Débito": "$561.380"
+    "Transferencia / Efectivo": "$271.030",
+    "Tarjetas de Crédito / Débito": "$285.940"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:25",
-  "updated_at": "2026-04-25 04:54:25",
+  "created_at": "2026-04-25 12:57:37",
+  "updated_at": "2026-04-25 12:57:37",
   "prices": [
     {
       "id": 806,
       "product_id": 806,
       "store_id": "centrale",
-      "price": 532110,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 271030,
+      "price_normal": 379800,
+      "discount_pct": 29,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-12900kf-core-3-2ghz-30mb-lga1700/",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-14600kf-raptor-lake-s-lga1700-14-cores-20-hilos/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:25",
+      "scraped_at": "2026-04-25 12:57:37",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 532110
+      "price": 271030
     }
   ],
   "scraped_at": "2026-04-25"

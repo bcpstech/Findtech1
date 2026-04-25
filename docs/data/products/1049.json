@@ -1,32 +1,32 @@
 {
   "id": 1049,
-  "external_id": "centrale_memoria-ram-notebook-8gb-3200mhz-ddr4-kingston-fury-impact-sodimm",
-  "category_id": "ram",
+  "external_id": "centrale_disco-ssd-500gb-kingston-nv3-m-2-2230-nvme-pcie-4-0-x4-nand-3d",
+  "category_id": "storage",
   "brand": "Kingston",
-  "name": "Memoria RAM Notebook 8GB 3200Mhz DDR4 Kingston Fury Impact SODIMM",
-  "slug": "memoria-ram-notebook-8gb-3200mhz-ddr4-kingston-fury-impact-sodimm",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-Notebook-8GB-3200Mhz-DDR4-Kingston-Fury-Impact-SODIMM_jTeV8lF.webp",
+  "name": "Disco SSD 500GB Kingston NV3 M.2 2230 NVMe PCIe 4.0 x4, Nand 3D",
+  "slug": "disco-ssd-500gb-kingston-nv3-m-2-2230-nvme-pcie-4-0-x4-nand-3d",
+  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-500GB-Kingston-NV3-M.2-2230-NVMe-PCIe-4.0-x4-Nand-3D-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$64.900",
-    "Tarjetas de Crédito / Débito": "$68.470"
+    "Transferencia / Efectivo": "$101.570",
+    "Tarjetas de Crédito / Débito": "$107.160"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:29",
-  "updated_at": "2026-04-25 04:54:29",
+  "created_at": "2026-04-25 12:57:45",
+  "updated_at": "2026-04-25 12:57:45",
   "prices": [
     {
       "id": 1049,
       "product_id": 1049,
       "store_id": "centrale",
-      "price": 64900,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 101570,
+      "price_normal": 126520,
+      "discount_pct": 20,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-8gb-3200mhz-ddr4-kingston-fury-impact-sodimm/",
+      "product_url": "https://centrale.cl/producto/disco-ssd-500gb-kingston-nv3-m-2-2230-nvme-pcie-4-0-x4-nand-3d/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:29",
+      "scraped_at": "2026-04-25 12:57:45",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 64900
+      "price": 101570
     }
   ],
   "scraped_at": "2026-04-25"

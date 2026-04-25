@@ -1,45 +1,45 @@
 {
   "id": 688,
-  "external_id": "cg_memoria-ram-kingston-fury-beast-16gb-ddr5-6000mhz-cl36",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria Ram Kingston Fury Beast 16GB DDR5 6000Mhz CL36",
-  "slug": "memoria-ram-kingston-fury-beast-16gb-ddr5-6000mhz-cl36",
-  "image_url": "https://images.findtech.cl/products/memoria-ram-kingston-fury-beast-16gb-ddr5-6000mhz-cl36.jpg",
+  "external_id": "centrale_tarjeta-grafica-msi-rtx-5080-inspire-3x-oc-16gb-gddr7-256-bit",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "Tarjeta Gráfica MSI RTX 5080 INSPIRE 3X OC 16GB GDDR7, 256-bit",
+  "slug": "tarjeta-grafica-msi-rtx-5080-inspire-3x-oc-16gb-gddr7-256-bit",
+  "image_url": "https://centrale.cl/wp-content/uploads/Msi-Tarjeta-De-Video-Nvidia-Geforce-Rtx-5080-Inspire-3X-Oc-16Gb-Gddr7-2_jN7aybi.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$247.800",
-    "Webpay / Tarjeta crédito-débito": "$260.835"
+    "Transferencia / Efectivo": "$1.753.310",
+    "Tarjetas de Crédito / Débito": "$1.849.740"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:53:40",
-  "updated_at": "2026-04-25 04:53:40",
+  "created_at": "2026-04-25 12:57:35",
+  "updated_at": "2026-04-25 12:57:35",
   "prices": [
     {
       "id": 688,
       "product_id": 688,
-      "store_id": "cg",
-      "price": 247800,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "centrale",
+      "price": 1753310,
+      "price_normal": 2070070,
+      "discount_pct": 15,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/memorias-ram/kingston-fury-ddr5-sdram-6000mt-s-ddr5-cl36-dimm-fury-b-2/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5080-inspire-3x-oc-16gb-gddr7-256-bit/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:53:40",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-25 12:57:35",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 247800
+      "price": 1753310
     }
   ],
   "scraped_at": "2026-04-25"

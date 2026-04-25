@@ -1,32 +1,32 @@
 {
   "id": 755,
-  "external_id": "centrale_tarjeta-grafica-gigabyte-rtx-5060-ti-eagle-max-oc-16gb-gddr7-128-bit",
-  "category_id": "gpu",
-  "brand": "Gigabyte",
-  "name": "Tarjeta Gráfica Gigabyte RTX 5060 Ti Eagle Max OC 16GB GDDR7 128-bit",
-  "slug": "tarjeta-grafica-gigabyte-rtx-5060-ti-eagle-max-oc-16gb-gddr7-128-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gigabyte-Tarjeta-De-Video-Geforce-Rtx-5060-Ti-De-16Gb-Gddr7.webp",
+  "external_id": "centrale_procesador-intel-core-i5-12600k-3-7-ghz-10-core-lga1700",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i5-12600K 3.7 Ghz 10-Core LGA1700",
+  "slug": "procesador-intel-core-i5-12600k-3-7-ghz-10-core-lga1700",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i5-12600K-3.7-Ghz-10-Core-LGA1700_4bVEQKI-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$699.420",
-    "Tarjetas de Crédito / Débito": "$737.890"
+    "Transferencia / Efectivo": "$229.810",
+    "Tarjetas de Crédito / Débito": "$242.450"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:20",
-  "updated_at": "2026-04-25 04:54:20",
+  "created_at": "2026-04-25 12:57:37",
+  "updated_at": "2026-04-25 12:57:37",
   "prices": [
     {
       "id": 755,
       "product_id": 755,
       "store_id": "centrale",
-      "price": 699420,
+      "price": 229810,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-gigabyte-rtx-5060-ti-eagle-max-oc-16gb-gddr7-128-bit/",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-12600k-3-7-ghz-10-core-lga1700/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:20",
+      "scraped_at": "2026-04-25 12:57:37",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 699420
+      "price": 229810
     }
   ],
   "scraped_at": "2026-04-25"

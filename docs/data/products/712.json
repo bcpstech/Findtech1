@@ -1,45 +1,45 @@
 {
   "id": 712,
-  "external_id": "cg_gabinete-slim-esgaming-j01-matx",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "Gabinete Slim Esgaming J01 MATX",
-  "slug": "gabinete-slim-esgaming-j01-matx",
-  "image_url": "https://images.findtech.cl/products/gabinete-slim-esgaming-j01-matx.jpg",
+  "external_id": "centrale_tarjeta-de-video-msi-geforce-rtx-5070-12gb-gddr7-ventus-2x-oc",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "Tarjeta de Video MSI GeForce RTX 5070 12GB GDDR7 Ventus 2X OC",
+  "slug": "tarjeta-de-video-msi-geforce-rtx-5070-12gb-gddr7-ventus-2x-oc",
+  "image_url": "https://centrale.cl/wp-content/uploads/Msi-Rtx-5070-12G-Ventus-3X-Oc-912-V532-207_Z8CAKu6.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$44.640",
-    "Webpay / Tarjeta crédito-débito": "$46.990"
+    "Transferencia / Efectivo": "$792.780",
+    "Tarjetas de Crédito / Débito": "$836.380"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:04",
-  "updated_at": "2026-04-25 04:54:04",
+  "created_at": "2026-04-25 12:57:35",
+  "updated_at": "2026-04-25 12:57:35",
   "prices": [
     {
       "id": 712,
       "product_id": 712,
-      "store_id": "cg",
-      "price": 44640,
+      "store_id": "centrale",
+      "price": 792780,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/gabinetes-gamer/gabinete-slim-j01-matx-itx-650w-usb-c-usb-2-0-usb-3-0-negro/",
+      "product_url": "https://centrale.cl/producto/tarjeta-de-video-msi-geforce-rtx-5070-12gb-gddr7-ventus-2x-oc/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:04",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-25 12:57:35",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 44640
+      "price": 792780
     }
   ],
   "scraped_at": "2026-04-25"

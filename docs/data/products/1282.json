@@ -1,45 +1,45 @@
 {
   "id": 1282,
-  "external_id": "centrale_gabinete-corporativo-cooler-master-cm695-atx-usb-c-3-vent-incl",
-  "category_id": "case",
-  "brand": "Cooler Master",
-  "name": "Gabinete Corporativo Cooler Master CM695 (ATX, USB-C, 3 Vent. Incl)",
-  "slug": "gabinete-corporativo-cooler-master-cm695-atx-usb-c-3-vent-incl",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Corporativo-Cooler-Master-CM695-ATX-USB-C-3-Vent.-Incl-1.webp",
+  "external_id": "pcexpress_20203-procesador-intel-core-ultra-7-265kf-icosa-core-20-core-3-90-ghz-36mb-l2-cache-125w-bx80768265k",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "20203 - procesador intel core ultra 7 265kf icosa-core (20 core) 3.90 ghz 36mb l2 cache - 125w - bx80768265kf",
+  "slug": "20203-procesador-intel-core-ultra-7-265kf-icosa-core-20-core-3-90-ghz-36mb-l2-cache-125w-bx80768265k",
+  "image_url": null,
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$111.370",
-    "Tarjetas de Crédito / Débito": "$117.500"
+    "Efectivo/Transferencia": "$305.900",
+    "Tarjeta crédito/débito": "$315.077"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:42",
-  "updated_at": "2026-04-25 04:54:42",
+  "created_at": "2026-04-25 12:58:16",
+  "updated_at": "2026-04-25 12:58:16",
   "prices": [
     {
       "id": 1282,
       "product_id": 1282,
-      "store_id": "centrale",
-      "price": 111370,
+      "store_id": "pcexpress",
+      "price": 305900,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-corporativo-cooler-master-cm695-atx-usb-c-3-vent-incl/",
+      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=20203&search=procesador+core+intel&sort=p.price&order=ASC&page=1&limit=50",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:42",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "scraped_at": "2026-04-25 12:58:16",
+      "store_name": "PC-Express",
+      "store_url": "tienda.pc-express.cl",
+      "full_url": "https://tienda.pc-express.cl",
+      "store_rating": 4.2,
+      "review_count": 760
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
+      "store_id": "pcexpress",
+      "store_name": "PC-Express",
       "date": "2026-04-25",
-      "price": 111370
+      "price": 305900
     }
   ],
   "scraped_at": "2026-04-25"

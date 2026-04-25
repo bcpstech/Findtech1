@@ -1,45 +1,45 @@
 {
   "id": 700,
-  "external_id": "cg_pasta-termica-cooler-master-de-alto-rendimiento-htk-002",
-  "category_id": "cooling",
-  "brand": "Cooler Master",
-  "name": "Pasta Térmica Cooler Master De Alto Rendimiento HTK-002",
-  "slug": "pasta-termica-cooler-master-de-alto-rendimiento-htk-002",
-  "image_url": "https://images.findtech.cl/products/pasta-termica-cooler-master-de-alto-rendimiento-htk-002.png",
+  "external_id": "centrale_asus-tarjeta-grafica-dual-geforce-rtx-3050-oc-edition-6gb-gddr6-ray-tracing",
+  "category_id": "gpu",
+  "brand": "Asus",
+  "name": "ASUS Tarjeta Gráfica Dual GeForce RTX 3050 OC EDITION, 6GB GDDR6 Ray Tracing",
+  "slug": "asus-tarjeta-grafica-dual-geforce-rtx-3050-oc-edition-6gb-gddr6-ray-tracing",
+  "image_url": "https://centrale.cl/wp-content/uploads/ASUS-Tarjeta-GrC3A1fica-Dual-GeForce-RTX-3050-OC-EDITION-6GB-GDDR6-Ray-Tracing.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$3.790",
-    "Webpay / Tarjeta crédito-débito": "$3.990"
+    "Transferencia / Efectivo": "$242.990",
+    "Tarjetas de Crédito / Débito": "$256.350"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:53:54",
-  "updated_at": "2026-04-25 04:53:54",
+  "created_at": "2026-04-25 12:57:35",
+  "updated_at": "2026-04-25 12:57:35",
   "prices": [
     {
       "id": 700,
       "product_id": 700,
-      "store_id": "cg",
-      "price": 3790,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "centrale",
+      "price": 242990,
+      "price_normal": 282210,
+      "discount_pct": 14,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/refrigeracion-pc/pasta-termica-cooler-master-de-alto-rendimiento-htk-002/",
+      "product_url": "https://centrale.cl/producto/asus-tarjeta-grafica-dual-geforce-rtx-3050-oc-edition-6gb-gddr6-ray-tracing/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:53:54",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-25 12:57:35",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 3790
+      "price": 242990
     }
   ],
   "scraped_at": "2026-04-25"

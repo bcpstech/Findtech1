@@ -1,32 +1,32 @@
 {
   "id": 842,
-  "external_id": "centrale_procesador-amd-ryzen-5-5600gt-3-6ghz-a-4-2ghz-6-nucleos-12-hilos-socket-am4",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 5 5600GT, 3.6GHz a 4.2Ghz, 6 Núcleos, 12 Hilos, Socket AM4",
-  "slug": "procesador-amd-ryzen-5-5600gt-3-6ghz-a-4-2ghz-6-nucleos-12-hilos-socket-am4",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-5-5600GT-3.6GHz-a-4.2Ghz-6-NC3BAcleos-12-Hilos-Socket_ETlFVS5-1.webp",
+  "external_id": "centrale_placa-madre-msi-b840-gaming-plus-wifi-atx-am5-pcie-4-0-ddr5-wifi7",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "Placa Madre MSI B840 GAMING PLUS WIFI (ATX, AM5, PCIe 4.0, DDR5, WiFi7)",
+  "slug": "placa-madre-msi-b840-gaming-plus-wifi-atx-am5-pcie-4-0-ddr5-wifi7",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-MSI-B840-GAMING-PLUS-WIFI-ATX-AM5-PCIe-4.0-DDR5-WiFi7_Cng7A38.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$160.200",
-    "Tarjetas de Crédito / Débito": "$169.010"
+    "Transferencia / Efectivo": "$192.110",
+    "Tarjetas de Crédito / Débito": "$202.680"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:25",
-  "updated_at": "2026-04-25 04:54:25",
+  "created_at": "2026-04-25 12:57:40",
+  "updated_at": "2026-04-25 12:57:40",
   "prices": [
     {
       "id": 842,
       "product_id": 842,
       "store_id": "centrale",
-      "price": 160200,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 192110,
+      "price_normal": 216160,
+      "discount_pct": 11,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-5600gt-3-6ghz-a-4-2ghz-6-nucleos-12-hilos-socket-am4/",
+      "product_url": "https://centrale.cl/producto/placa-madre-msi-b840-gaming-plus-wifi-atx-am5-pcie-4-0-ddr5-wifi7/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:25",
+      "scraped_at": "2026-04-25 12:57:40",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 160200
+      "price": 192110
     }
   ],
   "scraped_at": "2026-04-25"

@@ -1,45 +1,45 @@
 {
   "id": 1284,
-  "external_id": "centrale_gabinete-corsair-frame-4500x-mid-tower-vidrio-panoramico-curvado-atx",
-  "category_id": "case",
-  "brand": "Corsair",
-  "name": "Gabinete Corsair FRAME 4500X Mid Tower, Vidrio Panorámico Curvado, ATX",
-  "slug": "gabinete-corsair-frame-4500x-mid-tower-vidrio-panoramico-curvado-atx",
-  "image_url": "https://centrale.cl/wp-content/uploads/Corsair-Memory-Desktop-Gabinete-4500X-Rs-R-Argb-Atx-P-CC-9011314-WW-1.webp",
+  "external_id": "pcexpress_20246-procesador-intel-core-ultra-7-265f-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n-bx80768265f",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "20246 - procesador intel core ultra 7 265f hasta 5.3ghz 30mb cache 20 core s1851 p/n bx80768265f",
+  "slug": "20246-procesador-intel-core-ultra-7-265f-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n-bx80768265f",
+  "image_url": null,
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$146.180",
-    "Tarjetas de Crédito / Débito": "$154.220"
+    "Efectivo/Transferencia": "$408.500",
+    "Tarjeta crédito/débito": "$420.755"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:42",
-  "updated_at": "2026-04-25 04:54:42",
+  "created_at": "2026-04-25 12:58:16",
+  "updated_at": "2026-04-25 12:58:16",
   "prices": [
     {
       "id": 1284,
       "product_id": 1284,
-      "store_id": "centrale",
-      "price": 146180,
-      "price_normal": 178550,
-      "discount_pct": 18,
+      "store_id": "pcexpress",
+      "price": 408500,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-corsair-frame-4500x-mid-tower-vidrio-panoramico-curvado-atx/",
+      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=20246&search=procesador+core+intel&sort=p.price&order=ASC&page=1&limit=50",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:42",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "scraped_at": "2026-04-25 12:58:16",
+      "store_name": "PC-Express",
+      "store_url": "tienda.pc-express.cl",
+      "full_url": "https://tienda.pc-express.cl",
+      "store_rating": 4.2,
+      "review_count": 760
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
+      "store_id": "pcexpress",
+      "store_name": "PC-Express",
       "date": "2026-04-25",
-      "price": 146180
+      "price": 408500
     }
   ],
   "scraped_at": "2026-04-25"

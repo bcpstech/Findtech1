@@ -1,32 +1,32 @@
 {
   "id": 771,
-  "external_id": "centrale_tarjeta-grafica-msi-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-128-bit",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "Tarjeta Gráfica MSI GeForce RTX 5060 SHADOW 2X OC 8GB GDDR7 128-bit",
-  "slug": "tarjeta-grafica-msi-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-128-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-MSI-GeForce-RTX-5060-SHADOW-2X-OC-8GB-GDDR7-128-bit.webp",
+  "external_id": "centrale_procesador-intel-core-ultra-5-225-6p-cores-4e-cores-4-9-ghz-lga1851",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core Ultra 5 225 (6P Cores + 4E Cores, 4.9 GHz, LGA1851)",
+  "slug": "procesador-intel-core-ultra-5-225-6p-cores-4e-cores-4-9-ghz-lga1851",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-5-225-6P-Cores-4E-Cores-4.9-GHz-LGA1851-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$441.170",
-    "Tarjetas de Crédito / Débito": "$465.430"
+    "Transferencia / Efectivo": "$198.500",
+    "Tarjetas de Crédito / Débito": "$209.420"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:20",
-  "updated_at": "2026-04-25 04:54:20",
+  "created_at": "2026-04-25 12:57:37",
+  "updated_at": "2026-04-25 12:57:37",
   "prices": [
     {
       "id": 771,
       "product_id": 771,
       "store_id": "centrale",
-      "price": 441170,
-      "price_normal": 492810,
-      "discount_pct": 10,
+      "price": 198500,
+      "price_normal": null,
+      "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-128-bit/",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-5-225-6p-cores-4e-cores-4-9-ghz-lga1851/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:20",
+      "scraped_at": "2026-04-25 12:57:37",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 441170
+      "price": 198500
     }
   ],
   "scraped_at": "2026-04-25"

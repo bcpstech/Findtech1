@@ -1,32 +1,32 @@
 {
   "id": 803,
-  "external_id": "centrale_procesador-amd-ryzen-threadripper-pro-9995wx-96-cores-192-threads-2-5-5-4ghz",
+  "external_id": "centrale_procesador-intel-core-i7-14700k-raptor-lake-s-lga1700-20-cores-28-hilos",
   "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen Threadripper PRO 9995WX (96 Cores, 192 Threads, 2.5-5.4GHz)",
-  "slug": "procesador-amd-ryzen-threadripper-pro-9995wx-96-cores-192-threads-2-5-5-4ghz",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-Threadripper-PRO-9995WX-96-Cores-192-Threads-2.5-5.4GHz.webp",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i7-14700K Raptor Lake-S LGA1700, 20 Cores, 28 Hilos",
+  "slug": "procesador-intel-core-i7-14700k-raptor-lake-s-lga1700-20-cores-28-hilos",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i7-14700K-Raptor-Lake-S-LGA1700-20-Cores-28-Hilos_KVPdMI4-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$14.948.180",
-    "Tarjetas de Crédito / Débito": "$15.770.330"
+    "Transferencia / Efectivo": "$440.200",
+    "Tarjetas de Crédito / Débito": "$464.410"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:25",
-  "updated_at": "2026-04-25 04:54:25",
+  "created_at": "2026-04-25 12:57:37",
+  "updated_at": "2026-04-25 12:57:37",
   "prices": [
     {
       "id": 803,
       "product_id": 803,
       "store_id": "centrale",
-      "price": 14948180,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 440200,
+      "price_normal": 547100,
+      "discount_pct": 20,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-threadripper-pro-9995wx-96-cores-192-threads-2-5-5-4ghz/",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700k-raptor-lake-s-lga1700-20-cores-28-hilos/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:25",
+      "scraped_at": "2026-04-25 12:57:37",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 14948180
+      "price": 440200
     }
   ],
   "scraped_at": "2026-04-25"

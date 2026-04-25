@@ -1,32 +1,32 @@
 {
   "id": 839,
-  "external_id": "centrale_procesador-amd-ryzen-7-9700x-8-cores-16-threads-3-8-a-5-5-ghz-65w",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 7 9700X, 8 Cores 16 Threads,  3.8 a 5.5 GHz, 65W",
-  "slug": "procesador-amd-ryzen-7-9700x-8-cores-16-threads-3-8-a-5-5-ghz-65w",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-9700X-8-Cores-16-Threads-3.8-a-5.5-GHz-65W_CmdGubx-1.webp",
+  "external_id": "centrale_placa-madre-asus-prime-b650em-a-wifi-am5-ddr5-pcie-5-0",
+  "category_id": "mobo",
+  "brand": "Asus",
+  "name": "Placa Madre ASUS Prime B650EM-A WiFi AM5, DDR5, PCIe 5.0",
+  "slug": "placa-madre-asus-prime-b650em-a-wifi-am5-ddr5-pcie-5-0",
+  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Placa-Madre-Prime-B650Em-A-Wifi-Socket-Amd-Am5-4Xddr5-3Xm.2-4X-Sata-Pcie.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$366.790",
-    "Tarjetas de Crédito / Débito": "$386.960"
+    "Transferencia / Efectivo": "$148.740",
+    "Tarjetas de Crédito / Débito": "$156.920"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:25",
-  "updated_at": "2026-04-25 04:54:25",
+  "created_at": "2026-04-25 12:57:40",
+  "updated_at": "2026-04-25 12:57:40",
   "prices": [
     {
       "id": 839,
       "product_id": 839,
       "store_id": "centrale",
-      "price": 366790,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 148740,
+      "price_normal": 165950,
+      "discount_pct": 10,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-9700x-8-cores-16-threads-3-8-a-5-5-ghz-65w/",
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b650em-a-wifi-am5-ddr5-pcie-5-0/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:25",
+      "scraped_at": "2026-04-25 12:57:40",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 366790
+      "price": 148740
     }
   ],
   "scraped_at": "2026-04-25"

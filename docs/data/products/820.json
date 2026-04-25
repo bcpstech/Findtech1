@@ -1,32 +1,32 @@
 {
   "id": 820,
-  "external_id": "centrale_procesador-intel-core-i7-14700f-core-2-1ghz-33mb-lga1700-14th-gen-no-graphic",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core i7-14700F Core 2.1Ghz 33MB LGA1700 14th Gen no graphic",
-  "slug": "procesador-intel-core-i7-14700f-core-2-1ghz-33mb-lga1700-14th-gen-no-graphic",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i7-14700F-Core-2.1Ghz-33MB-LGA1700-14th-Gen-no-graphic-1.webp",
+  "external_id": "centrale_placa-madre-msi-pro-b850-p-wifi-am5-ddr5-wifi-7-bluetooth-5-4",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "Placa Madre MSI PRO B850-P WiFi AM5, DDR5, WiFi 7, Bluetooth 5.4",
+  "slug": "placa-madre-msi-pro-b850-p-wifi-am5-ddr5-wifi-7-bluetooth-5-4",
+  "image_url": "https://centrale.cl/wp-content/uploads/Msi-Placa-Madre-Pro-B850-P-Wifi-Amd-Am5-4Xddr5-3Xm.2Pcie-5.0-Y-4.0-4Xsata.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$393.450",
-    "Tarjetas de Crédito / Débito": "$415.090"
+    "Transferencia / Efectivo": "$221.190",
+    "Tarjetas de Crédito / Débito": "$233.360"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:25",
-  "updated_at": "2026-04-25 04:54:25",
+  "created_at": "2026-04-25 12:57:40",
+  "updated_at": "2026-04-25 12:57:40",
   "prices": [
     {
       "id": 820,
       "product_id": 820,
       "store_id": "centrale",
-      "price": 393450,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 221190,
+      "price_normal": 249580,
+      "discount_pct": 11,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700f-core-2-1ghz-33mb-lga1700-14th-gen-no-graphic/",
+      "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-b850-p-wifi-am5-ddr5-wifi-7-bluetooth-5-4/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:25",
+      "scraped_at": "2026-04-25 12:57:40",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 393450
+      "price": 221190
     }
   ],
   "scraped_at": "2026-04-25"

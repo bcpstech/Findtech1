@@ -1,32 +1,32 @@
 {
   "id": 1116,
-  "external_id": "centrale_disco-ssd-1tb-kingston-nv3-8211-m-2-2280-pcie-4-0-nvme-6000mb-s",
-  "category_id": "storage",
-  "brand": "Kingston",
-  "name": "Disco SSD 1TB Kingston NV3 &#8211; M.2 2280 PCIe 4.0 NVMe 6000MB/s",
-  "slug": "disco-ssd-1tb-kingston-nv3-8211-m-2-2280-pcie-4-0-nvme-6000mb-s",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-1TB-Kingston-NV3-M.2-2280-PCIe-4.0-NVMe-6000MB-s_DFuMbJK-1.webp",
+  "external_id": "centrale_refrigeracion-liquida-gigabyte-360mm-argb-negro",
+  "category_id": "cooling",
+  "brand": "Gigabyte",
+  "name": "Refrigeración Líquida Gigabyte 360mm, ARGB Negro,",
+  "slug": "refrigeracion-liquida-gigabyte-360mm-argb-negro",
+  "image_url": "https://centrale.cl/wp-content/uploads/Gigabyte-Watercooler-Negro-Radiador-360Mm-3-Fans-Rgb-GP-GIGABYTE-GME-3_lVAOsjp.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$118.900",
-    "Tarjetas de Crédito / Débito": "$125.440"
+    "Transferencia / Efectivo": "$88.880",
+    "Tarjetas de Crédito / Débito": "$93.770"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:32",
-  "updated_at": "2026-04-25 04:54:32",
+  "created_at": "2026-04-25 12:57:46",
+  "updated_at": "2026-04-25 12:57:46",
   "prices": [
     {
       "id": 1116,
       "product_id": 1116,
       "store_id": "centrale",
-      "price": 118900,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 88880,
+      "price_normal": 123480,
+      "discount_pct": 28,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-1tb-kingston-nv3-m-2-2280-pcie-4-0-nvme-6000mb-s/",
+      "product_url": "https://centrale.cl/producto/refrigeracion-liquida-gigabyte-360mm-argb-negro/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:32",
+      "scraped_at": "2026-04-25 12:57:46",
       "store_name": "Centrale",
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl",
@@ -39,7 +39,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 118900
+      "price": 88880
     }
   ],
   "scraped_at": "2026-04-25"

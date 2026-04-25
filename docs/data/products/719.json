@@ -1,45 +1,45 @@
 {
   "id": 719,
-  "external_id": "cg_plataforma-giratoria-luminosa-cougar-fv270-8211-white",
-  "category_id": "case",
-  "brand": "Cougar",
-  "name": "Plataforma Giratoria Luminosa Cougar FV270 &#8211; White",
-  "slug": "plataforma-giratoria-luminosa-cougar-fv270-8211-white",
-  "image_url": "https://images.findtech.cl/products/plataforma-giratoria-luminosa-cougar-fv270-8211-white.jpg",
+  "external_id": "centrale_tarjeta-grafica-pny-nvidia-rtx-pro-4000-blackwell-24gb-ecc",
+  "category_id": "gpu",
+  "brand": "Pny",
+  "name": "Tarjeta Gráfica PNY NVIDIA RTX PRO 4000 Blackwell 24GB ECC",
+  "slug": "tarjeta-grafica-pny-nvidia-rtx-pro-4000-blackwell-24gb-ecc",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-PNY-NVIDIA-RTX-PRO-4000-Blackwell-24GB-ECC.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$20.890",
-    "Webpay / Tarjeta crédito-débito": "$21.990"
+    "Transferencia / Efectivo": "$2.390.000",
+    "Tarjetas de Crédito / Débito": "$2.521.450"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:06",
-  "updated_at": "2026-04-25 04:54:06",
+  "created_at": "2026-04-25 12:57:35",
+  "updated_at": "2026-04-25 12:57:35",
   "prices": [
     {
       "id": 719,
       "product_id": 719,
-      "store_id": "cg",
-      "price": 20890,
+      "store_id": "centrale",
+      "price": 2390000,
       "price_normal": null,
       "discount_pct": null,
       "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/gabinetes-gamer/plataforma-giratoria-luminosa-fv270-white/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-pny-nvidia-rtx-pro-4000-blackwell-24gb-ecc/",
       "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:06",
-      "store_name": "CentralGamer",
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl",
-      "store_rating": 4.1,
-      "review_count": 890
+      "scraped_at": "2026-04-25 12:57:35",
+      "store_name": "Centrale",
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl",
+      "store_rating": 4.4,
+      "review_count": 1650
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 20890
+      "price": 2390000
     }
   ],
   "scraped_at": "2026-04-25"
