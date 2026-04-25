@@ -1,7 +1,6 @@
 /**
  * scraper/stores/alltec.js
  * Alltec — PrestaShop con tema personalizado
- * Usa proxy Cloudflare Worker para evitar bloqueos de IP
  */
 const BaseScraper = require('../base-scraper');
 const cheerio = require('cheerio');
@@ -36,13 +35,18 @@ const CATEGORIES = [
 
 const CARD_SURCHARGE = 1.03;
 
-// Selectores PrestaShop — múltiples variantes por si Alltec actualiza el tema
 const PRODUCT_SELECTORS = [
-  'ul.products li.product',          // PrestaShop estándar
-  'ul.product_list li',              // variante antigua
-  '.products-grid .product-container', // tema personalizado
-  'article.product-miniature',       // igual que n1g
-  '.ajax_block_product',             // otro tema PS
+  'ul.products li.product',
+  'ul.product_list li',
+  '.products-grid .product-container',
+  'article.product-miniature',
+  '.ajax_block_product',
+];
+
+// Frases PrestaShop que indican sin stock
+const OUT_OF_STOCK_PHRASES = [
+  'sin stock', 'agotado', 'out of stock', 'no disponible',
+  'sold out', 'unavailable', 'no hay stock',
 ];
 
 function findProducts($) {
@@ -53,8 +57,29 @@ function findProducts($) {
   return $([]);
 }
 
-function extractPrice($el, $) {
-  // Intentar múltiples selectores de precio
+function detectStock($el) {
+  // PrestaShop: clase específica de sin stock
+  if ($el.find('.product-unavailable, .out-of-stock, .product-out-of-stock').length) {
+    return 'out_of_stock';
+  }
+  // Buscar texto de disponibilidad
+  const availText = $el.find(
+    '.availability, .product-availability, [class*="stock"], .label-danger'
+  ).text().toLowerCase();
+  if (OUT_OF_STOCK_PHRASES.some(p => availText.includes(p))) return 'out_of_stock';
+
+  // Buscar en el texto completo del card (más amplio)
+  const fullText = $el.text().toLowerCase();
+  if (OUT_OF_STOCK_PHRASES.some(p => fullText.includes(p))) return 'out_of_stock';
+
+  // Botón "Agregar" deshabilitado
+  const addBtn = $el.find('button, .add-to-cart, [class*="add_to_cart"]');
+  if (addBtn.length && addBtn.attr('disabled') !== undefined) return 'out_of_stock';
+
+  return 'in_stock';
+}
+
+function extractPrice($el) {
   const candidates = [
     $el.find('.price-box span.price').first().text(),
     $el.find('.product-price-and-shipping .price').first().text(),
@@ -69,7 +94,7 @@ function extractPrice($el, $) {
   return '';
 }
 
-function extractName($el, $) {
+function extractName($el) {
   const candidates = [
     $el.find('.product-name').text(),
     $el.find('.product-title a').text(),
@@ -85,7 +110,7 @@ function extractName($el, $) {
   return '';
 }
 
-function extractUrl($el, $) {
+function extractUrl($el) {
   return $el.find('a.products-block-image').attr('href')
     || $el.find('.product-name a').attr('href')
     || $el.find('h3 a').first().attr('href')
@@ -93,7 +118,7 @@ function extractUrl($el, $) {
     || '';
 }
 
-function extractImage($el, $) {
+function extractImage($el) {
   return $el.find('img.img-responsive').attr('src')
     || $el.find('img').first().attr('data-src')
     || $el.find('img').first().attr('src')
@@ -134,14 +159,11 @@ class AlltecScraper extends BaseScraper {
         });
 
         const $ = cheerio.load(res.data);
-
-        // FIX: probar múltiples selectores hasta encontrar productos
         const items = findProducts($);
 
         if (!items.length) {
-          // Debug: loguear qué selectores existen en la página
           const bodySnippet = res.data?.slice?.(0, 500) || '';
-          this.log('info', `[alltec] Sin productos pág ${page} — HTML inicio: ${bodySnippet.replace(/\s+/g,' ').slice(0,200)}`);
+          this.log('info', `[alltec] Sin productos pág ${page} — HTML: ${bodySnippet.replace(/\s+/g,' ').slice(0,200)}`);
           break;
         }
 
@@ -149,21 +171,24 @@ class AlltecScraper extends BaseScraper {
         for (const el of items.toArray()) {
           try {
             const $el = $(el);
-            const productUrl = extractUrl($el, $);
+            const productUrl = extractUrl($el);
             if (this.seenUrls.has(productUrl)) continue;
             this.seenUrls.add(productUrl);
 
-            const name = extractName($el, $);
+            const name = extractName($el);
             if (!name) continue;
 
-            const priceRaw = extractPrice($el, $);
+            const priceRaw = extractPrice($el);
             const price = this.parseAlltecPrice(priceRaw);
             if (!price || price < 1000) continue;
+
+            // FIX: detectar stock real
+            const stock = detectStock($el);
 
             const oldRaw = $el.find('.price-box .old-price, .regular-price, .old-price').text().trim();
             const regularPrice = oldRaw ? this.parseAlltecPrice(oldRaw) : null;
             const priceCard = Math.round(price * CARD_SURCHARGE);
-            const imageUrl = extractImage($el, $);
+            const imageUrl = extractImage($el);
 
             this.stats.found++;
             newInPage++;
@@ -182,7 +207,7 @@ class AlltecScraper extends BaseScraper {
                 current:  price,
                 normal:   regularPrice > price ? regularPrice : null,
                 discount: regularPrice > price ? Math.round((1 - price / regularPrice) * 100) : null,
-                stock:    'in_stock',
+                stock,    // FIX: valor real
                 url:      productUrl || null,
               }
             );
