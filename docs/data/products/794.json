@@ -1,37 +1,33 @@
 {
   "id": 794,
-  "external_id": "centrale_placa-madre-asus-rog-maximus-z890-hero-lga1851-4ddr5-6m-2-wifi7-atx",
-  "category_id": "mobo",
-  "brand": "Asus",
-  "name": "Placa Madre ASUS ROG MAXIMUS Z890 HERO LGA1851, 4DDR5, 6M.2, WiFi7, ATX",
-  "slug": "placa-madre-asus-rog-maximus-z890-hero-lga1851-4ddr5-6m-2-wifi7-atx",
-  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Motherboard-1851-Ddr-ROG-MAXIMUS-Z890-HERO.webp",
+  "external_id": "centrale_procesador-amd-ryzen-7-9800x3d-8-nucleos-16-hilos-4-7-a-5-2-ghz-amd-3d-v-cache",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 7 9800X3D, 8 Núcleos 16 Hilos, 4,7 a 5,2 GHz AMD 3D V-Caché",
+  "slug": "procesador-amd-ryzen-7-9800x3d-8-nucleos-16-hilos-4-7-a-5-2-ghz-amd-3d-v-cache",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-9800X3D-8-NC3BAcleos-16-Hilos-47-a-52-GHz-AMD-3D-V-CachC3A9-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$754.890",
-    "Tarjetas de Crédito / Débito": "$796.410"
+    "Transferencia / Efectivo": "$549.870",
+    "Tarjetas de Crédito / Débito": "$580.110"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:58",
-  "updated_at": "2026-04-25 18:19:58",
+  "created_at": "2026-04-25 19:37:30",
+  "updated_at": "2026-04-25 19:37:30",
   "prices": [
     {
-      "id": 794,
       "product_id": 794,
       "store_id": "centrale",
-      "price": 754890,
+      "price": 549870,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-maximus-z890-hero-lga1851-4ddr5-6m-2-wifi7-atx/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:58",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-9800x3d-8-nucleos-16-hilos-47-a-52-ghz-amd-3d-v-cache/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 754890
+      "price": 549870
     }
   ],
   "scraped_at": "2026-04-25"

@@ -1,37 +1,47 @@
 {
   "id": 692,
-  "external_id": "centrale_tarjeta-grafica-gigabyte-geforce-rtx-5050-windforce-oc-8gb-gddr6-128-bit",
+  "external_id": "centrale_tarjeta-grafica-msi-geforce-rtx-5090-ventus-3x-oc-32gb-gddr7-512-bit",
   "category_id": "gpu",
-  "brand": "Gigabyte",
-  "name": "Tarjeta Gráfica Gigabyte GeForce RTX 5050 Windforce OC 8GB GDDR6 128-bit",
-  "slug": "tarjeta-grafica-gigabyte-geforce-rtx-5050-windforce-oc-8gb-gddr6-128-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-Gigabyte-GeForce-RTX-5050-Windforce-OC-8GB-GDDR7-1.webp",
+  "brand": "MSI",
+  "name": "Tarjeta Gráfica MSI GeForce RTX 5090 VENTUS 3X OC 32GB GDDR7 512-Bit",
+  "slug": "tarjeta-grafica-msi-geforce-rtx-5090-ventus-3x-oc-32gb-gddr7-512-bit",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-MSI-GeForce-RTX-5090-VENTUS-3X-OC-32GB-GDDR7-512-Bit.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$355.610",
-    "Tarjetas de Crédito / Débito": "$375.170"
+    "Transferencia / Efectivo": "$3.999.810",
+    "Tarjetas de Crédito / Débito": "$4.219.800"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:52",
-  "updated_at": "2026-04-25 18:19:52",
+  "created_at": "2026-04-25 19:37:28",
+  "updated_at": "2026-04-25 19:37:28",
   "prices": [
     {
-      "id": 692,
       "product_id": 692,
       "store_id": "centrale",
-      "price": 355610,
+      "price": 3999810,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-gigabyte-geforce-rtx-5050-windforce-oc-8gb-gddr6-128-bit/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:52",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5090-ventus-3x-oc-32gb-gddr7-512-bit/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 1310,
+      "store_id": "dust2",
+      "price": 7378630,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-msi-geforce-rtx-5090-32g-lightning-z/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
@@ -39,7 +49,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 355610
+      "price": 3999810
     }
   ],
   "scraped_at": "2026-04-25"

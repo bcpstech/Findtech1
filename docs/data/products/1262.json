@@ -1,45 +1,41 @@
 {
   "id": 1262,
-  "external_id": "pcexpress_1032874-tarjeta-de-video-msi-nvidia-geforce-rtx-5070-gaming-trio-oc-12gb-gddr7-192-bit-pci-e-5-0",
-  "category_id": "gpu",
-  "brand": "NVIDIA",
-  "name": "1032874 - tarjeta de video msi nvidia geforce rtx 5070 gaming trio oc 12gb gddr7 192-bit pci-e 5.0",
-  "slug": "1032874-tarjeta-de-video-msi-nvidia-geforce-rtx-5070-gaming-trio-oc-12gb-gddr7-192-bit-pci-e-5-0",
-  "image_url": null,
+  "external_id": "centrale_gabinete-corporativo-micro-atx-clio-slim-cl-s605",
+  "category_id": "case",
+  "brand": "Clio",
+  "name": "Gabinete Corporativo Micro ATX Clio Slim CL-S605",
+  "slug": "gabinete-corporativo-micro-atx-clio-slim-cl-s605",
+  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Corporativo-Micro-ATX-Clio-Slim-CL-S605_Gd4vi5u.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$878.500",
-    "Tarjeta crédito/débito": "$904.855"
+    "Transferencia / Efectivo": "$52.830",
+    "Tarjetas de Crédito / Débito": "$55.740"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:57:58",
-  "updated_at": "2026-04-25 12:57:58",
+  "created_at": "2026-04-25 19:37:48",
+  "updated_at": "2026-04-25 19:37:48",
   "prices": [
     {
-      "id": 1262,
       "product_id": 1262,
-      "store_id": "pcexpress",
-      "price": 878500,
+      "store_id": "centrale",
+      "price": 52830,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=1032874&search=tarjeta+video+nvidia+rtx&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:57:58",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/gabinete-corporativo-micro-atx-clio-slim-cl-s605/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 878500
+      "price": 52830
     }
   ],
   "scraped_at": "2026-04-25"

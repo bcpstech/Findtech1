@@ -1,37 +1,33 @@
 {
   "id": 764,
-  "external_id": "centrale_procesador-intel-core-i7-14700k-raptor-lake-s-lga1700-20-cores-28-hilos",
+  "external_id": "centrale_procesador-amd-ryzen-7-8700g-npu-ryzen-ai-4-2ghz-a-5-10ghz-8-nucleos-16-hilos",
   "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core i7-14700K Raptor Lake-S LGA1700, 20 Cores, 28 Hilos",
-  "slug": "procesador-intel-core-i7-14700k-raptor-lake-s-lga1700-20-cores-28-hilos",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i7-14700K-Raptor-Lake-S-LGA1700-20-Cores-28-Hilos_KVPdMI4-1.webp",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 7 8700G, NPU Ryzen AI, 4.2Ghz a 5.10Ghz, 8 Nùcleos 16 Hilos",
+  "slug": "procesador-amd-ryzen-7-8700g-npu-ryzen-ai-4-2ghz-a-5-10ghz-8-nucleos-16-hilos",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-8700G-Ryzen-AI-4.2Ghz-a-5.10Ghz-8-NC3B9cleos-16-Hil_R72icHQ-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$439.710",
-    "Tarjetas de Crédito / Débito": "$463.890"
+    "Transferencia / Efectivo": "$256.460",
+    "Tarjetas de Crédito / Débito": "$270.570"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:55",
-  "updated_at": "2026-04-25 18:19:55",
+  "created_at": "2026-04-25 19:37:30",
+  "updated_at": "2026-04-25 19:37:30",
   "prices": [
     {
-      "id": 764,
       "product_id": 764,
       "store_id": "centrale",
-      "price": 439710,
-      "price_normal": 547100,
-      "discount_pct": 20,
-      "currency": "CLP",
+      "price": 256460,
+      "price_normal": 395050,
+      "discount_pct": 35,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700k-raptor-lake-s-lga1700-20-cores-28-hilos/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:55",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-8700g-npu-ryzen-ai-4-2ghz-a-5-10ghz-8-nucleos-16-hilos/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 439710
+      "price": 256460
     }
   ],
   "scraped_at": "2026-04-25"

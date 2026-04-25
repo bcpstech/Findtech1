@@ -1,45 +1,43 @@
 {
   "id": 1288,
-  "external_id": "pcexpress_1029278-asus-desktop-intel-core-ultra-5-225-3-3-ghz-ddr5-sdram-512-gb-hard-drive-capacity-intel-uhd-",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "1029278 - asus - desktop - intel core ultra 5 225 / 3.3 ghz - ddr5 sdram - 512 gb hard drive capacity - intel uhd graphics - windows 11 pro",
-  "slug": "1029278-asus-desktop-intel-core-ultra-5-225-3-3-ghz-ddr5-sdram-512-gb-hard-drive-capacity-intel-uhd-",
-  "image_url": null,
+  "external_id": "progaming_ventilador-formula-floe-12bk-arpw-black",
+  "category_id": "cooling",
+  "brand": "Genérico",
+  "name": "Ventilador Formula FLOE 12BK ARPW Black",
+  "slug": "ventilador-formula-floe-12bk-arpw-black",
+  "image_url": "https://images.findtech.cl/products/ventilador-formula-floe-12bk-arpw-black.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$949.900",
-    "Tarjeta crédito/débito": "$978.397"
+    "Marca": "Formula V Line",
+    "Modelo": "FLOE 12BK ARPW Black",
+    "Transferencia/Efectivo": "$9.700",
+    "Webpay / Tarjeta crédito-débito": "$9.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:16",
-  "updated_at": "2026-04-25 12:58:16",
+  "created_at": "2026-04-25 19:39:59",
+  "updated_at": "2026-04-25 19:39:59",
   "prices": [
     {
-      "id": 1288,
       "product_id": 1288,
-      "store_id": "pcexpress",
-      "price": 949900,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "store_id": "progaming",
+      "price": 9700,
+      "price_normal": 11640,
+      "discount_pct": 17,
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=1029278&search=procesador+core+intel&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:16",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://progaming.cl/producto/componentes/refrigeracion/ventilador-formula-floe-12bk-arpw-black/",
+      "store_name": "ProGaming",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.progaming.cl",
+      "full_url": "https://www.progaming.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "progaming",
+      "store_name": "ProGaming",
       "date": "2026-04-25",
-      "price": 949900
+      "price": 9700
     }
   ],
   "scraped_at": "2026-04-25"

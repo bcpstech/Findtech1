@@ -1,45 +1,43 @@
 {
   "id": 1283,
-  "external_id": "pcexpress_19594-procesador-intel-core-ultra-7-265k-hasta-5-5ghz-30mb-cache-s1851-p-n-bx80768265k",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "19594 - procesador intel core ultra 7 265k hasta 5.5ghz 30mb cache s1851 p/n bx80768265k",
-  "slug": "19594-procesador-intel-core-ultra-7-265k-hasta-5-5ghz-30mb-cache-s1851-p-n-bx80768265k",
-  "image_url": null,
+  "external_id": "progaming_ventilador-cooler-master-masterfan-mf120-halo-2-negro",
+  "category_id": "cooling",
+  "brand": "Cooler Master",
+  "name": "Ventilador Cooler Master MasterFan MF120 Halo 2 Negro",
+  "slug": "ventilador-cooler-master-masterfan-mf120-halo-2-negro",
+  "image_url": "https://images.findtech.cl/products/ventilador-cooler-master-masterfan-mf120-halo-2-negro.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$372.500",
-    "Tarjeta crédito/débito": "$383.675"
+    "Marca": "Cooler Master",
+    "Modelo": "MFL-B2DN-21NP2-R2",
+    "Transferencia/Efectivo": "$14.550",
+    "Webpay / Tarjeta crédito-débito": "$14.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:16",
-  "updated_at": "2026-04-25 12:58:16",
+  "created_at": "2026-04-25 19:39:58",
+  "updated_at": "2026-04-25 19:39:58",
   "prices": [
     {
-      "id": 1283,
       "product_id": 1283,
-      "store_id": "pcexpress",
-      "price": 372500,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "store_id": "progaming",
+      "price": 14550,
+      "price_normal": 16500,
+      "discount_pct": 12,
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=19594&search=procesador+core+intel&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:16",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://progaming.cl/producto/componentes/refrigeracion/ventilador-cooler-master-masterfan-mf120-halo-2-negro/",
+      "store_name": "ProGaming",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.progaming.cl",
+      "full_url": "https://www.progaming.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "progaming",
+      "store_name": "ProGaming",
       "date": "2026-04-25",
-      "price": 372500
+      "price": 14550
     }
   ],
   "scraped_at": "2026-04-25"

@@ -1,37 +1,33 @@
 {
   "id": 1216,
-  "external_id": "centrale_cooler-master-gabinete-elite-502-blanco-atx-vidrio-templado-3-ventiladores",
-  "category_id": "case",
-  "brand": "Cooler Master",
-  "name": "Cooler Master Gabinete Elite 502 Blanco Atx (Vidrio Templado, 3 Ventiladores",
-  "slug": "cooler-master-gabinete-elite-502-blanco-atx-vidrio-templado-3-ventiladores",
-  "image_url": "https://centrale.cl/wp-content/uploads/Cooler-Master-Elite-502-Blanco-Argb-Fan-3-E502-WGNN-S00-1775866638.webp",
+  "external_id": "centrale_fuente-de-poder-corsair-650w-certificada-cx650-80plus-bronze-estandar-atx",
+  "category_id": "psu",
+  "brand": "Corsair",
+  "name": "Fuente De Poder Corsair 650W (Certificada) Cx650 80Plus Bronze Estandar Atx",
+  "slug": "fuente-de-poder-corsair-650w-certificada-cx650-80plus-bronze-estandar-atx",
+  "image_url": "https://centrale.cl/wp-content/uploads/Corsair-Memory-Power-Supply-Cx650-80-Plus-Bronze-CP-9020278-NA-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$67.830",
-    "Tarjetas de Crédito / Débito": "$71.560"
+    "Transferencia / Efectivo": "$61.800",
+    "Tarjetas de Crédito / Débito": "$65.200"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:57:55",
-  "updated_at": "2026-04-25 12:57:55",
+  "created_at": "2026-04-25 19:37:46",
+  "updated_at": "2026-04-25 19:37:46",
   "prices": [
     {
-      "id": 1216,
       "product_id": 1216,
       "store_id": "centrale",
-      "price": 67830,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "price": 61800,
+      "price_normal": 68980,
+      "discount_pct": 10,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/cooler-master-gabinete-elite-502-blanco-atx-vidrio-templado-3-ventiladores/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:57:55",
+      "product_url": "https://centrale.cl/producto/fuente-de-poder-corsair-650w-certificada-cx650-80plus-bronze-estandar-atx/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 67830
+      "price": 61800
     }
   ],
   "scraped_at": "2026-04-25"

@@ -1,45 +1,57 @@
 {
   "id": 1296,
-  "external_id": "pcexpress_1032672-placa-madre-asus-prime-h810m-e-slga1851",
-  "category_id": "mobo",
-  "brand": "ASUS",
-  "name": "1032672 - placa madre asus prime h810m-e slga1851",
-  "slug": "1032672-placa-madre-asus-prime-h810m-e-slga1851",
-  "image_url": null,
+  "external_id": "progaming_refrigeracion-liquida-corsair-icue-link-titan-240-rx-rgb",
+  "category_id": "cooling",
+  "brand": "Corsair",
+  "name": "Refrigeracion Liquida Corsair iCUE Link Titan 240 RX RGB",
+  "slug": "refrigeracion-liquida-corsair-icue-link-titan-240-rx-rgb",
+  "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-corsair-icue-link-titan-240-rx-rgb.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$102.500",
-    "Tarjeta crédito/débito": "$105.575"
+    "Marca": "Corsair",
+    "Modelo": "iCUE Link Titan 240 RX RGB",
+    "Transferencia/Efectivo": "$97.080",
+    "Webpay / Tarjeta crédito-débito": "$99.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:34",
-  "updated_at": "2026-04-25 12:58:34",
+  "created_at": "2026-04-25 19:40:01",
+  "updated_at": "2026-04-25 19:40:01",
   "prices": [
     {
-      "id": 1296,
       "product_id": 1296,
-      "store_id": "pcexpress",
-      "price": 102500,
+      "store_id": "progaming",
+      "price": 97080,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=1032672&search=placa+madre+intel+lga&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:34",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-corsair-icue-link-titan-240-rx-rgb/",
+      "store_name": "ProGaming",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.progaming.cl",
+      "full_url": "https://www.progaming.cl"
+    },
+    {
+      "product_id": 1143,
+      "store_id": "centrale",
+      "price": 224900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/refrigeracion-liquida-cpu-corsair-icue-link-h100i-rgb-240mm-aio-lga1700-am5/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "progaming",
+      "store_name": "ProGaming",
       "date": "2026-04-25",
-      "price": 102500
+      "price": 97080
     }
   ],
   "scraped_at": "2026-04-25"

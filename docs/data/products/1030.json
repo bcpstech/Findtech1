@@ -1,37 +1,33 @@
 {
   "id": 1030,
-  "external_id": "centrale_disco-ssd-500gb-kingston-nv3-8211-m-2-2280-pcie-4-0-nvme-5-000-3-000mb-seg",
+  "external_id": "centrale_disco-ssd-1tb-msi-spatium-m450-m-2-nvme-pcie-4-0",
   "category_id": "storage",
-  "brand": "Kingston",
-  "name": "Disco SSD 500GB Kingston NV3 &#8211; M.2 2280 PCIe 4.0 NVMe 5,000/3,000MB/seg",
-  "slug": "disco-ssd-500gb-kingston-nv3-8211-m-2-2280-pcie-4-0-nvme-5-000-3-000mb-seg",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-500GB-Kingston-NV3-M.2-2280-PCIe-4.0-NVMe-6000MB-s_fnumfFE-1.webp",
+  "brand": "MSI",
+  "name": "Disco SSD 1TB MSI Spatium M450 M.2 NVMe PCIe 4.0",
+  "slug": "disco-ssd-1tb-msi-spatium-m450-m-2-nvme-pcie-4-0",
+  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-1TB-MSI-Spatium-M450-M.2-NVMe-PCIe-4.0_pzXrdpw.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$84.980",
-    "Tarjetas de Crédito / Débito": "$89.650"
+    "Transferencia / Efectivo": "$198.010",
+    "Tarjetas de Crédito / Débito": "$208.900"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:04",
-  "updated_at": "2026-04-25 18:20:04",
+  "created_at": "2026-04-25 19:37:38",
+  "updated_at": "2026-04-25 19:37:38",
   "prices": [
     {
-      "id": 1030,
       "product_id": 1030,
       "store_id": "centrale",
-      "price": 84980,
+      "price": 198010,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-500gb-kingston-nv3-m-2-2280-pcie-4-0-nvme-5000-3000mb-seg/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:04",
+      "product_url": "https://centrale.cl/producto/disco-ssd-1tb-msi-spatium-m450-m-2-nvme-pcie-4-0/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 84980
+      "price": 198010
     }
   ],
   "scraped_at": "2026-04-25"

@@ -1,45 +1,42 @@
 {
   "id": 678,
-  "external_id": "centrale_tarjeta-grafica-msi-geforce-rtx-5080-gaming-trio-oc-white-16gb-gddr7-256-bit",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "Tarjeta Gráfica MSI GeForce RTX 5080 GAMING TRIO OC WHITE 16GB GDDR7 256-bit",
-  "slug": "tarjeta-grafica-msi-geforce-rtx-5080-gaming-trio-oc-white-16gb-gddr7-256-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-MSI-GeForce-RTX-5080-GAMING-TRIO-OC-WHITE-16GB-GDDR7-256-bit.webp",
+  "external_id": "cg_memoria-ram-adata-8gb-ddr5-5600mt-s-cl45",
+  "category_id": "ram",
+  "brand": "Genérico",
+  "name": "Memoria Ram ADATA 8GB DDR5 5600MT/S CL45",
+  "slug": "memoria-ram-adata-8gb-ddr5-5600mt-s-cl45",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-adata-8gb-ddr5-5600mt-s-cl45.png",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$1.683.980",
-    "Tarjetas de Crédito / Débito": "$1.776.600"
+    "Marca": "ADATA",
+    "Efectivo/Transferencia": "$99.740",
+    "Webpay / Tarjeta crédito-débito": "$104.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:52",
-  "updated_at": "2026-04-25 18:19:52",
+  "created_at": "2026-04-25 19:35:57",
+  "updated_at": "2026-04-25 19:35:57",
   "prices": [
     {
-      "id": 678,
       "product_id": 678,
-      "store_id": "centrale",
-      "price": 1683980,
+      "store_id": "cg",
+      "price": 99740,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5080-gaming-trio-oc-white-16gb-gddr7-256-bit/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:52",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-adata-8gb-ddr5-5600mt-s-cl45/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
+      "store_id": "cg",
+      "store_name": "CentralGamer",
       "date": "2026-04-25",
-      "price": 1683980
+      "price": 99740
     }
   ],
   "scraped_at": "2026-04-25"

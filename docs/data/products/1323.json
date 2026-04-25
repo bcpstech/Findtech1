@@ -1,45 +1,56 @@
 {
   "id": 1323,
-  "external_id": "pcexpress_652915-memoria-para-server-hpe-16gb-1-x-16gb-ddr5-4800-cl40-1-20-v-unbuffered-288-pin",
-  "category_id": "ram",
-  "brand": "Genérico",
-  "name": "652915 - memoria para server hpe 16gb (1 x 16gb) ddr5 -4800 - cl40 - 1.20 v - unbuffered - 288-pin",
-  "slug": "652915-memoria-para-server-hpe-16gb-1-x-16gb-ddr5-4800-cl40-1-20-v-unbuffered-288-pin",
-  "image_url": null,
+  "external_id": "dust2_tarjeta-de-video-gigabyte-rtx-5060-ti-eagle-max-oc-16-gb",
+  "category_id": "gpu",
+  "brand": "Gigabyte",
+  "name": "Tarjeta de Video Gigabyte RTX 5060 Ti EAGLE MAX OC 16 GB",
+  "slug": "tarjeta-de-video-gigabyte-rtx-5060-ti-eagle-max-oc-16-gb",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-gigabyte-rtx-5060-ti-eagle-max-oc-16-gb.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$2.732.500",
-    "Tarjeta crédito/débito": "$2.814.475"
+    "Marca": "Gigabyte",
+    "Transferencia/Efectivo": "$617.470",
+    "Webpay / Tarjeta crédito-débito": "$635.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:41",
-  "updated_at": "2026-04-25 12:58:41",
+  "created_at": "2026-04-25 19:40:21",
+  "updated_at": "2026-04-25 19:40:21",
   "prices": [
     {
-      "id": 1323,
       "product_id": 1323,
-      "store_id": "pcexpress",
-      "price": 2732500,
+      "store_id": "dust2",
+      "price": 617470,
+      "price_normal": 623290,
+      "discount_pct": 1,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-gigabyte-rtx-5060-ti-eagle-max-oc-16-gb/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 720,
+      "store_id": "centrale",
+      "price": 699420,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=652915&search=memoria+ram+ddr5&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:41",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-gigabyte-rtx-5060-ti-eagle-max-oc-16gb-gddr7-128-bit/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "dust2",
+      "store_name": "Dust2",
       "date": "2026-04-25",
-      "price": 2732500
+      "price": 617470
     }
   ],
   "scraped_at": "2026-04-25"

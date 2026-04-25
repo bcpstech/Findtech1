@@ -1,37 +1,33 @@
 {
   "id": 754,
-  "external_id": "centrale_procesador-amd-ryzen-7-9700x-8-cores-16-threads-3-8-a-5-5-ghz-65w",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 7 9700X, 8 Cores 16 Threads,  3.8 a 5.5 GHz, 65W",
-  "slug": "procesador-amd-ryzen-7-9700x-8-cores-16-threads-3-8-a-5-5-ghz-65w",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-9700X-8-Cores-16-Threads-3.8-a-5.5-GHz-65W_CmdGubx-1.webp",
+  "external_id": "centrale_tarjeta-grafica-pny-nvidia-rtx-a1000-8gb-gddr6-ecc-128-bit",
+  "category_id": "gpu",
+  "brand": "Pny",
+  "name": "Tarjeta Gráfica PNY Nvidia RTX A1000 8GB GDDR6 ECC 128-bit",
+  "slug": "tarjeta-grafica-pny-nvidia-rtx-a1000-8gb-gddr6-ecc-128-bit",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-PNY-Nvidia-RTX-A1000-8GB-GDDR6-ECC-128-bit_ogBLiYx-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$366.790",
-    "Tarjetas de Crédito / Débito": "$386.960"
+    "Transferencia / Efectivo": "$647.660",
+    "Tarjetas de Crédito / Débito": "$683.280"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:55",
-  "updated_at": "2026-04-25 18:19:55",
+  "created_at": "2026-04-25 19:37:28",
+  "updated_at": "2026-04-25 19:37:28",
   "prices": [
     {
-      "id": 754,
       "product_id": 754,
       "store_id": "centrale",
-      "price": 366790,
+      "price": 647660,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-9700x-8-cores-16-threads-3-8-a-5-5-ghz-65w/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:55",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-pny-nvidia-rtx-a1000-8gb-gddr6-ecc-128-bit/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 366790
+      "price": 647660
     }
   ],
   "scraped_at": "2026-04-25"

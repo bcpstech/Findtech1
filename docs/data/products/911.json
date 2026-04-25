@@ -1,37 +1,33 @@
 {
   "id": 911,
-  "external_id": "centrale_memoria-ram-32gb-2x-16gb-ddr5-6000mt-s-cl36-kingston-fury-beast-black-expo",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM 32GB (2x 16GB) DDR5 6000MT/s CL36 Kingston Fury Beast Black (EXPO)",
-  "slug": "memoria-ram-32gb-2x-16gb-ddr5-6000mt-s-cl36-kingston-fury-beast-black-expo",
-  "image_url": "https://centrale.cl/wp-content/uploads/Kingston-Memoria-32Gb-6000Mt-S-Ddr5-Cl36-Dimm-Kit-Of-2-Fu-KF560C36BBE2K2-32-1.webp",
+  "external_id": "centrale_placa-madre-gigabyte-b550-gaming-x-v2-socket-amd-am4-ddr4-pcie-4-0",
+  "category_id": "mobo",
+  "brand": "Gigabyte",
+  "name": "Placa Madre Gigabyte B550 GAMING X V2 Socket AMD AM4, DDR4, PCIe 4.0",
+  "slug": "placa-madre-gigabyte-b550-gaming-x-v2-socket-amd-am4-ddr4-pcie-4-0",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Gigabyte-B550-GAMING-X-V2-Socket-AMD-AM4-DDR4-PCIe-4.0_J3pEH2W-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$567.850",
-    "Tarjetas de Crédito / Débito": "$599.080"
+    "Transferencia / Efectivo": "$134.970",
+    "Tarjetas de Crédito / Débito": "$142.390"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:00",
-  "updated_at": "2026-04-25 18:20:00",
+  "created_at": "2026-04-25 19:37:33",
+  "updated_at": "2026-04-25 19:37:33",
   "prices": [
     {
-      "id": 911,
       "product_id": 911,
       "store_id": "centrale",
-      "price": 567850,
+      "price": 134970,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-32gb-2x-16gb-ddr5-6000mt-s-cl36-kingston-fury-beast-black-expo/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:00",
+      "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b550-gaming-x-v2-socket-amd-am4-ddr4-pcie-4-0/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 567850
+      "price": 134970
     }
   ],
   "scraped_at": "2026-04-25"

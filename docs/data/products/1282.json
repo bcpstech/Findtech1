@@ -1,45 +1,43 @@
 {
   "id": 1282,
-  "external_id": "pcexpress_20203-procesador-intel-core-ultra-7-265kf-icosa-core-20-core-3-90-ghz-36mb-l2-cache-125w-bx80768265k",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "20203 - procesador intel core ultra 7 265kf icosa-core (20 core) 3.90 ghz 36mb l2 cache - 125w - bx80768265kf",
-  "slug": "20203-procesador-intel-core-ultra-7-265kf-icosa-core-20-core-3-90-ghz-36mb-l2-cache-125w-bx80768265k",
-  "image_url": null,
+  "external_id": "progaming_refrigeracion-cooler-master-masterliquid-240l-core-spectrum",
+  "category_id": "cooling",
+  "brand": "Cooler Master",
+  "name": "Refrigeracion Cooler Master MasterLiquid 240L Core Spectrum",
+  "slug": "refrigeracion-cooler-master-masterliquid-240l-core-spectrum",
+  "image_url": "https://images.findtech.cl/products/refrigeracion-cooler-master-masterliquid-240l-core-spectrum.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$305.900",
-    "Tarjeta crédito/débito": "$315.077"
+    "Marca": "Cooler Master",
+    "Modelo": "MLW-D24M-A18PS-R1",
+    "Transferencia/Efectivo": "$77.660",
+    "Webpay / Tarjeta crédito-débito": "$79.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:16",
-  "updated_at": "2026-04-25 12:58:16",
+  "created_at": "2026-04-25 19:39:58",
+  "updated_at": "2026-04-25 19:39:58",
   "prices": [
     {
-      "id": 1282,
       "product_id": 1282,
-      "store_id": "pcexpress",
-      "price": 305900,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "store_id": "progaming",
+      "price": 77660,
+      "price_normal": 97080,
+      "discount_pct": 20,
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=20203&search=procesador+core+intel&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:16",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-cooler-master-masterliquid-240l-core-spectrum/",
+      "store_name": "ProGaming",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.progaming.cl",
+      "full_url": "https://www.progaming.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "progaming",
+      "store_name": "ProGaming",
       "date": "2026-04-25",
-      "price": 305900
+      "price": 77660
     }
   ],
   "scraped_at": "2026-04-25"

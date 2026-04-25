@@ -1,45 +1,43 @@
 {
   "id": 1271,
-  "external_id": "pcexpress_15920-procesador-amd-ryzen-7-7700x-4-5ghz-5-4ghz-8-nucleos-16-hilos-sam5-p-n-100-100000591wof",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "15920 - procesador amd ryzen 7 7700x 4.5ghz@5.4ghz 8 nucleos 16 hilos sam5 p/n 100-100000591wof",
-  "slug": "15920-procesador-amd-ryzen-7-7700x-4-5ghz-5-4ghz-8-nucleos-16-hilos-sam5-p-n-100-100000591wof",
-  "image_url": null,
+  "external_id": "progaming_pack-fans-x3-exodia-argb-blanco-120mm-con-controlador",
+  "category_id": "cooling",
+  "brand": "Genérico",
+  "name": "Pack Fans X3 Exodia ARGB Blanco 120mm con Controlador",
+  "slug": "pack-fans-x3-exodia-argb-blanco-120mm-con-controlador",
+  "image_url": "https://images.findtech.cl/products/pack-fans-x3-exodia-argb-blanco-120mm-con-controlador.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$309.900",
-    "Tarjeta crédito/débito": "$319.197"
+    "Marca": "Exodia",
+    "Modelo": "Pack Fans X3 Exodia ARGB Blanco 120mm",
+    "Transferencia/Efectivo": "$16.010",
+    "Webpay / Tarjeta crédito-débito": "$16.490"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:10",
-  "updated_at": "2026-04-25 12:58:10",
+  "created_at": "2026-04-25 19:39:56",
+  "updated_at": "2026-04-25 19:39:56",
   "prices": [
     {
-      "id": 1271,
       "product_id": 1271,
-      "store_id": "pcexpress",
-      "price": 309900,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "store_id": "progaming",
+      "price": 16010,
+      "price_normal": 17470,
+      "discount_pct": 8,
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=15920&search=procesador+ryzen+amd&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:10",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://progaming.cl/producto/componentes/refrigeracion/pack-fans-x3-exodia-argb-blanco-120mm-con-controlador/",
+      "store_name": "ProGaming",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.progaming.cl",
+      "full_url": "https://www.progaming.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "progaming",
+      "store_name": "ProGaming",
       "date": "2026-04-25",
-      "price": 309900
+      "price": 16010
     }
   ],
   "scraped_at": "2026-04-25"

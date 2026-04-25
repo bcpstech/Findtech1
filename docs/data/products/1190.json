@@ -1,37 +1,33 @@
 {
   "id": 1190,
-  "external_id": "centrale_gabinete-premium-arctic-xtender-black-e-atx-5-ventiladores-pre-instalados",
-  "category_id": "case",
-  "brand": "Arctic",
-  "name": "Gabinete Premium ARCTIC Xtender (Black) E-ATX (5 Ventiladores Pre-Instalados)",
-  "slug": "gabinete-premium-arctic-xtender-black-e-atx-5-ventiladores-pre-instalados",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Premium-ARCTIC-Xtender-Black-E-ATX-5-Ventiladores-Pre-Instalad_kClnBwm.webp",
+  "external_id": "centrale_fuente-gigabyte-gp-ud1000gm-1000w-80-plus-gold-pcie-5-0",
+  "category_id": "psu",
+  "brand": "Gigabyte",
+  "name": "Fuente Gigabyte GP-UD1000GM 1000W 80 Plus Gold PCIe 5.0",
+  "slug": "fuente-gigabyte-gp-ud1000gm-1000w-80-plus-gold-pcie-5-0",
+  "image_url": "https://centrale.cl/wp-content/uploads/Gigabyte-Fuente-De-Poder-1000W-Ud1000Gm-80-Plus-Gold-Full-Modular-No-Pg5-P-N.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$179.910",
-    "Tarjetas de Crédito / Débito": "$189.810"
+    "Transferencia / Efectivo": "$117.980",
+    "Tarjetas de Crédito / Débito": "$124.470"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:15",
-  "updated_at": "2026-04-25 18:20:15",
+  "created_at": "2026-04-25 19:37:46",
+  "updated_at": "2026-04-25 19:37:46",
   "prices": [
     {
-      "id": 1190,
       "product_id": 1190,
       "store_id": "centrale",
-      "price": 179910,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "price": 117980,
+      "price_normal": 149900,
+      "discount_pct": 21,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-premium-arctic-xtender-black-e-atx-5-ventiladores-pre-instalados/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:15",
+      "product_url": "https://centrale.cl/producto/fuente-gigabyte-gp-ud1000gm-1000w-80-plus-gold-pcie-5-0/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 179910
+      "price": 117980
     }
   ],
   "scraped_at": "2026-04-25"

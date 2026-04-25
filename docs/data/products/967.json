@@ -1,37 +1,33 @@
 {
   "id": 967,
-  "external_id": "centrale_disco-duro-toshiba-n300-20tb-nas-7200rpm-512mb-sata-6gb-s",
-  "category_id": "storage",
-  "brand": "Toshiba",
-  "name": "Disco Duro Toshiba N300 20TB NAS, 7200rpm, 512MB, SATA 6Gb/s",
-  "slug": "disco-duro-toshiba-n300-20tb-nas-7200rpm-512mb-sata-6gb-s",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-Duro-Toshiba-N300-20TB-NAS-7200rpm-512MB-SATA-6Gb-s-1776885903_YGtCeUN.webp",
+  "external_id": "centrale_memoria-ram-16gb-ddr5-5600mt-s-cl46-dimm-kingston-value-ram",
+  "category_id": "ram",
+  "brand": "Kingston",
+  "name": "Memoria RAM 16GB DDR5 5600MT/s CL46 DIMM Kingston Value Ram",
+  "slug": "memoria-ram-16gb-ddr5-5600mt-s-cl46-dimm-kingston-value-ram",
+  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-16GB-DDR5-5600MT-s-CL46-DIMM-Kingston-Value-Ram-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$578.890",
-    "Tarjetas de Crédito / Débito": "$610.730"
+    "Transferencia / Efectivo": "$216.480",
+    "Tarjetas de Crédito / Débito": "$228.390"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:04",
-  "updated_at": "2026-04-25 18:20:04",
+  "created_at": "2026-04-25 19:37:35",
+  "updated_at": "2026-04-25 19:37:35",
   "prices": [
     {
-      "id": 967,
       "product_id": 967,
       "store_id": "centrale",
-      "price": 578890,
+      "price": 216480,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-duro-toshiba-n300-20tb-nas-7200rpm-512mb-sata-6gb-s/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:04",
+      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-5600mt-s-cl46-dimm-kingston-value-ram/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 578890
+      "price": 216480
     }
   ],
   "scraped_at": "2026-04-25"

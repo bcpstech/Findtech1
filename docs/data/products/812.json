@@ -1,37 +1,33 @@
 {
   "id": 812,
-  "external_id": "centrale_placa-madre-micro-atx-msi-pro-b760m-p-ddr4-socket-intel-lga-1700",
-  "category_id": "mobo",
-  "brand": "MSI",
-  "name": "Placa Madre Micro ATX MSI PRO B760M-P DDR4, Socket Intel LGA 1700",
-  "slug": "placa-madre-micro-atx-msi-pro-b760m-p-ddr4-socket-intel-lga-1700",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Micro-ATX-MSI-PRO-B760M-P-DDR4-Socket-Intel-LGA-1700-1.webp",
+  "external_id": "centrale_procesador-intel-core-i7-12700kf-3-6ghz-lga-1700",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i7-12700KF 3.6Ghz LGA 1700",
+  "slug": "procesador-intel-core-i7-12700kf-3-6ghz-lga-1700",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i7-12700KF-3.6Ghz-LGA-1700_64Lg55g-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$93.510",
-    "Tarjetas de Crédito / Débito": "$98.650"
+    "Transferencia / Efectivo": "$327.720",
+    "Tarjetas de Crédito / Débito": "$345.740"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:58",
-  "updated_at": "2026-04-25 18:19:58",
+  "created_at": "2026-04-25 19:37:30",
+  "updated_at": "2026-04-25 19:37:30",
   "prices": [
     {
-      "id": 812,
       "product_id": 812,
       "store_id": "centrale",
-      "price": 93510,
-      "price_normal": 104810,
-      "discount_pct": 11,
-      "currency": "CLP",
+      "price": 327720,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-msi-pro-b760m-p-ddr4-socket-intel-lga-1700/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:58",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-12700kf-3-6ghz-lga-1700/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 93510
+      "price": 327720
     }
   ],
   "scraped_at": "2026-04-25"

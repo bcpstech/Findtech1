@@ -1,45 +1,57 @@
 {
   "id": 1278,
-  "external_id": "pcexpress_17198-servidor-nas-qnap-2u-amd-ryzen-procesador-incrustado-v1500b-de-4-nucleos-8-hilos-de-2-2-ghz-4-",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "17198 - servidor nas qnap  2u   amd ryzen ™ procesador incrustado v1500b de 4 núcleos / 8 hilos de 2.2 ghz, 4 gb de sodimm ddr4 ( 1 x 4 gb ), fuente de alimentación redundante   p/n ts-873aeu-rp-4g",
-  "slug": "17198-servidor-nas-qnap-2u-amd-ryzen-procesador-incrustado-v1500b-de-4-nucleos-8-hilos-de-2-2-ghz-4-",
-  "image_url": null,
+  "external_id": "progaming_refrigeracion-liquida-asus-tuf-gaming-lc-iii-360-argb-lcd",
+  "category_id": "cooling",
+  "brand": "ASUS",
+  "name": "Refrigeracion Liquida ASUS TUF Gaming LC III 360 ARGB LCD",
+  "slug": "refrigeracion-liquida-asus-tuf-gaming-lc-iii-360-argb-lcd",
+  "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-asus-tuf-gaming-lc-iii-360-argb-lcd.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$3.100.500",
-    "Tarjeta crédito/débito": "$3.193.515"
+    "Marca": "Asus",
+    "Modelo": "TUF Gaming LC III 360 ARGB LCD",
+    "Transferencia/Efectivo": "$165.040",
+    "Webpay / Tarjeta crédito-débito": "$169.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:10",
-  "updated_at": "2026-04-25 12:58:10",
+  "created_at": "2026-04-25 19:39:57",
+  "updated_at": "2026-04-25 19:39:57",
   "prices": [
     {
-      "id": 1278,
       "product_id": 1278,
-      "store_id": "pcexpress",
-      "price": 3100500,
+      "store_id": "progaming",
+      "price": 165040,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=17198&search=procesador+ryzen+amd&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:10",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-asus-tuf-gaming-lc-iii-360-argb-lcd/",
+      "store_name": "ProGaming",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.progaming.cl",
+      "full_url": "https://www.progaming.cl"
+    },
+    {
+      "product_id": 1118,
+      "store_id": "centrale",
+      "price": 180890,
+      "price_normal": 224790,
+      "discount_pct": 20,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/refrigeracion-liquida-asus-tuf-gaming-lc-iii-360-argb-lcd-blanco/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "progaming",
+      "store_name": "ProGaming",
       "date": "2026-04-25",
-      "price": 3100500
+      "price": 165040
     }
   ],
   "scraped_at": "2026-04-25"

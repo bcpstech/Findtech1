@@ -1,37 +1,33 @@
 {
   "id": 1051,
-  "external_id": "centrale_disco-ssd-2tb-kingston-kc600-2-5-8243-sata3-auto-encript",
+  "external_id": "centrale_hdd-nas-wd-red-2tb-5400rpm-3-5-8243-sata-6gb-s-64mb-bufer",
   "category_id": "storage",
-  "brand": "Kingston",
-  "name": "Disco SSD 2TB Kingston KC600 2.5&#8243; SATA3 Auto Encript",
-  "slug": "disco-ssd-2tb-kingston-kc600-2-5-8243-sata3-auto-encript",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-2TB-Kingston-KC600-2.5-SATA3-Auto-Encript_0F4ycyw.webp",
+  "brand": "Western Digital",
+  "name": "HDD NAS WD Red 2TB, 5400RPM, 3.5&#8243; SATA 6Gb/s, 64MB Búfer",
+  "slug": "hdd-nas-wd-red-2tb-5400rpm-3-5-8243-sata-6gb-s-64mb-bufer",
+  "image_url": "https://centrale.cl/wp-content/uploads/Western-Digital-Wd-Red-Disco-Duro-2-Tb-Interno-3.5-Sata-6Gb-S-5400-Rpm-_r7LW6Fx-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$604.940",
-    "Tarjetas de Crédito / Débito": "$638.210"
+    "Transferencia / Efectivo": "$119.430",
+    "Tarjetas de Crédito / Débito": "$126.000"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:04",
-  "updated_at": "2026-04-25 18:20:04",
+  "created_at": "2026-04-25 19:37:38",
+  "updated_at": "2026-04-25 19:37:38",
   "prices": [
     {
-      "id": 1051,
       "product_id": 1051,
       "store_id": "centrale",
-      "price": 604940,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "price": 119430,
+      "price_normal": 132840,
+      "discount_pct": 10,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-2tb-kingston-kc600-2-5-sata3-auto-encript/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:04",
+      "product_url": "https://centrale.cl/producto/hdd-nas-wd-red-2tb-5400rpm-3-5-sata-6gb-s-64mb-bufer/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 604940
+      "price": 119430
     }
   ],
   "scraped_at": "2026-04-25"

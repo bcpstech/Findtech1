@@ -1,37 +1,33 @@
 {
   "id": 787,
-  "external_id": "centrale_msi-placa-madre-pro-h610m-g-wifi-ddr5-lga-1700-2x-ddr5-hdmi-dp-wi-fi-6e",
-  "category_id": "mobo",
-  "brand": "MSI",
-  "name": "Msi Placa Madre Pro H610M-G Wifi Ddr5, Lga 1700, 2X Ddr5, Hdmi, Dp, Wi-Fi 6E",
-  "slug": "msi-placa-madre-pro-h610m-g-wifi-ddr5-lga-1700-2x-ddr5-hdmi-dp-wi-fi-6e",
-  "image_url": "https://centrale.cl/wp-content/uploads/Msi-Placa-Madre-Pro-H610M-G-Wifi-Ddr5-Lga-1700-2X-Ddr5-Hdmi-Dp-Wi-Fi-6E.webp",
+  "external_id": "centrale_procesador-amd-ryzen-9-7900x-4-7ghz-12-nucleos-24-hilos-socket-am5",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 9 7900X, 4.7Ghz, 12 Núcleos / 24 Hilos, Socket AM5",
+  "slug": "procesador-amd-ryzen-9-7900x-4-7ghz-12-nucleos-24-hilos-socket-am5",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-9-7900X-4.7Ghz-12-NC3BAcleos-24-Hilos-Socket-AM5_hDOKxQS-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$96.580",
-    "Tarjetas de Crédito / Débito": "$101.890"
+    "Transferencia / Efectivo": "$418.210",
+    "Tarjetas de Crédito / Débito": "$441.210"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:58",
-  "updated_at": "2026-04-25 18:19:58",
+  "created_at": "2026-04-25 19:37:30",
+  "updated_at": "2026-04-25 19:37:30",
   "prices": [
     {
-      "id": 787,
       "product_id": 787,
       "store_id": "centrale",
-      "price": 96580,
+      "price": 418210,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/msi-placa-madre-pro-h610m-g-wifi-ddr5-lga-1700-2x-ddr5-hdmi-dp-wi-fi-6e/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:58",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-7900x-4-7ghz-12-nucleos-24-hilos-socket-am5/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 96580
+      "price": 418210
     }
   ],
   "scraped_at": "2026-04-25"

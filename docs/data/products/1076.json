@@ -1,37 +1,33 @@
 {
   "id": 1076,
-  "external_id": "centrale_refrigeracion-liquida-gigabyte-360mm-argb-negro",
-  "category_id": "cooling",
-  "brand": "Gigabyte",
-  "name": "Refrigeración Líquida Gigabyte 360mm, ARGB Negro,",
-  "slug": "refrigeracion-liquida-gigabyte-360mm-argb-negro",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gigabyte-Watercooler-Negro-Radiador-360Mm-3-Fans-Rgb-GP-GIGABYTE-GME-3_lVAOsjp.webp",
+  "external_id": "centrale_disco-ssd-1tb-crucial-p310-m-2-2230-pcie-4-0-x4-lectura-7100mb-s",
+  "category_id": "storage",
+  "brand": "Crucial",
+  "name": "Disco SSD 1TB Crucial P310, M.2 2230, PCIe 4.0 x4, Lectura 7100MB/s",
+  "slug": "disco-ssd-1tb-crucial-p310-m-2-2230-pcie-4-0-x4-lectura-7100mb-s",
+  "image_url": "https://centrale.cl/wp-content/uploads/Crucial-Unidad-Ssd-P310-1Tb-M.2-2230-Pcie-4.0-X4-Lectura-7100Mb-S-Escritura-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$88.880",
-    "Tarjetas de Crédito / Débito": "$93.770"
+    "Transferencia / Efectivo": "$179.450",
+    "Tarjetas de Crédito / Débito": "$189.320"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:07",
-  "updated_at": "2026-04-25 18:20:07",
+  "created_at": "2026-04-25 19:37:38",
+  "updated_at": "2026-04-25 19:37:38",
   "prices": [
     {
-      "id": 1076,
       "product_id": 1076,
       "store_id": "centrale",
-      "price": 88880,
-      "price_normal": 123480,
-      "discount_pct": 28,
-      "currency": "CLP",
+      "price": 179450,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/refrigeracion-liquida-gigabyte-360mm-argb-negro/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:07",
+      "product_url": "https://centrale.cl/producto/disco-ssd-1tb-crucial-p310-m-2-2230-pcie-4-0-x4-lectura-7100mb-s/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 88880
+      "price": 179450
     }
   ],
   "scraped_at": "2026-04-25"

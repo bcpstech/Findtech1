@@ -1,45 +1,42 @@
 {
   "id": 1306,
-  "external_id": "pcexpress_21063-placa-madre-asus-tuf-gaming-b650m-plus-wifi-sam5",
-  "category_id": "ram",
+  "external_id": "dust2_tarjeta-de-video-asus-geforce-rtx-5080-16gb-gddr7-noctua-oc",
+  "category_id": "gpu",
   "brand": "ASUS",
-  "name": "21063 - placa madre asus tuf gaming b650m-plus wifi sam5",
-  "slug": "21063-placa-madre-asus-tuf-gaming-b650m-plus-wifi-sam5",
-  "image_url": null,
+  "name": "Tarjeta de Video ASUS GeForce RTX 5080 16GB GDDR7 Noctua OC",
+  "slug": "tarjeta-de-video-asus-geforce-rtx-5080-16gb-gddr7-noctua-oc",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-asus-geforce-rtx-5080-16gb-gddr7-noctua-oc.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$198.500",
-    "Tarjeta crédito/débito": "$204.455"
+    "Marca": "ASUS",
+    "Transferencia/Efectivo": "$2.089.310",
+    "Webpay / Tarjeta crédito-débito": "$2.151.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:41",
-  "updated_at": "2026-04-25 12:58:41",
+  "created_at": "2026-04-25 19:40:15",
+  "updated_at": "2026-04-25 19:40:15",
   "prices": [
     {
-      "id": 1306,
       "product_id": 1306,
-      "store_id": "pcexpress",
-      "price": 198500,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "store_id": "dust2",
+      "price": 2089310,
+      "price_normal": 2155330,
+      "discount_pct": 3,
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=21063&search=memoria+ram+ddr5&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:41",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-asus-geforce-rtx-5080-16gb-gddr7-noctua-oc/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "dust2",
+      "store_name": "Dust2",
       "date": "2026-04-25",
-      "price": 198500
+      "price": 2089310
     }
   ],
   "scraped_at": "2026-04-25"

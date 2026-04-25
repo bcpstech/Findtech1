@@ -1,37 +1,33 @@
 {
   "id": 980,
-  "external_id": "centrale_disco-duro-toshiba-n300-pro-24tb-nas-7200rpm-sata",
-  "category_id": "storage",
-  "brand": "Toshiba",
-  "name": "Disco Duro Toshiba N300 Pro 24TB NAS 7200RPM SATA",
-  "slug": "disco-duro-toshiba-n300-pro-24tb-nas-7200rpm-sata",
-  "image_url": "https://centrale.cl/wp-content/uploads/Toshiba-Disco-Duro-Interno-Nas-N300-Pro-24Tb-HDWG82EXZSTB.webp",
+  "external_id": "centrale_memoria-ram-48gb-ddr5-6000mt-s-cl32-kingston-fury-renegade-rgb",
+  "category_id": "ram",
+  "brand": "Kingston",
+  "name": "Memoria RAM 48GB DDR5 6000MT/s CL32 Kingston Fury Renegade RGB",
+  "slug": "memoria-ram-48gb-ddr5-6000mt-s-cl32-kingston-fury-renegade-rgb",
+  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-48GB-DDR5-6000MT-s-CL32-Kingston-Fury-Renegade-RGB_qZJiUQR-2.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$814.310",
-    "Tarjetas de Crédito / Débito": "$859.100"
+    "Transferencia / Efectivo": "$639.900",
+    "Tarjetas de Crédito / Débito": "$675.090"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:04",
-  "updated_at": "2026-04-25 18:20:04",
+  "created_at": "2026-04-25 19:37:35",
+  "updated_at": "2026-04-25 19:37:35",
   "prices": [
     {
-      "id": 980,
       "product_id": 980,
       "store_id": "centrale",
-      "price": 814310,
+      "price": 639900,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-duro-toshiba-n300-pro-24tb-nas-7200rpm-sata/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:04",
+      "product_url": "https://centrale.cl/producto/memoria-ram-48gb-ddr5-6000mt-s-cl32-kingston-fury-renegade-rgb/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 814310
+      "price": 639900
     }
   ],
   "scraped_at": "2026-04-25"

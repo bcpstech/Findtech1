@@ -1,45 +1,43 @@
 {
   "id": 1266,
-  "external_id": "pcexpress_20596-tarjeta-de-video-asus-radeon-rx-9060xt-dual-16gb-p-n-dual-rx9060xt-16g",
-  "category_id": "gpu",
-  "brand": "ASUS",
-  "name": "20596 - tarjeta de video asus radeon rx 9060xt dual 16gb p/n dual-rx9060xt-16g",
-  "slug": "20596-tarjeta-de-video-asus-radeon-rx-9060xt-dual-16gb-p-n-dual-rx9060xt-16g",
-  "image_url": null,
+  "external_id": "progaming_disipador-de-aire-msi-mag-corefrozr-aa13-negro",
+  "category_id": "cooling",
+  "brand": "MSI",
+  "name": "Disipador de Aire MSI MAG Corefrozr AA13 Negro",
+  "slug": "disipador-de-aire-msi-mag-corefrozr-aa13-negro",
+  "image_url": "https://images.findtech.cl/products/disipador-de-aire-msi-mag-corefrozr-aa13-negro.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$563.900",
-    "Tarjeta crédito/débito": "$580.817"
+    "Marca": "MSI",
+    "Modelo": "MAG CoreFrozr AA13 - Black",
+    "Transferencia/Efectivo": "$24.170",
+    "Webpay / Tarjeta crédito-débito": "$24.890"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:05",
-  "updated_at": "2026-04-25 12:58:05",
+  "created_at": "2026-04-25 19:39:55",
+  "updated_at": "2026-04-25 19:39:55",
   "prices": [
     {
-      "id": 1266,
       "product_id": 1266,
-      "store_id": "pcexpress",
-      "price": 563900,
+      "store_id": "progaming",
+      "price": 24170,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=20596&search=tarjeta+video+radeon+rx&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:05",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://progaming.cl/producto/componentes/refrigeracion/disipador-de-aire-msi-mag-corefrozr-aa13-negro/",
+      "store_name": "ProGaming",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.progaming.cl",
+      "full_url": "https://www.progaming.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "progaming",
+      "store_name": "ProGaming",
       "date": "2026-04-25",
-      "price": 563900
+      "price": 24170
     }
   ],
   "scraped_at": "2026-04-25"

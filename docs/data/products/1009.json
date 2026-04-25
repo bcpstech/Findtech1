@@ -1,37 +1,33 @@
 {
   "id": 1009,
-  "external_id": "centrale_disco-duro-8tb-hdd-seagate-barracuda-3-5-8243-5400rpm-256mb-cache-sata",
-  "category_id": "storage",
-  "brand": "Seagate",
-  "name": "Disco Duro 8TB HDD Seagate Barracuda 3.5&#8243;, 5400RPM, 256MB Cache, SATA",
-  "slug": "disco-duro-8tb-hdd-seagate-barracuda-3-5-8243-5400rpm-256mb-cache-sata",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-Duro-8TB-HDD-Seagate-Barracuda-3.5-5400RPM-256MB-Cache-SATA_RVUkXs5.webp",
+  "external_id": "centrale_memoria-ram-32gb-3600mhz-ddr4-kingston-fury-black-cl18-dimm",
+  "category_id": "ram",
+  "brand": "Kingston",
+  "name": "Memoria RAM 32GB 3600MHZ DDR4 Kingston Fury Black CL18 DIMM",
+  "slug": "memoria-ram-32gb-3600mhz-ddr4-kingston-fury-black-cl18-dimm",
+  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-32GB-3600MHZ-DDR4-Kingston-Fury-Black-CL18-DIMM_d3a5hMg.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$341.200",
-    "Tarjetas de Crédito / Débito": "$359.970"
+    "Transferencia / Efectivo": "$279.700",
+    "Tarjetas de Crédito / Débito": "$295.080"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:04",
-  "updated_at": "2026-04-25 18:20:04",
+  "created_at": "2026-04-25 19:37:35",
+  "updated_at": "2026-04-25 19:37:35",
   "prices": [
     {
-      "id": 1009,
       "product_id": 1009,
       "store_id": "centrale",
-      "price": 341200,
+      "price": 279700,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-duro-8tb-hdd-seagate-barracuda-3-5-5400rpm-256mb-cache-sata/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:04",
+      "product_url": "https://centrale.cl/producto/memoria-ram-32gb-3600mhz-ddr4-kingston-fury-black-cl18-dimm/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 341200
+      "price": 279700
     }
   ],
   "scraped_at": "2026-04-25"

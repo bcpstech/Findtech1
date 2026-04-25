@@ -1,37 +1,33 @@
 {
   "id": 966,
-  "external_id": "centrale_disco-duro-seagate-skyhawk-ai-24tb-7200rpm-3-5-8243-sata",
-  "category_id": "storage",
-  "brand": "Seagate",
-  "name": "Disco Duro Seagate SkyHawk AI 24TB 7200RPM 3.5&#8243; SATA",
-  "slug": "disco-duro-seagate-skyhawk-ai-24tb-7200rpm-3-5-8243-sata",
-  "image_url": "https://centrale.cl/wp-content/uploads/Seagate-Skyhawk-Ai-Disk-Drive-24-Tb-3.5-ST24000VE002.webp",
+  "external_id": "centrale_memoria-ram-hp-e5k48a-1gb-ddr3-800mhz-so-dimm-laserjet-m506-m527",
+  "category_id": "ram",
+  "brand": "HP",
+  "name": "Memoria RAM HP E5K48A 1GB DDR3 800MHz SO-DIMM, LaserJet M506/M527",
+  "slug": "memoria-ram-hp-e5k48a-1gb-ddr3-800mhz-so-dimm-laserjet-m506-m527",
+  "image_url": "https://centrale.cl/wp-content/uploads/Hp-Memoria-Ram-1Gb-Ddr3-800Mhz-E5K48A-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$952.890",
-    "Tarjetas de Crédito / Débito": "$1.005.300"
+    "Transferencia / Efectivo": "$147.540",
+    "Tarjetas de Crédito / Débito": "$155.650"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:04",
-  "updated_at": "2026-04-25 18:20:04",
+  "created_at": "2026-04-25 19:37:35",
+  "updated_at": "2026-04-25 19:37:35",
   "prices": [
     {
-      "id": 966,
       "product_id": 966,
       "store_id": "centrale",
-      "price": 952890,
+      "price": 147540,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-duro-seagate-skyhawk-ai-24tb-7200rpm-3-5-sata/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:04",
+      "product_url": "https://centrale.cl/producto/memoria-ram-hp-e5k48a-1gb-ddr3-800mhz-so-dimm-laserjet-m506-m527/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 952890
+      "price": 147540
     }
   ],
   "scraped_at": "2026-04-25"

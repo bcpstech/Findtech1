@@ -1,37 +1,33 @@
 {
   "id": 768,
-  "external_id": "centrale_procesador-amd-ryzen-7-7700x-4-5ghz-8-nucleos-16-hilos-socket-am5-sin",
+  "external_id": "centrale_procesador-intel-core-i9-14900k-raptor-lake-s-lga1700-uhd-graphics",
   "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 7 7700X, 4.5Ghz, 8 Núcleos / 16 Hilos, Socket Am5, Sin",
-  "slug": "procesador-amd-ryzen-7-7700x-4-5ghz-8-nucleos-16-hilos-socket-am5-sin",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-7700X-4.5Ghz-8-NC3BAcleos-16-Hilos-Socket-Am5-Sin_9mQXrHu.webp",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i9-14900K Raptor Lake-S LGA1700, UHD Graphics",
+  "slug": "procesador-intel-core-i9-14900k-raptor-lake-s-lga1700-uhd-graphics",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i9-14900K-Raptor-Lake-S-LGA1700-UHD-Graphics_n4rqkpO-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$351.890",
-    "Tarjetas de Crédito / Débito": "$371.240"
+    "Transferencia / Efectivo": "$613.290",
+    "Tarjetas de Crédito / Débito": "$647.020"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:55",
-  "updated_at": "2026-04-25 18:19:55",
+  "created_at": "2026-04-25 19:37:30",
+  "updated_at": "2026-04-25 19:37:30",
   "prices": [
     {
-      "id": 768,
       "product_id": 768,
       "store_id": "centrale",
-      "price": 351890,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "price": 613290,
+      "price_normal": 685010,
+      "discount_pct": 10,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-7700x-4-5ghz-8-nucleos-16-hilos-socket-am5-sin/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:55",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900k-raptor-lake-s-lga1700-uhd-graphics/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 351890
+      "price": 613290
     }
   ],
   "scraped_at": "2026-04-25"

@@ -1,37 +1,33 @@
 {
   "id": 910,
-  "external_id": "centrale_memoria-ram-16gb-ddr5-6800mt-s-cl34-kingston-fury-beast-black-expo",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM 16GB DDR5 6800MT/s CL34 Kingston Fury Beast Black (EXPO)",
-  "slug": "memoria-ram-16gb-ddr5-6800mt-s-cl34-kingston-fury-beast-black-expo",
-  "image_url": "https://centrale.cl/wp-content/uploads/Kingston-Memoria-16Gb-6800Mt-S-Ddr5-Cl34-Dimm-Fury-Beast-Bl-KF568C34BBE-16-1.webp",
+  "external_id": "centrale_placa-madre-mini-atx-asus-prime-h610m-k-socket-intel-lga-1700-ddr5-pcie-3-0",
+  "category_id": "mobo",
+  "brand": "Asus",
+  "name": "Placa Madre Mini ATX ASUS PRIME H610M-K Socket Intel LGA 1700, DDR5, PCIe 3.0",
+  "slug": "placa-madre-mini-atx-asus-prime-h610m-k-socket-intel-lga-1700-ddr5-pcie-3-0",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Mini-ATX-ASUS-PRIME-H610M-K-Socket-Intel-LGA-1700-DDR5-PCIe-3.0-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$245.000",
-    "Tarjetas de Crédito / Débito": "$258.470"
+    "Transferencia / Efectivo": "$76.220",
+    "Tarjetas de Crédito / Débito": "$80.410"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:00",
-  "updated_at": "2026-04-25 18:20:00",
+  "created_at": "2026-04-25 19:37:33",
+  "updated_at": "2026-04-25 19:37:33",
   "prices": [
     {
-      "id": 910,
       "product_id": 910,
       "store_id": "centrale",
-      "price": 245000,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "price": 76220,
+      "price_normal": 85210,
+      "discount_pct": 11,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-6800mt-s-cl34-kingston-fury-beast-black-expo/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:00",
+      "product_url": "https://centrale.cl/producto/placa-madre-mini-atx-asus-prime-h610m-k-socket-intel-lga-1700-ddr5-pcie-3-0/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 245000
+      "price": 76220
     }
   ],
   "scraped_at": "2026-04-25"

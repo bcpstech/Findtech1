@@ -1,37 +1,33 @@
 {
   "id": 739,
-  "external_id": "centrale_procesador-amd-ryzen-9-9900x3d-12-cores-24tthreads-4-4ghz-am5-zen-5",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 9 9900X3D (12 Cores / 24Tthreads, 4.4GHz, AM5, Zen 5)",
-  "slug": "procesador-amd-ryzen-9-9900x3d-12-cores-24tthreads-4-4ghz-am5-zen-5",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-9-9900X3D-12-Cores-24Tthreads-4.4GHz-AM5-Zen-5.webp",
+  "external_id": "centrale_tarjeta-grafica-zotac-gaming-nvidia-geforce-rtx-5060-twin-edge-oc-8gb-gddr7",
+  "category_id": "gpu",
+  "brand": "Zotac",
+  "name": "Tarjeta Gráfica Zotac Gaming Nvidia GeForce RTX 5060 Twin Edge OC 8GB GDDR7",
+  "slug": "tarjeta-grafica-zotac-gaming-nvidia-geforce-rtx-5060-twin-edge-oc-8gb-gddr7",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-Zotac-Gaming-Nvidia-GeForce-RTX-5060-Twin-Edge-OC-8GB-GDDR7.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$692.730",
-    "Tarjetas de Crédito / Débito": "$730.830"
+    "Transferencia / Efectivo": "$481.600",
+    "Tarjetas de Crédito / Débito": "$508.090"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:55",
-  "updated_at": "2026-04-25 18:19:55",
+  "created_at": "2026-04-25 19:37:28",
+  "updated_at": "2026-04-25 19:37:28",
   "prices": [
     {
-      "id": 739,
       "product_id": 739,
       "store_id": "centrale",
-      "price": 692730,
+      "price": 481600,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-9900x3d-12-cores-24tthreads-4-4ghz-am5-zen-5/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:55",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-nvidia-geforce-rtx-5060-twin-edge-oc-8gb-gddr7/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 692730
+      "price": 481600
     }
   ],
   "scraped_at": "2026-04-25"

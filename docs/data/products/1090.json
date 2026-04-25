@@ -1,37 +1,33 @@
 {
   "id": 1090,
-  "external_id": "centrale_refrigeracion-liquida-cpu-arctic-liquid-freezer-iii-280-a-rgb-blanca-aio",
-  "category_id": "cooling",
-  "brand": "Arctic",
-  "name": "Refrigeración Líquida CPU ARCTIC Liquid Freezer III 280 A-RGB (Blanca) AiO",
-  "slug": "refrigeracion-liquida-cpu-arctic-liquid-freezer-iii-280-a-rgb-blanca-aio",
-  "image_url": "https://centrale.cl/wp-content/uploads/RefrigeraciC3B3n-LC3ADquida-CPU-ARCTIC-Liquid-Freezer-III-280-A-RGB-Blanca-AiO-1.webp",
+  "external_id": "centrale_disco-ssd-4tb-kingston-fury-renegade-nvme-pcie-4-0-con-disipador-ps5-compatible",
+  "category_id": "storage",
+  "brand": "Kingston",
+  "name": "Disco SSD 4TB Kingston Fury Renegade NVMe PCIe 4.0 con Disipador PS5 Compatible",
+  "slug": "disco-ssd-4tb-kingston-fury-renegade-nvme-pcie-4-0-con-disipador-ps5-compatible",
+  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-4TB-Kingston-Fury-Renegade-NVMe-PCIe-4.0-con-Disipador-PS5-Co_VkgWmSj-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$94.900",
-    "Tarjetas de Crédito / Débito": "$100.120"
+    "Transferencia / Efectivo": "$592.990",
+    "Tarjetas de Crédito / Débito": "$625.600"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:07",
-  "updated_at": "2026-04-25 18:20:07",
+  "created_at": "2026-04-25 19:37:38",
+  "updated_at": "2026-04-25 19:37:38",
   "prices": [
     {
-      "id": 1090,
       "product_id": 1090,
       "store_id": "centrale",
-      "price": 94900,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "price": 592990,
+      "price_normal": 697660,
+      "discount_pct": 15,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/refrigeracion-liquida-cpu-arctic-liquid-freezer-iii-280-a-rgb-blanca-aio/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:07",
+      "product_url": "https://centrale.cl/producto/disco-ssd-4tb-kingston-fury-renegade-nvme-pcie-4-0-con-disipador-ps5-compatible/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 94900
+      "price": 592990
     }
   ],
   "scraped_at": "2026-04-25"

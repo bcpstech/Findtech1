@@ -1,37 +1,33 @@
 {
   "id": 1220,
-  "external_id": "centrale_gabinete-rack-7u-hasta-8-gpus-placas-eeb-5x1600w-redundante-8-215-2-5-8243",
-  "category_id": "case",
-  "brand": "Borean",
-  "name": "Gabinete Rack 7U, hasta 8 GPUs, placas EEB, 5x1600W redundante, 8&#215;2.5&#8243;",
-  "slug": "gabinete-rack-7u-hasta-8-gpus-placas-eeb-5x1600w-redundante-8-215-2-5-8243",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Rack-7U-hasta-8-GPUs-placas-EEB-5x1600W-redundante-8x2.5-17763_yeYTSo0.webp",
+  "external_id": "centrale_fuente-de-poder-650w-msi-mag-a650bn-no-modular-80-bronze",
+  "category_id": "psu",
+  "brand": "MSI",
+  "name": "Fuente de Poder 650W MSI MAG A650BN (No Modular, 80+ Bronze)",
+  "slug": "fuente-de-poder-650w-msi-mag-a650bn-no-modular-80-bronze",
+  "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-650W-MSI-MAG-A650BN-No-Modular-80-Bronze-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$4.676.870",
-    "Tarjetas de Crédito / Débito": "$4.934.100"
+    "Transferencia / Efectivo": "$53.100",
+    "Tarjetas de Crédito / Débito": "$56.020"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:57:55",
-  "updated_at": "2026-04-25 12:57:55",
+  "created_at": "2026-04-25 19:37:46",
+  "updated_at": "2026-04-25 19:37:46",
   "prices": [
     {
-      "id": 1220,
       "product_id": 1220,
       "store_id": "centrale",
-      "price": 4676870,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "price": 53100,
+      "price_normal": 59130,
+      "discount_pct": 10,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-rack-7u-hasta-8-gpus-placas-eeb-5x1600w-redundante-8x2-5/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:57:55",
+      "product_url": "https://centrale.cl/producto/fuente-de-poder-650w-msi-mag-a650bn-no-modular-80-bronze/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 4676870
+      "price": 53100
     }
   ],
   "scraped_at": "2026-04-25"

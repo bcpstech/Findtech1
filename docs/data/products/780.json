@@ -1,37 +1,61 @@
 {
   "id": 780,
-  "external_id": "centrale_placa-madre-asus-prime-h810m-e-micro-atx-lga-1851-ddr5-hasta-128gb",
-  "category_id": "mobo",
-  "brand": "Asus",
-  "name": "Placa Madre ASUS PRIME H810M-E Micro ATX LGA 1851, DDR5 hasta 128GB",
-  "slug": "placa-madre-asus-prime-h810m-e-micro-atx-lga-1851-ddr5-hasta-128gb",
-  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Tarjeta-Madre-Micro-Atx-Lga-1851-Intel-H810-128Gb-Ddr5-Hdmi-Dp-Para.webp",
+  "external_id": "centrale_procesador-intel-core-ultra-7-265k-20-nucleos-3-9ghz-a-5-5ghz-lga-1851",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core Ultra 7 265K, 20 Núcleos, 3.9Ghz a 5.5Ghz,  LGA 1851",
+  "slug": "procesador-intel-core-ultra-7-265k-20-nucleos-3-9ghz-a-5-5ghz-lga-1851",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-7-265K-20-NC3BAcleos-3.9Ghz-a-5.5Ghz-LGA-1851-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$104.130",
-    "Tarjetas de Crédito / Débito": "$109.860"
+    "Transferencia / Efectivo": "$352.460",
+    "Tarjetas de Crédito / Débito": "$371.850"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:58",
-  "updated_at": "2026-04-25 18:19:58",
+  "created_at": "2026-04-25 19:37:30",
+  "updated_at": "2026-04-25 19:37:30",
   "prices": [
     {
-      "id": 780,
       "product_id": 780,
       "store_id": "centrale",
-      "price": 104130,
-      "price_normal": 118870,
-      "discount_pct": 12,
-      "currency": "CLP",
+      "price": 352460,
+      "price_normal": 393190,
+      "discount_pct": 10,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-h810m-e-micro-atx-lga-1851-ddr5-hasta-128gb/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:58",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265k-20-nucleos-3-9ghz-a-5-5ghz-lga-1851/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 77,
+      "store_id": "n1g",
+      "price": 364900,
+      "price_normal": 384105,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3020-intel-core-ultra-7-265k-20-core-8p12e-lga-1851-125w-desktop-processor-arrow-lake-bx80768265k.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 653,
+      "store_id": "cg",
+      "price": 375030,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-7-265k-3-9-ghz-20-core-lga1851/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -39,7 +63,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 104130
+      "price": 352460
     }
   ],
   "scraped_at": "2026-04-25"

@@ -1,37 +1,47 @@
 {
   "id": 1211,
-  "external_id": "centrale_gabinete-asus-prime-ap201-microatx-black-mesh-33-litros",
-  "category_id": "case",
+  "external_id": "centrale_fuente-de-poder-asus-rog-thor-1600w-titanium-iii-full-modular-80plus",
+  "category_id": "psu",
   "brand": "Asus",
-  "name": "Gabinete ASUS PRIME AP201 MicroAtx Black Mesh 33 litros",
-  "slug": "gabinete-asus-prime-ap201-microatx-black-mesh-33-litros",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-ASUS-PRIME-AP201-MicroAtx-Black-Mesh-33-litros_aUeDktF.webp",
+  "name": "Fuente de Poder ASUS ROG THOR  1600W  Titanium III  (Full Modular, 80PLUS)",
+  "slug": "fuente-de-poder-asus-rog-thor-1600w-titanium-iii-full-modular-80plus",
+  "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-1600W-ASUS-THOR-Full-Modular-Certificada-80-Titan.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$89.900",
-    "Tarjetas de Crédito / Débito": "$94.840"
+    "Transferencia / Efectivo": "$749.980",
+    "Tarjetas de Crédito / Débito": "$791.230"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:15",
-  "updated_at": "2026-04-25 18:20:15",
+  "created_at": "2026-04-25 19:37:46",
+  "updated_at": "2026-04-25 19:37:46",
   "prices": [
     {
-      "id": 1211,
       "product_id": 1211,
       "store_id": "centrale",
-      "price": 89900,
+      "price": 749980,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-asus-prime-ap201-microatx-black-mesh-33-litros/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:15",
+      "product_url": "https://centrale.cl/producto/fuente-de-poder-asus-rog-thor-1600w-titanium-iii-full-modular-80plus/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 309,
+      "store_id": "n1g",
+      "price": 929002,
+      "price_normal": 977897,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3590-asus-rog-thor-1600w-titanium-iii-80-plus-titanium-certified-atx-31-gan-mosfet-magnetic-oled-display.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -39,7 +49,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 89900
+      "price": 749980
     }
   ],
   "scraped_at": "2026-04-25"

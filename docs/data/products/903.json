@@ -1,37 +1,47 @@
 {
   "id": 903,
-  "external_id": "centrale_memoria-ram-16gb-ddr5-5600mt-s-cl36-kingston-fury-beast-rgb-xmp-expo",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM 16GB DDR5 5600MT/s CL36 Kingston Fury Beast RGB (XMP/EXPO)",
-  "slug": "memoria-ram-16gb-ddr5-5600mt-s-cl36-kingston-fury-beast-rgb-xmp-expo",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-Kingston-Ram-Fury-Beast-16Gb-Ddr5-5600Mt-S-Cl36-Rgb-Dimm-288-Pin-Xmp.webp",
+  "external_id": "centrale_placa-madre-asus-rog-crosshair-x870e-hero-socket-amd-am5-ddr5-wifi-7",
+  "category_id": "mobo",
+  "brand": "Rog",
+  "name": "Placa Madre ASUS ROG Crosshair X870E Hero, Socket AMD AM5, DDR5, WiFi 7",
+  "slug": "placa-madre-asus-rog-crosshair-x870e-hero-socket-amd-am5-ddr5-wifi-7",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASUS-ROG-Crosshair-X870E-Hero-Socket-AMD-AM5-DDR5-WiFi-7-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$244.200",
-    "Tarjetas de Crédito / Débito": "$257.630"
+    "Transferencia / Efectivo": "$765.450",
+    "Tarjetas de Crédito / Débito": "$807.550"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:00",
-  "updated_at": "2026-04-25 18:20:00",
+  "created_at": "2026-04-25 19:37:33",
+  "updated_at": "2026-04-25 19:37:33",
   "prices": [
     {
-      "id": 903,
       "product_id": 903,
       "store_id": "centrale",
-      "price": 244200,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "price": 765450,
+      "price_normal": 898720,
+      "discount_pct": 15,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-5600mt-s-cl36-kingston-fury-beast-rgb-xmp-expo/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:00",
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-crosshair-x870e-hero-socket-amd-am5-ddr5-wifi-7/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 148,
+      "store_id": "n1g",
+      "price": 859900,
+      "price_normal": 905158,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/2906-rog-crosshair-x870e-hero-am5-atx-pcie-50-ddr5-wifi-7-ai-usb4-y-usb-type-c.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -39,7 +49,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 244200
+      "price": 765450
     }
   ],
   "scraped_at": "2026-04-25"

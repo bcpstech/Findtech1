@@ -1,37 +1,33 @@
 {
   "id": 900,
-  "external_id": "centrale_memoria-ram-notebook-16gb-3200mhz-ddr4-kingston-sodimm",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM Notebook 16GB 3200Mhz DDR4 Kingston SODIMM",
-  "slug": "memoria-ram-notebook-16gb-3200mhz-ddr4-kingston-sodimm",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-Notebook-16GB-3200Mhz-DDR4-Kingston-SODIMM_g18BDQx.webp",
+  "external_id": "centrale_placa-madre-gigabyte-x870-aorus-elite-wifi-7-ice-am5-atx-pcie5-0",
+  "category_id": "mobo",
+  "brand": "Gigabyte",
+  "name": "Placa Madre Gigabyte X870 AORUS ELITE WIFI 7 ICE (AM5, ATX, PCIe5.0)",
+  "slug": "placa-madre-gigabyte-x870-aorus-elite-wifi-7-ice-am5-atx-pcie5-0",
+  "image_url": "https://centrale.cl/wp-content/uploads/Gigabyte-Placa-Madre-Aorus-Color-Blanco-Am5-Atx-Pci-M.2-5.0-Puerto-Optico-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$139.500",
-    "Tarjetas de Crédito / Débito": "$147.170"
+    "Transferencia / Efectivo": "$362.580",
+    "Tarjetas de Crédito / Débito": "$382.520"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:00",
-  "updated_at": "2026-04-25 18:20:00",
+  "created_at": "2026-04-25 19:37:33",
+  "updated_at": "2026-04-25 19:37:33",
   "prices": [
     {
-      "id": 900,
       "product_id": 900,
       "store_id": "centrale",
-      "price": 139500,
+      "price": 362580,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-16gb-3200mhz-ddr4-kingston-sodimm/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:00",
+      "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-x870-aorus-elite-wifi-7-ice-am5-atx-pcie5-0/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 139500
+      "price": 362580
     }
   ],
   "scraped_at": "2026-04-25"

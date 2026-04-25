@@ -1,45 +1,41 @@
 {
   "id": 1254,
-  "external_id": "pcexpress_19537-tarjeta-de-video-pny-nvidia-rtx-a400-4gb",
-  "category_id": "gpu",
-  "brand": "NVIDIA",
-  "name": "19537 - tarjeta de video pny nvidia rtx a400 4gb",
-  "slug": "19537-tarjeta-de-video-pny-nvidia-rtx-a400-4gb",
-  "image_url": null,
+  "external_id": "centrale_gabinete-atx-xpg-valor-air-blanco-vidrio-templado-4x120mm-incluidos",
+  "category_id": "case",
+  "brand": "XPG",
+  "name": "Gabinete ATX XPG Valor Air Blanco, Vidrio Templado, 4x120mm incluidos",
+  "slug": "gabinete-atx-xpg-valor-air-blanco-vidrio-templado-4x120mm-incluidos",
+  "image_url": "https://centrale.cl/wp-content/uploads/Xpg-Gabinete-Valor-Air-S-Fuente-Atx-4Xfan-120Mm-Wh-VALORAIRMT-WHCWW_5VRqRn5.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$214.900",
-    "Tarjeta crédito/débito": "$221.347"
+    "Transferencia / Efectivo": "$42.170",
+    "Tarjetas de Crédito / Débito": "$44.490"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:57:58",
-  "updated_at": "2026-04-25 12:57:58",
+  "created_at": "2026-04-25 19:37:48",
+  "updated_at": "2026-04-25 19:37:48",
   "prices": [
     {
-      "id": 1254,
       "product_id": 1254,
-      "store_id": "pcexpress",
-      "price": 214900,
+      "store_id": "centrale",
+      "price": 42170,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=19537&search=tarjeta+video+nvidia+rtx&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:57:58",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/gabinete-atx-xpg-valor-air-blanco-vidrio-templado-4x120mm-incluidos/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 214900
+      "price": 42170
     }
   ],
   "scraped_at": "2026-04-25"

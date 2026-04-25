@@ -1,37 +1,33 @@
 {
   "id": 1246,
-  "external_id": "centrale_xpg-gabinete-atx-valor-air-plus-vidrio-templado-4x-ventiladores-argb",
+  "external_id": "centrale_gabinete-corsair-480t-airflow-mid-tower-vidrio-templado-atx",
   "category_id": "case",
-  "brand": "XPG",
-  "name": "XPG Gabinete ATX Valor Air Plus, Vidrio Templado, 4x Ventiladores ARGB",
-  "slug": "xpg-gabinete-atx-valor-air-plus-vidrio-templado-4x-ventiladores-argb",
-  "image_url": "https://centrale.cl/wp-content/uploads/Xpg-Gabinete-Valor-Air-Plus-S-Fuente-Atx-4Xfan-Wh-VALORAIRPLUSMTA-WHCWW_4hQ3BLS.webp",
+  "brand": "Corsair",
+  "name": "Gabinete Corsair 480T Airflow Mid Tower, Vidrio Templado, ATX",
+  "slug": "gabinete-corsair-480t-airflow-mid-tower-vidrio-templado-atx",
+  "image_url": "https://centrale.cl/wp-content/uploads/Corsair-Memory-Desktop-Gabinete-480T-Airflow-Atx-Pa-CC-9011271-WW-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$52.160",
-    "Tarjetas de Crédito / Débito": "$55.030"
+    "Transferencia / Efectivo": "$48.360",
+    "Tarjetas de Crédito / Débito": "$51.020"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:57:55",
-  "updated_at": "2026-04-25 12:57:55",
+  "created_at": "2026-04-25 19:37:48",
+  "updated_at": "2026-04-25 19:37:48",
   "prices": [
     {
-      "id": 1246,
       "product_id": 1246,
       "store_id": "centrale",
-      "price": 52160,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "price": 48360,
+      "price_normal": 58010,
+      "discount_pct": 17,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/xpg-gabinete-atx-valor-air-plus-vidrio-templado-4x-ventiladores-argb/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:57:55",
+      "product_url": "https://centrale.cl/producto/gabinete-corsair-480t-airflow-mid-tower-vidrio-templado-atx/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 52160
+      "price": 48360
     }
   ],
   "scraped_at": "2026-04-25"

@@ -1,37 +1,33 @@
 {
   "id": 732,
-  "external_id": "centrale_procesador-intel-core-ultra-5-225-6p-cores-4e-cores-4-9-ghz-lga1851",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core Ultra 5 225 (6P Cores + 4E Cores, 4.9 GHz, LGA1851)",
-  "slug": "procesador-intel-core-ultra-5-225-6p-cores-4e-cores-4-9-ghz-lga1851",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-5-225-6P-Cores-4E-Cores-4.9-GHz-LGA1851-1.webp",
+  "external_id": "centrale_tarjeta-grafica-asus-prime-amd-radeon-rx-9070-xt-oc-edition-16gb-gddr6-256-bit",
+  "category_id": "gpu",
+  "brand": "Asus",
+  "name": "Tarjeta Gráfica ASUS PRIME AMD Radeon RX 9070 XT OC Edition 16GB GDDR6, 256-Bit",
+  "slug": "tarjeta-grafica-asus-prime-amd-radeon-rx-9070-xt-oc-edition-16gb-gddr6-256-bit",
+  "image_url": "https://centrale.cl/wp-content/uploads/Asus-S-T-Video-Prime-Rx-9070Xt-Nvidia-Rx-9070Xt-Gddr7-Gaming-16Gb-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$198.500",
-    "Tarjetas de Crédito / Débito": "$209.420"
+    "Transferencia / Efectivo": "$806.880",
+    "Tarjetas de Crédito / Débito": "$851.260"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:55",
-  "updated_at": "2026-04-25 18:19:55",
+  "created_at": "2026-04-25 19:37:28",
+  "updated_at": "2026-04-25 19:37:28",
   "prices": [
     {
-      "id": 732,
       "product_id": 732,
       "store_id": "centrale",
-      "price": 198500,
+      "price": 806880,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-5-225-6p-cores-4e-cores-4-9-ghz-lga1851/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:55",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-prime-amd-radeon-rx-9070-xt-oc-edition-16gb-gddr6-256-bit/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 198500
+      "price": 806880
     }
   ],
   "scraped_at": "2026-04-25"

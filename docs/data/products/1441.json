@@ -1,45 +1,42 @@
 {
   "id": 1441,
-  "external_id": "pcexpress_19719-sistema-de-refrigeracion-liquida-gamemax-watercooling-iceburg-240-digital-bk-s1700-ready-y-am5",
-  "category_id": "cooling",
-  "brand": "Genérico",
-  "name": "19719 - sistema de refrigeracion liquida gamemax watercooling iceburg 240 digital bk ( s1700 ready y am5 ) p/n iceburg-240-digital-bk",
-  "slug": "19719-sistema-de-refrigeracion-liquida-gamemax-watercooling-iceburg-240-digital-bk-s1700-ready-y-am5",
-  "image_url": null,
+  "external_id": "dust2_procesador-intel-core-ultra-7-265f-5-3ghz-lga1851",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core Ultra 7-265F 5.3GHz LGA1851",
+  "slug": "procesador-intel-core-ultra-7-265f-5-3ghz-lga1851",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-ultra-7-265f-5-3ghz-lga1851.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$56.500",
-    "Tarjeta crédito/débito": "$58.195"
+    "Marca": "Intel",
+    "Transferencia/Efectivo": "$393.190",
+    "Webpay / Tarjeta crédito-débito": "$404.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:56:15",
-  "updated_at": "2026-04-25 04:56:15",
+  "created_at": "2026-04-25 19:41:07",
+  "updated_at": "2026-04-25 19:41:07",
   "prices": [
     {
-      "id": 1441,
       "product_id": 1441,
-      "store_id": "pcexpress",
-      "price": 56500,
+      "store_id": "dust2",
+      "price": 393190,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=19719&search=refrigeracion+liquida+aio&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:56:15",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://dust2.gg/producto/procesador-intel-core-ultra-7-265f-5-3ghz-lga1851/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "dust2",
+      "store_name": "Dust2",
       "date": "2026-04-25",
-      "price": 56500
+      "price": 393190
     }
   ],
   "scraped_at": "2026-04-25"

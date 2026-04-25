@@ -1,45 +1,56 @@
 {
   "id": 687,
-  "external_id": "centrale_tarjeta-grafica-msi-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-128-bit",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "Tarjeta Gráfica MSI GeForce RTX 5060 SHADOW 2X OC 8GB GDDR7 128-bit",
-  "slug": "tarjeta-grafica-msi-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-128-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-MSI-GeForce-RTX-5060-SHADOW-2X-OC-8GB-GDDR7-128-bit.webp",
+  "external_id": "cg_memoria-ram-kingston-fury-beast-16gb-ddr4-3200mhz",
+  "category_id": "ram",
+  "brand": "Kingston",
+  "name": "Memoria Ram Kingston Fury Beast 16GB DDR4 3200mhz",
+  "slug": "memoria-ram-kingston-fury-beast-16gb-ddr4-3200mhz",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-kingston-fury-beast-16gb-ddr4-3200mhz.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$441.170",
-    "Tarjetas de Crédito / Débito": "$465.430"
+    "Marca": "KINGSTON",
+    "Efectivo/Transferencia": "$122.880",
+    "Webpay / Tarjeta crédito-débito": "$129.347"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:52",
-  "updated_at": "2026-04-25 18:19:52",
+  "created_at": "2026-04-25 19:36:00",
+  "updated_at": "2026-04-25 19:36:00",
   "prices": [
     {
-      "id": 687,
       "product_id": 687,
-      "store_id": "centrale",
-      "price": 441170,
-      "price_normal": 492810,
-      "discount_pct": 10,
-      "currency": "CLP",
+      "store_id": "cg",
+      "price": 122880,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-128-bit/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:52",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-kingston-fury-beast-16gb-3200mhz/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 1547,
+      "store_id": "dust2",
+      "price": 151450,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/memoria-ram-kingston-fury-beast-rgb-16gb-3600mt-s-ddr4-cl18/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
+      "store_id": "cg",
+      "store_name": "CentralGamer",
       "date": "2026-04-25",
-      "price": 441170
+      "price": 122880
     }
   ],
   "scraped_at": "2026-04-25"

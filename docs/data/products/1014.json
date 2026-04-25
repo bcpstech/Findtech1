@@ -1,37 +1,33 @@
 {
   "id": 1014,
-  "external_id": "centrale_ssd-xpg-gammix-s70-blade-2tb-m-2-nvme-pcie-4-0-7400mb-s",
-  "category_id": "storage",
-  "brand": "XPG",
-  "name": "SSD XPG Gammix S70 Blade 2TB M.2 NVMe PCIe 4.0, 7400MB/s",
-  "slug": "ssd-xpg-gammix-s70-blade-2tb-m-2-nvme-pcie-4-0-7400mb-s",
-  "image_url": "https://centrale.cl/wp-content/uploads/Xpg-Unidad-De-Estado-SC3B3lido-Ram-Gammix-S70-Blade-De-2Tb-Nvme-Pcie-4.0-Hasta-7-1.webp",
+  "external_id": "centrale_memoria-ram-notebook-16gb-3200mhz-ddr4-kingston",
+  "category_id": "ram",
+  "brand": "Kingston",
+  "name": "Memoria RAM Notebook 16GB 3200Mhz DDR4 Kingston",
+  "slug": "memoria-ram-notebook-16gb-3200mhz-ddr4-kingston",
+  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-Notebook-16GB-3200Mhz-DDR4-Kingston_zljHD0C.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$392.950",
-    "Tarjetas de Crédito / Débito": "$414.560"
+    "Transferencia / Efectivo": "$125.500",
+    "Tarjetas de Crédito / Débito": "$132.400"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:04",
-  "updated_at": "2026-04-25 18:20:04",
+  "created_at": "2026-04-25 19:37:35",
+  "updated_at": "2026-04-25 19:37:35",
   "prices": [
     {
-      "id": 1014,
       "product_id": 1014,
       "store_id": "centrale",
-      "price": 392950,
+      "price": 125500,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ssd-xpg-gammix-s70-blade-2tb-m-2-nvme-pcie-4-0-7400mb-s/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:04",
+      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-16gb-3200mhz-ddr4-kingston/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 392950
+      "price": 125500
     }
   ],
   "scraped_at": "2026-04-25"

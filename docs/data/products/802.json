@@ -1,37 +1,33 @@
 {
   "id": 802,
-  "external_id": "centrale_placa-madre-msi-pro-h610m-a-ddr4-microatx-lga-1700-pcie-4-0-ddr4",
-  "category_id": "mobo",
-  "brand": "MSI",
-  "name": "Placa madre MSI PRO H610M-A DDR4 (MicroATX, LGA 1700,  PCIe 4.0, DDR4)",
-  "slug": "placa-madre-msi-pro-h610m-a-ddr4-microatx-lga-1700-pcie-4-0-ddr4",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-madre-MSI-PRO-H610M-A-DDR4-MicroATX-LGA-1700-PCIe-4.0-DDR4.webp",
+  "external_id": "centrale_procesador-amd-ryzen-9-9950x-16-cores-32-threads-4-3-a-5-7-ghz-170w",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 9 9950X, 16 Cores 32 Threads, 4.3 a 5.7 GHz, 170W",
+  "slug": "procesador-amd-ryzen-9-9950x-16-cores-32-threads-4-3-a-5-7-ghz-170w",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-9-9950X-16-Cores-32-Threads-4.3-a-5.7-GHz-170W_Zedw1e2-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$75.670",
-    "Tarjetas de Crédito / Débito": "$79.830"
+    "Transferencia / Efectivo": "$630.010",
+    "Tarjetas de Crédito / Débito": "$664.660"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:58",
-  "updated_at": "2026-04-25 18:19:58",
+  "created_at": "2026-04-25 19:37:30",
+  "updated_at": "2026-04-25 19:37:30",
   "prices": [
     {
-      "id": 802,
       "product_id": 802,
       "store_id": "centrale",
-      "price": 75670,
+      "price": 630010,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-h610m-a-ddr4-microatx-lga-1700-pcie-4-0-ddr4/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:58",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-9950x-16-cores-32-threads-4-3-a-5-7-ghz-170w/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 75670
+      "price": 630010
     }
   ],
   "scraped_at": "2026-04-25"

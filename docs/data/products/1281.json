@@ -1,45 +1,43 @@
 {
   "id": 1281,
-  "external_id": "pcexpress_655823-procesador-intel-core-ultra-5-245kf-tetradeca-core-14-core-4-20-ghz-125w-s1851",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "655823 - procesador intel core ultra 5 245kf tetradeca-core (14 core) 4.20 ghz 125w s1851",
-  "slug": "655823-procesador-intel-core-ultra-5-245kf-tetradeca-core-14-core-4-20-ghz-125w-s1851",
-  "image_url": null,
+  "external_id": "progaming_disipador-cougar-forza-85-argb",
+  "category_id": "cooling",
+  "brand": "Genérico",
+  "name": "Disipador Cougar Forza 85 ARGB",
+  "slug": "disipador-cougar-forza-85-argb",
+  "image_url": "https://images.findtech.cl/products/disipador-cougar-forza-85-argb.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$271.500",
-    "Tarjeta crédito/débito": "$279.645"
+    "Marca": "Cougar",
+    "Modelo": "Forza 85 ARGB",
+    "Transferencia/Efectivo": "$60.180",
+    "Webpay / Tarjeta crédito-débito": "$61.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:16",
-  "updated_at": "2026-04-25 12:58:16",
+  "created_at": "2026-04-25 19:39:58",
+  "updated_at": "2026-04-25 19:39:58",
   "prices": [
     {
-      "id": 1281,
       "product_id": 1281,
-      "store_id": "pcexpress",
-      "price": 271500,
+      "store_id": "progaming",
+      "price": 60180,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=655823&search=procesador+core+intel&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:16",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://progaming.cl/producto/componentes/refrigeracion/disipador-cougar-forza-85-argb/",
+      "store_name": "ProGaming",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.progaming.cl",
+      "full_url": "https://www.progaming.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "progaming",
+      "store_name": "ProGaming",
       "date": "2026-04-25",
-      "price": 271500
+      "price": 60180
     }
   ],
   "scraped_at": "2026-04-25"

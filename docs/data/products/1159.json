@@ -1,37 +1,33 @@
 {
   "id": 1159,
-  "external_id": "centrale_fuente-de-poder-650w-xpg-pylon-ii-no-modular-80-bronze-pcie-5-0",
-  "category_id": "psu",
-  "brand": "XPG",
-  "name": "Fuente de Poder 650W XPG Pylon II (No Modular, 80+ Bronze, PCIe 5.0)",
-  "slug": "fuente-de-poder-650w-xpg-pylon-ii-no-modular-80-bronze-pcie-5-0",
-  "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-650W-XPG-Pylon-II-No-Modular-80-Bronze-PCIe-5.0.webp",
+  "external_id": "centrale_disipador-termico-hpe-para-proliant-dl380-gen10-disipacion-optima",
+  "category_id": "cooling",
+  "brand": "Hpe",
+  "name": "Disipador Térmico HPE para ProLiant DL380 Gen10+, Disipación Óptima",
+  "slug": "disipador-termico-hpe-para-proliant-dl380-gen10-disipacion-optima",
+  "image_url": "https://centrale.cl/wp-content/uploads/Disipador-TC3A9rmico-HPE-para-ProLiant-DL380-Gen10-DisipaciC3B3n-C393ptima_u4GuZ6Z.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$54.890",
-    "Tarjetas de Crédito / Débito": "$57.910"
+    "Transferencia / Efectivo": "$53.150",
+    "Tarjetas de Crédito / Débito": "$56.070"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:13",
-  "updated_at": "2026-04-25 18:20:13",
+  "created_at": "2026-04-25 19:37:42",
+  "updated_at": "2026-04-25 19:37:42",
   "prices": [
     {
-      "id": 1159,
       "product_id": 1159,
       "store_id": "centrale",
-      "price": 54890,
-      "price_normal": 62770,
-      "discount_pct": 13,
-      "currency": "CLP",
+      "price": 53150,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-650w-xpg-pylon-ii-no-modular-80-bronze-pcie-5-0/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:13",
+      "product_url": "https://centrale.cl/producto/disipador-termico-hpe-para-proliant-dl380-gen10-disipacion-optima/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 54890
+      "price": 53150
     }
   ],
   "scraped_at": "2026-04-25"

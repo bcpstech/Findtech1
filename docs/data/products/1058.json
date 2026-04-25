@@ -1,37 +1,33 @@
 {
   "id": 1058,
-  "external_id": "centrale_refrigeracion-liquida-cooler-master-masterliquid-core-nex-240-argb",
-  "category_id": "cooling",
-  "brand": "Cooler Master",
-  "name": "Refrigeración Líquida Cooler Master Masterliquid Core Nex 240 ARGB",
-  "slug": "refrigeracion-liquida-cooler-master-masterliquid-core-nex-240-argb",
-  "image_url": "https://centrale.cl/wp-content/uploads/Cooler-Master-Masterliquid-Core-Nex-240-Argb-MLX-D24M-A18PA-R1-1775691135.webp",
+  "external_id": "centrale_disco-duro-8tb-hdd-seagate-barracuda-3-5-8243-5400rpm-256mb-cache-sata",
+  "category_id": "storage",
+  "brand": "Seagate",
+  "name": "Disco Duro 8TB HDD Seagate Barracuda 3.5&#8243;, 5400RPM, 256MB Cache, SATA",
+  "slug": "disco-duro-8tb-hdd-seagate-barracuda-3-5-8243-5400rpm-256mb-cache-sata",
+  "image_url": "https://centrale.cl/wp-content/uploads/Disco-Duro-8TB-HDD-Seagate-Barracuda-3.5-5400RPM-256MB-Cache-SATA_RVUkXs5.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$64.960",
-    "Tarjetas de Crédito / Débito": "$68.530"
+    "Transferencia / Efectivo": "$341.200",
+    "Tarjetas de Crédito / Débito": "$359.970"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:07",
-  "updated_at": "2026-04-25 18:20:07",
+  "created_at": "2026-04-25 19:37:38",
+  "updated_at": "2026-04-25 19:37:38",
   "prices": [
     {
-      "id": 1058,
       "product_id": 1058,
       "store_id": "centrale",
-      "price": 64960,
+      "price": 341200,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/refrigeracion-liquida-cooler-master-masterliquid-core-nex-240-argb/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:07",
+      "product_url": "https://centrale.cl/producto/disco-duro-8tb-hdd-seagate-barracuda-3-5-5400rpm-256mb-cache-sata/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 64960
+      "price": 341200
     }
   ],
   "scraped_at": "2026-04-25"

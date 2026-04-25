@@ -1,45 +1,42 @@
 {
   "id": 650,
-  "external_id": "centrale_tarjeta-grafica-msi-rtx-5080-inspire-3x-oc-16gb-gddr7-256-bit",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "Tarjeta Gráfica MSI RTX 5080 INSPIRE 3X OC 16GB GDDR7, 256-bit",
-  "slug": "tarjeta-grafica-msi-rtx-5080-inspire-3x-oc-16gb-gddr7-256-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Msi-Tarjeta-De-Video-Nvidia-Geforce-Rtx-5080-Inspire-3X-Oc-16Gb-Gddr7-2_jN7aybi.webp",
+  "external_id": "cg_procesador-intel-core-i7-12700",
+  "category_id": "cpu",
+  "brand": "Zona Intel",
+  "name": "Procesador Intel Core i7-12700",
+  "slug": "procesador-intel-core-i7-12700",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i7-12700.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$1.753.310",
-    "Tarjetas de Crédito / Débito": "$1.849.740"
+    "Marca": "INTEL",
+    "Efectivo/Transferencia": "$400.320",
+    "Webpay / Tarjeta crédito-débito": "$421.372"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:52",
-  "updated_at": "2026-04-25 18:19:52",
+  "created_at": "2026-04-25 19:35:38",
+  "updated_at": "2026-04-25 19:35:38",
   "prices": [
     {
-      "id": 650,
       "product_id": 650,
-      "store_id": "centrale",
-      "price": 1753310,
-      "price_normal": 2070070,
-      "discount_pct": 15,
-      "currency": "CLP",
+      "store_id": "cg",
+      "price": 400320,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5080-inspire-3x-oc-16gb-gddr7-256-bit/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:52",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-i7-12700-2-1-ghz-12-nucleos-20-hilos-25-mb-cache-lga1700-socket-caja/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
+      "store_id": "cg",
+      "store_name": "CentralGamer",
       "date": "2026-04-25",
-      "price": 1753310
+      "price": 400320
     }
   ],
   "scraped_at": "2026-04-25"

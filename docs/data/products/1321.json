@@ -1,45 +1,42 @@
 {
   "id": 1321,
-  "external_id": "pcexpress_1030918-memoria-ddr5-kingston-fury-beast-64gb-negra-5600mt-s-kf556c36bbe-64",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "1030918 - memoria ddr5 kingston fury beast 64gb negra 5600mt/s  - kf556c36bbe-64",
-  "slug": "1030918-memoria-ddr5-kingston-fury-beast-64gb-negra-5600mt-s-kf556c36bbe-64",
-  "image_url": null,
+  "external_id": "dust2_tarjeta-de-video-gigabyte-radeon-rx-9060xt-gaming-oc-ice-16g",
+  "category_id": "gpu",
+  "brand": "Gigabyte",
+  "name": "Tarjeta de Video Gigabyte Radeon RX 9060XT GAMING OC ICE 16G",
+  "slug": "tarjeta-de-video-gigabyte-radeon-rx-9060xt-gaming-oc-ice-16g",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-gigabyte-radeon-rx-9060xt-gaming-oc-ice-16g.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$912.900",
-    "Tarjeta crédito/débito": "$940.287"
+    "Marca": "Gigabyte",
+    "Transferencia/Efectivo": "$537.850",
+    "Webpay / Tarjeta crédito-débito": "$553.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:41",
-  "updated_at": "2026-04-25 12:58:41",
+  "created_at": "2026-04-25 19:40:20",
+  "updated_at": "2026-04-25 19:40:20",
   "prices": [
     {
-      "id": 1321,
       "product_id": 1321,
-      "store_id": "pcexpress",
-      "price": 912900,
+      "store_id": "dust2",
+      "price": 537850,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=1030918&search=memoria+ram+ddr5&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:41",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-gigabyte-radeon-rx-9060xt-gaming-oc-ice-16g/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "dust2",
+      "store_name": "Dust2",
       "date": "2026-04-25",
-      "price": 912900
+      "price": 537850
     }
   ],
   "scraped_at": "2026-04-25"

@@ -1,37 +1,33 @@
 {
   "id": 1139,
-  "external_id": "centrale_fuente-pctronix-hcg-1000-1000w-80-plus-platinum-100-modular",
-  "category_id": "psu",
-  "brand": "Antec",
-  "name": "Fuente Pctronix HCG-1000 1000W 80 Plus Platinum 100% Modular",
-  "slug": "fuente-pctronix-hcg-1000-1000w-80-plus-platinum-100-modular",
-  "image_url": "https://centrale.cl/wp-content/uploads/Pctronix-Power-Supply-Pro-Platinium-HCG-1000.webp",
+  "external_id": "centrale_msi-mag-coreliquid-a12-240-enfriamiento-liquido-aio-soporte-intel-amd",
+  "category_id": "cooling",
+  "brand": "MSI",
+  "name": "MSI MAG CORELIQUID A12 240, Enfriamiento Líquido AIO, Soporte Intel/AMD",
+  "slug": "msi-mag-coreliquid-a12-240-enfriamiento-liquido-aio-soporte-intel-amd",
+  "image_url": "https://centrale.cl/wp-content/uploads/Msi-Mag-Coreliquid-A12-240-306-7ZWBM11-813-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$280.980",
-    "Tarjetas de Crédito / Débito": "$296.430"
+    "Transferencia / Efectivo": "$60.760",
+    "Tarjetas de Crédito / Débito": "$64.100"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:13",
-  "updated_at": "2026-04-25 18:20:13",
+  "created_at": "2026-04-25 19:37:40",
+  "updated_at": "2026-04-25 19:37:40",
   "prices": [
     {
-      "id": 1139,
       "product_id": 1139,
       "store_id": "centrale",
-      "price": 280980,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "price": 60760,
+      "price_normal": 69270,
+      "discount_pct": 12,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-pctronix-hcg-1000-1000w-80-plus-platinum-100-modular/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:13",
+      "product_url": "https://centrale.cl/producto/msi-mag-coreliquid-a12-240-enfriamiento-liquido-aio-soporte-intel-amd/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 280980
+      "price": 60760
     }
   ],
   "scraped_at": "2026-04-25"

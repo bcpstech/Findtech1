@@ -1,45 +1,57 @@
 {
   "id": 1277,
-  "external_id": "pcexpress_13832-servidor-nas-qnap-8-bay-amd-ryzen-rack-mountable-p-n-ts-873a-8g-us",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "13832 - servidor nas qnap 8-bay amd ryzen rack mountable p/n ts-873a-8g-us",
-  "slug": "13832-servidor-nas-qnap-8-bay-amd-ryzen-rack-mountable-p-n-ts-873a-8g-us",
-  "image_url": null,
+  "external_id": "progaming_refrigeracion-liquida-xpg-levante-ii-240-argb-8211-blanco",
+  "category_id": "cooling",
+  "brand": "Genérico",
+  "name": "Refrigeracion Liquida XPG Levante II 240 ARGB &#8211; Blanco",
+  "slug": "refrigeracion-liquida-xpg-levante-ii-240-argb-8211-blanco",
+  "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-xpg-levante-ii-240-argb-8211-blanco.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$1.490.500",
-    "Tarjeta crédito/débito": "$1.535.215"
+    "Marca": "XPG",
+    "Modelo": "Levante II 240 ARGB - White LEVANTEII240-WHCWW",
+    "Transferencia/Efectivo": "$73.290",
+    "Webpay / Tarjeta crédito-débito": "$75.490"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:10",
-  "updated_at": "2026-04-25 12:58:10",
+  "created_at": "2026-04-25 19:39:57",
+  "updated_at": "2026-04-25 19:39:57",
   "prices": [
     {
-      "id": 1277,
       "product_id": 1277,
-      "store_id": "pcexpress",
-      "price": 1490500,
+      "store_id": "progaming",
+      "price": 73290,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=13832&search=procesador+ryzen+amd&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:10",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-xpg-levante-ii-240-argb-blanco/",
+      "store_name": "ProGaming",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.progaming.cl",
+      "full_url": "https://www.progaming.cl"
+    },
+    {
+      "product_id": 1122,
+      "store_id": "centrale",
+      "price": 74520,
+      "price_normal": 90780,
+      "discount_pct": 18,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/refrigeracion-liquida-xpg-levante-ii-240-argb-black/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "progaming",
+      "store_name": "ProGaming",
       "date": "2026-04-25",
-      "price": 1490500
+      "price": 73290
     }
   ],
   "scraped_at": "2026-04-25"

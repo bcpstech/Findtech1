@@ -1,45 +1,42 @@
 {
   "id": 1428,
-  "external_id": "pcexpress_14304-gabinete-xtech-phobos-xt-gmr4-atx-microatx-black-side-glass-window-p-n-xt-gmr4",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "14304 - gabinete xtech phobos xt-gmr4 - atx/microatx - black - side glass window p/n xt-gmr4",
-  "slug": "14304-gabinete-xtech-phobos-xt-gmr4-atx-microatx-black-side-glass-window-p-n-xt-gmr4",
-  "image_url": null,
+  "external_id": "dust2_procesador-intel-core-i5-14600kf-hasta-5-3ghz-lga1700",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i5-14600KF hasta 5.3GHz, LGA1700",
+  "slug": "procesador-intel-core-i5-14600kf-hasta-5-3ghz-lga1700",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i5-14600kf-hasta-5-3ghz-lga1700.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$38.900",
-    "Tarjeta crédito/débito": "$40.067"
+    "Marca": "Intel",
+    "Transferencia/Efectivo": "$266.980",
+    "Webpay / Tarjeta crédito-débito": "$274.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:56:09",
-  "updated_at": "2026-04-25 04:56:09",
+  "created_at": "2026-04-25 19:41:02",
+  "updated_at": "2026-04-25 19:41:02",
   "prices": [
     {
-      "id": 1428,
       "product_id": 1428,
-      "store_id": "pcexpress",
-      "price": 38900,
+      "store_id": "dust2",
+      "price": 266980,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=14304&search=gabinete+atx+gamer&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:56:09",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://dust2.gg/producto/procesador-intel-core-i5-14600kf-hasta-5-3ghz-lga1700/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "dust2",
+      "store_name": "Dust2",
       "date": "2026-04-25",
-      "price": 38900
+      "price": 266980
     }
   ],
   "scraped_at": "2026-04-25"

@@ -1,37 +1,33 @@
 {
   "id": 1160,
-  "external_id": "centrale_fuente-de-poder-750w-xpg-pylon-ii-no-modular-80-bronze-pcie-5-0",
-  "category_id": "psu",
-  "brand": "XPG",
-  "name": "Fuente de Poder 750W XPG Pylon II (No Modular, 80+ Bronze, PCIe 5.0)",
-  "slug": "fuente-de-poder-750w-xpg-pylon-ii-no-modular-80-bronze-pcie-5-0",
-  "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-750W-XPG-Pylon-II-No-Modular-80-Bronze-PCIe-5.0.webp",
+  "external_id": "centrale_ventilador-gabinete-120mm-gamemax-fn12a-n2-negro-pwm-argb-54-cfm-1-98mm-h2o",
+  "category_id": "cooling",
+  "brand": "GameMax",
+  "name": "Ventilador Gabinete 120mm GameMax FN12A-N2 Negro (PWM, ARGB, 54 CFM, 1.98mm H2O)",
+  "slug": "ventilador-gabinete-120mm-gamemax-fn12a-n2-negro-pwm-argb-54-cfm-1-98mm-h2o",
+  "image_url": "https://centrale.cl/wp-content/uploads/Ventilador-Gabinete-120mm-GameMax-FN12A-N2-Negro-PWM-ARGB-54-CFM-1.98mm_Im3aePk.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$60.020",
-    "Tarjetas de Crédito / Débito": "$63.320"
+    "Transferencia / Efectivo": "$6.970",
+    "Tarjetas de Crédito / Débito": "$7.350"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:13",
-  "updated_at": "2026-04-25 18:20:13",
+  "created_at": "2026-04-25 19:37:45",
+  "updated_at": "2026-04-25 19:37:45",
   "prices": [
     {
-      "id": 1160,
       "product_id": 1160,
       "store_id": "centrale",
-      "price": 60020,
-      "price_normal": 70500,
-      "discount_pct": 15,
-      "currency": "CLP",
+      "price": 6970,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-750w-xpg-pylon-ii-no-modular-80-bronze-pcie-5-0/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:13",
+      "product_url": "https://centrale.cl/producto/ventilador-gabinete-120mm-gamemax-fn12a-n2-negro-pwm-argb-54-cfm-1-98mm-h2o/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 60020
+      "price": 6970
     }
   ],
   "scraped_at": "2026-04-25"

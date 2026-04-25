@@ -1,37 +1,33 @@
 {
   "id": 807,
-  "external_id": "centrale_placa-madre-asus-tuf-gaming-z890-plus-wifi-intel-lga-1851-ddr5-wifi-7",
-  "category_id": "mobo",
-  "brand": "Asus",
-  "name": "Placa Madre ASUS TUF GAMING Z890-PLUS WIFI, Intel LGA 1851, DDR5, WiFi 7",
-  "slug": "placa-madre-asus-tuf-gaming-z890-plus-wifi-intel-lga-1851-ddr5-wifi-7",
-  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Motherboard-Tuf-Gaming-Z890-Plus-1851-Ddr5-TUF-GAMING-Z890-PLUS-WIFI-1.webp",
+  "external_id": "centrale_procesador-amd-ryzen-5-8500g-3-5-a-5-00ghz-6-nucleos-12-hilos-socket-am5",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 5 8500G, 3.5 a 5.00Ghz, 6 Nùcleos, 12 Hilos, Socket AM5",
+  "slug": "procesador-amd-ryzen-5-8500g-3-5-a-5-00ghz-6-nucleos-12-hilos-socket-am5",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-5-8500G-3.5-a-5.00Ghz-6-NC3B9cleos-12-Hilos-Socket-AM_AuEoKHw-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$349.980",
-    "Tarjetas de Crédito / Débito": "$369.230"
+    "Transferencia / Efectivo": "$159.580",
+    "Tarjetas de Crédito / Débito": "$168.360"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:58",
-  "updated_at": "2026-04-25 18:19:58",
+  "created_at": "2026-04-25 19:37:30",
+  "updated_at": "2026-04-25 19:37:30",
   "prices": [
     {
-      "id": 807,
       "product_id": 807,
       "store_id": "centrale",
-      "price": 349980,
+      "price": 159580,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-asus-tuf-gaming-z890-plus-wifi-intel-lga-1851-ddr5-wifi-7/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:58",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-8500g-3-5-a-5-00ghz-6-nucleos-12-hilos-socket-am5/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 349980
+      "price": 159580
     }
   ],
   "scraped_at": "2026-04-25"

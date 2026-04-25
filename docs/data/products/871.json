@@ -1,37 +1,33 @@
 {
   "id": 871,
-  "external_id": "centrale_memoria-ram-16gb-ddr5-5600mt-s-cl46-xpg-lancer-blade-rgb-black",
-  "category_id": "ram",
-  "brand": "XPG",
-  "name": "Memoria RAM 16GB DDR5 5600MT/s CL46 XPG Lancer Blade RGB Black",
-  "slug": "memoria-ram-16gb-ddr5-5600mt-s-cl46-xpg-lancer-blade-rgb-black",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-16GB-DDR5-5600MT-s-CL46-XPG-Lancer-Blade-RGB-Black.webp",
+  "external_id": "centrale_placa-madre-msi-pro-h810m-b-micro-atx-lga-1851-ddr5",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "Placa Madre MSI PRO H810M-B (Micro ATX, LGA 1851, DDR5)",
+  "slug": "placa-madre-msi-pro-h810m-b-micro-atx-lga-1851-ddr5",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-MSI-PRO-H810M-B-Micro-ATX-LGA-1851-DDR5.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$214.990",
-    "Tarjetas de Crédito / Débito": "$226.810"
+    "Transferencia / Efectivo": "$121.950",
+    "Tarjetas de Crédito / Débito": "$128.660"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:00",
-  "updated_at": "2026-04-25 18:20:00",
+  "created_at": "2026-04-25 19:37:33",
+  "updated_at": "2026-04-25 19:37:33",
   "prices": [
     {
-      "id": 871,
       "product_id": 871,
       "store_id": "centrale",
-      "price": 214990,
+      "price": 121950,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-5600mt-s-cl46-xpg-lancer-blade-rgb-black/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:00",
+      "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-h810m-b-micro-atx-lga-1851-ddr5/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 214990
+      "price": 121950
     }
   ],
   "scraped_at": "2026-04-25"

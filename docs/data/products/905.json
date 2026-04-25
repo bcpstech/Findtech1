@@ -1,37 +1,47 @@
 {
   "id": 905,
-  "external_id": "centrale_memoria-ram-32gb-ddr5-5600mt-s-cl46-2rx8-1-1v-16gbit-kingston-system-specific",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM 32GB DDR5 5600MT/s CL46 2RX8 1.1V 16Gbit Kingston System Specific",
-  "slug": "memoria-ram-32gb-ddr5-5600mt-s-cl46-2rx8-1-1v-16gbit-kingston-system-specific",
-  "image_url": "https://centrale.cl/wp-content/uploads/Kingston-32Gb-Ddr5-5600Mt-S-Module-KCP556UD8-32-1.webp",
+  "external_id": "centrale_placa-madre-asus-rog-strix-z890-f-gaming-wifi-intel-lga-1851-ddr5-wifi-7",
+  "category_id": "mobo",
+  "brand": "Rog",
+  "name": "Placa Madre ASUS ROG STRIX Z890-F GAMING WIFI, Intel LGA 1851, DDR5, WiFi 7",
+  "slug": "placa-madre-asus-rog-strix-z890-f-gaming-wifi-intel-lga-1851-ddr5-wifi-7",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASUS-ROG-STRIX-Z890-F-GAMING-WIFI-Intel-LGA-1851-DDR5-WiFi-7-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$435.910",
-    "Tarjetas de Crédito / Débito": "$459.890"
+    "Transferencia / Efectivo": "$510.470",
+    "Tarjetas de Crédito / Débito": "$538.550"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:00",
-  "updated_at": "2026-04-25 18:20:00",
+  "created_at": "2026-04-25 19:37:33",
+  "updated_at": "2026-04-25 19:37:33",
   "prices": [
     {
-      "id": 905,
       "product_id": 905,
       "store_id": "centrale",
-      "price": 435910,
-      "price_normal": 524020,
-      "discount_pct": 17,
-      "currency": "CLP",
+      "price": 510470,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-32gb-ddr5-5600mt-s-cl46-2rx8-1-1v-16gbit-kingston-system-specific/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:00",
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-strix-z890-f-gaming-wifi-intel-lga-1851-ddr5-wifi-7/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 142,
+      "store_id": "n1g",
+      "price": 545000,
+      "price_normal": 573684,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3142-rog-strix-z890-f-gaming-wifi-lga1851-atx-wifi-7-thunderbolt-4-pcie-50-.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -39,7 +49,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 435910
+      "price": 510470
     }
   ],
   "scraped_at": "2026-04-25"

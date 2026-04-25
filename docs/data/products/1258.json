@@ -1,45 +1,41 @@
 {
   "id": 1258,
-  "external_id": "pcexpress_21217-tarjeta-de-video-gigabyte-rtx-5060-eagle-max-oc-8gb-p-n-gv-n5060eaglemax-oc-8gd",
-  "category_id": "gpu",
-  "brand": "Gigabyte",
-  "name": "21217 - tarjeta de video gigabyte rtx 5060 eagle max oc 8gb p/n gv-n5060eaglemax oc-8gd",
-  "slug": "21217-tarjeta-de-video-gigabyte-rtx-5060-eagle-max-oc-8gb-p-n-gv-n5060eaglemax-oc-8gd",
-  "image_url": null,
+  "external_id": "centrale_gabinete-profesional-asus-proart-pa401-wood-edition-tempered-glass-panel-black",
+  "category_id": "case",
+  "brand": "Asus",
+  "name": "Gabinete Profesional ASUS ProArt PA401 Wood Edition Tempered Glass Panel (Black)",
+  "slug": "gabinete-profesional-asus-proart-pa401-wood-edition-tempered-glass-panel-black",
+  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Profesional-ASUS-ProArt-PA401-Wood-Edition-Tempered-Glass-Panel-1.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$399.900",
-    "Tarjeta crédito/débito": "$411.897"
+    "Transferencia / Efectivo": "$144.230",
+    "Tarjetas de Crédito / Débito": "$152.160"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:57:58",
-  "updated_at": "2026-04-25 12:57:58",
+  "created_at": "2026-04-25 19:37:48",
+  "updated_at": "2026-04-25 19:37:48",
   "prices": [
     {
-      "id": 1258,
       "product_id": 1258,
-      "store_id": "pcexpress",
-      "price": 399900,
+      "store_id": "centrale",
+      "price": 144230,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=21217&search=tarjeta+video+nvidia+rtx&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:57:58",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/gabinete-profesional-asus-proart-pa401-wood-edition-tempered-glass-panel-black/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 399900
+      "price": 144230
     }
   ],
   "scraped_at": "2026-04-25"

@@ -1,37 +1,33 @@
 {
   "id": 772,
-  "external_id": "centrale_placa-madre-msi-b760m-gaming-plus-wifi-lga-1700-ddr5-wifi-6e",
-  "category_id": "mobo",
-  "brand": "MSI",
-  "name": "Placa Madre MSI B760M Gaming Plus WiFi LGA 1700, DDR5, WiFi 6E",
-  "slug": "placa-madre-msi-b760m-gaming-plus-wifi-lga-1700-ddr5-wifi-6e",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-MSI-B760M-Gaming-Plus-WiFi-LGA-1700-DDR5-WiFi-6E-1776727921.webp",
+  "external_id": "centrale_procesador-intel-core-ultra-7-265-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel  Core Ultra 7 265 Hasta 5.3Ghz 30Mb Cache 20 Core S1851 P/N",
+  "slug": "procesador-intel-core-ultra-7-265-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-7-265-Hasta-5.3Ghz-30Mb-Cache-20-Core-S1851-P-N.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$159.340",
-    "Tarjetas de Crédito / Débito": "$168.100"
+    "Transferencia / Efectivo": "$432.060",
+    "Tarjetas de Crédito / Débito": "$455.820"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:58",
-  "updated_at": "2026-04-25 18:19:58",
+  "created_at": "2026-04-25 19:37:30",
+  "updated_at": "2026-04-25 19:37:30",
   "prices": [
     {
-      "id": 772,
       "product_id": 772,
       "store_id": "centrale",
-      "price": 159340,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "price": 432060,
+      "price_normal": 500090,
+      "discount_pct": 14,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-msi-b760m-gaming-plus-wifi-lga-1700-ddr5-wifi-6e/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:58",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 159340
+      "price": 432060
     }
   ],
   "scraped_at": "2026-04-25"

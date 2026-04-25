@@ -1,45 +1,42 @@
 {
   "id": 662,
-  "external_id": "centrale_asus-tarjeta-grafica-dual-geforce-rtx-3050-oc-edition-6gb-gddr6-ray-tracing",
-  "category_id": "gpu",
-  "brand": "Asus",
-  "name": "ASUS Tarjeta Gráfica Dual GeForce RTX 3050 OC EDITION, 6GB GDDR6 Ray Tracing",
-  "slug": "asus-tarjeta-grafica-dual-geforce-rtx-3050-oc-edition-6gb-gddr6-ray-tracing",
-  "image_url": "https://centrale.cl/wp-content/uploads/ASUS-Tarjeta-GrC3A1fica-Dual-GeForce-RTX-3050-OC-EDITION-6GB-GDDR6-Ray-Tracing.webp",
+  "external_id": "cg_placa-madre-asus-prime-b760m-a-d4-csm",
+  "category_id": "mobo",
+  "brand": "ASUS",
+  "name": "Placa Madre ASUS Prime B760M-A D4 CSM",
+  "slug": "placa-madre-asus-prime-b760m-a-d4-csm",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asus-prime-b760m-a-d4-csm.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$242.720",
-    "Tarjetas de Crédito / Débito": "$256.070"
+    "Marca": "ASUS",
+    "Efectivo/Transferencia": "$92.140",
+    "Webpay / Tarjeta crédito-débito": "$96.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:52",
-  "updated_at": "2026-04-25 18:19:52",
+  "created_at": "2026-04-25 19:35:47",
+  "updated_at": "2026-04-25 19:35:47",
   "prices": [
     {
-      "id": 662,
       "product_id": 662,
-      "store_id": "centrale",
-      "price": 242720,
-      "price_normal": 282210,
-      "discount_pct": 14,
-      "currency": "CLP",
+      "store_id": "cg",
+      "price": 92140,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/asus-tarjeta-grafica-dual-geforce-rtx-3050-oc-edition-6gb-gddr6-ray-tracing/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:52",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-b760m-a-d4-csm/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
+      "store_id": "cg",
+      "store_name": "CentralGamer",
       "date": "2026-04-25",
-      "price": 242720
+      "price": 92140
     }
   ],
   "scraped_at": "2026-04-25"

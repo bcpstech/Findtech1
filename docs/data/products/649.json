@@ -1,45 +1,42 @@
 {
   "id": 649,
-  "external_id": "centrale_tarjeta-grafica-msi-geforce-rtx-5070-12gb-ventus-3x-oc-gddr6",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "Tarjeta Gráfica MSI GeForce RTX 5070 12GB VENTUS 3X OC GDDR6",
-  "slug": "tarjeta-grafica-msi-geforce-rtx-5070-12gb-ventus-3x-oc-gddr6",
-  "image_url": "https://centrale.cl/wp-content/uploads/Msi-Geforce-Rtx-5070-12G-Ventus-3X-Oc-912-V532-205-1775866617.webp",
+  "external_id": "cg_procesador-intel-core-i7-12700k",
+  "category_id": "cpu",
+  "brand": "Zona Intel",
+  "name": "Procesador Intel Core i7-12700K",
+  "slug": "procesador-intel-core-i7-12700k",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i7-12700k.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$811.410",
-    "Tarjetas de Crédito / Débito": "$856.040"
+    "Marca": "INTEL",
+    "Efectivo/Transferencia": "$432.120",
+    "Webpay / Tarjeta crédito-débito": "$454.852"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:52",
-  "updated_at": "2026-04-25 18:19:52",
+  "created_at": "2026-04-25 19:35:38",
+  "updated_at": "2026-04-25 19:35:38",
   "prices": [
     {
-      "id": 649,
       "product_id": 649,
-      "store_id": "centrale",
-      "price": 811410,
+      "store_id": "cg",
+      "price": 432120,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5070-12gb-ventus-3x-oc-gddr6/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:52",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-i7-12700k-3-6-ghz-12-nucleos-20-hilos-25-mb-cache-lga1700-socket-caja-sin-refrigerante/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
+      "store_id": "cg",
+      "store_name": "CentralGamer",
       "date": "2026-04-25",
-      "price": 811410
+      "price": 432120
     }
   ],
   "scraped_at": "2026-04-25"

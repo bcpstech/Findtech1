@@ -1,45 +1,42 @@
 {
   "id": 1325,
-  "external_id": "pcexpress_10486-memoria-sodimm-ddr4-8gb-3200-kingston-1-2-p-n-kcp432ss8-8",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "10486 - memoria sodimm ddr4 8gb 3200 kingston 1.2 p/n kcp432ss8/8",
-  "slug": "10486-memoria-sodimm-ddr4-8gb-3200-kingston-1-2-p-n-kcp432ss8-8",
-  "image_url": null,
+  "external_id": "dust2_open-box-tarjeta-de-video-msi-geforce-rtx-5060ti-8g-ventus-2x-oc-plus-8211-msi",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "OPEN BOX Tarjeta de Video MSI GeForce RTX 5060Ti 8G VENTUS 2X OC PLUS &#8211; MSI",
+  "slug": "open-box-tarjeta-de-video-msi-geforce-rtx-5060ti-8g-ventus-2x-oc-plus-8211-msi",
+  "image_url": "https://images.findtech.cl/products/open-box-tarjeta-de-video-msi-geforce-rtx-5060ti-8g-ventus-2x-oc-plus-8211-msi.jpeg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$85.900",
-    "Tarjeta crédito/débito": "$88.477"
+    "Marca": "MSI",
+    "Transferencia/Efectivo": "$485.430",
+    "Webpay / Tarjeta crédito-débito": "$499.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:47",
-  "updated_at": "2026-04-25 12:58:47",
+  "created_at": "2026-04-25 19:40:22",
+  "updated_at": "2026-04-25 19:40:22",
   "prices": [
     {
-      "id": 1325,
       "product_id": 1325,
-      "store_id": "pcexpress",
-      "price": 85900,
+      "store_id": "dust2",
+      "price": 485430,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=10486&search=memoria+ram+ddr4&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:47",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://dust2.gg/producto/open-box-tarjeta-de-video-msi-geforce-rtx-5060ti-8g-ventus-2x-oc-plus-msi/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "dust2",
+      "store_name": "Dust2",
       "date": "2026-04-25",
-      "price": 85900
+      "price": 485430
     }
   ],
   "scraped_at": "2026-04-25"

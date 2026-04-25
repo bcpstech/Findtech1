@@ -1,37 +1,33 @@
 {
   "id": 968,
-  "external_id": "centrale_ssd-lenovo-960gb-2-5-8243-sata-iii-v-nand-tlc-servidor",
-  "category_id": "storage",
-  "brand": "Lenovo",
-  "name": "SSD Lenovo 960GB 2.5&#8243; SATA III V-NAND TLC, Servidor",
-  "slug": "ssd-lenovo-960gb-2-5-8243-sata-iii-v-nand-tlc-servidor",
-  "image_url": "https://centrale.cl/wp-content/uploads/Lenovo-Disco-Duro-Interno-960-Gb-2.5-Solid-State-Disco-Duro-4Xb7A9-4XB7A90874-1.webp",
+  "external_id": "centrale_memoria-ram-16gb-ddr5-5600mt-s-cl46-xpg-lancer-blade-black",
+  "category_id": "ram",
+  "brand": "XPG",
+  "name": "Memoria RAM 16GB DDR5 5600MT/s CL46 XPG Lancer Blade Black",
+  "slug": "memoria-ram-16gb-ddr5-5600mt-s-cl46-xpg-lancer-blade-black",
+  "image_url": "https://centrale.cl/wp-content/uploads/Xpg-Memoria-Ram-Lancer-Blade-Negro-De-16Gb-Ddr5-5600Mhz-Cl46-Xmp-Expo-Dimm-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$1.589.180",
-    "Tarjetas de Crédito / Débito": "$1.676.580"
+    "Transferencia / Efectivo": "$193.990",
+    "Tarjetas de Crédito / Débito": "$204.660"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:04",
-  "updated_at": "2026-04-25 18:20:04",
+  "created_at": "2026-04-25 19:37:35",
+  "updated_at": "2026-04-25 19:37:35",
   "prices": [
     {
-      "id": 968,
       "product_id": 968,
       "store_id": "centrale",
-      "price": 1589180,
+      "price": 193990,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ssd-lenovo-960gb-2-5-sata-iii-v-nand-tlc-servidor/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:04",
+      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-5600mt-s-cl46-xpg-lancer-blade-black/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 1589180
+      "price": 193990
     }
   ],
   "scraped_at": "2026-04-25"

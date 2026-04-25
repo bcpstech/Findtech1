@@ -1,37 +1,33 @@
 {
   "id": 995,
-  "external_id": "centrale_disco-solido-kioxia-512gb-ssd-m-2-nvme-2280-gen4-pcie-4-0-215-4-open-box",
-  "category_id": "storage",
-  "brand": "Kioxia",
-  "name": "Disco Solido Kioxia 512GB SSD M.2 Nvme 2280 Gen4 Pcie 4.0&#215;4 (Open Box)",
-  "slug": "disco-solido-kioxia-512gb-ssd-m-2-nvme-2280-gen4-pcie-4-0-215-4-open-box",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-Solido-Kioxia-512GB-SSD-M.2-Nvme-2280-Gen4-Pcie-4.0x4_f5vZMwl.webp",
+  "external_id": "centrale_memoria-ram-32gb-ddr4-3600mt-s-cl18-kingston-fury-renegade-black",
+  "category_id": "ram",
+  "brand": "Kingston",
+  "name": "Memoria RAM 32GB DDR4 3600MT/s CL18 Kingston Fury Renegade Black",
+  "slug": "memoria-ram-32gb-ddr4-3600mt-s-cl18-kingston-fury-renegade-black",
+  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-32GB-DDR4-3600MT-s-CL18-Kingston-Fury-Renegade-Black_c3poTKU-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$60.610",
-    "Tarjetas de Crédito / Débito": "$63.940"
+    "Transferencia / Efectivo": "$434.990",
+    "Tarjetas de Crédito / Débito": "$458.910"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:04",
-  "updated_at": "2026-04-25 18:20:04",
+  "created_at": "2026-04-25 19:37:35",
+  "updated_at": "2026-04-25 19:37:35",
   "prices": [
     {
-      "id": 995,
       "product_id": 995,
       "store_id": "centrale",
-      "price": 60610,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "price": 434990,
+      "price_normal": 500190,
+      "discount_pct": 13,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-solido-kioxia-512gb-ssd-m-2-nvme-2280-gen4-pcie-4-0x4-open-box-2/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:04",
+      "product_url": "https://centrale.cl/producto/memoria-ram-32gb-ddr4-3600mt-s-cl18-kingston-fury-renegade-black/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 60610
+      "price": 434990
     }
   ],
   "scraped_at": "2026-04-25"

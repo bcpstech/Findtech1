@@ -1,45 +1,42 @@
 {
   "id": 1313,
-  "external_id": "pcexpress_20615-kit-de-memoria-kingston-fury-32gb-6000mt-s-ddr5-cl36-dimm-kit-of-2x16gb-black-kf560c36bbe2k2-3",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "20615 - kit de memoria kingston fury 32gb 6000mt/s ddr5 cl36 dimm (kit of 2x16gb) black kf560c36bbe2k2-32",
-  "slug": "20615-kit-de-memoria-kingston-fury-32gb-6000mt-s-ddr5-cl36-dimm-kit-of-2x16gb-black-kf560c36bbe2k2-3",
-  "image_url": null,
+  "external_id": "dust2_tarjeta-de-video-asrock-arc-b570-challenger-10gb-oc",
+  "category_id": "gpu",
+  "brand": "ASRock",
+  "name": "Tarjeta de Video ASRock Arc B570 Challenger 10GB OC",
+  "slug": "tarjeta-de-video-asrock-arc-b570-challenger-10gb-oc",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-asrock-arc-b570-challenger-10gb-oc.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$481.900",
-    "Tarjeta crédito/débito": "$496.357"
+    "Marca": "ASRock",
+    "Transferencia/Efectivo": "$300.960",
+    "Webpay / Tarjeta crédito-débito": "$309.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:41",
-  "updated_at": "2026-04-25 12:58:41",
+  "created_at": "2026-04-25 19:40:18",
+  "updated_at": "2026-04-25 19:40:18",
   "prices": [
     {
-      "id": 1313,
       "product_id": 1313,
-      "store_id": "pcexpress",
-      "price": 481900,
+      "store_id": "dust2",
+      "price": 300960,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=20615&search=memoria+ram+ddr5&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:41",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-asrock-arc-b570-challenger-10gb-oc/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "dust2",
+      "store_name": "Dust2",
       "date": "2026-04-25",
-      "price": 481900
+      "price": 300960
     }
   ],
   "scraped_at": "2026-04-25"

@@ -1,45 +1,42 @@
 {
   "id": 1426,
-  "external_id": "pcexpress_20943-gabinete-gamer-gamemax-infinity-mini-white-micro-atx",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "20943 - gabinete gamer gamemax infinity mini white micro atx",
-  "slug": "20943-gabinete-gamer-gamemax-infinity-mini-white-micro-atx",
-  "image_url": null,
+  "external_id": "dust2_procesador-intel-core-i9-14900-hasta-5-8ghz-lga1700",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i9-14900, hasta 5.8Ghz, LGA1700",
+  "slug": "procesador-intel-core-i9-14900-hasta-5-8ghz-lga1700",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i9-14900-hasta-5-8ghz-lga1700.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$33.500",
-    "Tarjeta crédito/débito": "$34.505"
+    "Marca": "Intel",
+    "Transferencia/Efectivo": "$697.080",
+    "Webpay / Tarjeta crédito-débito": "$717.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:56:09",
-  "updated_at": "2026-04-25 04:56:09",
+  "created_at": "2026-04-25 19:41:02",
+  "updated_at": "2026-04-25 19:41:02",
   "prices": [
     {
-      "id": 1426,
       "product_id": 1426,
-      "store_id": "pcexpress",
-      "price": 33500,
+      "store_id": "dust2",
+      "price": 697080,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=20943&search=gabinete+atx+gamer&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:56:09",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://dust2.gg/producto/procesador-intel-core-i9-14900-hasta-5-8ghz-lga1700/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "dust2",
+      "store_name": "Dust2",
       "date": "2026-04-25",
-      "price": 33500
+      "price": 697080
     }
   ],
   "scraped_at": "2026-04-25"

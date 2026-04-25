@@ -1,45 +1,43 @@
 {
   "id": 1294,
-  "external_id": "centrale_xpg-gabinete-atx-valor-air-plus-vidrio-templado-4x-ventiladores-argb",
-  "category_id": "case",
-  "brand": "XPG",
-  "name": "XPG Gabinete ATX Valor Air Plus, Vidrio Templado, 4x Ventiladores ARGB",
-  "slug": "xpg-gabinete-atx-valor-air-plus-vidrio-templado-4x-ventiladores-argb",
-  "image_url": "https://centrale.cl/wp-content/uploads/Xpg-Gabinete-Valor-Air-Plus-S-Fuente-Atx-4Xfan-Wh-VALORAIRPLUSMTA-WHCWW_4hQ3BLS.webp",
+  "external_id": "progaming_disipador-de-aire-cougar-forza-50-argb",
+  "category_id": "cooling",
+  "brand": "Genérico",
+  "name": "Disipador de Aire Cougar Forza 50 ARGB",
+  "slug": "disipador-de-aire-cougar-forza-50-argb",
+  "image_url": "https://images.findtech.cl/products/disipador-de-aire-cougar-forza-50-argb.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$52.160",
-    "Tarjetas de Crédito / Débito": "$55.030"
+    "Marca": "Cougar",
+    "Modelo": "Forza 50 ARGB",
+    "Transferencia/Efectivo": "$42.220",
+    "Webpay / Tarjeta crédito-débito": "$43.490"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:54:42",
-  "updated_at": "2026-04-25 04:54:42",
+  "created_at": "2026-04-25 19:40:01",
+  "updated_at": "2026-04-25 19:40:01",
   "prices": [
     {
-      "id": 1294,
       "product_id": 1294,
-      "store_id": "centrale",
-      "price": 52160,
+      "store_id": "progaming",
+      "price": 42220,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/xpg-gabinete-atx-valor-air-plus-vidrio-templado-4x-ventiladores-argb/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:54:42",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://progaming.cl/producto/componentes/refrigeracion/disipador-de-aire-cougar-forza-50-argb/",
+      "store_name": "ProGaming",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.progaming.cl",
+      "full_url": "https://www.progaming.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
+      "store_id": "progaming",
+      "store_name": "ProGaming",
       "date": "2026-04-25",
-      "price": 52160
+      "price": 42220
     }
   ],
   "scraped_at": "2026-04-25"

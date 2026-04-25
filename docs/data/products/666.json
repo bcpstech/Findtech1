@@ -1,45 +1,42 @@
 {
   "id": 666,
-  "external_id": "centrale_tarjeta-grafica-msi-rtx-5070-12g-shadow-2x-oc",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "Tarjeta Grafica MSI RTX 5070 12G SHADOW 2X OC",
-  "slug": "tarjeta-grafica-msi-rtx-5070-12g-shadow-2x-oc",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-Grafica-MSI-RTX-5070-12G-SHADOW-2X-OC.webp",
+  "external_id": "cg_placa-madre-asrock-a620am-x",
+  "category_id": "mobo",
+  "brand": "ASRock",
+  "name": "Placa Madre ASRock A620AM-X",
+  "slug": "placa-madre-asrock-a620am-x",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asrock-a620am-x.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$793.830",
-    "Tarjetas de Crédito / Débito": "$837.490"
+    "Marca": "ASROCK",
+    "Efectivo/Transferencia": "$104.490",
+    "Webpay / Tarjeta crédito-débito": "$109.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:52",
-  "updated_at": "2026-04-25 18:19:52",
+  "created_at": "2026-04-25 19:35:49",
+  "updated_at": "2026-04-25 19:35:49",
   "prices": [
     {
-      "id": 666,
       "product_id": 666,
-      "store_id": "centrale",
-      "price": 793830,
-      "price_normal": 891500,
-      "discount_pct": 11,
-      "currency": "CLP",
+      "store_id": "cg",
+      "price": 104490,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5070-12g-shadow-2x-oc/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:52",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asrock-a620am-x/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
+      "store_id": "cg",
+      "store_name": "CentralGamer",
       "date": "2026-04-25",
-      "price": 793830
+      "price": 104490
     }
   ],
   "scraped_at": "2026-04-25"

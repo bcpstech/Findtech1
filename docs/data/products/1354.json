@@ -1,45 +1,42 @@
 {
   "id": 1354,
-  "external_id": "pcexpress_10182-disco-kingston-de-estado-solido-1tb-2-5-kc600-p-n-skc600-1024g",
-  "category_id": "storage",
-  "brand": "Kingston",
-  "name": "10182 - disco kingston de estado solido 1tb 2.5\" kc600 p/n skc600/1024g",
-  "slug": "10182-disco-kingston-de-estado-solido-1tb-2-5-kc600-p-n-skc600-1024g",
-  "image_url": null,
+  "external_id": "dust2_tarjeta-de-video-gigabyte-rtx-5060-eagle-oc-8gb-gddr7",
+  "category_id": "gpu",
+  "brand": "Gigabyte",
+  "name": "Tarjeta de Video Gigabyte RTX 5060 EAGLE OC 8GB GDDR7",
+  "slug": "tarjeta-de-video-gigabyte-rtx-5060-eagle-oc-8gb-gddr7",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-gigabyte-rtx-5060-eagle-oc-8gb-gddr7.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$199.500",
-    "Tarjeta crédito/débito": "$205.485"
+    "Marca": "Gigabyte",
+    "Transferencia/Efectivo": "$390.280",
+    "Webpay / Tarjeta crédito-débito": "$401.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:59",
-  "updated_at": "2026-04-25 12:58:59",
+  "created_at": "2026-04-25 19:40:31",
+  "updated_at": "2026-04-25 19:40:31",
   "prices": [
     {
-      "id": 1354,
       "product_id": 1354,
-      "store_id": "pcexpress",
-      "price": 199500,
+      "store_id": "dust2",
+      "price": 390280,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=10182&search=ssd+sata+2.5&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:59",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-gigabyte-rtx-5060-eagle-oc-8gb-gddr7/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "dust2",
+      "store_name": "Dust2",
       "date": "2026-04-25",
-      "price": 199500
+      "price": 390280
     }
   ],
   "scraped_at": "2026-04-25"

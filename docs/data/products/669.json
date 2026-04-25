@@ -1,45 +1,42 @@
 {
   "id": 669,
-  "external_id": "centrale_tarjeta-grafica-zotac-gaming-geforce-rtx-5070-ti-solid-sff-oc-16gb-gddr7-256-bit",
-  "category_id": "gpu",
-  "brand": "Zotac",
-  "name": "Tarjeta Gráfica ZOTAC GAMING GeForce RTX 5070 Ti SOLID SFF OC 16GB GDDR7 256-bit",
-  "slug": "tarjeta-grafica-zotac-gaming-geforce-rtx-5070-ti-solid-sff-oc-16gb-gddr7-256-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Zotac-Gaming-Geforce-Rtx-5070Ti-Solid-Sf-ZT-B50710J3-10P.webp",
+  "external_id": "cg_placa-madre-asus-prime-b650m-a-ii",
+  "category_id": "mobo",
+  "brand": "ASUS",
+  "name": "Placa Madre ASUS Prime B650M-A II",
+  "slug": "placa-madre-asus-prime-b650m-a-ii",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asus-prime-b650m-a-ii.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$1.194.410",
-    "Tarjetas de Crédito / Débito": "$1.260.100"
+    "Marca": "ASUS",
+    "Efectivo/Transferencia": "$142.490",
+    "Webpay / Tarjeta crédito-débito": "$149.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:52",
-  "updated_at": "2026-04-25 18:19:52",
+  "created_at": "2026-04-25 19:35:49",
+  "updated_at": "2026-04-25 19:35:49",
   "prices": [
     {
-      "id": 669,
       "product_id": 669,
-      "store_id": "centrale",
-      "price": 1194410,
+      "store_id": "cg",
+      "price": 142490,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-geforce-rtx-5070-ti-solid-sff-oc-16gb-gddr7-256-bit/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:52",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-b650m-a-ii/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
+      "store_id": "cg",
+      "store_name": "CentralGamer",
       "date": "2026-04-25",
-      "price": 1194410
+      "price": 142490
     }
   ],
   "scraped_at": "2026-04-25"

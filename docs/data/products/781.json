@@ -1,37 +1,47 @@
 {
   "id": 781,
-  "external_id": "centrale_placa-madre-msi-pro-b850-p-wifi-am5-ddr5-wifi-7-bluetooth-5-4",
-  "category_id": "mobo",
-  "brand": "MSI",
-  "name": "Placa Madre MSI PRO B850-P WiFi AM5, DDR5, WiFi 7, Bluetooth 5.4",
-  "slug": "placa-madre-msi-pro-b850-p-wifi-am5-ddr5-wifi-7-bluetooth-5-4",
-  "image_url": "https://centrale.cl/wp-content/uploads/Msi-Placa-Madre-Pro-B850-P-Wifi-Amd-Am5-4Xddr5-3Xm.2Pcie-5.0-Y-4.0-4Xsata.webp",
+  "external_id": "centrale_procesador-intel-core-ultra-5-225-6p-cores-4e-cores-4-9-ghz-lga1851",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core Ultra 5 225 (6P Cores + 4E Cores, 4.9 GHz, LGA1851)",
+  "slug": "procesador-intel-core-ultra-5-225-6p-cores-4e-cores-4-9-ghz-lga1851",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-5-225-6P-Cores-4E-Cores-4.9-GHz-LGA1851-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$221.190",
-    "Tarjetas de Crédito / Débito": "$233.360"
+    "Transferencia / Efectivo": "$198.500",
+    "Tarjetas de Crédito / Débito": "$209.420"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:58",
-  "updated_at": "2026-04-25 18:19:58",
+  "created_at": "2026-04-25 19:37:30",
+  "updated_at": "2026-04-25 19:37:30",
   "prices": [
     {
-      "id": 781,
       "product_id": 781,
       "store_id": "centrale",
-      "price": 221190,
-      "price_normal": 249580,
-      "discount_pct": 11,
-      "currency": "CLP",
+      "price": 198500,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-b850-p-wifi-am5-ddr5-wifi-7-bluetooth-5-4/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:58",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-5-225-6p-cores-4e-cores-4-9-ghz-lga1851/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 71,
+      "store_id": "n1g",
+      "price": 256000,
+      "price_normal": 269474,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3205-intel-core-ultra-5-225-lga-1851-10-core-6p4e-65w-arrow-lake-intel-graphics-processor-bx80768225.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -39,7 +49,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 221190
+      "price": 198500
     }
   ],
   "scraped_at": "2026-04-25"

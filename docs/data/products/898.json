@@ -1,37 +1,33 @@
 {
   "id": 898,
-  "external_id": "centrale_memoria-ram-8gb-3200mt-s-cl22-ddr4-kingston-valueram-unbuffered-dimm",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM 8GB 3200MT/s CL22 DDR4 Kingston ValueRam Unbuffered DIMM",
-  "slug": "memoria-ram-8gb-3200mt-s-cl22-ddr4-kingston-valueram-unbuffered-dimm",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-8GB-3200MT-s-CL22-DDR4-Kingston-ValueRam-Unbuffered-DIMM_47URV82-1.webp",
+  "external_id": "centrale_placa-madre-b760m-gaming-plus-wifi-ddr4-micro-atx-lga-1700-ddr4-wifi-6",
+  "category_id": "mobo",
+  "brand": "Gigabyte",
+  "name": "Placa Madre B760M GAMING PLUS WIFI DDR4 (Micro ATX, LGA 1700, DDR4, WiFi 6)",
+  "slug": "placa-madre-b760m-gaming-plus-wifi-ddr4-micro-atx-lga-1700-ddr4-wifi-6",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-B760M-GAMING-PLUS-WIFI-DDR4-Micro-ATX-LGA-1700-DDR4-WiFi-6-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$75.500",
-    "Tarjetas de Crédito / Débito": "$79.650"
+    "Transferencia / Efectivo": "$169.870",
+    "Tarjetas de Crédito / Débito": "$179.210"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:00",
-  "updated_at": "2026-04-25 18:20:00",
+  "created_at": "2026-04-25 19:37:33",
+  "updated_at": "2026-04-25 19:37:33",
   "prices": [
     {
-      "id": 898,
       "product_id": 898,
       "store_id": "centrale",
-      "price": 75500,
-      "price_normal": 110570,
-      "discount_pct": 32,
-      "currency": "CLP",
+      "price": 169870,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-8gb-3200mt-s-cl22-ddr4-kingston-valueram-unbuffered-dimm/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:00",
+      "product_url": "https://centrale.cl/producto/placa-madre-b760m-gaming-plus-wifi-ddr4-micro-atx-lga-1700-ddr4-wifi-6/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 75500
+      "price": 169870
     }
   ],
   "scraped_at": "2026-04-25"

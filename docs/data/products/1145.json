@@ -1,37 +1,33 @@
 {
   "id": 1145,
-  "external_id": "centrale_fuente-de-poder-1200w-seasonic-vertex-gx-1200-80-plus-gold-atx-3-1-pcie-5-1",
-  "category_id": "psu",
-  "brand": "Seasonic",
-  "name": "Fuente de Poder 1200W Seasonic Vertex GX-1200 (80 PLUS Gold, ATX 3.1, PCIe 5.1)",
-  "slug": "fuente-de-poder-1200w-seasonic-vertex-gx-1200-80-plus-gold-atx-3-1-pcie-5-1",
-  "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-1200W-Seasonic-Vertex-GX-1200-80-PLUS-Gold-ATX-3.1-PCIe-5.1.webp",
+  "external_id": "centrale_cooler-master-hyper-212-3dhp-negro-argb-may-t2hp-217pa-r1",
+  "category_id": "cooling",
+  "brand": "Cooler Master",
+  "name": "Cooler Master Hyper 212 3Dhp Negro Argb MAY-T2HP-217PA-R1",
+  "slug": "cooler-master-hyper-212-3dhp-negro-argb-may-t2hp-217pa-r1",
+  "image_url": "https://centrale.cl/wp-content/uploads/Cooler-Master-Hyper-212-3Dhp-Negro-Argb-MAY-T2HP-217PA-R1-1776123141.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$285.690",
-    "Tarjetas de Crédito / Débito": "$301.400"
+    "Transferencia / Efectivo": "$33.120",
+    "Tarjetas de Crédito / Débito": "$34.940"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:13",
-  "updated_at": "2026-04-25 18:20:13",
+  "created_at": "2026-04-25 19:37:42",
+  "updated_at": "2026-04-25 19:37:42",
   "prices": [
     {
-      "id": 1145,
       "product_id": 1145,
       "store_id": "centrale",
-      "price": 285690,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "price": 33120,
+      "price_normal": 36890,
+      "discount_pct": 10,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-1200w-seasonic-vertex-gx-1200-80-plus-gold-atx-3-1-pcie-5-1/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:13",
+      "product_url": "https://centrale.cl/producto/cooler-master-hyper-212-3dhp-negro-argb-may-t2hp-217pa-r1/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 285690
+      "price": 33120
     }
   ],
   "scraped_at": "2026-04-25"

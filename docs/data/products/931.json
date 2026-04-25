@@ -1,37 +1,33 @@
 {
   "id": 931,
-  "external_id": "centrale_memoria-ram-48gb-ddr5-6000mt-s-cl32-kingston-fury-renegade-rgb",
+  "external_id": "centrale_memoria-ram-16gb-ddr4-3600mt-s-cl16-kingston-fury-renegade-black",
   "category_id": "ram",
   "brand": "Kingston",
-  "name": "Memoria RAM 48GB DDR5 6000MT/s CL32 Kingston Fury Renegade RGB",
-  "slug": "memoria-ram-48gb-ddr5-6000mt-s-cl32-kingston-fury-renegade-rgb",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-48GB-DDR5-6000MT-s-CL32-Kingston-Fury-Renegade-RGB_qZJiUQR-2.webp",
+  "name": "Memoria RAM 16GB DDR4 3600MT/s CL16 Kingston Fury Renegade Black",
+  "slug": "memoria-ram-16gb-ddr4-3600mt-s-cl16-kingston-fury-renegade-black",
+  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-16GB-DDR4-3600MT-s-CL16-Kingston-Fury-Renegade-Black_pkyfIIu-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$639.900",
-    "Tarjetas de Crédito / Débito": "$675.090"
+    "Transferencia / Efectivo": "$210.750",
+    "Tarjetas de Crédito / Débito": "$222.340"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:00",
-  "updated_at": "2026-04-25 18:20:00",
+  "created_at": "2026-04-25 19:37:35",
+  "updated_at": "2026-04-25 19:37:35",
   "prices": [
     {
-      "id": 931,
       "product_id": 931,
       "store_id": "centrale",
-      "price": 639900,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "price": 210750,
+      "price_normal": 240030,
+      "discount_pct": 12,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-48gb-ddr5-6000mt-s-cl32-kingston-fury-renegade-rgb/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:00",
+      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr4-3600mt-s-cl16-kingston-fury-renegade-black/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 639900
+      "price": 210750
     }
   ],
   "scraped_at": "2026-04-25"

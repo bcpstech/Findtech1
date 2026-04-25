@@ -1,45 +1,42 @@
 {
   "id": 1338,
-  "external_id": "pcexpress_652860-computador-todo-en-uno-lenovo-ideacentre-3-24alc6-f0g1011fcl-amd-ryzen-7-7730u-16gb-512gb-ssd",
-  "category_id": "ram",
-  "brand": "AMD",
-  "name": "652860 - computador todo en uno lenovo ideacentre 3 24alc6 f0g1011fcl - amd ryzen 7 7730u - 16gb - 512gb ssd - 60.5cm (23.8\") full hd - de escritorio - blanco - amd chip - 1920 x 1080",
-  "slug": "652860-computador-todo-en-uno-lenovo-ideacentre-3-24alc6-f0g1011fcl-amd-ryzen-7-7730u-16gb-512gb-ssd",
-  "image_url": null,
+  "external_id": "dust2_tarjeta-de-video-asus-prime-rtx-5070-ti-16gb-gddr7-oc",
+  "category_id": "gpu",
+  "brand": "ASUS",
+  "name": "Tarjeta de Video ASUS PRIME RTX 5070 Ti 16GB GDDR7 OC",
+  "slug": "tarjeta-de-video-asus-prime-rtx-5070-ti-16gb-gddr7-oc",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-asus-prime-rtx-5070-ti-16gb-gddr7-oc.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$767.900",
-    "Tarjeta crédito/débito": "$790.937"
+    "Marca": "ASUS",
+    "Transferencia/Efectivo": "$1.128.150",
+    "Webpay / Tarjeta crédito-débito": "$1.161.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:47",
-  "updated_at": "2026-04-25 12:58:47",
+  "created_at": "2026-04-25 19:40:26",
+  "updated_at": "2026-04-25 19:40:26",
   "prices": [
     {
-      "id": 1338,
       "product_id": 1338,
-      "store_id": "pcexpress",
-      "price": 767900,
+      "store_id": "dust2",
+      "price": 1128150,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=652860&search=memoria+ram+ddr4&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:47",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-asus-prime-rtx-5070-ti-16gb-gddr7-oc/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "dust2",
+      "store_name": "Dust2",
       "date": "2026-04-25",
-      "price": 767900
+      "price": 1128150
     }
   ],
   "scraped_at": "2026-04-25"

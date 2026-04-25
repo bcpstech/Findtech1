@@ -1,37 +1,33 @@
 {
   "id": 815,
-  "external_id": "centrale_placa-madre-micro-atx-msi-a520m-a-pro-socket-amd-am4-ddr4",
-  "category_id": "mobo",
-  "brand": "MSI",
-  "name": "Placa Madre Micro ATX MSI A520M-A PRO Socket AMD AM4, DDR4",
-  "slug": "placa-madre-micro-atx-msi-a520m-a-pro-socket-amd-am4-ddr4",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Micro-ATX-MSI-A520M-A-PRO-Socket-AMD-AM4-DDR4_EVuHQ2X.webp",
+  "external_id": "centrale_procesador-intel-core-i7-14700kf-raptor-lake-s-lga1700-20-cores-28-hilos",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i7-14700KF Raptor Lake-S LGA1700, 20 Cores, 28 Hilos",
+  "slug": "procesador-intel-core-i7-14700kf-raptor-lake-s-lga1700-20-cores-28-hilos",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i7-14700KF-Raptor-Lake-S-LGA1700-20-Cores-28-Hilo_qR0ePkk-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$53.920",
-    "Tarjetas de Crédito / Débito": "$56.890"
+    "Transferencia / Efectivo": "$407.310",
+    "Tarjetas de Crédito / Débito": "$429.710"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:58",
-  "updated_at": "2026-04-25 18:19:58",
+  "created_at": "2026-04-25 19:37:30",
+  "updated_at": "2026-04-25 19:37:30",
   "prices": [
     {
-      "id": 815,
       "product_id": 815,
       "store_id": "centrale",
-      "price": 53920,
+      "price": 407310,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-msi-a520m-a-pro-socket-amd-am4-ddr4/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:58",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700kf-raptor-lake-s-lga1700-20-cores-28-hilos/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 53920
+      "price": 407310
     }
   ],
   "scraped_at": "2026-04-25"

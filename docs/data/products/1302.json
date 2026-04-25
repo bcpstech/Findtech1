@@ -1,45 +1,43 @@
 {
   "id": 1302,
-  "external_id": "pcexpress_21099-memoria-ddr5-xpg-lancer-udimm-adata-8gb-5600mhz-black-p-n-ax5u5600c468g-slabbk",
-  "category_id": "ram",
-  "brand": "Genérico",
-  "name": "21099 - memoria ddr5 xpg lancer udimm adata 8gb 5600mhz black p/n ax5u5600c468g-slabbk",
-  "slug": "21099-memoria-ddr5-xpg-lancer-udimm-adata-8gb-5600mhz-black-p-n-ax5u5600c468g-slabbk",
-  "image_url": null,
+  "external_id": "progaming_disipador-cooler-master-hyper-212-spectrum-v3",
+  "category_id": "cooling",
+  "brand": "Cooler Master",
+  "name": "Disipador Cooler Master Hyper 212 Spectrum V3",
+  "slug": "disipador-cooler-master-hyper-212-spectrum-v3",
+  "image_url": "https://images.findtech.cl/products/disipador-cooler-master-hyper-212-spectrum-v3.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$167.500",
-    "Tarjeta crédito/débito": "$172.525"
+    "Marca": "Cooler Master",
+    "Modelo": "Hyper 212 Spectrum",
+    "Transferencia/Efectivo": "$12.520",
+    "Webpay / Tarjeta crédito-débito": "$12.900"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:41",
-  "updated_at": "2026-04-25 12:58:41",
+  "created_at": "2026-04-25 19:40:02",
+  "updated_at": "2026-04-25 19:40:02",
   "prices": [
     {
-      "id": 1302,
       "product_id": 1302,
-      "store_id": "pcexpress",
-      "price": 167500,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "store_id": "progaming",
+      "price": 12520,
+      "price_normal": 32030,
+      "discount_pct": 61,
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=21099&search=memoria+ram+ddr5&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:41",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://progaming.cl/producto/componentes/refrigeracion/cooler-master-hyper-212-spectrum-v3-rr-s4na-17pa-r1/",
+      "store_name": "ProGaming",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.progaming.cl",
+      "full_url": "https://www.progaming.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "progaming",
+      "store_name": "ProGaming",
       "date": "2026-04-25",
-      "price": 167500
+      "price": 12520
     }
   ],
   "scraped_at": "2026-04-25"

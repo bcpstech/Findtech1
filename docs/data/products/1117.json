@@ -1,37 +1,47 @@
 {
   "id": 1117,
-  "external_id": "centrale_ventilador-gabinete-120mm-arctic-p12-pro-pwm-pst-negro-77-cfm-6-9mm-h2o",
+  "external_id": "centrale_refrigeracion-asus-rog-ryuo-iv-slc-360-argb-amoled-3x120mm-lga1700-am5",
   "category_id": "cooling",
-  "brand": "Arctic",
-  "name": "Ventilador Gabinete 120mm ARCTIC P12 Pro PWM PST Negro (77 CFM, 6.9mm H2O)",
-  "slug": "ventilador-gabinete-120mm-arctic-p12-pro-pwm-pst-negro-77-cfm-6-9mm-h2o",
-  "image_url": "https://centrale.cl/wp-content/uploads/Ventilador-Gabinete-120mm-ARCTIC-P12-Pro-PWM-PST-Negro-77-CFM-6.9mm-H2O_CqYyJMP.webp",
+  "brand": "Asus",
+  "name": "Refrigeración ASUS ROG Ryuo IV SLC 360 ARGB AMOLED, 3x120mm, LGA1700/AM5",
+  "slug": "refrigeracion-asus-rog-ryuo-iv-slc-360-argb-amoled-3x120mm-lga1700-am5",
+  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Rog-Ryuo-Iv-Slc-360-Argb-90RC0151-B0AAY0.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$10.900",
-    "Tarjetas de Crédito / Débito": "$11.500"
+    "Transferencia / Efectivo": "$352.720",
+    "Tarjetas de Crédito / Débito": "$372.120"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:11",
-  "updated_at": "2026-04-25 18:20:11",
+  "created_at": "2026-04-25 19:37:40",
+  "updated_at": "2026-04-25 19:37:40",
   "prices": [
     {
-      "id": 1117,
       "product_id": 1117,
       "store_id": "centrale",
-      "price": 10900,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "price": 352720,
+      "price_normal": 450620,
+      "discount_pct": 22,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ventilador-gabinete-120mm-arctic-p12-pro-pwm-pst-negro-77-cfm-6-9mm-h2o/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:11",
+      "product_url": "https://centrale.cl/producto/refrigeracion-asus-rog-ryuo-iv-slc-360-argb-amoled-3x120mm-lga1700-am5/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 299,
+      "store_id": "n1g",
+      "price": 449000,
+      "price_normal": 472632,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3659-asus-rog-ryuo-iv-slc-360-argb-hatsune-miku-edition-amoled-curva-de-667-visuales-3d-amd-am4am5-intel-lga18511700.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -39,7 +49,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 10900
+      "price": 352720
     }
   ],
   "scraped_at": "2026-04-25"

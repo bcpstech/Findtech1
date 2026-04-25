@@ -1,45 +1,41 @@
 {
   "id": 1260,
-  "external_id": "pcexpress_661391-tarjeta-de-video-asus-prime-rtx5070-o12g",
-  "category_id": "gpu",
-  "brand": "ASUS",
-  "name": "661391 - tarjeta de video asus prime-rtx5070-o12g",
-  "slug": "661391-tarjeta-de-video-asus-prime-rtx5070-o12g",
-  "image_url": null,
+  "external_id": "centrale_gabinete-gamer-cougar-duoface-pro-rgb-black-extended-atx-4-vent-argb-incluidos",
+  "category_id": "case",
+  "brand": "Cougar",
+  "name": "Gabinete Gamer Cougar DuoFace Pro RGB Black, Extended ATX, 4 Vent ARGB Incluidos",
+  "slug": "gabinete-gamer-cougar-duoface-pro-rgb-black-extended-atx-4-vent-argb-incluidos",
+  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Gamer-Cougar-DuoFace-Pro-RGB-Black-Extended-ATX-4-Vent-ARGB-In_m4rplBO.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$812.500",
-    "Tarjeta crédito/débito": "$836.875"
+    "Transferencia / Efectivo": "$88.750",
+    "Tarjetas de Crédito / Débito": "$93.630"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:57:58",
-  "updated_at": "2026-04-25 12:57:58",
+  "created_at": "2026-04-25 19:37:48",
+  "updated_at": "2026-04-25 19:37:48",
   "prices": [
     {
-      "id": 1260,
       "product_id": 1260,
-      "store_id": "pcexpress",
-      "price": 812500,
+      "store_id": "centrale",
+      "price": 88750,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=661391&search=tarjeta+video+nvidia+rtx&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:57:58",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/gabinete-gamer-cougar-duoface-pro-rgb-black-extended-atx-4-vent-argb-incluidos/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 812500
+      "price": 88750
     }
   ],
   "scraped_at": "2026-04-25"

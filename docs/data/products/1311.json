@@ -1,45 +1,42 @@
 {
   "id": 1311,
-  "external_id": "pcexpress_20182-memoria-ram-crucial-sodimm-de-48gb-ddr5-5600mhz-cl45-pc5-44800-cl46-1-10-v-non-ecc-unbuffered-",
-  "category_id": "ram",
-  "brand": "Crucial",
-  "name": "20182 - memoria ram crucial sodimm de 48gb ddr5 5600mhz cl45 pc5-44800 cl46 1.10 v - non-ecc  unbuffered unregistered",
-  "slug": "20182-memoria-ram-crucial-sodimm-de-48gb-ddr5-5600mhz-cl45-pc5-44800-cl46-1-10-v-non-ecc-unbuffered-",
-  "image_url": null,
+  "external_id": "dust2_tarjeta-de-video-asrock-radeon-rx-7600-challenger-8gb-oc",
+  "category_id": "gpu",
+  "brand": "ASRock",
+  "name": "Tarjeta de Video ASRock Radeon RX 7600 Challenger 8GB OC",
+  "slug": "tarjeta-de-video-asrock-radeon-rx-7600-challenger-8gb-oc",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-asrock-radeon-rx-7600-challenger-8gb-oc.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$406.500",
-    "Tarjeta crédito/débito": "$418.695"
+    "Marca": "ASRock",
+    "Transferencia/Efectivo": "$306.300",
+    "Webpay / Tarjeta crédito-débito": "$315.490"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:41",
-  "updated_at": "2026-04-25 12:58:41",
+  "created_at": "2026-04-25 19:40:17",
+  "updated_at": "2026-04-25 19:40:17",
   "prices": [
     {
-      "id": 1311,
       "product_id": 1311,
-      "store_id": "pcexpress",
-      "price": 406500,
+      "store_id": "dust2",
+      "price": 306300,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=20182&search=memoria+ram+ddr5&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:41",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-asrock-radeon-rx-7600-challenger-8gb-oc/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "dust2",
+      "store_name": "Dust2",
       "date": "2026-04-25",
-      "price": 406500
+      "price": 306300
     }
   ],
   "scraped_at": "2026-04-25"

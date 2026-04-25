@@ -1,37 +1,33 @@
 {
   "id": 1010,
-  "external_id": "centrale_disco-ssd-500gb-kingston-nv3-m-2-2230-nvme-pcie-4-0-x4-nand-3d",
-  "category_id": "storage",
+  "external_id": "centrale_memoria-ram-8gb-ddr4-3200mt-s-cl22-dimm-unbuffered-non-ecc-1-2v",
+  "category_id": "ram",
   "brand": "Kingston",
-  "name": "Disco SSD 500GB Kingston NV3 M.2 2230 NVMe PCIe 4.0 x4, Nand 3D",
-  "slug": "disco-ssd-500gb-kingston-nv3-m-2-2230-nvme-pcie-4-0-x4-nand-3d",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-500GB-Kingston-NV3-M.2-2230-NVMe-PCIe-4.0-x4-Nand-3D-1.webp",
+  "name": "Memoria RAM 8GB DDR4 3200MT/s CL22 DIMM Unbuffered Non-ECC 1.2V",
+  "slug": "memoria-ram-8gb-ddr4-3200mt-s-cl22-dimm-unbuffered-non-ecc-1-2v",
+  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-8GB-DDR4-3200MT-s-CL22-DIMM-Unbuffered-Non-ECC-1.2V_Mt1ohrT.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$101.470",
-    "Tarjetas de Crédito / Débito": "$107.050"
+    "Transferencia / Efectivo": "$63.000",
+    "Tarjetas de Crédito / Débito": "$66.470"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:04",
-  "updated_at": "2026-04-25 18:20:04",
+  "created_at": "2026-04-25 19:37:35",
+  "updated_at": "2026-04-25 19:37:35",
   "prices": [
     {
-      "id": 1010,
       "product_id": 1010,
       "store_id": "centrale",
-      "price": 101470,
-      "price_normal": 126520,
-      "discount_pct": 20,
-      "currency": "CLP",
+      "price": 63000,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-500gb-kingston-nv3-m-2-2230-nvme-pcie-4-0-x4-nand-3d/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:04",
+      "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr4-3200mt-s-cl22-dimm-unbuffered-non-ecc-1-2v/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 101470
+      "price": 63000
     }
   ],
   "scraped_at": "2026-04-25"

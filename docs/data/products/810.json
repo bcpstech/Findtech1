@@ -1,37 +1,33 @@
 {
   "id": 810,
-  "external_id": "centrale_asus-motherboard-prime-z890-p-wifi-lga1851-ddr5-pcie-5-0-wifi-7",
-  "category_id": "mobo",
-  "brand": "Asus",
-  "name": "Asus Motherboard PRIME Z890-P WIFI, LGA1851, DDR5, PCIe 5.0, WiFi 7",
-  "slug": "asus-motherboard-prime-z890-p-wifi-lga1851-ddr5-pcie-5-0-wifi-7",
-  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Motherboard-1851-Ddr5-PRIME-Z890-P-WIFI.webp",
+  "external_id": "centrale_procesador-amd-ryzen-threadripper-7960x-24-nucleos-48-hilos-4-2ghz-a-5-3ghz",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen Threadripper 7960X, 24 Núcleos, 48 Hilos, 4.2GHz a 5.3GHz",
+  "slug": "procesador-amd-ryzen-threadripper-7960x-24-nucleos-48-hilos-4-2ghz-a-5-3ghz",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-Threadripper-7960X-24-NC3BAcleos-48-Hilos-Socket-sTR5_hd9wWqQ-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$278.980",
-    "Tarjetas de Crédito / Débito": "$294.320"
+    "Transferencia / Efectivo": "$1.706.730",
+    "Tarjetas de Crédito / Débito": "$1.800.600"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:58",
-  "updated_at": "2026-04-25 18:19:58",
+  "created_at": "2026-04-25 19:37:30",
+  "updated_at": "2026-04-25 19:37:30",
   "prices": [
     {
-      "id": 810,
       "product_id": 810,
       "store_id": "centrale",
-      "price": 278980,
-      "price_normal": 324030,
-      "discount_pct": 14,
-      "currency": "CLP",
+      "price": 1706730,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/asus-motherboard-prime-z890-p-wifi-lga1851-ddr5-pcie-5-0-wifi-7/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:58",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-threadripper-7960x-24-nucleos-48-hilos-4-2ghz-a-5-3ghz/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 278980
+      "price": 1706730
     }
   ],
   "scraped_at": "2026-04-25"

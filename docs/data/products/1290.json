@@ -1,45 +1,43 @@
 {
   "id": 1290,
-  "external_id": "pcexpress_1032663-placa-madre-asus-prime-b840m-a-wifi-sam5",
-  "category_id": "mobo",
-  "brand": "ASUS",
-  "name": "1032663 - placa madre asus prime b840m-a wifi sam5",
-  "slug": "1032663-placa-madre-asus-prime-b840m-a-wifi-sam5",
-  "image_url": null,
+  "external_id": "progaming_refrigeracion-liquida-be-quiet-light-loop-240mm",
+  "category_id": "cooling",
+  "brand": "be quiet!",
+  "name": "Refrigeracion Liquida be quiet! LIGHT LOOP 240mm",
+  "slug": "refrigeracion-liquida-be-quiet-light-loop-240mm",
+  "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-be-quiet-light-loop-240mm.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$152.900",
-    "Tarjeta crédito/débito": "$157.487"
+    "Marca": "be quiet!",
+    "Modelo": "BW020",
+    "Transferencia/Efectivo": "$77.660",
+    "Webpay / Tarjeta crédito-débito": "$79.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:22",
-  "updated_at": "2026-04-25 12:58:22",
+  "created_at": "2026-04-25 19:40:00",
+  "updated_at": "2026-04-25 19:40:00",
   "prices": [
     {
-      "id": 1290,
       "product_id": 1290,
-      "store_id": "pcexpress",
-      "price": 152900,
+      "store_id": "progaming",
+      "price": 77660,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=1032663&search=placa+madre+am5&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:22",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://progaming.cl/producto/componentes/refrigeracion/preventa-refrigeracion-liquida-be-quiet-light-loop-240mm/",
+      "store_name": "ProGaming",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.progaming.cl",
+      "full_url": "https://www.progaming.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "progaming",
+      "store_name": "ProGaming",
       "date": "2026-04-25",
-      "price": 152900
+      "price": 77660
     }
   ],
   "scraped_at": "2026-04-25"
