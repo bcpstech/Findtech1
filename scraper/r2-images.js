@@ -2,6 +2,8 @@
  * scraper/r2-images.js
  * Descarga imágenes de tiendas y las sube a Cloudflare R2
  * Bucket: findtech-images
+ *
+ * Para dominios bloqueados (n1g.cl), enruta la descarga por el proxy CF Worker.
  */
 
 const axios = require('axios');
@@ -13,10 +15,16 @@ const R2_KEY_ID   = process.env.R2_KEY_ID   || '';
 const R2_SECRET   = process.env.R2_SECRET   || '';
 const R2_PUBLIC   = process.env.R2_PUBLIC   || 'https://images.findtech.cl';
 
+const PROXY_URL    = process.env.CF_PROXY_URL    || '';
+const PROXY_SECRET = process.env.CF_PROXY_SECRET || '';
+
+// Dominios que requieren proxy para descargar imágenes desde GitHub Actions
+const PROXY_DOMAINS = ['n1g.cl', 'www.n1g.cl'];
+
 // Cache para no re-subir imágenes ya procesadas en el mismo run
 const _uploaded = new Set();
 
-// ── Firma AWS-S3 compatible para R2 ──────────────────────────────────────
+// ── Helpers de firma AWS-S3 para R2 ──────────────────────────────────────
 
 function hmac(key, data, encoding) {
   return crypto.createHmac('sha256', key).update(data).digest(encoding);
@@ -60,45 +68,55 @@ async function uploadToR2(buffer, key, contentType) {
   await axios.put(url, buffer, {
     headers,
     maxBodyLength: 10 * 1024 * 1024,
-    timeout: 30000, // 30s para el upload a R2
+    timeout: 30000,
   });
   return `${R2_PUBLIC}/${key}`;
 }
 
-// ── Descarga con reintentos ───────────────────────────────────────────────
+// ── Descarga con proxy automático para dominios bloqueados ────────────────
 
-async function downloadImage(sourceUrl, retries = 3) {
+function needsProxy(sourceUrl) {
+  try {
+    const hostname = new URL(sourceUrl).hostname;
+    return PROXY_DOMAINS.includes(hostname) && !!PROXY_URL;
+  } catch { return false; }
+}
+
+function buildProxyUrl(sourceUrl) {
+  // mode=image → Worker devuelve arrayBuffer binario en vez de texto
+  return `${PROXY_URL}?url=${encodeURIComponent(sourceUrl)}&secret=${PROXY_SECRET}&mode=image`;
+}
+
+async function downloadImage(sourceUrl, retries = 2) {
+  const viaProxy = needsProxy(sourceUrl);
+  const fetchUrl = viaProxy ? buildProxyUrl(sourceUrl) : sourceUrl;
+
   let origin;
   try { origin = new URL(sourceUrl).origin; } catch { origin = ''; }
 
-  // Headers que imitan un navegador real descargando una imagen
-  const headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-    'Accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
-    'Accept-Language': 'es-CL,es;q=0.9',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Cache-Control': 'no-cache',
-    'Pragma': 'no-cache',
-    ...(origin ? { 'Referer': origin + '/' } : {}),
-  };
+  const headers = viaProxy
+    ? { 'User-Agent': 'Mozilla/5.0 FindTech/1.0' } // el Worker pone sus propios headers
+    : {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+        'Accept': 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+        'Accept-Language': 'es-CL,es;q=0.9',
+        'Cache-Control': 'no-cache',
+        ...(origin ? { 'Referer': origin + '/' } : {}),
+      };
 
   for (let attempt = 1; attempt <= retries; attempt++) {
     try {
-      const res = await axios.get(sourceUrl, {
+      const res = await axios.get(fetchUrl, {
         responseType: 'arraybuffer',
-        timeout: 25000,          // FIX: 25s en vez de 10s — n1g.cl es lento
+        timeout: 25000,
         headers,
-        maxContentLength: 8 * 1024 * 1024, // máx 8MB por imagen
+        maxContentLength: 8 * 1024 * 1024,
         maxRedirects: 5,
       });
       return res;
     } catch (err) {
-      const isLast = attempt === retries;
-      if (isLast) throw err;
-
-      // Esperar antes de reintentar (backoff exponencial)
-      const wait = attempt * 3000;
-      await new Promise(r => setTimeout(r, wait));
+      if (attempt === retries) throw err;
+      await new Promise(r => setTimeout(r, attempt * 2000));
     }
   }
 }
@@ -106,44 +124,40 @@ async function downloadImage(sourceUrl, retries = 3) {
 // ── API pública ───────────────────────────────────────────────────────────
 
 /**
- * Descarga una imagen de sourceUrl y la sube a R2.
- * Retorna la URL pública de R2, o null si falla (fallback a imagen original).
+ * Descarga sourceUrl (vía proxy si es necesario) y sube a R2.
+ * Retorna URL pública de R2, o null si falla (el scraper usará la URL original).
  */
 async function mirrorImage(sourceUrl, slug) {
   if (!sourceUrl || !R2_KEY_ID || !R2_SECRET) return null;
-  if (_uploaded.has(slug)) return `${R2_PUBLIC}/products/${slug}.jpg`; // devuelve cached
+
+  const ext = sourceUrl.match(/\.(jpg|jpeg|png|webp|gif)/i)?.[1]?.toLowerCase() || 'jpg';
+  const key = `products/${slug}.${ext}`;
+
+  if (_uploaded.has(key)) return `${R2_PUBLIC}/${key}`;
 
   try {
-    // Determinar extensión desde la URL
-    const ext = sourceUrl.match(/\.(jpg|jpeg|png|webp|gif)/i)?.[1]?.toLowerCase() || 'jpg';
-    const key = `products/${slug}.${ext}`;
-    const publicUrl = `${R2_PUBLIC}/${key}`;
-
-    // Descargar con reintentos
     const res = await downloadImage(sourceUrl);
+    const buffer = Buffer.from(res.data);
 
-    const buffer      = Buffer.from(res.data);
-    const contentType = res.headers['content-type']?.split(';')[0] || `image/${ext}`;
-
-    // Validar que recibimos algo parecido a una imagen
+    // Validar que recibimos datos de imagen reales
+    const contentType = res.headers['content-type']?.split(';')[0]?.trim() || `image/${ext}`;
     if (!contentType.startsWith('image/') && !contentType.includes('octet-stream')) {
-      console.warn(`[R2] Tipo inesperado ${contentType} para ${sourceUrl} — saltando`);
+      console.warn(`[R2] Tipo inesperado "${contentType}" para ${sourceUrl} — saltando`);
       return null;
     }
     if (buffer.length < 500) {
-      console.warn(`[R2] Imagen demasiado pequeña (${buffer.length}B) — saltando`);
+      console.warn(`[R2] Imagen vacía (${buffer.length}B) para ${sourceUrl} — saltando`);
       return null;
     }
 
-    await uploadToR2(buffer, key, contentType);
-    _uploaded.add(slug);
+    const publicUrl = await uploadToR2(buffer, key, contentType);
+    _uploaded.add(key);
     return publicUrl;
 
   } catch (err) {
-    // Log breve sin cortar el scraping — la imagen original se usará como fallback
     const reason = err.code === 'ECONNABORTED' ? 'timeout' : err.message;
     console.warn(`[R2] Error mirroring ${sourceUrl}: ${reason}`);
-    return null;
+    return null; // fallback a imagen original — el scraping continúa igual
   }
 }
 
