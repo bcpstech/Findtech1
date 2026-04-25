@@ -1,6 +1,6 @@
 /**
  * scraper/stores/pcexpress.js
- * PC-Express OpenCart — con specs desde página de detalle
+ * PC-Express OpenCart — búsqueda HTML con selectores mejorados
  */
 const BaseScraper = require('../base-scraper');
 const cheerio = require('cheerio');
@@ -15,31 +15,28 @@ function proxify(url) {
 }
 
 const SEARCHES = [
-  { query: 'tarjeta video nvidia rtx',   catId: 'gpu',     minPrice: 80000  },
-  { query: 'tarjeta video radeon rx',    catId: 'gpu',     minPrice: 80000  },
-  { query: 'procesador ryzen amd',       catId: 'cpu',     minPrice: 20000  },
-  { query: 'procesador core intel',      catId: 'cpu',     minPrice: 20000  },
-  { query: 'placa madre am5',            catId: 'mobo',    minPrice: 30000  },
-  { query: 'placa madre am4',            catId: 'mobo',    minPrice: 30000  },
-  { query: 'placa madre intel lga',      catId: 'mobo',    minPrice: 30000  },
-  { query: 'memoria ram ddr5',           catId: 'ram',     minPrice: 15000  },
-  { query: 'memoria ram ddr4',           catId: 'ram',     minPrice: 10000  },
-  { query: 'ssd nvme m2 pcie',           catId: 'storage', minPrice: 15000  },
-  { query: 'ssd sata 2.5',              catId: 'storage', minPrice: 10000  },
-  { query: 'disco duro interno 3.5',     catId: 'storage', minPrice: 20000  },
-  { query: 'fuente poder 80 plus',       catId: 'psu',     minPrice: 20000  },
-  { query: 'gabinete atx gamer',         catId: 'case',    minPrice: 20000  },
-  { query: 'refrigeracion liquida aio',  catId: 'cooling', minPrice: 30000  },
-  { query: 'cooler cpu disipador',       catId: 'cooling', minPrice: 8000   },
+  { query: 'rtx',                catId: 'gpu',     minPrice: 80000  },
+  { query: 'radeon rx',          catId: 'gpu',     minPrice: 80000  },
+  { query: 'ryzen',              catId: 'cpu',     minPrice: 20000  },
+  { query: 'core intel',         catId: 'cpu',     minPrice: 20000  },
+  { query: 'placa madre',        catId: 'mobo',    minPrice: 30000  },
+  { query: 'memoria ram ddr',    catId: 'ram',     minPrice: 10000  },
+  { query: 'ssd nvme',           catId: 'storage', minPrice: 15000  },
+  { query: 'ssd sata',           catId: 'storage', minPrice: 10000  },
+  { query: 'fuente poder',       catId: 'psu',     minPrice: 20000  },
+  { query: 'gabinete',           catId: 'case',    minPrice: 20000  },
+  { query: 'refrigeracion aio',  catId: 'cooling', minPrice: 30000  },
+  { query: 'cooler disipador',   catId: 'cooling', minPrice: 8000   },
 ];
 
 const CARD_SURCHARGE = 1.03;
-const OUT_OF_STOCK_PHRASES = ['out of stock','sin stock','agotado','no disponible','not available','sold out'];
+const OUT_OF_STOCK = ['out of stock','sin stock','agotado','no disponible'];
 
-function detectStock($container) {
-  const text = ($container.find('[class*="stock"],.stock,.availability').text()
-    + $container.find('button[disabled]').text()).toLowerCase();
-  if (OUT_OF_STOCK_PHRASES.some(p => text.includes(p))) return 'out_of_stock';
+function detectStock($el) {
+  const txt = $el.find('[class*="stock"],.stock,.availability').text().toLowerCase()
+            + $el.find('button[disabled]').text().toLowerCase();
+  if (OUT_OF_STOCK.some(p => txt.includes(p))) return 'out_of_stock';
+  if ($el.find('.out-of-stock').length) return 'out_of_stock';
   return 'in_stock';
 }
 
@@ -49,81 +46,90 @@ class PCExpressScraper extends BaseScraper {
   async scrapeAll() {
     this.seenUrls = new Set();
     for (const cat of SEARCHES) {
-      try { await this.scrapeSearch(cat); await this.delay(2000, 3000); }
-      catch (err) { this.stats.errors++; this.log('warn', `Error ${cat.catId} "${cat.query}": ${err.message}`); }
+      try {
+        await this.scrapeSearch(cat);
+        await this.delay(2000, 3000);
+      } catch (err) {
+        this.stats.errors++;
+        this.log('warn', `Error ${cat.catId} "${cat.query}": ${err.message}`);
+      }
     }
   }
 
   async scrapeSearch({ query, catId, minPrice }) {
-    let page = 1;
-    while (page <= 5) {
+    for (let page = 1; page <= 5; page++) {
       const directUrl = `${BASE_URL}/index.php?route=product/search&search=${encodeURIComponent(query)}&sort=p.price&order=ASC&limit=50&page=${page}`;
       const url = proxify(directUrl);
       this.log('info', `[pcx] ${catId} "${query}" pág ${page}`);
+
       try {
         const res = await this.client.get(url, {
-          headers: { 'Accept': 'text/html,application/xhtml+xml', 'Accept-Language': 'es-CL,es;q=0.9',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36' }
+          headers: {
+            'Accept': 'text/html,application/xhtml+xml',
+            'Accept-Language': 'es-CL,es;q=0.9',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+            'Referer': BASE_URL,
+          }
         });
 
         const $ = cheerio.load(res.data);
         let newInPage = 0;
 
-        for (const el of $('a[href*="product_id="]').toArray()) {
+        // OpenCart usa .product-layout o .product-thumb
+        const items = $('.product-layout, .product-thumb');
+
+        if (!items.length) {
+          this.log('info', `[pcx] Sin items pág ${page}`);
+          break;
+        }
+
+        for (const el of items.toArray()) {
           try {
-            const $a = $(el);
-            const productUrl = $a.attr('href') || '';
-            if (this.seenUrls.has(productUrl)) continue;
+            const $el = $(el);
 
-            let pname = $a.text().trim();
-            if (!pname || pname.length < 5) pname = $a.closest('div').find('h4').first().text().trim() || '';
-            if (!pname || pname.length < 5) continue;
+            // URL del producto
+            const productUrl = $el.find('a[href*="product_id"], .product-img a, h4 a').first().attr('href') || '';
+            if (!productUrl || this.seenUrls.has(productUrl)) continue;
 
-            const $container = $a.closest('.product-layout,.product-thumb,div').first();
-            let priceRaw = $container.find('.price-new,.price').first().text().trim()
-                        || $a.parent().find('[class*="price"]').first().text().trim();
+            // Nombre
+            const name = $el.find('h4 a, .product-name a, a[title]').first().text().trim()
+                      || $el.find('a[title]').first().attr('title') || '';
+            if (!name || name.length < 5) continue;
+
+            // Precio
+            const priceRaw = $el.find('.price-new, .price-normal, .price').first().text().trim();
             const price = this.parsePrice(priceRaw);
-            if (!price || price < (minPrice || 5000)) continue;
+            if (!price || price < minPrice) continue;
 
             this.seenUrls.add(productUrl);
-            const stock = detectStock($container);
-            const priceOldRaw = $container.find('.price-old').first().text().trim();
-            const regularPrice = priceOldRaw ? this.parsePrice(priceOldRaw) : null;
-            const priceCard = Math.round(price * CARD_SURCHARGE);
-            const imageUrl = $container.find('img').first().attr('src') || null;
 
-            // Specs desde página de detalle
-            let techSpecs = {};
-            if (productUrl) {
-              const fullUrl = productUrl.startsWith('http') ? productUrl : `${BASE_URL}${productUrl}`;
-              techSpecs = await this.fetchProductSpecs(fullUrl, proxify);
-              await this.delay(300, 600);
-            }
+            const stock = detectStock($el);
+            const oldRaw = $el.find('.price-old').first().text().trim();
+            const regularPrice = oldRaw ? this.parsePrice(oldRaw) : null;
+            const priceCard = Math.round(price * CARD_SURCHARGE);
+            const imageUrl = $el.find('img').first().attr('src')
+                          || $el.find('img').first().attr('data-src') || null;
 
             this.stats.found++;
             newInPage++;
             await this.saveProductWithR2(
-              {
-                name: pname, category: catId, brand: this.extractBrand(pname), imageUrl,
+              { name, category: catId, brand: this.extractBrand(name), imageUrl,
                 specs: {
-                  ...techSpecs,
                   'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
                   'Tarjeta crédito/débito': `$${priceCard.toLocaleString('es-CL')}`,
                 }
               },
-              {
-                current: price,
+              { current: price,
                 normal: regularPrice > price ? regularPrice : null,
                 discount: regularPrice > price ? Math.round((1-price/regularPrice)*100) : null,
-                stock, url: productUrl
-              }
+                stock,
+                url: productUrl.startsWith('http') ? productUrl : `${BASE_URL}${productUrl}` }
             );
           } catch(e) {}
         }
 
         this.log('info', `[pcx] ✓ "${query}" pág ${page}: ${newInPage} nuevos`);
-        if (newInPage === 0) break;
-        page++;
+        if (newInPage === 0 || items.length < 10) break;
         await this.delay(1500, 2500);
       } catch (err) {
         this.stats.errors++;
