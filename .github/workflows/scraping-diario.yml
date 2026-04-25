@@ -19,6 +19,8 @@ jobs:
       DB_PATH: ./db/techcompara.db
       CF_PROXY_URL: ${{ secrets.CF_PROXY_URL }}
       CF_PROXY_SECRET: ${{ secrets.CF_PROXY_SECRET }}
+      ICECAT_USER: BCPSTECH
+      USE_ICECAT: 'true'
 
     steps:
       - name: Checkout repo
