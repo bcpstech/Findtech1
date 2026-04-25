@@ -1,41 +1,55 @@
 {
   "id": 2062,
-  "external_id": "megabytes_deepcool-fuente-de-poder-pn750m-750w-80-gold-modular-atx3-1",
-  "category_id": "psu",
-  "brand": "DeepCool",
-  "name": "Deepcool Fuente de Poder PN750m 750w 80+GOLD modular ATX3.1",
-  "slug": "deepcool-fuente-de-poder-pn750m-750w-80-gold-modular-atx3-1",
-  "image_url": "https://images.findtech.cl/products/deepcool-fuente-de-poder-pn750m-750w-80-gold-modular-atx3-1.jpg",
+  "external_id": "trulustore_tarjeta-de-video-gigabyte-amd-radeon-rx-9060-xt-gaming-oc-16gb",
+  "category_id": "gpu",
+  "brand": "AMD",
+  "name": "TARJETA DE VIDEO GIGABYTE AMD RADEON RX 9060 XT GAMING OC 16GB",
+  "slug": "tarjeta-de-video-gigabyte-amd-radeon-rx-9060-xt-gaming-oc-16gb",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-gigabyte-amd-radeon-rx-9060-xt-gaming-oc-16gb.jpg",
   "description": null,
   "specs": {
-    "Transferencia/Efectivo": "$116.500",
-    "Webpay / Tarjeta crédito-débito": "$119.990"
+    "Transferencia/Efectivo": "$599.990",
+    "Webpay / Tarjeta": "$617.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:47:13",
-  "updated_at": "2026-04-25 19:47:13",
+  "created_at": "2026-04-25 21:10:57",
+  "updated_at": "2026-04-25 21:10:57",
   "prices": [
     {
       "product_id": 2062,
-      "store_id": "megabytes",
-      "price": 116500,
+      "store_id": "trulustore",
+      "price": 599990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/deepcool-fuente-de-poder-pn750m-750w-80gold-modular-atx3-1/",
-      "store_name": "MegaBytes",
+      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-gigabyte-amd-radeon-rx-9060-xt-gaming-oc-16gb/",
+      "store_name": "TruluStore",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.megabytes.cl",
-      "full_url": "https://www.megabytes.cl"
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 722,
+      "store_id": "centrale",
+      "price": 613120,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/gigabyte-tarjeta-de-video-gaming-oc-ice-amd-radeon-rx-9060-xt-16-gb-gddr6-128/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "megabytes",
-      "store_name": "MegaBytes",
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
       "date": "2026-04-25",
-      "price": 116500
+      "price": 599990
     }
   ],
   "scraped_at": "2026-04-25"

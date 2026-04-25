@@ -1,33 +1,61 @@
 {
   "id": 761,
-  "external_id": "centrale_tarjeta-grafica-pny-nvidia-rtx-4500ada-24gb-gddr6-ecc-192-bits-7-680-cuda-cores",
+  "external_id": "centrale_tarjeta-grafica-asus-tuf-gaming-geforce-rtx-5080-oc-edition-16gb-gddr7",
   "category_id": "gpu",
-  "brand": "Pny",
-  "name": "Tarjeta Gráfica PNY Nvidia RTX 4500Ada 24GB GDDR6 ECC 192-bits 7.680 Cuda Cores",
-  "slug": "tarjeta-grafica-pny-nvidia-rtx-4500ada-24gb-gddr6-ecc-192-bits-7-680-cuda-cores",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-PNY-Nvidia-RTX-4500Ada-24GB-GDDR6-ECC-192-bits-7.680-Cuda-Cores-1.webp",
+  "brand": "Asus",
+  "name": "Tarjeta Gráfica ASUS TUF Gaming GeForce RTX 5080 OC Edition 16GB GDDR7",
+  "slug": "tarjeta-grafica-asus-tuf-gaming-geforce-rtx-5080-oc-edition-16gb-gddr7",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-ASUS-TUF-Gaming-GeForce-RTX-5080-OC-Edition-16GB-GDDR7-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$2.918.330",
-    "Tarjetas de Crédito / Débito": "$3.078.840"
+    "Transferencia / Efectivo": "$1.901.010",
+    "Tarjetas de Crédito / Débito": "$2.005.570"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:28",
-  "updated_at": "2026-04-25 19:37:28",
+  "created_at": "2026-04-25 20:57:14",
+  "updated_at": "2026-04-25 20:57:14",
   "prices": [
     {
       "product_id": 761,
       "store_id": "centrale",
-      "price": 2918330,
+      "price": 1901010,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-pny-nvidia-rtx-4500ada-24gb-gddr6-ecc-192-bits-7-680-cuda-cores/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-tuf-gaming-geforce-rtx-5080-oc-edition-16gb-gddr7/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 1314,
+      "store_id": "dust2",
+      "price": 2089310,
+      "price_normal": 2155330,
+      "discount_pct": 3,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-asus-geforce-rtx-5080-16gb-gddr7-noctua-oc/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 643,
+      "store_id": "cg",
+      "price": 2251560,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/tarjetas-de-video/tarjeta-de-video-rog-astral-geforce-rtx-5080-16-gb-gddr7-edicion-oc/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -35,7 +63,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 2918330
+      "price": 1901010
     }
   ],
   "scraped_at": "2026-04-25"

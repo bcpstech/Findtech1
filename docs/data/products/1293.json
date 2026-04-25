@@ -1,45 +1,43 @@
 {
   "id": 1293,
-  "external_id": "pcexpress_659650-asus-rog-placa-madre-atx-socket-am5-amd-x870e-rog-crosshair-x870e-hero",
-  "category_id": "mobo",
-  "brand": "AMD",
-  "name": "659650 - asus rog - placa madre - atx - socket am5 - amd x870e - rog crosshair x870e hero",
-  "slug": "659650-asus-rog-placa-madre-atx-socket-am5-amd-x870e-rog-crosshair-x870e-hero",
-  "image_url": null,
+  "external_id": "progaming_refrigeracion-liquida-gigabyte-gaming-360-argb-negro",
+  "category_id": "cooling",
+  "brand": "Gigabyte",
+  "name": "Refrigeracion Liquida Gigabyte GAMING 360 ARGB Negro",
+  "slug": "refrigeracion-liquida-gigabyte-gaming-360-argb-negro",
+  "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-gigabyte-gaming-360-argb-negro.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$847.500",
-    "Tarjeta crédito/débito": "$872.925"
+    "Marca": "Gigabyte",
+    "Modelo": "GAMING 360 ARGB Negro",
+    "Transferencia/Efectivo": "$79.600",
+    "Webpay / Tarjeta crédito-débito": "$81.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:22",
-  "updated_at": "2026-04-25 12:58:22",
+  "created_at": "2026-04-25 20:59:33",
+  "updated_at": "2026-04-25 20:59:33",
   "prices": [
     {
-      "id": 1293,
       "product_id": 1293,
-      "store_id": "pcexpress",
-      "price": 847500,
+      "store_id": "progaming",
+      "price": 79600,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=659650&search=placa+madre+am5&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:22",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-gigabyte-gaming-360-argb-negro/",
+      "store_name": "ProGaming",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.progaming.cl",
+      "full_url": "https://www.progaming.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "progaming",
+      "store_name": "ProGaming",
       "date": "2026-04-25",
-      "price": 847500
+      "price": 79600
     }
   ],
   "scraped_at": "2026-04-25"

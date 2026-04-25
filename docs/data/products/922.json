@@ -1,33 +1,47 @@
 {
   "id": 922,
-  "external_id": "centrale_memoria-ram-xpg-lancer-blade-ddr5-16gb-6000mhz-cas-48-negra",
-  "category_id": "ram",
-  "brand": "XPG",
-  "name": "Memoria RAM XPG Lancer Blade DDR5 16GB 6000MHz, CAS 48, Negra",
-  "slug": "memoria-ram-xpg-lancer-blade-ddr5-16gb-6000mhz-cas-48-negra",
-  "image_url": "https://centrale.cl/wp-content/uploads/Xpg-Memoria-Pc-Ddr5-16Gb-6000Mhz-Lancer-Blade-Negra-AX5U6000C4816G-SLABBK.webp",
+  "external_id": "centrale_placa-madre-gigabyte-b550m-k-micro-atx-socket-am4-pcie-4-0",
+  "category_id": "mobo",
+  "brand": "Gigabyte",
+  "name": "Placa Madre Gigabyte B550M K, Micro ATX, Socket AM4, PCIe 4.0",
+  "slug": "placa-madre-gigabyte-b550m-k-micro-atx-socket-am4-pcie-4-0",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Gigabyte-B550M-K-Micro-ATX-Socket-AM4-PCIe-4.0_9S6VKTd-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$288.670",
-    "Tarjetas de Crédito / Débito": "$304.550"
+    "Transferencia / Efectivo": "$96.760",
+    "Tarjetas de Crédito / Débito": "$102.080"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:35",
-  "updated_at": "2026-04-25 19:37:35",
+  "created_at": "2026-04-25 20:57:18",
+  "updated_at": "2026-04-25 20:57:18",
   "prices": [
     {
       "product_id": 922,
       "store_id": "centrale",
-      "price": 288670,
+      "price": 96760,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-xpg-lancer-blade-ddr5-16gb-6000mhz-cas-48-negra/",
+      "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b550m-k-micro-atx-socket-am4-pcie-4-0/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2094,
+      "store_id": "trulustore",
+      "price": 99990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/placa-madre-gigabyte-b550m-k-am4/",
+      "store_name": "TruluStore",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -35,7 +49,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 288670
+      "price": 96760
     }
   ],
   "scraped_at": "2026-04-25"

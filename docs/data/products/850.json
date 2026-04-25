@@ -1,33 +1,61 @@
 {
   "id": 850,
-  "external_id": "centrale_placa-madre-asus-tuf-gaming-b760m-plus-wifi-ii-matx-lga-1700-ddr5-wifi-6e",
+  "external_id": "centrale_placa-madre-asus-prime-a620m-k-micro-atx-am5-ddr5-pcie-4-0",
   "category_id": "mobo",
   "brand": "Asus",
-  "name": "Placa Madre ASUS TUF GAMING B760M-PLUS WIFI II (mATX, LGA 1700, DDR5, WiFi 6E)",
-  "slug": "placa-madre-asus-tuf-gaming-b760m-plus-wifi-ii-matx-lga-1700-ddr5-wifi-6e",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASUS-TUF-GAMING-B760M-PLUS-WIFI-II-mATX-LGA-1700-DDR5-WiFi-_6XeSGfb.webp",
+  "name": "Placa Madre ASUS PRIME A620M-K (Micro ATX, AM5, DDR5, PCIe 4.0)",
+  "slug": "placa-madre-asus-prime-a620m-k-micro-atx-am5-ddr5-pcie-4-0",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASUS-PRIME-A620M-K-Micro-ATX-AM5-DDR5-PCIe-4.0.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$242.830",
-    "Tarjetas de Crédito / Débito": "$256.190"
+    "Transferencia / Efectivo": "$82.310",
+    "Tarjetas de Crédito / Débito": "$86.840"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:33",
-  "updated_at": "2026-04-25 19:37:33",
+  "created_at": "2026-04-25 20:57:17",
+  "updated_at": "2026-04-25 20:57:17",
   "prices": [
     {
       "product_id": 850,
       "store_id": "centrale",
-      "price": 242830,
+      "price": 82310,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-asus-tuf-gaming-b760m-plus-wifi-ii-matx-lga-1700-ddr5-wifi-6e/",
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-a620m-k-micro-atx-am5-ddr5-pcie-4-0/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 477,
+      "store_id": "alltec",
+      "price": 90900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/para-amd/2461-mb-asus-prime-a620m-k-am5-ddr5-ryzen-700080009000.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 676,
+      "store_id": "cg",
+      "price": 93090,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-a620m-k-ddr5/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -35,7 +63,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 242830
+      "price": 82310
     }
   ],
   "scraped_at": "2026-04-25"

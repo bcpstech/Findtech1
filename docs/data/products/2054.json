@@ -1,55 +1,41 @@
 {
   "id": 2054,
-  "external_id": "megabytes_xpg-probe-700w-80-bronze",
-  "category_id": "psu",
-  "brand": "Genérico",
-  "name": "XPG PROBE 700W 80+ Bronze",
-  "slug": "xpg-probe-700w-80-bronze",
-  "image_url": "https://images.findtech.cl/products/xpg-probe-700w-80-bronze.png",
+  "external_id": "trulustore_tarjeta-de-video-nvidia-geforce-rtx-5060-8gb-asus-dual-evo-oc",
+  "category_id": "gpu",
+  "brand": "NVIDIA",
+  "name": "TARJETA DE VIDEO NVIDIA GEFORCE RTX 5060 8GB ASUS DUAL EVO OC",
+  "slug": "tarjeta-de-video-nvidia-geforce-rtx-5060-8gb-asus-dual-evo-oc",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-geforce-rtx-5060-8gb-asus-dual-evo-oc.webp",
   "description": null,
   "specs": {
-    "Transferencia/Efectivo": "$51.450",
-    "Webpay / Tarjeta crédito-débito": "$52.990"
+    "Transferencia/Efectivo": "$449.990",
+    "Webpay / Tarjeta": "$463.490"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:47:11",
-  "updated_at": "2026-04-25 19:47:11",
+  "created_at": "2026-04-25 21:10:44",
+  "updated_at": "2026-04-25 21:10:44",
   "prices": [
     {
       "product_id": 2054,
-      "store_id": "megabytes",
-      "price": 51450,
-      "price_normal": 77570,
-      "discount_pct": 34,
+      "store_id": "trulustore",
+      "price": 449990,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/xpg-probe-700w-80-bronze/",
-      "store_name": "MegaBytes",
+      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-geforce-rtx-5060-8gb-asus-dual-evo-oc/",
+      "store_name": "TruluStore",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.megabytes.cl",
-      "full_url": "https://www.megabytes.cl"
-    },
-    {
-      "product_id": 317,
-      "store_id": "n1g",
-      "price": 59900,
-      "price_normal": 63053,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3558-xpg-probe-700w-80-bronze-atx-80plus-bronze-probe700b-bkcar.html",
-      "store_name": "N1G",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
     {
-      "store_id": "megabytes",
-      "store_name": "MegaBytes",
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
       "date": "2026-04-25",
-      "price": 51450
+      "price": 449990
     }
   ],
   "scraped_at": "2026-04-25"

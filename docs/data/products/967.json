@@ -1,33 +1,47 @@
 {
   "id": 967,
-  "external_id": "centrale_memoria-ram-16gb-ddr5-5600mt-s-cl46-dimm-kingston-value-ram",
+  "external_id": "centrale_memoria-ram-16gb-ddr5-6800mt-s-cl34-kingston-fury-beast-black-expo",
   "category_id": "ram",
   "brand": "Kingston",
-  "name": "Memoria RAM 16GB DDR5 5600MT/s CL46 DIMM Kingston Value Ram",
-  "slug": "memoria-ram-16gb-ddr5-5600mt-s-cl46-dimm-kingston-value-ram",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-16GB-DDR5-5600MT-s-CL46-DIMM-Kingston-Value-Ram-1.webp",
+  "name": "Memoria RAM 16GB DDR5 6800MT/s CL34 Kingston Fury Beast Black (EXPO)",
+  "slug": "memoria-ram-16gb-ddr5-6800mt-s-cl34-kingston-fury-beast-black-expo",
+  "image_url": "https://centrale.cl/wp-content/uploads/Kingston-Memoria-16Gb-6800Mt-S-Ddr5-Cl34-Dimm-Fury-Beast-Bl-KF568C34BBE-16-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$216.480",
-    "Tarjetas de Crédito / Débito": "$228.390"
+    "Transferencia / Efectivo": "$245.000",
+    "Tarjetas de Crédito / Débito": "$258.470"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:35",
-  "updated_at": "2026-04-25 19:37:35",
+  "created_at": "2026-04-25 20:57:19",
+  "updated_at": "2026-04-25 20:57:19",
   "prices": [
     {
       "product_id": 967,
       "store_id": "centrale",
-      "price": 216480,
+      "price": 245000,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-5600mt-s-cl46-dimm-kingston-value-ram/",
+      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-6800mt-s-cl34-kingston-fury-beast-black-expo/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 682,
+      "store_id": "cg",
+      "price": 473140,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/memorias-ram/memoria-kingston-32gb-5600mt-s-ddr5-cl36-dimm-kit/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -35,7 +49,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 216480
+      "price": 245000
     }
   ],
   "scraped_at": "2026-04-25"

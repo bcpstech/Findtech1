@@ -1,47 +1,33 @@
 {
   "id": 818,
-  "external_id": "centrale_procesador-amd-ryzen-7-5700x-3-4ghz-8-core-16-threads",
+  "external_id": "centrale_procesador-amd-ryzen-threadripper-7960x-24-nucleos-48-hilos-4-2ghz-a-5-3ghz",
   "category_id": "cpu",
   "brand": "AMD",
-  "name": "Procesador AMD Ryzen 7 5700X 3.4Ghz 8 Core 16 Threads",
-  "slug": "procesador-amd-ryzen-7-5700x-3-4ghz-8-core-16-threads",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-5700X-3.4Ghz-8-Core-16-Threads_Oi80IxL.webp",
+  "name": "Procesador AMD Ryzen Threadripper 7960X, 24 Núcleos, 48 Hilos, 4.2GHz a 5.3GHz",
+  "slug": "procesador-amd-ryzen-threadripper-7960x-24-nucleos-48-hilos-4-2ghz-a-5-3ghz",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-Threadripper-7960X-24-NC3BAcleos-48-Hilos-Socket-sTR5_hd9wWqQ-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$225.570",
-    "Tarjetas de Crédito / Débito": "$237.980"
+    "Transferencia / Efectivo": "$1.706.730",
+    "Tarjetas de Crédito / Débito": "$1.800.600"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:30",
-  "updated_at": "2026-04-25 19:37:30",
+  "created_at": "2026-04-25 20:57:16",
+  "updated_at": "2026-04-25 20:57:16",
   "prices": [
     {
       "product_id": 818,
       "store_id": "centrale",
-      "price": 225570,
+      "price": 1706730,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-5700x-3-4ghz-8-core-16-threads/",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-threadripper-7960x-24-nucleos-48-hilos-4-2ghz-a-5-3ghz/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 411,
-      "store_id": "alltec",
-      "price": 229900,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/amd/1794-amd-ryzen-7-5700x-34ghz-46ghz-turbo-octa-core-tdp-65w-am4-730143314275.html",
-      "store_name": "Alltec",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -49,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 225570
+      "price": 1706730
     }
   ],
   "scraped_at": "2026-04-25"

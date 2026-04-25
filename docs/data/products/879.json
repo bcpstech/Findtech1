@@ -1,33 +1,47 @@
 {
   "id": 879,
-  "external_id": "centrale_placa-madre-asus-prime-b760m-a-lga1700-mb-prime-b760m-a-lga1700-mb",
+  "external_id": "centrale_placa-madre-msi-pro-h810m-b-micro-atx-lga-1851-ddr5",
   "category_id": "mobo",
-  "brand": "Asus",
-  "name": "Placa Madre Asus Prime-B760M-A Lga1700 Mb Prime-B760M-A Lga1700 Mb",
-  "slug": "placa-madre-asus-prime-b760m-a-lga1700-mb-prime-b760m-a-lga1700-mb",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Asus-Prime-B760M-A-Lga1700-Mb-Prime-B760M-A-Lga1700-Mb-1.webp",
+  "brand": "MSI",
+  "name": "Placa Madre MSI PRO H810M-B (Micro ATX, LGA 1851, DDR5)",
+  "slug": "placa-madre-msi-pro-h810m-b-micro-atx-lga-1851-ddr5",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-MSI-PRO-H810M-B-Micro-ATX-LGA-1851-DDR5.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$129.560",
-    "Tarjetas de Crédito / Débito": "$136.690"
+    "Transferencia / Efectivo": "$121.950",
+    "Tarjetas de Crédito / Débito": "$128.660"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:33",
-  "updated_at": "2026-04-25 19:37:33",
+  "created_at": "2026-04-25 20:57:17",
+  "updated_at": "2026-04-25 20:57:17",
   "prices": [
     {
       "product_id": 879,
       "store_id": "centrale",
-      "price": 129560,
-      "price_normal": 149120,
-      "discount_pct": 13,
+      "price": 121950,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b760m-a-lga1700-mb-prime-b760m-a-lga1700-mb/",
+      "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-h810m-b-micro-atx-lga-1851-ddr5/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 500,
+      "store_id": "alltec",
+      "price": 158900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/para-intel/2469-msi-pro-h810m-b-wifi6e-lga1851-ddr5-intel-core-ultra-processors-series-2.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -35,7 +49,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 129560
+      "price": 121950
     }
   ],
   "scraped_at": "2026-04-25"

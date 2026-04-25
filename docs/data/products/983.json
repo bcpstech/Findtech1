@@ -1,37 +1,33 @@
 {
   "id": 983,
-  "external_id": "centrale_disco-duro-hdd-20tb-seagate-ironwolf-pro-nas-3-5-8243-sata-6gb-s-7200-rpm",
-  "category_id": "storage",
-  "brand": "Seagate",
-  "name": "Disco Duro HDD 20TB Seagate Ironwolf Pro NAS 3.5&#8243; SATA 6GB/s 7200 Rpm",
-  "slug": "disco-duro-hdd-20tb-seagate-ironwolf-pro-nas-3-5-8243-sata-6gb-s-7200-rpm",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-Duro-HDD-20TB-Seagate-Ironwolf-Pro-NAS-3.5-SATA-6GB-s-7200-Rpm-1.webp",
+  "external_id": "centrale_memoria-kingston-48gb-ddr5-5600mt-s-so-dimm-cl46",
+  "category_id": "ram",
+  "brand": "Kingston",
+  "name": "Memoria Kingston 48GB DDR5 5600MT/s SO-DIMM, CL46",
+  "slug": "memoria-kingston-48gb-ddr5-5600mt-s-so-dimm-cl46",
+  "image_url": "https://centrale.cl/wp-content/uploads/Kingston-Ddr5-Sdram-5600-Mhz-48Gb-Sodimm-KCP556SD8-48-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$945.460",
-    "Tarjetas de Crédito / Débito": "$997.460"
+    "Transferencia / Efectivo": "$793.180",
+    "Tarjetas de Crédito / Débito": "$836.800"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:04",
-  "updated_at": "2026-04-25 18:20:04",
+  "created_at": "2026-04-25 20:57:19",
+  "updated_at": "2026-04-25 20:57:19",
   "prices": [
     {
-      "id": 983,
       "product_id": 983,
       "store_id": "centrale",
-      "price": 945460,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "price": 793180,
+      "price_normal": 919470,
+      "discount_pct": 14,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-duro-hdd-20tb-seagate-ironwolf-pro-nas-3-5-sata-6gb-s-7200-rpm/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:04",
+      "product_url": "https://centrale.cl/producto/memoria-kingston-48gb-ddr5-5600mt-s-so-dimm-cl46/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 945460
+      "price": 793180
     }
   ],
   "scraped_at": "2026-04-25"

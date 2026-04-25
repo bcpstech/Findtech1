@@ -1,33 +1,61 @@
 {
   "id": 872,
-  "external_id": "centrale_placa-madre-asus-prime-b860m-k-micro-atx-2x-ddr5-intel-lga-1851-pcie-5-0",
+  "external_id": "centrale_placa-madre-micro-atx-msi-a520m-a-pro-socket-amd-am4-ddr4",
   "category_id": "mobo",
-  "brand": "Asus",
-  "name": "Placa Madre ASUS PRIME B860M-K (Micro ATX, 2x DDR5, Intel LGA 1851, PCIe 5.0)",
-  "slug": "placa-madre-asus-prime-b860m-k-micro-atx-2x-ddr5-intel-lga-1851-pcie-5-0",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASUS-PRIME-B860M-K-Micro-ATX-2x-DDR5-Intel-LGA-1851-PCIe-5.0.webp",
+  "brand": "MSI",
+  "name": "Placa Madre Micro ATX MSI A520M-A PRO Socket AMD AM4, DDR4",
+  "slug": "placa-madre-micro-atx-msi-a520m-a-pro-socket-amd-am4-ddr4",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Micro-ATX-MSI-A520M-A-PRO-Socket-AMD-AM4-DDR4_EVuHQ2X.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$148.990",
-    "Tarjetas de Crédito / Débito": "$157.180"
+    "Transferencia / Efectivo": "$53.920",
+    "Tarjetas de Crédito / Débito": "$56.890"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:33",
-  "updated_at": "2026-04-25 19:37:33",
+  "created_at": "2026-04-25 20:57:17",
+  "updated_at": "2026-04-25 20:57:17",
   "prices": [
     {
       "product_id": 872,
       "store_id": "centrale",
-      "price": 148990,
+      "price": 53920,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b860m-k-micro-atx-2x-ddr5-intel-lga-1851-pcie-5-0/",
+      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-msi-a520m-a-pro-socket-amd-am4-ddr4/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 673,
+      "store_id": "cg",
+      "price": 60700,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/placas-madre/msi-a520m-a-pro-motherboard/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 89,
+      "store_id": "n1g",
+      "price": 69900,
+      "price_normal": 73579,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3684-msi-a520m-pro-am4-amd-micro-atx-amd.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -35,7 +63,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 148990
+      "price": 53920
     }
   ],
   "scraped_at": "2026-04-25"

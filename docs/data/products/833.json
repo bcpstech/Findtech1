@@ -1,33 +1,61 @@
 {
   "id": 833,
-  "external_id": "centrale_placa-madre-asus-b850m-ayw-gaming-wifi-micro-atx-am5-ddr5-wifi-6",
+  "external_id": "centrale_msi-pro-a620am-b-evo-911-7e36-002",
   "category_id": "mobo",
-  "brand": "Asus",
-  "name": "Placa Madre ASUS B850M AYW GAMING WIFI (Micro ATX, AM5, DDR5, WiFi 6)",
-  "slug": "placa-madre-asus-b850m-ayw-gaming-wifi-micro-atx-am5-ddr5-wifi-6",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASUS-B850M-AYW-GAMING-WIFI-Micro-ATX-AM5-DDR5-WiFi-6.webp",
+  "brand": "MSI",
+  "name": "Msi Pro A620Am-B Evo 911-7E36-002",
+  "slug": "msi-pro-a620am-b-evo-911-7e36-002",
+  "image_url": "https://centrale.cl/wp-content/uploads/Msi-Pro-A620Am-B-Evo-911-7E36-002-1776039407.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$189.900",
-    "Tarjetas de Crédito / Débito": "$200.340"
+    "Transferencia / Efectivo": "$78.620",
+    "Tarjetas de Crédito / Débito": "$82.940"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:33",
-  "updated_at": "2026-04-25 19:37:33",
+  "created_at": "2026-04-25 20:57:17",
+  "updated_at": "2026-04-25 20:57:17",
   "prices": [
     {
       "product_id": 833,
       "store_id": "centrale",
-      "price": 189900,
+      "price": 78620,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-asus-b850m-ayw-gaming-wifi-micro-atx-am5-ddr5-wifi-6/",
+      "product_url": "https://centrale.cl/producto/msi-pro-a620am-b-evo-911-7e36-002/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 665,
+      "store_id": "cg",
+      "price": 85490,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-msi-pro-a620am-b-evo/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 2091,
+      "store_id": "trulustore",
+      "price": 94990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/placa-madre-msi-pro-a620am-b-evo-amd-am5-ddr5-matx/",
+      "store_name": "TruluStore",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -35,7 +63,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 189900
+      "price": 78620
     }
   ],
   "scraped_at": "2026-04-25"

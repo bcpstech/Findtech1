@@ -1,37 +1,33 @@
 {
   "id": 718,
-  "external_id": "centrale_procesador-amd-ryzen-threadripper-pro-9995wx-96-cores-192-threads-2-5-5-4ghz",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen Threadripper PRO 9995WX (96 Cores, 192 Threads, 2.5-5.4GHz)",
-  "slug": "procesador-amd-ryzen-threadripper-pro-9995wx-96-cores-192-threads-2-5-5-4ghz",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-Threadripper-PRO-9995WX-96-Cores-192-Threads-2.5-5.4GHz.webp",
+  "external_id": "centrale_asus-tarjeta-de-video-dual-rtx5060-o8gb-evo-90yv0ns0-m0aa00",
+  "category_id": "gpu",
+  "brand": "Asus",
+  "name": "Asus Tarjeta De Video Dual Rtx5060 O8Gb Evo 90YV0NS0-M0AA00",
+  "slug": "asus-tarjeta-de-video-dual-rtx5060-o8gb-evo-90yv0ns0-m0aa00",
+  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Tarjeta-De-Video-Dual-Rtx5060-O8Gb-Evo-90YV0NS0-M0AA00.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$14.931.590",
-    "Tarjetas de Crédito / Débito": "$15.752.830"
+    "Transferencia / Efectivo": "$421.890",
+    "Tarjetas de Crédito / Débito": "$445.090"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:55",
-  "updated_at": "2026-04-25 18:19:55",
+  "created_at": "2026-04-25 20:57:14",
+  "updated_at": "2026-04-25 20:57:14",
   "prices": [
     {
-      "id": 718,
       "product_id": 718,
       "store_id": "centrale",
-      "price": 14931590,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "price": 421890,
+      "price_normal": 484430,
+      "discount_pct": 13,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-threadripper-pro-9995wx-96-cores-192-threads-2-5-5-4ghz/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:55",
+      "product_url": "https://centrale.cl/producto/asus-tarjeta-de-video-dual-rtx5060-o8gb-evo-90yv0ns0-m0aa00/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 14931590
+      "price": 421890
     }
   ],
   "scraped_at": "2026-04-25"

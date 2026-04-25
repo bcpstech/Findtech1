@@ -1,33 +1,47 @@
 {
   "id": 881,
-  "external_id": "centrale_placa-madre-msi-mag-b860-tomahawk-wifi-atx-lga-1851-ddr5-wifi-7",
+  "external_id": "centrale_placa-madre-gigabyte-a520m-k-v2-micro-atx-amd-am4-ryzen-5000",
   "category_id": "mobo",
-  "brand": "MSI",
-  "name": "Placa Madre MSI MAG B860 TOMAHAWK WIFI (ATX, LGA 1851, DDR5, WiFi 7 )",
-  "slug": "placa-madre-msi-mag-b860-tomahawk-wifi-atx-lga-1851-ddr5-wifi-7",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-MSI-MAG-B860-TOMAHAWK-WIFI-ATX-LGA-1851-DDR5-WiFi-7-1-1.webp",
+  "brand": "Gigabyte",
+  "name": "Placa Madre Gigabyte A520M K V2 micro ATX, AMD AM4 Ryzen 5000",
+  "slug": "placa-madre-gigabyte-a520m-k-v2-micro-atx-amd-am4-ryzen-5000",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Gigabyte-A520M-K-V2-micro-ATX-AMD-AM4-Ryzen-5000_AcnmWtc-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$279.900",
-    "Tarjetas de Crédito / Débito": "$295.290"
+    "Transferencia / Efectivo": "$54.150",
+    "Tarjetas de Crédito / Débito": "$57.130"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:33",
-  "updated_at": "2026-04-25 19:37:33",
+  "created_at": "2026-04-25 20:57:17",
+  "updated_at": "2026-04-25 20:57:17",
   "prices": [
     {
       "product_id": 881,
       "store_id": "centrale",
-      "price": 279900,
+      "price": 54150,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-msi-mag-b860-tomahawk-wifi-atx-lga-1851-ddr5-wifi-7/",
+      "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-a520m-k-v2-micro-atx-amd-am4-ryzen-5000/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2095,
+      "store_id": "trulustore",
+      "price": 69990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/placa-madre-a520m-k-v2-gigabyte-am4/",
+      "store_name": "TruluStore",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -35,7 +49,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 279900
+      "price": 54150
     }
   ],
   "scraped_at": "2026-04-25"

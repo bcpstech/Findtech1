@@ -1,45 +1,70 @@
 {
   "id": 1368,
-  "external_id": "pcexpress_9658-disco-duro-seagate-barracuda-8tb-interno-3-5-sata-6gb-s-bufer-256-mb-p-n-st8000dm004",
-  "category_id": "storage",
-  "brand": "Seagate",
-  "name": "9658 - disco duro seagate barracuda 8tb interno 3.5\" sata 6gb/s búfer: 256 mb p/n st8000dm004",
-  "slug": "9658-disco-duro-seagate-barracuda-8tb-interno-3-5-sata-6gb-s-bufer-256-mb-p-n-st8000dm004",
-  "image_url": null,
+  "external_id": "dust2_tarjeta-de-video-asus-prime-rtx-5050-oc-gddr6-8gb",
+  "category_id": "gpu",
+  "brand": "ASUS",
+  "name": "Tarjeta de Video ASUS Prime RTX 5050 OC GDDR6 8GB",
+  "slug": "tarjeta-de-video-asus-prime-rtx-5050-oc-gddr6-8gb",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-asus-prime-rtx-5050-oc-gddr6-8gb.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$301.500",
-    "Tarjeta crédito/débito": "$310.545"
+    "Marca": "ASUS",
+    "Transferencia/Efectivo": "$337.850",
+    "Webpay / Tarjeta crédito-débito": "$347.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:59:05",
-  "updated_at": "2026-04-25 12:59:05",
+  "created_at": "2026-04-25 21:00:03",
+  "updated_at": "2026-04-25 21:00:03",
   "prices": [
     {
-      "id": 1368,
       "product_id": 1368,
-      "store_id": "pcexpress",
-      "price": 301500,
+      "store_id": "dust2",
+      "price": 337850,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=9658&search=disco+duro+interno+3.5&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:59:05",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-asus-prime-rtx-5050-oc-gddr6-8gb/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 742,
+      "store_id": "centrale",
+      "price": 389990,
+      "price_normal": 441090,
+      "discount_pct": 12,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-prime-geforce-rtx-5050-8gb-gddr6-oc-edition/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 642,
+      "store_id": "cg",
+      "price": 399000,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/grafica-asus/tarjeta-de-video-asus-prime-rtx-5050-oc-8gb-gddr6/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "dust2",
+      "store_name": "Dust2",
       "date": "2026-04-25",
-      "price": 301500
+      "price": 337850
     }
   ],
   "scraped_at": "2026-04-25"

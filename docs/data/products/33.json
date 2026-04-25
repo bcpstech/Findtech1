@@ -20,8 +20,8 @@
     "Tarjeta crédito/débito": "$71.997"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:00:19",
-  "updated_at": "2026-04-25 19:00:19",
+  "created_at": "2026-04-25 20:32:18",
+  "updated_at": "2026-04-25 20:32:18",
   "prices": [
     {
       "product_id": 33,
@@ -36,6 +36,62 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 645,
+      "store_id": "cg",
+      "price": 75990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-3400g-4-core/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 1475,
+      "store_id": "dust2",
+      "price": 145620,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-5-5600gt-6-nucleos-36-ghz-am4/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 814,
+      "store_id": "centrale",
+      "price": 160200,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-5600gt-3-6ghz-a-4-2ghz-6-nucleos-12-hilos-socket-am4/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2074,
+      "store_id": "trulustore",
+      "price": 569990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/pc-gamer-amd-ryzen-5-5600gt-igpu-radeon-vega-7-8gb-ram-3200mhz-ssd-nvme-m-2-500gb-gabinete-antec-vx100m-argb-3-ventiladores/",
+      "store_name": "TruluStore",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [

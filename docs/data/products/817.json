@@ -1,47 +1,33 @@
 {
   "id": 817,
-  "external_id": "centrale_procesador-amd-ryzen-7-7700x-4-5ghz-8-nucleos-16-hilos-socket-am5-sin",
+  "external_id": "centrale_procesador-amd-ryzen-threadripper-7970x-32-nucleos-64-hilos-socket-str5",
   "category_id": "cpu",
   "brand": "AMD",
-  "name": "Procesador AMD Ryzen 7 7700X, 4.5Ghz, 8 Núcleos / 16 Hilos, Socket Am5, Sin",
-  "slug": "procesador-amd-ryzen-7-7700x-4-5ghz-8-nucleos-16-hilos-socket-am5-sin",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-7700X-4.5Ghz-8-NC3BAcleos-16-Hilos-Socket-Am5-Sin_9mQXrHu.webp",
+  "name": "Procesador AMD Ryzen Threadripper 7970X, 32 Núcleos, 64 Hilos, Socket sTR5",
+  "slug": "procesador-amd-ryzen-threadripper-7970x-32-nucleos-64-hilos-socket-str5",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-Threadripper-7970X-32-NC3BAcleos-64-Hilos-Socket-sTR5_tQuIpXO-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$351.890",
-    "Tarjetas de Crédito / Débito": "$371.240"
+    "Transferencia / Efectivo": "$3.582.270",
+    "Tarjetas de Crédito / Débito": "$3.779.290"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:30",
-  "updated_at": "2026-04-25 19:37:30",
+  "created_at": "2026-04-25 20:57:16",
+  "updated_at": "2026-04-25 20:57:16",
   "prices": [
     {
       "product_id": 817,
       "store_id": "centrale",
-      "price": 351890,
+      "price": 3582270,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-7700x-4-5ghz-8-nucleos-16-hilos-socket-am5-sin/",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-threadripper-7970x-32-nucleos-64-hilos-socket-str5/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 430,
-      "store_id": "alltec",
-      "price": 359900,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/amd/1881-amd-ryzen-7-7700x-45ghz-54ghz-turbo-octa-core-tdp-105w-am5-730143314428.html",
-      "store_name": "Alltec",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -49,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 351890
+      "price": 3582270
     }
   ],
   "scraped_at": "2026-04-25"

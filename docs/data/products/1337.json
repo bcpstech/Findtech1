@@ -1,45 +1,42 @@
 {
   "id": 1337,
-  "external_id": "pcexpress_21225-notebook-lenovo-ideapad-15-6-amd-ryzen-3-7320u-3-6-ghz-8gb-ddr4-512gb-ssd-amd-radeon-hd-6310-w",
-  "category_id": "ram",
-  "brand": "AMD",
-  "name": "21225 - notebook lenovo ideapad 15.6\" - amd ryzen 3 7320u / 3.6 ghz - 8gb ddr4 - 512gb ssd - amd radeon hd 6310 - win11 home - frost blue",
-  "slug": "21225-notebook-lenovo-ideapad-15-6-amd-ryzen-3-7320u-3-6-ghz-8gb-ddr4-512gb-ssd-amd-radeon-hd-6310-w",
-  "image_url": null,
+  "external_id": "dust2_tarjeta-de-video-gigabyte-gv-n507teagleoc-ice-16gd",
+  "category_id": "gpu",
+  "brand": "Gigabyte",
+  "name": "Tarjeta de Video Gigabyte GV-N507TEagleOC ICE-16GD",
+  "slug": "tarjeta-de-video-gigabyte-gv-n507teagleoc-ice-16gd",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-gigabyte-gv-n507teagleoc-ice-16gd.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$477.500",
-    "Tarjeta crédito/débito": "$491.825"
+    "Marca": "Gigabyte",
+    "Transferencia/Efectivo": "$1.092.220",
+    "Webpay / Tarjeta crédito-débito": "$1.124.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:47",
-  "updated_at": "2026-04-25 12:58:47",
+  "created_at": "2026-04-25 20:59:56",
+  "updated_at": "2026-04-25 20:59:56",
   "prices": [
     {
-      "id": 1337,
       "product_id": 1337,
-      "store_id": "pcexpress",
-      "price": 477500,
+      "store_id": "dust2",
+      "price": 1092220,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=21225&search=memoria+ram+ddr4&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:47",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-gigabyte-gv-n507teagleoc-ice-16gd/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "dust2",
+      "store_name": "Dust2",
       "date": "2026-04-25",
-      "price": 477500
+      "price": 1092220
     }
   ],
   "scraped_at": "2026-04-25"

@@ -1,37 +1,33 @@
 {
   "id": 869,
-  "external_id": "centrale_memoria-ram-16gb-ddr5-5200mt-s-cl40-corsair-vengeance-gris",
-  "category_id": "ram",
-  "brand": "Corsair",
-  "name": "Memoria RAM 16GB DDR5 5200MT/s CL40 Corsair Vengeance (Gris)",
-  "slug": "memoria-ram-16gb-ddr5-5200mt-s-cl40-corsair-vengeance-gris",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-16GB-DDR5-5200MT-s-CL40-Corsair-Vengeance-Gris_umqzIL2.webp",
+  "external_id": "centrale_placa-madre-micro-atx-msi-pro-b760m-p-ddr4-socket-intel-lga-1700",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "Placa Madre Micro ATX MSI PRO B760M-P DDR4, Socket Intel LGA 1700",
+  "slug": "placa-madre-micro-atx-msi-pro-b760m-p-ddr4-socket-intel-lga-1700",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Micro-ATX-MSI-PRO-B760M-P-DDR4-Socket-Intel-LGA-1700-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$237.500",
-    "Tarjetas de Crédito / Débito": "$250.560"
+    "Transferencia / Efectivo": "$93.510",
+    "Tarjetas de Crédito / Débito": "$98.650"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:00",
-  "updated_at": "2026-04-25 18:20:00",
+  "created_at": "2026-04-25 20:57:17",
+  "updated_at": "2026-04-25 20:57:17",
   "prices": [
     {
-      "id": 869,
       "product_id": 869,
       "store_id": "centrale",
-      "price": 237500,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "price": 93510,
+      "price_normal": 104810,
+      "discount_pct": 11,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-5200mt-s-cl40-corsair-vengeance-gris/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:00",
+      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-msi-pro-b760m-p-ddr4-socket-intel-lga-1700/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 237500
+      "price": 93510
     }
   ],
   "scraped_at": "2026-04-25"

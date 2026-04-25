@@ -1,45 +1,56 @@
 {
   "id": 1330,
-  "external_id": "pcexpress_21128-placa-madre-msi-b850m-gaming-wifi6e-sam5",
-  "category_id": "ram",
-  "brand": "MSI",
-  "name": "21128 - placa madre msi b850m gaming wifi6e sam5",
-  "slug": "21128-placa-madre-msi-b850m-gaming-wifi6e-sam5",
-  "image_url": null,
+  "external_id": "dust2_tarjeta-de-video-gigabyte-rtx-5050-windforce-oc-v2-8-gb",
+  "category_id": "gpu",
+  "brand": "Gigabyte",
+  "name": "Tarjeta de Video Gigabyte RTX 5050 WINDFORCE OC V2 8 GB",
+  "slug": "tarjeta-de-video-gigabyte-rtx-5050-windforce-oc-v2-8-gb",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-gigabyte-rtx-5050-windforce-oc-v2-8-gb.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$152.900",
-    "Tarjeta crédito/débito": "$157.487"
+    "Marca": "Gigabyte",
+    "Transferencia/Efectivo": "$335.910",
+    "Webpay / Tarjeta crédito-débito": "$345.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:47",
-  "updated_at": "2026-04-25 12:58:47",
+  "created_at": "2026-04-25 20:59:54",
+  "updated_at": "2026-04-25 20:59:54",
   "prices": [
     {
-      "id": 1330,
       "product_id": 1330,
-      "store_id": "pcexpress",
-      "price": 152900,
+      "store_id": "dust2",
+      "price": 335910,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=21128&search=memoria+ram+ddr4&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:47",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-gigabyte-rtx-5050-windforce-oc-v2-8-gb/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 749,
+      "store_id": "centrale",
+      "price": 355610,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-gigabyte-geforce-rtx-5050-windforce-oc-8gb-gddr6-128-bit/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "dust2",
+      "store_name": "Dust2",
       "date": "2026-04-25",
-      "price": 152900
+      "price": 335910
     }
   ],
   "scraped_at": "2026-04-25"

@@ -1,45 +1,42 @@
 {
   "id": 1316,
-  "external_id": "pcexpress_637465-memoria-udimm-kingston-32gb-ddr5-4800mt-s-ecc-p-n-ktd-pe548e-32g",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "637465 - memoria udimm kingston 32gb ddr5 4800mt/s ecc p/n ktd-pe548e-32g",
-  "slug": "637465-memoria-udimm-kingston-32gb-ddr5-4800mt-s-ecc-p-n-ktd-pe548e-32g",
-  "image_url": null,
+  "external_id": "dust2_tarjeta-de-video-msi-rtx-5070-12g-wow-midnight-void-edition-oc",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "Tarjeta de Video MSI RTX 5070 12G WoW MIDNIGHT VOID EDITION OC",
+  "slug": "tarjeta-de-video-msi-rtx-5070-12g-wow-midnight-void-edition-oc",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-msi-rtx-5070-12g-wow-midnight-void-edition-oc.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$642.500",
-    "Tarjeta crédito/débito": "$661.775"
+    "Marca": "MSI",
+    "Transferencia/Efectivo": "$967.950",
+    "Webpay / Tarjeta crédito-débito": "$996.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:41",
-  "updated_at": "2026-04-25 12:58:41",
+  "created_at": "2026-04-25 20:59:52",
+  "updated_at": "2026-04-25 20:59:52",
   "prices": [
     {
-      "id": 1316,
       "product_id": 1316,
-      "store_id": "pcexpress",
-      "price": 642500,
+      "store_id": "dust2",
+      "price": 967950,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=637465&search=memoria+ram+ddr5&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:41",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-rtx-5070-12g-wow-midnight-void-edition-oc/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "dust2",
+      "store_name": "Dust2",
       "date": "2026-04-25",
-      "price": 642500
+      "price": 967950
     }
   ],
   "scraped_at": "2026-04-25"

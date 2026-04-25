@@ -1,33 +1,47 @@
 {
   "id": 803,
-  "external_id": "centrale_procesador-amd-ryzen-7-9700x-8-cores-16-threads-3-8-a-5-5-ghz-65w",
+  "external_id": "centrale_procesador-intel-core-ultra-7-265kf-lga-1851-20-nucleos-3-9-5-5ghz",
   "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 7 9700X, 8 Cores 16 Threads,  3.8 a 5.5 GHz, 65W",
-  "slug": "procesador-amd-ryzen-7-9700x-8-cores-16-threads-3-8-a-5-5-ghz-65w",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-9700X-8-Cores-16-Threads-3.8-a-5.5-GHz-65W_CmdGubx-1.webp",
+  "brand": "Intel",
+  "name": "Procesador Intel Core Ultra 7 265KF (LGA 1851, 20 Núcleos, 3.9-5.5Ghz)",
+  "slug": "procesador-intel-core-ultra-7-265kf-lga-1851-20-nucleos-3-9-5-5ghz",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-7-265KF-LGA-1851-20-NC3BAcleos-3.9-5.5Ghz_g2cARGR-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$366.790",
-    "Tarjetas de Crédito / Débito": "$386.960"
+    "Transferencia / Efectivo": "$336.570",
+    "Tarjetas de Crédito / Débito": "$355.080"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:30",
-  "updated_at": "2026-04-25 19:37:30",
+  "created_at": "2026-04-25 20:57:16",
+  "updated_at": "2026-04-25 20:57:16",
   "prices": [
     {
       "product_id": 803,
       "store_id": "centrale",
-      "price": 366790,
+      "price": 336570,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-9700x-8-cores-16-threads-3-8-a-5-5-ghz-65w/",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265kf-lga-1851-20-nucleos-3-9-5-5ghz/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 458,
+      "store_id": "alltec",
+      "price": 462900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/intel/2392-9ghz-intel-core-ultra-7-265kf-55ghz-turbo-20c28t-33mb-cache-125w-lga1851.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -35,7 +49,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 366790
+      "price": 336570
     }
   ],
   "scraped_at": "2026-04-25"

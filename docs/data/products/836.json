@@ -1,37 +1,47 @@
 {
   "id": 836,
-  "external_id": "centrale_placa-madre-msi-z790-gaming-plus-wifi-intel-lga-1700-ddr5-pcie-4-0-wifi-6e",
+  "external_id": "centrale_placa-madre-msi-b850m-gaming-wifi6e-micro-atx-am5-2x-ddr5-pcie-5-0-wifi-6e",
   "category_id": "mobo",
   "brand": "MSI",
-  "name": "Placa Madre MSI Z790 GAMING PLUS WIFI (Intel LGA 1700, DDR5, PCIe 4.0, WiFi 6E)",
-  "slug": "placa-madre-msi-z790-gaming-plus-wifi-intel-lga-1700-ddr5-pcie-4-0-wifi-6e",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-MSI-Z790-GAMING-PLUS-WIFI-Intel-LGA-1700-DDR5-PCIe-4.0-WiFi-6E-1.webp",
+  "name": "Placa Madre MSI B850M GAMING WIFI6E (Micro ATX, AM5, 2x DDR5, PCIe 5.0, WiFi 6E)",
+  "slug": "placa-madre-msi-b850m-gaming-wifi6e-micro-atx-am5-2x-ddr5-pcie-5-0-wifi-6e",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-MSI-B850M-GAMING-WIFI6E-Micro-ATX-AM5-2x-DDR5-PCIe-5.0-WiFi-6E.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$261.980",
-    "Tarjetas de Crédito / Débito": "$276.390"
+    "Transferencia / Efectivo": "$147.810",
+    "Tarjetas de Crédito / Débito": "$155.940"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:58",
-  "updated_at": "2026-04-25 18:19:58",
+  "created_at": "2026-04-25 20:57:17",
+  "updated_at": "2026-04-25 20:57:17",
   "prices": [
     {
-      "id": 836,
       "product_id": 836,
       "store_id": "centrale",
-      "price": 261980,
+      "price": 147810,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-msi-z790-gaming-plus-wifi-intel-lga-1700-ddr5-pcie-4-0-wifi-6e/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:58",
+      "product_url": "https://centrale.cl/producto/placa-madre-msi-b850m-gaming-wifi6e-micro-atx-am5-2x-ddr5-pcie-5-0-wifi-6e/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2083,
+      "store_id": "trulustore",
+      "price": 149990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/placa-madre-msi-pro-b850m-b-gen4-amd-am5-2x-ddr5-2x-m-2/",
+      "store_name": "TruluStore",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -39,7 +49,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 261980
+      "price": 147810
     }
   ],
   "scraped_at": "2026-04-25"

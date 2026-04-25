@@ -1,33 +1,47 @@
 {
   "id": 1231,
-  "external_id": "centrale_gabinete-pctronix-clio-slim-tower-s609-micro-atx-500w-usb-3-0-negro",
-  "category_id": "case",
-  "brand": "Pctronix",
-  "name": "Gabinete Pctronix CLIO Slim Tower S609 Micro ATX, 500W, USB 3.0, Negro",
-  "slug": "gabinete-pctronix-clio-slim-tower-s609-micro-atx-500w-usb-3-0-negro",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Pctronix-CLIO-Slim-Tower-S609-Micro-ATX-500W-USB-3.0-Negro-1776878628.webp",
+  "external_id": "centrale_fuente-de-poder-850w-msi-mag-a850gl-80-gold-full-modular-pcie-5-1-atx-3-1",
+  "category_id": "psu",
+  "brand": "MSI",
+  "name": "Fuente de Poder 850W MSI MAG A850GL 80+ Gold, Full Modular, PCIe 5.1, ATX 3.1",
+  "slug": "fuente-de-poder-850w-msi-mag-a850gl-80-gold-full-modular-pcie-5-1-atx-3-1",
+  "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-850W-MSI-MAG-A850GL-80-Plus-Gold-Full-Modular-PCIe-5.0-2.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$43.830",
-    "Tarjetas de Crédito / Débito": "$46.240"
+    "Transferencia / Efectivo": "$104.900",
+    "Tarjetas de Crédito / Débito": "$110.670"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:48",
-  "updated_at": "2026-04-25 19:37:48",
+  "created_at": "2026-04-25 20:57:27",
+  "updated_at": "2026-04-25 20:57:27",
   "prices": [
     {
       "product_id": 1231,
       "store_id": "centrale",
-      "price": 43830,
-      "price_normal": 50730,
-      "discount_pct": 14,
+      "price": 104900,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-pctronix-clio-slim-tower-s609-micro-atx-500w-usb-3-0-negro/",
+      "product_url": "https://centrale.cl/producto/fuente-de-poder-850w-msi-mag-a850gl-80-gold-full-modular-pcie-5-1-atx-3-1/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2110,
+      "store_id": "trulustore",
+      "price": 139450,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/fuente-de-poder-msi-mag-a850gl-white-850w-80-gold-cybenetics-gold-full-modular-pcie-5-1-atx-3-1/",
+      "store_name": "TruluStore",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -35,7 +49,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 43830
+      "price": 104900
     }
   ],
   "scraped_at": "2026-04-25"

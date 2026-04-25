@@ -1,37 +1,47 @@
 {
   "id": 1188,
-  "external_id": "centrale_gabinete-premium-arctic-xtender-vg-black-e-atx-5-ventiladores-pre-instalados",
-  "category_id": "case",
-  "brand": "Arctic",
-  "name": "Gabinete Premium ARCTIC Xtender VG (Black) E-ATX (5 Ventiladores Pre-Instalados)",
-  "slug": "gabinete-premium-arctic-xtender-vg-black-e-atx-5-ventiladores-pre-instalados",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Premium-ARCTIC-Xtender-VG-Black-E-ATX-5-Ventiladores-Pre-Insta_NAU8NDp.webp",
+  "external_id": "centrale_msi-mag-a1000gls-pcie5-306-7zpix23-ce0",
+  "category_id": "psu",
+  "brand": "MSI",
+  "name": "Msi Mag A1000Gls Pcie5 306-7ZPIX23-CE0",
+  "slug": "msi-mag-a1000gls-pcie5-306-7zpix23-ce0",
+  "image_url": "https://centrale.cl/wp-content/uploads/Msi-Mag-A1000Gls-Pcie5-306-7ZPIX23-CE0-1776814332.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$212.070",
-    "Tarjetas de Crédito / Débito": "$223.730"
+    "Transferencia / Efectivo": "$121.700",
+    "Tarjetas de Crédito / Débito": "$128.390"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:15",
-  "updated_at": "2026-04-25 18:20:15",
+  "created_at": "2026-04-25 20:57:27",
+  "updated_at": "2026-04-25 20:57:27",
   "prices": [
     {
-      "id": 1188,
       "product_id": 1188,
       "store_id": "centrale",
-      "price": 212070,
+      "price": 121700,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-premium-arctic-xtender-vg-black-e-atx-5-ventiladores-pre-instalados/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:15",
+      "product_url": "https://centrale.cl/producto/msi-mag-a1000gls-pcie5-306-7zpix23-ce0/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2087,
+      "store_id": "trulustore",
+      "price": 169990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/fuente-de-poder-msi-mag-a1000gls-1000w-80-gold-cybenetics-gold-full-modular-pcie-5-1-atx-3-1/",
+      "store_name": "TruluStore",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -39,7 +49,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 212070
+      "price": 121700
     }
   ],
   "scraped_at": "2026-04-25"

@@ -1,41 +1,55 @@
 {
   "id": 2078,
-  "external_id": "megabytes_gabinete-sama-205a-white",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "Gabinete Sama 205A White",
-  "slug": "gabinete-sama-205a-white",
-  "image_url": "https://images.findtech.cl/products/gabinete-sama-205a-white.webp",
+  "external_id": "trulustore_procesador-amd-ryzen-9-9950x-am5-16c-32t",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "PROCESADOR AMD RYZEN 9 9950X AM5 16C / 32T",
+  "slug": "procesador-amd-ryzen-9-9950x-am5-16c-32t",
+  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-9-9950x-am5-16c-32t.jpg",
   "description": null,
   "specs": {
-    "Transferencia/Efectivo": "$40.770",
-    "Webpay / Tarjeta crédito-débito": "$41.990"
+    "Transferencia/Efectivo": "$699.990",
+    "Webpay / Tarjeta": "$720.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:47:20",
-  "updated_at": "2026-04-25 19:47:20",
+  "created_at": "2026-04-25 21:11:12",
+  "updated_at": "2026-04-25 21:11:12",
   "prices": [
     {
       "product_id": 2078,
-      "store_id": "megabytes",
-      "price": 40770,
-      "price_normal": 62610,
-      "discount_pct": 35,
+      "store_id": "trulustore",
+      "price": 699990,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/gabinete-sama-205a-white/",
-      "store_name": "MegaBytes",
+      "product_url": "https://trulustore.cl/producto/procesador-amd-ryzen-9-9950x-am5-16c-32t/",
+      "store_name": "TruluStore",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.megabytes.cl",
-      "full_url": "https://www.megabytes.cl"
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 416,
+      "store_id": "alltec",
+      "price": 825900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/2376-amd-ryzen-9-9950x3d-43ghz57ghz-turbo-sixteen-core-tdp-170w-am5.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "megabytes",
-      "store_name": "MegaBytes",
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
       "date": "2026-04-25",
-      "price": 40770
+      "price": 699990
     }
   ],
   "scraped_at": "2026-04-25"

@@ -1,37 +1,33 @@
 {
   "id": 741,
-  "external_id": "centrale_procesador-intel-core-i5-12400-2-5ghz-18mb-6-cores-lga-1700",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core i5-12400 2.5Ghz 18Mb 6 Cores LGA 1700",
-  "slug": "procesador-intel-core-i5-12400-2-5ghz-18mb-6-cores-lga-1700",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i5-12400-2.5Ghz-18Mb-6-Cores-LGA-1700_h5dIHFX-1.webp",
+  "external_id": "centrale_tarjeta-grafica-pny-nvidia-rtx-a400-4gb-gddr6-64-bits-nvidia-ampere",
+  "category_id": "gpu",
+  "brand": "Pny",
+  "name": "Tarjeta Gráfica PNY Nvidia RTX A400 4GB GDDR6 64-bits Nvidia Ampere",
+  "slug": "tarjeta-grafica-pny-nvidia-rtx-a400-4gb-gddr6-64-bits-nvidia-ampere",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-PNY-Nvidia-RTX-A400-4GB-GDDR6-64-bits-Nvidia-Ampere-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$196.300",
-    "Tarjetas de Crédito / Débito": "$207.100"
+    "Transferencia / Efectivo": "$222.850",
+    "Tarjetas de Crédito / Débito": "$235.110"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:55",
-  "updated_at": "2026-04-25 18:19:55",
+  "created_at": "2026-04-25 20:57:14",
+  "updated_at": "2026-04-25 20:57:14",
   "prices": [
     {
-      "id": 741,
       "product_id": 741,
       "store_id": "centrale",
-      "price": 196300,
-      "price_normal": 221210,
-      "discount_pct": 11,
-      "currency": "CLP",
+      "price": 222850,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-12400-2-5ghz-18mb-6-cores-lga-1700/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:55",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-pny-nvidia-rtx-a400-4gb-gddr6-64-bits-nvidia-ampere/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -39,7 +35,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 196300
+      "price": 222850
     }
   ],
   "scraped_at": "2026-04-25"

@@ -1,45 +1,41 @@
 {
   "id": 1255,
-  "external_id": "pcexpress_1032785-tarjeta-de-video-zotac-geforce-rtx-5050-solo-8gb-gddr6-128bit",
-  "category_id": "gpu",
-  "brand": "Genérico",
-  "name": "1032785 - tarjeta de video zotac geforce rtx 5050 solo 8gb gddr6 128bit",
-  "slug": "1032785-tarjeta-de-video-zotac-geforce-rtx-5050-solo-8gb-gddr6-128bit",
-  "image_url": null,
+  "external_id": "centrale_gabinete-gamer-corsair-frame-4000d-negro-modular-mid-tower",
+  "category_id": "case",
+  "brand": "Corsair",
+  "name": "Gabinete Gamer Corsair FRAME 4000D Negro Modular Mid Tower",
+  "slug": "gabinete-gamer-corsair-frame-4000d-negro-modular-mid-tower",
+  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Gamer-Corsair-FRAME-4000D-Negro-Modular-Mid-Tower-1.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$328.900",
-    "Tarjeta crédito/débito": "$338.767"
+    "Transferencia / Efectivo": "$79.410",
+    "Tarjetas de Crédito / Débito": "$83.780"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:57:58",
-  "updated_at": "2026-04-25 12:57:58",
+  "created_at": "2026-04-25 20:57:28",
+  "updated_at": "2026-04-25 20:57:28",
   "prices": [
     {
-      "id": 1255,
       "product_id": 1255,
-      "store_id": "pcexpress",
-      "price": 328900,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "store_id": "centrale",
+      "price": 79410,
+      "price_normal": 95050,
+      "discount_pct": 16,
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=1032785&search=tarjeta+video+nvidia+rtx&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:57:58",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/gabinete-gamer-corsair-frame-4000d-negro-modular-mid-tower/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "centrale",
+      "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 328900
+      "price": 79410
     }
   ],
   "scraped_at": "2026-04-25"

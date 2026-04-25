@@ -1,28 +1,28 @@
 {
   "id": 825,
-  "external_id": "centrale_msi-pro-a620am-b-evo-911-7e36-002",
-  "category_id": "mobo",
-  "brand": "MSI",
-  "name": "Msi Pro A620Am-B Evo 911-7E36-002",
-  "slug": "msi-pro-a620am-b-evo-911-7e36-002",
-  "image_url": "https://centrale.cl/wp-content/uploads/Msi-Pro-A620Am-B-Evo-911-7E36-002-1776039407.webp",
+  "external_id": "centrale_procesador-amd-ryzen-7-7700x-4-5ghz-8-nucleos-16-hilos-socket-am5-sin",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 7 7700X, 4.5Ghz, 8 Núcleos / 16 Hilos, Socket Am5, Sin",
+  "slug": "procesador-amd-ryzen-7-7700x-4-5ghz-8-nucleos-16-hilos-socket-am5-sin",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-7700X-4.5Ghz-8-NC3BAcleos-16-Hilos-Socket-Am5-Sin_9mQXrHu.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$78.620",
-    "Tarjetas de Crédito / Débito": "$82.940"
+    "Transferencia / Efectivo": "$351.890",
+    "Tarjetas de Crédito / Débito": "$371.240"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:33",
-  "updated_at": "2026-04-25 19:37:33",
+  "created_at": "2026-04-25 20:57:16",
+  "updated_at": "2026-04-25 20:57:16",
   "prices": [
     {
       "product_id": 825,
       "store_id": "centrale",
-      "price": 78620,
+      "price": 351890,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/msi-pro-a620am-b-evo-911-7e36-002/",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-7700x-4-5ghz-8-nucleos-16-hilos-socket-am5-sin/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
@@ -30,18 +30,18 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 665,
-      "store_id": "cg",
-      "price": 85490,
+      "product_id": 430,
+      "store_id": "alltec",
+      "price": 359900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-msi-pro-a620am-b-evo/",
-      "store_name": "CentralGamer",
+      "product_url": "https://www.alltec.cl/amd/1881-amd-ryzen-7-7700x-45ghz-54ghz-turbo-octa-core-tdp-105w-am5-730143314428.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -49,7 +49,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 78620
+      "price": 351890
     }
   ],
   "scraped_at": "2026-04-25"

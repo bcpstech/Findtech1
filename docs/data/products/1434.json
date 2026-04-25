@@ -1,45 +1,56 @@
 {
   "id": 1434,
-  "external_id": "pcexpress_20463-gabinete-xpg-valor-air-plus-atx-4xfan-argb-white-s-fuente",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "20463 - gabinete xpg valor air plus atx 4xfan argb white s/fuente",
-  "slug": "20463-gabinete-xpg-valor-air-plus-atx-4xfan-argb-white-s-fuente",
-  "image_url": null,
+  "external_id": "dust2_procesador-intel-core-i9-14900-hasta-5-8ghz-lga1700",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i9-14900, hasta 5.8Ghz, LGA1700",
+  "slug": "procesador-intel-core-i9-14900-hasta-5-8ghz-lga1700",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i9-14900-hasta-5-8ghz-lga1700.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$49.900",
-    "Tarjeta crédito/débito": "$51.397"
+    "Marca": "Intel",
+    "Transferencia/Efectivo": "$697.080",
+    "Webpay / Tarjeta crédito-débito": "$717.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:56:09",
-  "updated_at": "2026-04-25 04:56:09",
+  "created_at": "2026-04-25 21:00:25",
+  "updated_at": "2026-04-25 21:00:25",
   "prices": [
     {
-      "id": 1434,
       "product_id": 1434,
-      "store_id": "pcexpress",
-      "price": 49900,
+      "store_id": "dust2",
+      "price": 697080,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=20463&search=gabinete+atx+gamer&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:56:09",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://dust2.gg/producto/procesador-intel-core-i9-14900-hasta-5-8ghz-lga1700/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 779,
+      "store_id": "centrale",
+      "price": 732690,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900-24-core-3-2-5-8ghz-lga1700-36mb-cache/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
+      "store_id": "dust2",
+      "store_name": "Dust2",
       "date": "2026-04-25",
-      "price": 49900
+      "price": 697080
     }
   ],
   "scraped_at": "2026-04-25"

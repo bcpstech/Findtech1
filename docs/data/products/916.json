@@ -1,37 +1,47 @@
 {
   "id": 916,
-  "external_id": "centrale_memoria-ram-16gb-ddr5-5600mt-s-cl46-xpg-lancer-blade-white",
-  "category_id": "ram",
-  "brand": "XPG",
-  "name": "Memoria RAM 16GB DDR5 5600MT/s CL46 XPG Lancer Blade White",
-  "slug": "memoria-ram-16gb-ddr5-5600mt-s-cl46-xpg-lancer-blade-white",
-  "image_url": "https://centrale.cl/wp-content/uploads/Xpg-Memoria-Ram-Lancer-Blade-Blanco-De-16Gb-Ddr5-5600Mhz-Cl46-Xmp-Dimm-1.webp",
+  "external_id": "centrale_placa-madre-atx-asus-prime-x870-p-wifi-socket-amd-am5-ddr5-wifi-7",
+  "category_id": "mobo",
+  "brand": "Asus",
+  "name": "Placa Madre ATX ASUS PRIME X870-P WIFI, Socket AMD AM5, DDR5, WiFi 7",
+  "slug": "placa-madre-atx-asus-prime-x870-p-wifi-socket-amd-am5-ddr5-wifi-7",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ATX-ASUS-PRIME-X870-P-WIFI-Socket-AMD-AM5-DDR5-WiFi-7_1a6WV0W-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$287.900",
-    "Tarjetas de Crédito / Débito": "$303.730"
+    "Transferencia / Efectivo": "$263.620",
+    "Tarjetas de Crédito / Débito": "$278.120"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:00",
-  "updated_at": "2026-04-25 18:20:00",
+  "created_at": "2026-04-25 20:57:18",
+  "updated_at": "2026-04-25 20:57:18",
   "prices": [
     {
-      "id": 916,
       "product_id": 916,
       "store_id": "centrale",
-      "price": 287900,
+      "price": 263620,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-5600mt-s-cl46-xpg-lancer-blade-white/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:00",
+      "product_url": "https://centrale.cl/producto/placa-madre-atx-asus-prime-x870-p-wifi-socket-amd-am5-ddr5-wifi-7/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 128,
+      "store_id": "n1g",
+      "price": 335900,
+      "price_normal": 353579,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3167-asus-rog-strix-b850-a-gaming-wifi-amd-am5-atx-ddr5-aemp-25g-lan-wifi-7-4x-m2-pcie-50-usb-20gbps-type-c.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -39,7 +49,7 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-25",
-      "price": 287900
+      "price": 263620
     }
   ],
   "scraped_at": "2026-04-25"
