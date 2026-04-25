@@ -36,6 +36,70 @@ const CATEGORIES = [
 
 const CARD_SURCHARGE = 1.03;
 
+// Selectores PrestaShop — múltiples variantes por si Alltec actualiza el tema
+const PRODUCT_SELECTORS = [
+  'ul.products li.product',          // PrestaShop estándar
+  'ul.product_list li',              // variante antigua
+  '.products-grid .product-container', // tema personalizado
+  'article.product-miniature',       // igual que n1g
+  '.ajax_block_product',             // otro tema PS
+];
+
+function findProducts($) {
+  for (const sel of PRODUCT_SELECTORS) {
+    const items = $(sel);
+    if (items.length > 0) return items;
+  }
+  return $([]);
+}
+
+function extractPrice($el, $) {
+  // Intentar múltiples selectores de precio
+  const candidates = [
+    $el.find('.price-box span.price').first().text(),
+    $el.find('.product-price-and-shipping .price').first().text(),
+    $el.find('[itemprop="price"]').attr('content'),
+    $el.find('[itemprop="price"]').first().text(),
+    $el.find('.price').first().text(),
+    $el.find('[class*="price"]').first().text(),
+  ];
+  for (const raw of candidates) {
+    if (raw && raw.trim()) return raw.trim();
+  }
+  return '';
+}
+
+function extractName($el, $) {
+  const candidates = [
+    $el.find('.product-name').text(),
+    $el.find('.product-title a').text(),
+    $el.find('h3 a').first().text(),
+    $el.find('h2 a').first().text(),
+    $el.find('a[title]').attr('title'),
+    $el.find('a').first().attr('title'),
+  ];
+  for (const raw of candidates) {
+    const name = (raw || '').trim();
+    if (name.length > 3) return name;
+  }
+  return '';
+}
+
+function extractUrl($el, $) {
+  return $el.find('a.products-block-image').attr('href')
+    || $el.find('.product-name a').attr('href')
+    || $el.find('h3 a').first().attr('href')
+    || $el.find('a').first().attr('href')
+    || '';
+}
+
+function extractImage($el, $) {
+  return $el.find('img.img-responsive').attr('src')
+    || $el.find('img').first().attr('data-src')
+    || $el.find('img').first().attr('src')
+    || null;
+}
+
 class AlltecScraper extends BaseScraper {
   constructor() { super('alltec', 'Alltec'); }
 
@@ -70,10 +134,14 @@ class AlltecScraper extends BaseScraper {
         });
 
         const $ = cheerio.load(res.data);
-        const items = $('ul.products li');
+
+        // FIX: probar múltiples selectores hasta encontrar productos
+        const items = findProducts($);
 
         if (!items.length) {
-          this.log('info', `[alltec] Sin productos pág ${page}`);
+          // Debug: loguear qué selectores existen en la página
+          const bodySnippet = res.data?.slice?.(0, 500) || '';
+          this.log('info', `[alltec] Sin productos pág ${page} — HTML inicio: ${bodySnippet.replace(/\s+/g,' ').slice(0,200)}`);
           break;
         }
 
@@ -81,38 +149,42 @@ class AlltecScraper extends BaseScraper {
         for (const el of items.toArray()) {
           try {
             const $el = $(el);
-            const productUrl = $el.find('a.products-block-image').attr('href')
-                            || $el.find('a').first().attr('href') || '';
+            const productUrl = extractUrl($el, $);
             if (this.seenUrls.has(productUrl)) continue;
             this.seenUrls.add(productUrl);
 
-            const name = $el.find('.product-name').text().trim()
-                      || $el.find('a.products-block-image').attr('title') || '';
+            const name = extractName($el, $);
             if (!name) continue;
 
-            const priceRaw = $el.find('.price-box span.price, .price').first().text().trim();
+            const priceRaw = extractPrice($el, $);
             const price = this.parseAlltecPrice(priceRaw);
             if (!price || price < 1000) continue;
 
-            const oldRaw = $el.find('.price-box .old-price, .regular-price').text().trim();
+            const oldRaw = $el.find('.price-box .old-price, .regular-price, .old-price').text().trim();
             const regularPrice = oldRaw ? this.parseAlltecPrice(oldRaw) : null;
             const priceCard = Math.round(price * CARD_SURCHARGE);
-            const imageUrl = $el.find('img.img-responsive').attr('src')
-                          || $el.find('img').first().attr('src') || null;
+            const imageUrl = extractImage($el, $);
 
             this.stats.found++;
             newInPage++;
             await this.saveProductWithR2(
-              { name, category: catId, brand: this.extractBrand(name), imageUrl,
+              {
+                name,
+                category: catId,
+                brand: this.extractBrand(name),
+                imageUrl,
                 specs: {
                   'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
                   'Tarjeta crédito/débito': `$${priceCard.toLocaleString('es-CL')}`,
                 }
               },
-              { current: price,
-                normal: regularPrice > price ? regularPrice : null,
-                discount: regularPrice > price ? Math.round((1-price/regularPrice)*100) : null,
-                stock: 'in_stock', url: productUrl || null }
+              {
+                current:  price,
+                normal:   regularPrice > price ? regularPrice : null,
+                discount: regularPrice > price ? Math.round((1 - price / regularPrice) * 100) : null,
+                stock:    'in_stock',
+                url:      productUrl || null,
+              }
             );
           } catch (err) {
             this.log('warn', `[alltec] Error item: ${err.message}`);
@@ -135,7 +207,7 @@ class AlltecScraper extends BaseScraper {
 
   parseAlltecPrice(str) {
     if (!str) return null;
-    const clean = str.replace(/\$/g, '').replace(/,/g, '').replace(/\s/g, '');
+    const clean = str.replace(/\$/g, '').replace(/\./g, '').replace(/,/g, '').replace(/\s/g, '');
     const num = parseInt(clean);
     if (isNaN(num) || num < 1000 || num > 100000000) return null;
     return num;
