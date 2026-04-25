@@ -6,7 +6,7 @@
  * Genera:
  *   docs/data/categories.json
  *   docs/data/stores.json
- *   docs/data/products.json          ← todos con mejor precio
+ *   docs/data/products.json          ← solo productos con stock
  *   docs/data/products/{id}.json     ← detalle de cada producto
  *   docs/data/meta.json              ← fecha de última actualización
  */
@@ -16,10 +16,9 @@ const fs   = require('fs');
 const path = require('path');
 const { getDb } = require('../db/database');
 
-const OUT_DIR = path.join(__dirname, '../docs/data');
+const OUT_DIR  = path.join(__dirname, '../docs/data');
 const PROD_DIR = path.join(OUT_DIR, 'products');
 
-// Crear carpetas
 fs.mkdirSync(OUT_DIR,  { recursive: true });
 fs.mkdirSync(PROD_DIR, { recursive: true });
 
@@ -48,13 +47,14 @@ const stores = db.prepare(`
   SELECT s.*,
     (SELECT COUNT(DISTINCT p.product_id) FROM prices p WHERE p.store_id = s.id
       AND date(p.scraped_at) = (SELECT MAX(date(scraped_at)) FROM prices WHERE store_id = s.id)
+      AND p.stock != 'out_of_stock'
     ) as products_today,
     (SELECT MAX(scraped_at) FROM prices p WHERE p.store_id = s.id) as last_scraped
   FROM stores s WHERE s.active = 1 ORDER BY s.rating DESC
 `).all();
 write(path.join(OUT_DIR, 'stores.json'), stores);
 
-// ── 3. Todos los productos con mejor precio ────────────────────────────────
+// ── 3. Todos los productos con mejor precio (solo con stock) ──────────────
 const latestDate = db.prepare(
   'SELECT MAX(date(scraped_at)) as d FROM prices'
 ).get()?.d;
@@ -68,17 +68,22 @@ const products = db.prepare(`
     s.id         as best_store_id,
     COUNT(DISTINCT p.store_id) as store_count
   FROM products pr
-  LEFT JOIN prices p ON p.product_id = pr.id AND date(p.scraped_at) = ?
-  LEFT JOIN stores s ON s.id = p.store_id
+  -- FIX: solo precios con stock disponible
+  JOIN prices p ON p.product_id = pr.id
+    AND date(p.scraped_at) = ?
+    AND p.stock != 'out_of_stock'
+  JOIN stores s ON s.id = p.store_id
   GROUP BY pr.id
   HAVING best_price IS NOT NULL
   ORDER BY best_price ASC
 `).all(latestDate || '').map(p => {
-  // Obtener precios por tienda para este producto
+  // Precios por tienda — solo con stock
   const storePrices = db.prepare(`
-    SELECT p2.store_id, s.name as store_name, p2.price, p2.product_url
+    SELECT p2.store_id, s.name as store_name, p2.price, p2.product_url, p2.stock
     FROM prices p2 JOIN stores s ON s.id = p2.store_id
-    WHERE p2.product_id = ? AND date(p2.scraped_at) = ?
+    WHERE p2.product_id = ?
+      AND date(p2.scraped_at) = ?
+      AND p2.stock != 'out_of_stock'
     ORDER BY p2.price ASC
   `).all(p.id, latestDate || '');
 
@@ -87,9 +92,9 @@ const products = db.prepare(`
 
   return {
     ...p,
-    tags:  p.tags  ? JSON.parse(p.tags)  : [],
+    tags:   p.tags ? JSON.parse(p.tags) : [],
     prices: pricesMap,
-    url: storePrices[0]?.product_url || null,
+    url:    storePrices[0]?.product_url || null,
   };
 });
 write(path.join(OUT_DIR, 'products.json'), products);
@@ -99,32 +104,38 @@ let detailCount = 0;
 const allProds = db.prepare('SELECT * FROM products').all();
 
 for (const p of allProds) {
+  // FIX: solo precios con stock en la página de detalle
   const prices = db.prepare(`
     SELECT p.*, s.name as store_name, s.url as store_url,
            s.full_url, s.rating as store_rating, s.review_count
     FROM prices p JOIN stores s ON s.id = p.store_id
-    WHERE p.product_id = ? AND date(p.scraped_at) = ?
+    WHERE p.product_id = ?
+      AND date(p.scraped_at) = ?
+      AND p.stock != 'out_of_stock'
     ORDER BY p.price ASC
   `).all(p.id, latestDate || '');
 
-  if (!prices.length) continue; // no exportar sin precios
+  // Si ninguna tienda tiene stock hoy, no exportar el producto
+  if (!prices.length) continue;
 
   const history = db.prepare(`
     SELECT p.store_id, s.name as store_name,
            date(p.scraped_at) as date, MIN(p.price) as price
     FROM prices p JOIN stores s ON s.id = p.store_id
-    WHERE p.product_id = ? AND p.scraped_at >= datetime('now', '-30 days')
+    WHERE p.product_id = ?
+      AND p.scraped_at >= datetime('now', '-30 days')
+      AND p.stock != 'out_of_stock'
     GROUP BY p.store_id, date(p.scraped_at)
     ORDER BY date ASC
   `).all(p.id);
 
   write(path.join(PROD_DIR, `${p.id}.json`), {
     ...p,
-    specs:   p.specs   ? JSON.parse(p.specs)   : null,
-    tags:    p.tags    ? JSON.parse(p.tags)     : [],
+    specs:   p.specs ? JSON.parse(p.specs) : null,
+    tags:    p.tags  ? JSON.parse(p.tags)  : [],
     prices,
     history,
-    scraped_at: latestDate
+    scraped_at: latestDate,
   });
   detailCount++;
 }
@@ -140,12 +151,12 @@ write(path.join(OUT_DIR, 'meta.json'), {
   generated_at:   new Date().toISOString(),
   total_products: products.length,
   total_stores:   stores.length,
-  last_runs:      lastRuns
+  last_runs:      lastRuns,
 });
 
 console.log(`\n✅ Exportación completa:`);
 console.log(`   ${categories.length} categorías`);
 console.log(`   ${stores.length} tiendas`);
-console.log(`   ${products.length} productos (índice)`);
-console.log(`   ${detailCount} productos (detalle)`);
+console.log(`   ${products.length} productos con stock (índice)`);
+console.log(`   ${detailCount} productos con stock (detalle)`);
 console.log(`   Fecha de datos: ${latestDate}`);
