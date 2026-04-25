@@ -9,12 +9,14 @@ const axios   = require('axios');
 const cheerio = require('cheerio');
 const { upsertProduct, upsertPrice, logScrape } = require('../db/database');
 const logger  = require('./logger');
+const { fetchIcecatData } = require('./icecat');
 
 // Configurar reintentos automáticos
 let axiosRetry;
 try { axiosRetry = require('axios-retry'); } catch(e) {}
 
 const TIMEOUT   = parseInt(process.env.SCRAPE_TIMEOUT   || 60000);
+const USE_ICECAT = process.env.USE_ICECAT !== 'false'; // activado por defecto
 const DELAY_MIN = parseInt(process.env.SCRAPE_DELAY_MIN || 800);
 const DELAY_MAX = parseInt(process.env.SCRAPE_DELAY_MAX || 2500);
 const MAX_RETRY = parseInt(process.env.SCRAPE_MAX_RETRIES || 3);
