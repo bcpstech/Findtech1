@@ -1,14 +1,7 @@
 /**
  * scripts/export-json.js
- * Lee la base de datos SQLite y genera archivos JSON en docs/data/
- * que el frontend de GitHub Pages consume directamente (sin backend).
- *
- * Genera:
- *   docs/data/categories.json
- *   docs/data/stores.json
- *   docs/data/products.json          ← solo productos con stock
- *   docs/data/products/{id}.json     ← detalle de cada producto
- *   docs/data/meta.json              ← fecha de última actualización
+ * DEDUPLICACIÓN: productos del mismo modelo físico se fusionan
+ * aunque vengan de tiendas distintas con nombres ligeramente diferentes.
  */
 
 require('dotenv').config();
@@ -18,15 +11,46 @@ const { getDb } = require('../db/database');
 
 const OUT_DIR  = path.join(__dirname, '../docs/data');
 const PROD_DIR = path.join(OUT_DIR, 'products');
-
 fs.mkdirSync(OUT_DIR,  { recursive: true });
 fs.mkdirSync(PROD_DIR, { recursive: true });
-
 const db = getDb();
 
 function write(filePath, data) {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), 'utf8');
   console.log(`✓ ${path.relative(process.cwd(), filePath)}`);
+}
+
+// ── Normalizador de modelo ────────────────────────────────────────────────
+const NOISE_WORDS = [
+  'placa madre','placa-madre','motherboard','mainboard',
+  'tarjeta de video','tarjeta grafica','tarjeta gráfica','tarjeta video',
+  'procesador','processor','memoria ram','memory ram','memoria',
+  'disco duro','disco solido','disco sólido','almacenamiento',
+  'fuente de poder','fuente poder','fuente de alimentacion',
+  'gabinete','case','torre','refrigeracion','refrigeración','cooler','disipador',
+  'm\\.b\\.','m\\.b','gpu','cpu','psu','ssd','hdd','nvme',
+  'wi-fi','wifi','wi fi','wireless',
+  'aura sync','aura','rgb','argb',
+  'micro-atx','micro atx','matx','mini-itx','mini itx','atx','eatx',
+  'am5','am4','lga1700','lga1851','lga1200','lga1151',
+  'ddr5','ddr4','ddr3','pcie 5\\.0','pcie 4\\.0','pcie 3\\.0','pcie','pcle',
+  'gen 5','gen 4','gen 3',
+  '\\(am5\\)','\\(am4\\)','\\(lga.*?\\)',
+  'quad-core','hexa-core','octa-core','dual-core',
+  'alta gama','gaming','gamer',
+];
+const NOISE_RE = new RegExp('(' + NOISE_WORDS.map(w => `\\b${w}\\b`).join('|') + ')','gi');
+
+function modelKey(name) {
+  return name
+    .toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g,'')
+    .replace(/[''"`]/g,'')
+    .replace(NOISE_RE,' ')
+    .replace(/\s*\(.*?\)\s*/g,' ')
+    .replace(/[^a-z0-9\-\.\/\s]/g,' ')
+    .replace(/\s+/g,' ').trim()
+    .split(' ').filter(w => w.length > 1).slice(0,4).join(' ');
 }
 
 // ── 1. Categorías ─────────────────────────────────────────────────────────
@@ -36,11 +60,9 @@ const categories = db.prepare(`
   FROM categories c WHERE c.parent_id IS NULL ORDER BY c.sort_order
 `).all().map(cat => ({
   ...cat,
-  subcategories: db.prepare(
-    'SELECT * FROM categories WHERE parent_id = ? ORDER BY sort_order'
-  ).all(cat.id)
+  subcategories: db.prepare('SELECT * FROM categories WHERE parent_id = ? ORDER BY sort_order').all(cat.id)
 }));
-write(path.join(OUT_DIR, 'categories.json'), categories);
+write(path.join(OUT_DIR,'categories.json'), categories);
 
 // ── 2. Tiendas ────────────────────────────────────────────────────────────
 const stores = db.prepare(`
@@ -52,70 +74,90 @@ const stores = db.prepare(`
     (SELECT MAX(scraped_at) FROM prices p WHERE p.store_id = s.id) as last_scraped
   FROM stores s WHERE s.active = 1 ORDER BY s.rating DESC
 `).all();
-write(path.join(OUT_DIR, 'stores.json'), stores);
+write(path.join(OUT_DIR,'stores.json'), stores);
 
-// ── 3. Todos los productos con mejor precio (solo con stock) ──────────────
-const latestDate = db.prepare(
-  'SELECT MAX(date(scraped_at)) as d FROM prices'
-).get()?.d;
+// ── 3. Fecha más reciente ─────────────────────────────────────────────────
+const latestDate = db.prepare('SELECT MAX(date(scraped_at)) as d FROM prices').get()?.d;
 
-const products = db.prepare(`
-  SELECT
-    pr.id, pr.category_id, pr.brand, pr.name, pr.slug,
-    pr.image_url, pr.tags, pr.updated_at,
-    MIN(p.price) as best_price,
-    s.name       as best_store_name,
-    s.id         as best_store_id,
-    COUNT(DISTINCT p.store_id) as store_count
-  FROM products pr
-  -- FIX: solo precios con stock disponible
-  JOIN prices p ON p.product_id = pr.id
-    AND date(p.scraped_at) = ?
-    AND p.stock != 'out_of_stock'
+// ── 4. Precios de hoy (solo in_stock) ────────────────────────────────────
+const todayPrices = db.prepare(`
+  SELECT p.product_id, p.store_id, p.price, p.price_normal,
+         p.discount_pct, p.stock, p.product_url, s.name as store_name
+  FROM prices p
   JOIN stores s ON s.id = p.store_id
-  GROUP BY pr.id
-  HAVING best_price IS NOT NULL
-  ORDER BY best_price ASC
-`).all(latestDate || '').map(p => {
-  // Precios por tienda — solo con stock
-  const storePrices = db.prepare(`
-    SELECT p2.store_id, s.name as store_name, p2.price, p2.product_url, p2.stock
-    FROM prices p2 JOIN stores s ON s.id = p2.store_id
-    WHERE p2.product_id = ?
-      AND date(p2.scraped_at) = ?
-      AND p2.stock != 'out_of_stock'
-    ORDER BY p2.price ASC
-  `).all(p.id, latestDate || '');
+  WHERE date(p.scraped_at) = ?
+    AND p.stock != 'out_of_stock'
+  ORDER BY p.price ASC
+`).all(latestDate || '');
 
+const pricesByProduct = {};
+for (const row of todayPrices) {
+  if (!pricesByProduct[row.product_id]) pricesByProduct[row.product_id] = [];
+  pricesByProduct[row.product_id].push(row);
+}
+
+// ── 5. Deduplicar por modelo ──────────────────────────────────────────────
+const rawProducts = db.prepare('SELECT * FROM products').all();
+const modelGroups = {};
+
+for (const p of rawProducts) {
+  const prices = pricesByProduct[p.id] || [];
+  if (!prices.length) continue;
+
+  const key = modelKey(p.name);
+  if (!key || key.length < 3) continue;
+
+  if (!modelGroups[key]) {
+    modelGroups[key] = { product: p, prices: [], minPrice: Infinity };
+  }
+  const group = modelGroups[key];
+
+  for (const pr of prices) {
+    const existing = group.prices.find(x => x.store_id === pr.store_id);
+    if (!existing) {
+      group.prices.push(pr);
+    } else if (pr.price < existing.price) {
+      Object.assign(existing, pr);
+    }
+  }
+
+  const groupMin = Math.min(...group.prices.map(x => x.price));
+  if (groupMin < group.minPrice) {
+    group.minPrice = groupMin;
+    group.product  = p;
+  }
+}
+
+// ── 6. Índice de productos ────────────────────────────────────────────────
+const products = Object.values(modelGroups).map(({ product: p, prices }) => {
+  prices.sort((a,b) => a.price - b.price);
+  const best = prices[0];
   const pricesMap = {};
-  storePrices.forEach(row => { pricesMap[row.store_id] = row.price; });
-
+  prices.forEach(r => { pricesMap[r.store_id] = r.price; });
   return {
-    ...p,
-    tags:   p.tags ? JSON.parse(p.tags) : [],
-    prices: pricesMap,
-    url:    storePrices[0]?.product_url || null,
+    id:              p.id,
+    category_id:     p.category_id,
+    brand:           p.brand,
+    name:            p.name,
+    slug:            p.slug,
+    image_url:       p.image_url,
+    tags:            p.tags  ? JSON.parse(p.tags)  : [],
+    updated_at:      p.updated_at,
+    best_price:      best.price,
+    best_store_name: best.store_name,
+    best_store_id:   best.store_id,
+    store_count:     prices.length,
+    prices:          pricesMap,
+    url:             best.product_url || null,
   };
-});
-write(path.join(OUT_DIR, 'products.json'), products);
+}).sort((a,b) => a.best_price - b.best_price);
 
-// ── 4. Detalle de cada producto ───────────────────────────────────────────
+write(path.join(OUT_DIR,'products.json'), products);
+console.log(`   → ${products.length} productos únicos (de ${rawProducts.length} en DB)`);
+
+// ── 7. Detalle por producto ───────────────────────────────────────────────
 let detailCount = 0;
-const allProds = db.prepare('SELECT * FROM products').all();
-
-for (const p of allProds) {
-  // FIX: solo precios con stock en la página de detalle
-  const prices = db.prepare(`
-    SELECT p.*, s.name as store_name, s.url as store_url,
-           s.full_url, s.rating as store_rating, s.review_count
-    FROM prices p JOIN stores s ON s.id = p.store_id
-    WHERE p.product_id = ?
-      AND date(p.scraped_at) = ?
-      AND p.stock != 'out_of_stock'
-    ORDER BY p.price ASC
-  `).all(p.id, latestDate || '');
-
-  // Si ninguna tienda tiene stock hoy, no exportar el producto
+for (const { product: p, prices } of Object.values(modelGroups)) {
   if (!prices.length) continue;
 
   const history = db.prepare(`
@@ -129,24 +171,34 @@ for (const p of allProds) {
     ORDER BY date ASC
   `).all(p.id);
 
+  const enrichedPrices = prices.map(pr => {
+    const storeRow = stores.find(s => s.id === pr.store_id);
+    return {
+      ...pr,
+      store_rating:  storeRow?.rating       || 0,
+      review_count:  storeRow?.review_count || 0,
+      store_url:     storeRow?.url          || '',
+      full_url:      storeRow?.full_url     || '',
+    };
+  });
+
   write(path.join(PROD_DIR, `${p.id}.json`), {
     ...p,
-    specs:   p.specs ? JSON.parse(p.specs) : null,
-    tags:    p.tags  ? JSON.parse(p.tags)  : [],
-    prices,
+    specs:      p.specs  ? JSON.parse(p.specs)  : null,
+    tags:       p.tags   ? JSON.parse(p.tags)   : [],
+    prices:     enrichedPrices,
     history,
     scraped_at: latestDate,
   });
   detailCount++;
 }
 
-// ── 5. Meta ───────────────────────────────────────────────────────────────
-const lastRuns = db.prepare(`
-  SELECT store_id, status, products_updated, errors_count, finished_at
-  FROM scrape_logs ORDER BY started_at DESC LIMIT 10
-`).all();
+// ── 8. Meta ───────────────────────────────────────────────────────────────
+const lastRuns = db.prepare(
+  'SELECT store_id, status, products_updated, errors_count, finished_at FROM scrape_logs ORDER BY started_at DESC LIMIT 20'
+).all();
 
-write(path.join(OUT_DIR, 'meta.json'), {
+write(path.join(OUT_DIR,'meta.json'), {
   last_update:    latestDate,
   generated_at:   new Date().toISOString(),
   total_products: products.length,
@@ -157,6 +209,6 @@ write(path.join(OUT_DIR, 'meta.json'), {
 console.log(`\n✅ Exportación completa:`);
 console.log(`   ${categories.length} categorías`);
 console.log(`   ${stores.length} tiendas`);
-console.log(`   ${products.length} productos con stock (índice)`);
-console.log(`   ${detailCount} productos con stock (detalle)`);
-console.log(`   Fecha de datos: ${latestDate}`);
+console.log(`   ${products.length} productos únicos`);
+console.log(`   ${detailCount} productos con detalle`);
+console.log(`   Fecha: ${latestDate}`);
