@@ -5,8 +5,7 @@
 const BaseScraper = require('../base-scraper');
 const cheerio = require('cheerio');
 
-const BASE_URL = 'https://n1g.cl';
-
+const BASE_URL     = 'https://n1g.cl';
 const PROXY_URL    = process.env.CF_PROXY_URL    || '';
 const PROXY_SECRET = process.env.CF_PROXY_SECRET || '';
 
@@ -18,26 +17,18 @@ function getUrl(targetUrl) {
 }
 
 const CATEGORIES = [
-  // GPU — subcategorías específicas
-  { url: '/Home/111-amd',                             catId: 'gpu',     minPrice: 80000  },
-  { url: '/Home/110-nvidia',                          catId: 'gpu',     minPrice: 80000  },
-  // CPU — subcategorías AMD e Intel
-  { url: '/Home/71-amd-cpu',                          catId: 'cpu',     minPrice: 20000  },
-  { url: '/Home/72-intel-cpu',                        catId: 'cpu',     minPrice: 20000  },
-  // Placas Madre
-  { url: '/Home/33-placas-madre',                     catId: 'mobo',    minPrice: 30000  },
-  // RAM
-  { url: '/Home/27-memorias',                         catId: 'ram',     minPrice: 10000  },
-  // Almacenamiento
-  { url: '/Home/22-almacenamiento',                   catId: 'storage', minPrice: 10000  },
-  // Refrigeración
-  { url: '/Home/35-refrigeracion',                    catId: 'cooling', minPrice: 8000   },
-  // Fuentes — subcategorías específicas
-  { url: '/Home/57-fuentes-certificadas-modular',     catId: 'psu',     minPrice: 25000  },
-  { url: '/Home/58-fuentes-certificadas-no-modular',  catId: 'psu',     minPrice: 20000  },
-  { url: '/Home/23-fuentes-de-poder',                 catId: 'psu',     minPrice: 20000  },
-  // Gabinetes — precio mínimo filtra accesorios
-  { url: '/Home/24-gabinetes',                        catId: 'case',    minPrice: 25000  },
+  { url: '/Home/111-amd',                            catId: 'gpu',     minPrice: 80000  },
+  { url: '/Home/110-nvidia',                         catId: 'gpu',     minPrice: 80000  },
+  { url: '/Home/71-amd-cpu',                         catId: 'cpu',     minPrice: 20000  },
+  { url: '/Home/72-intel-cpu',                       catId: 'cpu',     minPrice: 20000  },
+  { url: '/Home/33-placas-madre',                    catId: 'mobo',    minPrice: 30000  },
+  { url: '/Home/27-memorias',                        catId: 'ram',     minPrice: 10000  },
+  { url: '/Home/22-almacenamiento',                  catId: 'storage', minPrice: 10000  },
+  { url: '/Home/35-refrigeracion',                   catId: 'cooling', minPrice: 8000   },
+  { url: '/Home/57-fuentes-certificadas-modular',    catId: 'psu',     minPrice: 25000  },
+  { url: '/Home/58-fuentes-certificadas-no-modular', catId: 'psu',     minPrice: 20000  },
+  { url: '/Home/23-fuentes-de-poder',                catId: 'psu',     minPrice: 20000  },
+  { url: '/Home/24-gabinetes',                       catId: 'case',    minPrice: 25000  },
 ];
 
 const EXCLUDE_KEYWORDS = [
@@ -49,7 +40,35 @@ const EXCLUDE_KEYWORDS = [
   'ventilador', 'fan ', ' fan', 'rgb strip', 'tira led',
 ];
 
+// Frases PrestaShop que indican sin stock
+const OUT_OF_STOCK_PHRASES = [
+  'sin stock', 'agotado', 'out of stock', 'no disponible',
+  'sold out', 'unavailable', 'no hay stock',
+];
+
 const CARD_SURCHARGE = 1.03;
+
+function detectStock($el) {
+  // Clase específica de PrestaShop para sin stock
+  if ($el.find('.product-unavailable').length) return 'out_of_stock';
+
+  // Otras clases comunes
+  if ($el.find('.out-of-stock, .product-out-of-stock, .label-out-of-stock').length) {
+    return 'out_of_stock';
+  }
+
+  // Texto de disponibilidad
+  const availText = $el.find(
+    '.availability, .product-availability, [class*="stock"], .label-danger, .availability-ooc'
+  ).text().toLowerCase();
+  if (OUT_OF_STOCK_PHRASES.some(p => availText.includes(p))) return 'out_of_stock';
+
+  // Texto completo del card
+  const fullText = $el.text().toLowerCase();
+  if (OUT_OF_STOCK_PHRASES.some(p => fullText.includes(p))) return 'out_of_stock';
+
+  return 'in_stock';
+}
 
 class N1GScraper extends BaseScraper {
   constructor() { super('n1g', 'N1G'); }
@@ -105,22 +124,19 @@ class N1GScraper extends BaseScraper {
             const $el = $(el);
             const productUrl = $el.find('h3.product-title a, h3.h3.product-title a').attr('href')
                             || $el.find('a').first().attr('href') || '';
-
-            // FIX: era "return" — cortaba toda la categoría al ver una URL repetida
             if (this.seenUrls.has(productUrl)) continue;
             this.seenUrls.add(productUrl);
 
             const name = $el.find('h3.product-title a, h3.h3.product-title a').text().trim();
-
-            // FIX: era "return" — cortaba toda la categoría si un item no tenía nombre
             if (!name || name.length < 3) continue;
             if (this.isExcluded(name)) continue;
 
             const priceRaw = $el.find('.price').first().text().trim();
             const price = this.parseN1GPrice(priceRaw);
-
-            // FIX: era "return" — cortaba toda la categoría si un item no tenía precio
             if (!price || price < minPrice) continue;
+
+            // FIX: detección robusta de stock
+            const stock = detectStock($el);
 
             const oldRaw = $el.find('.regular-price, .old-price').first().text().trim();
             const regularPrice = oldRaw ? this.parseN1GPrice(oldRaw) : null;
@@ -149,12 +165,11 @@ class N1GScraper extends BaseScraper {
                 current:  price,
                 normal:   regularPrice > price ? regularPrice : null,
                 discount: regularPrice > price ? Math.round((1 - price / regularPrice) * 100) : null,
-                stock:    $el.find('.product-unavailable').length ? 'out_of_stock' : 'in_stock',
+                stock,    // FIX: valor real
                 url:      productUrl || null,
               }
             );
           } catch (err) {
-            // FIX: continue implícito — error en un item no para la página
             this.log('warn', `[n1g] Error item: ${err.message}`);
           }
         }
