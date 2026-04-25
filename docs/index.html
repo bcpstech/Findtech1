@@ -1604,30 +1604,12 @@ async function openDetail(id) {
   currentOpinionProduct = p;
   _prevPage = currentPage;
 
-  // Mostrar página primero con datos básicos
-  showPage('detail');
-  window.scrollTo(0, 0);
-
-  // Cargar detalle completo desde products/{id}.json
-  try {
-    const res = await fetch(`${DATA_BASE}/products/${id}.json?t=${Date.now()}`);
-    if (res.ok) {
-      const detail = await res.json();
-      // Enriquecer el producto con datos del detalle
-      p.specs   = detail.specs   || p.specs   || {};
-      p.prices  = detail.prices  || p.prices  || {};
-      p._allPrices = detail.prices || [];
-    }
-  } catch(e) {
-    console.warn('[FindTech] No se pudo cargar detalle:', e.message);
-  }
-
   const cat = CATS[p.category] || { icon: '📦', name: p.category };
 
   // Imagen
   const imgEl = document.getElementById('detail-img');
-  imgEl.innerHTML = p.imageUrl
-    ? `<img src="${p.imageUrl}" alt="${p.name}" onerror="this.style.display='none'">`
+  imgEl.innerHTML = p.image_url
+    ? `<img src="${p.image_url}" alt="${p.name}" onerror="this.style.display='none'">`
     : `<div class="emoji">${cat.icon}</div>`;
 
   // Info básica
@@ -1635,85 +1617,105 @@ async function openDetail(id) {
   document.getElementById('detail-name').textContent = p.name;
   document.getElementById('detail-cat').textContent = cat.icon + ' ' + cat.name;
 
-  // Precios por tienda — usar _allPrices si está disponible (del JSON detalle)
+  // Precios placeholder mientras carga
   const pricesEl = document.getElementById('detail-prices');
-  const allPrices = p._allPrices;
+  pricesEl.innerHTML = '<div style="padding:20px;color:var(--text3);text-align:center">Cargando precios...</div>';
 
-  if (allPrices && allPrices.length) {
-    // Datos completos desde products/{id}.json
-    const bestPrice = Math.min(...allPrices.map(x => x.price));
-    pricesEl.innerHTML = allPrices.map(row => {
-      const isBest = row.price === bestPrice;
-      const specs = p.specs || {};
-      // Obtener labels de precio desde specs del producto
-      const cashKey = Object.keys(specs).find(k =>
-        k.toLowerCase().includes('efectivo') || k.toLowerCase().includes('transferencia'));
-      const cardKey = Object.keys(specs).find(k =>
-        k.toLowerCase().includes('tarjeta') || k.toLowerCase().includes('webpay') || k.toLowerCase().includes('crédito'));
-      const cashLabel = cashKey || 'Efectivo / Transferencia';
-      const cardLabel = cardKey || 'Webpay / Tarjeta';
-      const cardPrice = Math.round(row.price * 1.0526);
-      const cardVal = cardKey ? specs[cardKey] : '$' + cardPrice.toLocaleString('es-CL');
+  // Mostrar página
+  showPage('detail');
+  window.scrollTo(0, 0);
 
-      return `<div class="detail-price-row${isBest ? ' best-row' : ''}">
-        <div class="dpr-store">
-          <span class="dpr-store-name">${row.store_name}${isBest ? '<span class="dpr-best-badge">MEJOR PRECIO</span>' : ''}</span>
-        </div>
-        <div class="dpr-methods">
-          <span class="dpr-cash-label">${cashLabel}</span>
-          <span class="dpr-cash">$${row.price.toLocaleString('es-CL')}</span>
-          <span class="dpr-card-label">${cardLabel}</span>
-          <span class="dpr-card">${cardVal}</span>
-        </div>
-        ${row.product_url ? `<a class="dpr-link" href="${row.product_url}" target="_blank">Ir a tienda →</a>` : ''}
-      </div>`;
-    }).join('');
-  } else {
-    // Fallback: usar datos básicos del índice
-    const fallbackPrices = [];
-    if (p._bestPrice) fallbackPrices.push({ store_name: p._bestStoreName || p._bestStoreId, price: p._bestPrice, product_url: p.url });
-    if (fallbackPrices.length) {
-      pricesEl.innerHTML = fallbackPrices.map(row => `
-        <div class="detail-price-row best-row">
-          <div class="dpr-store"><span class="dpr-store-name">${row.store_name}<span class="dpr-best-badge">MEJOR PRECIO</span></span></div>
-          <div class="dpr-methods">
-            <span class="dpr-cash-label">Efectivo / Transferencia</span>
-            <span class="dpr-cash">$${row.price.toLocaleString('es-CL')}</span>
+  // Cargar detalle completo
+  try {
+    const res = await fetch(`./data/products/${id}.json?t=${Date.now()}`);
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const detail = await res.json();
+
+    // Renderizar precios desde el array prices
+    const prices = detail.prices || [];
+    if (prices.length) {
+      const bestPrice = Math.min(...prices.map(x => x.price));
+      pricesEl.innerHTML = prices.map(row => {
+        const isBest = row.price === bestPrice;
+        const cardPrice = Math.round(row.price * 1.055);
+        // Obtener labels desde specs del producto
+        const specs = detail.specs || {};
+        const cashKey = Object.keys(specs).find(k =>
+          k.toLowerCase().includes('efectivo') || k.toLowerCase().includes('transferencia'));
+        const cardKey = Object.keys(specs).find(k =>
+          k.toLowerCase().includes('tarjeta') || k.toLowerCase().includes('webpay') || k.toLowerCase().includes('crédito'));
+        const cashLabel = cashKey || 'Efectivo / Transferencia';
+        const cardLabel = cardKey || 'Webpay / Tarjeta';
+        const cashVal = cashKey ? specs[cashKey] : '$' + row.price.toLocaleString('es-CL');
+        const cardVal = cardKey ? specs[cardKey] : '$' + cardPrice.toLocaleString('es-CL');
+        const stars = row.store_rating ? '⭐'.repeat(Math.round(row.store_rating)) : '';
+
+        return `<div class="detail-price-row${isBest ? ' best-row' : ''}">
+          <div class="dpr-store">
+            <span class="dpr-store-name">${row.store_name}${isBest ? '<span class="dpr-best-badge">MEJOR PRECIO</span>' : ''}</span>
+            <span style="font-size:11px;color:var(--text3)">${stars} ${row.store_rating ? row.store_rating + '/5' : ''}</span>
           </div>
-          ${row.product_url ? `<a class="dpr-link" href="${row.product_url}" target="_blank">Ir a tienda →</a>` : ''}
-        </div>`).join('');
+          <div class="dpr-methods">
+            <span class="dpr-cash-label">${cashLabel}</span>
+            <span class="dpr-cash">$${row.price.toLocaleString('es-CL')}</span>
+            <span class="dpr-card-label">${cardLabel}</span>
+            <span class="dpr-card">${cardVal}</span>
+          </div>
+          ${row.product_url ? `<a class="dpr-link" href="${row.product_url}" target="_blank">Ir →</a>` : ''}
+        </div>`;
+      }).join('');
     } else {
-      pricesEl.innerHTML = '<div style="padding:20px;color:var(--text3);text-align:center">Cargando precios...</div>';
+      pricesEl.innerHTML = '<div style="padding:20px;color:var(--text3);text-align:center">Sin precios disponibles</div>';
     }
-  }
 
-  // Specs
-  const specs = p.specs || {};
-  const specKeys = Object.keys(specs).filter(k =>
-    !k.toLowerCase().includes('efectivo') &&
-    !k.toLowerCase().includes('tarjeta') &&
-    !k.toLowerCase().includes('webpay') &&
-    !k.toLowerCase().includes('transferencia')
-  );
-  const specsBox = document.getElementById('detail-specs-box');
-  const specsGrid = document.getElementById('detail-specs-grid');
-  if (specKeys.length) {
-    specsGrid.innerHTML = specKeys.map(k =>
-      `<div class="detail-spec-item">
-        <div class="detail-spec-key">${k}</div>
-        <div class="detail-spec-val">${specs[k]}</div>
-      </div>`
-    ).join('');
-    specsBox.style.display = '';
-  } else {
-    specsBox.style.display = 'none';
-  }
+    // Specs (excluir precios)
+    const specs = detail.specs || {};
+    const specKeys = Object.keys(specs).filter(k =>
+      !k.toLowerCase().includes('efectivo') &&
+      !k.toLowerCase().includes('tarjeta') &&
+      !k.toLowerCase().includes('webpay') &&
+      !k.toLowerCase().includes('transferencia') &&
+      !k.toLowerCase().includes('crédito')
+    );
+    const specsBox = document.getElementById('detail-specs-box');
+    const specsGrid = document.getElementById('detail-specs-grid');
+    if (specKeys.length) {
+      specsGrid.innerHTML = specKeys.map(k =>
+        `<div class="detail-spec-item">
+          <div class="detail-spec-key">${k}</div>
+          <div class="detail-spec-val">${specs[k]}</div>
+        </div>`
+      ).join('');
+      specsBox.style.display = '';
+    } else {
+      specsBox.style.display = 'none';
+    }
 
-  // Actualizar vista con datos enriquecidos
-  renderDetailPrices(p);
-  renderDetailSpecs(p);
+    // Actualizar imagen si viene del detalle
+    if (detail.image_url && !p.image_url) {
+      imgEl.innerHTML = `<img src="${detail.image_url}" alt="${detail.name}" onerror="this.style.display='none'">`;
+    }
+
+    // Guardar para el formulario de opinión
+    currentOpinionProduct = { ...p, ...detail };
+
+  } catch(err) {
+    console.warn('[FindTech] Error cargando detalle:', err.message);
+    // Fallback con datos del índice
+    if (p._bestPrice) {
+      pricesEl.innerHTML = `<div class="detail-price-row best-row">
+        <div class="dpr-store"><span class="dpr-store-name">${p.best_store_name || p._bestStoreId}<span class="dpr-best-badge">MEJOR PRECIO</span></span></div>
+        <div class="dpr-methods">
+          <span class="dpr-cash-label">Efectivo / Transferencia</span>
+          <span class="dpr-cash">$${p.best_price?.toLocaleString('es-CL') || p._bestPrice?.toLocaleString('es-CL')}</span>
+        </div>
+      </div>`;
+    } else {
+      pricesEl.innerHTML = '<div style="padding:20px;color:var(--text3);text-align:center">Sin precios disponibles</div>';
+    }
+    document.getElementById('detail-specs-box').style.display = 'none';
+  }
 }
-
 function renderDetailPrices(p) {
   // Re-renderizar precios después de cargar detalle
   const pricesEl = document.getElementById('detail-prices');
