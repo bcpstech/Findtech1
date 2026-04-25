@@ -1,46 +1,42 @@
 /**
  * scraper/stores/pcexpress.js
- * OpenCart — categorías específicas por path
- * Los productos cargan vía JS en el browser, pero la búsqueda devuelve HTML estático
+ * PC-Express OpenCart — los productos cargan via JS en browser
+ * Solución: usar endpoint de búsqueda que sí devuelve HTML estático con productos
+ * Verificado: fetch('/route=product/search&search=procesador') devuelve $24.900 y 259 elementos
  */
 const BaseScraper = require('../base-scraper');
 const cheerio = require('cheerio');
 
 const BASE_URL = 'https://tienda.pc-express.cl';
 
-// Categorías específicas verificadas — sin accesorios
-const CATEGORIES = [
+// Búsquedas específicas por categoría — verificado que devuelve HTML estático
+const SEARCHES = [
   // GPU
-  { path: '460_475_158', catId: 'gpu'     }, // AMD Radeon
-  { path: '460_475_159', catId: 'gpu'     }, // NVIDIA Gamer
-  { path: '460_475_602', catId: 'gpu'     }, // Intel Arc
+  { query: 'tarjeta video nvidia rtx',    catId: 'gpu',     minPrice: 80000  },
+  { query: 'tarjeta video radeon rx',     catId: 'gpu',     minPrice: 80000  },
   // CPU
-  { path: '460_473_367', catId: 'cpu'     }, // AMD AM4
-  { path: '460_473_591', catId: 'cpu'     }, // AMD TR5
-  { path: '460_473_583', catId: 'cpu'     }, // Intel s1200
-  { path: '460_473_588', catId: 'cpu'     }, // Intel s1700
-  { path: '460_473_600', catId: 'cpu'     }, // Intel s1851
+  { query: 'procesador ryzen amd',        catId: 'cpu',     minPrice: 20000  },
+  { query: 'procesador core intel',       catId: 'cpu',     minPrice: 20000  },
   // Placas Madre
-  { path: '460_472_369', catId: 'mobo'    }, // AMD AM4
-  { path: '460_472_590', catId: 'mobo'    }, // AMD AM5
-  { path: '460_472_584', catId: 'mobo'    }, // Intel s1200
-  { path: '460_472_589', catId: 'mobo'    }, // Intel s1700
-  { path: '460_472_599', catId: 'mobo'    }, // Intel s1851
+  { query: 'placa madre am5',             catId: 'mobo',    minPrice: 30000  },
+  { query: 'placa madre am4',             catId: 'mobo',    minPrice: 30000  },
+  { query: 'placa madre intel lga',       catId: 'mobo',    minPrice: 30000  },
   // RAM
-  { path: '72_126',      catId: 'ram'     }, // Memorias PC
-  // Almacenamiento
-  { path: '62_331_406',  catId: 'storage' }, // SSD M.2
-  { path: '62_331_407',  catId: 'storage' }, // SSD SATA
-  { path: '62_331_408',  catId: 'storage' }, // SSD NVMe PCIe
-  { path: '62_413_101',  catId: 'storage' }, // HDD PC
-  // Fuentes
-  { path: '460_461_118', catId: 'psu'     }, // Estándar
-  { path: '460_461_279', catId: 'psu'     }, // Certificadas
-  // Gabinetes
-  { path: '460_462_119', catId: 'case'    }, // Básicos
-  { path: '460_462_120', catId: 'case'    }, // Gamer
-  // Refrigeración
-  { path: '460_473_169', catId: 'cooling' }, // Ventilación CPU
+  { query: 'memoria ram ddr5',            catId: 'ram',     minPrice: 15000  },
+  { query: 'memoria ram ddr4',            catId: 'ram',     minPrice: 10000  },
+  // Storage
+  { query: 'ssd nvme m2 pcie',            catId: 'storage', minPrice: 15000  },
+  { query: 'ssd sata 2.5',               catId: 'storage', minPrice: 10000  },
+  { query: 'disco duro interno 3.5',      catId: 'storage', minPrice: 20000  },
+  // PSU
+  { query: 'fuente poder 80 plus',        catId: 'psu',     minPrice: 20000  },
+  { query: 'fuente poder certificada',    catId: 'psu',     minPrice: 20000  },
+  // Case
+  { query: 'gabinete atx gamer',          catId: 'case',    minPrice: 20000  },
+  { query: 'gabinete torre mid',          catId: 'case',    minPrice: 20000  },
+  // Cooling
+  { query: 'refrigeracion liquida aio',   catId: 'cooling', minPrice: 30000  },
+  { query: 'cooler cpu disipador',        catId: 'cooling', minPrice: 8000   },
 ];
 
 const CARD_SURCHARGE = 1.03;
@@ -50,24 +46,23 @@ class PCExpressScraper extends BaseScraper {
 
   async scrapeAll() {
     this.seenUrls = new Set();
-    for (const cat of CATEGORIES) {
+    for (const cat of SEARCHES) {
       try {
-        await this.scrapeCategory(cat);
-        await this.delay(1500, 2500);
+        await this.scrapeSearch(cat);
+        await this.delay(2000, 3000);
       } catch (err) {
         this.stats.errors++;
-        this.log('warn', `Error ${cat.catId} (${cat.path}): ${err.message}`);
+        this.log('warn', `Error ${cat.catId} "${cat.query}": ${err.message}`);
       }
     }
   }
 
-  async scrapeCategory({ path, catId }) {
+  async scrapeSearch({ query, catId, minPrice }) {
     let page = 1;
 
-    while (page <= 10) {
-      // Intentar con el endpoint de búsqueda por categoría
-      const url = `${BASE_URL}/index.php?route=product/category&path=${path}&limit=100&sort=p.price&order=ASC&page=${page}`;
-      this.log('info', `[pcx] ${catId} path=${path} pág ${page}`);
+    while (page <= 5) {
+      const url = `${BASE_URL}/index.php?route=product/search&search=${encodeURIComponent(query)}&sort=p.price&order=ASC&limit=50&page=${page}`;
+      this.log('info', `[pcx] ${catId} "${query}" pág ${page}`);
 
       try {
         const res = await this.client.get(url, {
@@ -80,99 +75,69 @@ class PCExpressScraper extends BaseScraper {
         });
 
         const $ = cheerio.load(res.data);
-
-        // Intentar múltiples selectores de OpenCart
-        let items = $('.product-layout');
-        if (!items.length) items = $('.product-thumb');
-        if (!items.length) items = $('[class*="product-layout"]');
-
         let newInPage = 0;
 
-        if (items.length) {
-          items.each((_, el) => {
-            try {
-              const $el = $(el);
-              const productUrl = $el.find('a[href*="product_id"]').first().attr('href') || '';
-              if (!productUrl) return;
-              if (this.seenUrls.has(productUrl)) return;
-              this.seenUrls.add(productUrl);
-
-              const name = $el.find('h4 a, .caption h4 a').first().text().trim()
-                        || $el.find('img').first().attr('alt') || '';
-              if (!name || name.length < 3) return;
-
-              const priceRaw = $el.find('.price-new').first().text().trim()
-                            || $el.find('.price').first().text().trim();
-              const price = this.parsePrice(priceRaw);
-              if (!price || price < 1000) return;
-
-              const priceOldRaw = $el.find('.price-old').first().text().trim();
-              const regularPrice = priceOldRaw ? this.parsePrice(priceOldRaw) : null;
-              const priceCard = Math.round(price * CARD_SURCHARGE);
-              const imageUrl = $el.find('img').first().attr('src') || null;
-
-              this.stats.found++;
-              newInPage++;
-              this.saveProduct(
-                { name, category: catId, brand: this.extractBrand(name), imageUrl,
-                  specs: {
-                    'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
-                    'Tarjeta crédito/débito': `$${priceCard.toLocaleString('es-CL')}`,
-                  }
-                },
-                { current: price, normal: regularPrice > price ? regularPrice : null,
-                  discount: regularPrice > price ? Math.round((1-price/regularPrice)*100) : null,
-                  stock: 'in_stock', url: productUrl }
-              );
-            } catch(e) { this.log('warn', `[pcx] Error item: ${e.message}`); }
-          });
-
-          this.log('info', `[pcx] ✓ ${catId} path=${path} pág ${page}: ${newInPage} nuevos`);
-          if (items.length < 100) break;
-
-        } else {
-          // Fallback: buscar h4 con links directos a productos
-          $('h4 a[href*="product_id"]').each((_, el) => {
+        // Buscar todos los links a productos con su contexto
+        $('a[href*="product_id="]').each((_, el) => {
+          try {
             const $a = $(el);
             const productUrl = $a.attr('href') || '';
             if (this.seenUrls.has(productUrl)) return;
+
+            // Obtener nombre — puede estar en el link mismo o en un h4 cercano
+            let pname = $a.text().trim();
+            if (!pname || pname.length < 5) {
+              pname = $a.closest('div').find('h4').first().text().trim() || '';
+            }
+            if (!pname || pname.length < 5) return;
+
+            // Buscar precio en el contenedor más cercano
+            const $container = $a.closest('.product-layout, .product-thumb, div[class*="product"]').first()
+                            || $a.closest('div').parent();
+
+            let priceRaw = $container.find('.price-new, .price').first().text().trim();
+            if (!priceRaw) {
+              // Buscar precio en el contexto más amplio
+              const $parent = $a.parent();
+              priceRaw = $parent.find('[class*="price"]').first().text().trim()
+                      || $parent.parent().find('[class*="price"]').first().text().trim();
+            }
+
+            const price = this.parsePrice(priceRaw);
+            if (!price || price < (minPrice || 5000)) return;
+
             this.seenUrls.add(productUrl);
 
-            const name = $a.text().trim();
-            if (!name || name.length < 3) return;
-
-            const $container = $a.closest('div');
-            const priceRaw = $container.find('[class*="price"]').first().text().trim();
-            const price = this.parsePrice(priceRaw);
-            if (!price || price < 1000) return;
-
+            const priceOldRaw = $container.find('.price-old').first().text().trim();
+            const regularPrice = priceOldRaw ? this.parsePrice(priceOldRaw) : null;
             const priceCard = Math.round(price * CARD_SURCHARGE);
             const imageUrl = $container.find('img').first().attr('src') || null;
 
             this.stats.found++;
             newInPage++;
             this.saveProduct(
-              { name, category: catId, brand: this.extractBrand(name), imageUrl,
+              { name: pname, category: catId, brand: this.extractBrand(pname), imageUrl,
                 specs: {
                   'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
                   'Tarjeta crédito/débito': `$${priceCard.toLocaleString('es-CL')}`,
                 }
               },
-              { current: price, normal: null, discount: null,
+              { current: price,
+                normal: regularPrice > price ? regularPrice : null,
+                discount: regularPrice > price ? Math.round((1-price/regularPrice)*100) : null,
                 stock: 'in_stock', url: productUrl }
             );
-          });
+          } catch(e) {}
+        });
 
-          this.log('info', `[pcx] ✓ ${catId} path=${path} pág ${page}: ${newInPage} (fallback)`);
-          if (!newInPage) break;
-        }
-
+        this.log('info', `[pcx] ✓ "${query}" pág ${page}: ${newInPage} nuevos`);
+        if (newInPage === 0) break;
         page++;
-        await this.delay(1000, 2000);
+        await this.delay(1500, 2500);
 
       } catch (err) {
         this.stats.errors++;
-        this.log('warn', `[pcx] Error HTTP path=${path} pág ${page}: ${err.message}`);
+        this.log('warn', `[pcx] Error HTTP "${query}" pág ${page}: ${err.message}`);
         break;
       }
     }
