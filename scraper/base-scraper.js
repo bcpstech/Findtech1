@@ -104,6 +104,101 @@ class BaseScraper {
     }
   }
 
+  /**
+   * Extrae specs técnicas de una página de detalle HTML (PrestaShop / OpenCart / WooCommerce)
+   * Retorna objeto {key: value} o {} si no encuentra nada útil
+   */
+  async fetchProductSpecs(productUrl, proxify) {
+    if (!productUrl) return {};
+    try {
+      const fetchUrl = proxify ? proxify(productUrl) : productUrl;
+      const res = await this.client.get(fetchUrl, { timeout: 20000 });
+      const $ = cheerio.load(res.data);
+      const specs = {};
+
+      // ── PrestaShop: tabla de características ────────────────────────────
+      // #product-details .product-features, .product-manufacturer
+      $('section.product-features dl.data-sheet dt, .product-features .name').each((_, el) => {
+        const key = $(el).text().trim();
+        const val = $(el).next('dd, .value').text().trim();
+        if (key && val && key.length < 60 && val.length < 120) specs[key] = val;
+      });
+
+      // PrestaShop alternativo: table rows
+      if (!Object.keys(specs).length) {
+        $('table.table-data-sheet tr, .features-table tr, #product-features tr').each((_, el) => {
+          const cols = $(el).find('td, th');
+          if (cols.length >= 2) {
+            const key = $(cols[0]).text().trim();
+            const val = $(cols[1]).text().trim();
+            if (key && val && key.length < 60 && val.length < 120) specs[key] = val;
+          }
+        });
+      }
+
+      // ── WooCommerce: tabla de especificaciones ───────────────────────────
+      if (!Object.keys(specs).length) {
+        $('table.woocommerce-product-attributes tr, .shop_attributes tr').each((_, el) => {
+          const key = $(el).find('th').text().trim();
+          const val = $(el).find('td').text().trim().replace(/\s+/g, ' ');
+          if (key && val && key.length < 60 && val.length < 120) specs[key] = val;
+        });
+      }
+
+      // ── OpenCart: specs en divs/dl ───────────────────────────────────────
+      if (!Object.keys(specs).length) {
+        $('dl.dl-horizontal dt, .spec-name, [class*="spec"] dt').each((_, el) => {
+          const key = $(el).text().trim();
+          const val = $(el).next('dd, .spec-value').text().trim();
+          if (key && val && key.length < 60 && val.length < 120) specs[key] = val;
+        });
+      }
+
+      // ── Genérico: cualquier tabla con 2 columnas que parezca specs ───────
+      if (!Object.keys(specs).length) {
+        $('table tr').each((_, el) => {
+          const cols = $(el).find('td');
+          if (cols.length === 2) {
+            const key = $(cols[0]).text().trim();
+            const val = $(cols[1]).text().trim();
+            if (key && val && key.length < 50 && val.length < 100 &&
+                !key.toLowerCase().includes('precio') &&
+                !key.toLowerCase().includes('$')) {
+              specs[key] = val;
+            }
+          }
+        });
+      }
+
+      // Filtrar specs de precio/stock que no son técnicas
+      const SKIP = ['precio','price','stock','disponib','cantidad','referencia','sku','codigo','código'];
+      return Object.fromEntries(
+        Object.entries(specs).filter(([k]) => !SKIP.some(s => k.toLowerCase().includes(s)))
+      );
+    } catch (err) {
+      this.log('warn', `[specs] Error fetching ${productUrl}: ${err.message}`);
+      return {};
+    }
+  }
+
+  /**
+   * Extrae specs de la API WooCommerce Store (p.attributes[])
+   */
+  extractWooSpecs(p) {
+    const specs = {};
+    if (!p.attributes?.length) return specs;
+    for (const attr of p.attributes) {
+      const key = attr.name || attr.taxonomy || '';
+      const val = Array.isArray(attr.terms)
+        ? attr.terms.map(t => t.name).join(', ')
+        : (attr.value || '');
+      if (key && val && key.length < 60 && val.length < 120) {
+        specs[key] = val;
+      }
+    }
+    return specs;
+  }
+
   async saveProductWithR2(product, price) {
     if (USE_R2 && product.imageUrl) {
       try {
@@ -150,7 +245,9 @@ class BaseScraper {
     const brands = ['NVIDIA','AMD','Intel','Samsung','WD','Western Digital','Seagate',
       'Corsair','G.Skill','Kingston','Crucial','ASUS','MSI','Gigabyte','ASRock',
       'Noctua','Arctic','be quiet!','Seasonic','EVGA','Cooler Master','NZXT',
-      'LG','BenQ','AOC','Acer','Dell','Logitech','Razer','SteelSeries','HyperX'];
+      'LG','BenQ','AOC','Acer','Dell','Logitech','Razer','SteelSeries','HyperX',
+      'Thermaltake','Lian Li','Fractal','DeepCool','Phanteks','Antec','Zotac',
+      'PowerColor','Sapphire','XFX','PNY','Palit','Gainward'];
     const upper = name.toUpperCase();
     return brands.find(b => upper.includes(b.toUpperCase())) || 'Genérico';
   }
