@@ -101,28 +101,20 @@ nav{display:flex;align-items:center;gap:4px;flex:1}
 .nav-item:hover,.nav-item.active{color:var(--text);background:var(--bg3)}
 
 /* MEGA MENU */
-.mega-wrap{position:relative;display:flex;align-items:center}
+.mega-wrap{position:static}
 .mega-menu{
   display:none;
-  position:absolute;top:calc(100% + 8px);left:-16px;
+  position:fixed;top:60px;left:50%;transform:translateX(-50%);
   background:var(--bg2);border:1px solid var(--border2);
   border-radius:12px;padding:20px;
-  min-width:640px;
+  width:780px;max-width:calc(100vw - 32px);
   box-shadow:0 20px 60px rgba(0,0,0,0.5);
   z-index:300;
   animation:fadeIn .15s ease;
 }
 @keyframes fadeIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
-/* Mega menu controlado por JS — display:none por defecto */
-.mega-menu{
-  display:none;
-  position:absolute;top:100%;left:50%;transform:translateX(-50%);
-  z-index:200;min-width:700px;
-  background:var(--bg2);border:1px solid var(--border);
-  border-radius:12px;padding:20px;
-  box-shadow:0 8px 32px rgba(0,0,0,0.35);
-  grid-template-columns:repeat(4,1fr);gap:16px;
-}
+.mega-wrap:hover .mega-menu{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.mega-menu:hover{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
 .mega-col h4{
   font-size:11px;font-weight:600;color:var(--accent);
   letter-spacing:1.5px;text-transform:uppercase;
@@ -754,7 +746,7 @@ select.form-input{cursor:pointer}
   .sidebar{padding:16px 0}
   .sb-cat{padding:9px 14px;font-size:13px}
   .sb-label{padding:0 14px 8px}
-  .mega-menu{min-width:480px;grid-template-columns:repeat(3,1fr)}
+  .mega-menu{width:520px;grid-template-columns:repeat(3,1fr)}
   .search-wrap{max-width:240px}
   .footer-grid{grid-template-columns:1.5fr 1fr 1fr}
   .footer-grid .footer-col:last-child{display:none}
@@ -1426,43 +1418,14 @@ const CATS = {
 };
 
 const SUBCATS = {
-  gpu: {
-    nvidia: ['rtx','geforce','gtx'],           // Solo NVIDIA — no menciona AMD
-    amd:    ['radeon rx','rx 6','rx 7','rx 9'], // Solo Radeon — evita match cruzado
-  },
-  cpu: {
-    intel: ['intel core','core i3','core i5','core i7','core i9','core ultra','celeron','pentium','xeon'],
-    amd:   ['ryzen','threadripper','athlon'],   // Nunca incluir 'intel' aquí
-  },
-  ram: {
-    ddr5: ['ddr5'],
-    ddr4: ['ddr4'],
-  },
-  storage: {
-    nvme: ['nvme','m.2','pcie ssd','m2'],
-    sata: ['sata','2.5"','ssd sata'],
-    hdd:  ['hdd','disco duro','hard drive'],
-  },
-  cooling: {
-    liquida: ['liquid','aio','refrigeracion liquida','watercooling','240mm','280mm','360mm'],
-    aire:    ['disipador','cooler','tower','air cooler','cpu cooler'],
-    fans:    ['ventilador','fan ','case fan','argb fan'],
-  },
-  mobo: {
-    am5:    ['am5','socket am5'],
-    am4:    ['am4','socket am4'],
-    lga1700:['lga1700','lga 1700'],
-    lga1851:['lga1851','lga 1851'],
-  },
-  case: {
-    atx:  [' atx',' e-atx','full tower'],
-    matx: ['micro-atx','micro atx','matx','m-atx','mid tower'],
-    itx:  ['mini-itx','mini itx','itx'],
-  },
-  psu: {
-    modular:    ['modular','semi-modular'],
-    certificada:['80 plus','80+','gold','platinum','bronze','titanium'],
-  },
+  gpu:     { nvidia:['rtx','geforce','nvidia'], amd:['radeon','rx ','amd'] },
+  cpu:     { intel:['intel','core','i3','i5','i7','i9'], amd:['ryzen','amd','threadripper'] },
+  ram:     { ddr5:['ddr5'], ddr4:['ddr4'] },
+  storage: { nvme:['nvme','m.2','pcie'], sata:['sata','2.5'], hdd:['hdd','disco duro','hd '] },
+  cooling: { liquida:['liquid','aio','360','240','280'], aire:['tower','cooler','disipador'], fans:['fan','ventilador','argb'] },
+  mobo:    { am5:['am5'], am4:['am4'], lga1700:['lga1700','1700'], lga1851:['lga1851','1851'] },
+  case:    { atx:['atx'], matx:['micro atx','matx','m-atx'], itx:['itx','mini-itx'] },
+  psu:     { modular:['modular'], certificada:['80+','gold','platinum','bronze'] },
 };
 
 let PRODUCTS = [];
@@ -1502,7 +1465,7 @@ function getBestStore(p) {
 function matchSub(p, cat, sub) {
   const keys = SUBCATS[cat]?.[sub] || [];
   const txt = (p.name + ' ' + (p.brand||'')).toLowerCase();
-  return keys.some(k => txt.includes(k.toLowerCase()));
+  return keys.some(k => txt.includes(k));
 }
 
 function showToast(msg, type='success') {
@@ -1544,23 +1507,6 @@ function filterSub(cat, sub) {
   currentCat = cat;
   currentSub = sub;
   currentStore = '';
-  // Actualizar título con subcategoría
-  const catObj = CATS[cat];
-  const subLabels = {
-    nvidia:'NVIDIA GeForce', amd:'AMD', intel:'Intel', ryzen:'AMD Ryzen',
-    ddr4:'DDR4', ddr5:'DDR5', nvme:'NVMe M.2', sata:'SATA', hdd:'HDD',
-    am4:'AM4', am5:'AM5', lga1700:'LGA1700', lga1851:'LGA1851',
-    liquida:'Líquida', aire:'Por Aire', fans:'Ventiladores',
-    atx:'ATX', matx:'Micro ATX', itx:'Mini ITX',
-    modular:'Modulares', certificada:'Certificadas',
-  };
-  if (catObj) {
-    const subLabel = subLabels[sub] || sub;
-    document.getElementById('hw-title').innerHTML = `${catObj.icon} ${catObj.name} <span style="color:var(--accent);font-size:16px">/ ${subLabel}</span>`;
-  }
-  // Marcar categoría activa en sidebar
-  document.querySelectorAll('.sb-cat').forEach(el=>el.classList.remove('active'));
-  document.getElementById('sb-'+cat)?.classList.add('active');
   showPage('hardware');
 }
 
@@ -2198,45 +2144,6 @@ function fileToBase64(file) {
     reader.readAsDataURL(file);
   });
 }
-
-// ═══════════════════════════════════════════════
-// MEGA MENU — hover estable con delay
-// ═══════════════════════════════════════════════
-(function() {
-  let hideTimer = null;
-
-  document.querySelectorAll('.mega-wrap').forEach(wrap => {
-    const menu = wrap.querySelector('.mega-menu');
-    if (!menu) return;
-
-    function showMenu() {
-      clearTimeout(hideTimer);
-      // Ocultar otros menús primero
-      document.querySelectorAll('.mega-menu').forEach(m => {
-        if (m !== menu) m.style.display = 'none';
-      });
-      menu.style.display = 'grid';
-    }
-
-    function hideMenu() {
-      hideTimer = setTimeout(() => {
-        menu.style.display = 'none';
-      }, 200); // 200ms de delay para poder mover el mouse al menú
-    }
-
-    wrap.addEventListener('mouseenter', showMenu);
-    wrap.addEventListener('mouseleave', hideMenu);
-    menu.addEventListener('mouseenter', () => clearTimeout(hideTimer));
-    menu.addEventListener('mouseleave', hideMenu);
-  });
-
-  // Cerrar mega menu al hacer click fuera
-  document.addEventListener('click', e => {
-    if (!e.target.closest('.mega-wrap')) {
-      document.querySelectorAll('.mega-menu').forEach(m => m.style.display = 'none');
-    }
-  });
-})();
 
 // ═══════════════════════════════════════════════
 // MOBILE NAV
