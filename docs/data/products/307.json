@@ -1,57 +1,42 @@
 {
   "id": 307,
-  "external_id": "n1g_seasonic-prime-px-1600w-80-plus-platinum-eps12v-atx12v-1600-watt",
-  "category_id": "psu",
-  "brand": "Seasonic",
-  "name": "Seasonic Prime PX 1600W 80 PLUS Platinum EPS12V ATX12V 1600 Watt",
-  "slug": "seasonic-prime-px-1600w-80-plus-platinum-eps12v-atx12v-1600-watt",
-  "image_url": "https://images.findtech.cl/products/seasonic-prime-px-1600w-80-plus-platinum-eps12v-atx12v-1600-watt.jpg",
+  "external_id": "centrale_procesador-intel-core-i7-14700kf-raptor-lake-s-lga1700-20-cores-28-hilos",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i7-14700KF Raptor Lake-S LGA1700, 20 Cores, 28 Hilos",
+  "slug": "procesador-intel-core-i7-14700kf-raptor-lake-s-lga1700-20-cores-28-hilos",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i7-14700KF-Raptor-Lake-S-LGA1700-20-Cores-28-Hilo_qR0ePkk-1.webp",
   "description": null,
   "specs": {
-    "80PLUS®": "Platinum",
-    "Cybenetics Efficiency Level": "TBA",
-    "Cybenetics Noise Level": "TBA",
-    "Form Factor": "Intel ATX 12 V",
-    "Dimensions": "210 mm (L) x 150 mm (W) x 86 mm (H)",
-    "Fan Control": "Premium Hybrid Fan Control",
-    "Fan Bearing": "Fluid Dynamic Bearing",
-    "Life Expectancy": "50,000 hours at 40 °C, 15 % - 65 % RH",
-    "Cable type": "Flat black cables",
-    "MTBF @ 25 °C, excl. fan": "150,000 hours",
-    "AC Input": "Voltage: 100 V - 240 V",
-    "Protection": "OPP, OVP, UVP, OCP, OTP, SCP",
-    "Environmental Compliance": "Energy Star, RoHS, WEEE, ErP Lot 6, REACH",
-    "Warranty": "12 Years",
-    "Total Continuous Power": "1600 W 115—240Vac, 1300 W 100-240 Vac",
-    "Efectivo/Transferencia": "$659.000",
-    "Tarjeta crédito/débito": "$678.770"
+    "Transferencia / Efectivo": "$407.310",
+    "Tarjetas de Crédito / Débito": "$429.710"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:11:16",
-  "updated_at": "2026-04-25 19:11:16",
+  "created_at": "2026-04-26 16:25:16",
+  "updated_at": "2026-04-26 16:25:16",
   "prices": [
     {
       "product_id": 307,
-      "store_id": "n1g",
-      "price": 659000,
-      "price_normal": 693684,
-      "discount_pct": 5,
+      "store_id": "centrale",
+      "price": 407310,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2429-seasonic-prime-px-1600w-80-plus-platinum-eps12v-atx12v-1600-watt.html",
-      "store_name": "N1G",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700kf-raptor-lake-s-lga1700-20-cores-28-hilos/",
+      "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
-      "date": "2026-04-25",
-      "price": 659000
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 407310
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

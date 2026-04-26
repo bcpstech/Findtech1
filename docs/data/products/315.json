@@ -1,44 +1,42 @@
 {
   "id": 315,
-  "external_id": "n1g_fsp-hydro-pro-600w-80plus-bronce-atx3-0-no-modular",
-  "category_id": "psu",
-  "brand": "FSP",
-  "name": "FSP Hydro PRO 600W 80PLUS Bronce ATX3.0 No-Modular",
-  "slug": "fsp-hydro-pro-600w-80plus-bronce-atx3-0-no-modular",
-  "image_url": "https://images.findtech.cl/products/fsp-hydro-pro-600w-80plus-bronce-atx3-0-no-modular.jpg",
+  "external_id": "centrale_procesador-intel-core-i7-12700kf-3-6ghz-lga-1700",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i7-12700KF 3.6Ghz LGA 1700",
+  "slug": "procesador-intel-core-i7-12700kf-3-6ghz-lga-1700",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i7-12700KF-3.6Ghz-LGA-1700_64Lg55g-1.webp",
   "description": null,
   "specs": {
-    "AC Input": "200-240Vac~  4.5A  50-60Hz",
-    "Total Power": "600W",
-    "Efectivo/Transferencia": "$54.900",
-    "Tarjeta crédito/débito": "$56.547"
+    "Transferencia / Efectivo": "$327.720",
+    "Tarjetas de Crédito / Débito": "$345.740"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:41:33",
-  "updated_at": "2026-04-25 20:41:33",
+  "created_at": "2026-04-26 16:25:45",
+  "updated_at": "2026-04-26 16:25:45",
   "prices": [
     {
       "product_id": 315,
-      "store_id": "n1g",
-      "price": 54900,
-      "price_normal": 57789,
-      "discount_pct": 5,
+      "store_id": "centrale",
+      "price": 327720,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3199-fsp-hydro-pro-600w-80plus-bronce-atx30-no-modular-.html",
-      "store_name": "N1G",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-12700kf-3-6ghz-lga-1700/",
+      "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
-      "date": "2026-04-25",
-      "price": 54900
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 327720
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

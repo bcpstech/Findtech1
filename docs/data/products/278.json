@@ -1,46 +1,42 @@
 {
   "id": 278,
-  "external_id": "n1g_fsp-hydro-m-pro-800w-fuente-atx-80-bronce-semi-modular-hp2-800m",
-  "category_id": "psu",
-  "brand": "FSP",
-  "name": "FSP Hydro M PRO 800W Fuente ATX 80+ Bronce Semi Modular HP2-800M",
-  "slug": "fsp-hydro-m-pro-800w-fuente-atx-80-bronce-semi-modular-hp2-800m",
-  "image_url": "https://n1g.cl/Home/12475-home_default/fuente-de-poder-fsp-hydro-m-pro-800w-80-bronce-semi-modular.jpg",
+  "external_id": "centrale_procesador-amd-ryzen-7-7700x-4-5ghz-8-nucleos-16-hilos-socket-am5-sin",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 7 7700X, 4.5Ghz, 8 Núcleos / 16 Hilos, Socket Am5, Sin",
+  "slug": "procesador-amd-ryzen-7-7700x-4-5ghz-8-nucleos-16-hilos-socket-am5-sin",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-7700X-4.5Ghz-8-NC3BAcleos-16-Hilos-Socket-Am5-Sin_9mQXrHu.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$99.000",
-    "Tarjeta crédito/débito": "$101.970"
+    "Transferencia / Efectivo": "$351.890",
+    "Tarjetas de Crédito / Débito": "$371.240"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:14:06",
-  "updated_at": "2026-04-24 22:14:06",
+  "created_at": "2026-04-26 16:23:36",
+  "updated_at": "2026-04-26 16:23:36",
   "prices": [
     {
-      "id": 278,
       "product_id": 278,
-      "store_id": "n1g",
-      "price": 99000,
-      "price_normal": 104211,
-      "discount_pct": 5,
-      "currency": "CLP",
+      "store_id": "centrale",
+      "price": 351890,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2887-fuente-de-poder-fsp-hydro-m-pro-800w-80-bronce-semi-modular.html",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:14:06",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-7700x-4-5ghz-8-nucleos-16-hilos-socket-am5-sin/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
-      "date": "2026-04-24",
-      "price": 99000
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 351890
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-26"
 }

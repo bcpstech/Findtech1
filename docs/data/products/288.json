@@ -1,46 +1,42 @@
 {
   "id": 288,
-  "external_id": "n1g_asus-rog-strix-lc-iii-360-argb-lcd-aio-wc-cpu-intel-lga-1700-amd-am5-con-lcd-ips-de-2-1-bomba-gen7-v",
-  "category_id": "cooling",
-  "brand": "Asus",
-  "name": "ASUS ROG Strix LC III 360 ARGB LCD AIO WC CPU Intel LGA 1700 AMD AM5 con LCD IPS de 2.1\" bomba Gen7 v2",
-  "slug": "asus-rog-strix-lc-iii-360-argb-lcd-aio-wc-cpu-intel-lga-1700-amd-am5-con-lcd-ips-de-2-1-bomba-gen7-v",
-  "image_url": "https://images.findtech.cl/products/asus-rog-strix-lc-iii-360-argb-lcd-aio-wc-cpu-intel-lga-1700-amd-am5-con-lcd-ips-de-2-1-bomba-gen7-v.jpg",
+  "external_id": "centrale_procesador-amd-ryzen-7-9850x3d-8-core-16-threads-4-7-8211-5-6ghz-120w",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 7 9850X3D (8-Core, 16-Threads, 4.7 &#8211; 5.6GHz, 120W)",
+  "slug": "procesador-amd-ryzen-7-9850x3d-8-core-16-threads-4-7-8211-5-6ghz-120w",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-9850X3D-8-Core-16-Threads-47-56GHz-120W.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$299.000",
-    "Tarjeta crédito/débito": "$307.970"
+    "Transferencia / Efectivo": "$581.920",
+    "Tarjetas de Crédito / Débito": "$613.930"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:00:17",
-  "updated_at": "2026-04-25 18:00:17",
+  "created_at": "2026-04-26 16:24:10",
+  "updated_at": "2026-04-26 16:24:10",
   "prices": [
     {
-      "id": 288,
       "product_id": 288,
-      "store_id": "n1g",
-      "price": 299000,
-      "price_normal": 314737,
-      "discount_pct": 5,
-      "currency": "CLP",
+      "store_id": "centrale",
+      "price": 581920,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3581-asus-rog-strix-lc-iii-360-argb-lcd-aio-wc-cpu-intel-lga-1700-amd-am5-con-lcd-ips-de-21-bomba-gen7-v2.html",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:00:17",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-9850x3d-8-core-16-threads-4-7-5-6ghz-120w/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
-      "date": "2026-04-25",
-      "price": 299000
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 581920
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

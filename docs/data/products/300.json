@@ -1,42 +1,42 @@
 {
   "id": 300,
-  "external_id": "n1g_fsp-hydro-m-pro-800w-fuente-atx-80-bronce-semi-modular-hp2-800m",
-  "category_id": "psu",
-  "brand": "FSP",
-  "name": "FSP Hydro M PRO 800W Fuente ATX 80+ Bronce Semi Modular HP2-800M",
-  "slug": "fsp-hydro-m-pro-800w-fuente-atx-80-bronce-semi-modular-hp2-800m",
-  "image_url": "https://images.findtech.cl/products/fsp-hydro-m-pro-800w-fuente-atx-80-bronce-semi-modular-hp2-800m.jpg",
+  "external_id": "centrale_procesador-amd-ryzen-threadripper-7960x-24-nucleos-48-hilos-4-2ghz-a-5-3ghz",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen Threadripper 7960X, 24 Núcleos, 48 Hilos, 4.2GHz a 5.3GHz",
+  "slug": "procesador-amd-ryzen-threadripper-7960x-24-nucleos-48-hilos-4-2ghz-a-5-3ghz",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-Threadripper-7960X-24-NC3BAcleos-48-Hilos-Socket-sTR5_hd9wWqQ-1.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$99.000",
-    "Tarjeta crédito/débito": "$101.970"
+    "Transferencia / Efectivo": "$1.706.730",
+    "Tarjetas de Crédito / Débito": "$1.800.600"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:41:00",
-  "updated_at": "2026-04-25 20:41:00",
+  "created_at": "2026-04-26 16:24:53",
+  "updated_at": "2026-04-26 16:24:53",
   "prices": [
     {
       "product_id": 300,
-      "store_id": "n1g",
-      "price": 99000,
-      "price_normal": 104211,
-      "discount_pct": 5,
+      "store_id": "centrale",
+      "price": 1706730,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2887-fuente-de-poder-fsp-hydro-m-pro-800w-80-bronce-semi-modular.html",
-      "store_name": "N1G",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-threadripper-7960x-24-nucleos-48-hilos-4-2ghz-a-5-3ghz/",
+      "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
-      "date": "2026-04-25",
-      "price": 99000
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 1706730
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

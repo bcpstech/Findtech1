@@ -1,42 +1,42 @@
 {
   "id": 277,
-  "external_id": "n1g_gamdias-chione-m2-240r-intel-lga-1200-115x-amd-am4-tr4-watercooling-240mm",
-  "category_id": "cooling",
+  "external_id": "centrale_procesador-amd-ryzen-7-7800x3d-4-2-a-5-0ghz-8-nucleos-16-hilos",
+  "category_id": "cpu",
   "brand": "AMD",
-  "name": "Gamdias CHIONE M2-240R Intel LGA 1200/115x AMD AM4 TR4 WaterCooling 240mm",
-  "slug": "gamdias-chione-m2-240r-intel-lga-1200-115x-amd-am4-tr4-watercooling-240mm",
-  "image_url": "https://images.findtech.cl/products/gamdias-chione-m2-240r-intel-lga-1200-115x-amd-am4-tr4-watercooling-240mm.jpg",
+  "name": "Procesador AMD Ryzen 7 7800X3D, 4.2 a 5.0Ghz, 8 Nucleos 16 Hilos",
+  "slug": "procesador-amd-ryzen-7-7800x3d-4-2-a-5-0ghz-8-nucleos-16-hilos",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-7800X3D-4.2-a-5.0Ghz-8-Nucleos-16-Hilos_BjCETBA-2.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$163.900",
-    "Tarjeta crédito/débito": "$168.817"
+    "Transferencia / Efectivo": "$459.460",
+    "Tarjetas de Crédito / Débito": "$484.730"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:40:11",
-  "updated_at": "2026-04-25 20:40:11",
+  "created_at": "2026-04-26 16:23:32",
+  "updated_at": "2026-04-26 16:23:32",
   "prices": [
     {
       "product_id": 277,
-      "store_id": "n1g",
-      "price": 163900,
-      "price_normal": 172526,
-      "discount_pct": 5,
+      "store_id": "centrale",
+      "price": 459460,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/758-gamdias-chione-m2-240r-intel-lga-1200115x-amd-am4-tr4-watercooling-240mm.html",
-      "store_name": "N1G",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-7800x3d-4-2-a-5-0ghz-8-nucleos-16-hilos/",
+      "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
-      "date": "2026-04-25",
-      "price": 163900
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 459460
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

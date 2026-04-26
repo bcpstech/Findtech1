@@ -1,46 +1,42 @@
 {
   "id": 286,
-  "external_id": "n1g_asus-rog-ryuo-iii-240-white-rgb-edition-aio-lga-1700-1200-115x-am5-am4-pantalla-led-anime-matrix-rog",
-  "category_id": "cooling",
-  "brand": "Asus",
-  "name": "ASUS ROG Ryuo III 240 WHITE RGB Edition AIO LGA 1700, 1200, 115x / AM5,AM4, Pantalla LED Anime Matrix ROG-RYUO-III-240-ARGB-WHT",
-  "slug": "asus-rog-ryuo-iii-240-white-rgb-edition-aio-lga-1700-1200-115x-am5-am4-pantalla-led-anime-matrix-rog",
-  "image_url": "https://images.findtech.cl/products/asus-rog-ryuo-iii-240-white-rgb-edition-aio-lga-1700-1200-115x-am5-am4-pantalla-led-anime-matrix-rog.jpg",
+  "external_id": "centrale_procesador-amd-ryzen-5-9600x-6-cores-12-threads-3-9-a-5-4ghz-65w",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 5 9600X, 6 Cores 12 Threads, 3.9 a 5.4GHz, 65W",
+  "slug": "procesador-amd-ryzen-5-9600x-6-cores-12-threads-3-9-a-5-4ghz-65w",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-5-9600X-6-Cores-12-Threads-3.9-a-5.4GHz-65W_sKkf1NT-1.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$239.000",
-    "Tarjeta crédito/débito": "$246.170"
+    "Transferencia / Efectivo": "$257.660",
+    "Tarjetas de Crédito / Débito": "$271.830"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:00:12",
-  "updated_at": "2026-04-25 18:00:12",
+  "created_at": "2026-04-26 16:24:04",
+  "updated_at": "2026-04-26 16:24:04",
   "prices": [
     {
-      "id": 286,
       "product_id": 286,
-      "store_id": "n1g",
-      "price": 239000,
-      "price_normal": 251579,
-      "discount_pct": 5,
-      "currency": "CLP",
+      "store_id": "centrale",
+      "price": 257660,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2827-asus-rog-ryuo-iii-240-rgb-aio-lga-1700-1200-115x-amd-am5am4-with-livedash-oled-panel.html",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:00:12",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-9600x-6-cores-12-threads-3-9-a-5-4ghz-65w/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
-      "date": "2026-04-25",
-      "price": 239000
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 257660
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }
