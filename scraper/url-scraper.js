@@ -252,6 +252,10 @@ class UrlScraper extends BaseScraper {
       priceSpecs['Tarjeta crédito/débito'] = `$${priceCard.toLocaleString('es-CL')}`;
     }
 
+    // Usar el store_id real del CSV para guardar el precio correctamente
+    const originalStoreId = this.storeId;
+    this.storeId = store_id;
+
     this.stats.found++;
     await this.saveProductWithR2(
       {
@@ -270,6 +274,8 @@ class UrlScraper extends BaseScraper {
         url,
       }
     );
+
+    this.storeId = originalStoreId; // restaurar
   }
 }
 
