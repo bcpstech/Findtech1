@@ -104,7 +104,7 @@ nav{display:flex;align-items:center;gap:4px;flex:1}
 .mega-wrap{position:relative}
 .mega-menu{
   display:none;
-  position:absolute;top:calc(100% + 8px);left:0;
+  position:absolute;top:calc(100% + 8px);left:-16px;
   background:var(--bg2);border:1px solid var(--border2);
   border-radius:12px;padding:20px;
   min-width:640px;
@@ -176,7 +176,8 @@ nav{display:flex;align-items:center;gap:4px;flex:1}
   user-select:none;transition:color .15s;
 }
 .sb-section-header:hover{color:var(--accent)}
-.sb-arrow{font-size:11px;transition:transform .2s}
+.sb-arrow{font-size:11px}
+.sb-section-body{padding-bottom:6px}
 .sb-store-item{
   display:flex;align-items:center;gap:10px;
   padding:8px 18px 8px 24px;cursor:pointer;font-size:13px;
@@ -1012,16 +1013,15 @@ select.form-input{cursor:pointer}
   <!-- SIDEBAR -->
   <aside class="sidebar" id="sidebar">
 
-    <!-- ── HARDWARE ─────────────────────────────── -->
+    <!-- ── HARDWARE ──────────────────────────────── -->
     <div class="sb-section">
-      <div class="sb-section-header" onclick="toggleSbSection('hw')" id="sb-hw-header">
+      <div class="sb-section-header" onclick="toggleSbSection('hw')">
         <span>⚙️ HARDWARE</span>
         <span class="sb-arrow" id="sb-hw-arrow">▾</span>
       </div>
       <div class="sb-section-body" id="sb-hw-body">
         <div class="sb-cat active" onclick="filterCat(''); showPage('hardware')" id="sb-all">
-          Todos
-          <span class="count" id="sb-count-all">0</span>
+          Todos <span class="count" id="sb-count-all">0</span>
         </div>
         <div class="sb-cat" onclick="toggleSub('gpu')" id="sb-gpu">
           <span class="ico">🎮</span> Tarjetas de Video
@@ -1099,14 +1099,47 @@ select.form-input{cursor:pointer}
       </div>
     </div>
 
+    <!-- ── PERIFÉRICOS ────────────────────────────── -->
+    <div class="sb-section">
+      <div class="sb-section-header" onclick="toggleSbSection('periph')">
+        <span>🖱️ PERIFÉRICOS</span>
+        <span class="sb-arrow" id="sb-periph-arrow">▸</span>
+      </div>
+      <div class="sb-section-body" id="sb-periph-body" style="display:none">
+        <div class="sb-cat" onclick="filterSub('periph','teclado')" id="sb-periph-teclado">
+          <span class="ico">⌨️</span> Teclados
+          <span class="count" id="sb-count-teclado">0</span>
+        </div>
+        <div class="sb-cat" onclick="filterSub('periph','mouse')" id="sb-periph-mouse">
+          <span class="ico">🖱️</span> Mouse
+          <span class="count" id="sb-count-mouse">0</span>
+        </div>
+        <div class="sb-cat" onclick="filterSub('periph','headset')" id="sb-periph-headset">
+          <span class="ico">🎧</span> Audífonos / Headset
+          <span class="count" id="sb-count-headset">0</span>
+        </div>
+        <div class="sb-cat" onclick="filterSub('periph','webcam')" id="sb-periph-webcam">
+          <span class="ico">📷</span> Webcam
+          <span class="count" id="sb-count-webcam">0</span>
+        </div>
+        <div class="sb-cat" onclick="filterSub('periph','pad')" id="sb-periph-pad">
+          <span class="ico">🟦</span> Pad / Mousepad
+          <span class="count" id="sb-count-pad">0</span>
+        </div>
+        <div class="sb-cat" onclick="filterSub('periph','silla')" id="sb-periph-silla">
+          <span class="ico">🪑</span> Sillas Gaming
+          <span class="count" id="sb-count-silla">0</span>
+        </div>
+      </div>
+    </div>
+
     <!-- ── TIENDAS ────────────────────────────────── -->
-    <div class="sb-section" style="margin-top:4px">
-      <div class="sb-section-header" onclick="toggleSbSection('stores')" id="sb-stores-header">
+    <div class="sb-section">
+      <div class="sb-section-header" onclick="toggleSbSection('stores')">
         <span>🏪 TIENDAS</span>
         <span class="sb-arrow" id="sb-stores-arrow">▸</span>
       </div>
       <div class="sb-section-body" id="sb-stores-body" style="display:none">
-        <!-- Generado dinámicamente por renderSidebarStores() -->
         <div id="sb-stores-list"></div>
       </div>
     </div>
@@ -1450,6 +1483,14 @@ const SUBCATS = {
   mobo:    { am5:['am5'], am4:['am4'], lga1700:['lga1700','1700'], lga1851:['lga1851','1851'] },
   case:    { atx:['atx'], matx:['micro atx','matx','m-atx'], itx:['itx','mini-itx'] },
   psu:     { modular:['modular'], certificada:['80+','gold','platinum','bronze'] },
+  periph:  {
+    teclado: ['teclado','keyboard','mecanico','mecánico'],
+    mouse:   ['mouse','raton','ratón'],
+    headset: ['headset','audifonos','audífonos','auricular','auriculares'],
+    webcam:  ['webcam','camara web','cámara web'],
+    pad:     ['mousepad','pad','alfombrilla'],
+    silla:   ['silla','chair','gaming chair'],
+  },
 };
 
 let PRODUCTS = [];
@@ -1538,9 +1579,9 @@ function filterStore(store) {
   currentStore = store;
   currentCat = '';
   currentSub = '';
-  // Marcar tienda activa
-  document.querySelectorAll('.sb-store-item').forEach(el => el.classList.remove('active'));
-  document.getElementById('sb-store-' + store)?.classList.add('active');
+  document.querySelectorAll('.sb-store-item').forEach(function(el){ el.classList.remove('active'); });
+  var el = document.getElementById('sb-store-' + store);
+  if (el) el.classList.add('active');
   showPage('hardware');
 }
 
@@ -1829,7 +1870,6 @@ async function loadData() {
     }));
 
     console.log(`[FindTech] ${PRODUCTS.length} productos cargados`);
-    renderSidebarStores();
     renderSidebarStores();
     return true;
   } catch(e) {
@@ -2194,7 +2234,7 @@ function renderSidebarStores() {
     const cnt = PRODUCTS.filter(function(p) {
       return (p.prices && p.prices[s.id] > 0) || p._bestStoreId === s.id;
     }).length;
-    return '<div class="sb-store-item" id="sb-store-' + s.id + '" onclick="filterStore(\'' + s.id + '\')">' +
+    return '<div class="sb-store-item" id="sb-store-' + s.id + '" onclick="filterStore('' + s.id + '')">' +
       '<span class="sb-store-dot" style="background:' + (s.color || 'var(--accent)') + '"></span>' +
       '<span style="flex:1">' + s.name + '</span>' +
       '<span style="font-size:11px;color:var(--text3);font-family:var(--mono)">' + cnt + '</span>' +
