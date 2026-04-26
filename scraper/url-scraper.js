@@ -51,11 +51,18 @@ function extractPrestaShop($, storeId) {
   const regularPrice = oldRaw ? parsePrice(oldRaw) : null;
 
   // Stock
+  // Solo marcar out_of_stock con evidencia explícita — evitar falsos negativos
   const unavailable = $('.product-unavailable, .out-of-stock, #product-availability .out-of-stock').length;
-  const availText = ($('#product-availability, .product-availability, .availability, .stock-availability').text()
-    + $('[class*="stock"]').text()).toLowerCase();
-  const stock = unavailable || availText.includes('agotado') || availText.includes('sin stock')
-    || availText.includes('no disponible') || availText.includes('out of stock')
+  // Solo leer elementos específicos de disponibilidad, NO [class*="stock"] genérico
+  const availText = $('#product-availability .availability-msg, .product-availability, .availability-ooc')
+    .text().toLowerCase();
+  const metaAvail = $('[itemprop="availability"]').attr('content') || '';
+  const stock = unavailable
+    || metaAvail.includes('OutOfStock')
+    || availText.includes('agotado')
+    || availText.includes('sin stock')
+    || availText.includes('no disponible')
+    || availText.includes('out of stock')
     ? 'out_of_stock' : 'in_stock';
 
   // Specs: tabla de características PrestaShop
@@ -246,12 +253,19 @@ class UrlScraper extends BaseScraper {
     const fetchUrl = proxify(url, store_id);
     this.log('info', `[${store_id}] ${url.slice(-50)}`);
 
+    const origin = new URL(url).origin;
     const res = await this.client.get(fetchUrl, {
       headers: {
-        'Accept': 'text/html,application/xhtml+xml',
-        'Accept-Language': 'es-CL,es;q=0.9',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+        'Accept-Language': 'es-CL,es;q=0.9,en-US;q=0.8',
+        'Accept-Encoding': 'gzip, deflate, br',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-        'Referer': new URL(url).origin + '/',
+        'Referer': origin + '/',
+        'Cache-Control': 'no-cache',
+        'Sec-Fetch-Dest': 'document',
+        'Sec-Fetch-Mode': 'navigate',
+        'Sec-Fetch-Site': 'same-origin',
+        'Upgrade-Insecure-Requests': '1',
       },
       timeout: 25000,
     });
