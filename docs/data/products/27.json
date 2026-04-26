@@ -1,56 +1,42 @@
 {
   "id": 27,
-  "external_id": "n1g_msi-5090-32g-ventus-3x-oc-geforce-rtx-pcie-5-0-triple-slot-g5090-32v3c",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "MSI 5090 32G VENTUS 3X OC GeForce RTX PCIe 5.0 triple slot G5090-32V3C",
-  "slug": "msi-5090-32g-ventus-3x-oc-geforce-rtx-pcie-5-0-triple-slot-g5090-32v3c",
-  "image_url": "https://images.findtech.cl/products/msi-5090-32g-ventus-3x-oc-geforce-rtx-pcie-5-0-triple-slot-g5090-32v3c.jpg",
+  "external_id": "n1g_amd-ryzen-5-5600gt-socket-am4-6-core-12-hilos-3-6-ghz-65w-con-graficos-100-100001488box",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD Ryzen 5 5600GT Socket AM4, 6 Core 12 Hilos 3.6 GHz  65W con Graficos 100-100001488BOX",
+  "slug": "amd-ryzen-5-5600gt-socket-am4-6-core-12-hilos-3-6-ghz-65w-con-graficos-100-100001488box",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-5-5600gt-socket-am4-6-core-12-hilos-3-6-ghz-65w-con-graficos-100-100001488box.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$3.990.000",
-    "Tarjeta crédito/débito": "$4.109.700"
+    "Efectivo/Transferencia": "$154.900",
+    "Tarjeta crédito/débito": "$159.547"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:32:01",
-  "updated_at": "2026-04-25 20:32:01",
+  "created_at": "2026-04-26 15:48:05",
+  "updated_at": "2026-04-26 15:48:05",
   "prices": [
     {
       "product_id": 27,
       "store_id": "n1g",
-      "price": 3990000,
-      "price_normal": 4200000,
+      "price": 154900,
+      "price_normal": 163053,
       "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3733-msi-5090-32g-ventus-3x-oc-geforce-rtx-pcie-50-triple-slot-g5090-32v3c-.html",
+      "product_url": "https://n1g.cl/Home/computacion/2617-amd-ryzen-5-5600gt-socket-am4-6-core-12-hilos-36-ghz-65w-con-graficos-100-100001488box.html",
       "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
-    },
-    {
-      "product_id": 1318,
-      "store_id": "dust2",
-      "price": 7378630,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/tarjeta-de-video-msi-geforce-rtx-5090-32g-lightning-z/",
-      "store_name": "Dust2",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
     {
       "store_id": "n1g",
       "store_name": "N1G",
-      "date": "2026-04-25",
-      "price": 3990000
+      "date": "2026-04-26",
+      "price": 154900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }
