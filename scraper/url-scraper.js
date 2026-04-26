@@ -20,7 +20,7 @@ const PROXY_SECRET = process.env.CF_PROXY_SECRET || '';
 
 function proxify(url, storeId) {
   // N1G y Alltec requieren proxy
-  const PROXY_STORES = ['n1g', 'alltec', 'winpy', 'sipo', 'megadrive'];
+  const PROXY_STORES = ['n1g', 'alltec', 'winpy', 'sipo', 'megadrive', 'centrale', 'cg', 'pcexpress'];
   if (!PROXY_URL || !PROXY_STORES.includes(storeId)) return url;
   return `${PROXY_URL}?url=${encodeURIComponent(url)}&secret=${PROXY_SECRET}`;
 }
@@ -28,30 +28,45 @@ function proxify(url, storeId) {
 // ── Extractores de precio por plataforma ──────────────────────────────────
 
 function extractPrestaShop($, storeId) {
-  // PrestaShop: N1G, Alltec
-  const priceEl = $('.current-price-value, .product-price [itemprop="price"], .price-final_price');
-  const raw = priceEl.attr('content') || priceEl.first().text().trim();
-  const price = parsePrice(raw);
-  
-  const oldRaw = $('.price-old, .regular-price, .crossed-out .current-price-value').first().text().trim();
+  // Intentar múltiples selectores de precio PrestaShop
+  const priceSelectors = [
+    '[itemprop="price"]',
+    '.current-price-value',
+    '.product-price-and-shipping .price',
+    '.price-final_price',
+    '#js-product-prices-block .price',
+    '.product-price .price',
+    'span.price',
+  ];
+  let price = null;
+  for (const sel of priceSelectors) {
+    const el = $(sel).first();
+    const raw = el.attr('content') || el.text().trim();
+    price = parsePrice(raw);
+    if (price) break;
+  }
+
+  // Precio normal (antes del descuento)
+  const oldRaw = $('.price-old, .regular-price, .crossed-out .current-price-value, del .price').first().text().trim();
   const regularPrice = oldRaw ? parsePrice(oldRaw) : null;
 
-  // Stock PrestaShop
+  // Stock
   const unavailable = $('.product-unavailable, .out-of-stock, #product-availability .out-of-stock').length;
-  const availText = $('#product-availability, .product-availability, .availability').text().toLowerCase();
+  const availText = ($('#product-availability, .product-availability, .availability, .stock-availability').text()
+    + $('[class*="stock"]').text()).toLowerCase();
   const stock = unavailable || availText.includes('agotado') || availText.includes('sin stock')
+    || availText.includes('no disponible') || availText.includes('out of stock')
     ? 'out_of_stock' : 'in_stock';
 
-  // Specs PrestaShop: tabla de características
+  // Specs: tabla de características PrestaShop
   const specs = {};
-  $('section.product-features dl.data-sheet dt').each((_, el) => {
+  $('section.product-features dl.data-sheet dt, .product-features .name').each((_, el) => {
     const key = $(el).text().trim();
-    const val = $(el).next('dd').text().trim();
+    const val = $(el).next('dd, .value').text().trim();
     if (key && val && key.length < 80) specs[key] = val;
   });
-  // Alternativa: tabla
   if (!Object.keys(specs).length) {
-    $('table.table-data-sheet tr, #product-details table tr').each((_, el) => {
+    $('table.table-data-sheet tr, #product-details table tr, .features-table tr').each((_, el) => {
       const cols = $(el).find('td, th');
       if (cols.length >= 2) {
         const k = $(cols[0]).text().trim();
@@ -60,20 +75,43 @@ function extractPrestaShop($, storeId) {
       }
     });
   }
+  // Alltec usa un formato diferente — buscar en divs
+  if (!Object.keys(specs).length) {
+    $('.product-information .row, .product-desc .row').each((_, el) => {
+      const k = $(el).find('label, .label, strong').first().text().trim();
+      const v = $(el).find('span, p').last().text().trim();
+      if (k && v && k !== v && k.length < 80) specs[k] = v;
+    });
+  }
 
   const imageUrl = $('img.js-qv-product-cover, .product-cover img, #product-cover img').first().attr('src')
-               || $('.product-images img').first().attr('src') || null;
-  const name = $('h1.product-detail-name, h1[itemprop="name"], h1').first().text().trim();
-  const brand = $('[itemprop="brand"] [itemprop="name"], .manufacturer-name').first().text().trim();
+               || $('[itemprop="image"]').first().attr('src')
+               || $('.product-images img, .slick-slide img').first().attr('src') || null;
+  const name = $('h1.product-detail-name, h1[itemprop="name"], h1.page-title, h1').first().text().trim();
+  const brand = $('[itemprop="brand"] [itemprop="name"], .manufacturer-name, .brand-name').first().text().trim();
 
   return { price, regularPrice, stock, specs, imageUrl, name, brand };
 }
 
 function extractWooCommerce($, storeId) {
   // WooCommerce: Centrale, SPDigital, etc.
-  const priceEl = $('.price ins .amount, .price .woocommerce-Price-amount').first();
-  const raw = priceEl.text().trim() || $('.price .amount').first().text().trim();
-  const price = parsePrice(raw);
+  // Intentar múltiples selectores
+  const priceSelectors = [
+    '.price ins .woocommerce-Price-amount',
+    '.price .woocommerce-Price-amount',
+    '[itemprop="price"]',
+    '.woocommerce-Price-amount.amount',
+    '.price ins .amount',
+    '.price .amount',
+    '.entry-summary .price',
+  ];
+  let price = null;
+  for (const sel of priceSelectors) {
+    const el = $(sel).first();
+    const raw = el.attr('content') || el.text().trim();
+    price = parsePrice(raw);
+    if (price) break;
+  }
 
   const oldRaw = $('.price del .amount').first().text().trim();
   const regularPrice = oldRaw ? parsePrice(oldRaw) : null;
