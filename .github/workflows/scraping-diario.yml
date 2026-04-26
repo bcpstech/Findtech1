@@ -182,6 +182,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add docs/data/ scraper/data/
+          git add docs/data/ scraper/data/ db/techcompara.db
           git diff --staged --quiet || git commit -m "chore: actualizar datos $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
