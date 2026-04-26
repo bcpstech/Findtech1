@@ -51,19 +51,21 @@ function extractPrestaShop($, storeId) {
   const regularPrice = oldRaw ? parsePrice(oldRaw) : null;
 
   // Stock
-  // Solo marcar out_of_stock con evidencia explícita — evitar falsos negativos
-  const unavailable = $('.product-unavailable, .out-of-stock, #product-availability .out-of-stock').length;
-  // Solo leer elementos específicos de disponibilidad, NO [class*="stock"] genérico
-  const availText = $('#product-availability .availability-msg, .product-availability, .availability-ooc')
-    .text().toLowerCase();
+  // Detección conservadora — solo out_of_stock con evidencia muy explícita
+  // Prioridad 1: meta tag de disponibilidad (más confiable)
   const metaAvail = $('[itemprop="availability"]').attr('content') || '';
-  const stock = unavailable
-    || metaAvail.includes('OutOfStock')
-    || availText.includes('agotado')
-    || availText.includes('sin stock')
-    || availText.includes('no disponible')
-    || availText.includes('out of stock')
-    ? 'out_of_stock' : 'in_stock';
+  if (metaAvail.includes('InStock') || metaAvail.includes('in_stock')) return { price, regularPrice, stock: 'in_stock', specs, imageUrl, name, brand };
+  if (metaAvail.includes('OutOfStock')) return { price, regularPrice, stock: 'out_of_stock', specs, imageUrl, name, brand };
+
+  // Prioridad 2: clase CSS específica de PrestaShop para sin stock
+  const hasUnavailableClass = $('.product-unavailable').length > 0;
+  // Prioridad 3: solo elemento específico de availability, no texto genérico
+  const availMsg = $('#product-availability .availability-ooc, .product-unavailable-msg').text().toLowerCase();
+  const stock = hasUnavailableClass
+    || availMsg.includes('agotado')
+    || availMsg.includes('sin stock')
+    || availMsg.includes('out of stock')
+    ? 'out_of_stock' : 'in_stock'; // Default: in_stock (ya filtramos por CSV)
 
   // Specs: tabla de características PrestaShop
   const specs = {};
@@ -252,6 +254,61 @@ class UrlScraper extends BaseScraper {
 
     const fetchUrl = proxify(url, store_id);
     this.log('info', `[${store_id}] ${url.slice(-50)}`);
+
+    // Centrale bloquea scraping HTML — usar API WooCommerce con el slug del producto
+    if (store_id === 'centrale') {
+      try {
+        // Extraer slug de la URL: https://centrale.cl/producto/SLUG/
+        const slug = url.replace(/\/$/, '').split('/').pop();
+        const apiUrl = `https://centrale.cl/wp-json/wc/store/v1/products?slug=${slug}`;
+        const apiRes = await this.client.get(apiUrl, {
+          headers: { Accept: 'application/json' },
+          timeout: 20000,
+        });
+        const products = Array.isArray(apiRes.data) ? apiRes.data : [apiRes.data];
+        const p = products[0];
+        if (!p || !p.prices) {
+          this.log('warn', `[centrale] Sin datos API para ${slug}`);
+          return;
+        }
+        const CARD_FACTOR = 1.055;
+        const priceCash = parseInt(p.prices.price);
+        if (!priceCash || priceCash < 1000) return;
+        const priceCard = Math.round(priceCash * CARD_FACTOR / 10) * 10;
+        const regularRaw = parseInt(p.prices.regular_price);
+        const regularPrice = regularRaw > priceCash ? regularRaw : null;
+        const techSpecs = this.extractWooSpecs(p);
+
+        const originalStoreId = this.storeId;
+        this.storeId = store_id;
+        this.stats.found++;
+        await this.saveProductWithR2(
+          {
+            name: p.name,
+            category,
+            brand: p.brands?.[0]?.name || this.extractBrand(p.name),
+            imageUrl: p.images?.[0]?.src || null,
+            specs: {
+              ...techSpecs,
+              'Transferencia / Efectivo': `$${priceCash.toLocaleString('es-CL')}`,
+              'Tarjetas de Crédito / Débito': `$${priceCard.toLocaleString('es-CL')}`,
+            }
+          },
+          {
+            current: priceCash,
+            normal: regularPrice,
+            discount: regularPrice ? Math.round((1 - priceCash / regularPrice) * 100) : null,
+            stock: forceOutOfStock ? 'out_of_stock' : (p.is_in_stock ? 'in_stock' : 'out_of_stock'),
+            url,
+          }
+        );
+        this.storeId = originalStoreId;
+        return;
+      } catch (err) {
+        this.log('warn', `[centrale] API error para ${url}: ${err.message}`);
+        return;
+      }
+    }
 
     const origin = new URL(url).origin;
     const res = await this.client.get(fetchUrl, {
