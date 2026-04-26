@@ -1,46 +1,42 @@
 {
   "id": 1378,
-  "external_id": "pcexpress_20943-gabinete-gamer-gamemax-infinity-mini-white-micro-atx",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "20943 - gabinete gamer gamemax infinity mini white micro atx",
-  "slug": "20943-gabinete-gamer-gamemax-infinity-mini-white-micro-atx",
-  "image_url": null,
+  "external_id": "centrale_placa-madre-asrock-wrx90-ws-evo-socket-str5-amd-ryzen-threadripper-pro-eeb",
+  "category_id": "mobo",
+  "brand": "ASRock",
+  "name": "Placa Madre ASRock WRX90 WS EVO Socket sTR5 AMD Ryzen Threadripper PRO EEB",
+  "slug": "placa-madre-asrock-wrx90-ws-evo-socket-str5-amd-ryzen-threadripper-pro-eeb",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASRock-WRX90-WS-EVO-para-AMD-STR5-Threadripper-PRO-1.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$33.500",
-    "Tarjeta crédito/débito": "$34.505"
+    "Transferencia / Efectivo": "$1.476.130",
+    "Tarjetas de Crédito / Débito": "$1.557.320"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:59:17",
-  "updated_at": "2026-04-25 12:59:17",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-26 20:37:37",
   "prices": [
     {
-      "id": 1378,
       "product_id": 1378,
-      "store_id": "pcexpress",
-      "price": 33500,
+      "store_id": "centrale",
+      "price": 1476130,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=20943&search=gabinete+atx+gamer&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:59:17",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/placa-madre-asrock-wrx90-ws-evo-socket-str5-amd-ryzen-threadripper-pro-eeb/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
-      "date": "2026-04-25",
-      "price": 33500
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 1476130
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

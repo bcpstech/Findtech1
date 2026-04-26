@@ -1,43 +1,42 @@
 {
   "id": 1329,
-  "external_id": "dust2_tarjeta-de-video-gigabyte-radeon-rx-9060xt-gaming-oc-ice-16g",
-  "category_id": "gpu",
-  "brand": "Gigabyte",
-  "name": "Tarjeta de Video Gigabyte Radeon RX 9060XT GAMING OC ICE 16G",
-  "slug": "tarjeta-de-video-gigabyte-radeon-rx-9060xt-gaming-oc-ice-16g",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-gigabyte-radeon-rx-9060xt-gaming-oc-ice-16g.jpg",
+  "external_id": "centrale_placa-asus-prime-h610m-k-lga1700-2xddr5-1xm-2-4xsata",
+  "category_id": "mobo",
+  "brand": "Asus",
+  "name": "Placa Asus Prime H610M-K LGA1700, 2xDDR5, 1xM.2, 4xSATA",
+  "slug": "placa-asus-prime-h610m-k-lga1700-2xddr5-1xm-2-4xsata",
+  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Placa-Madre-Prime-H610M-K-Socket-Intel-Lga1700-2Xddr5-1X-M.2-4X-Sata.webp",
   "description": null,
   "specs": {
-    "Marca": "Gigabyte",
-    "Transferencia/Efectivo": "$537.850",
-    "Webpay / Tarjeta crédito-débito": "$553.990"
+    "Transferencia / Efectivo": "$83.470",
+    "Tarjetas de Crédito / Débito": "$88.060"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:59:54",
-  "updated_at": "2026-04-25 20:59:54",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-26 20:37:37",
   "prices": [
     {
       "product_id": 1329,
-      "store_id": "dust2",
-      "price": 537850,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "centrale",
+      "price": 83470,
+      "price_normal": 102020,
+      "discount_pct": 18,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/tarjeta-de-video-gigabyte-radeon-rx-9060xt-gaming-oc-ice-16g/",
-      "store_name": "Dust2",
+      "product_url": "https://centrale.cl/producto/placa-asus-prime-h610m-k-lga1700-2xddr5-1xm-2-4xsata/",
+      "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 537850
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 83470
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

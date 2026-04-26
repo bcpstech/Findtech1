@@ -1,46 +1,42 @@
 {
   "id": 1324,
-  "external_id": "pcexpress_8444-memoria-de-servidor-udimm-ddr4-crucial-4gb-2666-ecc-dimm-p-n-ct4g4wfs8266",
-  "category_id": "ram",
-  "brand": "Crucial",
-  "name": "8444 - memoria de servidor udimm ddr4 crucial 4gb 2666 ecc dimm p/n ct4g4wfs8266",
-  "slug": "8444-memoria-de-servidor-udimm-ddr4-crucial-4gb-2666-ecc-dimm-p-n-ct4g4wfs8266",
-  "image_url": null,
+  "external_id": "centrale_placa-madre-msi-pro-b840m-b-socket-am5-2xddr5-2xm-2-pcie-4-0",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "Placa Madre MSI PRO B840M-B Socket AM5, 2xDDR5, 2xM.2 PCIe 4.0",
+  "slug": "placa-madre-msi-pro-b840m-b-socket-am5-2xddr5-2xm-2-pcie-4-0",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-MSI-PRO-B840M-B-Socket-AM5-2xDDR5-2xM.2-PCIe-4.0-1776017852.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$49.900",
-    "Tarjeta crédito/débito": "$51.397"
+    "Transferencia / Efectivo": "$94.090",
+    "Tarjetas de Crédito / Débito": "$99.260"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:47",
-  "updated_at": "2026-04-25 12:58:47",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-26 20:37:37",
   "prices": [
     {
-      "id": 1324,
       "product_id": 1324,
-      "store_id": "pcexpress",
-      "price": 49900,
+      "store_id": "centrale",
+      "price": 94090,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=8444&search=memoria+ram+ddr4&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:47",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-b840m-b-socket-am5-2xddr5-2xm-2-pcie-4-0/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
-      "date": "2026-04-25",
-      "price": 49900
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 94090
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

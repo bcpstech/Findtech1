@@ -1,42 +1,84 @@
 {
   "id": 995,
-  "external_id": "centrale_memoria-ram-32gb-ddr4-3600mt-s-cl18-kingston-fury-renegade-black",
+  "external_id": "alltec_8gb-ddr4-3000mhz-cl16-a-data-xpg-spectrix",
   "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM 32GB DDR4 3600MT/s CL18 Kingston Fury Renegade Black",
-  "slug": "memoria-ram-32gb-ddr4-3600mt-s-cl18-kingston-fury-renegade-black",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-32GB-DDR4-3600MT-s-CL18-Kingston-Fury-Renegade-Black_c3poTKU-1.webp",
+  "brand": "Genérico",
+  "name": "8GB DDR4 3000MHz CL16 A-DATA XPG SPECTRIX...",
+  "slug": "8gb-ddr4-3000mhz-cl16-a-data-xpg-spectrix",
+  "image_url": "https://images.findtech.cl/products/8gb-ddr4-3000mhz-cl16-a-data-xpg-spectrix.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$434.990",
-    "Tarjetas de Crédito / Débito": "$458.910"
+    "Efectivo/Transferencia": "$45.900",
+    "Tarjeta crédito/débito": "$47.277"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:35",
-  "updated_at": "2026-04-25 19:37:35",
+  "created_at": "2026-04-26 20:28:33",
+  "updated_at": "2026-04-26 20:28:35",
   "prices": [
     {
       "product_id": 995,
-      "store_id": "centrale",
-      "price": 434990,
-      "price_normal": 500190,
-      "discount_pct": 13,
+      "store_id": "alltec",
+      "price": 45900,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-32gb-ddr4-3600mt-s-cl18-kingston-fury-renegade-black/",
+      "product_url": "https://www.alltec.cl/ddr4/1205-8gb-ddr4-3000mhz-cl16-a-data-xpg-spectrix-d60g-ax4u300038g16a-st60.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 1468,
+      "store_id": "centrale",
+      "price": 69890,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr4-3200mt-s-cl16-adata-xpg-spectrix-d35g-rgb/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2054,
+      "store_id": "dust2",
+      "price": 69890,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/memoria-ram-xpg-spectrix-d35g-rgb-8gb/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 1172,
+      "store_id": "cg",
+      "price": 85490,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-spectrix-d35g-8gb-ddr4-white/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 434990
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 45900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

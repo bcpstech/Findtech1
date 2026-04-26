@@ -1,70 +1,42 @@
 {
   "id": 1208,
-  "external_id": "centrale_fuente-de-poder-1000w-asus-tuf-gaming-80-plus-gold-atx-3-1-pcie-5-0",
-  "category_id": "psu",
+  "external_id": "centrale_tarjeta-grafica-profesional-asus-turbo-radeon-ai-pro-r9700-32gb",
+  "category_id": "gpu",
   "brand": "Asus",
-  "name": "Fuente de Poder 1000W ASUS TUF Gaming ( 80 PLUS Gold, ATX 3.1, PCIe 5.0)",
-  "slug": "fuente-de-poder-1000w-asus-tuf-gaming-80-plus-gold-atx-3-1-pcie-5-0",
-  "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-1000W-ASUS-TUF-Gaming-80-PLUS-Gold-ATX-3.1-PCIe-5.0.webp",
+  "name": "Tarjeta Gráfica Profesional ASUS TURBO Radeon AI PRO R9700 32GB",
+  "slug": "tarjeta-grafica-profesional-asus-turbo-radeon-ai-pro-r9700-32gb",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-Profesional-ASUS-TURBO-Radeon-AI-PRO-R9700-32GB.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$153.700",
-    "Tarjetas de Crédito / Débito": "$162.150"
+    "Transferencia / Efectivo": "$1.863.200",
+    "Tarjetas de Crédito / Débito": "$1.965.680"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:27",
-  "updated_at": "2026-04-25 20:57:27",
+  "created_at": "2026-04-26 20:37:32",
+  "updated_at": "2026-04-26 20:37:32",
   "prices": [
     {
       "product_id": 1208,
       "store_id": "centrale",
-      "price": 153700,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 1863200,
+      "price_normal": 2074250,
+      "discount_pct": 10,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-1000w-asus-tuf-gaming-80-plus-gold-atx-3-1-pcie-5-0/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-profesional-asus-turbo-radeon-ai-pro-r9700-32gb/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 1747,
-      "store_id": "dust2",
-      "price": 203870,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/fuente-de-poder-asus-rog-strix-1000w-platinum/",
-      "store_name": "Dust2",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 2107,
-      "store_id": "trulustore",
-      "price": 299990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/fuente-de-poder-asus-rog-strix-1000p-de-1000w-80-platinum-full-modular-atx-3-1/",
-      "store_name": "TruluStore",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 153700
+      "date": "2026-04-26",
+      "price": 1863200
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

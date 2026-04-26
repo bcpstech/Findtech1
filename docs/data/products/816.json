@@ -1,42 +1,42 @@
 {
   "id": 816,
-  "external_id": "centrale_procesador-intel-core-i5-14600kf-raptor-lake-s-lga1700-14-cores-20-hilos",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core i5-14600KF Raptor Lake-S LGA1700, 14 Cores, 20 Hilos",
-  "slug": "procesador-intel-core-i5-14600kf-raptor-lake-s-lga1700-14-cores-20-hilos",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i5-14600KF-Raptor-Lake-S-LGA1700-14-Cores-20-Hilo_8TSUW4u-1.webp",
+  "external_id": "n1g_fsp-twins-pro-900w-80-gold-fuente-atx-redundante-fsp900-50reb",
+  "category_id": "psu",
+  "brand": "FSP",
+  "name": "FSP Twins PRO 900W 80+ Gold Fuente ATX Redundante FSP900-50REB",
+  "slug": "fsp-twins-pro-900w-80-gold-fuente-atx-redundante-fsp900-50reb",
+  "image_url": "https://images.findtech.cl/products/fsp-twins-pro-900w-80-gold-fuente-atx-redundante-fsp900-50reb.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$271.030",
-    "Tarjetas de Crédito / Débito": "$285.940"
+    "Efectivo/Transferencia": "$629.000",
+    "Tarjeta crédito/débito": "$647.870"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:30",
-  "updated_at": "2026-04-25 19:37:30",
+  "created_at": "2026-04-26 20:20:11",
+  "updated_at": "2026-04-26 20:20:11",
   "prices": [
     {
       "product_id": 816,
-      "store_id": "centrale",
-      "price": 271030,
-      "price_normal": 379800,
-      "discount_pct": 29,
+      "store_id": "n1g",
+      "price": 629000,
+      "price_normal": 662105,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-14600kf-raptor-lake-s-lga1700-14-cores-20-hilos/",
-      "store_name": "Centrale",
+      "product_url": "https://n1g.cl/Home/computacion/2889-fuente-de-poder-fsp-twins-pro-900w-80-gold-fsp900-50reb.html",
+      "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 271030
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 629000
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

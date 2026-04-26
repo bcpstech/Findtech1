@@ -1,43 +1,42 @@
 {
   "id": 1536,
-  "external_id": "dust2_memoria-ram-xpg-gammix-d35-ddr4-3200-8-gb-cl16-blanco",
-  "category_id": "ram",
-  "brand": "Genérico",
-  "name": "Memoria RAM XPG Gammix D35, DDR4, 3200 8 GB, CL16, Blanco",
-  "slug": "memoria-ram-xpg-gammix-d35-ddr4-3200-8-gb-cl16-blanco",
-  "image_url": "https://images.findtech.cl/products/memoria-ram-xpg-gammix-d35-ddr4-3200-8-gb-cl16-blanco.jpg",
+  "external_id": "centrale_ssd-western-digital-blue-sa510-500gb-2-5-8243-sata-3-560mb-s-lectura",
+  "category_id": "storage",
+  "brand": "Western Digital",
+  "name": "SSD Western Digital Blue SA510 500GB, 2.5&#8243; SATA 3, 560MB/s Lectura",
+  "slug": "ssd-western-digital-blue-sa510-500gb-2-5-8243-sata-3-560mb-s-lectura",
+  "image_url": "https://centrale.cl/wp-content/uploads/WD-Blue-SA510-WDS500G3B0A-SSD-500-GB-interno-2.5-SATA-6Gb-s-_PjKdmtP-1.webp",
   "description": null,
   "specs": {
-    "Marca": "XPG",
-    "Transferencia/Efectivo": "$63.000",
-    "Webpay / Tarjeta crédito-débito": "$64.890"
+    "Transferencia / Efectivo": "$116.530",
+    "Tarjetas de Crédito / Débito": "$122.940"
   },
   "tags": [],
-  "created_at": "2026-04-25 21:00:58",
-  "updated_at": "2026-04-25 21:00:58",
+  "created_at": "2026-04-26 20:37:43",
+  "updated_at": "2026-04-26 20:37:43",
   "prices": [
     {
       "product_id": 1536,
-      "store_id": "dust2",
-      "price": 63000,
+      "store_id": "centrale",
+      "price": 116530,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/memoria-ram-xpg-gammix-d35-ddr4-3200-8-gb-cl16-blanco/",
-      "store_name": "Dust2",
+      "product_url": "https://centrale.cl/producto/ssd-western-digital-blue-sa510-500gb-2-5-sata-3-560mb-s-lectura/",
+      "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 63000
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 116530
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

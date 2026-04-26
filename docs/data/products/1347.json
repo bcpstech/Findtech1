@@ -1,46 +1,42 @@
 {
   "id": 1347,
-  "external_id": "pcexpress_16494-disco-de-estado-solido-western-digital-black-sn850x-2tb-nvme-ssd-wds200t2x0e-m-2-2280-pcie-4-0",
-  "category_id": "storage",
-  "brand": "WD",
-  "name": "16494 - disco de estado solido western digital black sn850x 2tb nvme ssd wds200t2x0e - m.2 2280 - pcie 4.0 x4 (nvme) p/n wds200t2x0e",
-  "slug": "16494-disco-de-estado-solido-western-digital-black-sn850x-2tb-nvme-ssd-wds200t2x0e-m-2-2280-pcie-4-0",
-  "image_url": null,
+  "external_id": "centrale_placa-madre-asus-prime-b650em-a-wifi-am5-ddr5-pcie-5-0",
+  "category_id": "mobo",
+  "brand": "Asus",
+  "name": "Placa Madre ASUS Prime B650EM-A WiFi AM5, DDR5, PCIe 5.0",
+  "slug": "placa-madre-asus-prime-b650em-a-wifi-am5-ddr5-pcie-5-0",
+  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Placa-Madre-Prime-B650Em-A-Wifi-Socket-Amd-Am5-4Xddr5-3Xm.2-4X-Sata-Pcie.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$357.900",
-    "Tarjeta crédito/débito": "$368.637"
+    "Transferencia / Efectivo": "$148.740",
+    "Tarjetas de Crédito / Débito": "$156.920"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:53",
-  "updated_at": "2026-04-25 12:58:53",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-26 20:37:37",
   "prices": [
     {
-      "id": 1347,
       "product_id": 1347,
-      "store_id": "pcexpress",
-      "price": 357900,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "store_id": "centrale",
+      "price": 148740,
+      "price_normal": 165430,
+      "discount_pct": 10,
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=16494&search=ssd+nvme+m2+pcie&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:53",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b650em-a-wifi-am5-ddr5-pcie-5-0/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
-      "date": "2026-04-25",
-      "price": 357900
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 148740
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

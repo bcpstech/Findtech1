@@ -1,46 +1,42 @@
 {
   "id": 979,
-  "external_id": "centrale_ssd-wd-green-sn3000-500gb-nvme-pcie-gen4-m-2-2280",
-  "category_id": "storage",
-  "brand": "SanDisk",
-  "name": "SSD WD Green SN3000 500GB NVMe PCIe Gen4 M.2 2280",
-  "slug": "ssd-wd-green-sn3000-500gb-nvme-pcie-gen4-m-2-2280",
-  "image_url": "https://centrale.cl/wp-content/uploads/Sandisk-Western-Digital-Wd-Verde-Sn3000-Disco-Duro-Interno-500-Gb-M.2-Solid-Sta.webp",
+  "external_id": "alltec_m-b-asus-prime-z690-p-d4-lga1700",
+  "category_id": "mobo",
+  "brand": "ASUS",
+  "name": "M.B. ASUS PRIME Z690-P D4 (LGA1700)...",
+  "slug": "m-b-asus-prime-z690-p-d4-lga1700",
+  "image_url": "https://images.findtech.cl/products/m-b-asus-prime-z690-p-d4-lga1700.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$113.990",
-    "Tarjetas de Crédito / Débito": "$120.260"
+    "Efectivo/Transferencia": "$233.500",
+    "Tarjeta crédito/débito": "$240.505"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:04",
-  "updated_at": "2026-04-25 18:20:04",
+  "created_at": "2026-04-26 20:27:36",
+  "updated_at": "2026-04-26 20:27:36",
   "prices": [
     {
-      "id": 979,
       "product_id": 979,
-      "store_id": "centrale",
-      "price": 113990,
+      "store_id": "alltec",
+      "price": 233500,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ssd-wd-green-sn3000-500gb-nvme-pcie-gen4-m-2-2280/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:04",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/para-intel/2137-mb-asus-prime-z690-p-d4-lga1700-intel-core-de-12a13a-generacion.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 113990
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 233500
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

@@ -1,46 +1,42 @@
 {
   "id": 1393,
-  "external_id": "pcexpress_19719-sistema-de-refrigeracion-liquida-gamemax-watercooling-iceburg-240-digital-bk-s1700-ready-y-am5",
-  "category_id": "cooling",
-  "brand": "Genérico",
-  "name": "19719 - sistema de refrigeracion liquida gamemax watercooling iceburg 240 digital bk ( s1700 ready y am5 ) p/n iceburg-240-digital-bk",
-  "slug": "19719-sistema-de-refrigeracion-liquida-gamemax-watercooling-iceburg-240-digital-bk-s1700-ready-y-am5",
-  "image_url": null,
+  "external_id": "centrale_placa-madre-asus-prime-b760m-a-ax6-ii-lga-1700-ddr5-pcie-4-0-usb-c-wifi-6",
+  "category_id": "mobo",
+  "brand": "Asus",
+  "name": "Placa Madre ASUS PRIME B760M-A AX6 II (LGA 1700, DDR5, PCIe 4.0, USB-C, WiFi 6)",
+  "slug": "placa-madre-asus-prime-b760m-a-ax6-ii-lga-1700-ddr5-pcie-4-0-usb-c-wifi-6",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASUS-PRIME-B760M-A-AX6-II-LGA-1700-DDR5-PCIe-4.0-USB-C-WiFi-6-1.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$56.500",
-    "Tarjeta crédito/débito": "$58.195"
+    "Transferencia / Efectivo": "$144.040",
+    "Tarjetas de Crédito / Débito": "$151.960"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:59:24",
-  "updated_at": "2026-04-25 12:59:24",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-26 20:37:37",
   "prices": [
     {
-      "id": 1393,
       "product_id": 1393,
-      "store_id": "pcexpress",
-      "price": 56500,
+      "store_id": "centrale",
+      "price": 144040,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=19719&search=refrigeracion+liquida+aio&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:59:24",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b760m-a-ax6-ii-lga-1700-ddr5-pcie-4-0-usb-c-wifi-6/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
-      "date": "2026-04-25",
-      "price": 56500
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 144040
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

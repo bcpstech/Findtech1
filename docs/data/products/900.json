@@ -1,42 +1,84 @@
 {
   "id": 900,
-  "external_id": "centrale_placa-madre-profesional-gigabyte-trx50-ai-top-str5-8x-ddr5-ecc-wifi-7",
-  "category_id": "mobo",
-  "brand": "Gigabyte",
-  "name": "Placa Madre Profesional Gigabyte TRX50 AI TOP ( sTR5, 8x DDR5 ECC, WiFi 7 )",
-  "slug": "placa-madre-profesional-gigabyte-trx50-ai-top-str5-8x-ddr5-ecc-wifi-7",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Profesional-Gigabyte-TRX50-AI-TOP-sTR5-8x-DDR5-ECC-WiFi-7-1-1.webp",
+  "external_id": "alltec_t-v-msi-geforce-rtx-3050-ventus-2x-6g-oc",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "T.V. MSI GEFORCE RTX 3050 VENTUS 2X 6G OC",
+  "slug": "t-v-msi-geforce-rtx-3050-ventus-2x-6g-oc",
+  "image_url": "https://images.findtech.cl/products/t-v-msi-geforce-rtx-3050-ventus-2x-6g-oc.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$1.316.790",
-    "Tarjetas de Crédito / Débito": "$1.389.210"
+    "Efectivo/Transferencia": "$219.900",
+    "Tarjeta crédito/débito": "$226.497"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:17",
-  "updated_at": "2026-04-25 20:57:17",
+  "created_at": "2026-04-26 20:23:18",
+  "updated_at": "2026-04-26 20:23:18",
   "prices": [
     {
       "product_id": 900,
-      "store_id": "centrale",
-      "price": 1316790,
+      "store_id": "alltec",
+      "price": 219900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-profesional-gigabyte-trx50-ai-top-str5-8x-ddr5-ecc-wifi-7/",
+      "product_url": "https://www.alltec.cl/nvidia/2481-tv-msi-geforce-rtx-3050-ventus-2x-6g-oc.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 1194,
+      "store_id": "centrale",
+      "price": 225700,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-3050-ventus-2x-oc-6gb-gddr6-96-bit/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 1805,
+      "store_id": "dust2",
+      "price": 341740,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-msi-geforce-rtx-5050-8g-gaming-oc/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 505,
+      "store_id": "n1g",
+      "price": 397900,
+      "price_normal": 418842,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3349-msi-shadow-rtx-5060-8gb-gddr7-pci-express-50-x-16-use-x8-ddr7-912-v537-037.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 1316790
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 219900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

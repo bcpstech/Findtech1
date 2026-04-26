@@ -1,42 +1,42 @@
 {
   "id": 741,
-  "external_id": "centrale_tarjeta-grafica-pny-nvidia-rtx-a400-4gb-gddr6-64-bits-nvidia-ampere",
-  "category_id": "gpu",
-  "brand": "Pny",
-  "name": "Tarjeta Gráfica PNY Nvidia RTX A400 4GB GDDR6 64-bits Nvidia Ampere",
-  "slug": "tarjeta-grafica-pny-nvidia-rtx-a400-4gb-gddr6-64-bits-nvidia-ampere",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-PNY-Nvidia-RTX-A400-4GB-GDDR6-64-bits-Nvidia-Ampere-1.webp",
+  "external_id": "n1g_deepcool-ak500-digital-pro-wh-cooler-12-cm-blanco-intel-amd-am5-am4-led-rgb",
+  "category_id": "cooling",
+  "brand": "DEEPCOOL",
+  "name": "DeepCool AK500 Digital Pro WH Cooler 12 cm Blanco Intel & AMD AM5/AM4 LED RGB",
+  "slug": "deepcool-ak500-digital-pro-wh-cooler-12-cm-blanco-intel-amd-am5-am4-led-rgb",
+  "image_url": "https://images.findtech.cl/products/deepcool-ak500-digital-pro-wh-cooler-12-cm-blanco-intel-amd-am5-am4-led-rgb.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$222.850",
-    "Tarjetas de Crédito / Débito": "$235.110"
+    "Efectivo/Transferencia": "$84.900",
+    "Tarjeta crédito/débito": "$87.447"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:14",
-  "updated_at": "2026-04-25 20:57:14",
+  "created_at": "2026-04-26 20:17:38",
+  "updated_at": "2026-04-26 20:17:38",
   "prices": [
     {
       "product_id": 741,
-      "store_id": "centrale",
-      "price": 222850,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 84900,
+      "price_normal": 89368,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-pny-nvidia-rtx-a400-4gb-gddr6-64-bits-nvidia-ampere/",
-      "store_name": "Centrale",
+      "product_url": "https://n1g.cl/Home/computacion/3728-deepcool-ak500-digital-pro-wh-12-cm-blanco-intel-amd-am5am4-led-rgb.html",
+      "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 222850
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 84900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

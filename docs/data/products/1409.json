@@ -1,46 +1,42 @@
 {
   "id": 1409,
-  "external_id": "pcexpress_657444-ssd-enterprise-tlc-3-84tb-micron-5400-pro-nand-flash-sata-2-5-7mm-540-mb-s-lectura-520-mb-s-e",
-  "category_id": "storage",
-  "brand": "Genérico",
-  "name": "657444 - ssd enterprise tlc 3.84tb micron 5400 pro - nand flash sata 2.5\" 7mm - 540 mb/s lectura  520 mb/s escritura - profesional",
-  "slug": "657444-ssd-enterprise-tlc-3-84tb-micron-5400-pro-nand-flash-sata-2-5-7mm-540-mb-s-lectura-520-mb-s-e",
-  "image_url": null,
+  "external_id": "centrale_placa-madre-gigabyte-b550-gaming-x-v2-socket-amd-am4-ddr4-pcie-4-0",
+  "category_id": "mobo",
+  "brand": "Gigabyte",
+  "name": "Placa Madre Gigabyte B550 GAMING X V2 Socket AMD AM4, DDR4, PCIe 4.0",
+  "slug": "placa-madre-gigabyte-b550-gaming-x-v2-socket-amd-am4-ddr4-pcie-4-0",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Gigabyte-B550-GAMING-X-V2-Socket-AMD-AM4-DDR4-PCIe-4.0_J3pEH2W-1.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$777.500",
-    "Tarjeta crédito/débito": "$800.825"
+    "Transferencia / Efectivo": "$130.560",
+    "Tarjetas de Crédito / Débito": "$137.740"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:55:50",
-  "updated_at": "2026-04-25 04:55:50",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-26 20:37:37",
   "prices": [
     {
-      "id": 1409,
       "product_id": 1409,
-      "store_id": "pcexpress",
-      "price": 777500,
+      "store_id": "centrale",
+      "price": 130560,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=657444&search=ssd+sata+2.5&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:55:50",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b550-gaming-x-v2-socket-amd-am4-ddr4-pcie-4-0/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
-      "date": "2026-04-25",
-      "price": 777500
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 130560
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

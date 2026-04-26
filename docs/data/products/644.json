@@ -1,46 +1,42 @@
 {
   "id": 644,
-  "external_id": "centrale_tarjeta-grafica-msi-geforce-rtx-5050-shadow-2x-oc-8gb-gddr6-pcie-5-0-128-bit",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "Tarjeta Gráfica MSI GeForce RTX 5050 Shadow 2X OC 8GB GDDR6 Pcie 5.0 128-bit",
-  "slug": "tarjeta-grafica-msi-geforce-rtx-5050-shadow-2x-oc-8gb-gddr6-pcie-5-0-128-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-MSI-GeForce-RTX-5050-Shadow-2X-OC-8GB-GDDR6-Pcie-5.0-12_pFUYw7o.webp",
+  "external_id": "n1g_asus-pro-ws-wrx80e-sage-se-wifi-ii-ddr4-amd-wrx80-threadripper-pro-5000wx-3000wx-eatx-workstation-du",
+  "category_id": "mobo",
+  "brand": "Asus",
+  "name": "ASUS Pro WS WRX80E-SAGE SE WIFI II DDR4 AMD WRX80 Threadripper PRO 5000WX / 3000WX EATX workstation dual 10 G LAN  7x PCIe 4.0",
+  "slug": "asus-pro-ws-wrx80e-sage-se-wifi-ii-ddr4-amd-wrx80-threadripper-pro-5000wx-3000wx-eatx-workstation-du",
+  "image_url": "https://images.findtech.cl/products/asus-pro-ws-wrx80e-sage-se-wifi-ii-ddr4-amd-wrx80-threadripper-pro-5000wx-3000wx-eatx-workstation-du.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$366.120",
-    "Tarjetas de Crédito / Débito": "$386.260"
+    "Efectivo/Transferencia": "$1.349.000",
+    "Tarjeta crédito/débito": "$1.389.470"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:52",
-  "updated_at": "2026-04-25 18:19:52",
+  "created_at": "2026-04-26 20:14:19",
+  "updated_at": "2026-04-26 20:14:19",
   "prices": [
     {
-      "id": 644,
       "product_id": 644,
-      "store_id": "centrale",
-      "price": 366120,
-      "price_normal": 425470,
-      "discount_pct": 14,
-      "currency": "CLP",
+      "store_id": "n1g",
+      "price": 1349000,
+      "price_normal": 1420000,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5050-shadow-2x-oc-8gb-gddr6-pcie-5-0-128-bit/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:52",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://n1g.cl/Home/computacion/2552-asus-pro-ws-wrx80e-sage-se-wifi-ii-amd-wrx80-ryzen-threadripper-pro-eatx-workstation-dual-10-g-lan-7x-pcie-40.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 366120
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 1349000
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

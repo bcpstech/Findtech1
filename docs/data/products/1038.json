@@ -1,42 +1,50 @@
 {
   "id": 1038,
-  "external_id": "centrale_disco-ssd-1tb-msi-spatium-m450-m-2-nvme-pcie-4-0",
+  "external_id": "alltec_hdd-1tb-3-5-seagate-barracuda-compute",
   "category_id": "storage",
-  "brand": "MSI",
-  "name": "Disco SSD 1TB MSI Spatium M450 M.2 NVMe PCIe 4.0",
-  "slug": "disco-ssd-1tb-msi-spatium-m450-m-2-nvme-pcie-4-0",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-1TB-MSI-Spatium-M450-M.2-NVMe-PCIe-4.0_pzXrdpw.webp",
+  "brand": "Seagate",
+  "name": "HDD 1TB 3.5'' SEAGATE BARRACUDA COMPUTE...",
+  "slug": "hdd-1tb-3-5-seagate-barracuda-compute",
+  "image_url": "https://images.findtech.cl/products/hdd-1tb-3-5-seagate-barracuda-compute.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$198.010",
-    "Tarjetas de Crédito / Débito": "$208.900"
+    "Fabricante": "SEAGATE",
+    "Capacidad:": "1TB",
+    "Velocidad de rotación:": "7200 rpm",
+    "Tipo:": "HDD - disco duro",
+    "Formato:": "8.89 cm (3.5 \")",
+    "Interfaz:": "SATA",
+    "Velocidad de transmisión de datos": "6 GBit / s",
+    "Dimensiones:": "146,99 x 101,6 x 19,98 mm",
+    "Efectivo/Transferencia": "$56.900",
+    "Tarjeta crédito/débito": "$58.607"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:21",
-  "updated_at": "2026-04-25 20:57:21",
+  "created_at": "2026-04-26 20:30:47",
+  "updated_at": "2026-04-26 20:30:47",
   "prices": [
     {
       "product_id": 1038,
-      "store_id": "centrale",
-      "price": 198010,
+      "store_id": "alltec",
+      "price": 56900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-1tb-msi-spatium-m450-m-2-nvme-pcie-4-0/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/mecanicos-rigidos/676-hdd-1tb-35-seagate-barracuda-compute-7200rpm-sata-6gbs-st1000dm010.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 198010
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 56900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

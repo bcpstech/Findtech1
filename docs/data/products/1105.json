@@ -1,42 +1,60 @@
 {
   "id": 1105,
-  "external_id": "centrale_disco-ssd-240gb-kingston-a400-2-5-8243-sata3",
-  "category_id": "storage",
-  "brand": "Kingston",
-  "name": "Disco SSD 240GB Kingston A400 2.5&#8243; SATA3",
-  "slug": "disco-ssd-240gb-kingston-a400-2-5-8243-sata3",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-240GB-Kingston-A400-2.5-SATA3_QYTqnsW.webp",
+  "external_id": "alltec_gabinete-azza-iris-330-atx-argb",
+  "category_id": "case",
+  "brand": "Genérico",
+  "name": "GABINETE AZZA IRIS 330 (ATX) (ARGB)",
+  "slug": "gabinete-azza-iris-330-atx-argb",
+  "image_url": "https://images.findtech.cl/products/gabinete-azza-iris-330-atx-argb.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$86.860",
-    "Tarjetas de Crédito / Débito": "$91.640"
+    "Nombre del modelo": "IRIS 330",
+    "Número de modelo": "CSAZ-330",
+    "Tipo": "Torre media ATX",
+    "Color": "Negro / Negro (interior)",
+    "Ventana del panel lateral": "Panel lateral izquierdo: vidrio templado con soportes de goma",
+    "Altura máxima del enfriador de la CPU": "Hasta 155 mm",
+    "Longitud máxima de la tarjeta de video": "Tarjeta de video de hasta 380 mm de largo",
+    "Fuente de alimentación": "No incluido",
+    "Compatibilidad de placa base": "ATX",
+    "Bahías de unidad externas de 5,25 \":": "0",
+    "Bahías de unidad internas de 2,5 \"": "Hasta 3",
+    "Bahías de unidad internas de 3,5 \"": "Hasta 2",
+    "Ranuras de expansión": "7",
+    "Puertos de E / S": "Botón de encendido, botón de reinicio, audio HD, USB 3.0x1, USB 2.0x2",
+    "Dimensión de la caja (HxWxD)": "447x216x440mm / 17,6x8,5x17,3 pulgadas",
+    "Peso": "5,49 kg / 12,1 libras",
+    "Refrigeración por agua": "Admite radiadores de hasta 240/360 mm en la parte delantera",
+    "Soporte de fuente de alimentación": "Fuente de alimentación ATX montada en la parte inferior",
+    "Efectivo/Transferencia": "$61.900",
+    "Tarjeta crédito/débito": "$63.757"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:38",
-  "updated_at": "2026-04-25 19:37:38",
+  "created_at": "2026-04-26 20:34:18",
+  "updated_at": "2026-04-26 20:34:18",
   "prices": [
     {
       "product_id": 1105,
-      "store_id": "centrale",
-      "price": 86860,
+      "store_id": "alltec",
+      "price": 61900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-240gb-kingston-a400-2-5-sata3/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/sin-fuente-de-poder/1515-gabinete-azza-iris-330-atx-argb.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 86860
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 61900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

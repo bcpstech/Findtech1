@@ -1,46 +1,42 @@
 {
   "id": 927,
-  "external_id": "centrale_memoria-ram-notebook-32gb-ddr5-5600mt-s-cl46-kingston-valueram-sodimm-2rx8",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM Notebook 32GB DDR5 5600MT/s CL46 Kingston ValueRAM SODIMM 2Rx8",
-  "slug": "memoria-ram-notebook-32gb-ddr5-5600mt-s-cl46-kingston-valueram-sodimm-2rx8",
-  "image_url": "https://centrale.cl/wp-content/uploads/Kingston-32Gb-5600Mt-S-Ddr5-Non-Ecc-Cl46-Sodimm-2Rx8-KVR56S46BD8-32_lIria6g-1.webp",
+  "external_id": "alltec_amd-ryzen-3-4100-mpk-3-8ghz-4-0ghz",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD RYZEN 3 4100 (MPK) 3.8GHz (4.0GHz...",
+  "slug": "amd-ryzen-3-4100-mpk-3-8ghz-4-0ghz",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-3-4100-mpk-3-8ghz-4-0ghz.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$580.840",
-    "Tarjetas de Crédito / Débito": "$612.790"
+    "Efectivo/Transferencia": "$74.500",
+    "Tarjeta crédito/débito": "$76.735"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:00",
-  "updated_at": "2026-04-25 18:20:00",
+  "created_at": "2026-04-26 20:24:31",
+  "updated_at": "2026-04-26 20:24:31",
   "prices": [
     {
-      "id": 927,
       "product_id": 927,
-      "store_id": "centrale",
-      "price": 580840,
+      "store_id": "alltec",
+      "price": 74500,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-32gb-ddr5-5600mt-s-cl46-kingston-valueram-sodimm-2rx8/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:00",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/amd/2026-amd-ryzen-3-4100-mpk-38ghz-40ghz-turbo-quad-core-tdp-65w-am4-7123456789012.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 580840
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 74500
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

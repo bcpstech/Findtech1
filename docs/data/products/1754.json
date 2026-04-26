@@ -1,43 +1,28 @@
 {
   "id": 1754,
-  "external_id": "dust2_fuente-de-poder-gigabyte-gp-ud1000gm-1000w-80plus-gold",
-  "category_id": "psu",
-  "brand": "Gigabyte",
-  "name": "Fuente de Poder Gigabyte GP-UD1000GM 1000W 80Plus Gold",
-  "slug": "fuente-de-poder-gigabyte-gp-ud1000gm-1000w-80plus-gold",
-  "image_url": "https://images.findtech.cl/products/fuente-de-poder-gigabyte-gp-ud1000gm-1000w-80plus-gold.jpg",
+  "external_id": "centrale_cooler-master-gabinete-qube-500-flatpack-atx-vidrio-templado-macaron-edition",
+  "category_id": "case",
+  "brand": "Cooler Master",
+  "name": "Cooler Master Gabinete Qube 500 Flatpack Atx, Vidrio Templado, Macaron Edition",
+  "slug": "cooler-master-gabinete-qube-500-flatpack-atx-vidrio-templado-macaron-edition",
+  "image_url": "https://centrale.cl/wp-content/uploads/Cooler-Master-Gabinete-Qube-500-Flatpack-Atx-Vidrio-Templado-Macaron-Edition-2.webp",
   "description": null,
   "specs": {
-    "Marca": "Gigabyte",
-    "Transferencia/Efectivo": "$116.500",
-    "Webpay / Tarjeta crédito-débito": "$119.990"
+    "Transferencia / Efectivo": "$91.430",
+    "Tarjetas de Crédito / Débito": "$96.460"
   },
   "tags": [],
-  "created_at": "2026-04-25 21:02:15",
-  "updated_at": "2026-04-25 21:02:15",
+  "created_at": "2026-04-26 20:37:55",
+  "updated_at": "2026-04-26 20:37:55",
   "prices": [
     {
       "product_id": 1754,
-      "store_id": "dust2",
-      "price": 116500,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/fuente-de-poder-gigabyte-gp-ud1000gm-1000w-80plus-gold/",
-      "store_name": "Dust2",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 1198,
       "store_id": "centrale",
-      "price": 117980,
-      "price_normal": 149900,
-      "discount_pct": 21,
+      "price": 91430,
+      "price_normal": 103600,
+      "discount_pct": 12,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-gigabyte-gp-ud1000gm-1000w-80-plus-gold-pcie-5-0/",
+      "product_url": "https://centrale.cl/producto/cooler-master-gabinete-qube-500-flatpack-atx-vidrio-templado-macaron-edition/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
@@ -47,11 +32,11 @@
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 116500
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 91430
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

@@ -1,46 +1,42 @@
 {
   "id": 965,
-  "external_id": "centrale_memoria-ram-notebook-16gb-3200mhz-ddr4-kingston",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM Notebook 16GB 3200Mhz DDR4 Kingston",
-  "slug": "memoria-ram-notebook-16gb-3200mhz-ddr4-kingston",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-Notebook-16GB-3200Mhz-DDR4-Kingston_zljHD0C.webp",
+  "external_id": "alltec_m-b-asrock-b650e-steel-legend-wifi-am5",
+  "category_id": "mobo",
+  "brand": "ASRock",
+  "name": "M.B. ASROCK B650E STEEL LEGEND WIFI (AM5)...",
+  "slug": "m-b-asrock-b650e-steel-legend-wifi-am5",
+  "image_url": "https://images.findtech.cl/products/m-b-asrock-b650e-steel-legend-wifi-am5.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$125.500",
-    "Tarjetas de Crédito / Débito": "$132.400"
+    "Efectivo/Transferencia": "$299.900",
+    "Tarjeta crédito/débito": "$308.897"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:00",
-  "updated_at": "2026-04-25 18:20:00",
+  "created_at": "2026-04-26 20:26:39",
+  "updated_at": "2026-04-26 20:26:39",
   "prices": [
     {
-      "id": 965,
       "product_id": 965,
-      "store_id": "centrale",
-      "price": 125500,
+      "store_id": "alltec",
+      "price": 299900,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-16gb-3200mhz-ddr4-kingston/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:00",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/para-amd/2184-mb-asrock-b650e-steel-legend-wifi-am5-ddr5-ryzen-70008000.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 125500
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 299900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

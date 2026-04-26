@@ -1,46 +1,42 @@
 {
   "id": 1415,
-  "external_id": "pcexpress_17104-disco-duro-western-digital-purple-wd64purz-6tb-vigilancia-interno-3-5-sata-6gb-s-5400-rpm-bufe",
-  "category_id": "storage",
-  "brand": "WD",
-  "name": "17104 - disco duro western digital purple wd64purz - 6tb - vigilancia - interno - 3.5\" - sata 6gb/s - 5400 rpm - búfer: 256 mb p/n wd64purz",
-  "slug": "17104-disco-duro-western-digital-purple-wd64purz-6tb-vigilancia-interno-3-5-sata-6gb-s-5400-rpm-bufe",
-  "image_url": null,
+  "external_id": "centrale_memoria-ram-kingston-valueram-16gb-ddr4-3200mhz-cl22",
+  "category_id": "ram",
+  "brand": "Kingston",
+  "name": "Memoria RAM Kingston ValueRAM 16GB DDR4 3200MHz CL22",
+  "slug": "memoria-ram-kingston-valueram-16gb-ddr4-3200mhz-cl22",
+  "image_url": "https://centrale.cl/wp-content/uploads/Kingston-Valueram-Ddr4-16-Gb-Dimm-De-288-Espigas-3200-Mhz-Pc4-25600-C_BwLSnxv.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$208.500",
-    "Tarjeta crédito/débito": "$214.755"
+    "Transferencia / Efectivo": "$203.220",
+    "Tarjetas de Crédito / Débito": "$214.400"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:55:56",
-  "updated_at": "2026-04-25 04:55:56",
+  "created_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-04-26 20:37:39",
   "prices": [
     {
-      "id": 1415,
       "product_id": 1415,
-      "store_id": "pcexpress",
-      "price": 208500,
+      "store_id": "centrale",
+      "price": 203220,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=17104&search=disco+duro+interno+3.5&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:55:56",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/memoria-ram-kingston-valueram-16gb-ddr4-3200mhz-cl22/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
-      "date": "2026-04-25",
-      "price": 208500
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 203220
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

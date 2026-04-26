@@ -1,42 +1,56 @@
 {
   "id": 584,
-  "external_id": "alltec_fuente-de-poder-xigmatek-odin-700w-80-plus",
-  "category_id": "psu",
-  "brand": "Genérico",
-  "name": "FUENTE DE PODER XIGMATEK ODIN 700W 80 PLUS...",
-  "slug": "fuente-de-poder-xigmatek-odin-700w-80-plus",
-  "image_url": "https://images.findtech.cl/products/fuente-de-poder-xigmatek-odin-700w-80-plus.jpg",
+  "external_id": "n1g_msi-pro-b550m-a-pro-am4-amd-b550-sata-6gb-s-micro-atx-amd-motherboard",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "MSI PRO B550M-A PRO AM4 AMD B550 SATA 6Gb/s Micro ATX AMD Motherboard",
+  "slug": "msi-pro-b550m-a-pro-am4-amd-b550-sata-6gb-s-micro-atx-amd-motherboard",
+  "image_url": "https://images.findtech.cl/products/msi-pro-b550m-a-pro-am4-amd-b550-sata-6gb-s-micro-atx-amd-motherboard.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$55.900",
-    "Tarjeta crédito/débito": "$57.577"
+    "Efectivo/Transferencia": "$94.900",
+    "Tarjeta crédito/débito": "$97.747"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:53:20",
-  "updated_at": "2026-04-25 20:53:20",
+  "created_at": "2026-04-26 20:12:24",
+  "updated_at": "2026-04-26 20:12:24",
   "prices": [
     {
       "product_id": 584,
-      "store_id": "alltec",
-      "price": 55900,
+      "store_id": "n1g",
+      "price": 94900,
+      "price_normal": 99895,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/1337--msi-pro-b550m-a-pro-am4-amd-b550-sata-6gbs-micro-atx-amd-motherboard.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 1397,
+      "store_id": "centrale",
+      "price": 107620,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/potencia-realcertificadas/2287-fuente-de-poder-xigmatek-odin-700w-80-plus-white.html",
-      "store_name": "Alltec",
+      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-msi-b550m-pro-vdh-wifi-socket-amd-am4-pcie-4-0-wifi-5/",
+      "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "alltec",
-      "store_name": "Alltec",
-      "date": "2026-04-25",
-      "price": 55900
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 94900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

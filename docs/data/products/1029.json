@@ -1,42 +1,48 @@
 {
   "id": 1029,
-  "external_id": "centrale_ssd-wd-blue-sn5100-1tb-m-2-nvme-pcie-4-0-hasta-7100mb-s",
+  "external_id": "alltec_1tb-m-2-pcie-gen3x4-ssd-kingspec-na900s",
   "category_id": "storage",
-  "brand": "SanDisk",
-  "name": "SSD WD Blue SN5100 1TB M.2 NVMe PCIe 4.0, hasta 7100MB/s",
-  "slug": "ssd-wd-blue-sn5100-1tb-m-2-nvme-pcie-4-0-hasta-7100mb-s",
-  "image_url": "https://centrale.cl/wp-content/uploads/Sandisk-Western-Digital-Wd-Azul-Sn5100-Disco-Duro-Interno-1-Tb-M.2-Solid-State.webp",
+  "brand": "Genérico",
+  "name": "1TB M.2 PCIe Gen3x4 SSD KINGSPEC NA900S...",
+  "slug": "1tb-m-2-pcie-gen3x4-ssd-kingspec-na900s",
+  "image_url": "https://images.findtech.cl/products/1tb-m-2-pcie-gen3x4-ssd-kingspec-na900s.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$208.050",
-    "Tarjetas de Crédito / Débito": "$219.490"
+    "NA900S-1TB": "PCIe Gen3 x4",
+    "3D NAND": "4.26W",
+    "3.3V DC": "1 TB",
+    "3500MB / s": "3200MB / s",
+    "1 millón de horas": "380K / 320K",
+    "-20 ° C ~ + 75 ° C": "0 ° C ~ + 70 ° C",
+    "Efectivo/Transferencia": "$140.900",
+    "Tarjeta crédito/débito": "$145.127"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:21",
-  "updated_at": "2026-04-25 20:57:21",
+  "created_at": "2026-04-26 20:29:56",
+  "updated_at": "2026-04-26 20:29:56",
   "prices": [
     {
       "product_id": 1029,
-      "store_id": "centrale",
-      "price": 208050,
+      "store_id": "alltec",
+      "price": 140900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ssd-wd-blue-sn5100-1tb-m-2-nvme-pcie-4-0-hasta-7100mb-s/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/ssd/2451-1tb-m2-pcie-gen3x4-ssd-kingspec-na900s-macbook-6950509911199.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 208050
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 140900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

@@ -1,46 +1,42 @@
 {
   "id": 1238,
-  "external_id": "centrale_gabinete-gamer-corsair-frame-4000d-negro-modular-mid-tower",
-  "category_id": "case",
-  "brand": "Corsair",
-  "name": "Gabinete Gamer Corsair FRAME 4000D Negro Modular Mid Tower",
-  "slug": "gabinete-gamer-corsair-frame-4000d-negro-modular-mid-tower",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Gamer-Corsair-FRAME-4000D-Negro-Modular-Mid-Tower-1.webp",
+  "external_id": "centrale_tarjeta-grafica-zotac-gaming-geforce-rtx-5050-twin-edge-oc-8gb-gddr6-128-bit",
+  "category_id": "gpu",
+  "brand": "Zotac",
+  "name": "Tarjeta Gráfica ZOTAC Gaming GeForce RTX 5050 Twin Edge OC 8GB GDDR6 128-bit",
+  "slug": "tarjeta-grafica-zotac-gaming-geforce-rtx-5050-twin-edge-oc-8gb-gddr6-128-bit",
+  "image_url": "https://centrale.cl/wp-content/uploads/Zotac-Gaming-Geforce-Rtx-5050-Twin-Edge-ZT-B50500H-10M-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$79.410",
-    "Tarjetas de Crédito / Débito": "$83.780"
+    "Transferencia / Efectivo": "$354.750",
+    "Tarjetas de Crédito / Débito": "$374.260"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:57:55",
-  "updated_at": "2026-04-25 12:57:55",
+  "created_at": "2026-04-26 20:37:32",
+  "updated_at": "2026-04-26 20:37:32",
   "prices": [
     {
-      "id": 1238,
       "product_id": 1238,
       "store_id": "centrale",
-      "price": 79410,
-      "price_normal": 95050,
-      "discount_pct": 16,
-      "currency": "CLP",
+      "price": 354750,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-gamer-corsair-frame-4000d-negro-modular-mid-tower/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:57:55",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-geforce-rtx-5050-twin-edge-oc-8gb-gddr6-128-bit/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 79410
+      "date": "2026-04-26",
+      "price": 354750
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

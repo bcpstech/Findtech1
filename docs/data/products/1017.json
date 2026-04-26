@@ -1,42 +1,52 @@
 {
   "id": 1017,
-  "external_id": "centrale_ssd-lenovo-960gb-2-5-8243-sata-iii-v-nand-tlc-servidor",
+  "external_id": "alltec_1tb-ssd-crucial-bx500-ct1000bx500ssd1",
   "category_id": "storage",
-  "brand": "Lenovo",
-  "name": "SSD Lenovo 960GB 2.5&#8243; SATA III V-NAND TLC, Servidor",
-  "slug": "ssd-lenovo-960gb-2-5-8243-sata-iii-v-nand-tlc-servidor",
-  "image_url": "https://centrale.cl/wp-content/uploads/Lenovo-Disco-Duro-Interno-960-Gb-2.5-Solid-State-Disco-Duro-4Xb7A9-4XB7A90874-1.webp",
+  "brand": "Crucial",
+  "name": "1TB SSD CRUCIAL BX500 (CT1000BX500SSD1)",
+  "slug": "1tb-ssd-crucial-bx500-ct1000bx500ssd1",
+  "image_url": "https://images.findtech.cl/products/1tb-ssd-crucial-bx500-ct1000bx500ssd1.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$1.589.180",
-    "Tarjetas de Crédito / Débito": "$1.676.580"
+    "Tipo de Módulo": "2.5-inch internal SSD",
+    "Capacidad": "1TB",
+    "Specs": "1TB 2.5-inch internal SSD SATA 6.0Gb/s 540 MB/s Read, 500 MB/s Write",
+    "Serie": "BX500",
+    "Línea de producto": "Client SSD",
+    "Interface": "SATA 6.0Gb/s",
+    "Tipo de dispositivo": "Internal Solid State Drive",
+    "Altura de la unidad": "7.0mm",
+    "Factor de forma": "2.5\" (7MM)",
+    "Contenido del paquete": "Crucial BX500 3D NAND SATA 2.5-inch SSD, Guía de instalación fácil de unidad de estado sólido",
+    "Efectivo/Transferencia": "$99.500",
+    "Tarjeta crédito/débito": "$102.485"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:38",
-  "updated_at": "2026-04-25 19:37:38",
+  "created_at": "2026-04-26 20:29:42",
+  "updated_at": "2026-04-26 20:29:42",
   "prices": [
     {
       "product_id": 1017,
-      "store_id": "centrale",
-      "price": 1589180,
+      "store_id": "alltec",
+      "price": 99500,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ssd-lenovo-960gb-2-5-sata-iii-v-nand-tlc-servidor/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/ssd/1289-1tb-ssd-crucial-bx500-ct1000bx500ssd1.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 1589180
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 99500
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

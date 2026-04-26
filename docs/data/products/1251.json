@@ -1,42 +1,70 @@
 {
   "id": 1251,
-  "external_id": "centrale_gabinete-corporativo-cooler-master-cm695-atx-usb-c-3-vent-incl",
-  "category_id": "case",
-  "brand": "Cooler Master",
-  "name": "Gabinete Corporativo Cooler Master CM695 (ATX, USB-C, 3 Vent. Incl)",
-  "slug": "gabinete-corporativo-cooler-master-cm695-atx-usb-c-3-vent-incl",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Corporativo-Cooler-Master-CM695-ATX-USB-C-3-Vent.-Incl-1.webp",
+  "external_id": "centrale_tarjeta-grafica-asus-tuf-gaming-geforce-rtx-5080-oc-edition-16gb-gddr7",
+  "category_id": "gpu",
+  "brand": "Asus",
+  "name": "Tarjeta Gráfica ASUS TUF Gaming GeForce RTX 5080 OC Edition 16GB GDDR7",
+  "slug": "tarjeta-grafica-asus-tuf-gaming-geforce-rtx-5080-oc-edition-16gb-gddr7",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-ASUS-TUF-Gaming-GeForce-RTX-5080-OC-Edition-16GB-GDDR7-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$111.370",
-    "Tarjetas de Crédito / Débito": "$117.500"
+    "Transferencia / Efectivo": "$1.903.130",
+    "Tarjetas de Crédito / Débito": "$2.007.800"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:28",
-  "updated_at": "2026-04-25 20:57:28",
+  "created_at": "2026-04-26 20:37:32",
+  "updated_at": "2026-04-26 20:37:32",
   "prices": [
     {
       "product_id": 1251,
       "store_id": "centrale",
-      "price": 111370,
+      "price": 1903130,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-corporativo-cooler-master-cm695-atx-usb-c-3-vent-incl/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-tuf-gaming-geforce-rtx-5080-oc-edition-16gb-gddr7/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 1804,
+      "store_id": "dust2",
+      "price": 2089310,
+      "price_normal": 2155330,
+      "discount_pct": 3,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-asus-geforce-rtx-5080-16gb-gddr7-noctua-oc/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 1134,
+      "store_id": "cg",
+      "price": 2251560,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/tarjetas-de-video/tarjeta-de-video-rog-astral-geforce-rtx-5080-16-gb-gddr7-edicion-oc/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 111370
+      "date": "2026-04-26",
+      "price": 1903130
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

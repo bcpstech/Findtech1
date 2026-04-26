@@ -1,42 +1,43 @@
 {
   "id": 1158,
-  "external_id": "centrale_disipador-cpu-coler-noctua-nh-u12s-redux-am5-amp-lga-1700",
-  "category_id": "cooling",
-  "brand": "Noctua",
-  "name": "Disipador CPU Coler Noctua NH-U12S redux AM5 &amp; LGA 1700",
-  "slug": "disipador-cpu-coler-noctua-nh-u12s-redux-am5-amp-lga-1700",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disipador-CPU-Coler-Noctua-NH-U12S-redux-AM5-LGA-1700_7mKzuGn-1.webp",
+  "external_id": "cg_placa-madre-asrock-b450m-ac-r2-0",
+  "category_id": "mobo",
+  "brand": "ASRock",
+  "name": "Placa Madre ASRock B450M/ac R2.0",
+  "slug": "placa-madre-asrock-b450m-ac-r2-0",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asrock-b450m-ac-r2-0.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$67.490",
-    "Tarjetas de Crédito / Débito": "$71.200"
+    "Marca": "ASROCK",
+    "Efectivo/Transferencia": "$90.240",
+    "Webpay / Tarjeta crédito-débito": "$94.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:25",
-  "updated_at": "2026-04-25 20:57:25",
+  "created_at": "2026-04-26 20:35:58",
+  "updated_at": "2026-04-26 20:35:58",
   "prices": [
     {
       "product_id": 1158,
-      "store_id": "centrale",
-      "price": 67490,
+      "store_id": "cg",
+      "price": 90240,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disipador-cpu-coler-noctua-nh-u12s-redux-am5-lga-1700/",
-      "store_name": "Centrale",
+      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asrock-b450m-ac-r2-0/",
+      "store_name": "CentralGamer",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 67490
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-26",
+      "price": 90240
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

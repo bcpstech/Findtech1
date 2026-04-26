@@ -1,42 +1,43 @@
 {
   "id": 1184,
-  "external_id": "centrale_ventilador-gabinete-80mm-pwm-arctic-p8-max-40cfm-5-3mm-h2o-0-6-sone-5000rpm",
-  "category_id": "cooling",
-  "brand": "Arctic",
-  "name": "Ventilador Gabinete 80mm PWM Arctic P8 Max 40CFM, 5.3mm H2O, 0.6 Sone 5000rpm",
-  "slug": "ventilador-gabinete-80mm-pwm-arctic-p8-max-40cfm-5-3mm-h2o-0-6-sone-5000rpm",
-  "image_url": "https://centrale.cl/wp-content/uploads/Ventilador-Gabinete-80mm-PWM-Arctic-P8-Max-40CFM-5.3mm-H2O-0.6-Sone-500_NBspk3L-1.webp",
+  "external_id": "cg_disco-ssd-kingston-kc3000-512gb-m-2-nvme-pcie-7000-3900mb-s",
+  "category_id": "storage",
+  "brand": "Kingston",
+  "name": "Disco SSD Kingston KC3000 512GB M.2 NVMe PCIe 7000/3900mb/s",
+  "slug": "disco-ssd-kingston-kc3000-512gb-m-2-nvme-pcie-7000-3900mb-s",
+  "image_url": "https://images.findtech.cl/products/disco-ssd-kingston-kc3000-512gb-m-2-nvme-pcie-7000-3900mb-s.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$6.990",
-    "Tarjetas de Crédito / Débito": "$7.370"
+    "Marca": "KINGSTON",
+    "Efectivo/Transferencia": "$132.850",
+    "Webpay / Tarjeta crédito-débito": "$139.843"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:26",
-  "updated_at": "2026-04-25 20:57:26",
+  "created_at": "2026-04-26 20:36:22",
+  "updated_at": "2026-04-26 20:36:22",
   "prices": [
     {
       "product_id": 1184,
-      "store_id": "centrale",
-      "price": 6990,
+      "store_id": "cg",
+      "price": 132850,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ventilador-gabinete-80mm-pwm-arctic-p8-max-40cfm-5-3mm-h2o-0-6-sone-5000rpm/",
-      "store_name": "Centrale",
+      "product_url": "https://centralgamer.cl/almacenamiento/disco-ssd-kingston-kc3000-512gb-m-2-nvme-pcie-7000-3900mb-s-3/",
+      "store_name": "CentralGamer",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 6990
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-26",
+      "price": 132850
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

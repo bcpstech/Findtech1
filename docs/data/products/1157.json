@@ -1,42 +1,57 @@
 {
   "id": 1157,
-  "external_id": "centrale_disipador-cpu-ventilador-procesador-arctic-freezer-36-co-continuous-operation",
-  "category_id": "cooling",
-  "brand": "Arctic",
-  "name": "Disipador CPU Ventilador Procesador ARCTIC Freezer 36 CO (Continuous Operation)",
-  "slug": "disipador-cpu-ventilador-procesador-arctic-freezer-36-co-continuous-operation",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disipador-CPU-Ventilador-Procesador-ARCTIC-Freezer-36-CO-Continuous-Ope_ok6DXBH.webp",
+  "external_id": "cg_placa-madre-asrock-a620am-x",
+  "category_id": "mobo",
+  "brand": "ASRock",
+  "name": "Placa Madre ASRock A620AM-X",
+  "slug": "placa-madre-asrock-a620am-x",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asrock-a620am-x.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$36.990",
-    "Tarjetas de Crédito / Débito": "$39.020"
+    "Marca": "ASROCK",
+    "Efectivo/Transferencia": "$104.490",
+    "Webpay / Tarjeta crédito-débito": "$109.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:42",
-  "updated_at": "2026-04-25 19:37:42",
+  "created_at": "2026-04-26 20:35:58",
+  "updated_at": "2026-04-26 20:35:58",
   "prices": [
     {
       "product_id": 1157,
-      "store_id": "centrale",
-      "price": 36990,
+      "store_id": "cg",
+      "price": 104490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disipador-cpu-ventilador-procesador-arctic-freezer-36-co-continuous-operation/",
-      "store_name": "Centrale",
+      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asrock-a620am-x/",
+      "store_name": "CentralGamer",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 591,
+      "store_id": "n1g",
+      "price": 114900,
+      "price_normal": 120947,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3731-asrock-a620am-x-micro-atx-am5-ryzen-900080007000-ddr5-8000-oc-pcie-40-25g-lan.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 36990
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-26",
+      "price": 104490
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

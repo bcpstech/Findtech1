@@ -1,42 +1,67 @@
 {
   "id": 1067,
-  "external_id": "centrale_disco-duro-2-tb-western-digital-wd-blue-interno-3-5-8243-sata-6gb-s-7200rpm",
-  "category_id": "storage",
-  "brand": "Western Digital",
-  "name": "Disco Duro 2 TB Western Digital WD Blue Interno 3.5&#8243; SATA 6GB/s 7200rpm",
-  "slug": "disco-duro-2-tb-western-digital-wd-blue-interno-3-5-8243-sata-6gb-s-7200rpm",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-Duro-2-TB-Western-Digital-WD-Blue-Interno-3.5-SATA-6GB-s-7200rpm_q0TsVsg-1.webp",
+  "external_id": "alltec_fuente-de-poder-evga-700-bq-700w-80p",
+  "category_id": "psu",
+  "brand": "EVGA",
+  "name": "FUENTE DE PODER EVGA 700 BQ (700W) 80P...",
+  "slug": "fuente-de-poder-evga-700-bq-700w-80p",
+  "image_url": "https://images.findtech.cl/products/fuente-de-poder-evga-700-bq-700w-80p.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$98.870",
-    "Tarjetas de Crédito / Débito": "$104.310"
+    "Cable ATX": "1x 600 mm",
+    "Cable EPS": "1x 600 mm",
+    "Cable PCIe": "1x 600 mm, 700 mm (m), 1x 600 mm, 700 mm",
+    "Cable SATA": "2x 450 mm, 570 mm, 690 mm (metros)",
+    "Cable periférico de cuatro clavijas": "1x 450 mm, 570 mm, 690 mm + 810 mm (disquete) (m)",
+    "Alimentación de CA": "1x 1500 mm",
+    "Tipo de cable modular": "Semimodular",
+    "ATX de 24 clavijas": "1x 24 pines (20 + 4)",
+    "EPS (CPU)": "1x 8 pines (4 + 4)",
+    "PCIe": "4x 8 pines (6 + 2)",
+    "SATA": "6x",
+    "Periférico de cuatro pines": "3 veces",
+    "Flexible": "1x",
+    "Voltaje de entrada": "100-240 VCA",
+    "Entrada de CA": "12-6A",
+    "Rango de frecuencia de entrada": "50 - 60 Hz",
+    "Eficiencia": "85% típico",
+    "Total": "700W",
+    "Condensadores japoneses": "Principal",
+    "Modo ecologico": "No",
+    "MTBF": "100.000 horas",
+    "Peso neto": "5 libras",
+    "Tamaño": "85 mm (alto) x 150 mm (ancho) x 140 mm (largo)",
+    "Aprobaciones": "TUV, CE, FCC, RCM, cTUVus, BSMI, CCC, WEEE, RoHSConformidad con ErP Lot 6 2013 Requisito",
+    "Tamaño del ventilador / cojinete": "Rodamiento de bolas doble de 120 mm",
+    "Efectivo/Transferencia": "$89.900",
+    "Tarjeta crédito/débito": "$92.597"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:38",
-  "updated_at": "2026-04-25 19:37:38",
+  "created_at": "2026-04-26 20:32:44",
+  "updated_at": "2026-04-26 20:32:44",
   "prices": [
     {
       "product_id": 1067,
-      "store_id": "centrale",
-      "price": 98870,
+      "store_id": "alltec",
+      "price": 89900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-duro-2-tb-western-digital-wd-blue-interno-3-5-sata-6gb-s-7200rpm/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/potencia-realcertificadas/1596-fuente-de-poder-evga-700-bq-700w-80p-bronze-semi-modular-110-bq-0700-v1.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 98870
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 89900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

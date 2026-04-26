@@ -1,42 +1,42 @@
 {
   "id": 819,
-  "external_id": "centrale_procesador-intel-core-i7-12700f-2-1-ghz-12-core-lga-1700",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core i7-12700F 2.1 Ghz 12-Core LGA 1700",
-  "slug": "procesador-intel-core-i7-12700f-2-1-ghz-12-core-lga-1700",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i7-12700F-2.1-Ghz-12-Core-LGA-1700_UR4JtGq.webp",
+  "external_id": "n1g_thermal-grizzly-wireview-gpu-1x12vhpwr-to-3x8pin-pcie-reversed-tg-wv-p38h1r-mide-consumo-de-gpu-moni",
+  "category_id": "psu",
+  "brand": "Thermal Grizzly",
+  "name": "Thermal Grizzly WireView GPU 1x12VHPWR to 3x8Pin PCIe Reversed TG-WV-P38H1R mide consumo de GPU Monitoreo Made in Alemania",
+  "slug": "thermal-grizzly-wireview-gpu-1x12vhpwr-to-3x8pin-pcie-reversed-tg-wv-p38h1r-mide-consumo-de-gpu-moni",
+  "image_url": "https://images.findtech.cl/products/thermal-grizzly-wireview-gpu-1x12vhpwr-to-3x8pin-pcie-reversed-tg-wv-p38h1r-mide-consumo-de-gpu-moni.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$305.780",
-    "Tarjetas de Crédito / Débito": "$322.600"
+    "Efectivo/Transferencia": "$69.900",
+    "Tarjeta crédito/débito": "$71.997"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:30",
-  "updated_at": "2026-04-25 19:37:30",
+  "created_at": "2026-04-26 20:20:22",
+  "updated_at": "2026-04-26 20:20:22",
   "prices": [
     {
       "product_id": 819,
-      "store_id": "centrale",
-      "price": 305780,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 69900,
+      "price_normal": 73579,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-12700f-2-1-ghz-12-core-lga-1700/",
-      "store_name": "Centrale",
+      "product_url": "https://n1g.cl/Home/computacion/3390-medidor-de-consumo-gpu-thermal-grizzly-wireview-gpu-1x12vhpwr-to-3x8pin-pcie-reversed-tg-wv-p38h1r.html",
+      "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 305780
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 69900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

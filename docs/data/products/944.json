@@ -1,46 +1,42 @@
 {
   "id": 944,
-  "external_id": "centrale_memoria-ram-notebook-kingston-fury-impact-16gb-ddr5-5600mt-s-sodimm",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM Notebook Kingston Fury Impact 16GB DDR5 5600MT/s SODIMM",
-  "slug": "memoria-ram-notebook-kingston-fury-impact-16gb-ddr5-5600mt-s-sodimm",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-16GB-DDR5-5600MT-s-SODIMM-Kingston-Fury-Impact-1.webp",
+  "external_id": "alltec_2-1ghz-intel-i7-14700f-5-4ghz-turbo",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "2.1GHz INTEL I7-14700F (5.4GHz TURBO,...",
+  "slug": "2-1ghz-intel-i7-14700f-5-4ghz-turbo",
+  "image_url": "https://images.findtech.cl/products/2-1ghz-intel-i7-14700f-5-4ghz-turbo.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$320.690",
-    "Tarjetas de Crédito / Débito": "$338.330"
+    "Efectivo/Transferencia": "$419.900",
+    "Tarjeta crédito/débito": "$432.497"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:00",
-  "updated_at": "2026-04-25 18:20:00",
+  "created_at": "2026-04-26 20:25:33",
+  "updated_at": "2026-04-26 20:25:33",
   "prices": [
     {
-      "id": 944,
       "product_id": 944,
-      "store_id": "centrale",
-      "price": 320690,
+      "store_id": "alltec",
+      "price": 419900,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-kingston-fury-impact-16gb-ddr5-5600mt-s-sodimm/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:00",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/intel/2257-1ghz-intel-i7-14700f-54ghz-turbo-20c28t-33mb-cache-65w-lga1700-14th-generacion.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 320690
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 419900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

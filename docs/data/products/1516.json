@@ -1,43 +1,42 @@
 {
   "id": 1516,
-  "external_id": "dust2_memoria-ram-xpg-spectrix-d35g-rgb-ddr4-3200mhz-8gb-blanco",
-  "category_id": "ram",
-  "brand": "Genérico",
-  "name": "Memoria RAM XPG Spectrix D35g RGB DDR4 3200MHz 8GB Blanco",
-  "slug": "memoria-ram-xpg-spectrix-d35g-rgb-ddr4-3200mhz-8gb-blanco",
-  "image_url": "https://images.findtech.cl/products/memoria-ram-xpg-spectrix-d35g-rgb-ddr4-3200mhz-8gb-blanco.jpg",
+  "external_id": "centrale_ssd-lenovo-960gb-2-5-8243-sata-iii-v-nand-tlc-servidor",
+  "category_id": "storage",
+  "brand": "Lenovo",
+  "name": "SSD Lenovo 960GB 2.5&#8243; SATA III V-NAND TLC, Servidor",
+  "slug": "ssd-lenovo-960gb-2-5-8243-sata-iii-v-nand-tlc-servidor",
+  "image_url": "https://centrale.cl/wp-content/uploads/Lenovo-Disco-Duro-Interno-960-Gb-2.5-Solid-State-Disco-Duro-4Xb7A9-4XB7A90874-1.webp",
   "description": null,
   "specs": {
-    "Marca": "XPG",
-    "Transferencia/Efectivo": "$82.030",
-    "Webpay / Tarjeta crédito-débito": "$84.490"
+    "Transferencia / Efectivo": "$1.590.950",
+    "Tarjetas de Crédito / Débito": "$1.678.450"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:41:41",
-  "updated_at": "2026-04-25 19:41:41",
+  "created_at": "2026-04-26 20:37:43",
+  "updated_at": "2026-04-26 20:37:43",
   "prices": [
     {
       "product_id": 1516,
-      "store_id": "dust2",
-      "price": 82030,
+      "store_id": "centrale",
+      "price": 1590950,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/memoria-ram-xpg-spectrix-d35g-rgb-ddr4-3200mhz-8gb-blanco/",
-      "store_name": "Dust2",
+      "product_url": "https://centrale.cl/producto/ssd-lenovo-960gb-2-5-sata-iii-v-nand-tlc-servidor/",
+      "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 82030
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 1590950
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

@@ -1,46 +1,42 @@
 {
   "id": 951,
-  "external_id": "centrale_memoria-ram-notebook-16gb-ddr5-5600mt-s-cl46-kingston-sodimm-1rx8-1-1v-16gbit",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM Notebook 16GB DDR5 5600MT/s CL46 Kingston SODIMM 1Rx8 1.1V 16Gbit",
-  "slug": "memoria-ram-notebook-16gb-ddr5-5600mt-s-cl46-kingston-sodimm-1rx8-1-1v-16gbit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-Notebook-16GB-DDR5-5600MT-s-CL46-Kingston-SODIMM-1Rx8-1.1V-_Rd67X2I-2.webp",
+  "external_id": "alltec_2-5ghz-intel-i5-12400f-4-4ghz-turbo",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "2.5GHz INTEL I5-12400F (4.4GHz TURBO,...",
+  "slug": "2-5ghz-intel-i5-12400f-4-4ghz-turbo",
+  "image_url": "https://images.findtech.cl/products/2-5ghz-intel-i5-12400f-4-4ghz-turbo.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$315.220",
-    "Tarjetas de Crédito / Débito": "$332.560"
+    "Efectivo/Transferencia": "$165.900",
+    "Tarjeta crédito/débito": "$170.877"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:00",
-  "updated_at": "2026-04-25 18:20:00",
+  "created_at": "2026-04-26 20:25:41",
+  "updated_at": "2026-04-26 20:25:41",
   "prices": [
     {
-      "id": 951,
       "product_id": 951,
-      "store_id": "centrale",
-      "price": 315220,
-      "price_normal": 521050,
-      "discount_pct": 40,
-      "currency": "CLP",
+      "store_id": "alltec",
+      "price": 165900,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-16gb-ddr5-5600mt-s-cl46-kingston-sodimm-1rx8-1-1v-16gbit/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:00",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/intel/2022-5ghz-intel-i5-12400f-44ghz-turbo-6c12t-18mb-cache-65w117w-lga1700-12th-generacion.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 315220
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 165900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

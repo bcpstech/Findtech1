@@ -1,42 +1,42 @@
 {
   "id": 710,
-  "external_id": "centrale_tarjeta-grafica-zotac-rtx-5080-16gb-gddr7-solid-core-oc-pcie-5-0-360w",
-  "category_id": "gpu",
-  "brand": "Zotac",
-  "name": "Tarjeta Gráfica Zotac RTX 5080 16GB GDDR7 Solid Core OC, PCIe 5.0, 360W",
-  "slug": "tarjeta-grafica-zotac-rtx-5080-16gb-gddr7-solid-core-oc-pcie-5-0-360w",
-  "image_url": "https://centrale.cl/wp-content/uploads/Zotac-Tarjeta-De-Video-Geforce-Rtx-5080-16Gb-Solid-Core-Oc-256Bit-Gddr7-P-N.webp",
+  "external_id": "n1g_amd-wraith-stealth-am5-am4-cpu-cooler-95w-ryzen-5-ryzen-3",
+  "category_id": "cooling",
+  "brand": "AMD",
+  "name": "AMD Wraith Stealth AM5 / AM4 CPU Cooler 95w RYZEN 5 RYZEN 3",
+  "slug": "amd-wraith-stealth-am5-am4-cpu-cooler-95w-ryzen-5-ryzen-3",
+  "image_url": "https://images.findtech.cl/products/amd-wraith-stealth-am5-am4-cpu-cooler-95w-ryzen-5-ryzen-3.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$1.632.310",
-    "Tarjetas de Crédito / Débito": "$1.722.090"
+    "Efectivo/Transferencia": "$9.990",
+    "Tarjeta crédito/débito": "$10.290"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:14",
-  "updated_at": "2026-04-25 20:57:14",
+  "created_at": "2026-04-26 20:16:39",
+  "updated_at": "2026-04-26 20:16:39",
   "prices": [
     {
       "product_id": 710,
-      "store_id": "centrale",
-      "price": 1632310,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 9990,
+      "price_normal": 10516,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-rtx-5080-16gb-gddr7-solid-core-oc-pcie-5-0-360w/",
-      "store_name": "Centrale",
+      "product_url": "https://n1g.cl/Home/computacion/1837-amd-wraith-stealth-am4-cpu-cooler-95w-ryzen-5-ryzen-3.html",
+      "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 1632310
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 9990
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

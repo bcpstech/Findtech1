@@ -1,46 +1,42 @@
 {
   "id": 753,
-  "external_id": "centrale_procesador-amd-ryzen-9-9950x-16-cores-32-threads-4-3-a-5-7-ghz-170w",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 9 9950X, 16 Cores 32 Threads, 4.3 a 5.7 GHz, 170W",
-  "slug": "procesador-amd-ryzen-9-9950x-16-cores-32-threads-4-3-a-5-7-ghz-170w",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-9-9950X-16-Cores-32-Threads-4.3-a-5.7-GHz-170W_Zedw1e2-1.webp",
+  "external_id": "n1g_noctua-nh-d12l-am5-lga-1700-cpu-cooler-baja-altura-marron",
+  "category_id": "cooling",
+  "brand": "Noctua",
+  "name": "NOCTUA NH-D12L AM5 & LGA 1700 CPU COOLER baja altura marrón",
+  "slug": "noctua-nh-d12l-am5-lga-1700-cpu-cooler-baja-altura-marron",
+  "image_url": "https://images.findtech.cl/products/noctua-nh-d12l-am5-lga-1700-cpu-cooler-baja-altura-marron.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$630.010",
-    "Tarjetas de Crédito / Débito": "$664.660"
+    "Efectivo/Transferencia": "$119.000",
+    "Tarjeta crédito/débito": "$122.570"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:55",
-  "updated_at": "2026-04-25 18:19:55",
+  "created_at": "2026-04-26 20:18:03",
+  "updated_at": "2026-04-26 20:18:03",
   "prices": [
     {
-      "id": 753,
       "product_id": 753,
-      "store_id": "centrale",
-      "price": 630010,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "store_id": "n1g",
+      "price": 119000,
+      "price_normal": 125263,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-9950x-16-cores-32-threads-4-3-a-5-7-ghz-170w/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:55",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://n1g.cl/Home/computacion/2499-noctua-nh-d12l-am5-lga-1700-cpu-cooler-baja-altura-marron.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 630010
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 119000
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

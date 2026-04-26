@@ -1,43 +1,42 @@
 {
   "id": 1478,
-  "external_id": "dust2_procesador-amd-ryzen-7-9700x-8c-16t-3-8-5-5ghz-am5",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "PROCESADOR AMD RYZEN 7 9700X 8C/16T 3.8-5.5GHz AM5",
-  "slug": "procesador-amd-ryzen-7-9700x-8c-16t-3-8-5-5ghz-am5",
-  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-7-9700x-8c-16t-3-8-5-5ghz-am5.jpg",
+  "external_id": "centrale_memoria-ram-48gb-ddr5-6000mt-s-cl32-kingston-fury-renegade-rgb",
+  "category_id": "ram",
+  "brand": "Kingston",
+  "name": "Memoria RAM 48GB DDR5 6000MT/s CL32 Kingston Fury Renegade RGB",
+  "slug": "memoria-ram-48gb-ddr5-6000mt-s-cl32-kingston-fury-renegade-rgb",
+  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-48GB-DDR5-6000MT-s-CL32-Kingston-Fury-Renegade-RGB_qZJiUQR-2.webp",
   "description": null,
   "specs": {
-    "Marca": "AMD",
-    "Transferencia/Efectivo": "$341.740",
-    "Webpay / Tarjeta crédito-débito": "$351.990"
+    "Transferencia / Efectivo": "$639.900",
+    "Tarjetas de Crédito / Débito": "$675.090"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:41:19",
-  "updated_at": "2026-04-25 19:41:19",
+  "created_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-04-26 20:37:39",
   "prices": [
     {
       "product_id": 1478,
-      "store_id": "dust2",
-      "price": 341740,
+      "store_id": "centrale",
+      "price": 639900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-7-9700x-8c-16t-3-8-5-5ghz-am5/",
-      "store_name": "Dust2",
+      "product_url": "https://centrale.cl/producto/memoria-ram-48gb-ddr5-6000mt-s-cl32-kingston-fury-renegade-rgb/",
+      "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 341740
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 639900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

@@ -1,42 +1,49 @@
 {
   "id": 1002,
-  "external_id": "centrale_memoria-ram-notebook-32gb-ddr5-5600mt-s-cl40-kingston-fury-impact",
+  "external_id": "alltec_8gb-ddr4-3200mhz-cl16-1-35v-pny-xlr8",
   "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM Notebook 32GB DDR5 5600MT/s CL40 Kingston Fury Impact",
-  "slug": "memoria-ram-notebook-32gb-ddr5-5600mt-s-cl40-kingston-fury-impact",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-Notebook-32GB-DDR5-5600MT-s-CL40-Kingston-Fury-Impact_9aATe2V-1.webp",
+  "brand": "PNY",
+  "name": "8GB DDR4 3200MHZ CL16 1.35V PNY XLR8...",
+  "slug": "8gb-ddr4-3200mhz-cl16-1-35v-pny-xlr8",
+  "image_url": "https://images.findtech.cl/products/8gb-ddr4-3200mhz-cl16-1-35v-pny-xlr8.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$563.160",
-    "Tarjetas de Crédito / Débito": "$594.130"
+    "Tipo de PC / Tipo de memoria": "Escritorio DDR4",
+    "Capacidad": "8 GB",
+    "Velocidad de frecuencia (JEDEC)": "3200MHz (PC4-25600)",
+    "Latencia Cas": "CL16",
+    "voltaje": "1.35V",
+    "Soporte XMP": "si",
+    "Compatibilidad de velocidad": "3200MHz, 3000MHz, 2933MHz, 2800MHz, 2666MHz, 2400MHz, 2133MHz",
+    "Efectivo/Transferencia": "$39.900",
+    "Tarjeta crédito/débito": "$41.097"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:19",
-  "updated_at": "2026-04-25 20:57:19",
+  "created_at": "2026-04-26 20:28:41",
+  "updated_at": "2026-04-26 20:28:41",
   "prices": [
     {
       "product_id": 1002,
-      "store_id": "centrale",
-      "price": 563160,
+      "store_id": "alltec",
+      "price": 39900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-32gb-ddr5-5600mt-s-cl40-kingston-fury-impact/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/ddr4/1608-8gb-ddr4-3200mhz-cl16-135v-pny-xlr8-md8gd4320016xr.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 563160
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 39900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

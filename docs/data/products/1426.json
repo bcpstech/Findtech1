@@ -1,43 +1,42 @@
 {
   "id": 1426,
-  "external_id": "dust2_procesador-intel-core-i9-14900-hasta-5-8ghz-lga1700",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core i9-14900, hasta 5.8Ghz, LGA1700",
-  "slug": "procesador-intel-core-i9-14900-hasta-5-8ghz-lga1700",
-  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i9-14900-hasta-5-8ghz-lga1700.jpg",
+  "external_id": "centrale_memoria-ram-32gb-2x16gb-ddr4-3200mt-s-cl16-1-35v-corsair-vengeance-rgb-pro-sl",
+  "category_id": "ram",
+  "brand": "Corsair",
+  "name": "Memoria RAM 32GB (2x16GB) DDR4 3200MT/s CL16 1.35V Corsair Vengeance RGB Pro SL",
+  "slug": "memoria-ram-32gb-2x16gb-ddr4-3200mt-s-cl16-1-35v-corsair-vengeance-rgb-pro-sl",
+  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-32GB-2x16GB-DDR4-3200MT-s-CL16-1.35V-Corsair-Vengeance-RGB-_QRyBXkV.webp",
   "description": null,
   "specs": {
-    "Marca": "Intel",
-    "Transferencia/Efectivo": "$697.080",
-    "Webpay / Tarjeta crédito-débito": "$717.990"
+    "Transferencia / Efectivo": "$362.950",
+    "Tarjetas de Crédito / Débito": "$382.910"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:41:02",
-  "updated_at": "2026-04-25 19:41:02",
+  "created_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-04-26 20:37:39",
   "prices": [
     {
       "product_id": 1426,
-      "store_id": "dust2",
-      "price": 697080,
+      "store_id": "centrale",
+      "price": 362950,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/procesador-intel-core-i9-14900-hasta-5-8ghz-lga1700/",
-      "store_name": "Dust2",
+      "product_url": "https://centrale.cl/producto/memoria-ram-32gb-2x16gb-ddr4-3200mt-s-cl16-1-35v-corsair-vengeance-rgb-pro-sl/",
+      "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 697080
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 362950
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

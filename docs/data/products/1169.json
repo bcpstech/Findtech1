@@ -1,42 +1,43 @@
 {
   "id": 1169,
-  "external_id": "centrale_refrigeracion-cooler-master-mf120-lite-argb-120mm-pwm",
-  "category_id": "cooling",
-  "brand": "Cooler Master",
-  "name": "Refrigeración Cooler Master MF120 Lite ARGB 120mm PWM",
-  "slug": "refrigeracion-cooler-master-mf120-lite-argb-120mm-pwm",
-  "image_url": "https://centrale.cl/wp-content/uploads/Cooler-Master-Mf120-Lite-Argb-MFW-B2DN-17NPA-R1-1775610174.webp",
+  "external_id": "cg_memoria-ram-adata-8gb-ddr5-5600mt-s-cl45",
+  "category_id": "ram",
+  "brand": "Genérico",
+  "name": "Memoria Ram ADATA 8GB DDR5 5600MT/S CL45",
+  "slug": "memoria-ram-adata-8gb-ddr5-5600mt-s-cl45",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-adata-8gb-ddr5-5600mt-s-cl45.png",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$9.570",
-    "Tarjetas de Crédito / Débito": "$10.100"
+    "Marca": "ADATA",
+    "Efectivo/Transferencia": "$99.740",
+    "Webpay / Tarjeta crédito-débito": "$104.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:26",
-  "updated_at": "2026-04-25 20:57:26",
+  "created_at": "2026-04-26 20:36:09",
+  "updated_at": "2026-04-26 20:36:09",
   "prices": [
     {
       "product_id": 1169,
-      "store_id": "centrale",
-      "price": 9570,
-      "price_normal": 11660,
-      "discount_pct": 18,
+      "store_id": "cg",
+      "price": 99740,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/refrigeracion-cooler-master-mf120-lite-argb-120mm-pwm/",
-      "store_name": "Centrale",
+      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-adata-8gb-ddr5-5600mt-s-cl45/",
+      "store_name": "CentralGamer",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 9570
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-26",
+      "price": 99740
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

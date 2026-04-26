@@ -1,28 +1,42 @@
 {
   "id": 930,
-  "external_id": "centrale_memoria-ram-32gb-ddr5-5600mt-s-cl46-kingston-valueram-2rx8-1-1v-288-pin-16gbit",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM 32GB DDR5 5600MT/s CL46 Kingston ValueRAM 2RX8 1.1V 288-pin 16Gbit",
-  "slug": "memoria-ram-32gb-ddr5-5600mt-s-cl46-kingston-valueram-2rx8-1-1v-288-pin-16gbit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-32GB-DDR5-5600MT-s-CL46-Kingston-ValueRAM-2RX8-1.1V-288-pin-16Gbit-1.webp",
+  "external_id": "alltec_amd-ryzen-5-3500-mpk-3-6ghz-4-2ghz",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD RYZEN 5 3500 (MPK) 3.6GHz (4.2GHz...",
+  "slug": "amd-ryzen-5-3500-mpk-3-6ghz-4-2ghz",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-5-3500-mpk-3-6ghz-4-2ghz.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$446.890",
-    "Tarjetas de Crédito / Débito": "$471.470"
+    "Efectivo/Transferencia": "$99.900",
+    "Tarjeta crédito/débito": "$102.897"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:35",
-  "updated_at": "2026-04-25 19:37:35",
+  "created_at": "2026-04-26 20:24:35",
+  "updated_at": "2026-04-26 20:24:35",
   "prices": [
     {
       "product_id": 930,
-      "store_id": "centrale",
-      "price": 446890,
-      "price_normal": 513880,
-      "discount_pct": 13,
+      "store_id": "alltec",
+      "price": 99900,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-32gb-ddr5-5600mt-s-cl46-kingston-valueram-2rx8-1-1v-288-pin-16gbit/",
+      "product_url": "https://www.alltec.cl/amd/1772-amd-ryzen-5-3500-mpk-36ghz-42ghz-turbo-six-core-tdp-65w-am4-8592978369668.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 283,
+      "store_id": "centrale",
+      "price": 160200,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-5600gt-3-6ghz-a-4-2ghz-6-nucleos-12-hilos-socket-am4/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
@@ -32,11 +46,11 @@
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 446890
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 99900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

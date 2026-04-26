@@ -1,28 +1,42 @@
 {
   "id": 1064,
-  "external_id": "centrale_disco-duro-hdd-12tb-nas-seagate-ironwolf-3-5-sata-7200rpm-cache-256mb-kdtec",
-  "category_id": "storage",
-  "brand": "Seagate",
-  "name": "Disco Duro HDD 12TB NAS Seagate Ironwolf 3.5“, SATA, 7200rpm, Cache 256Mb Kdtec",
-  "slug": "disco-duro-hdd-12tb-nas-seagate-ironwolf-3-5-sata-7200rpm-cache-256mb-kdtec",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-Duro-HDD-12TB-NAS-Seagate-Ironwolf-3.5-SATA-7200rpm-Cache-256Mb-K_Fnewx6b-1.webp",
+  "external_id": "alltec_fuente-de-poder-cooler-master-mwe-white",
+  "category_id": "psu",
+  "brand": "Cooler Master",
+  "name": "FUENTE DE PODER COOLER MASTER MWE WHITE...",
+  "slug": "fuente-de-poder-cooler-master-mwe-white",
+  "image_url": "https://images.findtech.cl/products/fuente-de-poder-cooler-master-mwe-white.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$510.360",
-    "Tarjetas de Crédito / Débito": "$538.430"
+    "Efectivo/Transferencia": "$59.900",
+    "Tarjeta crédito/débito": "$61.697"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:21",
-  "updated_at": "2026-04-25 20:57:21",
+  "created_at": "2026-04-26 20:32:40",
+  "updated_at": "2026-04-26 20:32:40",
   "prices": [
     {
       "product_id": 1064,
-      "store_id": "centrale",
-      "price": 510360,
+      "store_id": "alltec",
+      "price": 59900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-duro-hdd-12tb-nas-seagate-ironwolf-3-5-sata-7200rpm-cache-256mb-kdtec/",
+      "product_url": "https://www.alltec.cl/potencia-realcertificadas/1187-fuente-de-poder-cooler-master-mwe-white-650-650w.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 1717,
+      "store_id": "centrale",
+      "price": 144890,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/fuente-de-poder-cooler-master-850w-mwe-850-gold-v2-atx-3-0-full-modular-reacondicionado/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
@@ -32,11 +46,11 @@
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 510360
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 59900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

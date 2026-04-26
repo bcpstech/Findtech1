@@ -1,43 +1,42 @@
 {
   "id": 1744,
-  "external_id": "dust2_fuente-de-poder-gigabyte-gp-ud850gm-850w-80plus-gold-modular",
-  "category_id": "psu",
-  "brand": "Gigabyte",
-  "name": "Fuente de Poder Gigabyte GP-UD850GM 850W 80PLUS Gold Modular",
-  "slug": "fuente-de-poder-gigabyte-gp-ud850gm-850w-80plus-gold-modular",
-  "image_url": "https://images.findtech.cl/products/fuente-de-poder-gigabyte-gp-ud850gm-850w-80plus-gold-modular.jpg",
+  "external_id": "centrale_gabinete-corsair-480t-airflow-mid-tower-vidrio-templado-atx",
+  "category_id": "case",
+  "brand": "Corsair",
+  "name": "Gabinete Corsair 480T Airflow Mid Tower, Vidrio Templado, ATX",
+  "slug": "gabinete-corsair-480t-airflow-mid-tower-vidrio-templado-atx",
+  "image_url": "https://centrale.cl/wp-content/uploads/Corsair-Memory-Desktop-Gabinete-480T-Airflow-Atx-Pa-CC-9011271-WW-1.webp",
   "description": null,
   "specs": {
-    "Marca": "Gigabyte",
-    "Transferencia/Efectivo": "$102.900",
-    "Webpay / Tarjeta crédito-débito": "$105.990"
+    "Transferencia / Efectivo": "$48.370",
+    "Tarjetas de Crédito / Débito": "$51.030"
   },
   "tags": [],
-  "created_at": "2026-04-25 21:02:12",
-  "updated_at": "2026-04-25 21:02:12",
+  "created_at": "2026-04-26 20:37:55",
+  "updated_at": "2026-04-26 20:37:55",
   "prices": [
     {
       "product_id": 1744,
-      "store_id": "dust2",
-      "price": 102900,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "centrale",
+      "price": 48370,
+      "price_normal": 57830,
+      "discount_pct": 16,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/fuente-de-poder-gigabyte-gp-ud850gm-pg5-850w-80-plus-gold/",
-      "store_name": "Dust2",
+      "product_url": "https://centrale.cl/producto/gabinete-corsair-480t-airflow-mid-tower-vidrio-templado-atx/",
+      "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 102900
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 48370
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

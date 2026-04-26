@@ -1,46 +1,56 @@
 {
   "id": 1412,
-  "external_id": "pcexpress_14189-candado-de-de-seguridad-para-notebook-con-llave-kensington-microsaver-2-0-twin-p-n-k65048ww",
-  "category_id": "storage",
-  "brand": "Genérico",
-  "name": "14189 - candado de de seguridad para notebook con llave kensington microsaver 2.0 twin  p/n k65048ww",
-  "slug": "14189-candado-de-de-seguridad-para-notebook-con-llave-kensington-microsaver-2-0-twin-p-n-k65048ww",
-  "image_url": null,
+  "external_id": "centrale_placa-madre-gigabyte-b550m-k-micro-atx-socket-am4-pcie-4-0",
+  "category_id": "mobo",
+  "brand": "Gigabyte",
+  "name": "Placa Madre Gigabyte B550M K, Micro ATX, Socket AM4, PCIe 4.0",
+  "slug": "placa-madre-gigabyte-b550m-k-micro-atx-socket-am4-pcie-4-0",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Gigabyte-B550M-K-Micro-ATX-Socket-AM4-PCIe-4.0_9S6VKTd-1.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$33.900",
-    "Tarjeta crédito/débito": "$34.917"
+    "Transferencia / Efectivo": "$96.760",
+    "Tarjetas de Crédito / Débito": "$102.080"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:55:56",
-  "updated_at": "2026-04-25 04:55:56",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-26 20:37:37",
   "prices": [
     {
-      "id": 1412,
       "product_id": 1412,
-      "store_id": "pcexpress",
-      "price": 33900,
+      "store_id": "centrale",
+      "price": 96760,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=14189&search=disco+duro+interno+3.5&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:55:56",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b550m-k-micro-atx-socket-am4-pcie-4-0/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2644,
+      "store_id": "trulustore",
+      "price": 99990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/placa-madre-gigabyte-b550m-k-am4/",
+      "store_name": "TruluStore",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
-      "date": "2026-04-25",
-      "price": 33900
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 96760
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

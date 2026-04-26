@@ -1,46 +1,42 @@
 {
   "id": 500,
-  "external_id": "alltec_msi-pro-h810m-b-wifi6e-lga1851-ddr5",
-  "category_id": "mobo",
+  "external_id": "n1g_msi-gt-1030-4gb-lp-gddr4-pci-express-3-0-x16-uses-x4-atx-low-profile-oc-912-v812-001",
+  "category_id": "gpu",
   "brand": "MSI",
-  "name": "MSI PRO H810M-B WIFI6E (LGA1851) DDR5...",
-  "slug": "msi-pro-h810m-b-wifi6e-lga1851-ddr5",
-  "image_url": "https://images.findtech.cl/products/msi-pro-h810m-b-wifi6e-lga1851-ddr5.jpg",
+  "name": "MSI GT 1030 4GB LP GDDR4 PCI Express 3.0 x16 (uses x4) ATX  Low Profile OC 912-V812-001",
+  "slug": "msi-gt-1030-4gb-lp-gddr4-pci-express-3-0-x16-uses-x4-atx-low-profile-oc-912-v812-001",
+  "image_url": "https://images.findtech.cl/products/msi-gt-1030-4gb-lp-gddr4-pci-express-3-0-x16-uses-x4-atx-low-profile-oc-912-v812-001.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$158.900",
-    "Tarjeta crédito/débito": "$163.667"
+    "Efectivo/Transferencia": "$129.900",
+    "Tarjeta crédito/débito": "$133.797"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:09:23",
-  "updated_at": "2026-04-25 18:09:23",
+  "created_at": "2026-04-26 20:09:31",
+  "updated_at": "2026-04-26 20:09:31",
   "prices": [
     {
-      "id": 500,
       "product_id": 500,
-      "store_id": "alltec",
-      "price": 158900,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "store_id": "n1g",
+      "price": 129900,
+      "price_normal": 136737,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/para-intel/2469-msi-pro-h810m-b-wifi6e-lga1851-ddr5-intel-core-ultra-processors-series-2.html",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:09:23",
-      "store_name": "Alltec",
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl",
-      "store_rating": 4.5,
-      "review_count": 2340
+      "product_url": "https://n1g.cl/Home/computacion/3680-msi-gt-1030-4gb-lp-gddr4-pci-express-30-x16-uses-x4-atx-low-profile-oc.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "alltec",
-      "store_name": "Alltec",
-      "date": "2026-04-25",
-      "price": 158900
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 129900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

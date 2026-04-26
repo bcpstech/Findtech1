@@ -1,42 +1,56 @@
 {
   "id": 916,
-  "external_id": "centrale_placa-madre-atx-asus-prime-x870-p-wifi-socket-amd-am5-ddr5-wifi-7",
-  "category_id": "mobo",
-  "brand": "Asus",
-  "name": "Placa Madre ATX ASUS PRIME X870-P WIFI, Socket AMD AM5, DDR5, WiFi 7",
-  "slug": "placa-madre-atx-asus-prime-x870-p-wifi-socket-amd-am5-ddr5-wifi-7",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ATX-ASUS-PRIME-X870-P-WIFI-Socket-AMD-AM5-DDR5-WiFi-7_1a6WV0W-1.webp",
+  "external_id": "alltec_amd-ryzen-5-5600xt-3-7ghz-4-7ghz-turbo",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD RYZEN 5 5600XT 3.7GHz (4.7GHz TURBO)...",
+  "slug": "amd-ryzen-5-5600xt-3-7ghz-4-7ghz-turbo",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-5-5600xt-3-7ghz-4-7ghz-turbo.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$263.620",
-    "Tarjetas de Crédito / Débito": "$278.120"
+    "Efectivo/Transferencia": "$182.900",
+    "Tarjeta crédito/débito": "$188.387"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:18",
-  "updated_at": "2026-04-25 20:57:18",
+  "created_at": "2026-04-26 20:24:17",
+  "updated_at": "2026-04-26 20:24:17",
   "prices": [
     {
       "product_id": 916,
-      "store_id": "centrale",
-      "price": 263620,
+      "store_id": "alltec",
+      "price": 182900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-atx-asus-prime-x870-p-wifi-socket-amd-am5-ddr5-wifi-7/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/amd/2339-amd-ryzen-5-5600xt-37ghz-47ghz-turbo-six-core-tdp-65w-am4.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     },
     {
-      "product_id": 128,
+      "product_id": 1930,
+      "store_id": "dust2",
+      "price": 186400,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-5-5600xt-am4-zen3-6-nucleos-12-hilos/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 29,
       "store_id": "n1g",
-      "price": 335900,
-      "price_normal": 353579,
+      "price": 189900,
+      "price_normal": 199895,
       "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3167-asus-rog-strix-b850-a-gaming-wifi-amd-am5-atx-ddr5-aemp-25g-lan-wifi-7-4x-m2-pcie-50-usb-20gbps-type-c.html",
+      "product_url": "https://n1g.cl/Home/computacion/3781-amd-ryzen-5-5600xt-socket-am4-6-nucleos12-hilos-47ghz-incluye-wraith-cooler.html",
       "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
@@ -46,11 +60,11 @@
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 263620
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 182900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

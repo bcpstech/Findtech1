@@ -1,46 +1,42 @@
 {
   "id": 1379,
-  "external_id": "pcexpress_20921-gabinete-gamer-clio-mado-vidrio-templado-atx-tipo-c",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "20921 - gabinete gamer clio mado vidrio templado atx tipo-c",
-  "slug": "20921-gabinete-gamer-clio-mado-vidrio-templado-atx-tipo-c",
-  "image_url": null,
+  "external_id": "centrale_placa-madre-msi-mag-b860-tomahawk-wifi-atx-lga-1851-ddr5-wifi-7",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "Placa Madre MSI MAG B860 TOMAHAWK WIFI (ATX, LGA 1851, DDR5, WiFi 7 )",
+  "slug": "placa-madre-msi-mag-b860-tomahawk-wifi-atx-lga-1851-ddr5-wifi-7",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-MSI-MAG-B860-TOMAHAWK-WIFI-ATX-LGA-1851-DDR5-WiFi-7-1-1.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$36.500",
-    "Tarjeta crédito/débito": "$37.595"
+    "Transferencia / Efectivo": "$279.900",
+    "Tarjetas de Crédito / Débito": "$295.290"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:59:17",
-  "updated_at": "2026-04-25 12:59:17",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-26 20:37:37",
   "prices": [
     {
-      "id": 1379,
       "product_id": 1379,
-      "store_id": "pcexpress",
-      "price": 36500,
+      "store_id": "centrale",
+      "price": 279900,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=20921&search=gabinete+atx+gamer&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:59:17",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/placa-madre-msi-mag-b860-tomahawk-wifi-atx-lga-1851-ddr5-wifi-7/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
-      "date": "2026-04-25",
-      "price": 36500
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 279900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

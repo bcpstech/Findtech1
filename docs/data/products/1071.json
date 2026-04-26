@@ -1,42 +1,70 @@
 {
   "id": 1071,
-  "external_id": "centrale_ssd-xpg-gammix-s70-blade-2tb-m-2-nvme-pcie-4-0-7400mb-s",
-  "category_id": "storage",
-  "brand": "XPG",
-  "name": "SSD XPG Gammix S70 Blade 2TB M.2 NVMe PCIe 4.0, 7400MB/s",
-  "slug": "ssd-xpg-gammix-s70-blade-2tb-m-2-nvme-pcie-4-0-7400mb-s",
-  "image_url": "https://centrale.cl/wp-content/uploads/Xpg-Unidad-De-Estado-SC3B3lido-Ram-Gammix-S70-Blade-De-2Tb-Nvme-Pcie-4.0-Hasta-7-1.webp",
+  "external_id": "alltec_fuente-de-poder-evga-750-bq-80p-bronze",
+  "category_id": "psu",
+  "brand": "EVGA",
+  "name": "FUENTE DE PODER EVGA 750 BQ 80P BRONZE...",
+  "slug": "fuente-de-poder-evga-750-bq-80p-bronze",
+  "image_url": "https://images.findtech.cl/products/fuente-de-poder-evga-750-bq-80p-bronze.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$392.950",
-    "Tarjetas de Crédito / Débito": "$414.560"
+    "Cable ATX": "1x 550mm",
+    "Cable EPS": "2x 600mm",
+    "Cable PCIe": "3x 550 mm, 700 mm",
+    "cable sata": "3x 500 mm, 650 mm, 800 mm",
+    "Cable periférico de cuatro pines": "1x 550mm, 700mm, 1x 550mm, 700mm, 850mm + 1000mm (disquete)",
+    "Adaptador de disquete": "1x",
+    "Alimentación de CA": "1x 1800mm",
+    "Tipo de cable modular": "semimodular",
+    "ATX de 24 pines": "1x",
+    "EPS (CPU)": "2x 8 pines (4+4)",
+    "PCIe": "3x 8 pines (6+2), 3x 6 pines",
+    "sata": "9x",
+    "Periférico de cuatro pines": "5x",
+    "Flexible": "1x",
+    "Voltaje de entrada": "100-240 VCA",
+    "Entrada de CA": "10 A",
+    "Rango de frecuencia de entrada": "60/50 Hz",
+    "Eficiencia": "85% típico",
+    "Total": "750W",
+    "condensadores japoneses": "PCB principal",
+    "Modo ecologico": "No",
+    "MTBF": "100.000 horas",
+    "Peso bruto": "5 libras",
+    "Tamaño": "85 mm (alto) x 150 mm (ancho) x 165 mm (largo)",
+    "Aprobaciones": "TUV, CE, FCC, RCM, cTUVus, BSMI, CCC, WEEE, RoHSCumplimiento del requisito ErP Lot 6 2013",
+    "Tamaño del ventilador/Cojinete": "Cojinete de nanoacero de teflón de 140 mm",
+    "UPC": "843368036676",
+    "EAN": "4250812409867",
+    "Efectivo/Transferencia": "$94.900",
+    "Tarjeta crédito/débito": "$97.747"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:21",
-  "updated_at": "2026-04-25 20:57:21",
+  "created_at": "2026-04-26 20:32:49",
+  "updated_at": "2026-04-26 20:32:49",
   "prices": [
     {
       "product_id": 1071,
-      "store_id": "centrale",
-      "price": 392950,
+      "store_id": "alltec",
+      "price": 94900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ssd-xpg-gammix-s70-blade-2tb-m-2-nvme-pcie-4-0-7400mb-s/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/potencia-realcertificadas/1952-fuente-de-poder-evga-750-bq-80p-bronze-750w-110-bq-0750-v5-semi-modular.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 392950
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 94900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

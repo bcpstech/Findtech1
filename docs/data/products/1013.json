@@ -1,28 +1,52 @@
 {
   "id": 1013,
-  "external_id": "centrale_kingston-memoria-ram-notebook-valueram-ddr3-sdram-1600-mhz-non-ecc",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Kingston Memoria Ram Notebook Valueram Ddr3 Sdram 1600 Mhz Non-Ecc",
-  "slug": "kingston-memoria-ram-notebook-valueram-ddr3-sdram-1600-mhz-non-ecc",
-  "image_url": "https://centrale.cl/wp-content/uploads/Kingston-Memoria-Ram-Notebook-Valueram-Ddr3-Sdram-1600-Mhz-Non-Ecc_SV2Xv1Q.webp",
+  "external_id": "alltec_240gb-ssd-crucial-bx500-ct240bx500ssd1",
+  "category_id": "storage",
+  "brand": "Crucial",
+  "name": "240GB SSD CRUCIAL BX500 (CT240BX500SSD1)",
+  "slug": "240gb-ssd-crucial-bx500-ct240bx500ssd1",
+  "image_url": "https://images.findtech.cl/products/240gb-ssd-crucial-bx500-ct240bx500ssd1.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$21.150",
-    "Tarjetas de Crédito / Débito": "$22.310"
+    "Tipo de Módulo": "2.5-inch internal SSD",
+    "Capacidad": "240GB",
+    "Specs": "240GB 2.5-inch internal SSD SATA 6.0Gb/s 540 MB/s Read, 500 MB/s Write",
+    "Serie": "BX500",
+    "Línea de producto": "Client SSD",
+    "Interface": "SATA 6.0Gb/s",
+    "Tipo de dispositivo": "Internal Solid State Drive",
+    "Altura de la unidad": "7.0mm",
+    "Factor de forma": "2.5\" (7MM)",
+    "Contenido del paquete": "Crucial BX500 3D NAND SATA 2.5-inch SSD, Guía de instalación fácil de unidad de estado sólido",
+    "Efectivo/Transferencia": "$39.900",
+    "Tarjeta crédito/débito": "$41.097"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:19",
-  "updated_at": "2026-04-25 20:57:19",
+  "created_at": "2026-04-26 20:29:36",
+  "updated_at": "2026-04-26 20:29:36",
   "prices": [
     {
       "product_id": 1013,
-      "store_id": "centrale",
-      "price": 21150,
+      "store_id": "alltec",
+      "price": 39900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/kingston-memoria-ram-notebook-valueram-ddr3-sdram-1600-mhz-non-ecc/",
+      "product_url": "https://www.alltec.cl/ssd/688-240gb-ssd-crucial-bx500-ct240bx500ssd1.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 1596,
+      "store_id": "centrale",
+      "price": 67750,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/disco-ssd-240gb-crucial-bx500-3d-nand-sata-25/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
@@ -32,11 +56,11 @@
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 21150
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 39900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

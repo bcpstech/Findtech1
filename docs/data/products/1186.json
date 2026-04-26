@@ -1,42 +1,43 @@
 {
   "id": 1186,
-  "external_id": "centrale_fuente-de-poder-asus-tuf-gaming-850w-gold-atx-3-1-pcie-5-1",
-  "category_id": "psu",
-  "brand": "Asus",
-  "name": "Fuente de Poder ASUS TUF Gaming 850W Gold ( ATX 3.1, PCIe 5.1 )",
-  "slug": "fuente-de-poder-asus-tuf-gaming-850w-gold-atx-3-1-pcie-5-1",
-  "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-ASUS-TUF-Gaming-850W-Gold-ATX-3.1-PCIe-5.1-1777064965.webp",
+  "external_id": "cg_disco-duro-kingston-dc600m-960gb-sata",
+  "category_id": "storage",
+  "brand": "Kingston",
+  "name": "Disco Duro Kingston DC600M 960GB Sata",
+  "slug": "disco-duro-kingston-dc600m-960gb-sata",
+  "image_url": "https://images.findtech.cl/products/disco-duro-kingston-dc600m-960gb-sata.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$123.280",
-    "Tarjetas de Crédito / Débito": "$130.060"
+    "Marca": "KINGSTON",
+    "Efectivo/Transferencia": "$497.570",
+    "Webpay / Tarjeta crédito-débito": "$523.740"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:27",
-  "updated_at": "2026-04-25 20:57:27",
+  "created_at": "2026-04-26 20:36:23",
+  "updated_at": "2026-04-26 20:36:23",
   "prices": [
     {
       "product_id": 1186,
-      "store_id": "centrale",
-      "price": 123280,
+      "store_id": "cg",
+      "price": 497570,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-asus-tuf-gaming-850w-gold-atx-3-1-pcie-5-1/",
-      "store_name": "Centrale",
+      "product_url": "https://centralgamer.cl/almacenamiento/kingston-dc600m-ssd-mixed-use-960-gb-interno-2-5-sata-6gb-s/",
+      "store_name": "CentralGamer",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 123280
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-26",
+      "price": 497570
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

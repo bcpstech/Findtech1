@@ -1,42 +1,92 @@
 {
   "id": 21,
-  "external_id": "n1g_msi-rtx-5070-ti-inspire-3x-16gb-gddr7-oc-pci-express-5-0-atx-912-v531-273",
-  "category_id": "gpu",
-  "brand": "MSI",
-  "name": "MSI RTX 5070 Ti INSPIRE 3X 16GB GDDR7 OC PCI Express 5.0 ATX 912-V531-273",
-  "slug": "msi-rtx-5070-ti-inspire-3x-16gb-gddr7-oc-pci-express-5-0-atx-912-v531-273",
-  "image_url": "https://images.findtech.cl/products/msi-rtx-5070-ti-inspire-3x-16gb-gddr7-oc-pci-express-5-0-atx-912-v531-273.jpg",
+  "external_id": "n1g_procesador-amd-ryzen-5-3400g-4-core-3-7-ghz-4-2-ghz-max-boost-socket-am4-65w",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD RYZEN 5 3400G 4-Core 3.7 GHz (4.2 GHz Max Boost) Socket AM4 65W",
+  "slug": "procesador-amd-ryzen-5-3400g-4-core-3-7-ghz-4-2-ghz-max-boost-socket-am4-65w",
+  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-5-3400g-4-core-3-7-ghz-4-2-ghz-max-boost-socket-am4-65w.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$1.399.000",
-    "Tarjeta crédito/débito": "$1.440.970"
+    "Cores/Threads": "4/8",
+    "Max Boost**": "4.2 GHz",
+    "Cache": "6MB",
+    "TDP": "65W",
+    "PCIe Version": "3.0",
+    "Unlocked for Overclocking2": "Yes + Precision Boost Overdrive3",
+    "In Box Cooler": "Wraith Spire",
+    "Socket": "AM4",
+    "Efectivo/Transferencia": "$69.900",
+    "Tarjeta crédito/débito": "$71.997"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:31:51",
-  "updated_at": "2026-04-25 20:31:51",
+  "created_at": "2026-04-26 15:47:43",
+  "updated_at": "2026-04-26 20:10:22",
   "prices": [
     {
       "product_id": 21,
       "store_id": "n1g",
-      "price": 1399000,
-      "price_normal": 1472632,
+      "price": 69900,
+      "price_normal": 73579,
       "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3678-msi-rtx-5070-ti-inspire-16gb-gddr7-3x-oc-pci-express-50-atx-912-v531-273.html",
+      "product_url": "https://n1g.cl/Home/computacion/658-procesador-amd-ryzen-5-3400g-4-core-37-ghz-42-ghz-max-boost-socket-am4-65w.html",
       "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 1136,
+      "store_id": "cg",
+      "price": 75990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-3400g-4-core/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 1965,
+      "store_id": "dust2",
+      "price": 145620,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-5-5600gt-6-nucleos-36-ghz-am4/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 2624,
+      "store_id": "trulustore",
+      "price": 569990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/pc-gamer-amd-ryzen-5-5600gt-igpu-radeon-vega-7-8gb-ram-3200mhz-ssd-nvme-m-2-500gb-gabinete-antec-vx100m-argb-3-ventiladores/",
+      "store_name": "TruluStore",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
     {
       "store_id": "n1g",
       "store_name": "N1G",
-      "date": "2026-04-25",
-      "price": 1399000
+      "date": "2026-04-26",
+      "price": 69900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

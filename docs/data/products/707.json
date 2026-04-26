@@ -1,46 +1,42 @@
 {
   "id": 707,
-  "external_id": "centrale_tarjeta-grafica-gigabyte-amd-radeon-rx-9070-xt-gaming-oc-16gb-gddr6",
-  "category_id": "gpu",
-  "brand": "Gigabyte",
-  "name": "Tarjeta Gráfica Gigabyte AMD Radeon RX 9070 XT GAMING OC 16GB GDDR6",
-  "slug": "tarjeta-grafica-gigabyte-amd-radeon-rx-9070-xt-gaming-oc-16gb-gddr6",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-Gigabyte-AMD-Radeon-RX-9070-XT-GAMING-OC-16GB-GDDR6-1.webp",
+  "external_id": "n1g_lexar-4tb-ssd-pcie-5-0-nvme-nm1090-pro-m-2-2280-lectura-de-hasta-14-000-mb-s-habilitado-para-directs",
+  "category_id": "storage",
+  "brand": "Genérico",
+  "name": "Lexar 4TB SSD PCIe 5.0 NVMe NM1090 PRO M.2 2280 lectura de hasta 14,000 MB/s,habilitado para DirectStorage, ideal AI",
+  "slug": "lexar-4tb-ssd-pcie-5-0-nvme-nm1090-pro-m-2-2280-lectura-de-hasta-14-000-mb-s-habilitado-para-directs",
+  "image_url": "https://images.findtech.cl/products/lexar-4tb-ssd-pcie-5-0-nvme-nm1090-pro-m-2-2280-lectura-de-hasta-14-000-mb-s-habilitado-para-directs.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$837.000",
-    "Tarjetas de Crédito / Débito": "$883.040"
+    "Efectivo/Transferencia": "$799.000",
+    "Tarjeta crédito/débito": "$822.970"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:52",
-  "updated_at": "2026-04-25 18:19:52",
+  "created_at": "2026-04-26 20:16:30",
+  "updated_at": "2026-04-26 20:16:30",
   "prices": [
     {
-      "id": 707,
       "product_id": 707,
-      "store_id": "centrale",
-      "price": 837000,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "store_id": "n1g",
+      "price": 799000,
+      "price_normal": 841053,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-gigabyte-amd-radeon-rx-9070-xt-gaming-oc-16gb-gddr6/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:52",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://n1g.cl/Home/computacion/3856-lexar-ssd-nm1090-pro-pcie-gen5-nvme-m2-2280-de-4-tb-lectura-de-hasta-14000-mbshabilitado-para-directstorage-ideal-ai.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 837000
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 799000
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

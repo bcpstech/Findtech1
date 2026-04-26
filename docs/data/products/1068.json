@@ -1,42 +1,68 @@
 {
   "id": 1068,
-  "external_id": "centrale_ssd-crucial-e100-1tb-nvme-pcie-4-0-m-2-2280-hasta-5000-mb-s",
-  "category_id": "storage",
-  "brand": "Crucial",
-  "name": "SSD Crucial E100 1TB, NVMe PCIe 4.0, M.2 2280, Hasta 5000 MB/s",
-  "slug": "ssd-crucial-e100-1tb-nvme-pcie-4-0-m-2-2280-hasta-5000-mb-s",
-  "image_url": "https://centrale.cl/wp-content/uploads/Crucial-Ssd-E100-1Tb-Pcie-Gen4-2280-Nvme-M.2-CT1000E100SSD8-1.webp",
+  "external_id": "alltec_fuente-de-poder-evga-850-bq-850w-80p",
+  "category_id": "psu",
+  "brand": "EVGA",
+  "name": "FUENTE DE PODER EVGA 850 BQ (850W) 80P...",
+  "slug": "fuente-de-poder-evga-850-bq-850w-80p",
+  "image_url": "https://images.findtech.cl/products/fuente-de-poder-evga-850-bq-850w-80p.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$134.200",
-    "Tarjetas de Crédito / Débito": "$141.580"
+    "Cable ATX": "1x 550 mm",
+    "Cable EPS": "2x 600 mm",
+    "Cable PCIe": "3 x 550 mm, 700 mm",
+    "Cable SATA": "1x 500 mm, 650 mm, 800 mm, 950 mm, 2x 500 mm, 650 mm, 800 mm",
+    "Cable periférico de cuatro clavijas": "1x 550 mm, 700 mm, 1x 550 mm, 700 mm, 850 mm + 1000 mm (disquete)",
+    "Adaptador de disquete": "1x",
+    "Alimentación de CA": "1x 1800 mm",
+    "Tipo de cable modular": "Semimodular",
+    "ATX de 24 clavijas": "1x",
+    "EPS (CPU)": "2x 8 pines (4 + 4)",
+    "PCIe": "3x 8 pines (6 + 2), 3x 6 pines",
+    "SATA": "10 veces",
+    "Periférico de cuatro pines": "5 veces",
+    "Flexible": "1x",
+    "Voltaje de entrada": "100-240 VCA",
+    "Entrada de CA": "12A",
+    "Rango de frecuencia de entrada": "60/50 Hz",
+    "Eficiencia": "85% típico",
+    "Total": "850W",
+    "Condensadores japoneses": "PCB principal",
+    "Modo ecologico": "No",
+    "MTBF": "100.000 horas",
+    "Peso neto": "7 libras",
+    "Tamaño": "85 mm (alto) x 150 mm (ancho) x 140 mm (largo)",
+    "Aprobaciones": "TUV, CB, CE, FCC, RCM, cTUVus, BSMI, CCC, WEEE, RoHSConformidad con ErP Lot 6 2013 Requisito",
+    "Tamaño del ventilador / cojinete": "Cojinete de nano-acero de teflón de 140 mm",
+    "Efectivo/Transferencia": "$159.900",
+    "Tarjeta crédito/débito": "$164.697"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:38",
-  "updated_at": "2026-04-25 19:37:38",
+  "created_at": "2026-04-26 20:32:45",
+  "updated_at": "2026-04-26 20:32:45",
   "prices": [
     {
       "product_id": 1068,
-      "store_id": "centrale",
-      "price": 134200,
+      "store_id": "alltec",
+      "price": 159900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ssd-crucial-e100-1tb-nvme-pcie-4-0-m-2-2280-hasta-5000-mb-s/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/potencia-realcertificadas/1597-fuente-de-poder-evga-850-bq-850w-80p-bronze-semi-modular-110-bq-0850-v5.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 134200
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 159900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

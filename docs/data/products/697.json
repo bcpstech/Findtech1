@@ -1,46 +1,42 @@
 {
   "id": 697,
-  "external_id": "centrale_tarjeta-grafica-zotac-gaming-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bit",
-  "category_id": "gpu",
-  "brand": "Zotac",
-  "name": "Tarjeta Gráfica ZOTAC GAMING GeForce RTX 5070 SOLID OC 12GB GDDR7 192-bit",
-  "slug": "tarjeta-grafica-zotac-gaming-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-ZOTAC-GAMING-GeForce-RTX-5070-SOLID-OC-12GB-GDDR7-192-bit.webp",
+  "external_id": "n1g_kingston-1tb-pcie-5-0-fury-renegade-g5-m-2-2280-nvme-2280-sfyr2s-1t0",
+  "category_id": "storage",
+  "brand": "Kingston",
+  "name": "Kingston 1TB PCIe 5.0 FURY Renegade G5 M.2 2280 NVMe 2280 SFYR2S/1T0",
+  "slug": "kingston-1tb-pcie-5-0-fury-renegade-g5-m-2-2280-nvme-2280-sfyr2s-1t0",
+  "image_url": "https://images.findtech.cl/products/kingston-1tb-pcie-5-0-fury-renegade-g5-m-2-2280-nvme-2280-sfyr2s-1t0.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$861.140",
-    "Tarjetas de Crédito / Débito": "$908.500"
+    "Efectivo/Transferencia": "$269.000",
+    "Tarjeta crédito/débito": "$277.070"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:52",
-  "updated_at": "2026-04-25 18:19:52",
+  "created_at": "2026-04-26 20:16:09",
+  "updated_at": "2026-04-26 20:16:09",
   "prices": [
     {
-      "id": 697,
       "product_id": 697,
-      "store_id": "centrale",
-      "price": 861140,
-      "price_normal": 1679980,
-      "discount_pct": 49,
-      "currency": "CLP",
+      "store_id": "n1g",
+      "price": 269000,
+      "price_normal": 283158,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bit/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:52",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://n1g.cl/Home/computacion/3823-kingston-1tb-pcie-50-fury-renegade-g5-m2-2280-nvme-2280-sfyr2s1t0.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 861140
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 269000
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

@@ -1,42 +1,57 @@
 {
   "id": 994,
-  "external_id": "centrale_memoria-ram-notebook-32gb-ddr5-5600mt-s-cl40-kingston-fury-impact",
+  "external_id": "alltec_16gb-ddr4-3200mhz-8gbx2-g-skill-flare-x",
   "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM Notebook 32GB DDR5 5600MT/s CL40 Kingston Fury Impact",
-  "slug": "memoria-ram-notebook-32gb-ddr5-5600mt-s-cl40-kingston-fury-impact",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-Notebook-32GB-DDR5-5600MT-s-CL40-Kingston-Fury-Impact_9aATe2V-1.webp",
+  "brand": "G.Skill",
+  "name": "16GB DDR4 3200MHz (8GBx2) G.SKILL FLARE X...",
+  "slug": "16gb-ddr4-3200mhz-8gbx2-g-skill-flare-x",
+  "image_url": "https://images.findtech.cl/products/16gb-ddr4-3200mhz-8gbx2-g-skill-flare-x.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$563.160",
-    "Tarjetas de Crédito / Débito": "$594.130"
+    "Serie": "Flare X",
+    "Tipo de memoria": "DDR4",
+    "Capacidad": "16 GB (8 GB x 2)",
+    "Kit multicanal": "Kit de doble canal (Dual Channel)",
+    "Velocidad probada": "3200MHz",
+    "Latencia probada": "16-18-18-38",
+    "Voltaje probado": "1.35v",
+    "Registrado / Sin Amortiguar": "No amañado",
+    "Comprobación de errores": "No-ECC",
+    "Velocidad SPD": "2133MHz",
+    "Voltaje SPD": "1.20v",
+    "Fan incluido": "No",
+    "Altura": "44 mm / 1.73 pulgadas",
+    "Características": "Intel XMP 2.0 (perfil de memoria extrema) listo",
+    "Notas adicionales": "La frecuencia y estabilidad XMP nominal depende de la capacidad de MB y CPU.",
+    "Efectivo/Transferencia": "$99.900",
+    "Tarjeta crédito/débito": "$102.897"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:35",
-  "updated_at": "2026-04-25 19:37:35",
+  "created_at": "2026-04-26 20:28:32",
+  "updated_at": "2026-04-26 20:28:32",
   "prices": [
     {
       "product_id": 994,
-      "store_id": "centrale",
-      "price": 563160,
+      "store_id": "alltec",
+      "price": 99900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-32gb-ddr5-5600mt-s-cl40-kingston-fury-impact/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/ddr4/1017-16gb-ddr4-3200mhz-8gbx2-gskill-flare-x-f4-3200c16d-16gfx.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 563160
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 99900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

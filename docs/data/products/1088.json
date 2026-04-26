@@ -1,42 +1,61 @@
 {
   "id": 1088,
-  "external_id": "centrale_disco-ssd-500gb-kingston-nv3-8211-m-2-2280-pcie-4-0-nvme-5-000-3-000mb-seg",
-  "category_id": "storage",
-  "brand": "Kingston",
-  "name": "Disco SSD 500GB Kingston NV3 &#8211; M.2 2280 PCIe 4.0 NVMe 5,000/3,000MB/seg",
-  "slug": "disco-ssd-500gb-kingston-nv3-8211-m-2-2280-pcie-4-0-nvme-5-000-3-000mb-seg",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-500GB-Kingston-NV3-M.2-2280-PCIe-4.0-NVMe-6000MB-s_fnumfFE-1.webp",
+  "external_id": "alltec_gabinete-azza-cube-802-atx-argb-csaz-802f",
+  "category_id": "case",
+  "brand": "Genérico",
+  "name": "GABINETE AZZA CUBE 802 (ATX) (ARGB) CSAZ-802F",
+  "slug": "gabinete-azza-cube-802-atx-argb-csaz-802f",
+  "image_url": "https://images.findtech.cl/products/gabinete-azza-cube-802-atx-argb-csaz-802f.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$84.980",
-    "Tarjetas de Crédito / Débito": "$89.650"
+    "Nombre del modelo": "Cubo 802",
+    "Número de modelo": "CSAZ-802F",
+    "Tipo": "Torre completa ATX 、 ITX",
+    "Color": "Negro (exterior) / Negro (interior)",
+    "Material de la Caja": "SPCC de 0,6 ~ 1,5 mm",
+    "Ventana del panel lateral": "Izquierda 、 Derecha 、 Parte superior del panel: vidrio templado con soportes de goma",
+    "Altura máxima del enfriador de la CPU": "Hasta 165 mm",
+    "Longitud máxima de la tarjeta de video": "Tarjeta de video de hasta 320 mm de largo",
+    "Fuente de alimentación": "No incluido",
+    "Compatibilidad de placa base": "ATX, Micro ATX, Mini ITX",
+    "Bahías de unidad externas de 5,25 \":": "0",
+    "Bahías de unidad internas de 2,5 \"": "Hasta 2",
+    "Bahías de unidad internas de 3,5 \"": "1",
+    "Ranuras de expansión": "7",
+    "Dimensiones del chasis de metal (HxWxD)": "350x350x350mm / 13,8x13,8x13,8 pulgadas",
+    "Dimensión con soporte de caja (HxWxD)": "593x500x514mm / 23,3x19,7x20,2 pulgadas",
+    "Peso": "13,7 kg / 30,2 libras",
+    "Refrigeración por agua": "Admite radiadores de hasta 240 mm en la parte delantera",
+    "Accesorios": "1x conector RF",
+    "Efectivo/Transferencia": "$247.900",
+    "Tarjeta crédito/débito": "$255.337"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:21",
-  "updated_at": "2026-04-25 20:57:21",
+  "created_at": "2026-04-26 20:33:57",
+  "updated_at": "2026-04-26 20:33:57",
   "prices": [
     {
       "product_id": 1088,
-      "store_id": "centrale",
-      "price": 84980,
+      "store_id": "alltec",
+      "price": 247900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-500gb-kingston-nv3-m-2-2280-pcie-4-0-nvme-5000-3000mb-seg/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/sin-fuente-de-poder/1518-gabinete-azza-cube-802-atx-argb-csaz-802f.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 84980
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 247900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

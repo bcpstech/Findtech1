@@ -1,56 +1,42 @@
 {
   "id": 922,
-  "external_id": "centrale_placa-madre-gigabyte-b550m-k-micro-atx-socket-am4-pcie-4-0",
-  "category_id": "mobo",
-  "brand": "Gigabyte",
-  "name": "Placa Madre Gigabyte B550M K, Micro ATX, Socket AM4, PCIe 4.0",
-  "slug": "placa-madre-gigabyte-b550m-k-micro-atx-socket-am4-pcie-4-0",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Gigabyte-B550M-K-Micro-ATX-Socket-AM4-PCIe-4.0_9S6VKTd-1.webp",
+  "external_id": "alltec_amd-ryzen-5-9600-3-8ghz-5-2ghz-turbo-six",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD RYZEN 5 9600 3.8GHz (5.2GHz TURBO) SIX...",
+  "slug": "amd-ryzen-5-9600-3-8ghz-5-2ghz-turbo-six",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-5-9600-3-8ghz-5-2ghz-turbo-six.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$96.760",
-    "Tarjetas de Crédito / Débito": "$102.080"
+    "Efectivo/Transferencia": "$258.700",
+    "Tarjeta crédito/débito": "$266.461"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:18",
-  "updated_at": "2026-04-25 20:57:18",
+  "created_at": "2026-04-26 20:24:25",
+  "updated_at": "2026-04-26 20:24:25",
   "prices": [
     {
       "product_id": 922,
-      "store_id": "centrale",
-      "price": 96760,
+      "store_id": "alltec",
+      "price": 258700,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b550m-k-micro-atx-socket-am4-pcie-4-0/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/amd/2420-amd-ryzen-5-9600-38ghz-52ghz-turbo-six-core-tdp-65w-am5.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 2094,
-      "store_id": "trulustore",
-      "price": 99990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/placa-madre-gigabyte-b550m-k-am4/",
-      "store_name": "TruluStore",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 96760
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 258700
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

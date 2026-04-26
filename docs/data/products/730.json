@@ -1,42 +1,28 @@
 {
   "id": 730,
-  "external_id": "centrale_tarjeta-grafica-pny-nvidia-rtx-pro-4000-blackwell-24gb-ecc",
-  "category_id": "gpu",
-  "brand": "Pny",
-  "name": "Tarjeta Gráfica PNY NVIDIA RTX PRO 4000 Blackwell 24GB ECC",
-  "slug": "tarjeta-grafica-pny-nvidia-rtx-pro-4000-blackwell-24gb-ecc",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-PNY-NVIDIA-RTX-PRO-4000-Blackwell-24GB-ECC.webp",
+  "external_id": "n1g_ekwb-ek-cryofuel-solid-mystic-fog-concentrado-250ml",
+  "category_id": "cooling",
+  "brand": "EK Waterblock",
+  "name": "EKWB EK-CryoFuel Solid Mystic Fog Concentrado 250ml",
+  "slug": "ekwb-ek-cryofuel-solid-mystic-fog-concentrado-250ml",
+  "image_url": "https://images.findtech.cl/products/ekwb-ek-cryofuel-solid-mystic-fog-concentrado-250ml.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$2.390.000",
-    "Tarjetas de Crédito / Débito": "$2.521.450"
+    "Efectivo/Transferencia": "$34.900",
+    "Tarjeta crédito/débito": "$35.947"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:28",
-  "updated_at": "2026-04-25 19:37:28",
+  "created_at": "2026-04-26 20:17:18",
+  "updated_at": "2026-04-26 20:17:18",
   "prices": [
     {
       "product_id": 730,
-      "store_id": "centrale",
-      "price": 2390000,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-pny-nvidia-rtx-pro-4000-blackwell-24gb-ecc/",
-      "store_name": "Centrale",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 30,
       "store_id": "n1g",
-      "price": 11990000,
-      "price_normal": 12621053,
+      "price": 34900,
+      "price_normal": 36737,
       "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3571-pny-nvidia-rtx-pro-6000-blackwell-max-q-96gb-gddr7-with-ecc-ai-accelerator-cards-rtx-pro-6000-blackwell-max-q.html",
+      "product_url": "https://n1g.cl/Home/watercooling/3755-ekwb-ek-cryofuel-solid-electric-purple-concentrado-250ml.html",
       "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
@@ -46,11 +32,11 @@
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 2390000
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 34900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

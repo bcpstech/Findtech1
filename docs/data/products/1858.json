@@ -1,43 +1,71 @@
 {
   "id": 1858,
-  "external_id": "dust2_gabinete-gamer-esgaming-zero-max-bk-atx",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "Gabinete Gamer ESGAMING ZERO MAX-BK, ATX",
-  "slug": "gabinete-gamer-esgaming-zero-max-bk-atx",
-  "image_url": "https://images.findtech.cl/products/gabinete-gamer-esgaming-zero-max-bk-atx.jpg",
+  "external_id": "dust2_tarjeta-de-video-asus-prime-rtx-5050-oc-gddr6-8gb",
+  "category_id": "gpu",
+  "brand": "ASUS",
+  "name": "Tarjeta de Video ASUS Prime RTX 5050 OC GDDR6 8GB",
+  "slug": "tarjeta-de-video-asus-prime-rtx-5050-oc-gddr6-8gb",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-asus-prime-rtx-5050-oc-gddr6-8gb.jpg",
   "description": null,
   "specs": {
-    "Marca": "ESGAMING",
-    "Transferencia/Efectivo": "$77.660",
-    "Webpay / Tarjeta crédito-débito": "$79.990"
+    "Marca": "ASUS",
+    "Transferencia/Efectivo": "$337.850",
+    "Webpay / Tarjeta crédito-débito": "$347.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:44:26",
-  "updated_at": "2026-04-25 19:44:26",
+  "created_at": "2026-04-26 20:41:08",
+  "updated_at": "2026-04-26 20:41:08",
   "prices": [
     {
       "product_id": 1858,
       "store_id": "dust2",
-      "price": 77660,
+      "price": 337850,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/gabinete-gamer-esgaming-zero-max-bk-atx/",
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-asus-prime-rtx-5050-oc-gddr6-8gb/",
       "store_name": "Dust2",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 1232,
+      "store_id": "centrale",
+      "price": 389990,
+      "price_normal": 441090,
+      "discount_pct": 12,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-prime-geforce-rtx-5050-8gb-gddr6-oc-edition/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 1133,
+      "store_id": "cg",
+      "price": 399000,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/grafica-asus/tarjeta-de-video-asus-prime-rtx-5050-oc-8gb-gddr6/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
       "store_id": "dust2",
       "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 77660
+      "date": "2026-04-26",
+      "price": 337850
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

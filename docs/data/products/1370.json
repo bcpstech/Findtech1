@@ -1,46 +1,56 @@
 {
   "id": 1370,
-  "external_id": "pcexpress_10260-fuente-de-poder-gamemax-550w-atx-80-plus-bronce-gp-serie-p-n-gp-550",
-  "category_id": "psu",
-  "brand": "Genérico",
-  "name": "10260 - fuente de poder gamemax 550w atx 80 plus bronce gp serie p/n gp-550",
-  "slug": "10260-fuente-de-poder-gamemax-550w-atx-80-plus-bronce-gp-serie-p-n-gp-550",
-  "image_url": null,
+  "external_id": "centrale_placa-madre-asus-prime-b860m-k-micro-atx-2x-ddr5-intel-lga-1851-pcie-5-0",
+  "category_id": "mobo",
+  "brand": "Asus",
+  "name": "Placa Madre ASUS PRIME B860M-K (Micro ATX, 2x DDR5, Intel LGA 1851, PCIe 5.0)",
+  "slug": "placa-madre-asus-prime-b860m-k-micro-atx-2x-ddr5-intel-lga-1851-pcie-5-0",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASUS-PRIME-B860M-K-Micro-ATX-2x-DDR5-Intel-LGA-1851-PCIe-5.0.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$49.900",
-    "Tarjeta crédito/débito": "$51.397"
+    "Transferencia / Efectivo": "$148.990",
+    "Tarjetas de Crédito / Débito": "$157.180"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:59:11",
-  "updated_at": "2026-04-25 12:59:11",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-26 20:37:37",
   "prices": [
     {
-      "id": 1370,
       "product_id": 1370,
-      "store_id": "pcexpress",
-      "price": 49900,
+      "store_id": "centrale",
+      "price": 148990,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=10260&search=fuente+poder+80+plus&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:59:11",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b860m-k-micro-atx-2x-ddr5-intel-lga-1851-pcie-5-0/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 1155,
+      "store_id": "cg",
+      "price": 228000,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-tuf-gaming-b860m-plus-wifi/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
-      "date": "2026-04-25",
-      "price": 49900
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 148990
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

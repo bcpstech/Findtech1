@@ -1,42 +1,63 @@
 {
   "id": 792,
-  "external_id": "centrale_procesador-intel-core-i7-14700f-core-2-1ghz-33mb-lga1700-14th-gen-no-graphic",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core i7-14700F Core 2.1Ghz 33MB LGA1700 14th Gen no graphic",
-  "slug": "procesador-intel-core-i7-14700f-core-2-1ghz-33mb-lga1700-14th-gen-no-graphic",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i7-14700F-Core-2.1Ghz-33MB-LGA1700-14th-Gen-no-graphic-1.webp",
+  "external_id": "n1g_antec-csk-pro-1000w-atx-3-1-80-bronze-pcie-5-1-semi-modular-0-761345-20073-8",
+  "category_id": "psu",
+  "brand": "Antec",
+  "name": "Antec CSK Pro 1000W ATX 3.1 80+ Bronze PCIe 5.1 Semi-Modular 0-761345-20073-8",
+  "slug": "antec-csk-pro-1000w-atx-3-1-80-bronze-pcie-5-1-semi-modular-0-761345-20073-8",
+  "image_url": "https://images.findtech.cl/products/antec-csk-pro-1000w-atx-3-1-80-bronze-pcie-5-1-semi-modular-0-761345-20073-8.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$393.450",
-    "Tarjetas de Crédito / Débito": "$415.090"
+    "Modelo": "CSK1000 PRO ATX3.1",
+    "Modelo seguro": "V5000A212A-23",
+    "Tipo": "ATX 12 V 3.1",
+    "Dimensión": "140 (largo) x 150 (ancho) x 86 (alto)",
+    "Modular": "Semimodular",
+    "Garantía": "5 años",
+    "Voltaje de entrada": "200 V-240 V",
+    "Corriente de entrada": "6A máx.",
+    "Rango de frecuencia de entrada": "50 Hz",
+    "PFC": "PFC activo",
+    "Potencia Buena Señal": "100-150 ms",
+    "Protección": "OCP, OVP, UVP, SCP, OPP, OTP, SIP, NLO",
+    "Capacidad de salida": "1000W",
+    "Temperatura de funcionamiento": "0~40 °C",
+    "Regulador": "TÜV / CB / RCM / CE / BIS / UKCA / KC",
+    "Admirador": "Ventilador silencioso de 120 mm",
+    "Certificaciones": "80 Plus Bronce 230 V UE",
+    "Conector": "1 x 24 (20+4) pines MB",
+    "Dimensiones de la caja": "296,5 (largo) x 203 (ancho) x 130 (alto) mm",
+    "Peso neto": "2,02 kilogramos",
+    "Peso bruto": "2,55 kilogramos",
+    "Efectivo/Transferencia": "$124.900",
+    "Tarjeta crédito/débito": "$128.647"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:16",
-  "updated_at": "2026-04-25 20:57:16",
+  "created_at": "2026-04-26 20:19:21",
+  "updated_at": "2026-04-26 20:19:21",
   "prices": [
     {
       "product_id": 792,
-      "store_id": "centrale",
-      "price": 393450,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 124900,
+      "price_normal": 131474,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700f-core-2-1ghz-33mb-lga1700-14th-gen-no-graphic/",
-      "store_name": "Centrale",
+      "product_url": "https://n1g.cl/Home/computacion/3650-antec-csk-pro-1000w-atx-31-80-bronze-pcie-51-semi-modular.html",
+      "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 393450
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 124900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

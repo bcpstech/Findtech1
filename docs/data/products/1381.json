@@ -1,46 +1,42 @@
 {
   "id": 1381,
-  "external_id": "pcexpress_20304-gabinete-gamer-clio-mado-vidrio-templado-2usb-3-0-atx",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "20304 - gabinete gamer clio mado vidrio templado 2usb 3.0 atx",
-  "slug": "20304-gabinete-gamer-clio-mado-vidrio-templado-2usb-3-0-atx",
-  "image_url": null,
+  "external_id": "centrale_placa-madre-asrock-phantom-gaming-b850m-riptide-wifi-matx-am5-ddr5-wifi-7",
+  "category_id": "mobo",
+  "brand": "ASRock",
+  "name": "Placa Madre ASRock Phantom Gaming B850M RIPTIDE WIFI (mATX, AM5, DDR5, WiFi 7)",
+  "slug": "placa-madre-asrock-phantom-gaming-b850m-riptide-wifi-matx-am5-ddr5-wifi-7",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASRock-Phantom-Gaming-B850M-RIPTIDE-WIFI-mATX-AM5-DDR5-WiFi-7-1.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$39.900",
-    "Tarjeta crédito/débito": "$41.097"
+    "Transferencia / Efectivo": "$235.900",
+    "Tarjetas de Crédito / Débito": "$248.870"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:59:17",
-  "updated_at": "2026-04-25 12:59:17",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-26 20:37:37",
   "prices": [
     {
-      "id": 1381,
       "product_id": 1381,
-      "store_id": "pcexpress",
-      "price": 39900,
+      "store_id": "centrale",
+      "price": 235900,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=20304&search=gabinete+atx+gamer&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:59:17",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/placa-madre-asrock-phantom-gaming-b850m-riptide-wifi-matx-am5-ddr5-wifi-7/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
-      "date": "2026-04-25",
-      "price": 39900
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 235900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

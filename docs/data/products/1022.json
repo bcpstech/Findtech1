@@ -1,42 +1,58 @@
 {
   "id": 1022,
-  "external_id": "centrale_ssd-sandisk-plus-500gb-m-2-nvme-pcie-3-0-hasta-2400mb-s",
+  "external_id": "alltec_1024gb-m-2-pcie-ssd-hikvision-g4000",
   "category_id": "storage",
-  "brand": "SanDisk",
-  "name": "SSD SanDisk Plus 500GB M.2 NVMe PCIe 3.0, hasta 2400MB/s",
-  "slug": "ssd-sandisk-plus-500gb-m-2-nvme-pcie-3-0-hasta-2400mb-s",
-  "image_url": "https://centrale.cl/wp-content/uploads/Sandisk-Unidad-Ssd-Plus-De-500Gb-Nvme-3.0-M.2-2280-Hasta-2400Mb-S.webp",
+  "brand": "Genérico",
+  "name": "1024GB M.2 PCIe SSD HIKVISION G4000...",
+  "slug": "1024gb-m-2-pcie-ssd-hikvision-g4000",
+  "image_url": "https://images.findtech.cl/products/1024gb-m-2-pcie-ssd-hikvision-g4000.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$105.920",
-    "Tarjetas de Crédito / Débito": "$111.750"
+    "Modelo": "G4000 series",
+    "Capacidad": "1024GB",
+    "Formato": "M.2 2280",
+    "Lectura Máxima": "7450 MB/s",
+    "Escritura Máxima": "6600 MB/s",
+    "Max. Ran 4 K Read (IOPS)": "860 K",
+    "Max. Ran 4 K Write (IOPS)": "670 K",
+    "Consumo Máximo de Energía": "3.92 W",
+    "TBW": "1800TB",
+    "MTBF": "2,000,000 horas",
+    "Medio de Almacenamiento": "3D TLC",
+    "Interface": "PCIe Gen4x4",
+    "Temperatura de Trabajo": "0 °C ~ 70 °C",
+    "Temperatura de Almacenamiento": "-40 °C ~ 85 °C",
+    "Funciones": "AES-256/SM4/TCG-Opal 2.0/IEEE1667",
+    "Peso": "≤7 g",
+    "Efectivo/Transferencia": "$139.900",
+    "Tarjeta crédito/débito": "$144.097"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:38",
-  "updated_at": "2026-04-25 19:37:38",
+  "created_at": "2026-04-26 20:29:48",
+  "updated_at": "2026-04-26 20:29:48",
   "prices": [
     {
       "product_id": 1022,
-      "store_id": "centrale",
-      "price": 105920,
+      "store_id": "alltec",
+      "price": 139900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ssd-sandisk-plus-500gb-m-2-nvme-pcie-3-0-hasta-2400mb-s/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/ssd/1922-1024gb-m2-pcie-ssd-hikvision-g4000-hs-ssd-g4000-1024g-7450-mbs-read6600-mbs-write.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 105920
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 139900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

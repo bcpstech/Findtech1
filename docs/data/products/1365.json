@@ -1,46 +1,56 @@
 {
   "id": 1365,
-  "external_id": "pcexpress_19609-disco-duro-seagate-skyhawk-1tb-videovigilancia-3-5-sata-6gb-s-bufer-256",
-  "category_id": "storage",
-  "brand": "Seagate",
-  "name": "19609 - disco duro seagate skyhawk 1tb videovigilancia 3.5\" sata 6gb/s - búfer: 256",
-  "slug": "19609-disco-duro-seagate-skyhawk-1tb-videovigilancia-3-5-sata-6gb-s-bufer-256",
-  "image_url": null,
+  "external_id": "centrale_placa-madre-micro-atx-msi-pro-h610m-g-lga-1700-ddr5",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "Placa Madre Micro ATX MSI PRO H610M-G, LGA 1700, DDR5",
+  "slug": "placa-madre-micro-atx-msi-pro-h610m-g-lga-1700-ddr5",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Micro-ATX-MSI-PRO-H610M-G-LGA-1700-DDR5_tz0OjrN.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$88.500",
-    "Tarjeta crédito/débito": "$91.155"
+    "Transferencia / Efectivo": "$78.220",
+    "Tarjetas de Crédito / Débito": "$82.520"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:59:05",
-  "updated_at": "2026-04-25 12:59:05",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-26 20:37:37",
   "prices": [
     {
-      "id": 1365,
       "product_id": 1365,
-      "store_id": "pcexpress",
-      "price": 88500,
+      "store_id": "centrale",
+      "price": 78220,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=19609&search=disco+duro+interno+3.5&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:59:05",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-msi-pro-h610m-g-lga-1700-ddr5/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 585,
+      "store_id": "n1g",
+      "price": 99000,
+      "price_normal": 104210,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3150-msi-pro-h610m-g-ddr5-proseries-lga-1700-141312-pcie-4-lan-de-1-gbps-m2-sata-6g-usb-32-gen1-matx.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
-      "date": "2026-04-25",
-      "price": 88500
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 78220
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

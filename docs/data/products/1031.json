@@ -1,42 +1,58 @@
 {
   "id": 1031,
-  "external_id": "centrale_ssd-sandisk-plus-1tb-m-2-nvme-pcie-3-0-hasta-3200mb-s",
+  "external_id": "alltec_480gb-m-2-ssd-nvme-pcie-gen4-x4-crucial",
   "category_id": "storage",
-  "brand": "SanDisk",
-  "name": "SSD SanDisk Plus 1TB M.2 NVMe PCIe 3.0, hasta 3200MB/s",
-  "slug": "ssd-sandisk-plus-1tb-m-2-nvme-pcie-3-0-hasta-3200mb-s",
-  "image_url": "https://centrale.cl/wp-content/uploads/Sandisk-Unidad-Ssd-Plus-De-1Tb-Nvme-3.0-M.2-2280-Hasta-3200Mb-S.webp",
+  "brand": "Crucial",
+  "name": "480GB M.2 SSD NVMe PCIE GEN4 X4 CRUCIAL...",
+  "slug": "480gb-m-2-ssd-nvme-pcie-gen4-x4-crucial",
+  "image_url": "https://images.findtech.cl/products/480gb-m-2-ssd-nvme-pcie-gen4-x4-crucial.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$174.500",
-    "Tarjetas de Crédito / Débito": "$184.100"
+    "Velocidad de Lectura": "Hasta 4,500 MB/s",
+    "Velocidad de Escritura": "Hasta 2,500 MB/s",
+    "Capacidad": "480GB",
+    "Factor de Forma": "PCIe 4.0 NVMe M.2",
+    "Durabilidad (TBW)": "100 TBW",
+    "Comparativa de Velocidad": "8x más rápido que SATA",
+    "Aceleración de Escritura Dinámica": "Sí",
+    "Algoritmo de Integridad de Datos Multinivel": "Sí",
+    "Protección Térmica Adaptativa": "Sí",
+    "Inmunidad a Pérdida de Energía Integrada": "Sí",
+    "Recolección Activa de Basura": "Sí",
+    "Soporte TRIM": "Sí",
+    "Tecnología SMART (Auto-monitoreo y Reporte)": "Sí",
+    "NAND G7": "Sí",
+    "Soporte para Suspensión del Dispositivo": "Sí",
+    "Software Incluido": "Gestión para optimización y seguridad",
+    "Efectivo/Transferencia": "$69.900",
+    "Tarjeta crédito/débito": "$71.997"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:21",
-  "updated_at": "2026-04-25 20:57:21",
+  "created_at": "2026-04-26 20:29:58",
+  "updated_at": "2026-04-26 20:29:58",
   "prices": [
     {
       "product_id": 1031,
-      "store_id": "centrale",
-      "price": 174500,
+      "store_id": "alltec",
+      "price": 69900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ssd-sandisk-plus-1tb-m-2-nvme-pcie-3-0-hasta-3200mb-s/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/ssd/2454-480gb-m2-ssd-nvme-pcie-gen4-x4-crucial-e100-ct480e100ssd8c-4500mb-lectura2500mb-escritura.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 174500
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 69900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

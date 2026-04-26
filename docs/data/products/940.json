@@ -1,42 +1,42 @@
 {
   "id": 940,
-  "external_id": "centrale_memoria-notebook-adata-value-series-de-16gb-ddr5-5600mhz-cl46-sodimm",
-  "category_id": "ram",
-  "brand": "Adata",
-  "name": "Memoria Notebook Adata Value Series De 16Gb (Ddr5, 5600Mhz, Cl46, Sodimm)",
-  "slug": "memoria-notebook-adata-value-series-de-16gb-ddr5-5600mhz-cl46-sodimm",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-Notebook-Adata-Value-Series-De-16Gb-Ddr5-5600Mhz-Cl46-Sodimm.webp",
+  "external_id": "alltec_2-5ghz-intel-i5-14400f-4-7ghz-turbo",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "2.5GHz INTEL I5-14400F (4.7GHz TURBO,...",
+  "slug": "2-5ghz-intel-i5-14400f-4-7ghz-turbo",
+  "image_url": "https://images.findtech.cl/products/2-5ghz-intel-i5-14400f-4-7ghz-turbo.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$287.900",
-    "Tarjetas de Crédito / Débito": "$303.730"
+    "Efectivo/Transferencia": "$199.900",
+    "Tarjeta crédito/débito": "$205.897"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:19",
-  "updated_at": "2026-04-25 20:57:19",
+  "created_at": "2026-04-26 20:25:28",
+  "updated_at": "2026-04-26 20:25:28",
   "prices": [
     {
       "product_id": 940,
-      "store_id": "centrale",
-      "price": 287900,
+      "store_id": "alltec",
+      "price": 199900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-notebook-adata-value-series-de-16gb-ddr5-5600mhz-cl46-sodimm/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/intel/2177-5ghz-intel-i5-14400f-47ghz-turbo-10c16t-20mb-cache-65w-lga1700-14th-generacion.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 287900
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 199900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

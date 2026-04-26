@@ -1,42 +1,84 @@
 {
   "id": 1004,
-  "external_id": "centrale_memoria-ram-32gb-5600mhz-cl40-ddr5-kingston-fury-beast-black",
+  "external_id": "alltec_8gb-ddr4-3200mhz-kingston-fury-beast-cl17",
   "category_id": "ram",
   "brand": "Kingston",
-  "name": "Memoria RAM 32GB 5600MHz CL40 DDR5 Kingston Fury Beast Black",
-  "slug": "memoria-ram-32gb-5600mhz-cl40-ddr5-kingston-fury-beast-black",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-32GB-5600MHz-CL40-DDR5-Kingston-Fury-Beast-Black-Open-Box-1.webp",
+  "name": "8GB DDR4 3200MHz KINGSTON FURY BEAST CL17...",
+  "slug": "8gb-ddr4-3200mhz-kingston-fury-beast-cl17",
+  "image_url": "https://images.findtech.cl/products/8gb-ddr4-3200mhz-kingston-fury-beast-cl17.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$395.000",
-    "Tarjetas de Crédito / Débito": "$416.730"
+    "Efectivo/Transferencia": "$42.900",
+    "Tarjeta crédito/débito": "$44.187"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:35",
-  "updated_at": "2026-04-25 19:37:35",
+  "created_at": "2026-04-26 20:28:43",
+  "updated_at": "2026-04-26 20:28:43",
   "prices": [
     {
       "product_id": 1004,
-      "store_id": "centrale",
-      "price": 395000,
+      "store_id": "alltec",
+      "price": 42900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-32gb-5600mhz-cl40-ddr5-kingston-fury-beast-black/",
+      "product_url": "https://www.alltec.cl/ddr4/1974-8gb-ddr4-3200mhz-kingston-fury-beast-cl17-kf432c16bb8.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 1510,
+      "store_id": "centrale",
+      "price": 64900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-8gb-3200mhz-ddr4-kingston-fury-impact-sodimm/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 1171,
+      "store_id": "cg",
+      "price": 71240,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-kingston-fury-beast-cl16-8gb-ddr4-3200mhz/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 2089,
+      "store_id": "dust2",
+      "price": 89310,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/memoria-ram-kingston-fury-beast-rgb-de-8gb-ddr4-3200mhz-dimm/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 395000
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 42900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

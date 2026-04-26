@@ -1,57 +1,42 @@
 {
   "id": 687,
-  "external_id": "cg_memoria-ram-kingston-fury-beast-16gb-ddr4-3200mhz",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria Ram Kingston Fury Beast 16GB DDR4 3200mhz",
-  "slug": "memoria-ram-kingston-fury-beast-16gb-ddr4-3200mhz",
-  "image_url": "https://images.findtech.cl/products/memoria-ram-kingston-fury-beast-16gb-ddr4-3200mhz.jpg",
+  "external_id": "n1g_crucial-p310-1tb-m-2-2280-pci-express-4-0-x4-nvme-3d-nand-7100-mbps-ssd-ct1000p310ssd8",
+  "category_id": "storage",
+  "brand": "Crucial",
+  "name": "Crucial P310 1TB M.2 2280 PCI-Express 4.0 x4 NVMe 3D NAND 7100 MBps (SSD) CT1000P310SSD8",
+  "slug": "crucial-p310-1tb-m-2-2280-pci-express-4-0-x4-nvme-3d-nand-7100-mbps-ssd-ct1000p310ssd8",
+  "image_url": "https://images.findtech.cl/products/crucial-p310-1tb-m-2-2280-pci-express-4-0-x4-nvme-3d-nand-7100-mbps-ssd-ct1000p310ssd8.jpg",
   "description": null,
   "specs": {
-    "Marca": "KINGSTON",
-    "Efectivo/Transferencia": "$122.880",
-    "Webpay / Tarjeta crédito-débito": "$129.347"
+    "Efectivo/Transferencia": "$159.900",
+    "Tarjeta crédito/débito": "$164.697"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:36:00",
-  "updated_at": "2026-04-25 19:36:00",
+  "created_at": "2026-04-26 20:15:51",
+  "updated_at": "2026-04-26 20:15:51",
   "prices": [
     {
       "product_id": 687,
-      "store_id": "cg",
-      "price": 122880,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 159900,
+      "price_normal": 168316,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-kingston-fury-beast-16gb-3200mhz/",
-      "store_name": "CentralGamer",
+      "product_url": "https://n1g.cl/Home/computacion/3605-crucial-p310-1tb-m2-2280-pci-express-40-x4-nvme-3d-nand-6600-mbps-ssd-ct1000p310ssd8.html",
+      "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
-    },
-    {
-      "product_id": 1547,
-      "store_id": "dust2",
-      "price": 151450,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/memoria-ram-kingston-fury-beast-rgb-16gb-3600mt-s-ddr4-cl18/",
-      "store_name": "Dust2",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-04-25",
-      "price": 122880
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 159900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

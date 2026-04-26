@@ -1,42 +1,42 @@
 {
   "id": 810,
-  "external_id": "centrale_procesador-amd-ryzen-9-9950x-16-cores-32-threads-4-3-a-5-7-ghz-170w",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 9 9950X, 16 Cores 32 Threads, 4.3 a 5.7 GHz, 170W",
-  "slug": "procesador-amd-ryzen-9-9950x-16-cores-32-threads-4-3-a-5-7-ghz-170w",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-9-9950X-16-Cores-32-Threads-4.3-a-5.7-GHz-170W_Zedw1e2-1.webp",
+  "external_id": "n1g_xpg-pylon-750w-atx-psu-80plus-bronce-no-modular-pylon750b-bkc-750-w",
+  "category_id": "psu",
+  "brand": "XPG-Adata",
+  "name": "XPG PYLON 750W ATX PSU 80PLUS Bronce no Modular PYLON750B-BKC (750 W)",
+  "slug": "xpg-pylon-750w-atx-psu-80plus-bronce-no-modular-pylon750b-bkc-750-w",
+  "image_url": "https://images.findtech.cl/products/xpg-pylon-750w-atx-psu-80plus-bronce-no-modular-pylon750b-bkc-750-w.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$630.010",
-    "Tarjetas de Crédito / Débito": "$664.660"
+    "Efectivo/Transferencia": "$67.900",
+    "Tarjeta crédito/débito": "$69.937"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:16",
-  "updated_at": "2026-04-25 20:57:16",
+  "created_at": "2026-04-26 20:20:00",
+  "updated_at": "2026-04-26 20:20:00",
   "prices": [
     {
       "product_id": 810,
-      "store_id": "centrale",
-      "price": 630010,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 67900,
+      "price_normal": 71474,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-9950x-16-cores-32-threads-4-3-a-5-7-ghz-170w/",
-      "store_name": "Centrale",
+      "product_url": "https://n1g.cl/Home/computacion/3555-xpg-pylon-pylon-750w-80plus-bronze-atx-750b-bkc.html",
+      "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 630010
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 67900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

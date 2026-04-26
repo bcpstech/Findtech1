@@ -1,46 +1,42 @@
 {
   "id": 722,
-  "external_id": "centrale_procesador-intel-core-i9-14900-24-core-3-2-5-8ghz-lga1700-36mb-cache",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core i9-14900, 24-Core, 3.2-5.8GHz, LGA1700, 36MB Cache",
-  "slug": "procesador-intel-core-i9-14900-24-core-3-2-5-8ghz-lga1700-36mb-cache",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i9-14900-24-Core-3.2-5.8GHz-LGA1700-36MB-Cache_Qmq4z9p-1.webp",
+  "external_id": "n1g_thermal-grizzly-carbonaut-38x38mm-lamina-conductora-reemplaza-pasta-tg-ca-38-38-02-r",
+  "category_id": "cooling",
+  "brand": "Thermal Grizzly",
+  "name": "Thermal Grizzly Carbonaut 38x38mm Lamina conductora (reemplaza pasta) TG-CA-38-38-02-R",
+  "slug": "thermal-grizzly-carbonaut-38x38mm-lamina-conductora-reemplaza-pasta-tg-ca-38-38-02-r",
+  "image_url": "https://images.findtech.cl/products/thermal-grizzly-carbonaut-38x38mm-lamina-conductora-reemplaza-pasta-tg-ca-38-38-02-r.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$732.690",
-    "Tarjetas de Crédito / Débito": "$772.990"
+    "Efectivo/Transferencia": "$29.900",
+    "Tarjeta crédito/débito": "$30.797"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:55",
-  "updated_at": "2026-04-25 18:19:55",
+  "created_at": "2026-04-26 20:17:03",
+  "updated_at": "2026-04-26 20:17:03",
   "prices": [
     {
-      "id": 722,
       "product_id": 722,
-      "store_id": "centrale",
-      "price": 732690,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "store_id": "n1g",
+      "price": 29900,
+      "price_normal": 31474,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900-24-core-3-2-5-8ghz-lga1700-36mb-cache/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:55",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://n1g.cl/Home/computacion/2931-pasta-termica-thermal-grizzly-kryonaut-1g.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 732690
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 29900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

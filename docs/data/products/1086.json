@@ -1,42 +1,51 @@
 {
   "id": 1086,
-  "external_id": "centrale_disco-duro-hdd-6tb-nas-western-digital-wd-red-plus-5640rpm-sata-6gb-s",
-  "category_id": "storage",
-  "brand": "Western Digital",
-  "name": "Disco Duro HDD 6TB NAS Western Digital WD Red Plus 5640Rpm SATA 6GB/s",
-  "slug": "disco-duro-hdd-6tb-nas-western-digital-wd-red-plus-5640rpm-sata-6gb-s",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-Duro-HDD-6TB-NAS-Western-Digital-WD-Red-Plus-5640Rpm-SATA-6GB-s_taAdAgg-1.webp",
+  "external_id": "alltec_gabinete-nox-infinity-alpha-tg-matx",
+  "category_id": "case",
+  "brand": "Genérico",
+  "name": "GABINETE NOX INFINITY ALPHA TG (MATX)...",
+  "slug": "gabinete-nox-infinity-alpha-tg-matx",
+  "image_url": "https://images.findtech.cl/products/gabinete-nox-infinity-alpha-tg-matx.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$204.430",
-    "Tarjetas de Crédito / Débito": "$215.670"
+    "Placa base": "Micro ATX; Mini ITX",
+    "Sistema de ventilación": "Frontal: 3x 120 mm (no incluidos), Superior: 2x 120 mm /140 mm (no incluidos), Trasero: 1x 120 mm RGB (incluido)",
+    "Bahías internas": "2x 3.5''; 2x 2.5''",
+    "Material": "Acero SPCC 0.5 mm, Frontal ABS, Lateral de cristal templado 4 mm",
+    "Slots de expansión": "4",
+    "Color": "Negro",
+    "Fuente de alimentación": "Fuente estándar ATX compatible (no incluida) · Tamaño máx. 140 mm",
+    "Dimensiones": "212 x 410 x 408 mm (AN x AL x PR)",
+    "Peso": "3.3 Kg",
+    "Efectivo/Transferencia": "$42.900",
+    "Tarjeta crédito/débito": "$44.187"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:38",
-  "updated_at": "2026-04-25 19:37:38",
+  "created_at": "2026-04-26 20:33:55",
+  "updated_at": "2026-04-26 20:33:55",
   "prices": [
     {
       "product_id": 1086,
-      "store_id": "centrale",
-      "price": 204430,
+      "store_id": "alltec",
+      "price": 42900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-duro-hdd-6tb-nas-western-digital-wd-red-plus-5640rpm-sata-6gb-s/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/sin-fuente-de-poder/1412-gabinete-nox-infinity-alpha-tg-matx-1x120mm-fan.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 204430
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 42900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

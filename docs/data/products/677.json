@@ -1,43 +1,70 @@
 {
   "id": 677,
-  "external_id": "cg_kingston-fury-beast-rgb-64gb-ddr5-2-x-32-gb-cl30",
-  "category_id": "ram",
+  "external_id": "n1g_kingston-500gb-nv3-2230-nvme-pcie-4-0-x4-5000mb-s-snv3sm3-500g",
+  "category_id": "storage",
   "brand": "Kingston",
-  "name": "Kingston Fury Beast RGB 64GB DDR5 (2 x 32 GB) CL30",
-  "slug": "kingston-fury-beast-rgb-64gb-ddr5-2-x-32-gb-cl30",
-  "image_url": "https://images.findtech.cl/products/kingston-fury-beast-rgb-64gb-ddr5-2-x-32-gb-cl30.jpg",
+  "name": "Kingston 500GB NV3 2230 NVMe PCIe 4.0 x4 5000MB/s (SNV3SM3/500G)",
+  "slug": "kingston-500gb-nv3-2230-nvme-pcie-4-0-x4-5000mb-s-snv3sm3-500g",
+  "image_url": "https://images.findtech.cl/products/kingston-500gb-nv3-2230-nvme-pcie-4-0-x4-5000mb-s-snv3sm3-500g.jpg",
   "description": null,
   "specs": {
-    "Marca": "KINGSTON",
-    "Efectivo/Transferencia": "$950.020",
-    "Webpay / Tarjeta crédito-débito": "$999.990"
+    "Efectivo/Transferencia": "$79.000",
+    "Tarjeta crédito/débito": "$81.370"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:35:57",
-  "updated_at": "2026-04-25 19:35:57",
+  "created_at": "2026-04-26 20:15:32",
+  "updated_at": "2026-04-26 20:15:32",
   "prices": [
     {
       "product_id": 677,
-      "store_id": "cg",
-      "price": 950020,
+      "store_id": "n1g",
+      "price": 79000,
+      "price_normal": 83158,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3747-kingston-500gb-nv3-2230-nvme-pcie-40-x4-5000mbs-snv3sm3500g.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 1558,
+      "store_id": "centrale",
+      "price": 101570,
+      "price_normal": 126520,
+      "discount_pct": 20,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/disco-ssd-500gb-kingston-nv3-m-2-2230-nvme-pcie-4-0-x4-nand-3d/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2105,
+      "store_id": "dust2",
+      "price": 122320,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-kingston-fury-beast-rgb-64gb-2x32gb-6000mt-s-ddr5/",
-      "store_name": "CentralGamer",
+      "product_url": "https://dust2.gg/producto/disco-duro-ssd-kingston-1tb-nv3-m2-2230-pc/",
+      "store_name": "Dust2",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-04-25",
-      "price": 950020
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 79000
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

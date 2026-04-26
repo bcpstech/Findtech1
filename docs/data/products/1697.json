@@ -1,29 +1,42 @@
 {
   "id": 1697,
-  "external_id": "dust2_disco-solido-ssd-adata-sata-su650-480gb",
-  "category_id": "storage",
-  "brand": "Genérico",
-  "name": "Disco Solido SSD ADATA SATA SU650 480GB",
-  "slug": "disco-solido-ssd-adata-sata-su650-480gb",
-  "image_url": "https://images.findtech.cl/products/disco-solido-ssd-adata-sata-su650-480gb.jpg",
+  "external_id": "centrale_fuente-asus-prime-750w-gold-atx-3-0-80-plus-gold-modular-blanca",
+  "category_id": "psu",
+  "brand": "Asus",
+  "name": "Fuente ASUS Prime 750W Gold ATX 3.0, 80 PLUS Gold, Modular, Blanca",
+  "slug": "fuente-asus-prime-750w-gold-atx-3-0-80-plus-gold-modular-blanca",
+  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Power-Supply-Ap-750G-90YE00U1-B0AA00.webp",
   "description": null,
   "specs": {
-    "Marca": "ADATA",
-    "Transferencia/Efectivo": "$79.600",
-    "Webpay / Tarjeta crédito-débito": "$81.990"
+    "Transferencia / Efectivo": "$105.690",
+    "Tarjetas de Crédito / Débito": "$111.500"
   },
   "tags": [],
-  "created_at": "2026-04-25 21:01:48",
-  "updated_at": "2026-04-25 21:01:48",
+  "created_at": "2026-04-26 20:37:52",
+  "updated_at": "2026-04-26 20:37:52",
   "prices": [
     {
       "product_id": 1697,
+      "store_id": "centrale",
+      "price": 105690,
+      "price_normal": 125280,
+      "discount_pct": 16,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/fuente-asus-prime-750w-gold-atx-3-0-80-plus-gold-modular-blanca/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2236,
       "store_id": "dust2",
-      "price": 79600,
+      "price": 106790,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/disco-solido-ssd-adata-sata-su650-480gb/",
+      "product_url": "https://dust2.gg/producto/fuente-de-poder-asus-tuf-gaming-750w-gold-atx-3-0/",
       "store_name": "Dust2",
       "store_rating": 0,
       "review_count": 0,
@@ -31,27 +44,55 @@
       "full_url": "https://www.dust2.gg"
     },
     {
-      "product_id": 546,
-      "store_id": "alltec",
-      "price": 89000,
+      "product_id": 2549,
+      "store_id": "megabytes",
+      "price": 116500,
+      "price_normal": 155330,
+      "discount_pct": 25,
+      "stock": "in_stock",
+      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/asus-fuente-de-poder-prime-850w-80gold-ap-850g/",
+      "store_name": "MegaBytes",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.megabytes.cl",
+      "full_url": "https://www.megabytes.cl"
+    },
+    {
+      "product_id": 2654,
+      "store_id": "trulustore",
+      "price": 129990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/ssd/2407-480gb-ssd-sata-6gbs-adata-su650-3d-asu650ss-480gt-r.html",
-      "store_name": "Alltec",
+      "product_url": "https://trulustore.cl/producto/fuente-de-poder-asus-prime-850g-de-850w-80-gold-full-modular-atx-3-1/",
+      "store_name": "TruluStore",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 793,
+      "store_id": "n1g",
+      "price": 169900,
+      "price_normal": 178842,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/1950-lian-li-sp-850w-negra-full-modular-80-gold-sfx-form-factor-power-supply-sp850.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 79600
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 105690
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

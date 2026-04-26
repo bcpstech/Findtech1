@@ -1,42 +1,57 @@
 {
   "id": 1180,
-  "external_id": "centrale_hub-arctic-de-10-puertos-para-ventiladores-pwm-alimentacion-sata",
-  "category_id": "cooling",
-  "brand": "Arctic",
-  "name": "Hub ARCTIC de 10 Puertos para Ventiladores PWM alimentación SATA",
-  "slug": "hub-arctic-de-10-puertos-para-ventiladores-pwm-alimentacion-sata",
-  "image_url": "https://centrale.cl/wp-content/uploads/Hub-ARCTIC-de-10-Puertos-para-Ventiladores-PWM-alimentaciC3B3n-SATA-1.webp",
+  "external_id": "cg_memoria-ram-xpg-gammix-d35-16gb-ddr4-white-3200mhz",
+  "category_id": "ram",
+  "brand": "Genérico",
+  "name": "Memoria Ram XPG GAMMIX D35 16GB DDR4 WHITE 3200Mhz",
+  "slug": "memoria-ram-xpg-gammix-d35-16gb-ddr4-white-3200mhz",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-xpg-gammix-d35-16gb-ddr4-white-3200mhz.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$10.900",
-    "Tarjetas de Crédito / Débito": "$11.500"
+    "Marca": "XPG",
+    "Efectivo/Transferencia": "$118.740",
+    "Webpay / Tarjeta crédito-débito": "$124.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:26",
-  "updated_at": "2026-04-25 20:57:26",
+  "created_at": "2026-04-26 20:36:14",
+  "updated_at": "2026-04-26 20:36:14",
   "prices": [
     {
       "product_id": 1180,
-      "store_id": "centrale",
-      "price": 10900,
+      "store_id": "cg",
+      "price": 118740,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/hub-arctic-de-10-puertos-para-ventiladores-pwm-alimentacion-sata/",
-      "store_name": "Centrale",
+      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-xpg-d35-16gb-rgb-white/",
+      "store_name": "CentralGamer",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 2022,
+      "store_id": "dust2",
+      "price": 154840,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/memoria-ram-xpg-gammix-d35-16gb-3200mhz-ddr4-negro/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 10900
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-26",
+      "price": 118740
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

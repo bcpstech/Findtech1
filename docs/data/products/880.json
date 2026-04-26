@@ -1,56 +1,42 @@
 {
   "id": 880,
-  "external_id": "centrale_placa-madre-asus-prime-b860m-k-micro-atx-2x-ddr5-intel-lga-1851-pcie-5-0",
-  "category_id": "mobo",
-  "brand": "Asus",
-  "name": "Placa Madre ASUS PRIME B860M-K (Micro ATX, 2x DDR5, Intel LGA 1851, PCIe 5.0)",
-  "slug": "placa-madre-asus-prime-b860m-k-micro-atx-2x-ddr5-intel-lga-1851-pcie-5-0",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASUS-PRIME-B860M-K-Micro-ATX-2x-DDR5-Intel-LGA-1851-PCIe-5.0.webp",
+  "external_id": "alltec_t-v-gigabyte-geforce-gtx-1660-oc-6g",
+  "category_id": "gpu",
+  "brand": "Gigabyte",
+  "name": "T.V. GIGABYTE GEFORCE GTX 1660 OC 6G...",
+  "slug": "t-v-gigabyte-geforce-gtx-1660-oc-6g",
+  "image_url": "https://images.findtech.cl/products/t-v-gigabyte-geforce-gtx-1660-oc-6g.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$148.990",
-    "Tarjetas de Crédito / Débito": "$157.180"
+    "Efectivo/Transferencia": "$299.900",
+    "Tarjeta crédito/débito": "$308.897"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:17",
-  "updated_at": "2026-04-25 20:57:17",
+  "created_at": "2026-04-26 20:22:53",
+  "updated_at": "2026-04-26 20:22:53",
   "prices": [
     {
       "product_id": 880,
-      "store_id": "centrale",
-      "price": 148990,
+      "store_id": "alltec",
+      "price": 299900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b860m-k-micro-atx-2x-ddr5-intel-lga-1851-pcie-5-0/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/nvidia/1824-tv-gigabyte-geforce-gtx-1660-oc-6g-gv-n1660oc-6gd.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 664,
-      "store_id": "cg",
-      "price": 228000,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-tuf-gaming-b860m-plus-wifi/",
-      "store_name": "CentralGamer",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 148990
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 299900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }

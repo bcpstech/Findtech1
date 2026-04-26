@@ -1,46 +1,42 @@
 {
   "id": 716,
-  "external_id": "centrale_procesador-intel-core-i5-12600k-3-7-ghz-10-core-lga1700",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core i5-12600K 3.7 Ghz 10-Core LGA1700",
-  "slug": "procesador-intel-core-i5-12600k-3-7-ghz-10-core-lga1700",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i5-12600K-3.7-Ghz-10-Core-LGA1700_4bVEQKI-1.webp",
+  "external_id": "n1g_metal-liquido-termico-thermal-grizzly-conductonaut-1g-tg-c-001-r",
+  "category_id": "cooling",
+  "brand": "Thermal Grizzly",
+  "name": "Metal Líquido Térmico Thermal Grizzly Conductonaut 1g TG-C-001-R",
+  "slug": "metal-liquido-termico-thermal-grizzly-conductonaut-1g-tg-c-001-r",
+  "image_url": "https://images.findtech.cl/products/metal-liquido-termico-thermal-grizzly-conductonaut-1g-tg-c-001-r.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$229.810",
-    "Tarjetas de Crédito / Débito": "$242.450"
+    "Efectivo/Transferencia": "$22.900",
+    "Tarjeta crédito/débito": "$23.587"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:19:55",
-  "updated_at": "2026-04-25 18:19:55",
+  "created_at": "2026-04-26 20:16:49",
+  "updated_at": "2026-04-26 20:16:49",
   "prices": [
     {
-      "id": 716,
       "product_id": 716,
-      "store_id": "centrale",
-      "price": 229810,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "store_id": "n1g",
+      "price": 22900,
+      "price_normal": 24105,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-12600k-3-7-ghz-10-core-lga1700/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:19:55",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://n1g.cl/Home/computacion/2928-pasta-termica-thermal-grizzly-kryonaut-1g.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 229810
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 22900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-26"
 }
