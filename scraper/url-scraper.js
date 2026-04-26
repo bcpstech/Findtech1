@@ -273,6 +273,23 @@ class UrlScraper extends BaseScraper {
   }
 }
 
+// Override run() para evitar foreign key constraint en scrape_logs
+UrlScraper.prototype.run = async function() {
+  const startTime = Date.now();
+  const logger = require('./logger');
+  logger.info('Iniciando URL Scraper (axios+cheerio)', { store: 'url-scraper' });
+  try {
+    await this.scrapeAll();
+    const duration = Date.now() - startTime;
+    logger.info(`Completado en ${(duration/1000).toFixed(1)}s - ${this.stats.updated} productos`, { store: 'url-scraper' });
+    return { success: true, ...this.stats, duration };
+  } catch (err) {
+    const duration = Date.now() - startTime;
+    logger.error(`Error fatal: ${err.message}`, { store: 'url-scraper' });
+    return { success: false, error: err.message, ...this.stats };
+  }
+};
+
 if (require.main === module) {
   new UrlScraper().run().then(r => {
     console.log('URL Scraper:', r);
