@@ -12,6 +12,7 @@ on:
         type: choice
         options:
           - todas
+          - url-scraper
           - n1g
           - alltec
           - centralgamer
@@ -66,6 +67,26 @@ jobs:
 
       - name: Init database
         run: node db/init.js
+
+      # ── Planilla de URLs directas (prioridad) ─────────────────────────────
+
+      - name: Importar CSV de URLs
+        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'url-scraper' }}
+        run: |
+          if [ -f scraper/data/product-urls.csv ]; then
+            node scraper/import-csv.js scraper/data/product-urls.csv
+          else
+            echo "No hay product-urls.csv, saltando importacion..."
+          fi
+
+      - name: Scrapear URLs directas (planilla)
+        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'url-scraper' }}
+        run: |
+          if [ -f scraper/data/product-urls.json ]; then
+            node scraper/url-scraper.js || echo "URL Scraper fallo, continuando..."
+          else
+            echo "No hay product-urls.json, saltando..."
+          fi
 
       # ── Tiendas originales ────────────────────────────────────────────────
 
@@ -161,15 +182,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add docs/data/
+          git add docs/data/ scraper/data/
           git diff --staged --quiet || git commit -m "chore: actualizar datos $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
-
-      - name: Scrapear URLs directas (planilla)
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'url-scraper' }}
-        run: |
-          if [ -f scraper/data/product-urls.json ]; then
-            node scraper/url-scraper.js || echo "URL Scraper fallo, continuando..."
-          else
-            echo "No hay product-urls.json, saltando..."
-          fi
