@@ -113,7 +113,7 @@ nav{display:flex;align-items:center;gap:4px;flex:1}
   animation:fadeIn .15s ease;
 }
 @keyframes fadeIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
-.mega-wrap:hover .mega-menu{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+/* Mega menu controlado por JS */
 .mega-col h4{
   font-size:11px;font-weight:600;color:var(--accent);
   letter-spacing:1.5px;text-transform:uppercase;
@@ -160,12 +160,6 @@ nav{display:flex;align-items:center;gap:4px;flex:1}
   position:sticky;top:72px;height:calc(100vh - 72px);
   overflow-y:auto;
 }
-.sb-section{margin-bottom:6px}
-.sb-label{
-  font-size:11px;font-weight:700;color:var(--text3);
-  letter-spacing:2px;text-transform:uppercase;
-  padding:0 18px 8px;
-}
 .sb-section{border-bottom:1px solid var(--border)}
 .sb-section:last-child{border-bottom:none}
 .sb-section-header{
@@ -187,6 +181,11 @@ nav{display:flex;align-items:center;gap:4px;flex:1}
 .sb-store-item:hover{color:var(--text);background:var(--bg3)}
 .sb-store-item.active{color:var(--accent);border-left-color:var(--accent)}
 .sb-store-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.sb-label{
+  font-size:11px;font-weight:700;color:var(--text3);
+  letter-spacing:2px;text-transform:uppercase;
+  padding:0 18px 8px;
+}
 .sb-cat{
   display:flex;align-items:center;gap:10px;
   padding:10px 18px;font-size:14px;font-weight:500;
@@ -1012,90 +1011,80 @@ select.form-input{cursor:pointer}
 
   <!-- SIDEBAR -->
   <aside class="sidebar" id="sidebar">
-
-    <!-- ── HARDWARE ──────────────────────────────── -->
     <div class="sb-section">
-      <div class="sb-section-header" onclick="toggleSbSection('hw')">
-        <span>⚙️ HARDWARE</span>
-        <span class="sb-arrow" id="sb-hw-arrow">▾</span>
+      <div class="sb-label">Categorías</div>
+      <div class="sb-cat" onclick="filterCat(''); showPage('hardware')" id="sb-all">
+        <span class="ico">🏠</span> Todos
+        <span class="count" id="sb-count-all">0</span>
       </div>
-      <div class="sb-section-body" id="sb-hw-body">
-        <div class="sb-cat active" onclick="filterCat(''); showPage('hardware')" id="sb-all">
-          Todos <span class="count" id="sb-count-all">0</span>
-        </div>
-        <div class="sb-cat" onclick="toggleSub('gpu')" id="sb-gpu">
-          <span class="ico">🎮</span> Tarjetas de Video
-          <span class="count" id="sb-count-gpu">0</span>
-        </div>
-        <div class="sb-sub" id="sub-gpu">
-          <span class="sb-sub-item" onclick="filterSub('gpu','nvidia')">▸ NVIDIA GeForce</span>
-          <span class="sb-sub-item" onclick="filterSub('gpu','amd')">▸ AMD Radeon</span>
-        </div>
-        <div class="sb-cat" onclick="toggleSub('cpu')" id="sb-cpu">
-          <span class="ico">⚡</span> Procesadores
-          <span class="count" id="sb-count-cpu">0</span>
-        </div>
-        <div class="sb-sub" id="sub-cpu">
-          <span class="sb-sub-item" onclick="filterSub('cpu','intel')">▸ Intel Core</span>
-          <span class="sb-sub-item" onclick="filterSub('cpu','amd')">▸ AMD Ryzen</span>
-        </div>
-        <div class="sb-cat" onclick="toggleSub('mobo')" id="sb-mobo">
-          <span class="ico">🔌</span> Placas Madre
-          <span class="count" id="sb-count-mobo">0</span>
-        </div>
-        <div class="sb-sub" id="sub-mobo">
-          <span class="sb-sub-item" onclick="filterSub('mobo','am4')">▸ AM4</span>
-          <span class="sb-sub-item" onclick="filterSub('mobo','am5')">▸ AM5</span>
-          <span class="sb-sub-item" onclick="filterSub('mobo','lga1700')">▸ LGA1700</span>
-          <span class="sb-sub-item" onclick="filterSub('mobo','lga1851')">▸ LGA1851</span>
-        </div>
-        <div class="sb-cat" onclick="toggleSub('ram')" id="sb-ram">
-          <span class="ico">💾</span> Memorias RAM
-          <span class="count" id="sb-count-ram">0</span>
-        </div>
-        <div class="sb-sub" id="sub-ram">
-          <span class="sb-sub-item" onclick="filterSub('ram','ddr4')">▸ DDR4</span>
-          <span class="sb-sub-item" onclick="filterSub('ram','ddr5')">▸ DDR5</span>
-        </div>
-        <div class="sb-cat" onclick="toggleSub('storage')" id="sb-storage">
-          <span class="ico">💿</span> Almacenamiento
-          <span class="count" id="sb-count-storage">0</span>
-        </div>
-        <div class="sb-sub" id="sub-storage">
-          <span class="sb-sub-item" onclick="filterSub('storage','nvme')">▸ SSD NVMe</span>
-          <span class="sb-sub-item" onclick="filterSub('storage','sata')">▸ SSD SATA</span>
-          <span class="sb-sub-item" onclick="filterSub('storage','hdd')">▸ Disco Duro</span>
-        </div>
-        <div class="sb-cat" onclick="toggleSub('cooling')" id="sb-cooling">
-          <span class="ico">❄️</span> Refrigeración
-          <span class="count" id="sb-count-cooling">0</span>
-        </div>
-        <div class="sb-sub" id="sub-cooling">
-          <span class="sb-sub-item" onclick="filterSub('cooling','liquida')">▸ Líquida</span>
-          <span class="sb-sub-item" onclick="filterSub('cooling','aire')">▸ Por Aire</span>
-          <span class="sb-sub-item" onclick="filterSub('cooling','fans')">▸ Ventiladores</span>
-        </div>
-        <div class="sb-cat" onclick="toggleSub('psu')" id="sb-psu">
-          <span class="ico">⚙️</span> Fuentes de Poder
-          <span class="count" id="sb-count-psu">0</span>
-        </div>
-        <div class="sb-sub" id="sub-psu">
-          <span class="sb-sub-item" onclick="filterSub('psu','modular')">▸ Modulares</span>
-          <span class="sb-sub-item" onclick="filterSub('psu','certificada')">▸ Certificadas</span>
-        </div>
-        <div class="sb-cat" onclick="toggleSub('case')" id="sb-case">
-          <span class="ico">🖥️</span> Gabinetes
-          <span class="count" id="sb-count-case">0</span>
-        </div>
-        <div class="sb-sub" id="sub-case">
-          <span class="sb-sub-item" onclick="filterSub('case','atx')">▸ ATX</span>
-          <span class="sb-sub-item" onclick="filterSub('case','matx')">▸ Micro ATX</span>
-          <span class="sb-sub-item" onclick="filterSub('case','itx')">▸ Mini ITX</span>
-        </div>
-        <div class="sb-cat" onclick="filterCat('monitor'); showPage('hardware')" id="sb-monitor">
-          <span class="ico">🖱️</span> Monitores
-          <span class="count" id="sb-count-monitor">0</span>
-        </div>
+      <div class="sb-cat" onclick="toggleSub('gpu')" id="sb-gpu">
+        <span class="ico">🎮</span> Tarjetas de Video
+        <span class="count" id="sb-count-gpu">0</span>
+      </div>
+      <div class="sb-sub" id="sub-gpu">
+        <span class="sb-sub-item" onclick="filterSub('gpu','nvidia')">NVIDIA GeForce</span>
+        <span class="sb-sub-item" onclick="filterSub('gpu','amd')">AMD Radeon</span>
+      </div>
+      <div class="sb-cat" onclick="toggleSub('cpu')" id="sb-cpu">
+        <span class="ico">⚡</span> Procesadores
+        <span class="count" id="sb-count-cpu">0</span>
+      </div>
+      <div class="sb-sub" id="sub-cpu">
+        <span class="sb-sub-item" onclick="filterSub('cpu','intel')">Intel Core</span>
+        <span class="sb-sub-item" onclick="filterSub('cpu','amd')">AMD Ryzen</span>
+      </div>
+      <div class="sb-cat" onclick="toggleSub('mobo')" id="sb-mobo">
+        <span class="ico">🔌</span> Placas Madre
+        <span class="count" id="sb-count-mobo">0</span>
+      </div>
+      <div class="sb-sub" id="sub-mobo">
+        <span class="sb-sub-item" onclick="filterSub('mobo','am4')">AM4</span>
+        <span class="sb-sub-item" onclick="filterSub('mobo','am5')">AM5</span>
+        <span class="sb-sub-item" onclick="filterSub('mobo','lga1700')">LGA1700</span>
+        <span class="sb-sub-item" onclick="filterSub('mobo','lga1851')">LGA1851</span>
+      </div>
+      <div class="sb-cat" onclick="toggleSub('ram')" id="sb-ram">
+        <span class="ico">💾</span> Memorias RAM
+        <span class="count" id="sb-count-ram">0</span>
+      </div>
+      <div class="sb-sub" id="sub-ram">
+        <span class="sb-sub-item" onclick="filterSub('ram','ddr4')">DDR4</span>
+        <span class="sb-sub-item" onclick="filterSub('ram','ddr5')">DDR5</span>
+      </div>
+      <div class="sb-cat" onclick="toggleSub('storage')" id="sb-storage">
+        <span class="ico">💿</span> Almacenamiento
+        <span class="count" id="sb-count-storage">0</span>
+      </div>
+      <div class="sb-sub" id="sub-storage">
+        <span class="sb-sub-item" onclick="filterSub('storage','nvme')">SSD NVMe</span>
+        <span class="sb-sub-item" onclick="filterSub('storage','sata')">SSD SATA</span>
+        <span class="sb-sub-item" onclick="filterSub('storage','hdd')">Disco Duro</span>
+      </div>
+      <div class="sb-cat" onclick="toggleSub('cooling')" id="sb-cooling">
+        <span class="ico">❄️</span> Refrigeración
+        <span class="count" id="sb-count-cooling">0</span>
+      </div>
+      <div class="sb-sub" id="sub-cooling">
+        <span class="sb-sub-item" onclick="filterSub('cooling','liquida')">Líquida</span>
+        <span class="sb-sub-item" onclick="filterSub('cooling','aire')">Por Aire</span>
+        <span class="sb-sub-item" onclick="filterSub('cooling','fans')">Ventiladores</span>
+      </div>
+      <div class="sb-cat" onclick="filterCat('psu'); showPage('hardware')" id="sb-psu">
+        <span class="ico">⚙️</span> Fuentes de Poder
+        <span class="count" id="sb-count-psu">0</span>
+      </div>
+      <div class="sb-cat" onclick="toggleSub('case')" id="sb-case">
+        <span class="ico">🖥️</span> Gabinetes
+        <span class="count" id="sb-count-case">0</span>
+      </div>
+      <div class="sb-sub" id="sub-case">
+        <span class="sb-sub-item" onclick="filterSub('case','atx')">ATX</span>
+        <span class="sb-sub-item" onclick="filterSub('case','matx')">Micro ATX</span>
+        <span class="sb-sub-item" onclick="filterSub('case','itx')">Mini ITX</span>
+      </div>
+      <div class="sb-cat" onclick="filterCat('monitor'); showPage('hardware')" id="sb-monitor">
+        <span class="ico">🖱️</span> Monitores
+        <span class="count" id="sb-count-monitor">0</span>
       </div>
     </div>
 
@@ -1106,29 +1095,20 @@ select.form-input{cursor:pointer}
         <span class="sb-arrow" id="sb-periph-arrow">▸</span>
       </div>
       <div class="sb-section-body" id="sb-periph-body" style="display:none">
-        <div class="sb-cat" onclick="filterSub('periph','teclado')" id="sb-periph-teclado">
+        <div class="sb-cat" onclick="filterSub('periph','teclado')">
           <span class="ico">⌨️</span> Teclados
-          <span class="count" id="sb-count-teclado">0</span>
         </div>
-        <div class="sb-cat" onclick="filterSub('periph','mouse')" id="sb-periph-mouse">
+        <div class="sb-cat" onclick="filterSub('periph','mouse')">
           <span class="ico">🖱️</span> Mouse
-          <span class="count" id="sb-count-mouse">0</span>
         </div>
-        <div class="sb-cat" onclick="filterSub('periph','headset')" id="sb-periph-headset">
+        <div class="sb-cat" onclick="filterSub('periph','headset')">
           <span class="ico">🎧</span> Audífonos / Headset
-          <span class="count" id="sb-count-headset">0</span>
         </div>
-        <div class="sb-cat" onclick="filterSub('periph','webcam')" id="sb-periph-webcam">
-          <span class="ico">📷</span> Webcam
-          <span class="count" id="sb-count-webcam">0</span>
-        </div>
-        <div class="sb-cat" onclick="filterSub('periph','pad')" id="sb-periph-pad">
+        <div class="sb-cat" onclick="filterSub('periph','pad')">
           <span class="ico">🟦</span> Pad / Mousepad
-          <span class="count" id="sb-count-pad">0</span>
         </div>
-        <div class="sb-cat" onclick="filterSub('periph','silla')" id="sb-periph-silla">
+        <div class="sb-cat" onclick="filterSub('periph','silla')">
           <span class="ico">🪑</span> Sillas Gaming
-          <span class="count" id="sb-count-silla">0</span>
         </div>
       </div>
     </div>
@@ -1143,7 +1123,6 @@ select.form-input{cursor:pointer}
         <div id="sb-stores-list"></div>
       </div>
     </div>
-
   </aside>
 
   <!-- MAIN CONTENT -->
@@ -1483,14 +1462,6 @@ const SUBCATS = {
   mobo:    { am5:['am5'], am4:['am4'], lga1700:['lga1700','1700'], lga1851:['lga1851','1851'] },
   case:    { atx:['atx'], matx:['micro atx','matx','m-atx'], itx:['itx','mini-itx'] },
   psu:     { modular:['modular'], certificada:['80+','gold','platinum','bronze'] },
-  periph:  {
-    teclado: ['teclado','keyboard','mecanico','mecánico'],
-    mouse:   ['mouse','raton','ratón'],
-    headset: ['headset','audifonos','audífonos','auricular','auriculares'],
-    webcam:  ['webcam','camara web','cámara web'],
-    pad:     ['mousepad','pad','alfombrilla'],
-    silla:   ['silla','chair','gaming chair'],
-  },
 };
 
 let PRODUCTS = [];
@@ -1580,9 +1551,34 @@ function filterStore(store) {
   currentCat = '';
   currentSub = '';
   document.querySelectorAll('.sb-store-item').forEach(function(el){ el.classList.remove('active'); });
-  var el = document.getElementById('sb-store-' + store);
-  if (el) el.classList.add('active');
+  var storeEl = document.getElementById('sb-store-' + store);
+  if (storeEl) storeEl.classList.add('active');
   showPage('hardware');
+}
+
+function toggleSbSection(id) {
+  var body  = document.getElementById('sb-' + id + '-body');
+  var arrow = document.getElementById('sb-' + id + '-arrow');
+  if (!body) return;
+  var isOpen = body.style.display !== 'none';
+  body.style.display = isOpen ? 'none' : 'block';
+  if (arrow) arrow.textContent = isOpen ? '\u25b8' : '\u25be';
+}
+
+function renderSidebarStores() {
+  var list = document.getElementById('sb-stores-list');
+  if (!list || !STORES.length) return;
+  list.innerHTML = STORES.map(function(s) {
+    var cnt = PRODUCTS.filter(function(p) {
+      return (p.prices && p.prices[s.id] > 0) || p._bestStoreId === s.id;
+    }).length;
+    var onclick = "filterStore('" + s.id + "')";
+    return '<div class="sb-store-item" id="sb-store-' + s.id + '" onclick="' + onclick + '">' +
+      '<span class="sb-store-dot" style="background:' + (s.color || 'var(--accent)') + '"></span>' +
+      '<span style="flex:1">' + s.name + '</span>' +
+      '<span style="font-size:11px;color:var(--text3)">' + cnt + '</span>' +
+      '</div>';
+  }).join('');
 }
 
 function toggleSub(cat) {
@@ -1870,6 +1866,7 @@ async function loadData() {
     }));
 
     console.log(`[FindTech] ${PRODUCTS.length} productos cargados`);
+    renderSidebarStores();
     renderSidebarStores();
     return true;
   } catch(e) {
@@ -2215,32 +2212,36 @@ function fileToBase64(file) {
 }
 
 // ═══════════════════════════════════════════════
+// MEGA MENU con delay
 // ═══════════════════════════════════════════════
-// SIDEBAR SECTIONS
-// ═══════════════════════════════════════════════
-function toggleSbSection(id) {
-  const body  = document.getElementById('sb-' + id + '-body');
-  const arrow = document.getElementById('sb-' + id + '-arrow');
-  if (!body) return;
-  const isOpen = body.style.display !== 'none';
-  body.style.display = isOpen ? 'none' : 'block';
-  if (arrow) arrow.textContent = isOpen ? '▸' : '▾';
-}
-
-function renderSidebarStores() {
-  const list = document.getElementById('sb-stores-list');
-  if (!list || !STORES.length) return;
-  list.innerHTML = STORES.map(function(s) {
-    const cnt = PRODUCTS.filter(function(p) {
-      return (p.prices && p.prices[s.id] > 0) || p._bestStoreId === s.id;
-    }).length;
-    return '<div class="sb-store-item" id="sb-store-' + s.id + '" onclick="filterStore('' + s.id + '')">' +
-      '<span class="sb-store-dot" style="background:' + (s.color || 'var(--accent)') + '"></span>' +
-      '<span style="flex:1">' + s.name + '</span>' +
-      '<span style="font-size:11px;color:var(--text3);font-family:var(--mono)">' + cnt + '</span>' +
-      '</div>';
-  }).join('');
-}
+(function() {
+  var hideTimer = null;
+  document.querySelectorAll('.mega-wrap').forEach(function(wrap) {
+    var menu = wrap.querySelector('.mega-menu');
+    if (!menu) return;
+    function showMenu() {
+      clearTimeout(hideTimer);
+      document.querySelectorAll('.mega-menu').forEach(function(m) {
+        if (m !== menu) m.style.display = 'none';
+      });
+      menu.style.display = 'grid';
+      menu.style.gridTemplateColumns = 'repeat(4,1fr)';
+      menu.style.gap = '16px';
+    }
+    function hideMenu() {
+      hideTimer = setTimeout(function() { menu.style.display = 'none'; }, 200);
+    }
+    wrap.addEventListener('mouseenter', showMenu);
+    wrap.addEventListener('mouseleave', hideMenu);
+    menu.addEventListener('mouseenter', function() { clearTimeout(hideTimer); });
+    menu.addEventListener('mouseleave', hideMenu);
+  });
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.mega-wrap')) {
+      document.querySelectorAll('.mega-menu').forEach(function(m) { m.style.display = 'none'; });
+    }
+  });
+})();
 
 // MOBILE NAV
 // ═══════════════════════════════════════════════
