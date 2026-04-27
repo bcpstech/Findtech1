@@ -104,16 +104,16 @@ nav{display:flex;align-items:center;gap:4px;flex:1}
 .mega-wrap{position:relative}
 .mega-menu{
   display:none;
-  position:absolute;top:calc(100% + 8px);left:-16px;
+  position:absolute;top:calc(100% + 8px);left:0;
   background:var(--bg2);border:1px solid var(--border2);
   border-radius:12px;padding:20px;
-  min-width:640px;
+  min-width:600px;
   box-shadow:0 20px 60px rgba(0,0,0,0.5);
   z-index:300;
   animation:fadeIn .15s ease;
 }
 @keyframes fadeIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
-/* Mega menu controlado por JS con delay */
+/* mega menu controlled by JS */
 .mega-col h4{
   font-size:11px;font-weight:600;color:var(--accent);
   letter-spacing:1.5px;text-transform:uppercase;
@@ -150,37 +150,11 @@ nav{display:flex;align-items:center;gap:4px;flex:1}
 }
 
 /* ── MAIN LAYOUT ── */
-.layout{display:grid;grid-template-columns:240px 1fr;gap:0;min-height:calc(100vh - 72px)}
+.layout{display:block;min-height:calc(100vh - 72px)}
 
 /* SIDEBAR */
-.sidebar{
-  background:var(--bg2);
-  border-right:1px solid var(--border);
-  padding:20px 0;
-  position:sticky;top:72px;height:calc(100vh - 72px);
-  overflow-y:auto;
-}
-.sb-section{border-bottom:1px solid var(--border)}
-.sb-section:last-child{border-bottom:none}
-.sb-section-header{
-  display:flex;align-items:center;justify-content:space-between;
-  padding:13px 18px;cursor:pointer;
-  font-size:10px;font-weight:700;letter-spacing:2px;
-  color:var(--text3);text-transform:uppercase;
-  user-select:none;transition:color .15s;
-}
-.sb-section-header:hover{color:var(--accent)}
-.sb-arrow{font-size:11px}
-.sb-section-body{padding-bottom:6px}
-.sb-store-item{
-  display:flex;align-items:center;gap:10px;
-  padding:8px 18px 8px 24px;cursor:pointer;font-size:13px;
-  color:var(--text2);transition:all .15s;
-  border-left:2px solid transparent;
-}
-.sb-store-item:hover{color:var(--text);background:var(--bg3)}
-.sb-store-item.active{color:var(--accent);border-left-color:var(--accent)}
-.sb-store-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.sidebar{display:none}
+.sb-section{margin-bottom:6px}
 .sb-label{
   font-size:11px;font-weight:700;color:var(--text3);
   letter-spacing:2px;text-transform:uppercase;
@@ -207,7 +181,7 @@ nav{display:flex;align-items:center;gap:4px;flex:1}
 .sb-sub-item:hover,.sb-sub-item.active{color:var(--accent)}
 
 /* MAIN */
-.main{padding:24px;overflow-x:hidden}
+.main{padding:24px;overflow-x:hidden;max-width:1400px;margin:0 auto}
 
 /* PAGE HERO */
 .page-hero{
@@ -761,11 +735,7 @@ select.form-input{cursor:pointer}
    TABLET  ≤ 1024px
 ══════════════════════════════════════ */
 @media(max-width:1024px){
-  .layout{grid-template-columns:200px 1fr}
-  .sidebar{padding:16px 0}
-  .sb-cat{padding:9px 14px;font-size:13px}
-  .sb-label{padding:0 14px 8px}
-  .mega-menu{min-width:480px;grid-template-columns:repeat(3,1fr)}
+  .mega-menu{min-width:400px;grid-template-columns:repeat(3,1fr)}
   .search-wrap{max-width:240px}
   .footer-grid{grid-template-columns:1.5fr 1fr 1fr}
   .footer-grid .footer-col:last-child{display:none}
@@ -802,15 +772,7 @@ select.form-input{cursor:pointer}
   /* LAYOUT */
   .layout{grid-template-columns:1fr}
 
-  /* SIDEBAR → DRAWER */
-  .sidebar{
-    position:fixed;left:-260px;top:60px;
-    width:260px;height:calc(100vh - 60px);
-    z-index:160;transition:left .25s ease;
-    box-shadow:4px 0 24px rgba(0,0,0,0.4);
-    overflow-y:auto;
-  }
-  .sidebar.open{left:0}
+
 
   /* MAIN */
   .main{padding:14px}
@@ -889,8 +851,7 @@ select.form-input{cursor:pointer}
   .form-row{grid-template-columns:1fr}
   .opinion-body{padding:16px;gap:12px}
 
-  /* MEGA MENU → oculto, reemplazado por sidebar */
-  .mega-menu{display:none!important}
+  .mega-menu{min-width:280px;grid-template-columns:repeat(2,1fr)}
 
   /* FOOTER */
   footer{padding:28px 16px}
@@ -991,7 +952,44 @@ select.form-input{cursor:pointer}
         </div>
       </div>
     </div>
-    <div class="nav-item" onclick="showPage('stores')">Tiendas</div>
+    <div class="nav-item mega-wrap" id="nav-periph">
+      Periféricos ▾
+      <div class="mega-menu" id="mega-periph">
+        <div class="mega-col">
+          <h4>Teclados</h4>
+          <a onclick="filterSub('periph','teclado')">Mecánicos</a>
+          <a onclick="filterSub('periph','teclado')">Membrana</a>
+          <a onclick="filterCat('periph')">Ver todos</a>
+        </div>
+        <div class="mega-col">
+          <h4>Mouse</h4>
+          <a onclick="filterSub('periph','mouse')">Gaming</a>
+          <a onclick="filterSub('periph','mouse')">Oficina</a>
+          <a onclick="filterCat('periph')">Ver todos</a>
+        </div>
+        <div class="mega-col">
+          <h4>Audio</h4>
+          <a onclick="filterSub('periph','headset')">Headset Gaming</a>
+          <a onclick="filterSub('periph','headset')">Audífonos</a>
+          <a onclick="filterCat('periph')">Ver todos</a>
+        </div>
+        <div class="mega-col">
+          <h4>Accesorios</h4>
+          <a onclick="filterSub('periph','pad')">Pad / Mousepad</a>
+          <a onclick="filterSub('periph','webcam')">Webcam</a>
+          <a onclick="filterSub('periph','silla')">Sillas Gaming</a>
+          <a onclick="filterCat('periph')">Ver todos</a>
+        </div>
+      </div>
+    </div>
+    <div class="nav-item mega-wrap" id="nav-tiendas">
+      Tiendas ▾
+      <div class="mega-menu" id="mega-tiendas" style="min-width:520px">
+        <div class="mega-col" id="mega-tiendas-col-1"></div>
+        <div class="mega-col" id="mega-tiendas-col-2"></div>
+        <div class="mega-col" id="mega-tiendas-col-3"></div>
+      </div>
+    </div>
     <div class="nav-item" onclick="showPage('contact')">Contacto</div>
   </nav>
 
@@ -1003,129 +1001,8 @@ select.form-input{cursor:pointer}
   <button class="theme-toggle" id="theme-btn" onclick="toggleTheme()" title="Cambiar tema">🌙</button>
 </header>
 
-<!-- SIDEBAR OVERLAY (mobile) -->
-<div class="sidebar-overlay" id="sidebar-overlay" onclick="closeSidebar()"></div>
-
 <!-- LAYOUT -->
 <div class="layout">
-
-  <!-- SIDEBAR -->
-  <aside class="sidebar" id="sidebar">
-    <div class="sb-section">
-      <div class="sb-label">Categorías</div>
-      <div class="sb-cat" onclick="filterCat(''); showPage('hardware')" id="sb-all">
-        <span class="ico">🏠</span> Todos
-        <span class="count" id="sb-count-all">0</span>
-      </div>
-      <div class="sb-cat" onclick="toggleSub('gpu')" id="sb-gpu">
-        <span class="ico">🎮</span> Tarjetas de Video
-        <span class="count" id="sb-count-gpu">0</span>
-      </div>
-      <div class="sb-sub" id="sub-gpu">
-        <span class="sb-sub-item" onclick="filterSub('gpu','nvidia')">NVIDIA GeForce</span>
-        <span class="sb-sub-item" onclick="filterSub('gpu','amd')">AMD Radeon</span>
-      </div>
-      <div class="sb-cat" onclick="toggleSub('cpu')" id="sb-cpu">
-        <span class="ico">⚡</span> Procesadores
-        <span class="count" id="sb-count-cpu">0</span>
-      </div>
-      <div class="sb-sub" id="sub-cpu">
-        <span class="sb-sub-item" onclick="filterSub('cpu','intel')">Intel Core</span>
-        <span class="sb-sub-item" onclick="filterSub('cpu','amd')">AMD Ryzen</span>
-      </div>
-      <div class="sb-cat" onclick="toggleSub('mobo')" id="sb-mobo">
-        <span class="ico">🔌</span> Placas Madre
-        <span class="count" id="sb-count-mobo">0</span>
-      </div>
-      <div class="sb-sub" id="sub-mobo">
-        <span class="sb-sub-item" onclick="filterSub('mobo','am4')">AM4</span>
-        <span class="sb-sub-item" onclick="filterSub('mobo','am5')">AM5</span>
-        <span class="sb-sub-item" onclick="filterSub('mobo','lga1700')">LGA1700</span>
-        <span class="sb-sub-item" onclick="filterSub('mobo','lga1851')">LGA1851</span>
-      </div>
-      <div class="sb-cat" onclick="toggleSub('ram')" id="sb-ram">
-        <span class="ico">💾</span> Memorias RAM
-        <span class="count" id="sb-count-ram">0</span>
-      </div>
-      <div class="sb-sub" id="sub-ram">
-        <span class="sb-sub-item" onclick="filterSub('ram','ddr4')">DDR4</span>
-        <span class="sb-sub-item" onclick="filterSub('ram','ddr5')">DDR5</span>
-      </div>
-      <div class="sb-cat" onclick="toggleSub('storage')" id="sb-storage">
-        <span class="ico">💿</span> Almacenamiento
-        <span class="count" id="sb-count-storage">0</span>
-      </div>
-      <div class="sb-sub" id="sub-storage">
-        <span class="sb-sub-item" onclick="filterSub('storage','nvme')">SSD NVMe</span>
-        <span class="sb-sub-item" onclick="filterSub('storage','sata')">SSD SATA</span>
-        <span class="sb-sub-item" onclick="filterSub('storage','hdd')">Disco Duro</span>
-      </div>
-      <div class="sb-cat" onclick="toggleSub('cooling')" id="sb-cooling">
-        <span class="ico">❄️</span> Refrigeración
-        <span class="count" id="sb-count-cooling">0</span>
-      </div>
-      <div class="sb-sub" id="sub-cooling">
-        <span class="sb-sub-item" onclick="filterSub('cooling','liquida')">Líquida</span>
-        <span class="sb-sub-item" onclick="filterSub('cooling','aire')">Por Aire</span>
-        <span class="sb-sub-item" onclick="filterSub('cooling','fans')">Ventiladores</span>
-      </div>
-      <div class="sb-cat" onclick="filterCat('psu'); showPage('hardware')" id="sb-psu">
-        <span class="ico">⚙️</span> Fuentes de Poder
-        <span class="count" id="sb-count-psu">0</span>
-      </div>
-      <div class="sb-cat" onclick="toggleSub('case')" id="sb-case">
-        <span class="ico">🖥️</span> Gabinetes
-        <span class="count" id="sb-count-case">0</span>
-      </div>
-      <div class="sb-sub" id="sub-case">
-        <span class="sb-sub-item" onclick="filterSub('case','atx')">ATX</span>
-        <span class="sb-sub-item" onclick="filterSub('case','matx')">Micro ATX</span>
-        <span class="sb-sub-item" onclick="filterSub('case','itx')">Mini ITX</span>
-      </div>
-      <div class="sb-cat" onclick="filterCat('monitor'); showPage('hardware')" id="sb-monitor">
-        <span class="ico">🖱️</span> Monitores
-        <span class="count" id="sb-count-monitor">0</span>
-      </div>
-      </div><!-- /sb-hw-body -->
-    </div><!-- /hw section -->
-
-    <!-- ── PERIFÉRICOS ────────────────────────────── -->
-    <div class="sb-section">
-      <div class="sb-section-header" onclick="toggleSbSection('periph')">
-        <span>🖱️ PERIFÉRICOS</span>
-        <span class="sb-arrow" id="sb-periph-arrow">▸</span>
-      </div>
-      <div class="sb-section-body" id="sb-periph-body" style="display:none">
-        <div class="sb-cat" onclick="filterSub('periph','teclado')">
-          <span class="ico">⌨️</span> Teclados
-        </div>
-        <div class="sb-cat" onclick="filterSub('periph','mouse')">
-          <span class="ico">🖱️</span> Mouse
-        </div>
-        <div class="sb-cat" onclick="filterSub('periph','headset')">
-          <span class="ico">🎧</span> Audífonos / Headset
-        </div>
-        <div class="sb-cat" onclick="filterSub('periph','pad')">
-          <span class="ico">🟦</span> Pad / Mousepad
-        </div>
-        <div class="sb-cat" onclick="filterSub('periph','silla')">
-          <span class="ico">🪑</span> Sillas Gaming
-        </div>
-      </div>
-    </div>
-
-    <!-- ── TIENDAS ────────────────────────────────── -->
-    <div class="sb-section">
-      <div class="sb-section-header" onclick="toggleSbSection('stores')">
-        <span>🏪 TIENDAS</span>
-        <span class="sb-arrow" id="sb-stores-arrow">▸</span>
-      </div>
-      <div class="sb-section-body" id="sb-stores-body" style="display:none">
-        <div id="sb-stores-list"></div>
-      </div>
-    </div>
-
-  </aside>
 
   <!-- MAIN CONTENT -->
   <main class="main">
@@ -1464,13 +1341,6 @@ const SUBCATS = {
   mobo:    { am5:['am5'], am4:['am4'], lga1700:['lga1700','1700'], lga1851:['lga1851','1851'] },
   case:    { atx:['atx'], matx:['micro atx','matx','m-atx'], itx:['itx','mini-itx'] },
   psu:     { modular:['modular'], certificada:['80+','gold','platinum','bronze'] },
-  periph:  {
-    teclado: ['teclado','keyboard','mecanico'],
-    mouse:   ['mouse','raton'],
-    headset: ['headset','audifonos','auricular'],
-    pad:     ['mousepad','pad','alfombrilla'],
-    silla:   ['silla','chair'],
-  },
 };
 
 let PRODUCTS = [];
@@ -1559,35 +1429,7 @@ function filterStore(store) {
   currentStore = store;
   currentCat = '';
   currentSub = '';
-  document.querySelectorAll('.sb-store-item').forEach(function(el){ el.classList.remove('active'); });
-  var storeEl = document.getElementById('sb-store-' + store);
-  if (storeEl) storeEl.classList.add('active');
   showPage('hardware');
-}
-
-function toggleSbSection(id) {
-  var body  = document.getElementById('sb-' + id + '-body');
-  var arrow = document.getElementById('sb-' + id + '-arrow');
-  if (!body) return;
-  var isOpen = body.style.display !== 'none';
-  body.style.display = isOpen ? 'none' : 'block';
-  if (arrow) arrow.textContent = isOpen ? '▸' : '▾';
-}
-
-function renderSidebarStores() {
-  var list = document.getElementById('sb-stores-list');
-  if (!list || !STORES.length) return;
-  list.innerHTML = STORES.map(function(s) {
-    var cnt = PRODUCTS.filter(function(p) {
-      return (p.prices && p.prices[s.id] > 0) || p._bestStoreId === s.id;
-    }).length;
-    var onclick = "filterStore('" + s.id + "')";
-    return '<div class="sb-store-item" id="sb-store-' + s.id + '" onclick="' + onclick + '">' +
-      '<span class="sb-store-dot" style="background:' + (s.color || 'var(--accent)') + '"></span>' +
-      '<span style="flex:1">' + s.name + '</span>' +
-      '<span style="font-size:11px;color:var(--text3)">' + cnt + '</span>' +
-      '</div>';
-  }).join('');
 }
 
 function toggleSub(cat) {
@@ -1875,7 +1717,7 @@ async function loadData() {
     }));
 
     console.log(`[FindTech] ${PRODUCTS.length} productos cargados`);
-    renderSidebarStores();
+    renderTiendasMenu();
     return true;
   } catch(e) {
     console.warn('[FindTech] Sin datos reales:', e.message);
@@ -2226,25 +2068,28 @@ function fileToBase64(file) {
 // MEGA MENU — hover con delay
 // ═══════════════════════════════════════════════
 (function() {
-  var hideTimer = null;
+  var hideTimers = {};
   document.querySelectorAll('.mega-wrap').forEach(function(wrap) {
+    var id = wrap.id || Math.random();
     var menu = wrap.querySelector('.mega-menu');
     if (!menu) return;
     function showMenu() {
-      clearTimeout(hideTimer);
+      clearTimeout(hideTimers[id]);
       document.querySelectorAll('.mega-menu').forEach(function(m) {
         if (m !== menu) m.style.display = 'none';
       });
       menu.style.display = 'grid';
-      menu.style.gridTemplateColumns = 'repeat(4,1fr)';
       menu.style.gap = '16px';
+      if (!menu.style.gridTemplateColumns) {
+        menu.style.gridTemplateColumns = 'repeat(4,1fr)';
+      }
     }
     function hideMenu() {
-      hideTimer = setTimeout(function() { menu.style.display = 'none'; }, 200);
+      hideTimers[id] = setTimeout(function() { menu.style.display = 'none'; }, 200);
     }
     wrap.addEventListener('mouseenter', showMenu);
     wrap.addEventListener('mouseleave', hideMenu);
-    menu.addEventListener('mouseenter', function() { clearTimeout(hideTimer); });
+    menu.addEventListener('mouseenter', function() { clearTimeout(hideTimers[id]); });
     menu.addEventListener('mouseleave', hideMenu);
   });
   document.addEventListener('click', function(e) {
@@ -2253,6 +2098,36 @@ function fileToBase64(file) {
     }
   });
 })();
+
+function renderTiendasMenu() {
+  var cols = [
+    document.getElementById('mega-tiendas-col-1'),
+    document.getElementById('mega-tiendas-col-2'),
+    document.getElementById('mega-tiendas-col-3'),
+  ];
+  if (!cols[0] || !STORES.length) return;
+  var perCol = Math.ceil(STORES.length / 3);
+  cols.forEach(function(col) { col.innerHTML = ''; });
+  STORES.forEach(function(s, i) {
+    var col = cols[Math.floor(i / perCol)] || cols[2];
+    var cnt = PRODUCTS.filter(function(p) {
+      return (p.prices && p.prices[s.id] > 0) || p._bestStoreId === s.id;
+    }).length;
+    var a = document.createElement('a');
+    a.onclick = function() { filterStore(s.id); };
+    a.style.cssText = 'display:flex;align-items:center;gap:8px';
+    a.innerHTML = '<span style="width:8px;height:8px;border-radius:50%;background:' + (s.color||'var(--accent)') + ';display:inline-block;flex-shrink:0"></span>' +
+      s.name +
+      '<span style="font-size:10px;color:var(--text3);margin-left:auto">' + cnt + '</span>';
+    col.appendChild(a);
+  });
+  // Add header to first col
+  if (cols[0]) {
+    var h = document.createElement('h4');
+    h.textContent = 'Tiendas';
+    cols[0].insertBefore(h, cols[0].firstChild);
+  }
+}
 
 function toggleSidebar() {
   const sidebar = document.getElementById('sidebar');
