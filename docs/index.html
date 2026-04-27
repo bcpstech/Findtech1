@@ -113,7 +113,7 @@ nav{display:flex;align-items:center;gap:4px;flex:1}
   animation:fadeIn .15s ease;
 }
 @keyframes fadeIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
-.mega-wrap:hover .mega-menu{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+/* mega menu JS controlled */
 .mega-col h4{
   font-size:11px;font-weight:600;color:var(--accent);
   letter-spacing:1.5px;text-transform:uppercase;
@@ -150,16 +150,10 @@ nav{display:flex;align-items:center;gap:4px;flex:1}
 }
 
 /* ── MAIN LAYOUT ── */
-.layout{display:grid;grid-template-columns:240px 1fr;gap:0;min-height:calc(100vh - 72px)}
+.layout{display:block;min-height:calc(100vh - 72px)}
 
 /* SIDEBAR */
-.sidebar{
-  background:var(--bg2);
-  border-right:1px solid var(--border);
-  padding:20px 0;
-  position:sticky;top:72px;height:calc(100vh - 72px);
-  overflow-y:auto;
-}
+.sidebar{display:none}
 .sb-section{margin-bottom:6px}
 .sb-label{
   font-size:11px;font-weight:700;color:var(--text3);
@@ -489,17 +483,21 @@ footer{
 #page-detail.active { display:block }
 
 .detail-wrap{
-  display:grid;grid-template-columns:340px 1fr;
+  display:grid;grid-template-columns:320px 1fr;
   gap:28px;align-items:start;
-  max-width:1100px;margin:0 auto;
+  max-width:1200px;margin:0 auto;
+}
+.detail-left{
+  position:sticky;top:84px;
+  display:flex;flex-direction:column;gap:12px;
 }
 .detail-img-box{
   background:var(--bg2);border:1px solid var(--border);
-  border-radius:16px;padding:32px;
+  border-radius:16px;padding:28px;
   display:flex;align-items:center;justify-content:center;
-  aspect-ratio:1;position:sticky;top:84px;
+  aspect-ratio:1;
 }
-.detail-img-box img{max-width:100%;max-height:280px;object-fit:contain}
+.detail-img-box img{max-width:100%;max-height:260px;object-fit:contain}
 .detail-img-box .emoji{font-size:80px}
 .detail-right{display:flex;flex-direction:column;gap:20px}
 .detail-brand{font-size:12px;font-weight:700;color:var(--accent);
@@ -562,40 +560,6 @@ footer{
   display:grid;grid-template-columns:1fr 1fr;
   gap:1px;background:var(--border);
 }
-/* Highlights row */
-.detail-highlights{
-  display:flex;flex-wrap:wrap;gap:8px;
-  margin-bottom:16px;
-}
-.detail-highlight-chip{
-  display:flex;align-items:center;gap:6px;
-  background:var(--bg3);border:1px solid var(--border2);
-  border-radius:20px;padding:5px 12px;
-  font-size:12px;font-weight:500;color:var(--text2);
-  white-space:nowrap;
-}
-.detail-highlight-chip .chip-ico{font-size:14px}
-.detail-highlight-chip .chip-val{color:var(--text);font-weight:600}
-/* Description */
-.detail-desc-box{
-  background:var(--bg2);border:1px solid var(--border);
-  border-radius:12px;overflow:hidden;margin-top:20px;
-}
-.detail-desc-title{
-  padding:14px 20px;font-size:13px;font-weight:700;
-  color:var(--text3);text-transform:uppercase;letter-spacing:1px;
-  border-bottom:1px solid var(--border);background:var(--bg3);
-}
-.detail-desc-body{
-  padding:20px;font-size:14px;color:var(--text2);
-  line-height:1.7;
-}
-.detail-desc-body ul{
-  margin-top:12px;padding-left:20px;
-  display:flex;flex-direction:column;gap:6px;
-}
-.detail-desc-body ul li{color:var(--text2)}
-.detail-desc-body ul li strong{color:var(--text)}
 .detail-spec-item{
   background:var(--bg2);padding:12px 16px;
 }
@@ -623,7 +587,8 @@ footer{
 
 @media(max-width:768px){
   .detail-wrap{grid-template-columns:1fr}
-  .detail-img-box{position:relative;top:0;aspect-ratio:auto;padding:24px}
+  .detail-left{position:relative;top:0}
+  .detail-img-box{aspect-ratio:auto;padding:24px}
   .detail-specs-grid{grid-template-columns:1fr}
   .dpr-method-row{display:flex;justify-content:space-between;align-items:center;gap:8px;min-width:0}
 .dpr-stars{font-size:11px;color:#f59e0b;letter-spacing:1px;margin-top:2px}
@@ -775,11 +740,8 @@ select.form-input{cursor:pointer}
    TABLET  ≤ 1024px
 ══════════════════════════════════════ */
 @media(max-width:1024px){
-  .layout{grid-template-columns:200px 1fr}
-  .sidebar{padding:16px 0}
-  .sb-cat{padding:9px 14px;font-size:13px}
-  .sb-label{padding:0 14px 8px}
-  .mega-menu{min-width:480px;grid-template-columns:repeat(3,1fr)}
+  .mega-menu{min-width:400px;grid-template-columns:repeat(3,1fr)}
+  .detail-wrap{grid-template-columns:280px 1fr}
   .search-wrap{max-width:240px}
   .footer-grid{grid-template-columns:1.5fr 1fr 1fr}
   .footer-grid .footer-col:last-child{display:none}
@@ -814,7 +776,7 @@ select.form-input{cursor:pointer}
   .search-toggle:hover{color:var(--accent);border-color:var(--accent)}
 
   /* LAYOUT */
-  .layout{grid-template-columns:1fr}
+  .layout{display:block}
 
   /* SIDEBAR → DRAWER */
   .sidebar{
@@ -1005,7 +967,39 @@ select.form-input{cursor:pointer}
         </div>
       </div>
     </div>
-    <div class="nav-item" onclick="showPage('stores')">Tiendas</div>
+    <div class="nav-item mega-wrap" id="nav-periph">
+      Periféricos ▾
+      <div class="mega-menu" id="mega-periph">
+        <div class="mega-col"><h4>Teclados</h4>
+          <a onclick="filterSub('periph','teclado')">Mecánicos</a>
+          <a onclick="filterSub('periph','teclado')">Membrana</a>
+          <a onclick="filterCat('periph')">Ver todos</a>
+        </div>
+        <div class="mega-col"><h4>Mouse</h4>
+          <a onclick="filterSub('periph','mouse')">Gaming</a>
+          <a onclick="filterSub('periph','mouse')">Oficina</a>
+          <a onclick="filterCat('periph')">Ver todos</a>
+        </div>
+        <div class="mega-col"><h4>Audio</h4>
+          <a onclick="filterSub('periph','headset')">Headset Gaming</a>
+          <a onclick="filterSub('periph','headset')">Audífonos</a>
+          <a onclick="filterCat('periph')">Ver todos</a>
+        </div>
+        <div class="mega-col"><h4>Accesorios</h4>
+          <a onclick="filterSub('periph','pad')">Pad / Mousepad</a>
+          <a onclick="filterSub('periph','webcam')">Webcam</a>
+          <a onclick="filterSub('periph','silla')">Sillas Gaming</a>
+        </div>
+      </div>
+    </div>
+    <div class="nav-item mega-wrap" id="nav-tiendas">
+      Tiendas ▾
+      <div class="mega-menu" id="mega-tiendas" style="min-width:480px">
+        <div class="mega-col" id="mega-tiendas-col-1"></div>
+        <div class="mega-col" id="mega-tiendas-col-2"></div>
+        <div class="mega-col" id="mega-tiendas-col-3"></div>
+      </div>
+    </div>
     <div class="nav-item" onclick="showPage('contact')">Contacto</div>
   </nav>
 
@@ -1204,7 +1198,14 @@ select.form-input{cursor:pointer}
     <div class="page" id="page-detail">
       <button class="btn-back" onclick="goBack()">← Volver</button>
       <div class="detail-wrap">
-        <div class="detail-img-box" id="detail-img"></div>
+        <!-- Columna izquierda: imagen + botón opinión -->
+        <div class="detail-left">
+          <div class="detail-img-box" id="detail-img"></div>
+          <button class="detail-opinion-btn" onclick="openOpinion()">
+            ✍️ Dar opinión sobre este producto
+          </button>
+        </div>
+        <!-- Columna derecha: info + precios + specs -->
         <div class="detail-right">
           <div>
             <div class="detail-brand" id="detail-brand"></div>
@@ -1215,23 +1216,10 @@ select.form-input{cursor:pointer}
             <div class="detail-prices-title">💰 Precios por tienda</div>
             <div id="detail-prices"></div>
           </div>
-          <!-- Highlights chips -->
-          <div class="detail-highlights" id="detail-highlights" style="display:none"></div>
-
           <div class="detail-specs-box" id="detail-specs-box" style="display:none">
             <div class="detail-specs-title">📋 Especificaciones técnicas</div>
             <div class="detail-specs-grid" id="detail-specs-grid"></div>
           </div>
-
-          <!-- Description & features -->
-          <div class="detail-desc-box" id="detail-desc-box" style="display:none">
-            <div class="detail-desc-title">📝 Descripción y características</div>
-            <div class="detail-desc-body" id="detail-desc-body"></div>
-          </div>
-
-          <button class="detail-opinion-btn" onclick="openOpinion()">
-            ✍️ Dar opinión sobre este producto
-          </button>
         </div>
       </div>
     </div>
@@ -1660,7 +1648,7 @@ function cardHtml(p) {
     + `<div class="emoji" style="display:none">${cat.icon}</div>`
     : `<div class="emoji">${cat.icon}</div>`;
 
-  return `<div class="prod-card" onclick="openDetail(${p.id})">
+  return `<div class="prod-card" onclick="openProductTab(${p.id})">
     <div class="prod-img">
       ${imgHtml}
     </div>
@@ -1682,7 +1670,7 @@ function cardHtml(p) {
       </div>
     </div>
     <div class="card-actions">
-      <button class="btn-ver" onclick="event.stopPropagation();openDetail(${p.id})">Ver precios</button>
+      <button class="btn-ver" onclick="event.stopPropagation();openProductTab(${p.id})">Ver precios</button>
       ${p.url ? `<a class="btn-cmp" href="${p.url}" target="_blank" onclick="event.stopPropagation()">🔗</a>` : ''}
     </div>
   </div>`;
@@ -1845,6 +1833,7 @@ async function loadData() {
     }));
 
     console.log(`[FindTech] ${PRODUCTS.length} productos cargados`);
+    if(typeof renderTiendasMenu==='function') renderTiendasMenu();
     return true;
   } catch(e) {
     console.warn('[FindTech] Sin datos reales:', e.message);
@@ -1893,6 +1882,11 @@ const PRICE_KEYS = ['efectivo','transferencia','tarjeta','webpay','crédito','cr
 function isPriceKey(k) {
   const l = k.toLowerCase();
   return PRICE_KEYS.some(w => l.includes(w));
+}
+
+function openProductTab(id) {
+  const base = window.location.href.split('?')[0].split('#')[0];
+  window.open(base + '?product=' + id, '_blank');
 }
 
 async function openDetail(id) {
@@ -1999,33 +1993,6 @@ async function openDetail(id) {
       specsBox.style.display = 'none';
     }
 
-    // ── Highlights chips ─────────────────────────────────────────────────
-    const highlightsEl = document.getElementById('detail-highlights');
-    const highlightDefs = {
-      cpu:     [{key:'Núcleos',ico:'⚙️'},{key:'Hilos',ico:'🔄'},{key:'Frecuencia base',ico:'📡'},{key:'Frecuencia turbo',ico:'⚡'},{key:'Socket',ico:'🔌'},{key:'TDP',ico:'🌡️'},{key:'Caché L3',ico:'💾'},{key:'Gráficos integrados',ico:'🖥️'}],
-      gpu:     [{key:'VRAM',ico:'🎮'},{key:'Tipo memoria',ico:'💾'},{key:'Bus de memoria',ico:'🚌'},{key:'Variante',ico:'🏷️'}],
-      ram:     [{key:'Capacidad',ico:'💾'},{key:'Tipo',ico:'🔷'},{key:'Velocidad',ico:'⚡'},{key:'Latencia',ico:'⏱️'}],
-      storage: [{key:'Capacidad',ico:'💿'},{key:'Interfaz',ico:'🔌'},{key:'Factor de forma',ico:'📐'}],
-      mobo:    [{key:'Socket',ico:'🔌'},{key:'Factor de forma',ico:'📐'},{key:'Memoria',ico:'🧠'},{key:'WiFi',ico:'📶'}],
-    };
-    const catHL = highlightDefs[detail.category_id] || [];
-    const chips = catHL.filter(h => specs[h.key]).map(h =>
-      `<div class="detail-highlight-chip"><span class="chip-ico">${h.ico}</span><span>${h.key}:</span><span class="chip-val">${specs[h.key]}</span></div>`
-    );
-    if (highlightsEl) {
-      highlightsEl.innerHTML = chips.join('');
-      highlightsEl.style.display = chips.length ? 'flex' : 'none';
-    }
-
-    // ── Descripción y características ────────────────────────────────────
-    const descBox  = document.getElementById('detail-desc-box');
-    const descBody = document.getElementById('detail-desc-body');
-    if (descBox && descBody) {
-      const descHtml = buildDescription(detail.name, detail.category_id, specs);
-      if (descHtml) { descBody.innerHTML = descHtml; descBox.style.display = ''; }
-      else descBox.style.display = 'none';
-    }
-
     currentOpinionProduct = { ...p, ...detail };
 
   } catch(err) {
@@ -2049,97 +2016,6 @@ async function openDetail(id) {
     specsBox.style.display = 'none';
   }
 }
-// ═══════════════════════════════════════════════
-// DESCRIPCIÓN GENERADA AUTOMÁTICAMENTE
-// ═══════════════════════════════════════════════
-function buildDescription(name, category, specs) {
-  if (!name) return '';
-
-  const lines = [];
-
-  if (category === 'cpu') {
-    const brand = specs['Gráficos integrados'] === 'No' ? 'sin gráficos integrados, ideal para usar con tarjeta de video dedicada' : 'con gráficos integrados';
-    const cores = specs['Núcleos'] ? `${specs['Núcleos']} núcleos y ${specs['Hilos'] || '?'} hilos` : '';
-    const freq  = specs['Frecuencia base'] ? `frecuencia base de ${specs['Frecuencia base']}` : '';
-    const turbo = specs['Frecuencia turbo'] ? ` y turbo de hasta ${specs['Frecuencia turbo']}` : '';
-    const cache = specs['Caché L3'] ? `${specs['Caché L3']} de caché L3` : '';
-    const tdp   = specs['TDP'] ? `${specs['TDP']} de TDP` : '';
-    const sock  = specs['Socket'] ? `socket ${specs['Socket']}` : '';
-    const gen   = specs['Generación'] ? `Parte de la familia ${specs['Generación']}.` : '';
-
-    const intro = [cores, freq + turbo, cache, tdp, sock].filter(Boolean).join(', ');
-    if (intro) lines.push(`<p>Procesador ${brand}, con ${intro}.</p>`);
-    if (gen)   lines.push(`<p>${gen}</p>`);
-
-    lines.push(`<ul>`);
-    if (specs['Núcleos'])           lines.push(`<li><strong>Núcleos / Hilos:</strong> ${specs['Núcleos']} / ${specs['Hilos'] || '?'}</li>`);
-    if (specs['Frecuencia base'])   lines.push(`<li><strong>Frecuencia:</strong> ${specs['Frecuencia base']} base${specs['Frecuencia turbo'] ? ' / ' + specs['Frecuencia turbo'] + ' turbo' : ''}</li>`);
-    if (specs['Caché L3'])          lines.push(`<li><strong>Caché L3:</strong> ${specs['Caché L3']}</li>`);
-    if (specs['TDP'])               lines.push(`<li><strong>TDP:</strong> ${specs['TDP']}</li>`);
-    if (specs['Socket'])            lines.push(`<li><strong>Socket compatible:</strong> ${specs['Socket']}</li>`);
-    if (specs['Memoria'])           lines.push(`<li><strong>Tipo de memoria soportada:</strong> ${specs['Memoria']}</li>`);
-    if (specs['Incluye cooler'])    lines.push(`<li><strong>Cooler incluido:</strong> ${specs['Incluye cooler']}</li>`);
-    if (specs['Gráficos integrados']) lines.push(`<li><strong>Gráficos integrados:</strong> ${specs['Gráficos integrados']}</li>`);
-    lines.push(`</ul>`);
-
-  } else if (category === 'gpu') {
-    const vram = specs['VRAM'] || '';
-    const mem  = specs['Tipo memoria'] || '';
-    if (vram || mem) {
-      lines.push(`<p>Tarjeta de video con ${[vram, mem].filter(Boolean).join(' ')}${specs['Bus de memoria'] ? ', bus de ' + specs['Bus de memoria'] : ''}.</p>`);
-    }
-    lines.push(`<ul>`);
-    if (specs['VRAM'])         lines.push(`<li><strong>Memoria de video:</strong> ${specs['VRAM']}</li>`);
-    if (specs['Tipo memoria']) lines.push(`<li><strong>Tipo de memoria:</strong> ${specs['Tipo memoria']}</li>`);
-    if (specs['Bus de memoria']) lines.push(`<li><strong>Bus:</strong> ${specs['Bus de memoria']}</li>`);
-    if (specs['Variante'])     lines.push(`<li><strong>Variante:</strong> ${specs['Variante']}</li>`);
-    lines.push(`</ul>`);
-
-  } else if (category === 'ram') {
-    const cap  = specs['Kit'] || specs['Capacidad'] || '';
-    const type = specs['Tipo'] || '';
-    const spd  = specs['Velocidad'] || '';
-    const lat  = specs['Latencia'] || '';
-    if (cap || type) {
-      lines.push(`<p>Memoria ${type} de ${cap}${spd ? ' a ' + spd : ''}${lat ? ' con latencia ' + lat : ''}.</p>`);
-    }
-    lines.push(`<ul>`);
-    if (specs['Kit'] || specs['Capacidad']) lines.push(`<li><strong>Capacidad:</strong> ${specs['Kit'] || specs['Capacidad']}</li>`);
-    if (specs['Tipo'])      lines.push(`<li><strong>Tipo:</strong> ${specs['Tipo']}</li>`);
-    if (specs['Velocidad']) lines.push(`<li><strong>Velocidad:</strong> ${specs['Velocidad']}</li>`);
-    if (specs['Latencia'])  lines.push(`<li><strong>Latencia:</strong> ${specs['Latencia']}</li>`);
-    if (specs['Iluminación']) lines.push(`<li><strong>Iluminación:</strong> ${specs['Iluminación']}</li>`);
-    lines.push(`</ul>`);
-
-  } else if (category === 'storage') {
-    const cap  = specs['Capacidad'] || '';
-    const iface = specs['Interfaz'] || '';
-    const form = specs['Factor de forma'] || '';
-    if (cap) lines.push(`<p>Almacenamiento ${iface || ''} de ${cap}${form ? ', formato ' + form : ''}.</p>`);
-    lines.push(`<ul>`);
-    if (specs['Capacidad'])       lines.push(`<li><strong>Capacidad:</strong> ${specs['Capacidad']}</li>`);
-    if (specs['Interfaz'])        lines.push(`<li><strong>Interfaz:</strong> ${specs['Interfaz']}</li>`);
-    if (specs['Factor de forma']) lines.push(`<li><strong>Factor de forma:</strong> ${specs['Factor de forma']}</li>`);
-    if (specs['Lectura'])         lines.push(`<li><strong>Velocidad de lectura:</strong> ${specs['Lectura']}</li>`);
-    lines.push(`</ul>`);
-
-  } else if (category === 'mobo') {
-    const sock = specs['Socket'] || '';
-    const form = specs['Factor de forma'] || '';
-    const mem  = specs['Memoria'] || '';
-    if (sock) lines.push(`<p>Placa madre ${form || ''} para socket ${sock}${mem ? ', compatible con ' + mem : ''}${specs['WiFi'] ? ', con WiFi integrado' : ''}.</p>`);
-    lines.push(`<ul>`);
-    if (specs['Socket'])            lines.push(`<li><strong>Socket:</strong> ${specs['Socket']}</li>`);
-    if (specs['Factor de forma'])   lines.push(`<li><strong>Factor de forma:</strong> ${specs['Factor de forma']}</li>`);
-    if (specs['Memoria'])           lines.push(`<li><strong>Tipo de memoria:</strong> ${specs['Memoria']}</li>`);
-    if (specs['WiFi'])              lines.push(`<li><strong>WiFi:</strong> ${specs['WiFi']}</li>`);
-    if (specs['Slots M.2'])         lines.push(`<li><strong>Slots M.2:</strong> ${specs['Slots M.2']}</li>`);
-    lines.push(`</ul>`);
-  }
-
-  return lines.join('\n');
-}
-
 function renderDetailPrices(p) {
   // Re-renderizar precios después de cargar detalle
   const pricesEl = document.getElementById('detail-prices');
@@ -2309,6 +2185,46 @@ function fileToBase64(file) {
 // ═══════════════════════════════════════════════
 // MOBILE NAV
 // ═══════════════════════════════════════════════
+(function() {
+  var hideTimers = {};
+  document.querySelectorAll('.mega-wrap').forEach(function(wrap) {
+    var id = wrap.id || Math.random();
+    var menu = wrap.querySelector('.mega-menu');
+    if (!menu) return;
+    function show() {
+      clearTimeout(hideTimers[id]);
+      document.querySelectorAll('.mega-menu').forEach(function(m){if(m!==menu)m.style.display='none';});
+      menu.style.display='grid';menu.style.gridTemplateColumns='repeat(4,1fr)';menu.style.gap='16px';
+    }
+    function hide() { hideTimers[id]=setTimeout(function(){menu.style.display='none';},200); }
+    wrap.addEventListener('mouseenter',show);
+    wrap.addEventListener('mouseleave',hide);
+    menu.addEventListener('mouseenter',function(){clearTimeout(hideTimers[id]);});
+    menu.addEventListener('mouseleave',hide);
+  });
+  document.addEventListener('click',function(e){
+    if(!e.target.closest('.mega-wrap'))document.querySelectorAll('.mega-menu').forEach(function(m){m.style.display='none';});
+  });
+})();
+
+function renderTiendasMenu() {
+  var cols=[document.getElementById('mega-tiendas-col-1'),document.getElementById('mega-tiendas-col-2'),document.getElementById('mega-tiendas-col-3')];
+  if(!cols[0]||!STORES.length)return;
+  var perCol=Math.ceil(STORES.length/3);
+  cols.forEach(function(c){if(c)c.innerHTML='';});
+  STORES.forEach(function(s,i){
+    var col=cols[Math.floor(i/perCol)]||cols[2];
+    if(!col)return;
+    var cnt=PRODUCTS.filter(function(p){return(p.prices&&p.prices[s.id]>0)||p._bestStoreId===s.id;}).length;
+    var a=document.createElement('a');
+    a.onclick=function(){filterStore(s.id);};
+    a.style.cssText='display:flex;align-items:center;gap:8px;cursor:pointer';
+    a.innerHTML='<span style="width:8px;height:8px;border-radius:50%;background:'+(s.color||'var(--accent)')+';display:inline-block"></span>'+s.name+'<span style="font-size:10px;color:var(--text3);margin-left:auto">'+cnt+'</span>';
+    col.appendChild(a);
+  });
+  if(cols[0]){var h=document.createElement('h4');h.textContent='Tiendas';cols[0].insertBefore(h,cols[0].firstChild);}
+}
+
 function toggleSidebar() {
   const sidebar = document.getElementById('sidebar');
   const overlay = document.getElementById('sidebar-overlay');
@@ -2381,9 +2297,14 @@ function toggleTheme() {
 
 (async () => {
   await loadData();
-  renderHome();
-  renderProds();
-  // Sync toggle icon on load
+  const urlParams = new URLSearchParams(window.location.search);
+  const productId = urlParams.get('product');
+  if (productId) {
+    await openDetail(parseInt(productId));
+  } else {
+    renderHome();
+    renderProds();
+  }
   if (localStorage.getItem('ft_theme') === 'light') {
     const btn = document.getElementById('theme-btn');
     if (btn) btn.textContent = '☀️';
