@@ -560,6 +560,24 @@ footer{
   display:grid;grid-template-columns:1fr 1fr;
   gap:1px;background:var(--border);
 }
+.hl-chip{
+  display:inline-flex;align-items:center;gap:6px;
+  background:var(--bg3);border:1px solid var(--border2);
+  border-radius:20px;padding:5px 14px;
+  font-size:12px;font-weight:500;color:var(--text2);white-space:nowrap;
+}
+.hl-chip b{color:var(--text);font-weight:700}
+.desc-list{
+  padding-left:0;list-style:none;margin:10px 0 0;
+  display:grid;grid-template-columns:1fr 1fr;gap:8px;
+}
+.desc-list li{
+  background:var(--bg3);border-radius:8px;padding:10px 14px;
+  font-size:13px;color:var(--text);
+  border-left:3px solid var(--accent);
+}
+.desc-list li span{display:block;font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:3px}
+@media(max-width:600px){.desc-list{grid-template-columns:1fr}}
 .detail-spec-item{
   background:var(--bg2);padding:12px 16px;
 }
@@ -1216,9 +1234,17 @@ select.form-input{cursor:pointer}
             <div class="detail-prices-title">💰 Precios por tienda</div>
             <div id="detail-prices"></div>
           </div>
+          <!-- Highlights chips -->
+          <div id="detail-highlights" style="display:none;flex-wrap:wrap;gap:8px"></div>
+          <!-- Specs técnicas -->
           <div class="detail-specs-box" id="detail-specs-box" style="display:none">
             <div class="detail-specs-title">📋 Especificaciones técnicas</div>
             <div class="detail-specs-grid" id="detail-specs-grid"></div>
+          </div>
+          <!-- Descripción y características -->
+          <div id="detail-desc-box" style="display:none;background:var(--bg2);border:1px solid var(--border);border-radius:12px;overflow:hidden">
+            <div style="padding:14px 20px;font-size:12px;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border);background:var(--bg3)">📝 Descripción y características</div>
+            <div id="detail-desc-body" style="padding:20px;font-size:14px;color:var(--text2);line-height:1.75"></div>
           </div>
         </div>
       </div>
@@ -1993,6 +2019,33 @@ async function openDetail(id) {
       specsBox.style.display = 'none';
     }
 
+    // ── Highlights ─────────────────────────────────────────────────────
+    const hlEl = document.getElementById('detail-highlights');
+    if (hlEl) {
+      const hlDefs = {
+        cpu:     [{k:'Núcleos',i:'⚙️'},{k:'Hilos',i:'🔄'},{k:'Frecuencia base',i:'📡'},{k:'Frecuencia turbo',i:'⚡'},{k:'Socket',i:'🔌'},{k:'TDP',i:'🌡️'},{k:'Caché L3',i:'💾'},{k:'Gráficos integrados',i:'🖥️'}],
+        gpu:     [{k:'VRAM',i:'🎮'},{k:'Tipo memoria',i:'💾'},{k:'Bus de memoria',i:'🚌'}],
+        ram:     [{k:'Capacidad',i:'💾'},{k:'Tipo',i:'🔷'},{k:'Velocidad',i:'⚡'},{k:'Latencia',i:'⏱️'}],
+        storage: [{k:'Capacidad',i:'💿'},{k:'Interfaz',i:'🔌'},{k:'Factor de forma',i:'📐'}],
+        mobo:    [{k:'Socket',i:'🔌'},{k:'Factor de forma',i:'📐'},{k:'Memoria',i:'🧠'},{k:'WiFi',i:'📶'}],
+      };
+      const defs = hlDefs[detail.category_id] || [];
+      const chips = defs.filter(d => specs[d.k]).map(d =>
+        `<span class="hl-chip">${d.i} ${d.k}: <b>${specs[d.k]}</b></span>`
+      ).join('');
+      hlEl.innerHTML = chips;
+      hlEl.style.display = chips ? 'flex' : 'none';
+    }
+
+    // ── Descripción ────────────────────────────────────────────────────
+    const descBox  = document.getElementById('detail-desc-box');
+    const descBody = document.getElementById('detail-desc-body');
+    if (descBox && descBody) {
+      const descHtml = buildProductDescription(detail.name, detail.category_id, specs);
+      if (descHtml) { descBody.innerHTML = descHtml; descBox.style.display = ''; }
+      else descBox.style.display = 'none';
+    }
+
     currentOpinionProduct = { ...p, ...detail };
 
   } catch(err) {
@@ -2039,6 +2092,69 @@ function renderDetailPrices(p) {
       ${row.product_url ? `<a class="dpr-link" href="${row.product_url}" target="_blank">Ir a tienda →</a>` : ''}
     </div>`;
   }).join('');
+}
+
+function buildProductDescription(name, category, specs) {
+  if (!specs || !Object.keys(specs).length) return '';
+  const li = (label, val) => `<li><span>${label}</span>${val}</li>`;
+  let intro = '';
+  let items = [];
+
+  if (category === 'cpu') {
+    const noGpu = specs['Gráficos integrados'] === 'No';
+    const cores = specs['Núcleos'] ? `${specs['Núcleos']} núcleos / ${specs['Hilos']||'?'} hilos` : '';
+    const freq  = specs['Frecuencia base'] ? `${specs['Frecuencia base']} base` + (specs['Frecuencia turbo'] ? ` — ${specs['Frecuencia turbo']} turbo` : '') : '';
+    intro = `Procesador ${noGpu ? 'sin gráficos integrados' : 'con gráficos integrados'}${cores ? ` con ${cores}` : ''}${freq ? `, ${freq}` : ''}.`;
+    if (specs['Generación']) intro += ` Plataforma: ${specs['Generación']}.`;
+    items = [
+      specs['Núcleos'] && li('Núcleos / Hilos', `${specs['Núcleos']} / ${specs['Hilos']||'?'}`),
+      specs['Frecuencia base'] && li('Frecuencia base', specs['Frecuencia base']),
+      specs['Frecuencia turbo'] && li('Frecuencia turbo', specs['Frecuencia turbo']),
+      specs['Caché L3'] && li('Caché L3', specs['Caché L3']),
+      specs['TDP'] && li('TDP', specs['TDP']),
+      specs['Socket'] && li('Socket', specs['Socket']),
+      specs['Memoria'] && li('Memoria soportada', specs['Memoria']),
+      specs['Gráficos integrados'] && li('Gráficos integrados', specs['Gráficos integrados']),
+      specs['Incluye cooler'] && li('Cooler incluido', specs['Incluye cooler']),
+      specs['Generación'] && li('Generación', specs['Generación']),
+    ].filter(Boolean);
+  } else if (category === 'gpu') {
+    intro = `Tarjeta de video con ${specs['VRAM']||''} de memoria ${specs['Tipo memoria']||'GDDR6'}${specs['Bus de memoria']?', bus de '+specs['Bus de memoria']:''}`.trim() + '.';
+    items = [
+      specs['VRAM'] && li('Memoria de video', specs['VRAM']),
+      specs['Tipo memoria'] && li('Tipo de memoria', specs['Tipo memoria']),
+      specs['Bus de memoria'] && li('Bus de memoria', specs['Bus de memoria']),
+      specs['Variante'] && li('Variante', specs['Variante']),
+    ].filter(Boolean);
+  } else if (category === 'ram') {
+    const cap = specs['Kit'] || specs['Capacidad'] || '';
+    intro = `Memoria ${specs['Tipo']||'RAM'} de ${cap}${specs['Velocidad']?' a '+specs['Velocidad']:''}${specs['Latencia']?' con latencia '+specs['Latencia']:''}`.trim() + '.';
+    items = [
+      (specs['Kit']||specs['Capacidad']) && li('Capacidad', specs['Kit']||specs['Capacidad']),
+      specs['Tipo'] && li('Tipo', specs['Tipo']),
+      specs['Velocidad'] && li('Velocidad', specs['Velocidad']),
+      specs['Latencia'] && li('Latencia', specs['Latencia']),
+    ].filter(Boolean);
+  } else if (category === 'storage') {
+    intro = `Almacenamiento ${specs['Interfaz']||''} de ${specs['Capacidad']||''}${specs['Factor de forma']?', formato '+specs['Factor de forma']:''}`.trim() + '.';
+    items = [
+      specs['Capacidad'] && li('Capacidad', specs['Capacidad']),
+      specs['Interfaz'] && li('Interfaz', specs['Interfaz']),
+      specs['Factor de forma'] && li('Factor de forma', specs['Factor de forma']),
+    ].filter(Boolean);
+  } else if (category === 'mobo') {
+    intro = `Placa madre ${specs['Factor de forma']||''} para socket ${specs['Socket']||''}${specs['Memoria']?', compatible con '+specs['Memoria']:''}${specs['WiFi']?', WiFi integrado':''}`.trim() + '.';
+    items = [
+      specs['Socket'] && li('Socket', specs['Socket']),
+      specs['Factor de forma'] && li('Factor de forma', specs['Factor de forma']),
+      specs['Memoria'] && li('Memoria soportada', specs['Memoria']),
+      specs['WiFi'] && li('WiFi', specs['WiFi']),
+      specs['Slots M.2'] && li('Slots M.2', specs['Slots M.2']),
+    ].filter(Boolean);
+  }
+
+  if (!intro && !items.length) return '';
+  return `${intro ? `<p style="margin-bottom:12px">${intro}</p>` : ''}${items.length ? `<ul class="desc-list">${items.join('')}</ul>` : ''}`;
 }
 
 function renderDetailSpecs(p) {
