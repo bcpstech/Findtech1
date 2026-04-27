@@ -175,6 +175,9 @@ jobs:
           console.table(rows);
           "
 
+      - name: Enriquecer specs desde nombres
+        run: node scripts/enrich-specs.js || echo "Enrich specs fallo, continuando..."
+
       - name: Exportar JSON
         run: node scripts/export-json.js
 
