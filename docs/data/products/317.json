@@ -1,42 +1,50 @@
 {
   "id": 317,
-  "external_id": "n1g_xpg-probe-700w-80-bronze-atx-80plus-bronze-psu-no-modular-probe700b-bkcar",
-  "category_id": "psu",
-  "brand": "XPG-Adata",
-  "name": "XPG Probe 700W 80+ Bronze ATX 80Plus Bronze PSU No modular PROBE700B-BKCAR",
-  "slug": "xpg-probe-700w-80-bronze-atx-80plus-bronze-psu-no-modular-probe700b-bkcar",
-  "image_url": "https://images.findtech.cl/products/xpg-probe-700w-80-bronze-atx-80plus-bronze-psu-no-modular-probe700b-bkcar.jpg",
+  "external_id": "centrale_procesador-intel-core-i5-12400-2-5ghz-18mb-6-cores-lga-1700",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i5-12400 2.5Ghz 18Mb 6 Cores LGA 1700",
+  "slug": "procesador-intel-core-i5-12400-2-5ghz-18mb-6-cores-lga-1700",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i5-12400-2.5Ghz-18Mb-6-Cores-LGA-1700_h5dIHFX-1.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$59.900",
-    "Tarjeta crédito/débito": "$61.697"
+    "Frecuencia base": "2.5 GHz",
+    "Socket": "LGA1700",
+    "Transferencia / Efectivo": "$196.300",
+    "Tarjetas de Crédito / Débito": "$207.100"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:41:37",
-  "updated_at": "2026-04-25 20:41:37",
+  "created_at": "2026-04-26 16:25:52",
+  "updated_at": "2026-04-27 00:57:26",
   "prices": [
     {
       "product_id": 317,
-      "store_id": "n1g",
-      "price": 59900,
-      "price_normal": 63053,
-      "discount_pct": 5,
+      "store_id": "centrale",
+      "price": 196300,
+      "price_normal": 221210,
+      "discount_pct": 11,
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3558-xpg-probe-700w-80-bronze-atx-80plus-bronze-probe700b-bkcar.html",
-      "store_name": "N1G",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-12400-2-5ghz-18mb-6-cores-lga-1700/",
+      "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
-      "date": "2026-04-25",
-      "price": 59900
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 196300
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 196300
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

@@ -7,14 +7,13 @@
     "slug": "amd-athlon-3000g-3-5ghz-dual-core-radeon-vega-3-tdp-35w-am4-box",
     "image_url": "https://images.findtech.cl/products/amd-athlon-3000g-3-5ghz-dual-core-radeon-vega-3-tdp-35w-am4-box.jpg",
     "tags": [],
-    "updated_at": "2026-04-27 00:32:10",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 44900,
     "best_store_name": "Alltec",
     "best_store_id": "alltec",
-    "store_count": 2,
+    "store_count": 1,
     "prices": {
-      "alltec": 44900,
-      "n1g": 59800
+      "alltec": 44900
     },
     "url": "https://www.alltec.cl/amd/2458-amd-athlon-3000g-35ghz-dual-core-radeon-vega-3-tdp-35w-am4-box.html"
   },
@@ -26,7 +25,7 @@
     "slug": "amd-ryzen-3-3200g-3-6ghz-4-0ghz-turbo-quad-core-tdp-65w-am4-radeon-vega-8",
     "image_url": "https://images.findtech.cl/products/amd-ryzen-3-3200g-3-6ghz-4-0ghz-turbo-quad-core-tdp-65w-am4-radeon-vega-8.jpg",
     "tags": [],
-    "updated_at": "2026-04-27 00:31:34",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 72900,
     "best_store_name": "Alltec",
     "best_store_id": "alltec",
@@ -37,24 +36,6 @@
     "url": "https://www.alltec.cl/amd/1939-amd-ryzen-3-3200g-36ghz-40ghz-turbo-quad-core-tdp-65w-am4-radeon-vega-8-730143313100.html"
   },
   {
-    "id": 22,
-    "category_id": "cpu",
-    "brand": "AMD",
-    "name": "AMD Ryzen 3 4100 Quad-Core Socket AM4 65W None Integrated Graphics Desktop Processor - 100-100000510BOX",
-    "slug": "amd-ryzen-3-4100-quad-core-socket-am4-65w-none-integrated-graphics-desktop-processor-100-100000510bo",
-    "image_url": "https://images.findtech.cl/products/amd-ryzen-3-4100-quad-core-socket-am4-65w-none-integrated-graphics-desktop-processor-100-100000510bo.jpg",
-    "tags": [],
-    "updated_at": "2026-04-27 00:26:00",
-    "best_price": 74900,
-    "best_store_name": "N1G",
-    "best_store_id": "n1g",
-    "store_count": 1,
-    "prices": {
-      "n1g": 74900
-    },
-    "url": "https://n1g.cl/Home/computacion/2374-amd-ryzen-3-4100-ryzen-3-4000-series-quad-core-socket-am4-65w-none-integrated-graphics-desktop-processor-100-100000510box.html"
-  },
-  {
     "id": 2810,
     "category_id": "cpu",
     "brand": "AMD",
@@ -62,7 +43,7 @@
     "slug": "amd-ryzen-5-4500-mpk-3-6ghz-4-1ghz-turbo-six-core-tdp-65w-am4",
     "image_url": "https://images.findtech.cl/products/amd-ryzen-5-4500-mpk-3-6ghz-4-1ghz-turbo-six-core-tdp-65w-am4.jpg",
     "tags": [],
-    "updated_at": "2026-04-27 00:31:46",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 91900,
     "best_store_name": "Alltec",
     "best_store_id": "alltec",
@@ -73,23 +54,40 @@
     "url": "https://www.alltec.cl/amd/2027-amd-ryzen-5-4500-mpk-36ghz-41ghz-turbo-six-core-tdp-65w-am4.html"
   },
   {
-    "id": 25,
+    "id": 2807,
     "category_id": "cpu",
     "brand": "AMD",
-    "name": "AMD Ryzen 5 5500 (4.2GHz Turbo) 6Core/12Thread AM4 BOX 100-100000457BOX",
-    "slug": "amd-ryzen-5-5500-4-2ghz-turbo-6core-12thread-am4-box-100-100000457box",
-    "image_url": "https://images.findtech.cl/products/amd-ryzen-5-5500-4-2ghz-turbo-6core-12thread-am4-box-100-100000457box.jpg",
+    "name": "AMD RYZEN 5 3500 (MPK) 3.6GHz (4.2GHz TURBO) SIX CORE (TDP 65W) (AM4)",
+    "slug": "amd-ryzen-5-3500-mpk-3-6ghz-4-2ghz-turbo-six-core-tdp-65w-am4",
+    "image_url": "https://images.findtech.cl/products/amd-ryzen-5-3500-mpk-3-6ghz-4-2ghz-turbo-six-core-tdp-65w-am4.jpg",
     "tags": [],
-    "updated_at": "2026-04-27 00:26:08",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 99900,
-    "best_store_name": "N1G",
-    "best_store_id": "n1g",
-    "store_count": 2,
+    "best_store_name": "Alltec",
+    "best_store_id": "alltec",
+    "store_count": 1,
     "prices": {
-      "n1g": 99900,
+      "alltec": 99900
+    },
+    "url": "https://www.alltec.cl/amd/1772-amd-ryzen-5-3500-mpk-36ghz-42ghz-turbo-six-core-tdp-65w-am4-8592978369668.html"
+  },
+  {
+    "id": 290,
+    "category_id": "cpu",
+    "brand": "AMD",
+    "name": "Procesador AMD Ryzen 5 5500, 3.6Ghz (4.2Ghz Turbo), 6Core/12Thread, Socket Am4",
+    "slug": "procesador-amd-ryzen-5-5500-3-6ghz-4-2ghz-turbo-6core-12thread-socket-am4",
+    "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-5-5500-3.6Ghz-4.2Ghz-Turbo-6Core-12Thread-Socket-A_K3d5Bwv-1.webp",
+    "tags": [],
+    "updated_at": "2026-04-27 00:57:26",
+    "best_price": 100750,
+    "best_store_name": "Centrale",
+    "best_store_id": "centrale",
+    "store_count": 1,
+    "prices": {
       "centrale": 100750
     },
-    "url": "https://n1g.cl/Home/computacion/1807-procesador-amd-ryzen-5-5500-42ghz-turbo-6core12thread-am4-box-100-100000457box.html"
+    "url": "https://centrale.cl/producto/procesador-amd-ryzen-5-5500-3-6ghz-4-2ghz-turbo-6core-12thread-socket-am4/"
   },
   {
     "id": 121,
@@ -99,7 +97,7 @@
     "slug": "3-3ghz-intel-i3-12100f-4-3ghz-turbo-4c-8t-12mb-cache-65w-lga1700-sin-video-12th-generacion",
     "image_url": "https://images.findtech.cl/products/3-3ghz-intel-i3-12100f-4-3ghz-turbo-4c-8t-12mb-cache-65w-lga1700-sin-video-12th-generacion.jpg",
     "tags": [],
-    "updated_at": "2026-04-27 00:30:57",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 103900,
     "best_store_name": "Alltec",
     "best_store_id": "alltec",
@@ -117,7 +115,7 @@
     "slug": "amd-ryzen-3-5300g-4-0ghz-4-2ghz-turbo-quad-core-tdp-65w-am4",
     "image_url": "https://images.findtech.cl/products/amd-ryzen-3-5300g-4-0ghz-4-2ghz-turbo-quad-core-tdp-65w-am4.jpg",
     "tags": [],
-    "updated_at": "2026-04-27 00:31:38",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 108500,
     "best_store_name": "Alltec",
     "best_store_id": "alltec",
@@ -128,24 +126,6 @@
     "url": "https://www.alltec.cl/amd/2194-amd-ryzen-3-5300g-40ghz-42ghz-turbo-quad-core-tdp-65w-am4.html"
   },
   {
-    "id": 26,
-    "category_id": "cpu",
-    "brand": "AMD",
-    "name": "AMD Ryzen 5 1600X 4.0 Ghz 6 Core 12 Hilos no incluye disipador [YD160XBCAEWOF]",
-    "slug": "amd-ryzen-5-1600x-4-0-ghz-6-core-12-hilos-no-incluye-disipador-yd160xbcaewof",
-    "image_url": "https://images.findtech.cl/products/amd-ryzen-5-1600x-4-0-ghz-6-core-12-hilos-no-incluye-disipador-yd160xbcaewof.jpg",
-    "tags": [],
-    "updated_at": "2026-04-27 00:26:11",
-    "best_price": 119000,
-    "best_store_name": "N1G",
-    "best_store_id": "n1g",
-    "store_count": 1,
-    "prices": {
-      "n1g": 119000
-    },
-    "url": "https://n1g.cl/Home/computacion/3729-amd-ryzen-5-1600x-40-ghz-6-core-12-hilos-no-incluye-disipador-yd160xbcaewof-.html"
-  },
-  {
     "id": 119,
     "category_id": "cpu",
     "brand": "Intel",
@@ -153,7 +133,7 @@
     "slug": "3-6ghz-intel-i3-10100-4-3ghz-turbo-4c-8t-6mb-cache-65w-lga1200-10ma-generacion",
     "image_url": "https://images.findtech.cl/products/3-6ghz-intel-i3-10100-4-3ghz-turbo-4c-8t-6mb-cache-65w-lga1200-10ma-generacion.jpg",
     "tags": [],
-    "updated_at": "2026-04-27 00:30:54",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 120900,
     "best_store_name": "Alltec",
     "best_store_id": "alltec",
@@ -171,13 +151,14 @@
     "slug": "procesador-intel-core-i5-12400f-2-5ghz-18mb-6-cores-lga-1700",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i5-12400F-2.5Ghz-18Mb-6-Cores-LGA-1700_JYLZnGg-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:29:27",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 155490,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "centrale": 155490
+      "centrale": 155490,
+      "alltec": 165900
     },
     "url": "https://centrale.cl/producto/procesador-intel-core-i5-12400f-2-5ghz-18mb-6-cores-lga-1700/"
   },
@@ -189,34 +170,16 @@
     "slug": "procesador-amd-ryzen-5-8500g-3-5-a-5-00ghz-6-nucleos-12-hilos-socket-am5",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-5-8500G-3.5-a-5.00Ghz-6-NC3B9cleos-12-Hilos-Socket-AM_AuEoKHw-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:28:12",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 159580,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
     "store_count": 2,
     "prices": {
       "centrale": 159580,
-      "n1g": 185900
-    },
-    "url": "https://centrale.cl/producto/procesador-amd-ryzen-5-8500g-3-5-a-5-00ghz-6-nucleos-12-hilos-socket-am5/"
-  },
-  {
-    "id": 2811,
-    "category_id": "cpu",
-    "brand": "AMD",
-    "name": "AMD RYZEN 5 8500G 3.5GHz (5.0GHz TURBO) SIX CORE (TDP 65W) (AM5) AMD RADEON 740M GRAPHICS",
-    "slug": "amd-ryzen-5-8500g-3-5ghz-5-0ghz-turbo-six-core-tdp-65w-am5-amd-radeon-740m-graphics",
-    "image_url": "https://images.findtech.cl/products/amd-ryzen-5-8500g-3-5ghz-5-0ghz-turbo-six-core-tdp-65w-am5-amd-radeon-740m-graphics.jpg",
-    "tags": [],
-    "updated_at": "2026-04-27 00:31:48",
-    "best_price": 159900,
-    "best_store_name": "Alltec",
-    "best_store_id": "alltec",
-    "store_count": 1,
-    "prices": {
       "alltec": 159900
     },
-    "url": "https://www.alltec.cl/amd/2199-amd-ryzen-5-8500g-35ghz-50ghz-turbo-six-core-tdp-65w-am5-amd-radeon-740m-graphics.html"
+    "url": "https://centrale.cl/producto/procesador-amd-ryzen-5-8500g-3-5-a-5-00ghz-6-nucleos-12-hilos-socket-am5/"
   },
   {
     "id": 283,
@@ -226,7 +189,7 @@
     "slug": "procesador-amd-ryzen-5-5600gt-3-6ghz-a-4-2ghz-6-nucleos-12-hilos-socket-am4",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-5-5600GT-3.6GHz-a-4.2Ghz-6-NC3BAcleos-12-Hilos-Socket_ETlFVS5-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:28:06",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 160200,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -244,7 +207,7 @@
     "slug": "procesador-amd-ryzen-7-5700-8-nucleos-3-7-a-4-6ghz-am4",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-5700-8-NC3BAcleos-3.7-a-4.6GHz-AM4.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:28:33",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 164020,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -256,24 +219,6 @@
     "url": "https://centrale.cl/producto/procesador-amd-ryzen-7-5700-8-nucleos-3-7-a-4-6ghz-am4/"
   },
   {
-    "id": 122,
-    "category_id": "cpu",
-    "brand": "Intel",
-    "name": "2.5GHz INTEL I5-12400F (4.4GHz TURBO, 6C/12T, 18MB CACHE, 65W/117W, LGA1700) 12TH GENERACION",
-    "slug": "2-5ghz-intel-i5-12400f-4-4ghz-turbo-6c-12t-18mb-cache-65w-117w-lga1700-12th-generacion",
-    "image_url": "https://images.findtech.cl/products/2-5ghz-intel-i5-12400f-4-4ghz-turbo-6c-12t-18mb-cache-65w-117w-lga1700-12th-generacion.jpg",
-    "tags": [],
-    "updated_at": "2026-04-27 00:31:00",
-    "best_price": 165900,
-    "best_store_name": "Alltec",
-    "best_store_id": "alltec",
-    "store_count": 1,
-    "prices": {
-      "alltec": 165900
-    },
-    "url": "https://www.alltec.cl/intel/2022-5ghz-intel-i5-12400f-44ghz-turbo-6c12t-18mb-cache-65w117w-lga1700-12th-generacion.html"
-  },
-  {
     "id": 293,
     "category_id": "cpu",
     "brand": "AMD",
@@ -281,51 +226,16 @@
     "slug": "procesador-amd-ryzen-5-8400f-6-cores-12threads-4-2-a-4-7ghz-65w",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-5-8400F-6-Cores-12Threads-4.2-a-4.7Ghz-65W_ChQIOSF-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:28:38",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 169400,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "centrale": 169400
-    },
-    "url": "https://centrale.cl/producto/procesador-amd-ryzen-5-8400f-6-cores-12threads-4-2-a-4-7ghz-65w/"
-  },
-  {
-    "id": 3,
-    "category_id": "cpu",
-    "brand": "INTEL",
-    "name": "Intel Core i5 12400F Core i5 12th Gen Alder Lake 6-Core 2.5 GHz LGA 1700 65W Desktop BX8071512400F",
-    "slug": "intel-core-i5-12400f-core-i5-12th-gen-alder-lake-6-core-2-5-ghz-lga-1700-65w-desktop-bx8071512400f",
-    "image_url": "https://images.findtech.cl/products/intel-core-i5-12400f-core-i5-12th-gen-alder-lake-6-core-2-5-ghz-lga-1700-65w-desktop-bx8071512400f.jpg",
-    "tags": [],
-    "updated_at": "2026-04-27 00:25:10",
-    "best_price": 169900,
-    "best_store_name": "N1G",
-    "best_store_id": "n1g",
-    "store_count": 1,
-    "prices": {
-      "n1g": 169900
-    },
-    "url": "https://n1g.cl/Home/computacion/1524-intel-core-i5-12400f-core-i5-12th-gen-alder-lake-6-core-25-ghz-lga-1700-65w-desktop-bx8071512400f.html"
-  },
-  {
-    "id": 2809,
-    "category_id": "cpu",
-    "brand": "AMD",
-    "name": "AMD RYZEN 5 8400F 4.2GHz (4.7GHz TURBO) SIX CORE (TDP 65W) (AM5)",
-    "slug": "amd-ryzen-5-8400f-4-2ghz-4-7ghz-turbo-six-core-tdp-65w-am5",
-    "image_url": "https://images.findtech.cl/products/amd-ryzen-5-8400f-4-2ghz-4-7ghz-turbo-six-core-tdp-65w-am5.jpg",
-    "tags": [],
-    "updated_at": "2026-04-27 00:31:41",
-    "best_price": 175600,
-    "best_store_name": "Alltec",
-    "best_store_id": "alltec",
-    "store_count": 1,
-    "prices": {
+      "centrale": 169400,
       "alltec": 175600
     },
-    "url": "https://www.alltec.cl/amd/2245-amd-ryzen-5-8400f-42ghz-47ghz-turbo-six-core-tdp-65w-am5.html"
+    "url": "https://centrale.cl/producto/procesador-amd-ryzen-5-8400f-6-cores-12threads-4-2-a-4-7ghz-65w/"
   },
   {
     "id": 2819,
@@ -335,13 +245,14 @@
     "slug": "amd-ryzen-5-5600xt-3-7ghz-4-7ghz-turbo-six-core-tdp-65w-am4",
     "image_url": "https://images.findtech.cl/products/amd-ryzen-5-5600xt-3-7ghz-4-7ghz-turbo-six-core-tdp-65w-am4.jpg",
     "tags": [],
-    "updated_at": "2026-04-27 00:32:05",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 182900,
     "best_store_name": "Alltec",
     "best_store_id": "alltec",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "alltec": 182900
+      "alltec": 182900,
+      "n1g": 189900
     },
     "url": "https://www.alltec.cl/amd/2339-amd-ryzen-5-5600xt-37ghz-47ghz-turbo-six-core-tdp-65w-am4.html"
   },
@@ -353,14 +264,13 @@
     "slug": "procesador-intel-core-ultra-5-225f-arrow-lake-6-p-cores-4-e-cores-lga-1851",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-5-225F-Arrow-Lake-6-P-Cores-4-E-Cores-LGA-1851-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:30:15",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 184000,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
-    "store_count": 2,
+    "store_count": 1,
     "prices": {
-      "centrale": 184000,
-      "n1g": 256000
+      "centrale": 184000
     },
     "url": "https://centrale.cl/producto/procesador-intel-core-ultra-5-225f-arrow-lake-6-p-cores-4-e-cores-lga-1851/"
   },
@@ -372,7 +282,7 @@
     "slug": "procesador-amd-ryzen-5-8600g-npu-ryzen-ai-4-3-a-5-0ghz-6-nucleos-12-hilos",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-5-8600G-Ryzen-AI-4.3-a-5.0Ghz-6-NC3B9cleos-12-Hilos_SGDC0r5-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:28:02",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 184680,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -383,6 +293,42 @@
     "url": "https://centrale.cl/producto/procesador-amd-ryzen-5-8600g-npu-ryzen-ai-4-3-a-5-0ghz-6-nucleos-12-hilos/"
   },
   {
+    "id": 317,
+    "category_id": "cpu",
+    "brand": "Intel",
+    "name": "Procesador Intel Core i5-12400 2.5Ghz 18Mb 6 Cores LGA 1700",
+    "slug": "procesador-intel-core-i5-12400-2-5ghz-18mb-6-cores-lga-1700",
+    "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i5-12400-2.5Ghz-18Mb-6-Cores-LGA-1700_h5dIHFX-1.webp",
+    "tags": [],
+    "updated_at": "2026-04-27 00:57:26",
+    "best_price": 196300,
+    "best_store_name": "Centrale",
+    "best_store_id": "centrale",
+    "store_count": 1,
+    "prices": {
+      "centrale": 196300
+    },
+    "url": "https://centrale.cl/producto/procesador-intel-core-i5-12400-2-5ghz-18mb-6-cores-lga-1700/"
+  },
+  {
+    "id": 321,
+    "category_id": "cpu",
+    "brand": "Intel",
+    "name": "Procesador Intel Core Ultra 5 225 (6P Cores + 4E Cores, 4.9 GHz, LGA1851)",
+    "slug": "procesador-intel-core-ultra-5-225-6p-cores-4e-cores-4-9-ghz-lga1851",
+    "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-5-225-6P-Cores-4E-Cores-4.9-GHz-LGA1851-1.webp",
+    "tags": [],
+    "updated_at": "2026-04-27 00:57:26",
+    "best_price": 198500,
+    "best_store_name": "Centrale",
+    "best_store_id": "centrale",
+    "store_count": 1,
+    "prices": {
+      "centrale": 198500
+    },
+    "url": "https://centrale.cl/producto/procesador-intel-core-ultra-5-225-6p-cores-4e-cores-4-9-ghz-lga1851/"
+  },
+  {
     "id": 280,
     "category_id": "cpu",
     "brand": "AMD",
@@ -390,13 +336,14 @@
     "slug": "procesador-amd-ryzen-7-5700g-4-60ghz-graficos-integrados",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-5700G-4.60Ghz-GrC3A1ficos-Integrados_1C3hcYy-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:27:56",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 201900,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "centrale": 201900
+      "centrale": 201900,
+      "alltec": 209900
     },
     "url": "https://centrale.cl/producto/procesador-amd-ryzen-7-5700g-4-60ghz-graficos-integrados/"
   },
@@ -408,7 +355,7 @@
     "slug": "procesador-amd-ryzen-5-7600-socket-am5-6-cores-12-hilos-3-8-5-1ghz",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-5-7600-Socket-AM5-6-Cores-12-Hilos-3.8-5.1Ghz_Tam8wiJ-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:27:40",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 204980,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -419,24 +366,6 @@
     "url": "https://centrale.cl/producto/procesador-amd-ryzen-5-7600-socket-am5-6-cores-12-hilos-3-8-5-1ghz/"
   },
   {
-    "id": 2818,
-    "category_id": "cpu",
-    "brand": "AMD",
-    "name": "AMD RYZEN 7 5700G 3.8GHz (4.6GHz TURBO) OCTA CORE + RADEON GRAPHICS 2000MHZ",
-    "slug": "amd-ryzen-7-5700g-3-8ghz-4-6ghz-turbo-octa-core-radeon-graphics-2000mhz",
-    "image_url": "https://images.findtech.cl/products/amd-ryzen-7-5700g-3-8ghz-4-6ghz-turbo-octa-core-radeon-graphics-2000mhz.jpg",
-    "tags": [],
-    "updated_at": "2026-04-27 00:32:03",
-    "best_price": 209900,
-    "best_store_name": "Alltec",
-    "best_store_id": "alltec",
-    "store_count": 1,
-    "prices": {
-      "alltec": 209900
-    },
-    "url": "https://www.alltec.cl/amd/1655-amd-ryzen-7-5700g-38ghz-46ghz-turbo-octa-core-radeon-graphics-2000mhz-730143313377.html"
-  },
-  {
     "id": 311,
     "category_id": "cpu",
     "brand": "Intel",
@@ -444,7 +373,7 @@
     "slug": "procesador-intel-core-i5-14400f-raptor-lake-lga1700-2-5-4-7-ghz-10-nucleos",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i5-14400F-Raptor-Lake-LGA1700-2.5-4.7-GHz-10-Nucl_pGfZlhk.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:29:37",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 217050,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -462,7 +391,7 @@
     "slug": "procesador-amd-ryzen-7-5700x-3-4ghz-8-core-16-threads",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-5700X-3.4Ghz-8-Core-16-Threads_Oi80IxL.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:27:43",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 225570,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -473,6 +402,25 @@
     "url": "https://centrale.cl/producto/procesador-amd-ryzen-7-5700x-3-4ghz-8-core-16-threads/"
   },
   {
+    "id": 320,
+    "category_id": "cpu",
+    "brand": "Intel",
+    "name": "Procesador Intel Core i5-12600K 3.7 Ghz 10-Core LGA1700",
+    "slug": "procesador-intel-core-i5-12600k-3-7-ghz-10-core-lga1700",
+    "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i5-12600K-3.7-Ghz-10-Core-LGA1700_4bVEQKI-1.webp",
+    "tags": [],
+    "updated_at": "2026-04-27 00:57:26",
+    "best_price": 229490,
+    "best_store_name": "Centrale",
+    "best_store_id": "centrale",
+    "store_count": 2,
+    "prices": {
+      "centrale": 229490,
+      "alltec": 329900
+    },
+    "url": "https://centrale.cl/producto/procesador-intel-core-i5-12600k-3-7-ghz-10-core-lga1700/"
+  },
+  {
     "id": 295,
     "category_id": "cpu",
     "brand": "AMD",
@@ -480,13 +428,14 @@
     "slug": "procesador-amd-ryzen-5-7600x-4-7ghz-6-nucleos-12-hilos-socket-am5",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-5-7600X-4.7Ghz-6-NC3BAcleos-12-Hilos-Socket-AM5_CksGmo5-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:28:48",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 237080,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "centrale": 237080
+      "centrale": 237080,
+      "alltec": 245900
     },
     "url": "https://centrale.cl/producto/procesador-amd-ryzen-5-7600x-4-7ghz-6-nucleos-12-hilos-socket-am5/"
   },
@@ -498,7 +447,7 @@
     "slug": "procesador-intel-core-ultra-5-245kf-14-nucleos-4-2-ghz-lga-1851-sin-graficos",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-5-245KF-14-NC3BAcleos-4.2-Ghz-LGA-1851-Sin-GrC3A1_Q3IFc9t.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:29:59",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 238990,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -516,7 +465,7 @@
     "slug": "procesador-intel-core-ultra-5-245k-14-nucleos-4-2-ghz-lga-1851",
     "image_url": "https://centrale.cl/wp-content/uploads/Intel-Core-Ultra-5-245K-4.2-Ghz-14-Core-Lga1851-BX80768245K-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:30:50",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 240060,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -534,13 +483,15 @@
     "slug": "procesador-amd-ryzen-7-8700f-socket-am5-8-cores-16-threads-4-1-a-5-0ghz-65w",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-8700F-Socket-AM5-8-Cores-16-Threads-4.1-a-5.0Ghz_emXd9OF-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:29:08",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 249760,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
-    "store_count": 1,
+    "store_count": 3,
     "prices": {
-      "centrale": 249760
+      "centrale": 249760,
+      "n1g": 268000,
+      "alltec": 329900
     },
     "url": "https://centrale.cl/producto/procesador-amd-ryzen-7-8700f-socket-am5-8-cores-16-threads-4-1-a-5-0ghz-65w/"
   },
@@ -552,13 +503,14 @@
     "slug": "amd-ryzen-5-9600x-3-9ghz-5-4ghz-turbo-six-core-tdp-65w-am5",
     "image_url": "https://images.findtech.cl/products/amd-ryzen-5-9600x-3-9ghz-5-4ghz-turbo-six-core-tdp-65w-am5.jpg",
     "tags": [],
-    "updated_at": "2026-04-27 00:31:52",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 249900,
     "best_store_name": "Alltec",
     "best_store_id": "alltec",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "alltec": 249900
+      "alltec": 249900,
+      "centrale": 257940
     },
     "url": "https://www.alltec.cl/amd/2268-amd-ryzen-5-9600x-39ghz-54ghz-turbo-six-core-tdp-65w-am5.html"
   },
@@ -570,33 +522,16 @@
     "slug": "procesador-amd-ryzen-7-8700g-npu-ryzen-ai-4-2ghz-a-5-10ghz-8-nucleos-16-hilos",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-8700G-Ryzen-AI-4.2Ghz-a-5.10Ghz-8-NC3B9cleos-16-Hil_R72icHQ-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:28:36",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 256750,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "centrale": 256750
+      "centrale": 256750,
+      "alltec": 259900
     },
     "url": "https://centrale.cl/producto/procesador-amd-ryzen-7-8700g-npu-ryzen-ai-4-2ghz-a-5-10ghz-8-nucleos-16-hilos/"
-  },
-  {
-    "id": 286,
-    "category_id": "cpu",
-    "brand": "AMD",
-    "name": "Procesador AMD Ryzen 5 9600X, 6 Cores 12 Threads, 3.9 a 5.4GHz, 65W",
-    "slug": "procesador-amd-ryzen-5-9600x-6-cores-12-threads-3-9-a-5-4ghz-65w",
-    "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-5-9600X-6-Cores-12-Threads-3.9-a-5.4GHz-65W_sKkf1NT-1.webp",
-    "tags": [],
-    "updated_at": "2026-04-27 00:28:16",
-    "best_price": 257940,
-    "best_store_name": "Centrale",
-    "best_store_id": "centrale",
-    "store_count": 1,
-    "prices": {
-      "centrale": 257940
-    },
-    "url": "https://centrale.cl/producto/procesador-amd-ryzen-5-9600x-6-cores-12-threads-3-9-a-5-4ghz-65w/"
   },
   {
     "id": 2813,
@@ -606,7 +541,7 @@
     "slug": "amd-ryzen-5-9600-3-8ghz-5-2ghz-turbo-six-core-tdp-65w-am5",
     "image_url": "https://images.findtech.cl/products/amd-ryzen-5-9600-3-8ghz-5-2ghz-turbo-six-core-tdp-65w-am5.jpg",
     "tags": [],
-    "updated_at": "2026-04-27 00:31:54",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 258700,
     "best_store_name": "Alltec",
     "best_store_id": "alltec",
@@ -617,22 +552,22 @@
     "url": "https://www.alltec.cl/amd/2420-amd-ryzen-5-9600-38ghz-52ghz-turbo-six-core-tdp-65w-am5.html"
   },
   {
-    "id": 2822,
+    "id": 2820,
     "category_id": "cpu",
     "brand": "AMD",
-    "name": "AMD RYZEN 7 8700G 4.2GHz (5.1GHz TURBO) OCTA CORE (TDP 65W) (AM5) AMD RADEON 780M GRAPHICS",
-    "slug": "amd-ryzen-7-8700g-4-2ghz-5-1ghz-turbo-octa-core-tdp-65w-am5-amd-radeon-780m-graphics",
-    "image_url": "https://images.findtech.cl/products/amd-ryzen-7-8700g-4-2ghz-5-1ghz-turbo-octa-core-tdp-65w-am5-amd-radeon-780m-graphics.jpg",
+    "name": "AMD RYZEN 7 5800XT 3.8GHz (4.8GHz TURBO) OCTA CORE (TDP 105W) (AM4)",
+    "slug": "amd-ryzen-7-5800xt-3-8ghz-4-8ghz-turbo-octa-core-tdp-105w-am4",
+    "image_url": "https://images.findtech.cl/products/amd-ryzen-7-5800xt-3-8ghz-4-8ghz-turbo-octa-core-tdp-105w-am4.jpg",
     "tags": [],
-    "updated_at": "2026-04-27 00:32:13",
-    "best_price": 259900,
+    "updated_at": "2026-04-27 00:57:26",
+    "best_price": 269900,
     "best_store_name": "Alltec",
     "best_store_id": "alltec",
     "store_count": 1,
     "prices": {
-      "alltec": 259900
+      "alltec": 269900
     },
-    "url": "https://www.alltec.cl/amd/2459-amd-ryzen-7-8700g-42ghz-51ghz-turbo-octa-core-tdp-65w-am5-amd-radeon-780m-graphics.html"
+    "url": "https://www.alltec.cl/amd/2493-amd-ryzen-7-5800xt-38ghz-48ghz-turbo-octa-core-tdp-105w-am4.html"
   },
   {
     "id": 306,
@@ -642,7 +577,7 @@
     "slug": "procesador-intel-core-i5-14600kf-raptor-lake-s-lga1700-14-cores-20-hilos",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i5-14600KF-Raptor-Lake-S-LGA1700-14-Cores-20-Hilo_8TSUW4u-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:29:21",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 271030,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -653,24 +588,6 @@
     "url": "https://centrale.cl/producto/procesador-intel-core-i5-14600kf-raptor-lake-s-lga1700-14-cores-20-hilos/"
   },
   {
-    "id": 37,
-    "category_id": "cpu",
-    "brand": "AMD",
-    "name": "AMD Ryzen 7 8700G Socket AM5 8 Core 16 Hilos 4.2 GHz 65W AMD Radeon 780M 100-100001236BOX",
-    "slug": "amd-ryzen-7-8700g-socket-am5-8-core-16-hilos-4-2-ghz-65w-amd-radeon-780m-100-100001236box",
-    "image_url": "https://images.findtech.cl/products/amd-ryzen-7-8700g-socket-am5-8-core-16-hilos-4-2-ghz-65w-amd-radeon-780m-100-100001236box.jpg",
-    "tags": [],
-    "updated_at": "2026-04-27 00:26:40",
-    "best_price": 288500,
-    "best_store_name": "N1G",
-    "best_store_id": "n1g",
-    "store_count": 1,
-    "prices": {
-      "n1g": 288500
-    },
-    "url": "https://n1g.cl/Home/computacion/2621-amd-ryzen-7-8700g-socket-am5-8-core-16-hilos-42-ghz-65w-amd-radeon-780m-100-100001236box.html"
-  },
-  {
     "id": 123,
     "category_id": "cpu",
     "brand": "Intel",
@@ -678,7 +595,7 @@
     "slug": "3-4ghz-intel-core-ultra-5-235-5-0ghz-turbo-6c-14t-24mb-cache-65w-lga1851",
     "image_url": "https://images.findtech.cl/products/3-4ghz-intel-core-ultra-5-235-5-0ghz-turbo-6c-14t-24mb-cache-65w-lga1851.jpg",
     "tags": [],
-    "updated_at": "2026-04-27 00:31:02",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 297900,
     "best_store_name": "Alltec",
     "best_store_id": "alltec",
@@ -696,7 +613,7 @@
     "slug": "3-7ghz-intel-i5-12600kf-4-9ghz-turbo-10c-16t-20mb-cache-125w-150w-lga1700-12th-generacion",
     "image_url": "https://images.findtech.cl/products/3-7ghz-intel-i5-12600kf-4-9ghz-turbo-10c-16t-20mb-cache-125w-150w-lga1700-12th-generacion.jpg",
     "tags": [],
-    "updated_at": "2026-04-27 00:30:56",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 299900,
     "best_store_name": "Alltec",
     "best_store_id": "alltec",
@@ -714,7 +631,7 @@
     "slug": "procesador-intel-core-i7-12700f-2-1-ghz-12-core-lga-1700",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i7-12700F-2.1-Ghz-12-Core-LGA-1700_UR4JtGq.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:29:40",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 305780,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -732,7 +649,7 @@
     "slug": "procesador-intel-core-i7-12700kf-3-6ghz-lga-1700",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i7-12700KF-3.6Ghz-LGA-1700_64Lg55g-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:29:50",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 328090,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -743,24 +660,6 @@
     "url": "https://centrale.cl/producto/procesador-intel-core-i7-12700kf-3-6ghz-lga-1700/"
   },
   {
-    "id": 2814,
-    "category_id": "cpu",
-    "brand": "AMD",
-    "name": "AMD RYZEN 7 8700F 4.1GHz (5.0GHz TURBO) OCTA CORE (TDP 65W) (AM5)",
-    "slug": "amd-ryzen-7-8700f-4-1ghz-5-0ghz-turbo-octa-core-tdp-65w-am5",
-    "image_url": "https://images.findtech.cl/products/amd-ryzen-7-8700f-4-1ghz-5-0ghz-turbo-octa-core-tdp-65w-am5.jpg",
-    "tags": [],
-    "updated_at": "2026-04-27 00:31:56",
-    "best_price": 329900,
-    "best_store_name": "Alltec",
-    "best_store_id": "alltec",
-    "store_count": 1,
-    "prices": {
-      "alltec": 329900
-    },
-    "url": "https://www.alltec.cl/amd/2244-amd-ryzen-7-8700f-41ghz-50ghz-turbo-octa-core-tdp-65w-am5.html"
-  },
-  {
     "id": 313,
     "category_id": "cpu",
     "brand": "Intel",
@@ -768,7 +667,7 @@
     "slug": "procesador-intel-core-ultra-7-265kf-lga-1851-20-nucleos-3-9-5-5ghz",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-7-265KF-LGA-1851-20-NC3BAcleos-3.9-5.5Ghz_g2cARGR-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:29:43",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 336570,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -786,7 +685,7 @@
     "slug": "procesador-amd-ryzen-7-7700-socket-am5-8-cores-16-hilos-3-8-5-3ghz",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-7700-Socket-AM5-8-Cores-16-Hilos-3.8-5.3Ghz_Qq53L4z-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:28:42",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 349660,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -804,7 +703,7 @@
     "slug": "procesador-amd-ryzen-7-7700x-4-5ghz-8-nucleos-16-hilos-socket-am5-sin",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-7700X-4.5Ghz-8-NC3BAcleos-16-Hilos-Socket-Am5-Sin_9mQXrHu.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:27:49",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 351890,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -822,7 +721,7 @@
     "slug": "procesador-intel-core-ultra-7-265k-20-nucleos-3-9ghz-a-5-5ghz-lga-1851",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-7-265K-20-NC3BAcleos-3.9Ghz-a-5.5Ghz-LGA-1851-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:29:53",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 352460,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -833,6 +732,24 @@
     "url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265k-20-nucleos-3-9ghz-a-5-5ghz-lga-1851/"
   },
   {
+    "id": 322,
+    "category_id": "cpu",
+    "brand": "Intel",
+    "name": "Procesador Intel Core i7-12700 3.6Ghz 12 Core 20 Hilos LGA 1700",
+    "slug": "procesador-intel-core-i7-12700-3-6ghz-12-core-20-hilos-lga-1700",
+    "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i7-12700-3.6Ghz-12-Core-20-Hilos-LGA-1700_6lWWdvL-1.webp",
+    "tags": [],
+    "updated_at": "2026-04-27 00:57:26",
+    "best_price": 359050,
+    "best_store_name": "Centrale",
+    "best_store_id": "centrale",
+    "store_count": 1,
+    "prices": {
+      "centrale": 359050
+    },
+    "url": "https://centrale.cl/producto/procesador-intel-core-i7-12700-3-6ghz-12-core-20-hilos-lga-1700/"
+  },
+  {
     "id": 281,
     "category_id": "cpu",
     "brand": "AMD",
@@ -840,13 +757,14 @@
     "slug": "procesador-amd-ryzen-7-9700x-8-cores-16-threads-3-8-a-5-5-ghz-65w",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-9700X-8-Cores-16-Threads-3.8-a-5.5-GHz-65W_CmdGubx-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:27:59",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 366790,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "centrale": 366790
+      "centrale": 366790,
+      "alltec": 383300
     },
     "url": "https://centrale.cl/producto/procesador-amd-ryzen-7-9700x-8-cores-16-threads-3-8-a-5-5-ghz-65w/"
   },
@@ -858,7 +776,7 @@
     "slug": "procesador-intel-core-i7-14700f-core-2-1ghz-33mb-lga1700-14th-gen-no-graphic",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i7-14700F-Core-2.1Ghz-33MB-LGA1700-14th-Gen-no-graphic-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:30:47",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 393450,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -876,7 +794,7 @@
     "slug": "procesador-intel-core-i7-14700kf-raptor-lake-s-lga1700-20-cores-28-hilos",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i7-14700KF-Raptor-Lake-S-LGA1700-20-Cores-28-Hilo_qR0ePkk-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:29:24",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 407310,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -887,6 +805,24 @@
     "url": "https://centrale.cl/producto/procesador-intel-core-i7-14700kf-raptor-lake-s-lga1700-20-cores-28-hilos/"
   },
   {
+    "id": 289,
+    "category_id": "cpu",
+    "brand": "AMD",
+    "name": "Procesador AMD Ryzen 9 7900X, 4.7Ghz, 12 Núcleos / 24 Hilos, Socket AM5",
+    "slug": "procesador-amd-ryzen-9-7900x-4-7ghz-12-nucleos-24-hilos-socket-am5",
+    "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-9-7900X-4.7Ghz-12-NC3BAcleos-24-Hilos-Socket-AM5_hDOKxQS-1.webp",
+    "tags": [],
+    "updated_at": "2026-04-27 00:57:26",
+    "best_price": 418680,
+    "best_store_name": "Centrale",
+    "best_store_id": "centrale",
+    "store_count": 1,
+    "prices": {
+      "centrale": 418680
+    },
+    "url": "https://centrale.cl/producto/procesador-amd-ryzen-9-7900x-4-7ghz-12-nucleos-24-hilos-socket-am5/"
+  },
+  {
     "id": 327,
     "category_id": "cpu",
     "brand": "Intel",
@@ -894,7 +830,7 @@
     "slug": "procesador-intel-core-ultra-7-265f-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-7-265F-Hasta-5.3Ghz-30Mb-Cache-20-Core-S185_nzZFLWZ.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:30:28",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 426200,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -905,6 +841,60 @@
     "url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265f-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n/"
   },
   {
+    "id": 314,
+    "category_id": "cpu",
+    "brand": "Intel",
+    "name": "Procesador Intel Core i7-12700K 3.6 Ghz 8-Core LGA 1700",
+    "slug": "procesador-intel-core-i7-12700k-3-6-ghz-8-core-lga-1700",
+    "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i7-12700K-3.6-Ghz-8-Core-LGA-1700_EDmLwAb.webp",
+    "tags": [],
+    "updated_at": "2026-04-27 00:57:26",
+    "best_price": 428300,
+    "best_store_name": "Centrale",
+    "best_store_id": "centrale",
+    "store_count": 1,
+    "prices": {
+      "centrale": 428300
+    },
+    "url": "https://centrale.cl/producto/procesador-intel-core-i7-12700k-3-6-ghz-8-core-lga-1700/"
+  },
+  {
+    "id": 330,
+    "category_id": "cpu",
+    "brand": "Intel",
+    "name": "Procesador Intel  Core Ultra 7 265 Hasta 5.3Ghz 30Mb Cache 20 Core S1851 P/N",
+    "slug": "procesador-intel-core-ultra-7-265-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n",
+    "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-7-265-Hasta-5.3Ghz-30Mb-Cache-20-Core-S1851-P-N.webp",
+    "tags": [],
+    "updated_at": "2026-04-27 00:57:26",
+    "best_price": 432060,
+    "best_store_name": "Centrale",
+    "best_store_id": "centrale",
+    "store_count": 1,
+    "prices": {
+      "centrale": 432060
+    },
+    "url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n/"
+  },
+  {
+    "id": 309,
+    "category_id": "cpu",
+    "brand": "Intel",
+    "name": "Procesador Intel Core i7-14700K Raptor Lake-S LGA1700, 20 Cores, 28 Hilos",
+    "slug": "procesador-intel-core-i7-14700k-raptor-lake-s-lga1700-20-cores-28-hilos",
+    "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i7-14700K-Raptor-Lake-S-LGA1700-20-Cores-28-Hilos_KVPdMI4-1.webp",
+    "tags": [],
+    "updated_at": "2026-04-27 00:57:26",
+    "best_price": 440200,
+    "best_store_name": "Centrale",
+    "best_store_id": "centrale",
+    "store_count": 1,
+    "prices": {
+      "centrale": 440200
+    },
+    "url": "https://centrale.cl/producto/procesador-intel-core-i7-14700k-raptor-lake-s-lga1700-20-cores-28-hilos/"
+  },
+  {
     "id": 319,
     "category_id": "cpu",
     "brand": "Intel",
@@ -912,7 +902,7 @@
     "slug": "procesador-intel-core-i7-14700-lga1700-2-1ghz-a-5-4-ghz-20-nucleos-28-hilos",
     "image_url": "https://centrale.cl/wp-content/uploads/Intel-Procesador-Core-I7-14700-S-1700-2.10Ghz-20-Core-33Mb-Smart-Cache_seMK1Ds-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:30:03",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 447050,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -930,7 +920,7 @@
     "slug": "procesador-amd-ryzen-7-7800x3d-4-2-a-5-0ghz-8-nucleos-16-hilos",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-7800X3D-4.2-a-5.0Ghz-8-Nucleos-16-Hilos_BjCETBA-2.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:27:46",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 459460,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -941,22 +931,23 @@
     "url": "https://centrale.cl/producto/procesador-amd-ryzen-7-7800x3d-4-2-a-5-0ghz-8-nucleos-16-hilos/"
   },
   {
-    "id": 299,
+    "id": 42,
     "category_id": "cpu",
     "brand": "AMD",
-    "name": "Procesador AMD Ryzen 9 9900X, 12 Cores, 24 Threads, 4.4 GHz a 5.6 GHz, 120W",
-    "slug": "procesador-amd-ryzen-9-9900x-12-cores-24-threads-4-4-ghz-a-5-6-ghz-120w",
-    "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-9-9900X-12-Cores-24-Threads-4.4-a-5.6-GHz-120W-2.webp",
+    "name": "AMD Ryzen 9 9900X 12 Core 24 Hilos 4.4 GHz Socket AM5 120W Granite Ridge Zen 5 Radeon Graficos 100-100000662WOF",
+    "slug": "amd-ryzen-9-9900x-12-core-24-hilos-4-4-ghz-socket-am5-120w-granite-ridge-zen-5-radeon-graficos-100-1",
+    "image_url": "https://images.findtech.cl/products/amd-ryzen-9-9900x-12-core-24-hilos-4-4-ghz-socket-am5-120w-granite-ridge-zen-5-radeon-graficos-100-1.jpg",
     "tags": [],
-    "updated_at": "2026-04-27 00:28:58",
-    "best_price": 479270,
-    "best_store_name": "Centrale",
-    "best_store_id": "centrale",
-    "store_count": 1,
+    "updated_at": "2026-04-27 00:57:26",
+    "best_price": 471000,
+    "best_store_name": "N1G",
+    "best_store_id": "n1g",
+    "store_count": 2,
     "prices": {
+      "n1g": 471000,
       "centrale": 479270
     },
-    "url": "https://centrale.cl/producto/procesador-amd-ryzen-9-9900x-12-cores-24-threads-4-4-ghz-a-5-6-ghz-120w/"
+    "url": "https://n1g.cl/Home/computacion/2962-amd-ryzen-9-9900x-12-core-24-hilos-44-ghz-socket-am5-120w-granite-ridge-zen-5-radeon-graficos-100-100000662wof.html"
   },
   {
     "id": 325,
@@ -966,7 +957,7 @@
     "slug": "procesador-intel-core-i9-12900-alder-lake-lga1700-16-cores-24-hilos",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i9-12900-Alder-Lake-LGA1700-16-Cores-24-Hilos_MEKPJob-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:30:22",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 495060,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -984,7 +975,7 @@
     "slug": "procesador-intel-core-i9-12900k-core-3-2ghz-30mb-lga1700",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i9-12900K-Core-3.2GHz-30MB-LGA1700_Yu6W8HM-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:30:41",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 512610,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -995,22 +986,41 @@
     "url": "https://centrale.cl/producto/procesador-intel-core-i9-12900k-core-3-2ghz-30mb-lga1700/"
   },
   {
-    "id": 279,
+    "id": 328,
     "category_id": "cpu",
-    "brand": "AMD",
-    "name": "Procesador AMD Ryzen 7 9800X3D, 8 Núcleos 16 Hilos, 4,7 a 5,2 GHz AMD 3D V-Caché",
-    "slug": "procesador-amd-ryzen-7-9800x3d-8-nucleos-16-hilos-4-7-a-5-2-ghz-amd-3d-v-cache",
-    "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-9800X3D-8-NC3BAcleos-16-Hilos-47-a-52-GHz-AMD-3D-V-CachC3A9-1.webp",
+    "brand": "Intel",
+    "name": "Procesador Intel Core i9-12900KF Core 3.2GHz 30MB LGA1700",
+    "slug": "procesador-intel-core-i9-12900kf-core-3-2ghz-30mb-lga1700",
+    "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i9-12900KF-Core-3.2GHz-30MB-LGA1700_1KAqViA.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:27:52",
-    "best_price": 550480,
+    "updated_at": "2026-04-27 00:57:26",
+    "best_price": 532110,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
     "store_count": 1,
     "prices": {
+      "centrale": 532110
+    },
+    "url": "https://centrale.cl/producto/procesador-intel-core-i9-12900kf-core-3-2ghz-30mb-lga1700/"
+  },
+  {
+    "id": 2817,
+    "category_id": "cpu",
+    "brand": "AMD",
+    "name": "AMD RYZEN 7 9800X3D 4.7GHz (5.2GHz TURBO) OCTA CORE (TDP 120W) (AM5)",
+    "slug": "amd-ryzen-7-9800x3d-4-7ghz-5-2ghz-turbo-octa-core-tdp-120w-am5",
+    "image_url": "https://images.findtech.cl/products/amd-ryzen-7-9800x3d-4-7ghz-5-2ghz-turbo-octa-core-tdp-120w-am5.jpg",
+    "tags": [],
+    "updated_at": "2026-04-27 00:57:26",
+    "best_price": 536900,
+    "best_store_name": "Alltec",
+    "best_store_id": "alltec",
+    "store_count": 2,
+    "prices": {
+      "alltec": 536900,
       "centrale": 550480
     },
-    "url": "https://centrale.cl/producto/procesador-amd-ryzen-7-9800x3d-8-nucleos-16-hilos-47-a-52-ghz-amd-3d-v-cache/"
+    "url": "https://www.alltec.cl/amd/2348-amd-ryzen-7-9800x3d-47ghz-52ghz-turbo-octa-core-tdp-120w-am5.html"
   },
   {
     "id": 124,
@@ -1020,33 +1030,16 @@
     "slug": "3-2ghz-intel-i9-14900kf-6-0ghz-turbo-24c-32t-36mb-cache-125w-253w-lga1700-14th-generacion",
     "image_url": "https://images.findtech.cl/products/3-2ghz-intel-i9-14900kf-6-0ghz-turbo-24c-32t-36mb-cache-125w-253w-lga1700-14th-generacion.jpg",
     "tags": [],
-    "updated_at": "2026-04-27 00:31:03",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 564900,
     "best_store_name": "Alltec",
     "best_store_id": "alltec",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "alltec": 564900
-    },
-    "url": "https://www.alltec.cl/intel/2178-2ghz-intel-i9-14900kf-60ghz-turbo-24c32t-36mb-cache-125w253w-lga1700-14th-generacion.html"
-  },
-  {
-    "id": 310,
-    "category_id": "cpu",
-    "brand": "Intel",
-    "name": "Procesador Intel Core i9-14900KF Raptor Lake-S LGA1700, (Sin Gráficos)",
-    "slug": "procesador-intel-core-i9-14900kf-raptor-lake-s-lga1700-sin-graficos",
-    "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i9-14900KF-Raptor-Lake-S-LGA1700-Sin-GrC3A1ficos_AHf5EQT-2.webp",
-    "tags": [],
-    "updated_at": "2026-04-27 00:29:34",
-    "best_price": 567150,
-    "best_store_name": "Centrale",
-    "best_store_id": "centrale",
-    "store_count": 1,
-    "prices": {
+      "alltec": 564900,
       "centrale": 567150
     },
-    "url": "https://centrale.cl/producto/procesador-intel-core-i9-14900kf-raptor-lake-s-lga1700-sin-graficos/"
+    "url": "https://www.alltec.cl/intel/2178-2ghz-intel-i9-14900kf-60ghz-turbo-24c32t-36mb-cache-125w253w-lga1700-14th-generacion.html"
   },
   {
     "id": 288,
@@ -1056,7 +1049,7 @@
     "slug": "procesador-amd-ryzen-7-9850x3d-8-core-16-threads-4-7-8211-5-6ghz-120w",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-9850X3D-8-Core-16-Threads-47-56GHz-120W.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:28:23",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 581920,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -1067,22 +1060,40 @@
     "url": "https://centrale.cl/producto/procesador-amd-ryzen-7-9850x3d-8-core-16-threads-4-7-5-6ghz-120w/"
   },
   {
-    "id": 9,
+    "id": 8,
     "category_id": "cpu",
     "brand": "INTEL",
-    "name": "Intel Core i9 14900K 14th Gen 24-Core 8P+16E LGA 1700 125W Intel UHD Graphics 770 BX8071514900K",
-    "slug": "intel-core-i9-14900k-14th-gen-24-core-8p-16e-lga-1700-125w-intel-uhd-graphics-770-bx8071514900k",
-    "image_url": "https://images.findtech.cl/products/intel-core-i9-14900k-14th-gen-24-core-8p-16e-lga-1700-125w-intel-uhd-graphics-770-bx8071514900k.jpg",
+    "name": "Intel Core i9 10940X LGA 2066 Cascade Lake 28 Hilos 14-Core 3.3 GHz 165W Workstation Processor OEM",
+    "slug": "intel-core-i9-10940x-lga-2066-cascade-lake-28-hilos-14-core-3-3-ghz-165w-workstation-processor-oem",
+    "image_url": "https://images.findtech.cl/products/intel-core-i9-10940x-lga-2066-cascade-lake-28-hilos-14-core-3-3-ghz-165w-workstation-processor-oem.jpg",
     "tags": [],
-    "updated_at": "2026-04-27 00:25:26",
-    "best_price": 583900,
+    "updated_at": "2026-04-27 00:57:26",
+    "best_price": 599000,
     "best_store_name": "N1G",
     "best_store_id": "n1g",
     "store_count": 1,
     "prices": {
-      "n1g": 583900
+      "n1g": 599000
     },
-    "url": "https://n1g.cl/Home/computacion/2532-intel-core-i9-14900k-14th-gen-24-core-8p16e-lga-1700-125w-intel-uhd-graphics-770-bx8071514900k.html"
+    "url": "https://n1g.cl/Home/computacion/2810-intel-core-i9-10940x-lga-2066-cascade-lake-28-hilos-14-core-33-ghz-165w-workstation-processor-oem.html"
+  },
+  {
+    "id": 326,
+    "category_id": "cpu",
+    "brand": "Intel",
+    "name": "Procesador Intel Core i9-14900K Raptor Lake-S LGA1700, UHD Graphics",
+    "slug": "procesador-intel-core-i9-14900k-raptor-lake-s-lga1700-uhd-graphics",
+    "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i9-14900K-Raptor-Lake-S-LGA1700-UHD-Graphics_n4rqkpO-1.webp",
+    "tags": [],
+    "updated_at": "2026-04-27 00:57:26",
+    "best_price": 613970,
+    "best_store_name": "Centrale",
+    "best_store_id": "centrale",
+    "store_count": 1,
+    "prices": {
+      "centrale": 613970
+    },
+    "url": "https://centrale.cl/producto/procesador-intel-core-i9-14900k-raptor-lake-s-lga1700-uhd-graphics/"
   },
   {
     "id": 2824,
@@ -1092,13 +1103,14 @@
     "slug": "amd-ryzen-9-7950x-4-5ghz-5-7ghz-turbo-sixteen-core-tdp-170w-am5",
     "image_url": "https://images.findtech.cl/products/amd-ryzen-9-7950x-4-5ghz-5-7ghz-turbo-sixteen-core-tdp-170w-am5.jpg",
     "tags": [],
-    "updated_at": "2026-04-27 00:32:17",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 625900,
     "best_store_name": "Alltec",
     "best_store_id": "alltec",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "alltec": 625900
+      "alltec": 625900,
+      "centrale": 633360
     },
     "url": "https://www.alltec.cl/amd/1883-amd-ryzen-9-7950x-45ghz-57ghz-turbo-sixteen-core-tdp-170w-am5-730143314534.html"
   },
@@ -1110,7 +1122,7 @@
     "slug": "procesador-amd-ryzen-9-9950x-16-cores-32-threads-4-3-a-5-7-ghz-170w",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-9-9950X-16-Cores-32-Threads-4.3-a-5.7-GHz-170W_Zedw1e2-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:28:09",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 630010,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -1121,24 +1133,6 @@
     "url": "https://centrale.cl/producto/procesador-amd-ryzen-9-9950x-16-cores-32-threads-4-3-a-5-7-ghz-170w/"
   },
   {
-    "id": 287,
-    "category_id": "cpu",
-    "brand": "AMD",
-    "name": "Procesador AMD Ryzen 9 7950X, 4.5Ghz, 16 Núcleos / 32 Hilos, Socket AM5",
-    "slug": "procesador-amd-ryzen-9-7950x-4-5ghz-16-nucleos-32-hilos-socket-am5",
-    "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-9-7950X-4.5Ghz-16-NC3BAcleos-32-Hilos-Socket-AM5_BJOP85F-1.webp",
-    "tags": [],
-    "updated_at": "2026-04-27 00:28:19",
-    "best_price": 633360,
-    "best_store_name": "Centrale",
-    "best_store_id": "centrale",
-    "store_count": 1,
-    "prices": {
-      "centrale": 633360
-    },
-    "url": "https://centrale.cl/producto/procesador-amd-ryzen-9-7950x-4-5ghz-16-nucleos-32-hilos-socket-am5/"
-  },
-  {
     "id": 324,
     "category_id": "cpu",
     "brand": "Intel",
@@ -1146,7 +1140,7 @@
     "slug": "procesador-intel-core-ultra-9-285k-socket-lga1851-24-nucleos-3-7-5-7ghz-36-tops",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-9-285K-Socket-LGA1851-24-NC3BAcleos-37-57Ghz-36-TOPS-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:30:19",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 640280,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -1164,7 +1158,7 @@
     "slug": "procesador-amd-ryzen-9-9900x3d-12-cores-24tthreads-4-4ghz-am5-zen-5",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-9-9900X3D-12-Cores-24Tthreads-4.4GHz-AM5-Zen-5.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:28:55",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 693500,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -1182,7 +1176,7 @@
     "slug": "procesador-intel-core-i9-14900f-lga1700-24-nucleos-5-8ghz-36mb",
     "image_url": "https://centrale.cl/wp-content/uploads/Intel-Procesador-Core-I9-14900F-S-1700-2.0Ghz-24-Core-36Mb-Smart-Cache-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:30:44",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 725270,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -1200,7 +1194,7 @@
     "slug": "procesador-intel-core-i9-14900-24-core-3-2-5-8ghz-lga1700-36mb-cache",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i9-14900-24-Core-3.2-5.8GHz-LGA1700-36MB-Cache_Qmq4z9p-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:30:34",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 732690,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -1211,6 +1205,24 @@
     "url": "https://centrale.cl/producto/procesador-intel-core-i9-14900-24-core-3-2-5-8ghz-lga1700-36mb-cache/"
   },
   {
+    "id": 2825,
+    "category_id": "cpu",
+    "brand": "AMD",
+    "name": "AMD RYZEN 9 9950X3D (4.3GHz/5.7GHz TURBO) SIXTEEN CORE (TDP 170W) (AM5)",
+    "slug": "amd-ryzen-9-9950x3d-4-3ghz-5-7ghz-turbo-sixteen-core-tdp-170w-am5",
+    "image_url": "https://images.findtech.cl/products/amd-ryzen-9-9950x3d-4-3ghz-5-7ghz-turbo-sixteen-core-tdp-170w-am5.jpg",
+    "tags": [],
+    "updated_at": "2026-04-27 00:57:26",
+    "best_price": 825900,
+    "best_store_name": "Alltec",
+    "best_store_id": "alltec",
+    "store_count": 1,
+    "prices": {
+      "alltec": 825900
+    },
+    "url": "https://www.alltec.cl/amd/2376-amd-ryzen-9-9950x3d-43ghz57ghz-turbo-sixteen-core-tdp-170w-am5.html"
+  },
+  {
     "id": 300,
     "category_id": "cpu",
     "brand": "AMD",
@@ -1218,7 +1230,7 @@
     "slug": "procesador-amd-ryzen-threadripper-7960x-24-nucleos-48-hilos-4-2ghz-a-5-3ghz",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-Threadripper-7960X-24-NC3BAcleos-48-Hilos-Socket-sTR5_hd9wWqQ-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:29:02",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 1706730,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -1236,7 +1248,7 @@
     "slug": "procesador-amd-ryzen-threadripper-9960x-24-cores-48-threads-4-2-8211-5-4ghz",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-Threadripper-9960X-24-Cores-48-Threads-4.2-5.4GH_LRynqap.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:28:52",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 2268780,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -1254,7 +1266,7 @@
     "slug": "procesador-amd-ryzen-threadripper-7970x-32-nucleos-64-hilos-socket-str5",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-Threadripper-7970X-32-NC3BAcleos-64-Hilos-Socket-sTR5_tQuIpXO-1.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:29:14",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 3582270,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -1272,7 +1284,7 @@
     "slug": "procesador-amd-ryzen-threadripper-pro-9975wx-8211-4-0-a-5-4ghz-32-nucleos-64-hilos",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-Threadripper-PRO-9975WX-4.0-a-5.4Ghz-32-NC3BAcleos-_qEYeesY.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:29:11",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 5856320,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -1290,7 +1302,7 @@
     "slug": "procesador-amd-ryzen-threadripper-9980x-64-cores-128-threads-3-2-8211-5-4ghz",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-Threadripper-9980X-64-cores-128-threads-3.2-5.4G_rOHLqMO.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:29:18",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 6790000,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
@@ -1308,7 +1320,7 @@
     "slug": "procesador-amd-ryzen-threadripper-pro-9995wx-96-cores-192-threads-2-5-5-4ghz",
     "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-Threadripper-PRO-9995WX-96-Cores-192-Threads-2.5-5.4GHz.webp",
     "tags": [],
-    "updated_at": "2026-04-27 00:29:05",
+    "updated_at": "2026-04-27 00:57:26",
     "best_price": 14948180,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",

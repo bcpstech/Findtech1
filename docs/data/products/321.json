@@ -8,12 +8,14 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-5-225-6P-Cores-4E-Cores-4.9-GHz-LGA1851-1.webp",
   "description": null,
   "specs": {
+    "Frecuencia base": "4.9 GHz",
+    "Socket": "LGA1851",
     "Transferencia / Efectivo": "$198.500",
     "Tarjetas de Crédito / Débito": "$209.420"
   },
   "tags": [],
   "created_at": "2026-04-26 16:26:06",
-  "updated_at": "2026-04-26 16:26:06",
+  "updated_at": "2026-04-27 00:57:26",
   "prices": [
     {
       "product_id": 321,
@@ -36,7 +38,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 198500
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 198500
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

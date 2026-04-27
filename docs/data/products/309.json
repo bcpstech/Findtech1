@@ -1,46 +1,50 @@
 {
   "id": 309,
-  "external_id": "n1g_asus-rog-thor-1600w-titanium-iii-80-plus-titanium-certified-atx-3-1-gan-mosfet-magnetic-oled-display",
-  "category_id": "psu",
-  "brand": "Asus",
-  "name": "ASUS ROG Thor 1600W Titanium III 80 PLUS Titanium Certified, ATX 3.1, GaN MOSFET,  Magnetic OLED Display",
-  "slug": "asus-rog-thor-1600w-titanium-iii-80-plus-titanium-certified-atx-3-1-gan-mosfet-magnetic-oled-display",
-  "image_url": "https://images.findtech.cl/products/asus-rog-thor-1600w-titanium-iii-80-plus-titanium-certified-atx-3-1-gan-mosfet-magnetic-oled-display.jpg",
+  "external_id": "centrale_procesador-intel-core-i7-14700k-raptor-lake-s-lga1700-20-cores-28-hilos",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i7-14700K Raptor Lake-S LGA1700, 20 Cores, 28 Hilos",
+  "slug": "procesador-intel-core-i7-14700k-raptor-lake-s-lga1700-20-cores-28-hilos",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i7-14700K-Raptor-Lake-S-LGA1700-20-Cores-28-Hilos_KVPdMI4-1.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$929.002",
-    "Tarjeta crédito/débito": "$956.872"
+    "Socket": "LGA1700",
+    "Generación": "Intel 13ª Gen (Raptor Lake)",
+    "Transferencia / Efectivo": "$440.200",
+    "Tarjetas de Crédito / Débito": "$464.410"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:01:03",
-  "updated_at": "2026-04-25 18:01:03",
+  "created_at": "2026-04-26 16:25:24",
+  "updated_at": "2026-04-27 00:57:26",
   "prices": [
     {
-      "id": 309,
       "product_id": 309,
-      "store_id": "n1g",
-      "price": 929002,
-      "price_normal": 977897,
-      "discount_pct": 5,
-      "currency": "CLP",
+      "store_id": "centrale",
+      "price": 440200,
+      "price_normal": 533420,
+      "discount_pct": 17,
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3590-asus-rog-thor-1600w-titanium-iii-80-plus-titanium-certified-atx-31-gan-mosfet-magnetic-oled-display.html",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:01:03",
-      "store_name": "N1G",
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl",
-      "store_rating": 4.3,
-      "review_count": 1280
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700k-raptor-lake-s-lga1700-20-cores-28-hilos/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
-      "date": "2026-04-25",
-      "price": 929002
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 440200
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 440200
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

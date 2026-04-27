@@ -1,42 +1,51 @@
 {
   "id": 330,
-  "external_id": "n1g_thermal-grizzly-wireview-gpu-3x8pin-pcie-normal-tg-wv-p38n-mide-consumo-de-gpu-monitoreo-directo-en-",
-  "category_id": "psu",
-  "brand": "Thermal Grizzly",
-  "name": "Thermal Grizzly WireView GPU 3x8Pin PCIe Normal TG-WV-P38N mide consumo de GPU Monitoreo directo en tiempo real Made in Alemania",
-  "slug": "thermal-grizzly-wireview-gpu-3x8pin-pcie-normal-tg-wv-p38n-mide-consumo-de-gpu-monitoreo-directo-en-",
-  "image_url": "https://images.findtech.cl/products/thermal-grizzly-wireview-gpu-3x8pin-pcie-normal-tg-wv-p38n-mide-consumo-de-gpu-monitoreo-directo-en-.jpg",
+  "external_id": "centrale_procesador-intel-core-ultra-7-265-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel  Core Ultra 7 265 Hasta 5.3Ghz 30Mb Cache 20 Core S1851 P/N",
+  "slug": "procesador-intel-core-ultra-7-265-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n",
+  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-7-265-Hasta-5.3Ghz-30Mb-Cache-20-Core-S1851-P-N.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$69.990",
-    "Tarjeta crédito/débito": "$72.090"
+    "Frecuencia base": "5.3 GHz",
+    "Frecuencia turbo": "5.3 GHz",
+    "Caché L3": "30 MB",
+    "Transferencia / Efectivo": "$432.060",
+    "Tarjetas de Crédito / Débito": "$455.820"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:12:18",
-  "updated_at": "2026-04-25 19:12:18",
+  "created_at": "2026-04-26 16:26:38",
+  "updated_at": "2026-04-27 00:57:26",
   "prices": [
     {
       "product_id": 330,
-      "store_id": "n1g",
-      "price": 69990,
-      "price_normal": 73674,
-      "discount_pct": 5,
+      "store_id": "centrale",
+      "price": 432060,
+      "price_normal": 497540,
+      "discount_pct": 13,
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3388-medidor-de-consumo-gpu-thermal-grizzly-wireview-gpu-3x8pin-pcie-normal-tg-wv-p18r.html",
-      "store_name": "N1G",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n/",
+      "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "n1g",
-      "store_name": "N1G",
-      "date": "2026-04-25",
-      "price": 69990
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 432060
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 432060
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

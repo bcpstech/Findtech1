@@ -8,12 +8,20 @@
   "image_url": "https://images.findtech.cl/products/3-2ghz-intel-i9-14900kf-6-0ghz-turbo-24c-32t-36mb-cache-125w-253w-lga1700-14th-generacion.jpg",
   "description": null,
   "specs": {
+    "Núcleos": "24",
+    "Hilos": "32",
+    "Frecuencia base": "3.2 GHz",
+    "Frecuencia turbo": "6.0 GHz",
+    "Caché L3": "36 MB",
+    "TDP": "253W",
+    "Socket": "LGA1700",
+    "Generación": "Intel 14ª Gen (Raptor Lake Refresh)",
     "Efectivo/Transferencia": "$564.900",
     "Tarjeta crédito/débito": "$581.847"
   },
   "tags": [],
   "created_at": "2026-04-26 16:05:50",
-  "updated_at": "2026-04-27 00:31:03",
+  "updated_at": "2026-04-27 00:57:26",
   "prices": [
     {
       "product_id": 124,
@@ -28,6 +36,20 @@
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 310,
+      "store_id": "centrale",
+      "price": 567150,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900kf-raptor-lake-s-lga1700-sin-graficos/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
