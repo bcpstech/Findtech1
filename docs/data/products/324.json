@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 16:26:16",
-  "updated_at": "2026-04-26 20:37:35",
+  "updated_at": "2026-04-27 00:30:19",
   "prices": [
     {
       "product_id": 324,
@@ -28,20 +28,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 1925,
-      "store_id": "dust2",
-      "price": 699020,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/procesador-intel-core-ultra-9-285k-hasta-5-7ghz-lga1851/",
-      "store_name": "Dust2",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
@@ -50,7 +36,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 640280
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 640280
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

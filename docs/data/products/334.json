@@ -8,17 +8,17 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Intel-Core-Ultra-5-245K-4.2-Ghz-14-Core-Lga1851-BX80768245K-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$239.800",
-    "Tarjetas de Crédito / Débito": "$252.990"
+    "Transferencia / Efectivo": "$240.060",
+    "Tarjetas de Crédito / Débito": "$253.260"
   },
   "tags": [],
   "created_at": "2026-04-26 16:26:53",
-  "updated_at": "2026-04-26 16:26:53",
+  "updated_at": "2026-04-27 00:30:50",
   "prices": [
     {
       "product_id": 334,
       "store_id": "centrale",
-      "price": 239800,
+      "price": 240060,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -35,8 +35,14 @@
       "store_id": "centrale",
       "store_name": "Centrale",
       "date": "2026-04-26",
-      "price": 239800
+      "price": 240060
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 240060
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }
