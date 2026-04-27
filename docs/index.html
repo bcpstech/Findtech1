@@ -113,7 +113,7 @@ nav{display:flex;align-items:center;gap:4px;flex:1}
   animation:fadeIn .15s ease;
 }
 @keyframes fadeIn{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:translateY(0)}}
-/* Mega menu controlado por JS */
+/* Mega menu controlado por JS con delay */
 .mega-col h4{
   font-size:11px;font-weight:600;color:var(--accent);
   letter-spacing:1.5px;text-transform:uppercase;
@@ -1086,7 +1086,8 @@ select.form-input{cursor:pointer}
         <span class="ico">🖱️</span> Monitores
         <span class="count" id="sb-count-monitor">0</span>
       </div>
-    </div>
+      </div><!-- /sb-hw-body -->
+    </div><!-- /hw section -->
 
     <!-- ── PERIFÉRICOS ────────────────────────────── -->
     <div class="sb-section">
@@ -1123,6 +1124,7 @@ select.form-input{cursor:pointer}
         <div id="sb-stores-list"></div>
       </div>
     </div>
+
   </aside>
 
   <!-- MAIN CONTENT -->
@@ -1462,6 +1464,13 @@ const SUBCATS = {
   mobo:    { am5:['am5'], am4:['am4'], lga1700:['lga1700','1700'], lga1851:['lga1851','1851'] },
   case:    { atx:['atx'], matx:['micro atx','matx','m-atx'], itx:['itx','mini-itx'] },
   psu:     { modular:['modular'], certificada:['80+','gold','platinum','bronze'] },
+  periph:  {
+    teclado: ['teclado','keyboard','mecanico'],
+    mouse:   ['mouse','raton'],
+    headset: ['headset','audifonos','auricular'],
+    pad:     ['mousepad','pad','alfombrilla'],
+    silla:   ['silla','chair'],
+  },
 };
 
 let PRODUCTS = [];
@@ -1562,7 +1571,7 @@ function toggleSbSection(id) {
   if (!body) return;
   var isOpen = body.style.display !== 'none';
   body.style.display = isOpen ? 'none' : 'block';
-  if (arrow) arrow.textContent = isOpen ? '\u25b8' : '\u25be';
+  if (arrow) arrow.textContent = isOpen ? '▸' : '▾';
 }
 
 function renderSidebarStores() {
@@ -1866,7 +1875,6 @@ async function loadData() {
     }));
 
     console.log(`[FindTech] ${PRODUCTS.length} productos cargados`);
-    renderSidebarStores();
     renderSidebarStores();
     return true;
   } catch(e) {
@@ -2212,7 +2220,10 @@ function fileToBase64(file) {
 }
 
 // ═══════════════════════════════════════════════
-// MEGA MENU con delay
+// MOBILE NAV
+// ═══════════════════════════════════════════════
+// ═══════════════════════════════════════════════
+// MEGA MENU — hover con delay
 // ═══════════════════════════════════════════════
 (function() {
   var hideTimer = null;
@@ -2243,8 +2254,6 @@ function fileToBase64(file) {
   });
 })();
 
-// MOBILE NAV
-// ═══════════════════════════════════════════════
 function toggleSidebar() {
   const sidebar = document.getElementById('sidebar');
   const overlay = document.getElementById('sidebar-overlay');
