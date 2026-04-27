@@ -1,6 +1,7 @@
 /**
  * scripts/export-json.js
- * Deduplicación por similitud de nombre (Jaccard + containment + marca).
+ * Exporta DB → JSONs para el frontend.
+ * Deduplicación: número de modelo (primario) + similitud de nombre (fallback).
  */
 require('dotenv').config();
 const fs   = require('fs');
@@ -18,28 +19,57 @@ function write(filePath, data) {
   console.log(`✓ ${path.relative(process.cwd(), filePath)}`);
 }
 
-// ── Similitud de nombres ──────────────────────────────────────────────────
+// ── Extractor de número de modelo ─────────────────────────────────────────
+function extractModelNumber(name) {
+  const n = name.toUpperCase();
+  const patterns = [
+    // Intel: I3-12100F, I5-14600K, Core Ultra 7 265K
+    /\bI([3579])[\s-](\d{4,5}[A-Z]*)\b/,
+    /\bCORE\s+ULTRA\s+([3579])\s+(\d{3}[A-Z]*)\b/,
+    // AMD: Ryzen 5 5500, Ryzen 7 7800X3D, Threadripper
+    /\bRYZEN\s+([3579])\s+(\d{4}[A-Z0-9]*)\b/,
+    /\bTHREADRIPPER\s+(?:PRO\s+)?(\d{4,5}[A-Z]*)\b/,
+    /\bATHLON\s+(\w+\s*\d+\w*)\b/,
+    // GPU
+    /\bRTX\s+(\d{4}(?:\s*TI)?(?:\s*SUPER)?)\b/,
+    /\bRX\s+(\d{4}[A-Z]*)\b/,
+    /\bGTX\s+(\d{4}(?:\s*TI)?)\b/,
+    /\bARC\s+([AB]\d{3})\b/,
+    // Mobo: B650M-AYW, Z790-P
+    /\b([A-Z]\d{3}[A-Z]?(?:[-][A-Z0-9]+){1,3})\b/,
+    /\b([A-Z]\d{3}[A-Z]{2,6})\b/,
+    // SSD: SN850X, P5 Plus
+    /\b(SN\d{3}[XP]?)\b/,
+  ];
 
+  for (const pattern of patterns) {
+    const m = n.match(pattern);
+    if (m) {
+      return m.slice(1).join('').replace(/\s+/g, '').toLowerCase();
+    }
+  }
+  return null;
+}
+
+// ── Similitud de nombres (fallback) ───────────────────────────────────────
 const STOP_WORDS = new Set([
   'placa','madre','tarjeta','video','grafica','procesador','memoria','ram',
   'fuente','poder','gabinete','refrigeracion','cooler','disco','duro',
   'solido','almacenamiento','motherboard','mainboard','gaming','gamer',
   'mb','sb','ob','box','oem','tray','retail','kit','pack',
   'socket','wifi','wireless','rgb','argb','led','sync','aura',
-  'micro','mini','atx','matx','itx','eatx',
-  'gen','series','edition','version','plus','pro','max','ultra','slim',
-  'pcie','nvme','sata','hdmi','usb','lan','wan','type',
-  'de','la','el','en','con','para','y','a','the','of','and',
-  'twin','edge','ventus','black','white','oc','strix','tuf','prime',
-  'hero','carbon','extreme','apex','formula','impact','unify','wraith','stealth',
+  'micro','mini','atx','matx','itx','eatx','gen','series','edition',
+  'version','plus','pro','max','ultra','slim','pcie','nvme','sata',
+  'hdmi','usb','lan','wan','type','de','la','el','en','con','para',
+  'y','a','the','of','and','sin','video','turbo','cache','generacion',
 ]);
 
 const BRANDS = new Set([
   'amd','intel','asus','msi','gigabyte','asrock','nvidia','zotac','sapphire',
-  'powercolor','xfx','pny','palit','gainward','inno3d','colorful','galax',
+  'powercolor','xfx','pny','palit','gainward','inno3d','colorful',
   'kingston','corsair','crucial','gskill','samsung','micron','teamgroup',
   'seagate','western','wd','toshiba','sandisk','lexar',
-  'noctua','bequiet','deepcool','arctic','coolermaster','nzxt','thermalright',
+  'noctua','deepcool','arctic','coolermaster','nzxt','thermalright',
   'seasonic','evga','thermaltake','antec','fractal','lianli','phanteks',
 ]);
 
@@ -47,13 +77,13 @@ function normalizeStr(s) {
   return s.toLowerCase()
     .replace(/[áàä]/g,'a').replace(/[éèë]/g,'e')
     .replace(/[íìï]/g,'i').replace(/[óòö]/g,'o').replace(/[úùü]/g,'u')
-    .replace(/\(.*?\)/g,' ')
-    .replace(/[^a-z0-9\s]/g,' ')
+    .replace(/\(.*?\)/g,' ').replace(/[^a-z0-9\s]/g,' ')
     .replace(/\s+/g,' ').trim();
 }
 
 function tokenize(name) {
-  return normalizeStr(name).split(' ').filter(w => w.length > 1 && !STOP_WORDS.has(w));
+  return normalizeStr(name).split(' ')
+    .filter(w => w.length > 1 && !STOP_WORDS.has(w));
 }
 
 function extractBrand(tokens) {
@@ -64,51 +94,90 @@ function shouldMerge(name1, name2) {
   const t1 = tokenize(name1);
   const t2 = tokenize(name2);
   if (!t1.length || !t2.length) return false;
-
-  // Marcas distintas → nunca fusionar
   const b1 = extractBrand(t1);
   const b2 = extractBrand(t2);
   if (b1 && b2 && b1 !== b2) return false;
-
   const s1 = new Set(t1);
   const s2 = new Set(t2);
   const intersection = new Set([...s1].filter(x => s2.has(x)));
-  const union = new Set([...s1, ...s2]);
-
-  // Containment: nombre corto está contenido en nombre largo
   const smaller = s1.size <= s2.size ? s1 : s2;
   const containment = intersection.size / smaller.size;
-
-  // Jaccard: similitud general
-  const jaccard = intersection.size / union.size;
-
+  const jaccard = intersection.size / new Set([...s1, ...s2]).size;
   return containment >= 0.80 || jaccard >= 0.70;
 }
 
-// Agrupar con unión transitiva (si A~B y B~C, entonces A~B~C)
-function groupByName(products) {
-  const groups = [];       // cada grupo es un array de índices
+// ── Agrupación principal ──────────────────────────────────────────────────
+function groupProducts(products) {
+  // Paso 1: agrupar por número de modelo exacto (misma marca)
+  const modelGroups = {};
+  const noModel = [];
+
+  for (const p of products) {
+    const model = extractModelNumber(p.name);
+    if (model) {
+      // Incluir marca en la key para evitar fusionar modelos distintos de marcas distintas
+      const brandToken = extractBrand(tokenize(p.name)) || 'generic';
+      const key = `${brandToken}_${model}`;
+      if (!modelGroups[key]) modelGroups[key] = [];
+      modelGroups[key].push(p);
+    } else {
+      noModel.push(p);
+    }
+  }
+
+  // Paso 2: los productos sin modelo conocido usan similitud de nombre
+  const nameGrouped = [];
   const assigned = new Set();
 
-  for (let i = 0; i < products.length; i++) {
+  for (let i = 0; i < noModel.length; i++) {
     if (assigned.has(i)) continue;
-    const group = [i];
+    const group = [noModel[i]];
     assigned.add(i);
-
-    for (let j = i + 1; j < products.length; j++) {
+    for (let j = i + 1; j < noModel.length; j++) {
       if (assigned.has(j)) continue;
-      // Comparar con cualquier miembro ya en el grupo
-      const merges = group.some(gi =>
-        shouldMerge(products[gi].name, products[j].name)
-      );
-      if (merges) {
-        group.push(j);
+      if (group.some(g => shouldMerge(g.name, noModel[j].name))) {
+        group.push(noModel[j]);
         assigned.add(j);
       }
     }
-    groups.push(group);
+    nameGrouped.push(group);
   }
-  return groups;
+
+  // Combinar ambos grupos
+  const allGroups = [
+    ...Object.values(modelGroups),
+    ...nameGrouped,
+  ];
+
+  return allGroups;
+}
+
+// ── Fusionar grupo en un producto ─────────────────────────────────────────
+function mergeGroup(indices, pricesByProduct) {
+  const allPrices = [];
+  let bestProduct = null;
+  let minPrice = Infinity;
+
+  for (const p of indices) {
+    const prices = pricesByProduct[p.id] || [];
+    for (const pr of prices) {
+      const existing = allPrices.find(x => x.store_id === pr.store_id);
+      if (!existing) {
+        allPrices.push({ ...pr });
+      } else if (pr.price < existing.price) {
+        Object.assign(existing, pr);
+      }
+    }
+    const groupMin = Math.min(...prices.map(x => x.price), Infinity);
+    if (groupMin < minPrice) {
+      minPrice = groupMin;
+      bestProduct = p;
+    }
+  }
+
+  if (!bestProduct) bestProduct = indices[0];
+  allPrices.sort((a, b) => a.price - b.price);
+  return { product: bestProduct, prices: allPrices };
 }
 
 // ── 1. Categorías ─────────────────────────────────────────────────────────
@@ -122,7 +191,7 @@ const categories = db.prepare(`
     'SELECT * FROM categories WHERE parent_id = ? ORDER BY sort_order'
   ).all(cat.id),
 }));
-write(path.join(OUT_DIR,'categories.json'), categories);
+write(path.join(OUT_DIR, 'categories.json'), categories);
 
 // ── 2. Tiendas ────────────────────────────────────────────────────────────
 const stores = db.prepare(`
@@ -134,12 +203,12 @@ const stores = db.prepare(`
     (SELECT MAX(scraped_at) FROM prices p WHERE p.store_id = s.id) as last_scraped
   FROM stores s WHERE s.active = 1 ORDER BY s.rating DESC
 `).all();
-write(path.join(OUT_DIR,'stores.json'), stores);
+write(path.join(OUT_DIR, 'stores.json'), stores);
 
 // ── 3. Fecha más reciente ─────────────────────────────────────────────────
 const latestDate = db.prepare('SELECT MAX(date(scraped_at)) as d FROM prices').get()?.d;
 
-// ── 4. Precios de hoy (solo in_stock) ────────────────────────────────────
+// ── 4. Precios in_stock de hoy ────────────────────────────────────────────
 const todayPrices = db.prepare(`
   SELECT p.product_id, p.store_id, p.price, p.price_normal,
          p.discount_pct, p.stock, p.product_url, s.name as store_name
@@ -156,49 +225,30 @@ for (const row of todayPrices) {
   pricesByProduct[row.product_id].push(row);
 }
 
-// ── 5. Solo productos con stock hoy ──────────────────────────────────────
+// ── 5. Solo productos con stock ───────────────────────────────────────────
 const rawProducts = db.prepare('SELECT * FROM products').all()
   .filter(p => pricesByProduct[p.id]?.length > 0);
 
-// ── 6. Agrupar por similitud de nombre ───────────────────────────────────
-console.log(`Agrupando ${rawProducts.length} productos por similitud de nombre...`);
-const nameGroups = groupByName(rawProducts);
-console.log(`→ ${nameGroups.length} grupos únicos`);
+// ── 6. Agrupar ───────────────────────────────────────────────────────────
+console.log(`Agrupando ${rawProducts.length} productos...`);
+const groups = groupProducts(rawProducts);
+console.log(`→ ${groups.length} grupos únicos`);
 
-// ── 7. Construir productos fusionados ────────────────────────────────────
-const mergedProducts = nameGroups.map(indices => {
-  // Recolectar todos los precios del grupo, sin duplicar tiendas
-  const allPrices = [];
-  let bestProduct = null;
-  let minPrice = Infinity;
-
-  for (const idx of indices) {
-    const p = rawProducts[idx];
-    const prices = pricesByProduct[p.id] || [];
-    for (const pr of prices) {
-      const existing = allPrices.find(x => x.store_id === pr.store_id);
-      if (!existing) {
-        allPrices.push({ ...pr });
-      } else if (pr.price < existing.price) {
-        Object.assign(existing, pr);
-      }
-    }
-    const groupMin = Math.min(...prices.map(x => x.price));
-    if (groupMin < minPrice) {
-      minPrice = groupMin;
-      bestProduct = p;
-    }
-  }
-
-  allPrices.sort((a, b) => a.price - b.price);
-  return { product: bestProduct, prices: allPrices };
-});
+// ── 7. Construir merged products ──────────────────────────────────────────
+const mergedProducts = groups
+  .map(group => mergeGroup(group, pricesByProduct))
+  .filter(m => m.prices.length > 0);
 
 // ── 8. Índice de productos ────────────────────────────────────────────────
 const products = mergedProducts.map(({ product: p, prices }) => {
   const best = prices[0];
   const pricesMap = {};
   prices.forEach(r => { pricesMap[r.store_id] = r.price; });
+
+  // Specs enriquecidas desde el nombre
+  let specs = {};
+  try { specs = p.specs ? JSON.parse(p.specs) : {}; } catch {}
+
   return {
     id:              p.id,
     category_id:     p.category_id,
@@ -217,7 +267,7 @@ const products = mergedProducts.map(({ product: p, prices }) => {
   };
 }).sort((a, b) => a.best_price - b.best_price);
 
-write(path.join(OUT_DIR,'products.json'), products);
+write(path.join(OUT_DIR, 'products.json'), products);
 console.log(`   → ${products.length} productos únicos (de ${rawProducts.length} con stock)`);
 
 // ── 9. Detalle por producto ───────────────────────────────────────────────
@@ -236,6 +286,9 @@ for (const { product: p, prices } of mergedProducts) {
     ORDER BY date ASC
   `).all(p.id);
 
+  let specs = {};
+  try { specs = p.specs ? JSON.parse(p.specs) : {}; } catch {}
+
   const enrichedPrices = prices.map(pr => {
     const storeRow = stores.find(s => s.id === pr.store_id);
     return {
@@ -249,8 +302,8 @@ for (const { product: p, prices } of mergedProducts) {
 
   write(path.join(PROD_DIR, `${p.id}.json`), {
     ...p,
-    specs:      p.specs ? JSON.parse(p.specs) : null,
-    tags:       p.tags  ? JSON.parse(p.tags)  : [],
+    specs,
+    tags:       p.tags ? JSON.parse(p.tags) : [],
     prices:     enrichedPrices,
     history,
     scraped_at: latestDate,
@@ -263,7 +316,7 @@ const lastRuns = db.prepare(
   'SELECT store_id, status, products_updated, errors_count, finished_at FROM scrape_logs ORDER BY started_at DESC LIMIT 20'
 ).all();
 
-write(path.join(OUT_DIR,'meta.json'), {
+write(path.join(OUT_DIR, 'meta.json'), {
   last_update:    latestDate,
   generated_at:   new Date().toISOString(),
   total_products: products.length,
