@@ -8,17 +8,23 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-32GB-2x16GB-DDR4-3200MT-s-CL16-1.35V-Corsair-Vengeance-RGB-_QRyBXkV.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$362.950",
-    "Tarjetas de Crédito / Débito": "$382.910"
+    "Capacidad": "32 GB (total)",
+    "Tipo": "DDR4",
+    "Velocidad": "3200 MHz",
+    "Latencia": "CL16",
+    "Kit": "2x16 GB",
+    "Iluminación": "RGB",
+    "Transferencia / Efectivo": "$362.550",
+    "Tarjetas de Crédito / Débito": "$382.490"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1426,
       "store_id": "centrale",
-      "price": 362950,
+      "price": 362550,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -36,7 +42,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 362950
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 362550
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

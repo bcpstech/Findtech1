@@ -8,12 +8,13 @@
   "image_url": "https://images.findtech.cl/products/tarjeta-de-video-zotac-nvidia-geforce-rtx-5050-8gb-solo-itx.jpg",
   "description": null,
   "specs": {
+    "VRAM": "8 GB",
     "Transferencia/Efectivo": "$334.790",
     "Webpay / Tarjeta": "$344.834"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:13",
-  "updated_at": "2026-04-26 20:52:13",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 2598,
@@ -30,32 +31,18 @@
       "full_url": "https://www.trulustore.cl"
     },
     {
-      "product_id": 1225,
+      "product_id": 1203,
       "store_id": "centrale",
-      "price": 758530,
+      "price": 341250,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-geforce-rtx-5060-ti-16gb-twin-edge-oc-white-edition/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-rtx-5050-8gb-gddr6-128-bits-dual-ventilador/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 511,
-      "store_id": "n1g",
-      "price": 1219000,
-      "price_normal": 1283158,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3520-zotac-solid-core-oc-white-edition-geforce-rtx-5070-ti-16gb-gddr7-pci-express-50-x16-atx-zt-b50710q2-10p.html",
-      "store_name": "N1G",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -64,7 +51,13 @@
       "store_name": "TruluStore",
       "date": "2026-04-26",
       "price": 334790
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-27",
+      "price": 334790
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

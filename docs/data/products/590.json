@@ -1,46 +1,52 @@
 {
   "id": 590,
-  "external_id": "centrale_placa-madre-asus-rog-strix-x870e-e-gaming-wifi-am5-4xddr5-5xm-2",
+  "external_id": "n1g_msi-b550m-pro-vdh-wifi-socket-am4-amd-b550-ddr4-sata3-usb3-2-m-2-micro-atx-motherboard",
   "category_id": "mobo",
-  "brand": "Asus",
-  "name": "Placa Madre ASUS ROG STRIX X870E-E Gaming WiFi AM5, 4xDDR5, 5xM.2",
-  "slug": "placa-madre-asus-rog-strix-x870e-e-gaming-wifi-am5-4xddr5-5xm-2",
-  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Placa-Madre-Rog-Strix-X870E-E-Gaming-Wifi-Amd-Am5-4Xddr5-5Xm.2-4X-Sata.webp",
+  "brand": "MSI",
+  "name": "MSI B550M PRO-VDH WIFI Socket AM4/ AMD B550/ DDR4/ SATA3&USB3.2/ M.2/ Micro-ATX Motherboard",
+  "slug": "msi-b550m-pro-vdh-wifi-socket-am4-amd-b550-ddr4-sata3-usb3-2-m-2-micro-atx-motherboard",
+  "image_url": "https://images.findtech.cl/products/msi-b550m-pro-vdh-wifi-socket-am4-amd-b550-ddr4-sata3-usb3-2-m-2-micro-atx-motherboard.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$561.230",
-    "Tarjetas de Crédito / Débito": "$592.100"
+    "Socket": "AM4",
+    "Factor de forma": "Micro-ATX",
+    "Memoria": "DDR4",
+    "WiFi": "Integrado",
+    "Efectivo/Transferencia": "$114.900",
+    "Tarjeta crédito/débito": "$118.347"
   },
   "tags": [],
-  "created_at": "2026-04-24 22:15:29",
-  "updated_at": "2026-04-24 22:15:29",
+  "created_at": "2026-04-26 20:12:36",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
-      "id": 590,
       "product_id": 590,
-      "store_id": "centrale",
-      "price": 561230,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "store_id": "n1g",
+      "price": 114900,
+      "price_normal": 120947,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-strix-x870e-e-gaming-wifi-am5-4xddr5-5xm-2/",
-      "price_date": "2026-04-24",
-      "scraped_at": "2026-04-24 22:15:29",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://n1g.cl/Home/computacion/912-msi-b550m-pro-vdh-wifi-socket-am4-amd-b550-ddr4-sata3usb32-m2-micro-atx-motherboard.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-24",
-      "price": 561230
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 114900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-27",
+      "price": 114900
     }
   ],
-  "scraped_at": "2026-04-24"
+  "scraped_at": "2026-04-27"
 }

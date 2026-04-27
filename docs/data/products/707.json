@@ -8,12 +8,15 @@
   "image_url": "https://images.findtech.cl/products/lexar-4tb-ssd-pcie-5-0-nvme-nm1090-pro-m-2-2280-lectura-de-hasta-14-000-mb-s-habilitado-para-directs.jpg",
   "description": null,
   "specs": {
+    "Capacidad": "4 TB",
+    "Interfaz": "NVMe PCIe",
+    "Factor de forma": "M.2 2280",
     "Efectivo/Transferencia": "$799.000",
     "Tarjeta crédito/débito": "$822.970"
   },
   "tags": [],
   "created_at": "2026-04-26 20:16:30",
-  "updated_at": "2026-04-26 20:16:30",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 707,
@@ -36,7 +39,13 @@
       "store_name": "N1G",
       "date": "2026-04-26",
       "price": 799000
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-27",
+      "price": 799000
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

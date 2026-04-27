@@ -8,12 +8,15 @@
   "image_url": "https://images.findtech.cl/products/m-b-msi-pro-z890-p-wifi-lga1851-ddr5.jpg",
   "description": null,
   "specs": {
+    "Socket": "LGA1851",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
     "Efectivo/Transferencia": "$299.900",
     "Tarjeta crédito/débito": "$308.897"
   },
   "tags": [],
   "created_at": "2026-04-26 20:27:49",
-  "updated_at": "2026-04-26 20:27:49",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 990,
@@ -36,7 +39,13 @@
       "store_name": "Alltec",
       "date": "2026-04-26",
       "price": 299900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 299900
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

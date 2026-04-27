@@ -8,17 +8,18 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Hp-Memoria-Ram-1Gb-Ddr3-800Mhz-E5K48A-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$147.700",
-    "Tarjetas de Crédito / Débito": "$155.820"
+    "Capacidad": "1 GB",
+    "Transferencia / Efectivo": "$147.540",
+    "Tarjetas de Crédito / Débito": "$155.650"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1464,
       "store_id": "centrale",
-      "price": 147700,
+      "price": 147540,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -36,7 +37,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 147700
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 147540
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

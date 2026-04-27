@@ -1,42 +1,48 @@
 {
   "id": 830,
-  "external_id": "centrale_placa-madre-msi-pro-b850-p-wifi-am5-ddr5-wifi-7-bluetooth-5-4",
-  "category_id": "mobo",
-  "brand": "MSI",
-  "name": "Placa Madre MSI PRO B850-P WiFi AM5, DDR5, WiFi 7, Bluetooth 5.4",
-  "slug": "placa-madre-msi-pro-b850-p-wifi-am5-ddr5-wifi-7-bluetooth-5-4",
-  "image_url": "https://centrale.cl/wp-content/uploads/Msi-Placa-Madre-Pro-B850-P-Wifi-Amd-Am5-4Xddr5-3Xm.2Pcie-5.0-Y-4.0-4Xsata.webp",
+  "external_id": "n1g_deepcool-ch260-wh-micro-tower-blanco-mini-itx-micro-atx-micro-atx-posterior-connector",
+  "category_id": "case",
+  "brand": "DEEPCOOL",
+  "name": "DeepCool CH260 WH Micro Tower Blanco, Mini-ITX / Micro-ATX/ Micro-ATX (Posterior Connector)",
+  "slug": "deepcool-ch260-wh-micro-tower-blanco-mini-itx-micro-atx-micro-atx-posterior-connector",
+  "image_url": "https://images.findtech.cl/products/deepcool-ch260-wh-micro-tower-blanco-mini-itx-micro-atx-micro-atx-posterior-connector.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$221.190",
-    "Tarjetas de Crédito / Débito": "$233.360"
+    "Efectivo/Transferencia": "$79.900",
+    "Tarjeta crédito/débito": "$82.297"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:33",
-  "updated_at": "2026-04-25 19:37:33",
+  "created_at": "2026-04-26 20:20:49",
+  "updated_at": "2026-04-27 21:58:27",
   "prices": [
     {
       "product_id": 830,
-      "store_id": "centrale",
-      "price": 221190,
-      "price_normal": 249580,
-      "discount_pct": 11,
+      "store_id": "n1g",
+      "price": 79900,
+      "price_normal": 84105,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-b850-p-wifi-am5-ddr5-wifi-7-bluetooth-5-4/",
-      "store_name": "Centrale",
+      "product_url": "https://n1g.cl/Home/computacion/3725-deepcool-ch260-wh-micro-tower-blanco-mini-itx-micro-atx-micro-atx-posterior-connector.html",
+      "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 221190
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 79900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-27",
+      "price": 79900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

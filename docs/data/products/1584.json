@@ -8,17 +8,19 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Disco-Duro-HDD-6TB-NAS-Western-Digital-WD-Red-Plus-5640Rpm-SATA-6GB-s_taAdAgg-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$204.660",
-    "Tarjetas de Crédito / Débito": "$215.920"
+    "Capacidad": "6 TB",
+    "Interfaz": "SATA III",
+    "Transferencia / Efectivo": "$204.430",
+    "Tarjetas de Crédito / Débito": "$215.670"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-26 20:37:43",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1584,
       "store_id": "centrale",
-      "price": 204660,
+      "price": 204430,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -36,7 +38,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 204660
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 204430
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

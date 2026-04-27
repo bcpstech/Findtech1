@@ -8,12 +8,16 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-16GB-DDR5-5600MT-s-CL46-DIMM-Kingston-Value-Ram-1.webp",
   "description": null,
   "specs": {
+    "Capacidad": "16 GB",
+    "Tipo": "DDR5",
+    "Velocidad": "5600 MHz",
+    "Latencia": "CL46",
     "Transferencia / Efectivo": "$216.480",
     "Tarjetas de Crédito / Débito": "$228.390"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1465,
@@ -36,7 +40,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 216480
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 216480
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

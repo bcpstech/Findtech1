@@ -8,12 +8,15 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Micro-ATX-MSI-PRO-H610M-G-LGA-1700-DDR5_tz0OjrN.webp",
   "description": null,
   "specs": {
+    "Socket": "LGA1700",
+    "Factor de forma": "Micro-ATX",
+    "Memoria": "DDR5",
     "Transferencia / Efectivo": "$78.220",
     "Tarjetas de Crédito / Débito": "$82.520"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1365,
@@ -50,7 +53,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 78220
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 78220
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

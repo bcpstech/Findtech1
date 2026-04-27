@@ -8,19 +8,23 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-Notebook-16GB-DDR5-5600MT-s-CL46-Kingston-SODIMM-1Rx8-1.1V-_Rd67X2I-2.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$315.570",
-    "Tarjetas de Crédito / Débito": "$332.930"
+    "Capacidad": "16 GB",
+    "Tipo": "DDR5",
+    "Velocidad": "5600 MHz",
+    "Latencia": "CL46",
+    "Transferencia / Efectivo": "$315.220",
+    "Tarjetas de Crédito / Débito": "$332.560"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1498,
       "store_id": "centrale",
-      "price": 315570,
+      "price": 315220,
       "price_normal": 521050,
-      "discount_pct": 39,
+      "discount_pct": 40,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-notebook-16gb-ddr5-5600mt-s-cl46-kingston-sodimm-1rx8-1-1v-16gbit/",
       "store_name": "Centrale",
@@ -36,7 +40,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 315570
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 315220
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

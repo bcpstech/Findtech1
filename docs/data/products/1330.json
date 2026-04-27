@@ -1,57 +1,78 @@
 {
   "id": 1330,
-  "external_id": "dust2_tarjeta-de-video-gigabyte-rtx-5050-windforce-oc-v2-8-gb",
-  "category_id": "gpu",
-  "brand": "Gigabyte",
-  "name": "Tarjeta de Video Gigabyte RTX 5050 WINDFORCE OC V2 8 GB",
-  "slug": "tarjeta-de-video-gigabyte-rtx-5050-windforce-oc-v2-8-gb",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-gigabyte-rtx-5050-windforce-oc-v2-8-gb.jpg",
+  "external_id": "centrale_placa-madre-asus-prime-a520m-k-am4-2xddr4-m-2-4xsata-hdmi",
+  "category_id": "mobo",
+  "brand": "Asus",
+  "name": "Placa Madre Asus Prime A520M-K AM4, 2xDDR4, M.2, 4xSATA, HDMI",
+  "slug": "placa-madre-asus-prime-a520m-k-am4-2xddr4-m-2-4xsata-hdmi",
+  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Prime-A520M-K-90MB1500-M0EAY0.webp",
   "description": null,
   "specs": {
-    "Marca": "Gigabyte",
-    "Transferencia/Efectivo": "$335.910",
-    "Webpay / Tarjeta crédito-débito": "$345.990"
+    "Socket": "AM4",
+    "Memoria": "DDR4",
+    "Transferencia / Efectivo": "$56.680",
+    "Tarjetas de Crédito / Débito": "$59.800"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:59:54",
-  "updated_at": "2026-04-25 20:59:54",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1330,
-      "store_id": "dust2",
-      "price": 335910,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/tarjeta-de-video-gigabyte-rtx-5050-windforce-oc-v2-8-gb/",
-      "store_name": "Dust2",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 749,
       "store_id": "centrale",
-      "price": 355610,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 56680,
+      "price_normal": 77400,
+      "discount_pct": 27,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-gigabyte-geforce-rtx-5050-windforce-oc-8gb-gddr6-128-bit/",
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-a520m-k-am4-2xddr4-m-2-4xsata-hdmi/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 970,
+      "store_id": "alltec",
+      "price": 59900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/para-amd/1333-mb-asus-prime-a520m-k-am4-ddr4-ryzen-5000.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 1165,
+      "store_id": "cg",
+      "price": 62550,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/placas-madre/asus-prime-a520m-k-placa-base-micro-atx-socket-am4-amd-a520-chipset-usb-3-2-gen-1-gigabit-lan-tarjeta-grafica-cpu-necesaria-hd-audio-8-canales/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 335910
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 56680
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 56680
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

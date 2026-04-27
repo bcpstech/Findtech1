@@ -8,12 +8,14 @@
   "image_url": "https://images.findtech.cl/products/m-b-asrock-b660m-hdv-lga1700-ddr4.jpg",
   "description": null,
   "specs": {
+    "Socket": "LGA1700",
+    "Memoria": "DDR4",
     "Efectivo/Transferencia": "$93.900",
     "Tarjeta crédito/débito": "$96.717"
   },
   "tags": [],
   "created_at": "2026-04-26 20:27:31",
-  "updated_at": "2026-04-26 20:27:31",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 975,
@@ -36,7 +38,13 @@
       "store_name": "Alltec",
       "date": "2026-04-26",
       "price": 93900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 93900
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

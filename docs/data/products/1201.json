@@ -8,17 +8,20 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Zotac-Tarjeta-De-Video-Geforce-Rtx-5080-16Gb-Solid-Core-Oc-256Bit-Gddr7-P-N.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$1.634.140",
-    "Tarjetas de Crédito / Débito": "$1.724.020"
+    "VRAM": "16 GB",
+    "Tipo memoria": "GDDR7",
+    "Variante": "OC (Overclocked)",
+    "Transferencia / Efectivo": "$1.632.330",
+    "Tarjetas de Crédito / Débito": "$1.722.110"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-04-26 20:37:32",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1201,
       "store_id": "centrale",
-      "price": 1634140,
+      "price": 1632330,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -28,6 +31,20 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2602,
+      "store_id": "trulustore",
+      "price": 1699990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-geforce-rtx-5080-solid-core-oc-16gb/",
+      "store_name": "TruluStore",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -36,7 +53,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 1634140
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 1632330
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

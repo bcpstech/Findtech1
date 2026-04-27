@@ -8,17 +8,21 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-ZOTAC-GAMING-GeForce-RTX-5070-SOLID-OC-12GB-GDDR7-192-bit.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$862.090",
-    "Tarjetas de Crédito / Débito": "$909.500"
+    "VRAM": "12 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "192-bit",
+    "Variante": "OC (Overclocked)",
+    "Transferencia / Efectivo": "$861.140",
+    "Tarjetas de Crédito / Débito": "$908.500"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-04-26 20:37:32",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1244,
       "store_id": "centrale",
-      "price": 862090,
+      "price": 861140,
       "price_normal": 1679980,
       "discount_pct": 49,
       "stock": "in_stock",
@@ -36,7 +40,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 862090
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 861140
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

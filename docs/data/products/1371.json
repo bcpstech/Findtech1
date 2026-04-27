@@ -8,12 +8,14 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Gigabyte-A520M-K-V2-micro-ATX-AMD-AM4-Ryzen-5000_AcnmWtc-1.webp",
   "description": null,
   "specs": {
+    "Socket": "AM4",
+    "Factor de forma": "Micro-ATX",
     "Transferencia / Efectivo": "$54.150",
     "Tarjetas de Crédito / Débito": "$57.130"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1371,
@@ -28,20 +30,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 2645,
-      "store_id": "trulustore",
-      "price": 69990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/placa-madre-a520m-k-v2-gigabyte-am4/",
-      "store_name": "TruluStore",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -50,7 +38,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 54150
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 54150
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

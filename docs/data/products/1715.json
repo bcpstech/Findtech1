@@ -8,17 +8,17 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-Corsair-CX550-80-PLUS-Bronze-550W.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$57.890",
-    "Tarjetas de Crédito / Débito": "$61.070"
+    "Transferencia / Efectivo": "$57.820",
+    "Tarjetas de Crédito / Débito": "$61.000"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:52",
-  "updated_at": "2026-04-26 20:37:52",
+  "updated_at": "2026-04-27 22:15:16",
   "prices": [
     {
       "product_id": 1715,
       "store_id": "centrale",
-      "price": 57890,
+      "price": 57820,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -36,7 +36,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 57890
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 57820
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

@@ -8,13 +8,14 @@
   "image_url": "https://images.findtech.cl/products/tarjeta-de-video-gigabyte-radeon-rx-9060xt-gaming-oc-ice-16g.jpg",
   "description": null,
   "specs": {
+    "Variante": "OC (Overclocked)",
     "Marca": "Gigabyte",
     "Transferencia/Efectivo": "$537.850",
     "Webpay / Tarjeta crédito-débito": "$553.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:41",
-  "updated_at": "2026-04-26 20:40:41",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1819,
@@ -37,7 +38,13 @@
       "store_name": "Dust2",
       "date": "2026-04-26",
       "price": 537850
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-27",
+      "price": 537850
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

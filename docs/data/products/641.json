@@ -8,6 +8,9 @@
   "image_url": "https://images.findtech.cl/products/supermicro-mbd-h13sra-tf-o-atx-amd-threadripper-pro-9000-7000-wx-series-and-ryzen-threadripper-9000-.jpg",
   "description": null,
   "specs": {
+    "Socket": "STR5",
+    "Factor de forma": "ATX",
+    "Memoria": "DDR5",
     "Form Factor": "ATX",
     "Dimension": "12\" x 9.6\" (30.48cm x 24.384cm)",
     "Core Count": "Up to 96C/192T",
@@ -30,7 +33,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:14:13",
-  "updated_at": "2026-04-26 20:14:13",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 641,
@@ -53,7 +56,13 @@
       "store_name": "N1G",
       "date": "2026-04-26",
       "price": 995000
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-27",
+      "price": 995000
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

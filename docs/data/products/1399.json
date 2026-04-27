@@ -8,17 +8,21 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Gigabyte-X870-EAGLE-WIFI7-AM5-ATX-DDR5-PCIe-5.0-WiFi-7-NVMe-5-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$250.870",
-    "Tarjetas de Crédito / Débito": "$264.670"
+    "Socket": "AM5",
+    "Factor de forma": "ATX",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
+    "Transferencia / Efectivo": "$250.590",
+    "Tarjetas de Crédito / Débito": "$264.370"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1399,
       "store_id": "centrale",
-      "price": 250870,
+      "price": 250590,
       "price_normal": 283610,
       "discount_pct": 12,
       "stock": "in_stock",
@@ -36,7 +40,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 250870
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 250590
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

@@ -8,12 +8,15 @@
   "image_url": "https://images.findtech.cl/products/256gb-ssd-sata3-2-5-lexar-ns100.jpg",
   "description": null,
   "specs": {
+    "Capacidad": "256 GB",
+    "Interfaz": "SATA III",
+    "Factor de forma": "2.5\"",
     "Efectivo/Transferencia": "$43.900",
     "Tarjeta crédito/débito": "$45.217"
   },
   "tags": [],
   "created_at": "2026-04-26 20:29:40",
-  "updated_at": "2026-04-26 20:29:40",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1016,
@@ -36,7 +39,13 @@
       "store_name": "Alltec",
       "date": "2026-04-26",
       "price": 43900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 43900
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

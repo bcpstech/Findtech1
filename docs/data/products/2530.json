@@ -8,12 +8,13 @@
   "image_url": "https://images.findtech.cl/products/hiksemi-disco-duro-ssd-2-5-8243-2tb-wave-s.jpg",
   "description": null,
   "specs": {
+    "Capacidad": "2 TB",
     "Transferencia/Efectivo": "$165.040",
     "Webpay / Tarjeta crédito-débito": "$169.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:50:59",
-  "updated_at": "2026-04-26 20:50:59",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 2530,
@@ -36,7 +37,13 @@
       "store_name": "MegaBytes",
       "date": "2026-04-26",
       "price": 165040
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-04-27",
+      "price": 165040
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

@@ -1,43 +1,52 @@
 {
   "id": 1493,
-  "external_id": "dust2_memoria-ram-adata-xpg-spectrix-d35g-rbg-ddr4-3200-16gb",
+  "external_id": "centrale_memoria-ram-32gb-ddr4-3600mt-s-cl18-kingston-fury-renegade-black",
   "category_id": "ram",
-  "brand": "Genérico",
-  "name": "Memoria RAM ADATA XPG Spectrix D35G RBG DDR4 3200 16GB",
-  "slug": "memoria-ram-adata-xpg-spectrix-d35g-rbg-ddr4-3200-16gb",
-  "image_url": "https://images.findtech.cl/products/memoria-ram-adata-xpg-spectrix-d35g-rbg-ddr4-3200-16gb.jpg",
+  "brand": "Kingston",
+  "name": "Memoria RAM 32GB DDR4 3600MT/s CL18 Kingston Fury Renegade Black",
+  "slug": "memoria-ram-32gb-ddr4-3600mt-s-cl18-kingston-fury-renegade-black",
+  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-32GB-DDR4-3600MT-s-CL18-Kingston-Fury-Renegade-Black_c3poTKU-1.webp",
   "description": null,
   "specs": {
-    "Marca": "ADATA",
-    "Transferencia/Efectivo": "$147.560",
-    "Webpay / Tarjeta crédito-débito": "$151.990"
+    "Capacidad": "32 GB",
+    "Tipo": "DDR4",
+    "Velocidad": "3600 MHz",
+    "Latencia": "CL18",
+    "Transferencia / Efectivo": "$434.990",
+    "Tarjetas de Crédito / Débito": "$458.910"
   },
   "tags": [],
-  "created_at": "2026-04-25 21:00:47",
-  "updated_at": "2026-04-25 21:00:47",
+  "created_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1493,
-      "store_id": "dust2",
-      "price": 147560,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "centrale",
+      "price": 434990,
+      "price_normal": 498600,
+      "discount_pct": 13,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/memoria-ram-adata-xpg-spectrix-d35g-rbg-ddr4-3200-16gb/",
-      "store_name": "Dust2",
+      "product_url": "https://centrale.cl/producto/memoria-ram-32gb-ddr4-3600mt-s-cl18-kingston-fury-renegade-black/",
+      "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 147560
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 435470
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 434990
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

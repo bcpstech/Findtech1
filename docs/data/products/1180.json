@@ -8,13 +8,16 @@
   "image_url": "https://images.findtech.cl/products/memoria-ram-xpg-gammix-d35-16gb-ddr4-white-3200mhz.jpg",
   "description": null,
   "specs": {
+    "Capacidad": "16 GB",
+    "Tipo": "DDR4",
+    "Velocidad": "3200 MHz",
     "Marca": "XPG",
     "Efectivo/Transferencia": "$118.740",
     "Webpay / Tarjeta crédito-débito": "$124.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:36:14",
-  "updated_at": "2026-04-26 20:36:14",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1180,
@@ -51,7 +54,13 @@
       "store_name": "CentralGamer",
       "date": "2026-04-26",
       "price": 118740
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-27",
+      "price": 118740
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

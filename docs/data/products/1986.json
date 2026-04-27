@@ -8,13 +8,16 @@
   "image_url": "https://images.findtech.cl/products/memoria-ram-corsair-vengeance-lpx-ddr4-8gb-3200mhz-black.jpg",
   "description": null,
   "specs": {
+    "Capacidad": "8 GB",
+    "Tipo": "DDR4",
+    "Velocidad": "3200 MHz",
     "Marca": "Corsair",
     "Transferencia/Efectivo": "$76.690",
     "Webpay / Tarjeta crédito-débito": "$78.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:42:55",
-  "updated_at": "2026-04-26 20:42:55",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1986,
@@ -37,7 +40,13 @@
       "store_name": "Dust2",
       "date": "2026-04-26",
       "price": 76690
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-27",
+      "price": 76690
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

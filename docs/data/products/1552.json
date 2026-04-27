@@ -8,12 +8,15 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Disco-Duro-HDD-14TB-NAS-TOSHIBA-N300-3.5-7200Rpm-SATA-512MB-de-Cache-1.webp",
   "description": null,
   "specs": {
+    "Capacidad": "14 TB",
+    "Interfaz": "SATA III",
+    "Factor de forma": "3.5\"",
     "Transferencia / Efectivo": "$459.410",
     "Tarjetas de Crédito / Débito": "$484.680"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-26 20:37:43",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1552,
@@ -36,7 +39,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 459410
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 459410
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

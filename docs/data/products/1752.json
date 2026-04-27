@@ -8,17 +8,17 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Xpg-Gabinete-Valor-Air-S-Fuente-Atx-4Xfan-120Mm-Wh-VALORAIRMT-WHCWW_5VRqRn5.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$42.200",
-    "Tarjetas de Crédito / Débito": "$44.520"
+    "Transferencia / Efectivo": "$42.150",
+    "Tarjetas de Crédito / Débito": "$44.470"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-04-26 20:37:55",
+  "updated_at": "2026-04-27 22:15:17",
   "prices": [
     {
       "product_id": 1752,
       "store_id": "centrale",
-      "price": 42200,
+      "price": 42150,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -36,7 +36,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 42200
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 42150
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

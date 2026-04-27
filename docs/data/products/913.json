@@ -8,12 +8,14 @@
   "image_url": "https://images.findtech.cl/products/amd-athlon-3000g-3-5ghz-dual-core-radeon.jpg",
   "description": null,
   "specs": {
+    "Frecuencia base": "3.5 GHz",
+    "Gráficos integrados": "Sí",
     "Efectivo/Transferencia": "$44.900",
     "Tarjeta crédito/débito": "$46.247"
   },
   "tags": [],
   "created_at": "2026-04-26 20:24:13",
-  "updated_at": "2026-04-26 20:24:13",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 913,
@@ -50,7 +52,13 @@
       "store_name": "Alltec",
       "date": "2026-04-26",
       "price": 44900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 44900
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

@@ -1,42 +1,44 @@
 {
   "id": 635,
-  "external_id": "alltec_gabinete-antec-vcx300-argb-black-atx",
-  "category_id": "case",
-  "brand": "Antec",
-  "name": "GABINETE ANTEC VCX300 ARGB BLACK (ATX)",
-  "slug": "gabinete-antec-vcx300-argb-black-atx",
-  "image_url": "https://images.findtech.cl/products/gabinete-antec-vcx300-argb-black-atx.jpg",
+  "external_id": "n1g_asrock-x870e-taichi-am5-amd-x870e-sata-6gb-s-extended-atx-motherboard",
+  "category_id": "mobo",
+  "brand": "ASROCK",
+  "name": "ASRock X870E TAICHI AM5 AMD X870E SATA 6Gb/s Extended ATX Motherboard",
+  "slug": "asrock-x870e-taichi-am5-amd-x870e-sata-6gb-s-extended-atx-motherboard",
+  "image_url": "https://images.findtech.cl/products/asrock-x870e-taichi-am5-amd-x870e-sata-6gb-s-extended-atx-motherboard.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$52.900",
-    "Tarjeta crédito/débito": "$54.487"
+    "Socket": "AM5",
+    "Factor de forma": "ATX",
+    "Efectivo/Transferencia": "$599.000",
+    "Tarjeta crédito/débito": "$616.970"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:54:49",
-  "updated_at": "2026-04-25 20:54:49",
+  "created_at": "2026-04-26 20:14:02",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 635,
-      "store_id": "alltec",
-      "price": 52900,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 599000,
+      "price_normal": 630526,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/sin-fuente-de-poder/2512-gabinete-antec-vcx300-argb-black-atx.html",
-      "store_name": "Alltec",
+      "product_url": "https://n1g.cl/Home/computacion/2920-asrock-x870e-taichi-am5-amd-x870e-sata-6gbs-extended-atx-motherboard.html",
+      "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "alltec",
-      "store_name": "Alltec",
-      "date": "2026-04-25",
-      "price": 52900
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-27",
+      "price": 599000
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

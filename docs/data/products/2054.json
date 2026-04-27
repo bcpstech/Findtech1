@@ -1,42 +1,65 @@
 {
   "id": 2054,
-  "external_id": "trulustore_tarjeta-de-video-nvidia-geforce-rtx-5060-8gb-asus-dual-evo-oc",
-  "category_id": "gpu",
-  "brand": "NVIDIA",
-  "name": "TARJETA DE VIDEO NVIDIA GEFORCE RTX 5060 8GB ASUS DUAL EVO OC",
-  "slug": "tarjeta-de-video-nvidia-geforce-rtx-5060-8gb-asus-dual-evo-oc",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-geforce-rtx-5060-8gb-asus-dual-evo-oc.webp",
+  "external_id": "dust2_memoria-ram-xpg-spectrix-d35g-rgb-8gb",
+  "category_id": "ram",
+  "brand": "Genérico",
+  "name": "Memoria RAM XPG Spectrix D35G RGB 8GB",
+  "slug": "memoria-ram-xpg-spectrix-d35g-rgb-8gb",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-xpg-spectrix-d35g-rgb-8gb.jpg",
   "description": null,
   "specs": {
-    "Transferencia/Efectivo": "$449.990",
-    "Webpay / Tarjeta": "$463.490"
+    "Capacidad": "8 GB",
+    "Iluminación": "RGB",
+    "Marca": "XPG",
+    "Transferencia/Efectivo": "$69.890",
+    "Webpay / Tarjeta crédito-débito": "$71.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 21:10:44",
-  "updated_at": "2026-04-25 21:10:44",
+  "created_at": "2026-04-26 20:43:41",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 2054,
-      "store_id": "trulustore",
-      "price": 449990,
+      "store_id": "dust2",
+      "price": 69890,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-geforce-rtx-5060-8gb-asus-dual-evo-oc/",
-      "store_name": "TruluStore",
+      "product_url": "https://dust2.gg/producto/memoria-ram-xpg-spectrix-d35g-rgb-8gb/",
+      "store_name": "Dust2",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 1172,
+      "store_id": "cg",
+      "price": 85490,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-spectrix-d35g-8gb-ddr4-white/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "trulustore",
-      "store_name": "TruluStore",
-      "date": "2026-04-25",
-      "price": 449990
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-26",
+      "price": 69890
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-27",
+      "price": 69890
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

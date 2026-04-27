@@ -8,17 +8,20 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-2TB-Crucial-BX500-3D-NAND-SATA-2.5_Qb3fFVA-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$233.120",
-    "Tarjetas de Crédito / Débito": "$245.940"
+    "Capacidad": "2 TB",
+    "Interfaz": "SATA III",
+    "Factor de forma": "2.5\"",
+    "Transferencia / Efectivo": "$232.860",
+    "Tarjetas de Crédito / Débito": "$245.670"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-26 20:37:43",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1581,
       "store_id": "centrale",
-      "price": 233120,
+      "price": 232860,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -36,7 +39,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 233120
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 232860
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

@@ -16,12 +16,19 @@
     "Generación": "AMD Zen 5 (4nm)",
     "Gráficos integrados": "Sí",
     "Incluye cooler": "No",
+    "Cores / Threads": "12/24",
+    "Max Boost2": "Up to 5.6Hz",
+    "Total Cache": "76MB",
+    "Architecture": "\"Zen 5\"1",
+    "PCle® Version": "5.0",
+    "Unlocked for Overclocking": "Precision Boost Overdrive3",
+    "Cooler": "Not Included",
     "Efectivo/Transferencia": "$471.000",
     "Tarjeta crédito/débito": "$485.130"
   },
   "tags": [],
   "created_at": "2026-04-26 15:48:57",
-  "updated_at": "2026-04-27 11:52:32",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 42,
@@ -40,7 +47,7 @@
     {
       "product_id": 299,
       "store_id": "centrale",
-      "price": 479270,
+      "price": 478730,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -50,6 +57,20 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2629,
+      "store_id": "trulustore",
+      "price": 549990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/procesador-amd-ryzen-9-9900x-socket-am5/",
+      "store_name": "TruluStore",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [

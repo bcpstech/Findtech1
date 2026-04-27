@@ -8,17 +8,20 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Memoria-Kingston-de-8GB-DDR5-5600MT-s-Non-ECC-Unbuffered-DIMM-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$156.380",
-    "Tarjetas de Crédito / Débito": "$164.980"
+    "Capacidad": "8 GB",
+    "Tipo": "DDR5",
+    "Velocidad": "5600 MHz",
+    "Transferencia / Efectivo": "$156.210",
+    "Tarjetas de Crédito / Débito": "$164.800"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1423,
       "store_id": "centrale",
-      "price": 156380,
+      "price": 156210,
       "price_normal": 178980,
       "discount_pct": 13,
       "stock": "in_stock",
@@ -36,7 +39,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 156380
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 156210
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

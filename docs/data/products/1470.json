@@ -8,12 +8,16 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Kingston-Memoria-Ram-Notebook-8Gb-X-3200Mhz-Ddr4-Sodimm-Memoria-Ram-Not_Pw5eD64-1.webp",
   "description": null,
   "specs": {
+    "Capacidad": "8 GB",
+    "Tipo": "DDR4",
+    "Velocidad": "3200 MHz",
+    "Latencia": "CL22",
     "Transferencia / Efectivo": "$75.610",
     "Tarjetas de Crédito / Débito": "$79.770"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1470,
@@ -36,7 +40,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 75610
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 75610
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

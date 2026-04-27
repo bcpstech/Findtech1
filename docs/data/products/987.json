@@ -1,42 +1,50 @@
 {
   "id": 987,
-  "external_id": "centrale_memoria-ram-16gb-ddr5-6000mt-s-cl36-kingston-fury-beast-black",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM 16GB DDR5 6000MT/s CL36 Kingston Fury Beast Black",
-  "slug": "memoria-ram-16gb-ddr5-6000mt-s-cl36-kingston-fury-beast-black",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-16GB-DDR5-6000MT-s-CL36-Kingston-Fury-Beast-Black-2.webp",
+  "external_id": "alltec_m-b-msi-pro-h610m-s-ddr4-lga1700-intel",
+  "category_id": "mobo",
+  "brand": "Intel",
+  "name": "M.B. MSI PRO H610M-S DDR4 (LGA1700) (INTEL...",
+  "slug": "m-b-msi-pro-h610m-s-ddr4-lga1700-intel",
+  "image_url": "https://images.findtech.cl/products/m-b-msi-pro-h610m-s-ddr4-lga1700-intel.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$219.490",
-    "Tarjetas de Crédito / Débito": "$231.560"
+    "Socket": "LGA1700",
+    "Memoria": "DDR4",
+    "Efectivo/Transferencia": "$78.700",
+    "Tarjeta crédito/débito": "$81.061"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:35",
-  "updated_at": "2026-04-25 19:37:35",
+  "created_at": "2026-04-26 20:27:46",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 987,
-      "store_id": "centrale",
-      "price": 219490,
+      "store_id": "alltec",
+      "price": 78700,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-6000mt-s-cl36-kingston-fury-beast-black/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/para-intel/2468-mb-msi-pro-h610m-s-ddr4-lga1700-intel-141312-generacion.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 219490
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 78700
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 78700
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

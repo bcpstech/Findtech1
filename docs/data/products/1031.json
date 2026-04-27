@@ -8,9 +8,11 @@
   "image_url": "https://images.findtech.cl/products/480gb-m-2-ssd-nvme-pcie-gen4-x4-crucial.jpg",
   "description": null,
   "specs": {
+    "Capacidad": "480GB",
+    "Interfaz": "NVMe PCIe",
+    "Factor de forma": "M.2 2280",
     "Velocidad de Lectura": "Hasta 4,500 MB/s",
     "Velocidad de Escritura": "Hasta 2,500 MB/s",
-    "Capacidad": "480GB",
     "Factor de Forma": "PCIe 4.0 NVMe M.2",
     "Durabilidad (TBW)": "100 TBW",
     "Comparativa de Velocidad": "8x más rápido que SATA",
@@ -29,7 +31,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:29:58",
-  "updated_at": "2026-04-26 20:29:58",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1031,
@@ -52,7 +54,13 @@
       "store_name": "Alltec",
       "date": "2026-04-26",
       "price": 69900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 69900
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

@@ -1,57 +1,65 @@
 {
   "id": 1319,
-  "external_id": "dust2_tarjeta-de-video-msi-geforce-rtx-5070-12g-ventus-3x-oc",
-  "category_id": "gpu",
+  "external_id": "centrale_placa-madre-msi-b760m-gaming-plus-wifi-lga-1700-ddr5-wifi-6e",
+  "category_id": "mobo",
   "brand": "MSI",
-  "name": "Tarjeta de Video MSI GeForce RTX 5070 12G VENTUS 3X OC",
-  "slug": "tarjeta-de-video-msi-geforce-rtx-5070-12g-ventus-3x-oc",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-msi-geforce-rtx-5070-12g-ventus-3x-oc.jpg",
+  "name": "Placa Madre MSI B760M Gaming Plus WiFi LGA 1700, DDR5, WiFi 6E",
+  "slug": "placa-madre-msi-b760m-gaming-plus-wifi-lga-1700-ddr5-wifi-6e",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-MSI-B760M-Gaming-Plus-WiFi-LGA-1700-DDR5-WiFi-6E-1776727921.webp",
   "description": null,
   "specs": {
-    "Marca": "MSI",
-    "Transferencia/Efectivo": "$728.050",
-    "Webpay / Tarjeta crédito-débito": "$749.890"
+    "Socket": "LGA1700",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
+    "Transferencia / Efectivo": "$159.340",
+    "Tarjetas de Crédito / Débito": "$168.100"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:40:20",
-  "updated_at": "2026-04-25 19:40:20",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1319,
-      "store_id": "dust2",
-      "price": 728050,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/tarjeta-de-video-msi-geforce-rtx-5070-12g-ventus-3x-oc/",
-      "store_name": "Dust2",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 712,
       "store_id": "centrale",
-      "price": 751170,
+      "price": 159340,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-de-video-msi-geforce-rtx-5070-shadow-2x-oc-12gb-gddr7/",
+      "product_url": "https://centrale.cl/producto/placa-madre-msi-b760m-gaming-plus-wifi-lga-1700-ddr5-wifi-6e/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 609,
+      "store_id": "n1g",
+      "price": 289000,
+      "price_normal": 304210,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/2708-msi-b760m-project-zero-wi-fi-6e-lga-1700-sata-6gbs-lga1700-ddr5-back-connect-design-matx.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 728050
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 159340
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 159340
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

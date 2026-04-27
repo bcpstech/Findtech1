@@ -1,46 +1,66 @@
 {
   "id": 1376,
-  "external_id": "pcexpress_21123-fuente-de-poder-gigabyte-1000w-ud1000gm-80-plus-gold-full-modular-no-pg5-p-n-gp-ud1000gm",
-  "category_id": "psu",
-  "brand": "Gigabyte",
-  "name": "21123 - fuente de poder gigabyte 1000w ud1000gm 80 plus gold full modular ( no pg5 ) p/n gp-ud1000gm",
-  "slug": "21123-fuente-de-poder-gigabyte-1000w-ud1000gm-80-plus-gold-full-modular-no-pg5-p-n-gp-ud1000gm",
-  "image_url": null,
+  "external_id": "centrale_placa-madre-msi-x870e-gaming-plus-wifi-atx-am5-ddr5-wifi-7",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "Placa Madre MSI X870E GAMING PLUS WIFI (ATX, AM5, DDR5, WiFi 7)",
+  "slug": "placa-madre-msi-x870e-gaming-plus-wifi-atx-am5-ddr5-wifi-7",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-MSI-X870E-GAMING-PLUS-WIFI-ATX-AM5-DDR5-WiFi-7_rLs6a45-1.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$119.900",
-    "Tarjeta crédito/débito": "$123.497"
+    "Socket": "AM5",
+    "Factor de forma": "ATX",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
+    "Transferencia / Efectivo": "$295.490",
+    "Tarjetas de Crédito / Débito": "$311.740"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:59:11",
-  "updated_at": "2026-04-25 12:59:11",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
-      "id": 1376,
       "product_id": 1376,
-      "store_id": "pcexpress",
-      "price": 119900,
+      "store_id": "centrale",
+      "price": 295490,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=21123&search=fuente+poder+80+plus&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:59:11",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/placa-madre-msi-x870e-gaming-plus-wifi-atx-am5-ddr5-wifi-7/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 1159,
+      "store_id": "cg",
+      "price": 337250,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-msi-x870e-gaming-plus-wifi/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
-      "date": "2026-04-25",
-      "price": 119900
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 295490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 295490
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

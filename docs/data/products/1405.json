@@ -1,99 +1,52 @@
 {
   "id": 1405,
-  "external_id": "dust2_tarjeta-de-video-asus-dual-geforce-rtx-3050-oc-6gb-gddr6",
-  "category_id": "gpu",
-  "brand": "ASUS",
-  "name": "Tarjeta de Video ASUS Dual GeForce RTX 3050 OC 6GB GDDR6",
-  "slug": "tarjeta-de-video-asus-dual-geforce-rtx-3050-oc-6gb-gddr6",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-asus-dual-geforce-rtx-3050-oc-6gb-gddr6.jpg",
+  "external_id": "centrale_placa-madre-atx-asus-rog-maximus-z890-hero-socket-intel-lga-1851-ddr5-wifi-7",
+  "category_id": "mobo",
+  "brand": "Rog",
+  "name": "Placa Madre ATX ASUS ROG MAXIMUS Z890 HERO, Socket Intel LGA 1851, DDR5, WiFi 7",
+  "slug": "placa-madre-atx-asus-rog-maximus-z890-hero-socket-intel-lga-1851-ddr5-wifi-7",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ATX-ASUS-ROG-MAXIMUS-Z890-HERO-Socket-Intel-LGA-1851-DDR5-WiFi-7-1.webp",
   "description": null,
   "specs": {
-    "Marca": "ASUS",
-    "Transferencia/Efectivo": "$215.520",
-    "Webpay / Tarjeta crédito-débito": "$221.990"
+    "Socket": "LGA1851",
+    "Factor de forma": "E-ATX",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
+    "Transferencia / Efectivo": "$786.570",
+    "Tarjetas de Crédito / Débito": "$829.830"
   },
   "tags": [],
-  "created_at": "2026-04-25 21:00:11",
-  "updated_at": "2026-04-25 21:00:11",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1405,
-      "store_id": "dust2",
-      "price": 215520,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/tarjeta-de-video-asus-dual-geforce-rtx-3050-oc-6gb-gddr6/",
-      "store_name": "Dust2",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 410,
-      "store_id": "alltec",
-      "price": 229900,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/nvidia/2246-tv-asus-dual-geforce-rtx-3050-oc-edition-6gb-gddr6.html",
-      "store_name": "Alltec",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
-    },
-    {
-      "product_id": 719,
       "store_id": "centrale",
-      "price": 242720,
-      "price_normal": 282210,
-      "discount_pct": 14,
+      "price": 786570,
+      "price_normal": 895870,
+      "discount_pct": 12,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/asus-tarjeta-grafica-dual-geforce-rtx-3050-oc-edition-6gb-gddr6-ray-tracing/",
+      "product_url": "https://centrale.cl/producto/placa-madre-atx-asus-rog-maximus-z890-hero-socket-intel-lga-1851-ddr5-wifi-7/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 640,
-      "store_id": "cg",
-      "price": 427500,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/grafica-asus/tarjeta-de-video-asus-dual-rtx-5060-oc-8gb-evo/",
-      "store_name": "CentralGamer",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
-    },
-    {
-      "product_id": 16,
-      "store_id": "n1g",
-      "price": 499000,
-      "price_normal": 525263,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3369-asus-prime-rtx-5060-ti-8gb-128-bit-gddr7-pci-e-50-x8-dlss-40-geforce-prime-rtx5060ti-o8g.html",
-      "store_name": "N1G",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 215520
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 787450
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 786570
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

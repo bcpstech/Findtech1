@@ -8,17 +8,17 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Pctronix-CLIO-Slim-Tower-S609-Micro-ATX-500W-USB-3.0-Negro-1776878628.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$43.880",
-    "Tarjetas de Crédito / Débito": "$46.290"
+    "Transferencia / Efectivo": "$43.680",
+    "Tarjetas de Crédito / Débito": "$46.080"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-04-26 20:37:55",
+  "updated_at": "2026-04-27 22:15:17",
   "prices": [
     {
       "product_id": 1729,
       "store_id": "centrale",
-      "price": 43880,
+      "price": 43680,
       "price_normal": 50730,
       "discount_pct": 14,
       "stock": "in_stock",
@@ -36,7 +36,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 43880
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 43680
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

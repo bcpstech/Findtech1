@@ -1,46 +1,52 @@
 {
   "id": 1345,
-  "external_id": "pcexpress_12510-disco-kingston-de-estado-solido-ssd-1tb-kc3000-m-2-2280-nvme-pci-e-p-n-skc3000s-1024g",
-  "category_id": "storage",
-  "brand": "Kingston",
-  "name": "12510 - disco kingston de estado solido ssd 1tb kc3000 m.2 2280 nvme pci-e p/n skc3000s/1024g",
-  "slug": "12510-disco-kingston-de-estado-solido-ssd-1tb-kc3000-m-2-2280-nvme-pci-e-p-n-skc3000s-1024g",
-  "image_url": null,
+  "external_id": "centrale_placa-madre-asus-tuf-gaming-b650m-plus-wifi-am5-ddr5-micro-atx",
+  "category_id": "mobo",
+  "brand": "Asus",
+  "name": "Placa Madre ASUS TUF Gaming B650M-Plus WiFi AM5 DDR5, Micro ATX",
+  "slug": "placa-madre-asus-tuf-gaming-b650m-plus-wifi-am5-ddr5-micro-atx",
+  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Motherboard-Tuf-Gaming-B650M-Plus-Wifi-Am-90MB1BF0-M0AAY0.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$272.500",
-    "Tarjeta crédito/débito": "$280.675"
+    "Socket": "AM5",
+    "Factor de forma": "Micro-ATX",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
+    "Transferencia / Efectivo": "$196.080",
+    "Tarjetas de Crédito / Débito": "$206.860"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:53",
-  "updated_at": "2026-04-25 12:58:53",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
-      "id": 1345,
       "product_id": 1345,
-      "store_id": "pcexpress",
-      "price": 272500,
+      "store_id": "centrale",
+      "price": 196080,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=12510&search=ssd+nvme+m2+pcie&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:53",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-tuf-gaming-b650m-plus-wifi-am5-ddr5-micro-atx/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
-      "date": "2026-04-25",
-      "price": 272500
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 196080
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 196080
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

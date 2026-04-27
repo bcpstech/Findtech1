@@ -8,17 +8,20 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-ASUS-TUF-Gaming-GeForce-RTX-5080-OC-Edition-16GB-GDDR7-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$1.903.130",
-    "Tarjetas de Crédito / Débito": "$2.007.800"
+    "VRAM": "16 GB",
+    "Tipo memoria": "GDDR7",
+    "Variante": "OC (Overclocked)",
+    "Transferencia / Efectivo": "$1.899.980",
+    "Tarjetas de Crédito / Débito": "$2.004.480"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-04-26 20:37:32",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1251,
       "store_id": "centrale",
-      "price": 1903130,
+      "price": 1899980,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -64,7 +67,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 1903130
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 1899980
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

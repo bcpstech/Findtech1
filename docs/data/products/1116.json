@@ -1,42 +1,48 @@
 {
   "id": 1116,
-  "external_id": "centrale_refrigeracion-liquida-cooler-master-masterliquid-core-nex-240-argb",
-  "category_id": "cooling",
-  "brand": "Cooler Master",
-  "name": "Refrigeración Líquida Cooler Master Masterliquid Core Nex 240 ARGB",
-  "slug": "refrigeracion-liquida-cooler-master-masterliquid-core-nex-240-argb",
-  "image_url": "https://centrale.cl/wp-content/uploads/Cooler-Master-Masterliquid-Core-Nex-240-Argb-MLX-D24M-A18PA-R1-1775691135.webp",
+  "external_id": "alltec_gabinete-xigmatek-pano-eatx-tg-curved",
+  "category_id": "case",
+  "brand": "Genérico",
+  "name": "GABINETE XIGMATEK PANO (EATX) TG CURVED...",
+  "slug": "gabinete-xigmatek-pano-eatx-tg-curved",
+  "image_url": "https://images.findtech.cl/products/gabinete-xigmatek-pano-eatx-tg-curved.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$64.960",
-    "Tarjetas de Crédito / Débito": "$68.530"
+    "Efectivo/Transferencia": "$175.900",
+    "Tarjeta crédito/débito": "$181.177"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:23",
-  "updated_at": "2026-04-25 20:57:23",
+  "created_at": "2026-04-26 20:34:31",
+  "updated_at": "2026-04-27 22:12:16",
   "prices": [
     {
       "product_id": 1116,
-      "store_id": "centrale",
-      "price": 64960,
+      "store_id": "alltec",
+      "price": 175900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/refrigeracion-liquida-cooler-master-masterliquid-core-nex-240-argb/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/sin-fuente-de-poder/2402-gabinete-xigmatek-pano-eatx-tg-curved-7x120mm-fan-argb.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 64960
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 175900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 175900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

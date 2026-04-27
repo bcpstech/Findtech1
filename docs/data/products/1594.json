@@ -1,43 +1,64 @@
 {
   "id": 1594,
-  "external_id": "dust2_disco-duro-ssd-m-2-kingspec-xg7000-1tb-nvme-gen4-pcle-4-0",
+  "external_id": "centrale_disco-ssd-nvme-512gb-kingston-kc3000-pcie-4-0-7000-mb-s",
   "category_id": "storage",
-  "brand": "Genérico",
-  "name": "Disco Duro SSD M.2 KingSpec XG7000 1TB NVMe Gen4 PCle 4.0",
-  "slug": "disco-duro-ssd-m-2-kingspec-xg7000-1tb-nvme-gen4-pcle-4-0",
-  "image_url": "https://images.findtech.cl/products/disco-duro-ssd-m-2-kingspec-xg7000-1tb-nvme-gen4-pcle-4-0.jpg",
+  "brand": "Kingston",
+  "name": "Disco SSD NVMe 512GB Kingston KC3000 PCIe 4.0 7000 MB/s",
+  "slug": "disco-ssd-nvme-512gb-kingston-kc3000-pcie-4-0-7000-mb-s",
+  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-NVMe-512GB-Kingston-KC3000-PCIe-4.0-7000-MB-s_mpP88B6.webp",
   "description": null,
   "specs": {
-    "Marca": "KingSpec",
-    "Transferencia/Efectivo": "$118.440",
-    "Webpay / Tarjeta crédito-débito": "$121.990"
+    "Capacidad": "512 GB",
+    "Interfaz": "NVMe PCIe",
+    "Transferencia / Efectivo": "$129.470",
+    "Tarjetas de Crédito / Débito": "$136.590"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:42:22",
-  "updated_at": "2026-04-25 19:42:22",
+  "created_at": "2026-04-26 20:37:43",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1594,
-      "store_id": "dust2",
-      "price": 118440,
+      "store_id": "centrale",
+      "price": 129470,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/disco-duro-ssd-m-2-kingspec-xg7000-1tb-nvme-gen4-pcle-4-0/",
-      "store_name": "Dust2",
+      "product_url": "https://centrale.cl/producto/disco-ssd-nvme-512gb-kingston-kc3000-pcie-4-0-7000-mb-s/",
+      "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 4196,
+      "store_id": "cg",
+      "price": 301330,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/almacenamiento/disco-ssd-kingston-kc3000-2tb-m-2-nvme-pcie-7000-7000mb-s/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 118440
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 129470
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 129470
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

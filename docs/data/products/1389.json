@@ -8,12 +8,16 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Gigabyte-B550M-DS3H-AC-R2-Micro-ATX-AM4-DDR4-PCIe-4.0-WiFi-5-1.webp",
   "description": null,
   "specs": {
+    "Socket": "AM4",
+    "Factor de forma": "Micro-ATX",
+    "Memoria": "DDR4",
+    "WiFi": "Integrado",
     "Transferencia / Efectivo": "$109.500",
     "Tarjetas de Crédito / Débito": "$115.520"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1389,
@@ -36,7 +40,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 109500
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 109500
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

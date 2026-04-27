@@ -8,19 +8,22 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Seagate-Disco-Duro-Barracuda-1-Tb-Interno-3.5-Sata-6Gb-S-7200-Rpm-BC3BAfer-256-Mb.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$97.980",
-    "Tarjetas de Crédito / Débito": "$103.370"
+    "Capacidad": "1 TB",
+    "Interfaz": "SATA III",
+    "Factor de forma": "3.5\"",
+    "Transferencia / Efectivo": "$93.400",
+    "Tarjetas de Crédito / Débito": "$98.540"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-26 20:37:43",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1540,
       "store_id": "centrale",
-      "price": 97980,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 93400,
+      "price_normal": 104650,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-seagate-barracuda-1tb-sata-6gb-s-7200rpm-256mb-3-5/",
       "store_name": "Centrale",
@@ -36,7 +39,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 97980
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 93400
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

@@ -8,17 +8,17 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Asus-Rog-Ryuo-Iv-Slc-360-Argb-90RC0151-B0AAY0.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$353.130",
-    "Tarjetas de Crédito / Débito": "$372.550"
+    "Transferencia / Efectivo": "$352.720",
+    "Tarjetas de Crédito / Débito": "$372.120"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:45",
-  "updated_at": "2026-04-26 20:37:45",
+  "updated_at": "2026-04-27 22:15:09",
   "prices": [
     {
       "product_id": 1615,
       "store_id": "centrale",
-      "price": 353130,
+      "price": 352720,
       "price_normal": 401740,
       "discount_pct": 12,
       "stock": "in_stock",
@@ -50,7 +50,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 353130
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 352720
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

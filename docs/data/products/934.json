@@ -8,12 +8,14 @@
   "image_url": "https://images.findtech.cl/products/3-5ghz-intel-i9-11900kf-5-3ghz-turbo.jpg",
   "description": null,
   "specs": {
+    "Frecuencia base": "3.5 GHz",
+    "Frecuencia turbo": "5.3 GHz",
     "Efectivo/Transferencia": "$399.900",
     "Tarjeta crédito/débito": "$411.897"
   },
   "tags": [],
   "created_at": "2026-04-26 20:25:20",
-  "updated_at": "2026-04-26 20:25:20",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 934,
@@ -36,7 +38,13 @@
       "store_name": "Alltec",
       "date": "2026-04-26",
       "price": 399900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 399900
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

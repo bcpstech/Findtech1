@@ -15,7 +15,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:01",
-  "updated_at": "2026-04-26 20:40:01",
+  "updated_at": "2026-04-27 22:17:25",
   "prices": [
     {
       "product_id": 1766,
@@ -30,34 +30,6 @@
       "review_count": 0,
       "store_url": "www.progaming.cl",
       "full_url": "https://www.progaming.cl"
-    },
-    {
-      "product_id": 1611,
-      "store_id": "centrale",
-      "price": 159990,
-      "price_normal": 181970,
-      "discount_pct": 12,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/refrigeracion-liquida-aio-asus-tuf-gaming-lc-iii-360-argb-lcd/",
-      "store_name": "Centrale",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 779,
-      "store_id": "n1g",
-      "price": 299000,
-      "price_normal": 314737,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3581-asus-rog-strix-lc-iii-360-argb-lcd-aio-wc-cpu-intel-lga-1700-amd-am5-con-lcd-ips-de-21-bomba-gen7-v2.html",
-      "store_name": "N1G",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -66,7 +38,13 @@
       "store_name": "ProGaming",
       "date": "2026-04-26",
       "price": 106790
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-04-27",
+      "price": 106790
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

@@ -1,46 +1,53 @@
 {
   "id": 1341,
-  "external_id": "pcexpress_20798-ssd-western-digital-green-500gb-sn3000-nvme-m-2-2280-pciex-4-0-x4-p-n-wds500g4g0e",
-  "category_id": "storage",
-  "brand": "WD",
-  "name": "20798 - ssd western digital green 500gb sn3000 nvme - m.2 2280 - pciex 4.0 x4 p/n wds500g4g0e",
-  "slug": "20798-ssd-western-digital-green-500gb-sn3000-nvme-m-2-2280-pciex-4-0-x4-p-n-wds500g4g0e",
-  "image_url": null,
+  "external_id": "centrale_placa-madre-asus-rog-maximus-z890-hero-lga1851-4ddr5-6m-2-wifi7-atx",
+  "category_id": "mobo",
+  "brand": "Asus",
+  "name": "Placa Madre ASUS ROG MAXIMUS Z890 HERO LGA1851, 4DDR5, 6M.2, WiFi7, ATX",
+  "slug": "placa-madre-asus-rog-maximus-z890-hero-lga1851-4ddr5-6m-2-wifi7-atx",
+  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Motherboard-1851-Ddr-ROG-MAXIMUS-Z890-HERO.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$101.500",
-    "Tarjeta crédito/débito": "$104.545"
+    "Socket": "LGA1851",
+    "Factor de forma": "ATX",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
+    "Slots M.2": "6",
+    "Transferencia / Efectivo": "$748.490",
+    "Tarjetas de Crédito / Débito": "$789.660"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:53",
-  "updated_at": "2026-04-25 12:58:53",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
-      "id": 1341,
       "product_id": 1341,
-      "store_id": "pcexpress",
-      "price": 101500,
+      "store_id": "centrale",
+      "price": 748490,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=20798&search=ssd+nvme+m2+pcie&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:53",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-maximus-z890-hero-lga1851-4ddr5-6m-2-wifi7-atx/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
-      "date": "2026-04-25",
-      "price": 101500
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 748490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 748490
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

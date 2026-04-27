@@ -8,13 +8,15 @@
   "image_url": "https://images.findtech.cl/products/disco-duro-externo-western-digital-elements-2tb-8211-usb-3-0.jpg",
   "description": null,
   "specs": {
+    "Capacidad": "2 TB",
+    "Interfaz": "USB",
     "Marca": "WESTERN DIGITAL",
     "Transferencia/Efectivo": "$89.310",
     "Webpay / Tarjeta crédito-débito": "$91.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:44:20",
-  "updated_at": "2026-04-26 20:44:20",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 2099,
@@ -37,7 +39,13 @@
       "store_name": "Dust2",
       "date": "2026-04-26",
       "price": 89310
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-27",
+      "price": 89310
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

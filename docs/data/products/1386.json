@@ -1,46 +1,50 @@
 {
   "id": 1386,
-  "external_id": "pcexpress_20463-gabinete-xpg-valor-air-plus-atx-4xfan-argb-white-s-fuente",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "20463 - gabinete xpg valor air plus atx 4xfan argb white s/fuente",
-  "slug": "20463-gabinete-xpg-valor-air-plus-atx-4xfan-argb-white-s-fuente",
-  "image_url": null,
+  "external_id": "centrale_placa-madre-asus-prime-b860m-a-lga-1851-ddr5-m-2-gen5-pcie-gen5",
+  "category_id": "mobo",
+  "brand": "Asus",
+  "name": "Placa Madre ASUS PRIME B860M-A  LGA 1851, DDR5 , M.2 Gen5, PCIe Gen5",
+  "slug": "placa-madre-asus-prime-b860m-a-lga-1851-ddr5-m-2-gen5-pcie-gen5",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Asus-Micro-Atx-Lga-1851-PRIME-B860M-A-1.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$49.900",
-    "Tarjeta crédito/débito": "$51.397"
+    "Socket": "LGA1851",
+    "Memoria": "DDR5",
+    "Transferencia / Efectivo": "$157.430",
+    "Tarjetas de Crédito / Débito": "$166.090"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:59:17",
-  "updated_at": "2026-04-25 12:59:17",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
-      "id": 1386,
       "product_id": 1386,
-      "store_id": "pcexpress",
-      "price": 49900,
-      "price_normal": null,
-      "discount_pct": null,
-      "currency": "CLP",
+      "store_id": "centrale",
+      "price": 157430,
+      "price_normal": 182500,
+      "discount_pct": 14,
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=20463&search=gabinete+atx+gamer&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:59:17",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b860m-a-lga-1851-ddr5-m-2-gen5-pcie-gen5/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
-      "date": "2026-04-25",
-      "price": 49900
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 157430
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 157430
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

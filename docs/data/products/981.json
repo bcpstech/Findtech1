@@ -8,12 +8,14 @@
   "image_url": "https://images.findtech.cl/products/m-b-asrock-b760m-h-m-2-lga1700-ddr5.jpg",
   "description": null,
   "specs": {
+    "Socket": "LGA1700",
+    "Memoria": "DDR5",
     "Efectivo/Transferencia": "$110.900",
     "Tarjeta crédito/débito": "$114.227"
   },
   "tags": [],
   "created_at": "2026-04-26 20:27:38",
-  "updated_at": "2026-04-26 20:27:38",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 981,
@@ -36,7 +38,13 @@
       "store_name": "Alltec",
       "date": "2026-04-26",
       "price": 110900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 110900
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

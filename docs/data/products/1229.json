@@ -8,12 +8,16 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Msi-Tarjeta-De-Video-Nvidia-Geforce-GT-1030-4Gd4-Lp-Oc-4Gb-Ddr4-64-Bit-Low.webp",
   "description": null,
   "specs": {
+    "VRAM": "4 GB",
+    "Bus de memoria": "64-bit",
+    "Factor de forma": "Low Profile",
+    "Variante": "OC (Overclocked)",
     "Transferencia / Efectivo": "$132.320",
     "Tarjetas de Crédito / Débito": "$139.600"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-04-26 20:37:32",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1229,
@@ -36,7 +40,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 132320
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 132320
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

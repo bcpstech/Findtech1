@@ -8,12 +8,13 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Asus-Tarjeta-De-Video-Dual-Rtx5060-O8Gb-Evo-90YV0NS0-M0AA00.webp",
   "description": null,
   "specs": {
+    "VRAM": "8 GB",
     "Transferencia / Efectivo": "$421.890",
     "Tarjetas de Crédito / Débito": "$445.090"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-04-26 20:37:32",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1209,
@@ -36,7 +37,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 421890
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 421890
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

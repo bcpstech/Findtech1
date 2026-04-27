@@ -8,13 +8,16 @@
   "image_url": "https://images.findtech.cl/products/disco-duro-ssd-adata-legend-710-gen3-m-2-1tb.jpg",
   "description": null,
   "specs": {
+    "Capacidad": "1 TB",
+    "Interfaz": "NVMe PCIe",
+    "Factor de forma": "M.2 2280",
     "Marca": "ADATA",
     "Transferencia/Efectivo": "$199.990",
     "Webpay / Tarjeta crédito-débito": "$205.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:44:17",
-  "updated_at": "2026-04-26 20:44:17",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 2094,
@@ -37,7 +40,13 @@
       "store_name": "Dust2",
       "date": "2026-04-26",
       "price": 199990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-27",
+      "price": 199990
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

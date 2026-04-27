@@ -5,20 +5,24 @@
   "brand": "Asus",
   "name": "Placa Madre ASUS PRIME B550M-A AC (Micro ATX, AM4, DDR4, PCIe 4.0, WiFi, BT)",
   "slug": "placa-madre-asus-prime-b550m-a-ac-micro-atx-am4-ddr4-pcie-4-0-wifi-bt",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASUS-PRIME-B550M-A-AC-Micro-ATX-AM4-DDR4-PCIe-4.0-WiFi-BT-1_cIWvvap.webp",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASUS-PRIME-B550M-A-AC-Micro-ATX-AM4-DDR4-PCIe-4.0-WiFi-BT-1_QprEFjY.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$104.820",
-    "Tarjetas de Crédito / Débito": "$110.590"
+    "Socket": "AM4",
+    "Factor de forma": "Micro-ATX",
+    "Memoria": "DDR4",
+    "WiFi": "Integrado",
+    "Transferencia / Efectivo": "$104.710",
+    "Tarjetas de Crédito / Débito": "$110.470"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1366,
       "store_id": "centrale",
-      "price": 104820,
+      "price": 104710,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -64,7 +68,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 104820
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 104710
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

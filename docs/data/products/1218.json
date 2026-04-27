@@ -8,12 +8,14 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-PNY-Nvidia-Quadro-RTX-2000-Ada-16GB-GDDR6-ECC-PCIe-4.0-x8-1.webp",
   "description": null,
   "specs": {
+    "VRAM": "16 GB",
+    "Tipo memoria": "GDDR6",
     "Transferencia / Efectivo": "$949.900",
     "Tarjetas de Crédito / Débito": "$1.002.140"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-04-26 20:37:32",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1218,
@@ -36,7 +38,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 949900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 949900
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

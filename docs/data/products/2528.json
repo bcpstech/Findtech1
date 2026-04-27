@@ -8,12 +8,15 @@
   "image_url": "https://images.findtech.cl/products/crucial-e100-480gb-nvme-pciex-4-0-m-2-2280.png",
   "description": null,
   "specs": {
+    "Capacidad": "480 GB",
+    "Interfaz": "NVMe PCIe",
+    "Factor de forma": "M.2 2280",
     "Transferencia/Efectivo": "$80.570",
     "Webpay / Tarjeta crédito-débito": "$82.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:50:58",
-  "updated_at": "2026-04-26 20:50:58",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 2528,
@@ -36,7 +39,13 @@
       "store_name": "MegaBytes",
       "date": "2026-04-26",
       "price": 80570
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-04-27",
+      "price": 80570
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

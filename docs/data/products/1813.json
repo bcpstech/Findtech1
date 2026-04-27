@@ -8,13 +8,15 @@
   "image_url": "https://images.findtech.cl/products/tarjeta-de-video-asrock-arc-a380-challenger-itx-6gb-oc.jpg",
   "description": null,
   "specs": {
+    "VRAM": "6 GB",
+    "Variante": "OC (Overclocked)",
     "Marca": "ASRock",
     "Transferencia/Efectivo": "$168.920",
     "Webpay / Tarjeta crédito-débito": "$173.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:36",
-  "updated_at": "2026-04-26 20:40:36",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1813,
@@ -37,7 +39,13 @@
       "store_name": "Dust2",
       "date": "2026-04-26",
       "price": 168920
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-27",
+      "price": 168920
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

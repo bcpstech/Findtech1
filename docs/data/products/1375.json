@@ -8,12 +8,15 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Asus-Tarjeta-Madre-H610M-F-D4-Ddr4-Lga1700-90MB1H70-M0EAY0-1.webp",
   "description": null,
   "specs": {
+    "Socket": "LGA1700",
+    "Factor de forma": "Micro-ATX",
+    "Memoria": "DDR4",
     "Transferencia / Efectivo": "$72.110",
     "Tarjetas de Crédito / Débito": "$76.080"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1375,
@@ -50,7 +53,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 72110
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 72110
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

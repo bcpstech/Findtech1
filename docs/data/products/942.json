@@ -1,46 +1,78 @@
 {
   "id": 942,
-  "external_id": "centrale_memoria-ram-notebook-16gb-ddr5-5600mt-s-cl46-crucial-sodimm-1-1v",
-  "category_id": "ram",
-  "brand": "Crucial",
-  "name": "Memoria RAM Notebook 16GB DDR5 5600MT/s CL46 Crucial SODIMM 1.1v",
-  "slug": "memoria-ram-notebook-16gb-ddr5-5600mt-s-cl46-crucial-sodimm-1-1v",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-Notebook-16GB-DDR5-5600MT-s-CL46-Crucial-SODIMM-1.1v_g7Eg28P-2.webp",
+  "external_id": "alltec_2-1ghz-intel-i7-12700-4-9ghz-turbo",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "2.1GHz INTEL I7-12700 (4.9GHz TURBO,...",
+  "slug": "2-1ghz-intel-i7-12700-4-9ghz-turbo",
+  "image_url": "https://images.findtech.cl/products/2-1ghz-intel-i7-12700-4-9ghz-turbo.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$310.710",
-    "Tarjetas de Crédito / Débito": "$327.800"
+    "Frecuencia base": "2.1 GHz",
+    "Frecuencia turbo": "4.9 GHz",
+    "Efectivo/Transferencia": "$318.000",
+    "Tarjeta crédito/débito": "$327.540"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:00",
-  "updated_at": "2026-04-25 18:20:00",
+  "created_at": "2026-04-26 20:25:30",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
-      "id": 942,
       "product_id": 942,
-      "store_id": "centrale",
-      "price": 310710,
+      "store_id": "alltec",
+      "price": 318000,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-16gb-ddr5-5600mt-s-cl46-crucial-sodimm-1-1v/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:00",
+      "product_url": "https://www.alltec.cl/intel/2223-1ghz-intel-i7-12700-49ghz-turbo-12c20t-25mb-cache-65w-lga1700-intel-uhd-770-12th-generacion.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 322,
+      "store_id": "centrale",
+      "price": 359050,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-12700-3-6ghz-12-core-20-hilos-lga-1700/",
       "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
       "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 1141,
+      "store_id": "cg",
+      "price": 401600,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-i7-12700-2-1-ghz-12-nucleos-20-hilos-25-mb-cache-lga1700-socket-caja/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 310710
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 318000
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 318000
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

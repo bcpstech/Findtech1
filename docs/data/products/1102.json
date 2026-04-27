@@ -1,42 +1,61 @@
 {
   "id": 1102,
-  "external_id": "centrale_disco-ssd-2tb-kingston-fury-renegade-pcie-4-0-nvme-con-disipador-ps5-compatible",
-  "category_id": "storage",
-  "brand": "Kingston",
-  "name": "Disco SSD 2TB Kingston Fury Renegade PCIe 4.0 NVMe con Disipador PS5 Compatible",
-  "slug": "disco-ssd-2tb-kingston-fury-renegade-pcie-4-0-nvme-con-disipador-ps5-compatible",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-2TB-Kingston-Fury-Renegade-PCIe-4.0-NVMe-con-Disipador-PS5-Co_uk45wPn.webp",
+  "external_id": "alltec_gabinete-xigmatek-beast-atx-rainbow-fan",
+  "category_id": "case",
+  "brand": "Genérico",
+  "name": "GABINETE XIGMATEK BEAST (ATX) (RAINBOW FAN...",
+  "slug": "gabinete-xigmatek-beast-atx-rainbow-fan",
+  "image_url": "https://images.findtech.cl/products/gabinete-xigmatek-beast-atx-rainbow-fan.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$400.280",
-    "Tarjetas de Crédito / Débito": "$422.300"
+    "Nombre de Producto": "BEAST",
+    "Material": "METAL - PLASTICO - VIDRIO TEMPLADO",
+    "Dimensiones": "398 x 200 x 480 mm (LxWxH)",
+    "Bahias para Unidades": "2.5\" SSD/HDD x 2",
+    "Slots de Expansion": "7 Slots Estandar",
+    "Soporte Placa Madre": "ATX, M-ATX, MINI ITX",
+    "Fuente Poder": "Parte Inferior, Fuente no Incluida",
+    "Ventiladores Incluidos": "1x 120mm Parte Trasera (Rainbow LED c/Control)",
+    "Soporte Ventiladores": "Frontales: 3x 120mm",
+    "Soporte Watercooling": "Frontal: 240mm",
+    "Conectores I/O Panel": "USB3.0 x1 + USB2.0x2 + HD Audio",
+    "Altura CPU Cooler": "158mm",
+    "Largo VGA": "360mm",
+    "Efectivo/Transferencia": "$88.900",
+    "Tarjeta crédito/débito": "$91.567"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:21",
-  "updated_at": "2026-04-25 20:57:21",
+  "created_at": "2026-04-26 20:34:14",
+  "updated_at": "2026-04-27 22:11:58",
   "prices": [
     {
       "product_id": 1102,
-      "store_id": "centrale",
-      "price": 400280,
+      "store_id": "alltec",
+      "price": 88900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-2tb-kingston-fury-renegade-pcie-4-0-nvme-con-disipador-ps5-compatible/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/sin-fuente-de-poder/1147-gabinete-xigmatek-beast-atx-rainbow-fan-led.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 400280
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 88900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 88900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

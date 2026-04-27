@@ -1,42 +1,48 @@
 {
   "id": 889,
-  "external_id": "centrale_placa-madre-msi-mag-b860-tomahawk-wifi-atx-lga-1851-ddr5-wifi-7",
-  "category_id": "mobo",
+  "external_id": "alltec_t-v-msi-geforce-rtx-5060-ti-8g-ventus-2x",
+  "category_id": "gpu",
   "brand": "MSI",
-  "name": "Placa Madre MSI MAG B860 TOMAHAWK WIFI (ATX, LGA 1851, DDR5, WiFi 7 )",
-  "slug": "placa-madre-msi-mag-b860-tomahawk-wifi-atx-lga-1851-ddr5-wifi-7",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-MSI-MAG-B860-TOMAHAWK-WIFI-ATX-LGA-1851-DDR5-WiFi-7-1-1.webp",
+  "name": "T.V. MSI GeForce RTX™ 5060 Ti 8G VENTUS 2X...",
+  "slug": "t-v-msi-geforce-rtx-5060-ti-8g-ventus-2x",
+  "image_url": "https://images.findtech.cl/products/t-v-msi-geforce-rtx-5060-ti-8g-ventus-2x.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$279.900",
-    "Tarjetas de Crédito / Débito": "$295.290"
+    "Efectivo/Transferencia": "$515.900",
+    "Tarjeta crédito/débito": "$531.377"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:17",
-  "updated_at": "2026-04-25 20:57:17",
+  "created_at": "2026-04-26 20:23:04",
+  "updated_at": "2026-04-27 22:00:51",
   "prices": [
     {
       "product_id": 889,
-      "store_id": "centrale",
-      "price": 279900,
+      "store_id": "alltec",
+      "price": 515900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-msi-mag-b860-tomahawk-wifi-atx-lga-1851-ddr5-wifi-7/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/nvidia/2416-tv-msi-geforce-rtx-5060-ti-8g-ventus-2x-plus.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 279900
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 515900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 515900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

@@ -9,17 +9,17 @@
   "description": null,
   "specs": {
     "Marca": "INTEL",
-    "Efectivo/Transferencia": "$236.980",
-    "Webpay / Tarjeta crédito-débito": "$249.442"
+    "Efectivo/Transferencia": "$237.740",
+    "Webpay / Tarjeta crédito-débito": "$250.245"
   },
   "tags": [],
   "created_at": "2026-04-26 20:35:44",
-  "updated_at": "2026-04-26 20:35:44",
+  "updated_at": "2026-04-27 22:13:28",
   "prices": [
     {
       "product_id": 1139,
       "store_id": "cg",
-      "price": 236980,
+      "price": 237740,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -33,7 +33,7 @@
     {
       "product_id": 334,
       "store_id": "centrale",
-      "price": 240060,
+      "price": 239800,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -65,7 +65,13 @@
       "store_name": "CentralGamer",
       "date": "2026-04-26",
       "price": 236980
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-27",
+      "price": 237740
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

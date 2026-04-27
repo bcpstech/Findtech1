@@ -8,17 +8,19 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-1TB-NVMe-PCIe-4.0-Western-Digital-Black-SN850x-7300mb-s_8MsCeuY-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$239.950",
-    "Tarjetas de Crédito / Débito": "$253.150"
+    "Capacidad": "1 TB",
+    "Interfaz": "NVMe PCIe",
+    "Transferencia / Efectivo": "$239.680",
+    "Tarjetas de Crédito / Débito": "$252.860"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-26 20:37:43",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1537,
       "store_id": "centrale",
-      "price": 239950,
+      "price": 239680,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -36,7 +38,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 239950
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 239680
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

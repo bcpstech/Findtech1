@@ -8,12 +8,17 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-8GB-DDR4-3200MT-s-CL16-Kingston-Fury-Beast-RGB_AdX7Ck3-1.webp",
   "description": null,
   "specs": {
+    "Capacidad": "8 GB",
+    "Tipo": "DDR4",
+    "Velocidad": "3200 MHz",
+    "Latencia": "CL16",
+    "Iluminación": "RGB",
     "Transferencia / Efectivo": "$72.490",
     "Tarjetas de Crédito / Débito": "$76.480"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1496,
@@ -64,7 +69,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 72490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 72490
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

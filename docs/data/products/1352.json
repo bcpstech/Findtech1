@@ -1,46 +1,52 @@
 {
   "id": 1352,
-  "external_id": "pcexpress_20812-ssd-western-digital-250gb-2-5-sata-3d-green-p-n-wds250g5g0a",
-  "category_id": "storage",
-  "brand": "WD",
-  "name": "20812 - ssd western digital 250gb  2.5\" sata 3d green p/n wds250g5g0a",
-  "slug": "20812-ssd-western-digital-250gb-2-5-sata-3d-green-p-n-wds250g5g0a",
-  "image_url": null,
+  "external_id": "centrale_placa-madre-msi-pro-b850m-p-micro-atx-am5-ddr5-wifi-7",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "Placa Madre MSI PRO B850M-P (Micro ATX, AM5, DDR5, WiFi 7)",
+  "slug": "placa-madre-msi-pro-b850m-p-micro-atx-am5-ddr5-wifi-7",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-MSI-PRO-B850M-P-WIFI-7-Micro-ATX-AM5-DDR5-WiFi-7_UU14k46.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$114.500",
-    "Tarjeta crédito/débito": "$117.935"
+    "Socket": "AM5",
+    "Factor de forma": "Micro-ATX",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
+    "Transferencia / Efectivo": "$159.490",
+    "Tarjetas de Crédito / Débito": "$168.260"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:58:59",
-  "updated_at": "2026-04-25 12:58:59",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
-      "id": 1352,
       "product_id": 1352,
-      "store_id": "pcexpress",
-      "price": 114500,
+      "store_id": "centrale",
+      "price": 159490,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=20812&search=ssd+sata+2.5&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:58:59",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-b850m-p-micro-atx-am5-ddr5-wifi-7/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
-      "date": "2026-04-25",
-      "price": 114500
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 159490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 159490
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

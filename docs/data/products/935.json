@@ -1,28 +1,44 @@
 {
   "id": 935,
-  "external_id": "centrale_memoria-ram-notebook-16gb-ddr5-6400mt-s-cl38-sodimm-kingston-fury-impact",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM Notebook 16GB DDR5 6400MT/s CL38 SODIMM Kingston Fury Impact",
-  "slug": "memoria-ram-notebook-16gb-ddr5-6400mt-s-cl38-sodimm-kingston-fury-impact",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-Notebook-16GB-DDR5-6400MT-s-CL38-SODIMM-Kingston-Fury-Impact.webp",
+  "external_id": "alltec_2-5ghz-intel-i5-12400-4-4ghz-turbo",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "2.5GHz INTEL I5-12400 (4.4GHz TURBO,...",
+  "slug": "2-5ghz-intel-i5-12400-4-4ghz-turbo",
+  "image_url": "https://images.findtech.cl/products/2-5ghz-intel-i5-12400-4-4ghz-turbo.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$219.900",
-    "Tarjetas de Crédito / Débito": "$231.990"
+    "Frecuencia base": "2.5 GHz",
+    "Frecuencia turbo": "4.4 GHz",
+    "Efectivo/Transferencia": "$169.900",
+    "Tarjeta crédito/débito": "$174.997"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:35",
-  "updated_at": "2026-04-25 19:37:35",
+  "created_at": "2026-04-26 20:25:21",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 935,
-      "store_id": "centrale",
-      "price": 219900,
+      "store_id": "alltec",
+      "price": 169900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-16gb-ddr5-6400mt-s-cl38-sodimm-kingston-fury-impact/",
+      "product_url": "https://www.alltec.cl/intel/1847-5ghz-intel-i5-12400-44ghz-turbo-6c12t-18mb-cache-65w-lga1700-12th-generacion.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 317,
+      "store_id": "centrale",
+      "price": 196300,
+      "price_normal": 221210,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-12400-2-5ghz-18mb-6-cores-lga-1700/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
@@ -32,11 +48,17 @@
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 219900
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 169900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 169900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

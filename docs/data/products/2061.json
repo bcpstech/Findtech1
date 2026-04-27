@@ -8,13 +8,17 @@
   "image_url": "https://images.findtech.cl/products/memoria-ram-kingston-fury-beast-expo-8gb-ddr5-5600mhz-cl36.jpg",
   "description": null,
   "specs": {
+    "Capacidad": "8 GB",
+    "Tipo": "DDR5",
+    "Velocidad": "5600 MHz",
+    "Latencia": "CL36",
     "Marca": "Kingston",
     "Transferencia/Efectivo": "$109.210",
     "Webpay / Tarjeta crédito-débito": "$112.490"
   },
   "tags": [],
   "created_at": "2026-04-26 20:43:46",
-  "updated_at": "2026-04-26 20:43:46",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 2061,
@@ -47,7 +51,7 @@
     {
       "product_id": 1177,
       "store_id": "cg",
-      "price": 243750,
+      "price": 244530,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -93,7 +97,13 @@
       "store_name": "Dust2",
       "date": "2026-04-26",
       "price": 109210
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-27",
+      "price": 109210
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

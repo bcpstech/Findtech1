@@ -1,46 +1,64 @@
 {
   "id": 907,
-  "external_id": "centrale_memoria-ram-16gb-ddr5-6400mt-s-cl32-kingston-fury-beast-rgb-expo",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria RAM 16GB DDR5 6400MT/s CL32 Kingston Fury Beast RGB (EXPO)",
-  "slug": "memoria-ram-16gb-ddr5-6400mt-s-cl32-kingston-fury-beast-rgb-expo",
-  "image_url": "https://centrale.cl/wp-content/uploads/Kingston-Memoria-16Gb-6400Mt-S-Ddr5-Cl32-Dimm-Fury-Beast-Rg-KF564C32BBEA-16-1.webp",
+  "external_id": "alltec_amd-ryzen-9-9950x3d-4-3ghz-5-7ghz-turbo",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD RYZEN 9 9950X3D (4.3GHz/5.7GHz TURBO)...",
+  "slug": "amd-ryzen-9-9950x3d-4-3ghz-5-7ghz-turbo",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-9-9950x3d-4-3ghz-5-7ghz-turbo.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$260.730",
-    "Tarjetas de Crédito / Débito": "$275.070"
+    "Frecuencia base": "4.3 GHz",
+    "Frecuencia turbo": "5.7 GHz",
+    "Efectivo/Transferencia": "$825.900",
+    "Tarjeta crédito/débito": "$850.677"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:00",
-  "updated_at": "2026-04-25 18:20:00",
+  "created_at": "2026-04-26 20:24:06",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
-      "id": 907,
       "product_id": 907,
-      "store_id": "centrale",
-      "price": 260730,
+      "store_id": "alltec",
+      "price": 825900,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-6400mt-s-cl32-kingston-fury-beast-rgb-expo/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:00",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://www.alltec.cl/amd/2376-amd-ryzen-9-9950x3d-43ghz57ghz-turbo-sixteen-core-tdp-170w-am5.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 2627,
+      "store_id": "trulustore",
+      "price": 869990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/procesador-amd-ryzen-9-9950x3d-am5-16c-32t-cache-l3-128mb/",
+      "store_name": "TruluStore",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 260730
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 825900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 825900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

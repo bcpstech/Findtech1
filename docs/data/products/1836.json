@@ -1,0 +1,80 @@
+{
+  "id": 1836,
+  "external_id": "dust2_tarjeta-de-video-asus-prime-rtx-5070-ti-16gb-gddr7-oc",
+  "category_id": "gpu",
+  "brand": "ASUS",
+  "name": "Tarjeta de Video ASUS PRIME RTX 5070 Ti 16GB GDDR7 OC",
+  "slug": "tarjeta-de-video-asus-prime-rtx-5070-ti-16gb-gddr7-oc",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-asus-prime-rtx-5070-ti-16gb-gddr7-oc.jpg",
+  "description": null,
+  "specs": {
+    "VRAM": "16 GB",
+    "Tipo memoria": "GDDR7",
+    "Variante": "OC (Overclocked)",
+    "Marca": "ASUS",
+    "Transferencia/Efectivo": "$1.128.150",
+    "Webpay / Tarjeta crédito-débito": "$1.161.990"
+  },
+  "tags": [],
+  "created_at": "2026-04-26 20:40:52",
+  "updated_at": "2026-04-27 22:31:09",
+  "prices": [
+    {
+      "product_id": 1836,
+      "store_id": "dust2",
+      "price": 1128150,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-asus-prime-rtx-5070-ti-16gb-gddr7-oc/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 1135,
+      "store_id": "cg",
+      "price": 1168530,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/promo-nvidia/tarjeta-de-video-asus-prime-rtx-5070-ti-16gb-ddr7/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 1257,
+      "store_id": "centrale",
+      "price": 1169000,
+      "price_normal": 1308880,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-prime-geforce-rtx-5070-ti-oc-edition-16gb-gddr7-sff-ready/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-26",
+      "price": 1128150
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-27",
+      "price": 1128150
+    }
+  ],
+  "scraped_at": "2026-04-27"
+}

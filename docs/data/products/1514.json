@@ -8,17 +8,19 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Seagate-ExpansiC3B3n-SSD-1TB-para-Xbox-Series-X-S-NVMe-3.0.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$380.710",
-    "Tarjetas de Crédito / Débito": "$401.650"
+    "Capacidad": "1 TB",
+    "Interfaz": "NVMe PCIe",
+    "Transferencia / Efectivo": "$380.300",
+    "Tarjetas de Crédito / Débito": "$401.220"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-26 20:37:43",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1514,
       "store_id": "centrale",
-      "price": 380710,
+      "price": 380300,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -36,7 +38,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 380710
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 380300
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

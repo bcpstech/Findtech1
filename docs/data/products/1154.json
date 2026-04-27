@@ -8,13 +8,14 @@
   "image_url": "https://images.findtech.cl/products/placa-madre-msi-pro-h610m-a-ddr4.jpg",
   "description": null,
   "specs": {
+    "Memoria": "DDR4",
     "Marca": "MSI",
     "Efectivo/Transferencia": "$70.290",
     "Webpay / Tarjeta crédito-débito": "$73.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:35:57",
-  "updated_at": "2026-04-26 20:35:57",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1154,
@@ -43,20 +44,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 987,
-      "store_id": "alltec",
-      "price": 78700,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/para-intel/2468-mb-msi-pro-h610m-s-ddr4-lga1700-intel-141312-generacion.html",
-      "store_name": "Alltec",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -65,7 +52,13 @@
       "store_name": "CentralGamer",
       "date": "2026-04-26",
       "price": 70290
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-27",
+      "price": 70290
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

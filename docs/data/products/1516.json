@@ -8,17 +8,20 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Lenovo-Disco-Duro-Interno-960-Gb-2.5-Solid-State-Disco-Duro-4Xb7A9-4XB7A90874-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$1.590.950",
-    "Tarjetas de Crédito / Débito": "$1.678.450"
+    "Capacidad": "960 GB",
+    "Interfaz": "SATA III",
+    "Factor de forma": "2.5\"",
+    "Transferencia / Efectivo": "$1.589.190",
+    "Tarjetas de Crédito / Débito": "$1.676.600"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-26 20:37:43",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1516,
       "store_id": "centrale",
-      "price": 1590950,
+      "price": 1589190,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -36,7 +39,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 1590950
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 1589190
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

@@ -1,46 +1,49 @@
 {
   "id": 1166,
-  "external_id": "centrale_fuente-de-poder-corsair-650w-certificada-cx650-80plus-bronze-estandar-atx",
-  "category_id": "psu",
-  "brand": "Corsair",
-  "name": "Fuente De Poder Corsair 650W (Certificada) Cx650 80Plus Bronze Estandar Atx",
-  "slug": "fuente-de-poder-corsair-650w-certificada-cx650-80plus-bronze-estandar-atx",
-  "image_url": "https://centrale.cl/wp-content/uploads/Corsair-Memory-Power-Supply-Cx650-80-Plus-Bronze-CP-9020278-NA-1.webp",
+  "external_id": "cg_placa-madre-asus-prime-a520m-a-ii",
+  "category_id": "mobo",
+  "brand": "ASUS",
+  "name": "Placa Madre Asus Prime A520M-A II",
+  "slug": "placa-madre-asus-prime-a520m-a-ii",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asus-prime-a520m-a-ii.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$61.800",
-    "Tarjetas de Crédito / Débito": "$65.200"
+    "Marca": "ASUS",
+    "Efectivo/Transferencia": "$75.990",
+    "Webpay / Tarjeta crédito-débito": "$79.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:13",
-  "updated_at": "2026-04-25 18:20:13",
+  "created_at": "2026-04-26 20:36:01",
+  "updated_at": "2026-04-27 22:13:44",
   "prices": [
     {
-      "id": 1166,
       "product_id": 1166,
-      "store_id": "centrale",
-      "price": 61800,
-      "price_normal": 68980,
-      "discount_pct": 10,
-      "currency": "CLP",
+      "store_id": "cg",
+      "price": 75990,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-corsair-650w-certificada-cx650-80plus-bronze-estandar-atx/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:13",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-a520m-a-ii/",
+      "store_name": "CentralGamer",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 61800
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-26",
+      "price": 75990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-27",
+      "price": 75990
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

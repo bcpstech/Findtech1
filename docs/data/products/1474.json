@@ -8,17 +8,21 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Kingston-32Gb-5600Mt-S-Ddr5-Non-Ecc-Cl46-Sodimm-2Rx8-KVR56S46BD8-32_lIria6g-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$581.480",
-    "Tarjetas de Crédito / Débito": "$613.460"
+    "Capacidad": "32 GB",
+    "Tipo": "DDR5",
+    "Velocidad": "5600 MHz",
+    "Latencia": "CL46",
+    "Transferencia / Efectivo": "$580.840",
+    "Tarjetas de Crédito / Débito": "$612.790"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1474,
       "store_id": "centrale",
-      "price": 581480,
+      "price": 580840,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -36,7 +40,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 581480
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 580840
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

@@ -1,28 +1,44 @@
 {
   "id": 945,
-  "external_id": "centrale_memoria-kingston-valueram-32gb-ddr4-3200mt-s-sodimm-260-pines-cl22",
-  "category_id": "ram",
-  "brand": "Kingston",
-  "name": "Memoria Kingston ValueRAM 32GB DDR4 3200MT/s SODIMM 260 pines CL22",
-  "slug": "memoria-kingston-valueram-32gb-ddr4-3200mt-s-sodimm-260-pines-cl22",
-  "image_url": "https://centrale.cl/wp-content/uploads/Kingston-Valueram-Ddr4-MC3B3dulo-32-Gb-So-Dimm-De-260-Contactos-1600-Mhz_gIMApMe.webp",
+  "external_id": "alltec_2-1ghz-intel-i7-14700-5-4ghz-turbo",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "2.1GHz INTEL I7-14700 (5.4GHz TURBO,...",
+  "slug": "2-1ghz-intel-i7-14700-5-4ghz-turbo",
+  "image_url": "https://images.findtech.cl/products/2-1ghz-intel-i7-14700-5-4ghz-turbo.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$321.000",
-    "Tarjetas de Crédito / Débito": "$338.660"
+    "Frecuencia base": "2.1 GHz",
+    "Frecuencia turbo": "5.4 GHz",
+    "Efectivo/Transferencia": "$423.900",
+    "Tarjeta crédito/débito": "$436.617"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:19",
-  "updated_at": "2026-04-25 20:57:19",
+  "created_at": "2026-04-26 20:25:34",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 945,
-      "store_id": "centrale",
-      "price": 321000,
-      "price_normal": 387520,
-      "discount_pct": 17,
+      "store_id": "alltec",
+      "price": 423900,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-kingston-valueram-32gb-ddr4-3200mt-s-sodimm-260-pines-cl22/",
+      "product_url": "https://www.alltec.cl/intel/2390-1ghz-intel-i7-14700-54ghz-turbo-20c28t-33mb-cache-65w-lga1700-14th-generacion.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 319,
+      "store_id": "centrale",
+      "price": 446550,
+      "price_normal": 499400,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700-lga1700-2-1ghz-a-5-4-ghz-20-nucleos-28-hilos/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
@@ -32,11 +48,17 @@
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 321000
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 423900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 423900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

@@ -8,12 +8,13 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Profesional-ASRock-TRX50-WS-Socket-STR5-para-AMD-Threadripper-1.webp",
   "description": null,
   "specs": {
+    "Socket": "STR5",
     "Transferencia / Efectivo": "$807.360",
     "Tarjetas de Crédito / Débito": "$851.760"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1387,
@@ -36,7 +37,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 807360
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 807360
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

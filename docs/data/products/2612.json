@@ -8,12 +8,14 @@
   "image_url": "https://images.findtech.cl/products/tarjeta-de-video-gigabyte-amd-radeon-rx-9060-xt-gaming-oc-16gb.jpg",
   "description": null,
   "specs": {
+    "VRAM": "16 GB",
+    "Variante": "OC (Overclocked)",
     "Transferencia/Efectivo": "$599.990",
     "Webpay / Tarjeta": "$617.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:22",
-  "updated_at": "2026-04-26 20:52:22",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 2612,
@@ -50,7 +52,13 @@
       "store_name": "TruluStore",
       "date": "2026-04-26",
       "price": 599990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-27",
+      "price": 599990
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

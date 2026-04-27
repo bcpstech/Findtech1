@@ -1,43 +1,53 @@
 {
   "id": 1468,
-  "external_id": "dust2_procesador-intel-core-ultra-5-245kf-14-cores-4-2ghz",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core Ultra 5-245KF 14 cores 4.2GHz",
-  "slug": "procesador-intel-core-ultra-5-245kf-14-cores-4-2ghz",
-  "image_url": "https://images.findtech.cl/products/procesador-intel-core-ultra-5-245kf-14-cores-4-2ghz.jpg",
+  "external_id": "centrale_memoria-ram-8gb-ddr4-3200mt-s-cl16-adata-xpg-spectrix-d35g-rgb",
+  "category_id": "ram",
+  "brand": "XPG",
+  "name": "Memoria RAM 8GB DDR4 3200MT/s CL16 Adata XPG Spectrix D35G RGB",
+  "slug": "memoria-ram-8gb-ddr4-3200mt-s-cl16-adata-xpg-spectrix-d35g-rgb",
+  "image_url": "https://centrale.cl/wp-content/uploads/Xpg-Memoria-Ram-Spectrix-D35G-Rgb-De-8Gb-Ddr4-3200Mhz-Cl16-Dimm-1.webp",
   "description": null,
   "specs": {
-    "Marca": "Intel",
-    "Transferencia/Efectivo": "$228.150",
-    "Webpay / Tarjeta crédito-débito": "$234.990"
+    "Capacidad": "8 GB",
+    "Tipo": "DDR4",
+    "Velocidad": "3200 MHz",
+    "Latencia": "CL16",
+    "Iluminación": "RGB",
+    "Transferencia / Efectivo": "$69.890",
+    "Tarjetas de Crédito / Débito": "$73.730"
   },
   "tags": [],
-  "created_at": "2026-04-25 21:00:33",
-  "updated_at": "2026-04-25 21:00:33",
+  "created_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1468,
-      "store_id": "dust2",
-      "price": 228150,
+      "store_id": "centrale",
+      "price": 69890,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/procesador-intel-core-ultra-5-245kf-14-cores-4-2ghz/",
-      "store_name": "Dust2",
+      "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr4-3200mt-s-cl16-adata-xpg-spectrix-d35g-rgb/",
+      "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 228150
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 69890
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 69890
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

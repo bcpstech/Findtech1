@@ -1,42 +1,52 @@
 {
   "id": 610,
-  "external_id": "alltec_gabinete-gamemax-hot-wheels-black-with",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "GABINETE GAMEMAX HOT WHEELS BLACK (WITH...",
-  "slug": "gabinete-gamemax-hot-wheels-black-with",
-  "image_url": "https://www.alltec.cl/6677-home_default/gabinete-gamemax-hot-wheels-black-with-water-cooling.jpg",
+  "external_id": "n1g_msi-pro-z790-p-wifi-ddr5-lga-1700-intel-z790-sata-6gb-s-atx-motherboard",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "MSI PRO Z790-P WIFI DDR5 LGA 1700 Intel Z790 SATA 6Gb/s ATX Motherboard",
+  "slug": "msi-pro-z790-p-wifi-ddr5-lga-1700-intel-z790-sata-6gb-s-atx-motherboard",
+  "image_url": "https://images.findtech.cl/products/msi-pro-z790-p-wifi-ddr5-lga-1700-intel-z790-sata-6gb-s-atx-motherboard.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$245.900",
-    "Tarjeta crédito/débito": "$253.277"
+    "Socket": "LGA1700",
+    "Factor de forma": "ATX",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
+    "Efectivo/Transferencia": "$249.000",
+    "Tarjeta crédito/débito": "$256.470"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:33:20",
-  "updated_at": "2026-04-25 19:33:20",
+  "created_at": "2026-04-26 20:13:14",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 610,
-      "store_id": "alltec",
-      "price": 245900,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 249000,
+      "price_normal": 262105,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/sin-fuente-de-poder/1127-gabinete-gamemax-hot-wheels-black-with-water-cooling.html",
-      "store_name": "Alltec",
+      "product_url": "https://n1g.cl/Home/computacion/1967-msi-pro-z790-p-wifi-lga-1700-intel-z790-sata-6gbs-atx-motherboard.html",
+      "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "alltec",
-      "store_name": "Alltec",
-      "date": "2026-04-25",
-      "price": 245900
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 289000
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-27",
+      "price": 249000
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

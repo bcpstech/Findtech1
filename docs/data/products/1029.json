@@ -8,6 +8,9 @@
   "image_url": "https://images.findtech.cl/products/1tb-m-2-pcie-gen3x4-ssd-kingspec-na900s.jpg",
   "description": null,
   "specs": {
+    "Capacidad": "1 TB",
+    "Interfaz": "NVMe PCIe",
+    "Factor de forma": "M.2 2280",
     "NA900S-1TB": "PCIe Gen3 x4",
     "3D NAND": "4.26W",
     "3.3V DC": "1 TB",
@@ -19,7 +22,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:29:56",
-  "updated_at": "2026-04-26 20:29:56",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1029,
@@ -42,7 +45,13 @@
       "store_name": "Alltec",
       "date": "2026-04-26",
       "price": 140900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 140900
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

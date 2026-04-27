@@ -8,12 +8,14 @@
   "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-rtx-5050-8gb-msi-shadow-2x-oc.webp",
   "description": null,
   "specs": {
+    "VRAM": "8 GB",
+    "Variante": "OC (Overclocked)",
     "Transferencia/Efectivo": "$359.990",
     "Webpay / Tarjeta": "$370.790"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:15",
-  "updated_at": "2026-04-26 20:52:15",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 2605,
@@ -36,7 +38,13 @@
       "store_name": "TruluStore",
       "date": "2026-04-26",
       "price": 359990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-27",
+      "price": 359990
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

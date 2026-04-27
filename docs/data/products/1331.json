@@ -8,12 +8,16 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASUS-B850M-AYW-GAMING-WIFI-Micro-ATX-AM5-DDR5-WiFi-6.webp",
   "description": null,
   "specs": {
+    "Socket": "AM5",
+    "Factor de forma": "Micro-ATX",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
     "Transferencia / Efectivo": "$189.900",
     "Tarjetas de Crédito / Débito": "$200.340"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1331,
@@ -28,20 +32,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 964,
-      "store_id": "alltec",
-      "price": 260900,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/asus/2425-mb-asus-tuf-gaming-b850m-plus-wifi-am5-ddr5-amd-ryzen-9000.html",
-      "store_name": "Alltec",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -50,7 +40,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 189900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 189900
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

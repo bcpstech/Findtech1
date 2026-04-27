@@ -1,42 +1,65 @@
 {
   "id": 507,
-  "external_id": "alltec_8gb-ddr4-3200mhz-cl16-a-data-xpg-spectrix",
-  "category_id": "ram",
-  "brand": "Genérico",
-  "name": "8GB DDR4 3200MHz CL16 A-DATA XPG SPECTRIX...",
-  "slug": "8gb-ddr4-3200mhz-cl16-a-data-xpg-spectrix",
-  "image_url": "https://www.alltec.cl/7609-home_default/8gb-ddr4-3200mhz-cl16-a-data-xpg-spectrix-d80-liquid-cooling-black-ax4u320038g16a-sb80.jpg",
+  "external_id": "n1g_asus-prime-rtx-5060-ti-8gb-128-bit-gddr7-pci-e-5-0-x8-dlss-4-0-geforce-prime-rtx5060ti-o8g",
+  "category_id": "gpu",
+  "brand": "Asus",
+  "name": "ASUS PRIME RTX 5060 Ti 8GB 128-Bit GDDR7 PCI-E 5.0 x8 DLSS 4.0 GeForce PRIME-RTX5060TI-O8G",
+  "slug": "asus-prime-rtx-5060-ti-8gb-128-bit-gddr7-pci-e-5-0-x8-dlss-4-0-geforce-prime-rtx5060ti-o8g",
+  "image_url": "https://images.findtech.cl/products/asus-prime-rtx-5060-ti-8gb-128-bit-gddr7-pci-e-5-0-x8-dlss-4-0-geforce-prime-rtx5060ti-o8g.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$49.500",
-    "Tarjeta crédito/débito": "$50.985"
+    "VRAM": "8 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "128-bit",
+    "Efectivo/Transferencia": "$499.000",
+    "Tarjeta crédito/débito": "$513.970"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:24:47",
-  "updated_at": "2026-04-25 19:24:53",
+  "created_at": "2026-04-26 20:09:45",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 507,
-      "store_id": "alltec",
-      "price": 49500,
+      "store_id": "n1g",
+      "price": 499000,
+      "price_normal": 525263,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3369-asus-prime-rtx-5060-ti-8gb-128-bit-gddr7-pci-e-50-x8-dlss-40-geforce-prime-rtx5060ti-o8g.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 1246,
+      "store_id": "centrale",
+      "price": 536620,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/ddr4/1315-8gb-ddr4-3200mhz-cl16-a-data-xpg-spectrix-d80-liquid-cooling-black-ax4u320038g16a-sb80.html",
-      "store_name": "Alltec",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-prime-geforce-rtx-5060-ti-8gb-gddr7-oc-edition-128-bit/",
+      "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "alltec",
-      "store_name": "Alltec",
-      "date": "2026-04-25",
-      "price": 49500
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 499000
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-27",
+      "price": 499000
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

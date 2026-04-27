@@ -8,12 +8,14 @@
   "image_url": "https://images.findtech.cl/products/adata-legend-860-1tb-sleg-860-1000gcs-nvme-pcie-4-0.png",
   "description": null,
   "specs": {
+    "Capacidad": "1 TB",
+    "Interfaz": "NVMe PCIe",
     "Transferencia/Efectivo": "$135.830",
     "Webpay / Tarjeta crédito-débito": "$139.900"
   },
   "tags": [],
   "created_at": "2026-04-26 20:51:04",
-  "updated_at": "2026-04-26 20:51:04",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 2542,
@@ -36,7 +38,13 @@
       "store_name": "MegaBytes",
       "date": "2026-04-26",
       "price": 135830
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-04-27",
+      "price": 135830
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

@@ -1,42 +1,48 @@
 {
   "id": 895,
-  "external_id": "centrale_placa-madre-asus-prime-b760m-a-ax6-ii-lga-1700-ddr5-pcie-4-0-usb-c-wifi-6",
-  "category_id": "mobo",
-  "brand": "Asus",
-  "name": "Placa Madre ASUS PRIME B760M-A AX6 II (LGA 1700, DDR5, PCIe 4.0, USB-C, WiFi 6)",
-  "slug": "placa-madre-asus-prime-b760m-a-ax6-ii-lga-1700-ddr5-pcie-4-0-usb-c-wifi-6",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASUS-PRIME-B760M-A-AX6-II-LGA-1700-DDR5-PCIe-4.0-USB-C-WiFi-6-1.webp",
+  "external_id": "alltec_t-v-evga-geforce-gtx-1660-super-sc-ultra",
+  "category_id": "gpu",
+  "brand": "EVGA",
+  "name": "T.V. EVGA GEFORCE GTX 1660 SUPER SC ULTRA...",
+  "slug": "t-v-evga-geforce-gtx-1660-super-sc-ultra",
+  "image_url": "https://images.findtech.cl/products/t-v-evga-geforce-gtx-1660-super-sc-ultra.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$144.040",
-    "Tarjetas de Crédito / Débito": "$151.960"
+    "Efectivo/Transferencia": "$314.900",
+    "Tarjeta crédito/débito": "$324.347"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:33",
-  "updated_at": "2026-04-25 19:37:33",
+  "created_at": "2026-04-26 20:23:12",
+  "updated_at": "2026-04-27 22:00:58",
   "prices": [
     {
       "product_id": 895,
-      "store_id": "centrale",
-      "price": 144040,
+      "store_id": "alltec",
+      "price": 314900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b760m-a-ax6-ii-lga-1700-ddr5-pcie-4-0-usb-c-wifi-6/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/nvidia/1702-tv-evga-geforce-gtx-1660-super-sc-ultra-gaming-6gb-gddr6-06g-p4-1068-kr.html",
+      "store_name": "Alltec",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 144040
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 314900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 314900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

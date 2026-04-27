@@ -1,43 +1,53 @@
 {
   "id": 1436,
-  "external_id": "dust2_procesador-intel-core-i5-14600kf-hasta-5-3ghz-lga1700",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core i5-14600KF hasta 5.3GHz, LGA1700",
-  "slug": "procesador-intel-core-i5-14600kf-hasta-5-3ghz-lga1700",
-  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i5-14600kf-hasta-5-3ghz-lga1700.jpg",
+  "external_id": "centrale_memoria-ram-16gb-6400mt-s-cl32-ddr5-kingston-fury-renegade-white-rgb",
+  "category_id": "ram",
+  "brand": "Kingston",
+  "name": "Memoria RAM 16GB 6400MT/s CL32 DDR5 Kingston Fury Renegade White RGB",
+  "slug": "memoria-ram-16gb-6400mt-s-cl32-ddr5-kingston-fury-renegade-white-rgb",
+  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-16GB-6400MT-s-CL32-DDR5-Kingston-Fury-Renegade-White-RGB_4FzJNck-1.webp",
   "description": null,
   "specs": {
-    "Marca": "Intel",
-    "Transferencia/Efectivo": "$266.980",
-    "Webpay / Tarjeta crédito-débito": "$274.990"
+    "Capacidad": "16 GB",
+    "Tipo": "DDR5",
+    "Velocidad": "6400 MHz",
+    "Latencia": "CL32",
+    "Iluminación": "RGB",
+    "Transferencia / Efectivo": "$304.100",
+    "Tarjetas de Crédito / Débito": "$320.830"
   },
   "tags": [],
-  "created_at": "2026-04-25 21:00:25",
-  "updated_at": "2026-04-25 21:00:25",
+  "created_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1436,
-      "store_id": "dust2",
-      "price": 266980,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "centrale",
+      "price": 304100,
+      "price_normal": 346320,
+      "discount_pct": 12,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/procesador-intel-core-i5-14600kf-hasta-5-3ghz-lga1700/",
-      "store_name": "Dust2",
+      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-6400mt-s-cl32-ddr5-kingston-fury-renegade-white-rgb/",
+      "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 266980
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 304440
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 304100
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

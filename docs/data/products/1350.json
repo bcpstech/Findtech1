@@ -8,17 +8,21 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-MSI-B840-GAMING-PLUS-WIFI-ATX-AM5-PCIe-4.0-DDR5-WiFi7_Cng7A38.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$192.110",
-    "Tarjetas de Crédito / Débito": "$202.680"
+    "Socket": "AM5",
+    "Factor de forma": "ATX",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
+    "Transferencia / Efectivo": "$191.890",
+    "Tarjetas de Crédito / Débito": "$202.440"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1350,
       "store_id": "centrale",
-      "price": 192110,
+      "price": 191890,
       "price_normal": 216160,
       "discount_pct": 11,
       "stock": "in_stock",
@@ -36,7 +40,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 192110
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 191890
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

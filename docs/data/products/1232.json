@@ -1,28 +1,31 @@
 {
   "id": 1232,
-  "external_id": "centrale_gabinete-cougar-fv150-rgb-s-fuente-atx-blanco-incluye-3-fan-argb-120mm-m-b-1",
-  "category_id": "case",
-  "brand": "Cougar",
-  "name": "Gabinete Cougar  Fv150 Rgb S/Fuente Atx Blanco Incluye 3 Fan Argb 120Mm M/B + 1",
-  "slug": "gabinete-cougar-fv150-rgb-s-fuente-atx-blanco-incluye-3-fan-argb-120mm-m-b-1",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Cougar-Fv150-Rgb-S-Fuente-Atx-Blanco-Incluye-3-Fan-Argb-120Mm_T5LVX0f.webp",
+  "external_id": "centrale_tarjeta-grafica-asus-prime-geforce-rtx-5050-8gb-gddr6-oc-edition",
+  "category_id": "gpu",
+  "brand": "Asus",
+  "name": "Tarjeta Gráfica ASUS Prime GeForce RTX™ 5050 8GB GDDR6 OC Edition",
+  "slug": "tarjeta-grafica-asus-prime-geforce-rtx-5050-8gb-gddr6-oc-edition",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-Video-Asus-Prime-GeForce-RTX-5050-8GB-GDDR6-OC-Edition-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$86.070",
-    "Tarjetas de Crédito / Débito": "$90.800"
+    "VRAM": "8 GB",
+    "Tipo memoria": "GDDR6",
+    "Variante": "OC (Overclocked)",
+    "Transferencia / Efectivo": "$389.990",
+    "Tarjetas de Crédito / Débito": "$411.440"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:28",
-  "updated_at": "2026-04-25 20:57:28",
+  "created_at": "2026-04-26 20:37:32",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1232,
       "store_id": "centrale",
-      "price": 86070,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 389990,
+      "price_normal": 441090,
+      "discount_pct": 12,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-cougar-fv150-rgb-s-fuente-atx-blanco-incluye-3-fan-argb-120mm-m-b-1/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-prime-geforce-rtx-5050-8gb-gddr6-oc-edition/",
       "store_name": "Centrale",
       "store_rating": 0,
       "review_count": 0,
@@ -34,9 +37,15 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 86070
+      "date": "2026-04-26",
+      "price": 389990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 389990
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-27"
 }

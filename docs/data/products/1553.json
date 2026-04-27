@@ -8,12 +8,15 @@
   "image_url": "https://centrale.cl/wp-content/uploads/HDD-Seagate-Skyhawk-4TB-3.5-5400-RPM-SATA-Vigilancia-1776095844.webp",
   "description": null,
   "specs": {
+    "Capacidad": "4 TB",
+    "Interfaz": "SATA III",
+    "Factor de forma": "3.5\"",
     "Transferencia / Efectivo": "$162.990",
     "Tarjetas de Crédito / Débito": "$171.950"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-26 20:37:43",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1553,
@@ -36,7 +39,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 162990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 162990
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

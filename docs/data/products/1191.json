@@ -8,12 +8,16 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-MSI-GeForce-RTX-5090-VENTUS-3X-OC-32GB-GDDR7-512-Bit.webp",
   "description": null,
   "specs": {
+    "VRAM": "32 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "512-bit",
+    "Variante": "OC (Overclocked)",
     "Transferencia / Efectivo": "$3.999.810",
     "Tarjetas de Crédito / Débito": "$4.219.800"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-04-26 20:37:32",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1191,
@@ -28,6 +32,20 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 1808,
+      "store_id": "dust2",
+      "price": 7378630,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-msi-geforce-rtx-5090-32g-lightning-z/",
+      "store_name": "Dust2",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
@@ -36,7 +54,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 3999810
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 3999810
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

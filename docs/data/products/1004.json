@@ -8,12 +8,16 @@
   "image_url": "https://images.findtech.cl/products/8gb-ddr4-3200mhz-kingston-fury-beast-cl17.jpg",
   "description": null,
   "specs": {
+    "Capacidad": "8 GB",
+    "Tipo": "DDR4",
+    "Velocidad": "3200 MHz",
+    "Latencia": "CL17",
     "Efectivo/Transferencia": "$42.900",
     "Tarjeta crédito/débito": "$44.187"
   },
   "tags": [],
   "created_at": "2026-04-26 20:28:43",
-  "updated_at": "2026-04-26 20:28:43",
+  "updated_at": "2026-04-27 22:31:09",
   "prices": [
     {
       "product_id": 1004,
@@ -78,7 +82,13 @@
       "store_name": "Alltec",
       "date": "2026-04-26",
       "price": 42900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 42900
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }
