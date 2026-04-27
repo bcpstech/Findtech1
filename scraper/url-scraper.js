@@ -31,12 +31,17 @@ function extractPrestaShop($, storeId) {
   // Intentar múltiples selectores de precio PrestaShop
   const priceSelectors = [
     '[itemprop="price"]',
+    'meta[itemprop="price"]',
     '.current-price-value',
     '.product-price-and-shipping .price',
     '.price-final_price',
     '#js-product-prices-block .price',
     '.product-price .price',
     'span.price',
+    '.our_price_display',
+    '#our_price_display',
+    'p.price',
+    '.price',
   ];
   let price = null;
   for (const sel of priceSelectors) {
@@ -45,27 +50,27 @@ function extractPrestaShop($, storeId) {
     price = parsePrice(raw);
     if (price) break;
   }
+  // JSON-LD fallback para tiendas como Alltec
+  if (!price) {
+    $('script[type="application/ld+json"]').each(function(_, s) {
+      if (price) return;
+      try {
+        const d = JSON.parse($(s).html() || '{}');
+        const p = (d.offers && d.offers.price) || d.price;
+        if (p) price = parsePrice(String(p));
+      } catch(e) {}
+    });
+  }
+  
 
   // Precio normal (antes del descuento)
   const oldRaw = $('.price-old, .regular-price, .crossed-out .current-price-value, del .price').first().text().trim();
   const regularPrice = oldRaw ? parsePrice(oldRaw) : null;
 
   // Stock
-  // Detección conservadora — solo out_of_stock con evidencia muy explícita
-  // Prioridad 1: meta tag de disponibilidad (más confiable)
-  const metaAvail = $('[itemprop="availability"]').attr('content') || '';
-  if (metaAvail.includes('InStock') || metaAvail.includes('in_stock')) return { price, regularPrice, stock: 'in_stock', specs, imageUrl, name, brand };
-  if (metaAvail.includes('OutOfStock')) return { price, regularPrice, stock: 'out_of_stock', specs, imageUrl, name, brand };
-
-  // Prioridad 2: clase CSS específica de PrestaShop para sin stock
-  const hasUnavailableClass = $('.product-unavailable').length > 0;
-  // Prioridad 3: solo elemento específico de availability, no texto genérico
-  const availMsg = $('#product-availability .availability-ooc, .product-unavailable-msg').text().toLowerCase();
-  const stock = hasUnavailableClass
-    || availMsg.includes('agotado')
-    || availMsg.includes('sin stock')
-    || availMsg.includes('out of stock')
-    ? 'out_of_stock' : 'in_stock'; // Default: in_stock (ya filtramos por CSV)
+  // Stock siempre in_stock desde el extractor
+  // La fuente de verdad es el CSV — forceOutOfStock se aplica después
+  const stock = 'in_stock';
 
   // Specs: tabla de características PrestaShop
   const specs = {};
@@ -125,10 +130,8 @@ function extractWooCommerce($, storeId) {
   const oldRaw = $('.price del .amount').first().text().trim();
   const regularPrice = oldRaw ? parsePrice(oldRaw) : null;
 
-  const stockEl = $('.stock, .in-stock, .out-of-stock');
-  const stockText = stockEl.text().toLowerCase() + ' ' + $('[class*="stock"]').text().toLowerCase();
-  const stock = stockEl.hasClass('out-of-stock') || stockText.includes('agotado') || stockText.includes('sin stock')
-    ? 'out_of_stock' : 'in_stock';
+  // Stock desde CSV (fuente de verdad) — forceOutOfStock se aplica en scrapeUrl
+  const stock = 'in_stock';
 
   // Specs WooCommerce: tabla de atributos
   const specs = {};
@@ -162,8 +165,8 @@ function extractGeneric($) {
                || $('.price, [class*="price"]').first().text();
   const price = parsePrice(priceRaw);
 
-  const stockMeta = $('[itemprop="availability"]').attr('content') || '';
-  const stock = stockMeta.includes('OutOfStock') ? 'out_of_stock' : 'in_stock';
+  // Stock desde CSV — forceOutOfStock se aplica en scrapeUrl
+  const stock = 'in_stock';
 
   const specs = {};
   $('table tr').each((_, el) => {
