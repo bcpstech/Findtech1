@@ -8,12 +8,16 @@
   "image_url": "https://images.findtech.cl/products/amd-9975wx-ryzen-threadripper-pro-str5-64-hilos-5-4ghz-serie-wx-shimada-350-w-100-100000723wof.jpg",
   "description": null,
   "specs": {
+    "Frecuencia base": "5.4 GHz",
+    "TDP": "350W",
+    "Socket": "STR5",
+    "Incluye cooler": "No",
     "Efectivo/Transferencia": "$5.290.000",
     "Tarjeta crédito/débito": "$5.448.700"
   },
   "tags": [],
   "created_at": "2026-04-26 15:49:15",
-  "updated_at": "2026-04-26 20:11:20",
+  "updated_at": "2026-04-27 01:21:21",
   "prices": [
     {
       "product_id": 47,
@@ -36,7 +40,13 @@
       "store_name": "N1G",
       "date": "2026-04-26",
       "price": 5290000
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-27",
+      "price": 5290000
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }
