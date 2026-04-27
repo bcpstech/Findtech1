@@ -8,12 +8,15 @@
   "image_url": "https://images.findtech.cl/products/intel-core-i9-14900-14th-gen-24-core-8p-16e-lga-1700-65w-graphics-770-processor-bx8071514900.jpg",
   "description": null,
   "specs": {
+    "TDP": "65W",
+    "Socket": "LGA1700",
+    "Generación": "Intel 14ª Gen (Raptor Lake Refresh)",
     "Efectivo/Transferencia": "$718.000",
     "Tarjeta crédito/débito": "$739.540"
   },
   "tags": [],
   "created_at": "2026-04-26 15:46:53",
-  "updated_at": "2026-04-26 20:12:02",
+  "updated_at": "2026-04-27 11:52:32",
   "prices": [
     {
       "product_id": 7,
@@ -28,6 +31,20 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 329,
+      "store_id": "centrale",
+      "price": 732690,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900-24-core-3-2-5-8ghz-lga1700-36mb-cache/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -36,7 +53,13 @@
       "store_name": "N1G",
       "date": "2026-04-26",
       "price": 718000
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-27",
+      "price": 718000
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }

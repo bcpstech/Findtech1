@@ -1,0 +1,60 @@
+{
+  "id": 3301,
+  "external_id": "alltec_amd-ryzen-3-4100-mpk-3-8ghz-4-0ghz-turbo-quad-core-tdp-65w-am4",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD RYZEN 3 4100 (MPK) 3.8GHz (4.0GHz TURBO) QUAD CORE (TDP 65W) (AM4)",
+  "slug": "amd-ryzen-3-4100-mpk-3-8ghz-4-0ghz-turbo-quad-core-tdp-65w-am4",
+  "image_url": "https://www.alltec.cl/10615-large_default/amd-ryzen-3-4100-mpk-38ghz-40ghz-turbo-quad-core-tdp-65w-am4.jpg",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "3.8 GHz",
+    "Frecuencia turbo": "4.0 GHz",
+    "Socket": "AM4",
+    "Generación": "AMD Zen 3 (7nm)",
+    "Efectivo/Transferencia": "$74.500",
+    "Tarjeta crédito/débito": "$76.735"
+  },
+  "tags": [],
+  "created_at": "2026-04-27 11:50:54",
+  "updated_at": "2026-04-27 11:52:32",
+  "prices": [
+    {
+      "product_id": 3301,
+      "store_id": "alltec",
+      "price": 74500,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/2026-amd-ryzen-3-4100-mpk-38ghz-40ghz-turbo-quad-core-tdp-65w-am4-7123456789012.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 22,
+      "store_id": "n1g",
+      "price": 74900,
+      "price_normal": 78842,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/2374-amd-ryzen-3-4100-ryzen-3-4000-series-quad-core-socket-am4-65w-none-integrated-graphics-desktop-processor-100-100000510box.html",
+      "store_name": "N1G",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 74500
+    }
+  ],
+  "scraped_at": "2026-04-27"
+}

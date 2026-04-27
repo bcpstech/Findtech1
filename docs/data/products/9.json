@@ -8,12 +8,16 @@
   "image_url": "https://images.findtech.cl/products/intel-core-i9-14900k-14th-gen-24-core-8p-16e-lga-1700-125w-intel-uhd-graphics-770-bx8071514900k.jpg",
   "description": null,
   "specs": {
+    "TDP": "125W",
+    "Socket": "LGA1700",
+    "Generación": "Intel 14ª Gen (Raptor Lake Refresh)",
+    "Gráficos integrados": "Sí",
     "Efectivo/Transferencia": "$583.900",
     "Tarjeta crédito/débito": "$601.417"
   },
   "tags": [],
   "created_at": "2026-04-26 15:46:59",
-  "updated_at": "2026-04-27 00:25:26",
+  "updated_at": "2026-04-27 11:52:32",
   "prices": [
     {
       "product_id": 9,
@@ -28,6 +32,20 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 326,
+      "store_id": "centrale",
+      "price": 613970,
+      "price_normal": 685010,
+      "discount_pct": 10,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900k-raptor-lake-s-lga1700-uhd-graphics/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [

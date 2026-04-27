@@ -1,0 +1,59 @@
+{
+  "id": 3315,
+  "external_id": "alltec_amd-ryzen-9-9900x3d-4-4ghz-5-5ghz-turbo-twelve-core-tdp-120w-am5",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD RYZEN 9 9900X3D (4.4GHz/5.5GHz TURBO) TWELVE CORE (TDP 120W) (AM5)",
+  "slug": "amd-ryzen-9-9900x3d-4-4ghz-5-5ghz-turbo-twelve-core-tdp-120w-am5",
+  "image_url": "https://www.alltec.cl/12248-large_default/amd-ryzen-9-9900x3d-44ghz55ghz-turbo-twelve-core-tdp-120w-am5.jpg",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "4.4 GHz",
+    "Frecuencia turbo": "5.5 GHz",
+    "Socket": "AM5",
+    "Efectivo/Transferencia": "$689.900",
+    "Tarjeta crédito/débito": "$710.597"
+  },
+  "tags": [],
+  "created_at": "2026-04-27 11:51:48",
+  "updated_at": "2026-04-27 11:52:32",
+  "prices": [
+    {
+      "product_id": 3315,
+      "store_id": "alltec",
+      "price": 689900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/2375-amd-ryzen-9-9900x3d-44ghz55ghz-turbo-twelve-core-tdp-120w-am5.html",
+      "store_name": "Alltec",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 298,
+      "store_id": "centrale",
+      "price": 693500,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-9900x3d-12-cores-24tthreads-4-4ghz-am5-zen-5/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 689900
+    }
+  ],
+  "scraped_at": "2026-04-27"
+}

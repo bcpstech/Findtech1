@@ -8,21 +8,17 @@
   "image_url": "https://images.findtech.cl/products/intel-core-i9-12900kf-16-core-up-to-5-2ghz-12gen-alder-lake-lga-1700-125w-bx8071512900kf.jpg",
   "description": null,
   "specs": {
-    "Single P-core Max/Base Speed": "5.2/3.2 GHz",
-    "Single E-core Max/Base Speed": "3.9/2.4 GHz",
-    "Processor base power": "125W",
-    "Intel Smart Cache": "30MB",
-    "Motherboard compatibility": "600 series(3)",
-    "Total CPU PCIe lanes": "20",
-    "Memory speed": "DDR5",
-    "Socket": "1700",
-    "Discrete graphics required?": "Yes",
+    "Frecuencia base": "5.2 GHz",
+    "Frecuencia turbo": "5.2 GHz",
+    "TDP": "125W",
+    "Socket": "LGA1700",
+    "Generación": "Intel 12ª Gen (Alder Lake)",
     "Efectivo/Transferencia": "$414.900",
     "Tarjeta crédito/débito": "$427.347"
   },
   "tags": [],
   "created_at": "2026-04-26 15:47:06",
-  "updated_at": "2026-04-26 20:11:52",
+  "updated_at": "2026-04-27 11:52:32",
   "prices": [
     {
       "product_id": 11,
@@ -37,6 +33,20 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 328,
+      "store_id": "centrale",
+      "price": 532110,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-12900kf-core-3-2ghz-30mb-lga1700/",
+      "store_name": "Centrale",
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -45,7 +55,13 @@
       "store_name": "N1G",
       "date": "2026-04-26",
       "price": 414900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-27",
+      "price": 414900
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-27"
 }
