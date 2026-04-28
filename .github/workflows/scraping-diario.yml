@@ -13,6 +13,7 @@ on:
           - n1g
           - centralgamer
           - spdigital
+          - trulustore
 
 permissions:
   contents: write
@@ -61,6 +62,10 @@ jobs:
         if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == 'spdigital' }}
         run: node scraper/stores/spdigital.js || echo "SP Digital fallo, continuando..."
 
+      - name: Scrapear TruluStore
+        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == 'trulustore' }}
+        run: node scraper/stores/trulustore.js || echo "TruluStore fallo, continuando..."
+
       - name: Debug stock en DB
         run: |
           node -e "
@@ -87,5 +92,5 @@ jobs:
           git pull --rebase origin main
           git stash pop || true
           git add docs/data/ db/techcompara.db
-          git diff --staged --quiet || git commit -m "scraping: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git diff --staged --quiet || git commit -m "chore: actualizar datos $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
