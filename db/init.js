@@ -148,6 +148,7 @@ const categories = [
   { id:'case',     name:'Gabinetes',         icon:'🖥️', parent_id:null, sort_order:8 },
   { id:'monitor',  name:'Monitores',         icon:'🖱️', parent_id:null, sort_order:9 },
   { id:'periph',   name:'Periféricos',       icon:'⌨️', parent_id:null, sort_order:10 },
+  { id:'pc',       name:'PCs Armados',        icon:'🖥️', parent_id:null, sort_order:11 },
   // Subcategorías GPU
   { id:'gpu-nvidia', name:'NVIDIA GeForce RTX', icon:'🎮', parent_id:'gpu', sort_order:1 },
   { id:'gpu-amd',    name:'AMD Radeon RX',       icon:'🎮', parent_id:'gpu', sort_order:2 },
