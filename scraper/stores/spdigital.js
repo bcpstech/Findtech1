@@ -312,7 +312,7 @@ class SPDigitalScraper extends BaseScraper {
         normal:   null,
         discount: null,
         stock,
-        url: `${BASE}/products/${item.slug}`,
+        url: `${BASE}/${item.slug}`,
       }
     );
   }
