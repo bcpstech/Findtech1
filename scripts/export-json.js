@@ -291,8 +291,27 @@ for (const { product: p, prices } of mergedProducts) {
 
   const enrichedPrices = prices.map(pr => {
     const storeRow = stores.find(s => s.id === pr.store_id);
+
+    // Reconstruir specs de precio por tienda desde price_normal
+    const priceSpecs = {};
+    const storeLabels = {
+      'n1g':        { cash: 'Efectivo/Transferencia', card: 'Tarjeta crédito/débito' },
+      'alltec':     { cash: 'Efectivo/Transferencia', card: 'Tarjeta crédito/débito' },
+      'spdigital':  { cash: 'Transferencia / Efectivo', card: 'Webpay / Tarjeta' },
+      'cg':         { cash: 'Efectivo/Transferencia', card: 'Webpay / Tarjeta' },
+      'centrale':   { cash: 'Transferencia / Efectivo', card: 'Tarjetas de Crédito / Débito' },
+      'centralgamer':{ cash: 'Efectivo/Transferencia', card: 'Webpay / Tarjeta' },
+      'trulustore': { cash: 'Efectivo/Transferencia', card: 'Tarjeta crédito/débito' },
+    };
+    const labels = storeLabels[pr.store_id] || { cash: 'Efectivo/Transferencia', card: 'Tarjeta crédito/débito' };
+    priceSpecs[labels.cash] = `$${pr.price.toLocaleString('es-CL')}`;
+    if (pr.price_normal && pr.price_normal > pr.price) {
+      priceSpecs[labels.card] = `$${pr.price_normal.toLocaleString('es-CL')}`;
+    }
+
     return {
       ...pr,
+      price_specs:   priceSpecs,
       store_rating:  storeRow?.rating       || 0,
       review_count:  storeRow?.review_count || 0,
       store_url:     storeRow?.url          || '',
