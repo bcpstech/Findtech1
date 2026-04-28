@@ -1,9 +1,16 @@
 {
   "last_update": "2026-04-28",
-  "generated_at": "2026-04-28T22:23:02.546Z",
+  "generated_at": "2026-04-28T22:41:46.284Z",
   "total_products": 652,
   "total_stores": 18,
   "last_runs": [
+    {
+      "store_id": "trulustore",
+      "status": "success",
+      "products_updated": 0,
+      "errors_count": 0,
+      "finished_at": "2026-04-28 22:41:44"
+    },
     {
       "store_id": "spdigital",
       "status": "success",
@@ -136,13 +143,6 @@
       "products_updated": 85,
       "errors_count": 0,
       "finished_at": "2026-04-28 01:43:22"
-    },
-    {
-      "store_id": "n1g",
-      "status": "success",
-      "products_updated": 510,
-      "errors_count": 0,
-      "finished_at": "2026-04-28 01:42:07"
     }
   ]
 }
