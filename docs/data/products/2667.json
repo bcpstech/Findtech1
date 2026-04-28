@@ -8,22 +8,28 @@
   "image_url": "https://images.findtech.cl/products/gabinete-tipo-pecera-esgaming-h60-5-ventiladores-argb-controladora.jpg",
   "description": null,
   "specs": {
-    "Transferencia/Efectivo": "$59.990",
-    "Webpay / Tarjeta": "$61.790"
+    "Efectivo / Transferencia": "$49.990",
+    "Khipu": "$50.990",
+    "Tarjeta crédito/débito": "$52.490"
   },
   "tags": [],
   "created_at": "2026-04-26 20:53:16",
-  "updated_at": "2026-04-27 22:29:25",
+  "updated_at": "2026-04-28 23:09:47",
   "prices": [
     {
       "product_id": 2667,
       "store_id": "trulustore",
-      "price": 59990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 49990,
+      "price_normal": 52490,
+      "discount_pct": 17,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/gabinete-tipo-pecera-esgaming-h60-5-ventiladores-argb-controladora/",
       "store_name": "TruluStore",
+      "price_specs": {
+        "Efectivo / Transferencia": "$49.990",
+        "Khipu": "$50.990",
+        "Tarjeta crédito/débito": "$52.490"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.trulustore.cl",
@@ -42,7 +48,13 @@
       "store_name": "TruluStore",
       "date": "2026-04-27",
       "price": 59990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-28",
+      "price": 49990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-04-28"
 }

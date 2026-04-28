@@ -1,0 +1,83 @@
+{
+  "id": 2602,
+  "external_id": "trulustore_tarjeta-de-video-zotac-nvidia-geforce-rtx-5080-solid-core-oc-16gb",
+  "category_id": "gpu",
+  "brand": "NVIDIA",
+  "name": "TARJETA DE VIDEO ZOTAC NVIDIA GEFORCE RTX 5080 SOLID CORE OC 16GB",
+  "slug": "tarjeta-de-video-zotac-nvidia-geforce-rtx-5080-solid-core-oc-16gb",
+  "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+  "description": null,
+  "specs": {
+    "VRAM": "16 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "256-bit",
+    "Arquitectura": "Blackwell",
+    "Variante": "OC (Overclocked)",
+    "Efectivo / Transferencia": "$1.699.990",
+    "Khipu": "$1.733.990",
+    "Tarjeta crédito/débito": "$1.784.990"
+  },
+  "tags": [],
+  "created_at": "2026-04-26 20:52:14",
+  "updated_at": "2026-04-28 23:10:47",
+  "prices": [
+    {
+      "product_id": 2602,
+      "store_id": "trulustore",
+      "price": 1699990,
+      "price_normal": 1784990,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-geforce-rtx-5080-solid-core-oc-16gb/",
+      "store_name": "TruluStore",
+      "price_specs": {
+        "Efectivo / Transferencia": "$1.699.990",
+        "Khipu": "$1.733.990",
+        "Tarjeta crédito/débito": "$1.784.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 9563,
+      "store_id": "spdigital",
+      "price": 2002890,
+      "price_normal": 2093020,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-gaming-geforce-rtx-5080-solid-oc",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$2.002.890",
+        "Webpay / Tarjeta": "$2.093.020"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-26",
+      "price": 1699990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-27",
+      "price": 1699990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-28",
+      "price": 1699990
+    }
+  ],
+  "scraped_at": "2026-04-28"
+}

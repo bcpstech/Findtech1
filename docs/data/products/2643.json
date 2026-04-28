@@ -1,0 +1,80 @@
+{
+  "id": 2643,
+  "external_id": "trulustore_placa-madre-asus-prime-b550m-a-ac-wifi-am4",
+  "category_id": "mobo",
+  "brand": "ASUS",
+  "name": "PLACA MADRE ASUS PRIME B550M-A AC WIFI AM4",
+  "slug": "placa-madre-asus-prime-b550m-a-ac-wifi-am4",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asus-prime-b550m-a-ac-wifi-am4.jpg",
+  "description": null,
+  "specs": {
+    "Socket": "AM4",
+    "WiFi": "Integrado",
+    "Efectivo / Transferencia": "$124.990",
+    "Khipu": "$127.490",
+    "Tarjeta crédito/débito": "$131.240"
+  },
+  "tags": [],
+  "created_at": "2026-04-26 20:52:47",
+  "updated_at": "2026-04-28 23:10:47",
+  "prices": [
+    {
+      "product_id": 2643,
+      "store_id": "trulustore",
+      "price": 124990,
+      "price_normal": 131240,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/placa-madre-asus-prime-b550m-a-ac-wifi-am4/",
+      "store_name": "TruluStore",
+      "price_specs": {
+        "Efectivo / Transferencia": "$124.990",
+        "Khipu": "$127.490",
+        "Tarjeta crédito/débito": "$131.240"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 9424,
+      "store_id": "spdigital",
+      "price": 179990,
+      "price_normal": 188090,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-b550m-a-ac-socket-am4-factor-matx-aura-sync-rgb",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$179.990",
+        "Webpay / Tarjeta": "$188.090"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-26",
+      "price": 124990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-27",
+      "price": 124990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-28",
+      "price": 124990
+    }
+  ],
+  "scraped_at": "2026-04-28"
+}

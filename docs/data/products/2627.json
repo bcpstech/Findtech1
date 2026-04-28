@@ -1,0 +1,81 @@
+{
+  "id": 2627,
+  "external_id": "trulustore_procesador-amd-ryzen-9-9950x3d-am5-16c-32t-cache-l3-128mb",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "PROCESADOR AMD RYZEN 9 9950X3D AM5 16C / 32T CACHÉ L3 128MB",
+  "slug": "procesador-amd-ryzen-9-9950x3d-am5-16c-32t-cache-l3-128mb",
+  "image_url": "https://trulustore.cl/wp-content/uploads/2025/09/wxx9erku4meqamletkeo5n8wyu3n-300x300.avif",
+  "description": null,
+  "specs": {
+    "Núcleos": "16",
+    "Hilos": "32",
+    "Socket": "AM5",
+    "Efectivo / Transferencia": "$869.990",
+    "Khipu": "$887.390",
+    "Tarjeta crédito/débito": "$913.490"
+  },
+  "tags": [],
+  "created_at": "2026-04-26 20:52:33",
+  "updated_at": "2026-04-28 23:10:47",
+  "prices": [
+    {
+      "product_id": 2627,
+      "store_id": "trulustore",
+      "price": 869990,
+      "price_normal": 913490,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/procesador-amd-ryzen-9-9950x3d-am5-16c-32t-cache-l3-128mb/",
+      "store_name": "TruluStore",
+      "price_specs": {
+        "Efectivo / Transferencia": "$869.990",
+        "Khipu": "$887.390",
+        "Tarjeta crédito/débito": "$913.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 9415,
+      "store_id": "spdigital",
+      "price": 1299990,
+      "price_normal": 1358490,
+      "discount_pct": 4,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/amd-ryzen-9-9950x3d-16-core-processor",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.299.990",
+        "Webpay / Tarjeta": "$1.358.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-26",
+      "price": 869990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-27",
+      "price": 869990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-28",
+      "price": 869990
+    }
+  ],
+  "scraped_at": "2026-04-28"
+}

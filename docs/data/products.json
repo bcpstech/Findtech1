@@ -227,9 +227,10 @@
     "best_price": 9990,
     "best_store_name": "N1G",
     "best_store_id": "n1g",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "n1g": 9990
+      "n1g": 9990,
+      "trulustore": 14990
     },
     "url": "https://n1g.cl/Home/computacion/1837-amd-wraith-stealth-am4-cpu-cooler-95w-ryzen-5-ryzen-3.html"
   },
@@ -250,6 +251,24 @@
       "spdigital": 9990
     },
     "url": "https://www.spdigital.cl/adaptador-color-rojo-nzxt-trim-para-ventiladores-aer-f-120mm"
+  },
+  {
+    "id": 12115,
+    "category_id": "cooling",
+    "brand": "Genérico",
+    "name": "VENTILADOR GAMEMAX FN12A-S8I WHITE ARGB – 120MM / 45.35 CFM",
+    "slug": "ventilador-gamemax-fn12a-s8i-white-argb-120mm-45-35-cfm",
+    "image_url": "https://images.findtech.cl/products/ventilador-gamemax-fn12a-s8i-white-argb-120mm-45-35-cfm.png",
+    "tags": [],
+    "updated_at": "2026-04-28 23:08:42",
+    "best_price": 9990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 9990
+    },
+    "url": "https://trulustore.cl/producto/ventilador-gamemax-fn12a-s8i-white-argb-120mm-45-35-cfm/"
   },
   {
     "id": 711,
@@ -793,6 +812,42 @@
     "url": "https://www.spdigital.cl/ventiladorapnx-fp2-120-pwm-argb-black"
   },
   {
+    "id": 12112,
+    "category_id": "cooling",
+    "brand": "Genérico",
+    "name": "KIT VENTILADORES ESGAMING EZ-08 ARGB 120MM / 3 VENTILADORES + CONTROLADORA",
+    "slug": "kit-ventiladores-esgaming-ez-08-argb-120mm-3-ventiladores-controladora",
+    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+    "tags": [],
+    "updated_at": "2026-04-28 23:08:37",
+    "best_price": 32990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 32990
+    },
+    "url": "https://trulustore.cl/producto/kit-ventiladores-esgaming-ez-08-argb-120mm-3-ventiladores-controladora/"
+  },
+  {
+    "id": 12109,
+    "category_id": "cooling",
+    "brand": "AMD",
+    "name": "REFRIGERACION CPU REDRAGON CC1013 RGB – PANTALLA DIGITAL TEMPERATURA / INTEL/AMD",
+    "slug": "refrigeracion-cpu-redragon-cc1013-rgb-pantalla-digital-temperatura-intel-amd",
+    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+    "tags": [],
+    "updated_at": "2026-04-28 23:08:24",
+    "best_price": 33990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 33990
+    },
+    "url": "https://trulustore.cl/producto/refrigeracion-cpu-redragon-cc1013-rgb-pantalla-digital-temperatura-intel-amd/"
+  },
+  {
     "id": 729,
     "category_id": "cooling",
     "brand": "EK Waterblock",
@@ -989,6 +1044,24 @@
       "n1g": 39900
     },
     "url": "https://n1g.cl/Home/computacion/3849-montech-nx600-cooler-6-tubos-premium-fane28-28mm-2000-rpm-pwm-base-cobre-flujo-de-aire-de-85-cfm-intel-lga17001851-y-amd-am5.html"
+  },
+  {
+    "id": 2635,
+    "category_id": "cpu",
+    "brand": "MSI",
+    "name": "REFRIGERACION CPU MSI MAG COREFROZR AA13 ARGB – AM4 / AM5 / LGA1700 / LGA1851 / CFM 62.6 CFM / TDP 240W",
+    "slug": "refrigeracion-cpu-msi-mag-corefrozr-aa13-argb-am4-am5-lga1700-lga1851-cfm-62-6-cfm-tdp-240w",
+    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 39990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 39990
+    },
+    "url": "https://trulustore.cl/producto/refrigeracion-cpu-msi-mag-corefrozr-aa13-argb-am4-am5-lga1700-lga1851-cfm-62-6-cfm-tdp-240w/"
   },
   {
     "id": 9611,
@@ -1334,6 +1407,24 @@
     "url": "https://n1g.cl/Home/ventiladores/3758-apevia-fr412l2s-rgb-frostblade-120mm-rgb-pack-4-ventiladores-control.html"
   },
   {
+    "id": 2667,
+    "category_id": "case",
+    "brand": "Genérico",
+    "name": "GABINETE TIPO PECERA ESGAMING H60 – 5 VENTILADORES ARGB + CONTROLADORA",
+    "slug": "gabinete-tipo-pecera-esgaming-h60-5-ventiladores-argb-controladora",
+    "image_url": "https://images.findtech.cl/products/gabinete-tipo-pecera-esgaming-h60-5-ventiladores-argb-controladora.jpg",
+    "tags": [],
+    "updated_at": "2026-04-28 23:09:47",
+    "best_price": 49990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 49990
+    },
+    "url": "https://trulustore.cl/producto/gabinete-tipo-pecera-esgaming-h60-5-ventiladores-argb-controladora/"
+  },
+  {
     "id": 9606,
     "category_id": "cooling",
     "brand": "AMD",
@@ -1497,6 +1588,25 @@
     "url": "https://n1g.cl/Home/computacion/3635-asrock-a520m-hdv-am4-amd-a520-micro-atx-amd-motherboard.html"
   },
   {
+    "id": 2662,
+    "category_id": "psu",
+    "brand": "Gigabyte",
+    "name": "FUENTE DE PODER GIGABYTE P650G DE 650W 80+ GOLD",
+    "slug": "fuente-de-poder-gigabyte-p650g-de-650w-80-gold",
+    "image_url": "https://images.findtech.cl/products/fuente-de-poder-gigabyte-p650g-de-650w-80-gold.webp",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:13",
+    "best_price": 54990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 2,
+    "prices": {
+      "trulustore": 54990,
+      "spdigital": 89990
+    },
+    "url": "https://trulustore.cl/producto/fuente-de-poder-gigabyte-p650g-de-650w-80-gold/"
+  },
+  {
     "id": 9669,
     "category_id": "cooling",
     "brand": "Cooler Master",
@@ -1657,6 +1767,25 @@
       "n1g": 59900
     },
     "url": "https://n1g.cl/Home/computacion/3558-xpg-probe-700w-80-bronze-atx-80plus-bronze-probe700b-bkcar.html"
+  },
+  {
+    "id": 2663,
+    "category_id": "psu",
+    "brand": "Gigabyte",
+    "name": "FUENTE DE PODER GIGABYTE P650SS ICE DE 650W 80+ SILVER ATX 3.0",
+    "slug": "fuente-de-poder-gigabyte-p650ss-ice-de-650w-80-silver-atx-3-0",
+    "image_url": "https://images.findtech.cl/products/fuente-de-poder-gigabyte-p650ss-ice-de-650w-80-silver-atx-3-0.png",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:31",
+    "best_price": 59990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 2,
+    "prices": {
+      "trulustore": 59990,
+      "spdigital": 89990
+    },
+    "url": "https://trulustore.cl/producto/fuente-de-poder-gigabyte-p650ss-ice-de-650w-80-silver-atx-3-0/"
   },
   {
     "id": 9604,
@@ -2004,6 +2133,24 @@
     "url": "https://n1g.cl/Home/computacion/778-zalman-cnps-16x-refrigeracion-de-cpu-led-rgb-intel-y-amd-blanco.html"
   },
   {
+    "id": 2645,
+    "category_id": "mobo",
+    "brand": "Gigabyte",
+    "name": "PLACA MADRE A520M-K V2 GIGABYTE – AM4",
+    "slug": "placa-madre-a520m-k-v2-gigabyte-am4",
+    "image_url": "https://images.findtech.cl/products/placa-madre-a520m-k-v2-gigabyte-am4.png",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 69990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 69990
+    },
+    "url": "https://trulustore.cl/producto/placa-madre-a520m-k-v2-gigabyte-am4/"
+  },
+  {
     "id": 4206,
     "category_id": "cooling",
     "brand": "Genérico",
@@ -2305,9 +2452,10 @@
     "best_price": 79000,
     "best_store_name": "N1G",
     "best_store_id": "n1g",
-    "store_count": 2,
+    "store_count": 3,
     "prices": {
       "n1g": 79000,
+      "trulustore": 84990,
       "spdigital": 189990
     },
     "url": "https://n1g.cl/Home/computacion/3747-kingston-500gb-nv3-2230-nvme-pcie-40-x4-5000mbs-snv3sm3500g.html"
@@ -2547,6 +2695,24 @@
     "url": "https://www.spdigital.cl/fuente-de-poder-msi-mag-a650bn-650w-certificada-80-plus-bronze-atx-ventilador-120mm"
   },
   {
+    "id": 2636,
+    "category_id": "cpu",
+    "brand": "MSI",
+    "name": "REFRIGERACION LIQUIDA MSI MAG CORELIQUID A12 240 ARGB – AM4 / AM5 / LGA1700 / LGA1851 / CFM 94.65",
+    "slug": "refrigeracion-liquida-msi-mag-coreliquid-a12-240-argb-am4-am5-lga1700-lga1851-cfm-94-65",
+    "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-msi-mag-coreliquid-a12-240-argb-am4-am5-lga1700-lga1851-cfm-94-65.png",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 79990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 79990
+    },
+    "url": "https://trulustore.cl/producto/refrigeracion-liquida-msi-mag-coreliquid-a12-240-argb-am4-am5-lga1700-lga1851-cfm-94-65/"
+  },
+  {
     "id": 9603,
     "category_id": "cooling",
     "brand": "be quiet!",
@@ -2653,6 +2819,24 @@
       "spdigital": 84650
     },
     "url": "https://www.spdigital.cl/ssd-ultimate-su650-sata-iii-256gb-520"
+  },
+  {
+    "id": 2660,
+    "category_id": "psu",
+    "brand": "MSI",
+    "name": "FUENTE DE PODER MSI MAG A850GL WHITE 850W 80+ GOLD / CYBENETICS GOLD – FULL MODULAR – PCIE 5.1 – ATX 3.1",
+    "slug": "fuente-de-poder-msi-mag-a850gl-white-850w-80-gold-cybenetics-gold-full-modular-pcie-5-1-atx-3-1",
+    "image_url": "https://images.findtech.cl/products/fuente-de-poder-msi-mag-a850gl-white-850w-80-gold-cybenetics-gold-full-modular-pcie-5-1-atx-3-1.jpg",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:45",
+    "best_price": 84890,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 84890
+    },
+    "url": "https://trulustore.cl/producto/fuente-de-poder-msi-mag-a850gl-white-850w-80-gold-cybenetics-gold-full-modular-pcie-5-1-atx-3-1/"
   },
   {
     "id": 741,
@@ -2918,29 +3102,12 @@
     "best_price": 89990,
     "best_store_name": "CentralGamer",
     "best_store_id": "cg",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "cg": 89990
+      "cg": 89990,
+      "trulustore": 94990
     },
     "url": "https://centralgamer.cl/placas-madre/placa-madre-msi-pro-a620am-b-evo/"
-  },
-  {
-    "id": 9702,
-    "category_id": "psu",
-    "brand": "Gigabyte",
-    "name": "Fuente de Poder 650W Gigabyte P650SS, Certificada 80+ Silver, Eficiencia y Estabilidad",
-    "slug": "fuente-de-poder-650w-gigabyte-p650ss-certificada-80-silver-eficiencia-y-estabilidad",
-    "image_url": "https://images.findtech.cl/products/fuente-de-poder-650w-gigabyte-p650ss-certificada-80-silver-eficiencia-y-estabilidad.jpg",
-    "tags": [],
-    "updated_at": "2026-04-28 22:22:15",
-    "best_price": 89990,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
-    "store_count": 1,
-    "prices": {
-      "spdigital": 89990
-    },
-    "url": "https://www.spdigital.cl/fuente-de-poder-gigabyte-p650b-650w-certificada-80-bronze-eficiencia-y-estabilidad"
   },
   {
     "id": 1172,
@@ -3068,24 +3235,6 @@
       "spdigital": 89990
     },
     "url": "https://www.spdigital.cl/caja-abierta-danada-refrigeracion-liquida-msi-mag-coreliquid-a13-240-white-240mm-argb-compatib"
-  },
-  {
-    "id": 9736,
-    "category_id": "psu",
-    "brand": "Gigabyte",
-    "name": "Fuente de Poder GIGABYTE P650G PCIe 5.1, 650W, Cables Fijos, Certificada 80 Plus Gold, ATX 3.1",
-    "slug": "fuente-de-poder-gigabyte-p650g-pcie-5-1-650w-cables-fijos-certificada-80-plus-gold-atx-3-1",
-    "image_url": "https://images.findtech.cl/products/fuente-de-poder-gigabyte-p650g-pcie-5-1-650w-cables-fijos-certificada-80-plus-gold-atx-3-1.jpg",
-    "tags": [],
-    "updated_at": "2026-04-28 22:22:25",
-    "best_price": 89990,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
-    "store_count": 1,
-    "prices": {
-      "spdigital": 89990
-    },
-    "url": "https://www.spdigital.cl/fuente-de-poder-gigabyte-p650g-pcie-51-650w-cables-fijos-certificada-80-plus-gold-atx-31"
   },
   {
     "id": 9749,
@@ -3284,6 +3433,25 @@
       "cg": 94990
     },
     "url": "https://centralgamer.cl/placas-madre/placa-madre-asrock-b450m-ac-r2-0/"
+  },
+  {
+    "id": 2661,
+    "category_id": "psu",
+    "brand": "Gigabyte",
+    "name": "FUENTE DE PODER GIGABYTE UD750GM PG5 FULL MODULAR 80+ GOLD PCIE 5.0 DE 750W",
+    "slug": "fuente-de-poder-gigabyte-ud750gm-pg5-full-modular-80-gold-pcie-5-0-de-750w",
+    "image_url": "https://images.findtech.cl/products/fuente-de-poder-gigabyte-ud750gm-pg5-full-modular-80-gold-pcie-5-0-de-750w.png",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:35",
+    "best_price": 94990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 2,
+    "prices": {
+      "trulustore": 94990,
+      "spdigital": 149990
+    },
+    "url": "https://trulustore.cl/producto/fuente-de-poder-gigabyte-ud750gm-pg5-full-modular-80-gold-pcie-5-0-de-750w/"
   },
   {
     "id": 24,
@@ -3579,6 +3747,24 @@
       "spdigital": 249990
     },
     "url": "https://n1g.cl/Home/computacion/1807-procesador-amd-ryzen-5-5500-42ghz-turbo-6core12thread-am4-box-100-100000457box.html"
+  },
+  {
+    "id": 2644,
+    "category_id": "mobo",
+    "brand": "Gigabyte",
+    "name": "PLACA MADRE GIGABYTE B550M-K AM4",
+    "slug": "placa-madre-gigabyte-b550m-k-am4",
+    "image_url": "https://images.findtech.cl/products/placa-madre-gigabyte-b550m-k-am4.webp",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 99990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 99990
+    },
+    "url": "https://trulustore.cl/producto/placa-madre-gigabyte-b550m-k-am4/"
   },
   {
     "id": 4210,
@@ -4242,10 +4428,11 @@
     "best_price": 112990,
     "best_store_name": "SP Digital",
     "best_store_id": "spdigital",
-    "store_count": 3,
+    "store_count": 4,
     "prices": {
       "spdigital": 112990,
       "cg": 257141,
+      "trulustore": 259990,
       "n1g": 379000
     },
     "url": "https://www.spdigital.cl/memoria-ram-ddr4-8gb-3200mhz-kingston-fury-beast-dimm-unbuffered-cl16-135v"
@@ -4287,6 +4474,25 @@
     "url": "https://n1g.cl/Home/computacion/912-msi-b550m-pro-vdh-wifi-socket-am4-amd-b550-ddr4-sata3usb32-m2-micro-atx-motherboard.html"
   },
   {
+    "id": 2654,
+    "category_id": "psu",
+    "brand": "ASUS",
+    "name": "FUENTE DE PODER ASUS PRIME 850G DE 850W 80+ GOLD – FULL MODULAR – ATX 3.1",
+    "slug": "fuente-de-poder-asus-prime-850g-de-850w-80-gold-full-modular-atx-3-1",
+    "image_url": "https://images.findtech.cl/products/fuente-de-poder-asus-prime-850g-de-850w-80-gold-full-modular-atx-3-1.png",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:00",
+    "best_price": 114990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 2,
+    "prices": {
+      "trulustore": 114990,
+      "spdigital": 136500
+    },
+    "url": "https://trulustore.cl/producto/fuente-de-poder-asus-prime-850g-de-850w-80-gold-full-modular-atx-3-1/"
+  },
+  {
     "id": 681,
     "category_id": "storage",
     "brand": "Crucial",
@@ -4303,6 +4509,24 @@
       "n1g": 115500
     },
     "url": "https://n1g.cl/Home/computacion/3234-crucial-ssd-e100-1tb-5000-mbs-nvme-pcie-40-m2-2280-pn-ct1000e100ssd8.html"
+  },
+  {
+    "id": 2659,
+    "category_id": "psu",
+    "brand": "ASUS",
+    "name": "FUENTE DE PODER ASUS TUF GAMING 750G DE 750W 80+ GOLD – FULL MODULAR – ATX 3.1",
+    "slug": "fuente-de-poder-asus-tuf-gaming-750g-de-750w-80-gold-full-modular-atx-3-1",
+    "image_url": "https://images.findtech.cl/products/fuente-de-poder-asus-tuf-gaming-750g-de-750w-80-gold-full-modular-atx-3-1.png",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:22",
+    "best_price": 115990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 115990
+    },
+    "url": "https://trulustore.cl/producto/fuente-de-poder-asus-tuf-gaming-750g-de-750w-80-gold-full-modular-atx-3-1/"
   },
   {
     "id": 26,
@@ -4334,9 +4558,10 @@
     "best_price": 119000,
     "best_store_name": "N1G",
     "best_store_id": "n1g",
-    "store_count": 3,
+    "store_count": 4,
     "prices": {
       "n1g": 119000,
+      "trulustore": 125990,
       "cg": 129990,
       "spdigital": 189990
     },
@@ -4395,6 +4620,24 @@
       "n1g": 119000
     },
     "url": "https://n1g.cl/Home/computacion/2548-gigabyte-gp-atc800-120mm-2-ball-cpu-cooler.html"
+  },
+  {
+    "id": 2637,
+    "category_id": "cpu",
+    "brand": "MSI",
+    "name": "FUENTE DE PODER MSI MAG A1000GLS 1000W 80+ GOLD / CYBENETICS GOLD – FULL MODULAR – PCIE 5.1 – ATX 3.1",
+    "slug": "fuente-de-poder-msi-mag-a1000gls-1000w-80-gold-cybenetics-gold-full-modular-pcie-5-1-atx-3-1",
+    "image_url": "https://images.findtech.cl/products/fuente-de-poder-msi-mag-a1000gls-1000w-80-gold-cybenetics-gold-full-modular-pcie-5-1-atx-3-1.jpg",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 119990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 119990
+    },
+    "url": "https://trulustore.cl/producto/fuente-de-poder-msi-mag-a1000gls-1000w-80-gold-cybenetics-gold-full-modular-pcie-5-1-atx-3-1/"
   },
   {
     "id": 9469,
@@ -4557,6 +4800,25 @@
       "n1g": 124900
     },
     "url": "https://n1g.cl/Home/computacion/1474-corsair-kit-2x-140mm-ventilador-negro-icue-ql140-rgb-pwm-lighting-node-core-co-9050100-ww.html"
+  },
+  {
+    "id": 2643,
+    "category_id": "mobo",
+    "brand": "ASUS",
+    "name": "PLACA MADRE ASUS PRIME B550M-A AC WIFI AM4",
+    "slug": "placa-madre-asus-prime-b550m-a-ac-wifi-am4",
+    "image_url": "https://images.findtech.cl/products/placa-madre-asus-prime-b550m-a-ac-wifi-am4.jpg",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 124990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 2,
+    "prices": {
+      "trulustore": 124990,
+      "spdigital": 179990
+    },
+    "url": "https://trulustore.cl/producto/placa-madre-asus-prime-b550m-a-ac-wifi-am4/"
   },
   {
     "id": 1180,
@@ -4845,24 +5107,6 @@
       "spdigital": 134990
     },
     "url": "https://www.spdigital.cl/cooler-master-mlx-d28m-a14pk-r1-water-c-ml280-mirror"
-  },
-  {
-    "id": 9717,
-    "category_id": "psu",
-    "brand": "ASUS",
-    "name": "Fuente de Poder ASUS TUF Gaming 750W, Certificada 80+ Plus Gold, ATX, Modular Gaming",
-    "slug": "fuente-de-poder-asus-tuf-gaming-750w-certificada-80-plus-gold-atx-modular-gaming",
-    "image_url": "https://images.findtech.cl/products/fuente-de-poder-asus-tuf-gaming-750w-certificada-80-plus-gold-atx-modular-gaming.jpg",
-    "tags": [],
-    "updated_at": "2026-04-28 22:22:19",
-    "best_price": 136500,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
-    "store_count": 1,
-    "prices": {
-      "spdigital": 136500
-    },
-    "url": "https://www.spdigital.cl/tuf-gaming-750g-80gold-psu"
   },
   {
     "id": 9499,
@@ -5227,6 +5471,24 @@
     "url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-b650m-a-ii/"
   },
   {
+    "id": 2633,
+    "category_id": "cpu",
+    "brand": "AMD",
+    "name": "PLACA MADRE MSI PRO B850M-B GEN4 / AMD AM5 / 2X DDR5 / 2X M.2",
+    "slug": "placa-madre-msi-pro-b850m-b-gen4-amd-am5-2x-ddr5-2x-m-2",
+    "image_url": "https://images.findtech.cl/products/placa-madre-msi-pro-b850m-b-gen4-amd-am5-2x-ddr5-2x-m-2.jpg",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 149990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 149990
+    },
+    "url": "https://trulustore.cl/producto/placa-madre-msi-pro-b850m-b-gen4-amd-am5-2x-ddr5-2x-m-2/"
+  },
+  {
     "id": 9434,
     "category_id": "mobo",
     "brand": "Gigabyte",
@@ -5279,24 +5541,6 @@
       "spdigital": 149990
     },
     "url": "https://www.spdigital.cl/unidad-ssd-adata-legend-860-500gb-m2-2280-pcie-gen4-x4-nvme-20-3d-nand"
-  },
-  {
-    "id": 9707,
-    "category_id": "psu",
-    "brand": "Gigabyte",
-    "name": "Fuente de Poder 750W Gigabyte GP-UD750GM-PG5, 80 PLUS Gold, ATX 3.0",
-    "slug": "fuente-de-poder-750w-gigabyte-gp-ud750gm-pg5-80-plus-gold-atx-3-0",
-    "image_url": "https://images.findtech.cl/products/fuente-de-poder-750w-gigabyte-gp-ud750gm-pg5-80-plus-gold-atx-3-0.png",
-    "tags": [],
-    "updated_at": "2026-04-28 22:22:16",
-    "best_price": 149990,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
-    "store_count": 1,
-    "prices": {
-      "spdigital": 149990
-    },
-    "url": "https://www.spdigital.cl/fuente-de-poder-gigabyte-750w-certificacion-bronce-conector-pg5-color-negro"
   },
   {
     "id": 9708,
@@ -5382,11 +5626,12 @@
     "best_price": 153990,
     "best_store_name": "CentralGamer",
     "best_store_id": "cg",
-    "store_count": 3,
+    "store_count": 4,
     "prices": {
       "cg": 153990,
       "n1g": 154900,
-      "spdigital": 219990
+      "spdigital": 219990,
+      "trulustore": 569990
     },
     "url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-5600gt/"
   },
@@ -5571,6 +5816,24 @@
       "n1g": 159900
     },
     "url": "https://n1g.cl/Home/computacion/3297-lian-li-uni-fan-tl-lcd-120-wireless-black-triple-pack-reverse-24-ghz-infinity-mirror-.html"
+  },
+  {
+    "id": 2655,
+    "category_id": "psu",
+    "brand": "ASUS",
+    "name": "FUENTE DE PODER ASUS TUF GAMING 1000G DE 1000W 80+ GOLD – FULL MODULAR – ATX 3.1",
+    "slug": "fuente-de-poder-asus-tuf-gaming-1000g-de-1000w-80-gold-full-modular-atx-3-1",
+    "image_url": "https://images.findtech.cl/products/fuente-de-poder-asus-tuf-gaming-1000g-de-1000w-80-gold-full-modular-atx-3-1.png",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:26",
+    "best_price": 159990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 159990
+    },
+    "url": "https://trulustore.cl/producto/fuente-de-poder-asus-tuf-gaming-1000g-de-1000w-80-gold-full-modular-atx-3-1/"
   },
   {
     "id": 9658,
@@ -5916,24 +6179,6 @@
     "url": "https://n1g.cl/Home/computacion/3686-intel-sparkle-arc-a380-elf-6gb-gddr6-single-fan-sa380e-6g.html"
   },
   {
-    "id": 9424,
-    "category_id": "mobo",
-    "brand": "ASUS",
-    "name": "Placa Madre ASUS PRIME B550M-A AC, Socket AM4, 4x DDR4, Wi-Fi, Micro-ATX",
-    "slug": "placa-madre-asus-prime-b550m-a-ac-socket-am4-4x-ddr4-wi-fi-micro-atx",
-    "image_url": "https://images.findtech.cl/products/placa-madre-asus-prime-b550m-a-ac-socket-am4-4x-ddr4-wi-fi-micro-atx.png",
-    "tags": [],
-    "updated_at": "2026-04-28 22:23:00",
-    "best_price": 179990,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
-    "store_count": 1,
-    "prices": {
-      "spdigital": 179990
-    },
-    "url": "https://www.spdigital.cl/placa-madre-asus-prime-b550m-a-ac-socket-am4-factor-matx-aura-sync-rgb"
-  },
-  {
     "id": 9455,
     "category_id": "mobo",
     "brand": "AMD",
@@ -6107,9 +6352,10 @@
     "best_price": 182900,
     "best_store_name": "N1G",
     "best_store_id": "n1g",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "n1g": 182900
+      "n1g": 182900,
+      "trulustore": 198590
     },
     "url": "https://n1g.cl/Home/computacion/3143-asus-prime-b840m-a-am5-ddr5-matx-motherboard-4-dimm.html"
   },
@@ -6477,6 +6723,26 @@
     "url": "https://www.spdigital.cl/placa-madre-asus-prime-b860m-k-socket-lga-1851-2x-ddr5-2x-m2-25gbe-micro-atx"
   },
   {
+    "id": 12111,
+    "category_id": "cooling",
+    "brand": "MSI",
+    "name": "REFRIGERACION LIQUIDA MSI MPG CORELIQUID P13 360 ARGB – PANTALLA IPS 2.1″ – AM4 / AM5 / LGA1700 / LGA1851",
+    "slug": "refrigeracion-liquida-msi-mpg-coreliquid-p13-360-argb-pantalla-ips-2-1-am4-am5-lga1700-lga1851",
+    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+    "tags": [],
+    "updated_at": "2026-04-28 23:08:31",
+    "best_price": 199990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 3,
+    "prices": {
+      "trulustore": 199990,
+      "cg": 229990,
+      "spdigital": 249990
+    },
+    "url": "https://trulustore.cl/producto/refrigeracion-liquida-msi-mpg-coreliquid-p13-360-argb-pantalla-ips-2-1-am4-am5-lga1700-lga1851/"
+  },
+  {
     "id": 9487,
     "category_id": "ram",
     "brand": "Intel",
@@ -6805,6 +7071,25 @@
     "url": "https://centralgamer.cl/procesadores/amd-ryzen-5-7600-3-8-ghz-6-nucleos-12-hilos-32-mb-cache-socket-am5-caja/"
   },
   {
+    "id": 2657,
+    "category_id": "psu",
+    "brand": "ASUS",
+    "name": "FUENTE DE PODER ASUS ROG STRIX 1000P DE 1000W 80+ PLATINUM – FULL MODULAR – ATX 3.1",
+    "slug": "fuente-de-poder-asus-rog-strix-1000p-de-1000w-80-platinum-full-modular-atx-3-1",
+    "image_url": "https://images.findtech.cl/products/fuente-de-poder-asus-rog-strix-1000p-de-1000w-80-platinum-full-modular-atx-3-1.png",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:04",
+    "best_price": 224490,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 2,
+    "prices": {
+      "trulustore": 224490,
+      "spdigital": 349990
+    },
+    "url": "https://trulustore.cl/producto/fuente-de-poder-asus-rog-strix-1000p-de-1000w-80-platinum-full-modular-atx-3-1/"
+  },
+  {
     "id": 9621,
     "category_id": "cooling",
     "brand": "AMD",
@@ -6965,25 +7250,6 @@
       "spdigital": 229990
     },
     "url": "https://www.spdigital.cl/procesador-intel-13100f"
-  },
-  {
-    "id": 4208,
-    "category_id": "cooling",
-    "brand": "MSI",
-    "name": "Refrigeración Liquida MSI MPG CORELIQUID P13 360",
-    "slug": "refrigeracion-liquida-msi-mpg-coreliquid-p13-360",
-    "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-msi-mpg-coreliquid-p13-360.jpg",
-    "tags": [],
-    "updated_at": "2026-04-28 22:05:54",
-    "best_price": 229990,
-    "best_store_name": "CentralGamer",
-    "best_store_id": "cg",
-    "store_count": 2,
-    "prices": {
-      "cg": 229990,
-      "spdigital": 249990
-    },
-    "url": "https://centralgamer.cl/refrigeracion-pc/refrigeracion-liquida-cpu-msi-mpg-coreliquid-p13-360/"
   },
   {
     "id": 9426,
@@ -7349,6 +7615,24 @@
     "url": "https://www.spdigital.cl/refrigeracion-liquida-cooler-master-ml240-atmos-ii-pixel-led-240mm-intelamd-2-fans-argb"
   },
   {
+    "id": 12116,
+    "category_id": "storage",
+    "brand": "Kingston",
+    "name": "SSD M.2 NVME PCIe 5.0 KINGSTON FURY RENEGADE 1TB – LECTURA 14200MB/S",
+    "slug": "ssd-m-2-nvme-pcie-5-0-kingston-fury-renegade-1tb-lectura-14200mb-s",
+    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 249990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 249990
+    },
+    "url": "https://trulustore.cl/producto/ssd-m-2-nvme-pcie-5-0-kingston-fury-renegade-1tb-lectura-14200mb-s/"
+  },
+  {
     "id": 1139,
     "category_id": "cpu",
     "brand": "Intel",
@@ -7613,9 +7897,10 @@
     "best_price": 268000,
     "best_store_name": "N1G",
     "best_store_id": "n1g",
-    "store_count": 2,
+    "store_count": 3,
     "prices": {
       "n1g": 268000,
+      "trulustore": 299990,
       "spdigital": 459990
     },
     "url": "https://n1g.cl/Home/computacion/2963-amd-ryzen-7-8700f-41ghz-8-core-16-hilos-socket-am5-65w-sin-graficos-processor-100-100001590box.html"
@@ -7655,6 +7940,25 @@
       "n1g": 269900
     },
     "url": "https://n1g.cl/Home/computacion/3474-asrock-amd-b850-live-mixer-wifi-socket-am5-ryzen-900080007000-series-ddr5-m2-sata3-60-gbs-pcie-50-x16-atx-motherboard.html"
+  },
+  {
+    "id": 2650,
+    "category_id": "ram",
+    "brand": "Kingston",
+    "name": "MEMORIA RAM KINGSTON FURY BEAST RGB DDR5 16GB 6400MHZ CL32",
+    "slug": "memoria-ram-kingston-fury-beast-rgb-ddr5-16gb-6400mhz-cl32",
+    "image_url": "https://images.findtech.cl/products/memoria-ram-kingston-fury-beast-rgb-ddr5-16gb-6400mhz-cl32.webp",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 269990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 2,
+    "prices": {
+      "trulustore": 269990,
+      "spdigital": 309990
+    },
+    "url": "https://trulustore.cl/producto/memoria-ram-kingston-fury-beast-rgb-ddr5-16gb-6400mhz-cl32/"
   },
   {
     "id": 9490,
@@ -8019,6 +8323,25 @@
     "url": "https://n1g.cl/Home/computacion/2798-hyte-x-persona-3-y60-reload-bundle-3x-120mm-incluiye-riser-cable-pcie-40.html"
   },
   {
+    "id": 2642,
+    "category_id": "mobo",
+    "brand": "Gigabyte",
+    "name": "PLACA MADRE GIGABYTE B850M AORUS ELITE WIFI7 ICE-P AM5 / WIFI 7 / BT 5.3 / M.2 GEN5 / PCIE GEN5 / TURBO MODE",
+    "slug": "placa-madre-gigabyte-b850m-aorus-elite-wifi7-ice-p-am5-wifi-7-bt-5-3-m-2-gen5-pcie-gen5-turbo-mode",
+    "image_url": "https://images.findtech.cl/products/placa-madre-gigabyte-b850m-aorus-elite-wifi7-ice-p-am5-wifi-7-bt-5-3-m-2-gen5-pcie-gen5-turbo-mode.png",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 299990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 2,
+    "prices": {
+      "trulustore": 299990,
+      "spdigital": 349990
+    },
+    "url": "https://trulustore.cl/producto/placa-madre-gigabyte-b850m-aorus-elite-wifi7-ice-p-am5-wifi-7-bt-5-3-m-2-gen5-pcie-gen5-turbo-mode/"
+  },
+  {
     "id": 1162,
     "category_id": "mobo",
     "brand": "ASUS",
@@ -8093,24 +8416,6 @@
     "url": "https://www.spdigital.cl/msi-geforce-rtx-3050-lp-6g-oc-pci-express-30-x16-x4-mode-nvidia-nvidia-geforce-rtx-3050"
   },
   {
-    "id": 9506,
-    "category_id": "ram",
-    "brand": "Kingston",
-    "name": "Memoria RAM DDR5 16GB 6400MT/s Kingston FURY Beast, CL32, DIMM, V1.1",
-    "slug": "memoria-ram-ddr5-16gb-6400mt-s-kingston-fury-beast-cl32-dimm-v1-1",
-    "image_url": "https://images.findtech.cl/products/memoria-ram-ddr5-16gb-6400mt-s-kingston-fury-beast-cl32-dimm-v1-1.png",
-    "tags": [],
-    "updated_at": "2026-04-28 22:23:00",
-    "best_price": 309990,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
-    "store_count": 1,
-    "prices": {
-      "spdigital": 309990
-    },
-    "url": "https://www.spdigital.cl/kingston-fury-ddr5-sdram-dimm-288-pin-6400-mhz-cl32-generic-ecc-dimm"
-  },
-  {
     "id": 4196,
     "category_id": "storage",
     "brand": "Kingston",
@@ -8163,6 +8468,25 @@
       "n1g": 319000
     },
     "url": "https://n1g.cl/Home/computacion/3282-hyte-y70-persona-3-reload-official-mid-tower-atx-gaming-pc-deskto.html"
+  },
+  {
+    "id": 2634,
+    "category_id": "cpu",
+    "brand": "MSI",
+    "name": "PLACA MADRE MSI PRO X870E-P WIFI DDR5 AM5 / WIFI 7 / BT 5.4 / M.2 GEN5",
+    "slug": "placa-madre-msi-pro-x870e-p-wifi-ddr5-am5-wifi-7-bt-5-4-m-2-gen5",
+    "image_url": "https://images.findtech.cl/products/placa-madre-msi-pro-x870e-p-wifi-ddr5-am5-wifi-7-bt-5-4-m-2-gen5.jpg",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 319990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 2,
+    "prices": {
+      "trulustore": 319990,
+      "spdigital": 399990
+    },
+    "url": "https://trulustore.cl/producto/placa-madre-msi-pro-x870e-p-wifi-ddr5-am5-wifi-7-bt-5-4-m-2-gen5/"
   },
   {
     "id": 9471,
@@ -8309,6 +8633,25 @@
     "url": "https://www.spdigital.cl/wd-purple-wd85purz-disco-duro-8-tb-interno-35-sata-6gbs-5640-rpm-bufer-256-mb"
   },
   {
+    "id": 2598,
+    "category_id": "gpu",
+    "brand": "NVIDIA",
+    "name": "TARJETA DE VIDEO ZOTAC NVIDIA GEFORCE RTX 5050 8GB SOLO ITX",
+    "slug": "tarjeta-de-video-zotac-nvidia-geforce-rtx-5050-8gb-solo-itx",
+    "image_url": "https://images.findtech.cl/products/tarjeta-de-video-zotac-nvidia-geforce-rtx-5050-8gb-solo-itx.jpg",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 334790,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 2,
+    "prices": {
+      "trulustore": 334790,
+      "spdigital": 428030
+    },
+    "url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-geforce-rtx-5050-8gb-solo-itx/"
+  },
+  {
     "id": 619,
     "category_id": "mobo",
     "brand": "Asus",
@@ -8361,6 +8704,24 @@
       "cg": 337873
     },
     "url": "https://centralgamer.cl/procesadores/intel-core-ultra-7-265kf-3-9-ghz-20-core-lga1851/"
+  },
+  {
+    "id": 5653,
+    "category_id": "gpu",
+    "brand": "AMD",
+    "name": "TARJETA DE VIDEO ASUS DUAL AMD RADEON RX 7600 EVO OC EDITION 8GB",
+    "slug": "tarjeta-de-video-asus-dual-amd-radeon-rx-7600-evo-oc-edition-8gb",
+    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 339990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 339990
+    },
+    "url": "https://trulustore.cl/producto/tarjeta-de-video-asus-dual-amd-radeon-rx-7600-evo-oc-edition-8gb/"
   },
   {
     "id": 9546,
@@ -8453,24 +8814,6 @@
     "url": "https://n1g.cl/Home/computacion/2066-enermax-liqtech-tr4-ii-360-argb-aio-liquid-cpu-cooler-500wtdp-amd-swrx8-strx4-tr4-y-sr3elc-lttrto360-tbp.html"
   },
   {
-    "id": 9427,
-    "category_id": "mobo",
-    "brand": "Gigabyte",
-    "name": "Placa Madre GIGABYTE B850M AORUS ELITE WIFI7 ICE-P, Socket AM5, 4x DDR5, 2x M.2, X3D Turbo Mode",
-    "slug": "placa-madre-gigabyte-b850m-aorus-elite-wifi7-ice-p-socket-am5-4x-ddr5-2x-m-2-x3d-turbo-mode",
-    "image_url": "https://images.findtech.cl/products/placa-madre-gigabyte-b850m-aorus-elite-wifi7-ice-p-socket-am5-4x-ddr5-2x-m-2-x3d-turbo-mode.png",
-    "tags": [],
-    "updated_at": "2026-04-28 22:23:00",
-    "best_price": 349990,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
-    "store_count": 1,
-    "prices": {
-      "spdigital": 349990
-    },
-    "url": "https://www.spdigital.cl/placa-b850m-a-elite-wf7-ice-p"
-  },
-  {
     "id": 9505,
     "category_id": "ram",
     "brand": "Crucial",
@@ -8505,24 +8848,6 @@
       "spdigital": 349990
     },
     "url": "https://www.spdigital.cl/adata-ssd-1tb-xpg-mars-980-pro-gen5x4-heatsink"
-  },
-  {
-    "id": 9695,
-    "category_id": "psu",
-    "brand": "ASUS",
-    "name": "Fuente de Poder ASUS ROG Strix 1000W Platinum, Full Modular, ATX 3.1, 80 Plus Platinum",
-    "slug": "fuente-de-poder-asus-rog-strix-1000w-platinum-full-modular-atx-3-1-80-plus-platinum",
-    "image_url": "https://images.findtech.cl/products/fuente-de-poder-asus-rog-strix-1000w-platinum-full-modular-atx-3-1-80-plus-platinum.png",
-    "tags": [],
-    "updated_at": "2026-04-28 22:22:13",
-    "best_price": 349990,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
-    "store_count": 1,
-    "prices": {
-      "spdigital": 349990
-    },
-    "url": "https://www.spdigital.cl/fuente-de-poder-asus-rog-strix-1000w-platinum-full-modular-atx-31-80-plus-platinum"
   },
   {
     "id": 38,
@@ -8615,6 +8940,24 @@
       "cg": 354990
     },
     "url": "https://centralgamer.cl/placas-madre/placa-madre-msi-x870e-gaming-plus-wifi/"
+  },
+  {
+    "id": 2605,
+    "category_id": "gpu",
+    "brand": "NVIDIA",
+    "name": "TARJETA DE VIDEO NVIDIA RTX 5050 8GB MSI SHADOW 2X OC",
+    "slug": "tarjeta-de-video-nvidia-rtx-5050-8gb-msi-shadow-2x-oc",
+    "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-rtx-5050-8gb-msi-shadow-2x-oc.webp",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 359990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 359990
+    },
+    "url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-rtx-5050-8gb-msi-shadow-2x-oc/"
   },
   {
     "id": 12,
@@ -8810,9 +9153,10 @@
     "best_price": 380576,
     "best_store_name": "CentralGamer",
     "best_store_id": "cg",
-    "store_count": 2,
+    "store_count": 3,
     "prices": {
       "cg": 380576,
+      "trulustore": 419990,
       "spdigital": 599990
     },
     "url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-7-9700x-2/"
@@ -8946,22 +9290,23 @@
     "url": "https://centralgamer.cl/procesadores/procesador-intel-core-i5-14600k/"
   },
   {
-    "id": 9454,
-    "category_id": "mobo",
-    "brand": "MSI",
-    "name": "Placa Madre MSI PRO X870E-P WiFi, Socket AM5, 4x DDR5, 3x M.2, PCIe 5.0, ATX",
-    "slug": "placa-madre-msi-pro-x870e-p-wifi-socket-am5-4x-ddr5-3x-m-2-pcie-5-0-atx",
-    "image_url": "https://images.findtech.cl/products/placa-madre-msi-pro-x870e-p-wifi-socket-am5-4x-ddr5-3x-m-2-pcie-5-0-atx.jpg",
+    "id": 2651,
+    "category_id": "ram",
+    "brand": "Kingston",
+    "name": "MEMORIA RAM KINGSTON FURY RENEGADE RGB DDR5 24GB (1x 24GB) 7200MHZ CL38",
+    "slug": "memoria-ram-kingston-fury-renegade-rgb-ddr5-24gb-1x-24gb-7200mhz-cl38",
+    "image_url": "https://images.findtech.cl/products/memoria-ram-kingston-fury-renegade-rgb-ddr5-24gb-1x-24gb-7200mhz-cl38.jpg",
     "tags": [],
-    "updated_at": "2026-04-28 22:23:00",
+    "updated_at": "2026-04-28 23:10:47",
     "best_price": 399990,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
-    "store_count": 1,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 2,
     "prices": {
-      "spdigital": 399990
+      "trulustore": 399990,
+      "spdigital": 569990
     },
-    "url": "https://www.spdigital.cl/msi-motherboard-pro-x870e-p-wifi-4-dimm-ddr5-a"
+    "url": "https://trulustore.cl/producto/memoria-ram-kingston-fury-renegade-rgb-ddr5-24gb-1x-24gb-7200mhz-cl38/"
   },
   {
     "id": 9431,
@@ -9200,24 +9545,6 @@
     "url": "https://centralgamer.cl/procesadores/intel-core-i7-12700-2-1-ghz-12-nucleos-20-hilos-25-mb-cache-lga1700-socket-caja/"
   },
   {
-    "id": 9582,
-    "category_id": "gpu",
-    "brand": "NVIDIA",
-    "name": "Tarjeta de Video ZOTAC Gaming Nvidia GeForce RTX 5050 Twin Edge OC, 8GB GDDR6, 128-bit, PCI-e 5.0",
-    "slug": "tarjeta-de-video-zotac-gaming-nvidia-geforce-rtx-5050-twin-edge-oc-8gb-gddr6-128-bit-pci-e-5-0",
-    "image_url": "https://images.findtech.cl/products/tarjeta-de-video-zotac-gaming-nvidia-geforce-rtx-5050-twin-edge-oc-8gb-gddr6-128-bit-pci-e-5-0.jpg",
-    "tags": [],
-    "updated_at": "2026-04-28 22:23:00",
-    "best_price": 428030,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
-    "store_count": 1,
-    "prices": {
-      "spdigital": 428030
-    },
-    "url": "https://www.spdigital.cl/zotac-gaming-geforce-rtx-5050-twin-edge"
-  },
-  {
     "id": 788,
     "category_id": "cooling",
     "brand": "Asus",
@@ -9309,6 +9636,24 @@
     "url": "https://centralgamer.cl/grafica-asus/tarjeta-de-video-asus-dual-rtx-5060-oc-8gb-evo/"
   },
   {
+    "id": 2604,
+    "category_id": "gpu",
+    "brand": "NVIDIA",
+    "name": "TARJETA DE VIDEO NVIDIA GEFORCE RTX 5060 8GB ASUS DUAL EVO OC",
+    "slug": "tarjeta-de-video-nvidia-geforce-rtx-5060-8gb-asus-dual-evo-oc",
+    "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-geforce-rtx-5060-8gb-asus-dual-evo-oc.webp",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 449990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 449990
+    },
+    "url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-geforce-rtx-5060-8gb-asus-dual-evo-oc/"
+  },
+  {
     "id": 9443,
     "category_id": "mobo",
     "brand": "ASUS",
@@ -9325,6 +9670,25 @@
       "spdigital": 449990
     },
     "url": "https://www.spdigital.cl/placa-madre-asus-prime-x870-p-wifi-socket-am5-4x-ddr5-hdmi-2x-usb4-4-xm2-wi-fi-7-atx"
+  },
+  {
+    "id": 2656,
+    "category_id": "psu",
+    "brand": "ASUS",
+    "name": "FUENTE DE PODER ASUS ROG THOR 1200 PLATINUM III DE 1200W  80+ PLATINUM – FULL MODULAR – ATX 3.1 – PANTALLA OLED – AURA SYNC",
+    "slug": "fuente-de-poder-asus-rog-thor-1200-platinum-iii-de-1200w-80-platinum-full-modular-atx-3-1-pantalla-o",
+    "image_url": "https://images.findtech.cl/products/fuente-de-poder-asus-rog-thor-1200-platinum-iii-de-1200w-80-platinum-full-modular-atx-3-1-pantalla-o.png",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:09",
+    "best_price": 449990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 2,
+    "prices": {
+      "trulustore": 449990,
+      "spdigital": 599990
+    },
+    "url": "https://trulustore.cl/producto/fuente-de-poder-asus-rog-thor-1200-platinum-iii-de-1200w-80-platinum-full-modular-atx-3-1-pantalla-oled-aura-sync/"
   },
   {
     "id": 9478,
@@ -9417,6 +9781,25 @@
     "url": "https://www.spdigital.cl/ubiquiti-hard-drive-internal-hard-drive-8-tb-35-uacc-hdd-e-8tb"
   },
   {
+    "id": 2601,
+    "category_id": "gpu",
+    "brand": "NVIDIA",
+    "name": "TARJETA DE VIDEO ZOTAC NVIDIA GEFORCE RTX 5060 8GB TWIN EDGE OC",
+    "slug": "tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-8gb-twin-edge-oc",
+    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 469390,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 2,
+    "prices": {
+      "trulustore": 469390,
+      "spdigital": 584180
+    },
+    "url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-8gb-twin-edge-oc/"
+  },
+  {
     "id": 42,
     "category_id": "cpu",
     "brand": "AMD",
@@ -9428,9 +9811,10 @@
     "best_price": 471000,
     "best_store_name": "N1G",
     "best_store_id": "n1g",
-    "store_count": 3,
+    "store_count": 4,
     "prices": {
       "n1g": 471000,
+      "trulustore": 549990,
       "spdigital": 769990,
       "cg": 7344990
     },
@@ -9725,6 +10109,25 @@
     "url": "https://n1g.cl/Home/computacion/2159-seagate-ironwolf-pro-18tb-hdd-nas-35-sata-3-6gbs-7200-rpm.html"
   },
   {
+    "id": 2596,
+    "category_id": "gpu",
+    "brand": "NVIDIA",
+    "name": "TARJETA DE VIDEO ZOTAC NVIDIA GEFORCE RTX 5060 TI 8GB TWIN EDGE OC",
+    "slug": "tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-ti-8gb-twin-edge-oc",
+    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20256%20180'%3E%3C/svg%3E",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 519990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 2,
+    "prices": {
+      "trulustore": 519990,
+      "spdigital": 626180
+    },
+    "url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-ti-16gb-twin-edge-oc-white-edition/"
+  },
+  {
     "id": 9730,
     "category_id": "psu",
     "brand": "Cooler Master",
@@ -9869,22 +10272,23 @@
     "url": "https://n1g.cl/Home/computacion/2532-intel-core-i9-14900k-14th-gen-24-core-8p16e-lga-1700-125w-intel-uhd-graphics-770-bx8071514900k.html"
   },
   {
-    "id": 9507,
-    "category_id": "ram",
-    "brand": "Kingston",
-    "name": "Memoria RAM DDR5 24GB 7200MT/s Kingston FURY Renegade Silver/Black RGB XMP,CL38, DIMM, 1.4V",
-    "slug": "memoria-ram-ddr5-24gb-7200mt-s-kingston-fury-renegade-silver-black-rgb-xmp-cl38-dimm-1-4v",
-    "image_url": "https://images.findtech.cl/products/memoria-ram-ddr5-24gb-7200mt-s-kingston-fury-renegade-silver-black-rgb-xmp-cl38-dimm-1-4v.jpg",
+    "id": 2610,
+    "category_id": "gpu",
+    "brand": "AMD",
+    "name": "TARJETA DE VIDEO ASUS DUAL AMD RADEON RX 9060 XT 16GB",
+    "slug": "tarjeta-de-video-asus-dual-amd-radeon-rx-9060-xt-16gb",
+    "image_url": "https://images.findtech.cl/products/tarjeta-de-video-asus-dual-amd-radeon-rx-9060-xt-16gb.png",
     "tags": [],
-    "updated_at": "2026-04-28 22:23:00",
+    "updated_at": "2026-04-28 23:10:47",
     "best_price": 569990,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
-    "store_count": 1,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 2,
     "prices": {
-      "spdigital": 569990
+      "trulustore": 569990,
+      "spdigital": 700940
     },
-    "url": "https://www.spdigital.cl/kingston-fury-ddr5-sdram-24gb-7200mts-ddr5-cl38-dimm"
+    "url": "https://trulustore.cl/producto/tarjeta-de-video-asus-dual-amd-radeon-rx-9060-xt-16gb/"
   },
   {
     "id": 3556,
@@ -9898,9 +10302,10 @@
     "best_price": 578000,
     "best_store_name": "N1G",
     "best_store_id": "n1g",
-    "store_count": 2,
+    "store_count": 3,
     "prices": {
       "n1g": 578000,
+      "trulustore": 659990,
       "spdigital": 699990
     },
     "url": "https://n1g.cl/Home/computacion/3847-amd-ryzen-7-9850x3d-socket-am5-8-nucleos-16-hilos-47-ghz-tdp-120w.html"
@@ -9922,24 +10327,6 @@
       "spdigital": 579990
     },
     "url": "https://www.spdigital.cl/tuf-gaming-z890-plus-wifi"
-  },
-  {
-    "id": 9583,
-    "category_id": "gpu",
-    "brand": "NVIDIA",
-    "name": "Tarjeta de Video ZOTAC GAMING NVIDIA GeForce RTX 5060 Twin Edge OC 8GB GDDR7, 128-bit, 28 Gbps",
-    "slug": "tarjeta-de-video-zotac-gaming-nvidia-geforce-rtx-5060-twin-edge-oc-8gb-gddr7-128-bit-28-gbps",
-    "image_url": "https://images.findtech.cl/products/tarjeta-de-video-zotac-gaming-nvidia-geforce-rtx-5060-twin-edge-oc-8gb-gddr7-128-bit-28-gbps.png",
-    "tags": [],
-    "updated_at": "2026-04-28 22:23:00",
-    "best_price": 584180,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
-    "store_count": 1,
-    "prices": {
-      "spdigital": 584180
-    },
-    "url": "https://www.spdigital.cl/zotac-gaming-geforce-rtx-5060-twin-edge"
   },
   {
     "id": 634,
@@ -10034,6 +10421,24 @@
     "url": "https://n1g.cl/Home/computacion/3778-nvidia-jetson-orin-nano-super-kit-de-desarrollo.html"
   },
   {
+    "id": 2612,
+    "category_id": "gpu",
+    "brand": "AMD",
+    "name": "TARJETA DE VIDEO GIGABYTE AMD RADEON RX 9060 XT GAMING OC 16GB",
+    "slug": "tarjeta-de-video-gigabyte-amd-radeon-rx-9060-xt-gaming-oc-16gb",
+    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 599990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 599990
+    },
+    "url": "https://trulustore.cl/producto/tarjeta-de-video-gigabyte-amd-radeon-rx-9060-xt-gaming-oc-16gb/"
+  },
+  {
     "id": 9559,
     "category_id": "gpu",
     "brand": "NVIDIA",
@@ -10052,24 +10457,6 @@
     "url": "https://www.spdigital.cl/geforce-rtx-5060-eagle-max-oc-8g"
   },
   {
-    "id": 9698,
-    "category_id": "psu",
-    "brand": "ASUS",
-    "name": "Fuente de Poder ASUS ROG Thor 1200W Platinum III, Pantalla OLED, Full Modular, ATX 3.1, Aura Sync",
-    "slug": "fuente-de-poder-asus-rog-thor-1200w-platinum-iii-pantalla-oled-full-modular-atx-3-1-aura-sync",
-    "image_url": "https://images.findtech.cl/products/fuente-de-poder-asus-rog-thor-1200w-platinum-iii-pantalla-oled-full-modular-atx-3-1-aura-sync.png",
-    "tags": [],
-    "updated_at": "2026-04-28 22:22:14",
-    "best_price": 599990,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
-    "store_count": 1,
-    "prices": {
-      "spdigital": 599990
-    },
-    "url": "https://www.spdigital.cl/fuente-de-poder-asus-rog-thor-1200w-platinum-iii-pantalla-oled-full-modular-atx-31-aura-sync"
-  },
-  {
     "id": 9778,
     "category_id": "case",
     "brand": "Cooler Master",
@@ -10086,24 +10473,6 @@
       "spdigital": 609990
     },
     "url": "https://www.spdigital.cl/haf-700-evo"
-  },
-  {
-    "id": 9587,
-    "category_id": "gpu",
-    "brand": "NVIDIA",
-    "name": "Tarjeta de video ZOTAC NVIDIA GeForce RTX 5060 Ti 8GB GDDR7 Twin Edge OC 128bits 28Gbps PCIe 5.0",
-    "slug": "tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-ti-8gb-gddr7-twin-edge-oc-128bits-28gbps-pcie-5-0",
-    "image_url": "https://images.findtech.cl/products/tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-ti-8gb-gddr7-twin-edge-oc-128bits-28gbps-pcie-5-0.jpg",
-    "tags": [],
-    "updated_at": "2026-04-28 22:23:00",
-    "best_price": 626180,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
-    "store_count": 1,
-    "prices": {
-      "spdigital": 626180
-    },
-    "url": "https://www.spdigital.cl/tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-ti-8gb-gddr7-twin-edge-oc-128bits-28gbps-pcie-50"
   },
   {
     "id": 509,
@@ -10232,6 +10601,24 @@
     "url": "https://www.spdigital.cl/caja-abiertadanada-pc-gamer-amd-ryzen-5-4600gt-ram-16gb-2x8gb-ssd-512gb-nvme-500w-nvme"
   },
   {
+    "id": 2649,
+    "category_id": "mobo",
+    "brand": "AMD",
+    "name": "PC Gamer ESGAMING AMD R3 5300G / Radeon Vega 6 / 16GB DDR4 3200Mhz / SSD NVMe 500GB / Gabinete F05T – 4 Ventiladores / WIFI / FreeDOS",
+    "slug": "pc-gamer-esgaming-amd-r3-5300g-radeon-vega-6-16gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-f05t-4-ventil",
+    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 679990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 679990
+    },
+    "url": "https://trulustore.cl/producto/pc-gamer-esgaming-amd-r3-5300g-radeon-vega-6-16gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-f05t-4-ventiladores-wifi-freedos/"
+  },
+  {
     "id": 549,
     "category_id": "cpu",
     "brand": "AMD",
@@ -10251,22 +10638,41 @@
     "url": "https://n1g.cl/Home/computacion/3165-amd-ryzen-9-9900x-3d-socket-am5-12c24t-44ghz-hasta-55-ghz-zen-5-tdp-120w-100-100001368wof.html"
   },
   {
-    "id": 9593,
+    "id": 12121,
     "category_id": "gpu",
-    "brand": "AMD",
-    "name": "Tarjeta de Video ASUS Dual AMD Radeon RX 9060 XT 16GB GDDR6 128 bits 20 Gbps PCIe 5.0",
-    "slug": "tarjeta-de-video-asus-dual-amd-radeon-rx-9060-xt-16gb-gddr6-128-bits-20-gbps-pcie-5-0",
-    "image_url": "https://images.findtech.cl/products/tarjeta-de-video-asus-dual-amd-radeon-rx-9060-xt-16gb-gddr6-128-bits-20-gbps-pcie-5-0.jpg",
+    "brand": "NVIDIA",
+    "name": "TARJETA DE VIDEO NVIDIA GEFORCE RTX 5060 TI ASUS PRIME OC 16GB",
+    "slug": "tarjeta-de-video-nvidia-geforce-rtx-5060-ti-asus-prime-oc-16gb",
+    "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-geforce-rtx-5060-ti-asus-prime-oc-16gb.png",
     "tags": [],
-    "updated_at": "2026-04-28 22:23:00",
-    "best_price": 700940,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 689990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
     "store_count": 1,
     "prices": {
-      "spdigital": 700940
+      "trulustore": 689990
     },
-    "url": "https://www.spdigital.cl/tarj-video-pci-exp-16gb-gddr6-prime-radeon-rx-9060-xt-dual-dual-rx9060xt-16g"
+    "url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-geforce-rtx-5060-ti-asus-prime-oc-16gb/"
+  },
+  {
+    "id": 2628,
+    "category_id": "cpu",
+    "brand": "AMD",
+    "name": "PROCESADOR AMD RYZEN 9 9950X AM5 16C / 32T",
+    "slug": "procesador-amd-ryzen-9-9950x-am5-16c-32t",
+    "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-9-9950x-am5-16c-32t.jpg",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 699990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 2,
+    "prices": {
+      "trulustore": 699990,
+      "spdigital": 1059990
+    },
+    "url": "https://trulustore.cl/producto/procesador-amd-ryzen-9-9950x-am5-16c-32t/"
   },
   {
     "id": 7,
@@ -10341,6 +10747,24 @@
     "url": "https://n1g.cl/Home/computacion/3323-powercolor-reaper-rx-9070-16gb-gddr6-amd-radeon-rx9070-16g-a.html"
   },
   {
+    "id": 2606,
+    "category_id": "gpu",
+    "brand": "NVIDIA",
+    "name": "TARJETA DE VIDEO NVIDIA RTX 5070 12GB MSI VENTUS 3X OC",
+    "slug": "tarjeta-de-video-nvidia-rtx-5070-12gb-msi-ventus-3x-oc",
+    "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-rtx-5070-12gb-msi-ventus-3x-oc.jpg",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 789990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 789990
+    },
+    "url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-rtx-5070-12gb-msi-ventus-3x-oc/"
+  },
+  {
     "id": 7333,
     "category_id": "pc",
     "brand": "Intel",
@@ -10388,13 +10812,32 @@
     "best_price": 799900,
     "best_store_name": "N1G",
     "best_store_id": "n1g",
-    "store_count": 3,
+    "store_count": 4,
     "prices": {
       "n1g": 799900,
       "cg": 807510,
+      "trulustore": 859990,
       "spdigital": 1006510
     },
     "url": "https://n1g.cl/Home/computacion/3716-asus-rx-9070-xt-16gb-oc-prime-edition-radeon-gddr6-256-bit-pci-e-50-prime-rx9070xt-o16g.html"
+  },
+  {
+    "id": 2625,
+    "category_id": "cpu",
+    "brand": "AMD",
+    "name": "PC Gamer AMD Ryzen 5 5500 / RTX 3050 Asus Dual OC / 8GB DDR4 3200MHZ / SSD NVMe 500GB / Gabinete Antec AX67 – 4 Ventiladores",
+    "slug": "pc-gamer-amd-ryzen-5-5500-rtx-3050-asus-dual-oc-8gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-antec-ax67-",
+    "image_url": "https://images.findtech.cl/products/pc-gamer-amd-ryzen-5-5500-rtx-3050-asus-dual-oc-8gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-antec-ax67-.jpg",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 799990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 799990
+    },
+    "url": "https://trulustore.cl/producto/pc-gamer-amd-ryzen-5-5500-rtx-3050-asus-dual-oc-8gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-antec-ax67-4-ventiladores/"
   },
   {
     "id": 9404,
@@ -10488,6 +10931,25 @@
     "url": "https://www.spdigital.cl/ddr5-6000mts-48gb-2x24gb-dimm-vengeance-rgb-ddr5"
   },
   {
+    "id": 12141,
+    "category_id": "gpu",
+    "brand": "NVIDIA",
+    "name": "TARJETA DE VIDEO ZOTAC NVIDIA RTX 5070 SOLID OC 12GB",
+    "slug": "tarjeta-de-video-zotac-nvidia-rtx-5070-solid-oc-12gb",
+    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 849990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 2,
+    "prices": {
+      "trulustore": 849990,
+      "spdigital": 1056320
+    },
+    "url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-rtx-5070-solid-oc-12gb/"
+  },
+  {
     "id": 639,
     "category_id": "mobo",
     "brand": "Asus",
@@ -10525,6 +10987,25 @@
     "url": "https://n1g.cl/Home/computacion/3394-intel-core-i9-14900ks-62-ghz-24-core-8p16e-pcore-32-ghz-e-core-24-ghz-lga-1700-150w-.html"
   },
   {
+    "id": 2627,
+    "category_id": "cpu",
+    "brand": "AMD",
+    "name": "PROCESADOR AMD RYZEN 9 9950X3D AM5 16C / 32T CACHÉ L3 128MB",
+    "slug": "procesador-amd-ryzen-9-9950x3d-am5-16c-32t-cache-l3-128mb",
+    "image_url": "https://trulustore.cl/wp-content/uploads/2025/09/wxx9erku4meqamletkeo5n8wyu3n-300x300.avif",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 869990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 2,
+    "prices": {
+      "trulustore": 869990,
+      "spdigital": 1299990
+    },
+    "url": "https://trulustore.cl/producto/procesador-amd-ryzen-9-9950x3d-am5-16c-32t-cache-l3-128mb/"
+  },
+  {
     "id": 9532,
     "category_id": "storage",
     "brand": "Crucial",
@@ -10541,6 +11022,24 @@
       "spdigital": 879650
     },
     "url": "https://www.spdigital.cl/ssd-crucial-t710-4tb-pcie-gen5-nvme-m2-2280-r-14900-mbs-w-13800-mbs-gamers-cont-creator"
+  },
+  {
+    "id": 2595,
+    "category_id": "gpu",
+    "brand": "AMD",
+    "name": "PC Gamer ESGAMING AMD R5 5500 / RTX 3050 6GB / 16GB DDR4 3200Mhz / SSD NVMe 500GB / Gabinete F05T – 4 Ventiladores / WIFI / FreeDOS",
+    "slug": "pc-gamer-esgaming-amd-r5-5500-rtx-3050-6gb-16gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-f05t-4-ventilad",
+    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 899990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 899990
+    },
+    "url": "https://trulustore.cl/producto/pc-gamer-esgaming-amd-r5-5500-rtx-3050-6gb-16gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-f05t-4-ventiladores-wifi-freedos/"
   },
   {
     "id": 7327,
@@ -10759,40 +11258,58 @@
     "url": "https://n1g.cl/Home/computacion/3208-samsung-4tb-pm9e1-ssd-data-center-ia-pcie-50-4x-14500-mbs-ssd-nvme-2280-mzvlc4t0hbl1-00b07-pm9e14tb.html"
   },
   {
-    "id": 9584,
-    "category_id": "gpu",
-    "brand": "NVIDIA",
-    "name": "Tarjeta de Video ZOTAC GAMING NVIDIA GeForce RTX 5070 SOLID OC 12GB GDDR7, 192 bits, PCIe 5.0",
-    "slug": "tarjeta-de-video-zotac-gaming-nvidia-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bits-pcie-5-0",
-    "image_url": "https://images.findtech.cl/products/tarjeta-de-video-zotac-gaming-nvidia-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bits-pcie-5-0.png",
-    "tags": [],
-    "updated_at": "2026-04-28 22:23:00",
-    "best_price": 1056320,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
-    "store_count": 1,
-    "prices": {
-      "spdigital": 1056320
-    },
-    "url": "https://www.spdigital.cl/tarjeta-de-video-zotac-gaming-nvidia-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bits-pcie-50"
-  },
-  {
-    "id": 9416,
+    "id": 2619,
     "category_id": "cpu",
     "brand": "AMD",
-    "name": "Procesador AMD Ryzen 9 9950X, 5.70GHZ, 16Core/32Hilos, Socket AM5, Gráficos Radeon",
-    "slug": "procesador-amd-ryzen-9-9950x-5-70ghz-16core-32hilos-socket-am5-graficos-radeon",
-    "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-9-9950x-5-70ghz-16core-32hilos-socket-am5-graficos-radeon.jpg",
+    "name": "PC Gamer AMD Ryzen 7 5700X / RTX 3050 Asus Dual OC / 8GB DDR4 3200Mhz / SSD NVMe 500GB / Wi-Fi y Bluetooth / Gabinete Antec CX300 – 4 Ventiladores",
+    "slug": "pc-gamer-amd-ryzen-7-5700x-rtx-3050-asus-dual-oc-8gb-ddr4-3200mhz-ssd-nvme-500gb-wi-fi-y-bluetooth-g",
+    "image_url": "https://images.findtech.cl/products/pc-gamer-amd-ryzen-7-5700x-rtx-3050-asus-dual-oc-8gb-ddr4-3200mhz-ssd-nvme-500gb-wi-fi-y-bluetooth-g.jpg",
     "tags": [],
-    "updated_at": "2026-04-28 22:20:18",
-    "best_price": 1059990,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 1048970,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
     "store_count": 1,
     "prices": {
-      "spdigital": 1059990
+      "trulustore": 1048970
     },
-    "url": "https://www.spdigital.cl/ryzen-9-9950x-570ghz-16-core-skt-am5"
+    "url": "https://trulustore.cl/producto/pc-gamer-amd-ryzen-7-5700x-rtx-3050-asus-dual-oc-8gb-ddr4-3200mhz-ssd-nvme-500gb-wi-fi-y-bluetooth-gabinete-antec-cx300-4-ventiladores/"
+  },
+  {
+    "id": 2591,
+    "category_id": "gpu",
+    "brand": "Intel",
+    "name": "PC Gamer ESGAMING Intel i5 12600K / RTX 3050 6GB / 16GB DDR4 3200Mhz / SSD NVMe 500GB / Gabinete F05T – 4 Ventiladores / WIFI / FreeDOS",
+    "slug": "pc-gamer-esgaming-intel-i5-12600k-rtx-3050-6gb-16gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-f05t-4-vent",
+    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 1059990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 1059990
+    },
+    "url": "https://trulustore.cl/producto/pc-gamer-esgaming-intel-i5-12600k-rtx-3050-6gb-16gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-f05t-4-ventiladores-wifi-freedos/"
+  },
+  {
+    "id": 2587,
+    "category_id": "gpu",
+    "brand": "AMD",
+    "name": "PC Gamer ESGAMING AMD R5 5500 / RTX 5060 6GB / 16GB DDR4 3200Mhz / SSD NVMe 500GB / Gabinete Y03 – 4 Ventiladores / WIFI / FreeDOS",
+    "slug": "pc-gamer-esgaming-amd-r5-5500-rtx-5060-6gb-16gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-y03-4-ventilado",
+    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 1099990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 1099990
+    },
+    "url": "https://trulustore.cl/producto/pc-gamer-esgaming-amd-r5-5500-rtx-5060-6gb-16gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-y03-4-ventiladores-wifi-freedos/"
   },
   {
     "id": 9567,
@@ -10867,6 +11384,24 @@
     "url": "https://n1g.cl/Home/computacion/2372-asrock-wrx80-creator-r20-amd-wrx80-sata-6gbs-eatx-2-thunderbolt-4-type-c.html"
   },
   {
+    "id": 2609,
+    "category_id": "gpu",
+    "brand": "NVIDIA",
+    "name": "TARJETA DE VIDEO NVIDIA MSI RTX 5070 TI 16GB GAMING TRIO OC WHITE",
+    "slug": "tarjeta-de-video-nvidia-msi-rtx-5070-ti-16gb-gaming-trio-oc-white",
+    "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-msi-rtx-5070-ti-16gb-gaming-trio-oc-white.jpg",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 1199990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 1199990
+    },
+    "url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-msi-rtx-5070-ti-16gb-gaming-trio-oc-white/"
+  },
+  {
     "id": 511,
     "category_id": "gpu",
     "brand": "ZOTAC",
@@ -10878,9 +11413,10 @@
     "best_price": 1219000,
     "best_store_name": "N1G",
     "best_store_id": "n1g",
-    "store_count": 2,
+    "store_count": 3,
     "prices": {
       "n1g": 1219000,
+      "trulustore": 1249990,
       "spdigital": 1442940
     },
     "url": "https://n1g.cl/Home/computacion/3520-zotac-solid-core-oc-white-edition-geforce-rtx-5070-ti-16gb-gddr7-pci-express-50-x16-atx-zt-b50710q2-10p.html"
@@ -10897,9 +11433,10 @@
     "best_price": 1224990,
     "best_store_name": "CentralGamer",
     "best_store_id": "cg",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "cg": 1224990
+      "cg": 1224990,
+      "trulustore": 1383980
     },
     "url": "https://centralgamer.cl/pc-medium/pc-gamer-amd-ryzen-7-5700x-rtx-5060-32gb-ram-1tb-nvme-4-0/"
   },
@@ -10922,6 +11459,24 @@
     "url": "https://centralgamer.cl/promo-nvidia/tarjeta-de-video-asus-prime-rtx-5070-ti-16gb-ddr7/"
   },
   {
+    "id": 2622,
+    "category_id": "cpu",
+    "brand": "AMD",
+    "name": "PC Gamer AMD Ryzen 5 8400F / RTX 5060 MSI SHADOW 2X OC / 16GB DDR5 5600Mhz / SSD NVMe 500GB / Gabinete Forge COC – 5 ventiladores",
+    "slug": "pc-gamer-amd-ryzen-5-8400f-rtx-5060-msi-shadow-2x-oc-16gb-ddr5-5600mhz-ssd-nvme-500gb-gabinete-forge",
+    "image_url": "https://images.findtech.cl/products/pc-gamer-amd-ryzen-5-8400f-rtx-5060-msi-shadow-2x-oc-16gb-ddr5-5600mhz-ssd-nvme-500gb-gabinete-forge.jpg",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 1249990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 1249990
+    },
+    "url": "https://trulustore.cl/producto/pc-gamer-amd-ryzen-5-8400f-rtx-5060-msi-shadow-2x-oc-16gb-ddr5-5600mhz-ssd-nvme-500gb-gabinete-forge-coc-5-ventiladores/"
+  },
+  {
     "id": 499,
     "category_id": "gpu",
     "brand": "PowerColor",
@@ -10940,22 +11495,22 @@
     "url": "https://n1g.cl/Home/computacion/3202-powercolor-red-devil-amd-radeon-rx-9070-xt-16gb-gddr6-limited-edition-rx9070xt-16g-eoclimited.html"
   },
   {
-    "id": 9415,
-    "category_id": "cpu",
-    "brand": "AMD",
-    "name": "Procesador AMD Ryzen 9 9950X3D, Socket AM5, 16C/32T, 4.3GHz (Hasta 5.7 GHz), Zen 5, TDP 170W",
-    "slug": "procesador-amd-ryzen-9-9950x3d-socket-am5-16c-32t-4-3ghz-hasta-5-7-ghz-zen-5-tdp-170w",
-    "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-9-9950x3d-socket-am5-16c-32t-4-3ghz-hasta-5-7-ghz-zen-5-tdp-170w.jpg",
+    "id": 2590,
+    "category_id": "gpu",
+    "brand": "Intel",
+    "name": "PC Gamer ESGAMING Intel i7 14700F / RTX 3050 6GB / 16GB DDR4 3200Mhz / SSD NVMe 500GB / Gabinete F05T – 4 Ventiladores / WIFI / FreeDOS",
+    "slug": "pc-gamer-esgaming-intel-i7-14700f-rtx-3050-6gb-16gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-f05t-4-vent",
+    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
     "tags": [],
-    "updated_at": "2026-04-28 22:23:00",
+    "updated_at": "2026-04-28 23:10:47",
     "best_price": 1299990,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
     "store_count": 1,
     "prices": {
-      "spdigital": 1299990
+      "trulustore": 1299990
     },
-    "url": "https://www.spdigital.cl/amd-ryzen-9-9950x3d-16-core-processor"
+    "url": "https://trulustore.cl/producto/pc-gamer-esgaming-intel-i7-14700f-rtx-3050-6gb-16gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-f05t-4-ventiladores-wifi-freedos/"
   },
   {
     "id": 643,
@@ -10992,6 +11547,60 @@
       "n1g": 1349000
     },
     "url": "https://n1g.cl/Home/computacion/2552-asus-pro-ws-wrx80e-sage-se-wifi-ii-amd-wrx80-ryzen-threadripper-pro-eatx-workstation-dual-10-g-lan-7x-pcie-40.html"
+  },
+  {
+    "id": 2592,
+    "category_id": "gpu",
+    "brand": "Intel",
+    "name": "PC Gamer ESGAMING Intel i5 14400F / RTX 5060 8GB / 32GB DDR4 3200Mhz / SSD NVMe 500GB / Gabinete Y03 – 4 Ventiladores / WIFI / FreeDOS",
+    "slug": "pc-gamer-esgaming-intel-i5-14400f-rtx-5060-8gb-32gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-y03-4-venti",
+    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 1349990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 1349990
+    },
+    "url": "https://trulustore.cl/producto/pc-gamer-esgaming-intel-i5-14400f-rtx-3050-6gb-16gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-f05t-4-ventiladores-wifi-freedos/"
+  },
+  {
+    "id": 2621,
+    "category_id": "cpu",
+    "brand": "AMD",
+    "name": "PC Gamer AMD Ryzen 7 8700F / RTX 5060 MSI SHADOW 2X OC / 16GB DDR5 5600Mhz / SSD NVMe 500GB / Gabinete Forge COC – 5 ventiladores",
+    "slug": "pc-gamer-amd-ryzen-7-8700f-rtx-5060-msi-shadow-2x-oc-16gb-ddr5-5600mhz-ssd-nvme-500gb-gabinete-forge",
+    "image_url": "https://images.findtech.cl/products/pc-gamer-amd-ryzen-7-8700f-rtx-5060-msi-shadow-2x-oc-16gb-ddr5-5600mhz-ssd-nvme-500gb-gabinete-forge.jpg",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 1349990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 1349990
+    },
+    "url": "https://trulustore.cl/producto/pc-gamer-amd-ryzen-7-8700f-rtx-5060-msi-shadow-2x-oc-16gb-ddr5-5600mhz-ssd-nvme-500gb-gabinete-forge-coc-5-ventiladores/"
+  },
+  {
+    "id": 2623,
+    "category_id": "cpu",
+    "brand": "AMD",
+    "name": "PC Gamer AMD Ryzen 5 9600 / RTX 5060 MSI SHADOW 2X OC / 16GB DDR5 5600Mhz / SSD NVMe 500GB / Gabinete Forge COC – 5 ventiladores",
+    "slug": "pc-gamer-amd-ryzen-5-9600-rtx-5060-msi-shadow-2x-oc-16gb-ddr5-5600mhz-ssd-nvme-500gb-gabinete-forge-",
+    "image_url": "https://images.findtech.cl/products/pc-gamer-amd-ryzen-5-9600-rtx-5060-msi-shadow-2x-oc-16gb-ddr5-5600mhz-ssd-nvme-500gb-gabinete-forge-.jpg",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 1349990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 1349990
+    },
+    "url": "https://trulustore.cl/producto/pc-gamer-amd-ryzen-5-9600-rtx-5060-msi-shadow-2x-oc-16gb-ddr5-5600mhz-ssd-nvme-500gb-gabinete-forge-coc-5-ventiladores/"
   },
   {
     "id": 512,
@@ -11103,6 +11712,42 @@
     "url": "https://www.spdigital.cl/pc-gamer-sp-labs-hex-radeon-rx-7600-ryzen-5-5500-ram-16gb-ssd-1tb-700w-freedos"
   },
   {
+    "id": 2589,
+    "category_id": "gpu",
+    "brand": "Intel",
+    "name": "PC Gamer ESGAMING Intel i7 14700F / RTX 5060 8GB / 16GB DDR4 3200Mhz / SSD NVMe 1TB / Gabinete Y03 – 4 Ventiladores / WIFI / FreeDOS",
+    "slug": "pc-gamer-esgaming-intel-i7-14700f-rtx-5060-8gb-16gb-ddr4-3200mhz-ssd-nvme-1tb-gabinete-y03-4-ventila",
+    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 1599990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 1599990
+    },
+    "url": "https://trulustore.cl/producto/pc-gamer-esgaming-intel-i7-14700f-rtx-5060-8gb-16gb-ddr4-3200mhz-ssd-nvme-1tb-gabinete-y03-4-ventiladores-wifi-freedos/"
+  },
+  {
+    "id": 2620,
+    "category_id": "cpu",
+    "brand": "AMD",
+    "name": "PC Gamer AMD Ryzen 7 7800X3D / RTX 5060 MSI SHADOW 2X OC / 16GB DDR5 5600Mhz / SSD NVMe 500GB / Gabinete Antec CX300 – 4 Ventiladores",
+    "slug": "pc-gamer-amd-ryzen-7-7800x3d-rtx-5060-msi-shadow-2x-oc-16gb-ddr5-5600mhz-ssd-nvme-500gb-gabinete-ant",
+    "image_url": "https://images.findtech.cl/products/pc-gamer-amd-ryzen-7-7800x3d-rtx-5060-msi-shadow-2x-oc-16gb-ddr5-5600mhz-ssd-nvme-500gb-gabinete-ant.jpg",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 1599990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 1599990
+    },
+    "url": "https://trulustore.cl/producto/pc-gamer-amd-ryzen-7-7800x3d-rtx-5060-msi-shadow-2x-oc-16gb-ddr5-5600mhz-ssd-nvme-500gb-gabinete-antec-cx300-4-ventiladores/"
+  },
+  {
     "id": 7338,
     "category_id": "pc",
     "brand": "Intel",
@@ -11119,6 +11764,43 @@
       "cg": 1644990
     },
     "url": "https://centralgamer.cl/pc-medium/pc-gamer-intel-i5-14600kf-rtx-5060-32gb-ram-ddr5-1-tb-m-2-nvme-4-0/"
+  },
+  {
+    "id": 2617,
+    "category_id": "cpu",
+    "brand": "AMD",
+    "name": "PC Gamer AMD Ryzen 5 8400F / RTX 5070 12GB Shadow OC / 16GB DDR5 5600Mhz / SSD NVMe 500GB / Gabinete Vista COC – 6 Ventiladores",
+    "slug": "pc-gamer-amd-ryzen-5-8400f-rtx-5070-12gb-shadow-oc-16gb-ddr5-5600mhz-ssd-nvme-500gb-gabinete-vista-c",
+    "image_url": "https://images.findtech.cl/products/pc-gamer-amd-ryzen-5-8400f-rtx-5070-12gb-shadow-oc-16gb-ddr5-5600mhz-ssd-nvme-500gb-gabinete-vista-c.jpg",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 1674990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 1674990
+    },
+    "url": "https://trulustore.cl/producto/pc-gamer-amd-ryzen-5-8400f-rtx-5070-12gb-shadow-oc-16gb-ddr5-5600mhz-ssd-nvme-500gb-gabinete-vista-coc-6-ventiladores/"
+  },
+  {
+    "id": 2602,
+    "category_id": "gpu",
+    "brand": "NVIDIA",
+    "name": "TARJETA DE VIDEO ZOTAC NVIDIA GEFORCE RTX 5080 SOLID CORE OC 16GB",
+    "slug": "tarjeta-de-video-zotac-nvidia-geforce-rtx-5080-solid-core-oc-16gb",
+    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 1699990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 2,
+    "prices": {
+      "trulustore": 1699990,
+      "spdigital": 2002890
+    },
+    "url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-geforce-rtx-5080-solid-core-oc-16gb/"
   },
   {
     "id": 9571,
@@ -11155,6 +11837,24 @@
       "n1g": 1790000
     },
     "url": "https://n1g.cl/Home/computacion/3854-asus-pro-ws-wrx90e-sage-se-amd-str5-eeb-7-pcie-50-x16-slots-32333-power-stages-4-pcie-50-m2-slots-dual-10gb-lan.html"
+  },
+  {
+    "id": 12123,
+    "category_id": "gpu",
+    "brand": "NVIDIA",
+    "name": "TARJETA DE VIDEO NVIDIA GEFORCE RTX 5080 16GB ASUS PRIME OC",
+    "slug": "tarjeta-de-video-nvidia-geforce-rtx-5080-16gb-asus-prime-oc",
+    "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+    "tags": [],
+    "updated_at": "2026-04-28 23:10:47",
+    "best_price": 1799990,
+    "best_store_name": "TruluStore",
+    "best_store_id": "trulustore",
+    "store_count": 1,
+    "prices": {
+      "trulustore": 1799990
+    },
+    "url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-geforce-rtx-5080-16gb-asus-prime-oc/"
   },
   {
     "id": 43,
@@ -11209,24 +11909,6 @@
       "spdigital": 1999990
     },
     "url": "https://www.spdigital.cl/tarjeta-de-video-msi-geforce-rtx-5080-inspire-3x-oc-16gb-gddr7-256-bit-pcie-50"
-  },
-  {
-    "id": 9563,
-    "category_id": "gpu",
-    "brand": "NVIDIA",
-    "name": "Tarjeta de Video Zotac Gaming Nvidia GeForce RTX 5080 SOLID OC, 16GB GDDR7, 256-bit, PCI-e 5.0",
-    "slug": "tarjeta-de-video-zotac-gaming-nvidia-geforce-rtx-5080-solid-oc-16gb-gddr7-256-bit-pci-e-5-0",
-    "image_url": "https://images.findtech.cl/products/tarjeta-de-video-zotac-gaming-nvidia-geforce-rtx-5080-solid-oc-16gb-gddr7-256-bit-pci-e-5-0.jpg",
-    "tags": [],
-    "updated_at": "2026-04-28 22:23:00",
-    "best_price": 2002890,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
-    "store_count": 1,
-    "prices": {
-      "spdigital": 2002890
-    },
-    "url": "https://www.spdigital.cl/tarjeta-de-video-zotac-gaming-geforce-rtx-5080-solid-oc"
   },
   {
     "id": 44,

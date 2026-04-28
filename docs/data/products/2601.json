@@ -5,45 +5,55 @@
   "brand": "NVIDIA",
   "name": "TARJETA DE VIDEO ZOTAC NVIDIA GEFORCE RTX 5060 8GB TWIN EDGE OC",
   "slug": "tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-8gb-twin-edge-oc",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-8gb-twin-edge-oc.webp",
+  "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
   "description": null,
   "specs": {
     "VRAM": "8 GB",
     "Variante": "OC (Overclocked)",
-    "Transferencia/Efectivo": "$469.390",
-    "Webpay / Tarjeta": "$483.472"
+    "Efectivo / Transferencia": "$469.390",
+    "Khipu": "$478.778",
+    "Tarjeta crédito/débito": "$492.860"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:14",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-04-28 23:10:47",
   "prices": [
     {
       "product_id": 2601,
       "store_id": "trulustore",
       "price": 469390,
-      "price_normal": null,
+      "price_normal": 492860,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-8gb-twin-edge-oc/",
       "store_name": "TruluStore",
+      "price_specs": {
+        "Efectivo / Transferencia": "$469.390",
+        "Khipu": "$478.778",
+        "Tarjeta crédito/débito": "$492.860"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
     },
     {
-      "product_id": 1237,
-      "store_id": "centrale",
-      "price": 481600,
-      "price_normal": null,
+      "product_id": 9583,
+      "store_id": "spdigital",
+      "price": 584180,
+      "price_normal": 610460,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-nvidia-geforce-rtx-5060-twin-edge-oc-8gb-gddr7/",
-      "store_name": "Centrale",
+      "product_url": "https://www.spdigital.cl/zotac-gaming-geforce-rtx-5060-twin-edge",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$584.180",
+        "Webpay / Tarjeta": "$610.460"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -58,7 +68,13 @@
       "store_name": "TruluStore",
       "date": "2026-04-27",
       "price": 469390
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-28",
+      "price": 469390
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-04-28"
 }

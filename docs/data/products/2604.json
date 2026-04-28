@@ -10,22 +10,28 @@
   "specs": {
     "VRAM": "8 GB",
     "Variante": "OC (Overclocked)",
-    "Transferencia/Efectivo": "$449.990",
-    "Webpay / Tarjeta": "$463.490"
+    "Efectivo / Transferencia": "$449.990",
+    "Khipu": "$458.990",
+    "Tarjeta crédito/débito": "$472.490"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:15",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-04-28 23:10:47",
   "prices": [
     {
       "product_id": 2604,
       "store_id": "trulustore",
       "price": 449990,
-      "price_normal": null,
+      "price_normal": 472490,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-geforce-rtx-5060-8gb-asus-dual-evo-oc/",
       "store_name": "TruluStore",
+      "price_specs": {
+        "Efectivo / Transferencia": "$449.990",
+        "Khipu": "$458.990",
+        "Tarjeta crédito/débito": "$472.490"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.trulustore.cl",
@@ -44,7 +50,13 @@
       "store_name": "TruluStore",
       "date": "2026-04-27",
       "price": 449990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-28",
+      "price": 449990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-04-28"
 }

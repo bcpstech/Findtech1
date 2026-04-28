@@ -5,45 +5,55 @@
   "brand": "NVIDIA",
   "name": "TARJETA DE VIDEO ZOTAC NVIDIA GEFORCE RTX 5060 TI 8GB TWIN EDGE OC",
   "slug": "tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-ti-8gb-twin-edge-oc",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-ti-8gb-twin-edge-oc.jpg",
+  "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20256%20180'%3E%3C/svg%3E",
   "description": null,
   "specs": {
     "VRAM": "8 GB",
     "Variante": "OC (Overclocked)",
-    "Transferencia/Efectivo": "$519.990",
-    "Webpay / Tarjeta": "$535.590"
+    "Efectivo / Transferencia": "$519.990",
+    "Khipu": "$530.390",
+    "Tarjeta crédito/débito": "$545.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:12",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-04-28 23:10:47",
   "prices": [
     {
       "product_id": 2596,
       "store_id": "trulustore",
       "price": 519990,
-      "price_normal": null,
+      "price_normal": 545990,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-ti-16gb-twin-edge-oc-white-edition/",
       "store_name": "TruluStore",
+      "price_specs": {
+        "Efectivo / Transferencia": "$519.990",
+        "Khipu": "$530.390",
+        "Tarjeta crédito/débito": "$545.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
     },
     {
-      "product_id": 1225,
-      "store_id": "centrale",
-      "price": 757690,
-      "price_normal": null,
+      "product_id": 9587,
+      "store_id": "spdigital",
+      "price": 626180,
+      "price_normal": 654360,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-geforce-rtx-5060-ti-16gb-twin-edge-oc-white-edition/",
-      "store_name": "Centrale",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-ti-8gb-gddr7-twin-edge-oc-128bits-28gbps-pcie-50",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$626.180",
+        "Webpay / Tarjeta": "$654.360"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -58,7 +68,13 @@
       "store_name": "TruluStore",
       "date": "2026-04-27",
       "price": 519990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-28",
+      "price": 519990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-04-28"
 }

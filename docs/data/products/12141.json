@@ -1,0 +1,71 @@
+{
+  "id": 12141,
+  "external_id": "trulustore_tarjeta-de-video-zotac-nvidia-rtx-5070-solid-oc-12gb",
+  "category_id": "gpu",
+  "brand": "NVIDIA",
+  "name": "TARJETA DE VIDEO ZOTAC NVIDIA RTX 5070 SOLID OC 12GB",
+  "slug": "tarjeta-de-video-zotac-nvidia-rtx-5070-solid-oc-12gb",
+  "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+  "description": null,
+  "specs": {
+    "VRAM": "12 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "192-bit",
+    "Arquitectura": "Blackwell",
+    "Variante": "OC (Overclocked)",
+    "Efectivo / Transferencia": "$849.990",
+    "Khipu": "$866.990",
+    "Tarjeta crédito/débito": "$892.490"
+  },
+  "tags": [],
+  "created_at": "2026-04-28 23:09:29",
+  "updated_at": "2026-04-28 23:10:47",
+  "prices": [
+    {
+      "product_id": 12141,
+      "store_id": "trulustore",
+      "price": 849990,
+      "price_normal": 892490,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-rtx-5070-solid-oc-12gb/",
+      "store_name": "TruluStore",
+      "price_specs": {
+        "Efectivo / Transferencia": "$849.990",
+        "Khipu": "$866.990",
+        "Tarjeta crédito/débito": "$892.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 9584,
+      "store_id": "spdigital",
+      "price": 1056320,
+      "price_normal": 1103860,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-gaming-nvidia-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bits-pcie-50",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.056.320",
+        "Webpay / Tarjeta": "$1.103.860"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-28",
+      "price": 849990
+    }
+  ],
+  "scraped_at": "2026-04-28"
+}

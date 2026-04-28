@@ -5,45 +5,37 @@
   "brand": "AMD",
   "name": "TARJETA DE VIDEO GIGABYTE AMD RADEON RX 9060 XT GAMING OC 16GB",
   "slug": "tarjeta-de-video-gigabyte-amd-radeon-rx-9060-xt-gaming-oc-16gb",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-gigabyte-amd-radeon-rx-9060-xt-gaming-oc-16gb.jpg",
+  "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
   "description": null,
   "specs": {
     "VRAM": "16 GB",
     "Variante": "OC (Overclocked)",
-    "Transferencia/Efectivo": "$599.990",
-    "Webpay / Tarjeta": "$617.990"
+    "Efectivo / Transferencia": "$599.990",
+    "Khipu": "$611.990",
+    "Tarjeta crédito/débito": "$629.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:22",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-04-28 23:10:47",
   "prices": [
     {
       "product_id": 2612,
       "store_id": "trulustore",
       "price": 599990,
-      "price_normal": null,
+      "price_normal": 629990,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/tarjeta-de-video-gigabyte-amd-radeon-rx-9060-xt-gaming-oc-16gb/",
       "store_name": "TruluStore",
+      "price_specs": {
+        "Efectivo / Transferencia": "$599.990",
+        "Khipu": "$611.990",
+        "Tarjeta crédito/débito": "$629.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
-    },
-    {
-      "product_id": 1213,
-      "store_id": "centrale",
-      "price": 613120,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gigabyte-tarjeta-de-video-gaming-oc-ice-amd-radeon-rx-9060-xt-16-gb-gddr6-128/",
-      "store_name": "Centrale",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -58,7 +50,13 @@
       "store_name": "TruluStore",
       "date": "2026-04-27",
       "price": 599990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-28",
+      "price": 599990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-04-28"
 }

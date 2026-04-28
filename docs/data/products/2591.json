@@ -5,25 +5,35 @@
   "brand": "Intel",
   "name": "PC Gamer ESGAMING Intel i5 12600K / RTX 3050 6GB / 16GB DDR4 3200Mhz / SSD NVMe 500GB / Gabinete F05T – 4 Ventiladores / WIFI / FreeDOS",
   "slug": "pc-gamer-esgaming-intel-i5-12600k-rtx-3050-6gb-16gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-f05t-4-vent",
-  "image_url": "https://images.findtech.cl/products/pc-gamer-esgaming-intel-i5-12600k-rtx-3050-6gb-16gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-f05t-4-vent.jpg",
+  "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
   "description": null,
   "specs": {
-    "Transferencia/Efectivo": "$1.059.990",
-    "Webpay / Tarjeta": "$1.091.790"
+    "VRAM": "8 GB",
+    "Tipo memoria": "GDDR6",
+    "Bus de memoria": "128-bit",
+    "Arquitectura": "Ampere",
+    "Efectivo / Transferencia": "$1.059.990",
+    "Khipu": "$1.081.190",
+    "Tarjeta crédito/débito": "$1.112.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:10",
-  "updated_at": "2026-04-26 20:52:10",
+  "updated_at": "2026-04-28 23:10:47",
   "prices": [
     {
       "product_id": 2591,
       "store_id": "trulustore",
       "price": 1059990,
-      "price_normal": null,
+      "price_normal": 1112990,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/pc-gamer-esgaming-intel-i5-12600k-rtx-3050-6gb-16gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-f05t-4-ventiladores-wifi-freedos/",
       "store_name": "TruluStore",
+      "price_specs": {
+        "Efectivo / Transferencia": "$1.059.990",
+        "Khipu": "$1.081.190",
+        "Tarjeta crédito/débito": "$1.112.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.trulustore.cl",
@@ -36,7 +46,19 @@
       "store_name": "TruluStore",
       "date": "2026-04-26",
       "price": 1059990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-27",
+      "price": 1059990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-28",
+      "price": 1059990
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-28"
 }
