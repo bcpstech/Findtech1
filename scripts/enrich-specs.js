@@ -87,32 +87,138 @@ function extractCpuSpecs(name) {
   return specs;
 }
 
+// Base de datos de specs GPU por modelo
+const GPU_SPECS_DB = {
+  // RTX 50 series
+  'RTX5090': { vram:'32 GB', mem:'GDDR7', bus:'512-bit', arch:'Blackwell' },
+  'RTX5080': { vram:'16 GB', mem:'GDDR7', bus:'256-bit', arch:'Blackwell' },
+  'RTX5070TI': { vram:'16 GB', mem:'GDDR7', bus:'256-bit', arch:'Blackwell' },
+  'RTX5070': { vram:'12 GB', mem:'GDDR7', bus:'192-bit', arch:'Blackwell' },
+  // RTX 40 series
+  'RTX4090': { vram:'24 GB', mem:'GDDR6X', bus:'384-bit', arch:'Ada Lovelace' },
+  'RTX4080SUPER': { vram:'16 GB', mem:'GDDR6X', bus:'256-bit', arch:'Ada Lovelace' },
+  'RTX4080': { vram:'16 GB', mem:'GDDR6X', bus:'256-bit', arch:'Ada Lovelace' },
+  'RTX4070TISUPER': { vram:'16 GB', mem:'GDDR6X', bus:'256-bit', arch:'Ada Lovelace' },
+  'RTX4070TI': { vram:'12 GB', mem:'GDDR6X', bus:'192-bit', arch:'Ada Lovelace' },
+  'RTX4070SUPER': { vram:'12 GB', mem:'GDDR6X', bus:'192-bit', arch:'Ada Lovelace' },
+  'RTX4070': { vram:'12 GB', mem:'GDDR6X', bus:'192-bit', arch:'Ada Lovelace' },
+  'RTX4060TI': { vram:'8 GB', mem:'GDDR6', bus:'128-bit', arch:'Ada Lovelace' },
+  'RTX4060': { vram:'8 GB', mem:'GDDR6', bus:'128-bit', arch:'Ada Lovelace' },
+  'RTX4050': { vram:'6 GB', mem:'GDDR6', bus:'96-bit', arch:'Ada Lovelace' },
+  // RTX 30 series
+  'RTX3090TI': { vram:'24 GB', mem:'GDDR6X', bus:'384-bit', arch:'Ampere' },
+  'RTX3090': { vram:'24 GB', mem:'GDDR6X', bus:'384-bit', arch:'Ampere' },
+  'RTX3080TI': { vram:'12 GB', mem:'GDDR6X', bus:'384-bit', arch:'Ampere' },
+  'RTX3080': { vram:'10 GB', mem:'GDDR6X', bus:'320-bit', arch:'Ampere' },
+  'RTX3070TI': { vram:'8 GB', mem:'GDDR6X', bus:'256-bit', arch:'Ampere' },
+  'RTX3070': { vram:'8 GB', mem:'GDDR6', bus:'256-bit', arch:'Ampere' },
+  'RTX3060TI': { vram:'8 GB', mem:'GDDR6', bus:'256-bit', arch:'Ampere' },
+  'RTX3060': { vram:'12 GB', mem:'GDDR6', bus:'192-bit', arch:'Ampere' },
+  'RTX3050': { vram:'8 GB', mem:'GDDR6', bus:'128-bit', arch:'Ampere' },
+  'RTX3050OC6G': { vram:'6 GB', mem:'GDDR6', bus:'96-bit', arch:'Ampere' },
+  // RTX 20 series
+  'RTX2080TI': { vram:'11 GB', mem:'GDDR6', bus:'352-bit', arch:'Turing' },
+  'RTX2080SUPER': { vram:'8 GB', mem:'GDDR6', bus:'256-bit', arch:'Turing' },
+  'RTX2080': { vram:'8 GB', mem:'GDDR6', bus:'256-bit', arch:'Turing' },
+  'RTX2070SUPER': { vram:'8 GB', mem:'GDDR6', bus:'256-bit', arch:'Turing' },
+  'RTX2070': { vram:'8 GB', mem:'GDDR6', bus:'256-bit', arch:'Turing' },
+  'RTX2060SUPER': { vram:'8 GB', mem:'GDDR6', bus:'256-bit', arch:'Turing' },
+  'RTX2060': { vram:'6 GB', mem:'GDDR6', bus:'192-bit', arch:'Turing' },
+  // GTX 16 series
+  'GTX1660TISUPER': { vram:'6 GB', mem:'GDDR6', bus:'192-bit', arch:'Turing' },
+  'GTX1660SUPER': { vram:'6 GB', mem:'GDDR6', bus:'192-bit', arch:'Turing' },
+  'GTX1660TI': { vram:'6 GB', mem:'GDDR6', bus:'192-bit', arch:'Turing' },
+  'GTX1660': { vram:'6 GB', mem:'GDDR5', bus:'192-bit', arch:'Turing' },
+  'GTX1650SUPER': { vram:'4 GB', mem:'GDDR6', bus:'128-bit', arch:'Turing' },
+  'GTX1650': { vram:'4 GB', mem:'GDDR6', bus:'128-bit', arch:'Turing' },
+  // AMD RX 9000
+  'RX9070XT': { vram:'16 GB', mem:'GDDR6', bus:'256-bit', arch:'RDNA 4' },
+  'RX9070': { vram:'16 GB', mem:'GDDR6', bus:'256-bit', arch:'RDNA 4' },
+  // AMD RX 7000
+  'RX7900XTX': { vram:'24 GB', mem:'GDDR6', bus:'384-bit', arch:'RDNA 3' },
+  'RX7900XT': { vram:'20 GB', mem:'GDDR6', bus:'320-bit', arch:'RDNA 3' },
+  'RX7900GRE': { vram:'16 GB', mem:'GDDR6', bus:'256-bit', arch:'RDNA 3' },
+  'RX7800XT': { vram:'16 GB', mem:'GDDR6', bus:'256-bit', arch:'RDNA 3' },
+  'RX7700XT': { vram:'12 GB', mem:'GDDR6', bus:'192-bit', arch:'RDNA 3' },
+  'RX7600XT': { vram:'16 GB', mem:'GDDR6', bus:'128-bit', arch:'RDNA 3' },
+  'RX7600': { vram:'8 GB', mem:'GDDR6', bus:'128-bit', arch:'RDNA 3' },
+  // AMD RX 6000
+  'RX6950XT': { vram:'16 GB', mem:'GDDR6', bus:'256-bit', arch:'RDNA 2' },
+  'RX6900XT': { vram:'16 GB', mem:'GDDR6', bus:'256-bit', arch:'RDNA 2' },
+  'RX6800XT': { vram:'16 GB', mem:'GDDR6', bus:'256-bit', arch:'RDNA 2' },
+  'RX6800': { vram:'16 GB', mem:'GDDR6', bus:'256-bit', arch:'RDNA 2' },
+  'RX6750XT': { vram:'12 GB', mem:'GDDR6', bus:'192-bit', arch:'RDNA 2' },
+  'RX6700XT': { vram:'12 GB', mem:'GDDR6', bus:'192-bit', arch:'RDNA 2' },
+  'RX6700': { vram:'10 GB', mem:'GDDR6', bus:'160-bit', arch:'RDNA 2' },
+  'RX6650XT': { vram:'8 GB', mem:'GDDR6', bus:'128-bit', arch:'RDNA 2' },
+  'RX6600XT': { vram:'8 GB', mem:'GDDR6', bus:'128-bit', arch:'RDNA 2' },
+  'RX6600': { vram:'8 GB', mem:'GDDR6', bus:'128-bit', arch:'RDNA 2' },
+  'RX6500XT': { vram:'4 GB', mem:'GDDR6', bus:'64-bit', arch:'RDNA 2' },
+  // Intel Arc
+  'ARCA770': { vram:'16 GB', mem:'GDDR6', bus:'256-bit', arch:'Xe HPG' },
+  'ARCA750': { vram:'12 GB', mem:'GDDR6', bus:'192-bit', arch:'Xe HPG' },
+  'ARCA580': { vram:'8 GB', mem:'GDDR6', bus:'128-bit', arch:'Xe HPG' },
+};
+
+function findGpuModel(name) {
+  const n = name.toUpperCase().replace(/[\s\-]/g,'');
+  // Buscar patrón de modelo GPU
+  const patterns = [
+    /RTX\s*(\d{4})\s*(TI\s*)?(?:SUPER)?/i,
+    /GTX\s*(\d{4})\s*(TI\s*)?(?:SUPER)?/i,
+    /RX\s*(\d{4})\s*(XT|GRE|XTX)?/i,
+    /ARC\s*A(\d{3})/i,
+  ];
+  for (const pat of patterns) {
+    const m = name.toUpperCase().match(pat);
+    if (m) {
+      let key = m[0].replace(/\s+/g,'').toUpperCase();
+      // Normalizar: RTX 4060 TI → RTX4060TI
+      key = key.replace(/RTX/,'RTX').replace(/GTX/,'GTX').replace(/RX/,'RX');
+      if (GPU_SPECS_DB[key]) return GPU_SPECS_DB[key];
+      // Buscar sin sufijo
+      const base = key.replace(/(SUPER|XT|XTX|GRE|TI)$/,'');
+      if (GPU_SPECS_DB[base]) return GPU_SPECS_DB[base];
+    }
+  }
+  // Búsqueda directa en keys
+  for (const [key, val] of Object.entries(GPU_SPECS_DB)) {
+    if (n.includes(key)) return val;
+  }
+  return null;
+}
+
 function extractGpuSpecs(name) {
   const n = name.toUpperCase();
   const specs = {};
 
-  // VRAM: 8GB, 16GB
-  const vramMatch = n.match(/(\d+)\s*GB\s*(?:GDDR\d+|VRAM)?/i);
-  if (vramMatch) specs['VRAM'] = vramMatch[1] + ' GB';
+  // Buscar en base de datos de modelos conocidos
+  const known = findGpuModel(name);
+  if (known) {
+    if (known.vram) specs['VRAM'] = known.vram;
+    if (known.mem)  specs['Tipo memoria'] = known.mem;
+    if (known.bus)  specs['Bus de memoria'] = known.bus;
+    if (known.arch) specs['Arquitectura'] = known.arch;
+  }
 
-  // Tipo memoria: GDDR6X, GDDR6
-  const memMatch = n.match(/GDDR\d+X?/i);
-  if (memMatch) specs['Tipo memoria'] = memMatch[0].toUpperCase();
+  // Complementar desde el nombre si no está en DB
+  if (!specs['VRAM']) {
+    const vramMatch = n.match(/(\d+)\s*GB/i);
+    if (vramMatch) specs['VRAM'] = vramMatch[1] + ' GB';
+  }
+  if (!specs['Tipo memoria']) {
+    const memMatch = n.match(/GDDR\d+X?/i);
+    if (memMatch) specs['Tipo memoria'] = memMatch[0].toUpperCase();
+  }
+  if (!specs['Bus de memoria']) {
+    const busMatch = n.match(/(\d{2,3})[\s-]*BIT/i);
+    if (busMatch) specs['Bus de memoria'] = busMatch[1] + '-bit';
+  }
 
-  // Bus: 128-bit, 256-bit
-  const busMatch = n.match(/(\d{2,3})[\s-]*BIT/i);
-  if (busMatch) specs['Bus de memoria'] = busMatch[1] + '-bit';
-
-  // Conector: 8-pin, 16-pin
-  const pinMatch = n.match(/(\d+)[\s-]*PIN/i);
-  if (pinMatch) specs['Conector'] = pinMatch[1] + '-pin';
-
-  // Factor de forma
-  if (/MINI[\s-]?ITX|SMALL FORM/.test(n)) specs['Factor de forma'] = 'Mini-ITX';
-  else if (/LOW[\s-]?PROFILE/.test(n)) specs['Factor de forma'] = 'Low Profile';
-
-  // OC / Overclock
+  // Variante OC
   if (/\bOC\b/.test(n)) specs['Variante'] = 'OC (Overclocked)';
+  if (/LOW[\s-]?PROFILE/.test(n)) specs['Factor de forma'] = 'Low Profile';
+  if (/MINI[\s-]?ITX/.test(n)) specs['Factor de forma'] = 'Mini-ITX';
 
   return specs;
 }
