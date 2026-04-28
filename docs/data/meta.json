@@ -1,9 +1,30 @@
 {
   "last_update": "2026-04-28",
-  "generated_at": "2026-04-28T13:04:13.439Z",
-  "total_products": 395,
+  "generated_at": "2026-04-28T20:50:42.557Z",
+  "total_products": 396,
   "total_stores": 18,
   "last_runs": [
+    {
+      "store_id": "spdigital",
+      "status": "success",
+      "products_updated": 0,
+      "errors_count": 0,
+      "finished_at": "2026-04-28 20:50:41"
+    },
+    {
+      "store_id": "cg",
+      "status": "success",
+      "products_updated": 136,
+      "errors_count": 0,
+      "finished_at": "2026-04-28 20:50:07"
+    },
+    {
+      "store_id": "n1g",
+      "status": "success",
+      "products_updated": 511,
+      "errors_count": 0,
+      "finished_at": "2026-04-28 20:46:38"
+    },
     {
       "store_id": "spdigital",
       "status": "success",
@@ -122,27 +143,6 @@
       "products_updated": 59,
       "errors_count": 0,
       "finished_at": "2026-04-27 22:27:42"
-    },
-    {
-      "store_id": "mybox",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 0,
-      "finished_at": "2026-04-27 22:26:46"
-    },
-    {
-      "store_id": "tytgamer",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 0,
-      "finished_at": "2026-04-27 22:26:15"
-    },
-    {
-      "store_id": "dust2",
-      "status": "success",
-      "products_updated": 725,
-      "errors_count": 0,
-      "finished_at": "2026-04-27 22:26:04"
     }
   ]
 }
