@@ -21,6 +21,13 @@ const BaseScraper = require('../base-scraper');
 const BASE          = 'https://trulustore.cl';
 const FACTOR_KHIPU  = 1.02;
 const FACTOR_CARD   = 1.05;
+const PROXY_URL     = process.env.CF_PROXY_URL    || '';
+const PROXY_KEY     = process.env.CF_PROXY_SECRET || '';
+
+function proxify(url) {
+  if (!PROXY_URL) return url;
+  return `${PROXY_URL}?url=${encodeURIComponent(url)}&secret=${PROXY_KEY}`;
+}
 
 // ── Categorías por URL ─────────────────────────────────────────────────────
 const CATEGORY_URLS = [
@@ -153,7 +160,7 @@ class TruluStoreScraper extends BaseScraper {
   }
 
   async fetchPage(url) {
-    const res = await this.client.get(url, {
+    const res = await this.client.get(proxify(url), {
       headers: {
         Accept: 'text/html,application/xhtml+xml',
         'Accept-Language': 'es-CL,es;q=0.9',
