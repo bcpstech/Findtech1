@@ -1,9 +1,30 @@
 {
   "last_update": "2026-04-28",
-  "generated_at": "2026-04-28T02:23:04.415Z",
+  "generated_at": "2026-04-28T13:04:13.439Z",
   "total_products": 395,
   "total_stores": 18,
   "last_runs": [
+    {
+      "store_id": "spdigital",
+      "status": "success",
+      "products_updated": 0,
+      "errors_count": 0,
+      "finished_at": "2026-04-28 13:04:12"
+    },
+    {
+      "store_id": "cg",
+      "status": "success",
+      "products_updated": 137,
+      "errors_count": 0,
+      "finished_at": "2026-04-28 13:03:27"
+    },
+    {
+      "store_id": "n1g",
+      "status": "success",
+      "products_updated": 510,
+      "errors_count": 0,
+      "finished_at": "2026-04-28 12:59:55"
+    },
     {
       "store_id": "spdigital",
       "status": "success",
@@ -122,27 +143,6 @@
       "products_updated": 725,
       "errors_count": 0,
       "finished_at": "2026-04-27 22:26:04"
-    },
-    {
-      "store_id": "progaming",
-      "status": "success",
-      "products_updated": 40,
-      "errors_count": 0,
-      "finished_at": "2026-04-27 22:17:50"
-    },
-    {
-      "store_id": "myshop",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 0,
-      "finished_at": "2026-04-27 22:17:03"
-    },
-    {
-      "store_id": "spdigital",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 0,
-      "finished_at": "2026-04-27 22:16:30"
     }
   ]
 }

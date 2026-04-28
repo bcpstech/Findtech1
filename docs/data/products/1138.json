@@ -9,17 +9,17 @@
   "description": null,
   "specs": {
     "Marca": "AMD",
-    "Efectivo/Transferencia": "$380.952",
-    "Webpay / Tarjeta": "$400.990"
+    "Efectivo/Transferencia": "$380.576",
+    "Webpay / Tarjeta": "$400.594"
   },
   "tags": [],
   "created_at": "2026-04-26 20:35:44",
-  "updated_at": "2026-04-28 02:21:31",
+  "updated_at": "2026-04-28 13:02:44",
   "prices": [
     {
       "product_id": 1138,
       "store_id": "cg",
-      "price": 380952,
+      "price": 380576,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -48,7 +48,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-28",
-      "price": 380952
+      "price": 380576
     }
   ],
   "scraped_at": "2026-04-28"
