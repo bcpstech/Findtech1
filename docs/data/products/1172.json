@@ -1,42 +1,59 @@
 {
   "id": 1172,
-  "external_id": "centrale_hub-arctic-de-10-puertos-para-ventiladores-pwm-alimentacion-sata",
-  "category_id": "cooling",
-  "brand": "Arctic",
-  "name": "Hub ARCTIC de 10 Puertos para Ventiladores PWM alimentación SATA",
-  "slug": "hub-arctic-de-10-puertos-para-ventiladores-pwm-alimentacion-sata",
-  "image_url": "https://centrale.cl/wp-content/uploads/Hub-ARCTIC-de-10-Puertos-para-Ventiladores-PWM-alimentaciC3B3n-SATA-1.webp",
+  "external_id": "cg_memoria-ram-xpg-spectrix-d35g-8gb-rgb-ddr4-3200mhz-white",
+  "category_id": "ram",
+  "brand": "Genérico",
+  "name": "Memoria Ram XPG SPECTRIX D35G 8GB RGB DDR4 3200Mhz White",
+  "slug": "memoria-ram-xpg-spectrix-d35g-8gb-rgb-ddr4-3200mhz-white",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-xpg-spectrix-d35g-8gb-rgb-ddr4-3200mhz-white.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$10.900",
-    "Tarjetas de Crédito / Débito": "$11.500"
+    "Capacidad": "8 GB",
+    "Tipo": "DDR4",
+    "Velocidad": "3200 MHz",
+    "Iluminación": "RGB",
+    "Marca": "XPG",
+    "Efectivo/Transferencia": "$85.490",
+    "Webpay / Tarjeta crédito-débito": "$89.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:45",
-  "updated_at": "2026-04-25 19:37:45",
+  "created_at": "2026-04-26 20:36:10",
+  "updated_at": "2026-04-28 01:43:22",
   "prices": [
     {
       "product_id": 1172,
-      "store_id": "centrale",
-      "price": 10900,
+      "store_id": "cg",
+      "price": 85490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/hub-arctic-de-10-puertos-para-ventiladores-pwm-alimentacion-sata/",
-      "store_name": "Centrale",
+      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-spectrix-d35g-8gb-ddr4-white/",
+      "store_name": "CentralGamer",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 10900
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-26",
+      "price": 85490
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-27",
+      "price": 85490
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-28",
+      "price": 85490
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-28"
 }

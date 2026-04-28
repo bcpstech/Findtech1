@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:35:59",
-  "updated_at": "2026-04-27 22:13:42",
+  "updated_at": "2026-04-28 01:42:30",
   "prices": [
     {
       "product_id": 1160,
@@ -29,20 +29,6 @@
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
-    },
-    {
-      "product_id": 963,
-      "store_id": "alltec",
-      "price": 169500,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/para-amd/2424-mb-asus-prime-b650m-a-ax6-ii-csm-am5-ddr5-ryzen-700080009000.html",
-      "store_name": "Alltec",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -57,7 +43,13 @@
       "store_name": "CentralGamer",
       "date": "2026-04-27",
       "price": 142490
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-28",
+      "price": 142490
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-04-28"
 }

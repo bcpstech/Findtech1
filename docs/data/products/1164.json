@@ -1,42 +1,55 @@
 {
   "id": 1164,
-  "external_id": "centrale_disipador-cpu-ventilador-procesador-thermalright-phantom-spirit-120-evo",
-  "category_id": "cooling",
-  "brand": "Thermalright",
-  "name": "Disipador CPU Ventilador Procesador Thermalright Phantom Spirit 120 EVO",
-  "slug": "disipador-cpu-ventilador-procesador-thermalright-phantom-spirit-120-evo",
-  "image_url": "https://centrale.cl/wp-content/uploads/Ventilador-CPU-Disipador-Procesador-Thermalright-Phantom-Spirit-120-EVO_8YoePxT-1.webp",
+  "external_id": "cg_placa-madre-msi-a520m-a-pro",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "Placa Madre MSI A520M-A PRO",
+  "slug": "placa-madre-msi-a520m-a-pro",
+  "image_url": "https://images.findtech.cl/products/placa-madre-msi-a520m-a-pro.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$63.910",
-    "Tarjetas de Crédito / Débito": "$67.430"
+    "Marca": "MSI",
+    "Efectivo/Transferencia": "$60.900",
+    "Webpay / Tarjeta crédito-débito": "$64.103"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:25",
-  "updated_at": "2026-04-25 20:57:25",
+  "created_at": "2026-04-26 20:36:00",
+  "updated_at": "2026-04-28 01:42:31",
   "prices": [
     {
       "product_id": 1164,
-      "store_id": "centrale",
-      "price": 63910,
+      "store_id": "cg",
+      "price": 60900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disipador-cpu-ventilador-procesador-thermalright-phantom-spirit-120-evo/",
-      "store_name": "Centrale",
+      "product_url": "https://centralgamer.cl/placas-madre/msi-a520m-a-pro-motherboard/",
+      "store_name": "CentralGamer",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 63910
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-26",
+      "price": 60700
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-27",
+      "price": 60900
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-28",
+      "price": 60900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-28"
 }

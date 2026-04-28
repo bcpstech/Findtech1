@@ -1,42 +1,56 @@
 {
   "id": 1167,
-  "external_id": "centrale_disipador-termico-hpe-para-proliant-dl380-gen10-disipacion-optima",
-  "category_id": "cooling",
-  "brand": "Hpe",
-  "name": "Disipador Térmico HPE para ProLiant DL380 Gen10+, Disipación Óptima",
-  "slug": "disipador-termico-hpe-para-proliant-dl380-gen10-disipacion-optima",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disipador-TC3A9rmico-HPE-para-ProLiant-DL380-Gen10-DisipaciC3B3n-C393ptima_u4GuZ6Z.webp",
+  "external_id": "cg_placa-madre-asus-prime-a620m-k-ddr5",
+  "category_id": "mobo",
+  "brand": "ASUS",
+  "name": "Placa Madre ASUS Prime A620M-K DDR5",
+  "slug": "placa-madre-asus-prime-a620m-k-ddr5",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asus-prime-a620m-k-ddr5.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$53.150",
-    "Tarjetas de Crédito / Débito": "$56.070"
+    "Memoria": "DDR5",
+    "Marca": "ASUS",
+    "Efectivo/Transferencia": "$93.090",
+    "Webpay / Tarjeta crédito-débito": "$97.990"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:25",
-  "updated_at": "2026-04-25 20:57:25",
+  "created_at": "2026-04-26 20:36:01",
+  "updated_at": "2026-04-28 01:43:22",
   "prices": [
     {
       "product_id": 1167,
-      "store_id": "centrale",
-      "price": 53150,
+      "store_id": "cg",
+      "price": 93090,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disipador-termico-hpe-para-proliant-dl380-gen10-disipacion-optima/",
-      "store_name": "Centrale",
+      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-a620m-k-ddr5/",
+      "store_name": "CentralGamer",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 53150
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-26",
+      "price": 93090
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-27",
+      "price": 93090
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-28",
+      "price": 93090
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-28"
 }

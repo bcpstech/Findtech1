@@ -1,9 +1,23 @@
 {
   "last_update": "2026-04-28",
-  "generated_at": "2026-04-28T00:59:06.244Z",
-  "total_products": 319,
+  "generated_at": "2026-04-28T01:43:23.726Z",
+  "total_products": 379,
   "total_stores": 18,
   "last_runs": [
+    {
+      "store_id": "cg",
+      "status": "success",
+      "products_updated": 85,
+      "errors_count": 0,
+      "finished_at": "2026-04-28 01:43:22"
+    },
+    {
+      "store_id": "n1g",
+      "status": "success",
+      "products_updated": 510,
+      "errors_count": 0,
+      "finished_at": "2026-04-28 01:42:07"
+    },
     {
       "store_id": "n1g",
       "status": "success",
@@ -129,20 +143,6 @@
       "products_updated": 367,
       "errors_count": 0,
       "finished_at": "2026-04-27 21:59:24"
-    },
-    {
-      "store_id": "megadrive",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 0,
-      "finished_at": "2026-04-26 20:54:55"
-    },
-    {
-      "store_id": "sipo",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 8,
-      "finished_at": "2026-04-26 20:54:09"
     }
   ]
 }
