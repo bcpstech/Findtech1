@@ -1,7 +1,17 @@
-name: Scraping FindTech.cl — N1G Test
+name: Scraping FindTech.cl
 
 on:
   workflow_dispatch:
+    inputs:
+      store:
+        description: 'Tienda a scrapear'
+        required: false
+        default: 'todas'
+        type: choice
+        options:
+          - todas
+          - n1g
+          - centralgamer
 
 permissions:
   contents: write
@@ -9,7 +19,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
 
     env:
       DB_PATH: ./db/techcompara.db
@@ -39,7 +49,12 @@ jobs:
         run: node db/init.js
 
       - name: Scrapear N1G
-        run: node scraper/stores/n1g.js
+        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == 'n1g' }}
+        run: node scraper/stores/n1g.js || echo "N1G fallo, continuando..."
+
+      - name: Scrapear CentralGamer
+        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == 'centralgamer' }}
+        run: node scraper/stores/centralgamer.js || echo "CentralGamer fallo, continuando..."
 
       - name: Debug stock en DB
         run: |
@@ -67,5 +82,5 @@ jobs:
           git pull --rebase origin main
           git stash pop || true
           git add docs/data/ db/techcompara.db
-          git diff --staged --quiet || git commit -m "test: N1G scraping $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git diff --staged --quiet || git commit -m "scraping: $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
