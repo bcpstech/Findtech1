@@ -560,24 +560,38 @@ footer{
   display:grid;grid-template-columns:1fr 1fr;
   gap:1px;background:var(--border);
 }
+/* Highlights chips */
+.hl-chips{
+  display:flex;flex-wrap:wrap;gap:8px;margin-top:4px;
+}
 .hl-chip{
-  display:inline-flex;align-items:center;gap:6px;
+  display:inline-flex;align-items:center;gap:5px;
   background:var(--bg3);border:1px solid var(--border2);
-  border-radius:20px;padding:5px 14px;
+  border-radius:20px;padding:5px 12px;
   font-size:12px;font-weight:500;color:var(--text2);white-space:nowrap;
 }
 .hl-chip b{color:var(--text);font-weight:700}
-.desc-list{
-  padding-left:0;list-style:none;margin:10px 0 0;
-  display:grid;grid-template-columns:1fr 1fr;gap:8px;
+/* Descripción IA */
+.detail-desc-section{
+  background:var(--bg2);border:1px solid var(--border);
+  border-radius:12px;overflow:hidden;margin-top:4px;
 }
-.desc-list li{
-  background:var(--bg3);border-radius:8px;padding:10px 14px;
-  font-size:13px;color:var(--text);
-  border-left:3px solid var(--accent);
+.detail-desc-section-title{
+  padding:14px 20px;font-size:12px;font-weight:700;
+  color:var(--text3);text-transform:uppercase;letter-spacing:1px;
+  border-bottom:1px solid var(--border);background:var(--bg3);
+  display:flex;align-items:center;gap:8px;
 }
-.desc-list li span{display:block;font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:3px}
-@media(max-width:600px){.desc-list{grid-template-columns:1fr}}
+.detail-desc-section-body{
+  padding:20px;font-size:14px;color:var(--text2);line-height:1.8;
+}
+.detail-desc-section-body p{margin-bottom:12px}
+.detail-desc-section-body p:last-child{margin-bottom:0}
+.detail-desc-section-body strong{color:var(--text)}
+/* Responsive fixes */
+@media(max-width:900px){
+  .detail-wrap{grid-template-columns:240px 1fr;gap:20px}
+}
 .detail-spec-item{
   background:var(--bg2);padding:12px 16px;
 }
@@ -1216,12 +1230,14 @@ select.form-input{cursor:pointer}
     <div class="page" id="page-detail">
       <button class="btn-back" onclick="goBack()">← Volver</button>
       <div class="detail-wrap">
-        <!-- Columna izquierda: imagen + botón opinión -->
+        <!-- Columna izquierda: imagen + botón + chips -->
         <div class="detail-left">
           <div class="detail-img-box" id="detail-img"></div>
           <button class="detail-opinion-btn" onclick="openOpinion()">
             ✍️ Dar opinión sobre este producto
           </button>
+          <!-- Chips de specs clave -->
+          <div class="hl-chips" id="detail-hl-chips" style="display:none"></div>
         </div>
         <!-- Columna derecha: info + precios + specs -->
         <div class="detail-right">
@@ -1234,19 +1250,16 @@ select.form-input{cursor:pointer}
             <div class="detail-prices-title">💰 Precios por tienda</div>
             <div id="detail-prices"></div>
           </div>
-          <!-- Highlights chips -->
-          <div id="detail-highlights" style="display:none;flex-wrap:wrap;gap:8px"></div>
-          <!-- Specs técnicas -->
           <div class="detail-specs-box" id="detail-specs-box" style="display:none">
             <div class="detail-specs-title">📋 Especificaciones técnicas</div>
             <div class="detail-specs-grid" id="detail-specs-grid"></div>
           </div>
-          <!-- Descripción y características -->
-          <div id="detail-desc-box" style="display:none;background:var(--bg2);border:1px solid var(--border);border-radius:12px;overflow:hidden">
-            <div style="padding:14px 20px;font-size:12px;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:1px;border-bottom:1px solid var(--border);background:var(--bg3)">📝 Descripción y características</div>
-            <div id="detail-desc-body" style="padding:20px;font-size:14px;color:var(--text2);line-height:1.75"></div>
-          </div>
         </div>
+      </div>
+      <!-- Descripción IA — ancho completo debajo del grid -->
+      <div class="detail-desc-section" id="detail-desc-section" style="display:none;margin-top:24px;max-width:1200px;margin-left:auto;margin-right:auto">
+        <div class="detail-desc-section-title">✨ Descripción</div>
+        <div class="detail-desc-section-body" id="detail-desc-body"></div>
       </div>
     </div>
 
@@ -2019,12 +2032,12 @@ async function openDetail(id) {
       specsBox.style.display = 'none';
     }
 
-    // ── Highlights ─────────────────────────────────────────────────────
-    const hlEl = document.getElementById('detail-highlights');
-    if (hlEl) {
+    // ── Chips de specs clave ──────────────────────────────────────────────
+    const hlChipsEl = document.getElementById('detail-hl-chips');
+    if (hlChipsEl) {
       const hlDefs = {
         cpu:     [{k:'Núcleos',i:'⚙️'},{k:'Hilos',i:'🔄'},{k:'Frecuencia base',i:'📡'},{k:'Frecuencia turbo',i:'⚡'},{k:'Socket',i:'🔌'},{k:'TDP',i:'🌡️'},{k:'Caché L3',i:'💾'},{k:'Gráficos integrados',i:'🖥️'}],
-        gpu:     [{k:'VRAM',i:'🎮'},{k:'Tipo memoria',i:'💾'},{k:'Bus de memoria',i:'🚌'}],
+        gpu:     [{k:'VRAM',i:'🎮'},{k:'Tipo memoria',i:'💾'},{k:'Bus de memoria',i:'🚌'},{k:'Variante',i:'🏷️'}],
         ram:     [{k:'Capacidad',i:'💾'},{k:'Tipo',i:'🔷'},{k:'Velocidad',i:'⚡'},{k:'Latencia',i:'⏱️'}],
         storage: [{k:'Capacidad',i:'💿'},{k:'Interfaz',i:'🔌'},{k:'Factor de forma',i:'📐'}],
         mobo:    [{k:'Socket',i:'🔌'},{k:'Factor de forma',i:'📐'},{k:'Memoria',i:'🧠'},{k:'WiFi',i:'📶'}],
@@ -2033,17 +2046,19 @@ async function openDetail(id) {
       const chips = defs.filter(d => specs[d.k]).map(d =>
         `<span class="hl-chip">${d.i} ${d.k}: <b>${specs[d.k]}</b></span>`
       ).join('');
-      hlEl.innerHTML = chips;
-      hlEl.style.display = chips ? 'flex' : 'none';
+      hlChipsEl.innerHTML = chips;
+      hlChipsEl.style.display = chips ? 'flex' : 'none';
     }
 
-    // ── Descripción ────────────────────────────────────────────────────
-    const descBox  = document.getElementById('detail-desc-box');
-    const descBody = document.getElementById('detail-desc-body');
-    if (descBox && descBody) {
-      const descHtml = buildProductDescription(detail.name, detail.category_id, specs);
-      if (descHtml) { descBody.innerHTML = descHtml; descBox.style.display = ''; }
-      else descBox.style.display = 'none';
+    // ── Descripción IA ────────────────────────────────────────────────────
+    const descSection = document.getElementById('detail-desc-section');
+    const descBody    = document.getElementById('detail-desc-body');
+    if (descSection && descBody) {
+      descSection.style.display = 'none';
+      descBody.innerHTML = '<p style="color:var(--text3)">⏳ Generando descripción...</p>';
+      generateAIDescription(detail.name, detail.category_id, specs).then(html => {
+        if (html) { descBody.innerHTML = html; descSection.style.display = ''; }
+      });
     }
 
     currentOpinionProduct = { ...p, ...detail };
@@ -2094,67 +2109,63 @@ function renderDetailPrices(p) {
   }).join('');
 }
 
-function buildProductDescription(name, category, specs) {
-  if (!specs || !Object.keys(specs).length) return '';
-  const li = (label, val) => `<li><span>${label}</span>${val}</li>`;
-  let intro = '';
-  let items = [];
+// ══════════════════════════════════════════════════
+// DESCRIPCIÓN IA — Anthropic Claude API
+// ══════════════════════════════════════════════════
+async function generateAIDescription(name, category, specs) {
+  const catNames = {
+    cpu:'procesador', gpu:'tarjeta de video', ram:'memoria RAM',
+    storage:'almacenamiento', mobo:'placa madre', cooling:'refrigeración',
+    psu:'fuente de poder', case:'gabinete', monitor:'monitor', periph:'periférico'
+  };
+  const catName = catNames[category] || 'producto';
 
-  if (category === 'cpu') {
-    const noGpu = specs['Gráficos integrados'] === 'No';
-    const cores = specs['Núcleos'] ? `${specs['Núcleos']} núcleos / ${specs['Hilos']||'?'} hilos` : '';
-    const freq  = specs['Frecuencia base'] ? `${specs['Frecuencia base']} base` + (specs['Frecuencia turbo'] ? ` — ${specs['Frecuencia turbo']} turbo` : '') : '';
-    intro = `Procesador ${noGpu ? 'sin gráficos integrados' : 'con gráficos integrados'}${cores ? ` con ${cores}` : ''}${freq ? `, ${freq}` : ''}.`;
-    if (specs['Generación']) intro += ` Plataforma: ${specs['Generación']}.`;
-    items = [
-      specs['Núcleos'] && li('Núcleos / Hilos', `${specs['Núcleos']} / ${specs['Hilos']||'?'}`),
-      specs['Frecuencia base'] && li('Frecuencia base', specs['Frecuencia base']),
-      specs['Frecuencia turbo'] && li('Frecuencia turbo', specs['Frecuencia turbo']),
-      specs['Caché L3'] && li('Caché L3', specs['Caché L3']),
-      specs['TDP'] && li('TDP', specs['TDP']),
-      specs['Socket'] && li('Socket', specs['Socket']),
-      specs['Memoria'] && li('Memoria soportada', specs['Memoria']),
-      specs['Gráficos integrados'] && li('Gráficos integrados', specs['Gráficos integrados']),
-      specs['Incluye cooler'] && li('Cooler incluido', specs['Incluye cooler']),
-      specs['Generación'] && li('Generación', specs['Generación']),
-    ].filter(Boolean);
-  } else if (category === 'gpu') {
-    intro = `Tarjeta de video con ${specs['VRAM']||''} de memoria ${specs['Tipo memoria']||'GDDR6'}${specs['Bus de memoria']?', bus de '+specs['Bus de memoria']:''}`.trim() + '.';
-    items = [
-      specs['VRAM'] && li('Memoria de video', specs['VRAM']),
-      specs['Tipo memoria'] && li('Tipo de memoria', specs['Tipo memoria']),
-      specs['Bus de memoria'] && li('Bus de memoria', specs['Bus de memoria']),
-      specs['Variante'] && li('Variante', specs['Variante']),
-    ].filter(Boolean);
-  } else if (category === 'ram') {
-    const cap = specs['Kit'] || specs['Capacidad'] || '';
-    intro = `Memoria ${specs['Tipo']||'RAM'} de ${cap}${specs['Velocidad']?' a '+specs['Velocidad']:''}${specs['Latencia']?' con latencia '+specs['Latencia']:''}`.trim() + '.';
-    items = [
-      (specs['Kit']||specs['Capacidad']) && li('Capacidad', specs['Kit']||specs['Capacidad']),
-      specs['Tipo'] && li('Tipo', specs['Tipo']),
-      specs['Velocidad'] && li('Velocidad', specs['Velocidad']),
-      specs['Latencia'] && li('Latencia', specs['Latencia']),
-    ].filter(Boolean);
-  } else if (category === 'storage') {
-    intro = `Almacenamiento ${specs['Interfaz']||''} de ${specs['Capacidad']||''}${specs['Factor de forma']?', formato '+specs['Factor de forma']:''}`.trim() + '.';
-    items = [
-      specs['Capacidad'] && li('Capacidad', specs['Capacidad']),
-      specs['Interfaz'] && li('Interfaz', specs['Interfaz']),
-      specs['Factor de forma'] && li('Factor de forma', specs['Factor de forma']),
-    ].filter(Boolean);
-  } else if (category === 'mobo') {
-    intro = `Placa madre ${specs['Factor de forma']||''} para socket ${specs['Socket']||''}${specs['Memoria']?', compatible con '+specs['Memoria']:''}${specs['WiFi']?', WiFi integrado':''}`.trim() + '.';
-    items = [
-      specs['Socket'] && li('Socket', specs['Socket']),
-      specs['Factor de forma'] && li('Factor de forma', specs['Factor de forma']),
-      specs['Memoria'] && li('Memoria soportada', specs['Memoria']),
-      specs['WiFi'] && li('WiFi', specs['WiFi']),
-      specs['Slots M.2'] && li('Slots M.2', specs['Slots M.2']),
-    ].filter(Boolean);
+  // Construir contexto de specs
+  const specsText = Object.entries(specs || {})
+    .filter(([k]) => !['Efectivo','Transferencia','Tarjeta','Webpay','Crédito','Precio'].some(w => k.includes(w)))
+    .map(([k,v]) => `- ${k}: ${v}`)
+    .join('\n');
+
+  const prompt = `Eres un experto en hardware de PC en Chile. Escribe una descripción detallada y útil del siguiente ${catName} para una tienda de comparación de precios.
+
+Producto: ${name}
+Especificaciones:
+${specsText || 'No disponibles'}
+
+Instrucciones:
+- Escribe 4-6 párrafos en español
+- Primer párrafo: introducción general del producto y su posicionamiento en el mercado
+- Segundo párrafo: rendimiento y características técnicas principales
+- Tercer párrafo: compatibilidad y casos de uso ideales
+- Cuarto párrafo: ventajas y características destacadas
+- Opcional: menciona tecnologías relevantes (si aplica)
+- Último párrafo: conclusión para el usuario chileno
+- Usa HTML: <p> para párrafos, <strong> para términos clave
+- Sé preciso, no inventes especificaciones que no estén en la lista
+- Tono: profesional pero accesible`;
+
+  try {
+    const response = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 1000,
+        messages: [{ role: 'user', content: prompt }]
+      })
+    });
+    if (!response.ok) throw new Error('API error');
+    const data = await response.json();
+    const text = data.content?.[0]?.text || '';
+    // If text has no HTML tags, wrap paragraphs
+    if (!text.includes('<p>')) {
+      return text.split('\n\n').filter(Boolean).map(p => `<p>${p.trim()}</p>`).join('');
+    }
+    return text;
+  } catch(err) {
+    console.warn('AI description failed:', err.message);
+    return '';
   }
-
-  if (!intro && !items.length) return '';
-  return `${intro ? `<p style="margin-bottom:12px">${intro}</p>` : ''}${items.length ? `<ul class="desc-list">${items.join('')}</ul>` : ''}`;
 }
 
 function renderDetailSpecs(p) {
