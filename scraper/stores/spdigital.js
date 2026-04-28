@@ -11,6 +11,13 @@ const BaseScraper = require('../base-scraper');
 
 const BASE        = 'https://www.spdigital.cl';
 const CARD_FACTOR = 1.03;
+const PROXY_URL   = process.env.CF_PROXY_URL    || '';
+const PROXY_KEY   = process.env.CF_PROXY_SECRET || '';
+
+function proxify(url) {
+  if (!PROXY_URL) return url;
+  return `${PROXY_URL}?url=${encodeURIComponent(url)}&secret=${PROXY_KEY}`;
+}
 
 // ── Categorías con URLs exactas ────────────────────────────────────────────
 const CATEGORIES = [
@@ -138,7 +145,7 @@ class SPDigitalScraper extends BaseScraper {
 
       let $;
       try {
-        const res = await this.client.get(pageUrl, {
+        const res = await this.client.get(proxify(pageUrl), {
           headers: {
             Accept: 'text/html,application/xhtml+xml',
             'Accept-Language': 'es-CL,es;q=0.9',
@@ -153,14 +160,21 @@ class SPDigitalScraper extends BaseScraper {
         break;
       }
 
-      // SP Digital usa cards de producto con clase específica
-      const items = $(
-        '.product-item, .product-card, [class*="ProductCard"], [class*="product-card"], ' +
-        '.search-result-item, [data-testid*="product"]'
-      );
+      // SP Digital — múltiples selectores posibles
+      let items = $('[class*="ProductCard"], [class*="product-card"]');
+      if (!items.length) items = $('[class*="product-item"], [class*="ProductItem"]');
+      if (!items.length) items = $('[class*="search-result"], [class*="SearchResult"]');
+      if (!items.length) items = $('article[class*="product"], li[class*="product"]');
+      if (!items.length) items = $('[data-testid*="product"], [data-cy*="product"]');
+      // Fallback: cualquier elemento con precio y nombre
+      if (!items.length) {
+        items = $('a[href*="/products/"]').closest('div, article, li');
+      }
 
       if (!items.length) {
-        this.log('info', `[spdigital] Sin productos pág ${page}`);
+        // Debug: mostrar primeras clases del body para detectar estructura
+        const bodyClasses = $('[class]').slice(0, 5).map((_, el) => $(el).attr('class')).get().join(' | ');
+        this.log('warn', `[spdigital] Sin productos pág ${page}. Clases: ${bodyClasses.slice(0,200)}`);
         break;
       }
 
@@ -177,16 +191,20 @@ class SPDigitalScraper extends BaseScraper {
 
           // Nombre
           const name = $el.find(
-            '[class*="product-name"], [class*="ProductName"], [class*="title"], h2, h3'
+            '[class*="product-name"], [class*="ProductName"], [class*="Name"],' +
+            '[class*="title"], [class*="Title"], h1, h2, h3, p[class*="name"]'
           ).first().text().trim();
           if (!name || name.length < 3) continue;
 
           // Precio — SP Digital muestra precio efectivo separado
-          const cashRaw = $el.find(
-            '[class*="cash-price"], [class*="CashPrice"], [class*="price-cash"], ' +
-            '[class*="precio-efectivo"], .price'
-          ).first().text().trim();
-          const priceRaw = cashRaw || $el.find('[class*="price"], .price').first().text().trim();
+          // SP Digital muestra precio en varios formatos
+          const priceRaw = $el.find(
+            '[class*="cash"], [class*="Cash"], [class*="efectivo"], [class*="Efectivo"],' +
+            '[class*="price"], [class*="Price"], [class*="precio"], [class*="Precio"]'
+          ).filter(function() {
+            const txt = $(this).text().trim();
+            return txt.includes('$') || /\d{3,}/.test(txt);
+          }).first().text().trim();
           const price = parsePrice(priceRaw);
           if (!price) continue;
 
