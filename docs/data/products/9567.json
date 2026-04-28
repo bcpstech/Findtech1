@@ -18,17 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:24",
-  "updated_at": "2026-04-28 21:20:15",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 9567,
       "store_id": "spdigital",
       "price": 1099990,
-      "price_normal": null,
+      "price_normal": 1149490,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-dual-geforce-rtx-5070-oc-edition-12gb-gddr7-192-bit-pci-e-50",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.099.990",
+        "Webpay / Tarjeta": "$1.149.490"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

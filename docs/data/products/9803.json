@@ -13,17 +13,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:29",
-  "updated_at": "2026-04-28 21:20:08",
+  "updated_at": "2026-04-28 22:09:03",
   "prices": [
     {
       "product_id": 9803,
       "store_id": "spdigital",
       "price": 184990,
-      "price_normal": null,
+      "price_normal": 193310,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/masterframe-400-mesh-silver",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$184.990",
+        "Webpay / Tarjeta": "$193.310"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

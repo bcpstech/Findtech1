@@ -13,17 +13,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:34",
-  "updated_at": "2026-04-28 21:20:13",
+  "updated_at": "2026-04-28 22:09:09",
   "prices": [
     {
       "product_id": 9811,
       "store_id": "spdigital",
       "price": 1099990,
-      "price_normal": null,
+      "price_normal": 1149490,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/segunda-seleccion-pc-gamer-argm-1-ryzen-5-5500-rtx-3050-16gb-rgb-512gb-nvme-wi-fi-freedos",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.099.990",
+        "Webpay / Tarjeta": "$1.149.490"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

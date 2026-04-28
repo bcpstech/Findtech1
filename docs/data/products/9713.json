@@ -13,17 +13,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:42",
-  "updated_at": "2026-04-28 21:19:35",
+  "updated_at": "2026-04-28 22:08:36",
   "prices": [
     {
       "product_id": 9713,
       "store_id": "spdigital",
       "price": 258370,
-      "price_normal": null,
+      "price_normal": 270000,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/rog-strix-1000w-platinum",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$258.370",
+        "Webpay / Tarjeta": "$270.000"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

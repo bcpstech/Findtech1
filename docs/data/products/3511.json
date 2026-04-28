@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-27 21:46:21",
-  "updated_at": "2026-04-28 20:50:41",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 3511,
@@ -28,6 +28,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3844-gigabyte-rtx-5050-oc-low-profile-8g-gddr6-128bit-pci-e-50-2587mhz-2-x-dp-2-x-hdmi-dlss-4-gv-n5050oc-8gl.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$384.900",
+        "Tarjeta crédito/débito": "$405.158"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
@@ -37,11 +41,15 @@
       "product_id": 9572,
       "store_id": "spdigital",
       "price": 431180,
-      "price_normal": null,
+      "price_normal": 450580,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-gigabyte-nvidia-geforce-rtx-5050-windforce-oc-8gb-gddr6-128-bit-pci-e-50",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$431.180",
+        "Webpay / Tarjeta": "$450.580"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

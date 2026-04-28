@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:12:29",
-  "updated_at": "2026-04-28 20:50:41",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 586,
@@ -27,6 +27,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3852-asus-prime-b650m-f-socket-am5-4x-ddr5-1x-m2-gigabit-ethernet-m-atx-bios-flashback-aura-sync.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$96.500",
+        "Tarjeta crédito/débito": "$101.579"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
@@ -36,11 +40,15 @@
       "product_id": 9442,
       "store_id": "spdigital",
       "price": 159990,
-      "price_normal": null,
+      "price_normal": 167190,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-b650m-f-socket-am5-4x-ddr5-1x-m2-gigabit-ethernet-m-atx",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$159.990",
+        "Webpay / Tarjeta": "$167.190"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

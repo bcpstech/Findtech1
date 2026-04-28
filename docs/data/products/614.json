@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:13:21",
-  "updated_at": "2026-04-28 20:50:41",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 614,
@@ -28,6 +28,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/2761-msi-z790-gaming-plus-wifi-lga-1700-intel-z790-sata-6gbs-atx-ddr5-pci-e-x16-slot-wi-fi-6e-25gbps-lan-4x-m2-ez-debug-led.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$309.000",
+        "Tarjeta crédito/débito": "$325.263"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
@@ -37,11 +41,15 @@
       "product_id": 9458,
       "store_id": "spdigital",
       "price": 399990,
-      "price_normal": null,
+      "price_normal": 417990,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/msi-z790-gaming-plus-wifi-motherboard-atx-ddr5-4-dimm-lga-1700",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$399.990",
+        "Webpay / Tarjeta": "$417.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

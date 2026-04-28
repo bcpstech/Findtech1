@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:09:41",
-  "updated_at": "2026-04-28 20:50:41",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 505,
@@ -28,6 +28,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3349-msi-shadow-rtx-5060-8gb-gddr7-pci-express-50-x-16-use-x8-ddr7-912-v537-037.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$397.900",
+        "Tarjeta crédito/débito": "$418.842"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
@@ -37,11 +41,15 @@
       "product_id": 9566,
       "store_id": "spdigital",
       "price": 569990,
-      "price_normal": null,
+      "price_normal": 595640,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-nvidia-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-128-bit-pci-e-50",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$569.990",
+        "Webpay / Tarjeta": "$595.640"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

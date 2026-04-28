@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-04-27 21:47:56",
-  "updated_at": "2026-04-28 20:50:41",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 3556,
@@ -27,6 +27,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3847-amd-ryzen-7-9850x3d-socket-am5-8-nucleos-16-hilos-47-ghz-tdp-120w.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$578.000",
+        "Tarjeta crédito/débito": "$608.421"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
@@ -36,11 +40,15 @@
       "product_id": 9396,
       "store_id": "spdigital",
       "price": 699990,
-      "price_normal": null,
+      "price_normal": 731490,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-7-9850x3d-socket-am5-8-nucleos-16-hilos-47-ghz-tdp-120w",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$699.990",
+        "Webpay / Tarjeta": "$731.490"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

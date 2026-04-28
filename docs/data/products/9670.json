@@ -13,17 +13,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:20",
-  "updated_at": "2026-04-28 21:19:22",
+  "updated_at": "2026-04-28 22:08:19",
   "prices": [
     {
       "product_id": 9670,
       "store_id": "spdigital",
       "price": 54990,
-      "price_normal": null,
+      "price_normal": 57460,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/sickleflow-edge-120-argb-3-in-1",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$54.990",
+        "Webpay / Tarjeta": "$57.460"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:09:35",
-  "updated_at": "2026-04-28 20:50:41",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 502,
@@ -29,6 +29,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3677-msi-lp-rtx-3050-6gb-gddr6-pci-express-40-x8-atx-low-profile.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$198.900",
+        "Tarjeta crédito/débito": "$209.368"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
@@ -38,11 +42,15 @@
       "product_id": 9565,
       "store_id": "spdigital",
       "price": 309990,
-      "price_normal": null,
+      "price_normal": 323940,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/msi-geforce-rtx-3050-lp-6g-oc-pci-express-30-x16-x4-mode-nvidia-nvidia-geforce-rtx-3050",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$309.990",
+        "Webpay / Tarjeta": "$323.940"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

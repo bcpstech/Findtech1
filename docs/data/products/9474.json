@@ -17,17 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:35",
-  "updated_at": "2026-04-28 21:20:15",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 9474,
       "store_id": "spdigital",
       "price": 181230,
-      "price_normal": null,
+      "price_normal": 189380,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/msi-pro-h810m-b-wifi6e",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$181.230",
+        "Webpay / Tarjeta": "$189.380"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

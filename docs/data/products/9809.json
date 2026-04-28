@@ -13,17 +13,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:33",
-  "updated_at": "2026-04-28 21:20:12",
+  "updated_at": "2026-04-28 22:09:08",
   "prices": [
     {
       "product_id": 9809,
       "store_id": "spdigital",
       "price": 679990,
-      "price_normal": null,
+      "price_normal": 710590,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/caja-abiertadanada-pc-gamer-amd-ryzen-5-4600gt-ram-16gb-2x8gb-ssd-512gb-nvme-500w-nvme",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$679.990",
+        "Webpay / Tarjeta": "$710.590"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:35:56",
-  "updated_at": "2026-04-28 20:49:24",
+  "updated_at": "2026-04-28 22:05:21",
   "prices": [
     {
       "product_id": 1153,
@@ -25,6 +25,9 @@
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-b760m-a-d4-csm/",
       "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$96.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
@@ -34,11 +37,15 @@
       "product_id": 9461,
       "store_id": "spdigital",
       "price": 184990,
-      "price_normal": null,
+      "price_normal": 193310,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/prime-b760m-a",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$184.990",
+        "Webpay / Tarjeta": "$193.310"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

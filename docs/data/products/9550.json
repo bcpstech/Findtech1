@@ -11,22 +11,26 @@
     "Capacidad": "3.84 TB",
     "Factor de forma": "2.5\"",
     "Interfaz": "Serial ATA III",
-    "Efectivo/Transferencia": "$893.290",
-    "Tarjeta crédito/débito": "$933.490"
+    "Efectivo/Transferencia": "$983.850",
+    "Tarjeta crédito/débito": "$1.028.120"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:12",
-  "updated_at": "2026-04-28 21:20:15",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 9550,
       "store_id": "spdigital",
-      "price": 893290,
-      "price_normal": null,
+      "price": 983850,
+      "price_normal": 1028120,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ssd-3840gb-5400-pro-nand-flash-sata-2",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$983.850",
+        "Webpay / Tarjeta": "$1.028.120"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
@@ -38,7 +42,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-04-28",
-      "price": 893290
+      "price": 983850
     }
   ],
   "scraped_at": "2026-04-28"

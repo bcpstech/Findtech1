@@ -17,17 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:31",
-  "updated_at": "2026-04-28 21:20:15",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 9586,
       "store_id": "spdigital",
       "price": 113590,
-      "price_normal": null,
+      "price_normal": 118700,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-geforce-gt730-4gb-ddr3-pcie-20-x16-perfil-bajo-dvi",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$113.590",
+        "Webpay / Tarjeta": "$118.700"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

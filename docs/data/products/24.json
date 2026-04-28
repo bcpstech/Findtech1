@@ -15,7 +15,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 15:47:54",
-  "updated_at": "2026-04-28 20:50:41",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 24,
@@ -26,6 +26,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3232-amd-ryzen-3-5300g-am4-8-hilos-up4200-mhz-4-core-100-100000253box.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$95.800",
+        "Tarjeta crédito/débito": "$100.842"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
@@ -35,11 +39,15 @@
       "product_id": 9405,
       "store_id": "spdigital",
       "price": 209990,
-      "price_normal": null,
+      "price_normal": 219440,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-3-5300g-con-graficos-radeon-4-nucleos-8-hilos-42ghz-am4",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$209.990",
+        "Webpay / Tarjeta": "$219.440"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

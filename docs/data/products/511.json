@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:09:52",
-  "updated_at": "2026-04-28 20:50:41",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 511,
@@ -29,6 +29,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3520-zotac-solid-core-oc-white-edition-geforce-rtx-5070-ti-16gb-gddr7-pci-express-50-x16-atx-zt-b50710q2-10p.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.219.000",
+        "Tarjeta crédito/débito": "$1.283.158"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
@@ -38,11 +42,15 @@
       "product_id": 9585,
       "store_id": "spdigital",
       "price": 1442940,
-      "price_normal": null,
+      "price_normal": 1507880,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-gaming-geforce-rtx-5070ti-solid-core-oc-white-edition",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.442.940",
+        "Webpay / Tarjeta": "$1.507.880"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

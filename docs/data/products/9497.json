@@ -18,17 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:47",
-  "updated_at": "2026-04-28 21:20:15",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 9497,
       "store_id": "spdigital",
       "price": 112990,
-      "price_normal": null,
+      "price_normal": 118070,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/memoria-ram-ddr4-8gb-3200mhz-kingston-fury-beast-dimm-unbuffered-cl16-135v",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$112.990",
+        "Webpay / Tarjeta": "$118.070"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
@@ -43,6 +47,9 @@
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/memorias-ram/memoria-16gb-5600mt-s-ddr5-cl36-dimm-fury-beast-bl/",
       "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$257.141"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
@@ -57,6 +64,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/2634-kingston-32gb-ddr5-ecc-fury-renegade-pro-xmp-5600mts-reg-cl36-kf556r36rb-32.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$379.000",
+        "Tarjeta crédito/débito": "$398.947"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",

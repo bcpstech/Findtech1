@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:35:36",
-  "updated_at": "2026-04-28 20:50:41",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 1134,
@@ -29,6 +29,9 @@
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/tarjetas-de-video/tarjeta-de-video-rog-astral-geforce-rtx-5080-16-gb-gddr7-edicion-oc/",
       "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$2.369.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
@@ -38,11 +41,15 @@
       "product_id": 9564,
       "store_id": "spdigital",
       "price": 2919990,
-      "price_normal": null,
+      "price_normal": 3051390,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-rog-astral-geforce-rtx-5080-oc-16gb-gddr7-256-bit-pcie-50",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$2.919.990",
+        "Webpay / Tarjeta": "$3.051.390"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

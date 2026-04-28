@@ -17,17 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:23",
-  "updated_at": "2026-04-28 21:20:15",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 9454,
       "store_id": "spdigital",
       "price": 399990,
-      "price_normal": null,
+      "price_normal": 417990,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/msi-motherboard-pro-x870e-p-wifi-4-dimm-ddr5-a",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$399.990",
+        "Webpay / Tarjeta": "$417.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

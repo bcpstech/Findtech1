@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:09:54",
-  "updated_at": "2026-04-28 20:50:41",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 512,
@@ -29,6 +29,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3678-msi-rtx-5070-ti-inspire-16gb-gddr7-3x-oc-pci-express-50-atx-912-v531-273.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.399.000",
+        "Tarjeta crédito/débito": "$1.472.632"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
@@ -38,11 +42,15 @@
       "product_id": 9561,
       "store_id": "spdigital",
       "price": 1699990,
-      "price_normal": null,
+      "price_normal": 1776490,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-msi-nvidia-geforce-rtx-5070-ti-mlg-oc-16gb-gddr7-256-bit-pci-e-50",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.699.990",
+        "Webpay / Tarjeta": "$1.776.490"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

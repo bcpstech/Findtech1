@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:09:21",
-  "updated_at": "2026-04-28 20:50:41",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 496,
@@ -29,6 +29,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3716-asus-rx-9070-xt-16gb-oc-prime-edition-radeon-gddr6-256-bit-pci-e-50-prime-rx9070xt-o16g.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$799.900",
+        "Tarjeta crédito/débito": "$842.000"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
@@ -43,6 +47,9 @@
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/promo-amd/tarjeta-de-video-asus-prime-rx-9070-xt-16-gb/",
       "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$807.510"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
@@ -52,11 +59,15 @@
       "product_id": 9595,
       "store_id": "spdigital",
       "price": 1006510,
-      "price_normal": null,
+      "price_normal": 1051800,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/prime-rx9070xt-o16g",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.006.510",
+        "Webpay / Tarjeta": "$1.051.800"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

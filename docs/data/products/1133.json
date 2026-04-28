@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:35:36",
-  "updated_at": "2026-04-28 20:50:41",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 1133,
@@ -28,6 +28,9 @@
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/grafica-asus/tarjeta-de-video-asus-prime-rtx-5050-oc-8gb-gddr6/",
       "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$419.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
@@ -37,11 +40,15 @@
       "product_id": 9568,
       "store_id": "spdigital",
       "price": 539990,
-      "price_normal": null,
+      "price_normal": 564290,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-dual-nvidia-geforce-rtx-5050-oc-8gb-gddr6-128-bit-pci-e-50",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$539.990",
+        "Webpay / Tarjeta": "$564.290"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

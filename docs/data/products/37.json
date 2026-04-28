@@ -19,7 +19,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 15:48:40",
-  "updated_at": "2026-04-28 20:50:41",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 37,
@@ -30,6 +30,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/2621-amd-ryzen-7-8700g-socket-am5-8-core-16-hilos-42-ghz-65w-amd-radeon-780m-100-100001236box.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$288.500",
+        "Tarjeta crédito/débito": "$303.684"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
@@ -44,6 +48,9 @@
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-7-8700g/",
       "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$301.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
@@ -53,11 +60,15 @@
       "product_id": 9413,
       "store_id": "spdigital",
       "price": 399990,
-      "price_normal": null,
+      "price_normal": 417990,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-7-8700g-2",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$399.990",
+        "Webpay / Tarjeta": "$417.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

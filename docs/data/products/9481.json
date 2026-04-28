@@ -20,17 +20,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:40",
-  "updated_at": "2026-04-28 21:20:15",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 9481,
       "store_id": "spdigital",
       "price": 799990,
-      "price_normal": null,
+      "price_normal": 835990,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ddr5-6000mts-48gb-2x24gb-dimm-vengeance-rgb-ddr5",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$799.990",
+        "Webpay / Tarjeta": "$835.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

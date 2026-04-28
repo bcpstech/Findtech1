@@ -20,7 +20,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 15:48:30",
-  "updated_at": "2026-04-28 20:50:41",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 34,
@@ -31,6 +31,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/2786-amd-ryzen-5-9600x-up-to-54-ghz-6-core-socket-am5-65w-radeon-sin-cooler-100-100001405wof.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$241.500",
+        "Tarjeta crédito/débito": "$254.211"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
@@ -45,6 +49,9 @@
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-9600x/",
       "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$265.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
@@ -54,11 +61,15 @@
       "product_id": 9410,
       "store_id": "spdigital",
       "price": 399990,
-      "price_normal": null,
+      "price_normal": 417990,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/amd-ryzen-5-9600x-6-core-processor",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$399.990",
+        "Webpay / Tarjeta": "$417.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

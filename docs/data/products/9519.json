@@ -17,17 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:58",
-  "updated_at": "2026-04-28 21:20:15",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 9519,
       "store_id": "spdigital",
       "price": 265400,
-      "price_normal": null,
+      "price_normal": 277350,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ssd-nvme-adata-legend-860-1tb-2280-pcie-40",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$265.400",
+        "Webpay / Tarjeta": "$277.350"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

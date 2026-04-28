@@ -18,17 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:28",
-  "updated_at": "2026-04-28 21:20:15",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 9578,
       "store_id": "spdigital",
       "price": 999990,
-      "price_normal": null,
+      "price_normal": 1044990,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-msi-nvidia-geforce-rtx-5070-ventus-2x-oc-12gb-gddr7-192-bit-pci-e-50",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$999.990",
+        "Webpay / Tarjeta": "$1.044.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

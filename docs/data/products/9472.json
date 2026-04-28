@@ -18,17 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:34",
-  "updated_at": "2026-04-28 21:20:15",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 9472,
       "store_id": "spdigital",
       "price": 263990,
-      "price_normal": null,
+      "price_normal": 275870,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/pro-b760m-a-wifi",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$263.990",
+        "Webpay / Tarjeta": "$275.870"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

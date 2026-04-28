@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:35:47",
-  "updated_at": "2026-04-28 20:49:17",
+  "updated_at": "2026-04-28 22:05:07",
   "prices": [
     {
       "product_id": 1147,
@@ -25,6 +25,9 @@
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-7-5700g/",
       "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$209.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
@@ -34,11 +37,15 @@
       "product_id": 9397,
       "store_id": "spdigital",
       "price": 449990,
-      "price_normal": null,
+      "price_normal": 470240,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-7-5700g-8-core-38ghz-max-boost-46ghz-socket-am4-radeon-vega-graphics",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$449.990",
+        "Webpay / Tarjeta": "$470.240"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

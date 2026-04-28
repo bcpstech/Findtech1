@@ -22,17 +22,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:04",
-  "updated_at": "2026-04-28 21:20:15",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 9421,
       "store_id": "spdigital",
       "price": 414440,
-      "price_normal": null,
+      "price_normal": 433080,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-intel-core-i7-12700kf-12o-gen-36ghz-hasta-5ghz-socket-lga1700-sin-gráficas",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$414.440",
+        "Webpay / Tarjeta": "$433.080"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

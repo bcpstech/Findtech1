@@ -17,17 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:29",
-  "updated_at": "2026-04-28 21:20:15",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 9581,
       "store_id": "spdigital",
       "price": 8999990,
-      "price_normal": null,
+      "price_normal": 9404990,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-msi-nvidia-geforce-rtx-5090-lightning-z-32gb-gddr7-pantalla-8-wc",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$8.999.990",
+        "Webpay / Tarjeta": "$9.404.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

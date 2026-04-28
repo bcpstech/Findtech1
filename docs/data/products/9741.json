@@ -13,17 +13,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:53",
-  "updated_at": "2026-04-28 21:19:42",
+  "updated_at": "2026-04-28 22:08:46",
   "prices": [
     {
       "product_id": 9741,
       "store_id": "spdigital",
       "price": 499990,
-      "price_normal": null,
+      "price_normal": 522490,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/seasonic-12122pxafs-vertex-px-1200",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$499.990",
+        "Webpay / Tarjeta": "$522.490"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

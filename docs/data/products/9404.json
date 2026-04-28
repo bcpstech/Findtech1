@@ -25,17 +25,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:54",
-  "updated_at": "2026-04-28 21:17:45",
+  "updated_at": "2026-04-28 22:06:18",
   "prices": [
     {
       "product_id": 9404,
       "store_id": "spdigital",
       "price": 799990,
-      "price_normal": null,
+      "price_normal": 835990,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-7-9800x3d-47ghz-52ghz-turbo-8-cores-16-threads-socket-am5",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$799.990",
+        "Webpay / Tarjeta": "$835.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
@@ -50,6 +54,9 @@
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/pc-high/pc-gamer-amd-ryzen-7-9800x3d-9070-xt-32gb-ram-ddr5-1-tb-nvme/",
       "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$2.729.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",

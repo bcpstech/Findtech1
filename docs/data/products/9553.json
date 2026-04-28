@@ -15,17 +15,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:15",
-  "updated_at": "2026-04-28 21:20:15",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 9553,
       "store_id": "spdigital",
       "price": 333110,
-      "price_normal": null,
+      "price_normal": 348100,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/wd-purple-wd85purz-disco-duro-8-tb-interno-35-sata-6gbs-5640-rpm-bufer-256-mb",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$333.110",
+        "Webpay / Tarjeta": "$348.100"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

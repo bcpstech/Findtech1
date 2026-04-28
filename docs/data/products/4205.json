@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-27 22:14:20",
-  "updated_at": "2026-04-28 20:49:50",
+  "updated_at": "2026-04-28 22:05:53",
   "prices": [
     {
       "product_id": 4205,
@@ -25,6 +25,9 @@
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/refrigeracion-pc/ventilador-cpu-water-cooler-cz-240b-bk-argb-240-esgaming/",
       "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$47.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
@@ -34,11 +37,15 @@
       "product_id": 9656,
       "store_id": "spdigital",
       "price": 99990,
-      "price_normal": null,
+      "price_normal": 104490,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ventilador-cpu-water-cooler-cz-360b-bk-argb-360-esgaming",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$99.990",
+        "Webpay / Tarjeta": "$104.490"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

@@ -17,17 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:30",
-  "updated_at": "2026-04-28 21:20:15",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 9583,
       "store_id": "spdigital",
       "price": 584180,
-      "price_normal": null,
+      "price_normal": 610460,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/zotac-gaming-geforce-rtx-5060-twin-edge",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$584.180",
+        "Webpay / Tarjeta": "$610.460"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",

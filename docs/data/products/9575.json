@@ -18,17 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:27",
-  "updated_at": "2026-04-28 21:20:15",
+  "updated_at": "2026-04-28 22:09:11",
   "prices": [
     {
       "product_id": 9575,
       "store_id": "spdigital",
       "price": 2499990,
-      "price_normal": null,
+      "price_normal": 2612490,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-aorus-geforce-rtxtm-5080-master-ice-16g",
       "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$2.499.990",
+        "Webpay / Tarjeta": "$2.612.490"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
