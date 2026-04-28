@@ -152,57 +152,6 @@ nav{display:flex;align-items:center;gap:4px;flex:1}
 /* ── MAIN LAYOUT ── */
 .layout{display:block;min-height:calc(100vh - 72px)}
 
-/* ── FILTROS LATERALES (página de productos) ── */
-.hw-layout{
-  display:grid;
-  grid-template-columns:220px 1fr;
-  gap:24px;
-  align-items:start;
-}
-.filter-sidebar{
-  background:var(--bg2);border:1px solid var(--border);
-  border-radius:12px;overflow:hidden;
-  position:sticky;top:84px;
-}
-.filter-sidebar-title{
-  padding:14px 16px;font-size:11px;font-weight:700;
-  letter-spacing:1.5px;text-transform:uppercase;color:var(--text3);
-  border-bottom:1px solid var(--border);background:var(--bg3);
-  display:flex;align-items:center;justify-content:space-between;
-}
-.filter-clear{
-  font-size:10px;color:var(--accent);cursor:pointer;font-weight:600;
-  background:none;border:none;padding:0;letter-spacing:0;text-transform:none;
-}
-.filter-clear:hover{text-decoration:underline}
-.filter-group{border-bottom:1px solid var(--border);padding:12px 0}
-.filter-group:last-child{border-bottom:none}
-.filter-group-title{
-  padding:4px 16px 8px;font-size:11px;font-weight:700;
-  color:var(--text3);text-transform:uppercase;letter-spacing:1px;
-}
-.filter-option{
-  display:flex;align-items:center;gap:8px;
-  padding:6px 16px;cursor:pointer;transition:background .1s;
-  font-size:13px;color:var(--text2);
-}
-.filter-option:hover{background:var(--bg3);color:var(--text)}
-.filter-option.active{color:var(--accent);font-weight:600}
-.filter-option input[type=checkbox]{
-  accent-color:var(--accent);width:14px;height:14px;flex-shrink:0;cursor:pointer;
-}
-.filter-count{
-  margin-left:auto;font-size:11px;color:var(--text3);
-  background:var(--bg3);padding:1px 6px;border-radius:4px;
-}
-@media(max-width:900px){
-  .hw-layout{grid-template-columns:180px 1fr;gap:16px}
-}
-@media(max-width:700px){
-  .hw-layout{grid-template-columns:1fr}
-  .filter-sidebar{position:relative;top:0}
-}
-
 /* SIDEBAR */
 .sidebar{display:none}
 .sb-section{margin-bottom:6px}
@@ -1025,10 +974,7 @@ select.form-input{cursor:pointer}
           <h4>Almacenamiento</h4>
           <a onclick="filterSub('storage','nvme')">SSD NVMe M.2</a>
           <a onclick="filterSub('storage','sata')">SSD SATA 2.5"</a>
-          <a onclick="filterSub('storage','hdd')">Discos Duros Internos</a>
-          <a onclick="filterSub('storage','hddext')">Discos Duros Externos</a>
-          <a onclick="filterSub('storage','ssdext')">SSD Externas</a>
-          <a onclick="filterSub('storage','pendrive')">Pendrives USB</a>
+          <a onclick="filterSub('storage','hdd')">Discos Duros</a>
           <a onclick="filterCat('storage')">Ver todos</a>
         </div>
         <div class="mega-col">
@@ -1046,7 +992,6 @@ select.form-input{cursor:pointer}
         </div>
         <div class="mega-col">
           <h4>Gabinetes</h4>
-          <a onclick="filterSub('case','eatx')">Extended ATX</a>
           <a onclick="filterSub('case','atx')">ATX</a>
           <a onclick="filterSub('case','matx')">Micro ATX</a>
           <a onclick="filterSub('case','itx')">Mini ITX</a>
@@ -1079,6 +1024,7 @@ select.form-input{cursor:pointer}
         </div>
       </div>
     </div>
+    <div class="nav-item" onclick="filterCat('pc');showPage('hardware')" style="white-space:nowrap">🖥️ PCs Armados</div>
     <div class="nav-item mega-wrap" id="nav-tiendas">
       Tiendas ▾
       <div class="mega-menu" id="mega-tiendas" style="min-width:480px">
@@ -1257,59 +1203,27 @@ select.form-input{cursor:pointer}
         </div>
       </div>
 
-      <!-- Barra búsqueda y orden -->
-      <div class="toolbar" style="margin-bottom:16px">
+      <div class="toolbar">
         <div class="toolbar-left">
-          <input type="text" class="select-box" placeholder="🔍 buscar..." id="prod-search" oninput="renderProds()" style="width:200px">
+          <input type="text" class="select-box" placeholder="🔍 buscar..." id="prod-search" oninput="renderProds()" style="width:180px">
           <select class="select-box" id="sort-sel" onchange="renderProds()">
             <option value="price-asc">Menor precio</option>
             <option value="price-desc">Mayor precio</option>
             <option value="name-asc">A → Z</option>
           </select>
+          <select class="select-box" id="store-sel" onchange="renderProds()">
+            <option value="">Todas las tiendas</option>
+            <option value="n1g">N1G</option>
+            <option value="alltec">Alltec</option>
+            <option value="cg">CentralGamer</option>
+            <option value="centrale">Centrale</option>
+            <option value="pcexpress">PC-Express</option>
+          </select>
         </div>
         <span class="results-count" id="prod-count"></span>
       </div>
 
-      <!-- Layout filtros + grilla -->
-      <div class="hw-layout">
-
-        <!-- Sidebar filtros -->
-        <div class="filter-sidebar" id="filter-sidebar">
-          <div class="filter-sidebar-title">
-            Filtros
-            <button class="filter-clear" onclick="clearFilters()">Limpiar</button>
-          </div>
-          <!-- Tiendas -->
-          <div class="filter-group">
-            <div class="filter-group-title">Tienda</div>
-            <div id="filter-stores-list"></div>
-          </div>
-          <!-- Subcategorías dinámicas -->
-          <div class="filter-group" id="filter-subcat-group" style="display:none">
-            <div class="filter-group-title" id="filter-subcat-title">Subcategoría</div>
-            <div id="filter-subcat-list"></div>
-          </div>
-          <!-- Precio máximo -->
-          <div class="filter-group">
-            <div class="filter-group-title">Precio máximo</div>
-            <div style="padding:8px 16px 12px">
-              <input type="range" id="filter-price-range" min="0" max="5000000" step="10000"
-                value="5000000" style="width:100%;accent-color:var(--accent)"
-                oninput="onPriceRange(this.value)">
-              <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text3);margin-top:6px">
-                <span>$0</span>
-                <span id="filter-price-label" style="color:var(--accent);font-weight:600">Sin límite</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Grilla -->
-        <div>
-          <div class="prod-grid" id="prod-grid"></div>
-        </div>
-
-      </div>
+      <div class="prod-grid" id="prod-grid"></div>
     </div>
 
 
@@ -1572,28 +1486,17 @@ const CATS = {
   case:    { name:'Gabinetes',         icon:'🖥️' },
   monitor: { name:'Monitores',         icon:'🖱️' },
   periph:  { name:'Periféricos',       icon:'⌨️' },
+  pc:      { name:'PCs Armados',        icon:'🖥️' },
 };
 
 const SUBCATS = {
   gpu:     { nvidia:['rtx','geforce','nvidia'], amd:['radeon','rx ','amd'] },
   cpu:     { intel:['intel','core','i3','i5','i7','i9'], amd:['ryzen','amd','threadripper'] },
   ram:     { ddr5:['ddr5'], ddr4:['ddr4'] },
-  storage: {
-    nvme:    ['nvme','m.2','pcie ssd','m2'],
-    sata:    ['sata','2.5"','ssd sata','ssd 2.5'],
-    hdd:     ['hdd','disco duro interno','hard drive','3.5'],
-    hddext:  ['disco duro externo','hdd externo','portable hdd','external hdd'],
-    ssdext:  ['ssd externa','ssd portatil','ssd portable','external ssd'],
-    pendrive:['pendrive','usb flash','flash drive','memoria usb','usb drive'],
-  },
+  storage: { nvme:['nvme','m.2','pcie'], sata:['sata','2.5'], hdd:['hdd','disco duro','hd '] },
   cooling: { liquida:['liquid','aio','360','240','280'], aire:['tower','cooler','disipador'], fans:['fan','ventilador','argb'] },
   mobo:    { am5:['am5'], am4:['am4'], lga1700:['lga1700','1700'], lga1851:['lga1851','1851'] },
-  case:    {
-    eatx: ['extended atx','eatx','e-atx','full tower','super tower'],
-    atx:  [' atx ','mid tower','tower atx'],
-    matx: ['micro atx','micro-atx','matx','m-atx','mid tower matx'],
-    itx:  ['mini-itx','mini itx','itx'],
-  },
+  case:    { atx:['atx'], matx:['micro atx','matx','m-atx'], itx:['itx','mini-itx'] },
   psu:     { modular:['modular'], certificada:['80+','gold','platinum','bronze'] },
 };
 
@@ -1602,8 +1505,6 @@ let currentCat = '';
 let currentSub = '';
 let currentStore = '';
 let currentPage = 'home';
-let filterStore = '';
-let filterMaxPrice = 5000000;
 
 // ═══════════════════════════════════════════════
 // UTILS
@@ -1734,94 +1635,6 @@ function renderHome() {
 // ═══════════════════════════════════════════════
 // RENDER PRODUCTS
 // ═══════════════════════════════════════════════
-// ══════════════════════════════════════════════════
-// FILTROS LATERALES
-// ══════════════════════════════════════════════════
-function renderFilterSidebar() {
-  // Tiendas
-  const storesList = document.getElementById('filter-stores-list');
-  if (storesList) {
-    storesList.innerHTML = STORES.map(s => {
-      const cnt = PRODUCTS.filter(p => {
-        if (currentCat && p.category !== currentCat) return false;
-        return (p.prices && p.prices[s.id] > 0) || p._bestStoreId === s.id;
-      }).length;
-      if (!cnt) return '';
-      const active = filterStore === s.id;
-      return `<label class="filter-option${active?' active':''}">
-        <input type="checkbox" ${active?'checked':''} onchange="toggleStoreFilter('${s.id}',this.checked)">
-        <span style="flex:1">${s.name}</span>
-        <span class="filter-count">${cnt}</span>
-      </label>`;
-    }).join('');
-  }
-
-  // Subcategorías según categoría activa
-  const subGroup = document.getElementById('filter-subcat-group');
-  const subList  = document.getElementById('filter-subcat-list');
-  const subTitle = document.getElementById('filter-subcat-title');
-  const catSubcats = SUBCATS[currentCat];
-  if (subGroup && subList && catSubcats) {
-    const catObj = CATS[currentCat];
-    if (subTitle) subTitle.textContent = catObj ? catObj.name : 'Subcategoría';
-    subList.innerHTML = Object.entries(catSubcats).map(([key, keywords]) => {
-      const cnt = PRODUCTS.filter(p => p.category === currentCat && matchSub(p, currentCat, key)).length;
-      if (!cnt) return '';
-      const active = currentSub === key;
-      const labels = {
-        nvidia:'NVIDIA GeForce', amd:'AMD', intel:'Intel Core',
-        ddr4:'DDR4', ddr5:'DDR5',
-        nvme:'NVMe M.2', sata:'SATA 2.5"', hdd:'Disco Duro Interno',
-        hddext:'Disco Duro Externo', ssdext:'SSD Externa', pendrive:'Pendrive USB',
-        liquida:'Refrigeración Líquida', aire:'Por Aire', fans:'Ventiladores',
-        am4:'AMD AM4', am5:'AMD AM5', lga1700:'Intel LGA1700', lga1851:'Intel LGA1851',
-        eatx:'Extended ATX', atx:'ATX', matx:'Micro ATX', itx:'Mini ITX',
-        modular:'Modulares', certificada:'Certificadas',
-      };
-      return `<label class="filter-option${active?' active':''}" onclick="filterSub('${currentCat}','${key}')">
-        <span style="flex:1">${labels[key]||key}</span>
-        <span class="filter-count">${cnt}</span>
-      </label>`;
-    }).join('');
-    subGroup.style.display = '';
-  } else if (subGroup) {
-    subGroup.style.display = 'none';
-  }
-}
-
-function toggleStoreFilter(storeId, checked) {
-  filterStore = checked ? storeId : '';
-  // Uncheck other stores
-  document.querySelectorAll('#filter-stores-list input[type=checkbox]').forEach(cb => {
-    cb.checked = cb.closest('label').querySelector('span')?.textContent.trim() === 
-      STORES.find(s=>s.id===storeId)?.name ? checked : false;
-  });
-  currentStore = filterStore;
-  renderProds();
-  renderFilterSidebar();
-}
-
-function onPriceRange(val) {
-  filterMaxPrice = parseInt(val);
-  const label = document.getElementById('filter-price-label');
-  if (label) label.textContent = val >= 5000000 ? 'Sin límite' : '$' + parseInt(val).toLocaleString('es-CL');
-  renderProds();
-}
-
-function clearFilters() {
-  filterStore = '';
-  filterMaxPrice = 5000000;
-  currentStore = '';
-  currentSub = '';
-  const range = document.getElementById('filter-price-range');
-  if (range) range.value = 5000000;
-  const label = document.getElementById('filter-price-label');
-  if (label) label.textContent = 'Sin límite';
-  document.querySelectorAll('#filter-stores-list input').forEach(cb => cb.checked = false);
-  renderProds();
-  renderFilterSidebar();
-}
-
 function renderProds() {
   const q      = (document.getElementById('prod-search')?.value||'').toLowerCase();
   const sort   = document.getElementById('sort-sel')?.value||'price-asc';
@@ -1832,9 +1645,7 @@ function renderProds() {
     if (currentSub && !matchSub(p, currentCat, currentSub)) return false;
     if (storeF && !p.prices?.[storeF] && p._bestStoreId !== storeF) return false;
     if (q && !p.name.toLowerCase().includes(q) && !(p.brand||'').toLowerCase().includes(q)) return false;
-    const price = getPrice(p);
-    if (price <= 0) return false;
-    if (filterMaxPrice < 5000000 && price > filterMaxPrice) return false;
+    if (getPrice(p) <= 0) return false;
     return true;
   });
 
@@ -1852,9 +1663,6 @@ function renderProds() {
   });
   const allEl = document.getElementById('sb-count-all');
   if (allEl) allEl.textContent = PRODUCTS.filter(p=>getPrice(p)>0).length;
-
-  // Actualizar filtros laterales
-  renderFilterSidebar();
 
   const grid = document.getElementById('prod-grid');
   if (!prods.length) {
