@@ -1678,6 +1678,16 @@ function toggleTheme() {
 
 // ── SOLOTODO-STYLE EXTRAS ────────────────────────────────────────────────
 
+// renderHome compatibility (called by original loadData init)
+function renderHome() {
+  renderHomeCats();
+  // Update stat counters
+  const pEl = document.getElementById('hw-stat-prods');
+  const sEl = document.getElementById('hw-stat-stores');
+  if (pEl) pEl.textContent = PRODUCTS.length.toLocaleString('es-CL');
+  if (sEl) sEl.textContent = STORES.filter(s => s.active !== 0).length;
+}
+
 function renderHomeCats() {
   const grid = document.getElementById('home-cats-grid');
   if (!grid || !PRODUCTS.length) return;
@@ -1779,5 +1789,38 @@ loadData = async function() {
 };
 
 </script>
+
+<!-- compat: hidden divs for legacy JS references -->
+<div id="stores-strip" style="display:none"></div>
+<div id="home-deals" style="display:none"></div>
+<div id="home-gpu" style="display:none"></div>
+<div id="home-cpu" style="display:none"></div>
+<span id="footer-update" style="display:none"></span>
+<span id="hw-title" style="display:none"></span>
+<span id="hw-sub" style="display:none"></span>
+<select id="store-sel" style="display:none"></select>
+<span id="sb-count-all" style="display:none"></span>
+<div id="sidebar" style="display:none"></div>
+<div id="sidebar-overlay" style="display:none"></div>
+<div id="stores-detail" style="display:none"></div>
+<div id="search-wrap" style="display:none"></div>
+<div id="opinion-modal" style="display:none">
+  <div id="opinion-body">
+    <div id="opinion-product-ref"></div>
+    <div id="opinion-success"></div>
+    <input id="op-nombre"><input id="op-correo"><input id="op-telefono">
+    <select id="op-tienda"></select><input id="op-pedido">
+    <textarea id="op-comment-producto"></textarea>
+    <textarea id="op-comment-tienda"></textarea>
+    <select id="op-boleta"></select>
+    <input id="fu-boleta-name"><span id="rating-label"></span>
+    <button id="op-submit"></button>
+  </div>
+</div>
+<div id="modal" style="display:none">
+  <div id="modal-img"></div><div id="modal-brand"></div>
+  <div id="modal-title"></div><div id="modal-prices"></div>
+  <div id="modal-specs"></div>
+</div>
 </body>
 </html>
