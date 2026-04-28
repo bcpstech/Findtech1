@@ -11,29 +11,12 @@
     "Socket": "STR5",
     "Factor de forma": "ATX",
     "Memoria": "DDR5",
-    "Form Factor": "ATX",
-    "Dimension": "12\" x 9.6\" (30.48cm x 24.384cm)",
-    "Core Count": "Up to 96C/192T",
-    "Note": "Supports up to 350W TDP CPUs",
-    "Memory": "Slot Count: 4 DIMM Slots",
-    "DIMM Sizes": "RDIMM/3DS RDIMM:16GB, 24GB, 32GB, 48GB, 64GB, 96GB, 128GB, 256GB",
-    "Chipset": "TRX50",
-    "SATA": "4 SATA (6Gbps) ; RAID 0/1/10 support",
-    "Network Controller": "Single LAN with ASPEED AST2600, Dedicated LAN for IPMI\nDual LAN with 1Gb Broadcom BCM5720",
-    "Video": "1 VGA port(s)",
-    "Serial": "1 COM port(s)",
-    "TPM": "1 TPM 2.0 Header",
-    "M2": "2 M.2 PCIe 4.0 x4 slots (M-key 2280/22110)",
-    "BIOS Type": "AMI 32MB SPI Flash EEPROM",
-    "BIOS Features": "ACPI 6.5\nRTC (Real Time Clock) Wakeup\nSMBIOS 3.6 or later\nUEFI 2.9",
-    "Power Configurations": "Power-on mode for AC power recovery\nACPI Power Management\nWake-On-LAN\nS4/S5",
-    "Hardware": "Trusted Platform Module (TPM) 2.0",
     "Efectivo/Transferencia": "$995.000",
     "Tarjeta crédito/débito": "$1.024.850"
   },
   "tags": [],
   "created_at": "2026-04-26 20:14:13",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-04-28 00:59:05",
   "prices": [
     {
       "product_id": 641,
@@ -62,7 +45,13 @@
       "store_name": "N1G",
       "date": "2026-04-27",
       "price": 995000
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-28",
+      "price": 995000
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-04-28"
 }

@@ -1,42 +1,58 @@
 {
   "id": 636,
-  "external_id": "alltec_gabinete-xigmatek-lamiya-atx-argb-black",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "GABINETE XIGMATEK LAMIYA (ATX) (ARGB) BLACK",
-  "slug": "gabinete-xigmatek-lamiya-atx-argb-black",
-  "image_url": "https://www.alltec.cl/11247-home_default/gabinete-xigmatek-lamiya-atx-argb-black.jpg",
+  "external_id": "n1g_asus-rog-strix-z890-e-gaming-wifi-lga-1851-ddr5-atx-18-2-1-2-stages-ddr5-wifi-7-7x-m-2-thunderbolt-4",
+  "category_id": "mobo",
+  "brand": "Asus",
+  "name": "ASUS ROG STRIX Z890-E GAMING WIFI LGA 1851 DDR5 ATX  18+2+1+2 stages, DDR5, WiFi 7, 7x M.2, Thunderbolt™ 4",
+  "slug": "asus-rog-strix-z890-e-gaming-wifi-lga-1851-ddr5-atx-18-2-1-2-stages-ddr5-wifi-7-7x-m-2-thunderbolt-4",
+  "image_url": "https://images.findtech.cl/products/asus-rog-strix-z890-e-gaming-wifi-lga-1851-ddr5-atx-18-2-1-2-stages-ddr5-wifi-7-7x-m-2-thunderbolt-4.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$79.900",
-    "Tarjeta crédito/débito": "$82.297"
+    "Socket": "LGA1851",
+    "Factor de forma": "ATX",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
+    "Efectivo/Transferencia": "$609.900",
+    "Tarjeta crédito/débito": "$628.197"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:34:38",
-  "updated_at": "2026-04-25 19:34:38",
+  "created_at": "2026-04-26 20:14:03",
+  "updated_at": "2026-04-28 00:59:05",
   "prices": [
     {
       "product_id": 636,
-      "store_id": "alltec",
-      "price": 79900,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 609900,
+      "price_normal": 642000,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/sin-fuente-de-poder/2148-gabinete-xigmatek-lamiya-atx-argb-black-4713436748113.html",
-      "store_name": "Alltec",
+      "product_url": "https://n1g.cl/Home/computacion/3140-rog-strix-z890-e-gaming-wifi-lga-1851-atx-18212-stages-ddr5-wifi-7-7x-m2-thunderbolt-4.html",
+      "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "alltec",
-      "store_name": "Alltec",
-      "date": "2026-04-25",
-      "price": 79900
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 609900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-27",
+      "price": 609900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-28",
+      "price": 609900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-28"
 }

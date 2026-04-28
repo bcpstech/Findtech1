@@ -1,43 +1,59 @@
 {
   "id": 662,
-  "external_id": "cg_placa-madre-asus-prime-b760m-a-d4-csm",
-  "category_id": "mobo",
-  "brand": "ASUS",
-  "name": "Placa Madre ASUS Prime B760M-A D4 CSM",
-  "slug": "placa-madre-asus-prime-b760m-a-d4-csm",
-  "image_url": "https://images.findtech.cl/products/placa-madre-asus-prime-b760m-a-d4-csm.jpg",
+  "external_id": "n1g_kingston-32gb-3600mhz-fury-renegade-kf436c18rb2a-32-1x32-gb-cl18-dimm-ddr4-3600",
+  "category_id": "ram",
+  "brand": "Kingston",
+  "name": "Kingston 32GB 3600Mhz Fury Renegade KF436C18RB2A/32 1x32 GB CL18 DIMM DDR4-3600",
+  "slug": "kingston-32gb-3600mhz-fury-renegade-kf436c18rb2a-32-1x32-gb-cl18-dimm-ddr4-3600",
+  "image_url": "https://images.findtech.cl/products/kingston-32gb-3600mhz-fury-renegade-kf436c18rb2a-32-1x32-gb-cl18-dimm-ddr4-3600.jpg",
   "description": null,
   "specs": {
-    "Marca": "ASUS",
-    "Efectivo/Transferencia": "$92.140",
-    "Webpay / Tarjeta crédito-débito": "$96.990"
+    "Capacidad": "32 GB (total)",
+    "Tipo": "DDR4",
+    "Velocidad": "3600 MHz",
+    "Latencia": "CL18",
+    "Kit": "1x32 GB",
+    "Efectivo/Transferencia": "$349.000",
+    "Tarjeta crédito/débito": "$359.470"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:55:48",
-  "updated_at": "2026-04-25 20:55:48",
+  "created_at": "2026-04-26 20:14:59",
+  "updated_at": "2026-04-28 00:59:05",
   "prices": [
     {
       "product_id": 662,
-      "store_id": "cg",
-      "price": 92140,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 349000,
+      "price_normal": 367368,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-b760m-a-d4-csm/",
-      "store_name": "CentralGamer",
+      "product_url": "https://n1g.cl/Home/computacion/3805-kingston-32gb-3600mhz-fury-renegade-kf436c18rb2a32-1x32-gb-cl18-dimm-ddr4-3600.html",
+      "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-04-25",
-      "price": 92140
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 349000
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-27",
+      "price": 349000
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-28",
+      "price": 349000
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-28"
 }

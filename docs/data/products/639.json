@@ -1,42 +1,58 @@
 {
   "id": 639,
-  "external_id": "alltec_gabinete-xigmatek-anubis-pro-4fx-eatx-black",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "GABINETE XIGMATEK ANUBIS PRO 4FX (EATX) BLACK",
-  "slug": "gabinete-xigmatek-anubis-pro-4fx-eatx-black",
-  "image_url": "https://www.alltec.cl/11135-home_default/gabinete-xigmatek-anubis-pro-4fx-eatx-black.jpg",
+  "external_id": "n1g_asus-rog-crosshair-x870e-hero-am5-atx-pcie-5-0-ddr5-wifi-7-ai-usb4-y-usb-type-c",
+  "category_id": "mobo",
+  "brand": "Asus",
+  "name": "ASUS ROG CROSSHAIR X870E HERO AM5 ATX PCIe 5.0 DDR5 WiFi 7 AI USB4® y USB Type-C®",
+  "slug": "asus-rog-crosshair-x870e-hero-am5-atx-pcie-5-0-ddr5-wifi-7-ai-usb4-y-usb-type-c",
+  "image_url": "https://images.findtech.cl/products/asus-rog-crosshair-x870e-hero-am5-atx-pcie-5-0-ddr5-wifi-7-ai-usb4-y-usb-type-c.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$99.900",
-    "Tarjeta crédito/débito": "$102.897"
+    "Socket": "AM5",
+    "Factor de forma": "ATX",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
+    "Efectivo/Transferencia": "$859.900",
+    "Tarjeta crédito/débito": "$885.697"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:34:47",
-  "updated_at": "2026-04-25 19:34:47",
+  "created_at": "2026-04-26 20:14:09",
+  "updated_at": "2026-04-28 00:59:05",
   "prices": [
     {
       "product_id": 639,
-      "store_id": "alltec",
-      "price": 99900,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 859900,
+      "price_normal": 905158,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/sin-fuente-de-poder/2149-gabinete-xigmatek-anubis-pro-4fx-eatx-black-4711409540788.html",
-      "store_name": "Alltec",
+      "product_url": "https://n1g.cl/Home/computacion/2906-rog-crosshair-x870e-hero-am5-atx-pcie-50-ddr5-wifi-7-ai-usb4-y-usb-type-c.html",
+      "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "alltec",
-      "store_name": "Alltec",
-      "date": "2026-04-25",
-      "price": 99900
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 859900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-27",
+      "price": 859900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-28",
+      "price": 859900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-28"
 }

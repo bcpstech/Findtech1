@@ -1,9 +1,16 @@
 {
-  "last_update": "2026-04-27",
-  "generated_at": "2026-04-27T22:31:13.449Z",
-  "total_products": 917,
+  "last_update": "2026-04-28",
+  "generated_at": "2026-04-28T00:59:06.244Z",
+  "total_products": 319,
   "total_stores": 18,
   "last_runs": [
+    {
+      "store_id": "n1g",
+      "status": "success",
+      "products_updated": 504,
+      "errors_count": 6,
+      "finished_at": "2026-04-28 00:59:05"
+    },
     {
       "store_id": "megadrive",
       "status": "success",
@@ -136,13 +143,6 @@
       "products_updated": 0,
       "errors_count": 8,
       "finished_at": "2026-04-26 20:54:09"
-    },
-    {
-      "store_id": "winpy",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 0,
-      "finished_at": "2026-04-26 20:53:45"
     }
   ]
 }

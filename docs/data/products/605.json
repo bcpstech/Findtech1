@@ -1,42 +1,58 @@
 {
   "id": 605,
-  "external_id": "alltec_gabinete-xigmatek-cubi-m-matx-tg-6xfan",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "GABINETE XIGMATEK CUBI M (MATX) TG (6xFAN...",
-  "slug": "gabinete-xigmatek-cubi-m-matx-tg-6xfan",
-  "image_url": "https://www.alltec.cl/11958-home_default/gabinete-xigmatek-cubi-m-matx-tg-6xfan-120mm-argb.jpg",
+  "external_id": "n1g_msi-b850-gaming-plus-wifi-am5-amd-b850-sata-6gb-s-5g-network-ddr5-wi-fi-7-atx",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "MSI B850 GAMING PLUS WIFI AM5 AMD B850 SATA 6Gb/s 5G Network DDR5 Wi-Fi 7 ATX",
+  "slug": "msi-b850-gaming-plus-wifi-am5-amd-b850-sata-6gb-s-5g-network-ddr5-wi-fi-7-atx",
+  "image_url": "https://images.findtech.cl/products/msi-b850-gaming-plus-wifi-am5-amd-b850-sata-6gb-s-5g-network-ddr5-wi-fi-7-atx.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$99.900",
-    "Tarjeta crédito/débito": "$102.897"
+    "Socket": "AM5",
+    "Factor de forma": "ATX",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
+    "Efectivo/Transferencia": "$259.500",
+    "Tarjeta crédito/débito": "$267.285"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:33:05",
-  "updated_at": "2026-04-25 19:33:05",
+  "created_at": "2026-04-26 20:13:04",
+  "updated_at": "2026-04-28 00:59:05",
   "prices": [
     {
       "product_id": 605,
-      "store_id": "alltec",
-      "price": 99900,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 259500,
+      "price_normal": 273158,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/sin-fuente-de-poder/2306-gabinete-xigmatek-cubi-m-matx-tg-6xfan-120mm-argb.html",
-      "store_name": "Alltec",
+      "product_url": "https://n1g.cl/Home/computacion/3117-msi-b850-gaming-plus-wifi-am5-amd-b850-sata-6gbs-5g-network-ddr5-wi-fi-7-atx.html",
+      "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "alltec",
-      "store_name": "Alltec",
-      "date": "2026-04-25",
-      "price": 99900
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 259500
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-27",
+      "price": 259500
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-28",
+      "price": 259500
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-28"
 }

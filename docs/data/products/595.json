@@ -8,12 +8,16 @@
   "image_url": "https://images.findtech.cl/products/asus-b650m-ayw-wifi-am5-micro-atx-ddr5-pcie-16x-m-2-hdmi-2-5gb-lan-wi-fi-6-usb-10gbps-type-c-sata-au.jpg",
   "description": null,
   "specs": {
+    "Socket": "AM5",
+    "Factor de forma": "Micro-ATX",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
     "Efectivo/Transferencia": "$142.900",
     "Tarjeta crédito/débito": "$147.187"
   },
   "tags": [],
   "created_at": "2026-04-26 20:12:45",
-  "updated_at": "2026-04-26 20:12:45",
+  "updated_at": "2026-04-28 00:59:05",
   "prices": [
     {
       "product_id": 595,
@@ -28,20 +32,6 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
-    },
-    {
-      "product_id": 967,
-      "store_id": "alltec",
-      "price": 142900,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/para-amd/2453-mb-asus-b650m-ayw-wi-fi-am5-ddr5-ryzen-700080009000.html",
-      "store_name": "Alltec",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -50,7 +40,19 @@
       "store_name": "N1G",
       "date": "2026-04-26",
       "price": 142900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-27",
+      "price": 142900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-28",
+      "price": 142900
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-28"
 }

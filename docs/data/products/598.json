@@ -1,42 +1,57 @@
 {
   "id": 598,
-  "external_id": "alltec_kit-tornillos-pc-para-gabinete-30-pcs-aprox",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "KIT TORNILLOS PC PARA GABINETE 30 PCS APROX.",
-  "slug": "kit-tornillos-pc-para-gabinete-30-pcs-aprox",
-  "image_url": "https://images.findtech.cl/products/kit-tornillos-pc-para-gabinete-30-pcs-aprox.jpg",
+  "external_id": "n1g_asus-prime-b840m-a-am5-ddr5-matx-motherboard-4-dimm",
+  "category_id": "mobo",
+  "brand": "Asus",
+  "name": "ASUS Prime B840M-A AM5 DDR5 mATX Motherboard - 4 DIMM",
+  "slug": "asus-prime-b840m-a-am5-ddr5-matx-motherboard-4-dimm",
+  "image_url": "https://images.findtech.cl/products/asus-prime-b840m-a-am5-ddr5-matx-motherboard-4-dimm.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$3.900",
-    "Tarjeta crédito/débito": "$4.017"
+    "Socket": "AM5",
+    "Factor de forma": "Micro-ATX",
+    "Memoria": "DDR5",
+    "Efectivo/Transferencia": "$182.900",
+    "Tarjeta crédito/débito": "$188.387"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:54:13",
-  "updated_at": "2026-04-25 20:54:13",
+  "created_at": "2026-04-26 20:12:51",
+  "updated_at": "2026-04-28 00:59:05",
   "prices": [
     {
       "product_id": 598,
-      "store_id": "alltec",
-      "price": 3900,
-      "price_normal": 79007900,
-      "discount_pct": 100,
+      "store_id": "n1g",
+      "price": 182900,
+      "price_normal": 192526,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/gabinetes/1820-kit-tornillos-pc-para-gabinete-30-pcs-aprox.html",
-      "store_name": "Alltec",
+      "product_url": "https://n1g.cl/Home/computacion/3143-asus-prime-b840m-a-am5-ddr5-matx-motherboard-4-dimm.html",
+      "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "alltec",
-      "store_name": "Alltec",
-      "date": "2026-04-25",
-      "price": 3900
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 182900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-27",
+      "price": 182900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-28",
+      "price": 182900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-28"
 }

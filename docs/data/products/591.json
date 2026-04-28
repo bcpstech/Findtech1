@@ -1,42 +1,57 @@
 {
   "id": 591,
-  "external_id": "alltec_fuente-de-poder-xigmatek-thor-t850m-v2",
-  "category_id": "psu",
-  "brand": "Genérico",
-  "name": "FUENTE DE PODER XIGMATEK THOR T850M V2...",
-  "slug": "fuente-de-poder-xigmatek-thor-t850m-v2",
-  "image_url": "https://images.findtech.cl/products/fuente-de-poder-xigmatek-thor-t850m-v2.jpg",
+  "external_id": "n1g_asrock-a620am-x-micro-atx-am5-ryzen-9000-8000-7000-ddr5-8000-oc-pcie-4-0-2-5g-lan",
+  "category_id": "mobo",
+  "brand": "ASROCK",
+  "name": "ASRock A620AM-X Micro-ATX AM5 Ryzen 9000/8000/7000 DDR5 8000+ OC PCIe 4.0 2.5G LAN",
+  "slug": "asrock-a620am-x-micro-atx-am5-ryzen-9000-8000-7000-ddr5-8000-oc-pcie-4-0-2-5g-lan",
+  "image_url": "https://images.findtech.cl/products/asrock-a620am-x-micro-atx-am5-ryzen-9000-8000-7000-ddr5-8000-oc-pcie-4-0-2-5g-lan.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$128.900",
-    "Tarjeta crédito/débito": "$132.767"
+    "Socket": "AM5",
+    "Factor de forma": "Micro-ATX",
+    "Memoria": "DDR5",
+    "Efectivo/Transferencia": "$114.900",
+    "Tarjeta crédito/débito": "$118.347"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:53:26",
-  "updated_at": "2026-04-25 20:53:26",
+  "created_at": "2026-04-26 20:12:37",
+  "updated_at": "2026-04-28 00:59:05",
   "prices": [
     {
       "product_id": 591,
-      "store_id": "alltec",
-      "price": 128900,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 114900,
+      "price_normal": 120947,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/potencia-realcertificadas/2290-fuente-de-poder-xigmatek-thor-t850m-v2-850w-80-plus-bronze-full-modular.html",
-      "store_name": "Alltec",
+      "product_url": "https://n1g.cl/Home/computacion/3731-asrock-a620am-x-micro-atx-am5-ryzen-900080007000-ddr5-8000-oc-pcie-40-25g-lan.html",
+      "store_name": "N1G",
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "alltec",
-      "store_name": "Alltec",
-      "date": "2026-04-25",
-      "price": 128900
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-26",
+      "price": 114900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-27",
+      "price": 114900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-04-28",
+      "price": 114900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-28"
 }
