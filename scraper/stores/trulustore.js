@@ -1,162 +1,353 @@
 /**
  * scraper/stores/trulustore.js
- * TruluStore — WooCommerce Store API con fallback a búsqueda HTML
+ * TruluStore — WooCommerce scraping por categorías exactas
+ *
+ * Precios:
+ * - Efectivo/Transferencia/Depósito (precio base)
+ * - Khipu (× 1.02)
+ * - Tarjeta crédito/débito (× 1.05)
+ *
+ * Reglas:
+ * - Gabinetes: solo URLs específicas (no toda la categoría)
+ * - Fuentes: solo URLs específicas
+ * - Procesadores AMD activos, Intel vacío pero se mantiene para el futuro
+ * - No publicar out_of_stock
  */
-const BaseScraper = require('../base-scraper');
+
+require('dotenv').config();
 const cheerio = require('cheerio');
+const BaseScraper = require('../base-scraper');
 
-const BASE_URL    = 'https://www.trulustore.cl';
-const BASE_API    = 'https://www.trulustore.cl/wp-json/wc/store/v1/products';
-const CARD_FACTOR = 1.03;
-const PROXY_URL    = process.env.CF_PROXY_URL    || '';
-const PROXY_SECRET = process.env.CF_PROXY_SECRET || '';
+const BASE          = 'https://trulustore.cl';
+const FACTOR_KHIPU  = 1.02;
+const FACTOR_CARD   = 1.05;
 
-function proxify(url) {
-  if (!PROXY_URL) return url;
-  return `${PROXY_URL}?url=${encodeURIComponent(url)}&secret=${PROXY_SECRET}`;
+// ── Categorías por URL ─────────────────────────────────────────────────────
+const CATEGORY_URLS = [
+  // PCs Armados
+  { url: '/categoria-producto/pc-gamer/', catId: 'pc' },
+
+  // Procesadores
+  { url: '/categoria-producto/componentes-pc/procesadores/amd-procesadores/', catId: 'cpu', sub: 'amd'   },
+  { url: '/categoria-producto/componentes-pc/procesadores/intel-procesadores/', catId: 'cpu', sub: 'intel' },
+
+  // Placas Madre
+  { url: '/categoria-producto/componentes-pc/placas-madre/amd/am5-amd/',   catId: 'mobo', sub: 'am5'    },
+  { url: '/categoria-producto/componentes-pc/placas-madre/amd/am4-amd/',   catId: 'mobo', sub: 'am4'    },
+  { url: '/categoria-producto/componentes-pc/placas-madre/intel/lga-1700/', catId: 'mobo', sub: 'lga1700' },
+  { url: '/categoria-producto/componentes-pc/placas-madre/intel/lga-1851/', catId: 'mobo', sub: 'lga1851' },
+
+  // Memorias RAM
+  { url: '/categoria-producto/componentes-pc/memoria-ram/ddr4/', catId: 'ram', sub: 'ddr4' },
+  { url: '/categoria-producto/componentes-pc/memoria-ram/ddr5/', catId: 'ram', sub: 'ddr5' },
+
+  // Refrigeración
+  { url: '/categoria-producto/componentes-pc/refrigeracion/refrigeracion-aire/',    catId: 'cooling', sub: 'aire'    },
+  { url: '/categoria-producto/componentes-pc/refrigeracion/refrigeracion-liquida/', catId: 'cooling', sub: 'liquida' },
+  { url: '/categoria-producto/componentes-pc/refrigeracion/ventiladores/',          catId: 'cooling', sub: 'fans'    },
+
+  // Almacenamiento
+  { url: '/categoria-producto/componentes-pc/almacenamiento/disco-ssd-2-5/',  catId: 'storage', sub: 'sata' },
+  { url: '/categoria-producto/componentes-pc/almacenamiento/disco-ssd-m-2/',  catId: 'storage' },
+
+  // Tarjetas de Video
+  { url: '/categoria-producto/componentes-pc/tarjetas-de-video/nvidia/',  catId: 'gpu', sub: 'nvidia' },
+  { url: '/categoria-producto/componentes-pc/tarjetas-de-video/radeon/',  catId: 'gpu', sub: 'amd'    },
+];
+
+// ── Productos específicos (gabinetes y fuentes) ────────────────────────────
+const SPECIFIC_PRODUCTS = [
+  // Gabinetes
+  { url: '/producto/gabinete-tipo-pecera-esgaming-gilgamesh-6-ventiladores-argb-controladora/', catId: 'case' },
+  { url: '/producto/gabinete-tipo-pecera-esgaming-h60-5-ventiladores-argb-controladora/',       catId: 'case' },
+  { url: '/producto/gabinete-tipo-pecera-esgaming-zero-6-ventiladores-argb-controladora/',      catId: 'case' },
+  { url: '/producto/gabinete-tipo-pecera-esgaming-zero-max-7-ventiladores-argb-controladora/',  catId: 'case' },
+  // Fuentes de poder
+  { url: '/producto/fuente-de-poder-asus-prime-850g-de-850w-80-gold-full-modular-atx-3-1/',                                                catId: 'psu' },
+  { url: '/producto/fuente-de-poder-asus-rog-strix-1000p-de-1000w-80-platinum-full-modular-atx-3-1/',                                       catId: 'psu' },
+  { url: '/producto/fuente-de-poder-asus-rog-thor-1200-platinum-iii-de-1200w-80-platinum-full-modular-atx-3-1-pantalla-oled-aura-sync/',    catId: 'psu' },
+  { url: '/producto/fuente-de-poder-gigabyte-p650g-de-650w-80-gold/',                                                                       catId: 'psu' },
+  { url: '/producto/fuente-de-poder-asus-tuf-gaming-850g-de-850w-80-gold-full-modular-atx-3-1/',                                            catId: 'psu' },
+  { url: '/producto/fuente-de-poder-asus-tuf-gaming-750g-de-750w-80-gold-full-modular-atx-3-1/',                                            catId: 'psu' },
+  { url: '/producto/fuente-de-poder-asus-tuf-gaming-1000g-de-1000w-80-gold-full-modular-atx-3-1/',                                          catId: 'psu' },
+  { url: '/producto/fuente-de-poder-gigabyte-p650ss-ice-de-650w-80-silver-atx-3-0/',                                                        catId: 'psu' },
+  { url: '/producto/fuente-de-poder-gigabyte-ud750gm-pg5-full-modular-80-gold-pcie-5-0-de-750w/',                                           catId: 'psu' },
+  { url: '/producto/fuente-de-poder-msi-mag-a1000gls-1000w-80-gold-cybenetics-gold-full-modular-pcie-5-1-atx-3-1/',                         catId: 'psu' },
+  { url: '/producto/fuente-de-poder-msi-mag-a850gl-white-850w-80-gold-cybenetics-gold-full-modular-pcie-5-1-atx-3-1/',                      catId: 'psu' },
+];
+
+// ── Selectores WooCommerce ────────────────────────────────────────────────
+const SEL = {
+  products:    'ul.products li.product, .products .product',
+  name:        '.woocommerce-loop-product__title, h2.woocommerce-loop-product__title',
+  price:       '.price ins .amount, .price > .amount, .price .woocommerce-Price-amount',
+  priceOld:    '.price del .amount',
+  link:        'a.woocommerce-loop-product__link, .woocommerce-LoopProduct-link',
+  img:         'img.attachment-woocommerce_thumbnail, img.wp-post-image',
+  outOfStock:  '.out-of-stock, .product .stock.out-of-stock',
+  nextPage:    'a.next.page-numbers',
+  // Detalle producto
+  detailName:  'h1.product_title, .product_title',
+  detailPrice: '.price ins .amount, .price > .woocommerce-Price-amount',
+  detailOld:   '.price del .amount',
+  detailStock: '.stock',
+  detailImg:   '.woocommerce-product-gallery__image img',
+};
+
+function parsePrice(raw) {
+  if (!raw) return null;
+  const n = parseInt(String(raw).replace(/[^\d]/g, ''));
+  return (!n || n < 1000 || n > 200000000) ? null : n;
 }
 
-const API_CATEGORIES = [
-  { slug: 'tarjetas-de-video',  catId: 'gpu'     },
-  { slug: 'procesadores',       catId: 'cpu'     },
-  { slug: 'placas-madre',       catId: 'mobo'    },
-  { slug: 'memorias-ram',       catId: 'ram'     },
-  { slug: 'almacenamiento',     catId: 'storage' },
-  { slug: 'refrigeracion',      catId: 'cooling' },
-  { slug: 'fuentes-de-poder',   catId: 'psu'     },
-  { slug: 'gabinetes',          catId: 'case'    },
-];
+function classifyStorage(name) {
+  const n = name.toLowerCase();
+  if (/nvme|m\.2|pcie/.test(n)) return 'nvme';
+  if (/sata|2\.5/.test(n))      return 'sata';
+  return 'nvme';
+}
 
-const HTML_SEARCHES = [
-  { query: 'rtx',          catId: 'gpu',     minPrice: 80000  },
-  { query: 'radeon rx',    catId: 'gpu',     minPrice: 80000  },
-  { query: 'ryzen',        catId: 'cpu',     minPrice: 20000  },
-  { query: 'core i',       catId: 'cpu',     minPrice: 20000  },
-  { query: 'placa madre',  catId: 'mobo',    minPrice: 30000  },
-  { query: 'memoria ddr',  catId: 'ram',     minPrice: 10000  },
-  { query: 'ssd nvme',     catId: 'storage', minPrice: 15000  },
-  { query: 'fuente poder', catId: 'psu',     minPrice: 20000  },
-  { query: 'gabinete',     catId: 'case',    minPrice: 20000  },
-];
+function classifyCase(name) {
+  const n = name.toUpperCase();
+  if (/E[\s-]?ATX|EXTENDED|EATX|FULL\s*TOWER/.test(n)) return 'eatx';
+  if (/MICRO[\s-]?ATX|MATX/.test(n))                   return 'matx';
+  if (/MINI[\s-]?ITX/.test(n))                          return 'itx';
+  return 'atx';
+}
 
-const OUT_OF_STOCK = ['sin stock','agotado','out of stock','no disponible','sold out'];
+function classifyPsu(name) {
+  const n = name.toLowerCase();
+  if (/modular/.test(n)) return 'modular';
+  if (/80\s*plus|80\+|gold|platinum|bronze|titanium/.test(n)) return 'certificada';
+  return null;
+}
 
 class TruluStoreScraper extends BaseScraper {
   constructor() {
     super('trulustore', 'TruluStore');
-    this.useApi = true;
+    this.seenUrls = new Set();
   }
 
   async scrapeAll() {
-    try {
-      const test = await this.client.get(`${BASE_API}?category=procesadores&per_page=1`, {
-        headers: { Accept: 'application/json' }, timeout: 10000
-      });
-      this.useApi = Array.isArray(test.data) && test.data.length > 0;
-    } catch(e) {
-      this.useApi = false;
-    }
-    this.log('info', `[trulustore] Modo: ${this.useApi ? 'WooCommerce API' : 'HTML scraping'}`);
-    if (this.useApi) await this.scrapeViaApi();
-    else await this.scrapeViaHtml();
-  }
-
-  async scrapeViaApi() {
-    for (const { slug, catId } of API_CATEGORIES) {
-      let page = 1;
-      while (page <= 20) {
-        const url = `${BASE_API}?category=${slug}&per_page=100&page=${page}`;
-        try {
-          const res = await this.client.get(url, { headers: { Accept: 'application/json' } });
-          const products = res.data;
-          if (!products?.length) break;
-          for (const p of products) {
-            const priceCard = parseInt(p.prices?.price);
-            if (!priceCard || priceCard < 1000) continue;
-            const priceCash = Math.round(priceCard / CARD_FACTOR / 10) * 10;
-            const regularRaw = parseInt(p.prices?.regular_price);
-            const regularCash = regularRaw > priceCard ? Math.round(regularRaw / CARD_FACTOR / 10) * 10 : null;
-            const techSpecs = this.extractWooSpecs(p);
-            this.stats.found++;
-            await this.saveProductWithR2(
-              { name: p.name, category: catId,
-                brand: p.brands?.[0]?.name || this.extractBrand(p.name),
-                imageUrl: p.images?.[0]?.src || null,
-                specs: { ...techSpecs,
-                  'Transferencia/Efectivo': `$${priceCash.toLocaleString('es-CL')}`,
-                  'Webpay / Tarjeta':       `$${priceCard.toLocaleString('es-CL')}` }
-              },
-              { current: priceCash, normal: regularCash,
-                discount: regularCash ? Math.round((1-priceCash/regularCash)*100) : null,
-                stock: p.is_in_stock ? 'in_stock' : 'out_of_stock',
-                url: p.permalink || null }
-            );
-          }
-          if (products.length < 100) break;
-          page++;
-          await this.delay(1500, 2500);
-        } catch(err) {
-          this.stats.errors++;
-          this.log('warn', `[trulustore] API error ${slug} pág ${page}: ${err.message}`);
-          if (err.response?.status === 429) await new Promise(r => setTimeout(r, 15000));
-          break;
-        }
-      }
-      await this.delay(2000, 3500);
-    }
-  }
-
-  async scrapeViaHtml() {
-    this.seenUrls = new Set();
-    for (const { query, catId, minPrice } of HTML_SEARCHES) {
+    // 1. Categorías
+    for (const cat of CATEGORY_URLS) {
       try {
-        const searchUrl = proxify(`${BASE_URL}/?s=${encodeURIComponent(query)}&post_type=product`);
-        const res = await this.client.get(searchUrl, {
-          headers: { 'Accept': 'text/html', 'Accept-Language': 'es-CL,es;q=0.9',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36' }
-        });
-        const $ = cheerio.load(res.data);
-        const items = $('ul.products li.product, .products .product');
-        let newItems = 0;
-        for (const el of items.toArray()) {
-          try {
-            const $el = $(el);
-            const productUrl = $el.find('a').first().attr('href') || '';
-            if (!productUrl || this.seenUrls.has(productUrl)) continue;
-            this.seenUrls.add(productUrl);
-            const name = $el.find('.woocommerce-loop-product__title, h2, h3').first().text().trim();
-            if (!name || name.length < 5) continue;
-            const priceRaw = $el.find('.price ins .amount, .price .amount').first().text()
-                          || $el.find('.price').first().text();
-            const price = this.parsePrice(priceRaw);
-            if (!price || price < minPrice) continue;
-            const stockTxt = $el.text().toLowerCase();
-            const stock = OUT_OF_STOCK.some(s => stockTxt.includes(s)) ? 'out_of_stock' : 'in_stock';
-            const priceCard = Math.round(price * CARD_FACTOR);
-            this.stats.found++;
-            newItems++;
-            await this.saveProductWithR2(
-              { name, category: catId, brand: this.extractBrand(name),
-                imageUrl: $el.find('img').first().attr('src') || null,
-                specs: { 'Transferencia/Efectivo': `$${price.toLocaleString('es-CL')}`,
-                          'Webpay / Tarjeta':       `$${priceCard.toLocaleString('es-CL')}` }
-              },
-              { current: price, normal: null, discount: null, stock, url: productUrl }
-            );
-          } catch(e) {}
-        }
-        this.log('info', `[trulustore] HTML "${query}": ${newItems} productos`);
-        await this.delay(2000, 3000);
-      } catch(err) {
-        this.log('warn', `[trulustore] HTML error "${query}": ${err.message}`);
+        await this.scrapeCategory(cat);
+        await this.delay(2000, 3500);
+      } catch (err) {
+        this.stats.errors++;
+        this.log('warn', `[trulu] Error categoría ${cat.url}: ${err.message}`);
       }
     }
+
+    // 2. Productos específicos
+    for (const prod of SPECIFIC_PRODUCTS) {
+      try {
+        await this.scrapeProductPage(prod);
+        await this.delay(1500, 2500);
+      } catch (err) {
+        this.stats.errors++;
+        this.log('warn', `[trulu] Error producto ${prod.url}: ${err.message}`);
+      }
+    }
+  }
+
+  async fetchPage(url) {
+    const res = await this.client.get(url, {
+      headers: {
+        Accept: 'text/html,application/xhtml+xml',
+        'Accept-Language': 'es-CL,es;q=0.9',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36',
+        Referer: BASE + '/',
+      },
+      timeout: 25000,
+    });
+    return cheerio.load(res.data);
+  }
+
+  // ── Scrapear categoría paginada ──────────────────────────────────────────
+  async scrapeCategory(cat) {
+    let page = 1;
+    let total = 0;
+
+    while (page <= 20) {
+      const pageUrl = page === 1
+        ? `${BASE}${cat.url}`
+        : `${BASE}${cat.url}page/${page}/`;
+
+      this.log('info', `[trulu] ${cat.catId}${cat.sub ? '/'+cat.sub : ''} pág ${page}`);
+
+      let $;
+      try {
+        $ = await this.fetchPage(pageUrl);
+      } catch (err) {
+        this.log('warn', `[trulu] HTTP error ${pageUrl}: ${err.message}`);
+        break;
+      }
+
+      const items = $(SEL.products);
+      if (!items.length) {
+        this.log('info', `[trulu] Sin productos en pág ${page}`);
+        break;
+      }
+
+      let newInPage = 0;
+      for (const el of items.toArray()) {
+        const $el = $(el);
+        try {
+          const productUrl = $el.find(SEL.link).first().attr('href') || '';
+          if (!productUrl || this.seenUrls.has(productUrl)) continue;
+          this.seenUrls.add(productUrl);
+
+          const name = $el.find(SEL.name).first().text().trim();
+          if (!name) continue;
+
+          // Precio base (efectivo)
+          const priceRaw = $el.find(SEL.price).first().text().trim();
+          const price = parsePrice(priceRaw);
+          if (!price) {
+            this.log('warn', `[trulu] Sin precio: ${name.slice(0, 50)}`);
+            continue;
+          }
+
+          const priceOldRaw = $el.find(SEL.priceOld).first().text().trim();
+          const priceNormal = priceOldRaw ? parsePrice(priceOldRaw) : null;
+          const discount = priceNormal && priceNormal > price
+            ? Math.round((1 - price / priceNormal) * 100) : null;
+
+          const khipu = Math.round(price * FACTOR_KHIPU);
+          const card  = Math.round(price * FACTOR_CARD);
+
+          // Stock
+          const stock = $el.find(SEL.outOfStock).length ? 'out_of_stock' : 'in_stock';
+
+          const imgEl = $el.find(SEL.img).first();
+          const imageUrl = imgEl.attr('data-src') || imgEl.attr('src') || null;
+
+          // Sub-clasificación
+          let sub = cat.sub || null;
+          if (!sub) {
+            if (cat.catId === 'storage') sub = classifyStorage(name);
+            if (cat.catId === 'case')    sub = classifyCase(name);
+            if (cat.catId === 'psu')     sub = classifyPsu(name);
+          }
+
+          this.stats.found++;
+          newInPage++;
+
+          await this.saveProductWithR2(
+            {
+              name,
+              category: cat.catId,
+              brand: this.extractBrand(name),
+              imageUrl,
+              specs: {
+                'Efectivo / Transferencia': `$${price.toLocaleString('es-CL')}`,
+                'Khipu':                   `$${khipu.toLocaleString('es-CL')}`,
+                'Tarjeta crédito/débito':  `$${card.toLocaleString('es-CL')}`,
+              },
+            },
+            {
+              current:  price,
+              normal:   card,    // precio tarjeta en price_normal
+              discount,
+              stock,
+              url: productUrl,
+            }
+          );
+        } catch (err) {
+          this.log('warn', `[trulu] Error item: ${err.message}`);
+        }
+      }
+
+      total += newInPage;
+      this.log('info', `[trulu] ✓ pág ${page}: ${newInPage} productos`);
+
+      const hasNext = $(SEL.nextPage).length > 0;
+      if (!hasNext || newInPage === 0) break;
+      page++;
+      await this.delay(1500, 2500);
+    }
+
+    this.log('info', `[trulu] ✓ ${cat.url}: ${total} total`);
+  }
+
+  // ── Scrapear producto individual ─────────────────────────────────────────
+  async scrapeProductPage(prod) {
+    const fullUrl = `${BASE}${prod.url}`;
+    if (this.seenUrls.has(fullUrl)) return;
+    this.seenUrls.add(fullUrl);
+
+    this.log('info', `[trulu] producto ${prod.url}`);
+
+    let $;
+    try {
+      $ = await this.fetchPage(fullUrl);
+    } catch (err) {
+      this.log('warn', `[trulu] HTTP error ${fullUrl}: ${err.message}`);
+      return;
+    }
+
+    const name = $(SEL.detailName).first().text().trim();
+    if (!name) return;
+
+    // Precio — en página de detalle WooCommerce
+    const priceRaw = $('.price ins .amount, .price > .woocommerce-Price-amount').first().text().trim();
+    const price = parsePrice(priceRaw);
+    if (!price) {
+      this.log('warn', `[trulu] Sin precio en: ${name.slice(0, 50)}`);
+      return;
+    }
+
+    const priceOldRaw = $('.price del .amount').first().text().trim();
+    const priceNormal = priceOldRaw ? parsePrice(priceOldRaw) : null;
+    const discount = priceNormal && priceNormal > price
+      ? Math.round((1 - price / priceNormal) * 100) : null;
+
+    const khipu = Math.round(price * FACTOR_KHIPU);
+    const card  = Math.round(price * FACTOR_CARD);
+
+    // Stock
+    const stockTxt = $('.stock').text().toLowerCase();
+    const stock = /agotado|out.of.stock|sin stock/.test(stockTxt) ? 'out_of_stock' : 'in_stock';
+
+    // Imagen
+    const imgEl = $('.woocommerce-product-gallery__image img').first();
+    const imageUrl = imgEl.attr('data-large_image') || imgEl.attr('src') || null;
+
+    // Sub por categoría
+    let sub = null;
+    if (prod.catId === 'case') sub = classifyCase(name);
+    if (prod.catId === 'psu')  sub = classifyPsu(name);
+
+    this.stats.found++;
+    await this.saveProductWithR2(
+      {
+        name,
+        category: prod.catId,
+        brand: this.extractBrand(name),
+        imageUrl,
+        specs: {
+          'Efectivo / Transferencia': `$${price.toLocaleString('es-CL')}`,
+          'Khipu':                   `$${khipu.toLocaleString('es-CL')}`,
+          'Tarjeta crédito/débito':  `$${card.toLocaleString('es-CL')}`,
+        },
+      },
+      {
+        current:  price,
+        normal:   card,
+        discount,
+        stock,
+        url: fullUrl,
+      }
+    );
   }
 }
 
 if (require.main === module) {
   new TruluStoreScraper().run().then(r => {
-    console.log('TruluStore:', r); process.exit(r.success ? 0 : 1);
+    console.log('TruluStore:', r);
+    process.exit(r.success ? 0 : 1);
   });
 }
 module.exports = TruluStoreScraper;
