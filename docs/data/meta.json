@@ -1,9 +1,37 @@
 {
   "last_update": "2026-04-28",
-  "generated_at": "2026-04-28T23:10:49.942Z",
+  "generated_at": "2026-04-28T23:34:40.296Z",
   "total_products": 688,
   "total_stores": 18,
   "last_runs": [
+    {
+      "store_id": "trulustore",
+      "status": "success",
+      "products_updated": 97,
+      "errors_count": 0,
+      "finished_at": "2026-04-28 23:34:37"
+    },
+    {
+      "store_id": "spdigital",
+      "status": "success",
+      "products_updated": 414,
+      "errors_count": 0,
+      "finished_at": "2026-04-28 23:31:52"
+    },
+    {
+      "store_id": "cg",
+      "status": "success",
+      "products_updated": 136,
+      "errors_count": 0,
+      "finished_at": "2026-04-28 23:29:09"
+    },
+    {
+      "store_id": "n1g",
+      "status": "success",
+      "products_updated": 511,
+      "errors_count": 0,
+      "finished_at": "2026-04-28 23:25:47"
+    },
     {
       "store_id": "trulustore",
       "status": "success",
@@ -115,34 +143,6 @@
       "products_updated": 0,
       "errors_count": 0,
       "finished_at": "2026-04-28 02:23:03"
-    },
-    {
-      "store_id": "cg",
-      "status": "success",
-      "products_updated": 137,
-      "errors_count": 0,
-      "finished_at": "2026-04-28 02:22:23"
-    },
-    {
-      "store_id": "n1g",
-      "status": "success",
-      "products_updated": 510,
-      "errors_count": 0,
-      "finished_at": "2026-04-28 02:18:49"
-    },
-    {
-      "store_id": "cg",
-      "status": "success",
-      "products_updated": 137,
-      "errors_count": 0,
-      "finished_at": "2026-04-28 02:04:12"
-    },
-    {
-      "store_id": "n1g",
-      "status": "success",
-      "products_updated": 510,
-      "errors_count": 0,
-      "finished_at": "2026-04-28 02:01:16"
     }
   ]
 }
