@@ -9,17 +9,17 @@
   "description": null,
   "specs": {
     "Marca": "ESGAMING",
-    "Efectivo/Transferencia": "$45.590",
-    "Webpay / Tarjeta crédito-débito": "$47.990"
+    "Efectivo/Transferencia": "$47.990",
+    "Webpay / Tarjeta": "$50.514"
   },
   "tags": [],
   "created_at": "2026-04-27 22:14:20",
-  "updated_at": "2026-04-28 01:42:57",
+  "updated_at": "2026-04-28 02:03:59",
   "prices": [
     {
       "product_id": 4205,
       "store_id": "cg",
-      "price": 45590,
+      "price": 47990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -42,7 +42,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-28",
-      "price": 45590
+      "price": 47990
     }
   ],
   "scraped_at": "2026-04-28"

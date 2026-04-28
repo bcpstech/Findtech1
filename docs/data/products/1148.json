@@ -10,17 +10,17 @@
   "specs": {
     "Generación": "AMD Zen 5 (4nm)",
     "Marca": "AMD",
-    "Efectivo/Transferencia": "$148.190",
-    "Webpay / Tarjeta crédito-débito": "$155.990"
+    "Efectivo/Transferencia": "$155.990",
+    "Webpay / Tarjeta": "$164.195"
   },
   "tags": [],
   "created_at": "2026-04-26 20:35:47",
-  "updated_at": "2026-04-28 01:43:22",
+  "updated_at": "2026-04-28 02:04:12",
   "prices": [
     {
       "product_id": 1148,
       "store_id": "cg",
-      "price": 148190,
+      "price": 155990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -63,7 +63,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-28",
-      "price": 148190
+      "price": 155990
     }
   ],
   "scraped_at": "2026-04-28"

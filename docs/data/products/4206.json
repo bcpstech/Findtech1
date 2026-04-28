@@ -9,17 +9,17 @@
   "description": null,
   "specs": {
     "Marca": "COUGAR",
-    "Efectivo/Transferencia": "$66.490",
-    "Webpay / Tarjeta crédito-débito": "$69.990"
+    "Efectivo/Transferencia": "$69.990",
+    "Webpay / Tarjeta": "$73.671"
   },
   "tags": [],
   "created_at": "2026-04-27 22:14:20",
-  "updated_at": "2026-04-28 01:42:57",
+  "updated_at": "2026-04-28 02:03:59",
   "prices": [
     {
       "product_id": 4206,
       "store_id": "cg",
-      "price": 66490,
+      "price": 69990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -42,7 +42,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-28",
-      "price": 66490
+      "price": 69990
     }
   ],
   "scraped_at": "2026-04-28"

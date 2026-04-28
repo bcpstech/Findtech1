@@ -9,17 +9,17 @@
   "description": null,
   "specs": {
     "Marca": "MSI",
-    "Efectivo/Transferencia": "$218.500",
-    "Webpay / Tarjeta crédito-débito": "$229.990"
+    "Efectivo/Transferencia": "$229.990",
+    "Webpay / Tarjeta": "$242.087"
   },
   "tags": [],
   "created_at": "2026-04-27 22:14:22",
-  "updated_at": "2026-04-28 01:42:58",
+  "updated_at": "2026-04-28 02:04:00",
   "prices": [
     {
       "product_id": 4208,
       "store_id": "cg",
-      "price": 218500,
+      "price": 229990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -42,7 +42,7 @@
       "store_id": "cg",
       "store_name": "CentralGamer",
       "date": "2026-04-28",
-      "price": 218500
+      "price": 229990
     }
   ],
   "scraped_at": "2026-04-28"
