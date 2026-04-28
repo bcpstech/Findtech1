@@ -248,9 +248,10 @@ class SPDigitalScraper extends BaseScraper {
     if (this.seenIds.has(item.id)) return;
     this.seenIds.add(item.id);
 
-    // Precio desde metadata pricing
+    // Precio desde metadata pricing (fuente de verdad)
     let price = null;
     let priceCard = null;
+    let priceNormal = null;
     try {
       const pricingMeta = item.metadata?.find(m => m.key === 'pricing');
       if (pricingMeta) {
@@ -260,14 +261,16 @@ class SPDigitalScraper extends BaseScraper {
       }
     } catch(e) {}
 
-    // Fallback: pricing del objeto raíz
-    if (!price) {
-      const grossAmt = item.pricing?.priceRange?.start?.gross?.amount;
-      if (grossAmt) price = Math.round(grossAmt);
-    }
-
     if (!price || price < 1000) return;
     if (!priceCard) priceCard = Math.round(price * 1.045);
+
+    // Precio normal (antes de descuento) desde priceRange
+    try {
+      const grossAmt = item.pricing?.priceRange?.start?.gross?.amount;
+      if (grossAmt && Math.round(grossAmt) > price) {
+        priceNormal = Math.round(grossAmt);
+      }
+    } catch(e) {}
 
     // Stock
     const qty = item.defaultVariant?.quantityAvailable ?? 0;
@@ -309,8 +312,8 @@ class SPDigitalScraper extends BaseScraper {
       },
       {
         current:  price,
-        normal:   null,
-        discount: null,
+        normal:   priceNormal || null,
+        discount: priceNormal ? Math.round((1 - price / priceNormal) * 100) : null,
         stock,
         url: `${BASE}/${item.slug}`,
       }
