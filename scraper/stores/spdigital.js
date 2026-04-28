@@ -1,82 +1,81 @@
 /**
  * scraper/stores/spdigital.js
- * SP Digital — scraping por categorías exactas
- * Plataforma propia (no WooCommerce estándar) — HTML scraping
- * Factor tarjeta: 1.03 (3%)
+ * SP Digital — lee datos desde page-data.json de Next.js/Gatsby
+ * Sin proxy, sin HTML scraping — datos completos con specs técnicas
+ * Factor tarjeta: incluido en el campo 'other' del pricing
  */
 
 require('dotenv').config();
-const cheerio = require('cheerio');
 const BaseScraper = require('../base-scraper');
 
-const BASE        = 'https://www.spdigital.cl';
-const CARD_FACTOR = 1.03;
-const PROXY_URL   = process.env.CF_PROXY_URL    || '';
-const PROXY_KEY   = process.env.CF_PROXY_SECRET || '';
+const BASE = 'https://www.spdigital.cl';
 
-function proxify(url) {
-  if (!PROXY_URL) return url;
-  return `${PROXY_URL}?url=${encodeURIComponent(url)}&secret=${PROXY_KEY}`;
-}
-
-// ── Categorías con URLs exactas ────────────────────────────────────────────
+// ── Categorías: path → catId + sub ────────────────────────────────────────
 const CATEGORIES = [
   // PROCESADORES
-  { url: '/categories/componentes-procesador-procesador-amd/',   catId: 'cpu', sub: 'amd'   },
-  { url: '/categories/componentes-procesador-procesador-intel/', catId: 'cpu', sub: 'intel' },
+  { path: 'componentes-procesador-procesador-amd',   catId: 'cpu', sub: 'amd'   },
+  { path: 'componentes-procesador-procesador-intel', catId: 'cpu', sub: 'intel' },
 
   // PLACAS MADRE
-  { url: '/categories/componentes-placa-madre-placa-amd/',   catId: 'mobo', sub: 'am5'    },
-  { url: '/categories/componentes-placa-madre-placa-intel/', catId: 'mobo', sub: 'lga1700' },
+  { path: 'componentes-placa-madre-placa-amd',   catId: 'mobo', sub: 'am5'    },
+  { path: 'componentes-placa-madre-placa-intel', catId: 'mobo', sub: 'lga1700' },
 
   // MEMORIAS RAM
-  { url: '/categories/componentes-memorias-ram/?sort_by=RELEVANCE%3AASC&f=category.in%3Amemoria-ram-pc', catId: 'ram' },
+  { path: 'componentes-memorias-ram-memoria-ram-pc', catId: 'ram' },
 
   // ALMACENAMIENTO
-  { url: '/categories/componentes-almacenamiento/?sort_by=RELEVANCE%3AASC&f=category.in%3Assd-unidad-estado-solido', catId: 'storage' },
-  { url: '/categories/componentes-almacenamiento/?sort_by=RELEVANCE%3AASC&f=category.in%3Ahdd-disco-duro-mecanico',  catId: 'storage', sub: 'hdd' },
+  { path: 'componentes-almacenamiento-ssd-unidad-estado-solido', catId: 'storage' },
+  { path: 'componentes-almacenamiento-hdd-disco-duro-mecanico',  catId: 'storage', sub: 'hdd' },
 
   // TARJETAS DE VIDEO
-  { url: '/categories/componentes-tarjeta-de-video/', catId: 'gpu' },
+  { path: 'componentes-tarjeta-de-video-tarjeta-video-nvidia', catId: 'gpu', sub: 'nvidia' },
+  { path: 'componentes-tarjeta-de-video-tarjeta-video-amd',    catId: 'gpu', sub: 'amd'    },
+  { path: 'tarjeta-de-video-intel',                            catId: 'gpu', sub: 'intel'  },
 
   // REFRIGERACIÓN
-  { url: '/categories/componentes-refrigeracion-y-ventilacion/?sort_by=RELEVANCE%3AASC&f=category.in%3Adisipador-cpu',        catId: 'cooling', sub: 'aire'    },
-  { url: '/categories/componentes-refrigeracion-y-ventilacion/?sort_by=RELEVANCE%3AASC&f=category.in%3Arefrigeracion-liquida', catId: 'cooling', sub: 'liquida' },
-  { url: '/categories/componentes-refrigeracion-y-ventilacion/?sort_by=RELEVANCE%3AASC&f=category.in%3Aventilador-gabinete',   catId: 'cooling', sub: 'fans'    },
+  { path: 'componentes-refrigeracion-y-ventilacion-disipador-cpu',   catId: 'cooling', sub: 'aire'    },
+  { path: 'componentes-refrigeracion-y-ventilacion-refrigeracion-liquida', catId: 'cooling', sub: 'liquida' },
+  { path: 'componentes-refrigeracion-y-ventilacion-ventilador-gabinete',   catId: 'cooling', sub: 'fans'    },
 
   // FUENTES DE PODER
-  { url: '/categories/componentes-fuente-de-poder-fuentes-de-poder/', catId: 'psu' },
+  { path: 'componentes-fuente-de-poder-fuentes-de-poder', catId: 'psu' },
 
   // GABINETES
-  { url: '/categories/componentes-gabinetes/?sort_by=RELEVANCE%3AASC&f=category.in%3Amicroatx--miniitx', catId: 'case' },
-  { url: '/categories/componentes-gabinetes/?sort_by=RELEVANCE%3AASC&f=category.in%3Afull-y-mid-tower',  catId: 'case' },
+  { path: 'componentes-gabinetes-mid-tower--atx',    catId: 'case' },
+  { path: 'componentes-gabinetes-micro-atx--mini-itx', catId: 'case' },
 
   // PCs ARMADOS
-  { url: '/categories/gaming-y-streaming-pc-y-notebook-gamer-armados-sp-labs/', catId: 'pc' },
+  { path: 'gaming-y-streaming-pc-y-notebook-gamer-armados-sp-labs', catId: 'pc' },
 ];
 
-// ── Clasificadores por nombre ──────────────────────────────────────────────
-function classifyGpu(name) {
-  const n = name.toLowerCase();
-  if (/rtx|geforce|gtx|nvidia/.test(n)) return 'nvidia';
-  if (/radeon|rx\s*\d|amd\s*rx/.test(n)) return 'amd';
-  return null;
-}
-
+// ── Clasificadores por nombre (para RAM, Storage, Case, PSU) ──────────────
 function classifyRam(name) {
-  const n = name.toLowerCase();
-  if (/ddr5/.test(n)) return 'ddr5';
-  if (/ddr4/.test(n)) return 'ddr4';
+  const n = name.toUpperCase();
+  if (/DDR5/.test(n)) return 'ddr5';
+  if (/DDR4/.test(n)) return 'ddr4';
   return null;
 }
 
 function classifyStorage(name) {
   const n = name.toLowerCase();
-  if (/pendrive|usb flash|memoria usb/.test(n)) return 'pendrive';
-  if (/externo|externa|portable/.test(n)) return /ssd/.test(n) ? 'ssdext' : 'hddext';
   if (/nvme|m\.2|m2|pcie/.test(n)) return 'nvme';
-  if (/hdd|disco duro|mecanico|mecánico/.test(n)) return 'hdd';
+  if (/hdd|disco duro|mecanico/.test(n)) return 'hdd';
   return 'sata';
+}
+
+function classifyCase(name) {
+  const n = name.toUpperCase();
+  if (/E[\s-]?ATX|EXTENDED|EATX|FULL\s*TOWER/.test(n)) return 'eatx';
+  if (/MICRO[\s-]?ATX|MATX/.test(n)) return 'matx';
+  if (/MINI[\s-]?ITX/.test(n)) return 'itx';
+  return 'atx';
+}
+
+function classifyPsu(name) {
+  const n = name.toLowerCase();
+  if (/modular/.test(n)) return 'modular';
+  if (/80\s*plus|80\+|gold|platinum|bronze|titanium/.test(n)) return 'certificada';
+  return null;
 }
 
 function classifyMobo(name) {
@@ -88,187 +87,226 @@ function classifyMobo(name) {
   return null;
 }
 
-function classifyCase(name) {
-  const n = name.toUpperCase();
-  if (/E[\s-]?ATX|EXTENDED|EATX|FULL\s*TOWER/.test(n)) return 'eatx';
-  if (/MICRO[\s-]?ATX|MATX/.test(n)) return 'matx';
-  if (/MINI[\s-]?ITX/.test(n)) return 'itx';
-  if (/\bATX\b/.test(n)) return 'atx';
-  return null;
-}
+// ── Extraer specs desde metadata de Icecat ────────────────────────────────
+function extractIcecatSpecs(metadata) {
+  const specs = {};
+  try {
+    const specsEntry = metadata.find(m => m.key === 'specs');
+    if (!specsEntry) return specs;
+    const data = JSON.parse(specsEntry.value);
+    if (!data.values || !data.fields) return specs;
 
-function classifyPsu(name) {
-  const n = name.toLowerCase();
-  const modular = /modular/.test(n);
-  const certified = /80\s*plus|80\+|gold|platinum|bronze|titanium|white/.test(n);
-  if (modular) return 'modular';
-  if (certified) return 'certificada';
-  return null;
-}
+    // Índices de columnas
+    const nameIdx  = data.fields.indexOf('feature_name');
+    const valueIdx = data.fields.indexOf('value');
+    const catIdx   = data.fields.indexOf('feature_category_name');
+    if (nameIdx < 0 || valueIdx < 0) return specs;
 
-function parsePrice(raw) {
-  if (!raw) return null;
-  const n = parseInt(String(raw).replace(/[^\d]/g, ''));
-  return (!n || n < 1000 || n > 100000000) ? null : n;
+    // Mapeo de nombres Icecat a claves legibles
+    const keyMap = {
+      'Número de núcleos de procesador': 'Núcleos',
+      'Número de hilos de ejecución':    'Hilos',
+      'Frecuencia base del procesador':  'Frecuencia base',
+      'Frecuencia del procesador turbo': 'Frecuencia turbo',
+      'Caché del procesador':            'Caché L3',
+      'Potencia de diseño térmico (TDP)':'TDP',
+      'Socket de procesador':            'Socket',
+      'Litografía del procesador':       'Litografía',
+      'Refrigerador incluido':           'Incluye cooler',
+      'Modelo de adaptador gráfico incorporado': 'Gráficos integrados',
+      'Tipos de memoria que admite el procesador': 'Memoria soportada',
+      'Familia de procesador':           'Familia',
+      // GPU
+      'Memoria de adaptador gráfico':    'VRAM',
+      'Tipo de memoria de adaptador gráfico': 'Tipo memoria',
+      'Ancho de bus de memoria':         'Bus de memoria',
+      // RAM
+      'Capacidad de memoria':            'Capacidad',
+      'Velocidad de memoria del reloj':  'Velocidad',
+      'Tipo de memoria interna':         'Tipo de memoria',
+      // Storage
+      'Capacidad':                       'Capacidad',
+      'Interfaz':                        'Interfaz',
+      'Factor de forma':                 'Factor de forma',
+      // PSU
+      'Potencia':                        'Potencia',
+      'Certificación':                   'Certificación',
+      'Cableado modular':                'Cableado modular',
+      // Mobo
+      'Chipset':                         'Chipset',
+    };
+
+    for (const row of data.values) {
+      const rawName = row[nameIdx];
+      const rawVal  = row[valueIdx];
+      if (!rawName || !rawVal) continue;
+
+      // Limpiar valor: quitar "Zócalo " de sockets
+      let val = String(rawVal).replace(/^Zócalo\s+/i, '').replace(/^Socket\s+/i, '').trim();
+
+      const key = keyMap[rawName];
+      if (key && val && !specs[key]) {
+        specs[key] = val;
+      }
+    }
+  } catch(e) {}
+  return specs;
 }
 
 class SPDigitalScraper extends BaseScraper {
   constructor() {
     super('spdigital', 'SP Digital');
-    this.seenUrls = new Set();
+    this.seenIds = new Set();
   }
 
   async scrapeAll() {
     for (const cat of CATEGORIES) {
       try {
         await this.scrapeCategory(cat);
-        await this.delay(2000, 3500);
+        await this.delay(1500, 2500);
       } catch (err) {
         this.stats.errors++;
-        this.log('warn', `[spdigital] Error ${cat.url}: ${err.message}`);
+        this.log('warn', `[spdigital] Error ${cat.path}: ${err.message}`);
       }
     }
   }
 
   async scrapeCategory(cat) {
     let page = 1;
-    let totalNew = 0;
+    let totalPages = 1;
+    let total = 0;
 
-    while (page <= 20) {
-      // SP Digital usa ?page=N en la URL
-      const sep = cat.url.includes('?') ? '&' : '?';
-      const pageUrl = page === 1
-        ? `${BASE}${cat.url}`
-        : `${BASE}${cat.url}${sep}page=${page}`;
+    while (page <= totalPages && page <= 20) {
+      const pageDataUrl = page === 1
+        ? `${BASE}/page-data/categories/${cat.path}/page-data.json`
+        : `${BASE}/page-data/categories/${cat.path}/${page}/page-data.json`;
 
-      this.log('info', `[spdigital] ${cat.catId} pág ${page}`);
+      this.log('info', `[spdigital] ${cat.catId} ${cat.path} pág ${page}`);
 
-      let $;
+      let data;
       try {
-        const res = await this.client.get(proxify(pageUrl), {
+        const res = await this.client.get(pageDataUrl, {
           headers: {
-            Accept: 'text/html,application/xhtml+xml',
-            'Accept-Language': 'es-CL,es;q=0.9',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36',
-            Referer: BASE + '/',
+            Accept: 'application/json',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
           },
-          timeout: 25000,
+          timeout: 20000,
         });
-        $ = cheerio.load(res.data);
+        data = res.data;
       } catch (err) {
-        this.log('warn', `[spdigital] HTTP error: ${err.message}`);
+        this.log('warn', `[spdigital] HTTP error ${pageDataUrl}: ${err.message}`);
         break;
       }
 
-      // SP Digital — múltiples selectores posibles
-      let items = $('[class*="ProductCard"], [class*="product-card"]');
-      if (!items.length) items = $('[class*="product-item"], [class*="ProductItem"]');
-      if (!items.length) items = $('[class*="search-result"], [class*="SearchResult"]');
-      if (!items.length) items = $('article[class*="product"], li[class*="product"]');
-      if (!items.length) items = $('[data-testid*="product"], [data-cy*="product"]');
-      // Fallback: cualquier elemento con precio y nombre
-      if (!items.length) {
-        items = $('a[href*="/products/"]').closest('div, article, li');
+      const ctx = data?.result?.pageContext;
+      if (!ctx) {
+        this.log('warn', `[spdigital] Sin pageContext en ${cat.path} pág ${page}`);
+        break;
       }
 
+      // Actualizar total de páginas
+      totalPages = ctx.defaultTotalPages || 1;
+      const items = ctx.content?.items || [];
+
       if (!items.length) {
-        // Debug: mostrar primeras clases del body para detectar estructura
-        const bodyClasses = $('[class]').slice(0, 5).map((_, el) => $(el).attr('class')).get().join(' | ');
-        this.log('warn', `[spdigital] Sin productos pág ${page}. Clases: ${bodyClasses.slice(0,200)}`);
+        this.log('info', `[spdigital] Sin items en ${cat.path} pág ${page}`);
         break;
       }
 
       let newInPage = 0;
-      for (const el of items.toArray()) {
+      for (const item of items) {
         try {
-          const $el = $(el);
-
-          // URL del producto
-          const productUrl = $el.find('a').first().attr('href') || '';
-          const fullUrl = productUrl.startsWith('http') ? productUrl : BASE + productUrl;
-          if (!productUrl || this.seenUrls.has(fullUrl)) continue;
-          this.seenUrls.add(fullUrl);
-
-          // Nombre
-          const name = $el.find(
-            '[class*="product-name"], [class*="ProductName"], [class*="Name"],' +
-            '[class*="title"], [class*="Title"], h1, h2, h3, p[class*="name"]'
-          ).first().text().trim();
-          if (!name || name.length < 3) continue;
-
-          // Precio — SP Digital muestra precio efectivo separado
-          // SP Digital muestra precio en varios formatos
-          const priceRaw = $el.find(
-            '[class*="cash"], [class*="Cash"], [class*="efectivo"], [class*="Efectivo"],' +
-            '[class*="price"], [class*="Price"], [class*="precio"], [class*="Precio"]'
-          ).filter(function() {
-            const txt = $(this).text().trim();
-            return txt.includes('$') || /\d{3,}/.test(txt);
-          }).first().text().trim();
-          const price = parsePrice(priceRaw);
-          if (!price) continue;
-
-          // Precio tarjeta
-          const priceCard = Math.round(price * CARD_FACTOR);
-
-          // Precio normal
-          const oldRaw = $el.find('[class*="original"], [class*="normal"], del, s').first().text().trim();
-          const priceNormal = oldRaw ? parsePrice(oldRaw) : null;
-          const discount = priceNormal && priceNormal > price
-            ? Math.round((1 - price / priceNormal) * 100) : null;
-
-          // Stock
-          const stockTxt = $el.text().toLowerCase();
-          const stock = /sin stock|agotado|out of stock|no disponible/.test(stockTxt)
-            ? 'out_of_stock' : 'in_stock';
-
-          // Imagen
-          const imgEl = $el.find('img').first();
-          const imageUrl = imgEl.attr('data-src') || imgEl.attr('src') || null;
-
-          // Sub-clasificación
-          let sub = cat.sub || null;
-          if (!sub) {
-            if (cat.catId === 'gpu')     sub = classifyGpu(name);
-            if (cat.catId === 'ram')     sub = classifyRam(name);
-            if (cat.catId === 'storage') sub = classifyStorage(name);
-            if (cat.catId === 'mobo')    sub = classifyMobo(name);
-            if (cat.catId === 'case')    sub = classifyCase(name);
-            if (cat.catId === 'psu')     sub = classifyPsu(name);
-          }
-
-          this.stats.found++;
+          await this.processItem(item, cat);
           newInPage++;
-
-          await this.saveProductWithR2(
-            {
-              name,
-              category: cat.catId,
-              brand: this.extractBrand(name),
-              imageUrl,
-              specs: {
-                'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
-                'Tarjeta crédito/débito': `$${priceCard.toLocaleString('es-CL')}`,
-              },
-            },
-            { current: price, normal: priceNormal, discount, stock, url: fullUrl }
-          );
         } catch (err) {
-          this.log('warn', `[spdigital] Error producto: ${err.message}`);
+          this.log('warn', `[spdigital] Error item ${item.slug}: ${err.message}`);
         }
       }
 
-      totalNew += newInPage;
-      this.log('info', `[spdigital] ✓ ${cat.catId} pág ${page}: ${newInPage} nuevos`);
+      total += newInPage;
+      this.log('info', `[spdigital] ✓ ${cat.path} pág ${page}/${totalPages}: ${newInPage} productos`);
 
-      // Verificar si hay página siguiente
-      const hasNext = $('a[rel="next"], .pagination .next, [class*="next"]:not([disabled])').length > 0;
-      if (!hasNext || newInPage === 0) break;
       page++;
-      await this.delay(1500, 2500);
+      if (page <= totalPages) await this.delay(1000, 2000);
     }
 
-    this.log('info', `[spdigital] ✓ ${cat.url.split('/').slice(-2)[0]}: ${totalNew} total`);
+    this.log('info', `[spdigital] ✓ ${cat.path}: ${total} total`);
+  }
+
+  async processItem(item, cat) {
+    if (!item.name || !item.slug) return;
+
+    // Deduplicar
+    if (this.seenIds.has(item.id)) return;
+    this.seenIds.add(item.id);
+
+    // Precio desde metadata pricing
+    let price = null;
+    let priceCard = null;
+    try {
+      const pricingMeta = item.metadata?.find(m => m.key === 'pricing');
+      if (pricingMeta) {
+        const pObj = JSON.parse(pricingMeta.value)['sp-digital'];
+        price     = pObj?.cash  ? Math.round(pObj.cash)  : null;
+        priceCard = pObj?.other ? Math.round(pObj.other) : null;
+      }
+    } catch(e) {}
+
+    // Fallback: pricing del objeto raíz
+    if (!price) {
+      const grossAmt = item.pricing?.priceRange?.start?.gross?.amount;
+      if (grossAmt) price = Math.round(grossAmt);
+    }
+
+    if (!price || price < 1000) return;
+    if (!priceCard) priceCard = Math.round(price * 1.045);
+
+    // Stock
+    const qty = item.defaultVariant?.quantityAvailable ?? 0;
+    const stock = qty > 0 ? 'in_stock' : 'out_of_stock';
+
+    // Specs desde Icecat
+    const icecatSpecs = extractIcecatSpecs(item.metadata || []);
+
+    // Sub-clasificación
+    let sub = cat.sub || null;
+    if (!sub) {
+      const n = item.name;
+      if (cat.catId === 'ram')     sub = classifyRam(n);
+      if (cat.catId === 'storage') sub = classifyStorage(n);
+      if (cat.catId === 'case')    sub = classifyCase(n);
+      if (cat.catId === 'psu')     sub = classifyPsu(n);
+      if (cat.catId === 'mobo')    sub = classifyMobo(n);
+    }
+
+    // Limpiar nombre
+    const name = item.name
+      .replace(/\s+/g, ' ')
+      .replace(/Ã¡/g, 'á').replace(/Ã©/g, 'é').replace(/Ã­/g, 'í')
+      .replace(/Ã³/g, 'ó').replace(/Ãº/g, 'ú').replace(/Ã±/g, 'ñ')
+      .replace(/Ã/g, 'Á').trim();
+
+    this.stats.found++;
+    await this.saveProductWithR2(
+      {
+        name,
+        category: cat.catId,
+        brand: this.extractBrand(name),
+        imageUrl: item.thumbnail?.url || null,
+        specs: {
+          ...icecatSpecs,
+          'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
+          'Tarjeta crédito/débito': `$${priceCard.toLocaleString('es-CL')}`,
+        },
+      },
+      {
+        current:  price,
+        normal:   null,
+        discount: null,
+        stock,
+        url: `${BASE}/products/${item.slug}`,
+      }
+    );
   }
 }
 
