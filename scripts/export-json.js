@@ -30,10 +30,10 @@ function extractModelNumber(name) {
     /\bRYZEN\s+([3579])\s+(\d{4}[A-Z0-9]*)\b/,
     /\bTHREADRIPPER\s+(?:PRO\s+)?(\d{4,5}[A-Z]*)\b/,
     /\bATHLON\s+(\w+\s*\d+\w*)\b/,
-    // GPU
-    /\bRTX\s+(\d{4}(?:\s*TI)?(?:\s*SUPER)?)\b/,
+    // GPU — incluir VRAM en la key para distinguir variantes
+    /\bRTX\s+(\d{4}(?:[\s-]*TI)?(?:[\s-]*SUPER)?)\b/,
     /\bRX\s+(\d{4}[A-Z]*)\b/,
-    /\bGTX\s+(\d{4}(?:\s*TI)?)\b/,
+    /\bGTX\s+(\d{4}(?:[\s-]*TI)?)\b/,
     /\bARC\s+([AB]\d{3})\b/,
     // Mobo: B650M-AYW, Z790-P
     /\b([A-Z]\d{3}[A-Z]?(?:[-][A-Z0-9]+){1,3})\b/,
@@ -45,7 +45,13 @@ function extractModelNumber(name) {
   for (const pattern of patterns) {
     const m = n.match(pattern);
     if (m) {
-      return m.slice(1).join('').replace(/\s+/g, '').toLowerCase();
+      let key = m.slice(1).join('').replace(/\s+/g, '').toLowerCase();
+      // Para GPU: agregar VRAM a la key para distinguir variantes (8G vs 6G vs 16G)
+      if (/RTX|RX\s|GTX|ARC/.test(n)) {
+        const vramM = n.match(/(\d+)\s*G\s*(?:B|DDR|GDDR)/i) || n.match(/\b(\d+)GB\b/i);
+        if (vramM) key += '_' + vramM[1] + 'g';
+      }
+      return key;
     }
   }
   return null;
@@ -301,10 +307,14 @@ for (const { product: p, prices } of mergedProducts) {
       'cg':         { cash: 'Efectivo/Transferencia', card: 'Webpay / Tarjeta' },
       'centrale':   { cash: 'Transferencia / Efectivo', card: 'Tarjetas de Crédito / Débito' },
       'centralgamer':{ cash: 'Efectivo/Transferencia', card: 'Webpay / Tarjeta' },
-      'trulustore': { cash: 'Efectivo/Transferencia', card: 'Tarjeta crédito/débito' },
+      'trulustore': { cash: 'Efectivo / Transferencia', card: 'Tarjeta crédito/débito', khipu: 'Khipu' },
     };
     const labels = storeLabels[pr.store_id] || { cash: 'Efectivo/Transferencia', card: 'Tarjeta crédito/débito' };
     priceSpecs[labels.cash] = `$${pr.price.toLocaleString('es-CL')}`;
+    // Khipu para TruluStore (× 1.02)
+    if (labels.khipu) {
+      priceSpecs[labels.khipu] = `$${Math.round(pr.price * 1.02).toLocaleString('es-CL')}`;
+    }
     if (pr.price_normal && pr.price_normal > pr.price) {
       priceSpecs[labels.card] = `$${pr.price_normal.toLocaleString('es-CL')}`;
     }
