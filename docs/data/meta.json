@@ -1,9 +1,16 @@
 {
   "last_update": "2026-04-28",
-  "generated_at": "2026-04-28T20:50:42.557Z",
-  "total_products": 396,
+  "generated_at": "2026-04-28T20:57:39.169Z",
+  "total_products": 639,
   "total_stores": 18,
   "last_runs": [
+    {
+      "store_id": "spdigital",
+      "status": "success",
+      "products_updated": 416,
+      "errors_count": 0,
+      "finished_at": "2026-04-28 20:57:36"
+    },
     {
       "store_id": "spdigital",
       "status": "success",
@@ -136,13 +143,6 @@
       "products_updated": 0,
       "errors_count": 0,
       "finished_at": "2026-04-27 22:28:09"
-    },
-    {
-      "store_id": "megabytes",
-      "status": "success",
-      "products_updated": 59,
-      "errors_count": 0,
-      "finished_at": "2026-04-27 22:27:42"
     }
   ]
 }
