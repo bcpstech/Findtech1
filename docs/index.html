@@ -1896,12 +1896,13 @@ function goBack() {
 
 // Labels de método de pago por tienda
 const STORE_LABELS = {
-  n1g:        { cash: 'Efectivo / Transferencia', card: 'Tarjeta crédito/débito', factor: 1.03  },
-  alltec:     { cash: 'Efectivo / Transferencia', card: 'Tarjeta crédito/débito', factor: 1.03  },
+  n1g:        { cash: 'Efectivo / Transferencia', card: 'Tarjeta crédito/débito', factor: 1.03   },
+  alltec:     { cash: 'Efectivo / Transferencia', card: 'Tarjeta crédito/débito', factor: 1.03   },
   cg:         { cash: 'Efectivo / Transferencia', card: 'Webpay / Tarjeta',       factor: 1.0526 },
   centrale:   { cash: 'Transferencia / Efectivo', card: 'Tarjetas Crédito/Débito',factor: 1.055  },
-  pcexpress:  { cash: 'Efectivo / Transferencia', card: 'Tarjeta crédito/débito', factor: 1.03  },
-  spdigital:  { cash: 'Transferencia / Efectivo', card: 'Webpay / Tarjeta',       factor: null  },
+  pcexpress:  { cash: 'Efectivo / Transferencia', card: 'Tarjeta crédito/débito', factor: 1.03   },
+  spdigital:  { cash: 'Transferencia / Efectivo', card: 'Webpay / Tarjeta',       factor: null   },
+  trulustore: { cash: 'Efectivo / Transferencia', card: 'Tarjeta crédito/débito', factor: 1.05, khipu: 1.02 },
   myshop:     { cash: 'Transferencia / Efectivo', card: 'Webpay / Tarjeta',       factor: 1.03  },
   progaming:  { cash: 'Efectivo / Transferencia', card: 'Webpay / Tarjeta',       factor: 1.03  },
   dust2:      { cash: 'Efectivo / Transferencia', card: 'Webpay / Tarjeta',       factor: 1.03  },
@@ -1979,9 +1980,7 @@ async function openDetail(id) {
         const isBest = row.price === bestPrice;
         const lbl = STORE_LABELS[row.store_id] || { cash: 'Efectivo / Transferencia', card: 'Webpay / Tarjeta', factor: 1.03 };
         const cashPrice = row.price;
-        const cardPrice = row.price_normal && row.price_normal > cashPrice
-          ? row.price_normal
-          : (lbl.factor ? Math.round(cashPrice * lbl.factor) : null);
+        const cardPrice = lbl.factor ? Math.round(cashPrice * lbl.factor) : null;
         const discount  = row.discount_pct || (row.price_normal > cashPrice ? Math.round((1 - cashPrice / row.price_normal) * 100) : null);
 
         // Estrellas de rating
@@ -2002,6 +2001,10 @@ async function openDetail(id) {
               <span class="dpr-cash-label">${lbl.cash}</span>
               <span class="dpr-cash">$${cashPrice.toLocaleString('es-CL')}</span>
             </div>
+            ${khipuPrice ? `<div class="dpr-method-row">
+              <span class="dpr-card-label">Khipu</span>
+              <span class="dpr-card">$${khipuPrice.toLocaleString('es-CL')}</span>
+            </div>` : ''}
             ${cardPrice && lbl.card ? `<div class="dpr-method-row">
               <span class="dpr-card-label">${lbl.card}</span>
               <span class="dpr-card">$${cardPrice.toLocaleString('es-CL')}</span>
