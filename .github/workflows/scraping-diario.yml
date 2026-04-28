@@ -1,36 +1,7 @@
-name: Scraping FindTech.cl
+name: Scraping FindTech.cl — N1G Test
 
 on:
-  schedule:
-    - cron: '0 18 * * *'
   workflow_dispatch:
-    inputs:
-      store:
-        description: 'Tienda a scrapear'
-        required: false
-        default: 'todas'
-        type: choice
-        options:
-          - todas
-          - url-scraper
-          - n1g
-          - alltec
-          - centralgamer
-          - centrale
-          - pcexpress
-          - spdigital
-          - myshop
-          - progaming
-          - dust2
-          - tytgamer
-          - mybox
-          - megabytes
-          - sandos
-          - trulustore
-          - winpy
-          - sipo
-          - megadrive
-          - infor-ingen
 
 permissions:
   contents: write
@@ -38,13 +9,12 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 60
 
     env:
       DB_PATH: ./db/techcompara.db
       CF_PROXY_URL: ${{ secrets.CF_PROXY_URL }}
       CF_PROXY_SECRET: ${{ secrets.CF_PROXY_SECRET }}
-      USE_ICECAT: 'false'
       R2_KEY_ID: ${{ secrets.R2_KEY_ID }}
       R2_SECRET: ${{ secrets.R2_SECRET }}
       R2_ENDPOINT: https://d51c60da1c778105ece9b7cfcc08451b.r2.cloudflarestorage.com
@@ -68,103 +38,8 @@ jobs:
       - name: Init database
         run: node db/init.js
 
-      # ── Planilla de URLs directas (prioridad) ─────────────────────────────
-
-      - name: Importar CSV de URLs
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'url-scraper' }}
-        run: |
-          if [ -f scraper/data/product-urls.csv ]; then
-            node scraper/import-csv.js scraper/data/product-urls.csv
-          else
-            echo "No hay product-urls.csv, saltando importacion..."
-          fi
-
-      - name: Scrapear URLs directas (planilla)
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'url-scraper' }}
-        run: |
-          if [ -f scraper/data/product-urls.json ]; then
-            node scraper/url-scraper.js || echo "URL Scraper fallo, continuando..."
-          else
-            echo "No hay product-urls.json, saltando..."
-          fi
-
-      # ── Tiendas originales ────────────────────────────────────────────────
-
       - name: Scrapear N1G
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'n1g' }}
-        run: node scraper/stores/n1g.js || echo "N1G fallo, continuando..."
-
-      - name: Scrapear Alltec
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'alltec' }}
-        run: node scraper/stores/alltec.js || echo "Alltec fallo, continuando..."
-
-      - name: Scrapear CentralGamer
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'centralgamer' }}
-        run: node scraper/stores/centralgamer.js || echo "CentralGamer fallo, continuando..."
-
-      - name: Scrapear Centrale
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'centrale' }}
-        run: node scraper/stores/centrale.js || echo "Centrale fallo, continuando..."
-
-      - name: Scrapear PC-Express
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'pcexpress' }}
-        run: node scraper/stores/pcexpress.js || echo "PC-Express fallo, continuando..."
-
-      # ── Tiendas nuevas ────────────────────────────────────────────────────
-
-      - name: Scrapear SP Digital
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'spdigital' }}
-        run: node scraper/stores/spdigital.js || echo "SP Digital fallo, continuando..."
-
-      - name: Scrapear MyShop
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'myshop' }}
-        run: node scraper/stores/myshop.js || echo "MyShop fallo, continuando..."
-
-      - name: Scrapear ProGaming
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'progaming' }}
-        run: node scraper/stores/progaming.js || echo "ProGaming fallo, continuando..."
-
-      - name: Scrapear Dust2
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'dust2' }}
-        run: node scraper/stores/dust2.js || echo "Dust2 fallo, continuando..."
-
-      - name: Scrapear TYT Gamer
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'tytgamer' }}
-        run: node scraper/stores/tytgamer.js || echo "TYT Gamer fallo, continuando..."
-
-      - name: Scrapear MyBox
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'mybox' }}
-        run: node scraper/stores/mybox.js || echo "MyBox fallo, continuando..."
-
-      - name: Scrapear MegaBytes
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'megabytes' }}
-        run: node scraper/stores/megabytes.js || echo "MegaBytes fallo, continuando..."
-
-      - name: Scrapear Sandos
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'sandos' }}
-        run: node scraper/stores/sandos.js || echo "Sandos fallo, continuando..."
-
-      - name: Scrapear TruluStore
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'trulustore' }}
-        run: node scraper/stores/trulustore.js || echo "TruluStore fallo, continuando..."
-
-      - name: Scrapear Winpy
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'winpy' }}
-        run: node scraper/stores/winpy.js || echo "Winpy fallo, continuando..."
-
-      - name: Scrapear Sipo
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'sipo' }}
-        run: node scraper/stores/sipo.js || echo "Sipo fallo, continuando..."
-
-      - name: Scrapear MegaDrive
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'megadrive' }}
-        run: node scraper/stores/megadrive.js || echo "MegaDrive fallo, continuando..."
-
-      - name: Scrapear Infor-Ingen
-        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == '' || github.event.inputs.store == 'infor-ingen' }}
-        run: node scraper/stores/infor-ingen.js || echo "Infor-Ingen fallo, continuando..."
-
-      # ── Debug y export ────────────────────────────────────────────────────
+        run: node scraper/stores/n1g.js
 
       - name: Debug stock en DB
         run: |
@@ -173,9 +48,12 @@ jobs:
           const db = getDb();
           const rows = db.prepare('SELECT store_id, stock, COUNT(*) as cnt FROM prices GROUP BY store_id, stock ORDER BY store_id').all();
           console.table(rows);
+          const cats = db.prepare('SELECT category_id, COUNT(*) as cnt FROM products GROUP BY category_id ORDER BY cnt DESC').all();
+          console.log('Por categoría:');
+          console.table(cats);
           "
 
-      - name: Enriquecer specs desde nombres
+      - name: Enriquecer specs
         run: node scripts/enrich-specs.js || echo "Enrich specs fallo, continuando..."
 
       - name: Exportar JSON
@@ -188,6 +66,6 @@ jobs:
           git stash --include-untracked
           git pull --rebase origin main
           git stash pop || true
-          git add docs/data/ scraper/data/ db/techcompara.db
-          git diff --staged --quiet || git commit -m "chore: actualizar datos $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git add docs/data/ db/techcompara.db
+          git diff --staged --quiet || git commit -m "test: N1G scraping $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
