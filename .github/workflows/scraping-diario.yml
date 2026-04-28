@@ -12,6 +12,7 @@ on:
           - todas
           - n1g
           - centralgamer
+          - spdigital
 
 permissions:
   contents: write
@@ -55,6 +56,10 @@ jobs:
       - name: Scrapear CentralGamer
         if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == 'centralgamer' }}
         run: node scraper/stores/centralgamer.js || echo "CentralGamer fallo, continuando..."
+
+      - name: Scrapear SP Digital
+        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == 'spdigital' }}
+        run: node scraper/stores/spdigital.js || echo "SP Digital fallo, continuando..."
 
       - name: Debug stock en DB
         run: |
