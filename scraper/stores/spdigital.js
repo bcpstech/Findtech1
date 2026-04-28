@@ -8,7 +8,14 @@
 require('dotenv').config();
 const BaseScraper = require('../base-scraper');
 
-const BASE = 'https://www.spdigital.cl';
+const BASE        = 'https://www.spdigital.cl';
+const PROXY_URL   = process.env.CF_PROXY_URL    || '';
+const PROXY_KEY   = process.env.CF_PROXY_SECRET || '';
+
+function proxify(url) {
+  if (!PROXY_URL) return url;
+  return `${PROXY_URL}?url=${encodeURIComponent(url)}&secret=${PROXY_KEY}`;
+}
 
 // ── Categorías: path → catId + sub ────────────────────────────────────────
 const CATEGORIES = [
@@ -185,12 +192,13 @@ class SPDigitalScraper extends BaseScraper {
 
       let data;
       try {
-        const res = await this.client.get(pageDataUrl, {
+        const res = await this.client.get(proxify(pageDataUrl), {
           headers: {
             Accept: 'application/json',
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            Referer: BASE + '/',
           },
-          timeout: 20000,
+          timeout: 25000,
         });
         data = res.data;
       } catch (err) {
