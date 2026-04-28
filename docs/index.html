@@ -151,6 +151,21 @@ nav{display:flex;align-items:center;gap:4px;flex:1}
 
 /* ── MAIN LAYOUT ── */
 .layout{display:block;min-height:calc(100vh - 72px)}
+.hw-layout{display:grid;grid-template-columns:220px 1fr;gap:24px;align-items:start}
+.filter-sidebar{background:var(--bg2);border:1px solid var(--border);border-radius:12px;overflow:hidden;position:sticky;top:84px}
+.filter-sidebar-title{padding:12px 16px;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--text3);border-bottom:1px solid var(--border);background:var(--bg3);display:flex;align-items:center;justify-content:space-between}
+.filter-clear-btn{font-size:10px;color:var(--accent);cursor:pointer;background:none;border:none;padding:0;font-weight:600;font-family:var(--sans);letter-spacing:0;text-transform:none}
+.filter-clear-btn:hover{text-decoration:underline}
+.filter-group{border-bottom:1px solid var(--border);padding:8px 0}
+.filter-group:last-child{border-bottom:none}
+.filter-group-label{padding:6px 16px 4px;font-size:10px;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:1px}
+.filter-opt{display:flex;align-items:center;gap:8px;padding:6px 16px;cursor:pointer;font-size:13px;color:var(--text2);transition:background .1s,color .1s}
+.filter-opt:hover{background:var(--bg3);color:var(--text)}
+.filter-opt.active{color:var(--accent);font-weight:600}
+.filter-opt input[type=checkbox]{accent-color:var(--accent);width:13px;height:13px;flex-shrink:0;cursor:pointer}
+.filter-cnt{margin-left:auto;font-size:11px;color:var(--text3);background:var(--bg3);padding:1px 6px;border-radius:4px}
+@media(max-width:900px){.hw-layout{grid-template-columns:180px 1fr;gap:16px}}
+@media(max-width:680px){.hw-layout{grid-template-columns:1fr}.filter-sidebar{position:relative;top:0;margin-bottom:8px}}
 
 /* SIDEBAR */
 .sidebar{display:none}
@@ -1024,6 +1039,7 @@ select.form-input{cursor:pointer}
         </div>
       </div>
     </div>
+    <div class="nav-item" onclick="filterCat('pc');showPage('hardware')" style="white-space:nowrap">🖥️ PCs Armados</div>
     <div class="nav-item mega-wrap" id="nav-tiendas">
       Tiendas ▾
       <div class="mega-menu" id="mega-tiendas" style="min-width:480px">
@@ -1191,38 +1207,49 @@ select.form-input{cursor:pointer}
           <p id="hw-sub">Compara precios entre las principales tiendas de Chile</p>
         </div>
         <div class="hero-stats">
-          <div class="stat">
-            <div class="stat-n" id="hw-stat-prods">0</div>
-            <div class="stat-l">Productos</div>
-          </div>
-          <div class="stat">
-            <div class="stat-n" id="hw-stat-stores">5</div>
-            <div class="stat-l">Tiendas</div>
-          </div>
+          <div class="stat"><div class="stat-n" id="hw-stat-prods">0</div><div class="stat-l">Productos</div></div>
+          <div class="stat"><div class="stat-n" id="hw-stat-stores">5</div><div class="stat-l">Tiendas</div></div>
         </div>
       </div>
-
-      <div class="toolbar">
+      <div class="toolbar" style="margin-bottom:16px">
         <div class="toolbar-left">
-          <input type="text" class="select-box" placeholder="🔍 buscar..." id="prod-search" oninput="renderProds()" style="width:180px">
+          <input type="text" class="select-box" placeholder="🔍 buscar..." id="prod-search" oninput="renderProds()" style="width:200px">
           <select class="select-box" id="sort-sel" onchange="renderProds()">
             <option value="price-asc">Menor precio</option>
             <option value="price-desc">Mayor precio</option>
             <option value="name-asc">A → Z</option>
           </select>
-          <select class="select-box" id="store-sel" onchange="renderProds()">
-            <option value="">Todas las tiendas</option>
-            <option value="n1g">N1G</option>
-            <option value="alltec">Alltec</option>
-            <option value="cg">CentralGamer</option>
-            <option value="centrale">Centrale</option>
-            <option value="pcexpress">PC-Express</option>
-          </select>
         </div>
         <span class="results-count" id="prod-count"></span>
       </div>
-
-      <div class="prod-grid" id="prod-grid"></div>
+      <div class="hw-layout">
+        <div class="filter-sidebar" id="filter-sidebar">
+          <div class="filter-sidebar-title">
+            Filtros
+            <button class="filter-clear-btn" onclick="clearFilters()">Limpiar</button>
+          </div>
+          <div class="filter-group">
+            <div class="filter-group-label">Tienda</div>
+            <div id="filter-stores-list"></div>
+          </div>
+          <div class="filter-group" id="filter-subcat-group" style="display:none">
+            <div class="filter-group-label" id="filter-subcat-label">Subcategoría</div>
+            <div id="filter-subcat-list"></div>
+          </div>
+          <div class="filter-group">
+            <div class="filter-group-label">Precio máximo</div>
+            <div style="padding:6px 16px 12px">
+              <input type="range" id="filter-price-range" min="0" max="5000000" step="10000" value="5000000"
+                style="width:100%;accent-color:var(--accent)" oninput="onPriceRange(this.value)">
+              <div style="display:flex;justify-content:space-between;font-size:11px;color:var(--text3);margin-top:4px">
+                <span>$0</span>
+                <span id="filter-price-label" style="color:var(--accent);font-weight:600">Sin límite</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div><div class="prod-grid" id="prod-grid"></div></div>
+      </div>
     </div>
 
 
@@ -1250,6 +1277,9 @@ select.form-input{cursor:pointer}
             <div class="detail-prices-title">💰 Precios por tienda</div>
             <div id="detail-prices"></div>
           </div>
+          <!-- Highlights chips -->
+          <div id="detail-highlights" class="hl-chips" style="display:none;flex-wrap:wrap;gap:8px;margin-bottom:4px"></div>
+
           <div class="detail-specs-box" id="detail-specs-box" style="display:none">
             <div class="detail-specs-title">📋 Especificaciones técnicas</div>
             <div class="detail-specs-grid" id="detail-specs-grid"></div>
@@ -1503,6 +1533,8 @@ let currentCat = '';
 let currentSub = '';
 let currentStore = '';
 let currentPage = 'home';
+let filterMaxPrice = 5000000;
+let filterStoreId  = '';
 
 // ═══════════════════════════════════════════════
 // UTILS
@@ -1633,17 +1665,109 @@ function renderHome() {
 // ═══════════════════════════════════════════════
 // RENDER PRODUCTS
 // ═══════════════════════════════════════════════
+// ═══════════════════════════════════════════
+// FILTROS LATERALES
+// ═══════════════════════════════════════════
+function renderFilterSidebar() {
+  const storesList = document.getElementById('filter-stores-list');
+  if (storesList && STORES.length) {
+    storesList.innerHTML = STORES.map(s => {
+      const cnt = PRODUCTS.filter(p => {
+        if (currentCat && p.category !== currentCat) return false;
+        return (p.prices && p.prices[s.id] > 0) || p._bestStoreId === s.id;
+      }).length;
+      if (!cnt) return '';
+      const active = filterStoreId === s.id;
+      return `<label class="filter-opt${active?' active':''}">
+        <input type="checkbox" ${active?'checked':''} onchange="toggleFilterStore('${s.id}',this.checked)">
+        <span style="flex:1">${s.name}</span>
+        <span class="filter-cnt">${cnt}</span>
+      </label>`;
+    }).join('');
+  }
+  const subGroup = document.getElementById('filter-subcat-group');
+  const subList  = document.getElementById('filter-subcat-list');
+  const subLabel = document.getElementById('filter-subcat-label');
+  const catSubcats = currentCat ? SUBCATS[currentCat] : null;
+  if (subGroup && subList && catSubcats) {
+    if (subLabel) subLabel.textContent = CATS[currentCat]?.name || 'Subcategoría';
+    const subNames = {
+      nvidia:'NVIDIA GeForce',amd:'AMD',intel:'Intel',ddr4:'DDR4',ddr5:'DDR5',
+      nvme:'NVMe M.2',sata:'SATA 2.5"',hdd:'Disco Duro',hddext:'HDD Externo',
+      ssdext:'SSD Externa',pendrive:'Pendrive',liquida:'Líquida / AIO',
+      aire:'Por Aire',fans:'Ventiladores',am4:'AMD AM4',am5:'AMD AM5',
+      lga1700:'Intel LGA1700',lga1851:'Intel LGA1851',
+      eatx:'Extended ATX',atx:'ATX',matx:'Micro ATX',itx:'Mini ITX',
+      modular:'Modulares',certificada:'Certificadas',
+    };
+    subList.innerHTML = Object.keys(catSubcats).map(key => {
+      const cnt = PRODUCTS.filter(p => {
+        if (p.category !== currentCat) return false;
+        return currentCat === 'cpu' ? matchCpuSub(p, key) : matchSub(p, currentCat, key);
+      }).length;
+      if (!cnt) return '';
+      const active = currentSub === key;
+      return `<div class="filter-opt${active?' active':''}" onclick="filterSub('${currentCat}','${key}')">
+        <span style="flex:1">${subNames[key]||key}</span>
+        <span class="filter-cnt">${cnt}</span>
+      </div>`;
+    }).join('');
+    subGroup.style.display = '';
+  } else if (subGroup) {
+    subGroup.style.display = 'none';
+  }
+}
+
+function toggleFilterStore(storeId, checked) {
+  filterStoreId = checked ? storeId : '';
+  currentStore  = filterStoreId;
+  document.querySelectorAll('#filter-stores-list input[type=checkbox]').forEach(cb => {
+    cb.checked = false;
+    cb.closest('label')?.classList.remove('active');
+  });
+  if (checked) {
+    const lbl = document.querySelector(`#filter-stores-list input[onchange*="${storeId}"]`)?.closest('label');
+    if (lbl) { lbl.querySelector('input').checked = true; lbl.classList.add('active'); }
+  }
+  renderProds();
+}
+
+function onPriceRange(val) {
+  filterMaxPrice = parseInt(val);
+  const lbl = document.getElementById('filter-price-label');
+  if (lbl) lbl.textContent = filterMaxPrice >= 5000000 ? 'Sin límite' : '$' + filterMaxPrice.toLocaleString('es-CL');
+  renderProds();
+}
+
+function clearFilters() {
+  filterStoreId = ''; filterMaxPrice = 5000000; currentStore = ''; currentSub = '';
+  const range = document.getElementById('filter-price-range');
+  if (range) range.value = 5000000;
+  const lbl = document.getElementById('filter-price-label');
+  if (lbl) lbl.textContent = 'Sin límite';
+  document.querySelectorAll('#filter-stores-list input').forEach(cb => {
+    cb.checked = false; cb.closest('label')?.classList.remove('active');
+  });
+  renderProds();
+}
+
 function renderProds() {
   const q      = (document.getElementById('prod-search')?.value||'').toLowerCase();
   const sort   = document.getElementById('sort-sel')?.value||'price-asc';
   const storeF = document.getElementById('store-sel')?.value||currentStore||'';
 
+  const activeStore = filterStoreId || storeF;
   let prods = PRODUCTS.filter(p => {
     if (currentCat && p.category !== currentCat) return false;
-    if (currentSub && !matchSub(p, currentCat, currentSub)) return false;
-    if (storeF && !p.prices?.[storeF] && p._bestStoreId !== storeF) return false;
+    if (currentSub) {
+      const matches = currentCat === 'cpu' ? matchCpuSub(p, currentSub) : matchSub(p, currentCat, currentSub);
+      if (!matches) return false;
+    }
+    if (activeStore && !p.prices?.[activeStore] && p._bestStoreId !== activeStore) return false;
     if (q && !p.name.toLowerCase().includes(q) && !(p.brand||'').toLowerCase().includes(q)) return false;
-    if (getPrice(p) <= 0) return false;
+    const price = getPrice(p);
+    if (price <= 0) return false;
+    if (filterMaxPrice < 5000000 && price > filterMaxPrice) return false;
     return true;
   });
 
@@ -1662,6 +1786,7 @@ function renderProds() {
   const allEl = document.getElementById('sb-count-all');
   if (allEl) allEl.textContent = PRODUCTS.filter(p=>getPrice(p)>0).length;
 
+  renderFilterSidebar();
   const grid = document.getElementById('prod-grid');
   if (!prods.length) {
     grid.innerHTML = `<div class="empty" style="grid-column:1/-1">
@@ -2171,6 +2296,81 @@ Instrucciones:
     console.warn('AI description failed:', err.message);
     return '';
   }
+}
+
+function buildProductDescription(name, category, specs) {
+  if (!specs || !Object.keys(specs).length) return '';
+  const li = (label, val) => `<li><span>${label}</span>${val}</li>`;
+  let intro = ''; let items = [];
+
+  if (category === 'cpu') {
+    const noGpu = specs['Gráficos integrados'] === 'No';
+    const cores = specs['Núcleos'] ? `${specs['Núcleos']} núcleos / ${specs['Hilos']||'?'} hilos` : '';
+    const freq  = specs['Frecuencia base'] ? `${specs['Frecuencia base']} base` + (specs['Frecuencia turbo'] ? ` — ${specs['Frecuencia turbo']} turbo` : '') : '';
+    intro = `Procesador ${noGpu ? 'sin gráficos integrados' : 'con gráficos integrados'}${cores ? ` con ${cores}` : ''}${freq ? `, ${freq}` : ''}.`;
+    if (specs['Generación']) intro += ` Plataforma: ${specs['Generación']}.`;
+    items = [
+      specs['Núcleos'] && li('Núcleos / Hilos', `${specs['Núcleos']} / ${specs['Hilos']||'?'}`),
+      specs['Frecuencia base'] && li('Frecuencia base', specs['Frecuencia base']),
+      specs['Frecuencia turbo'] && li('Frecuencia turbo', specs['Frecuencia turbo']),
+      specs['Caché L3'] && li('Caché L3', specs['Caché L3']),
+      specs['TDP'] && li('TDP', specs['TDP']),
+      specs['Socket'] && li('Socket', specs['Socket']),
+      specs['Memoria soportada'] && li('Memoria soportada', specs['Memoria soportada']),
+      specs['Gráficos integrados'] && li('Gráficos integrados', specs['Gráficos integrados']),
+      specs['Incluye cooler'] && li('Cooler incluido', specs['Incluye cooler']),
+      specs['Generación'] && li('Generación', specs['Generación']),
+    ].filter(Boolean);
+  } else if (category === 'gpu') {
+    if (specs['VRAM']) intro = `Tarjeta de video con ${specs['VRAM']} de memoria ${specs['Tipo memoria']||'GDDR6'}${specs['Bus de memoria']?', bus de '+specs['Bus de memoria']:''}`.trim() + '.';
+    items = [
+      specs['VRAM'] && li('Memoria de video', specs['VRAM']),
+      specs['Tipo memoria'] && li('Tipo de memoria', specs['Tipo memoria']),
+      specs['Bus de memoria'] && li('Bus de memoria', specs['Bus de memoria']),
+      specs['Arquitectura'] && li('Arquitectura', specs['Arquitectura']),
+      specs['Variante'] && li('Variante', specs['Variante']),
+      specs['Factor de forma'] && li('Factor de forma', specs['Factor de forma']),
+    ].filter(Boolean);
+  } else if (category === 'ram') {
+    const cap = specs['Kit'] || specs['Capacidad'] || '';
+    if (cap) intro = `Memoria ${specs['Tipo']||'RAM'} de ${cap}${specs['Velocidad']?' a '+specs['Velocidad']:''}${specs['Latencia']?' con latencia '+specs['Latencia']:''}`.trim() + '.';
+    items = [
+      (specs['Kit']||specs['Capacidad']) && li('Capacidad', specs['Kit']||specs['Capacidad']),
+      specs['Tipo'] && li('Tipo', specs['Tipo']),
+      specs['Velocidad'] && li('Velocidad', specs['Velocidad']),
+      specs['Latencia'] && li('Latencia', specs['Latencia']),
+    ].filter(Boolean);
+  } else if (category === 'storage') {
+    if (specs['Capacidad']) intro = `Almacenamiento ${specs['Interfaz']||''} de ${specs['Capacidad']}${specs['Factor de forma']?', formato '+specs['Factor de forma']:''}`.trim() + '.';
+    items = [
+      specs['Capacidad'] && li('Capacidad', specs['Capacidad']),
+      specs['Interfaz'] && li('Interfaz', specs['Interfaz']),
+      specs['Factor de forma'] && li('Factor de forma', specs['Factor de forma']),
+    ].filter(Boolean);
+  } else if (category === 'mobo') {
+    if (specs['Socket']) intro = `Placa madre ${specs['Factor de forma']||''} para socket ${specs['Socket']}${specs['Memoria soportada']?', compatible con '+specs['Memoria soportada']:''}${specs['WiFi']?', WiFi integrado':''}`.trim() + '.';
+    items = [
+      specs['Socket'] && li('Socket', specs['Socket']),
+      specs['Factor de forma'] && li('Factor de forma', specs['Factor de forma']),
+      specs['Memoria soportada'] && li('Memoria soportada', specs['Memoria soportada']),
+      specs['WiFi'] && li('WiFi', specs['WiFi']),
+      specs['Chipset'] && li('Chipset', specs['Chipset']),
+    ].filter(Boolean);
+  } else if (category === 'psu') {
+    if (specs['Potencia']) intro = `Fuente de poder${specs['Certificación']?' '+specs['Certificación']:''}${specs['Cableado modular']?' — '+specs['Cableado modular']:''}`.trim() + '.';
+    items = [
+      specs['Potencia'] && li('Potencia', specs['Potencia']),
+      specs['Certificación'] && li('Certificación', specs['Certificación']),
+      specs['Cableado modular'] && li('Cableado modular', specs['Cableado modular']),
+    ].filter(Boolean);
+  }
+
+  if (!intro && !items.length) return '';
+  const listCss = 'padding-left:0;list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px';
+  const liCss = 'background:var(--bg3);border-radius:8px;padding:10px 14px;font-size:13px;color:var(--text);border-left:3px solid var(--accent)';
+  const spanCss = 'display:block;font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:3px';
+  const itemsHtml = items.map(i => i.replace('<li>', `<li style="${liCss}"><span style="${spanCss}">`).replace('</span>', '</span>')).join('');
+  return `${intro ? `<p style="margin-bottom:12px">${intro}</p>` : ''}${items.length ? `<ul style="${listCss}">${itemsHtml}</ul>` : ''}`;
 }
 
 function renderDetailSpecs(p) {
