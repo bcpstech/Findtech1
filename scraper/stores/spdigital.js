@@ -312,7 +312,7 @@ class SPDigitalScraper extends BaseScraper {
       },
       {
         current:  price,
-        normal:   priceNormal || null,
+        normal:   priceCard || null,   // precio tarjeta en price_normal
         discount: priceNormal ? Math.round((1 - price / priceNormal) * 100) : null,
         stock,
         url: `${BASE}/${item.slug}`,
