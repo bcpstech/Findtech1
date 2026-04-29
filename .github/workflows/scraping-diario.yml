@@ -14,6 +14,7 @@ on:
           - centralgamer
           - spdigital
           - trulustore
+          - myshop
 
 permissions:
   contents: write
@@ -65,6 +66,10 @@ jobs:
       - name: Scrapear TruluStore
         if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == 'trulustore' }}
         run: node scraper/stores/trulustore.js || echo "TruluStore fallo, continuando..."
+
+      - name: Scrapear MyShop
+        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == 'myshop' }}
+        run: node scraper/stores/myshop.js || echo "MyShop fallo, continuando"
 
       - name: Debug stock en DB
         run: |
