@@ -230,6 +230,10 @@ nav{display:flex;align-items:center;gap:2px}
   .prod-grid{grid-template-columns:1fr 1fr}
 }
 @keyframes fadeIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
+/* Page visibility - controlled by showPage() */
+.page{display:none}
+.page.active{display:block}
+#page-home{display:block}
 </style>
 </head>
 <body>
@@ -323,7 +327,7 @@ nav{display:flex;align-items:center;gap:2px}
         </div>
         </div>
       </div>
-      <div class="nav-item" onclick="filterCat('pc');showPage('hardware')" style="white-space:nowrap">🖥️ PCs Armados</div>
+      <div class="nav-item" onclick="filterCat('pc');showPage('hardware');renderSidebarCats();updateBreadcrumb()" style="white-space:nowrap">🖥️ PCs Armados</div>
       <div class="nav-item mega-wrap" id="nav-tiendas">
         Tiendas ▾
         <div class="mega-menu" id="mega-tiendas" style="min-width:440px;grid-template-columns:repeat(3,1fr)">
@@ -349,7 +353,7 @@ nav{display:flex;align-items:center;gap:2px}
 <div class="main">
 
   <!-- HOME PAGE -->
-  <div class="page" id="page-home">
+  <div class="page active" id="page-home">
     <div class="home-hero">
       <div>
         <h1 class="hero-title">Compara precios de <em>hardware</em><br>en Chile</h1>
@@ -364,7 +368,7 @@ nav{display:flex;align-items:center;gap:2px}
   </div>
 
   <!-- HARDWARE PAGE -->
-  <div class="page" id="page-hardware" style="display:none">
+  <div class="page" id="page-hardware">
     <div class="breadcrumb" id="breadcrumb">
       <span onclick="showPage('home')">Inicio</span>
       <span class="sep">›</span>
@@ -421,7 +425,7 @@ nav{display:flex;align-items:center;gap:2px}
   </div>
 
   <!-- DETAIL PAGE -->
-  <div class="page" id="page-detail" style="display:none">
+  <div class="page" id="page-detail">
     <button class="btn-back" onclick="goBack()">← Volver</button>
     <div class="detail-wrap">
       <div class="detail-left">
@@ -453,14 +457,14 @@ nav{display:flex;align-items:center;gap:2px}
   </div>
 
   <!-- STORES PAGE -->
-  <div class="page" id="page-stores" style="display:none">
+  <div class="page" id="page-stores">
     <h2 style="font-size:22px;font-weight:800;margin-bottom:4px">Tiendas</h2>
     <p style="color:var(--text3);font-size:13px;margin-bottom:20px">Principales tiendas de hardware en Chile</p>
     <div class="stores-grid" id="stores-grid"></div>
   </div>
 
   <!-- CONTACT PAGE -->
-  <div class="page" id="page-contact" style="display:none">
+  <div class="page" id="page-contact">
     <div style="max-width:500px;margin:0 auto;padding:40px 0">
       <h2 style="font-size:22px;font-weight:800;margin-bottom:8px">Contacto</h2>
       <p style="color:var(--text3);font-size:13px;margin-bottom:24px">¿Tienes alguna consulta o sugerencia?</p>
@@ -701,6 +705,8 @@ function renderHome() {
 // FILTROS LATERALES
 // ═══════════════════════════════════════════
 function renderFilterSidebar() {
+  renderSidebarCats();
+  updateBreadcrumb();
   const storesList = document.getElementById('filter-stores-list');
   if (storesList && STORES.length) {
     storesList.innerHTML = STORES.map(s => {
@@ -1681,6 +1687,7 @@ function toggleTheme() {
 // renderHome compatibility (called by original loadData init)
 function renderHome() {
   renderHomeCats();
+  renderSidebarCats();
   // Update stat counters
   const pEl = document.getElementById('hw-stat-prods');
   const sEl = document.getElementById('hw-stat-stores');
@@ -1751,42 +1758,11 @@ function onGlobalSearch(val) {
   currentCat = ''; currentSub = ''; currentStore = ''; filterStoreId = '';
   const searchEl = document.getElementById('prod-search');
   if (searchEl) searchEl.value = v;
-  showPage('hardware');
+  _ftShowPage('hardware');
   renderSidebarCats();
   updateBreadcrumb();
 }
 
-// Wrap showPage to update sidebar
-const _origShowPage = typeof showPage === 'function' ? showPage : null;
-showPage = function(p) {
-  _origShowPage && _origShowPage(p);
-  if (p === 'hardware') { renderSidebarCats(); updateBreadcrumb(); }
-  if (p === 'home')     { renderHomeCats(); }
-};
-
-// Wrap filterCat to update sidebar
-const _origFilterCat = typeof filterCat === 'function' ? filterCat : null;
-filterCat = function(cat) {
-  _origFilterCat && _origFilterCat(cat);
-  renderSidebarCats();
-  updateBreadcrumb();
-};
-
-// Wrap filterSub to update breadcrumb
-const _origFilterSub = typeof filterSub === 'function' ? filterSub : null;
-filterSub = function(cat, sub) {
-  _origFilterSub && _origFilterSub(cat, sub);
-  updateBreadcrumb();
-  renderSidebarCats();
-};
-
-// Wrap loadData to render home cats
-const _origLoadData = typeof loadData === 'function' ? loadData : null;
-loadData = async function() {
-  await (_origLoadData && _origLoadData());
-  renderHomeCats();
-  if (typeof renderTiendasMenu === 'function') renderTiendasMenu();
-};
 
 </script>
 
