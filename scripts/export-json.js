@@ -22,38 +22,60 @@ function write(filePath, data) {
 // ── Extractor de número de modelo ─────────────────────────────────────────
 function extractModelNumber(name) {
   const n = name.toUpperCase();
-  const patterns = [
-    // Intel: I3-12100F, I5-14600K, Core Ultra 7 265K
-    /\bI([3579])[\s-](\d{4,5}[A-Z]*)\b/,
-    /\bCORE\s+ULTRA\s+([3579])\s+(\d{3}[A-Z]*)\b/,
-    // AMD: Ryzen 5 5500, Ryzen 7 7800X3D, Threadripper
-    /\bRYZEN\s+([3579])\s+(\d{4}[A-Z0-9]*)\b/,
-    /\bTHREADRIPPER\s+(?:PRO\s+)?(\d{4,5}[A-Z]*)\b/,
-    /\bATHLON\s+(\w+\s*\d+\w*)\b/,
-    // GPU — incluir VRAM en la key para distinguir variantes
+
+  const GPU_VARIANTS = {
+    'LOW PROFILE': 'lp', 'LOW-PROFILE': 'lp', '\bLP\b': 'lp',
+    'VENTUS': 'ventus', 'GAMING X': 'gamingx', 'GAMING OC': 'gamingoc',
+    'EAGLE': 'eagle', 'WINDFORCE': 'windforce', 'PULSE': 'pulse',
+    'NITRO': 'nitro', 'HELLHOUND': 'hellhound', 'FIGHTER': 'fighter',
+    'MECH': 'mech', 'TWIN EDGE': 'twinedge', 'SHADOW': 'shadow',
+    'AERO': 'aero', 'SUPRIM': 'suprim', 'TUF': 'tuf',
+    'PRIME': 'prime', 'ROG STRIX': 'rogstrix', 'ARMOR': 'armor',
+    'AIR BOOST': 'airboost', 'TRIO': 'trio',
+  };
+
+  // GPU patterns
+  const gpuPatterns = [
     /\bRTX\s+(\d{4}(?:[\s-]*TI)?(?:[\s-]*SUPER)?)\b/,
     /\bRX\s+(\d{4}[A-Z]*)\b/,
     /\bGTX\s+(\d{4}(?:[\s-]*TI)?)\b/,
     /\bARC\s+([AB]\d{3})\b/,
-    // Mobo: B650M-AYW, Z790-P
-    /\b([A-Z]\d{3}[A-Z]?(?:[-][A-Z0-9]+){1,3})\b/,
-    /\b([A-Z]\d{3}[A-Z]{2,6})\b/,
-    // SSD: SN850X, P5 Plus
-    /\b(SN\d{3}[XP]?)\b/,
   ];
-
-  for (const pattern of patterns) {
-    const m = n.match(pattern);
+  for (const pat of gpuPatterns) {
+    const m = n.match(pat);
     if (m) {
-      let key = m.slice(1).join('').replace(/\s+/g, '').toLowerCase();
-      // Para GPU: agregar VRAM a la key para distinguir variantes (8G vs 6G vs 16G)
-      if (/RTX|RX\s|GTX|ARC/.test(n)) {
-        const vramM = n.match(/(\d+)\s*G\s*(?:B|DDR|GDDR)/i) || n.match(/\b(\d+)GB\b/i);
-        if (vramM) key += '_' + vramM[1] + 'g';
+      let key = m[1].replace(/\s+/g, '').toLowerCase();
+      // VRAM
+      const vramM = n.match(/(\d+)\s*G(?:B|DDR|GDDR)/i) || n.match(/\b(\d+)GB\b/i);
+      if (vramM) key += '_' + vramM[1] + 'g';
+      // Variant — normalize Low Profile first
+      const nNorm = n.replace(/LOW[\s-]?PROFILE/g, 'LP');
+      for (const [vname, vcode] of Object.entries(GPU_VARIANTS)) {
+        if (nNorm.includes(vname)) { key += '_' + vcode; break; }
       }
       return key;
     }
   }
+
+  // CPU patterns
+  const cpuPatterns = [
+    /\bI([3579])[\s-](\d{4,5}[A-Z]*)\b/,
+    /\bCORE\s+ULTRA\s+([3579])\s+(\d{3}[A-Z]*)\b/,
+    /\bRYZEN\s+([3579])\s+(\d{4}[A-Z0-9]*)\b/,
+    /\bTHREADRIPPER\s+(?:PRO\s+)?(\d{4,5}[A-Z]*)\b/,
+    /\bATHLON\s+(\w+\s*\d+\w*)\b/,
+  ];
+  for (const pat of cpuPatterns) {
+    const m = n.match(pat);
+    if (m) return m.slice(1).join('').replace(/\s+/g, '').toLowerCase();
+  }
+
+  // Mobo / SSD
+  const moboM = n.match(/\b([A-Z]\d{3}[A-Z]?(?:[-][A-Z0-9]+){1,3})\b/)
+             || n.match(/\b([A-Z]\d{3}[A-Z]{2,6})\b/)
+             || n.match(/\b(SN\d{3}[XP]?)\b/);
+  if (moboM) return moboM[1].toLowerCase();
+
   return null;
 }
 
