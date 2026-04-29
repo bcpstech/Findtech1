@@ -547,13 +547,34 @@ const CATS = {
 
 const SUBCATS = {
   gpu:     { nvidia:['rtx','geforce','nvidia'], amd:['radeon','rx ','amd'] },
-  cpu:     { intel:['intel','core','i3','i5','i7','i9'], amd:['ryzen','amd','threadripper'] },
+  cpu: {
+    intel: ['intel core','core i3','core i5','core i7','core i9','core ultra','celeron','pentium','xeon'],
+    amd:   ['ryzen 3','ryzen 5','ryzen 7','ryzen 9','threadripper','athlon'],
+  },
   ram:     { ddr5:['ddr5'], ddr4:['ddr4'] },
-  storage: { nvme:['nvme','m.2','pcie'], sata:['sata','2.5'], hdd:['hdd','disco duro','hd '] },
-  cooling: { liquida:['liquid','aio','360','240','280'], aire:['tower','cooler','disipador'], fans:['fan','ventilador','argb'] },
+  storage: {
+    nvme:    ['nvme','m.2','pcie ssd','m2'],
+    sata:    ['sata','2.5"','ssd sata'],
+    hdd:     ['disco duro interno','hdd interno','3.5'],
+    hddext:  ['disco duro externo','hdd externo','portable hdd'],
+    ssdext:  ['ssd externa','ssd portatil','external ssd'],
+    pendrive:['pendrive','usb flash','memoria usb'],
+  },
+  cooling: {
+    liquida:  ['liquid','aio','360','240','280'],
+    aire:     ['tower','cooler','disipador'],
+    fans:     ['fan','ventilador','argb'],
+    pasta:    ['pasta termica','pasta disipadora','thermal paste','thermal grease','grasa termica','arctic mx','noctua nt','kryonaut'],
+  },
   mobo:    { am5:['am5'], am4:['am4'], lga1700:['lga1700','1700'], lga1851:['lga1851','1851'] },
-  case:    { atx:['atx'], matx:['micro atx','matx','m-atx'], itx:['itx','mini-itx'] },
-  psu:     { modular:['modular'], certificada:['80+','gold','platinum','bronze'] },
+  case:    {
+    eatx:      ['extended atx','eatx','e-atx','full tower'],
+    atx:       [' atx ','mid tower'],
+    matx:      ['micro-atx','micro atx','matx','m-atx'],
+    itx:       ['mini-itx','mini itx'],
+    accesorio: ['soporte','bracket','panel','filtro dust','cable management','hub','controladora','riser','accesorio gabinete','glass panel'],
+  },
+  psu:     { modular:['modular'], certificada:['80+','gold','platinum','bronze','titanium'] },
 };
 
 let PRODUCTS = [];
@@ -739,7 +760,7 @@ function renderFilterSidebar() {
       ssdext:'SSD Externa',pendrive:'Pendrive',liquida:'Líquida / AIO',
       aire:'Por Aire',fans:'Ventiladores',am4:'AMD AM4',am5:'AMD AM5',
       lga1700:'Intel LGA1700',lga1851:'Intel LGA1851',
-      eatx:'Extended ATX',atx:'ATX',matx:'Micro ATX',itx:'Mini ITX',
+      eatx:'Extended ATX',atx:'ATX',matx:'Micro ATX',itx:'Mini ITX',accesorio:'Accesorios',
       modular:'Modulares',certificada:'Certificadas',
     };
     subList.innerHTML = Object.keys(catSubcats).map(key => {
@@ -1742,9 +1763,9 @@ function updateBreadcrumb() {
   const subNames = {
     nvidia:'NVIDIA GeForce',amd:'AMD',intel:'Intel',ddr4:'DDR4',ddr5:'DDR5',
     nvme:'NVMe M.2',sata:'SATA 2.5"',hdd:'Disco Duro',
-    liquida:'Refrigeración Líquida',aire:'Por Aire',fans:'Ventiladores',
+    liquida:'Refrigeración Líquida',aire:'Por Aire',fans:'Ventiladores',pasta:'Pastas Térmicas',
     am4:'AMD AM4',am5:'AMD AM5',lga1700:'Intel LGA1700',lga1851:'Intel LGA1851',
-    eatx:'Extended ATX',atx:'ATX',matx:'Micro ATX',itx:'Mini ITX',
+    eatx:'Extended ATX',atx:'ATX',matx:'Micro ATX',itx:'Mini ITX',accesorio:'Accesorios',
     modular:'Modulares',certificada:'Certificadas',
   };
   if (currentSub && currentCat) {
