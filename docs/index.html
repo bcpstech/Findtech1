@@ -22,11 +22,26 @@
   --text:     #eef0f6;
   --text2:    #7a8499;
   --text3:    #3d4557;
-  --mono:     'Inter', 'JetBrains Mono', monospace;
+  --mono:     'JetBrains Mono', monospace;
   --sans:     'Outfit', sans-serif;
   --r:        8px;
   --logo-dark:  block;
   --logo-light: none;
+  --header-bg:  rgba(11,13,17,0.96);
+}
+[data-theme="light"] {
+  --bg:       #f4f6fa;
+  --bg2:      #ffffff;
+  --bg3:      #eaecf2;
+  --surface:  #ffffff;
+  --border:   rgba(0,0,0,0.09);
+  --border2:  rgba(0,0,0,0.15);
+  --text:     #111827;
+  --text2:    #4b5563;
+  --text3:    #9ca3af;
+  --logo-dark:  none;
+  --logo-light: block;
+  --header-bg:  rgba(244,246,250,0.96);
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Outfit',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
@@ -34,10 +49,12 @@ a{text-decoration:none;color:inherit}
 button{cursor:pointer;font-family:inherit}
 
 /* HEADER */
-.header{position:sticky;top:0;z-index:200;background:rgba(11,13,17,0.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);height:60px;display:flex;align-items:center}
+.header{position:sticky;top:0;z-index:200;background:var(--header-bg);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);height:60px;display:flex;align-items:center}
 .header-inner{max-width:1400px;margin:0 auto;width:100%;padding:0 20px;display:flex;align-items:center;gap:16px}
 .logo{font-size:22px;font-weight:800;color:var(--text);white-space:nowrap;cursor:pointer;display:flex;align-items:center;gap:6px}
 .logo em{color:var(--accent);font-style:normal}
+.logo-dark{display:var(--logo-dark)!important}
+.logo-light{display:var(--logo-light)!important}
 nav{display:flex;align-items:center;gap:2px}
 .nav-item{padding:6px 12px;border-radius:6px;font-size:13px;font-weight:500;color:var(--text2);cursor:pointer;white-space:nowrap;transition:all .15s;position:relative}
 .nav-item:hover{color:var(--text);background:var(--bg3)}
@@ -51,10 +68,16 @@ nav{display:flex;align-items:center;gap:2px}
 
 /* MEGA MENU */
 .mega-wrap{position:relative}
-.mega-menu{display:none;position:absolute;top:calc(100% + 8px);left:0;background:var(--bg2);border:1px solid var(--border2);border-radius:12px;padding:20px;min-width:600px;box-shadow:0 20px 60px rgba(0,0,0,0.5);z-index:300;display:grid;gap:0 24px;animation:fadeIn .15s ease}
+.mega-menu{
+  display:none;position:absolute;top:calc(100% + 8px);left:0;
+  background:var(--bg2);border:1px solid var(--border2);
+  border-radius:12px;padding:8px 0;min-width:600px;
+  box-shadow:0 20px 60px rgba(0,0,0,0.5);z-index:300;
+  animation:fadeIn .15s ease;overflow:hidden;
+}
 .mega-wrap:hover .mega-menu{display:grid}
-.mega-col h4{font-size:10px;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px}
-.mega-col a{display:block;padding:5px 0;font-size:13px;color:var(--text2);cursor:pointer;transition:color .1s}
+.mega-col h4{font-size:10px;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;padding:16px 16px 0}
+.mega-col a{display:block;padding:5px 16px;font-size:13px;color:var(--text2);cursor:pointer;transition:color .1s}
 .mega-col a:hover{color:var(--accent)}
 
 /* MAIN */
@@ -94,6 +117,13 @@ nav{display:flex;align-items:center;gap:2px}
 .cat-item.active{color:var(--accent);border-left-color:var(--accent);background:rgba(59,130,246,0.05)}
 .cat-icon{font-size:16px;width:20px;text-align:center}
 .cat-cnt{margin-left:auto;font-size:11px;color:var(--text3)}
+.cat-chevron{font-size:10px;color:var(--text3);transition:transform .2s;margin-left:4px}
+.cat-item.open .cat-chevron{transform:rotate(90deg)}
+.cat-subs{display:none;background:rgba(0,0,0,0.15)}
+.cat-item.open + .cat-subs{display:block}
+.cat-sub-item{display:flex;align-items:center;gap:8px;padding:6px 16px 6px 44px;cursor:pointer;font-size:12px;color:var(--text3);transition:all .12s;border-left:2px solid transparent}
+.cat-sub-item:hover{background:var(--bg3);color:var(--text)}
+.cat-sub-item.active{color:var(--accent);border-left-color:var(--accent);font-weight:600}
 
 /* TOOLBAR */
 .content-area{min-width:0}
@@ -188,6 +218,35 @@ nav{display:flex;align-items:center;gap:2px}
 .stat-n{font-size:28px;font-weight:800;color:var(--accent);font-family:'JetBrains Mono',monospace}
 .stat-l{font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:1px}
 
+/* ── FEATURED SECTION ── */
+.featured-section{margin-bottom:32px}
+.featured-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+.featured-title{font-size:16px;font-weight:700;color:var(--text);display:flex;align-items:center;gap:8px}
+.featured-refresh{background:none;border:1px solid var(--border);border-radius:6px;padding:4px 10px;font-size:11px;color:var(--text3);cursor:pointer;font-family:inherit;transition:all .15s}
+.featured-refresh:hover{border-color:var(--accent);color:var(--accent)}
+.featured-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}
+.featured-card{
+  background:var(--bg2);border:1px solid var(--border);border-radius:12px;
+  overflow:hidden;cursor:pointer;transition:all .2s;display:flex;flex-direction:column;
+  position:relative;
+}
+.featured-card:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:0 8px 24px rgba(59,130,246,0.15)}
+.featured-badge{
+  position:absolute;top:8px;left:8px;z-index:1;
+  background:var(--accent);color:#fff;font-size:9px;font-weight:700;
+  padding:2px 7px;border-radius:4px;letter-spacing:0.5px;text-transform:uppercase;
+}
+.featured-badge.deal{background:var(--red)}
+.featured-badge.new{background:var(--green)}
+.featured-img{aspect-ratio:1;background:var(--bg3);display:flex;align-items:center;justify-content:center;padding:14px;overflow:hidden}
+.featured-img img{max-width:100%;max-height:100%;object-fit:contain}
+.featured-img .emoji{font-size:40px}
+.featured-body{padding:10px;flex:1;display:flex;flex-direction:column;gap:4px}
+.featured-brand{font-size:9px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:1px}
+.featured-name{font-size:11px;color:var(--text);line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-weight:500}
+.featured-price{font-size:14px;font-weight:700;color:var(--green);font-family:'JetBrains Mono',monospace;margin-top:auto;padding-top:6px}
+.featured-store{font-size:9px;color:var(--text3);margin-top:2px}
+
 /* STORES */
 .stores-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:16px}
 .store-card{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:20px;cursor:pointer;transition:all .2s}
@@ -241,93 +300,111 @@ nav{display:flex;align-items:center;gap:2px}
 <!-- HEADER -->
 <header class="header">
   <div class="header-inner">
-    <div class="logo" onclick="showPage('home')">🔧 find<em>tech</em></div>
+    <div class="logo" onclick="showPage('home')">
+      <img class="logo-img logo-dark"  src="img/logo-dark.png"  alt="FindTech" style="height:36px">
+      <img class="logo-img logo-light" src="img/logo-light.png" alt="FindTech" style="height:36px;display:none">
+    </div>
     <nav>
       <div class="nav-item" onclick="showPage('home')">Inicio</div>
       <div class="nav-item mega-wrap" id="nav-hardware">
         Hardware ▾
-        <div class="mega-menu" id="mega-hw" style="grid-template-columns:repeat(4,1fr)">
-<div class="mega-col">
-          <h4>Tarjetas Video</h4>
-          <a onclick="filterSub('gpu','nvidia')">NVIDIA GeForce</a>
-          <a onclick="filterSub('gpu','amd')">AMD Radeon</a>
-          <a onclick="filterCat('gpu')">Ver todas</a>
-        </div>
-        <div class="mega-col">
-          <h4>Procesadores</h4>
-          <a onclick="filterSub('cpu','intel')">Intel Core</a>
-          <a onclick="filterSub('cpu','amd')">AMD Ryzen</a>
-          <a onclick="filterCat('cpu')">Ver todos</a>
-        </div>
-        <div class="mega-col">
-          <h4>Placas Madre</h4>
-          <a onclick="filterSub('mobo','am4')">AMD AM4</a>
-          <a onclick="filterSub('mobo','am5')">AMD AM5</a>
-          <a onclick="filterSub('mobo','lga1700')">Intel LGA1700</a>
-          <a onclick="filterSub('mobo','lga1851')">Intel LGA1851</a>
-          <a onclick="filterCat('mobo')">Ver todas</a>
-        </div>
-        <div class="mega-col">
-          <h4>Memorias RAM</h4>
-          <a onclick="filterSub('ram','ddr4')">DDR4</a>
-          <a onclick="filterSub('ram','ddr5')">DDR5</a>
-          <a onclick="filterCat('ram')">Ver todas</a>
-        </div>
-        <div class="mega-col">
-          <h4>Almacenamiento</h4>
-          <a onclick="filterSub('storage','nvme')">SSD NVMe M.2</a>
-          <a onclick="filterSub('storage','sata')">SSD SATA 2.5"</a>
-          <a onclick="filterSub('storage','hdd')">Discos Duros</a>
-          <a onclick="filterCat('storage')">Ver todos</a>
-        </div>
-        <div class="mega-col">
-          <h4>Refrigeración</h4>
-          <a onclick="filterSub('cooling','liquida')">Líquida</a>
-          <a onclick="filterSub('cooling','aire')">Por Aire</a>
-          <a onclick="filterSub('cooling','fans')">Ventiladores</a>
-          <a onclick="filterCat('cooling')">Ver todas</a>
-        </div>
-        <div class="mega-col">
-          <h4>Fuentes de Poder</h4>
-          <a onclick="filterSub('psu','modular')">Modulares</a>
-          <a onclick="filterSub('psu','certificada')">Certificadas</a>
-          <a onclick="filterCat('psu')">Ver todas</a>
-        </div>
-        <div class="mega-col">
-          <h4>Gabinetes</h4>
-          <a onclick="filterSub('case','atx')">ATX</a>
-          <a onclick="filterSub('case','matx')">Micro ATX</a>
-          <a onclick="filterSub('case','itx')">Mini ITX</a>
-          <a onclick="filterCat('case')">Ver todos</a>
-        </div>
+        <div class="mega-menu" id="mega-hw" style="display:grid;grid-template-columns:repeat(4,1fr);gap:0;padding:0">
+          <div class="mega-col">
+            <h4>Tarjetas Video</h4>
+            <a onclick="filterSub('gpu','nvidia');showPage('hardware')">🟢 NVIDIA GeForce</a>
+            <a onclick="filterSub('gpu','amd');showPage('hardware')">🔴 AMD Radeon</a>
+            <a onclick="filterCat('gpu');showPage('hardware')" style="color:var(--accent);font-size:11px;margin-top:4px">Ver todas →</a>
+          </div>
+          <div class="mega-col">
+            <h4>Procesadores</h4>
+            <a onclick="filterSub('cpu','intel');showPage('hardware')">🔵 Intel Core</a>
+            <a onclick="filterSub('cpu','amd');showPage('hardware')">🔴 AMD Ryzen</a>
+            <a onclick="filterCat('cpu');showPage('hardware')" style="color:var(--accent);font-size:11px;margin-top:4px">Ver todos →</a>
+          </div>
+          <div class="mega-col">
+            <h4>Memorias RAM</h4>
+            <a onclick="filterSub('ram','ddr5');showPage('hardware')">⚡ DDR5</a>
+            <a onclick="filterSub('ram','ddr4');showPage('hardware')">💾 DDR4</a>
+            <a onclick="filterCat('ram');showPage('hardware')" style="color:var(--accent);font-size:11px;margin-top:4px">Ver todas →</a>
+          </div>
+          <div class="mega-col">
+            <h4>Almacenamiento</h4>
+            <a onclick="filterSub('storage','nvme');showPage('hardware')">⚡ NVMe M.2</a>
+            <a onclick="filterSub('storage','sata');showPage('hardware')">💿 SATA 2.5"</a>
+            <a onclick="filterSub('storage','hdd');showPage('hardware')">🖴 Disco Duro</a>
+            <a onclick="filterSub('storage','pendrive');showPage('hardware')">🔌 Pendrive</a>
+            <a onclick="filterCat('storage');showPage('hardware')" style="color:var(--accent);font-size:11px;margin-top:4px">Ver todo →</a>
+          </div>
+          <div class="mega-col">
+            <h4>Refrigeración</h4>
+            <a onclick="filterSub('cooling','liquida');showPage('hardware')">💧 Líquida / AIO</a>
+            <a onclick="filterSub('cooling','aire');showPage('hardware')">🌬️ Por Aire</a>
+            <a onclick="filterSub('cooling','fans');showPage('hardware')">🌀 Ventiladores</a>
+            <a onclick="filterSub('cooling','pasta');showPage('hardware')">🧪 Pastas Térmicas</a>
+            <a onclick="filterCat('cooling');showPage('hardware')" style="color:var(--accent);font-size:11px;margin-top:4px">Ver todo →</a>
+          </div>
+          <div class="mega-col">
+            <h4>Placas Madre</h4>
+            <a onclick="filterSub('mobo','am5');showPage('hardware')">🔴 AMD AM5</a>
+            <a onclick="filterSub('mobo','am4');showPage('hardware')">🔴 AMD AM4</a>
+            <a onclick="filterSub('mobo','lga1851');showPage('hardware')">🔵 Intel LGA 1851</a>
+            <a onclick="filterSub('mobo','lga1700');showPage('hardware')">🔵 Intel LGA 1700</a>
+            <a onclick="filterCat('mobo');showPage('hardware')" style="color:var(--accent);font-size:11px;margin-top:4px">Ver todas →</a>
+          </div>
+          <div class="mega-col">
+            <h4>Gabinetes</h4>
+            <a onclick="filterSub('case','eatx');showPage('hardware')">🖥️ Extended ATX</a>
+            <a onclick="filterSub('case','atx');showPage('hardware')">🖥️ ATX</a>
+            <a onclick="filterSub('case','matx');showPage('hardware')">🖥️ Micro ATX</a>
+            <a onclick="filterSub('case','itx');showPage('hardware')">🖥️ Mini ITX</a>
+            <a onclick="filterSub('case','accesorio');showPage('hardware')">🔧 Accesorios</a>
+          </div>
+          <div class="mega-col">
+            <h4>Fuentes de Poder</h4>
+            <a onclick="filterSub('psu','modular');showPage('hardware')">⚡ Modulares</a>
+            <a onclick="filterSub('psu','certificada');showPage('hardware')">🏆 Certificadas</a>
+            <a onclick="filterCat('psu');showPage('hardware')" style="color:var(--accent);font-size:11px;margin-top:4px">Ver todas →</a>
+          </div>
         </div>
       </div>
       <div class="nav-item mega-wrap" id="nav-periph">
         Periféricos ▾
-        <div class="mega-menu" id="mega-periph" style="grid-template-columns:repeat(3,1fr)">
-<div class="mega-col"><h4>Teclados</h4>
-          <a onclick="filterSub('periph','teclado')">Mecánicos</a>
-          <a onclick="filterSub('periph','teclado')">Membrana</a>
-          <a onclick="filterCat('periph')">Ver todos</a>
-        </div>
-        <div class="mega-col"><h4>Mouse</h4>
-          <a onclick="filterSub('periph','mouse')">Gaming</a>
-          <a onclick="filterSub('periph','mouse')">Oficina</a>
-          <a onclick="filterCat('periph')">Ver todos</a>
-        </div>
-        <div class="mega-col"><h4>Audio</h4>
-          <a onclick="filterSub('periph','headset')">Headset Gaming</a>
-          <a onclick="filterSub('periph','headset')">Audífonos</a>
-          <a onclick="filterCat('periph')">Ver todos</a>
-        </div>
-        <div class="mega-col"><h4>Accesorios</h4>
-          <a onclick="filterSub('periph','pad')">Pad / Mousepad</a>
-          <a onclick="filterSub('periph','webcam')">Webcam</a>
-          <a onclick="filterSub('periph','silla')">Sillas Gaming</a>
-        </div>
+        <div class="mega-menu" id="mega-periph" style="display:grid;grid-template-columns:repeat(3,1fr);gap:0;padding:0">
+          <div class="mega-col">
+            <h4>Monitores</h4>
+            <a onclick="filterCat('monitor');showPage('hardware')">🖥️ Ver todos</a>
+          </div>
+          <div class="mega-col">
+            <h4>Periféricos</h4>
+            <a onclick="filterCat('periph');showPage('hardware')">⌨️ Ver todos</a>
+          </div>
+          <div class="mega-col">
+            <h4>Más categorías</h4>
+            <a onclick="filterCat('periph');showPage('hardware')">🎧 Audio</a>
+            <a onclick="filterCat('periph');showPage('hardware')">🖱️ Mouse</a>
+            <a onclick="filterCat('periph');showPage('hardware')">🪑 Sillas Gamer</a>
+          </div>
         </div>
       </div>
-      <div class="nav-item" onclick="filterCat('pc');showPage('hardware');renderSidebarCats();updateBreadcrumb()" style="white-space:nowrap">🖥️ PCs Armados</div>
+      <div class="nav-item mega-wrap" id="nav-pc">
+        PCs Armados ▾
+        <div class="mega-menu" id="mega-pc" style="display:grid;grid-template-columns:repeat(2,1fr);gap:0;padding:0;min-width:340px">
+          <div class="mega-col">
+            <h4>🔴 AMD</h4>
+            <a onclick="filterCat('pc');document.getElementById('prod-search').value='ryzen 5';showPage('hardware')">Ryzen 5</a>
+            <a onclick="filterCat('pc');document.getElementById('prod-search').value='ryzen 7';showPage('hardware')">Ryzen 7</a>
+            <a onclick="filterCat('pc');document.getElementById('prod-search').value='ryzen 9';showPage('hardware')">Ryzen 9</a>
+            <a onclick="filterCat('pc');showPage('hardware')" style="color:var(--accent);font-size:11px;margin-top:4px">Ver todos →</a>
+          </div>
+          <div class="mega-col">
+            <h4>🔵 Intel</h4>
+            <a onclick="filterCat('pc');document.getElementById('prod-search').value='core i5';showPage('hardware')">Core i5</a>
+            <a onclick="filterCat('pc');document.getElementById('prod-search').value='core i7';showPage('hardware')">Core i7</a>
+            <a onclick="filterCat('pc');document.getElementById('prod-search').value='core i9';showPage('hardware')">Core i9</a>
+            <a onclick="filterCat('pc');showPage('hardware')" style="color:var(--accent);font-size:11px;margin-top:4px">Ver todos →</a>
+          </div>
+        </div>
+      </div>
       <div class="nav-item mega-wrap" id="nav-tiendas">
         Tiendas ▾
         <div class="mega-menu" id="mega-tiendas" style="min-width:440px;grid-template-columns:repeat(3,1fr)">
@@ -363,6 +440,19 @@ nav{display:flex;align-items:center;gap:2px}
         <div class="stat"><div class="stat-n" id="hw-stat-prods">0</div><div class="stat-l">Productos</div></div>
         <div class="stat"><div class="stat-n" id="hw-stat-stores">0</div><div class="stat-l">Tiendas</div></div>
       </div>
+    </div>
+    <!-- Featured products banner -->
+    <div class="featured-section">
+      <div class="featured-header">
+        <div class="featured-title">🔥 Productos Destacados</div>
+        <button class="featured-refresh" onclick="renderFeatured()">↻ Actualizar</button>
+      </div>
+      <div class="featured-grid" id="featured-grid"></div>
+    </div>
+
+    <!-- Categories grid -->
+    <div class="featured-header" style="margin-bottom:14px">
+      <div class="featured-title">📦 Categorías</div>
     </div>
     <div id="home-cats-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px"></div>
   </div>
@@ -1091,7 +1181,7 @@ const STORE_LABELS = {
   pcexpress:  { cash: 'Efectivo / Transferencia', card: 'Tarjeta crédito/débito', factor: 1.03   },
   spdigital:  { cash: 'Transferencia / Efectivo', card: 'Webpay / Tarjeta',       factor: null   },
   trulustore: { cash: 'Efectivo / Transferencia', card: 'Tarjeta crédito/débito', factor: 1.05, khipu: 1.02 },
-  myshop:     { cash: 'Transferencia / Efectivo', card: 'Webpay / Tarjeta',       factor: 1.03  },
+  myshop:     { cash: 'Efectivo / Transferencia', card: 'Tarjeta crédito/débito', factor: 1.03  },
   progaming:  { cash: 'Efectivo / Transferencia', card: 'Webpay / Tarjeta',       factor: 1.03  },
   dust2:      { cash: 'Efectivo / Transferencia', card: 'Webpay / Tarjeta',       factor: 1.03  },
   tytgamer:   { cash: 'Efectivo / Transferencia', card: 'Webpay / Tarjeta',       factor: 1.03  },
@@ -1667,16 +1757,29 @@ window.addEventListener('resize', () => {
 function toggleTheme() {
   const html = document.documentElement;
   const btn = document.getElementById('theme-btn');
-  if (html.getAttribute('data-theme') === 'light') {
+  const isLight = html.getAttribute('data-theme') === 'light';
+  if (isLight) {
     html.removeAttribute('data-theme');
-    btn.textContent = '🌙';
+    if (btn) btn.textContent = '🌙';
     localStorage.setItem('ft_theme', 'dark');
   } else {
     html.setAttribute('data-theme', 'light');
-    btn.textContent = '☀️';
+    if (btn) btn.textContent = '☀️';
     localStorage.setItem('ft_theme', 'light');
   }
 }
+
+// Init theme on load
+(function initTheme() {
+  const saved = localStorage.getItem('ft_theme');
+  if (saved === 'light') {
+    document.documentElement.setAttribute('data-theme', 'light');
+    document.addEventListener('DOMContentLoaded', () => {
+      const btn = document.getElementById('theme-btn');
+      if (btn) btn.textContent = '☀️';
+    });
+  }
+})();
 
 // Aplicar tema guardado
 (function() {
@@ -1709,15 +1812,78 @@ function toggleTheme() {
 
 // ── SOLOTODO-STYLE EXTRAS ────────────────────────────────────────────────
 
+// switchMegaPanel removed (simple grid mega menus)
+
 // renderHome compatibility (called by original loadData init)
 function renderHome() {
   renderHomeCats();
+  renderFeatured();
   renderSidebarCats();
   // Update stat counters
   const pEl = document.getElementById('hw-stat-prods');
   const sEl = document.getElementById('hw-stat-stores');
   if (pEl) pEl.textContent = PRODUCTS.length.toLocaleString('es-CL');
   if (sEl) sEl.textContent = STORES.filter(s => s.active !== 0).length;
+}
+
+// Render random featured products
+function renderFeatured() {
+  const grid = document.getElementById('featured-grid');
+  if (!grid || !PRODUCTS.length) return;
+
+  // Pick 8 random products with images, spread across categories
+  const cats = ['gpu','cpu','ram','storage','cooling','mobo','psu','case','pc'];
+  let pool = [];
+
+  // Try to get 1-2 per category
+  cats.forEach(cat => {
+    const catProds = PRODUCTS.filter(p => p.category === cat && p.imageUrl && getPrice(p) > 0);
+    if (catProds.length) {
+      // Shuffle and take up to 2
+      const shuffled = catProds.sort(() => Math.random() - 0.5);
+      pool.push(...shuffled.slice(0, 2));
+    }
+  });
+
+  // If not enough, fill with any product with image
+  if (pool.length < 6) {
+    const extras = PRODUCTS.filter(p => p.imageUrl && getPrice(p) > 0 && !pool.includes(p))
+      .sort(() => Math.random() - 0.5).slice(0, 8 - pool.length);
+    pool.push(...extras);
+  }
+
+  // Shuffle final pool and take 8
+  pool = pool.sort(() => Math.random() - 0.5).slice(0, 8);
+
+  // Badges: mark discounts and random "Nuevo"
+  const catIcons = {gpu:'🎮',cpu:'⚡',ram:'💾',storage:'💿',cooling:'❄️',mobo:'🔌',psu:'⚙️',case:'🖥️',pc:'💻'};
+
+  grid.innerHTML = pool.map(p => {
+    const price = getPrice(p);
+    const store = STORES.find(s => s.id === p._bestStoreId);
+    const cardP = getCardPrice(p);
+    const isNew = Math.random() > 0.7;
+    const hasDeal = cardP && cardP > price;
+    const badge = hasDeal
+      ? `<div class="featured-badge deal">-${Math.round((1-price/cardP)*100)}%</div>`
+      : isNew ? `<div class="featured-badge new">Nuevo</div>` : '';
+    const icon = catIcons[p.category] || '📦';
+
+    return `<div class="featured-card" onclick="openDetail(${p.id})">
+      ${badge}
+      <div class="featured-img">
+        ${p.imageUrl
+          ? `<img src="${p.imageUrl}" alt="${p.name}" loading="lazy" onerror="this.parentElement.innerHTML='<span class=\"emoji\">${icon}</span>'">`
+          : `<span class="emoji">${icon}</span>`}
+      </div>
+      <div class="featured-body">
+        <div class="featured-brand">${p.brand||''}</div>
+        <div class="featured-name">${p.name}</div>
+        <div class="featured-price">${fmt(price)}</div>
+        <div class="featured-store">${store?.name||p._bestStoreName||''}</div>
+      </div>
+    </div>`;
+  }).join('');
 }
 
 function renderHomeCats() {
@@ -1738,22 +1904,59 @@ function renderHomeCats() {
   }).join('');
 }
 
+// Sub-labels for sidebar
+const SUB_LABELS = {
+  nvidia:'NVIDIA GeForce',amd:'AMD',intel:'Intel',ddr4:'DDR4',ddr5:'DDR5',
+  nvme:'NVMe M.2',sata:'SATA 2.5"',hdd:'Disco Duro',hddext:'HDD Externo',
+  ssdext:'SSD Externa',pendrive:'Pendrive',
+  liquida:'Líquida / AIO',aire:'Por Aire',fans:'Ventiladores',pasta:'Pastas Térmicas',
+  am4:'AMD AM4',am5:'AMD AM5',lga1700:'Intel LGA1700',lga1851:'Intel LGA1851',
+  eatx:'Extended ATX',atx:'ATX',matx:'Micro ATX',itx:'Mini ITX',accesorio:'Accesorios',
+  modular:'Modulares',certificada:'Certificadas',
+  gaming:'Gaming',trabajo:'Trabajo',curvo:'Curvo',
+};
+
 function renderSidebarCats() {
   const el = document.getElementById('sidebar-cats');
   if (!el) return;
-  const allCount = currentCat ? PRODUCTS.filter(p => p.category === currentCat).length : PRODUCTS.length;
-  let html = `<div class="cat-item ${!currentCat?'active':''}" onclick="filterCat('');renderSidebarCats()">
+  let html = `<div class="cat-item ${!currentCat?'active':''}" onclick="filterCat('');currentSub='';renderSidebarCats()">
     <span class="cat-icon">🏠</span><span>Todos</span>
     <span class="cat-cnt">${PRODUCTS.length}</span>
   </div>`;
+
   Object.entries(CATS).filter(([id]) => id !== 'other').forEach(([id, cat]) => {
     const cnt = PRODUCTS.filter(p => p.category === id).length;
     if (!cnt) return;
-    html += `<div class="cat-item ${currentCat===id?'active':''}" onclick="filterCat('${id}');renderSidebarCats();updateBreadcrumb()">
-      <span class="cat-icon">${cat.icon}</span><span>${cat.name}</span>
+    const subs = SUBCATS[id] ? Object.keys(SUBCATS[id]) : [];
+    const isOpen = currentCat === id;
+    const hasSubs = subs.length > 0;
+
+    html += `<div class="cat-item ${isOpen?'active':''}${isOpen&&hasSubs?' open':''}"
+      onclick="if('${id}'===currentCat&&'${id}'===currentCat){this.classList.toggle('open');this.nextElementSibling&&(this.nextElementSibling.style.display=this.classList.contains('open')?'block':'none')}filterCat('${id}');currentSub='';renderSidebarCats()">
+      <span class="cat-icon">${cat.icon}</span>
+      <span style="flex:1">${cat.name}</span>
       <span class="cat-cnt">${cnt}</span>
+      ${hasSubs?'<span class="cat-chevron">›</span>':''}
     </div>`;
+
+    if (hasSubs) {
+      html += `<div class="cat-subs" style="display:${isOpen?'block':'none'}">`;
+      subs.forEach(sub => {
+        const subCnt = PRODUCTS.filter(p => {
+          if (p.category !== id) return false;
+          return id === 'cpu' ? matchCpuSub(p, sub) : matchSub(p, id, sub);
+        }).length;
+        if (!subCnt) return;
+        html += `<div class="cat-sub-item ${currentSub===sub&&currentCat===id?'active':''}"
+          onclick="event.stopPropagation();filterSub('${id}','${sub}');renderSidebarCats()">
+          ${SUB_LABELS[sub]||sub}
+          <span class="cat-cnt" style="margin-left:auto">${subCnt}</span>
+        </div>`;
+      });
+      html += `</div>`;
+    }
   });
+
   el.innerHTML = html;
 }
 
