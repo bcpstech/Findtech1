@@ -540,6 +540,7 @@ const CATS = {
   mobo:    { name:'Placas Madre',      icon:'🔌' },
   psu:     { name:'Fuentes de Poder',  icon:'⚙️' },
   case:    { name:'Gabinetes',         icon:'🖥️' },
+  pc:      { name:'PCs Armados',       icon:'💻' },
   monitor: { name:'Monitores',         icon:'🖱️' },
   periph:  { name:'Periféricos',       icon:'⌨️' },
 };
@@ -592,12 +593,15 @@ function getBestStore(p) {
 }
 
 function matchSub(p, cat, sub) {
+  if (p.category !== cat) return false;
   const keys = SUBCATS[cat]?.[sub] || [];
   const txt = (p.name + ' ' + (p.brand||'')).toLowerCase();
   return keys.some(k => txt.includes(k));
 }
 
 function matchCpuSub(p, sub) {
+  // Solo aplica a procesadores, no a PCs armados
+  if (p.category !== 'cpu') return false;
   const txt = (p.name + ' ' + (p.brand||'')).toLowerCase();
   const intelKeys = SUBCATS.cpu.intel;
   const amdKeys   = SUBCATS.cpu.amd;
