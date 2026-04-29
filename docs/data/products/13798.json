@@ -1,0 +1,64 @@
+{
+  "id": 13798,
+  "external_id": "cg_procesador-intel-core-ultra-5-245kf",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core Ultra 5 245KF",
+  "slug": "procesador-intel-core-ultra-5-245kf",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-ultra-5-245kf.jpg",
+  "description": null,
+  "specs": {
+    "Marca": "INTEL",
+    "Efectivo/Transferencia": "$248.737",
+    "Webpay / Tarjeta": "$261.821"
+  },
+  "tags": [],
+  "created_at": "2026-04-29 03:31:37",
+  "updated_at": "2026-04-29 03:31:37",
+  "prices": [
+    {
+      "product_id": 13798,
+      "store_id": "cg",
+      "price": 248737,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-5-245kf-4-2-ghz-14-core-lga1851/",
+      "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$248.737"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 9423,
+      "store_id": "spdigital",
+      "price": 336900,
+      "price_normal": 352060,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/procesador-intel-core-ultra-5-245kf-cache-de-24-m-hasta-520-ghz-socket-lga1851-125w-sin-video",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$336.900",
+        "Webpay / Tarjeta": "$352.060"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-29",
+      "price": 248737
+    }
+  ],
+  "scraped_at": "2026-04-29"
+}

@@ -8,26 +8,53 @@
   "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-7-8700f-ai-socket-am5-8-nucleos-16-hilos.jpg",
   "description": null,
   "specs": {
-    "Transferencia/Efectivo": "$299.990",
-    "Webpay / Tarjeta": "$308.990"
+    "Núcleos": "8",
+    "Hilos": "16",
+    "Socket": "AM5",
+    "Efectivo / Transferencia": "$299.990",
+    "Khipu": "$305.990",
+    "Tarjeta crédito/débito": "$314.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:35",
-  "updated_at": "2026-04-26 20:52:35",
+  "updated_at": "2026-04-29 03:41:08",
   "prices": [
     {
       "product_id": 2631,
       "store_id": "trulustore",
       "price": 299990,
-      "price_normal": null,
+      "price_normal": 314990,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/procesador-amd-ryzen-7-8700f-ai-socket-am5-8-nucleos-16-hilos/",
       "store_name": "TruluStore",
+      "price_specs": {
+        "Efectivo / Transferencia": "$299.990",
+        "Khipu": "$305.990",
+        "Tarjeta crédito/débito": "$314.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 9412,
+      "store_id": "spdigital",
+      "price": 459990,
+      "price_normal": 480690,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/amd-8700f",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$459.990",
+        "Webpay / Tarjeta": "$480.690"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -36,7 +63,25 @@
       "store_name": "TruluStore",
       "date": "2026-04-26",
       "price": 299990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-27",
+      "price": 299990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-28",
+      "price": 299990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-29",
+      "price": 299990
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-29"
 }

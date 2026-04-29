@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:22",
-  "updated_at": "2026-04-28 23:34:37",
+  "updated_at": "2026-04-29 03:41:08",
   "prices": [
     {
       "product_id": 2612,
@@ -36,6 +36,24 @@
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 14070,
+      "store_id": "spdigital",
+      "price": 899990,
+      "price_normal": 940490,
+      "discount_pct": 4,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-gigabyte-radeon-rx-9060-xt-gaming-oc-ice-16gb-gddr6-128-bit-pci-e-50",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$899.990",
+        "Webpay / Tarjeta": "$940.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -56,7 +74,13 @@
       "store_name": "TruluStore",
       "date": "2026-04-28",
       "price": 599990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-29",
+      "price": 599990
     }
   ],
-  "scraped_at": "2026-04-28"
+  "scraped_at": "2026-04-29"
 }

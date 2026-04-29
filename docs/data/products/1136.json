@@ -1,46 +1,65 @@
 {
   "id": 1136,
-  "external_id": "centrale_fuente-asus-rog-thor-1200w-80-platinum-atx-3-1-modular",
-  "category_id": "psu",
-  "brand": "Asus",
-  "name": "Fuente ASUS ROG Thor 1200W 80+ Platinum ATX 3.1, modular",
-  "slug": "fuente-asus-rog-thor-1200w-80-platinum-atx-3-1-modular",
-  "image_url": "https://centrale.cl/wp-content/uploads/Fuente-ASUS-ROG-Thor-1200W-80-Platinum-ATX-3.1-modular-1775169220.webp",
+  "external_id": "cg_procesador-amd-ryzen-5-3400g",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 5 3400G",
+  "slug": "procesador-amd-ryzen-5-3400g",
+  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-5-3400g.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$436.610",
-    "Tarjetas de Crédito / Débito": "$460.620"
+    "Generación": "AMD Zen 5 (4nm)",
+    "Marca": "AMD",
+    "Efectivo/Transferencia": "$79.990",
+    "Webpay / Tarjeta": "$84.197"
   },
   "tags": [],
-  "created_at": "2026-04-25 18:20:13",
-  "updated_at": "2026-04-25 18:20:13",
+  "created_at": "2026-04-26 20:35:43",
+  "updated_at": "2026-04-29 03:41:08",
   "prices": [
     {
-      "id": 1136,
       "product_id": 1136,
-      "store_id": "centrale",
-      "price": 436610,
+      "store_id": "cg",
+      "price": 79990,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-asus-rog-thor-1200w-80-platinum-atx-3-1-modular/",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 18:20:13",
-      "store_name": "Centrale",
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl",
-      "store_rating": 4.4,
-      "review_count": 1650
+      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-3400g-4-core/",
+      "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$79.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 436610
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-26",
+      "price": 75990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-27",
+      "price": 75990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-28",
+      "price": 79990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-04-29",
+      "price": 79990
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-04-29"
 }

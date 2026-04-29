@@ -1,0 +1,64 @@
+{
+  "id": 9409,
+  "external_id": "spdigital_procesador-amd-ryzen-5-8400f-am5-6-nucleos-12-hilos-hasta-4-7-ghz-65w",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 5 8400F, AM5, 6 núcleos / 12 hilos, Hasta 4.7 GHz, 65W",
+  "slug": "procesador-amd-ryzen-5-8400f-am5-6-nucleos-12-hilos-hasta-4-7-ghz-65w",
+  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-5-8400f-am5-6-nucleos-12-hilos-hasta-4-7-ghz-65w.jpg",
+  "description": null,
+  "specs": {
+    "Núcleos": "6",
+    "Hilos": "12",
+    "Frecuencia base": "4,2 GHz",
+    "Frecuencia turbo": "4,7 GHz",
+    "TDP": "65 W",
+    "Socket": "AM5",
+    "Generación": "AMD Zen 5 (4nm)",
+    "Familia": "AMD Ryzen™ 5",
+    "Litografía": "4 nm",
+    "Caché L3": "16 MB",
+    "Memoria soportada": "DDR5-SDRAM",
+    "Gráficos integrados": "No disponible",
+    "Efectivo/Transferencia": "$279.990",
+    "Tarjeta crédito/débito": "$292.590"
+  },
+  "tags": [],
+  "created_at": "2026-04-28 20:53:56",
+  "updated_at": "2026-04-29 03:41:08",
+  "prices": [
+    {
+      "product_id": 9409,
+      "store_id": "spdigital",
+      "price": 279990,
+      "price_normal": 292590,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/ryzen-5-8400f",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$279.990",
+        "Webpay / Tarjeta": "$292.590"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-28",
+      "price": 279990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-29",
+      "price": 279990
+    }
+  ],
+  "scraped_at": "2026-04-29"
+}

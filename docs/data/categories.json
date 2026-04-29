@@ -5,7 +5,7 @@
     "icon": "🎮",
     "parent_id": null,
     "sort_order": 1,
-    "product_count": 359,
+    "product_count": 362,
     "subcategories": [
       {
         "id": "gpu-nvidia",
@@ -29,7 +29,7 @@
     "icon": "⚡",
     "parent_id": null,
     "sort_order": 2,
-    "product_count": 355,
+    "product_count": 358,
     "subcategories": [
       {
         "id": "cpu-intel",
@@ -108,8 +108,37 @@
     "icon": "❄️",
     "parent_id": null,
     "sort_order": 5,
-    "product_count": 395,
-    "subcategories": []
+    "product_count": 396,
+    "subcategories": [
+      {
+        "id": "cooling_liquida",
+        "name": "Refrigeración Líquida",
+        "icon": "💧",
+        "parent_id": "cooling",
+        "sort_order": 1
+      },
+      {
+        "id": "cooling_aire",
+        "name": "Por Aire",
+        "icon": "🌬️",
+        "parent_id": "cooling",
+        "sort_order": 2
+      },
+      {
+        "id": "cooling_fans",
+        "name": "Ventiladores",
+        "icon": "🌀",
+        "parent_id": "cooling",
+        "sort_order": 3
+      },
+      {
+        "id": "cooling_pasta",
+        "name": "Pastas Térmicas",
+        "icon": "🧪",
+        "parent_id": "cooling",
+        "sort_order": 4
+      }
+    ]
   },
   {
     "id": "mobo",
@@ -136,7 +165,43 @@
     "parent_id": null,
     "sort_order": 8,
     "product_count": 450,
-    "subcategories": []
+    "subcategories": [
+      {
+        "id": "case_eatx",
+        "name": "Extended ATX",
+        "icon": "🖥️",
+        "parent_id": "case",
+        "sort_order": 1
+      },
+      {
+        "id": "case_atx",
+        "name": "ATX",
+        "icon": "🖥️",
+        "parent_id": "case",
+        "sort_order": 2
+      },
+      {
+        "id": "case_matx",
+        "name": "Micro ATX",
+        "icon": "🖥️",
+        "parent_id": "case",
+        "sort_order": 3
+      },
+      {
+        "id": "case_itx",
+        "name": "Mini ITX",
+        "icon": "🖥️",
+        "parent_id": "case",
+        "sort_order": 4
+      },
+      {
+        "id": "case_accesorio",
+        "name": "Accesorios",
+        "icon": "🔧",
+        "parent_id": "case",
+        "sort_order": 5
+      }
+    ]
   },
   {
     "id": "monitor",
