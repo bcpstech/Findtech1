@@ -1,9 +1,16 @@
 {
   "last_update": "2026-04-29",
-  "generated_at": "2026-04-29T04:10:11.898Z",
-  "total_products": 617,
+  "generated_at": "2026-04-29T16:15:56.166Z",
+  "total_products": 619,
   "total_stores": 18,
   "last_runs": [
+    {
+      "store_id": "myshop",
+      "status": "success",
+      "products_updated": 0,
+      "errors_count": 0,
+      "finished_at": "2026-04-29 16:15:55"
+    },
     {
       "store_id": "myshop",
       "status": "success",
@@ -136,13 +143,6 @@
       "products_updated": 0,
       "errors_count": 0,
       "finished_at": "2026-04-28 20:50:41"
-    },
-    {
-      "store_id": "cg",
-      "status": "success",
-      "products_updated": 136,
-      "errors_count": 0,
-      "finished_at": "2026-04-28 20:50:07"
     }
   ]
 }
