@@ -1874,7 +1874,7 @@ function renderFeatured() {
       : isNew ? `<div class="featured-badge new">Nuevo</div>` : '';
     const icon = catIcons[p.category] || '📦';
 
-    return `<div class="featured-card" onclick="openDetail(${p.id})">
+    return `<div class="featured-card" onclick="openProductTab(${p.id})">
       ${badge}
       <div class="featured-img">
         ${p.imageUrl
