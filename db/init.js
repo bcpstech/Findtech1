@@ -162,6 +162,17 @@ const categories = [
   { id:'ssd-nvme',   name:'NVMe M.2 PCIe 5.0/4.0', icon:'💿', parent_id:'storage', sort_order:1 },
   { id:'ssd-sata',   name:'SSD SATA',            icon:'💿', parent_id:'storage', sort_order:2 },
   { id:'hdd',        name:'HDD',                 icon:'💿', parent_id:'storage', sort_order:3 },
+  // Refrigeración subcategorías
+  { id:'cooling_liquida',  name:'Refrigeración Líquida', icon:'💧', parent_id:'cooling', sort_order:1 },
+  { id:'cooling_aire',     name:'Por Aire',               icon:'🌬️', parent_id:'cooling', sort_order:2 },
+  { id:'cooling_fans',     name:'Ventiladores',           icon:'🌀', parent_id:'cooling', sort_order:3 },
+  { id:'cooling_pasta',    name:'Pastas Térmicas',        icon:'🧪', parent_id:'cooling', sort_order:4 },
+  // Gabinetes subcategorías
+  { id:'case_eatx',        name:'Extended ATX',           icon:'🖥️', parent_id:'case', sort_order:1 },
+  { id:'case_atx',         name:'ATX',                    icon:'🖥️', parent_id:'case', sort_order:2 },
+  { id:'case_matx',        name:'Micro ATX',              icon:'🖥️', parent_id:'case', sort_order:3 },
+  { id:'case_itx',         name:'Mini ITX',               icon:'🖥️', parent_id:'case', sort_order:4 },
+  { id:'case_accesorio',   name:'Accesorios',             icon:'🔧', parent_id:'case', sort_order:5 },
 ];
 
 const runInserts = db.transaction(() => {
@@ -177,5 +188,3 @@ console.log('   Tiendas insertadas:', stores.length);
 console.log('   Categorías insertadas:', categories.length);
 
 db.close();
-  db.prepare("INSERT OR IGNORE INTO categories VALUES ('cooling_pasta','cooling','Pastas Térmicas',null,4)").run();
-  db.prepare("INSERT OR IGNORE INTO categories VALUES ('case_accesorio','case','Accesorios',null,5)").run();
