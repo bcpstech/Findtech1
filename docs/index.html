@@ -292,7 +292,6 @@ nav{display:flex;align-items:center;gap:2px}
 /* Page visibility - controlled by showPage() */
 .page{display:none}
 .page.active{display:block}
-#page-home{display:block}
 </style>
 </head>
 <body>
@@ -595,6 +594,9 @@ nav{display:flex;align-items:center;gap:2px}
 </div>
 
 <script>
+
+// Global khipuPrice - used in price row template literals (js_logic.js)
+var khipuPrice = null;
 
 // ═══════════════════════════════════════════════
 // CONFIG
@@ -1258,7 +1260,10 @@ async function openDetail(id) {
         const isBest = row.price === bestPrice;
         const lbl = STORE_LABELS[row.store_id] || { cash: 'Efectivo / Transferencia', card: 'Webpay / Tarjeta', factor: 1.03 };
         const cashPrice = row.price;
-        const cardPrice = lbl.factor ? Math.round(cashPrice * lbl.factor) : null;
+        const cardPrice = row.price_normal && row.price_normal > cashPrice
+          ? row.price_normal
+          : (lbl.factor ? Math.round(cashPrice * lbl.factor) : null);
+        khipuPrice = lbl.khipu ? Math.round(cashPrice * lbl.khipu) : null;
         const discount  = row.discount_pct || (row.price_normal > cashPrice ? Math.round((1 - cashPrice / row.price_normal) * 100) : null);
 
         // Estrellas de rating
@@ -1813,6 +1818,43 @@ function toggleTheme() {
 // ── SOLOTODO-STYLE EXTRAS ────────────────────────────────────────────────
 
 // switchMegaPanel removed (simple grid mega menus)
+
+// Make khipuPrice calculation available globally for js_logic templates
+// This fixes "khipuPrice is not defined" ReferenceError in price rows
+if (typeof khipuPrice === 'undefined') {
+  // khipuPrice is computed per-row in the price template
+  // It's already handled in js_logic.js price rendering
+}
+
+// Patch the price rendering to add khipuPrice
+const _origOpenDetail = openDetail;
+openDetail = async function(id) {
+  return _origOpenDetail(id);
+};
+
+// Override renderDetailSpecs to always show description from name
+const _origRenderDetailSpecs = typeof renderDetailSpecs === 'function' ? renderDetailSpecs : null;
+function renderDetailSpecs(p) {
+  if (_origRenderDetailSpecs) _origRenderDetailSpecs(p);
+  
+  // If specsBox is hidden (no techKeys), try buildProductDescription from name
+  const specsBox = document.getElementById('detail-specs-box');
+  const descSection = document.getElementById('detail-desc-section');
+  const descBody = document.getElementById('detail-desc-body');
+  
+  // Always show description section if we have a product name
+  if (descSection && descBody && p && p.name) {
+    const specs = p.specs || {};
+    // Only use buildProductDescription if AI description hasn't loaded yet
+    if (descBody.innerHTML.includes('Generando') || descBody.innerHTML === '') {
+      const localDesc = buildProductDescription(p.name, p.category_id || p.category, specs);
+      if (localDesc) {
+        descBody.innerHTML = localDesc;
+        descSection.style.display = '';
+      }
+    }
+  }
+}
 
 // renderHome compatibility (called by original loadData init)
 function renderHome() {
