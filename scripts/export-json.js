@@ -68,6 +68,9 @@ const STOP_WORDS = new Set([
   'version','plus','pro','max','ultra','slim','pcie','nvme','sata',
   'hdmi','usb','lan','wan','type','de','la','el','en','con','para',
   'y','a','the','of','and','sin','video','turbo','cache','generacion',
+  'no','si','negro','blanco','rojo','azul','gris','silver','black','white',
+  'psu','gpu','cpu','certificacion','certificado','nuevo','new',
+  '80plus','80','plus','w','gb','tb','mhz','ghz',
 ]);
 
 const BRANDS = new Set([
@@ -109,7 +112,7 @@ function shouldMerge(name1, name2) {
   const smaller = s1.size <= s2.size ? s1 : s2;
   const containment = intersection.size / smaller.size;
   const jaccard = intersection.size / new Set([...s1, ...s2]).size;
-  return containment >= 0.80 || jaccard >= 0.70;
+  return containment >= 0.72 || jaccard >= 0.65;
 }
 
 // ── Agrupación principal ──────────────────────────────────────────────────
@@ -163,6 +166,7 @@ function mergeGroup(indices, pricesByProduct) {
   const allPrices = [];
   let bestProduct = null;
   let minPrice = Infinity;
+  let mostSpecs = -1;
 
   for (const p of indices) {
     const prices = pricesByProduct[p.id] || [];
@@ -179,11 +183,19 @@ function mergeGroup(indices, pricesByProduct) {
       minPrice = groupMin;
       bestProduct = p;
     }
+    // Prefer product with more specs for better detail page
+    try {
+      const specCount = p.specs ? Object.keys(JSON.parse(p.specs)).length : 0;
+      if (specCount > mostSpecs) {
+        mostSpecs = specCount;
+        bestProduct = p; // override with spec-rich product
+      }
+    } catch(e) {}
   }
 
   if (!bestProduct) bestProduct = indices[0];
   allPrices.sort((a, b) => a.price - b.price);
-  return { product: bestProduct, prices: allPrices };
+  return { product: bestProduct, prices: allPrices, group: indices };
 }
 
 // ── 1. Categorías ─────────────────────────────────────────────────────────
@@ -278,7 +290,7 @@ console.log(`   → ${products.length} productos únicos (de ${rawProducts.lengt
 
 // ── 9. Detalle por producto ───────────────────────────────────────────────
 let detailCount = 0;
-for (const { product: p, prices } of mergedProducts) {
+for (const { product: p, prices, group } of mergedProducts) {
   if (!prices.length) continue;
 
   const history = db.prepare(`
@@ -292,8 +304,27 @@ for (const { product: p, prices } of mergedProducts) {
     ORDER BY date ASC
   `).all(p.id);
 
+  // Merge specs from all products in group (prefer non-price specs)
   let specs = {};
-  try { specs = p.specs ? JSON.parse(p.specs) : {}; } catch {}
+  for (const gp of (group || [p])) {
+    try {
+      const gpSpecs = gp.specs ? JSON.parse(gp.specs) : {};
+      // Count non-price keys
+      const techKeys = Object.keys(gpSpecs).filter(k => {
+        const l = k.toLowerCase();
+        return !['efectivo','transferencia','tarjeta','webpay','crédito','credito','precio','khipu'].some(w => l.includes(w));
+      });
+      if (techKeys.length > Object.keys(specs).filter(k => {
+        const l = k.toLowerCase();
+        return !['efectivo','transferencia','tarjeta','webpay','crédito','credito','precio','khipu'].some(w => l.includes(w));
+      }).length) {
+        specs = gpSpecs;
+      }
+    } catch {}
+  }
+  if (!Object.keys(specs).length) {
+    try { specs = p.specs ? JSON.parse(p.specs) : {}; } catch {}
+  }
 
   const enrichedPrices = prices.map(pr => {
     const storeRow = stores.find(s => s.id === pr.store_id);
