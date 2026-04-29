@@ -1,0 +1,82 @@
+{
+  "id": 9410,
+  "external_id": "spdigital_procesador-amd-ryzen-5-9600x-3-9ghz-5-4ghz-turbo-6core-12hilos-socket-am5-graficos-radeon",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 5 9600X, 3.9GHz(5.4GHz Turbo), 6Core/12Hilos, Socket AM5, Gráficos Radeon",
+  "slug": "procesador-amd-ryzen-5-9600x-3-9ghz-5-4ghz-turbo-6core-12hilos-socket-am5-graficos-radeon",
+  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-5-9600x-3-9ghz-5-4ghz-turbo-6core-12hilos-socket-am5-graficos-radeon.jpg",
+  "description": null,
+  "specs": {
+    "Núcleos": "6",
+    "Hilos": "12",
+    "Frecuencia base": "3,9 GHz",
+    "Frecuencia turbo": "5,4 GHz",
+    "Socket": "AM5",
+    "Generación": "AMD Zen 5 (4nm)",
+    "Gráficos integrados": "AMD Radeon",
+    "Familia": "AMD Ryzen™ 5",
+    "Litografía": "4 nm",
+    "Incluye cooler": "No",
+    "Caché L3": "38 MB",
+    "TDP": "65 W",
+    "Memoria soportada": "DDR5-SDRAM",
+    "Efectivo/Transferencia": "$399.990",
+    "Tarjeta crédito/débito": "$417.990"
+  },
+  "tags": [],
+  "created_at": "2026-04-28 20:53:57",
+  "updated_at": "2026-04-29 03:41:08",
+  "prices": [
+    {
+      "product_id": 1151,
+      "store_id": "cg",
+      "price": 265990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-9600x/",
+      "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$265.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 9410,
+      "store_id": "spdigital",
+      "price": 399990,
+      "price_normal": 417990,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/amd-ryzen-5-9600x-6-core-processor",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$399.990",
+        "Webpay / Tarjeta": "$417.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-28",
+      "price": 399990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-29",
+      "price": 399990
+    }
+  ],
+  "scraped_at": "2026-04-29"
+}

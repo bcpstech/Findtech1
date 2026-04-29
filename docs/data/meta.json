@@ -1,9 +1,16 @@
 {
   "last_update": "2026-04-29",
-  "generated_at": "2026-04-29T03:41:10.890Z",
-  "total_products": 651,
+  "generated_at": "2026-04-29T04:10:11.898Z",
+  "total_products": 617,
   "total_stores": 18,
   "last_runs": [
+    {
+      "store_id": "myshop",
+      "status": "success",
+      "products_updated": 0,
+      "errors_count": 0,
+      "finished_at": "2026-04-29 04:10:09"
+    },
     {
       "store_id": "trulustore",
       "status": "success",
@@ -136,13 +143,6 @@
       "products_updated": 136,
       "errors_count": 0,
       "finished_at": "2026-04-28 20:50:07"
-    },
-    {
-      "store_id": "n1g",
-      "status": "success",
-      "products_updated": 511,
-      "errors_count": 0,
-      "finished_at": "2026-04-28 20:46:38"
     }
   ]
 }

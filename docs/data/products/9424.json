@@ -18,8 +18,27 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:08",
-  "updated_at": "2026-04-28 22:23:00",
+  "updated_at": "2026-04-29 03:41:08",
   "prices": [
+    {
+      "product_id": 2643,
+      "store_id": "trulustore",
+      "price": 124990,
+      "price_normal": 131240,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/placa-madre-asus-prime-b550m-a-ac-wifi-am4/",
+      "store_name": "TruluStore",
+      "price_specs": {
+        "Efectivo / Transferencia": "$124.990",
+        "Khipu": "$127.490",
+        "Tarjeta crédito/débito": "$131.240"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    },
     {
       "product_id": 9424,
       "store_id": "spdigital",
@@ -45,7 +64,13 @@
       "store_name": "SP Digital",
       "date": "2026-04-28",
       "price": 179990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-29",
+      "price": 179990
     }
   ],
-  "scraped_at": "2026-04-28"
+  "scraped_at": "2026-04-29"
 }

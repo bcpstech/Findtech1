@@ -1,0 +1,73 @@
+{
+  "id": 9439,
+  "external_id": "spdigital_placa-madre-asus-prime-a620m-k-socket-am5-2x-ddr5-m-2-pcie-4-0-1gbe-hdmi-vga-micro-atx",
+  "category_id": "mobo",
+  "brand": "ASUS",
+  "name": "Placa Madre ASUS PRIME A620M-K, Socket AM5, 2x DDR5, M.2 PCIe 4.0, 1GbE, HDMI, VGA, Micro-ATX",
+  "slug": "placa-madre-asus-prime-a620m-k-socket-am5-2x-ddr5-m-2-pcie-4-0-1gbe-hdmi-vga-micro-atx",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asus-prime-a620m-k-socket-am5-2x-ddr5-m-2-pcie-4-0-1gbe-hdmi-vga-micro-atx.png",
+  "description": null,
+  "specs": {
+    "Socket": "AM5",
+    "Factor de forma": "micro ATX",
+    "Memoria": "DDR5",
+    "Chipset": "AMD A620",
+    "Efectivo/Transferencia": "$102.360",
+    "Tarjeta crédito/débito": "$106.960"
+  },
+  "tags": [],
+  "created_at": "2026-04-28 20:54:15",
+  "updated_at": "2026-04-29 03:41:08",
+  "prices": [
+    {
+      "product_id": 1167,
+      "store_id": "cg",
+      "price": 97990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-a620m-k-ddr5/",
+      "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$97.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 9439,
+      "store_id": "spdigital",
+      "price": 102360,
+      "price_normal": 106960,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/mb-sam5-prime-a620m-k-ddr5-matxm2hdmivgausb30-asus",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$102.360",
+        "Webpay / Tarjeta": "$106.960"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-28",
+      "price": 102360
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-29",
+      "price": 102360
+    }
+  ],
+  "scraped_at": "2026-04-29"
+}

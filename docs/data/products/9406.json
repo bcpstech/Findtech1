@@ -1,0 +1,101 @@
+{
+  "id": 9406,
+  "external_id": "spdigital_procesador-amd-ryzen-5-5600gt-am4-6-nucleos-12-hilos-4-60ghz",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 5 5600GT, AM4, 6 Nucleos, 12 Hilos, 4.60GHz",
+  "slug": "procesador-amd-ryzen-5-5600gt-am4-6-nucleos-12-hilos-4-60ghz",
+  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-5-5600gt-am4-6-nucleos-12-hilos-4-60ghz.jpg",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "3,6 GHz",
+    "Socket": "AM4",
+    "Generación": "AMD Zen 5 (4nm)",
+    "Familia": "AMD Ryzen™ 5",
+    "Núcleos": "6",
+    "Litografía": "7 nm",
+    "Incluye cooler": "Si",
+    "Hilos": "12",
+    "Frecuencia turbo": "4,6 GHz",
+    "Caché L3": "16 MB",
+    "TDP": "65 W",
+    "Memoria soportada": "DDR4-SDRAM",
+    "Gráficos integrados": "AMD Radeon Graphics",
+    "Efectivo/Transferencia": "$219.990",
+    "Tarjeta crédito/débito": "$229.890"
+  },
+  "tags": [],
+  "created_at": "2026-04-28 20:53:55",
+  "updated_at": "2026-04-29 03:41:08",
+  "prices": [
+    {
+      "product_id": 1149,
+      "store_id": "cg",
+      "price": 153990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-5600gt/",
+      "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$153.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 9406,
+      "store_id": "spdigital",
+      "price": 219990,
+      "price_normal": 229890,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/ryzen-5-5600gt-460ghz-6core-skt-am4-19m",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$219.990",
+        "Webpay / Tarjeta": "$229.890"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 2624,
+      "store_id": "trulustore",
+      "price": 569990,
+      "price_normal": 598490,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/pc-gamer-amd-ryzen-5-5600gt-igpu-radeon-vega-7-8gb-ram-3200mhz-ssd-nvme-m-2-500gb-gabinete-antec-vx100m-argb-3-ventiladores/",
+      "store_name": "TruluStore",
+      "price_specs": {
+        "Efectivo / Transferencia": "$569.990",
+        "Khipu": "$581.390",
+        "Tarjeta crédito/débito": "$598.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-28",
+      "price": 219990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-29",
+      "price": 219990
+    }
+  ],
+  "scraped_at": "2026-04-29"
+}

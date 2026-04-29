@@ -1,0 +1,82 @@
+{
+  "id": 9407,
+  "external_id": "spdigital_procesador-amd-ryzen-5-7600-am5-3-8-ghz-hasta-5-1-ghz-cache-32mb-6-nucleos-65w",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 5 7600, AM5, 3.8 GHz (hasta 5.1 GHz), Caché 32MB, 6 Núcleos, 65W",
+  "slug": "procesador-amd-ryzen-5-7600-am5-3-8-ghz-hasta-5-1-ghz-cache-32mb-6-nucleos-65w",
+  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-5-7600-am5-3-8-ghz-hasta-5-1-ghz-cache-32mb-6-nucleos-65w.jpg",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "38 GHz",
+    "Frecuencia turbo": "5.1 GHz",
+    "TDP": "65 W",
+    "Socket": "AM5",
+    "Generación": "AMD Zen 5 (4nm)",
+    "Familia": "AMD Ryzen™ 5",
+    "Núcleos": "6",
+    "Litografía": "5 nm",
+    "Incluye cooler": "Si",
+    "Hilos": "12",
+    "Caché L3": "32 MB",
+    "Memoria soportada": "DDR5-SDRAM",
+    "Gráficos integrados": "AMD Radeon Graphics",
+    "Efectivo/Transferencia": "$352.990",
+    "Tarjeta crédito/débito": "$368.870"
+  },
+  "tags": [],
+  "created_at": "2026-04-28 20:53:55",
+  "updated_at": "2026-04-29 03:41:08",
+  "prices": [
+    {
+      "product_id": 1142,
+      "store_id": "cg",
+      "price": 223714,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/amd-ryzen-5-7600-3-8-ghz-6-nucleos-12-hilos-32-mb-cache-socket-am5-caja/",
+      "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$223.714"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 9407,
+      "store_id": "spdigital",
+      "price": 352990,
+      "price_normal": 368870,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-5-7600-wraith-sthealth-65w",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$352.990",
+        "Webpay / Tarjeta": "$368.870"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-28",
+      "price": 352990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-29",
+      "price": 352990
+    }
+  ],
+  "scraped_at": "2026-04-29"
+}

@@ -18,8 +18,27 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:32",
-  "updated_at": "2026-04-28 22:23:00",
+  "updated_at": "2026-04-29 03:41:08",
   "prices": [
+    {
+      "product_id": 2596,
+      "store_id": "trulustore",
+      "price": 519990,
+      "price_normal": 545990,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-ti-16gb-twin-edge-oc-white-edition/",
+      "store_name": "TruluStore",
+      "price_specs": {
+        "Efectivo / Transferencia": "$519.990",
+        "Khipu": "$530.390",
+        "Tarjeta crédito/débito": "$545.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    },
     {
       "product_id": 9587,
       "store_id": "spdigital",
@@ -45,7 +64,13 @@
       "store_name": "SP Digital",
       "date": "2026-04-28",
       "price": 626180
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-29",
+      "price": 626180
     }
   ],
-  "scraped_at": "2026-04-28"
+  "scraped_at": "2026-04-29"
 }

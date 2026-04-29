@@ -1,0 +1,82 @@
+{
+  "id": 9402,
+  "external_id": "spdigital_procesador-amd-ryzen-5-8500g-am5-6-nucleos-12-hilos-graficos-radeon-740m",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 5 8500G, AM5, 6 Nucleos, 12 Hilos, Gráficos Radeon 740M",
+  "slug": "procesador-amd-ryzen-5-8500g-am5-6-nucleos-12-hilos-graficos-radeon-740m",
+  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-5-8500g-am5-6-nucleos-12-hilos-graficos-radeon-740m.jpg",
+  "description": null,
+  "specs": {
+    "Socket": "AM5",
+    "Generación": "AMD Zen 5 (4nm)",
+    "Gráficos integrados": "AMD Radeon 740M",
+    "Familia": "AMD Ryzen™ 5",
+    "Núcleos": "6",
+    "Litografía": "4 nm",
+    "Incluye cooler": "No",
+    "Frecuencia base": "3,5 GHz",
+    "Hilos": "12",
+    "Frecuencia turbo": "5 GHz",
+    "Caché L3": "16 MB",
+    "TDP": "65 W",
+    "Memoria soportada": "DDR5-SDRAM",
+    "Efectivo/Transferencia": "$249.990",
+    "Tarjeta crédito/débito": "$261.240"
+  },
+  "tags": [],
+  "created_at": "2026-04-28 20:53:53",
+  "updated_at": "2026-04-29 03:41:08",
+  "prices": [
+    {
+      "product_id": 1148,
+      "store_id": "cg",
+      "price": 155990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-8500g/",
+      "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$155.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 9402,
+      "store_id": "spdigital",
+      "price": 249990,
+      "price_normal": 261240,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-5-8500g",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$249.990",
+        "Webpay / Tarjeta": "$261.240"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-28",
+      "price": 249990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-29",
+      "price": 249990
+    }
+  ],
+  "scraped_at": "2026-04-29"
+}

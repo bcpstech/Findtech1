@@ -1,0 +1,83 @@
+{
+  "id": 9396,
+  "external_id": "spdigital_procesador-amd-ryzen-7-9850x3d-socket-am5-8-nucleos-16-hilos-4-7-ghz-tdp-120w",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 7 9850X3D, Socket AM5, 8 Núcleos, 16 Hilos, 4.7 GHz, TDP 120W",
+  "slug": "procesador-amd-ryzen-7-9850x3d-socket-am5-8-nucleos-16-hilos-4-7-ghz-tdp-120w",
+  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-7-9850x3d-socket-am5-8-nucleos-16-hilos-4-7-ghz-tdp-120w.jpg",
+  "description": null,
+  "specs": {
+    "Familia": "AMD Ryzen™ 7",
+    "Núcleos": "8",
+    "Socket": "AM5",
+    "Litografía": "4 nm",
+    "Incluye cooler": "No",
+    "Frecuencia base": "4,7 GHz",
+    "Hilos": "16",
+    "Frecuencia turbo": "5,6 GHz",
+    "Caché L3": "96 MB",
+    "TDP": "120 W",
+    "Memoria soportada": "DDR5-SDRAM",
+    "Gráficos integrados": "AMD Radeon Graphics",
+    "Efectivo/Transferencia": "$699.990",
+    "Tarjeta crédito/débito": "$731.490"
+  },
+  "tags": [],
+  "created_at": "2026-04-28 20:53:51",
+  "updated_at": "2026-04-29 03:32:38",
+  "prices": [
+    {
+      "product_id": 2616,
+      "store_id": "trulustore",
+      "price": 659990,
+      "price_normal": 692990,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/procesador-amd-ryzen-7-9850x3d-am5-8c-16t-5-6ghz-96mb-cache/",
+      "store_name": "TruluStore",
+      "price_specs": {
+        "Efectivo / Transferencia": "$659.990",
+        "Khipu": "$673.190",
+        "Tarjeta crédito/débito": "$692.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 9396,
+      "store_id": "spdigital",
+      "price": 699990,
+      "price_normal": 731490,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-7-9850x3d-socket-am5-8-nucleos-16-hilos-47-ghz-tdp-120w",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$699.990",
+        "Webpay / Tarjeta": "$731.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-28",
+      "price": 699990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-29",
+      "price": 699990
+    }
+  ],
+  "scraped_at": "2026-04-29"
+}

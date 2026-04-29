@@ -1,0 +1,81 @@
+{
+  "id": 9397,
+  "external_id": "spdigital_procesador-amd-ryzen-7-5700g-am4-8-core-3-8ghz-max-boost-4-6ghz-radeon-vega-graphics",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 7 5700G, AM4 , 8-Core, 3,8Ghz (Max boost 4.6Ghz), Radeon Vega Graphics",
+  "slug": "procesador-amd-ryzen-7-5700g-am4-8-core-3-8ghz-max-boost-4-6ghz-radeon-vega-graphics",
+  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-7-5700g-am4-8-core-3-8ghz-max-boost-4-6ghz-radeon-vega-graphics.jpg",
+  "description": null,
+  "specs": {
+    "Familia": "AMD Ryzen™ 7",
+    "Núcleos": "8",
+    "Socket": "AM4",
+    "Litografía": "7 nm",
+    "Incluye cooler": "Si",
+    "Frecuencia base": "3,8 GHz",
+    "Hilos": "16",
+    "Frecuencia turbo": "4,6 GHz",
+    "Caché L3": "16 MB",
+    "TDP": "65 W",
+    "Memoria soportada": "DDR4-SDRAM",
+    "Gráficos integrados": "AMD Radeon Graphics",
+    "Efectivo/Transferencia": "$449.990",
+    "Tarjeta crédito/débito": "$470.240"
+  },
+  "tags": [],
+  "created_at": "2026-04-28 20:53:51",
+  "updated_at": "2026-04-29 03:32:38",
+  "prices": [
+    {
+      "product_id": 1147,
+      "store_id": "cg",
+      "price": 209990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-7-5700g/",
+      "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$209.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 9397,
+      "store_id": "spdigital",
+      "price": 449990,
+      "price_normal": 470240,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-7-5700g-8-core-38ghz-max-boost-46ghz-socket-am4-radeon-vega-graphics",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$449.990",
+        "Webpay / Tarjeta": "$470.240"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-28",
+      "price": 449990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-29",
+      "price": 449990
+    }
+  ],
+  "scraped_at": "2026-04-29"
+}
