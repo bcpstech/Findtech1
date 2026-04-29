@@ -177,3 +177,5 @@ console.log('   Tiendas insertadas:', stores.length);
 console.log('   Categorías insertadas:', categories.length);
 
 db.close();
+  db.prepare("INSERT OR IGNORE INTO categories VALUES ('cooling_pasta','cooling','Pastas Térmicas',null,4)").run();
+  db.prepare("INSERT OR IGNORE INTO categories VALUES ('case_accesorio','case','Accesorios',null,5)").run();
