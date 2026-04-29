@@ -52,6 +52,7 @@ const CATEGORY_URLS = [
   { url: '/categoria-producto/componentes-pc/refrigeracion/refrigeracion-aire/',    catId: 'cooling', sub: 'aire'    },
   { url: '/categoria-producto/componentes-pc/refrigeracion/refrigeracion-liquida/', catId: 'cooling', sub: 'liquida' },
   { url: '/categoria-producto/componentes-pc/refrigeracion/ventiladores/',          catId: 'cooling', sub: 'fans'    },
+  { url: '/categoria-producto/componentes-pc/refrigeracion/pastas-disipadora/',     catId: 'cooling', sub: 'pasta'   },
 
   // Almacenamiento
   { url: '/categoria-producto/componentes-pc/almacenamiento/disco-ssd-2-5/',  catId: 'storage', sub: 'sata' },
@@ -116,6 +117,7 @@ function classifyStorage(name) {
 
 function classifyCase(name) {
   const n = name.toUpperCase();
+  if (/ACCESORIO|SOPORTE|BRACKET|PANEL|FILTRO|RISER|CONTROLADORA|HUB/.test(n)) return 'accesorio';
   if (/E[\s-]?ATX|EXTENDED|EATX|FULL\s*TOWER/.test(n)) return 'eatx';
   if (/MICRO[\s-]?ATX|MATX/.test(n))                   return 'matx';
   if (/MINI[\s-]?ITX/.test(n))                          return 'itx';
