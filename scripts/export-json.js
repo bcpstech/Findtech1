@@ -123,7 +123,7 @@ function groupProducts(products) {
     if (model) {
       // Incluir marca en la key para evitar fusionar modelos distintos de marcas distintas
       const brandToken = extractBrand(tokenize(p.name)) || 'generic';
-      const key = `${brandToken}_${model}`;
+      const key = `${p.category_id}_${brandToken}_${model}`;
       if (!modelGroups[key]) modelGroups[key] = [];
       modelGroups[key].push(p);
     } else {
