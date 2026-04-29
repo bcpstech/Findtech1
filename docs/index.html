@@ -1816,9 +1816,14 @@ function toggleTheme() {
 
 // renderHome compatibility (called by original loadData init)
 function renderHome() {
+  // Show home page explicitly
+  document.querySelectorAll('.page').forEach(el => el.classList.remove('active'));
+  const homeEl = document.getElementById('page-home');
+  if (homeEl) homeEl.classList.add('active');
+  currentPage = 'home';
+
   renderHomeCats();
   renderFeatured();
-  renderSidebarCats();
   // Update stat counters
   const pEl = document.getElementById('hw-stat-prods');
   const sEl = document.getElementById('hw-stat-stores');
