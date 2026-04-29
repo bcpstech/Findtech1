@@ -8,22 +8,31 @@
   "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-rtx-5060-8gb-msi-gaming-trio-oc.jpg",
   "description": null,
   "specs": {
-    "Transferencia/Efectivo": "$499.990",
-    "Webpay / Tarjeta": "$514.990"
+    "VRAM": "8 GB",
+    "Variante": "OC (Overclocked)",
+    "Efectivo / Transferencia": "$499.990",
+    "Khipu": "$509.990",
+    "Tarjeta crédito/débito": "$524.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:16",
-  "updated_at": "2026-04-26 20:52:16",
+  "updated_at": "2026-04-29 16:36:05",
   "prices": [
     {
       "product_id": 2607,
       "store_id": "trulustore",
       "price": 499990,
-      "price_normal": null,
+      "price_normal": 524990,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-rtx-5060-8gb-msi-gaming-trio-oc/",
       "store_name": "TruluStore",
+      "khipu_price": 509990,
+      "price_specs": {
+        "Efectivo / Transferencia": "$499.990",
+        "Khipu": "$509.990",
+        "Tarjeta crédito/débito": "$524.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.trulustore.cl",
@@ -36,7 +45,25 @@
       "store_name": "TruluStore",
       "date": "2026-04-26",
       "price": 499990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-27",
+      "price": 499990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-28",
+      "price": 499990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-04-29",
+      "price": 499990
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-04-29"
 }

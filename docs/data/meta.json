@@ -1,9 +1,44 @@
 {
   "last_update": "2026-04-29",
-  "generated_at": "2026-04-29T16:15:56.166Z",
-  "total_products": 619,
+  "generated_at": "2026-04-29T16:36:05.893Z",
+  "total_products": 683,
   "total_stores": 18,
   "last_runs": [
+    {
+      "store_id": "myshop",
+      "status": "success",
+      "products_updated": 0,
+      "errors_count": 0,
+      "finished_at": "2026-04-29 16:36:04"
+    },
+    {
+      "store_id": "trulustore",
+      "status": "success",
+      "products_updated": 98,
+      "errors_count": 0,
+      "finished_at": "2026-04-29 16:35:11"
+    },
+    {
+      "store_id": "spdigital",
+      "status": "success",
+      "products_updated": 425,
+      "errors_count": 0,
+      "finished_at": "2026-04-29 16:32:05"
+    },
+    {
+      "store_id": "cg",
+      "status": "success",
+      "products_updated": 139,
+      "errors_count": 0,
+      "finished_at": "2026-04-29 16:28:45"
+    },
+    {
+      "store_id": "n1g",
+      "status": "success",
+      "products_updated": 511,
+      "errors_count": 0,
+      "finished_at": "2026-04-29 16:24:58"
+    },
     {
       "store_id": "myshop",
       "status": "success",
@@ -108,41 +143,6 @@
       "products_updated": 136,
       "errors_count": 0,
       "finished_at": "2026-04-28 22:06:14"
-    },
-    {
-      "store_id": "n1g",
-      "status": "success",
-      "products_updated": 511,
-      "errors_count": 0,
-      "finished_at": "2026-04-28 22:02:28"
-    },
-    {
-      "store_id": "spdigital",
-      "status": "success",
-      "products_updated": 416,
-      "errors_count": 0,
-      "finished_at": "2026-04-28 21:20:15"
-    },
-    {
-      "store_id": "spdigital",
-      "status": "success",
-      "products_updated": 416,
-      "errors_count": 0,
-      "finished_at": "2026-04-28 21:07:51"
-    },
-    {
-      "store_id": "spdigital",
-      "status": "success",
-      "products_updated": 416,
-      "errors_count": 0,
-      "finished_at": "2026-04-28 20:57:36"
-    },
-    {
-      "store_id": "spdigital",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 0,
-      "finished_at": "2026-04-28 20:50:41"
     }
   ]
 }
