@@ -99,7 +99,9 @@ function extractBrand(tokens) {
   return tokens.find(t => BRANDS.has(t)) || null;
 }
 
-function shouldMerge(name1, name2) {
+function shouldMerge(name1, name2, cat1, cat2) {
+  // Nunca fusionar productos de categorías diferentes
+  if (cat1 && cat2 && cat1 !== cat2) return false;
   const t1 = tokenize(name1);
   const t2 = tokenize(name2);
   if (!t1.length || !t2.length) return false;
@@ -144,7 +146,7 @@ function groupProducts(products) {
     assigned.add(i);
     for (let j = i + 1; j < noModel.length; j++) {
       if (assigned.has(j)) continue;
-      if (group.some(g => shouldMerge(g.name, noModel[j].name))) {
+      if (group.some(g => shouldMerge(g.name, noModel[j].name, g.category_id, noModel[j].category_id))) {
         group.push(noModel[j]);
         assigned.add(j);
       }
@@ -348,6 +350,10 @@ for (const { product: p, prices, group } of mergedProducts) {
     }
     if (pr.price_normal && pr.price_normal > pr.price) {
       priceSpecs[labels.card] = `$${pr.price_normal.toLocaleString('es-CL')}`;
+    }
+    // Add khipu_price field for frontend rendering
+    if (labels.khipu) {
+      pr.khipu_price = Math.round(pr.price * 1.02);
     }
 
     return {
