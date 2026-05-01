@@ -1,182 +1,176 @@
 /**
  * scraper/stores/alltec.js
- * Alltec — PrestaShop con specs desde página de detalle
+ * Alltec — PrestaShop, categorías por ID numérico
  */
+require('dotenv').config();
 const BaseScraper = require('../base-scraper');
 const cheerio = require('cheerio');
 
-const BASE_URL     = 'https://www.alltec.cl';
-const PROXY_URL    = process.env.CF_PROXY_URL    || '';
-const PROXY_SECRET = process.env.CF_PROXY_SECRET || '';
+const BASE       = 'https://www.alltec.cl';
+const PROXY_URL  = process.env.CF_PROXY_URL    || '';
+const PROXY_KEY  = process.env.CF_PROXY_SECRET || '';
+const FACTOR     = 1.03;
 
 function proxify(url) {
   if (!PROXY_URL) return url;
-  return `${PROXY_URL}?url=${encodeURIComponent(url)}&secret=${PROXY_SECRET}`;
+  return `${PROXY_URL}?url=${encodeURIComponent(url)}&secret=${PROXY_KEY}`;
 }
 
+// IDs de categoría PrestaShop verificados en alltec.cl
 const CATEGORIES = [
-  { url: '/63-amd',                        catId: 'gpu'     },
-  { url: '/64-nvidia',                     catId: 'gpu'     },
-  { url: '/28-amd',                        catId: 'cpu'     },
-  { url: '/29-intel',                      catId: 'cpu'     },
-  { url: '/31-para-amd',                   catId: 'mobo'    },
-  { url: '/79-para-intel',                 catId: 'mobo'    },
-  { url: '/37-ddr4',                       catId: 'ram'     },
-  { url: '/118-ddr5',                      catId: 'ram'     },
-  { url: '/34-ssd',                        catId: 'storage' },
-  { url: '/33-mecanicos-rigidos',          catId: 'storage' },
-  { url: '/92-water-cooling',              catId: 'cooling' },
-  { url: '/93-cpu-cooler',                 catId: 'cooling' },
-  { url: '/38-potencia-nominal-estandar',  catId: 'psu'     },
-  { url: '/80-potencia-real-certificadas', catId: 'psu'     },
-  { url: '/81-sin-fuente-de-poder',        catId: 'case'    },
-  { url: '/82-con-fuente-de-poder',        catId: 'case'    },
+  { url: '/63-amd',                        catId: 'gpu',     sub: 'amd'    },
+  { url: '/64-nvidia',                     catId: 'gpu',     sub: 'nvidia' },
+  { url: '/28-amd',                        catId: 'cpu',     sub: 'amd'    },
+  { url: '/29-intel',                      catId: 'cpu',     sub: 'intel'  },
+  { url: '/31-para-amd',                   catId: 'mobo',    sub: 'am4'    },
+  { url: '/79-para-intel',                 catId: 'mobo',    sub: 'lga1700'},
+  { url: '/37-ddr4',                       catId: 'ram',     sub: 'ddr4'   },
+  { url: '/118-ddr5',                      catId: 'ram',     sub: 'ddr5'   },
+  { url: '/34-ssd',                        catId: 'storage'                },
+  { url: '/33-mecanicos-rigidos',          catId: 'storage', sub: 'hdd'    },
+  { url: '/92-water-cooling',              catId: 'cooling', sub: 'liquida'},
+  { url: '/93-cpu-cooler',                 catId: 'cooling', sub: 'aire'   },
+  { url: '/38-potencia-nominal-estandar',  catId: 'psu'                    },
+  { url: '/80-potencia-real-certificadas', catId: 'psu',     sub: 'certificada'},
+  { url: '/81-sin-fuente-de-poder',        catId: 'case'                   },
+  { url: '/82-con-fuente-de-poder',        catId: 'case'                   },
 ];
 
-const CARD_SURCHARGE = 1.03;
-const OUT_OF_STOCK_PHRASES = ['sin stock','agotado','out of stock','no disponible','sold out'];
-const PRODUCT_SELECTORS = [
-  'ul.products li.product','ul.product_list li',
-  '.products-grid .product-container','article.product-miniature','.ajax_block_product',
-];
+const OUT_OF_STOCK = ['sin stock','agotado','out of stock','no disponible','sold out'];
 
-function findProducts($) {
-  for (const sel of PRODUCT_SELECTORS) {
-    const items = $(sel);
-    if (items.length > 0) return items;
+function parsePrice(str) {
+  if (!str) return null;
+  const n = parseInt(String(str).replace(/[^\d]/g, ''));
+  return n > 1000 && n < 100000000 ? n : null;
+}
+
+function extractText($el, selectors) {
+  for (const sel of selectors) {
+    const t = $el.find(sel).first().text().trim();
+    if (t) return t;
   }
-  return $([]);
-}
-
-function detectStock($el) {
-  if ($el.find('.product-unavailable,.out-of-stock,.product-out-of-stock,.label-out-of-stock').length) return 'out_of_stock';
-  const txt = $el.find('.availability,[class*="stock"],.label-danger').text().toLowerCase() + $el.text().toLowerCase();
-  if (OUT_OF_STOCK_PHRASES.some(p => txt.includes(p))) return 'out_of_stock';
-  if ($el.find('button[disabled]').length) return 'out_of_stock';
-  return 'in_stock';
-}
-
-function extractPrice($el) {
-  const candidates = [
-    $el.find('.price-box span.price').first().text(),
-    $el.find('.product-price-and-shipping .price').first().text(),
-    $el.find('[itemprop="price"]').attr('content'),
-    $el.find('[itemprop="price"]').first().text(),
-    $el.find('.price').first().text(),
-  ];
-  for (const raw of candidates) { if (raw?.trim()) return raw.trim(); }
-  return '';
-}
-
-function extractName($el) {
-  const candidates = [
-    $el.find('.product-name').text(), $el.find('.product-title a').text(),
-    $el.find('h3 a').first().text(), $el.find('a[title]').attr('title'),
-  ];
-  for (const raw of candidates) { const n=(raw||'').trim(); if(n.length>3) return n; }
   return '';
 }
 
 class AlltecScraper extends BaseScraper {
-  constructor() { super('alltec', 'Alltec'); }
+  constructor() {
+    super('alltec', 'Alltec');
+    this.seenUrls = new Set();
+  }
 
   async scrapeAll() {
-    this.seenUrls = new Set();
     for (const cat of CATEGORIES) {
-      try { await this.scrapeCategory(cat); await this.delay(1500, 2500); }
-      catch (err) { this.stats.errors++; this.log('warn', `Error ${cat.catId}: ${err.message}`); }
-    }
-  }
-
-  async scrapeCategory({ url: categoryPath, catId }) {
-    let page = 1;
-    while (page <= 20) {
-      const url = proxify(`${BASE_URL}${categoryPath}?page=${page}`);
-      this.log('info', `[alltec] ${catId} ${categoryPath} pág ${page}`);
       try {
-        const res = await this.client.get(url, {
-          headers: { 'Accept': 'text/html,application/xhtml+xml', 'Accept-Language': 'es-CL,es;q=0.9',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36' }
-        });
-        const $ = cheerio.load(res.data);
-        const items = findProducts($);
-        if (!items.length) { this.log('info', `[alltec] Sin productos pág ${page}`); break; }
-
-        let newInPage = 0;
-        for (const el of items.toArray()) {
-          try {
-            const $el = $(el);
-            const productUrl = $el.find('a.products-block-image').attr('href')
-                            || $el.find('.product-name a').attr('href')
-                            || $el.find('h3 a').first().attr('href')
-                            || $el.find('a').first().attr('href') || '';
-            if (this.seenUrls.has(productUrl)) continue;
-            this.seenUrls.add(productUrl);
-
-            const name = extractName($el);
-            if (!name) continue;
-            const price = this.parseAlltecPrice(extractPrice($el));
-            if (!price || price < 1000) continue;
-
-            const stock = detectStock($el);
-            const oldRaw = $el.find('.price-box .old-price,.regular-price,.old-price').text().trim();
-            const regularPrice = oldRaw ? this.parseAlltecPrice(oldRaw) : null;
-            const priceCard = Math.round(price * CARD_SURCHARGE);
-            const imageUrl = $el.find('img.img-responsive').attr('src')
-                          || $el.find('img').first().attr('data-src')
-                          || $el.find('img').first().attr('src') || null;
-
-            // Specs desde página de detalle
-            let techSpecs = {};
-            if (productUrl) {
-              techSpecs = await this.fetchProductSpecs(productUrl, proxify);
-              await this.delay(300, 600);
-            }
-
-            this.stats.found++;
-            newInPage++;
-            await this.saveProductWithR2(
-              {
-                name, category: catId, brand: this.extractBrand(name), imageUrl,
-                specs: {
-                  ...techSpecs,
-                  'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
-                  'Tarjeta crédito/débito': `$${priceCard.toLocaleString('es-CL')}`,
-                }
-              },
-              {
-                current:  price,
-                normal:   regularPrice > price ? regularPrice : null,
-                discount: regularPrice > price ? Math.round((1 - price / regularPrice) * 100) : null,
-                stock, url: productUrl || null,
-              }
-            );
-          } catch (err) { this.log('warn', `[alltec] Error item: ${err.message}`); }
-        }
-
-        this.log('info', `[alltec] ✓ ${catId} pág ${page}: ${newInPage} nuevos`);
-        if (items.length < 8) break;
-        page++;
-        await this.delay(1000, 2000);
+        await this.scrapeCategory(cat);
+        await this.delay(2000, 3500);
       } catch (err) {
         this.stats.errors++;
-        this.log('warn', `[alltec] Error HTTP ${categoryPath} pág ${page}: ${err.message}`);
-        break;
+        this.log('warn', `[alltec] Error ${cat.catId}: ${err.message}`);
       }
     }
-    this.log('info', `✓ alltec ${catId} total: ${this.stats.found}`);
   }
 
-  parseAlltecPrice(str) {
-    if (!str) return null;
-    const clean = str.replace(/\$/g,'').replace(/\./g,'').replace(/,/g,'').replace(/\s/g,'');
-    const num = parseInt(clean);
-    if (isNaN(num) || num < 1000 || num > 100000000) return null;
-    return num;
+  async scrapeCategory(cat) {
+    let page = 1;
+    let total = 0;
+
+    while (page <= 20) {
+      const pageUrl = proxify(`${BASE}${cat.url}?page=${page}`);
+      this.log('info', `[alltec] ${cat.catId} ${cat.url} pág ${page}`);
+
+      let $;
+      try {
+        const res = await this.client.get(pageUrl, {
+          headers: {
+            Accept: 'text/html,application/xhtml+xml',
+            'Accept-Language': 'es-CL,es;q=0.9',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+          },
+          timeout: 25000,
+        });
+        $ = cheerio.load(res.data);
+      } catch (err) {
+        this.log('warn', `[alltec] HTTP error: ${err.message}`);
+        break;
+      }
+
+      // PrestaShop: article.product-miniature
+      const items = $('article.product-miniature, .ajax_block_product, ul.product_list li');
+      if (!items.length) {
+        this.log('info', `[alltec] Sin productos pág ${page}`);
+        break;
+      }
+
+      let newInPage = 0;
+      for (const el of items.toArray()) {
+        try {
+          const $el = $(el);
+
+          const productUrl = $el.find('a.product-thumbnail, .product-name a, h3 a').first().attr('href') || '';
+          if (!productUrl || this.seenUrls.has(productUrl)) continue;
+          this.seenUrls.add(productUrl);
+
+          const name = extractText($el, [
+            '.product-title a', '.product-name a', 'h3 a', 'a[title]',
+          ]) || $el.find('a[title]').first().attr('title') || '';
+          if (!name || name.length < 4) continue;
+
+          // PrestaShop: precio con descuento en .price, precio normal en .regular-price
+          const priceRaw  = extractText($el, ['.price', '.product-price-and-shipping .price', '[itemprop="price"]']);
+          const price = parsePrice(priceRaw);
+          if (!price) continue;
+
+          const normalRaw = extractText($el, ['.regular-price', '.old-price', '.price-old']);
+          const priceNormal = normalRaw ? parsePrice(normalRaw) : null;
+          const priceCard   = Math.round(price * FACTOR);
+          const discount    = priceNormal && priceNormal > price
+            ? Math.round((1 - price / priceNormal) * 100) : null;
+
+          // Stock
+          const txt = $el.text().toLowerCase();
+          const stock = OUT_OF_STOCK.some(p => txt.includes(p)) ||
+            $el.find('.product-unavailable,.out-of-stock').length
+            ? 'out_of_stock' : 'in_stock';
+
+          const imageUrl = $el.find('img').first().attr('data-src')
+                        || $el.find('img').first().attr('src') || null;
+
+          this.stats.found++;
+          newInPage++;
+
+          await this.saveProductWithR2(
+            {
+              name,
+              category: cat.catId,
+              brand: this.extractBrand(name),
+              imageUrl,
+              specs: {
+                'Efectivo / Transferencia': `$${price.toLocaleString('es-CL')}`,
+                'Tarjeta crédito/débito':   `$${priceCard.toLocaleString('es-CL')}`,
+              },
+            },
+            { current: price, normal: priceNormal, discount, stock, url: productUrl }
+          );
+        } catch (err) {
+          this.log('warn', `[alltec] item error: ${err.message}`);
+        }
+      }
+
+      total += newInPage;
+      this.log('info', `[alltec] ✓ ${cat.url} pág ${page}: ${newInPage}`);
+      if (items.length < 6 || newInPage === 0) break;
+      page++;
+      await this.delay(1500, 2500);
+    }
+
+    this.log('info', `[alltec] ✓ ${cat.url}: ${total} total`);
   }
 }
 
 if (require.main === module) {
-  new AlltecScraper().run().then(r => { console.log('Alltec:', r); process.exit(r.success ? 0 : 1); });
+  new AlltecScraper().run().then(r => {
+    console.log('Alltec:', r);
+    process.exit(r.success ? 0 : 1);
+  });
 }
 module.exports = AlltecScraper;
