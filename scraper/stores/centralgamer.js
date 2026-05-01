@@ -114,8 +114,11 @@ function shouldPublish(name, catId) {
 
 function parsePrice(raw) {
   if (!raw) return null;
-  const n = parseInt(String(raw).replace(/[^\d]/g, ''));
-  return (!n || n < 1000 || n > 500000000) ? null : n;
+  let n = parseInt(String(raw).replace(/[^\d]/g, ''));
+  if (!n || n < 1000 || n > 50000000000) return null;
+  // WooCommerce Store API devuelve precios en centavos (×100)
+  if (n > 100000000) n = Math.round(n / 100);
+  return n;
 }
 
 class CentralGamerScraper extends BaseScraper {
@@ -197,9 +200,12 @@ class CentralGamerScraper extends BaseScraper {
     const price = parsePrice(p.prices?.price);
     if (!price) return;
 
-    const priceNormal = parsePrice(p.prices?.regular_price);
+    const priceNormalRaw = parsePrice(p.prices?.regular_price);
+    // price = efectivo/transferencia (precio con descuento)
+    // priceNormalRaw = precio sin descuento (tachado)
+    const priceNormal = priceNormalRaw && priceNormalRaw > price ? priceNormalRaw : null;
     const priceCard   = Math.round(price * CARD_FACTOR);
-    const discount    = priceNormal && priceNormal > price
+    const discount    = priceNormal
       ? Math.round((1 - price / priceNormal) * 100) : null;
 
     // Sub-clasificación según categoría
@@ -256,11 +262,11 @@ class CentralGamerScraper extends BaseScraper {
         specs: allSpecs,
       },
       {
-        current:  price,
-        normal:   priceNormal > price ? priceNormal : null,
-        discount,
-        stock: p.is_in_stock ? 'in_stock' : 'out_of_stock',
-        url: productUrl,
+      current:  price,        // efectivo/transferencia
+      normal:   priceNormal,  // precio tachado (sin descuento)
+      discount,
+      stock: p.is_in_stock ? 'in_stock' : 'out_of_stock',
+      url: productUrl,
       }
     );
   }
