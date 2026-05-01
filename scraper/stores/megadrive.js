@@ -1,101 +1,158 @@
 /**
  * scraper/stores/megadrive.js
- * MegaDrive.cl — WooCommerce HTML scraping via proxy
+ * MegaDrive — WooCommerce HTML scraping por categorías
  */
+require('dotenv').config();
 const BaseScraper = require('../base-scraper');
 const cheerio = require('cheerio');
 
-const BASE_URL     = 'https://www.megadrive.cl';
-const PROXY_URL    = process.env.CF_PROXY_URL    || '';
-const PROXY_SECRET = process.env.CF_PROXY_SECRET || '';
+const BASE      = 'https://www.megadrive.cl';
+const PROXY_URL = process.env.CF_PROXY_URL    || '';
+const PROXY_KEY = process.env.CF_PROXY_SECRET || '';
+const FACTOR    = 1.03;
 
 function proxify(url) {
   if (!PROXY_URL) return url;
-  return `${PROXY_URL}?url=${encodeURIComponent(url)}&secret=${PROXY_SECRET}`;
+  return `${PROXY_URL}?url=${encodeURIComponent(url)}&secret=${PROXY_KEY}`;
 }
 
-const SEARCHES = [
-  { query: 'rtx',          catId: 'gpu',     minPrice: 80000 },
-  { query: 'radeon rx',    catId: 'gpu',     minPrice: 80000 },
-  { query: 'ryzen',        catId: 'cpu',     minPrice: 20000 },
-  { query: 'core i',       catId: 'cpu',     minPrice: 20000 },
-  { query: 'placa madre',  catId: 'mobo',    minPrice: 30000 },
-  { query: 'memoria ddr',  catId: 'ram',     minPrice: 10000 },
-  { query: 'ssd nvme',     catId: 'storage', minPrice: 15000 },
-  { query: 'fuente poder', catId: 'psu',     minPrice: 20000 },
-  { query: 'gabinete',     catId: 'case',    minPrice: 20000 },
+const CATEGORIES = [
+  { url: '/categoria-producto/tarjetas-de-video/',  catId: 'gpu'     },
+  { url: '/categoria-producto/procesadores/',        catId: 'cpu'     },
+  { url: '/categoria-producto/placas-madre/',        catId: 'mobo'    },
+  { url: '/categoria-producto/memorias-ram/',        catId: 'ram'     },
+  { url: '/categoria-producto/almacenamiento/',      catId: 'storage' },
+  { url: '/categoria-producto/refrigeracion/',       catId: 'cooling' },
+  { url: '/categoria-producto/fuentes-de-poder/',    catId: 'psu'     },
+  { url: '/categoria-producto/gabinetes/',           catId: 'case'    },
 ];
 
-const OUT_OF_STOCK = ['sin stock','agotado','out of stock','no disponible'];
+const OUT_OF_STOCK = ['sin stock', 'agotado', 'out of stock', 'no disponible'];
+
+function parsePrice(str) {
+  if (!str) return null;
+  const n = parseInt(String(str).replace(/[^\d]/g, ''));
+  return n > 1000 && n < 100000000 ? n : null;
+}
 
 class MegaDriveScraper extends BaseScraper {
-  constructor() { super('megadrive', 'MegaDrive'); }
+  constructor() {
+    super('megadrive', 'MegaDrive');
+    this.seenUrls = new Set();
+  }
 
   async scrapeAll() {
-    this.seenUrls = new Set();
-    for (const cat of SEARCHES) {
+    for (const cat of CATEGORIES) {
       try {
-        await this.scrapeSearch(cat);
-        await this.delay(2000, 3000);
+        await this.scrapeCategory(cat);
+        await this.delay(2000, 3500);
       } catch (err) {
         this.stats.errors++;
-        this.log('warn', `Error ${cat.catId}: ${err.message}`);
+        this.log('warn', `[megadrive] Error ${cat.catId}: ${err.message}`);
       }
     }
   }
 
-  async scrapeSearch({ query, catId, minPrice }) {
-    const directUrl = `${BASE_URL}/?s=${encodeURIComponent(query)}&post_type=product`;
-    const url = proxify(directUrl);
-    this.log('info', `[megadrive] ${catId} "${query}"`);
-    try {
-      const res = await this.client.get(url, {
-        headers: { 'Accept': 'text/html', 'Accept-Language': 'es-CL,es;q=0.9',
-          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36' }
-      });
-      const $ = cheerio.load(res.data);
-      const items = $('ul.products li.product, .products .product');
-      let newItems = 0;
+  async scrapeCategory(cat) {
+    let page  = 1;
+    let total = 0;
 
+    while (page <= 20) {
+      const pageUrl = proxify(
+        page === 1 ? `${BASE}${cat.url}` : `${BASE}${cat.url}page/${page}/`
+      );
+      this.log('info', `[megadrive] ${cat.catId} pág ${page}`);
+
+      let $;
+      try {
+        const res = await this.client.get(pageUrl, {
+          headers: {
+            Accept: 'text/html,application/xhtml+xml',
+            'Accept-Language': 'es-CL,es;q=0.9',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+          },
+          timeout: 25000,
+        });
+        $ = cheerio.load(res.data);
+      } catch (err) {
+        this.log('warn', `[megadrive] HTTP error: ${err.message}`);
+        break;
+      }
+
+      const items = $('ul.products li.product, .products .product');
+      if (!items.length) {
+        this.log('info', `[megadrive] Sin productos pág ${page}`);
+        break;
+      }
+
+      let newInPage = 0;
       for (const el of items.toArray()) {
         try {
           const $el = $(el);
-          const productUrl = $el.find('a').first().attr('href') || '';
+          const productUrl = $el.find('a.woocommerce-loop-product__link, a').first().attr('href') || '';
           if (!productUrl || this.seenUrls.has(productUrl)) continue;
           this.seenUrls.add(productUrl);
 
-          const name = $el.find('.woocommerce-loop-product__title, h2, h3').first().text().trim();
-          if (!name || name.length < 5) continue;
+          const name = $el.find('.woocommerce-loop-product__title, h2').first().text().trim();
+          if (!name || name.length < 4) continue;
 
-          const priceRaw = $el.find('.price ins .amount, .price .amount').first().text()
+          const priceRaw = $el.find('.price ins .amount').first().text()
+                        || $el.find('.price .amount').first().text()
                         || $el.find('.price').first().text();
-          const price = this.parsePrice(priceRaw);
-          if (!price || price < minPrice) continue;
+          const price = parsePrice(priceRaw);
+          if (!price) continue;
 
-          const stockTxt = $el.text().toLowerCase();
-          const stock = OUT_OF_STOCK.some(s => stockTxt.includes(s)) || $el.find('.out-of-stock').length
-            ? 'out_of_stock' : 'in_stock';
+          const normalRaw = $el.find('.price del .amount').first().text();
+          const priceNormal = normalRaw ? parsePrice(normalRaw) : null;
+          const priceCard   = Math.round(price * FACTOR);
+          const discount    = priceNormal && priceNormal > price
+            ? Math.round((1 - price / priceNormal) * 100) : null;
+
+          const txt = $el.text().toLowerCase();
+          const stock = OUT_OF_STOCK.some(p => txt.includes(p)) ||
+            $el.find('.out-of-stock').length ? 'out_of_stock' : 'in_stock';
+
+          const imageUrl = $el.find('img').first().attr('data-src')
+                        || $el.find('img').first().attr('src') || null;
 
           this.stats.found++;
-          newItems++;
+          newInPage++;
+
           await this.saveProductWithR2(
-            { name, category: catId, brand: this.extractBrand(name),
-              imageUrl: $el.find('img').first().attr('src') || null,
-              specs: { 'Precio': `$${price.toLocaleString('es-CL')}` }
+            {
+              name,
+              category: cat.catId,
+              brand: this.extractBrand(name),
+              imageUrl,
+              specs: {
+                'Efectivo / Transferencia': `$${price.toLocaleString('es-CL')}`,
+                'Tarjeta crédito/débito':   `$${priceCard.toLocaleString('es-CL')}`,
+              },
             },
-            { current: price, normal: null, discount: null, stock, url: productUrl }
+            { current: price, normal: priceNormal, discount, stock, url: productUrl }
           );
-        } catch(e) {}
+        } catch (err) {
+          this.log('warn', `[megadrive] item error: ${err.message}`);
+        }
       }
-      this.log('info', `[megadrive] ✓ "${query}": ${newItems} productos`);
-    } catch(err) {
-      this.stats.errors++;
-      this.log('warn', `[megadrive] Error "${query}": ${err.message}`);
+
+      total += newInPage;
+      this.log('info', `[megadrive] ✓ ${cat.catId} pág ${page}: ${newInPage}`);
+
+      const hasNext = $('a.next.page-numbers').length > 0;
+      if (!hasNext || newInPage === 0) break;
+      page++;
+      await this.delay(1500, 2500);
     }
+
+    this.log('info', `[megadrive] ✓ ${cat.catId}: ${total} total`);
   }
 }
 
 if (require.main === module) {
-  new MegaDriveScraper().run().then(r => { console.log('MegaDrive:', r); process.exit(r.success ? 0 : 1); });
+  new MegaDriveScraper().run().then(r => {
+    console.log('MegaDrive:', r);
+    process.exit(r.success ? 0 : 1);
+  });
 }
 module.exports = MegaDriveScraper;
