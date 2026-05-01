@@ -75,7 +75,7 @@ nav{display:flex;align-items:center;gap:2px}
   box-shadow:0 20px 60px rgba(0,0,0,0.5);z-index:300;
   animation:fadeIn .15s ease;overflow:hidden;
 }
-.mega-wrap:hover .mega-menu{display:grid}
+/* mega menu shown via JS */
 .mega-col h4{font-size:10px;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;padding:16px 16px 0}
 .mega-col a{display:block;padding:5px 16px;font-size:13px;color:var(--text2);cursor:pointer;transition:color .1s}
 .mega-col a:hover{color:var(--accent)}
@@ -841,6 +841,20 @@ let STORES = [
   { id:'megadrive',   name:'MegaDrive',    url:'https://www.megadrive.cl',        color:'#4ade80', rating:0, review_count:0 },
   { id:'infor-ingen', name:'Infor-Ingen',  url:'https://store.infor-ingen.com',   color:'#818cf8', rating:0, review_count:0 },
 ];
+
+const CAT_ICONS = {
+  gpu:     `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="7" width="20" height="10" rx="2"/><path d="M6 7V5M10 7V5M14 7V5M18 7V5"/><path d="M6 17v2M10 17v2M14 17v2M18 17v2"/><rect x="5" y="10" width="4" height="4" rx="1" fill="currentColor" opacity=".4"/></svg>`,
+  cpu:     `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 6V3M12 6V3M15 6V3M9 21v-3M12 21v-3M15 21v-3M6 9H3M6 12H3M6 15H3M21 9h-3M21 12h-3M21 15h-3"/><rect x="9" y="9" width="6" height="6" rx="1" fill="currentColor" opacity=".4"/></svg>`,
+  ram:     `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="8" width="20" height="8" rx="2"/><path d="M6 8V6M9 8V6M12 8V6M15 8V6M18 8V6"/><rect x="5" y="11" width="2" height="2" rx=".5" fill="currentColor" opacity=".6"/><rect x="9" y="11" width="2" height="2" rx=".5" fill="currentColor" opacity=".6"/><rect x="13" y="11" width="2" height="2" rx=".5" fill="currentColor" opacity=".6"/><rect x="17" y="11" width="2" height="2" rx=".5" fill="currentColor" opacity=".6"/></svg>`,
+  storage: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 10h18"/><circle cx="17" cy="7.5" r=".8" fill="currentColor"/><circle cx="19.5" cy="7.5" r=".8" fill="currentColor"/><rect x="6" y="13" width="8" height="2" rx="1" fill="currentColor" opacity=".4"/></svg>`,
+  cooling: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M19.07 4.93l-2.83 2.83M7.76 16.24l-2.83 2.83"/></svg>`,
+  mobo:    `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="2"/><rect x="5" y="5" width="7" height="7" rx="1" fill="currentColor" opacity=".25"/><rect x="14" y="5" width="5" height="3" rx="1" fill="currentColor" opacity=".25"/><rect x="14" y="10" width="5" height="3" rx="1" fill="currentColor" opacity=".25"/><path d="M5 15h14M5 18h8"/></svg>`,
+  psu:     `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M10 12h4M12 10v4"/><circle cx="17" cy="12" r="1.5" fill="currentColor" opacity=".5"/><path d="M2 10h3M2 14h3M19 10h3M19 14h3"/></svg>`,
+  case:    `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M9 6h6M9 10h6M9 14h3"/><circle cx="16" cy="19" r="1" fill="currentColor" opacity=".5"/></svg>`,
+  pc:      `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><rect x="6" y="6" width="5" height="5" rx="1" fill="currentColor" opacity=".3"/><path d="M14 8h4M14 11h3"/></svg>`,
+  monitor: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><rect x="5" y="6" width="14" height="8" rx="1" fill="currentColor" opacity=".15"/></svg>`,
+  periph:  `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="8" width="20" height="12" rx="2"/><path d="M6 8V6a2 2 0 012-2h8a2 2 0 012 2v2"/><circle cx="8" cy="14" r="1" fill="currentColor"/><circle cx="12" cy="14" r="1" fill="currentColor"/><circle cx="16" cy="14" r="1" fill="currentColor"/><circle cx="8" cy="18" r="1" fill="currentColor"/><circle cx="12" cy="18" r="1" fill="currentColor"/><circle cx="16" cy="18" r="1" fill="currentColor"/></svg>`,
+};
 
 const CATS = {
   gpu:     { name:'Tarjetas de Video', icon:'🎮' },
@@ -1903,6 +1917,60 @@ function renderTiendasMenu() {
   if(cols[0]){var h=document.createElement('h4');h.textContent='Tiendas';cols[0].insertBefore(h,cols[0].firstChild);}
 }
 
+// ── Mega menú con delay para no cerrarse al mover el mouse ─────────────────
+(function initMegaMenus() {
+  const hideDelay = 220; // ms antes de cerrar
+  const timers = {};
+
+  function openMenu(wrap, menu) {
+    // Cerrar todos los otros
+    document.querySelectorAll('.mega-menu').forEach(m => {
+      if (m !== menu) { m.style.display = 'none'; }
+    });
+    clearTimeout(timers[wrap.id]);
+    menu.style.display = 'grid';
+  }
+
+  function scheduleClose(wrap, menu) {
+    timers[wrap.id] = setTimeout(() => {
+      menu.style.display = 'none';
+    }, hideDelay);
+  }
+
+  function cancelClose(wrap) {
+    clearTimeout(timers[wrap.id]);
+  }
+
+  // Esperar a que el DOM esté listo
+  function attachListeners() {
+    document.querySelectorAll('.mega-wrap').forEach(wrap => {
+      const menu = wrap.querySelector('.mega-menu');
+      if (!menu) return;
+
+      // Abrir al entrar al trigger (nav-item)
+      wrap.addEventListener('mouseenter', () => openMenu(wrap, menu));
+      wrap.addEventListener('mouseleave', () => scheduleClose(wrap, menu));
+
+      // Cancelar cierre al entrar al menú
+      menu.addEventListener('mouseenter', () => cancelClose(wrap));
+      menu.addEventListener('mouseleave', () => scheduleClose(wrap, menu));
+    });
+
+    // Cerrar al hacer click fuera
+    document.addEventListener('click', e => {
+      if (!e.target.closest('.mega-wrap')) {
+        document.querySelectorAll('.mega-menu').forEach(m => m.style.display = 'none');
+      }
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', attachListeners);
+  } else {
+    attachListeners();
+  }
+})();
+
 // ═══════════════════════════════════════════════
 // MOBILE NAV
 // ═══════════════════════════════════════════════
@@ -2152,13 +2220,14 @@ function renderHomeCats() {
   grid.innerHTML = catList.map(([id, cat]) => {
     const cnt = PRODUCTS.filter(p => p.category === id).length;
     if (!cnt) return '';
+    const svgIcon = CAT_ICONS[id] || '';
     return `<div onclick="filterCat('${id}');showPage('hardware')"
-      style="background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:16px;cursor:pointer;text-align:center;transition:all .2s"
-      onmouseover="this.style.borderColor='var(--accent)';this.style.transform='translateY(-2px)'"
-      onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
-      <div style="font-size:28px;margin-bottom:6px">${cat.icon}</div>
-      <div style="font-size:12px;font-weight:600;color:var(--text)">${cat.name}</div>
-      <div style="font-size:10px;color:var(--text3);margin-top:3px">${cnt} productos</div>
+      style="background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:16px;cursor:pointer;text-align:center;transition:all .2s;display:flex;flex-direction:column;align-items:center;gap:8px"
+      onmouseover="this.style.borderColor='var(--accent)';this.style.transform='translateY(-2px)';this.querySelector('.cat-svg').style.color='var(--accent)'"
+      onmouseout="this.style.borderColor='var(--border)';this.style.transform='none';this.querySelector('.cat-svg').style.color='var(--text3)'">
+      <div class="cat-svg" style="width:36px;height:36px;color:var(--text3);transition:color .2s">${svgIcon}</div>
+      <div style="font-size:12px;font-weight:600;color:var(--text);line-height:1.3">${cat.name}</div>
+      <div style="font-size:10px;color:var(--text3)">${cnt} productos</div>
     </div>`;
   }).join('');
 }
@@ -2179,7 +2248,7 @@ function renderSidebarCats() {
   const el = document.getElementById('sidebar-cats');
   if (!el) return;
   let html = `<div class="cat-item ${!currentCat?'active':''}" onclick="filterCat('');currentSub='';renderSidebarCats()">
-    <span class="cat-icon">🏠</span><span>Todos</span>
+    <span class="cat-icon" style="display:flex;align-items:center;justify-content:center;width:18px;height:18px">🏠</span><span>Todos</span>
     <span class="cat-cnt">${PRODUCTS.length}</span>
   </div>`;
 
@@ -2192,7 +2261,7 @@ function renderSidebarCats() {
 
     html += `<div class="cat-item ${isOpen?'active':''}${isOpen&&hasSubs?' open':''}"
       onclick="if('${id}'===currentCat&&'${id}'===currentCat){this.classList.toggle('open');this.nextElementSibling&&(this.nextElementSibling.style.display=this.classList.contains('open')?'block':'none')}filterCat('${id}');currentSub='';renderSidebarCats()">
-      <span class="cat-icon">${cat.icon}</span>
+      <span class="cat-icon" style="display:flex;align-items:center;justify-content:center;width:18px;height:18px;flex-shrink:0">${CAT_ICONS[id]||cat.icon}</span>
       <span style="flex:1">${cat.name}</span>
       <span class="cat-cnt">${cnt}</span>
       ${hasSubs?'<span class="cat-chevron">›</span>':''}
