@@ -212,13 +212,26 @@ class BaseScraper {
 
   saveProduct(product, price) {
     try {
-      const external_id = `${this.storeId}_${this.slugify(product.name)}`;
+      // Si viene partNumber, usarlo como external_id compartido entre tiendas
+      // Así el mismo producto de distintas tiendas se agrupa en un solo registro
+      const pnClean = product.partNumber
+        ? product.partNumber.toLowerCase().replace(/[^a-z0-9]/g, '')
+        : null;
+      const external_id = pnClean
+        ? `pn_${pnClean}`
+        : `${this.storeId}_${this.slugify(product.name)}`;
+
+      // Slug único: con partno es compartido, sin partno incluye storeId
+      const slug = pnClean
+        ? this.slugify(product.name).slice(0, 95)
+        : `${this.storeId}-${this.slugify(product.name)}`.slice(0, 100);
+
       const row = upsertProduct({
         external_id,
         category_id: product.category || this.detectCategory(product.name),
         brand:       product.brand || this.extractBrand(product.name),
         name:        product.name,
-        slug:        this.slugify(product.name),
+        slug,
         image_url:   product.imageUrl || null,
         specs:       product.specs ? JSON.stringify(product.specs) : null,
         tags:        product.tags  ? JSON.stringify(product.tags)  : null,
