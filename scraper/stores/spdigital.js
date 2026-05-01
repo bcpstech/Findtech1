@@ -312,8 +312,8 @@ class SPDigitalScraper extends BaseScraper {
       },
       {
         current:  price,
-        normal:   priceCard || null,   // precio tarjeta en price_normal
-        discount: priceNormal ? Math.round((1 - price / priceNormal) * 100) : null,
+        normal:   priceCard || null,   // precio tarjeta → usado como card price en frontend
+        discount: null,                // SP Digital descuento ya está en el precio cash
         stock,
         url: `${BASE}/${item.slug}`,
       }
