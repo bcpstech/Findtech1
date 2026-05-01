@@ -11,12 +11,12 @@
     "VRAM": "8 GB",
     "Tipo memoria": "GDDR6",
     "Bus de memoria": "128-bit",
-    "Efectivo/Transferencia": "$414.660",
-    "Tarjeta crédito/débito": "$433.320"
+    "Efectivo/Transferencia": "$417.410",
+    "Tarjeta crédito/débito": "$436.200"
   },
   "tags": [],
   "created_at": "2026-04-29 16:30:10",
-  "updated_at": "2026-04-29 16:36:05",
+  "updated_at": "2026-05-01 13:20:38",
   "prices": [
     {
       "product_id": 2598,
@@ -41,15 +41,15 @@
     {
       "product_id": 15223,
       "store_id": "spdigital",
-      "price": 414660,
-      "price_normal": 433320,
+      "price": 417410,
+      "price_normal": 436200,
       "discount_pct": 4,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-gaming-nvidia-geforce-rtx-5050-solo-8gb-gddr6-128bits-20gbps-pcie-50-itx",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$414.660",
-        "Webpay / Tarjeta": "$433.320"
+        "Transferencia / Efectivo": "$417.410",
+        "Webpay / Tarjeta": "$436.200"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,7 +63,13 @@
       "store_name": "SP Digital",
       "date": "2026-04-29",
       "price": 414660
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-01",
+      "price": 417410
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }
