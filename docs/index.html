@@ -1292,7 +1292,7 @@ async function openDetail(id) {
               <span class="dpr-card-label">${lbl.card}</span>
               <span class="dpr-card">$${cardPrice.toLocaleString('es-CL')}</span>
             </div>` : ''}
-            ${row.price_normal && row.price_normal > cashPrice ? `<div class="dpr-method-row" style="opacity:0.5">
+            ${row.discount_pct && row.price_normal && row.price_normal > cashPrice ? `<div class="dpr-method-row" style="opacity:0.5">
               <span class="dpr-cash-label">Precio normal</span>
               <span style="text-decoration:line-through;font-size:12px;color:var(--text3)">$${row.price_normal.toLocaleString('es-CL')}</span>
             </div>` : ''}
