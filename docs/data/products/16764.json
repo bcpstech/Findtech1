@@ -1,0 +1,74 @@
+{
+  "id": 16764,
+  "external_id": "myshop_cpu-intel-socket-lga-1700-core-i3-14100-3-5ghz-4-core-bx8071514100",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "CPU Intel - Socket LGA 1700 - Core i3-14100 - 3.5GHZ - 4 Core (BX8071514100)",
+  "slug": "cpu-intel-socket-lga-1700-core-i3-14100-3-5ghz-4-core-bx8071514100",
+  "image_url": "https://images.findtech.cl/products/cpu-intel-socket-lga-1700-core-i3-14100-3-5ghz-4-core-bx8071514100.jpg",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "3.50 GHz",
+    "Frecuencia turbo": "4,7 GHz",
+    "Socket": "LGA 1700",
+    "Familia": "Intel® Core™ i3",
+    "Núcleos": "4",
+    "Incluye cooler": "Si",
+    "Hilos": "8",
+    "Caché L3": "12 MB",
+    "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
+    "Gráficos integrados": "Intel UHD Graphics 730",
+    "Efectivo/Transferencia": "$249.990",
+    "Tarjeta crédito/débito": "$261.240"
+  },
+  "tags": [],
+  "created_at": "2026-05-01 01:30:07",
+  "updated_at": "2026-05-01 01:35:11",
+  "prices": [
+    {
+      "product_id": 16764,
+      "store_id": "myshop",
+      "price": 145990,
+      "price_normal": 154019,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/cpu-intel-socket-lga-1700-core-i3-14100-35ghz-4-core-8cores-bx8071514100-p28314",
+      "store_name": "MyShop",
+      "price_specs": {
+        "Efectivo/Transferencia": "$145.990",
+        "Tarjeta crédito/débito": "$154.019"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 9420,
+      "store_id": "spdigital",
+      "price": 249990,
+      "price_normal": 261240,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/intel-core-i3-i3-14100-35-ghz-4-nucleos-8-hilos-12-mb-cache-fclga1700-socket-caja",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$249.990",
+        "Webpay / Tarjeta": "$261.240"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-01",
+      "price": 145990
+    }
+  ],
+  "scraped_at": "2026-05-01"
+}

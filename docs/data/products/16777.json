@@ -1,0 +1,90 @@
+{
+  "id": 16777,
+  "external_id": "myshop_cpu-intel-socket-lga-1700-core-i7-12700-2-1ghz-8-core-bx8071512700",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "CPU Intel - Socket LGA 1700 - Core i7-12700 - 2.1GHZ - 8 Core (BX8071512700)",
+  "slug": "cpu-intel-socket-lga-1700-core-i7-12700-2-1ghz-8-core-bx8071512700",
+  "image_url": "https://images.findtech.cl/products/cpu-intel-socket-lga-1700-core-i7-12700-2-1ghz-8-core-bx8071512700.jpg",
+  "description": null,
+  "specs": {
+    "Núcleos": "12",
+    "Hilos": "20",
+    "Frecuencia base": "5.0 GHz",
+    "Caché L3": "25 MB",
+    "Socket": "LGA 1700",
+    "Familia": "Intel® Core™ i7",
+    "Frecuencia turbo": "4,9 GHz",
+    "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
+    "Gráficos integrados": "Intel UHD Graphics 770",
+    "Efectivo/Transferencia": "$470.300",
+    "Tarjeta crédito/débito": "$491.460"
+  },
+  "tags": [],
+  "created_at": "2026-05-01 01:30:16",
+  "updated_at": "2026-05-01 01:35:11",
+  "prices": [
+    {
+      "product_id": 16777,
+      "store_id": "myshop",
+      "price": 335990,
+      "price_normal": 354469,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/cpu-s1700-intel-core-i7-12700-21-ghz-12-nucleos-20-hilos-25-mb-cache-p18658",
+      "store_name": "MyShop",
+      "price_specs": {
+        "Efectivo/Transferencia": "$335.990",
+        "Tarjeta crédito/débito": "$354.469"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 1141,
+      "store_id": "cg",
+      "price": 425871,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-i7-12700-2-1-ghz-12-nucleos-20-hilos-25-mb-cache-lga1700-socket-caja/",
+      "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$425.871"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 9422,
+      "store_id": "spdigital",
+      "price": 470300,
+      "price_normal": 491460,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/core-i7-12700-210ghz-sktlga1700-2500mb",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$470.300",
+        "Webpay / Tarjeta": "$491.460"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-01",
+      "price": 335990
+    }
+  ],
+  "scraped_at": "2026-05-01"
+}

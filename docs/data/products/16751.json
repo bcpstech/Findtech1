@@ -1,0 +1,91 @@
+{
+  "id": 16751,
+  "external_id": "myshop_cpu-amd-socket-am5-ryzen-7-7700x-4-5ghz-8-core-s-cooler-100-100000591wof",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "CPU AMD - Socket AM5 - Ryzen 7 7700X - 4.5GHZ - 8 Core - S/Cooler (100-100000591WOF)",
+  "slug": "cpu-amd-socket-am5-ryzen-7-7700x-4-5ghz-8-core-s-cooler-100-100000591wof",
+  "image_url": "https://images.findtech.cl/products/cpu-amd-socket-am5-ryzen-7-7700x-4-5ghz-8-core-s-cooler-100-100000591wof.jpg",
+  "description": null,
+  "specs": {
+    "Familia": "AMD Ryzen™ 7",
+    "Núcleos": "8",
+    "Socket": "AM5",
+    "Frecuencia base": "4,5 GHz",
+    "Hilos": "16",
+    "Frecuencia turbo": "5,4 GHz",
+    "Caché L3": "32 MB",
+    "TDP": "105 W",
+    "Gráficos integrados": "AMD Radeon Graphics",
+    "Efectivo/Transferencia": "$599.990",
+    "Tarjeta crédito/débito": "$626.990"
+  },
+  "tags": [],
+  "created_at": "2026-05-01 01:29:57",
+  "updated_at": "2026-05-01 01:35:11",
+  "prices": [
+    {
+      "product_id": 16751,
+      "store_id": "myshop",
+      "price": 341990,
+      "price_normal": 360799,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/cpu-amd-ryzen-7-7700x-100-100000591wof-p12968",
+      "store_name": "MyShop",
+      "price_specs": {
+        "Efectivo/Transferencia": "$341.990",
+        "Tarjeta crédito/débito": "$360.799"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 38,
+      "store_id": "n1g",
+      "price": 351500,
+      "price_normal": 370000,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/1928-amd-ryzen-7-7700x-socket-am5-8-core-16-hilos-max-54ghz-video-int.html",
+      "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$351.500",
+        "Tarjeta crédito/débito": "$370.000"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 9411,
+      "store_id": "spdigital",
+      "price": 599990,
+      "price_normal": 626990,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/ryzen-7-am5-7700x",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$599.990",
+        "Webpay / Tarjeta": "$626.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-01",
+      "price": 341990
+    }
+  ],
+  "scraped_at": "2026-05-01"
+}

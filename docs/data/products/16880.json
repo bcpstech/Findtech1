@@ -1,0 +1,70 @@
+{
+  "id": 16880,
+  "external_id": "myshop_ssd-2-5-240-gb-kingston-a400-sata-3-6-0-gb-s-sa400s37-240g",
+  "category_id": "storage",
+  "brand": "Kingston",
+  "name": "SSD 2.5\" - 240 GB - Kingston A400 - SATA 3 (6.0 Gb/s) (SA400S37/240G)",
+  "slug": "ssd-2-5-240-gb-kingston-a400-sata-3-6-0-gb-s-sa400s37-240g",
+  "image_url": "https://images.findtech.cl/products/ssd-2-5-240-gb-kingston-a400-sata-3-6-0-gb-s-sa400s37-240g.png",
+  "description": null,
+  "specs": {
+    "Capacidad": "240 GB",
+    "Interfaz": "SATA III",
+    "Factor de forma": "2.5\"",
+    "Efectivo / Transferencia": "$79.950",
+    "Tarjeta crédito/débito": "$84.347",
+    "Garantía": "6 meses",
+    "SKU": "2502",
+    "Part Number": "SA400S37/240G"
+  },
+  "tags": [],
+  "created_at": "2026-05-01 01:31:40",
+  "updated_at": "2026-05-01 01:35:11",
+  "prices": [
+    {
+      "product_id": 16880,
+      "store_id": "myshop",
+      "price": 79950,
+      "price_normal": 84347,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/ssd-25-240-gb-kingston-ssdnow-a400-sata-3-60-gbs-sa400s37240g-p2502",
+      "store_name": "MyShop",
+      "price_specs": {
+        "Efectivo/Transferencia": "$79.950",
+        "Tarjeta crédito/débito": "$84.347"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 9528,
+      "store_id": "spdigital",
+      "price": 89990,
+      "price_normal": 94040,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/unidad-ssd-kingston-ssdnow-a400-240gb-25-lectura-500mbs-escritura-350mbs",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$89.990",
+        "Webpay / Tarjeta": "$94.040"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-01",
+      "price": 79950
+    }
+  ],
+  "scraped_at": "2026-05-01"
+}

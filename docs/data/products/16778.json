@@ -1,0 +1,88 @@
+{
+  "id": 16778,
+  "external_id": "myshop_cpu-intel-socket-lga-1851-core-ultra-7-265k-3-9-ghz-20-cores-20-threads-graficos-integrados",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "CPU Intel - Socket LGA 1851 - Core Ultra 7 265K - 3,9 GHz - 20 Cores - 20 Threads - Gráficos integrados",
+  "slug": "cpu-intel-socket-lga-1851-core-ultra-7-265k-3-9-ghz-20-cores-20-threads-graficos-integrados",
+  "image_url": "https://images.findtech.cl/products/cpu-intel-socket-lga-1851-core-ultra-7-265k-3-9-ghz-20-cores-20-threads-graficos-integrados.jpg",
+  "description": null,
+  "specs": {
+    "Núcleos": "20",
+    "Hilos": "20",
+    "Frecuencia base": "3.9 GHz",
+    "Socket": "LGA1851",
+    "Efectivo / Transferencia": "$337.990",
+    "Tarjeta crédito/débito": "$356.579",
+    "Garantía": "6 meses",
+    "SKU": "40155",
+    "Part Number": "BX80768265K"
+  },
+  "tags": [],
+  "created_at": "2026-05-01 01:30:17",
+  "updated_at": "2026-05-01 01:35:11",
+  "prices": [
+    {
+      "product_id": 16778,
+      "store_id": "myshop",
+      "price": 337990,
+      "price_normal": 356579,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/intel-core-ultra-7-265k-39-ghz-20-core-lga1851-p40155",
+      "store_name": "MyShop",
+      "price_specs": {
+        "Efectivo/Transferencia": "$337.990",
+        "Tarjeta crédito/débito": "$356.579"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 12,
+      "store_id": "n1g",
+      "price": 364900,
+      "price_normal": 384105,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3020-intel-core-ultra-7-265k-20-core-8p12e-lga-1851-125w-desktop-processor-arrow-lake-bx80768265k.html",
+      "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$364.900",
+        "Tarjeta crédito/débito": "$384.105"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 1144,
+      "store_id": "cg",
+      "price": 398973,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-7-265k-3-9-ghz-20-core-lga1851/",
+      "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$398.973"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-01",
+      "price": 337990
+    }
+  ],
+  "scraped_at": "2026-05-01"
+}

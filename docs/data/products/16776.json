@@ -1,0 +1,73 @@
+{
+  "id": 16776,
+  "external_id": "myshop_cpu-intel-socket-lga-1700-core-i7-12700kf-3-6ghz-8-core-s-cooler-bx8071512700kf",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "CPU Intel - Socket LGA 1700 - Core i7-12700KF - 3.6GHZ - 8 Core - S/Cooler (BX8071512700KF)",
+  "slug": "cpu-intel-socket-lga-1700-core-i7-12700kf-3-6ghz-8-core-s-cooler-bx8071512700kf",
+  "image_url": "https://images.findtech.cl/products/cpu-intel-socket-lga-1700-core-i7-12700kf-3-6ghz-8-core-s-cooler-bx8071512700kf.jpg",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "3.6 GHz",
+    "Socket": "LGA 1700",
+    "Familia": "Intel® Core™ i7 de 12ma Generación",
+    "Núcleos": "12",
+    "Hilos": "20",
+    "Frecuencia turbo": "5 GHz",
+    "Caché L3": "25 MB",
+    "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
+    "Gráficos integrados": "No disponible",
+    "Efectivo/Transferencia": "$431.730",
+    "Tarjeta crédito/débito": "$451.150"
+  },
+  "tags": [],
+  "created_at": "2026-05-01 01:30:16",
+  "updated_at": "2026-05-01 01:35:11",
+  "prices": [
+    {
+      "product_id": 16776,
+      "store_id": "myshop",
+      "price": 309990,
+      "price_normal": 327039,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/cpu-intel-core-i7-12700kf-3600-mhz-12mb-l2--25mb-l3-lga-1700-bx8071512700kf-p21502",
+      "store_name": "MyShop",
+      "price_specs": {
+        "Efectivo/Transferencia": "$309.990",
+        "Tarjeta crédito/débito": "$327.039"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 9421,
+      "store_id": "spdigital",
+      "price": 431730,
+      "price_normal": 451150,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/procesador-intel-core-i7-12700kf-12o-gen-36ghz-hasta-5ghz-socket-lga1700-sin-gráficas",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$431.730",
+        "Webpay / Tarjeta": "$451.150"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-01",
+      "price": 309990
+    }
+  ],
+  "scraped_at": "2026-05-01"
+}

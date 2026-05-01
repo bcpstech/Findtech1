@@ -1,0 +1,70 @@
+{
+  "id": 16863,
+  "external_id": "myshop_ssd-m-2-2280-1-tb-xpg-gammix-s70-blade-nvme-pcie-4-0-x4-agammixs70b-1t-cs",
+  "category_id": "storage",
+  "brand": "XPG",
+  "name": "SSD M.2 (2280) - 1 TB - XPG Gammix S70 BLADE - NVMe PCIe 4.0 x4 (AGAMMIXS70B-1T-CS)",
+  "slug": "ssd-m-2-2280-1-tb-xpg-gammix-s70-blade-nvme-pcie-4-0-x4-agammixs70b-1t-cs",
+  "image_url": "https://images.findtech.cl/products/ssd-m-2-2280-1-tb-xpg-gammix-s70-blade-nvme-pcie-4-0-x4-agammixs70b-1t-cs.jpg",
+  "description": null,
+  "specs": {
+    "Capacidad": "1 TB",
+    "Interfaz": "NVMe PCIe",
+    "Factor de forma": "M.2 2280",
+    "Efectivo / Transferencia": "$199.500",
+    "Tarjeta crédito/débito": "$210.473",
+    "Garantía": "6 meses",
+    "SKU": "22884",
+    "Part Number": "AGAMMIXS70B-1T-CS"
+  },
+  "tags": [],
+  "created_at": "2026-05-01 01:31:29",
+  "updated_at": "2026-05-01 01:35:11",
+  "prices": [
+    {
+      "product_id": 16863,
+      "store_id": "myshop",
+      "price": 199500,
+      "price_normal": 210473,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/ssd-m2-1-tb-interno-xpg-gammix-s70-blade-pcie-gen4x4-m2-2280-p22884",
+      "store_name": "MyShop",
+      "price_specs": {
+        "Efectivo/Transferencia": "$199.500",
+        "Tarjeta crédito/débito": "$210.473"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 9524,
+      "store_id": "spdigital",
+      "price": 348430,
+      "price_normal": 364110,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/ssd-xpg-gammix-s70-blade-nvme-1tb-pci-express-40-m2",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$348.430",
+        "Webpay / Tarjeta": "$364.110"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-01",
+      "price": 199500
+    }
+  ],
+  "scraped_at": "2026-05-01"
+}

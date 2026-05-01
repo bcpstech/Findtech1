@@ -1,0 +1,70 @@
+{
+  "id": 16857,
+  "external_id": "myshop_ssd-m-2-2280-500-gb-adata-legend-860-nvme-pcie-4-0-x4",
+  "category_id": "storage",
+  "brand": "Adata",
+  "name": "SSD M.2 (2280) - 500 GB - Adata Legend 860 - NVME PCIe 4.0 x4",
+  "slug": "ssd-m-2-2280-500-gb-adata-legend-860-nvme-pcie-4-0-x4",
+  "image_url": "https://images.findtech.cl/products/ssd-m-2-2280-500-gb-adata-legend-860-nvme-pcie-4-0-x4.png",
+  "description": null,
+  "specs": {
+    "Capacidad": "500 GB",
+    "Interfaz": "NVMe PCIe",
+    "Factor de forma": "M.2 2280",
+    "Efectivo / Transferencia": "$104.990",
+    "Tarjeta crédito/débito": "$110.764",
+    "Garantía": "6 meses",
+    "SKU": "39537",
+    "Part Number": "SLEG-860-500GCS"
+  },
+  "tags": [],
+  "created_at": "2026-05-01 01:31:24",
+  "updated_at": "2026-05-01 01:35:11",
+  "prices": [
+    {
+      "product_id": 16857,
+      "store_id": "myshop",
+      "price": 104990,
+      "price_normal": 110764,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/ssd-500gb-p39537",
+      "store_name": "MyShop",
+      "price_specs": {
+        "Efectivo/Transferencia": "$104.990",
+        "Tarjeta crédito/débito": "$110.764"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 9519,
+      "store_id": "spdigital",
+      "price": 267760,
+      "price_normal": 279810,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/ssd-nvme-adata-legend-860-1tb-2280-pcie-40",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$267.760",
+        "Webpay / Tarjeta": "$279.810"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-01",
+      "price": 104990
+    }
+  ],
+  "scraped_at": "2026-05-01"
+}

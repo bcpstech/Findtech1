@@ -1,0 +1,94 @@
+{
+  "id": 16739,
+  "external_id": "myshop_cpu-amd-socket-am5-ryzen-5-8400f-4-2ghz-6-core-100-100001591box",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "CPU AMD - Socket AM5 - Ryzen 5 8400F - 4.2GHZ - 6 Core (100-100001591BOX)",
+  "slug": "cpu-amd-socket-am5-ryzen-5-8400f-4-2ghz-6-core-100-100001591box",
+  "image_url": "https://images.findtech.cl/products/cpu-amd-socket-am5-ryzen-5-8400f-4-2ghz-6-core-100-100001591box.jpg",
+  "description": null,
+  "specs": {
+    "Núcleos": "6",
+    "Hilos": "12",
+    "Frecuencia base": "4,2 GHz",
+    "Frecuencia turbo": "4,7 GHz",
+    "TDP": "65 W",
+    "Socket": "AM5",
+    "Generación": "AMD Zen 5 (4nm)",
+    "Familia": "AMD Ryzen™ 5",
+    "Litografía": "4 nm",
+    "Caché L3": "16 MB",
+    "Memoria soportada": "DDR5-SDRAM",
+    "Gráficos integrados": "No disponible",
+    "Efectivo/Transferencia": "$279.990",
+    "Tarjeta crédito/débito": "$292.590"
+  },
+  "tags": [],
+  "created_at": "2026-05-01 01:29:48",
+  "updated_at": "2026-05-01 01:35:11",
+  "prices": [
+    {
+      "product_id": 16739,
+      "store_id": "myshop",
+      "price": 155990,
+      "price_normal": 164569,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/cpu-amd-socket-am5-ryzen-5-8400f-42ghz-6-core-100-100001591box-p31076",
+      "store_name": "MyShop",
+      "price_specs": {
+        "Efectivo/Transferencia": "$155.990",
+        "Tarjeta crédito/débito": "$164.569"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 31,
+      "store_id": "n1g",
+      "price": 160900,
+      "price_normal": 169368,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/2922-amd-ryzen-5-8400f-42-ghz-6-core-12-threads-socket-am5-65w-processor-100-100001591box.html",
+      "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$160.900",
+        "Tarjeta crédito/débito": "$169.368"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 9409,
+      "store_id": "spdigital",
+      "price": 279990,
+      "price_normal": 292590,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/ryzen-5-8400f",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$279.990",
+        "Webpay / Tarjeta": "$292.590"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-01",
+      "price": 155990
+    }
+  ],
+  "scraped_at": "2026-05-01"
+}

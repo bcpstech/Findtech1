@@ -1,0 +1,74 @@
+{
+  "id": 16744,
+  "external_id": "myshop_cpu-amd-socket-am5-ryzen-5-7600x-4-7ghz-6-core-s-cooler-100-100000593wof",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "CPU AMD - Socket AM5 - Ryzen 5 7600X - 4.7GHZ - 6 Core - S/Cooler (100-100000593WOF)",
+  "slug": "cpu-amd-socket-am5-ryzen-5-7600x-4-7ghz-6-core-s-cooler-100-100000593wof",
+  "image_url": "https://images.findtech.cl/products/cpu-amd-socket-am5-ryzen-5-7600x-4-7ghz-6-core-s-cooler-100-100000593wof.jpg",
+  "description": null,
+  "specs": {
+    "Núcleos": "6",
+    "Hilos": "12",
+    "Frecuencia base": "4,7 GHz",
+    "Socket": "AM5",
+    "Generación": "AMD Zen 5 (4nm)",
+    "Familia": "AMD Ryzen™ 5",
+    "Frecuencia turbo": "5,3 GHz",
+    "Caché L3": "32 MB",
+    "TDP": "105 W",
+    "Gráficos integrados": "AMD Radeon Graphics",
+    "Efectivo/Transferencia": "$499.990",
+    "Tarjeta crédito/débito": "$522.490"
+  },
+  "tags": [],
+  "created_at": "2026-05-01 01:29:53",
+  "updated_at": "2026-05-01 01:35:11",
+  "prices": [
+    {
+      "product_id": 16744,
+      "store_id": "myshop",
+      "price": 229990,
+      "price_normal": 242639,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/cpu-amd-ryzen-5-7600x-6-core-47-ghz-socket-am5-105w-desktop-processor-100-100000593wof-p12969",
+      "store_name": "MyShop",
+      "price_specs": {
+        "Efectivo/Transferencia": "$229.990",
+        "Tarjeta crédito/débito": "$242.639"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 9408,
+      "store_id": "spdigital",
+      "price": 499990,
+      "price_normal": 522490,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/ryzen-5-am5-7600x",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$499.990",
+        "Webpay / Tarjeta": "$522.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-01",
+      "price": 229990
+    }
+  ],
+  "scraped_at": "2026-05-01"
+}
