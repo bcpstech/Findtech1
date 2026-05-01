@@ -14,25 +14,61 @@
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
     "Factor de forma": "Full-Height/Full-Length (FH/FL)",
-    "Efectivo/Transferencia": "$1.056.320",
-    "Tarjeta crédito/débito": "$1.103.860"
+    "Efectivo/Transferencia": "$1.065.670",
+    "Tarjeta crédito/débito": "$1.113.630"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:30",
-  "updated_at": "2026-04-28 22:23:00",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
+    {
+      "product_id": 1244,
+      "store_id": "centrale",
+      "price": 8678,
+      "price_normal": 16800,
+      "discount_pct": 48,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bit/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$8.678",
+        "Tarjetas de Crédito / Débito": "$16.800"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 12141,
+      "store_id": "trulustore",
+      "price": 849990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-rtx-5070-solid-oc-12gb/",
+      "store_name": "TruluStore",
+      "khipu_price": 866990,
+      "price_specs": {
+        "Efectivo / Transferencia": "$849.990",
+        "Khipu": "$866.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    },
     {
       "product_id": 9584,
       "store_id": "spdigital",
-      "price": 1056320,
-      "price_normal": 1103860,
+      "price": 1065670,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-gaming-nvidia-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bits-pcie-50",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.056.320",
-        "Webpay / Tarjeta": "$1.103.860"
+        "Transferencia / Efectivo": "$1.065.670"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -46,7 +82,19 @@
       "store_name": "SP Digital",
       "date": "2026-04-28",
       "price": 1056320
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-29",
+      "price": 1058660
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-01",
+      "price": 1065670
     }
   ],
-  "scraped_at": "2026-04-28"
+  "scraped_at": "2026-05-01"
 }

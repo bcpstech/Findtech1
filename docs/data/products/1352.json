@@ -12,22 +12,25 @@
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$159.490",
-    "Tarjetas de Crédito / Débito": "$168.260"
+    "Transferencia / Efectivo": "$1.595",
+    "Tarjeta crédito/débito": "$1.680"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1352,
       "store_id": "centrale",
-      "price": 159490,
+      "price": 1595,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-b850m-p-micro-atx-am5-ddr5-wifi-7/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.595"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -46,7 +49,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 159490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 1595
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

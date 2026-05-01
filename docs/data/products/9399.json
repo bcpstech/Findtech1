@@ -25,8 +25,60 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:52",
-  "updated_at": "2026-05-01 00:27:05",
+  "updated_at": "2026-05-01 13:49:43",
   "prices": [
+    {
+      "product_id": 1976,
+      "store_id": "dust2",
+      "price": 3420,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-7-9700x-8c-16t-3-8-5-5ghz-am5/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$3.420"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 281,
+      "store_id": "centrale",
+      "price": 3668,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-9700x-8-cores-16-threads-3-8-a-5-5-ghz-65w/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$3.668"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 16752,
+      "store_id": "myshop",
+      "price": 358990,
+      "price_normal": 378734,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/cpu-amd-socket-am5-ryzen-7-9700x-38ghz-8-core-100-100001404wof-p33993",
+      "store_name": "MyShop",
+      "price_specs": {
+        "Efectivo/Transferencia": "$358.990",
+        "Tarjeta crédito/débito": "$378.734"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
     {
       "product_id": 1138,
       "store_id": "cg",
@@ -48,7 +100,7 @@
       "product_id": 2630,
       "store_id": "trulustore",
       "price": 419990,
-      "price_normal": 440990,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/procesador-amd-ryzen-7-9700x-socket-am5/",
@@ -56,8 +108,7 @@
       "khipu_price": 428390,
       "price_specs": {
         "Efectivo / Transferencia": "$419.990",
-        "Khipu": "$428.390",
-        "Tarjeta crédito/débito": "$440.990"
+        "Khipu": "$428.390"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,14 +119,13 @@
       "product_id": 9399,
       "store_id": "spdigital",
       "price": 599990,
-      "price_normal": 626990,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/amd-ryzen-7-9700x-8-core-processor",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$599.990",
-        "Webpay / Tarjeta": "$626.990"
+        "Transferencia / Efectivo": "$599.990"
       },
       "store_rating": 0,
       "review_count": 0,

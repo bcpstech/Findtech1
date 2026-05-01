@@ -10,22 +10,25 @@
   "specs": {
     "Capacidad": "1 TB",
     "Interfaz": "NVMe PCIe",
-    "Transferencia / Efectivo": "$239.680",
-    "Tarjetas de Crédito / Débito": "$252.860"
+    "Transferencia / Efectivo": "$2.415",
+    "Tarjeta crédito/débito": "$2.550"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1537,
       "store_id": "centrale",
-      "price": 239680,
+      "price": 2415,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-1tb-nvme-pcie-4-0-western-digital-black-sn850x-7300mb-s/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$2.415"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -44,7 +47,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 239680
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 2415
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

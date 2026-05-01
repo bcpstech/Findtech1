@@ -25,8 +25,25 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:51",
-  "updated_at": "2026-05-01 13:09:04",
+  "updated_at": "2026-05-01 13:49:42",
   "prices": [
+    {
+      "product_id": 288,
+      "store_id": "centrale",
+      "price": 5819,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-9850x3d-8-core-16-threads-4-7-5-6ghz-120w/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$5.819"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
     {
       "product_id": 3556,
       "store_id": "n1g",
@@ -67,7 +84,7 @@
       "product_id": 2616,
       "store_id": "trulustore",
       "price": 659990,
-      "price_normal": 692990,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/procesador-amd-ryzen-7-9850x3d-am5-8c-16t-5-6ghz-96mb-cache/",
@@ -75,8 +92,7 @@
       "khipu_price": 673190,
       "price_specs": {
         "Efectivo / Transferencia": "$659.990",
-        "Khipu": "$673.190",
-        "Tarjeta crédito/débito": "$692.990"
+        "Khipu": "$673.190"
       },
       "store_rating": 0,
       "review_count": 0,

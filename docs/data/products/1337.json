@@ -10,22 +10,25 @@
   "specs": {
     "Socket": "AM5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$697.610",
-    "Tarjetas de Crédito / Débito": "$735.980"
+    "Transferencia / Efectivo": "$6.999",
+    "Tarjeta crédito/débito": "$7.380"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1337,
       "store_id": "centrale",
-      "price": 697610,
+      "price": 6999,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-proart-x870e-creator-wifi-am5-pcie-5-wifi-7-usb-4-10gbps/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$6.999"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -44,7 +47,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 697610
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 6999
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

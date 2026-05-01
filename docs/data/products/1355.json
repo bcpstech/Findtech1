@@ -12,22 +12,25 @@
     "Factor de forma": "ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$243.980",
-    "Tarjetas de Crédito / Débito": "$257.400"
+    "Transferencia / Efectivo": "$2.408",
+    "Tarjeta crédito/débito": "$2.540"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1355,
       "store_id": "centrale",
-      "price": 243980,
+      "price": 2408,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-tuf-gaming-b860-plus-wifi-atx-lga-1851-ddr5-wifi-7/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$2.408"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -46,7 +49,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 243980
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 2408
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

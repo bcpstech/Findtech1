@@ -8,22 +8,25 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Cooler-Master-Gabinete-Qube-500-Flatpack-Atx-Vidrio-Templado-Macaron-Edition-2.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$91.310",
-    "Tarjetas de Crédito / Débito": "$96.330"
+    "Transferencia / Efectivo": "$1.013",
+    "Tarjeta crédito/débito": "$1.070"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-04-27 22:15:17",
+  "updated_at": "2026-05-01 14:20:25",
   "prices": [
     {
       "product_id": 1754,
       "store_id": "centrale",
-      "price": 91310,
-      "price_normal": 103600,
-      "discount_pct": 12,
+      "price": 1013,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/cooler-master-gabinete-qube-500-flatpack-atx-vidrio-templado-macaron-edition/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.013"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -42,7 +45,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 91310
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 1013
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

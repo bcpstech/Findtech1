@@ -12,22 +12,25 @@
     "Interfaz": "SATA III",
     "Factor de forma": "2.5\"",
     "Lectura": "520 MB/s",
-    "Transferencia / Efectivo": "$113.700",
-    "Tarjetas de Crédito / Débito": "$119.950"
+    "Transferencia / Efectivo": "$1.137",
+    "Tarjeta crédito/débito": "$1.200"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1532,
       "store_id": "centrale",
-      "price": 113700,
+      "price": 1137,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ssd-xpg-su650-480gb-2-5-sata-3-lectura-520mb-s-escritura-450mb-s-3d/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.137"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -46,7 +49,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 113700
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 1137
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

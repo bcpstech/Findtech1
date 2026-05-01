@@ -1,0 +1,78 @@
+{
+  "id": 2022,
+  "external_id": "dust2_memoria-ram-xpg-gammix-d35-16gb-3200mhz-ddr4-negro",
+  "category_id": "ram",
+  "brand": "Genérico",
+  "name": "Memoria RAM XPG Gammix D35 16GB, 3200MHz, DDR4, Negro",
+  "slug": "memoria-ram-xpg-gammix-d35-16gb-3200mhz-ddr4-negro",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-xpg-gammix-d35-16gb-3200mhz-ddr4-negro.jpg",
+  "description": null,
+  "specs": {
+    "Capacidad": "16 GB",
+    "Tipo": "DDR4",
+    "Velocidad": "3200 MHz",
+    "Marca": "XPG",
+    "Efectivo/Transferencia": "$124.990",
+    "Webpay / Tarjeta": "$131.564"
+  },
+  "tags": [],
+  "created_at": "2026-04-26 20:43:19",
+  "updated_at": "2026-05-01 14:32:34",
+  "prices": [
+    {
+      "product_id": 2022,
+      "store_id": "dust2",
+      "price": 1550,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/memoria-ram-xpg-gammix-d35-16gb-3200mhz-ddr4-negro/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.550"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 1180,
+      "store_id": "cg",
+      "price": 124990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-xpg-d35-16gb-rgb-white/",
+      "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$124.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-26",
+      "price": 154840
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-27",
+      "price": 154840
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 1550
+    }
+  ],
+  "scraped_at": "2026-05-01"
+}

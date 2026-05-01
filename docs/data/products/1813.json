@@ -11,22 +11,25 @@
     "VRAM": "6 GB",
     "Variante": "OC (Overclocked)",
     "Marca": "ASRock",
-    "Transferencia/Efectivo": "$168.920",
-    "Webpay / Tarjeta crédito-débito": "$173.990"
+    "Efectivo / Transferencia": "$1.690",
+    "Tarjeta crédito/débito": "$1.740"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:36",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1813,
       "store_id": "dust2",
-      "price": 168920,
+      "price": 1690,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-asrock-arc-a380-challenger-itx-6gb-oc/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.690"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
@@ -45,7 +48,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 168920
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 1690
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

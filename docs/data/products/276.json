@@ -8,43 +8,32 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-7-5700X-3.4Ghz-8-Core-16-Threads_Oi80IxL.webp",
   "description": null,
   "specs": {
-    "Núcleos": "8",
-    "Hilos": "16",
-    "Frecuencia base": "3.4 GHz",
-    "Transferencia / Efectivo": "$225.570",
-    "Tarjetas de Crédito / Débito": "$237.980"
+    "TDP": "65W",
+    "Socket": "AM4",
+    "Incluye cooler": "No",
+    "Efectivo/Transferencia": "$231.000",
+    "Tarjeta crédito/débito": "$237.930"
   },
   "tags": [],
   "created_at": "2026-04-26 16:23:29",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 276,
       "store_id": "centrale",
-      "price": 225570,
+      "price": 2256,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-5700x-3-4ghz-8-core-16-threads/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$2.256"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 902,
-      "store_id": "alltec",
-      "price": 229900,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/amd/1794-amd-ryzen-7-5700x-34ghz-46ghz-turbo-octa-core-tdp-65w-am4-730143314275.html",
-      "store_name": "Alltec",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
     },
     {
       "product_id": 32,
@@ -55,24 +44,14 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/1672-amd-ryzen-7-5700x-ryzen-7-5000-series-8-core-socket-am4-65w-desktop-processor-100-100000926wof.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$231.000",
+        "Tarjeta crédito/débito": "$243.158"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
-    },
-    {
-      "product_id": 2619,
-      "store_id": "trulustore",
-      "price": 1048970,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/pc-gamer-amd-ryzen-7-5700x-rtx-3050-asus-dual-oc-8gb-ddr4-3200mhz-ssd-nvme-500gb-wi-fi-y-bluetooth-gabinete-antec-cx300-4-ventiladores/",
-      "store_name": "TruluStore",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -87,7 +66,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 225570
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 2256
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

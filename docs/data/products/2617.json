@@ -9,18 +9,17 @@
   "description": null,
   "specs": {
     "Efectivo / Transferencia": "$1.674.990",
-    "Khipu": "$1.708.490",
-    "Tarjeta crédito/débito": "$1.758.740"
+    "Khipu": "$1.708.490"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:28",
-  "updated_at": "2026-05-01 13:11:55",
+  "updated_at": "2026-05-01 13:54:01",
   "prices": [
     {
       "product_id": 2617,
       "store_id": "trulustore",
       "price": 1674990,
-      "price_normal": 1758740,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/pc-gamer-amd-ryzen-5-8400f-rtx-5070-12gb-shadow-oc-16gb-ddr5-5600mhz-ssd-nvme-500gb-gabinete-vista-coc-6-ventiladores/",
@@ -28,8 +27,7 @@
       "khipu_price": 1708490,
       "price_specs": {
         "Efectivo / Transferencia": "$1.674.990",
-        "Khipu": "$1.708.490",
-        "Tarjeta crédito/débito": "$1.758.740"
+        "Khipu": "$1.708.490"
       },
       "store_rating": 0,
       "review_count": 0,

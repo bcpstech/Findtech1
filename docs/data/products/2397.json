@@ -9,26 +9,47 @@
   "description": null,
   "specs": {
     "Marca": "be quiet!",
-    "Transferencia/Efectivo": "$145.620",
-    "Webpay / Tarjeta crédito-débito": "$149.990"
+    "Efectivo / Transferencia": "$1.460",
+    "Tarjeta crédito/débito": "$1.500"
   },
   "tags": [],
   "created_at": "2026-04-26 20:48:14",
-  "updated_at": "2026-04-27 22:24:39",
+  "updated_at": "2026-05-01 14:27:34",
   "prices": [
     {
       "product_id": 2397,
       "store_id": "dust2",
-      "price": 145620,
-      "price_normal": 194170,
+      "price": 1460,
+      "price_normal": 1940,
       "discount_pct": 25,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-be-quiet-light-base-600-lx-white/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.460",
+        "Tarjeta crédito/débito": "$1.940"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 9764,
+      "store_id": "spdigital",
+      "price": 154990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/be-quiet-bgw83",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$154.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -43,7 +64,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 145620
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 1460
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

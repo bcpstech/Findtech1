@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 02:01:29",
-  "updated_at": "2026-05-01 13:06:14",
+  "updated_at": "2026-05-01 13:47:59",
   "prices": [
     {
       "product_id": 7322,
@@ -37,7 +37,7 @@
       "product_id": 16642,
       "store_id": "trulustore",
       "price": 729990,
-      "price_normal": 766490,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/pc-gamer-amd-ryzen-5-8600g-cpu-cooler-white-radeon-760m-16gb-ddr5-6000mhz-ssd-nvme-500gb-gabinete-vista-white-6-ventiladores/",
@@ -45,8 +45,7 @@
       "khipu_price": 744590,
       "price_specs": {
         "Efectivo / Transferencia": "$729.990",
-        "Khipu": "$744.590",
-        "Tarjeta crédito/débito": "$766.490"
+        "Khipu": "$744.590"
       },
       "store_rating": 0,
       "review_count": 0,

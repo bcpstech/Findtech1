@@ -8,42 +8,35 @@
   "image_url": "https://images.findtech.cl/products/tarjeta-de-video-msi-geforce-rtx-5070-12g-ventus-3x-oc.jpg",
   "description": null,
   "specs": {
+    "VRAM": "12 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "192-bit",
+    "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
     "Marca": "MSI",
-    "Transferencia/Efectivo": "$728.050",
-    "Webpay / Tarjeta crédito-débito": "$749.890"
+    "Efectivo / Transferencia": "$7.280",
+    "Tarjeta crédito/débito": "$7.499"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:39",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1817,
       "store_id": "dust2",
-      "price": 728050,
+      "price": 7280,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-msi-geforce-rtx-5070-12g-ventus-3x-oc/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$7.280"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 1211,
-      "store_id": "centrale",
-      "price": 751170,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-de-video-msi-geforce-rtx-5070-shadow-2x-oc-12gb-gddr7/",
-      "store_name": "Centrale",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -58,7 +51,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 728050
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 7280
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

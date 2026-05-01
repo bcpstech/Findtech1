@@ -9,22 +9,26 @@
   "description": null,
   "specs": {
     "Marca": "MSI",
-    "Transferencia/Efectivo": "$128.150",
-    "Webpay / Tarjeta crédito-débito": "$131.990"
+    "Efectivo / Transferencia": "$1.280",
+    "Tarjeta crédito/débito": "$1.320"
   },
   "tags": [],
   "created_at": "2026-04-26 20:48:27",
-  "updated_at": "2026-04-27 22:24:50",
+  "updated_at": "2026-05-01 14:27:39",
   "prices": [
     {
       "product_id": 2415,
       "store_id": "dust2",
-      "price": 128150,
-      "price_normal": 151450,
+      "price": 1280,
+      "price_normal": 1510,
       "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-msi-mpg-gungnir-300r-airflow-white/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.280",
+        "Tarjeta crédito/débito": "$1.510"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
@@ -43,7 +47,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 128150
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 1280
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

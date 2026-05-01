@@ -10,22 +10,26 @@
   "specs": {
     "Marca": "Cooler Master",
     "Modelo": "MLW-D24M-A18PS-R1",
-    "Transferencia/Efectivo": "$77.660",
-    "Webpay / Tarjeta crédito-débito": "$79.990"
+    "Efectivo / Transferencia": "$970",
+    "Tarjeta crédito/débito": "$1.000"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:06",
-  "updated_at": "2026-04-27 22:17:31",
+  "updated_at": "2026-05-01 14:29:53",
   "prices": [
     {
       "product_id": 1780,
       "store_id": "progaming",
-      "price": 77660,
-      "price_normal": 97080,
-      "discount_pct": 20,
+      "price": 970,
+      "price_normal": 1120,
+      "discount_pct": 13,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-cooler-master-masterliquid-240l-core-spectrum/",
       "store_name": "ProGaming",
+      "price_specs": {
+        "Efectivo/Transferencia": "$970",
+        "Tarjeta crédito/débito": "$1.120"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.progaming.cl",
@@ -44,7 +48,13 @@
       "store_name": "ProGaming",
       "date": "2026-04-27",
       "price": 77660
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-05-01",
+      "price": 970
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

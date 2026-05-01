@@ -24,10 +24,27 @@
   "updated_at": "2026-05-01 02:34:07",
   "prices": [
     {
+      "product_id": 1255,
+      "store_id": "centrale",
+      "price": 3320,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-dual-radeon-rx-7600-evo-edicion-oc-de-8gb-gddr6/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$3.320"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
       "product_id": 5653,
       "store_id": "trulustore",
       "price": 339990,
-      "price_normal": 356990,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/tarjeta-de-video-asus-dual-amd-radeon-rx-7600-evo-oc-edition-8gb/",
@@ -35,8 +52,7 @@
       "khipu_price": 346790,
       "price_specs": {
         "Efectivo / Transferencia": "$339.990",
-        "Khipu": "$346.790",
-        "Tarjeta crédito/débito": "$356.990"
+        "Khipu": "$346.790"
       },
       "store_rating": 0,
       "review_count": 0,

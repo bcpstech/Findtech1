@@ -24,6 +24,23 @@
   "updated_at": "2026-05-01 02:34:07",
   "prices": [
     {
+      "product_id": 1201,
+      "store_id": "centrale",
+      "price": 16450,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-rtx-5080-16gb-gddr7-solid-core-oc-pcie-5-0-360w/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$16.450"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
       "product_id": 16830,
       "store_id": "myshop",
       "price": 1629990,
@@ -45,7 +62,7 @@
       "product_id": 2602,
       "store_id": "trulustore",
       "price": 1699990,
-      "price_normal": 1784990,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-geforce-rtx-5080-solid-core-oc-16gb/",
@@ -53,8 +70,7 @@
       "khipu_price": 1733990,
       "price_specs": {
         "Efectivo / Transferencia": "$1.699.990",
-        "Khipu": "$1.733.990",
-        "Tarjeta crédito/débito": "$1.784.990"
+        "Khipu": "$1.733.990"
       },
       "store_rating": 0,
       "review_count": 0,

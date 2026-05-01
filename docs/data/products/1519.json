@@ -11,22 +11,25 @@
     "Capacidad": "1 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Transferencia / Efectivo": "$286.200",
-    "Tarjetas de Crédito / Débito": "$301.940"
+    "Transferencia / Efectivo": "$3.145",
+    "Tarjeta crédito/débito": "$3.320"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1519,
       "store_id": "centrale",
-      "price": 286200,
+      "price": 3145,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ssd-wd_black-sn8100-1tb-m-2-2280-nvme-pcie-5-0-14900-mb-s-600-tbw/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$3.145"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -45,7 +48,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 286200
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 3145
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

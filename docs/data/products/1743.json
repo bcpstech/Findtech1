@@ -8,22 +8,26 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Corsair-Memory-Desktop-Gabinete-4500X-Rs-R-Argb-Atx-P-CC-9011314-WW-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$146.020",
-    "Tarjetas de Crédito / Débito": "$154.050"
+    "Transferencia / Efectivo": "$1.472",
+    "Tarjeta crédito/débito": "$1.550"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-04-27 22:15:17",
+  "updated_at": "2026-05-01 14:20:19",
   "prices": [
     {
       "product_id": 1743,
       "store_id": "centrale",
-      "price": 146020,
-      "price_normal": 178550,
+      "price": 1472,
+      "price_normal": 1786,
       "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-corsair-frame-4500x-mid-tower-vidrio-panoramico-curvado-atx/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.472",
+        "Tarjetas de Crédito / Débito": "$1.786"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -42,7 +46,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 146020
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 1472
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

@@ -10,22 +10,25 @@
   "specs": {
     "Variante": "OC (Overclocked)",
     "Marca": "Gigabyte",
-    "Transferencia/Efectivo": "$537.850",
-    "Webpay / Tarjeta crédito-débito": "$553.990"
+    "Efectivo / Transferencia": "$5.380",
+    "Tarjeta crédito/débito": "$5.540"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:41",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1819,
       "store_id": "dust2",
-      "price": 537850,
+      "price": 5380,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-gigabyte-radeon-rx-9060xt-gaming-oc-ice-16g/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$5.380"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
@@ -44,7 +47,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 537850
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 5380
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

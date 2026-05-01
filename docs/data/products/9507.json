@@ -19,20 +19,36 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:51",
-  "updated_at": "2026-04-28 22:23:00",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
+    {
+      "product_id": 1499,
+      "store_id": "centrale",
+      "price": 2891,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-7200mt-s-cl38-ddr5-kingston-fury-renegade-white-rgb/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$2.891"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
     {
       "product_id": 9507,
       "store_id": "spdigital",
       "price": 569990,
-      "price_normal": 595640,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/kingston-fury-ddr5-sdram-24gb-7200mts-ddr5-cl38-dimm",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$569.990",
-        "Webpay / Tarjeta": "$595.640"
+        "Transferencia / Efectivo": "$569.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -46,7 +62,19 @@
       "store_name": "SP Digital",
       "date": "2026-04-28",
       "price": 569990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-04-29",
+      "price": 569990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-01",
+      "price": 569990
     }
   ],
-  "scraped_at": "2026-04-28"
+  "scraped_at": "2026-05-01"
 }

@@ -10,12 +10,12 @@
   "specs": {
     "Marca": "Formula V Line",
     "Modelo": "Cosmic 12BK ARPW",
-    "Transferencia/Efectivo": "$8.730",
-    "Webpay / Tarjeta crédito-débito": "$8.990"
+    "Efectivo / Transferencia": "$8.730",
+    "Tarjeta crédito/débito": "$8.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:01",
-  "updated_at": "2026-04-27 22:17:26",
+  "updated_at": "2026-05-01 14:29:52",
   "prices": [
     {
       "product_id": 1768,
@@ -26,6 +26,9 @@
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/ventilador-formula-cosmic-12-arpw-negro/",
       "store_name": "ProGaming",
+      "price_specs": {
+        "Efectivo/Transferencia": "$8.730"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.progaming.cl",
@@ -44,7 +47,13 @@
       "store_name": "ProGaming",
       "date": "2026-04-27",
       "price": 8730
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-05-01",
+      "price": 8730
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

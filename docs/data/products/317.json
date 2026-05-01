@@ -10,22 +10,26 @@
   "specs": {
     "Frecuencia base": "2.5 GHz",
     "Socket": "LGA1700",
-    "Transferencia / Efectivo": "$196.300",
-    "Tarjetas de Crédito / Débito": "$207.100"
+    "Transferencia / Efectivo": "$1.963",
+    "Tarjeta crédito/débito": "$2.070"
   },
   "tags": [],
   "created_at": "2026-04-26 16:25:52",
-  "updated_at": "2026-04-27 11:52:32",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 317,
       "store_id": "centrale",
-      "price": 196300,
-      "price_normal": 221210,
+      "price": 1963,
+      "price_normal": 2212,
       "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-12400-2-5ghz-18mb-6-cores-lga-1700/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.963",
+        "Tarjetas de Crédito / Débito": "$2.212"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -44,7 +48,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 196300
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 1963
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

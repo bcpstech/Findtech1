@@ -23,6 +23,23 @@
   "updated_at": "2026-05-01 02:34:07",
   "prices": [
     {
+      "product_id": 1213,
+      "store_id": "centrale",
+      "price": 6131,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/gigabyte-tarjeta-de-video-gaming-oc-ice-amd-radeon-rx-9060-xt-16-gb-gddr6-128/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$6.131"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
       "product_id": 16842,
       "store_id": "myshop",
       "price": 569990,
@@ -44,7 +61,7 @@
       "product_id": 2612,
       "store_id": "trulustore",
       "price": 599990,
-      "price_normal": 629990,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/tarjeta-de-video-gigabyte-amd-radeon-rx-9060-xt-gaming-oc-16gb/",
@@ -52,8 +69,7 @@
       "khipu_price": 611990,
       "price_specs": {
         "Efectivo / Transferencia": "$599.990",
-        "Khipu": "$611.990",
-        "Tarjeta crédito/débito": "$629.990"
+        "Khipu": "$611.990"
       },
       "store_rating": 0,
       "review_count": 0,

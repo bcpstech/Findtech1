@@ -11,27 +11,48 @@
     "Capacidad": "16 GB",
     "Tipo": "DDR4",
     "Velocidad": "3200 MHz",
-    "Marca": "ADATA",
-    "Transferencia/Efectivo": "$147.560",
-    "Webpay / Tarjeta crédito-débito": "$151.990"
+    "Latencia": "CL16",
+    "Iluminación": "RGB",
+    "Transferencia / Efectivo": "$1.602",
+    "Tarjeta crédito/débito": "$1.690"
   },
   "tags": [],
   "created_at": "2026-04-26 20:42:53",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1983,
       "store_id": "dust2",
-      "price": 147560,
+      "price": 1480,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/memoria-ram-adata-xpg-spectrix-d35g-rbg-ddr4-3200-16gb/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.480"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 1444,
+      "store_id": "centrale",
+      "price": 1602,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr4-3200mt-s-cl16-adata-xpg-spectrix-d35g-rgb/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.602"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -46,7 +67,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 147560
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 1480
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

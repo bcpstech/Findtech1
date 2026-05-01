@@ -8,29 +8,50 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Disco-Duro-HDD-2TB-Seagate-Skyhawk-Interno-3.5-SATA-6GB-s-Video-Vigilan_Hpmpvaq-1.webp",
   "description": null,
   "specs": {
-    "Capacidad": "2 TB",
+    "Capacidad": "6 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$124.300",
-    "Tarjetas de Crédito / Débito": "$131.140"
+    "Transferencia / Efectivo": "$2.650",
+    "Tarjeta crédito/débito": "$2.800"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1589,
       "store_id": "centrale",
-      "price": 124300,
+      "price": 1243,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-hdd-2tb-seagate-skyhawk-3-5-sata-6gb-s-5400rpm-video-vigilancia/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.243"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 16361,
+      "store_id": "spdigital",
+      "price": 213820,
+      "price_normal": 223440,
+      "discount_pct": 4,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/seagate-skyhawk-hard-drive-internal-hard-drive-4-tb-35-5400-rpm-scsi",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$213.820",
+        "Webpay / Tarjeta": "$223.440"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -45,7 +66,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 124300
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 1243
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

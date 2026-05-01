@@ -10,22 +10,25 @@
   "specs": {
     "Capacidad": "6 TB",
     "Interfaz": "SATA III",
-    "Transferencia / Efectivo": "$204.430",
-    "Tarjetas de Crédito / Débito": "$215.670"
+    "Transferencia / Efectivo": "$2.060",
+    "Tarjeta crédito/débito": "$2.170"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1584,
       "store_id": "centrale",
-      "price": 204430,
+      "price": 2060,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-hdd-6tb-nas-western-digital-wd-red-plus-5640rpm-sata-6gb-s/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$2.060"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -44,7 +47,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 204430
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 2060
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

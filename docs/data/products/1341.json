@@ -13,22 +13,25 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Slots M.2": "6",
-    "Transferencia / Efectivo": "$748.490",
-    "Tarjetas de Crédito / Débito": "$789.660"
+    "Transferencia / Efectivo": "$7.836",
+    "Tarjeta crédito/débito": "$8.270"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1341,
       "store_id": "centrale",
-      "price": 748490,
+      "price": 7836,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-maximus-z890-hero-lga1851-4ddr5-6m-2-wifi7-atx/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$7.836"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -47,7 +50,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 748490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 7836
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

@@ -1,43 +1,61 @@
 {
   "id": 1497,
-  "external_id": "dust2_memoria-ram-corsair-vengeance-rgb-black-ddr5-8gb-5200mt-s",
+  "external_id": "centrale_memoria-ram-notebook-32gb-ddr5-5600mt-s-cl46-kingston-sodimm-2rx8-1-1v-16gbit",
   "category_id": "ram",
-  "brand": "Corsair",
-  "name": "Memoria Ram Corsair Vengeance RGB Black, DDR5, 8GB, 5200MT/s",
-  "slug": "memoria-ram-corsair-vengeance-rgb-black-ddr5-8gb-5200mt-s",
-  "image_url": "https://images.findtech.cl/products/memoria-ram-corsair-vengeance-rgb-black-ddr5-8gb-5200mt-s.jpg",
+  "brand": "Kingston",
+  "name": "Memoria RAM Notebook 32GB DDR5 5600MT/s CL46 Kingston SODIMM 2RX8 1.1V 16Gbit",
+  "slug": "memoria-ram-notebook-32gb-ddr5-5600mt-s-cl46-kingston-sodimm-2rx8-1-1v-16gbit",
+  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-Notebook-32GB-DDR5-5600MT-s-CL46-Kingston-SODIMM-2RX8-1.1V-_uRSaCTC-1.webp",
   "description": null,
   "specs": {
-    "Marca": "Corsair",
-    "Transferencia/Efectivo": "$119.410",
-    "Webpay / Tarjeta crédito-débito": "$122.990"
+    "Capacidad": "32 GB",
+    "Tipo": "DDR5",
+    "Velocidad": "5600 MHz",
+    "Latencia": "CL46",
+    "Transferencia / Efectivo": "$4.608",
+    "Tarjeta crédito/débito": "$4.860"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:41:33",
-  "updated_at": "2026-04-25 19:41:33",
+  "created_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1497,
-      "store_id": "dust2",
-      "price": 119410,
+      "store_id": "centrale",
+      "price": 4000,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/memoria-ram-corsair-vengeance-rgb-black-ddr5-8gb-5200mt-s/",
-      "store_name": "Dust2",
+      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-32gb-ddr5-5600mt-s-cl46-kingston-sodimm-2rx8-1-1v-16gbit/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$4.000"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 119410
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 400010
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 400010
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 4000
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-05-01"
 }

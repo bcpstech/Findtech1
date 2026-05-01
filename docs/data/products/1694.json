@@ -8,22 +8,25 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-2200W-Seasonic-2-x-PCIe-5.1-Full-Modular-80-Platinum-12_Rz8NQQY.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$788.430",
-    "Tarjetas de Crédito / Débito": "$831.790"
+    "Transferencia / Efectivo": "$7.884",
+    "Tarjeta crédito/débito": "$8.320"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:52",
-  "updated_at": "2026-04-27 22:15:16",
+  "updated_at": "2026-05-01 14:19:21",
   "prices": [
     {
       "product_id": 1694,
       "store_id": "centrale",
-      "price": 788430,
+      "price": 7884,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-2200w-seasonic-2-x-pcie-5-1-full-modular-80-platinum-12y/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$7.884"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -42,7 +45,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 788430
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 7884
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

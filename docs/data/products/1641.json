@@ -8,22 +8,25 @@
   "image_url": "https://centrale.cl/wp-content/uploads/RefrigeraciC3B3n-LC3ADquida-CPU-Corsair-iCUE-LINK-H100i-RGB-240mm-AiO-LGA1700_a2S5pin-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$224.900",
-    "Tarjetas de Crédito / Débito": "$237.270"
+    "Transferencia / Efectivo": "$2.249",
+    "Tarjeta crédito/débito": "$2.370"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:45",
-  "updated_at": "2026-04-27 22:15:09",
+  "updated_at": "2026-05-01 14:18:37",
   "prices": [
     {
       "product_id": 1641,
       "store_id": "centrale",
-      "price": 224900,
+      "price": 2249,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-cpu-corsair-icue-link-h100i-rgb-240mm-aio-lga1700-am5/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$2.249"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -42,7 +45,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 224900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 2249
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

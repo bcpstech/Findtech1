@@ -8,30 +8,50 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Crucial-Unidad-Ssd-P310-1Tb-M.2-2230-Pcie-4.0-X4-Lectura-7100Mb-S-Escritura-1.webp",
   "description": null,
   "specs": {
-    "Capacidad": "1 TB",
+    "Capacidad": "2 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
     "Lectura": "7100 MB/s",
-    "Transferencia / Efectivo": "$179.450",
-    "Tarjetas de Crédito / Débito": "$189.320"
+    "Transferencia / Efectivo": "$3.293",
+    "Tarjeta crédito/débito": "$3.470"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1574,
       "store_id": "centrale",
-      "price": 179450,
+      "price": 1802,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-1tb-crucial-p310-m-2-2230-pcie-4-0-x4-lectura-7100mb-s/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.802"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9542,
+      "store_id": "spdigital",
+      "price": 423930,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/unidad-ssd-crucial-p310-2tb-m2-2230-pcie-40-x4-lectura-7100mbs-escritura-6000mbs",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$423.930"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -46,7 +66,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 179450
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 1802
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

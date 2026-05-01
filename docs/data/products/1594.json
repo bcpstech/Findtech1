@@ -8,24 +8,29 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-NVMe-512GB-Kingston-KC3000-PCIe-4.0-7000-MB-s_mpP88B6.webp",
   "description": null,
   "specs": {
-    "Capacidad": "512 GB",
+    "Capacidad": "4 TB",
     "Interfaz": "NVMe PCIe",
-    "Transferencia / Efectivo": "$129.470",
-    "Tarjetas de Crédito / Débito": "$136.590"
+    "Factor de forma": "M.2 2280",
+    "Marca": "KINGSTON",
+    "Efectivo/Transferencia": "$713.081",
+    "Webpay / Tarjeta": "$750.589"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1594,
       "store_id": "centrale",
-      "price": 129470,
+      "price": 1295,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-nvme-512gb-kingston-kc3000-pcie-4-0-7000-mb-s/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.295"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -34,12 +39,15 @@
     {
       "product_id": 4196,
       "store_id": "cg",
-      "price": 301330,
+      "price": 341995,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/almacenamiento/disco-ssd-kingston-kc3000-2tb-m-2-nvme-pcie-7000-7000mb-s/",
       "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$341.995"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
@@ -58,7 +66,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 129470
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 1295
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

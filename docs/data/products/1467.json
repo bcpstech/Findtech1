@@ -13,26 +13,47 @@
     "Velocidad": "6000 MHz",
     "Latencia": "CL48",
     "Iluminación": "RGB",
-    "Transferencia / Efectivo": "$250.500",
-    "Tarjetas de Crédito / Débito": "$264.280"
+    "Transferencia / Efectivo": "$2.505",
+    "Tarjeta crédito/débito": "$2.640"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1467,
       "store_id": "centrale",
-      "price": 250500,
+      "price": 2505,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/xpg-memoria-ram-lancer-blade-rgb-negro-de-16gb-ddr5-6000mhz-cl48-xmp-dimm/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$2.505"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 15141,
+      "store_id": "spdigital",
+      "price": 362760,
+      "price_normal": 379080,
+      "discount_pct": 4,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/memoria-ram-xpg-lancer-blade-16gb-ddr5-5600-mts-cl46-white",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$362.760",
+        "Webpay / Tarjeta": "$379.080"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -47,7 +68,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 250500
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 2505
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

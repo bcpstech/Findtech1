@@ -1,0 +1,80 @@
+{
+  "id": 1993,
+  "external_id": "dust2_ram-corsair-vengeance-rgb-pro-tuf-16gb-2x8gb-ddr4-3200mhz",
+  "category_id": "ram",
+  "brand": "Corsair",
+  "name": "RAM Corsair Vengeance RGB PRO TUF 16GB (2x8GB) DDR4 3200MHz",
+  "slug": "ram-corsair-vengeance-rgb-pro-tuf-16gb-2x8gb-ddr4-3200mhz",
+  "image_url": "https://images.findtech.cl/products/ram-corsair-vengeance-rgb-pro-tuf-16gb-2x8gb-ddr4-3200mhz.jpg",
+  "description": null,
+  "specs": {
+    "Capacidad": "16 GB (total)",
+    "Tipo": "DDR4",
+    "Velocidad": "3200 MHz",
+    "Kit": "2x8 GB",
+    "Iluminación": "RGB",
+    "Marca": "Corsair",
+    "Efectivo / Transferencia": "$1.530",
+    "Tarjeta crédito/débito": "$1.580"
+  },
+  "tags": [],
+  "created_at": "2026-04-26 20:43:00",
+  "updated_at": "2026-05-01 14:32:34",
+  "prices": [
+    {
+      "product_id": 1990,
+      "store_id": "dust2",
+      "price": 1340,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/memoria-ram-corsair-vengeance-rgb-rs-16gb-x-3200mhz-ddr4/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.340"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 9476,
+      "store_id": "spdigital",
+      "price": 279990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/corsair-vengeance-rgb-rs-ddr4-mã3dulo-16-gb-dimm-de-288-espigas-3200-mhz-pc4-25600-cl1",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$279.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-26",
+      "price": 153390
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-27",
+      "price": 153390
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 1530
+    }
+  ],
+  "scraped_at": "2026-05-01"
+}

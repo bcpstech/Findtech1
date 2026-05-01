@@ -22,17 +22,51 @@
   "updated_at": "2026-05-01 02:34:07",
   "prices": [
     {
-      "product_id": 16854,
-      "store_id": "myshop",
-      "price": 79990,
-      "price_normal": 84389,
+      "product_id": 2179,
+      "store_id": "dust2",
+      "price": 1260,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/ssd-m2-2280-256-gb-a-data-legend-710-pcie-30-x4-aleg-710-256gcs-p22889",
+      "product_url": "https://dust2.gg/producto/disco-solido-ssd-adata-sata-su650-1tb/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.260"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 1533,
+      "store_id": "centrale",
+      "price": 2063,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/ssd-xpg-adata-ultimate-su650-1tb-2-5-sata-3-lectura-520mb-s-escritura/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$2.063"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 16877,
+      "store_id": "myshop",
+      "price": 52990,
+      "price_normal": 55904,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/ssd-25-240-gb-a-data-ultimate-su650-sata-3-60-gbs-asu650ss-240gt-r-p27848",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$79.990",
-        "Tarjeta crédito/débito": "$84.389"
+        "Efectivo/Transferencia": "$52.990",
+        "Tarjeta crédito/débito": "$55.904"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,16 +74,16 @@
       "full_url": "https://www.myshop.cl"
     },
     {
-      "product_id": 9535,
+      "product_id": 9538,
       "store_id": "spdigital",
-      "price": 169990,
+      "price": 84650,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/adata-legend-710-m2-512gb-nvme-nand-gen3x4",
+      "product_url": "https://www.spdigital.cl/ssd-ultimate-su650-sata-iii-256gb-520",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$169.990"
+        "Transferencia / Efectivo": "$84.650"
       },
       "store_rating": 0,
       "review_count": 0,

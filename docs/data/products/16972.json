@@ -19,6 +19,23 @@
   "updated_at": "2026-05-01 02:31:29",
   "prices": [
     {
+      "product_id": 2234,
+      "store_id": "dust2",
+      "price": 1030,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/fuente-de-poder-gigabyte-gp-ud850gm-pg5-850w-80-plus-gold/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.030"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
       "product_id": 16972,
       "store_id": "myshop",
       "price": 89990,
@@ -35,43 +52,6 @@
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 2661,
-      "store_id": "trulustore",
-      "price": 94990,
-      "price_normal": 99740,
-      "discount_pct": 14,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/fuente-de-poder-gigabyte-ud750gm-pg5-full-modular-80-gold-pcie-5-0-de-750w/",
-      "store_name": "TruluStore",
-      "khipu_price": 96890,
-      "price_specs": {
-        "Efectivo / Transferencia": "$94.990",
-        "Khipu": "$96.890",
-        "Tarjeta crédito/débito": "$99.740"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
-    },
-    {
-      "product_id": 9707,
-      "store_id": "spdigital",
-      "price": 149990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/fuente-de-poder-gigabyte-750w-certificacion-bronce-conector-pg5-color-negro",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$149.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [

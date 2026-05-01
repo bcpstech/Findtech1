@@ -1,0 +1,81 @@
+{
+  "id": 1804,
+  "external_id": "dust2_tarjeta-de-video-asus-geforce-rtx-5080-16gb-gddr7-noctua-oc",
+  "category_id": "gpu",
+  "brand": "ASUS",
+  "name": "Tarjeta de Video ASUS GeForce RTX 5080 16GB GDDR7 Noctua OC",
+  "slug": "tarjeta-de-video-asus-geforce-rtx-5080-16gb-gddr7-noctua-oc",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-asus-geforce-rtx-5080-16gb-gddr7-noctua-oc.jpg",
+  "description": null,
+  "specs": {
+    "VRAM": "16 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "256-bit",
+    "Arquitectura": "Blackwell",
+    "Variante": "OC (Overclocked)",
+    "Marca": "ASUS",
+    "Efectivo / Transferencia": "$20.890",
+    "Tarjeta crédito/débito": "$21.520"
+  },
+  "tags": [],
+  "created_at": "2026-04-26 20:40:30",
+  "updated_at": "2026-05-01 14:32:34",
+  "prices": [
+    {
+      "product_id": 1804,
+      "store_id": "dust2",
+      "price": 20890,
+      "price_normal": 21550,
+      "discount_pct": 3,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-asus-geforce-rtx-5080-16gb-gddr7-noctua-oc/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$20.890",
+        "Tarjeta crédito/débito": "$21.550"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 9564,
+      "store_id": "spdigital",
+      "price": 2919990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-rog-astral-geforce-rtx-5080-oc-16gb-gddr7-256-bit-pcie-50",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$2.919.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-26",
+      "price": 2089310
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-27",
+      "price": 2089310
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 20890
+    }
+  ],
+  "scraped_at": "2026-05-01"
+}

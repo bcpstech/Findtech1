@@ -1,29 +1,36 @@
 {
   "id": 1193,
-  "external_id": "centrale_fuente-msi-mag-a1000gls-pcie5-1000w-80-plus-gold-modular",
-  "category_id": "psu",
+  "external_id": "centrale_tarjeta-grafica-msi-geforce-rtx-5060-ti-shadow-2x-oc-plus-8gb-gddr7-128-bit",
+  "category_id": "gpu",
   "brand": "MSI",
-  "name": "Fuente MSI MAG A1000GLS PCIe5 1000W, 80 Plus Gold, Modular",
-  "slug": "fuente-msi-mag-a1000gls-pcie5-1000w-80-plus-gold-modular",
-  "image_url": "https://centrale.cl/wp-content/uploads/Msi-Fuente-De-Poder-Mag-A1000Gls-Pcie5-Full-Modular-Conector-12V-6X2.webp",
+  "name": "Tarjeta Gráfica MSI GeForce RTX 5060 Ti SHADOW 2X OC PLUS 8GB GDDR7 128-bit",
+  "slug": "tarjeta-grafica-msi-geforce-rtx-5060-ti-shadow-2x-oc-plus-8gb-gddr7-128-bit",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-MSI-GeForce-RTX-5060-Ti-SHADOW-2X-OC-PLUS-8GB-GDDR7-128_3mGgXYm.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$125.870",
-    "Tarjetas de Crédito / Débito": "$132.790"
+    "VRAM": "8 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "128-bit",
+    "Variante": "OC (Overclocked)",
+    "Transferencia / Efectivo": "$5.385",
+    "Tarjeta crédito/débito": "$5.680"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:46",
-  "updated_at": "2026-04-25 19:37:46",
+  "created_at": "2026-04-26 20:37:32",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1193,
       "store_id": "centrale",
-      "price": 125870,
-      "price_normal": 144160,
-      "discount_pct": 13,
+      "price": 5385,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-msi-mag-a1000gls-pcie5-1000w-80-plus-gold-modular/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5060-ti-shadow-2x-oc-plus-8gb-gddr7-128-bit/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$5.385"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -34,9 +41,21 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 125870
+      "date": "2026-04-26",
+      "price": 506270
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 505700
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 5385
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-05-01"
 }

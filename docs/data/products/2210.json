@@ -12,22 +12,25 @@
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
     "Marca": "Kingston",
-    "Transferencia/Efectivo": "$116.500",
-    "Webpay / Tarjeta crédito-débito": "$119.990"
+    "Efectivo / Transferencia": "$1.170",
+    "Tarjeta crédito/débito": "$1.200"
   },
   "tags": [],
   "created_at": "2026-04-26 20:45:43",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 2210,
       "store_id": "dust2",
-      "price": 116500,
+      "price": 1170,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/ssd-kingston-nv3-m-2-2280-nvme-4-0-gen-4x4-ultra-fast-1tb/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.170"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
@@ -36,30 +39,19 @@
     {
       "product_id": 1577,
       "store_id": "centrale",
-      "price": 118900,
+      "price": 1189,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-1tb-kingston-nv3-m-2-2280-pcie-4-0-nvme-6000mb-s/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.189"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 2529,
-      "store_id": "megabytes",
-      "price": 135910,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/kingston-1tb-nv3-m-2-2280-nvme-pcie/",
-      "store_name": "MegaBytes",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.megabytes.cl",
-      "full_url": "https://www.megabytes.cl"
     }
   ],
   "history": [
@@ -74,7 +66,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 116500
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 1170
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

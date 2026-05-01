@@ -1,0 +1,69 @@
+{
+  "id": 16892,
+  "external_id": "myshop_ssd-2-5-1-tb-kingston-kc600-sata-3-6-0-gb-s-skc600-1024g",
+  "category_id": "storage",
+  "brand": "Kingston",
+  "name": "SSD 2.5\" - 1 TB - Kingston KC600 - SATA 3 (6.0 Gb/s) (SKC600/1024G)",
+  "slug": "ssd-2-5-1-tb-kingston-kc600-sata-3-6-0-gb-s-skc600-1024g",
+  "image_url": "https://images.findtech.cl/products/ssd-2-5-1-tb-kingston-kc600-sata-3-6-0-gb-s-skc600-1024g.jpg",
+  "description": null,
+  "specs": {
+    "Capacidad": "1 TB",
+    "Interfaz": "SATA III",
+    "Factor de forma": "2.5\"",
+    "Efectivo / Transferencia": "$199.500",
+    "Tarjeta crédito/débito": "$210.473",
+    "Garantía": "6 meses",
+    "SKU": "18488",
+    "Part Number": "SKC600/1024G"
+  },
+  "tags": [],
+  "created_at": "2026-05-01 01:31:48",
+  "updated_at": "2026-05-01 02:34:07",
+  "prices": [
+    {
+      "product_id": 1580,
+      "store_id": "centrale",
+      "price": 1152,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/disco-ssd-256gb-kingston-kc600-2-5%e2%80%b3-sata3-auto-encript/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.152"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 16892,
+      "store_id": "myshop",
+      "price": 199500,
+      "price_normal": 210473,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/ssd-25-1-tb-kingston-kc600-sata-3-60-gbs-skc6001024g-p18488",
+      "store_name": "MyShop",
+      "price_specs": {
+        "Efectivo/Transferencia": "$199.500",
+        "Tarjeta crédito/débito": "$210.473"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-01",
+      "price": 199500
+    }
+  ],
+  "scraped_at": "2026-05-01"
+}

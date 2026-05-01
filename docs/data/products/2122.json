@@ -1,0 +1,78 @@
+{
+  "id": 2122,
+  "external_id": "dust2_disco-duro-ssd-adata-legend-860-1tb-m-2-pcie-gen4-x4",
+  "category_id": "storage",
+  "brand": "Genérico",
+  "name": "Disco Duro SSD ADATA LEGEND 860 1TB M.2 PCIe Gen4 x4",
+  "slug": "disco-duro-ssd-adata-legend-860-1tb-m-2-pcie-gen4-x4",
+  "image_url": "https://images.findtech.cl/products/disco-duro-ssd-adata-legend-860-1tb-m-2-pcie-gen4-x4.jpg",
+  "description": null,
+  "specs": {
+    "Capacidad": "1 TB",
+    "Interfaz": "NVMe PCIe",
+    "Factor de forma": "M.2 2280",
+    "Marca": "ADATA",
+    "Efectivo / Transferencia": "$1.750",
+    "Tarjeta crédito/débito": "$1.800"
+  },
+  "tags": [],
+  "created_at": "2026-04-26 20:44:36",
+  "updated_at": "2026-05-01 14:32:34",
+  "prices": [
+    {
+      "product_id": 2122,
+      "store_id": "dust2",
+      "price": 1750,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/disco-duro-ssd-adata-legend-860-1tb-m-2-pcie-gen4-x4/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.750"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 9537,
+      "store_id": "spdigital",
+      "price": 149990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/unidad-ssd-adata-legend-860-500gb-m2-2280-pcie-gen4-x4-nvme-20-3d-nand",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$149.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-26",
+      "price": 174750
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-27",
+      "price": 174750
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 1750
+    }
+  ],
+  "scraped_at": "2026-05-01"
+}

@@ -12,22 +12,25 @@
     "Factor de forma": "ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$558.980",
-    "Tarjetas de Crédito / Débito": "$589.720"
+    "Efectivo/Transferencia": "$609.900",
+    "Tarjeta crédito/débito": "$628.197"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1360,
       "store_id": "centrale",
-      "price": 558980,
+      "price": 5841,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-strix-z890-e-gaming-wifi-lga1851-ddr5-8800mhz-atx/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$5.841"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -36,12 +39,15 @@
     {
       "product_id": 1163,
       "store_id": "cg",
-      "price": 564540,
+      "price": 597269,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/placas-madre/asus-motherboard-rog-strix-z890-e-gaming-1851-d/",
       "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$597.269"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
@@ -56,6 +62,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3140-rog-strix-z890-e-gaming-wifi-lga-1851-atx-18212-stages-ddr5-wifi-7-7x-m2-thunderbolt-4.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$609.900",
+        "Tarjeta crédito/débito": "$642.000"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
@@ -74,7 +84,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 558980
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 5841
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

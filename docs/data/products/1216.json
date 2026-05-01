@@ -1,29 +1,37 @@
 {
   "id": 1216,
-  "external_id": "centrale_fuente-de-poder-550w-xpg-pylon-no-modular-80-bronze",
-  "category_id": "psu",
-  "brand": "XPG",
-  "name": "Fuente de Poder 550W XPG Pylon (No Modular, 80+ Bronze)",
-  "slug": "fuente-de-poder-550w-xpg-pylon-no-modular-80-bronze",
-  "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-550W-XPG-Pylon-No-Modular-80-Bronze-PCIe-5.0.webp",
+  "external_id": "centrale_tarjeta-grafica-asus-rog-astral-geforce-rtx-5080-gaming-oc-16gb-gddr7-256-bit",
+  "category_id": "gpu",
+  "brand": "Rog",
+  "name": "Tarjeta Gráfica ASUS ROG Astral GeForce RTX 5080 GAMING OC 16GB GDDR7 256-bit",
+  "slug": "tarjeta-grafica-asus-rog-astral-geforce-rtx-5080-gaming-oc-16gb-gddr7-256-bit",
+  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-ASUS-ROG-Astral-GeForce-RTX-5080-GAMING-OC-16GB-GDDR7-192-bit-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$45.170",
-    "Tarjetas de Crédito / Débito": "$47.650"
+    "VRAM": "16 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "256-bit",
+    "Arquitectura": "Blackwell",
+    "Variante": "OC (Overclocked)",
+    "Transferencia / Efectivo": "$23.241",
+    "Tarjeta crédito/débito": "$24.520"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:27",
-  "updated_at": "2026-04-25 20:57:27",
+  "created_at": "2026-04-26 20:37:32",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1216,
       "store_id": "centrale",
-      "price": 45170,
-      "price_normal": 55330,
-      "discount_pct": 18,
+      "price": 23241,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-550w-xpg-pylon-no-modular-80-bronze/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-rog-astral-geforce-rtx-5080-gaming-oc-16gb-gddr7-256-bit/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$23.241"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -34,9 +42,21 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 45170
+      "date": "2026-04-26",
+      "price": 2324080
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 2324080
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 23241
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-05-01"
 }

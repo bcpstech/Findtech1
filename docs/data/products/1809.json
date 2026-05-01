@@ -9,24 +9,30 @@
   "description": null,
   "specs": {
     "VRAM": "8 GB",
+    "Tipo memoria": "GDDR6",
+    "Bus de memoria": "128-bit",
+    "Arquitectura": "RDNA 3",
     "Variante": "OC (Overclocked)",
     "Marca": "ASRock",
-    "Transferencia/Efectivo": "$306.300",
-    "Webpay / Tarjeta crédito-débito": "$315.490"
+    "Efectivo / Transferencia": "$3.060",
+    "Tarjeta crédito/débito": "$3.155"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:34",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1809,
       "store_id": "dust2",
-      "price": 306300,
+      "price": 3060,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-asrock-radeon-rx-7600-challenger-8gb-oc/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$3.060"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
@@ -45,7 +51,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 306300
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 3060
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

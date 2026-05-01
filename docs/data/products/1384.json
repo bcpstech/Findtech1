@@ -12,22 +12,25 @@
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$126.150",
-    "Tarjetas de Crédito / Débito": "$133.090"
+    "Efectivo/Transferencia": "$142.900",
+    "Tarjeta crédito/débito": "$147.187"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1384,
       "store_id": "centrale",
-      "price": 126150,
+      "price": 1262,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-b650m-ayw-wifi-am5-ddr5-x2-m-2-x2-micro-atx-wifi-6/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.262"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -42,24 +45,31 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3408-asus-b650m-ayw-wifi-micro-atxddr5am5pcie-50-m2hdmirealtek-25gb-ethernetwi-fi-6rear-usb-10gbps-portssata-6-gbps.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$142.900",
+        "Tarjeta crédito/débito": "$150.421"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
     },
     {
-      "product_id": 967,
-      "store_id": "alltec",
-      "price": 142900,
+      "product_id": 9428,
+      "store_id": "spdigital",
+      "price": 249990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/para-amd/2453-mb-asus-b650m-ayw-wi-fi-am5-ddr5-ryzen-700080009000.html",
-      "store_name": "Alltec",
+      "product_url": "https://www.spdigital.cl/placa-madre-asus-b650m-ayw-wifi-socket-am5-2x-ddr5-2x-nvme-wi-fi-6-25-gbe-micro-atx",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$249.990"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -74,7 +84,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 126150
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 1262
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

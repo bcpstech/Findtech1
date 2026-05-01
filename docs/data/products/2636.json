@@ -9,18 +9,17 @@
   "description": null,
   "specs": {
     "Efectivo / Transferencia": "$79.990",
-    "Khipu": "$81.590",
-    "Tarjeta crédito/débito": "$83.990"
+    "Khipu": "$81.590"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:40",
-  "updated_at": "2026-05-01 13:13:13",
+  "updated_at": "2026-05-01 13:55:18",
   "prices": [
     {
       "product_id": 2636,
       "store_id": "trulustore",
       "price": 79990,
-      "price_normal": 83990,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/refrigeracion-liquida-msi-mag-coreliquid-a12-240-argb-am4-am5-lga1700-lga1851-cfm-94-65/",
@@ -28,8 +27,7 @@
       "khipu_price": 81590,
       "price_specs": {
         "Efectivo / Transferencia": "$79.990",
-        "Khipu": "$81.590",
-        "Tarjeta crédito/débito": "$83.990"
+        "Khipu": "$81.590"
       },
       "store_rating": 0,
       "review_count": 0,

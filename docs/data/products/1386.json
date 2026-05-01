@@ -9,23 +9,26 @@
   "description": null,
   "specs": {
     "Socket": "LGA1851",
-    "Memoria": "DDR5",
-    "Transferencia / Efectivo": "$157.430",
-    "Tarjetas de Crédito / Débito": "$166.090"
+    "WiFi": "Integrado",
+    "Transferencia / Efectivo": "$1.752",
+    "Tarjeta crédito/débito": "$1.850"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1386,
       "store_id": "centrale",
-      "price": 157430,
-      "price_normal": 182500,
-      "discount_pct": 14,
+      "price": 1679,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b860m-a-lga-1851-ddr5-m-2-gen5-pcie-gen5/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.679"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -44,7 +47,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 157430
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 1679
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

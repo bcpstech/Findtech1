@@ -12,22 +12,25 @@
     "Tipo memoria": "GDDR6",
     "Variante": "OC (Overclocked)",
     "Marca": "ASUS",
-    "Transferencia/Efectivo": "$337.850",
-    "Webpay / Tarjeta crédito-débito": "$347.990"
+    "Efectivo/Transferencia": "$419.990",
+    "Webpay / Tarjeta": "$442.081"
   },
   "tags": [],
   "created_at": "2026-04-26 20:41:08",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1858,
       "store_id": "dust2",
-      "price": 337850,
+      "price": 3380,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-asus-prime-rtx-5050-oc-gddr6-8gb/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$3.380"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
@@ -36,16 +39,36 @@
     {
       "product_id": 1133,
       "store_id": "cg",
-      "price": 399000,
+      "price": 419990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/grafica-asus/tarjeta-de-video-asus-prime-rtx-5050-oc-8gb-gddr6/",
       "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$419.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 9568,
+      "store_id": "spdigital",
+      "price": 539990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-dual-nvidia-geforce-rtx-5050-oc-8gb-gddr6-128-bit-pci-e-50",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$539.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -60,7 +83,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 337850
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 3380
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

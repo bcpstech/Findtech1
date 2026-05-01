@@ -9,18 +9,17 @@
   "description": null,
   "specs": {
     "Efectivo / Transferencia": "$32.990",
-    "Khipu": "$33.650",
-    "Tarjeta crédito/débito": "$34.640"
+    "Khipu": "$33.650"
   },
   "tags": [],
   "created_at": "2026-04-28 23:08:37",
-  "updated_at": "2026-05-01 13:13:24",
+  "updated_at": "2026-05-01 13:55:28",
   "prices": [
     {
       "product_id": 12112,
       "store_id": "trulustore",
       "price": 32990,
-      "price_normal": 34640,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/kit-ventiladores-esgaming-ez-08-argb-120mm-3-ventiladores-controladora/",
@@ -28,8 +27,7 @@
       "khipu_price": 33650,
       "price_specs": {
         "Efectivo / Transferencia": "$32.990",
-        "Khipu": "$33.650",
-        "Tarjeta crédito/débito": "$34.640"
+        "Khipu": "$33.650"
       },
       "store_rating": 0,
       "review_count": 0,

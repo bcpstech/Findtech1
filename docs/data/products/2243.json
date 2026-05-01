@@ -9,26 +9,46 @@
   "description": null,
   "specs": {
     "Marca": "Gigabyte",
-    "Transferencia/Efectivo": "$155.330",
-    "Webpay / Tarjeta crédito-débito": "$159.990"
+    "Efectivo / Transferencia": "$1.550",
+    "Tarjeta crédito/débito": "$1.600"
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:15",
-  "updated_at": "2026-04-27 22:22:55",
+  "updated_at": "2026-05-01 14:26:38",
   "prices": [
     {
       "product_id": 2243,
       "store_id": "dust2",
-      "price": 155330,
+      "price": 1550,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-gigabyte-aorus-ae1000pm-pg5-80plus-platinum/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.550"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 1712,
+      "store_id": "centrale",
+      "price": 1690,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/fuente-de-poder-1000w-gigabyte-aorus-elite-p1000w-80-platinum-pg5/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.690"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -43,7 +63,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 155330
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 1550
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

@@ -9,18 +9,17 @@
   "description": null,
   "specs": {
     "Efectivo / Transferencia": "$1.349.990",
-    "Khipu": "$1.376.990",
-    "Tarjeta crédito/débito": "$1.417.490"
+    "Khipu": "$1.376.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:10",
-  "updated_at": "2026-05-01 13:12:17",
+  "updated_at": "2026-05-01 13:54:23",
   "prices": [
     {
       "product_id": 2592,
       "store_id": "trulustore",
       "price": 1349990,
-      "price_normal": 1417490,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/pc-gamer-esgaming-intel-i5-14400f-rtx-3050-6gb-16gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-f05t-4-ventiladores-wifi-freedos/",
@@ -28,8 +27,7 @@
       "khipu_price": 1376990,
       "price_specs": {
         "Efectivo / Transferencia": "$1.349.990",
-        "Khipu": "$1.376.990",
-        "Tarjeta crédito/débito": "$1.417.490"
+        "Khipu": "$1.376.990"
       },
       "store_rating": 0,
       "review_count": 0,

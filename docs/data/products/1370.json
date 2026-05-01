@@ -11,26 +11,46 @@
     "Socket": "LGA1851",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
-    "Transferencia / Efectivo": "$148.990",
-    "Tarjetas de Crédito / Débito": "$157.180"
+    "Transferencia / Efectivo": "$1.490",
+    "Tarjeta crédito/débito": "$1.570"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1370,
       "store_id": "centrale",
-      "price": 148990,
+      "price": 1490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b860m-k-micro-atx-2x-ddr5-intel-lga-1851-pcie-5-0/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.490"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9462,
+      "store_id": "spdigital",
+      "price": 199990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-b860m-k-socket-lga-1851-2x-ddr5-2x-m2-25gbe-micro-atx",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$199.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -45,7 +65,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 148990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 1490
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

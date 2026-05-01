@@ -9,18 +9,17 @@
   "description": null,
   "specs": {
     "Efectivo / Transferencia": "$1.168.970",
-    "Khipu": "$1.192.349",
-    "Tarjeta crédito/débito": "$1.227.419"
+    "Khipu": "$1.192.349"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:23",
-  "updated_at": "2026-05-01 13:11:58",
+  "updated_at": "2026-05-01 13:54:04",
   "prices": [
     {
       "product_id": 2613,
       "store_id": "trulustore",
       "price": 1168970,
-      "price_normal": 1227419,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/pc-gamer-amd-ryzen-7-5700x-rx-7600-asus-dual-8gb-ddr4-3200mhz-ssd-nvme-500gb-wi-fi-y-bluetooth-gabinete-antec-cx300-4-ventiladores/",
@@ -28,8 +27,7 @@
       "khipu_price": 1192349,
       "price_specs": {
         "Efectivo / Transferencia": "$1.168.970",
-        "Khipu": "$1.192.349",
-        "Tarjeta crédito/débito": "$1.227.419"
+        "Khipu": "$1.192.349"
       },
       "store_rating": 0,
       "review_count": 0,

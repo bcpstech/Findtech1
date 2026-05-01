@@ -9,24 +9,28 @@
   "description": null,
   "specs": {
     "Socket": "LGA1851",
+    "Factor de forma": "ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$303.180",
-    "Tarjetas de Crédito / Débito": "$319.850"
+    "Efectivo/Transferencia": "$379.000",
+    "Tarjeta crédito/débito": "$390.370"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1388,
       "store_id": "centrale",
-      "price": 303180,
+      "price": 3179,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-strix-b860-f-gaming-wifi-lga-1851-ddr5-pcie-5-0-wifi-7/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$3.179"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -41,6 +45,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3138-rog-strix-b860-f-gaming-wifi-atx-wifi-7-lga185-1-x-thunderbolt-4-.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$379.000",
+        "Tarjeta crédito/débito": "$398.947"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
@@ -59,7 +67,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 303180
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 3179
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

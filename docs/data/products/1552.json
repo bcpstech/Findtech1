@@ -11,22 +11,25 @@
     "Capacidad": "14 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$459.410",
-    "Tarjetas de Crédito / Débito": "$484.680"
+    "Transferencia / Efectivo": "$4.594",
+    "Tarjeta crédito/débito": "$4.850"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1552,
       "store_id": "centrale",
-      "price": 459410,
+      "price": 4594,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-hdd-14tb-nas-toshiba-n300-3-5-7200rpm-sata-512mb-de-cache/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$4.594"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -45,7 +48,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 459410
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 4594
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

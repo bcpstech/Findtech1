@@ -19,6 +19,41 @@
   "updated_at": "2026-05-01 02:32:31",
   "prices": [
     {
+      "product_id": 2237,
+      "store_id": "dust2",
+      "price": 2040,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/fuente-de-poder-asus-rog-strix-1000w-platinum/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$2.040"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 1705,
+      "store_id": "centrale",
+      "price": 2116,
+      "price_normal": 2731,
+      "discount_pct": 23,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/fuente-de-poder-1000w-asus-rog-strix-1000p-gaming-full-modular-80-platinum/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$2.116",
+        "Tarjetas de Crédito / Débito": "$2.731"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
       "product_id": 17022,
       "store_id": "myshop",
       "price": 219990,
@@ -40,7 +75,7 @@
       "product_id": 2657,
       "store_id": "trulustore",
       "price": 224490,
-      "price_normal": 235715,
+      "price_normal": 299990,
       "discount_pct": 25,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/fuente-de-poder-asus-rog-strix-1000p-de-1000w-80-platinum-full-modular-atx-3-1/",
@@ -49,7 +84,7 @@
       "price_specs": {
         "Efectivo / Transferencia": "$224.490",
         "Khipu": "$228.980",
-        "Tarjeta crédito/débito": "$235.715"
+        "Tarjeta crédito/débito": "$299.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,16 +92,16 @@
       "full_url": "https://www.trulustore.cl"
     },
     {
-      "product_id": 9695,
+      "product_id": 9713,
       "store_id": "spdigital",
-      "price": 349990,
+      "price": 256520,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/fuente-de-poder-asus-rog-strix-1000w-platinum-full-modular-atx-31-80-plus-platinum",
+      "product_url": "https://www.spdigital.cl/rog-strix-1000w-platinum",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$349.990"
+        "Transferencia / Efectivo": "$256.520"
       },
       "store_rating": 0,
       "review_count": 0,

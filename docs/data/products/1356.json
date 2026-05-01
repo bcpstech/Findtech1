@@ -11,40 +11,29 @@
     "Socket": "AM5",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$248.510",
-    "Tarjetas de Crédito / Débito": "$262.180"
+    "Transferencia / Efectivo": "$2.485",
+    "Tarjeta crédito/débito": "$2.620"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1356,
       "store_id": "centrale",
-      "price": 248510,
+      "price": 2485,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-tuf-gaming-b850m-plus-wifi-am5-ddr5-pcie-5-0-wifi-6e/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$2.485"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 964,
-      "store_id": "alltec",
-      "price": 260900,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/asus/2425-mb-asus-tuf-gaming-b850m-plus-wifi-am5-ddr5-amd-ryzen-9000.html",
-      "store_name": "Alltec",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -59,7 +48,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 248510
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 2485
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

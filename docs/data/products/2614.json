@@ -9,18 +9,17 @@
   "description": null,
   "specs": {
     "Efectivo / Transferencia": "$1.383.980",
-    "Khipu": "$1.411.660",
-    "Tarjeta crédito/débito": "$1.453.179"
+    "Khipu": "$1.411.660"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:23",
-  "updated_at": "2026-05-01 13:11:59",
+  "updated_at": "2026-05-01 13:54:04",
   "prices": [
     {
       "product_id": 2614,
       "store_id": "trulustore",
       "price": 1383980,
-      "price_normal": 1453179,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/pc-gamer-amd-ryzen-7-5700x-rx-9060-xt-16gb-asus-dual-8gb-ddr4-3200mhz-ssd-nvme-500gb-wi-fi-y-bluetooth-gabinete-antec-cx300-4-ventiladores/",
@@ -28,8 +27,7 @@
       "khipu_price": 1411660,
       "price_specs": {
         "Efectivo / Transferencia": "$1.383.980",
-        "Khipu": "$1.411.660",
-        "Tarjeta crédito/débito": "$1.453.179"
+        "Khipu": "$1.411.660"
       },
       "store_rating": 0,
       "review_count": 0,

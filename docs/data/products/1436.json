@@ -13,22 +13,25 @@
     "Velocidad": "6400 MHz",
     "Latencia": "CL32",
     "Iluminación": "RGB",
-    "Transferencia / Efectivo": "$304.100",
-    "Tarjetas de Crédito / Débito": "$320.830"
+    "Transferencia / Efectivo": "$3.136",
+    "Tarjeta crédito/débito": "$3.310"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
-      "product_id": 1436,
+      "product_id": 1419,
       "store_id": "centrale",
-      "price": 304100,
-      "price_normal": 346320,
-      "discount_pct": 12,
+      "price": 3011,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-6400mt-s-cl32-ddr5-kingston-fury-renegade-white-rgb/",
+      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-6400mt-s-cl32-kingston-fury-beast-black/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$3.011"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -47,7 +50,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 304100
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 3136
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

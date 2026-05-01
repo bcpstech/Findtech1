@@ -11,22 +11,25 @@
     "Latencia": "CL30",
     "Iluminación": "RGB",
     "Marca": "Kingston",
-    "Transferencia/Efectivo": "$166.980",
-    "Webpay / Tarjeta crédito-débito": "$171.990"
+    "Efectivo / Transferencia": "$1.670",
+    "Tarjeta crédito/débito": "$1.720"
   },
   "tags": [],
   "created_at": "2026-04-26 20:42:52",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1982,
       "store_id": "dust2",
-      "price": 166980,
+      "price": 1670,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/memoria-ram-kingston-fury-beast-black-rgb-expo-8g-6000m-cl30/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.670"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
@@ -45,7 +48,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 166980
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 1670
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

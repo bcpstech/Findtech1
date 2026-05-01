@@ -8,22 +8,25 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Rack-7U-hasta-8-GPUs-placas-EEB-5x1600W-redundante-8x2.5-17763_yeYTSo0.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$4.676.870",
-    "Tarjetas de Crédito / Débito": "$4.934.100"
+    "Transferencia / Efectivo": "$47.501",
+    "Tarjeta crédito/débito": "$50.110"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-04-27 22:15:17",
+  "updated_at": "2026-05-01 14:19:58",
   "prices": [
     {
       "product_id": 1727,
       "store_id": "centrale",
-      "price": 4676870,
+      "price": 47501,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-rack-7u-hasta-8-gpus-placas-eeb-5x1600w-redundante-8x2-5/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$47.501"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -42,7 +45,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 4676870
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 47501
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

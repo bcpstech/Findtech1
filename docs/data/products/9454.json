@@ -17,20 +17,55 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:23",
-  "updated_at": "2026-05-01 00:35:39",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
+    {
+      "product_id": 1335,
+      "store_id": "centrale",
+      "price": 2912,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/msi-motherboard-pro-x870e-p-wifi-4-dimm-ddr5-a-824142425565/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$2.912"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2634,
+      "store_id": "trulustore",
+      "price": 319990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/placa-madre-msi-pro-x870e-p-wifi-ddr5-am5-wifi-7-bt-5-4-m-2-gen5/",
+      "store_name": "TruluStore",
+      "khipu_price": 326390,
+      "price_specs": {
+        "Efectivo / Transferencia": "$319.990",
+        "Khipu": "$326.390"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    },
     {
       "product_id": 9454,
       "store_id": "spdigital",
       "price": 399990,
-      "price_normal": 417990,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/msi-motherboard-pro-x870e-p-wifi-4-dimm-ddr5-a",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$399.990",
-        "Webpay / Tarjeta": "$417.990"
+        "Transferencia / Efectivo": "$399.990"
       },
       "store_rating": 0,
       "review_count": 0,

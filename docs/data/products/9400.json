@@ -25,8 +25,43 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:53",
-  "updated_at": "2026-05-01 00:27:05",
+  "updated_at": "2026-05-01 13:49:43",
   "prices": [
+    {
+      "product_id": 299,
+      "store_id": "centrale",
+      "price": 4825,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-9900x-12-cores-24-threads-4-4-ghz-a-5-6-ghz-120w/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$4.825"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 16756,
+      "store_id": "myshop",
+      "price": 449700,
+      "price_normal": 474434,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/cpu-amd-socket-am5-ryzen-9-9900x-44ghz-12-core-scooler-100-100000662wof-p35312",
+      "store_name": "MyShop",
+      "price_specs": {
+        "Efectivo/Transferencia": "$449.700",
+        "Tarjeta crédito/débito": "$474.434"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
     {
       "product_id": 42,
       "store_id": "n1g",
@@ -49,7 +84,7 @@
       "product_id": 2629,
       "store_id": "trulustore",
       "price": 549990,
-      "price_normal": 577490,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/procesador-amd-ryzen-9-9900x-socket-am5/",
@@ -57,8 +92,7 @@
       "khipu_price": 560990,
       "price_specs": {
         "Efectivo / Transferencia": "$549.990",
-        "Khipu": "$560.990",
-        "Tarjeta crédito/débito": "$577.490"
+        "Khipu": "$560.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -69,14 +103,13 @@
       "product_id": 9400,
       "store_id": "spdigital",
       "price": 769990,
-      "price_normal": 804640,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/amd-ryzen-9-9900x-12-core-processor",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$769.990",
-        "Webpay / Tarjeta": "$804.640"
+        "Transferencia / Efectivo": "$769.990"
       },
       "store_rating": 0,
       "review_count": 0,

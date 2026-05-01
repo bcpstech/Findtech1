@@ -1,0 +1,78 @@
+{
+  "id": 1566,
+  "external_id": "centrale_ssd-crucial-e100-1tb-nvme-pcie-4-0-m-2-2280-hasta-5000-mb-s",
+  "category_id": "storage",
+  "brand": "Crucial",
+  "name": "SSD Crucial E100 1TB, NVMe PCIe 4.0, M.2 2280, Hasta 5000 MB/s",
+  "slug": "ssd-crucial-e100-1tb-nvme-pcie-4-0-m-2-2280-hasta-5000-mb-s",
+  "image_url": "https://centrale.cl/wp-content/uploads/Crucial-Ssd-E100-1Tb-Pcie-Gen4-2280-Nvme-M.2-CT1000E100SSD8-1.webp",
+  "description": null,
+  "specs": {
+    "Capacidad": "1 TB",
+    "Interfaz": "NVMe PCIe",
+    "Factor de forma": "M.2 2280",
+    "Efectivo/Transferencia": "$115.500",
+    "Tarjeta crédito/débito": "$118.965"
+  },
+  "tags": [],
+  "created_at": "2026-04-26 20:37:43",
+  "updated_at": "2026-05-01 14:32:34",
+  "prices": [
+    {
+      "product_id": 1566,
+      "store_id": "centrale",
+      "price": 1342,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/ssd-crucial-e100-1tb-nvme-pcie-4-0-m-2-2280-hasta-5000-mb-s/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.342"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 681,
+      "store_id": "n1g",
+      "price": 115500,
+      "price_normal": 121579,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3234-crucial-ssd-e100-1tb-5000-mbs-nvme-pcie-40-m2-2280-pn-ct1000e100ssd8.html",
+      "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$115.500",
+        "Tarjeta crédito/débito": "$121.579"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 134200
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 134200
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 1342
+    }
+  ],
+  "scraped_at": "2026-05-01"
+}

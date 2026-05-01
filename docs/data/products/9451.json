@@ -18,20 +18,36 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:21",
-  "updated_at": "2026-05-01 13:20:38",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
-      "product_id": 9434,
-      "store_id": "spdigital",
-      "price": 149990,
-      "price_normal": 156740,
-      "discount_pct": 4,
+      "product_id": 1389,
+      "store_id": "centrale",
+      "price": 1095,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/b550m-k",
+      "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b550m-ds3h-ac-r2-micro-atx-am4-ddr4-pcie-4-0-wifi-5/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.095"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9451,
+      "store_id": "spdigital",
+      "price": 169990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/placa-madre-gigabyte-b550m-ds3h-ac-r2-socket-amd-am4-wi-fi-pcie-40-rgb-fusion-micro-atx",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$149.990",
-        "Webpay / Tarjeta": "$156.740"
+        "Transferencia / Efectivo": "$169.990"
       },
       "store_rating": 0,
       "review_count": 0,

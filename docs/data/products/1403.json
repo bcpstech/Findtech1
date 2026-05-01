@@ -9,24 +9,28 @@
   "description": null,
   "specs": {
     "Socket": "LGA1851",
+    "Factor de forma": "ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$510.470",
-    "Tarjetas de Crédito / Débito": "$538.550"
+    "Efectivo/Transferencia": "$545.000",
+    "Tarjeta crédito/débito": "$561.350"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1403,
       "store_id": "centrale",
-      "price": 510470,
+      "price": 5105,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-strix-z890-f-gaming-wifi-intel-lga-1851-ddr5-wifi-7/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$5.105"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -41,6 +45,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3142-rog-strix-z890-f-gaming-wifi-lga1851-atx-wifi-7-thunderbolt-4-pcie-50-.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$545.000",
+        "Tarjeta crédito/débito": "$573.684"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
@@ -59,7 +67,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 510470
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 5105
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

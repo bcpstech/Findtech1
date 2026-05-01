@@ -8,22 +8,25 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Disipador-CPU-Ventilador-Procesador-NOCTUA-NH-D12L-Chromax-Black-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$124.480",
-    "Tarjetas de Crédito / Débito": "$131.330"
+    "Transferencia / Efectivo": "$1.245",
+    "Tarjeta crédito/débito": "$1.310"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:48",
-  "updated_at": "2026-04-27 22:15:12",
+  "updated_at": "2026-05-01 14:18:43",
   "prices": [
     {
       "product_id": 1649,
       "store_id": "centrale",
-      "price": 124480,
+      "price": 1245,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disipador-cpu-ventilador-procesador-noctua-nh-d12l-chromax-black/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.245"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -42,7 +45,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 124480
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 1245
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

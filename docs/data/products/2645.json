@@ -10,18 +10,17 @@
   "specs": {
     "Socket": "AM4",
     "Efectivo / Transferencia": "$69.990",
-    "Khipu": "$71.390",
-    "Tarjeta crédito/débito": "$73.490"
+    "Khipu": "$71.390"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:48",
-  "updated_at": "2026-05-01 13:20:38",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 2645,
       "store_id": "trulustore",
       "price": 69990,
-      "price_normal": 73490,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/placa-madre-a520m-k-v2-gigabyte-am4/",
@@ -29,8 +28,7 @@
       "khipu_price": 71390,
       "price_specs": {
         "Efectivo / Transferencia": "$69.990",
-        "Khipu": "$71.390",
-        "Tarjeta crédito/débito": "$73.490"
+        "Khipu": "$71.390"
       },
       "store_rating": 0,
       "review_count": 0,

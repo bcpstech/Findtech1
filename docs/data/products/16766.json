@@ -21,6 +21,40 @@
   "updated_at": "2026-05-01 02:34:07",
   "prices": [
     {
+      "product_id": 1940,
+      "store_id": "dust2",
+      "price": 1710,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/procesador-intel-core-ultra-5-225f-4-9-ghz-lga1851/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.710"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 323,
+      "store_id": "centrale",
+      "price": 1840,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-5-225f-arrow-lake-6-p-cores-4-e-cores-lga-1851/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.840"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
       "product_id": 16766,
       "store_id": "myshop",
       "price": 177990,

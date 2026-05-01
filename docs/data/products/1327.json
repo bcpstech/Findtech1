@@ -11,22 +11,25 @@
     "Socket": "LGA1851",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
-    "Transferencia / Efectivo": "$104.130",
-    "Tarjetas de Crédito / Débito": "$109.860"
+    "Transferencia / Efectivo": "$1.100",
+    "Tarjeta crédito/débito": "$1.160"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1327,
       "store_id": "centrale",
-      "price": 104130,
-      "price_normal": 118870,
-      "discount_pct": 12,
+      "price": 1100,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-h810m-e-micro-atx-lga-1851-ddr5-hasta-128gb/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.100"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -45,7 +48,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 104130
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 1100
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

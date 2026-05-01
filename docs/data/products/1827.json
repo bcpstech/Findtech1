@@ -9,22 +9,25 @@
   "description": null,
   "specs": {
     "Marca": "Gigabyte",
-    "Transferencia/Efectivo": "$1.092.220",
-    "Webpay / Tarjeta crédito-débito": "$1.124.990"
+    "Efectivo / Transferencia": "$10.920",
+    "Tarjeta crédito/débito": "$11.250"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:46",
-  "updated_at": "2026-04-27 22:18:09",
+  "updated_at": "2026-05-01 14:22:35",
   "prices": [
     {
       "product_id": 1827,
       "store_id": "dust2",
-      "price": 1092220,
+      "price": 10920,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-gigabyte-gv-n507teagleoc-ice-16gd/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$10.920"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
@@ -43,7 +46,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 1092220
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 10920
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

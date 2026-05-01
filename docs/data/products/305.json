@@ -8,23 +8,29 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-Threadripper-9980X-64-cores-128-threads-3.2-5.4G_rOHLqMO.webp",
   "description": null,
   "specs": {
-    "Frecuencia base": "5.4 GHz",
-    "Transferencia / Efectivo": "$6.790.000",
-    "Tarjetas de Crédito / Débito": "$7.163.450"
+    "Frecuencia base": "3.2 GHz",
+    "TDP": "350W",
+    "Socket": "STR5",
+    "Incluye cooler": "No",
+    "Efectivo/Transferencia": "$6.839.900",
+    "Tarjeta crédito/débito": "$7.045.097"
   },
   "tags": [],
   "created_at": "2026-04-26 16:25:09",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 305,
       "store_id": "centrale",
-      "price": 6790000,
+      "price": 67900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-threadripper-9980x-64-cores-128-threads-3-2-5-4ghz/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$67.900"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -39,6 +45,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3577-amd-ryzen-threadripper-9980x-128-hilos-64-core-32-ghz-socket-str5-350w-100-000001593wof.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$6.839.900",
+        "Tarjeta crédito/débito": "$7.199.895"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
@@ -57,7 +67,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 6790000
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 67900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

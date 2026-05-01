@@ -8,22 +8,25 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Pctronix-Power-Supply-Pro-Platinium-HCG-1000.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$280.050",
-    "Tarjetas de Crédito / Débito": "$295.450"
+    "Transferencia / Efectivo": "$2.801",
+    "Tarjeta crédito/débito": "$2.960"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:52",
-  "updated_at": "2026-04-27 22:15:16",
+  "updated_at": "2026-05-01 14:19:09",
   "prices": [
     {
       "product_id": 1687,
       "store_id": "centrale",
-      "price": 280050,
+      "price": 2801,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-pctronix-hcg-1000-1000w-80-plus-platinum-100-modular/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$2.801"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -42,7 +45,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 280050
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 2801
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

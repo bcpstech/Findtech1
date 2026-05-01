@@ -18,13 +18,30 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:08",
-  "updated_at": "2026-05-01 13:20:38",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
+    {
+      "product_id": 1366,
+      "store_id": "centrale",
+      "price": 1046,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b550m-a-ac-micro-atx-am4-ddr4-pcie-4-0-wifi-bt/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.046"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
     {
       "product_id": 2643,
       "store_id": "trulustore",
       "price": 124990,
-      "price_normal": 131240,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/placa-madre-asus-prime-b550m-a-ac-wifi-am4/",
@@ -32,8 +49,7 @@
       "khipu_price": 127490,
       "price_specs": {
         "Efectivo / Transferencia": "$124.990",
-        "Khipu": "$127.490",
-        "Tarjeta crédito/débito": "$131.240"
+        "Khipu": "$127.490"
       },
       "store_rating": 0,
       "review_count": 0,

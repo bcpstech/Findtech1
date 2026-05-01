@@ -8,22 +8,25 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-1600W-Seasonic-PRIME-TX-1600-Noctua-Edition-80-PLUS-Titanium.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$748.990",
-    "Tarjetas de Crédito / Débito": "$790.180"
+    "Transferencia / Efectivo": "$7.490",
+    "Tarjeta crédito/débito": "$7.900"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:52",
-  "updated_at": "2026-04-27 22:15:16",
+  "updated_at": "2026-05-01 14:19:31",
   "prices": [
     {
       "product_id": 1701,
       "store_id": "centrale",
-      "price": 748990,
+      "price": 7490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-1600w-seasonic-prime-tx-1600-noctua-edition-80-plus-titanium/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$7.490"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -38,6 +41,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3593-noctua-prime-tx-1600-80-plus-titanium-ultrasilenciosa-modular-atx-31-negromarron-fabricada-por-seasonic-.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$749.000",
+        "Tarjeta crédito/débito": "$788.421"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
@@ -56,7 +63,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 748990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 7490
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

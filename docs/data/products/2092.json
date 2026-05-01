@@ -12,22 +12,25 @@
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
     "Marca": "KingSpec",
-    "Transferencia/Efectivo": "$118.440",
-    "Webpay / Tarjeta crédito-débito": "$121.990"
+    "Efectivo / Transferencia": "$1.180",
+    "Tarjeta crédito/débito": "$1.220"
   },
   "tags": [],
   "created_at": "2026-04-26 20:44:15",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 2092,
       "store_id": "dust2",
-      "price": 118440,
+      "price": 1180,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/disco-duro-ssd-m-2-kingspec-xg7000-1tb-nvme-gen4-pcle-4-0/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.180"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
@@ -46,7 +49,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 118440
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 1180
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

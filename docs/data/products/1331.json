@@ -12,22 +12,25 @@
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$189.900",
-    "Tarjetas de Crédito / Débito": "$200.340"
+    "Transferencia / Efectivo": "$1.899",
+    "Tarjeta crédito/débito": "$2.000"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1331,
       "store_id": "centrale",
-      "price": 189900,
+      "price": 1899,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-b850m-ayw-gaming-wifi-micro-atx-am5-ddr5-wifi-6/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.899"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -46,7 +49,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 189900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 1899
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

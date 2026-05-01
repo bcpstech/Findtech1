@@ -8,22 +8,30 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-MSI-GeForce-RTX-5080-GAMING-TRIO-OC-WHITE-16GB-GDDR7-256-bit.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$1.683.980",
-    "Tarjetas de Crédito / Débito": "$1.776.600"
+    "VRAM": "16 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "256-bit",
+    "Arquitectura": "Blackwell",
+    "Variante": "OC (Overclocked)",
+    "Transferencia / Efectivo": "$17.020",
+    "Tarjeta crédito/débito": "$17.960"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-04-26 20:37:32",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1226,
       "store_id": "centrale",
-      "price": 1683980,
+      "price": 17020,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5080-gaming-trio-oc-white-16gb-gddr7-256-bit/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$17.020"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -36,7 +44,19 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 1683980
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 1683980
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 17020
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-05-01"
 }

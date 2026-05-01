@@ -9,18 +9,17 @@
   "description": null,
   "specs": {
     "Efectivo / Transferencia": "$9.990",
-    "Khipu": "$10.190",
-    "Tarjeta crédito/débito": "$10.490"
+    "Khipu": "$10.190"
   },
   "tags": [],
   "created_at": "2026-04-28 23:08:42",
-  "updated_at": "2026-05-01 13:13:28",
+  "updated_at": "2026-05-01 13:55:32",
   "prices": [
     {
       "product_id": 12115,
       "store_id": "trulustore",
       "price": 9990,
-      "price_normal": 10490,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/ventilador-gamemax-fn12a-s8i-white-argb-120mm-45-35-cfm/",
@@ -28,8 +27,7 @@
       "khipu_price": 10190,
       "price_specs": {
         "Efectivo / Transferencia": "$9.990",
-        "Khipu": "$10.190",
-        "Tarjeta crédito/débito": "$10.490"
+        "Khipu": "$10.190"
       },
       "store_rating": 0,
       "review_count": 0,

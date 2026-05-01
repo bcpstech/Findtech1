@@ -12,22 +12,26 @@
     "Tipo": "DDR5",
     "Velocidad": "5600 MHz",
     "Latencia": "CL46",
-    "Transferencia / Efectivo": "$793.180",
-    "Tarjetas de Crédito / Débito": "$836.800"
+    "Transferencia / Efectivo": "$8.805",
+    "Tarjeta crédito/débito": "$9.290"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-01 14:32:34",
   "prices": [
     {
       "product_id": 1473,
       "store_id": "centrale",
-      "price": 793180,
-      "price_normal": 919470,
-      "discount_pct": 14,
+      "price": 8179,
+      "price_normal": 9195,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-kingston-48gb-ddr5-5600mt-s-so-dimm-cl46/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$8.179",
+        "Tarjetas de Crédito / Débito": "$9.195"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -46,7 +50,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 793180
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 8179
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-01"
 }

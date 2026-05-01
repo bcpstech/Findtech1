@@ -24,6 +24,23 @@
   "updated_at": "2026-05-01 02:34:07",
   "prices": [
     {
+      "product_id": 1230,
+      "store_id": "centrale",
+      "price": 8069,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-prime-amd-radeon-rx-9070-xt-oc-edition-16gb-gddr6-256-bit/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$8.069"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
       "product_id": 16847,
       "store_id": "myshop",
       "price": 795990,
@@ -63,7 +80,7 @@
       "product_id": 2611,
       "store_id": "trulustore",
       "price": 859990,
-      "price_normal": 902990,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/tarjeta-de-video-asus-prime-amd-radeon-rx-9070-xt-oc-edition-16gb/",
@@ -71,8 +88,7 @@
       "khipu_price": 877190,
       "price_specs": {
         "Efectivo / Transferencia": "$859.990",
-        "Khipu": "$877.190",
-        "Tarjeta crédito/débito": "$902.990"
+        "Khipu": "$877.190"
       },
       "store_rating": 0,
       "review_count": 0,
