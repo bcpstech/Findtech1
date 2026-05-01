@@ -272,21 +272,93 @@ nav{display:flex;align-items:center;gap:2px}
 .btn-secondary{background:var(--bg3);border:1px solid var(--border);color:var(--text2);border-radius:8px;padding:11px 20px;font-size:13px;font-family:inherit;transition:all .15s}
 .btn-secondary:hover{border-color:var(--accent);color:var(--accent)}
 
+/* SLIDER */
+.slider-wrap{position:relative;overflow:hidden}
+.slider-track{display:flex;gap:14px;transition:transform .35s ease;will-change:transform}
+.slider-track .featured-card{flex:0 0 calc((100% - 5*14px)/6);min-width:160px}
+.slider-track .pc-card{flex:0 0 calc((100% - 5*14px)/6);min-width:160px}
+.slider-arrow{position:absolute;top:50%;transform:translateY(-50%);width:34px;height:34px;border-radius:50%;background:var(--bg2);border:1px solid var(--border2);color:var(--text2);font-size:16px;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:5;transition:all .15s}
+.slider-arrow:hover{border-color:var(--accent);color:var(--accent)}
+.slider-arrow.prev{left:-12px}
+.slider-arrow.next{right:-12px}
+
+/* BANNERS */
+.banners-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:28px 0}
+.banner-slot{background:var(--bg2);border:1px solid var(--border);border-radius:12px;height:120px;display:flex;align-items:center;justify-content:center;color:var(--text3);font-size:13px;overflow:hidden;position:relative}
+.banner-slot img{width:100%;height:100%;object-fit:cover;border-radius:12px}
+
+/* PC SLIDER */
+.pc-card{background:var(--bg2);border:1px solid var(--border);border-radius:12px;overflow:hidden;cursor:pointer;transition:all .2s;display:flex;flex-direction:column;position:relative}
+.pc-card:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:0 8px 24px rgba(59,130,246,0.15)}
+.pc-card-img{aspect-ratio:1;background:var(--bg3);display:flex;align-items:center;justify-content:center;padding:14px;overflow:hidden}
+.pc-card-img img{max-width:100%;max-height:100%;object-fit:contain}
+.pc-card-body{padding:10px;flex:1;display:flex;flex-direction:column;gap:4px}
+.pc-card-brand{font-size:9px;font-weight:700;color:var(--accent);text-transform:uppercase;letter-spacing:1px}
+.pc-card-name{font-size:11px;color:var(--text);line-height:1.4;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-weight:500}
+.pc-card-price{font-size:14px;font-weight:700;color:var(--green);font-family:'JetBrains Mono',monospace;margin-top:auto;padding-top:6px}
+.pc-card-store{font-size:9px;color:var(--text3);margin-top:2px}
+
+/* MOBILE NAV */
+.mobile-menu-btn{display:none;width:36px;height:36px;border-radius:8px;border:1px solid var(--border);background:var(--bg3);color:var(--text2);font-size:18px;align-items:center;justify-content:center;cursor:pointer}
+.mobile-search-btn{display:none;width:36px;height:36px;border-radius:8px;border:1px solid var(--border);background:var(--bg3);color:var(--text2);font-size:16px;align-items:center;justify-content:center;cursor:pointer}
+.mobile-nav-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:190}
+.mobile-nav-overlay.open{display:block}
+.mobile-nav-drawer{position:fixed;top:0;left:-100%;width:280px;height:100%;background:var(--bg2);z-index:195;transition:left .3s;overflow-y:auto;border-right:1px solid var(--border)}
+.mobile-nav-drawer.open{left:0}
+.mobile-nav-header{padding:16px;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between}
+.mobile-nav-close{background:none;border:none;color:var(--text2);font-size:22px;cursor:pointer}
+.mobile-nav-section{padding:8px 0;border-bottom:1px solid var(--border)}
+.mobile-nav-section h5{padding:8px 16px;font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:1px}
+.mobile-nav-link{display:block;padding:10px 16px;font-size:14px;color:var(--text2);cursor:pointer;transition:all .15s}
+.mobile-nav-link:hover{background:var(--bg3);color:var(--accent)}
+.mobile-search-bar{display:none;position:absolute;top:60px;left:0;right:0;background:var(--header-bg);border-bottom:1px solid var(--border);padding:10px 16px;z-index:190;backdrop-filter:blur(12px)}
+.mobile-search-bar.open{display:block}
+.mobile-search-bar input{width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:9px 16px;font-size:14px;color:var(--text);font-family:inherit}
+.mobile-search-bar input:focus{outline:none;border-color:var(--accent)}
+
+/* CONTACT PAGE */
+.contact-wrap{max-width:700px;margin:0 auto;padding:40px 0}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px;margin-top:32px}
+.contact-info-card{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:24px}
+.contact-form-card{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:24px}
+.contact-field{margin-bottom:14px}
+.contact-field label{display:block;font-size:12px;color:var(--text3);margin-bottom:4px}
+.contact-field input,.contact-field textarea{width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;font-size:13px;color:var(--text);font-family:inherit;transition:border-color .15s}
+.contact-field input:focus,.contact-field textarea:focus{outline:none;border-color:var(--accent)}
+.contact-submit{width:100%;background:var(--accent);color:#fff;border:none;border-radius:8px;padding:12px;font-size:14px;font-weight:600;font-family:inherit;cursor:pointer;transition:opacity .15s}
+.contact-submit:hover{opacity:0.85}
+
 /* RESPONSIVE */
 @media(max-width:1024px){.page-layout{grid-template-columns:190px 1fr;gap:16px}}
+@media(max-width:900px){
+  .slider-track .featured-card{flex:0 0 calc((100% - 3*14px)/4)}
+  .slider-track .pc-card{flex:0 0 calc((100% - 3*14px)/4)}
+  .contact-grid{grid-template-columns:1fr}
+  .banners-row{grid-template-columns:1fr}
+}
 @media(max-width:768px){
   .page-layout{grid-template-columns:1fr}
   .left-sidebar{position:relative;top:0}
   .detail-wrap{grid-template-columns:1fr}
   .detail-left{position:relative;top:0}
   .prod-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
-  nav .nav-item:not(.mega-wrap):not([onclick*="home"]){display:none}
+  nav{display:none}
+  .search-wrap{display:none}
+  .mobile-menu-btn{display:flex}
+  .mobile-search-btn{display:flex}
   .home-hero{flex-direction:column;text-align:center}
+  .slider-track .featured-card{flex:0 0 calc((100% - 2*14px)/3)}
+  .slider-track .pc-card{flex:0 0 calc((100% - 2*14px)/3)}
+  .banners-row{grid-template-columns:1fr 1fr}
 }
 @media(max-width:480px){
   .header-inner{padding:0 12px}
   .main{padding:16px 12px}
   .prod-grid{grid-template-columns:1fr 1fr}
+  .slider-track .featured-card{flex:0 0 calc((100% - 14px)/2)}
+  .slider-track .pc-card{flex:0 0 calc((100% - 14px)/2)}
+  .banners-row{grid-template-columns:1fr}
+  .hero-title{font-size:24px}
 }
 @keyframes fadeIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
 /* Page visibility - controlled by showPage() */
@@ -299,107 +371,106 @@ nav{display:flex;align-items:center;gap:2px}
 <!-- HEADER -->
 <header class="header">
   <div class="header-inner">
+    <!-- Mobile: hamburger -->
+    <button class="mobile-menu-btn" onclick="openMobileNav()" aria-label="Menú">☰</button>
+
     <div class="logo" onclick="showPage('home')">
       <img class="logo-img logo-dark"  src="img/FINDWH.webp"    alt="FindTech" style="height:36px">
       <img class="logo-img logo-light" src="img/FINDBLACK.webp" alt="FindTech" style="height:36px;display:none">
     </div>
+
+    <!-- Desktop nav -->
     <nav>
       <div class="nav-item" onclick="showPage('home')">Inicio</div>
       <div class="nav-item mega-wrap" id="nav-hardware">
         Hardware ▾
-        <div class="mega-menu" id="mega-hw" style="display:grid;grid-template-columns:repeat(4,1fr);gap:0;padding:0">
+        <div class="mega-menu" id="mega-hw" style="grid-template-columns:repeat(4,1fr);gap:0;padding:0">
           <div class="mega-col">
             <h4>Tarjetas Video</h4>
-            <a onclick="filterSub('gpu','nvidia');showPage('hardware')">🟢 NVIDIA GeForce</a>
-            <a onclick="filterSub('gpu','amd');showPage('hardware')">🔴 AMD Radeon</a>
+            <a onclick="filterSub('gpu','nvidia');showPage('hardware')">NVIDIA GeForce</a>
+            <a onclick="filterSub('gpu','amd');showPage('hardware')">AMD Radeon</a>
             <a onclick="filterCat('gpu');showPage('hardware')" style="color:var(--accent);font-size:11px;margin-top:4px">Ver todas →</a>
           </div>
           <div class="mega-col">
             <h4>Procesadores</h4>
-            <a onclick="filterSub('cpu','intel');showPage('hardware')">🔵 Intel Core</a>
-            <a onclick="filterSub('cpu','amd');showPage('hardware')">🔴 AMD Ryzen</a>
+            <a onclick="filterSub('cpu','intel');showPage('hardware')">Intel Core</a>
+            <a onclick="filterSub('cpu','amd');showPage('hardware')">AMD Ryzen</a>
             <a onclick="filterCat('cpu');showPage('hardware')" style="color:var(--accent);font-size:11px;margin-top:4px">Ver todos →</a>
           </div>
           <div class="mega-col">
             <h4>Memorias RAM</h4>
-            <a onclick="filterSub('ram','ddr5');showPage('hardware')">⚡ DDR5</a>
-            <a onclick="filterSub('ram','ddr4');showPage('hardware')">💾 DDR4</a>
+            <a onclick="filterSub('ram','ddr5');showPage('hardware')">DDR5</a>
+            <a onclick="filterSub('ram','ddr4');showPage('hardware')">DDR4</a>
             <a onclick="filterCat('ram');showPage('hardware')" style="color:var(--accent);font-size:11px;margin-top:4px">Ver todas →</a>
           </div>
           <div class="mega-col">
             <h4>Almacenamiento</h4>
-            <a onclick="filterSub('storage','nvme');showPage('hardware')">⚡ NVMe M.2</a>
-            <a onclick="filterSub('storage','sata');showPage('hardware')">💿 SATA 2.5"</a>
-            <a onclick="filterSub('storage','hdd');showPage('hardware')">🖴 Disco Duro</a>
-            <a onclick="filterSub('storage','pendrive');showPage('hardware')">🔌 Pendrive</a>
+            <a onclick="filterSub('storage','nvme');showPage('hardware')">NVMe M.2</a>
+            <a onclick="filterSub('storage','sata');showPage('hardware')">SATA 2.5"</a>
+            <a onclick="filterSub('storage','hdd');showPage('hardware')">Disco Duro</a>
             <a onclick="filterCat('storage');showPage('hardware')" style="color:var(--accent);font-size:11px;margin-top:4px">Ver todo →</a>
           </div>
           <div class="mega-col">
             <h4>Refrigeración</h4>
-            <a onclick="filterSub('cooling','liquida');showPage('hardware')">💧 Líquida / AIO</a>
-            <a onclick="filterSub('cooling','aire');showPage('hardware')">🌬️ Por Aire</a>
-            <a onclick="filterSub('cooling','fans');showPage('hardware')">🌀 Ventiladores</a>
-            <a onclick="filterSub('cooling','pasta');showPage('hardware')">🧪 Pastas Térmicas</a>
+            <a onclick="filterSub('cooling','liquida');showPage('hardware')">Líquida / AIO</a>
+            <a onclick="filterSub('cooling','aire');showPage('hardware')">Por Aire</a>
+            <a onclick="filterSub('cooling','fans');showPage('hardware')">Ventiladores</a>
+            <a onclick="filterSub('cooling','pasta');showPage('hardware')">Pastas Térmicas</a>
             <a onclick="filterCat('cooling');showPage('hardware')" style="color:var(--accent);font-size:11px;margin-top:4px">Ver todo →</a>
           </div>
           <div class="mega-col">
             <h4>Placas Madre</h4>
-            <a onclick="filterSub('mobo','am5');showPage('hardware')">🔴 AMD AM5</a>
-            <a onclick="filterSub('mobo','am4');showPage('hardware')">🔴 AMD AM4</a>
-            <a onclick="filterSub('mobo','lga1851');showPage('hardware')">🔵 Intel LGA 1851</a>
-            <a onclick="filterSub('mobo','lga1700');showPage('hardware')">🔵 Intel LGA 1700</a>
+            <a onclick="filterSub('mobo','am5');showPage('hardware')">AMD AM5</a>
+            <a onclick="filterSub('mobo','am4');showPage('hardware')">AMD AM4</a>
+            <a onclick="filterSub('mobo','lga1851');showPage('hardware')">Intel LGA 1851</a>
+            <a onclick="filterSub('mobo','lga1700');showPage('hardware')">Intel LGA 1700</a>
             <a onclick="filterCat('mobo');showPage('hardware')" style="color:var(--accent);font-size:11px;margin-top:4px">Ver todas →</a>
           </div>
           <div class="mega-col">
             <h4>Gabinetes</h4>
-            <a onclick="filterSub('case','eatx');showPage('hardware')">🖥️ Extended ATX</a>
-            <a onclick="filterSub('case','atx');showPage('hardware')">🖥️ ATX</a>
-            <a onclick="filterSub('case','matx');showPage('hardware')">🖥️ Micro ATX</a>
-            <a onclick="filterSub('case','itx');showPage('hardware')">🖥️ Mini ITX</a>
-            <a onclick="filterSub('case','accesorio');showPage('hardware')">🔧 Accesorios</a>
+            <a onclick="filterSub('case','eatx');showPage('hardware')">Extended ATX</a>
+            <a onclick="filterSub('case','atx');showPage('hardware')">ATX</a>
+            <a onclick="filterSub('case','matx');showPage('hardware')">Micro ATX</a>
+            <a onclick="filterSub('case','itx');showPage('hardware')">Mini ITX</a>
           </div>
           <div class="mega-col">
             <h4>Fuentes de Poder</h4>
-            <a onclick="filterSub('psu','modular');showPage('hardware')">⚡ Modulares</a>
-            <a onclick="filterSub('psu','certificada');showPage('hardware')">🏆 Certificadas</a>
+            <a onclick="filterSub('psu','modular');showPage('hardware')">Modulares</a>
+            <a onclick="filterSub('psu','certificada');showPage('hardware')">Certificadas</a>
             <a onclick="filterCat('psu');showPage('hardware')" style="color:var(--accent);font-size:11px;margin-top:4px">Ver todas →</a>
           </div>
         </div>
       </div>
       <div class="nav-item mega-wrap" id="nav-periph">
         Periféricos ▾
-        <div class="mega-menu" id="mega-periph" style="display:grid;grid-template-columns:repeat(3,1fr);gap:0;padding:0">
+        <div class="mega-menu" id="mega-periph" style="grid-template-columns:repeat(3,1fr);gap:0;padding:0">
           <div class="mega-col">
             <h4>Monitores</h4>
-            <a onclick="filterCat('monitor');showPage('hardware')">🖥️ Ver todos</a>
+            <a onclick="filterCat('monitor');showPage('hardware')">Ver todos</a>
           </div>
           <div class="mega-col">
             <h4>Periféricos</h4>
-            <a onclick="filterCat('periph');showPage('hardware')">⌨️ Ver todos</a>
+            <a onclick="filterCat('periph');showPage('hardware')">Ver todos</a>
           </div>
           <div class="mega-col">
             <h4>Más categorías</h4>
-            <a onclick="filterCat('periph');showPage('hardware')">🎧 Audio</a>
-            <a onclick="filterCat('periph');showPage('hardware')">🖱️ Mouse</a>
-            <a onclick="filterCat('periph');showPage('hardware')">🪑 Sillas Gamer</a>
+            <a onclick="filterCat('periph');showPage('hardware')">Audio</a>
+            <a onclick="filterCat('periph');showPage('hardware')">Mouse</a>
+            <a onclick="filterCat('periph');showPage('hardware')">Sillas Gamer</a>
           </div>
         </div>
       </div>
       <div class="nav-item mega-wrap" id="nav-pc">
         PCs Armados ▾
-        <div class="mega-menu" id="mega-pc" style="display:grid;grid-template-columns:repeat(2,1fr);gap:0;padding:0;min-width:340px">
+        <div class="mega-menu" id="mega-pc" style="grid-template-columns:repeat(2,1fr);gap:0;padding:0;min-width:300px">
           <div class="mega-col">
-            <h4>🔴 AMD</h4>
-            <a onclick="filterCat('pc');document.getElementById('prod-search').value='ryzen 5';showPage('hardware')">Ryzen 5</a>
-            <a onclick="filterCat('pc');document.getElementById('prod-search').value='ryzen 7';showPage('hardware')">Ryzen 7</a>
-            <a onclick="filterCat('pc');document.getElementById('prod-search').value='ryzen 9';showPage('hardware')">Ryzen 9</a>
+            <h4>AMD</h4>
+            <a onclick="filterSub('pc','amd');showPage('hardware')">Procesador AMD</a>
             <a onclick="filterCat('pc');showPage('hardware')" style="color:var(--accent);font-size:11px;margin-top:4px">Ver todos →</a>
           </div>
           <div class="mega-col">
-            <h4>🔵 Intel</h4>
-            <a onclick="filterCat('pc');document.getElementById('prod-search').value='core i5';showPage('hardware')">Core i5</a>
-            <a onclick="filterCat('pc');document.getElementById('prod-search').value='core i7';showPage('hardware')">Core i7</a>
-            <a onclick="filterCat('pc');document.getElementById('prod-search').value='core i9';showPage('hardware')">Core i9</a>
+            <h4>Intel</h4>
+            <a onclick="filterSub('pc','intel');showPage('hardware')">Procesador Intel</a>
             <a onclick="filterCat('pc');showPage('hardware')" style="color:var(--accent);font-size:11px;margin-top:4px">Ver todos →</a>
           </div>
         </div>
@@ -414,15 +485,76 @@ nav{display:flex;align-items:center;gap:2px}
       </div>
       <div class="nav-item" onclick="showPage('contact')">Contacto</div>
     </nav>
+
+    <!-- Desktop search -->
     <div class="search-wrap">
       <span class="search-icon">🔍</span>
-      <input class="search-input" type="text" placeholder="Buscar componentes..." id="global-search" oninput="onGlobalSearch(this.value)">
+      <input class="search-input" type="text" placeholder="Buscar componentes..." id="global-search" oninput="onGlobalSearch(this.value)" onkeydown="if(event.key==='Enter')onGlobalSearch(this.value)">
     </div>
+
     <div class="header-right">
+      <!-- Mobile search icon -->
+      <button class="mobile-search-btn" onclick="toggleMobileSearch()" aria-label="Buscar">🔍</button>
       <button class="theme-btn" id="theme-btn" onclick="toggleTheme()">🌙</button>
     </div>
   </div>
+  <!-- Mobile search bar (dropdown) -->
+  <div class="mobile-search-bar" id="mobile-search-bar">
+    <input type="text" placeholder="Buscar componentes..." id="mobile-search-input"
+      oninput="onGlobalSearch(this.value)"
+      onkeydown="if(event.key==='Enter'){onGlobalSearch(this.value);toggleMobileSearch()}">
+  </div>
 </header>
+
+<!-- Mobile nav drawer -->
+<div class="mobile-nav-overlay" id="mobile-nav-overlay" onclick="closeMobileNav()"></div>
+<div class="mobile-nav-drawer" id="mobile-nav-drawer">
+  <div class="mobile-nav-header">
+    <span style="font-size:16px;font-weight:700">FindTech.cl</span>
+    <button class="mobile-nav-close" onclick="closeMobileNav()">✕</button>
+  </div>
+  <div class="mobile-nav-section">
+    <a class="mobile-nav-link" onclick="showPage('home');closeMobileNav()">🏠 Inicio</a>
+    <a class="mobile-nav-link" onclick="showPage('contact');closeMobileNav()">📧 Contacto</a>
+  </div>
+  <div class="mobile-nav-section">
+    <h5>Tarjetas de Video</h5>
+    <a class="mobile-nav-link" onclick="filterSub('gpu','nvidia');showPage('hardware');closeMobileNav()">NVIDIA GeForce</a>
+    <a class="mobile-nav-link" onclick="filterSub('gpu','amd');showPage('hardware');closeMobileNav()">AMD Radeon</a>
+    <a class="mobile-nav-link" onclick="filterCat('gpu');showPage('hardware');closeMobileNav()">Ver todas →</a>
+  </div>
+  <div class="mobile-nav-section">
+    <h5>Procesadores</h5>
+    <a class="mobile-nav-link" onclick="filterSub('cpu','intel');showPage('hardware');closeMobileNav()">Intel Core</a>
+    <a class="mobile-nav-link" onclick="filterSub('cpu','amd');showPage('hardware');closeMobileNav()">AMD Ryzen</a>
+  </div>
+  <div class="mobile-nav-section">
+    <h5>Memorias RAM</h5>
+    <a class="mobile-nav-link" onclick="filterSub('ram','ddr5');showPage('hardware');closeMobileNav()">DDR5</a>
+    <a class="mobile-nav-link" onclick="filterSub('ram','ddr4');showPage('hardware');closeMobileNav()">DDR4</a>
+  </div>
+  <div class="mobile-nav-section">
+    <h5>Almacenamiento</h5>
+    <a class="mobile-nav-link" onclick="filterSub('storage','nvme');showPage('hardware');closeMobileNav()">NVMe M.2</a>
+    <a class="mobile-nav-link" onclick="filterSub('storage','sata');showPage('hardware');closeMobileNav()">SATA 2.5"</a>
+    <a class="mobile-nav-link" onclick="filterSub('storage','hdd');showPage('hardware');closeMobileNav()">Disco Duro</a>
+  </div>
+  <div class="mobile-nav-section">
+    <h5>Componentes</h5>
+    <a class="mobile-nav-link" onclick="filterCat('cooling');showPage('hardware');closeMobileNav()">Refrigeración</a>
+    <a class="mobile-nav-link" onclick="filterCat('mobo');showPage('hardware');closeMobileNav()">Placas Madre</a>
+    <a class="mobile-nav-link" onclick="filterCat('psu');showPage('hardware');closeMobileNav()">Fuentes de Poder</a>
+    <a class="mobile-nav-link" onclick="filterCat('case');showPage('hardware');closeMobileNav()">Gabinetes</a>
+  </div>
+  <div class="mobile-nav-section">
+    <h5>PCs Armados</h5>
+    <a class="mobile-nav-link" onclick="filterCat('pc');showPage('hardware');closeMobileNav()">Ver todos →</a>
+  </div>
+  <div class="mobile-nav-section">
+    <h5>Tiendas</h5>
+    <div id="mobile-tiendas-list"></div>
+  </div>
+</div>
 
 <div class="toast" id="toast"></div>
 
@@ -440,20 +572,67 @@ nav{display:flex;align-items:center;gap:2px}
         <div class="stat"><div class="stat-n" id="hw-stat-stores">0</div><div class="stat-l">Tiendas</div></div>
       </div>
     </div>
-    <!-- Featured products banner -->
+
+    <!-- CATEGORÍAS (arriba de productos destacados) -->
+    <div class="featured-header" style="margin-bottom:14px">
+      <div class="featured-title">📦 Categorías</div>
+    </div>
+    <div id="home-cats-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;margin-bottom:32px"></div>
+
+    <!-- PRODUCTOS DESTACADOS — slider 18 productos, 6 por fila -->
     <div class="featured-section">
       <div class="featured-header">
         <div class="featured-title">🔥 Productos Destacados</div>
         <button class="featured-refresh" onclick="renderFeatured()">↻ Actualizar</button>
       </div>
-      <div class="featured-grid" id="featured-grid"></div>
+      <div style="position:relative">
+        <button class="slider-arrow prev" id="feat-prev" onclick="slideMove('featured-track',-1)">‹</button>
+        <div class="slider-wrap">
+          <div class="slider-track" id="featured-track"></div>
+        </div>
+        <button class="slider-arrow next" id="feat-next" onclick="slideMove('featured-track',1)">›</button>
+      </div>
     </div>
 
-    <!-- Categories grid -->
-    <div class="featured-header" style="margin-bottom:14px">
-      <div class="featured-title">📦 Categorías</div>
+    <!-- BANNERS x3 -->
+    <div class="banners-row" id="banners-row">
+      <div class="banner-slot" id="banner-1" onclick="showPage('hardware')" style="cursor:pointer;background:linear-gradient(135deg,rgba(59,130,246,0.15),rgba(6,182,212,0.08));border-color:rgba(59,130,246,0.3)">
+        <div style="text-align:center">
+          <div style="font-size:28px;margin-bottom:6px">🎮</div>
+          <div style="font-weight:700;font-size:14px;color:var(--text)">Tarjetas de Video</div>
+          <div style="font-size:11px;color:var(--text3);margin-top:3px">Mejores precios RTX y Radeon</div>
+        </div>
+      </div>
+      <div class="banner-slot" id="banner-2" onclick="filterCat('cpu');showPage('hardware')" style="cursor:pointer;background:linear-gradient(135deg,rgba(239,68,68,0.12),rgba(245,158,11,0.08));border-color:rgba(239,68,68,0.25)">
+        <div style="text-align:center">
+          <div style="font-size:28px;margin-bottom:6px">⚡</div>
+          <div style="font-weight:700;font-size:14px;color:var(--text)">Procesadores</div>
+          <div style="font-size:11px;color:var(--text3);margin-top:3px">Intel y AMD al mejor precio</div>
+        </div>
+      </div>
+      <div class="banner-slot" id="banner-3" onclick="filterCat('pc');showPage('hardware')" style="cursor:pointer;background:linear-gradient(135deg,rgba(34,197,94,0.12),rgba(6,182,212,0.08));border-color:rgba(34,197,94,0.25)">
+        <div style="text-align:center">
+          <div style="font-size:28px;margin-bottom:6px">💻</div>
+          <div style="font-weight:700;font-size:14px;color:var(--text)">PCs Armados</div>
+          <div style="font-size:11px;color:var(--text3);margin-top:3px">Equipos listos para usar</div>
+        </div>
+      </div>
     </div>
-    <div id="home-cats-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px"></div>
+
+    <!-- PCs ARMADOS — slider 12 productos, 6 por fila -->
+    <div class="featured-section">
+      <div class="featured-header">
+        <div class="featured-title">💻 PCs Armados</div>
+        <button class="featured-refresh" onclick="renderPcSlider()">↻ Actualizar</button>
+      </div>
+      <div style="position:relative">
+        <button class="slider-arrow prev" id="pc-prev" onclick="slideMove('pc-track',-1)">‹</button>
+        <div class="slider-wrap">
+          <div class="slider-track" id="pc-track"></div>
+        </div>
+        <button class="slider-arrow next" id="pc-next" onclick="slideMove('pc-track',1)">›</button>
+      </div>
+    </div>
   </div>
 
   <!-- HARDWARE PAGE -->
@@ -554,16 +733,56 @@ nav{display:flex;align-items:center;gap:2px}
 
   <!-- CONTACT PAGE -->
   <div class="page" id="page-contact">
-    <div style="max-width:500px;margin:0 auto;padding:40px 0">
-      <h2 style="font-size:22px;font-weight:800;margin-bottom:8px">Contacto</h2>
-      <p style="color:var(--text3);font-size:13px;margin-bottom:24px">¿Tienes alguna consulta o sugerencia?</p>
-      <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:4px">Nombre</label>
-      <input id="contact-name" type="text" placeholder="Tu nombre" style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;font-size:13px;color:var(--text);font-family:inherit;margin-bottom:12px">
-      <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:4px">Email</label>
-      <input id="contact-email" type="email" placeholder="tu@email.com" style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;font-size:13px;color:var(--text);font-family:inherit;margin-bottom:12px">
-      <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:4px">Mensaje</label>
-      <textarea id="contact-msg" rows="4" placeholder="Tu mensaje..." style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;font-size:13px;color:var(--text);font-family:inherit;margin-bottom:16px;resize:vertical"></textarea>
-      <button onclick="sendContact()" style="background:var(--accent);color:#fff;border:none;border-radius:8px;padding:12px 24px;font-size:13px;font-weight:600;font-family:inherit;cursor:pointer;width:100%">Enviar mensaje</button>
+    <div class="contact-wrap">
+      <h2 style="font-size:26px;font-weight:800;margin-bottom:6px">Contacto</h2>
+      <p style="color:var(--text3);font-size:14px">¿Tienes alguna consulta, sugerencia o problema? Escríbenos.</p>
+      <div class="contact-grid">
+        <!-- Info -->
+        <div class="contact-info-card">
+          <h3 style="font-size:16px;font-weight:700;margin-bottom:16px">Información</h3>
+          <div style="display:flex;flex-direction:column;gap:16px">
+            <div>
+              <div style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px">Correo</div>
+              <a href="mailto:contacto.findtech@gmail.com" style="color:var(--accent);font-size:14px;font-weight:500">contacto.findtech@gmail.com</a>
+            </div>
+            <div>
+              <div style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px">Tiempo de respuesta</div>
+              <div style="font-size:13px;color:var(--text2)">24-48 horas hábiles</div>
+            </div>
+            <div>
+              <div style="font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px">Categorías de consulta</div>
+              <div style="display:flex;flex-wrap:wrap;gap:6px">
+                <span style="background:var(--bg3);border:1px solid var(--border);border-radius:6px;padding:4px 10px;font-size:11px;color:var(--text2)">Precios incorrectos</span>
+                <span style="background:var(--bg3);border:1px solid var(--border);border-radius:6px;padding:4px 10px;font-size:11px;color:var(--text2)">Tienda faltante</span>
+                <span style="background:var(--bg3);border:1px solid var(--border);border-radius:6px;padding:4px 10px;font-size:11px;color:var(--text2)">Sugerencias</span>
+                <span style="background:var(--bg3);border:1px solid var(--border);border-radius:6px;padding:4px 10px;font-size:11px;color:var(--text2)">Errores</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Form -->
+        <div class="contact-form-card">
+          <h3 style="font-size:16px;font-weight:700;margin-bottom:16px">Envíanos un mensaje</h3>
+          <div class="contact-field">
+            <label>Nombre *</label>
+            <input id="contact-name" type="text" placeholder="Tu nombre">
+          </div>
+          <div class="contact-field">
+            <label>Email *</label>
+            <input id="contact-email" type="email" placeholder="tu@email.com">
+          </div>
+          <div class="contact-field">
+            <label>Asunto</label>
+            <input id="contact-subject" type="text" placeholder="¿En qué podemos ayudarte?">
+          </div>
+          <div class="contact-field">
+            <label>Mensaje *</label>
+            <textarea id="contact-msg" rows="4" placeholder="Describe tu consulta o sugerencia..."></textarea>
+          </div>
+          <button class="contact-submit" onclick="sendContact()">Enviar mensaje</button>
+          <div id="contact-feedback" style="margin-top:12px;font-size:13px;display:none"></div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -667,6 +886,7 @@ const SUBCATS = {
     accesorio: ['soporte','bracket','panel','filtro dust','cable management','hub','controladora','riser','accesorio gabinete','glass panel'],
   },
   psu:     { modular:['modular'], certificada:['80+','gold','platinum','bronze','titanium'] },
+  pc:      { amd:['ryzen','amd'], intel:['intel','core i'] },
 };
 
 let PRODUCTS = [];
@@ -789,23 +1009,16 @@ function onSearch(val) {
 // RENDER HOME
 // ═══════════════════════════════════════════════
 function renderHome() {
-  // Stores strip
-  const strip = document.getElementById('stores-strip');
-  strip.innerHTML = STORES.map(s => {
-    const cnt = PRODUCTS.filter(p=>p.prices?.[s.id]>0||p._bestStoreId===s.id).length;
-    return `<div class="store-chip" onclick="filterStore('${s.id}')">
-      <span class="ico">🏪</span>
-      <span class="name">${s.name}</span>
-      <span class="cnt">${cnt} prods</span>
-    </div>`;
-  }).join('');
+  // Stats
+  const total = PRODUCTS.filter(p=>getPrice(p)>0).length;
+  const el = document.getElementById('hw-stat-prods');
+  if (el) el.textContent = total;
+  const stEl = document.getElementById('hw-stat-stores');
+  if (stEl) stEl.textContent = STORES.length;
 
-  // Best deals
-  const sorted = [...PRODUCTS].filter(p=>getPrice(p)>0)
-    .sort((a,b)=>getPrice(a)-getPrice(b));
-  document.getElementById('home-deals').innerHTML = sorted.slice(0,8).map(p=>cardHtml(p)).join('');
-  document.getElementById('home-gpu').innerHTML = sorted.filter(p=>p.category==='gpu').slice(0,4).map(p=>cardHtml(p)).join('');
-  document.getElementById('home-cpu').innerHTML = sorted.filter(p=>p.category==='cpu').slice(0,4).map(p=>cardHtml(p)).join('');
+  renderHomeCats();
+  renderFeatured();
+  renderPcSlider();
 
   // Footer update
   const meta = localStorage.getItem('ft_meta');
@@ -1672,31 +1885,6 @@ function fileToBase64(file) {
   });
 }
 
-// ═══════════════════════════════════════════════
-// MOBILE NAV
-// ═══════════════════════════════════════════════
-(function() {
-  var hideTimers = {};
-  document.querySelectorAll('.mega-wrap').forEach(function(wrap) {
-    var id = wrap.id || Math.random();
-    var menu = wrap.querySelector('.mega-menu');
-    if (!menu) return;
-    function show() {
-      clearTimeout(hideTimers[id]);
-      document.querySelectorAll('.mega-menu').forEach(function(m){if(m!==menu)m.style.display='none';});
-      menu.style.display='grid';menu.style.gridTemplateColumns='repeat(4,1fr)';menu.style.gap='16px';
-    }
-    function hide() { hideTimers[id]=setTimeout(function(){menu.style.display='none';},200); }
-    wrap.addEventListener('mouseenter',show);
-    wrap.addEventListener('mouseleave',hide);
-    menu.addEventListener('mouseenter',function(){clearTimeout(hideTimers[id]);});
-    menu.addEventListener('mouseleave',hide);
-  });
-  document.addEventListener('click',function(e){
-    if(!e.target.closest('.mega-wrap'))document.querySelectorAll('.mega-menu').forEach(function(m){m.style.display='none';});
-  });
-})();
-
 function renderTiendasMenu() {
   var cols=[document.getElementById('mega-tiendas-col-1'),document.getElementById('mega-tiendas-col-2'),document.getElementById('mega-tiendas-col-3')];
   if(!cols[0]||!STORES.length)return;
@@ -1715,35 +1903,39 @@ function renderTiendasMenu() {
   if(cols[0]){var h=document.createElement('h4');h.textContent='Tiendas';cols[0].insertBefore(h,cols[0].firstChild);}
 }
 
-function toggleSidebar() {
-  const sidebar = document.getElementById('sidebar');
-  const overlay = document.getElementById('sidebar-overlay');
-  const isOpen = sidebar.classList.contains('open');
-  sidebar.classList.toggle('open', !isOpen);
-  overlay.classList.toggle('open', !isOpen);
-  document.body.style.overflow = isOpen ? '' : 'hidden';
+// ═══════════════════════════════════════════════
+// MOBILE NAV
+// ═══════════════════════════════════════════════
+function openMobileNav() {
+  document.getElementById('mobile-nav-drawer').classList.add('open');
+  document.getElementById('mobile-nav-overlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+  // Populate tiendas list
+  const tList = document.getElementById('mobile-tiendas-list');
+  if (tList && STORES.length) {
+    tList.innerHTML = STORES.map(s =>
+      `<a class="mobile-nav-link" onclick="filterStore('${s.id}');showPage('hardware');closeMobileNav()">${s.name}</a>`
+    ).join('');
+  }
 }
-
-function closeSidebar() {
-  document.getElementById('sidebar').classList.remove('open');
-  document.getElementById('sidebar-overlay').classList.remove('open');
+function closeMobileNav() {
+  document.getElementById('mobile-nav-drawer').classList.remove('open');
+  document.getElementById('mobile-nav-overlay').classList.remove('open');
   document.body.style.overflow = '';
 }
-
 function toggleMobileSearch() {
-  const wrap = document.getElementById('search-wrap');
-  const isMobile = window.innerWidth <= 768;
-  if (!isMobile) return;
-  wrap.classList.toggle('mobile-open');
-  if (wrap.classList.contains('mobile-open')) {
-    wrap.querySelector('input').focus();
+  const bar = document.getElementById('mobile-search-bar');
+  bar.classList.toggle('open');
+  if (bar.classList.contains('open')) {
+    document.getElementById('mobile-search-input').focus();
   }
 }
 
-// Cerrar sidebar con Escape
+// Cerrar con Escape
 document.addEventListener('keydown', e => {
   if (e.key === 'Escape') {
-    closeSidebar();
+    closeMobileNav();
+    document.getElementById('mobile-search-bar').classList.remove('open');
     closeModal();
   }
 });
@@ -1751,8 +1943,8 @@ document.addEventListener('keydown', e => {
 // Ajustar layout al rotar pantalla
 window.addEventListener('resize', () => {
   if (window.innerWidth > 768) {
-    closeSidebar();
-    document.getElementById('search-wrap').classList.remove('mobile-open');
+    closeMobileNav();
+    document.getElementById('mobile-search-bar').classList.remove('open');
     document.body.style.overflow = '';
   }
 });
@@ -1856,71 +2048,58 @@ function renderDetailSpecs(p) {
   }
 }
 
-// renderHome compatibility (called by original loadData init)
-function renderHome() {
-  // Show home page explicitly
-  document.querySelectorAll('.page').forEach(el => el.classList.remove('active'));
-  const homeEl = document.getElementById('page-home');
-  if (homeEl) homeEl.classList.add('active');
-  currentPage = 'home';
 
-  renderHomeCats();
-  renderFeatured();
-  // Update stat counters
-  const pEl = document.getElementById('hw-stat-prods');
-  const sEl = document.getElementById('hw-stat-stores');
-  if (pEl) pEl.textContent = PRODUCTS.length.toLocaleString('es-CL');
-  if (sEl) sEl.textContent = STORES.filter(s => s.active !== 0).length;
+// ═══════════════════════════════════════════════
+// SLIDER
+// ═══════════════════════════════════════════════
+const sliderState = {};
+function slideMove(trackId, dir) {
+  const track = document.getElementById(trackId);
+  if (!track) return;
+  const card = track.querySelector('.featured-card, .pc-card');
+  if (!card) return;
+  const cardW = card.offsetWidth + 14;
+  const visibleW = track.parentElement.offsetWidth;
+  const totalW = track.scrollWidth;
+  const maxOffset = Math.max(0, totalW - visibleW);
+  sliderState[trackId] = sliderState[trackId] || 0;
+  sliderState[trackId] = Math.min(maxOffset, Math.max(0, sliderState[trackId] + dir * cardW * 6));
+  track.style.transform = `translateX(-${sliderState[trackId]}px)`;
 }
 
-// Render random featured products
+// Render random featured products — 18 products in slider
 function renderFeatured() {
-  const grid = document.getElementById('featured-grid');
-  if (!grid || !PRODUCTS.length) return;
+  const track = document.getElementById('featured-track');
+  if (!track || !PRODUCTS.length) return;
+  sliderState['featured-track'] = 0;
+  track.style.transform = 'translateX(0)';
 
-  // Pick 8 random products with images, spread across categories
-  const cats = ['gpu','cpu','ram','storage','cooling','mobo','psu','case','pc'];
+  const cats = ['gpu','cpu','ram','storage','cooling','mobo','psu','case'];
   let pool = [];
-
-  // Try to get 1-2 per category
   cats.forEach(cat => {
     const catProds = PRODUCTS.filter(p => p.category === cat && p.imageUrl && getPrice(p) > 0);
-    if (catProds.length) {
-      // Shuffle and take up to 2
-      const shuffled = catProds.sort(() => Math.random() - 0.5);
-      pool.push(...shuffled.slice(0, 2));
-    }
+    if (catProds.length) pool.push(...catProds.sort(() => Math.random() - 0.5).slice(0, 3));
   });
-
-  // If not enough, fill with any product with image
-  if (pool.length < 6) {
+  if (pool.length < 18) {
     const extras = PRODUCTS.filter(p => p.imageUrl && getPrice(p) > 0 && !pool.includes(p))
-      .sort(() => Math.random() - 0.5).slice(0, 8 - pool.length);
+      .sort(() => Math.random() - 0.5).slice(0, 18 - pool.length);
     pool.push(...extras);
   }
+  pool = pool.sort(() => Math.random() - 0.5).slice(0, 18);
 
-  // Shuffle final pool and take 8
-  pool = pool.sort(() => Math.random() - 0.5).slice(0, 8);
-
-  // Badges: mark discounts and random "Nuevo"
   const catIcons = {gpu:'🎮',cpu:'⚡',ram:'💾',storage:'💿',cooling:'❄️',mobo:'🔌',psu:'⚙️',case:'🖥️',pc:'💻'};
-
-  grid.innerHTML = pool.map(p => {
+  track.innerHTML = pool.map(p => {
     const price = getPrice(p);
     const store = STORES.find(s => s.id === p._bestStoreId);
     const cardP = getCardPrice(p);
-    const isNew = Math.random() > 0.7;
     const hasDeal = cardP && cardP > price;
-    const badge = hasDeal
-      ? `<div class="featured-badge deal">-${Math.round((1-price/cardP)*100)}%</div>`
-      : isNew ? `<div class="featured-badge new">Nuevo</div>` : '';
+    const badge = hasDeal ? `<div class="featured-badge deal">-${Math.round((1-price/cardP)*100)}%</div>` : '';
     const icon = catIcons[p.category] || '📦';
-
     return `<div class="featured-card" onclick="openProductTab(${p.id})">
       ${badge}
       <div class="featured-img">
         ${p.imageUrl
-          ? `<img src="${p.imageUrl}" alt="${p.name}" loading="lazy" onerror="this.parentElement.innerHTML='<span class=\"emoji\">${icon}</span>'">`
+          ? `<img src="${p.imageUrl}" alt="${p.name}" loading="lazy" onerror="this.parentElement.innerHTML='<span class=\\"emoji\\">${icon}</span>'">`
           : `<span class="emoji">${icon}</span>`}
       </div>
       <div class="featured-body">
@@ -1928,6 +2107,39 @@ function renderFeatured() {
         <div class="featured-name">${p.name}</div>
         <div class="featured-price">${fmt(price)}</div>
         <div class="featured-store">${store?.name||p._bestStoreName||''}</div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// Render PC slider — 12 random PCs
+function renderPcSlider() {
+  const track = document.getElementById('pc-track');
+  if (!track || !PRODUCTS.length) return;
+  sliderState['pc-track'] = 0;
+  track.style.transform = 'translateX(0)';
+
+  let pcs = PRODUCTS.filter(p => p.category === 'pc' && getPrice(p) > 0)
+    .sort(() => Math.random() - 0.5).slice(0, 12);
+
+  if (!pcs.length) {
+    track.innerHTML = '<div style="padding:20px;color:var(--text3)">Sin PCs disponibles</div>';
+    return;
+  }
+  track.innerHTML = pcs.map(p => {
+    const price = getPrice(p);
+    const store = STORES.find(s => s.id === p._bestStoreId);
+    return `<div class="pc-card" onclick="openProductTab(${p.id})">
+      <div class="pc-card-img">
+        ${p.imageUrl
+          ? `<img src="${p.imageUrl}" alt="${p.name}" loading="lazy" onerror="this.parentElement.innerHTML='<span style=\\"font-size:40px\\">💻</span>'">`
+          : `<span style="font-size:40px">💻</span>`}
+      </div>
+      <div class="pc-card-body">
+        <div class="pc-card-brand">${p.brand||'PC'}</div>
+        <div class="pc-card-name">${p.name}</div>
+        <div class="pc-card-price">${fmt(price)}</div>
+        <div class="pc-card-store">${store?.name||p._bestStoreName||''}</div>
       </div>
     </div>`;
   }).join('');
@@ -1941,12 +2153,12 @@ function renderHomeCats() {
     const cnt = PRODUCTS.filter(p => p.category === id).length;
     if (!cnt) return '';
     return `<div onclick="filterCat('${id}');showPage('hardware')"
-      style="background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:20px;cursor:pointer;text-align:center;transition:all .2s"
+      style="background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:16px;cursor:pointer;text-align:center;transition:all .2s"
       onmouseover="this.style.borderColor='var(--accent)';this.style.transform='translateY(-2px)'"
       onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
-      <div style="font-size:32px;margin-bottom:8px">${cat.icon}</div>
-      <div style="font-size:13px;font-weight:600;color:var(--text)">${cat.name}</div>
-      <div style="font-size:11px;color:var(--text3);margin-top:4px">${cnt} productos</div>
+      <div style="font-size:28px;margin-bottom:6px">${cat.icon}</div>
+      <div style="font-size:12px;font-weight:600;color:var(--text)">${cat.name}</div>
+      <div style="font-size:10px;color:var(--text3);margin-top:3px">${cnt} productos</div>
     </div>`;
   }).join('');
 }
@@ -2033,11 +2245,34 @@ function onGlobalSearch(val) {
   currentCat = ''; currentSub = ''; currentStore = ''; filterStoreId = '';
   const searchEl = document.getElementById('prod-search');
   if (searchEl) searchEl.value = v;
-  _ftShowPage('hardware');
+  showPage('hardware');
   renderSidebarCats();
   updateBreadcrumb();
 }
 
+async function sendContact() {
+  const name  = document.getElementById('contact-name')?.value.trim();
+  const email = document.getElementById('contact-email')?.value.trim();
+  const msg   = document.getElementById('contact-msg')?.value.trim();
+  const subj  = document.getElementById('contact-subject')?.value.trim() || 'Consulta FindTech';
+  const fb    = document.getElementById('contact-feedback');
+  if (!name || !email || !msg) {
+    if (fb) { fb.style.display='block'; fb.style.color='var(--red)'; fb.textContent='Por favor completa todos los campos obligatorios.'; }
+    return;
+  }
+  const btn = document.querySelector('.contact-submit');
+  if (btn) { btn.disabled=true; btn.textContent='Enviando...'; }
+  try {
+    await emailjs.send('service_626rrfu','template_y5vz2z8',{
+      from_name:name, from_email:email, to_email:'contacto.findtech@gmail.com', subject:subj, message:msg,
+    });
+    if (fb) { fb.style.display='block'; fb.style.color='var(--green)'; fb.textContent='✓ Mensaje enviado. Te responderemos pronto.'; }
+    ['contact-name','contact-email','contact-msg','contact-subject'].forEach(id=>{const el=document.getElementById(id);if(el)el.value='';});
+  } catch(err) {
+    if (fb) { fb.style.display='block'; fb.style.color='var(--red)'; fb.textContent='Error al enviar. Escríbenos a contacto.findtech@gmail.com'; }
+  }
+  if (btn) { btn.disabled=false; btn.textContent='Enviar mensaje'; }
+}
 
 </script>
 
