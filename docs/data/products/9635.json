@@ -8,25 +8,25 @@
   "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-asus-rog-ryuo-iv-slc-360-argb-aio-360mm-argb-display-amoled.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$549.990",
-    "Tarjeta crédito/débito": "$574.740"
+    "Efectivo/Transferencia": "$436.110",
+    "Tarjeta crédito/débito": "$455.730"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:01",
-  "updated_at": "2026-04-29 03:35:10",
+  "updated_at": "2026-05-01 02:21:33",
   "prices": [
     {
       "product_id": 9635,
       "store_id": "spdigital",
-      "price": 549990,
-      "price_normal": 574740,
-      "discount_pct": null,
+      "price": 436110,
+      "price_normal": 455730,
+      "discount_pct": 4,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/refrigeracion-liquida-asus-rog-ryuo-iv-slc-360-argb-aio-360mm-argb-display-amoled",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$549.990",
-        "Webpay / Tarjeta": "$574.740"
+        "Transferencia / Efectivo": "$436.110",
+        "Webpay / Tarjeta": "$455.730"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -46,7 +46,13 @@
       "store_name": "SP Digital",
       "date": "2026-04-29",
       "price": 549990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-01",
+      "price": 436110
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

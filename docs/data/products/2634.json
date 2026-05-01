@@ -1,7 +1,7 @@
 {
   "id": 2634,
   "external_id": "trulustore_placa-madre-msi-pro-x870e-p-wifi-ddr5-am5-wifi-7-bt-5-4-m-2-gen5",
-  "category_id": "cpu",
+  "category_id": "mobo",
   "brand": "MSI",
   "name": "PLACA MADRE MSI PRO X870E-P WIFI DDR5 AM5 / WIFI 7 / BT 5.4 / M.2 GEN5",
   "slug": "placa-madre-msi-pro-x870e-p-wifi-ddr5-am5-wifi-7-bt-5-4-m-2-gen5",
@@ -9,14 +9,15 @@
   "description": null,
   "specs": {
     "Socket": "AM5",
+    "Factor de forma": "ATX",
     "Memoria": "DDR5",
-    "Efectivo / Transferencia": "$319.990",
-    "Khipu": "$326.390",
-    "Tarjeta crédito/débito": "$335.990"
+    "WiFi": "Integrado",
+    "Efectivo/Transferencia": "$399.990",
+    "Tarjeta crédito/débito": "$417.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:36",
-  "updated_at": "2026-05-01 00:35:39",
+  "updated_at": "2026-05-01 02:34:07",
   "prices": [
     {
       "product_id": 2634,
@@ -37,6 +38,23 @@
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 9454,
+      "store_id": "spdigital",
+      "price": 399990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/msi-motherboard-pro-x870e-p-wifi-4-dimm-ddr5-a",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$399.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
