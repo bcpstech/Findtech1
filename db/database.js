@@ -30,6 +30,7 @@ function upsertProduct(product) {
     INSERT INTO products (external_id, category_id, brand, name, slug, image_url, specs, tags, updated_at)
     VALUES (@external_id, @category_id, @brand, @name, @slug, @image_url, @specs, @tags, datetime('now'))
     ON CONFLICT(external_id) DO UPDATE SET
+      category_id = excluded.category_id,
       name       = excluded.name,
       image_url  = COALESCE(excluded.image_url, image_url),
       specs      = COALESCE(excluded.specs, specs),
