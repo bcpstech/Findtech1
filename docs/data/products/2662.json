@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:53:09",
-  "updated_at": "2026-04-29 16:34:50",
+  "updated_at": "2026-05-01 00:33:58",
   "prices": [
     {
       "product_id": 2662,
@@ -35,24 +35,6 @@
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
-    },
-    {
-      "product_id": 9736,
-      "store_id": "spdigital",
-      "price": 89990,
-      "price_normal": 94040,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/fuente-de-poder-gigabyte-p650g-pcie-51-650w-cables-fijos-certificada-80-plus-gold-atx-31",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$89.990",
-        "Webpay / Tarjeta": "$94.040"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -79,7 +61,13 @@
       "store_name": "TruluStore",
       "date": "2026-04-29",
       "price": 54990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-05-01",
+      "price": 54990
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

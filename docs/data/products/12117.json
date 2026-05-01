@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 23:08:54",
-  "updated_at": "2026-04-29 16:36:05",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 682,
@@ -38,26 +38,6 @@
       "full_url": "https://www.n1g.cl"
     },
     {
-      "product_id": 12118,
-      "store_id": "trulustore",
-      "price": 125990,
-      "price_normal": 132290,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/ssd-m-2-pcie-4-0-4x-nvme-kingston-nv3-1tb-lectura-6000mb-s-2/",
-      "store_name": "TruluStore",
-      "khipu_price": 128510,
-      "price_specs": {
-        "Efectivo / Transferencia": "$125.990",
-        "Khipu": "$128.510",
-        "Tarjeta crédito/débito": "$132.290"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
-    },
-    {
       "product_id": 1187,
       "store_id": "cg",
       "price": 129990,
@@ -73,6 +53,26 @@
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 12117,
+      "store_id": "trulustore",
+      "price": 134990,
+      "price_normal": 141740,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/ssd-m-2-pcie-4-0-4x-nvme-kingston-nv3-1tb-lectura-6000mb-s/",
+      "store_name": "TruluStore",
+      "khipu_price": 137690,
+      "price_specs": {
+        "Efectivo / Transferencia": "$134.990",
+        "Khipu": "$137.690",
+        "Tarjeta crédito/débito": "$141.740"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     },
     {
       "product_id": 9525,
@@ -105,7 +105,13 @@
       "store_name": "TruluStore",
       "date": "2026-04-29",
       "price": 134990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-05-01",
+      "price": 134990
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

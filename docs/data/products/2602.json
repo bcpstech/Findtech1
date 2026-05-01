@@ -14,12 +14,12 @@
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
     "Factor de forma": "Full-Height/Full-Length (FH/FL)",
-    "Efectivo/Transferencia": "$2.028.910",
-    "Tarjeta crédito/débito": "$2.120.210"
+    "Efectivo/Transferencia": "$2.020.610",
+    "Tarjeta crédito/débito": "$2.111.540"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:14",
-  "updated_at": "2026-04-29 16:36:05",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 2602,
@@ -44,15 +44,15 @@
     {
       "product_id": 9563,
       "store_id": "spdigital",
-      "price": 2028910,
-      "price_normal": 2120210,
+      "price": 2020610,
+      "price_normal": 2111540,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-gaming-geforce-rtx-5080-solid-oc",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$2.028.910",
-        "Webpay / Tarjeta": "$2.120.210"
+        "Transferencia / Efectivo": "$2.020.610",
+        "Webpay / Tarjeta": "$2.111.540"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -84,7 +84,13 @@
       "store_name": "TruluStore",
       "date": "2026-04-29",
       "price": 1699990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-05-01",
+      "price": 1699990
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

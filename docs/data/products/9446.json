@@ -13,25 +13,25 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Chipset": "AMD B850",
-    "Efectivo/Transferencia": "$410.300",
-    "Tarjeta crédito/débito": "$428.760"
+    "Efectivo/Transferencia": "$413.020",
+    "Tarjeta crédito/débito": "$431.600"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:19",
-  "updated_at": "2026-04-29 16:36:05",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 9446,
       "store_id": "spdigital",
-      "price": 410300,
-      "price_normal": 428760,
+      "price": 413020,
+      "price_normal": 431600,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-asus-rog-strix-b850-f-gaming-wifi-amd-am5-ddr5-pcie-50-wifi-7-atx",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$410.300",
-        "Webpay / Tarjeta": "$428.760"
+        "Transferencia / Efectivo": "$413.020",
+        "Webpay / Tarjeta": "$431.600"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -51,7 +51,13 @@
       "store_name": "SP Digital",
       "date": "2026-04-29",
       "price": 410300
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-01",
+      "price": 413020
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

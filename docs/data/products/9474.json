@@ -12,25 +12,25 @@
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Efectivo/Transferencia": "$181.630",
-    "Tarjeta crédito/débito": "$189.800"
+    "Efectivo/Transferencia": "$182.840",
+    "Tarjeta crédito/débito": "$191.070"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:35",
-  "updated_at": "2026-04-29 16:36:05",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 9474,
       "store_id": "spdigital",
-      "price": 181630,
-      "price_normal": 189800,
-      "discount_pct": 4,
+      "price": 182840,
+      "price_normal": 191070,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/msi-pro-h810m-b-wifi6e",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$181.630",
-        "Webpay / Tarjeta": "$189.800"
+        "Transferencia / Efectivo": "$182.840",
+        "Webpay / Tarjeta": "$191.070"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -50,7 +50,13 @@
       "store_name": "SP Digital",
       "date": "2026-04-29",
       "price": 181630
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-01",
+      "price": 182840
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

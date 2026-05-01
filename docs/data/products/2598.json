@@ -15,7 +15,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:13",
-  "updated_at": "2026-04-29 03:41:08",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 2598,
@@ -26,6 +26,7 @@
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-geforce-rtx-5050-8gb-solo-itx/",
       "store_name": "TruluStore",
+      "khipu_price": 341486,
       "price_specs": {
         "Efectivo / Transferencia": "$334.790",
         "Khipu": "$341.486",
@@ -35,24 +36,6 @@
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
-    },
-    {
-      "product_id": 9582,
-      "store_id": "spdigital",
-      "price": 428030,
-      "price_normal": 447300,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/zotac-gaming-geforce-rtx-5050-twin-edge",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$428.030",
-        "Webpay / Tarjeta": "$447.300"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -79,7 +62,13 @@
       "store_name": "TruluStore",
       "date": "2026-04-29",
       "price": 334790
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-05-01",
+      "price": 334790
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

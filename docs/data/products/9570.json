@@ -13,25 +13,25 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo/Transferencia": "$1.109.860",
-    "Tarjeta crédito/débito": "$1.159.800"
+    "Efectivo/Transferencia": "$1.199.990",
+    "Tarjeta crédito/débito": "$1.253.990"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:25",
-  "updated_at": "2026-04-29 03:41:08",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 9570,
       "store_id": "spdigital",
-      "price": 1109860,
-      "price_normal": 1159800,
+      "price": 1199990,
+      "price_normal": 1253990,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-tuf-gaming-geforce-rtx-5070-oc-edition-12gb-gddr7-192-bit-pci-e-50",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.109.860",
-        "Webpay / Tarjeta": "$1.159.800"
+        "Transferencia / Efectivo": "$1.199.990",
+        "Webpay / Tarjeta": "$1.253.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -51,7 +51,13 @@
       "store_name": "SP Digital",
       "date": "2026-04-29",
       "price": 1109860
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-01",
+      "price": 1199990
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

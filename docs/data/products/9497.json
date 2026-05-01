@@ -19,7 +19,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:47",
-  "updated_at": "2026-04-29 16:36:05",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 9497,
@@ -42,14 +42,14 @@
     {
       "product_id": 1177,
       "store_id": "cg",
-      "price": 257670,
+      "price": 259308,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/memorias-ram/memoria-16gb-5600mt-s-ddr5-cl36-dimm-fury-beast-bl/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$257.670"
+        "Efectivo/Transferencia": "$259.308"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -107,7 +107,13 @@
       "store_name": "SP Digital",
       "date": "2026-04-29",
       "price": 112990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-01",
+      "price": 112990
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

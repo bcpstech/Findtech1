@@ -19,7 +19,7 @@
   },
   "tags": [],
   "created_at": "2026-04-27 22:28:28",
-  "updated_at": "2026-04-29 16:36:05",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 5653,
@@ -40,6 +40,24 @@
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 16405,
+      "store_id": "spdigital",
+      "price": 449990,
+      "price_normal": 470240,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-dual-radeon-rx-7600-evo-oc-edition-8gb-gddr6-128-bit-pci-e-40",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$449.990",
+        "Webpay / Tarjeta": "$470.240"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -60,7 +78,13 @@
       "store_name": "TruluStore",
       "date": "2026-04-29",
       "price": 339990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-05-01",
+      "price": 339990
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

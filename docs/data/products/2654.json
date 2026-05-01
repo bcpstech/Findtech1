@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:53:05",
-  "updated_at": "2026-04-29 16:34:41",
+  "updated_at": "2026-05-01 00:33:46",
   "prices": [
     {
       "product_id": 2654,
@@ -39,15 +39,15 @@
     {
       "product_id": 9717,
       "store_id": "spdigital",
-      "price": 136790,
-      "price_normal": 142950,
+      "price": 137700,
+      "price_normal": 143900,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tuf-gaming-750g-80gold-psu",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$136.790",
-        "Webpay / Tarjeta": "$142.950"
+        "Transferencia / Efectivo": "$137.700",
+        "Webpay / Tarjeta": "$143.900"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -79,7 +79,13 @@
       "store_name": "TruluStore",
       "date": "2026-04-29",
       "price": 114990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-05-01",
+      "price": 114990
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

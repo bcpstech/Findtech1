@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:53:09",
-  "updated_at": "2026-04-29 16:35:01",
+  "updated_at": "2026-05-01 00:34:17",
   "prices": [
     {
       "product_id": 2663,
@@ -37,13 +37,13 @@
       "full_url": "https://www.trulustore.cl"
     },
     {
-      "product_id": 9702,
+      "product_id": 9705,
       "store_id": "spdigital",
       "price": 89990,
       "price_normal": 94040,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/fuente-de-poder-gigabyte-p650b-650w-certificada-80-bronze-eficiencia-y-estabilidad",
+      "product_url": "https://www.spdigital.cl/fuente-de-poder-gigabyte-650w-80-plus-silver-color-blanco",
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$89.990",
@@ -79,7 +79,13 @@
       "store_name": "TruluStore",
       "date": "2026-04-29",
       "price": 59990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-05-01",
+      "price": 59990
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

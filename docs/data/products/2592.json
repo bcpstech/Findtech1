@@ -9,13 +9,13 @@
   "description": null,
   "specs": {
     "VRAM": "8 GB",
-    "Efectivo / Transferencia": "$1.599.990",
-    "Khipu": "$1.631.990",
-    "Tarjeta crédito/débito": "$1.679.990"
+    "Efectivo / Transferencia": "$1.349.990",
+    "Khipu": "$1.376.990",
+    "Tarjeta crédito/débito": "$1.417.490"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:10",
-  "updated_at": "2026-04-29 16:36:05",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 2592,
@@ -62,7 +62,13 @@
       "store_name": "TruluStore",
       "date": "2026-04-29",
       "price": 1349990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-05-01",
+      "price": 1349990
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

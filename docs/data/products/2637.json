@@ -9,28 +9,28 @@
   "description": null,
   "specs": {
     "TDP": "1000W",
-    "Efectivo / Transferencia": "$119.990",
-    "Khipu": "$122.390",
-    "Tarjeta crédito/débito": "$125.990"
+    "Efectivo / Transferencia": "$109.990",
+    "Khipu": "$112.190",
+    "Tarjeta crédito/débito": "$115.490"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:41",
-  "updated_at": "2026-04-29 16:36:05",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 2637,
       "store_id": "trulustore",
-      "price": 119990,
-      "price_normal": 125990,
-      "discount_pct": 29,
+      "price": 109990,
+      "price_normal": 115490,
+      "discount_pct": 35,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/fuente-de-poder-msi-mag-a1000gls-1000w-80-gold-cybenetics-gold-full-modular-pcie-5-1-atx-3-1/",
       "store_name": "TruluStore",
-      "khipu_price": 122390,
+      "khipu_price": 112190,
       "price_specs": {
-        "Efectivo / Transferencia": "$119.990",
-        "Khipu": "$122.390",
-        "Tarjeta crédito/débito": "$125.990"
+        "Efectivo / Transferencia": "$109.990",
+        "Khipu": "$112.190",
+        "Tarjeta crédito/débito": "$115.490"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,7 +62,13 @@
       "store_name": "TruluStore",
       "date": "2026-04-29",
       "price": 119990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-05-01",
+      "price": 109990
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

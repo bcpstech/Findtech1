@@ -13,13 +13,13 @@
     "Bus de memoria": "256-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$1.249.990",
-    "Khipu": "$1.274.990",
-    "Tarjeta crédito/débito": "$1.312.490"
+    "Efectivo / Transferencia": "$1.199.990",
+    "Khipu": "$1.223.990",
+    "Tarjeta crédito/débito": "$1.259.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:17",
-  "updated_at": "2026-04-29 16:36:05",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 2609,
@@ -66,7 +66,13 @@
       "store_name": "TruluStore",
       "date": "2026-04-29",
       "price": 1199990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-05-01",
+      "price": 1199990
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

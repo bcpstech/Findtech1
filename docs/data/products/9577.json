@@ -12,25 +12,25 @@
     "Tipo memoria": "GDDR7",
     "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo/Transferencia": "$634.690",
-    "Tarjeta crédito/débito": "$663.260"
+    "Efectivo/Transferencia": "$614.470",
+    "Tarjeta crédito/débito": "$642.120"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:28",
-  "updated_at": "2026-04-29 16:36:05",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 9577,
       "store_id": "spdigital",
-      "price": 634690,
-      "price_normal": 663260,
-      "discount_pct": 4,
+      "price": 614470,
+      "price_normal": 642120,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-msi-nvidia-geforce-rtx-5060-gaming-trio-oc-8gb-gddr7-128-bit-pci-e-50",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$634.690",
-        "Webpay / Tarjeta": "$663.260"
+        "Transferencia / Efectivo": "$614.470",
+        "Webpay / Tarjeta": "$642.120"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -50,7 +50,13 @@
       "store_name": "SP Digital",
       "date": "2026-04-29",
       "price": 634690
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-01",
+      "price": 614470
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

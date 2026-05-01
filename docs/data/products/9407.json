@@ -26,19 +26,19 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:55",
-  "updated_at": "2026-04-29 16:36:05",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 1142,
       "store_id": "cg",
-      "price": 224174,
+      "price": 225600,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/procesadores/amd-ryzen-5-7600-3-8-ghz-6-nucleos-12-hilos-32-mb-cache-socket-am5-caja/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$224.174"
+        "Efectivo/Transferencia": "$225.600"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -94,7 +94,13 @@
       "store_name": "SP Digital",
       "date": "2026-04-29",
       "price": 352990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-01",
+      "price": 352990
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

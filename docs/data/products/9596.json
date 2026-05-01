@@ -12,25 +12,25 @@
     "Tipo memoria": "GDDR6",
     "Bus de memoria": "256-bit",
     "Factor de forma": "Full-Height/Half-Length (FH/HL)",
-    "Efectivo/Transferencia": "$2.263.390",
-    "Tarjeta crédito/débito": "$2.365.240"
+    "Efectivo/Transferencia": "$2.278.380",
+    "Tarjeta crédito/débito": "$2.380.900"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:37",
-  "updated_at": "2026-04-29 16:36:05",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 9596,
       "store_id": "spdigital",
-      "price": 2263390,
-      "price_normal": 2365240,
-      "discount_pct": 4,
+      "price": 2278380,
+      "price_normal": 2380900,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/turbo-ai-pro-r9700-32g",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$2.263.390",
-        "Webpay / Tarjeta": "$2.365.240"
+        "Transferencia / Efectivo": "$2.278.380",
+        "Webpay / Tarjeta": "$2.380.900"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -50,7 +50,13 @@
       "store_name": "SP Digital",
       "date": "2026-04-29",
       "price": 2263390
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-01",
+      "price": 2278380
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

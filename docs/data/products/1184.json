@@ -12,24 +12,24 @@
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
     "Marca": "KINGSTON",
-    "Efectivo/Transferencia": "$140.155",
-    "Webpay / Tarjeta": "$147.527"
+    "Efectivo/Transferencia": "$125.990",
+    "Webpay / Tarjeta": "$132.617"
   },
   "tags": [],
   "created_at": "2026-04-26 20:36:22",
-  "updated_at": "2026-04-29 03:41:08",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 1184,
       "store_id": "cg",
-      "price": 140155,
+      "price": 125990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/almacenamiento/disco-ssd-kingston-kc3000-512gb-m-2-nvme-pcie-7000-3900mb-s-3/",
+      "product_url": "https://centralgamer.cl/almacenamiento/disco-ssd-kingston-kc3000-512gb-m-2-nvme-pcie-7000-3900mb-s/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$140.155"
+        "Efectivo/Transferencia": "$125.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -61,7 +61,13 @@
       "store_name": "CentralGamer",
       "date": "2026-04-29",
       "price": 140155
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-05-01",
+      "price": 125990
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

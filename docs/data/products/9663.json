@@ -9,25 +9,25 @@
   "description": null,
   "specs": {
     "TDP": "300 W",
-    "Efectivo/Transferencia": "$110.720",
-    "Tarjeta crédito/débito": "$115.700"
+    "Efectivo/Transferencia": "$111.440",
+    "Tarjeta crédito/débito": "$116.460"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:15",
-  "updated_at": "2026-04-29 16:30:53",
+  "updated_at": "2026-05-01 00:29:15",
   "prices": [
     {
       "product_id": 9663,
       "store_id": "spdigital",
-      "price": 110720,
-      "price_normal": 115700,
+      "price": 111440,
+      "price_normal": 116460,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/kit-refrigeracion-liquida-nox-hummer-m-360-argb-negro",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$110.720",
-        "Webpay / Tarjeta": "$115.700"
+        "Transferencia / Efectivo": "$111.440",
+        "Webpay / Tarjeta": "$116.460"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -47,7 +47,13 @@
       "store_name": "SP Digital",
       "date": "2026-04-29",
       "price": 110720
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-01",
+      "price": 111440
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

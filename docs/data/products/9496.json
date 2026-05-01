@@ -13,25 +13,25 @@
     "Velocidad": "3200 MHz",
     "Latencia": "CL22",
     "Tipo de memoria": "DDR4",
-    "Efectivo/Transferencia": "$307.560",
-    "Tarjeta crédito/débito": "$321.400"
+    "Efectivo/Transferencia": "$267.300",
+    "Tarjeta crédito/débito": "$279.330"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:46",
-  "updated_at": "2026-04-29 16:36:05",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 9496,
       "store_id": "spdigital",
-      "price": 154600,
-      "price_normal": 161560,
+      "price": 134360,
+      "price_normal": 140410,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/adata-premier-series-ddr4-mã3dulo-8-gb-dimm-de-288-contactos-3200-mhz-pc4-25600-cl22",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$154.600",
-        "Webpay / Tarjeta": "$161.560"
+        "Transferencia / Efectivo": "$134.360",
+        "Webpay / Tarjeta": "$140.410"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -51,7 +51,13 @@
       "store_name": "SP Digital",
       "date": "2026-04-29",
       "price": 154600
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-01",
+      "price": 134360
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

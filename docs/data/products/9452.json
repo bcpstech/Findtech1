@@ -12,12 +12,12 @@
     "Memoria": "DDR5",
     "Factor de forma": "ATX",
     "Chipset": "AMD X870",
-    "Efectivo/Transferencia": "$448.010",
-    "Tarjeta crédito/débito": "$468.170"
+    "Efectivo/Transferencia": "$450.990",
+    "Tarjeta crédito/débito": "$471.290"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:22",
-  "updated_at": "2026-04-29 16:36:05",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 2642,
@@ -70,7 +70,13 @@
       "store_name": "SP Digital",
       "date": "2026-04-29",
       "price": 448010
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-01",
+      "price": 450990
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

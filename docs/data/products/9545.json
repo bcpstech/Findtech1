@@ -12,25 +12,25 @@
     "Interfaz": "PCI Express 4.0",
     "Factor de forma": "M.2 2280",
     "Lectura": "7200 MB/s",
-    "Efectivo/Transferencia": "$214.430",
-    "Tarjeta crédito/débito": "$224.080"
+    "Efectivo/Transferencia": "$175.600",
+    "Tarjeta crédito/débito": "$183.500"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:10",
-  "updated_at": "2026-04-29 16:36:05",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 9545,
       "store_id": "spdigital",
-      "price": 214430,
-      "price_normal": 224080,
+      "price": 175600,
+      "price_normal": 183500,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/crucial-t500-500gb-pcie-gen4-nvme-m2-ss",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$214.430",
-        "Webpay / Tarjeta": "$224.080"
+        "Transferencia / Efectivo": "$175.600",
+        "Webpay / Tarjeta": "$183.500"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -50,7 +50,13 @@
       "store_name": "SP Digital",
       "date": "2026-04-29",
       "price": 214430
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-01",
+      "price": 175600
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

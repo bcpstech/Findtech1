@@ -12,12 +12,12 @@
     "Interfaz": "PCI Express 3.0",
     "Factor de forma": "M.2 2280",
     "Lectura": "2400 MB/s",
-    "Efectivo/Transferencia": "$334.250",
-    "Tarjeta crédito/débito": "$349.290"
+    "Efectivo/Transferencia": "$310.980",
+    "Tarjeta crédito/débito": "$324.980"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:05",
-  "updated_at": "2026-04-29 16:36:05",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 9535,
@@ -50,7 +50,13 @@
       "store_name": "SP Digital",
       "date": "2026-04-29",
       "price": 169990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-01",
+      "price": 169990
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

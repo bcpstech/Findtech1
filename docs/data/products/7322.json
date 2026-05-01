@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 02:01:29",
-  "updated_at": "2026-04-29 16:25:16",
+  "updated_at": "2026-05-01 00:24:10",
   "prices": [
     {
       "product_id": 7322,
@@ -32,6 +32,26 @@
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 16642,
+      "store_id": "trulustore",
+      "price": 729990,
+      "price_normal": 766490,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/pc-gamer-amd-ryzen-5-8600g-cpu-cooler-white-radeon-760m-16gb-ddr5-6000mhz-ssd-nvme-500gb-gabinete-vista-white-6-ventiladores/",
+      "store_name": "TruluStore",
+      "khipu_price": 744590,
+      "price_specs": {
+        "Efectivo / Transferencia": "$729.990",
+        "Khipu": "$744.590",
+        "Tarjeta crédito/débito": "$766.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -46,7 +66,13 @@
       "store_name": "CentralGamer",
       "date": "2026-04-29",
       "price": 724990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-05-01",
+      "price": 724990
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

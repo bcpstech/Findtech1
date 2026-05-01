@@ -12,25 +12,25 @@
     "Interfaz": "PCI Express 3.0",
     "Factor de forma": "M.2 2280",
     "Lectura": "3500 MB/s",
-    "Efectivo/Transferencia": "$533.230",
-    "Tarjeta crédito/débito": "$557.220"
+    "Efectivo/Transferencia": "$436.670",
+    "Tarjeta crédito/débito": "$456.320"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:09",
-  "updated_at": "2026-04-29 16:36:05",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 9543,
       "store_id": "spdigital",
-      "price": 533230,
-      "price_normal": 557220,
+      "price": 436670,
+      "price_normal": 456320,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/crucial-p3-4000gb-3d-nand-nvme-pcie-m-2",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$533.230",
-        "Webpay / Tarjeta": "$557.220"
+        "Transferencia / Efectivo": "$436.670",
+        "Webpay / Tarjeta": "$456.320"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -50,7 +50,13 @@
       "store_name": "SP Digital",
       "date": "2026-04-29",
       "price": 533230
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-01",
+      "price": 436670
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }

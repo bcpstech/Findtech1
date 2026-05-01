@@ -10,24 +10,24 @@
   "specs": {
     "Capacidad": "480 GB",
     "Marca": "KINGSTON",
-    "Efectivo/Transferencia": "$353.852",
-    "Webpay / Tarjeta": "$372.465"
+    "Efectivo/Transferencia": "$356.102",
+    "Webpay / Tarjeta": "$374.833"
   },
   "tags": [],
   "created_at": "2026-04-26 20:36:22",
-  "updated_at": "2026-04-29 16:36:05",
+  "updated_at": "2026-05-01 00:35:39",
   "prices": [
     {
       "product_id": 1183,
       "store_id": "cg",
-      "price": 353852,
+      "price": 356102,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/almacenamiento/disco-duro-kingston-dc600m-480gb/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$353.852"
+        "Efectivo/Transferencia": "$356.102"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,7 +59,13 @@
       "store_name": "CentralGamer",
       "date": "2026-04-29",
       "price": 353852
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-05-01",
+      "price": 356102
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-01"
 }
