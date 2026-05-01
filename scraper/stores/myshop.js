@@ -151,6 +151,7 @@ class MyShopScraper extends BaseScraper {
               category: query.catId,
               brand,
               imageUrl,
+              partNumber: item.partno || null,   // Part Number para agrupar con otras tiendas
               specs: {
                 'Efectivo / Transferencia': `$${price.toLocaleString('es-CL')}`,
                 'Tarjeta crédito/débito':   `$${priceCard.toLocaleString('es-CL')}`,
