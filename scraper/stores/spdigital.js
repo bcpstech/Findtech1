@@ -297,6 +297,30 @@ class SPDigitalScraper extends BaseScraper {
       .replace(/Ã³/g, 'ó').replace(/Ãº/g, 'ú').replace(/Ã±/g, 'ñ')
       .replace(/Ã/g, 'Á').trim();
 
+    // Part Number desde metadata (para agrupar con otras tiendas)
+    let partNumber = null;
+    try {
+      const pnEntry = item.metadata?.find(m => m.key === 'icecat_data');
+      if (pnEntry) {
+        const ic = JSON.parse(pnEntry.value);
+        partNumber = ic?.ProductCode || ic?.PartNumber || ic?.Prod_id || null;
+      }
+      // Fallback: buscar en specs Icecat el campo "Código"
+      if (!partNumber) {
+        const specsEntry = item.metadata?.find(m => m.key === 'specs');
+        if (specsEntry) {
+          const sd = JSON.parse(specsEntry.value);
+          const pnRow = sd?.values?.find?.(r => /part.?number|ean|gtin|mpn/i.test(r[0]));
+          if (pnRow) partNumber = pnRow[1];
+        }
+      }
+      // Fallback: extraer EAN/GTIN del slug o del nombre
+      if (!partNumber && item.slug) {
+        const m = item.slug.match(/(\d{12,13})/);
+        if (m) partNumber = m[1];
+      }
+    } catch(e) {}
+
     this.stats.found++;
     await this.saveProductWithR2(
       {
@@ -304,6 +328,7 @@ class SPDigitalScraper extends BaseScraper {
         category: cat.catId,
         brand: this.extractBrand(name),
         imageUrl: item.thumbnail?.url || null,
+        partNumber,
         specs: {
           ...icecatSpecs,
           'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
