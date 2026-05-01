@@ -261,14 +261,39 @@ class SPDigitalScraper extends BaseScraper {
       }
     } catch(e) {}
 
+    // Fallback: leer precio desde priceRange (precio con descuento = undiscountedPrice vs price)
+    if (!price) {
+      try {
+        // En Saleor/Next.js: start.gross.amount = precio actual con descuento
+        const startAmt = item.pricing?.priceRange?.start?.gross?.amount;
+        if (startAmt && startAmt > 0) price = Math.round(startAmt);
+      } catch(e) {}
+    }
+
+    // Fallback: precio desde defaultVariant
+    if (!price) {
+      try {
+        const varPrice = item.defaultVariant?.pricing?.price?.gross?.amount;
+        if (varPrice && varPrice > 0) price = Math.round(varPrice);
+      } catch(e) {}
+    }
+
     if (!price || price < 1000) return;
     if (!priceCard) priceCard = Math.round(price * 1.045);
 
-    // Precio normal (antes de descuento) desde priceRange
+    // Precio normal (tachado, antes de descuento) desde undiscountedPrice
     try {
-      const grossAmt = item.pricing?.priceRange?.start?.gross?.amount;
-      if (grossAmt && Math.round(grossAmt) > price) {
-        priceNormal = Math.round(grossAmt);
+      // undiscountedPrice es el precio sin descuento en Saleor
+      const undiscounted = item.pricing?.priceRange?.start?.gross?.amount;
+      const discounted   = item.defaultVariant?.pricing?.price?.gross?.amount
+                        || item.defaultVariant?.pricing?.priceUndiscounted?.gross?.amount;
+
+      // Si hay undiscountedPrice mayor al precio actual → es el precio tachado
+      const undiscountedAmt = item.defaultVariant?.pricing?.priceUndiscounted?.gross?.amount;
+      if (undiscountedAmt && Math.round(undiscountedAmt) > price) {
+        priceNormal = Math.round(undiscountedAmt);
+      } else if (undiscounted && Math.round(undiscounted) > price) {
+        priceNormal = Math.round(undiscounted);
       }
     } catch(e) {}
 
@@ -297,30 +322,6 @@ class SPDigitalScraper extends BaseScraper {
       .replace(/Ã³/g, 'ó').replace(/Ãº/g, 'ú').replace(/Ã±/g, 'ñ')
       .replace(/Ã/g, 'Á').trim();
 
-    // Part Number desde metadata (para agrupar con otras tiendas)
-    let partNumber = null;
-    try {
-      const pnEntry = item.metadata?.find(m => m.key === 'icecat_data');
-      if (pnEntry) {
-        const ic = JSON.parse(pnEntry.value);
-        partNumber = ic?.ProductCode || ic?.PartNumber || ic?.Prod_id || null;
-      }
-      // Fallback: buscar en specs Icecat el campo "Código"
-      if (!partNumber) {
-        const specsEntry = item.metadata?.find(m => m.key === 'specs');
-        if (specsEntry) {
-          const sd = JSON.parse(specsEntry.value);
-          const pnRow = sd?.values?.find?.(r => /part.?number|ean|gtin|mpn/i.test(r[0]));
-          if (pnRow) partNumber = pnRow[1];
-        }
-      }
-      // Fallback: extraer EAN/GTIN del slug o del nombre
-      if (!partNumber && item.slug) {
-        const m = item.slug.match(/(\d{12,13})/);
-        if (m) partNumber = m[1];
-      }
-    } catch(e) {}
-
     this.stats.found++;
     await this.saveProductWithR2(
       {
@@ -328,7 +329,6 @@ class SPDigitalScraper extends BaseScraper {
         category: cat.catId,
         brand: this.extractBrand(name),
         imageUrl: item.thumbnail?.url || null,
-        partNumber,
         specs: {
           ...icecatSpecs,
           'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
