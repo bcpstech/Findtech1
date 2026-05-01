@@ -225,7 +225,6 @@ class TruluStoreScraper extends BaseScraper {
             ? Math.round((1 - price / priceNormal) * 100) : null;
 
           const khipu = Math.round(price * FACTOR_KHIPU);
-          const card  = Math.round(price * FACTOR_CARD);
 
           // Stock
           const stock = $el.find(SEL.outOfStock).length ? 'out_of_stock' : 'in_stock';
@@ -253,12 +252,11 @@ class TruluStoreScraper extends BaseScraper {
               specs: {
                 'Efectivo / Transferencia': `$${price.toLocaleString('es-CL')}`,
                 'Khipu':                   `$${khipu.toLocaleString('es-CL')}`,
-                'Tarjeta crédito/débito':  `$${card.toLocaleString('es-CL')}`,
               },
             },
             {
               current:  price,
-              normal:   card,    // precio tarjeta en price_normal
+              normal:   priceNormal && priceNormal > price ? priceNormal : null,
               discount,
               stock,
               url: productUrl,
@@ -314,7 +312,6 @@ class TruluStoreScraper extends BaseScraper {
       ? Math.round((1 - price / priceNormal) * 100) : null;
 
     const khipu = Math.round(price * FACTOR_KHIPU);
-    const card  = Math.round(price * FACTOR_CARD);
 
     // Stock
     const stockTxt = $('.stock').text().toLowerCase();
@@ -339,12 +336,11 @@ class TruluStoreScraper extends BaseScraper {
         specs: {
           'Efectivo / Transferencia': `$${price.toLocaleString('es-CL')}`,
           'Khipu':                   `$${khipu.toLocaleString('es-CL')}`,
-          'Tarjeta crédito/débito':  `$${card.toLocaleString('es-CL')}`,
         },
       },
       {
         current:  price,
-        normal:   card,
+        normal:   priceNormal && priceNormal > price ? priceNormal : null,
         discount,
         stock,
         url: fullUrl,
