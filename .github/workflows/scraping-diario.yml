@@ -29,6 +29,7 @@ on:
           - tytgamer
           - mybox
           - sandos
+          - infor-ingen
 
 permissions:
   contents: write
@@ -136,6 +137,10 @@ jobs:
       - name: Scrapear Sandos
         if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == 'sandos' }}
         run: node scraper/stores/sandos.js || echo "Sandos fallo, continuando..."
+
+      - name: Scrapear Infor-Ingen
+        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == 'infor-ingen' }}
+        run: node scraper/stores/infor-ingen.js || echo "Infor-Ingen fallo, continuando..."
 
       # ── Post-procesamiento ───────────────────────────────────────────────
 
