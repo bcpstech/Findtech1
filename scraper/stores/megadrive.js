@@ -6,7 +6,7 @@ require('dotenv').config();
 const BaseScraper = require('../base-scraper');
 const cheerio = require('cheerio');
 
-const BASE      = 'https://www.megadrive.cl';
+const BASE      = 'https://www.megadrivestore.cl';
 const PROXY_URL = process.env.CF_PROXY_URL    || '';
 const PROXY_KEY = process.env.CF_PROXY_SECRET || '';
 const FACTOR    = 1.03;
