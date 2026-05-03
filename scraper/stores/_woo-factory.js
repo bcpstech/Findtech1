@@ -84,20 +84,21 @@ function createWooScraper(storeId, storeName, baseApi, categories, opts = {}) {
             const name = p.name?.trim();
             if (!name || name.length < 4) continue;
 
-            // WC Store API devuelve precios en centavos — dividir por 100
+            // WC Store API v1 devuelve precios en centavos (minor units)
+            // currency_minor_unit indica los decimales: CLP = 0, por eso dividimos por 10^2
+            const minorUnit = p.prices?.currency_minor_unit ?? 2;
+            const divisor   = Math.pow(10, minorUnit);
             const rawPrice  = parseInt(p.prices?.price);
-            const priceCash = rawPrice > 100000 ? Math.round(rawPrice / 100) : rawPrice;
+            const priceCash = divisor > 1 ? Math.round(rawPrice / divisor) : rawPrice;
             if (!priceCash || priceCash < 1000) continue;
 
             // Precio tarjeta = efectivo × factor
             const priceCard = Math.round(priceCash * factor / 10) * 10;
 
-            // Precio normal (sin descuento) — también puede venir en centavos
+            // Precio normal (sin descuento)
             const rawRegular  = parseInt(p.prices?.regular_price);
-            const regularCash = rawRegular > 100000
-              ? Math.round(rawRegular / 100)
-              : rawRegular;
-            const priceNormal = regularCash > priceCash ? regularCash : null;
+            const priceNormal = rawRegular > rawPrice
+              ? Math.round(rawRegular / divisor) : null;
             const discount    = priceNormal
               ? Math.round((1 - priceCash / priceNormal) * 100) : null;
 
