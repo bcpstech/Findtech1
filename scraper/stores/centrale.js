@@ -77,11 +77,13 @@ class CentraleScraper extends BaseScraper {
           const name = p.name?.trim();
           if (!name || name.length < 4) continue;
 
-          const priceCash = Math.round(parseInt(p.prices?.price) / 100);
+          const minorUnit = p.prices?.currency_minor_unit ?? 2;
+          const divisor   = Math.pow(10, minorUnit);
+          const priceCash = Math.round(parseInt(p.prices?.price) / divisor);
           if (!priceCash || priceCash < 1000) continue;
 
           const priceCard   = Math.round(priceCash * FACTOR_CARD / 10) * 10;
-          const regularRaw  = Math.round(parseInt(p.prices?.regular_price) / 100);
+          const regularRaw  = Math.round(parseInt(p.prices?.regular_price) / divisor);
           const priceNormal = regularRaw > priceCash ? regularRaw : null;
           const discount    = priceNormal ? Math.round((1 - priceCash / priceNormal) * 100) : null;
 
