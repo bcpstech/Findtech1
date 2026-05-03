@@ -196,13 +196,13 @@ class CentralGamerScraper extends BaseScraper {
     // Filtro de publicación
     if (!shouldPublish(name, cat.catId)) return;
 
-    // Precio
-    const price = parsePrice(p.prices?.price);
-    if (!price) return;
+    // Precio — WC Store API devuelve en centavos, usar currency_minor_unit
+    const minorUnit = p.prices?.currency_minor_unit ?? 2;
+    const divisor   = Math.pow(10, minorUnit);
+    const price     = Math.round(parseInt(p.prices?.price) / divisor);
+    if (!price || price < 1000) return;
 
-    const priceNormalRaw = parsePrice(p.prices?.regular_price);
-    // price = efectivo/transferencia (precio con descuento)
-    // priceNormalRaw = precio sin descuento (tachado)
+    const priceNormalRaw = Math.round(parseInt(p.prices?.regular_price) / divisor);
     const priceNormal = priceNormalRaw && priceNormalRaw > price ? priceNormalRaw : null;
     const priceCard   = Math.round(price * CARD_FACTOR);
     const discount    = priceNormal
