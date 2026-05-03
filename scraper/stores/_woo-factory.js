@@ -85,17 +85,21 @@ function createWooScraper(storeId, storeName, baseApi, categories, opts = {}) {
             if (!name || name.length < 4) continue;
 
             // WC Store API devuelve precios en centavos — dividir por 100
-            const rawPrice = parseInt(p.prices?.price);
-            const priceCard = rawPrice > 10000 ? Math.round(rawPrice / 100) : rawPrice;
-            if (!priceCard || priceCard < 1000) continue;
+            const rawPrice  = parseInt(p.prices?.price);
+            const priceCash = rawPrice > 100000 ? Math.round(rawPrice / 100) : rawPrice;
+            if (!priceCash || priceCash < 1000) continue;
 
-            const priceCash   = Math.round(priceCard / factor / 10) * 10;
+            // Precio tarjeta = efectivo × factor
+            const priceCard = Math.round(priceCash * factor / 10) * 10;
+
+            // Precio normal (sin descuento) — también puede venir en centavos
             const rawRegular  = parseInt(p.prices?.regular_price);
-            const regularCard = rawRegular > 10000 ? Math.round(rawRegular / 100) : rawRegular;
-            const regularCash = regularCard > priceCard
-              ? Math.round(regularCard / factor / 10) * 10 : null;
-            const discount = regularCash
-              ? Math.round((1 - priceCash / regularCash) * 100) : null;
+            const regularCash = rawRegular > 100000
+              ? Math.round(rawRegular / 100)
+              : rawRegular;
+            const priceNormal = regularCash > priceCash ? regularCash : null;
+            const discount    = priceNormal
+              ? Math.round((1 - priceCash / priceNormal) * 100) : null;
 
             const stock = p.is_in_stock ? 'in_stock' : 'out_of_stock';
 
@@ -122,7 +126,7 @@ function createWooScraper(storeId, storeName, baseApi, categories, opts = {}) {
                   'Tarjeta crédito/débito':   `$${priceCard.toLocaleString('es-CL')}`,
                 },
               },
-              { current: priceCash, normal: regularCash, discount, stock, url: p.permalink || null }
+              { current: priceCash, normal: priceNormal, discount, stock, url: p.permalink || null }
             );
           } catch (err) {
             this.log('warn', `[${storeId}] item error: ${err.message}`);
