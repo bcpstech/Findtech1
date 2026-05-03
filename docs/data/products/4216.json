@@ -14,8 +14,26 @@
   },
   "tags": [],
   "created_at": "2026-04-27 22:14:32",
-  "updated_at": "2026-05-03 04:15:58",
+  "updated_at": "2026-05-03 21:55:58",
   "prices": [
+    {
+      "product_id": 2568,
+      "store_id": "megabytes",
+      "price": 61990,
+      "price_normal": 89990,
+      "discount_pct": 31,
+      "stock": "in_stock",
+      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/gabinete-cougar-duoface-rgb-negro/",
+      "store_name": "MegaBytes",
+      "price_specs": {
+        "Efectivo/Transferencia": "$61.990",
+        "Tarjeta crédito/débito": "$89.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.megabytes.cl",
+      "full_url": "https://www.megabytes.cl"
+    },
     {
       "product_id": 4216,
       "store_id": "cg",
@@ -32,6 +50,40 @@
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 1758,
+      "store_id": "centrale",
+      "price": 88750,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/gabinete-gamer-cougar-duoface-pro-rgb-black-extended-atx-4-vent-argb-incluidos/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$88.750"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9790,
+      "store_id": "spdigital",
+      "price": 89990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/gabinete-cougar-duoface-argb-white",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$89.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [

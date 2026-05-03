@@ -8,22 +8,26 @@
   "image_url": "https://images.findtech.cl/products/thermalright-fuente-poder-tr-sg-650s-80-gold-atx3-1.jpg",
   "description": null,
   "specs": {
-    "Transferencia/Efectivo": "$64.070",
-    "Webpay / Tarjeta crédito-débito": "$65.990"
+    "Efectivo / Transferencia": "$65.990",
+    "Tarjeta crédito/débito": "$67.970"
   },
   "tags": [],
   "created_at": "2026-04-26 20:51:17",
-  "updated_at": "2026-04-27 22:27:22",
+  "updated_at": "2026-05-03 22:37:14",
   "prices": [
     {
       "product_id": 2555,
       "store_id": "megabytes",
-      "price": 64070,
-      "price_normal": 70860,
+      "price": 65990,
+      "price_normal": 72990,
       "discount_pct": 10,
       "stock": "in_stock",
       "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/thermalright-fuente-poder-tr-sg-650s-80gold-atx3-1/",
       "store_name": "MegaBytes",
+      "price_specs": {
+        "Efectivo/Transferencia": "$65.990",
+        "Tarjeta crédito/débito": "$72.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.megabytes.cl",
@@ -42,7 +46,13 @@
       "store_name": "MegaBytes",
       "date": "2026-04-27",
       "price": 64070
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-05-03",
+      "price": 65990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

@@ -8,25 +8,25 @@
   "image_url": "https://images.findtech.cl/products/thermalright-fuente-poder-1000w-80-platinum-full-modular-atx-3-1-tr-sp1000.jpg",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$1.100",
-    "Tarjeta crédito/débito": "$1.129"
+    "Efectivo / Transferencia": "$112.900",
+    "Tarjeta crédito/débito": "$116.290"
   },
   "tags": [],
   "created_at": "2026-04-26 20:51:16",
-  "updated_at": "2026-05-01 14:29:09",
+  "updated_at": "2026-05-03 22:37:14",
   "prices": [
     {
       "product_id": 2553,
       "store_id": "megabytes",
-      "price": 1100,
-      "price_normal": 1300,
-      "discount_pct": 15,
+      "price": 112900,
+      "price_normal": 134400,
+      "discount_pct": 16,
       "stock": "in_stock",
       "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/thermalright-fuente-poder-1000w-80-platinum-full-modular-atx-3-1-tr-sp1000/",
       "store_name": "MegaBytes",
       "price_specs": {
-        "Efectivo/Transferencia": "$1.100",
-        "Tarjeta crédito/débito": "$1.300"
+        "Efectivo/Transferencia": "$112.900",
+        "Tarjeta crédito/débito": "$134.400"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -52,7 +52,13 @@
       "store_name": "MegaBytes",
       "date": "2026-05-01",
       "price": 1100
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-05-03",
+      "price": 112900
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

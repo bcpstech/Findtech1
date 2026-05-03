@@ -8,22 +8,26 @@
   "image_url": "https://images.findtech.cl/products/gabinete-sama-3307-black.png",
   "description": null,
   "specs": {
-    "Transferencia/Efectivo": "$33.970",
-    "Webpay / Tarjeta crédito-débito": "$34.990"
+    "Efectivo / Transferencia": "$34.990",
+    "Tarjeta crédito/débito": "$36.040"
   },
   "tags": [],
   "created_at": "2026-04-26 20:51:29",
-  "updated_at": "2026-04-27 22:27:35",
+  "updated_at": "2026-05-03 22:37:23",
   "prices": [
     {
       "product_id": 2575,
       "store_id": "megabytes",
-      "price": 33970,
-      "price_normal": 53390,
+      "price": 34990,
+      "price_normal": 54990,
       "discount_pct": 36,
       "stock": "in_stock",
       "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/gabinete-sama-3307-black/",
       "store_name": "MegaBytes",
+      "price_specs": {
+        "Efectivo/Transferencia": "$34.990",
+        "Tarjeta crédito/débito": "$54.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.megabytes.cl",
@@ -42,7 +46,13 @@
       "store_name": "MegaBytes",
       "date": "2026-04-27",
       "price": 33970
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-05-03",
+      "price": 34990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

@@ -8,22 +8,26 @@
   "image_url": "https://images.findtech.cl/products/thermalright-fuente-poder-750w-80-bronze-tr-tb750s.jpg",
   "description": null,
   "specs": {
-    "Transferencia/Efectivo": "$57.180",
-    "Webpay / Tarjeta crédito-débito": "$58.900"
+    "Efectivo / Transferencia": "$58.900",
+    "Tarjeta crédito/débito": "$60.670"
   },
   "tags": [],
   "created_at": "2026-04-26 20:51:19",
-  "updated_at": "2026-04-27 22:27:25",
+  "updated_at": "2026-05-03 22:37:16",
   "prices": [
     {
       "product_id": 2561,
       "store_id": "megabytes",
-      "price": 57180,
-      "price_normal": 85430,
+      "price": 58900,
+      "price_normal": 87990,
       "discount_pct": 33,
       "stock": "in_stock",
       "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/thermalright-fuente-poder-750w-80-bronze-tr-tb750s/",
       "store_name": "MegaBytes",
+      "price_specs": {
+        "Efectivo/Transferencia": "$58.900",
+        "Tarjeta crédito/débito": "$87.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.megabytes.cl",
@@ -42,7 +46,13 @@
       "store_name": "MegaBytes",
       "date": "2026-04-27",
       "price": 57180
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-05-03",
+      "price": 58900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

@@ -10,22 +10,26 @@
   "specs": {
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Transferencia/Efectivo": "$14.550",
-    "Webpay / Tarjeta crédito-débito": "$14.990"
+    "Efectivo / Transferencia": "$14.990",
+    "Tarjeta crédito/débito": "$15.440"
   },
   "tags": [],
   "created_at": "2026-04-26 20:51:04",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-03 22:40:02",
   "prices": [
     {
       "product_id": 2543,
       "store_id": "megabytes",
-      "price": 14550,
-      "price_normal": 19410,
+      "price": 14990,
+      "price_normal": 19990,
       "discount_pct": 25,
       "stock": "in_stock",
       "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/bequiet-mc1-cooler-ssd-m-2/",
       "store_name": "MegaBytes",
+      "price_specs": {
+        "Efectivo/Transferencia": "$14.990",
+        "Tarjeta crédito/débito": "$19.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.megabytes.cl",
@@ -44,7 +48,13 @@
       "store_name": "MegaBytes",
       "date": "2026-04-27",
       "price": 14550
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-05-03",
+      "price": 14990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }
