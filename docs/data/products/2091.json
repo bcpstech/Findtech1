@@ -12,26 +12,46 @@
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
     "Marca": "ADATA",
-    "Transferencia/Efectivo": "$96.980",
-    "Webpay / Tarjeta crédito-débito": "$99.890"
+    "Efectivo / Transferencia": "$99.890",
+    "Tarjeta crédito/débito": "$102.890"
   },
   "tags": [],
   "created_at": "2026-04-26 20:44:14",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-03 14:36:50",
   "prices": [
     {
       "product_id": 2091,
       "store_id": "dust2",
-      "price": 96980,
+      "price": 99890,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/disco-duro-ssd-adata-legend-860-500-gb-m-2-pcie-gen4-x4/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$99.890"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 9537,
+      "store_id": "spdigital",
+      "price": 149990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/unidad-ssd-adata-legend-860-500gb-m2-2280-pcie-gen4-x4-nvme-20-3d-nand",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$149.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -46,7 +66,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 96980
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 99890
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

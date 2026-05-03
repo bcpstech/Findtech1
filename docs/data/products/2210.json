@@ -12,30 +12,13 @@
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
     "Marca": "Kingston",
-    "Efectivo / Transferencia": "$1.200",
-    "Tarjeta crédito/débito": "$1.240"
+    "Efectivo / Transferencia": "$119.990",
+    "Tarjeta crédito/débito": "$123.590"
   },
   "tags": [],
   "created_at": "2026-04-26 20:45:43",
-  "updated_at": "2026-05-03 05:12:06",
+  "updated_at": "2026-05-03 14:36:50",
   "prices": [
-    {
-      "product_id": 2210,
-      "store_id": "dust2",
-      "price": 1200,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/ssd-kingston-nv3-m-2-2280-nvme-4-0-gen-4x4-ultra-fast-1tb/",
-      "store_name": "Dust2",
-      "price_specs": {
-        "Efectivo/Transferencia": "$1.200"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
     {
       "product_id": 1577,
       "store_id": "centrale",
@@ -52,6 +35,23 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2210,
+      "store_id": "dust2",
+      "price": 119990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/ssd-kingston-nv3-m-2-2280-nvme-4-0-gen-4x4-ultra-fast-1tb/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$119.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
@@ -77,7 +77,7 @@
       "store_id": "dust2",
       "store_name": "Dust2",
       "date": "2026-05-03",
-      "price": 1200
+      "price": 119990
     }
   ],
   "scraped_at": "2026-05-03"

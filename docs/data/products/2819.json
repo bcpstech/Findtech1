@@ -5,19 +5,21 @@
   "brand": "AMD",
   "name": "AMD RYZEN 5 5600XT 3.7GHz (4.7GHz TURBO) SIX CORE (TDP 65W) (AM4)",
   "slug": "amd-ryzen-5-5600xt-3-7ghz-4-7ghz-turbo-six-core-tdp-65w-am4",
-  "image_url": "https://www.alltec.cl/12155-large_default/amd-ryzen-5-5600xt-37ghz-47ghz-turbo-six-core-tdp-65w-am4.jpg",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-5-5600xt-3-7ghz-4-7ghz-turbo-six-core-tdp-65w-am4.jpg",
   "description": null,
   "specs": {
-    "Frecuencia base": "3.7 GHz",
-    "Frecuencia turbo": "4.7 GHz",
+    "Núcleos": "6",
+    "Hilos": "12",
+    "Frecuencia base": "4.7 GHz",
     "Socket": "AM4",
     "Generación": "AMD Zen 5 (4nm)",
-    "Efectivo/Transferencia": "$182.900",
-    "Tarjeta crédito/débito": "$188.387"
+    "Incluye cooler": "Sí (Wraith)",
+    "Efectivo/Transferencia": "$189.900",
+    "Tarjeta crédito/débito": "$195.597"
   },
   "tags": [],
   "created_at": "2026-04-27 00:32:05",
-  "updated_at": "2026-04-27 11:52:32",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 2819,
@@ -28,6 +30,9 @@
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2339-amd-ryzen-5-5600xt-37ghz-47ghz-turbo-six-core-tdp-65w-am4.html",
       "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$182.900"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
@@ -42,10 +47,31 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3781-amd-ryzen-5-5600xt-socket-am4-6-nucleos12-hilos-47ghz-incluye-wraith-cooler.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$189.900",
+        "Tarjeta crédito/débito": "$199.895"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 1930,
+      "store_id": "dust2",
+      "price": 191990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-5-5600xt-am4-zen3-6-nucleos-12-hilos/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$191.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
@@ -54,7 +80,13 @@
       "store_name": "Alltec",
       "date": "2026-04-27",
       "price": 182900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-05-03",
+      "price": 182900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

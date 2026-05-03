@@ -1,9 +1,16 @@
 {
   "last_update": "2026-05-03",
-  "generated_at": "2026-05-03T12:59:31.652Z",
+  "generated_at": "2026-05-03T14:36:52.453Z",
   "total_products": 1056,
   "total_stores": 18,
   "last_runs": [
+    {
+      "store_id": "dust2",
+      "status": "success",
+      "products_updated": 737,
+      "errors_count": 0,
+      "finished_at": "2026-05-03 14:36:50"
+    },
     {
       "store_id": "centrale",
       "status": "success",
@@ -136,13 +143,6 @@
       "products_updated": 0,
       "errors_count": 0,
       "finished_at": "2026-05-01 14:32:34"
-    },
-    {
-      "store_id": "mybox",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 0,
-      "finished_at": "2026-05-01 14:32:00"
     }
   ]
 }

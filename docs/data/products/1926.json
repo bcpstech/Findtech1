@@ -12,30 +12,13 @@
     "Frecuencia turbo": "5.3 GHz",
     "Socket": "LGA1700",
     "Marca": "Intel",
-    "Efectivo / Transferencia": "$2.750",
-    "Tarjeta crédito/débito": "$2.830"
+    "Efectivo / Transferencia": "$274.990",
+    "Tarjeta crédito/débito": "$283.240"
   },
   "tags": [],
   "created_at": "2026-04-26 20:42:04",
-  "updated_at": "2026-05-03 05:12:06",
+  "updated_at": "2026-05-03 14:36:50",
   "prices": [
-    {
-      "product_id": 1926,
-      "store_id": "dust2",
-      "price": 2750,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/procesador-intel-core-i5-14600kf-hasta-5-3ghz-lga1700/",
-      "store_name": "Dust2",
-      "price_specs": {
-        "Efectivo/Transferencia": "$2.750"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
     {
       "product_id": 306,
       "store_id": "centrale",
@@ -52,6 +35,23 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 1926,
+      "store_id": "dust2",
+      "price": 274990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/procesador-intel-core-i5-14600kf-hasta-5-3ghz-lga1700/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$274.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
@@ -77,7 +77,7 @@
       "store_id": "dust2",
       "store_name": "Dust2",
       "date": "2026-05-03",
-      "price": 2750
+      "price": 274990
     }
   ],
   "scraped_at": "2026-05-03"

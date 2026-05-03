@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:36:14",
-  "updated_at": "2026-04-29 03:41:08",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 1180,
@@ -35,6 +35,23 @@
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 2022,
+      "store_id": "dust2",
+      "price": 159490,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/memoria-ram-xpg-gammix-d35-16gb-3200mhz-ddr4-negro/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$159.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
@@ -61,7 +78,19 @@
       "store_name": "CentralGamer",
       "date": "2026-04-29",
       "price": 124990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-05-01",
+      "price": 124990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-05-03",
+      "price": 124990
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-05-03"
 }
