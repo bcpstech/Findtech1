@@ -8,16 +8,16 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-8GB-DDR4-3200MT-s-CL22-DIMM-Unbuffered-Non-ECC-1.2V_Mt1ohrT.webp",
   "description": null,
   "specs": {
-    "Capacidad": "8 GB",
+    "Capacidad": "32 GB",
     "Tipo": "DDR4",
     "Velocidad": "3200 MHz",
     "Latencia": "CL22",
-    "Transferencia / Efectivo": "$63.000",
-    "Tarjetas de Crédito / Débito": "$66.470"
+    "Transferencia / Efectivo": "$403.850",
+    "Tarjeta crédito/débito": "$426.060"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-03 12:59:30",
   "prices": [
     {
       "product_id": 1508,
@@ -28,6 +28,9 @@
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr4-3200mt-s-cl22-dimm-unbuffered-non-ecc-1-2v/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$63.000"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -46,7 +49,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 63000
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 63000
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

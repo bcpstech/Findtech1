@@ -9,11 +9,11 @@
   "description": null,
   "specs": {
     "Transferencia / Efectivo": "$99.710",
-    "Tarjetas de Crédito / Débito": "$105.190"
+    "Tarjeta crédito/débito": "$105.190"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:48",
-  "updated_at": "2026-04-27 22:15:12",
+  "updated_at": "2026-05-03 12:55:37",
   "prices": [
     {
       "product_id": 1651,
@@ -24,6 +24,9 @@
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disipador-cpu-arctic-freezer-4u-m-v2-sockets-sp6-str5-sp3-tr4-strx4-swrx8/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$99.710"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -42,7 +45,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 99710
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 99710
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

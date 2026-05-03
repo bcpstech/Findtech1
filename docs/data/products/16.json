@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 15:47:25",
-  "updated_at": "2026-05-01 13:20:38",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 16,
@@ -38,16 +38,33 @@
       "full_url": "https://www.n1g.cl"
     },
     {
+      "product_id": 314,
+      "store_id": "centrale",
+      "price": 543530,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-12700k-3-6-ghz-8-core-lga-1700/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$543.530"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
       "product_id": 1140,
       "store_id": "cg",
-      "price": 459709,
+      "price": 579682,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/procesadores/intel-core-i7-12700k-3-6-ghz-12-nucleos-20-hilos-25-mb-cache-lga1700-socket-caja-sin-refrigerante/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$459.709"
+        "Efectivo/Transferencia": "$579.682"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -79,7 +96,13 @@
       "store_name": "N1G",
       "date": "2026-05-01",
       "price": 354000
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-05-03",
+      "price": 354000
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

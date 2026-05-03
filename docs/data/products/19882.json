@@ -19,16 +19,33 @@
   "updated_at": "2026-05-03 04:28:54",
   "prices": [
     {
-      "product_id": 1719,
-      "store_id": "centrale",
-      "price": 1004,
+      "product_id": 2247,
+      "store_id": "dust2",
+      "price": 1300,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-850w-gigabyte-ud850gm-pg5-white-80-plus-full-modular/",
+      "product_url": "https://dust2.gg/producto/fuente-de-poder-modular-80-plus-gold-gp-ud850gm-pg5/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.300"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 1704,
+      "store_id": "centrale",
+      "price": 89970,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/fuente-de-poder-gigabyte-gp-ud750gm-pg5-750w-80-plus-gold-full-modular/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.004"
+        "Transferencia / Efectivo": "$89.970"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -54,13 +71,33 @@
       "full_url": "https://www.myshop.cl"
     },
     {
-      "product_id": 9735,
+      "product_id": 2661,
+      "store_id": "trulustore",
+      "price": 94990,
+      "price_normal": 109890,
+      "discount_pct": 14,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/fuente-de-poder-gigabyte-ud750gm-pg5-full-modular-80-gold-pcie-5-0-de-750w/",
+      "store_name": "TruluStore",
+      "khipu_price": 96890,
+      "price_specs": {
+        "Efectivo / Transferencia": "$94.990",
+        "Khipu": "$96.890",
+        "Tarjeta crédito/débito": "$109.890"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 9707,
       "store_id": "spdigital",
       "price": 149990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/fuente-de-poder-gigabyte-gp-ud850gm",
+      "product_url": "https://www.spdigital.cl/fuente-de-poder-gigabyte-750w-certificacion-bronce-conector-pg5-color-negro",
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$149.990"

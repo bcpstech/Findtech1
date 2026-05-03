@@ -5,18 +5,19 @@
   "brand": "AMD",
   "name": "AMD RYZEN 9 7950X 4.5GHz (5.7GHz TURBO) SIXTEEN CORE (TDP 170W) (AM5)",
   "slug": "amd-ryzen-9-7950x-4-5ghz-5-7ghz-turbo-sixteen-core-tdp-170w-am5",
-  "image_url": "https://www.alltec.cl/9977-large_default/amd-ryzen-9-7950x-45ghz-57ghz-turbo-sixteen-core-tdp-170w-am5.jpg",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-9-7950x-4-5ghz-5-7ghz-turbo-sixteen-core-tdp-170w-am5.jpg",
   "description": null,
   "specs": {
+    "Núcleos": "16",
+    "Hilos": "32",
     "Frecuencia base": "4.5 GHz",
-    "Frecuencia turbo": "5.7 GHz",
     "Socket": "AM5",
-    "Efectivo/Transferencia": "$625.900",
-    "Tarjeta crédito/débito": "$644.677"
+    "Transferencia / Efectivo": "$633.360",
+    "Tarjeta crédito/débito": "$668.190"
   },
   "tags": [],
   "created_at": "2026-04-27 00:32:17",
-  "updated_at": "2026-04-27 11:52:32",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 2824,
@@ -27,6 +28,9 @@
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/1883-amd-ryzen-9-7950x-45ghz-57ghz-turbo-sixteen-core-tdp-170w-am5-730143314534.html",
       "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$625.900"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
@@ -41,6 +45,9 @@
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-7950x-4-5ghz-16-nucleos-32-hilos-socket-am5/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$633.360"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -53,7 +60,13 @@
       "store_name": "Alltec",
       "date": "2026-04-27",
       "price": 625900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-05-03",
+      "price": 625900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

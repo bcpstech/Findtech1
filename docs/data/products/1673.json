@@ -9,11 +9,11 @@
   "description": null,
   "specs": {
     "Transferencia / Efectivo": "$31.900",
-    "Tarjetas de Crédito / Débito": "$33.650"
+    "Tarjeta crédito/débito": "$33.650"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:50",
-  "updated_at": "2026-04-27 22:15:13",
+  "updated_at": "2026-05-03 12:56:28",
   "prices": [
     {
       "product_id": 1673,
@@ -24,6 +24,9 @@
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/pack-5un-ventiladores-gabinete-140mm-arctic-p14-black-72-8-cfm-2-4mmh2o-3-pin/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$31.900"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -42,7 +45,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 31900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 31900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

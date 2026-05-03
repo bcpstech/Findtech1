@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 15:46:59",
-  "updated_at": "2026-05-01 00:35:39",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 9,
@@ -36,6 +36,23 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 326,
+      "store_id": "centrale",
+      "price": 618060,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900k-raptor-lake-s-lga1700-uhd-graphics/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$618.060"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -68,7 +85,13 @@
       "store_name": "N1G",
       "date": "2026-05-01",
       "price": 559000
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-05-03",
+      "price": 559000
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

@@ -9,11 +9,11 @@
   "description": null,
   "specs": {
     "Transferencia / Efectivo": "$67.490",
-    "Tarjetas de Crédito / Débito": "$71.200"
+    "Tarjeta crédito/débito": "$71.200"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:48",
-  "updated_at": "2026-04-27 22:15:12",
+  "updated_at": "2026-05-03 12:55:31",
   "prices": [
     {
       "product_id": 1648,
@@ -24,6 +24,9 @@
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disipador-cpu-coler-noctua-nh-u12s-redux-am5-lga-1700/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$67.490"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -42,7 +45,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 67490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 67490
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

@@ -9,40 +9,46 @@
   "description": null,
   "specs": {
     "Marca": "Cougar",
-    "Transferencia/Efectivo": "$56.300",
-    "Webpay / Tarjeta crédito-débito": "$57.990"
+    "Efectivo / Transferencia": "$57.990",
+    "Tarjeta crédito/débito": "$59.730"
   },
   "tags": [],
   "created_at": "2026-04-26 20:47:40",
-  "updated_at": "2026-04-27 22:24:12",
+  "updated_at": "2026-05-03 05:00:40",
   "prices": [
     {
       "product_id": 2351,
       "store_id": "dust2",
-      "price": 56300,
+      "price": 57990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-cougar-duoface-rgb-tg-mid-tower-blanco/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$57.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
     },
     {
-      "product_id": 2568,
-      "store_id": "megabytes",
-      "price": 60180,
-      "price_normal": 87370,
-      "discount_pct": 31,
+      "product_id": 9793,
+      "store_id": "spdigital",
+      "price": 59990,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/gabinete-cougar-duoface-rgb-negro/",
-      "store_name": "MegaBytes",
+      "product_url": "https://www.spdigital.cl/gabinete-cougar-mx360-rgb-black-1-ventilador-trasero",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$59.990"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.megabytes.cl",
-      "full_url": "https://www.megabytes.cl"
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -57,7 +63,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 56300
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 57990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

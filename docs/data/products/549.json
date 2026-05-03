@@ -8,17 +8,17 @@
   "image_url": "https://images.findtech.cl/products/amd-ryzen-9-9900x3d-12-core-4-4-ghz-zen-5-socket-am5-120w-100-100001368wof.jpg",
   "description": null,
   "specs": {
+    "Núcleos": "12",
+    "Hilos": "24",
     "Frecuencia base": "4.4 GHz",
-    "TDP": "120W",
     "Socket": "AM5",
     "Generación": "AMD Zen 5 (4nm)",
-    "Incluye cooler": "No",
-    "Efectivo/Transferencia": "$689.000",
-    "Tarjeta crédito/débito": "$709.670"
+    "Transferencia / Efectivo": "$698.110",
+    "Tarjeta crédito/débito": "$736.510"
   },
   "tags": [],
   "created_at": "2026-04-26 20:11:08",
-  "updated_at": "2026-05-01 13:20:38",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 549,
@@ -37,6 +37,40 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 3315,
+      "store_id": "alltec",
+      "price": 689900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/2375-amd-ryzen-9-9900x3d-44ghz55ghz-turbo-twelve-core-tdp-120w-am5.html",
+      "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$689.900"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 298,
+      "store_id": "centrale",
+      "price": 698110,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-9900x3d-12-cores-24tthreads-4-4ghz-am5-zen-5/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$698.110"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 1137,
@@ -86,7 +120,13 @@
       "store_name": "N1G",
       "date": "2026-05-01",
       "price": 689000
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-05-03",
+      "price": 689000
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

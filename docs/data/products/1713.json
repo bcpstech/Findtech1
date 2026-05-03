@@ -9,11 +9,11 @@
   "description": null,
   "specs": {
     "Transferencia / Efectivo": "$57.240",
-    "Tarjetas de Crédito / Débito": "$60.390"
+    "Tarjeta crédito/débito": "$60.390"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:52",
-  "updated_at": "2026-04-27 22:15:16",
+  "updated_at": "2026-05-03 12:57:53",
   "prices": [
     {
       "product_id": 1713,
@@ -24,10 +24,31 @@
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-poder-xpg-pylon-750w-80-plus-bronze-pylon750b-bkccl/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$57.240"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 810,
+      "store_id": "n1g",
+      "price": 67900,
+      "price_normal": 71474,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3555-xpg-pylon-pylon-750w-80plus-bronze-atx-750b-bkc.html",
+      "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$67.900",
+        "Tarjeta crédito/débito": "$71.474"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -42,7 +63,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 57240
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 57240
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

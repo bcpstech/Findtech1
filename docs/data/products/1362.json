@@ -11,22 +11,25 @@
     "Socket": "AM4",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR4",
-    "Transferencia / Efectivo": "$53.920",
-    "Tarjetas de Crédito / Débito": "$56.890"
+    "Transferencia / Efectivo": "$56.130",
+    "Tarjeta crédito/débito": "$59.220"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-03 12:59:30",
   "prices": [
     {
       "product_id": 1362,
       "store_id": "centrale",
-      "price": 53920,
+      "price": 56130,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-msi-a520m-a-pro-socket-amd-am4-ddr4/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$56.130"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -35,30 +38,36 @@
     {
       "product_id": 1164,
       "store_id": "cg",
-      "price": 60900,
+      "price": 64580,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/placas-madre/msi-a520m-a-pro-motherboard/",
       "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$64.580"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
     },
     {
-      "product_id": 956,
-      "store_id": "alltec",
-      "price": 67900,
+      "product_id": 9433,
+      "store_id": "spdigital",
+      "price": 149990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/para-amd/1677-mb-msi-a520m-a-pro-am4-ddr4-ryzen-5000.html",
-      "store_name": "Alltec",
+      "product_url": "https://www.spdigital.cl/placa-madre-msi-a520m-a-pro-am4-amd-a520-sata-6gbs-micro-atx",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$149.990"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -73,7 +82,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 53920
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 56130
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

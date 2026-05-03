@@ -9,11 +9,11 @@
   "description": null,
   "specs": {
     "Transferencia / Efectivo": "$85.900",
-    "Tarjetas de Crédito / Débito": "$90.620"
+    "Tarjeta crédito/débito": "$90.620"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:45",
-  "updated_at": "2026-04-27 22:15:09",
+  "updated_at": "2026-05-03 12:55:02",
   "prices": [
     {
       "product_id": 1640,
@@ -24,6 +24,9 @@
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-cpu-arctic-liquid-freezer-iii-240-argb-white-aio/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$85.900"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -42,7 +45,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 85900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 85900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

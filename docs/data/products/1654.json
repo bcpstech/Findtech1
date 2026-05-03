@@ -8,22 +8,25 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Ventilador-CPU-Disipador-Procesador-Thermalright-Phantom-Spirit-120-EVO_8YoePxT-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$63.910",
-    "Tarjetas de Crédito / Débito": "$67.430"
+    "Transferencia / Efectivo": "$61.900",
+    "Tarjeta crédito/débito": "$65.300"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:48",
-  "updated_at": "2026-04-27 22:15:12",
+  "updated_at": "2026-05-03 12:55:48",
   "prices": [
     {
       "product_id": 1654,
       "store_id": "centrale",
-      "price": 63910,
+      "price": 61900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disipador-cpu-ventilador-procesador-thermalright-phantom-spirit-120-evo/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$61.900"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -42,7 +45,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 63910
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 61900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

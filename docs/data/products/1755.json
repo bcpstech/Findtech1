@@ -9,11 +9,11 @@
   "description": null,
   "specs": {
     "Transferencia / Efectivo": "$83.260",
-    "Tarjetas de Crédito / Débito": "$87.840"
+    "Tarjeta crédito/débito": "$87.840"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-04-27 22:15:17",
+  "updated_at": "2026-05-03 12:59:15",
   "prices": [
     {
       "product_id": 1755,
@@ -24,6 +24,9 @@
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-gamer-asus-a31-black-atx-usb-c-compatible-con-placas-madre-btf/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$83.260"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -42,7 +45,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 83260
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 83260
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

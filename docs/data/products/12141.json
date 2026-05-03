@@ -19,13 +19,13 @@
   },
   "tags": [],
   "created_at": "2026-04-28 23:09:29",
-  "updated_at": "2026-05-01 13:20:38",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 12141,
       "store_id": "trulustore",
       "price": 849990,
-      "price_normal": 892490,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-rtx-5070-solid-oc-12gb/",
@@ -33,13 +33,29 @@
       "khipu_price": 866990,
       "price_specs": {
         "Efectivo / Transferencia": "$849.990",
-        "Khipu": "$866.990",
-        "Tarjeta crédito/débito": "$892.490"
+        "Khipu": "$866.990"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 1244,
+      "store_id": "centrale",
+      "price": 867830,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bit/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$867.830"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 9584,
@@ -77,7 +93,13 @@
       "store_name": "TruluStore",
       "date": "2026-05-01",
       "price": 849990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-05-03",
+      "price": 849990
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

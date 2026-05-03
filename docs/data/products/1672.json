@@ -9,11 +9,11 @@
   "description": null,
   "specs": {
     "Transferencia / Efectivo": "$11.900",
-    "Tarjetas de Crédito / Débito": "$12.550"
+    "Tarjeta crédito/débito": "$12.550"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:50",
-  "updated_at": "2026-04-27 22:15:13",
+  "updated_at": "2026-05-03 12:56:25",
   "prices": [
     {
       "product_id": 1672,
@@ -24,6 +24,9 @@
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ventilador-de-gabinete-140mm-arctic-p14-max-black-95cfm-4-18mm-h2o/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$11.900"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -42,7 +45,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 11900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 11900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

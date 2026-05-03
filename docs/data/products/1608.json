@@ -8,26 +8,46 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Msi-RefrigeraciC3B3n-LC3ADquida-Mag-Coreliquid-A13-240-Lga1851-Am5-120Mm-X2-1_VQyVq5K.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$66.060",
-    "Tarjetas de Crédito / Débito": "$69.690"
+    "Transferencia / Efectivo": "$68.770",
+    "Tarjeta crédito/débito": "$72.550"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:45",
-  "updated_at": "2026-04-27 22:15:09",
+  "updated_at": "2026-05-03 12:54:04",
   "prices": [
     {
       "product_id": 1608,
       "store_id": "centrale",
-      "price": 66060,
+      "price": 68770,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-msi-mag-coreliquid-a13-240mm-2-ventiladores-argb/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$68.770"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9624,
+      "store_id": "spdigital",
+      "price": 89990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/caja-abierta-danada-refrigeracion-liquida-msi-mag-coreliquid-a13-240-white-240mm-argb-compatib",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$89.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -42,7 +62,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 66060
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 68770
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

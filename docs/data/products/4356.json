@@ -11,22 +11,25 @@
     "Socket": "AM4",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR4",
-    "Transferencia / Efectivo": "$98.640",
-    "Tarjetas de Crédito / Débito": "$104.070"
+    "Efectivo/Transferencia": "$104.900",
+    "Tarjeta crédito/débito": "$108.047"
   },
   "tags": [],
   "created_at": "2026-04-27 22:15:01",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-03 12:59:30",
   "prices": [
     {
       "product_id": 4356,
       "store_id": "centrale",
-      "price": 98640,
+      "price": 99660,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-b550m-pro-vdh-micro-atx-am4-ddr4-nvme-4-0/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$99.660"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -41,6 +44,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3326-msi-b550m-pro-vdh-socket-am4-4xddr4-matx-ryzen-5000-bios.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$104.900",
+        "Tarjeta crédito/débito": "$110.421"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
@@ -53,7 +60,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 98640
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 99660
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

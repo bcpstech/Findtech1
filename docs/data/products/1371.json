@@ -11,11 +11,11 @@
     "Socket": "AM4",
     "Factor de forma": "Micro-ATX",
     "Transferencia / Efectivo": "$54.150",
-    "Tarjetas de Crédito / Débito": "$57.130"
+    "Tarjeta crédito/débito": "$57.130"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-03 12:59:30",
   "prices": [
     {
       "product_id": 1371,
@@ -26,10 +26,31 @@
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-a520m-k-v2-micro-atx-amd-am4-ryzen-5000/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$54.150"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 6006,
+      "store_id": "n1g",
+      "price": 68900,
+      "price_normal": 72526,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/2588-gigabyte-a520m-k-v2-socket-amd-am4-gbe-lan-pcie-30-x4-m2-fan-5.html",
+      "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$68.900",
+        "Tarjeta crédito/débito": "$72.526"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -44,7 +65,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 54150
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 54150
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

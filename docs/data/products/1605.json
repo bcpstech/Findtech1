@@ -8,26 +8,46 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Cooler-Master-Masterliquid-Core-Nex-360-Argb-MLX-D36M-A18PA-R1-1775869392.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$74.780",
-    "Tarjetas de Crédito / Débito": "$78.890"
+    "Transferencia / Efectivo": "$75.360",
+    "Tarjeta crédito/débito": "$79.500"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:45",
-  "updated_at": "2026-04-27 22:15:09",
+  "updated_at": "2026-05-03 12:53:58",
   "prices": [
     {
       "product_id": 1605,
       "store_id": "centrale",
-      "price": 74780,
+      "price": 75360,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/cooler-master-refrigeracion-liquida-masterliquid-360l-core-ii-argb-360mm/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$75.360"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9647,
+      "store_id": "spdigital",
+      "price": 119990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/refrigeracion-liquida-masterliquid-360l-core-nex-argb-360mm-intelamd-negro",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$119.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -42,7 +62,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 74780
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 75360
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

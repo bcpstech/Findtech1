@@ -8,22 +8,26 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-650W-XPG-Pylon-II-No-Modular-80-Bronze-PCIe-5.0.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$54.890",
-    "Tarjetas de Crédito / Débito": "$57.910"
+    "Transferencia / Efectivo": "$53.250",
+    "Tarjeta crédito/débito": "$56.180"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:52",
-  "updated_at": "2026-04-27 22:15:16",
+  "updated_at": "2026-05-03 12:57:41",
   "prices": [
     {
       "product_id": 1707,
       "store_id": "centrale",
-      "price": 54890,
+      "price": 53250,
       "price_normal": 62770,
-      "discount_pct": 13,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-650w-xpg-pylon-ii-no-modular-80-bronze-pcie-5-0/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$53.250",
+        "Tarjetas de Crédito / Débito": "$62.770"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -42,7 +46,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 54890
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 53250
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }
