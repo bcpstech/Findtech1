@@ -15,19 +15,20 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:06",
-  "updated_at": "2026-05-03 05:04:12",
+  "updated_at": "2026-05-03 14:51:11",
   "prices": [
     {
       "product_id": 1780,
       "store_id": "progaming",
       "price": 99990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price_normal": 114990,
+      "discount_pct": 13,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-cooler-master-masterliquid-240l-core-spectrum/",
       "store_name": "ProGaming",
       "price_specs": {
-        "Efectivo/Transferencia": "$99.990"
+        "Efectivo/Transferencia": "$99.990",
+        "Tarjeta crédito/débito": "$114.990"
       },
       "store_rating": 0,
       "review_count": 0,

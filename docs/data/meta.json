@@ -1,9 +1,16 @@
 {
   "last_update": "2026-05-03",
-  "generated_at": "2026-05-03T14:44:08.517Z",
+  "generated_at": "2026-05-03T14:51:30.517Z",
   "total_products": 1056,
   "total_stores": 18,
   "last_runs": [
+    {
+      "store_id": "progaming",
+      "status": "success",
+      "products_updated": 37,
+      "errors_count": 0,
+      "finished_at": "2026-05-03 14:51:28"
+    },
     {
       "store_id": "spdigital",
       "status": "success",
@@ -136,13 +143,6 @@
       "products_updated": 136,
       "errors_count": 0,
       "finished_at": "2026-05-03 04:16:08"
-    },
-    {
-      "store_id": "n1g",
-      "status": "success",
-      "products_updated": 512,
-      "errors_count": 0,
-      "finished_at": "2026-05-03 04:12:54"
     }
   ]
 }
