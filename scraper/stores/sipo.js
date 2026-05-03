@@ -1,11 +1,12 @@
 /**
  * scraper/stores/sipo.js
- * Sipo.cl — WooCommerce Store API (con proxy para evitar timeout)
+ * Sipo — WooCommerce Store API
+ * Dominio correcto: sipoonline.cl (no sipo.cl)
  */
 require('dotenv').config();
 const { createWooScraper } = require('./_woo-factory');
 
-const BASE_API  = 'https://sipo.cl/wp-json/wc/store/v1/products';
+const BASE_API  = 'https://sipoonline.cl/wp-json/wc/store/v1/products';
 const PROXY_URL = process.env.CF_PROXY_URL    || '';
 const PROXY_KEY = process.env.CF_PROXY_SECRET || '';
 
@@ -15,18 +16,14 @@ function proxify(url) {
 }
 
 const CATEGORIES = [
-  { slug: 'tarjetas-de-video',  catId: 'gpu'                    },
-  { slug: 'nvidia',             catId: 'gpu',     sub: 'nvidia' },
-  { slug: 'amd-radeon',         catId: 'gpu',     sub: 'amd'    },
-  { slug: 'procesadores',       catId: 'cpu'                    },
-  { slug: 'procesadores-amd',   catId: 'cpu',     sub: 'amd'    },
-  { slug: 'procesadores-intel', catId: 'cpu',     sub: 'intel'  },
-  { slug: 'placas-madre',       catId: 'mobo'                   },
-  { slug: 'memorias-ram',       catId: 'ram'                    },
-  { slug: 'almacenamiento',     catId: 'storage'                },
-  { slug: 'refrigeracion',      catId: 'cooling'                },
-  { slug: 'fuentes-de-poder',   catId: 'psu'                    },
-  { slug: 'gabinetes',          catId: 'case'                   },
+  { slug: 'procesadores',        catId: 'cpu'                    },
+  { slug: 'tarjetas-de-video',   catId: 'gpu'                    },
+  { slug: 'placas-madre',        catId: 'mobo'                   },
+  { slug: 'memorias-ram',        catId: 'ram'                    },
+  { slug: 'almacenamiento',      catId: 'storage'                },
+  { slug: 'refrigeracion',       catId: 'cooling'                },
+  { slug: 'fuentes-de-poder',    catId: 'psu'                    },
+  { slug: 'gabinetes',           catId: 'case'                   },
 ];
 
 const SipoScraper = createWooScraper('sipo', 'Sipo', BASE_API, CATEGORIES, { proxify });
