@@ -30,6 +30,7 @@ const ALL_SCRAPERS = [
   { id: 'tytgamer',    name: 'TYT Gamer',    Class: require('./stores/tytgamer')    },
   { id: 'mybox',       name: 'MyBox',        Class: require('./stores/mybox')       },
   { id: 'sandos',      name: 'Sandos',       Class: require('./stores/sandos')      },
+  { id: 'infor-ingen', name: 'Infor-Ingen',  Class: require('./stores/infor-ingen') },
 ];
 
 // ── Parsear argumentos CLI ────────────────────────────────────────────────
