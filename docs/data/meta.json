@@ -1,9 +1,16 @@
 {
   "last_update": "2026-05-03",
-  "generated_at": "2026-05-03T14:51:30.517Z",
+  "generated_at": "2026-05-03T15:31:50.935Z",
   "total_products": 1056,
   "total_stores": 18,
   "last_runs": [
+    {
+      "store_id": "pcexpress",
+      "status": "success",
+      "products_updated": 0,
+      "errors_count": 0,
+      "finished_at": "2026-05-03 15:31:49"
+    },
     {
       "store_id": "progaming",
       "status": "success",
@@ -136,13 +143,6 @@
       "products_updated": 438,
       "errors_count": 0,
       "finished_at": "2026-05-03 04:19:33"
-    },
-    {
-      "store_id": "cg",
-      "status": "success",
-      "products_updated": 136,
-      "errors_count": 0,
-      "finished_at": "2026-05-03 04:16:08"
     }
   ]
 }
