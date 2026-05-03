@@ -1,7 +1,7 @@
 /**
  * scraper/stores/winpy.js
  * Winpy.cl — plataforma propia, scraping HTML por categoría
- * Precio mostrado = transferencia. Tarjeta no especificada → usamos × 1.03
+ * URLs verificadas: /partes-y-piezas/tarjetas-graficas/ etc.
  */
 require('dotenv').config();
 const BaseScraper = require('../base-scraper');
@@ -17,12 +17,13 @@ function proxify(url) {
   return `${PROXY_URL}?url=${encodeURIComponent(url)}&secret=${PROXY_KEY}`;
 }
 
+// URLs verificadas en el sitio real
 const CATEGORIES = [
-  { url: '/partes-y-piezas/tarjetas-de-video/',  catId: 'gpu'     },
+  { url: '/partes-y-piezas/tarjetas-graficas/',  catId: 'gpu'     },
   { url: '/partes-y-piezas/procesadores/',        catId: 'cpu'     },
   { url: '/partes-y-piezas/placas-madres/',       catId: 'mobo'    },
   { url: '/partes-y-piezas/memorias-ram/',        catId: 'ram'     },
-  { url: '/partes-y-piezas/almacenamiento/',      catId: 'storage' },
+  { url: '/almacenamiento/',                      catId: 'storage' },
   { url: '/partes-y-piezas/refrigeracion/',       catId: 'cooling' },
   { url: '/partes-y-piezas/fuentes-de-poder/',    catId: 'psu'     },
   { url: '/partes-y-piezas/gabinetes/',           catId: 'case'    },
@@ -55,7 +56,7 @@ class WinpyScraper extends BaseScraper {
   }
 
   async scrapeCategory(cat) {
-    let page = 1;
+    let page  = 1;
     let total = 0;
 
     while (page <= 20) {
@@ -68,7 +69,7 @@ class WinpyScraper extends BaseScraper {
           headers: {
             Accept: 'text/html,application/xhtml+xml',
             'Accept-Language': 'es-CL,es;q=0.9',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36',
             Referer: BASE,
           },
           timeout: 25000,
@@ -79,29 +80,34 @@ class WinpyScraper extends BaseScraper {
         break;
       }
 
-      // Winpy usa .product-item o .card con links a /producto/
-      const items = $('.product-item, .product, [class*="producto"], article').filter((_, el) => {
-        return $(el).find('a[href*="/producto/"], a[href*="/partes"]').length > 0;
-      });
+      // Winpy usa una plataforma propia — buscar productos con precio
+      // Basado en inspección: usa .product-item o cards con precio
+      const items = $('.product-item, .product-card, [class*="product-"] a[href*="/producto/"]')
+        .closest('[class*="product"]');
 
-      if (!items.length) {
+      // Fallback: buscar cualquier elemento con precio y link a producto
+      const fallbackItems = items.length ? items : $('a[href*="/producto/"]').parent();
+
+      const allItems = items.length ? items : fallbackItems;
+
+      if (!allItems.length) {
         this.log('info', `[winpy] Sin productos pág ${page}`);
         break;
       }
 
       let newInPage = 0;
-      for (const el of items.toArray()) {
+      for (const el of allItems.toArray()) {
         try {
           const $el = $(el);
           let productUrl = $el.find('a[href*="/producto/"]').first().attr('href')
-                        || $el.find('a').first().attr('href') || '';
+                        || $el.is('a') ? $el.attr('href') : '';
           if (!productUrl) continue;
           if (!productUrl.startsWith('http')) productUrl = `${BASE}${productUrl}`;
           if (this.seenUrls.has(productUrl)) continue;
           this.seenUrls.add(productUrl);
 
-          const name = $el.find('[class*="name"],[class*="title"],h3,h2,h4').first().text().trim()
-                    || $el.find('a').first().attr('title') || '';
+          const name = $el.find('[class*="name"],[class*="title"],[class*="nombre"],h2,h3,h4').first().text().trim()
+                    || $el.find('a[href*="/producto/"]').first().attr('title') || '';
           if (!name || name.length < 4) continue;
 
           const priceRaw = $el.find('[class*="price"],[class*="precio"]').first().text().trim();
@@ -111,9 +117,7 @@ class WinpyScraper extends BaseScraper {
           const priceCard = Math.round(price * FACTOR);
 
           const txt = $el.text().toLowerCase();
-          const stock = OUT_OF_STOCK.some(p => txt.includes(p)) ||
-            $el.find('.out-of-stock,.no-stock').length
-            ? 'out_of_stock' : 'in_stock';
+          const stock = OUT_OF_STOCK.some(p => txt.includes(p)) ? 'out_of_stock' : 'in_stock';
 
           const imageUrl = $el.find('img').first().attr('data-src')
                         || $el.find('img').first().attr('src') || null;
@@ -141,7 +145,7 @@ class WinpyScraper extends BaseScraper {
 
       total += newInPage;
       this.log('info', `[winpy] ✓ ${cat.catId} pág ${page}: ${newInPage}`);
-      if (items.length < 6 || newInPage === 0) break;
+      if (allItems.length < 6 || newInPage === 0) break;
       page++;
       await this.delay(1500, 2500);
     }
