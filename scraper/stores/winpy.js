@@ -1,7 +1,9 @@
 /**
  * scraper/stores/winpy.js
- * Winpy.cl — plataforma propia, scraping HTML por categoría
- * URLs verificadas: /partes-y-piezas/tarjetas-graficas/ etc.
+ * Winpy.cl — plataforma propia
+ * URLs verificadas: /partes-y-piezas/tarjetas-graficas/
+ * Productos: /venta/nombre-producto/
+ * Paginación: ?paged=2
  */
 require('dotenv').config();
 const BaseScraper = require('../base-scraper');
@@ -60,7 +62,12 @@ class WinpyScraper extends BaseScraper {
     let total = 0;
 
     while (page <= 20) {
-      const pageUrl = proxify(`${BASE}${cat.url}?page=${page}`);
+      // Winpy usa ?paged=N para paginación
+      const pageUrl = proxify(
+        page === 1
+          ? `${BASE}${cat.url}`
+          : `${BASE}${cat.url}?paged=${page}`
+      );
       this.log('info', `[winpy] ${cat.catId} pág ${page}`);
 
       let $;
@@ -80,15 +87,10 @@ class WinpyScraper extends BaseScraper {
         break;
       }
 
-      // Winpy usa una plataforma propia — buscar productos con precio
-      // Basado en inspección: usa .product-item o cards con precio
-      const items = $('.product-item, .product-card, [class*="product-"] a[href*="/producto/"]')
-        .closest('[class*="product"]');
-
-      // Fallback: buscar cualquier elemento con precio y link a producto
-      const fallbackItems = items.length ? items : $('a[href*="/producto/"]').parent();
-
-      const allItems = items.length ? items : fallbackItems;
+      // Winpy muestra productos en cards con link a /venta/
+      const items = $('a[href*="/venta/"]').closest('li, article, .product, [class*="product"]');
+      const fallback = items.length ? items : $('a[href*="/venta/"]').parent();
+      const allItems = items.length ? items : fallback;
 
       if (!allItems.length) {
         this.log('info', `[winpy] Sin productos pág ${page}`);
@@ -99,15 +101,15 @@ class WinpyScraper extends BaseScraper {
       for (const el of allItems.toArray()) {
         try {
           const $el = $(el);
-          let productUrl = $el.find('a[href*="/producto/"]').first().attr('href')
-                        || $el.is('a') ? $el.attr('href') : '';
+          let productUrl = $el.find('a[href*="/venta/"]').first().attr('href')
+                        || ($el.is('a') ? $el.attr('href') : '');
           if (!productUrl) continue;
           if (!productUrl.startsWith('http')) productUrl = `${BASE}${productUrl}`;
           if (this.seenUrls.has(productUrl)) continue;
           this.seenUrls.add(productUrl);
 
-          const name = $el.find('[class*="name"],[class*="title"],[class*="nombre"],h2,h3,h4').first().text().trim()
-                    || $el.find('a[href*="/producto/"]').first().attr('title') || '';
+          const name = $el.find('[class*="title"],[class*="name"],h2,h3,h4').first().text().trim()
+                    || $el.find('a[href*="/venta/"]').first().attr('title') || '';
           if (!name || name.length < 4) continue;
 
           const priceRaw = $el.find('[class*="price"],[class*="precio"]').first().text().trim();
@@ -145,7 +147,10 @@ class WinpyScraper extends BaseScraper {
 
       total += newInPage;
       this.log('info', `[winpy] ✓ ${cat.catId} pág ${page}: ${newInPage}`);
-      if (allItems.length < 6 || newInPage === 0) break;
+
+      // Verificar si hay siguiente página
+      const hasNext = $('a.next, a[href*="paged"]').length > 0;
+      if (!hasNext || newInPage === 0) break;
       page++;
       await this.delay(1500, 2500);
     }
