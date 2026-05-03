@@ -18,19 +18,19 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:42:53",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 1983,
       "store_id": "dust2",
-      "price": 1480,
+      "price": 1520,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/memoria-ram-adata-xpg-spectrix-d35g-rbg-ddr4-3200-16gb/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$1.480"
+        "Efectivo/Transferencia": "$1.520"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -73,7 +73,13 @@
       "store_name": "Dust2",
       "date": "2026-05-01",
       "price": 1480
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 1520
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

@@ -24,19 +24,19 @@
   },
   "tags": [],
   "created_at": "2026-05-01 00:27:15",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 1924,
       "store_id": "dust2",
-      "price": 6970,
+      "price": 7180,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/procesador-intel-core-i9-14900-hasta-5-8ghz-lga1700/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$6.970"
+        "Efectivo/Transferencia": "$7.180"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -44,22 +44,21 @@
       "full_url": "https://www.dust2.gg"
     },
     {
-      "product_id": 16792,
-      "store_id": "myshop",
-      "price": 709990,
-      "price_normal": 749039,
+      "product_id": 329,
+      "store_id": "centrale",
+      "price": 7400,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/cpu-intel-socket-lga-1700-core-i9-14900-20ghz-24-core-bx8071514900-p39666",
-      "store_name": "MyShop",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900-24-core-3-2-5-8ghz-lga1700-36mb-cache/",
+      "store_name": "Centrale",
       "price_specs": {
-        "Efectivo/Transferencia": "$709.990",
-        "Tarjeta crédito/débito": "$749.039"
+        "Transferencia / Efectivo": "$7.400"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.myshop.cl",
-      "full_url": "https://www.myshop.cl"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 7,
@@ -103,7 +102,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-01",
       "price": 899990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-03",
+      "price": 899990
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

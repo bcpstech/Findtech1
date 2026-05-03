@@ -9,41 +9,30 @@
   "description": null,
   "specs": {
     "Marca": "XPG",
-    "Modelo": "Levante II 240 ARGB - White LEVANTEII240-WHCWW",
-    "Transferencia/Efectivo": "$73.290",
-    "Webpay / Tarjeta crédito-débito": "$75.490"
+    "Modelo": "Levante II 240 ARGB - Negro LEVANTEII240-BKCWW",
+    "Efectivo / Transferencia": "$83.790",
+    "Tarjeta crédito/débito": "$86.300"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:04",
-  "updated_at": "2026-04-27 22:17:29",
+  "updated_at": "2026-05-03 05:04:10",
   "prices": [
     {
       "product_id": 1775,
       "store_id": "progaming",
-      "price": 73290,
+      "price": 75490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-xpg-levante-ii-240-argb-blanco/",
       "store_name": "ProGaming",
+      "price_specs": {
+        "Efectivo/Transferencia": "$75.490"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.progaming.cl",
       "full_url": "https://www.progaming.cl"
-    },
-    {
-      "product_id": 1619,
-      "store_id": "centrale",
-      "price": 74520,
-      "price_normal": 90780,
-      "discount_pct": 18,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/refrigeracion-xpg-levante-ii-240-argb-blanco-2x120mm/",
-      "store_name": "Centrale",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -58,7 +47,13 @@
       "store_name": "ProGaming",
       "date": "2026-04-27",
       "price": 73290
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-05-03",
+      "price": 75490
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

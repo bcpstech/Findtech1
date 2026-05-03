@@ -11,24 +11,24 @@
     "Tipo": "DDR5",
     "Iluminación": "RGB",
     "Marca": "Kingston",
-    "Efectivo / Transferencia": "$2.360",
-    "Tarjeta crédito/débito": "$2.430"
+    "Efectivo / Transferencia": "$2.430",
+    "Tarjeta crédito/débito": "$2.500"
   },
   "tags": [],
   "created_at": "2026-04-26 20:42:50",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 1979,
       "store_id": "dust2",
-      "price": 2360,
+      "price": 2430,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/memoria-ram-kingston-fury-renegade-ddr5-rgb-16g-7200mts/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$2.360"
+        "Efectivo/Transferencia": "$2.430"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -54,7 +54,13 @@
       "store_name": "Dust2",
       "date": "2026-05-01",
       "price": 2360
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 2430
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

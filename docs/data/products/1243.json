@@ -11,24 +11,25 @@
     "VRAM": "8 GB",
     "Tipo memoria": "GDDR7",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$5.754",
-    "Tarjeta crédito/débito": "$6.070"
+    "Transferencia / Efectivo": "$5.445",
+    "Tarjeta crédito/débito": "$5.740"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 1243,
       "store_id": "centrale",
-      "price": 5754,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 5445,
+      "price_normal": 6141,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-de-video-msi-geforce-rtx-5060-ti-gaming-trio-oc-de-8gb-gddr7/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$5.754"
+        "Transferencia / Efectivo": "$5.445",
+        "Tarjetas de Crédito / Débito": "$6.141"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -54,7 +55,13 @@
       "store_name": "Centrale",
       "date": "2026-05-01",
       "price": 5754
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 5445
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

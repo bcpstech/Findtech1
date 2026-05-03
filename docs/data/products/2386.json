@@ -9,22 +9,25 @@
   "description": null,
   "specs": {
     "Marca": "Cooler Master",
-    "Transferencia/Efectivo": "$65.040",
-    "Webpay / Tarjeta crédito-débito": "$66.990"
+    "Efectivo / Transferencia": "$48.990",
+    "Tarjeta crédito/débito": "$50.460"
   },
   "tags": [],
   "created_at": "2026-04-26 20:48:06",
-  "updated_at": "2026-04-27 22:24:33",
+  "updated_at": "2026-05-03 05:01:05",
   "prices": [
     {
       "product_id": 2386,
       "store_id": "dust2",
-      "price": 65040,
+      "price": 48990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-cooler-master-elite-302-argb-blanco/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$48.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
@@ -43,7 +46,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 65040
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 48990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

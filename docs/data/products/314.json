@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 16:25:41",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 314,
@@ -57,14 +57,14 @@
     {
       "product_id": 1140,
       "store_id": "cg",
-      "price": 459709,
+      "price": 579682,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/procesadores/intel-core-i7-12700k-3-6-ghz-12-nucleos-20-hilos-25-mb-cache-lga1700-socket-caja-sin-refrigerante/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$459.709"
+        "Efectivo/Transferencia": "$579.682"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -90,7 +90,13 @@
       "store_name": "Centrale",
       "date": "2026-05-01",
       "price": 5435
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 5435
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

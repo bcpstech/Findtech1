@@ -9,22 +9,25 @@
   "description": null,
   "specs": {
     "Marca": "ESGAMING",
-    "Transferencia/Efectivo": "$66.010",
-    "Webpay / Tarjeta crédito-débito": "$67.990"
+    "Efectivo / Transferencia": "$67.990",
+    "Tarjeta crédito/débito": "$70.030"
   },
   "tags": [],
   "created_at": "2026-04-26 20:47:43",
-  "updated_at": "2026-04-27 22:24:13",
+  "updated_at": "2026-05-03 05:00:43",
   "prices": [
     {
       "product_id": 2354,
       "store_id": "dust2",
-      "price": 66010,
+      "price": 67990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-gamer-esgaming-viper-negro-micro-atx/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$67.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
@@ -43,7 +46,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 66010
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 67990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

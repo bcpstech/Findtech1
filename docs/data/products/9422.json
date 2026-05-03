@@ -17,12 +17,12 @@
     "Frecuencia turbo": "4,9 GHz",
     "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
     "Gráficos integrados": "Intel UHD Graphics 770",
-    "Efectivo/Transferencia": "$415.710",
-    "Tarjeta crédito/débito": "$434.420"
+    "Efectivo/Transferencia": "$470.300",
+    "Tarjeta crédito/débito": "$491.460"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:04",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 322,
@@ -42,34 +42,16 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 16777,
-      "store_id": "myshop",
-      "price": 335990,
-      "price_normal": 354469,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/cpu-s1700-intel-core-i7-12700-21-ghz-12-nucleos-20-hilos-25-mb-cache-p18658",
-      "store_name": "MyShop",
-      "price_specs": {
-        "Efectivo/Transferencia": "$335.990",
-        "Tarjeta crédito/débito": "$354.469"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.myshop.cl",
-      "full_url": "https://www.myshop.cl"
-    },
-    {
       "product_id": 9422,
       "store_id": "spdigital",
-      "price": 415710,
+      "price": 470300,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/core-i7-12700-210ghz-sktlga1700-2500mb",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$415.710"
+        "Transferencia / Efectivo": "$470.300"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -79,14 +61,14 @@
     {
       "product_id": 1141,
       "store_id": "cg",
-      "price": 425871,
+      "price": 507833,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/procesadores/intel-core-i7-12700-2-1-ghz-12-nucleos-20-hilos-25-mb-cache-lga1700-socket-caja/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$425.871"
+        "Efectivo/Transferencia": "$507.833"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -112,7 +94,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-01",
       "price": 415710
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-03",
+      "price": 470300
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

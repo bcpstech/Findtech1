@@ -1,42 +1,57 @@
 {
   "id": 1060,
-  "external_id": "centrale_disco-duro-seagate-skyhawk-1tb-3-5-8243-sata-6gb-s-para-videovigilancia",
-  "category_id": "storage",
-  "brand": "Seagate",
-  "name": "Disco Duro Seagate SkyHawk 1TB, 3.5&#8243;, SATA 6Gb/s, para Videovigilancia",
-  "slug": "disco-duro-seagate-skyhawk-1tb-3-5-8243-sata-6gb-s-para-videovigilancia",
-  "image_url": "https://centrale.cl/wp-content/uploads/Seagate-Skyhawk-Disco-Duro-1-Tb-Interno-3.5-Sata-6Gb-S-BC3BAfer-256-Mb-1.webp",
+  "external_id": "alltec_cpu-cooler-xigmatek-air-killer-s-arctic",
+  "category_id": "cooling",
+  "brand": "Arctic",
+  "name": "CPU COOLER XIGMATEK AIR-KILLER S ARCTIC",
+  "slug": "cpu-cooler-xigmatek-air-killer-s-arctic",
+  "image_url": "https://images.findtech.cl/products/cpu-cooler-xigmatek-air-killer-s-arctic.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$99.860",
-    "Tarjetas de Crédito / Débito": "$105.350"
+    "Efectivo / Transferencia": "$33.900",
+    "Tarjeta crédito/débito": "$34.917"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:21",
-  "updated_at": "2026-04-25 20:57:21",
+  "created_at": "2026-04-26 20:31:54",
+  "updated_at": "2026-05-03 04:34:30",
   "prices": [
     {
       "product_id": 1060,
-      "store_id": "centrale",
-      "price": 99860,
+      "store_id": "alltec",
+      "price": 33900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-duro-seagate-skyhawk-1tb-3-5-sata-6gb-s-para-videovigilancia/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/cpu-cooler/2297-cpu-cooler-xigmatek-air-killer-s-arctic.html",
+      "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$33.900"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 99860
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 33900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 33900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-05-03",
+      "price": 33900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-05-03"
 }

@@ -11,24 +11,24 @@
     "Capacidad": "8 GB",
     "Latencia": "CL30",
     "Marca": "Kingston",
-    "Efectivo / Transferencia": "$1.640",
-    "Tarjeta crédito/débito": "$1.690"
+    "Efectivo / Transferencia": "$1.690",
+    "Tarjeta crédito/débito": "$1.740"
   },
   "tags": [],
   "created_at": "2026-04-26 20:42:52",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 1981,
       "store_id": "dust2",
-      "price": 1640,
+      "price": 1690,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/memoria-ram-kingston-fury-beast-black-expo-8gb-6000mts-cl30/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$1.640"
+        "Efectivo/Transferencia": "$1.690"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -54,7 +54,13 @@
       "store_name": "Dust2",
       "date": "2026-05-01",
       "price": 1640
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 1690
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

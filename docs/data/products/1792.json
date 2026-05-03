@@ -9,27 +9,47 @@
   "description": null,
   "specs": {
     "Marca": "Cougar",
-    "Modelo": "Forza 50 ARGB",
-    "Transferencia/Efectivo": "$42.220",
-    "Webpay / Tarjeta crédito-débito": "$43.490"
+    "Modelo": "Forza 85 ARGB",
+    "Efectivo / Transferencia": "$61.990",
+    "Tarjeta crédito/débito": "$63.850"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:11",
-  "updated_at": "2026-04-27 22:17:36",
+  "updated_at": "2026-05-03 05:04:16",
   "prices": [
     {
       "product_id": 1792,
       "store_id": "progaming",
-      "price": 42220,
+      "price": 43490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/disipador-de-aire-cougar-forza-50-argb/",
       "store_name": "ProGaming",
+      "price_specs": {
+        "Efectivo/Transferencia": "$43.490"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.progaming.cl",
       "full_url": "https://www.progaming.cl"
+    },
+    {
+      "product_id": 9606,
+      "store_id": "spdigital",
+      "price": 49990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/refrigeracion-cougar-forza-50-essential",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$49.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -44,7 +64,13 @@
       "store_name": "ProGaming",
       "date": "2026-04-27",
       "price": 42220
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-05-03",
+      "price": 43490
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

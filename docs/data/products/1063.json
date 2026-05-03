@@ -8,12 +8,12 @@
   "image_url": "https://images.findtech.cl/products/alseye-warriors-w90-amd-tdp-145w.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$33.900",
+    "Efectivo / Transferencia": "$33.900",
     "Tarjeta crédito/débito": "$34.917"
   },
   "tags": [],
   "created_at": "2026-04-26 20:31:58",
-  "updated_at": "2026-04-27 22:09:46",
+  "updated_at": "2026-05-03 04:34:31",
   "prices": [
     {
       "product_id": 1063,
@@ -24,6 +24,9 @@
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/cpu-cooler/2276-alseye-warriors-w90-amd-tdp-145w.html",
       "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$33.900"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
@@ -42,7 +45,13 @@
       "store_name": "Alltec",
       "date": "2026-04-27",
       "price": 33900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-05-03",
+      "price": 33900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

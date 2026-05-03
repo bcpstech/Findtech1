@@ -9,22 +9,26 @@
   "description": null,
   "specs": {
     "Marca": "Exodia",
-    "Transferencia/Efectivo": "$32.030",
-    "Webpay / Tarjeta crédito-débito": "$32.990"
+    "Efectivo / Transferencia": "$32.990",
+    "Tarjeta crédito/débito": "$33.980"
   },
   "tags": [],
   "created_at": "2026-04-26 20:47:55",
-  "updated_at": "2026-04-27 22:24:23",
+  "updated_at": "2026-05-03 05:00:54",
   "prices": [
     {
       "product_id": 2371,
       "store_id": "dust2",
-      "price": 32030,
-      "price_normal": 38830,
+      "price": 32990,
+      "price_normal": 39990,
       "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-exodia-prisma-200-blanco-matx-3fans-argb-v-templado/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$32.990",
+        "Tarjeta crédito/débito": "$39.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
@@ -43,7 +47,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 32030
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 32990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

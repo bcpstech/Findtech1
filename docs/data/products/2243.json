@@ -9,24 +9,24 @@
   "description": null,
   "specs": {
     "Marca": "Gigabyte",
-    "Efectivo / Transferencia": "$1.550",
-    "Tarjeta crédito/débito": "$1.600"
+    "Efectivo / Transferencia": "$1.600",
+    "Tarjeta crédito/débito": "$1.650"
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:15",
-  "updated_at": "2026-05-01 14:26:38",
+  "updated_at": "2026-05-03 04:59:16",
   "prices": [
     {
       "product_id": 2243,
       "store_id": "dust2",
-      "price": 1550,
+      "price": 1600,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-gigabyte-aorus-ae1000pm-pg5-80plus-platinum/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$1.550"
+        "Efectivo/Transferencia": "$1.600"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -69,7 +69,13 @@
       "store_name": "Dust2",
       "date": "2026-05-01",
       "price": 1550
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 1600
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

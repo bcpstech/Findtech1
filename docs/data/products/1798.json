@@ -10,26 +10,48 @@
   "specs": {
     "Marca": "Redragon",
     "Modelo": "CCW-1019",
-    "Transferencia/Efectivo": "$58.240",
-    "Webpay / Tarjeta crédito-débito": "$59.990"
+    "Efectivo / Transferencia": "$59.990",
+    "Tarjeta crédito/débito": "$61.790"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:14",
-  "updated_at": "2026-04-27 22:17:39",
+  "updated_at": "2026-05-03 05:04:18",
   "prices": [
     {
       "product_id": 1798,
       "store_id": "progaming",
-      "price": 58240,
+      "price": 59990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-redragon-ccw-1019-240mm-argb/",
       "store_name": "ProGaming",
+      "price_specs": {
+        "Efectivo/Transferencia": "$59.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.progaming.cl",
       "full_url": "https://www.progaming.cl"
+    },
+    {
+      "product_id": 16682,
+      "store_id": "trulustore",
+      "price": 64990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/refrigeracion-liquida-redragon-ccw-1019-argb-240mm-pantalla-digital-temperatura-intel-amd/",
+      "store_name": "TruluStore",
+      "khipu_price": 66290,
+      "price_specs": {
+        "Efectivo / Transferencia": "$64.990",
+        "Khipu": "$66.290"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -44,7 +66,13 @@
       "store_name": "ProGaming",
       "date": "2026-04-27",
       "price": 58240
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-05-03",
+      "price": 59990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

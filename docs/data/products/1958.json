@@ -10,24 +10,24 @@
   "specs": {
     "Frecuencia base": "4.2 GHz",
     "Marca": "Intel",
-    "Efectivo / Transferencia": "$2.280",
-    "Tarjeta crédito/débito": "$2.350"
+    "Efectivo / Transferencia": "$2.350",
+    "Tarjeta crédito/débito": "$2.420"
   },
   "tags": [],
   "created_at": "2026-04-26 20:42:27",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 1958,
       "store_id": "dust2",
-      "price": 2280,
+      "price": 2350,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/procesador-intel-core-ultra-5-245kf-14-cores-4-2ghz/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$2.280"
+        "Efectivo/Transferencia": "$2.350"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -53,7 +53,13 @@
       "store_name": "Dust2",
       "date": "2026-05-01",
       "price": 2280
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 2350
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 1532,
@@ -35,6 +35,57 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2187,
+      "store_id": "dust2",
+      "price": 81990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/disco-solido-ssd-adata-sata-su650-480gb/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$81.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 9538,
+      "store_id": "spdigital",
+      "price": 84650,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/ssd-ultimate-su650-sata-iii-256gb-520",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$84.650"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 23589,
+      "store_id": "alltec",
+      "price": 89000,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/ssd/2407-480gb-ssd-sata-6gbs-adata-su650-3d-asu650ss-480gt-r.html",
+      "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$89.000"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -55,7 +106,13 @@
       "store_name": "Centrale",
       "date": "2026-05-01",
       "price": 1137
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 1137
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

@@ -1,42 +1,57 @@
 {
   "id": 1121,
-  "external_id": "centrale_refrigeracion-xpg-levante-ii-240-argb-blanco-2x120mm",
-  "category_id": "cooling",
-  "brand": "XPG",
-  "name": "Refrigeración XPG Levante II 240 ARGB Blanco 2x120mm",
-  "slug": "refrigeracion-xpg-levante-ii-240-argb-blanco-2x120mm",
-  "image_url": "https://centrale.cl/wp-content/uploads/Xpg-Enfriador-Liquido-Levante-Ii-240-Argb-Blanco-LEVANTEII240-WHCWW.webp",
+  "external_id": "alltec_gabinete-xigmatek-aqua-m-matx-black",
+  "category_id": "case",
+  "brand": "Genérico",
+  "name": "GABINETE XIGMATEK AQUA M (MATX) BLACK",
+  "slug": "gabinete-xigmatek-aqua-m-matx-black",
+  "image_url": "https://images.findtech.cl/products/gabinete-xigmatek-aqua-m-matx-black.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$74.520",
-    "Tarjetas de Crédito / Débito": "$78.620"
+    "Efectivo / Transferencia": "$85.900",
+    "Tarjeta crédito/débito": "$88.477"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:40",
-  "updated_at": "2026-04-25 19:37:40",
+  "created_at": "2026-04-26 20:34:37",
+  "updated_at": "2026-05-03 04:35:21",
   "prices": [
     {
       "product_id": 1121,
-      "store_id": "centrale",
-      "price": 74520,
-      "price_normal": 90780,
-      "discount_pct": 18,
+      "store_id": "alltec",
+      "price": 85900,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/refrigeracion-xpg-levante-ii-240-argb-blanco-2x120mm/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/sin-fuente-de-poder/2147-gabinete-xigmatek-aqua-m-matx-black-4711409540078.html",
+      "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$85.900"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 74520
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 85900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 85900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-05-03",
+      "price": 85900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-05-03"
 }

@@ -14,24 +14,24 @@
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
     "Marca": "Zotac",
-    "Efectivo / Transferencia": "$10.870",
-    "Tarjeta crédito/débito": "$11.200"
+    "Efectivo / Transferencia": "$11.200",
+    "Tarjeta crédito/débito": "$11.540"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:38",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 1815,
       "store_id": "dust2",
-      "price": 10870,
+      "price": 11200,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-zotac-rtx-5070ti-16g-gaming-solid-sff-oc/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$10.870"
+        "Efectivo/Transferencia": "$11.200"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -74,7 +74,13 @@
       "store_name": "Dust2",
       "date": "2026-05-01",
       "price": 10870
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 11200
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

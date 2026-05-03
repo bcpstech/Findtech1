@@ -9,22 +9,25 @@
   "description": null,
   "specs": {
     "Marca": "Cooler Master",
-    "Transferencia/Efectivo": "$67.950",
-    "Webpay / Tarjeta crédito-débito": "$69.990"
+    "Efectivo / Transferencia": "$59.990",
+    "Tarjeta crédito/débito": "$61.790"
   },
   "tags": [],
   "created_at": "2026-04-26 20:47:57",
-  "updated_at": "2026-04-27 22:24:25",
+  "updated_at": "2026-05-03 05:00:56",
   "prices": [
     {
       "product_id": 2374,
       "store_id": "dust2",
-      "price": 67950,
+      "price": 59990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-cooler-master-elite-481-wood-m-atx-m-itx-blanco/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$59.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
@@ -43,7 +46,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 67950
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 59990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

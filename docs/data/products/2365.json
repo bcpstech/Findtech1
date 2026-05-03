@@ -9,22 +9,26 @@
   "description": null,
   "specs": {
     "Marca": "Exodia",
-    "Transferencia/Efectivo": "$43.680",
-    "Webpay / Tarjeta crédito-débito": "$44.990"
+    "Efectivo / Transferencia": "$44.990",
+    "Tarjeta crédito/débito": "$46.340"
   },
   "tags": [],
   "created_at": "2026-04-26 20:47:50",
-  "updated_at": "2026-04-27 22:24:20",
+  "updated_at": "2026-05-03 05:00:50",
   "prices": [
     {
       "product_id": 2365,
       "store_id": "dust2",
-      "price": 43680,
-      "price_normal": 46590,
+      "price": 44990,
+      "price_normal": 47990,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-exodia-exoplus-negro-matx-5-fans-argb-v-templado/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$44.990",
+        "Tarjeta crédito/débito": "$47.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
@@ -43,7 +47,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 43680
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 44990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

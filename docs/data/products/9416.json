@@ -25,7 +25,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:59",
-  "updated_at": "2026-05-01 13:49:49",
+  "updated_at": "2026-05-03 04:16:16",
   "prices": [
     {
       "product_id": 284,
@@ -43,24 +43,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 16760,
-      "store_id": "myshop",
-      "price": 629500,
-      "price_normal": 664123,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/procesador-amd-ryzen-9-9950x-16-core-43-ghz-am5-p35082",
-      "store_name": "MyShop",
-      "price_specs": {
-        "Efectivo/Transferencia": "$629.500",
-        "Tarjeta crédito/débito": "$664.123"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.myshop.cl",
-      "full_url": "https://www.myshop.cl"
     },
     {
       "product_id": 2628,
@@ -117,7 +99,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-01",
       "price": 1059990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-03",
+      "price": 1059990
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

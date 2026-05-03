@@ -1,0 +1,71 @@
+{
+  "id": 1940,
+  "external_id": "dust2_procesador-intel-core-ultra-5-225f-4-9-ghz-lga1851",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core Ultra 5 225F 4.9 GHz LGA1851",
+  "slug": "procesador-intel-core-ultra-5-225f-4-9-ghz-lga1851",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-ultra-5-225f-4-9-ghz-lga1851.jpg",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "4.9 GHz",
+    "Socket": "LGA1851",
+    "Marca": "Intel",
+    "Efectivo / Transferencia": "$1.760",
+    "Tarjeta crédito/débito": "$1.810"
+  },
+  "tags": [],
+  "created_at": "2026-04-26 20:42:13",
+  "updated_at": "2026-05-03 05:12:06",
+  "prices": [
+    {
+      "product_id": 1940,
+      "store_id": "dust2",
+      "price": 1760,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/procesador-intel-core-ultra-5-225f-4-9-ghz-lga1851/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.760"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 323,
+      "store_id": "centrale",
+      "price": 1840,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-5-225f-arrow-lake-6-p-cores-4-e-cores-lga-1851/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.840"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 1710
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 1760
+    }
+  ],
+  "scraped_at": "2026-05-03"
+}

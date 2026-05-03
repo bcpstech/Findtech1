@@ -11,24 +11,24 @@
     "Capacidad": "2 TB",
     "Interfaz": "USB",
     "Marca": "Hiksemi",
-    "Efectivo / Transferencia": "$2.040",
-    "Tarjeta crédito/débito": "$2.100"
+    "Efectivo / Transferencia": "$2.100",
+    "Tarjeta crédito/débito": "$2.160"
   },
   "tags": [],
   "created_at": "2026-04-26 20:44:17",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 2095,
       "store_id": "dust2",
-      "price": 2040,
+      "price": 2100,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/disco-duro-ssd-externo-hiksemi-elite-9-2-tb-usb-c/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$2.040"
+        "Efectivo/Transferencia": "$2.100"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -54,7 +54,13 @@
       "store_name": "Dust2",
       "date": "2026-05-01",
       "price": 2040
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 2100
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

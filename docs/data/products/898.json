@@ -1,42 +1,58 @@
 {
   "id": 898,
-  "external_id": "centrale_placa-madre-b760m-gaming-plus-wifi-ddr4-micro-atx-lga-1700-ddr4-wifi-6",
-  "category_id": "mobo",
-  "brand": "Gigabyte",
-  "name": "Placa Madre B760M GAMING PLUS WIFI DDR4 (Micro ATX, LGA 1700, DDR4, WiFi 6)",
-  "slug": "placa-madre-b760m-gaming-plus-wifi-ddr4-micro-atx-lga-1700-ddr4-wifi-6",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-B760M-GAMING-PLUS-WIFI-DDR4-Micro-ATX-LGA-1700-DDR4-WiFi-6-1.webp",
+  "external_id": "alltec_t-v-msi-geforce-rtx-5060-ti-8g-gaming-oc",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "T.V. MSI GeForce RTX™ 5060 Ti 8G GAMING OC",
+  "slug": "t-v-msi-geforce-rtx-5060-ti-8g-gaming-oc",
+  "image_url": "https://images.findtech.cl/products/t-v-msi-geforce-rtx-5060-ti-8g-gaming-oc.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$169.870",
-    "Tarjetas de Crédito / Débito": "$179.210"
+    "Variante": "OC (Overclocked)",
+    "Efectivo / Transferencia": "$521.900",
+    "Tarjeta crédito/débito": "$537.557"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:33",
-  "updated_at": "2026-04-25 19:37:33",
+  "created_at": "2026-04-26 20:23:15",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 898,
-      "store_id": "centrale",
-      "price": 169870,
+      "store_id": "alltec",
+      "price": 521900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-b760m-gaming-plus-wifi-ddr4-micro-atx-lga-1700-ddr4-wifi-6/",
-      "store_name": "Centrale",
+      "product_url": "https://www.alltec.cl/nvidia/2417-tv-msi-geforce-rtx-5060-ti-8g-gaming-oc.html",
+      "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$521.900"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 169870
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-26",
+      "price": 521900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 521900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-05-03",
+      "price": 521900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-05-03"
 }

@@ -19,19 +19,19 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 1495,
       "store_id": "centrale",
-      "price": 1002,
+      "price": 1220,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr4-3600mt-s-cl17-kingston-fury-beast-rgb/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.002"
+        "Transferencia / Efectivo": "$1.220"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -54,6 +54,23 @@
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 2089,
+      "store_id": "dust2",
+      "price": 91990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/memoria-ram-kingston-fury-beast-rgb-de-8gb-ddr4-3200mhz-dimm/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$91.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
@@ -74,7 +91,13 @@
       "store_name": "Centrale",
       "date": "2026-05-01",
       "price": 1002
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 1220
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

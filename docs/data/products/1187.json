@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:36:23",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 682,
@@ -53,6 +53,42 @@
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 12117,
+      "store_id": "trulustore",
+      "price": 134990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/ssd-m-2-pcie-4-0-4x-nvme-kingston-nv3-1tb-lectura-6000mb-s/",
+      "store_name": "TruluStore",
+      "khipu_price": 137690,
+      "price_specs": {
+        "Efectivo / Transferencia": "$134.990",
+        "Khipu": "$137.690"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 9525,
+      "store_id": "spdigital",
+      "price": 189990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/kng-ssd-1tb-m2-2280-60005000mbs-pcie-nvme-gen4",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$189.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -85,7 +121,13 @@
       "store_name": "CentralGamer",
       "date": "2026-05-01",
       "price": 129990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-05-03",
+      "price": 129990
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

@@ -12,25 +12,42 @@
     "Interfaz": "PCI Express 4.0",
     "Factor de forma": "M.2 2280",
     "Certificación": "CE, FCC, BSMI, KC, Morocco, EAC",
-    "Efectivo/Transferencia": "$348.430",
-    "Tarjeta crédito/débito": "$364.110"
+    "Efectivo/Transferencia": "$443.460",
+    "Tarjeta crédito/débito": "$463.420"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:00",
-  "updated_at": "2026-05-01 00:35:39",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
+    {
+      "product_id": 1562,
+      "store_id": "centrale",
+      "price": 3930,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/ssd-xpg-gammix-s70-blade-2tb-m-2-nvme-pcie-4-0-7400mb-s/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$3.930"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
     {
       "product_id": 9524,
       "store_id": "spdigital",
-      "price": 348430,
-      "price_normal": 364110,
-      "discount_pct": null,
+      "price": 443460,
+      "price_normal": 463420,
+      "discount_pct": 4,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ssd-xpg-gammix-s70-blade-nvme-1tb-pci-express-40-m2",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$348.430",
-        "Webpay / Tarjeta": "$364.110"
+        "Transferencia / Efectivo": "$443.460",
+        "Webpay / Tarjeta": "$463.420"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,8 +72,14 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-01",
-      "price": 348430
+      "price": 443460
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-03",
+      "price": 443460
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

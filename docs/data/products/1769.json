@@ -10,22 +10,26 @@
   "specs": {
     "Marca": "Exodia",
     "Modelo": "Pack Fans X3 Exodia ARGB Blanco 120mm",
-    "Transferencia/Efectivo": "$16.010",
-    "Webpay / Tarjeta crédito-débito": "$16.490"
+    "Efectivo / Transferencia": "$16.490",
+    "Tarjeta crédito/débito": "$16.980"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:02",
-  "updated_at": "2026-04-27 22:17:27",
+  "updated_at": "2026-05-03 05:04:08",
   "prices": [
     {
       "product_id": 1769,
       "store_id": "progaming",
-      "price": 16010,
-      "price_normal": 17470,
+      "price": 16490,
+      "price_normal": 17990,
       "discount_pct": 8,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/pack-fans-x3-exodia-argb-blanco-120mm-con-controlador/",
       "store_name": "ProGaming",
+      "price_specs": {
+        "Efectivo/Transferencia": "$16.490",
+        "Tarjeta crédito/débito": "$17.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.progaming.cl",
@@ -44,7 +48,13 @@
       "store_name": "ProGaming",
       "date": "2026-04-27",
       "price": 16010
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-05-03",
+      "price": 16490
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

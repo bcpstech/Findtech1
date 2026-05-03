@@ -26,19 +26,19 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:54",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 1952,
       "store_id": "dust2",
-      "price": 1710,
+      "price": 1760,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-5-8600g-4-3-ghz-6-core-am5/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$1.710"
+        "Efectivo/Transferencia": "$1.760"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,22 +63,21 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 16741,
-      "store_id": "myshop",
-      "price": 183990,
-      "price_normal": 194109,
+      "product_id": 3304,
+      "store_id": "alltec",
+      "price": 181900,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/cpu-amd-socket-am5-ryzen-5-8600g-43-ghz-6-core-100-100001237box-p28180",
-      "store_name": "MyShop",
+      "product_url": "https://www.alltec.cl/amd/2200-amd-ryzen-5-8600g-43ghz-50ghz-turbo-six-core-tdp-65w-am5-amd-radeon-760m-graphics.html",
+      "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$183.990",
-        "Tarjeta crédito/débito": "$194.109"
+        "Efectivo/Transferencia": "$181.900"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.myshop.cl",
-      "full_url": "https://www.myshop.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     },
     {
       "product_id": 1150,
@@ -151,7 +150,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-01",
       "price": 329990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-03",
+      "price": 329990
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

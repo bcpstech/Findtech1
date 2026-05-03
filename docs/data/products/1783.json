@@ -10,26 +10,46 @@
   "specs": {
     "Marca": "Gigabyte",
     "Modelo": "GAMING 360 ARGB Negro",
-    "Transferencia/Efectivo": "$79.600",
-    "Webpay / Tarjeta crédito-débito": "$81.990"
+    "Efectivo / Transferencia": "$81.990",
+    "Tarjeta crédito/débito": "$84.450"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:07",
-  "updated_at": "2026-04-27 22:17:32",
+  "updated_at": "2026-05-03 05:04:13",
   "prices": [
     {
       "product_id": 1783,
       "store_id": "progaming",
-      "price": 79600,
+      "price": 81990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-gigabyte-gaming-360-argb-negro/",
       "store_name": "ProGaming",
+      "price_specs": {
+        "Efectivo/Transferencia": "$81.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.progaming.cl",
       "full_url": "https://www.progaming.cl"
+    },
+    {
+      "product_id": 9657,
+      "store_id": "spdigital",
+      "price": 119990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/refrigeracion-liquida-gigabyte-gaming-360-360mm-argb-color-negro",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$119.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -44,7 +64,13 @@
       "store_name": "ProGaming",
       "date": "2026-04-27",
       "price": 79600
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-05-03",
+      "price": 81990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

@@ -1,0 +1,101 @@
+{
+  "id": 2179,
+  "external_id": "dust2_disco-solido-ssd-adata-sata-su650-1tb",
+  "category_id": "storage",
+  "brand": "Genérico",
+  "name": "Disco Solido SSD ADATA SATA SU650 1TB",
+  "slug": "disco-solido-ssd-adata-sata-su650-1tb",
+  "image_url": "https://images.findtech.cl/products/disco-solido-ssd-adata-sata-su650-1tb.jpg",
+  "description": null,
+  "specs": {
+    "Capacidad": "1 TB",
+    "Interfaz": "SATA III",
+    "Factor de forma": "2.5\"",
+    "Lectura": "520 MB/s",
+    "Transferencia / Efectivo": "$2.063",
+    "Tarjeta crédito/débito": "$2.180"
+  },
+  "tags": [],
+  "created_at": "2026-04-26 20:45:17",
+  "updated_at": "2026-05-03 05:12:06",
+  "prices": [
+    {
+      "product_id": 2179,
+      "store_id": "dust2",
+      "price": 1300,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/disco-solido-ssd-adata-sata-su650-1tb/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.300"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 1533,
+      "store_id": "centrale",
+      "price": 2063,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/ssd-xpg-adata-ultimate-su650-1tb-2-5-sata-3-lectura-520mb-s-escritura/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$2.063"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9535,
+      "store_id": "spdigital",
+      "price": 169990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/adata-legend-710-m2-512gb-nvme-nand-gen3x4",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$169.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-26",
+      "price": 126200
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-27",
+      "price": 126200
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 1260
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 1300
+    }
+  ],
+  "scraped_at": "2026-05-03"
+}

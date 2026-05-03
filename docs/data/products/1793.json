@@ -10,22 +10,25 @@
   "specs": {
     "Marca": "MSI",
     "Modelo": "MAG Coreliquid A13 360 ARG Negro",
-    "Transferencia/Efectivo": "$72.810",
-    "Webpay / Tarjeta crédito-débito": "$74.990"
+    "Efectivo / Transferencia": "$74.990",
+    "Tarjeta crédito/débito": "$77.240"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:12",
-  "updated_at": "2026-04-27 22:17:37",
+  "updated_at": "2026-05-03 05:04:17",
   "prices": [
     {
       "product_id": 1793,
       "store_id": "progaming",
-      "price": 72810,
+      "price": 74990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-msi-mag-coreliquid-a13-360-arg-negro/",
       "store_name": "ProGaming",
+      "price_specs": {
+        "Efectivo/Transferencia": "$74.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.progaming.cl",
@@ -44,7 +47,13 @@
       "store_name": "ProGaming",
       "date": "2026-04-27",
       "price": 72810
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-05-03",
+      "price": 74990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

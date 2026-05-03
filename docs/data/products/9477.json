@@ -19,7 +19,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:38",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 1469,
@@ -39,6 +39,23 @@
       "full_url": "https://www.centrale.cl"
     },
     {
+      "product_id": 2054,
+      "store_id": "dust2",
+      "price": 71990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/memoria-ram-xpg-spectrix-d35g-rgb-8gb/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$71.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
       "product_id": 1172,
       "store_id": "cg",
       "price": 89990,
@@ -56,16 +73,16 @@
       "full_url": "https://www.centralgamer.cl"
     },
     {
-      "product_id": 9500,
+      "product_id": 9501,
       "store_id": "spdigital",
-      "price": 149990,
+      "price": 99990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/a-data-ddr4-sdram-3200-mhz-unbuffered-non-ecc-gammix-d35",
+      "product_url": "https://www.spdigital.cl/adata-dram-xpg-ddr4-tungsten-grey-3600",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$149.990"
+        "Transferencia / Efectivo": "$99.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -91,7 +108,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-01",
       "price": 329990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-03",
+      "price": 329990
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

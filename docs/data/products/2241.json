@@ -9,50 +9,45 @@
   "description": null,
   "specs": {
     "Marca": "Gigabyte",
-    "Transferencia/Efectivo": "$52.420",
-    "Webpay / Tarjeta crédito-débito": "$53.990"
+    "Efectivo / Transferencia": "$53.990",
+    "Tarjeta crédito/débito": "$55.610"
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:13",
-  "updated_at": "2026-04-27 22:22:54",
+  "updated_at": "2026-05-03 04:59:14",
   "prices": [
     {
       "product_id": 2241,
       "store_id": "dust2",
-      "price": 52420,
+      "price": 53990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-gigabyte-gp-p650g-650w-80-plus-gold/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$53.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
     },
     {
-      "product_id": 1682,
-      "store_id": "centrale",
-      "price": 58980,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-gigabyte-gp-p650g-650w-80plus-gold-cables-fijos/",
-      "store_name": "Centrale",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
       "product_id": 2662,
       "store_id": "trulustore",
-      "price": 74990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 54990,
+      "price_normal": 74990,
+      "discount_pct": 27,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/fuente-de-poder-gigabyte-p650g-de-650w-80-gold/",
       "store_name": "TruluStore",
+      "khipu_price": 56090,
+      "price_specs": {
+        "Efectivo / Transferencia": "$54.990",
+        "Khipu": "$56.090",
+        "Tarjeta crédito/débito": "$74.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.trulustore.cl",
@@ -71,7 +66,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 52420
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 53990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

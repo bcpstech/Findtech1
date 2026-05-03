@@ -9,25 +9,25 @@
   "description": null,
   "specs": {
     "Marca": "MSI",
-    "Efectivo / Transferencia": "$1.940",
-    "Tarjeta crédito/débito": "$2.000"
+    "Efectivo / Transferencia": "$2.000",
+    "Tarjeta crédito/débito": "$2.060"
   },
   "tags": [],
   "created_at": "2026-04-26 20:48:29",
-  "updated_at": "2026-05-01 14:27:41",
+  "updated_at": "2026-05-03 05:01:28",
   "prices": [
     {
       "product_id": 2417,
       "store_id": "dust2",
-      "price": 1940,
-      "price_normal": 2140,
+      "price": 2000,
+      "price_normal": 2200,
       "discount_pct": 9,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-msi-mag-pano-120r-pz/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$1.940",
-        "Tarjeta crédito/débito": "$2.140"
+        "Efectivo/Transferencia": "$2.000",
+        "Tarjeta crédito/débito": "$2.200"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -53,7 +53,13 @@
       "store_name": "Dust2",
       "date": "2026-05-01",
       "price": 1940
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 2000
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

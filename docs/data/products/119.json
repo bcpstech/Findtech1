@@ -15,12 +15,12 @@
     "Caché L3": "6 MB",
     "TDP": "65W",
     "Socket": "LGA1200",
-    "Efectivo/Transferencia": "$120.900",
+    "Efectivo / Transferencia": "$120.900",
     "Tarjeta crédito/débito": "$124.527"
   },
   "tags": [],
   "created_at": "2026-04-26 16:05:40",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 119,
@@ -31,6 +31,9 @@
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/intel/1214-6ghz-intel-i3-10100-43ghz-turbo-4c8t-6mb-cache-65w-lga1200-10ma-generacion.html",
       "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$120.900"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
@@ -49,7 +52,13 @@
       "store_name": "Alltec",
       "date": "2026-04-27",
       "price": 120900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-05-03",
+      "price": 120900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

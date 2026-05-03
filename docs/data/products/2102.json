@@ -11,22 +11,25 @@
     "Capacidad": "2 TB",
     "Factor de forma": "2.5\"",
     "Marca": "ADATA",
-    "Transferencia/Efectivo": "$76.690",
-    "Webpay / Tarjeta crédito-débito": "$78.990"
+    "Efectivo / Transferencia": "$78.990",
+    "Tarjeta crédito/débito": "$81.360"
   },
   "tags": [],
   "created_at": "2026-04-26 20:44:22",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 2102,
       "store_id": "dust2",
-      "price": 76690,
+      "price": 78990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/open-box-disco-duro-externo-hdd-adata-2-5-hv620s-2tb-negro/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$78.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
@@ -45,7 +48,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 76690
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 78990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

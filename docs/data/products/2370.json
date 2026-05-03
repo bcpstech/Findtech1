@@ -9,25 +9,25 @@
   "description": null,
   "specs": {
     "Marca": "Exodia",
-    "Efectivo / Transferencia": "$1.210",
-    "Tarjeta crédito/débito": "$1.250"
+    "Efectivo / Transferencia": "$1.250",
+    "Tarjeta crédito/débito": "$1.290"
   },
   "tags": [],
   "created_at": "2026-04-26 20:47:54",
-  "updated_at": "2026-05-01 14:27:30",
+  "updated_at": "2026-05-03 05:00:54",
   "prices": [
     {
       "product_id": 2370,
       "store_id": "dust2",
-      "price": 1210,
-      "price_normal": 1360,
+      "price": 1250,
+      "price_normal": 1400,
       "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-exodia-panel-zro-pantalla-led-matx-negro-6fans-argb/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$1.210",
-        "Tarjeta crédito/débito": "$1.360"
+        "Efectivo/Transferencia": "$1.250",
+        "Tarjeta crédito/débito": "$1.400"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -53,7 +53,13 @@
       "store_name": "Dust2",
       "date": "2026-05-01",
       "price": 1210
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 1250
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

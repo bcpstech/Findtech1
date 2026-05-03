@@ -8,22 +8,25 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-1600W-ASUS-THOR-Full-Modular-Certificada-80-Titan.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$749.980",
-    "Tarjetas de Crédito / Débito": "$791.230"
+    "Transferencia / Efectivo": "$7.500",
+    "Tarjeta crédito/débito": "$7.910"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:52",
-  "updated_at": "2026-04-27 22:15:16",
+  "updated_at": "2026-05-03 04:50:40",
   "prices": [
     {
       "product_id": 1709,
       "store_id": "centrale",
-      "price": 749980,
+      "price": 7500,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-asus-rog-thor-1600w-titanium-iii-full-modular-80plus/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$7.500"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -38,10 +41,31 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3590-asus-rog-thor-1600w-titanium-iii-80-plus-titanium-certified-atx-31-gan-mosfet-magnetic-oled-display.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$929.002",
+        "Tarjeta crédito/débito": "$977.897"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 9715,
+      "store_id": "spdigital",
+      "price": 945490,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/rog-thor-1600w-titanium-iii",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$945.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -56,7 +80,19 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 749980
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 7500
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 7500
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

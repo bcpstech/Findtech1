@@ -12,22 +12,25 @@
     "Tipo": "DDR4",
     "Latencia": "CL16",
     "Marca": "XPG",
-    "Transferencia/Efectivo": "$63.000",
-    "Webpay / Tarjeta crédito-débito": "$64.890"
+    "Efectivo / Transferencia": "$64.890",
+    "Tarjeta crédito/débito": "$66.840"
   },
   "tags": [],
   "created_at": "2026-04-26 20:43:21",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 2026,
       "store_id": "dust2",
-      "price": 63000,
+      "price": 64890,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/memoria-ram-xpg-gammix-d35-ddr4-3200-8-gb-cl16-blanco/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$64.890"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
@@ -46,7 +49,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 63000
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 64890
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

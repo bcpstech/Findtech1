@@ -23,7 +23,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:56",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 295,
@@ -43,22 +43,21 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 16744,
-      "store_id": "myshop",
-      "price": 229990,
-      "price_normal": 242639,
+      "product_id": 2823,
+      "store_id": "alltec",
+      "price": 245900,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/cpu-amd-ryzen-5-7600x-6-core-47-ghz-socket-am5-105w-desktop-processor-100-100000593wof-p12969",
-      "store_name": "MyShop",
+      "product_url": "https://www.alltec.cl/amd/1880-amd-ryzen-5-7600x-47ghz-53ghz-turbo-six-core-tdp-105w-am5-730143314442.html",
+      "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$229.990",
-        "Tarjeta crédito/débito": "$242.639"
+        "Efectivo/Transferencia": "$245.900"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.myshop.cl",
-      "full_url": "https://www.myshop.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     },
     {
       "product_id": 9408,
@@ -97,7 +96,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-01",
       "price": 499990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-03",
+      "price": 499990
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

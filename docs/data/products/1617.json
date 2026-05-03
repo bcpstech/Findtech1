@@ -13,20 +13,20 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:45",
-  "updated_at": "2026-05-01 14:18:12",
+  "updated_at": "2026-05-03 04:49:11",
   "prices": [
     {
       "product_id": 1617,
       "store_id": "centrale",
       "price": 1112,
-      "price_normal": 1283,
+      "price_normal": 1272,
       "discount_pct": 13,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-asus-prime-lc-360-argb-360mm-3x120mm-600-2200-rpm/",
       "store_name": "Centrale",
       "price_specs": {
         "Transferencia / Efectivo": "$1.112",
-        "Tarjetas de Crédito / Débito": "$1.283"
+        "Tarjetas de Crédito / Débito": "$1.272"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -52,7 +52,13 @@
       "store_name": "Centrale",
       "date": "2026-05-01",
       "price": 1112
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 1112
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

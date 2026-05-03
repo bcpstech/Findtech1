@@ -10,25 +10,25 @@
   "specs": {
     "Marca": "Exodia",
     "Modelo": "Fan Exodia ARGB Blanco 120mm",
-    "Efectivo / Transferencia": "$3.390",
-    "Tarjeta crédito/débito": "$3.490"
+    "Efectivo / Transferencia": "$3.490",
+    "Tarjeta crédito/débito": "$3.590"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:03",
-  "updated_at": "2026-05-01 14:29:52",
+  "updated_at": "2026-05-03 05:04:09",
   "prices": [
     {
       "product_id": 1772,
       "store_id": "progaming",
-      "price": 3390,
-      "price_normal": 4840,
+      "price": 3490,
+      "price_normal": 4990,
       "discount_pct": 30,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/ventilador-exodia-argb-blanco-120mm/",
       "store_name": "ProGaming",
       "price_specs": {
-        "Efectivo/Transferencia": "$3.390",
-        "Tarjeta crédito/débito": "$4.840"
+        "Efectivo/Transferencia": "$3.490",
+        "Tarjeta crédito/débito": "$4.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -54,7 +54,13 @@
       "store_name": "ProGaming",
       "date": "2026-05-01",
       "price": 3390
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-05-03",
+      "price": 3490
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

@@ -25,7 +25,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:51",
-  "updated_at": "2026-05-01 13:49:42",
+  "updated_at": "2026-05-03 04:16:09",
   "prices": [
     {
       "product_id": 288,
@@ -61,24 +61,6 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
-    },
-    {
-      "product_id": 16758,
-      "store_id": "myshop",
-      "price": 578990,
-      "price_normal": 610834,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/procesador-amd-ryzen-7-9850x3d-8-core-p42758",
-      "store_name": "MyShop",
-      "price_specs": {
-        "Efectivo/Transferencia": "$578.990",
-        "Tarjeta crédito/débito": "$610.834"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.myshop.cl",
-      "full_url": "https://www.myshop.cl"
     },
     {
       "product_id": 2616,
@@ -135,7 +117,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-01",
       "price": 699990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-03",
+      "price": 699990
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

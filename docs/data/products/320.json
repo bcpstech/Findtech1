@@ -8,24 +8,33 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i5-12600K-3.7-Ghz-10-Core-LGA1700_4bVEQKI-1.webp",
   "description": null,
   "specs": {
+    "Núcleos": "10",
+    "Hilos": "16",
     "Frecuencia base": "3.7 GHz",
+    "Frecuencia turbo": "4.9 GHz",
+    "Caché L3": "20 MB",
+    "TDP": "150W",
     "Socket": "LGA1700",
-    "Transferencia / Efectivo": "$229.490",
-    "Tarjetas de Crédito / Débito": "$242.110"
+    "Generación": "Intel 12ª Gen (Alder Lake)",
+    "Efectivo / Transferencia": "$329.900",
+    "Tarjeta crédito/débito": "$339.797"
   },
   "tags": [],
   "created_at": "2026-04-26 16:26:02",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 320,
       "store_id": "centrale",
-      "price": 229490,
+      "price": 2295,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-12600k-3-7-ghz-10-core-lga1700/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$2.295"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -40,24 +49,13 @@
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/intel/2471-7ghz-intel-i5-12600k-49ghz-turbo-10c16t-20mb-cache-125w150w-lga1700-12th-generacion.html",
       "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$329.900"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
-    },
-    {
-      "product_id": 2591,
-      "store_id": "trulustore",
-      "price": 1059990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/pc-gamer-esgaming-intel-i5-12600k-rtx-3050-6gb-16gb-ddr4-3200mhz-ssd-nvme-500gb-gabinete-f05t-4-ventiladores-wifi-freedos/",
-      "store_name": "TruluStore",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -72,7 +70,19 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 229490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 2295
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 2295
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

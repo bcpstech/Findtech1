@@ -19,7 +19,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 15:48:33",
-  "updated_at": "2026-05-01 00:35:39",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 35,
@@ -38,6 +38,23 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 2813,
+      "store_id": "alltec",
+      "price": 258700,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/2420-amd-ryzen-5-9600-38ghz-52ghz-turbo-six-core-tdp-65w-am5.html",
+      "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$258.700"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -64,7 +81,13 @@
       "store_name": "N1G",
       "date": "2026-05-01",
       "price": 258500
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-05-03",
+      "price": 258500
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

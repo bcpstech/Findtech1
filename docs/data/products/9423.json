@@ -18,12 +18,12 @@
     "Incluye cooler": "No",
     "Caché L3": "24 MB",
     "Memoria soportada": "DDR5-SDRAM",
-    "Efectivo/Transferencia": "$422.910",
-    "Tarjeta crédito/débito": "$441.940"
+    "Efectivo/Transferencia": "$350.960",
+    "Tarjeta crédito/débito": "$366.750"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:05",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 318,
@@ -41,24 +41,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 16770,
-      "store_id": "myshop",
-      "price": 236990,
-      "price_normal": 250024,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/intel-core-ultra-5-245kf-42-ghz-14-core-lga1851-p39513",
-      "store_name": "MyShop",
-      "price_specs": {
-        "Efectivo/Transferencia": "$236.990",
-        "Tarjeta crédito/débito": "$250.024"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.myshop.cl",
-      "full_url": "https://www.myshop.cl"
     },
     {
       "product_id": 13798,
@@ -80,14 +62,14 @@
     {
       "product_id": 9423,
       "store_id": "spdigital",
-      "price": 422910,
+      "price": 350960,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-intel-core-ultra-5-245kf-cache-de-24-m-hasta-520-ghz-socket-lga1851-125w-sin-video",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$422.910"
+        "Transferencia / Efectivo": "$350.960"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -113,7 +95,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-01",
       "price": 422910
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-03",
+      "price": 350960
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

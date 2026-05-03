@@ -9,26 +9,46 @@
   "description": null,
   "specs": {
     "Marca": "ESGAMING",
-    "Transferencia/Efectivo": "$48.530",
-    "Webpay / Tarjeta crédito-débito": "$49.990"
+    "Efectivo / Transferencia": "$49.990",
+    "Tarjeta crédito/débito": "$51.490"
   },
   "tags": [],
   "created_at": "2026-04-26 20:47:41",
-  "updated_at": "2026-04-27 22:24:12",
+  "updated_at": "2026-05-03 05:00:41",
   "prices": [
     {
       "product_id": 2352,
       "store_id": "dust2",
-      "price": 48530,
+      "price": 49990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-gamer-esgaming-f05t-bk-negro-atx/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$49.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 9795,
+      "store_id": "spdigital",
+      "price": 89990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/gabinete-gamer-y03-bk-4-fan-argb-e-atx-m-atx-esgaming",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$89.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -43,7 +63,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 48530
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 49990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

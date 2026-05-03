@@ -10,22 +10,25 @@
   "specs": {
     "Marca": "Redragon",
     "Modelo": "CCW-1018 - 360",
-    "Transferencia/Efectivo": "$66.980",
-    "Webpay / Tarjeta crédito-débito": "$68.990"
+    "Efectivo / Transferencia": "$68.990",
+    "Tarjeta crédito/débito": "$71.060"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:13",
-  "updated_at": "2026-04-27 22:17:38",
+  "updated_at": "2026-05-03 05:04:18",
   "prices": [
     {
       "product_id": 1797,
       "store_id": "progaming",
-      "price": 66980,
+      "price": 68990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-redragon-ccw-1018-360-argb/",
       "store_name": "ProGaming",
+      "price_specs": {
+        "Efectivo/Transferencia": "$68.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.progaming.cl",
@@ -44,7 +47,13 @@
       "store_name": "ProGaming",
       "date": "2026-04-27",
       "price": 66980
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-05-03",
+      "price": 68990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

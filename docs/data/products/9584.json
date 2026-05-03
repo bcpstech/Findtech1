@@ -19,20 +19,19 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:30",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 1244,
       "store_id": "centrale",
       "price": 8678,
-      "price_normal": 16800,
-      "discount_pct": 48,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bit/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$8.678",
-        "Tarjetas de Crédito / Débito": "$16.800"
+        "Transferencia / Efectivo": "$8.678"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -94,7 +93,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-01",
       "price": 1065670
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-03",
+      "price": 1065670
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

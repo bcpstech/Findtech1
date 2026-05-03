@@ -8,24 +8,28 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-5-225-6P-Cores-4E-Cores-4.9-GHz-LGA1851-1.webp",
   "description": null,
   "specs": {
-    "Frecuencia base": "4.9 GHz",
+    "TDP": "65W",
     "Socket": "LGA1851",
-    "Transferencia / Efectivo": "$198.500",
-    "Tarjetas de Crédito / Débito": "$209.420"
+    "Generación": "Intel Core Ultra Serie 200 (Arrow Lake)",
+    "Efectivo/Transferencia": "$256.000",
+    "Tarjeta crédito/débito": "$263.680"
   },
   "tags": [],
   "created_at": "2026-04-26 16:26:06",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 321,
       "store_id": "centrale",
-      "price": 198500,
+      "price": 1985,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-5-225-6p-cores-4e-cores-4-9-ghz-lga1851/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.985"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -40,6 +44,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3205-intel-core-ultra-5-225-lga-1851-10-core-6p4e-65w-arrow-lake-intel-graphics-processor-bx80768225.html",
       "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$256.000",
+        "Tarjeta crédito/débito": "$269.474"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
@@ -58,7 +66,19 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 198500
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 1985
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 1985
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

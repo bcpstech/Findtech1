@@ -8,22 +8,28 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Seagate-Skyhawk-Ai-Disk-Drive-24-Tb-3.5-ST24000VE002.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$953.950",
-    "Tarjetas de Crédito / Débito": "$1.006.420"
+    "Capacidad": "24 TB",
+    "Interfaz": "SATA III",
+    "Factor de forma": "3.5\"",
+    "Transferencia / Efectivo": "$9.671",
+    "Tarjeta crédito/débito": "$10.200"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-26 20:37:43",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 1513,
       "store_id": "centrale",
-      "price": 953950,
+      "price": 9671,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-seagate-skyhawk-ai-24tb-7200rpm-3-5-sata/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$9.671"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -36,7 +42,13 @@
       "store_name": "Centrale",
       "date": "2026-04-26",
       "price": 953950
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 9671
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-05-03"
 }

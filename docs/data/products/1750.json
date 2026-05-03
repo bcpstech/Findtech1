@@ -8,22 +8,25 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Cougar-Fv270-S-Fuente-Atx-Extendido-Negro-Incluye-1-Fan-Argb-120Mm.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$145.940",
-    "Tarjetas de Crédito / Débito": "$153.970"
+    "Transferencia / Efectivo": "$1.459",
+    "Tarjeta crédito/débito": "$1.540"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-04-27 22:15:17",
+  "updated_at": "2026-05-03 04:51:27",
   "prices": [
     {
       "product_id": 1750,
       "store_id": "centrale",
-      "price": 145940,
+      "price": 1459,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-cougar-fv270-s-fuente-atx-extendido-negro-incluye-1-fan-argb-120mm/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.459"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -42,7 +45,19 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 145940
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 1459
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 1459
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

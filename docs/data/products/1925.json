@@ -1,43 +1,120 @@
 {
   "id": 1925,
-  "external_id": "dust2_gabinete-msi-mpg-gungnir-300r-airflow-blanco",
-  "category_id": "case",
-  "brand": "MSI",
-  "name": "Gabinete MSI MPG GUNGNIR 300R AIRFLOW Blanco",
-  "slug": "gabinete-msi-mpg-gungnir-300r-airflow-blanco",
-  "image_url": "https://images.findtech.cl/products/gabinete-msi-mpg-gungnir-300r-airflow-blanco.jpg",
+  "external_id": "dust2_procesador-intel-core-ultra-9-285k-hasta-5-7ghz-lga1851",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core Ultra 9 285K hasta 5.7GHz, LGA1851",
+  "slug": "procesador-intel-core-ultra-9-285k-hasta-5-7ghz-lga1851",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-ultra-9-285k-hasta-5-7ghz-lga1851.jpg",
   "description": null,
   "specs": {
-    "Marca": "MSI",
-    "Transferencia/Efectivo": "$128.150",
-    "Webpay / Tarjeta crédito-débito": "$131.990"
+    "Frecuencia base": "5.7 GHz",
+    "Frecuencia turbo": "5.7 GHz",
+    "Socket": "LGA1851",
+    "Marca": "Intel",
+    "Efectivo / Transferencia": "$7.200",
+    "Tarjeta crédito/débito": "$7.420"
   },
   "tags": [],
-  "created_at": "2026-04-25 21:03:04",
-  "updated_at": "2026-04-25 21:03:04",
+  "created_at": "2026-04-26 20:42:03",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
+    {
+      "product_id": 324,
+      "store_id": "centrale",
+      "price": 6403,
+      "price_normal": 7229,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-9-285k-socket-lga1851-24-nucleos-37-57ghz-36-tops/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$6.403",
+        "Tarjetas de Crédito / Débito": "$7.229"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
     {
       "product_id": 1925,
       "store_id": "dust2",
-      "price": 128150,
-      "price_normal": 151450,
-      "discount_pct": 15,
+      "price": 7200,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/gabinete-msi-mpg-gungnir-300r-airflow-white/",
+      "product_url": "https://dust2.gg/producto/procesador-intel-core-ultra-9-285k-hasta-5-7ghz-lga1851/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$7.200"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 19,
+      "store_id": "n1g",
+      "price": 664900,
+      "price_normal": 699895,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3536-intel-core-ultra-9-285k-core-ultra-9-series-2-arrow-lake-24-core-8p16e-lga-1851-125w-bx80768285k.html",
+      "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$664.900",
+        "Tarjeta crédito/débito": "$699.895"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 13796,
+      "store_id": "cg",
+      "price": 822967,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-9-285k-3-7-ghz-24-core-lga1851/",
+      "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$822.967"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
       "store_id": "dust2",
       "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 128150
+      "date": "2026-04-26",
+      "price": 699020
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-04-27",
+      "price": 699020
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-01",
+      "price": 6990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 7200
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-05-03"
 }

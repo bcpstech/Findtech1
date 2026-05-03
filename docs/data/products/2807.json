@@ -5,19 +5,19 @@
   "brand": "AMD",
   "name": "AMD RYZEN 5 3500 (MPK) 3.6GHz (4.2GHz TURBO) SIX CORE (TDP 65W) (AM4)",
   "slug": "amd-ryzen-5-3500-mpk-3-6ghz-4-2ghz-turbo-six-core-tdp-65w-am4",
-  "image_url": "https://www.alltec.cl/9446-large_default/amd-ryzen-5-3500-mpk-36ghz-42ghz-turbo-six-core-tdp-65w-am4.jpg",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-5-3500-mpk-3-6ghz-4-2ghz-turbo-six-core-tdp-65w-am4.jpg",
   "description": null,
   "specs": {
     "Frecuencia base": "3.6 GHz",
     "Frecuencia turbo": "4.2 GHz",
     "Socket": "AM4",
     "Generación": "AMD Zen 5 (4nm)",
-    "Efectivo/Transferencia": "$99.900",
+    "Efectivo / Transferencia": "$99.900",
     "Tarjeta crédito/débito": "$102.897"
   },
   "tags": [],
   "created_at": "2026-04-27 00:31:36",
-  "updated_at": "2026-04-27 11:52:32",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 2807,
@@ -28,6 +28,9 @@
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/1772-amd-ryzen-5-3500-mpk-36ghz-42ghz-turbo-six-core-tdp-65w-am4-8592978369668.html",
       "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$99.900"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
@@ -40,7 +43,13 @@
       "store_name": "Alltec",
       "date": "2026-04-27",
       "price": 99900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-05-03",
+      "price": 99900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

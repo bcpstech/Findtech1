@@ -1,0 +1,71 @@
+{
+  "id": 2816,
+  "external_id": "alltec_amd-ryzen-7-5700-3-7ghz-4-6ghz-turbo-octa-core-tdp-65w-am5",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD RYZEN 7 5700 3.7GHz (4.6GHz TURBO) OCTA CORE (TDP 65W) (AM5)",
+  "slug": "amd-ryzen-7-5700-3-7ghz-4-6ghz-turbo-octa-core-tdp-65w-am5",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-7-5700-3-7ghz-4-6ghz-turbo-octa-core-tdp-65w-am5.jpg",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "3.7 GHz",
+    "Frecuencia turbo": "4.6 GHz",
+    "Socket": "AM5",
+    "Efectivo / Transferencia": "$171.500",
+    "Tarjeta crédito/débito": "$176.645"
+  },
+  "tags": [],
+  "created_at": "2026-04-27 00:32:00",
+  "updated_at": "2026-05-03 05:12:06",
+  "prices": [
+    {
+      "product_id": 291,
+      "store_id": "centrale",
+      "price": 1651,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-5700-8-nucleos-3-7-a-4-6ghz-am4/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.651"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2816,
+      "store_id": "alltec",
+      "price": 171500,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/2494-amd-ryzen-7-5700-37ghz-46ghz-turbo-octa-core-tdp-65w-am5.html",
+      "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$171.500"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-04-27",
+      "price": 171500
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-05-03",
+      "price": 171500
+    }
+  ],
+  "scraped_at": "2026-05-03"
+}

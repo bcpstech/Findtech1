@@ -25,7 +25,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:54",
-  "updated_at": "2026-05-01 13:49:45",
+  "updated_at": "2026-05-03 04:16:11",
   "prices": [
     {
       "product_id": 279,
@@ -45,22 +45,21 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 16757,
-      "store_id": "myshop",
-      "price": 535990,
-      "price_normal": 565469,
+      "product_id": 2817,
+      "store_id": "alltec",
+      "price": 536900,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/cpu-amd-socket-am5-ryzen-7-9800x3d-47ghz-8-core-scooler-100-100001084wof-p34080",
-      "store_name": "MyShop",
+      "product_url": "https://www.alltec.cl/amd/2348-amd-ryzen-7-9800x3d-47ghz-52ghz-turbo-octa-core-tdp-120w-am5.html",
+      "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$535.990",
-        "Tarjeta crédito/débito": "$565.469"
+        "Efectivo/Transferencia": "$536.900"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.myshop.cl",
-      "full_url": "https://www.myshop.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     },
     {
       "product_id": 9404,
@@ -98,7 +97,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-01",
       "price": 799990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-03",
+      "price": 799990
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

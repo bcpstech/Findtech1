@@ -14,24 +14,24 @@
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
     "Marca": "MSI",
-    "Efectivo / Transferencia": "$7.280",
-    "Tarjeta crédito/débito": "$7.499"
+    "Efectivo / Transferencia": "$7.499",
+    "Tarjeta crédito/débito": "$7.720"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:39",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 1817,
       "store_id": "dust2",
-      "price": 7280,
+      "price": 7499,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-msi-geforce-rtx-5070-12g-ventus-3x-oc/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$7.280"
+        "Efectivo/Transferencia": "$7.499"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,7 +57,13 @@
       "store_name": "Dust2",
       "date": "2026-05-01",
       "price": 7280
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 7499
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

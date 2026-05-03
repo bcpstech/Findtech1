@@ -13,20 +13,19 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:39",
-  "updated_at": "2026-05-01 00:29:36",
+  "updated_at": "2026-05-03 04:18:44",
   "prices": [
     {
       "product_id": 9706,
       "store_id": "spdigital",
       "price": 99990,
-      "price_normal": 104490,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/fuente-de-poder-antec-atom-b750-ec-750w-80-plus-bronze-ventilador-silencioso",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$99.990",
-        "Webpay / Tarjeta": "$104.490"
+        "Transferencia / Efectivo": "$99.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -52,7 +51,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-01",
       "price": 99990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-03",
+      "price": 99990
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

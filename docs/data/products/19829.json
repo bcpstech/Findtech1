@@ -1,0 +1,77 @@
+{
+  "id": 19829,
+  "external_id": "pn_912v532011",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "Tarjeta de Video - MSI SHADOW 2X - Nvidia GeForce RTX 5070 12G OC Edition - 12 GB, GDDR7, 192 bits - PCIe 5.0 - DisplayPort, HDMI",
+  "slug": "tarjeta-de-video-msi-shadow-2x-nvidia-geforce-rtx-5070-12g-oc-edition-12-gb-gddr7-192-bits-pcie",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-msi-shadow-2x-nvidia-geforce-rtx-5070-12g-oc-edition-12-gb-gddr7-192-bits-pcie-5-0-.png",
+  "description": null,
+  "specs": {
+    "VRAM": "12 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "192-bit",
+    "Arquitectura": "Blackwell",
+    "Variante": "OC (Overclocked)",
+    "Efectivo / Transferencia": "$718.990",
+    "Tarjeta crédito/débito": "$758.534",
+    "Garantía": "6 meses",
+    "SKU": "40532",
+    "Part Number": "912-V532-011"
+  },
+  "tags": [],
+  "created_at": "2026-05-01 13:16:39",
+  "updated_at": "2026-05-03 05:12:06",
+  "prices": [
+    {
+      "product_id": 1211,
+      "store_id": "centrale",
+      "price": 7668,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-de-video-msi-geforce-rtx-5070-shadow-2x-oc-12gb-gddr7/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$7.668"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 19829,
+      "store_id": "myshop",
+      "price": 718990,
+      "price_normal": 758534,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/msi-geforce-rtx-5070-12g-shadow-2x-oc-p40532",
+      "store_name": "MyShop",
+      "price_specs": {
+        "Efectivo/Transferencia": "$718.990",
+        "Tarjeta crédito/débito": "$758.534"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-01",
+      "price": 718990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-03",
+      "price": 718990
+    }
+  ],
+  "scraped_at": "2026-05-03"
+}

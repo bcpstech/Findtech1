@@ -12,24 +12,24 @@
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
     "Marca": "ADATA",
-    "Efectivo / Transferencia": "$2.000",
-    "Tarjeta crédito/débito": "$2.060"
+    "Efectivo / Transferencia": "$2.060",
+    "Tarjeta crédito/débito": "$2.120"
   },
   "tags": [],
   "created_at": "2026-04-26 20:44:17",
-  "updated_at": "2026-05-01 14:32:34",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 2094,
       "store_id": "dust2",
-      "price": 2000,
+      "price": 2060,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/disco-duro-ssd-adata-legend-710-gen3-m-2-1tb/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$2.000"
+        "Efectivo/Transferencia": "$2.060"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,7 +55,13 @@
       "store_name": "Dust2",
       "date": "2026-05-01",
       "price": 2000
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 2060
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-03"
 }

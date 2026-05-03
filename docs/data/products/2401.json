@@ -9,26 +9,47 @@
   "description": null,
   "specs": {
     "Marca": "be quiet!",
-    "Transferencia/Efectivo": "$67.950",
-    "Webpay / Tarjeta crédito-débito": "$69.990"
+    "Efectivo / Transferencia": "$89.990",
+    "Tarjeta crédito/débito": "$92.690"
   },
   "tags": [],
   "created_at": "2026-04-26 20:48:17",
-  "updated_at": "2026-04-27 22:24:41",
+  "updated_at": "2026-05-03 05:01:16",
   "prices": [
     {
       "product_id": 2401,
       "store_id": "dust2",
-      "price": 67950,
-      "price_normal": 87370,
+      "price": 69990,
+      "price_normal": 89990,
       "discount_pct": 22,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-be-quiet-pure-base-501-dx-white/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$69.990",
+        "Tarjeta crédito/débito": "$89.990"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 9773,
+      "store_id": "spdigital",
+      "price": 159990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/gabinete-gamer-be-quiet-pure-base-501-lx-black-4-argb-usb-c-360-mm-color-negro",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$159.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -43,7 +64,13 @@
       "store_name": "Dust2",
       "date": "2026-04-27",
       "price": 67950
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-03",
+      "price": 69990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }

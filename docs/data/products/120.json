@@ -16,12 +16,12 @@
     "TDP": "150W",
     "Socket": "LGA1700",
     "Generación": "Intel 12ª Gen (Alder Lake)",
-    "Efectivo/Transferencia": "$299.900",
+    "Efectivo / Transferencia": "$299.900",
     "Tarjeta crédito/débito": "$308.897"
   },
   "tags": [],
   "created_at": "2026-04-26 16:05:42",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-05-03 05:12:06",
   "prices": [
     {
       "product_id": 120,
@@ -32,6 +32,9 @@
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/intel/2176-7ghz-intel-i5-12600kf-49ghz-turbo-10c16t-20mb-cache-125w150w-lga1700-12th-generacion.html",
       "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$299.900"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
@@ -50,7 +53,13 @@
       "store_name": "Alltec",
       "date": "2026-04-27",
       "price": 299900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-05-03",
+      "price": 299900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-03"
 }
