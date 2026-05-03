@@ -1,9 +1,16 @@
 {
   "last_update": "2026-05-03",
-  "generated_at": "2026-05-03T22:40:04.165Z",
+  "generated_at": "2026-05-03T23:09:24.248Z",
   "total_products": 1092,
   "total_stores": 18,
   "last_runs": [
+    {
+      "store_id": "infor-ingen",
+      "status": "success",
+      "products_updated": 0,
+      "errors_count": 0,
+      "finished_at": "2026-05-03 23:09:22"
+    },
     {
       "store_id": "sandos",
       "status": "success",
@@ -136,13 +143,6 @@
       "products_updated": 37,
       "errors_count": 0,
       "finished_at": "2026-05-03 14:51:28"
-    },
-    {
-      "store_id": "spdigital",
-      "status": "success",
-      "products_updated": 438,
-      "errors_count": 0,
-      "finished_at": "2026-05-03 14:44:06"
     }
   ]
 }
