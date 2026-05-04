@@ -242,6 +242,7 @@ class BaseScraper {
         product_id:   row.id,
         store_id:     this.storeId,
         price:        price.current,
+        price_card:   price.card || null,
         price_normal: price.normal || null,
         discount_pct: price.discount || null,
         stock:        price.stock || 'in_stock',
