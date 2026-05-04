@@ -15,8 +15,8 @@
     "Velocidad": "28000 MHz",
     "Factor de forma": "Full-Height/Full-Length (FH/FL)",
     "TDP": "109 W",
-    "Efectivo/Transferencia": "$599.990",
-    "Tarjeta crédito/débito": "$626.990"
+    "Efectivo/Transferencia": "$449.345",
+    "Tarjeta crédito/débito": "$469.566"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:33",
@@ -43,14 +43,15 @@
     {
       "product_id": 9559,
       "store_id": "spdigital",
-      "price": 599990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 449345,
+      "price_normal": 599990,
+      "discount_pct": 25,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/geforce-rtx-5060-eagle-max-oc-8g",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$599.990"
+        "Transferencia / Efectivo": "$449.345",
+        "Webpay / Tarjeta": "$599.990"
       },
       "store_rating": 0,
       "review_count": 0,

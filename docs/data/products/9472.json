@@ -13,12 +13,12 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Chipset": "Intel B760",
-    "Efectivo/Transferencia": "$263.990",
-    "Tarjeta crédito/débito": "$275.870"
+    "Efectivo/Transferencia": "$177.645",
+    "Tarjeta crédito/débito": "$185.639"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:34",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-05-04 03:25:23",
   "prices": [
     {
       "product_id": 1339,
@@ -40,14 +40,15 @@
     {
       "product_id": 9472,
       "store_id": "spdigital",
-      "price": 263990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 177645,
+      "price_normal": 263990,
+      "discount_pct": 33,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/pro-b760m-a-wifi",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$263.990"
+        "Transferencia / Efectivo": "$177.645",
+        "Webpay / Tarjeta": "$263.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -84,7 +85,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 263990
+      "price": 177645
     }
   ],
   "scraped_at": "2026-05-04"

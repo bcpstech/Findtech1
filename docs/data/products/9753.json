@@ -8,24 +8,25 @@
   "image_url": "https://images.findtech.cl/products/gabinete-cooler-master-masterframe-500-mesh-3-ventiladores-pwm-e-atx-atx-m-atx-mini-itx-silver.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$189.980",
-    "Tarjeta crédito/débito": "$198.520"
+    "Efectivo/Transferencia": "$135.835",
+    "Tarjeta crédito/débito": "$141.948"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:03",
-  "updated_at": "2026-05-04 00:45:21",
+  "updated_at": "2026-05-04 03:24:52",
   "prices": [
     {
       "product_id": 9753,
       "store_id": "spdigital",
-      "price": 189980,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 135835,
+      "price_normal": 189980,
+      "discount_pct": 29,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/masterframe-500-mesh-silver",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$189.980"
+        "Transferencia / Efectivo": "$135.835",
+        "Webpay / Tarjeta": "$189.980"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,7 +63,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 189980
+      "price": 135835
     }
   ],
   "scraped_at": "2026-05-04"

@@ -15,12 +15,12 @@
     "Velocidad": "20000 MHz",
     "Factor de forma": "Full-Height/Half-Length (FH/HL)",
     "TDP": "94 W",
-    "Efectivo/Transferencia": "$435.000",
-    "Tarjeta crédito/débito": "$454.580"
+    "Efectivo/Transferencia": "$368.119",
+    "Tarjeta crédito/débito": "$384.684"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:26",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-05-04 03:25:23",
   "prices": [
     {
       "product_id": 1820,
@@ -94,14 +94,15 @@
     {
       "product_id": 9572,
       "store_id": "spdigital",
-      "price": 435000,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 368119,
+      "price_normal": 435000,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-gigabyte-nvidia-geforce-rtx-5050-windforce-oc-8gb-gddr6-128-bit-pci-e-50",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$435.000"
+        "Transferencia / Efectivo": "$368.119",
+        "Webpay / Tarjeta": "$435.000"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -138,7 +139,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 435000
+      "price": 368119
     }
   ],
   "scraped_at": "2026-05-04"

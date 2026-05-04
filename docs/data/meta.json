@@ -1,9 +1,16 @@
 {
   "last_update": "2026-05-04",
-  "generated_at": "2026-05-04T02:59:32.865Z",
+  "generated_at": "2026-05-04T03:25:25.861Z",
   "total_products": 1294,
   "total_stores": 18,
   "last_runs": [
+    {
+      "store_id": "spdigital",
+      "status": "success",
+      "products_updated": 438,
+      "errors_count": 0,
+      "finished_at": "2026-05-04 03:25:23"
+    },
     {
       "store_id": "infor-ingen",
       "status": "success",
@@ -136,13 +143,6 @@
       "products_updated": 512,
       "errors_count": 0,
       "finished_at": "2026-05-04 00:39:19"
-    },
-    {
-      "store_id": "infor-ingen",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 0,
-      "finished_at": "2026-05-03 23:09:22"
     }
   ]
 }

@@ -12,8 +12,8 @@
     "Factor de forma": "micro ATX",
     "Memoria": "DDR4",
     "Chipset": "Intel B760",
-    "Efectivo/Transferencia": "$219.990",
-    "Tarjeta crédito/débito": "$229.890"
+    "Efectivo/Transferencia": "$114.945",
+    "Tarjeta crédito/débito": "$120.118"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:48",
@@ -56,14 +56,15 @@
     {
       "product_id": 9473,
       "store_id": "spdigital",
-      "price": 219990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 114945,
+      "price_normal": 219990,
+      "discount_pct": 48,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/msi-pro-b760m-p-ddr4-motherboard",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$219.990"
+        "Transferencia / Efectivo": "$114.945",
+        "Webpay / Tarjeta": "$219.990"
       },
       "store_rating": 0,
       "review_count": 0,

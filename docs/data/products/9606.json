@@ -8,29 +8,49 @@
   "image_url": "https://images.findtech.cl/products/disipador-de-cpu-cougar-forza-50-essential-155mm-intel-amd.png",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$49.990",
-    "Tarjeta crédito/débito": "$52.240"
+    "Marca": "Cougar",
+    "Modelo": "Forza 85 ARGB",
+    "Efectivo / Transferencia": "$61.990",
+    "Tarjeta crédito/débito": "$63.850"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:47",
-  "updated_at": "2026-05-01 13:51:23",
+  "updated_at": "2026-05-04 03:23:42",
   "prices": [
     {
       "product_id": 9606,
       "store_id": "spdigital",
-      "price": 49990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 31345,
+      "price_normal": 49990,
+      "discount_pct": 37,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/refrigeracion-cougar-forza-50-essential",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$49.990"
+        "Transferencia / Efectivo": "$31.345",
+        "Webpay / Tarjeta": "$49.990"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1792,
+      "store_id": "progaming",
+      "price": 43490,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://progaming.cl/producto/componentes/refrigeracion/disipador-de-aire-cougar-forza-50-argb/",
+      "store_name": "ProGaming",
+      "price_specs": {
+        "Efectivo/Transferencia": "$43.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.progaming.cl",
+      "full_url": "https://www.progaming.cl"
     }
   ],
   "history": [
@@ -51,7 +71,19 @@
       "store_name": "SP Digital",
       "date": "2026-05-01",
       "price": 49990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-03",
+      "price": 49990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-04",
+      "price": 31345
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-04"
 }

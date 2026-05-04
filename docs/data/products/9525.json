@@ -12,12 +12,12 @@
     "Interfaz": "PCI Express 4.0",
     "Factor de forma": "M.2 2280",
     "Lectura": "6000 MB/s",
-    "Efectivo/Transferencia": "$189.990",
-    "Tarjeta crédito/débito": "$198.540"
+    "Efectivo/Transferencia": "$141.070",
+    "Tarjeta crédito/débito": "$147.418"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:01",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-05-04 03:25:23",
   "prices": [
     {
       "product_id": 677,
@@ -55,6 +55,24 @@
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 9548,
+      "store_id": "spdigital",
+      "price": 94045,
+      "price_normal": 189990,
+      "discount_pct": 51,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/kng-ssd-500gb-m2-2280-60005000mbs-pcie-nvme-gen4",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$94.045",
+        "Webpay / Tarjeta": "$189.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 1558,
@@ -106,23 +124,6 @@
       "review_count": 0,
       "store_url": "www.megabytes.cl",
       "full_url": "https://www.megabytes.cl"
-    },
-    {
-      "product_id": 9525,
-      "store_id": "spdigital",
-      "price": 189990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/kng-ssd-1tb-m2-2280-60005000mbs-pcie-nvme-gen4",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$189.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -154,7 +155,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 189990
+      "price": 141070
     }
   ],
   "scraped_at": "2026-05-04"

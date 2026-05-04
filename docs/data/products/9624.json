@@ -8,29 +8,65 @@
   "image_url": "https://images.findtech.cl/products/caja-abierta-danada-refrigeracion-liquida-msi-mag-coreliquid-a13-240-white-240mm-argb.png",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$89.990",
-    "Tarjeta crédito/débito": "$94.040"
+    "Efectivo/Transferencia": "$62.695",
+    "Tarjeta crédito/débito": "$65.516"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:57",
-  "updated_at": "2026-05-01 13:51:32",
+  "updated_at": "2026-05-04 03:23:51",
   "prices": [
     {
       "product_id": 9624,
       "store_id": "spdigital",
-      "price": 89990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 62695,
+      "price_normal": 89990,
+      "discount_pct": 30,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/caja-abierta-danada-refrigeracion-liquida-msi-mag-coreliquid-a13-240-white-240mm-argb-compatib",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$89.990"
+        "Transferencia / Efectivo": "$62.695",
+        "Webpay / Tarjeta": "$89.990"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1608,
+      "store_id": "centrale",
+      "price": 68770,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/refrigeracion-msi-mag-coreliquid-a13-240mm-2-ventiladores-argb/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$68.770"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 33660,
+      "store_id": "infor-ingen",
+      "price": 68900,
+      "price_normal": 73034,
+      "discount_pct": 6,
+      "stock": "in_stock",
+      "product_url": "https://store.infor-ingen.com/producto/watercooling-msi-coreliquid-a13-240mm-white/",
+      "store_name": "Infor-Ingen",
+      "price_specs": {
+        "Efectivo/Transferencia": "$68.900",
+        "Tarjeta crédito/débito": "$73.034"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
     }
   ],
   "history": [
@@ -51,7 +87,19 @@
       "store_name": "SP Digital",
       "date": "2026-05-01",
       "price": 89990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-03",
+      "price": 89990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-04",
+      "price": 62695
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-04"
 }

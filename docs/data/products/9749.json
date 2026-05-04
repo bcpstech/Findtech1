@@ -8,24 +8,25 @@
   "image_url": "https://images.findtech.cl/products/caja-abierta-danada-gabinete-gamemax-f46-bk-torre-atx-vidrio-templado-4-ventiladores-argb-pwm.png",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$89.990",
-    "Tarjeta crédito/débito": "$94.040"
+    "Efectivo/Transferencia": "$52.245",
+    "Tarjeta crédito/débito": "$54.596"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:02",
-  "updated_at": "2026-05-04 00:45:19",
+  "updated_at": "2026-05-04 03:24:51",
   "prices": [
     {
       "product_id": 9749,
       "store_id": "spdigital",
-      "price": 89990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 52245,
+      "price_normal": 89990,
+      "discount_pct": 42,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/caja-abiertadanada-gabinete-gamemax-f46-bk-torre-atx-vidrio-templado-4-ventiladores-argbpwm",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$89.990"
+        "Transferencia / Efectivo": "$52.245",
+        "Webpay / Tarjeta": "$89.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,7 +63,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 89990
+      "price": 52245
     }
   ],
   "scraped_at": "2026-05-04"

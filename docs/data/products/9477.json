@@ -14,12 +14,12 @@
     "Latencia": "CL16",
     "Iluminación": "RGB",
     "Tipo de memoria": "DDR4",
-    "Efectivo/Transferencia": "$329.990",
-    "Tarjeta crédito/débito": "$344.840"
+    "Efectivo/Transferencia": "$135.845",
+    "Tarjeta crédito/débito": "$141.958"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:38",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-05-04 03:25:23",
   "prices": [
     {
       "product_id": 1468,
@@ -74,6 +74,24 @@
       "full_url": "https://www.dust2.gg"
     },
     {
+      "product_id": 9501,
+      "store_id": "spdigital",
+      "price": 73145,
+      "price_normal": 99990,
+      "discount_pct": 27,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/adata-dram-xpg-ddr4-tungsten-grey-3600",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$73.145",
+        "Webpay / Tarjeta": "$99.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 1172,
       "store_id": "cg",
       "price": 89990,
@@ -89,23 +107,6 @@
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
-    },
-    {
-      "product_id": 9501,
-      "store_id": "spdigital",
-      "price": 99990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/adata-dram-xpg-ddr4-tungsten-grey-3600",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$99.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -137,7 +138,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 329990
+      "price": 135845
     }
   ],
   "scraped_at": "2026-05-04"

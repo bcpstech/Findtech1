@@ -8,24 +8,25 @@
   "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-id-cooling-sl240-xe-pantalla-lcd-2-1-240mm-amd-intel-argb.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$159.990",
-    "Tarjeta crédito/débito": "$167.190"
+    "Efectivo/Transferencia": "$104.495",
+    "Tarjeta crédito/débito": "$109.197"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:12",
-  "updated_at": "2026-05-04 00:44:32",
+  "updated_at": "2026-05-04 03:24:04",
   "prices": [
     {
       "product_id": 9658,
       "store_id": "spdigital",
-      "price": 159990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 104495,
+      "price_normal": 159990,
+      "discount_pct": 35,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/sl240-xe",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$159.990"
+        "Transferencia / Efectivo": "$104.495",
+        "Webpay / Tarjeta": "$159.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,7 +63,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 159990
+      "price": 104495
     }
   ],
   "scraped_at": "2026-05-04"

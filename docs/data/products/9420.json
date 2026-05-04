@@ -18,24 +18,25 @@
     "Caché L3": "12 MB",
     "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
     "Gráficos integrados": "Intel UHD Graphics 730",
-    "Efectivo/Transferencia": "$249.990",
-    "Tarjeta crédito/débito": "$261.240"
+    "Efectivo/Transferencia": "$167.195",
+    "Tarjeta crédito/débito": "$174.719"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:04",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-05-04 03:25:23",
   "prices": [
     {
       "product_id": 9420,
       "store_id": "spdigital",
-      "price": 249990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 167195,
+      "price_normal": 249990,
+      "discount_pct": 33,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/intel-core-i3-i3-14100-35-ghz-4-nucleos-8-hilos-12-mb-cache-fclga1700-socket-caja",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$249.990"
+        "Transferencia / Efectivo": "$167.195",
+        "Webpay / Tarjeta": "$249.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -72,7 +73,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 249990
+      "price": 167195
     }
   ],
   "scraped_at": "2026-05-04"

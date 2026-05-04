@@ -8,24 +8,25 @@
   "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-antec-skeleton-360-360mm-argb-intel-amd.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$119.990",
-    "Tarjeta crédito/débito": "$125.390"
+    "Efectivo/Transferencia": "$88.820",
+    "Tarjeta crédito/débito": "$92.817"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:59",
-  "updated_at": "2026-05-04 00:44:21",
+  "updated_at": "2026-05-04 03:23:52",
   "prices": [
     {
       "product_id": 9629,
       "store_id": "spdigital",
-      "price": 119990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 88820,
+      "price_normal": 119990,
+      "discount_pct": 26,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/antec-water-c-skeleton-360-argb-bk-0-761345-40066-4",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$119.990"
+        "Transferencia / Efectivo": "$88.820",
+        "Webpay / Tarjeta": "$119.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,7 +63,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 119990
+      "price": 88820
     }
   ],
   "scraped_at": "2026-05-04"

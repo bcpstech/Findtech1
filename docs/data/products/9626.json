@@ -8,24 +8,25 @@
   "image_url": "https://images.findtech.cl/products/kit-de-retencion-amd-tr5-sp6-para-refrigeracion-liquida-corsair-nautilus-rs-aio.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$18.090",
-    "Tarjeta crédito/débito": "$18.910"
+    "Efectivo/Transferencia": "$16.115",
+    "Tarjeta crédito/débito": "$16.840"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:58",
-  "updated_at": "2026-05-04 00:44:20",
+  "updated_at": "2026-05-04 03:23:51",
   "prices": [
     {
       "product_id": 9626,
       "store_id": "spdigital",
-      "price": 18090,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 16115,
+      "price_normal": 18090,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/adaptador-para-cooler-nautilus-para-socket-str5",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$18.090"
+        "Transferencia / Efectivo": "$16.115",
+        "Webpay / Tarjeta": "$18.090"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,7 +63,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 18090
+      "price": 16115
     }
   ],
   "scraped_at": "2026-05-04"

@@ -9,24 +9,25 @@
   "description": null,
   "specs": {
     "Factor de forma": "Midi Tower",
-    "Efectivo/Transferencia": "$179.990",
-    "Tarjeta crédito/débito": "$188.090"
+    "Efectivo/Transferencia": "$146.295",
+    "Tarjeta crédito/débito": "$152.878"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:06",
-  "updated_at": "2026-05-04 00:45:23",
+  "updated_at": "2026-05-04 03:24:55",
   "prices": [
     {
       "product_id": 9759,
       "store_id": "spdigital",
-      "price": 179990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 146295,
+      "price_normal": 179990,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/gabinete-gamer-antec-c7-argb-white-mid-tower-e-atx-atx-m-atx-itx-tempered-glass-usb-c",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$179.990"
+        "Transferencia / Efectivo": "$146.295",
+        "Webpay / Tarjeta": "$179.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,7 +64,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 179990
+      "price": 146295
     }
   ],
   "scraped_at": "2026-05-04"

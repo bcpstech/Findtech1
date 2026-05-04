@@ -19,8 +19,8 @@
     "TDP": "65 W",
     "Memoria soportada": "DDR5-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$459.990",
-    "Tarjeta crédito/débito": "$480.690"
+    "Efectivo/Transferencia": "$292.595",
+    "Tarjeta crédito/débito": "$305.762"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:29",
@@ -79,6 +79,24 @@
       "full_url": "https://www.n1g.cl"
     },
     {
+      "product_id": 9412,
+      "store_id": "spdigital",
+      "price": 292595,
+      "price_normal": 459990,
+      "discount_pct": 36,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/amd-8700f",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$292.595",
+        "Webpay / Tarjeta": "$459.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 2631,
       "store_id": "trulustore",
       "price": 299990,
@@ -113,23 +131,6 @@
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
-    },
-    {
-      "product_id": 9412,
-      "store_id": "spdigital",
-      "price": 459990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/amd-8700f",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$459.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [

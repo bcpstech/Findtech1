@@ -20,12 +20,12 @@
     "TDP": "120 W",
     "Memoria soportada": "DDR5-SDRAM",
     "Gráficos integrados": "AMD Radeon Graphics",
-    "Efectivo/Transferencia": "$799.990",
-    "Tarjeta crédito/débito": "$835.990"
+    "Efectivo/Transferencia": "$574.745",
+    "Tarjeta crédito/débito": "$600.609"
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:54",
-  "updated_at": "2026-05-04 00:42:27",
+  "updated_at": "2026-05-04 03:21:58",
   "prices": [
     {
       "product_id": 2817,
@@ -64,14 +64,15 @@
     {
       "product_id": 9404,
       "store_id": "spdigital",
-      "price": 799990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 574745,
+      "price_normal": 799990,
+      "discount_pct": 28,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-7-9800x3d-47ghz-52ghz-turbo-8-cores-16-threads-socket-am5",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$799.990"
+        "Transferencia / Efectivo": "$574.745",
+        "Webpay / Tarjeta": "$799.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -108,7 +109,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 799990
+      "price": 574745
     }
   ],
   "scraped_at": "2026-05-04"

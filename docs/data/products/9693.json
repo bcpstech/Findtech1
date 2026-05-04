@@ -8,24 +8,25 @@
   "image_url": "https://images.findtech.cl/products/ventilador-para-pc-cougar-vortex-vx120-argb-pwm-hdb-120-mm.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$24.990",
-    "Tarjeta crédito/débito": "$26.110"
+    "Efectivo/Transferencia": "$16.710",
+    "Tarjeta crédito/débito": "$17.462"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:31",
-  "updated_at": "2026-05-04 00:44:50",
+  "updated_at": "2026-05-04 03:24:22",
   "prices": [
     {
       "product_id": 9693,
       "store_id": "spdigital",
-      "price": 24990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 16710,
+      "price_normal": 24990,
+      "discount_pct": 33,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ventilador-cougar-vortex-vx-120mm-argb",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$24.990"
+        "Transferencia / Efectivo": "$16.710",
+        "Webpay / Tarjeta": "$24.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,7 +63,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 24990
+      "price": 16710
     }
   ],
   "scraped_at": "2026-05-04"

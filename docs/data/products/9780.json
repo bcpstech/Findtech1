@@ -9,24 +9,25 @@
   "description": null,
   "specs": {
     "Factor de forma": "Escritorio",
-    "Efectivo/Transferencia": "$129.990",
-    "Tarjeta crédito/débito": "$135.840"
+    "Efectivo/Transferencia": "$91.955",
+    "Tarjeta crédito/débito": "$96.093"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:15",
-  "updated_at": "2026-05-04 00:45:32",
+  "updated_at": "2026-05-04 03:25:03",
   "prices": [
     {
       "product_id": 9780,
       "store_id": "spdigital",
-      "price": 129990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 91955,
+      "price_normal": 129990,
+      "discount_pct": 29,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/gabinete-gamer-cooler-master-masterbox-600-vidrio-templado-mid-tower-itx-micro-atx-atx",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$129.990"
+        "Transferencia / Efectivo": "$91.955",
+        "Webpay / Tarjeta": "$129.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,7 +64,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 129990
+      "price": 91955
     }
   ],
   "scraped_at": "2026-05-04"

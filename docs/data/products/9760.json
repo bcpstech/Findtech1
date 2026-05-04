@@ -9,24 +9,25 @@
   "description": null,
   "specs": {
     "Factor de forma": "Full Tower",
-    "Efectivo/Transferencia": "$179.990",
-    "Tarjeta crédito/débito": "$188.090"
+    "Efectivo/Transferencia": "$141.070",
+    "Tarjeta crédito/débito": "$147.418"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:06",
-  "updated_at": "2026-05-04 00:45:24",
+  "updated_at": "2026-05-04 03:24:55",
   "prices": [
     {
       "product_id": 9760,
       "store_id": "spdigital",
-      "price": 179990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 141070,
+      "price_normal": 179990,
+      "discount_pct": 22,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/gabinete-gamer-antec-c8-curve-wood-mid-tower-vidrio-templado-curvo-madera",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$179.990"
+        "Transferencia / Efectivo": "$141.070",
+        "Webpay / Tarjeta": "$179.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,7 +64,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 179990
+      "price": 141070
     }
   ],
   "scraped_at": "2026-05-04"

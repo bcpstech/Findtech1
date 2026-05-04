@@ -9,24 +9,25 @@
   "description": null,
   "specs": {
     "Certificación": "CE/CCC/BSMI/KCC/EAC/UL/TUV/RCM/FCC/PSE",
-    "Efectivo/Transferencia": "$79.980",
-    "Tarjeta crédito/débito": "$83.570"
+    "Efectivo/Transferencia": "$62.685",
+    "Tarjeta crédito/débito": "$65.506"
   },
   "tags": [],
   "created_at": "2026-04-29 16:31:14",
-  "updated_at": "2026-05-04 00:44:56",
+  "updated_at": "2026-05-04 03:24:28",
   "prices": [
     {
       "product_id": 15348,
       "store_id": "spdigital",
-      "price": 79980,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 62685,
+      "price_normal": 79980,
+      "discount_pct": 22,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/caja-abiertadanada-fuente-de-poder-650w-gigabyte-p650b-certificacion-80-plus-bronze-atx",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$79.980"
+        "Transferencia / Efectivo": "$62.685",
+        "Webpay / Tarjeta": "$79.980"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,7 +58,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 79980
+      "price": 62685
     }
   ],
   "scraped_at": "2026-05-04"

@@ -8,24 +8,25 @@
   "image_url": "https://images.findtech.cl/products/ventilador-para-gabiente-cougar-apolar-120-argb-blanco-reverse-ventilador-120mm-pwm-hdb.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$29.990",
-    "Tarjeta crédito/débito": "$31.340"
+    "Efectivo/Transferencia": "$18.805",
+    "Tarjeta crédito/débito": "$19.651"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:26",
-  "updated_at": "2026-05-04 00:44:45",
+  "updated_at": "2026-05-04 03:24:18",
   "prices": [
     {
       "product_id": 9682,
       "store_id": "spdigital",
-      "price": 29990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 18805,
+      "price_normal": 29990,
+      "discount_pct": 37,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ventilador-cougar-apolar-120mm-argb-white-reverse",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$29.990"
+        "Transferencia / Efectivo": "$18.805",
+        "Webpay / Tarjeta": "$29.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,7 +63,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 29990
+      "price": 18805
     }
   ],
   "scraped_at": "2026-05-04"

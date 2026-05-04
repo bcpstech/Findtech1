@@ -19,12 +19,12 @@
     "Caché L3": "36 MB",
     "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
     "Gráficos integrados": "Intel UHD Graphics 770",
-    "Efectivo/Transferencia": "$899.990",
-    "Tarjeta crédito/débito": "$940.490"
+    "Efectivo/Transferencia": "$835.995",
+    "Tarjeta crédito/débito": "$873.615"
   },
   "tags": [],
   "created_at": "2026-05-01 00:27:15",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-05-04 03:25:23",
   "prices": [
     {
       "product_id": 1924,
@@ -81,14 +81,15 @@
     {
       "product_id": 16230,
       "store_id": "spdigital",
-      "price": 899990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 835995,
+      "price_normal": 899990,
+      "discount_pct": 7,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/intel-core-i9-i9-14900-2-ghz-24-nucleos-32-hilos-36-mb-cache-fclga1700-socket-caja",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$899.990"
+        "Transferencia / Efectivo": "$835.995",
+        "Webpay / Tarjeta": "$899.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -113,7 +114,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 899990
+      "price": 835995
     }
   ],
   "scraped_at": "2026-05-04"

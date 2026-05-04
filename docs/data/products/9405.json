@@ -20,12 +20,12 @@
     "Caché L3": "8 MB",
     "TDP": "65 W",
     "Memoria soportada": "DDR4-SDRAM",
-    "Efectivo/Transferencia": "$209.990",
-    "Tarjeta crédito/débito": "$219.440"
+    "Efectivo/Transferencia": "$117.140",
+    "Tarjeta crédito/débito": "$122.411"
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:55",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-05-04 03:25:23",
   "prices": [
     {
       "product_id": 24,
@@ -65,14 +65,15 @@
     {
       "product_id": 9405,
       "store_id": "spdigital",
-      "price": 209990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 117140,
+      "price_normal": 209990,
+      "discount_pct": 44,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-3-5300g-con-graficos-radeon-4-nucleos-8-hilos-42ghz-am4",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$209.990"
+        "Transferencia / Efectivo": "$117.140",
+        "Webpay / Tarjeta": "$209.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -109,7 +110,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 209990
+      "price": 117140
     }
   ],
   "scraped_at": "2026-05-04"

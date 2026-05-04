@@ -8,24 +8,25 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-seasonic-vertex-px-1200-full-modular-certificada-80-plus-platinum-atx-3-1.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$499.990",
-    "Tarjeta crédito/débito": "$522.490"
+    "Efectivo/Transferencia": "$381.420",
+    "Tarjeta crédito/débito": "$398.584"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:53",
-  "updated_at": "2026-05-04 00:45:13",
+  "updated_at": "2026-05-04 03:24:44",
   "prices": [
     {
       "product_id": 9741,
       "store_id": "spdigital",
-      "price": 499990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 381420,
+      "price_normal": 499990,
+      "discount_pct": 24,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/seasonic-12122pxafs-vertex-px-1200",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$499.990"
+        "Transferencia / Efectivo": "$381.420",
+        "Webpay / Tarjeta": "$499.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,7 +63,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 499990
+      "price": 381420
     }
   ],
   "scraped_at": "2026-05-04"

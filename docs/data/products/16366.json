@@ -10,25 +10,24 @@
   "specs": {
     "Capacidad": "20 TB",
     "Interfaz": "Serial ATA III",
-    "Efectivo/Transferencia": "$1.316.340",
-    "Tarjeta crédito/débito": "$1.375.570"
+    "Efectivo/Transferencia": "$1.375.570",
+    "Tarjeta crédito/débito": "$1.437.471"
   },
   "tags": [],
   "created_at": "2026-05-01 00:28:20",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-05-04 03:25:23",
   "prices": [
     {
       "product_id": 16366,
       "store_id": "spdigital",
-      "price": 1316340,
-      "price_normal": 1375570,
-      "discount_pct": 4,
+      "price": 1375570,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/disco-duro-seagate-exos-x24-20tb-7200rpm-512mb-enterprise-alto-rendimiento",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.316.340",
-        "Webpay / Tarjeta": "$1.375.570"
+        "Transferencia / Efectivo": "$1.375.570"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -53,7 +52,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 1316340
+      "price": 1375570
     }
   ],
   "scraped_at": "2026-05-04"

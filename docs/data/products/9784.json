@@ -9,24 +9,25 @@
   "description": null,
   "specs": {
     "Factor de forma": "Midi Tower",
-    "Efectivo/Transferencia": "$114.660",
-    "Tarjeta crédito/débito": "$119.810"
+    "Efectivo/Transferencia": "$97.082",
+    "Tarjeta crédito/débito": "$101.451"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:17",
-  "updated_at": "2026-05-04 00:45:33",
+  "updated_at": "2026-05-04 03:25:04",
   "prices": [
     {
       "product_id": 9784,
       "store_id": "spdigital",
-      "price": 114660,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 97082,
+      "price_normal": 114660,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/qube-500-flatpack-macaron-edition",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$114.660"
+        "Transferencia / Efectivo": "$97.082",
+        "Webpay / Tarjeta": "$114.660"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,7 +64,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 114660
+      "price": 97082
     }
   ],
   "scraped_at": "2026-05-04"

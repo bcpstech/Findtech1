@@ -21,12 +21,12 @@
     "Caché L3": "16 MB",
     "TDP": "65 W",
     "Memoria soportada": "DDR5-SDRAM",
-    "Efectivo/Transferencia": "$249.990",
-    "Tarjeta crédito/débito": "$261.240"
+    "Efectivo/Transferencia": "$172.420",
+    "Tarjeta crédito/débito": "$180.179"
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:53",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-05-04 03:25:23",
   "prices": [
     {
       "product_id": 1923,
@@ -114,6 +114,24 @@
       "full_url": "https://www.alltec.cl"
     },
     {
+      "product_id": 9402,
+      "store_id": "spdigital",
+      "price": 172420,
+      "price_normal": 249990,
+      "discount_pct": 31,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-5-8500g",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$172.420",
+        "Webpay / Tarjeta": "$249.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 28,
       "store_id": "n1g",
       "price": 185900,
@@ -148,23 +166,6 @@
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
-    },
-    {
-      "product_id": 9402,
-      "store_id": "spdigital",
-      "price": 249990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-5-8500g",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$249.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -196,7 +197,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 249990
+      "price": 172420
     }
   ],
   "scraped_at": "2026-05-04"

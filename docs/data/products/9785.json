@@ -9,24 +9,25 @@
   "description": null,
   "specs": {
     "Factor de forma": "Midi Tower",
-    "Efectivo/Transferencia": "$144.990",
-    "Tarjeta crédito/débito": "$151.510"
+    "Efectivo/Transferencia": "$104.490",
+    "Tarjeta crédito/débito": "$109.192"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:17",
-  "updated_at": "2026-05-04 00:45:34",
+  "updated_at": "2026-05-04 03:25:05",
   "prices": [
     {
       "product_id": 9785,
       "store_id": "spdigital",
-      "price": 144990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 104490,
+      "price_normal": 144990,
+      "discount_pct": 28,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/corsair-memory-corsair-3000d-rgb-airflow-blanco",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$144.990"
+        "Transferencia / Efectivo": "$104.490",
+        "Webpay / Tarjeta": "$144.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,7 +64,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 144990
+      "price": 104490
     }
   ],
   "scraped_at": "2026-05-04"

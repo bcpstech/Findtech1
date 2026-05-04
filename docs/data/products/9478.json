@@ -11,30 +11,48 @@
     "Capacidad": "16 GB",
     "Tipo": "DDR5",
     "Velocidad": "6000 MHz",
-    "Iluminación": "RGB",
-    "Efectivo/Transferencia": "$449.990",
-    "Tarjeta crédito/débito": "$470.240"
+    "Latencia": "CL36",
+    "Transferencia / Efectivo": "$238.000",
+    "Tarjeta crédito/débito": "$251.090"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:39",
-  "updated_at": "2026-05-01 13:20:38",
+  "updated_at": "2026-05-04 03:25:23",
   "prices": [
     {
       "product_id": 9478,
       "store_id": "spdigital",
-      "price": 449990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 219445,
+      "price_normal": 449990,
+      "discount_pct": 51,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/xpg-ram-lancer-blade-rgb-ddr5-16gb-6000-black",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$449.990"
+        "Transferencia / Efectivo": "$219.445",
+        "Webpay / Tarjeta": "$449.990"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1443,
+      "store_id": "centrale",
+      "price": 238000,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-6000mt-s-cl36-xpg-lancer-blade-black/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$238.000"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -55,7 +73,19 @@
       "store_name": "SP Digital",
       "date": "2026-05-01",
       "price": 449990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-03",
+      "price": 449990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-04",
+      "price": 219445
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-04"
 }

@@ -11,24 +11,25 @@
     "Capacidad": "1.92 TB",
     "Factor de forma": "2.5\"",
     "Interfaz": "Serial ATA III",
-    "Efectivo/Transferencia": "$589.140",
-    "Tarjeta crédito/débito": "$615.650"
+    "Efectivo/Transferencia": "$498.492",
+    "Tarjeta crédito/débito": "$520.924"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:11",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-05-04 03:25:23",
   "prices": [
     {
       "product_id": 9549,
       "store_id": "spdigital",
-      "price": 589140,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 498492,
+      "price_normal": 589140,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/unidad-ssd-micron-5400-max-192tb-ssd-25-almacenamiento-de-alto-rendimiento-para-centro-de-datos",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$589.140"
+        "Transferencia / Efectivo": "$498.492",
+        "Webpay / Tarjeta": "$589.140"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -65,7 +66,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 589140
+      "price": 498492
     }
   ],
   "scraped_at": "2026-05-04"

@@ -13,12 +13,12 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Chipset": "AMD B650",
-    "Efectivo/Transferencia": "$185.530",
-    "Tarjeta crédito/débito": "$193.880"
+    "Efectivo/Transferencia": "$193.880",
+    "Tarjeta crédito/débito": "$202.605"
   },
   "tags": [],
   "created_at": "2026-04-29 16:29:07",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-05-04 03:25:23",
   "prices": [
     {
       "product_id": 1347,
@@ -57,15 +57,14 @@
     {
       "product_id": 15078,
       "store_id": "spdigital",
-      "price": 185530,
-      "price_normal": 193880,
-      "discount_pct": 4,
+      "price": 193880,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/asus-motherboard-prime-b650em-a-wifi",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$185.530",
-        "Webpay / Tarjeta": "$193.880"
+        "Transferencia / Efectivo": "$193.880"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -96,7 +95,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 185530
+      "price": 193880
     }
   ],
   "scraped_at": "2026-05-04"

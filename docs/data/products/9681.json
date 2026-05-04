@@ -8,24 +8,25 @@
   "image_url": "https://images.findtech.cl/products/ventilador-be-quiet-light-wings-lx-120mm-pwm-argb-2100-rpm-61-8-cfm.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$29.990",
-    "Tarjeta crédito/débito": "$31.340"
+    "Efectivo/Transferencia": "$20.895",
+    "Tarjeta crédito/débito": "$21.835"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:25",
-  "updated_at": "2026-05-04 00:44:45",
+  "updated_at": "2026-05-04 03:24:17",
   "prices": [
     {
       "product_id": 9681,
       "store_id": "spdigital",
-      "price": 29990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 20895,
+      "price_normal": 29990,
+      "discount_pct": 30,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ventilador-be-quiet-light-wings-lx-120mm-pwm-argb-2100-rpm-618-cfm",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$29.990"
+        "Transferencia / Efectivo": "$20.895",
+        "Webpay / Tarjeta": "$29.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,7 +63,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 29990
+      "price": 20895
     }
   ],
   "scraped_at": "2026-05-04"

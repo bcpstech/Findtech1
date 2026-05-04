@@ -18,24 +18,25 @@
     "Caché L3": "12 MB",
     "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$229.990",
-    "Tarjeta crédito/débito": "$240.340"
+    "Efectivo/Transferencia": "$156.745",
+    "Tarjeta crédito/débito": "$163.799"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:03",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-05-04 03:25:23",
   "prices": [
     {
       "product_id": 9419,
       "store_id": "spdigital",
-      "price": 229990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 156745,
+      "price_normal": 229990,
+      "discount_pct": 32,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-intel-13100f",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$229.990"
+        "Transferencia / Efectivo": "$156.745",
+        "Webpay / Tarjeta": "$229.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -72,7 +73,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 229990
+      "price": 156745
     }
   ],
   "scraped_at": "2026-05-04"

@@ -21,12 +21,12 @@
     "Caché L3": "144 MB",
     "Memoria soportada": "DDR5-SDRAM",
     "Gráficos integrados": "AMD Radeon Graphics",
-    "Efectivo/Transferencia": "$1.299.990",
-    "Tarjeta crédito/débito": "$1.358.490"
+    "Efectivo/Transferencia": "$877.795",
+    "Tarjeta crédito/débito": "$917.296"
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:59",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-05-04 03:25:23",
   "prices": [
     {
       "product_id": 2825,
@@ -67,14 +67,15 @@
     {
       "product_id": 9415,
       "store_id": "spdigital",
-      "price": 1299990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 877795,
+      "price_normal": 1299990,
+      "discount_pct": 32,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/amd-ryzen-9-9950x3d-16-core-processor",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.299.990"
+        "Transferencia / Efectivo": "$877.795",
+        "Webpay / Tarjeta": "$1.299.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -111,7 +112,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 1299990
+      "price": 877795
     }
   ],
   "scraped_at": "2026-05-04"

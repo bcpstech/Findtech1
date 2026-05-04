@@ -8,24 +8,25 @@
   "image_url": "https://images.findtech.cl/products/caja-abierta-danada-gabinete-gamer-xyz-airone-50-mesh-4x-ventiladores-argb-120-140mm-usb-3-0-atx.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$64.980",
-    "Tarjeta crédito/débito": "$67.900"
+    "Efectivo/Transferencia": "$26.115",
+    "Tarjeta crédito/débito": "$27.290"
   },
   "tags": [],
   "created_at": "2026-05-01 00:29:59",
-  "updated_at": "2026-05-04 00:45:19",
+  "updated_at": "2026-05-04 03:24:51",
   "prices": [
     {
       "product_id": 16571,
       "store_id": "spdigital",
-      "price": 64980,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 26115,
+      "price_normal": 64980,
+      "discount_pct": 60,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/caja-abiertadanada-gabinete-gamer-xyz-airone-50-mesh-4x-ventiladores-argb-120140mm-usb-30-atx",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$64.980"
+        "Transferencia / Efectivo": "$26.115",
+        "Webpay / Tarjeta": "$64.980"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -50,7 +51,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 64980
+      "price": 26115
     }
   ],
   "scraped_at": "2026-05-04"

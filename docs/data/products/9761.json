@@ -9,24 +9,25 @@
   "description": null,
   "specs": {
     "Factor de forma": "Full Tower",
-    "Efectivo/Transferencia": "$159.990",
-    "Tarjeta crédito/débito": "$167.190"
+    "Efectivo/Transferencia": "$122.260",
+    "Tarjeta crédito/débito": "$127.762"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:07",
-  "updated_at": "2026-05-04 00:45:24",
+  "updated_at": "2026-05-04 03:24:55",
   "prices": [
     {
       "product_id": 9761,
       "store_id": "spdigital",
-      "price": 159990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 122260,
+      "price_normal": 159990,
+      "discount_pct": 24,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/gabinete-gamer-antec-c8-white-doble-camara-vidrio-templado-vista-270deg-e-atx-atx-m-atx-itx",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$159.990"
+        "Transferencia / Efectivo": "$122.260",
+        "Webpay / Tarjeta": "$159.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,7 +64,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 159990
+      "price": 122260
     }
   ],
   "scraped_at": "2026-05-04"

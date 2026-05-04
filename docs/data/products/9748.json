@@ -8,24 +8,25 @@
   "image_url": "https://images.findtech.cl/products/gabinete-gamer-esgaming-f22-bk-mid-tower-4-ventiladores-argb-atx-m-atx-negro.jpeg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$69.990",
-    "Tarjeta crédito/débito": "$73.140"
+    "Efectivo/Transferencia": "$44.930",
+    "Tarjeta crédito/débito": "$46.952"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:01",
-  "updated_at": "2026-05-04 00:45:18",
+  "updated_at": "2026-05-04 03:24:50",
   "prices": [
     {
       "product_id": 9748,
       "store_id": "spdigital",
-      "price": 69990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 44930,
+      "price_normal": 69990,
+      "discount_pct": 36,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/gabinete-gamer-f22-bk-4-fan-argb-atx-m-atx-esgaming",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$69.990"
+        "Transferencia / Efectivo": "$44.930",
+        "Webpay / Tarjeta": "$69.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,7 +63,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 69990
+      "price": 44930
     }
   ],
   "scraped_at": "2026-05-04"

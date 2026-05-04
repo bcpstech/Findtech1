@@ -8,24 +8,25 @@
   "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-id-cooling-zoomflow-240-xt-v2-white-240mm-argb-intel-amd.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$99.990",
-    "Tarjeta crédito/débito": "$104.490"
+    "Efectivo/Transferencia": "$66.875",
+    "Tarjeta crédito/débito": "$69.884"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:12",
-  "updated_at": "2026-05-04 00:44:32",
+  "updated_at": "2026-05-04 03:24:04",
   "prices": [
     {
       "product_id": 9659,
       "store_id": "spdigital",
-      "price": 99990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 66875,
+      "price_normal": 99990,
+      "discount_pct": 33,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/zoomflow-240-xt-v2-white",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$99.990"
+        "Transferencia / Efectivo": "$66.875",
+        "Webpay / Tarjeta": "$99.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,7 +63,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 99990
+      "price": 66875
     }
   ],
   "scraped_at": "2026-05-04"

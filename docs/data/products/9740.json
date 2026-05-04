@@ -8,24 +8,25 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-seasonic-focus-gm-850-850w-semi-modular-certificacion-80-plus-gold.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$179.990",
-    "Tarjeta crédito/débito": "$188.090"
+    "Efectivo/Transferencia": "$125.395",
+    "Tarjeta crédito/débito": "$131.038"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:53",
-  "updated_at": "2026-05-04 00:45:11",
+  "updated_at": "2026-05-04 03:24:42",
   "prices": [
     {
       "product_id": 9740,
       "store_id": "spdigital",
-      "price": 179990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 125395,
+      "price_normal": 179990,
+      "discount_pct": 30,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/fuente-de-poder-seasonic-focus-gm-850-850w-semi-modular-certificación-80-plus-gold",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$179.990"
+        "Transferencia / Efectivo": "$125.395",
+        "Webpay / Tarjeta": "$179.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,7 +63,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 179990
+      "price": 125395
     }
   ],
   "scraped_at": "2026-05-04"

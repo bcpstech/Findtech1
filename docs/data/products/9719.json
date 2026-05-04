@@ -8,24 +8,25 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-be-quiet-dark-power-14-1200w-full-modular-80-plus-titanium-atx-3-1-pcie-5-1.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$449.990",
-    "Tarjeta crédito/débito": "$470.240"
+    "Efectivo/Transferencia": "$323.945",
+    "Tarjeta crédito/débito": "$338.523"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:44",
-  "updated_at": "2026-05-04 00:45:03",
+  "updated_at": "2026-05-04 03:24:35",
   "prices": [
     {
       "product_id": 9719,
       "store_id": "spdigital",
-      "price": 449990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 323945,
+      "price_normal": 449990,
+      "discount_pct": 28,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/be-quiet-bp021eu",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$449.990"
+        "Transferencia / Efectivo": "$323.945",
+        "Webpay / Tarjeta": "$449.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,7 +63,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 449990
+      "price": 323945
     }
   ],
   "scraped_at": "2026-05-04"

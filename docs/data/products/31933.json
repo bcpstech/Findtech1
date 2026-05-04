@@ -13,8 +13,8 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Chipset": "Intel B760",
-    "Efectivo/Transferencia": "$189.990",
-    "Tarjeta crédito/débito": "$198.540"
+    "Efectivo/Transferencia": "$141.070",
+    "Tarjeta crédito/débito": "$147.418"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:44",
@@ -74,14 +74,15 @@
     {
       "product_id": 9461,
       "store_id": "spdigital",
-      "price": 184990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 135840,
+      "price_normal": 184990,
+      "discount_pct": 27,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/prime-b760m-a",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$184.990"
+        "Transferencia / Efectivo": "$135.840",
+        "Webpay / Tarjeta": "$184.990"
       },
       "store_rating": 0,
       "review_count": 0,

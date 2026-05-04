@@ -8,24 +8,25 @@
   "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-xyz-hydroview-240-black-pantalla-lcd-3-5-a-rgb-intel-amd.png",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$224.990",
-    "Tarjeta crédito/débito": "$235.110"
+    "Efectivo/Transferencia": "$125.390",
+    "Tarjeta crédito/débito": "$131.033"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:56",
-  "updated_at": "2026-05-04 00:44:18",
+  "updated_at": "2026-05-04 03:23:50",
   "prices": [
     {
       "product_id": 9621,
       "store_id": "spdigital",
-      "price": 224990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 125390,
+      "price_normal": 224990,
+      "discount_pct": 44,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/refrigeracion-liquida-x-wc-hydroview-240b",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$224.990"
+        "Transferencia / Efectivo": "$125.390",
+        "Webpay / Tarjeta": "$224.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,7 +63,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 224990
+      "price": 125390
     }
   ],
   "scraped_at": "2026-05-04"

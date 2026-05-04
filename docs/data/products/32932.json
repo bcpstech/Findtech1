@@ -20,8 +20,8 @@
     "TDP": "170 W",
     "Memoria soportada": "DDR5-SDRAM",
     "Gráficos integrados": "AMD Radeon",
-    "Efectivo/Transferencia": "$1.059.990",
-    "Tarjeta crédito/débito": "$1.107.690"
+    "Efectivo/Transferencia": "$731.495",
+    "Tarjeta crédito/débito": "$764.412"
   },
   "tags": [],
   "created_at": "2026-05-04 02:41:46",
@@ -84,14 +84,15 @@
     {
       "product_id": 9416,
       "store_id": "spdigital",
-      "price": 1059990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 731495,
+      "price_normal": 1059990,
+      "discount_pct": 31,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ryzen-9-9950x-570ghz-16-core-skt-am5",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.059.990"
+        "Transferencia / Efectivo": "$731.495",
+        "Webpay / Tarjeta": "$1.059.990"
       },
       "store_rating": 0,
       "review_count": 0,

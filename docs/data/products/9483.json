@@ -14,12 +14,12 @@
     "Latencia": "CL40",
     "Kit": "2x32 GB",
     "Iluminación": "RGB",
-    "Efectivo/Transferencia": "$999.990",
-    "Tarjeta crédito/débito": "$1.044.990"
+    "Efectivo/Transferencia": "$982.295",
+    "Tarjeta crédito/débito": "$1.026.498"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:41",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-05-04 03:25:23",
   "prices": [
     {
       "product_id": 1992,
@@ -41,14 +41,15 @@
     {
       "product_id": 9483,
       "store_id": "spdigital",
-      "price": 999990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 982295,
+      "price_normal": 999990,
+      "discount_pct": 2,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ddr5-5600mts-64gb-2x32gb-dimm-vengeance-rgb-ddr5",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$999.990"
+        "Transferencia / Efectivo": "$982.295",
+        "Webpay / Tarjeta": "$999.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -85,7 +86,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 999990
+      "price": 982295
     }
   ],
   "scraped_at": "2026-05-04"
