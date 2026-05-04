@@ -256,46 +256,38 @@ class SPDigitalScraper extends BaseScraper {
       const pricingMeta = item.metadata?.find(m => m.key === 'pricing');
       if (pricingMeta) {
         const pObj = JSON.parse(pricingMeta.value)['sp-digital'];
-        price     = pObj?.cash  ? Math.round(pObj.cash)  : null;
-        priceCard = pObj?.other ? Math.round(pObj.other) : null;
+        // cash/other del metadata es el precio SIN descuento (precio normal/tachado)
+        priceNormal = pObj?.cash  ? Math.round(pObj.cash)  : null;
+        priceCard   = pObj?.other ? Math.round(pObj.other) : null;
       }
     } catch(e) {}
 
-    // Fallback: leer precio desde priceRange (precio con descuento = undiscountedPrice vs price)
-    if (!price) {
-      try {
-        // En Saleor/Next.js: start.gross.amount = precio actual con descuento
-        const startAmt = item.pricing?.priceRange?.start?.gross?.amount;
-        if (startAmt && startAmt > 0) price = Math.round(startAmt);
-      } catch(e) {}
-    }
-
-    // Fallback: precio desde defaultVariant
-    if (!price) {
-      try {
-        const varPrice = item.defaultVariant?.pricing?.price?.gross?.amount;
-        if (varPrice && varPrice > 0) price = Math.round(varPrice);
-      } catch(e) {}
-    }
-
-    if (!price || price < 1000) return;
-    if (!priceCard) priceCard = Math.round(price * 1.045);
-
-    // Precio normal (tachado, antes de descuento) desde undiscountedPrice
+    // El precio ACTUAL (con descuento) viene de priceRange o defaultVariant
     try {
-      // undiscountedPrice es el precio sin descuento en Saleor
-      const undiscounted = item.pricing?.priceRange?.start?.gross?.amount;
-      const discounted   = item.defaultVariant?.pricing?.price?.gross?.amount
-                        || item.defaultVariant?.pricing?.priceUndiscounted?.gross?.amount;
+      // defaultVariant.pricing.price.gross.amount = precio transferencia con descuento
+      const varPrice = item.defaultVariant?.pricing?.price?.gross?.amount;
+      if (varPrice && varPrice > 0) price = Math.round(varPrice);
 
-      // Si hay undiscountedPrice mayor al precio actual → es el precio tachado
-      const undiscountedAmt = item.defaultVariant?.pricing?.priceUndiscounted?.gross?.amount;
-      if (undiscountedAmt && Math.round(undiscountedAmt) > price) {
-        priceNormal = Math.round(undiscountedAmt);
-      } else if (undiscounted && Math.round(undiscounted) > price) {
-        priceNormal = Math.round(undiscounted);
-      }
+      // priceRange.start.gross.amount = precio otros medios (tarjeta)
+      const startAmt = item.pricing?.priceRange?.start?.gross?.amount;
+      if (startAmt && startAmt > 0) priceCard = Math.round(startAmt);
+
+      // Fallback precio transferencia
+      if (!price && startAmt && startAmt > 0) price = Math.round(startAmt);
     } catch(e) {}
+
+    // Si no hay precio con descuento, usar el precio normal
+    if (!price && priceNormal) price = priceNormal;
+    if (!price || price < 1000) return;
+
+    // Si el precio actual >= precio normal, no hay descuento real
+    if (priceNormal && priceNormal <= price) priceNormal = null;
+
+    // Precio tarjeta fallback si no vino de priceRange
+    if (!priceCard || priceCard <= price) priceCard = Math.round(price * 1.045);
+
+    const discount = priceNormal
+      ? Math.round((1 - price / priceNormal) * 100) : null;
 
     // Stock
     const qty = item.defaultVariant?.quantityAvailable ?? 0;
