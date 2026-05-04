@@ -1,7 +1,7 @@
 /**
  * scraper/stores/sandos.js
- * Sandos — WooCommerce HTML scraping por categorías
- * URL verificada: sandos.cl/componentes-tarjeta-de-video
+ * Sandos — WooCommerce HTML scraping
+ * URLs verificadas desde el menú del sitio
  */
 require('dotenv').config();
 const BaseScraper = require('../base-scraper');
@@ -17,15 +17,16 @@ function proxify(url) {
   return `${PROXY_URL}?url=${encodeURIComponent(url)}&secret=${PROXY_KEY}`;
 }
 
+// URLs reales verificadas desde el menú Componentes
 const CATEGORIES = [
-  { url: '/componentes-tarjeta-de-video',  catId: 'gpu'     },
-  { url: '/componentes-procesadores',       catId: 'cpu'     },
-  { url: '/componentes-placas-madre',       catId: 'mobo'    },
-  { url: '/componentes-memorias-ram',       catId: 'ram'     },
-  { url: '/componentes-almacenamiento',     catId: 'storage' },
-  { url: '/componentes-refrigeracion',      catId: 'cooling' },
-  { url: '/componentes-fuentes-de-poder',   catId: 'psu'     },
-  { url: '/componentes-gabinetes',          catId: 'case'    },
+  { url: '/componentes/tarjeta-de-video',        catId: 'gpu'     },
+  { url: '/componentes/procesador',              catId: 'cpu'     },
+  { url: '/componentes/placa-madre',             catId: 'mobo'    },
+  { url: '/componentes/memorias',                catId: 'ram'     },
+  { url: '/almacenamiento',                      catId: 'storage' },
+  { url: '/componentes/refrigeracion-y-ventilacion', catId: 'cooling' },
+  { url: '/componentes/fuente-de-poder',         catId: 'psu'     },
+  { url: '/componentes/gabinete',                catId: 'case'    },
 ];
 
 const OUT_OF_STOCK = ['sin stock', 'agotado', 'out of stock', 'no disponible'];
