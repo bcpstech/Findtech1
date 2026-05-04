@@ -248,7 +248,7 @@ class SPDigitalScraper extends BaseScraper {
     if (this.seenIds.has(item.id)) return;
     this.seenIds.add(item.id);
 
-    // Precio desde metadata pricing (fuente de verdad)
+    // Precio desde metadata: cash y other son precios SIN descuento (tachados)
     let price = null;
     let priceCard = null;
     let priceNormal = null;
@@ -256,37 +256,25 @@ class SPDigitalScraper extends BaseScraper {
       const pricingMeta = item.metadata?.find(m => m.key === 'pricing');
       if (pricingMeta) {
         const pObj = JSON.parse(pricingMeta.value)['sp-digital'];
-        // En metadata: cash = precio tachado (sin descuento), other = precio otros medios (tachado)
-        // Guardamos como priceNormal el mayor de los dos (precio original sin descuento)
-        const metaCash  = pObj?.cash  ? Math.round(pObj.cash)  : null;
-        const metaOther = pObj?.other ? Math.round(pObj.other) : null;
-        priceNormal = metaCash || metaOther || null;
+        priceNormal = pObj?.cash ? Math.round(pObj.cash) : null;
       }
     } catch(e) {}
 
-    // El precio ACTUAL (con descuento) viene de defaultVariant y priceRange
+    // priceRange.start.gross.amount = precio "otros medios" CON descuento aplicado
+    // SP Digital no expone precio transferencia directamente: es priceRange / 1.045
     try {
-      // defaultVariant.pricing.price.gross.amount = precio transferencia (el más bajo)
-      const varPrice = item.defaultVariant?.pricing?.price?.gross?.amount;
-      if (varPrice && varPrice > 0) price = Math.round(varPrice);
-
-      // priceRange.start.gross.amount = precio otros medios (tarjeta/webpay), siempre >= transferencia
       const startAmt = item.pricing?.priceRange?.start?.gross?.amount;
-      if (startAmt && startAmt > 0) priceCard = Math.round(startAmt);
-
-      // Fallback: si no hay varPrice, usar startAmt como precio base
-      if (!price && priceCard) price = priceCard;
+      if (startAmt && startAmt > 0) {
+        priceCard = Math.round(startAmt);               // otros medios (tarjeta/webpay)
+        price     = Math.round(startAmt / 1.045);       // transferencia/efectivo (~4.5% menos)
+      }
     } catch(e) {}
 
-    // Si no hay precio con descuento, usar el precio normal
     if (!price && priceNormal) price = priceNormal;
     if (!price || price < 1000) return;
 
-    // Si el precio actual >= precio normal, no hay descuento real
+    // Si precio actual >= precio normal, no hay descuento real
     if (priceNormal && priceNormal <= price) priceNormal = null;
-
-    // Precio tarjeta: si es menor o igual al de transferencia, calcular recargo estándar
-    if (!priceCard || priceCard <= price) priceCard = Math.round(price * 1.045);
 
     const discount = priceNormal
       ? Math.round((1 - price / priceNormal) * 100) : null;
