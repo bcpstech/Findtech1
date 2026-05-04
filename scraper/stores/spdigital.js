@@ -264,16 +264,16 @@ class SPDigitalScraper extends BaseScraper {
 
     // El precio ACTUAL (con descuento) viene de priceRange o defaultVariant
     try {
-      // defaultVariant.pricing.price.gross.amount = precio transferencia con descuento
-      const varPrice = item.defaultVariant?.pricing?.price?.gross?.amount;
-      if (varPrice && varPrice > 0) price = Math.round(varPrice);
-
-      // priceRange.start.gross.amount = precio otros medios (tarjeta)
+      // priceRange.start.gross.amount = precio otros medios (tarjeta/webpay)
       const startAmt = item.pricing?.priceRange?.start?.gross?.amount;
       if (startAmt && startAmt > 0) priceCard = Math.round(startAmt);
 
-      // Fallback precio transferencia
-      if (!price && startAmt && startAmt > 0) price = Math.round(startAmt);
+      // defaultVariant.pricing.price.gross.amount = precio transferencia (más bajo)
+      const varPrice = item.defaultVariant?.pricing?.price?.gross?.amount;
+      if (varPrice && varPrice > 0) price = Math.round(varPrice);
+
+      // Fallback: si no hay varPrice, usar startAmt como precio base
+      if (!price && priceCard) price = priceCard;
     } catch(e) {}
 
     // Si no hay precio con descuento, usar el precio normal
