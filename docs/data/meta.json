@@ -1,9 +1,16 @@
 {
   "last_update": "2026-05-04",
-  "generated_at": "2026-05-04T01:41:15.063Z",
-  "total_products": 1153,
+  "generated_at": "2026-05-04T02:59:32.865Z",
+  "total_products": 1294,
   "total_stores": 18,
   "last_runs": [
+    {
+      "store_id": "infor-ingen",
+      "status": "success",
+      "products_updated": 1049,
+      "errors_count": 0,
+      "finished_at": "2026-05-04 02:59:30"
+    },
     {
       "store_id": "infor-ingen",
       "status": "success",
@@ -136,13 +143,6 @@
       "products_updated": 0,
       "errors_count": 0,
       "finished_at": "2026-05-03 23:09:22"
-    },
-    {
-      "store_id": "sandos",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 0,
-      "finished_at": "2026-05-03 22:40:02"
     }
   ]
 }
