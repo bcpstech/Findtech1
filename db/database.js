@@ -45,10 +45,11 @@ function upsertPrice(price) {
   const db = getDb();
   // Un precio por producto/tienda/día — si ya existe, actualiza
   const stmt = db.prepare(`
-    INSERT INTO prices (product_id, store_id, price, price_normal, discount_pct, stock, product_url, price_date, scraped_at)
-    VALUES (@product_id, @store_id, @price, @price_normal, @discount_pct, @stock, @product_url, date('now'), datetime('now'))
+    INSERT INTO prices (product_id, store_id, price, price_card, price_normal, discount_pct, stock, product_url, price_date, scraped_at)
+    VALUES (@product_id, @store_id, @price, @price_card, @price_normal, @discount_pct, @stock, @product_url, date('now'), datetime('now'))
     ON CONFLICT(product_id, store_id, price_date) DO UPDATE SET
       price        = excluded.price,
+      price_card   = excluded.price_card,
       price_normal = excluded.price_normal,
       discount_pct = excluded.discount_pct,
       stock        = excluded.stock,
@@ -78,6 +79,7 @@ function getAllProductsWithBestPrice(categoryId = null) {
     SELECT 
       pr.*,
       MIN(p.price) as best_price,
+      p.price_card as best_price_card,
       s.name as best_store_name,
       s.id as best_store_id,
       COUNT(DISTINCT p.store_id) as store_count
