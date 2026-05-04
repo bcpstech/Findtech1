@@ -1,0 +1,84 @@
+{
+  "id": 31942,
+  "external_id": "winpy_placa-madre-msi-b550m-pro-vdh-wifi-am4-ddr4-2133-4400mhz-m-2-pcie-4-0-microatx",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "Placa Madre MSI B550M PRO-VDH WIFI (AM4, DDR4 2133/4400MHz, M.2, PCIe 4.0, MicroATX)",
+  "slug": "winpy-placa-madre-msi-b550m-pro-vdh-wifi-am4-ddr4-2133-4400mhz-m-2-pcie-4-0-microatx",
+  "image_url": "/files/tumb_w20366_b550m-pro-vdh-wifi.jpg",
+  "description": null,
+  "specs": {
+    "Socket": "AM4",
+    "Factor de forma": "Micro-ATX",
+    "Memoria": "DDR4",
+    "WiFi": "Integrado",
+    "Efectivo / Transferencia": "$108.832",
+    "Tarjeta crédito/débito": "$112.097"
+  },
+  "tags": [],
+  "created_at": "2026-05-04 01:23:02",
+  "updated_at": "2026-05-04 01:41:13",
+  "prices": [
+    {
+      "product_id": 31936,
+      "store_id": "winpy",
+      "price": 96672,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/placa-madre-msi-b550m-pro-vdh-am4-ddr4-1866-4400-mhz-m-2-x2-microatx/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$96.672"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 4356,
+      "store_id": "centrale",
+      "price": 99660,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-msi-b550m-pro-vdh-micro-atx-am4-ddr4-nvme-4-0/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$99.660"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 587,
+      "store_id": "n1g",
+      "price": 104900,
+      "price_normal": 110421,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3326-msi-b550m-pro-vdh-socket-am4-4xddr4-matx-ryzen-5000-bios.html",
+      "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$104.900",
+        "Tarjeta crédito/débito": "$110.421"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-04",
+      "price": 108832
+    }
+  ],
+  "scraped_at": "2026-05-04"
+}

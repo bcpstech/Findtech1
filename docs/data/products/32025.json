@@ -1,0 +1,83 @@
+{
+  "id": 32025,
+  "external_id": "winpy_unidad-de-estado-solido-crucial-t500-de-500gb-nvme-4-0-m-2-2280-hasta-7200mb-s",
+  "category_id": "storage",
+  "brand": "Crucial",
+  "name": "Unidad de Estado Sólido Crucial T500 de 500GB (NVMe 4.0, M.2 2280, Hasta 7200MB/s)",
+  "slug": "winpy-unidad-de-estado-solido-crucial-t500-de-500gb-nvme-4-0-m-2-2280-hasta-7200mb-s",
+  "image_url": "/files/tumb_40194-6570-Unidad-de-Estado-solido-Crucial-T500--2.jpg",
+  "description": null,
+  "specs": {
+    "Capacidad": "500 GB",
+    "Interfaz": "PCI Express 4.0",
+    "Factor de forma": "M.2 2280",
+    "Lectura": "7200 MB/s",
+    "Efectivo/Transferencia": "$215.850",
+    "Tarjeta crédito/débito": "$225.560"
+  },
+  "tags": [],
+  "created_at": "2026-05-04 01:25:55",
+  "updated_at": "2026-05-04 01:41:13",
+  "prices": [
+    {
+      "product_id": 32025,
+      "store_id": "winpy",
+      "price": 149568,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/unidad-de-estado-solido-crucial-t500-de-500gb-nvme-4-0-m-2-2280-hasta-7200mb-s/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$149.568"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1575,
+      "store_id": "centrale",
+      "price": 174500,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/disco-ssd-500gb-crucial-t500-nvme-pcie-4-0-x4-m-2-2280/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$174.500"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9545,
+      "store_id": "spdigital",
+      "price": 215850,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/crucial-t500-500gb-pcie-gen4-nvme-m2-ss",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$215.850"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-04",
+      "price": 149568
+    }
+  ],
+  "scraped_at": "2026-05-04"
+}

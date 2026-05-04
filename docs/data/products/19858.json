@@ -21,7 +21,7 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:17:03",
-  "updated_at": "2026-05-03 22:40:02",
+  "updated_at": "2026-05-04 01:41:13",
   "prices": [
     {
       "product_id": 19858,
@@ -58,6 +58,23 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 31874,
+      "store_id": "winpy",
+      "price": 806816,
+      "price_normal": null,
+      "discount_pct": 16,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-prime-radeon-rx-9070-xt-oc-de-16gb-gddr6/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$806.816"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     },
     {
       "product_id": 1230,
@@ -125,7 +142,13 @@
       "store_name": "MyShop",
       "date": "2026-05-03",
       "price": 795990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-04",
+      "price": 795990
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-05-04"
 }

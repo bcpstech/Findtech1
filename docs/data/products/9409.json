@@ -25,7 +25,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:56",
-  "updated_at": "2026-05-03 22:40:02",
+  "updated_at": "2026-05-04 01:41:13",
   "prices": [
     {
       "product_id": 1950,
@@ -61,6 +61,23 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 31884,
+      "store_id": "winpy",
+      "price": 162336,
+      "price_normal": null,
+      "discount_pct": 14,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-8400f-am5-6-cores-12-hilos-4-2-4-7ghz-sin-video/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$162.336"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     },
     {
       "product_id": 2809,
@@ -138,7 +155,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-03",
       "price": 279990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-04",
+      "price": 279990
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-05-04"
 }

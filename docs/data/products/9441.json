@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:16",
-  "updated_at": "2026-05-03 22:40:02",
+  "updated_at": "2026-05-04 01:41:13",
   "prices": [
     {
       "product_id": 1160,
@@ -35,6 +35,23 @@
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 31956,
+      "store_id": "winpy",
+      "price": 179968,
+      "price_normal": null,
+      "discount_pct": 26,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b650m-a-ax6-ii-am5-ddr5-4800-7600-mhz-m-2-x3-micro-atx/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$179.968"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     },
     {
       "product_id": 9441,
@@ -79,7 +96,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-03",
       "price": 259990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-04",
+      "price": 259990
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-05-04"
 }

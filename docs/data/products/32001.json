@@ -1,0 +1,65 @@
+{
+  "id": 32001,
+  "external_id": "winpy_unidad-de-estado-solido-western-digital-green-de-480gb-m-2-2280-545mb-s",
+  "category_id": "storage",
+  "brand": "Western Digital",
+  "name": "Unidad de estado sólido Western Digital Green de 480GB (M.2 2280, 545MB/s)",
+  "slug": "winpy-unidad-de-estado-solido-western-digital-green-de-480gb-m-2-2280-545mb-s",
+  "image_url": "/files/tumb_30829-5603-WDS480G3G0B.jpg",
+  "description": null,
+  "specs": {
+    "Capacidad": "480 GB",
+    "Interfaz": "NVMe PCIe",
+    "Factor de forma": "M.2 2280",
+    "Transferencia / Efectivo": "$92.490",
+    "Tarjeta crédito/débito": "$97.580"
+  },
+  "tags": [],
+  "created_at": "2026-05-04 01:25:07",
+  "updated_at": "2026-05-04 01:41:13",
+  "prices": [
+    {
+      "product_id": 32001,
+      "store_id": "winpy",
+      "price": 79040,
+      "price_normal": null,
+      "discount_pct": 24,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/unidad-de-estado-solido-western-digital-green-de-480gb-m-2-2280-545mb-s/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$79.040"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1543,
+      "store_id": "centrale",
+      "price": 92490,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/unidad-de-estado-solido-western-digital-verde-de-480gb-m-2-2280-545mb-s/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$92.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-04",
+      "price": 79040
+    }
+  ],
+  "scraped_at": "2026-05-04"
+}

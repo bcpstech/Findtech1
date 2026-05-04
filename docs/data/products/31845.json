@@ -1,0 +1,65 @@
+{
+  "id": 31845,
+  "external_id": "winpy_tarjeta-grafica-profesional-pny-nvidia-rtx-a400-de-4gb-gddr6",
+  "category_id": "gpu",
+  "brand": "NVIDIA",
+  "name": "Tarjeta gráfica Profesional PNY NVIDIA RTX A400 de 4GB GDDR6",
+  "slug": "winpy-tarjeta-grafica-profesional-pny-nvidia-rtx-a400-de-4gb-gddr6",
+  "image_url": "/files/tumb_40030-9166-Tarjeta-de-Video-PNY-NVIDIA-RTX-A400-de-4GB-GDDR6-1.jpg",
+  "description": null,
+  "specs": {
+    "VRAM": "4 GB",
+    "Tipo memoria": "GDDR6",
+    "Bus de memoria": "64-bit",
+    "Transferencia / Efectivo": "$224.580",
+    "Tarjeta crédito/débito": "$236.930"
+  },
+  "tags": [],
+  "created_at": "2026-05-04 01:19:42",
+  "updated_at": "2026-05-04 01:41:13",
+  "prices": [
+    {
+      "product_id": 31845,
+      "store_id": "winpy",
+      "price": 219488,
+      "price_normal": null,
+      "discount_pct": 17,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-profesional-pny-nvidia-rtx-a400-de-4gb-gddr6/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$219.488"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1231,
+      "store_id": "centrale",
+      "price": 224580,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-pny-nvidia-rtx-a400-4gb-gddr6-64-bits-nvidia-ampere/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$224.580"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-04",
+      "price": 219488
+    }
+  ],
+  "scraped_at": "2026-05-04"
+}

@@ -1,0 +1,65 @@
+{
+  "id": 32016,
+  "external_id": "winpy_disco-ssd-western-digital-green-de-250gb-2-5-sata-545mb-s",
+  "category_id": "storage",
+  "brand": "Western Digital",
+  "name": "Disco SSD Western Digital Green de 250GB (2.5“ SATA, 545MB/s)",
+  "slug": "winpy-disco-ssd-western-digital-green-de-250gb-2-5-sata-545mb-s",
+  "image_url": "/files/tumb_45871-698df9209332d.jpg",
+  "description": null,
+  "specs": {
+    "Capacidad": "2 TB",
+    "Interfaz": "NVMe PCIe",
+    "Factor de forma": "M.2 2280",
+    "Transferencia / Efectivo": "$405.810",
+    "Tarjeta crédito/débito": "$428.130"
+  },
+  "tags": [],
+  "created_at": "2026-05-04 01:25:37",
+  "updated_at": "2026-05-04 01:41:13",
+  "prices": [
+    {
+      "product_id": 32016,
+      "store_id": "winpy",
+      "price": 120384,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/disco-ssd-western-digital-green-de-250gb-2-5-sata-545mb-s/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$120.384"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1525,
+      "store_id": "centrale",
+      "price": 405810,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/ssd-western-digital-green-sn3000-2tb-m-2-nvme-pcie-4-0-5000mb-s/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$405.810"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-04",
+      "price": 120384
+    }
+  ],
+  "scraped_at": "2026-05-04"
+}

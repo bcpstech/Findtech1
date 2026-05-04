@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-03 22:40:02",
+  "updated_at": "2026-05-04 01:41:13",
   "prices": [
     {
       "product_id": 1370,
@@ -34,6 +34,23 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 31953,
+      "store_id": "winpy",
+      "price": 151392,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b860m-k-lga1851-ddr5-pcie-5-0-2-5gb-lan-micro-atx/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$151.392"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     },
     {
       "product_id": 9462,
@@ -77,7 +94,13 @@
       "store_name": "Centrale",
       "date": "2026-05-03",
       "price": 148990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-04",
+      "price": 148990
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-05-04"
 }

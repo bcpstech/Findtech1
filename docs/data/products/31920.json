@@ -1,0 +1,83 @@
+{
+  "id": 31920,
+  "external_id": "winpy_placa-madre-gigabyte-a520m-k-v2-am4-ddr4-2133-5100mhz-m-2-microatx",
+  "category_id": "mobo",
+  "brand": "Gigabyte",
+  "name": "Placa Madre Gigabyte A520M K V2 (AM4, DDR4 2133/5100MHz, M.2, microATX)",
+  "slug": "winpy-placa-madre-gigabyte-a520m-k-v2-am4-ddr4-2133-5100mhz-m-2-microatx",
+  "image_url": "/files/tumb_35962-3227-Placa-Madre-Gigabyte-A520M-K-V2-1.jpg",
+  "description": null,
+  "specs": {
+    "Socket": "AM4",
+    "Factor de forma": "Micro-ATX",
+    "Memoria": "DDR4",
+    "Efectivo / Transferencia": "$52.288",
+    "Tarjeta crédito/débito": "$53.857"
+  },
+  "tags": [],
+  "created_at": "2026-05-04 01:22:18",
+  "updated_at": "2026-05-04 01:41:13",
+  "prices": [
+    {
+      "product_id": 31920,
+      "store_id": "winpy",
+      "price": 52288,
+      "price_normal": null,
+      "discount_pct": 40,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/placa-madre-gigabyte-a520m-k-v2-am4-ddr4-2133-5100mhz-m-2-microatx/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$52.288"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1371,
+      "store_id": "centrale",
+      "price": 54150,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-a520m-k-v2-micro-atx-amd-am4-ryzen-5000/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$54.150"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 6006,
+      "store_id": "n1g",
+      "price": 68900,
+      "price_normal": 72526,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/2588-gigabyte-a520m-k-v2-socket-amd-am4-gbe-lan-pcie-30-x4-m2-fan-5.html",
+      "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$68.900",
+        "Tarjeta crédito/débito": "$72.526"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-04",
+      "price": 52288
+    }
+  ],
+  "scraped_at": "2026-05-04"
+}

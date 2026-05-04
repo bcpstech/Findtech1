@@ -1,0 +1,83 @@
+{
+  "id": 31930,
+  "external_id": "winpy_placa-madre-gigabyte-a620m-h-am5-ddr5-4400-7200mhz-m-2-microatx",
+  "category_id": "mobo",
+  "brand": "Gigabyte",
+  "name": "Placa Madre Gigabyte A620M H (AM5, DDR5 4400/7200MHz, M.2, MicroATX)",
+  "slug": "winpy-placa-madre-gigabyte-a620m-h-am5-ddr5-4400-7200mhz-m-2-microatx",
+  "image_url": "/files/tumb_38582-3572-Gigabyte-A620M-H-1.jpg",
+  "description": null,
+  "specs": {
+    "Socket": "AM5",
+    "Factor de forma": "Micro-ATX",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
+    "Efectivo/Transferencia": "$229.990",
+    "Tarjeta crédito/débito": "$240.340"
+  },
+  "tags": [],
+  "created_at": "2026-05-04 01:22:38",
+  "updated_at": "2026-05-04 01:41:13",
+  "prices": [
+    {
+      "product_id": 31930,
+      "store_id": "winpy",
+      "price": 79648,
+      "price_normal": null,
+      "discount_pct": 34,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/placa-madre-gigabyte-a620m-h-am5-ddr5-4400-7200mhz-m-2-microatx/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$79.648"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 25121,
+      "store_id": "centrale",
+      "price": 88080,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-gigabyte-a620m-h-socket-amd-am5-ddr5/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$88.080"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9426,
+      "store_id": "spdigital",
+      "price": 229990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/placa-madre-gigabyte-b650m-gaming-wifi-am5-ddr5",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$229.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-04",
+      "price": 79648
+    }
+  ],
+  "scraped_at": "2026-05-04"
+}

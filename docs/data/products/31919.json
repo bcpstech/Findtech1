@@ -1,0 +1,66 @@
+{
+  "id": 31919,
+  "external_id": "winpy_procesador-intel-core-i7-14700-raptor-lake-lga1700-2-1-5-4-ghz-20-nucleos-28-hilos-33-mb-cache",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i7-14700 Raptor Lake (LGA1700, 2.1/5.4 GHz, 20 Nucleos, 28 Hilos, 33 MB Cache)",
+  "slug": "winpy-procesador-intel-core-i7-14700-raptor-lake-lga1700-2-1-5-4-ghz-20-nucleos-28-hilos-33-mb-cache",
+  "image_url": "/files/tumb_40283-9027-Procesador-Intel-Core-i7-14700-Raptor-Lake.jpg",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "5.4 GHz",
+    "Caché L3": "33 MB",
+    "Socket": "LGA1700",
+    "Generación": "Intel 13ª Gen (Raptor Lake)",
+    "Efectivo / Transferencia": "$464.512",
+    "Tarjeta crédito/débito": "$478.447"
+  },
+  "tags": [],
+  "created_at": "2026-05-04 01:22:13",
+  "updated_at": "2026-05-04 01:41:13",
+  "prices": [
+    {
+      "product_id": 31919,
+      "store_id": "winpy",
+      "price": 464512,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i7-14700-raptor-lake-lga1700-2-1-5-4-ghz-20-nucleos-28-hilos-33-mb-cache/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$464.512"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 319,
+      "store_id": "centrale",
+      "price": 483410,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700-lga1700-2-1ghz-a-5-4-ghz-20-nucleos-28-hilos/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$483.410"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-04",
+      "price": 464512
+    }
+  ],
+  "scraped_at": "2026-05-04"
+}

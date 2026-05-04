@@ -1,0 +1,83 @@
+{
+  "id": 32000,
+  "external_id": "winpy_disco-estado-solido-crucial-bx500-de-240gb-3d-nand-sata-ssd",
+  "category_id": "storage",
+  "brand": "Crucial",
+  "name": "Disco estado sólido Crucial BX500 de 240GB (3D NAND, SATA, SSD)",
+  "slug": "winpy-disco-estado-solido-crucial-bx500-de-240gb-3d-nand-sata-ssd",
+  "image_url": "/files/tumb_w14712_disco_ssd_crucial_bx500_1.jpg",
+  "description": null,
+  "specs": {
+    "Capacidad": "4 TB",
+    "Interfaz": "SATA",
+    "Factor de forma": "2.5\"",
+    "Lectura": "540 MB/s",
+    "Efectivo/Transferencia": "$581.580",
+    "Tarjeta crédito/débito": "$607.750"
+  },
+  "tags": [],
+  "created_at": "2026-05-04 01:25:05",
+  "updated_at": "2026-05-04 01:41:13",
+  "prices": [
+    {
+      "product_id": 32000,
+      "store_id": "winpy",
+      "price": 57760,
+      "price_normal": null,
+      "discount_pct": 41,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/disco-estado-solido-crucial-bx500-de-240gb-3d-nand-sata-ssd/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$57.760"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1596,
+      "store_id": "centrale",
+      "price": 67750,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/disco-ssd-240gb-crucial-bx500-3d-nand-sata-25/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$67.750"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9541,
+      "store_id": "spdigital",
+      "price": 581580,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/ssd-bx500-4000gb-4tb-nand-sata-25-2",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$581.580"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-04",
+      "price": 57760
+    }
+  ],
+  "scraped_at": "2026-05-04"
+}

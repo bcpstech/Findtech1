@@ -22,7 +22,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:57",
-  "updated_at": "2026-05-03 21:56:10",
+  "updated_at": "2026-05-04 00:42:29",
   "prices": [
     {
       "product_id": 38,
@@ -58,6 +58,23 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 31907,
+      "store_id": "winpy",
+      "price": 358720,
+      "price_normal": null,
+      "discount_pct": 35,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-7-7700x-am5-8-cores-16-hilos-4-5-5-4ghz-32mb-de-cache-desbloqueado/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$358.720"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     },
     {
       "product_id": 3306,
@@ -119,7 +136,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-03",
       "price": 599990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-04",
+      "price": 599990
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-05-04"
 }

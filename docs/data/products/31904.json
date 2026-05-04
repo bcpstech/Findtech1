@@ -1,0 +1,84 @@
+{
+  "id": 31904,
+  "external_id": "winpy_procesador-amd-ryzen-7-7700-am5-8-cores-16-hilos-3-8-5-3ghz-32mb-cache",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 7 7700 (AM5, 8 Cores, 16 Hilos, 3.8/5.3GHz, 32MB Caché)",
+  "slug": "winpy-procesador-amd-ryzen-7-7700-am5-8-cores-16-hilos-3-8-5-3ghz-32mb-cache",
+  "image_url": "/files/tumb_33617-6177-AMD-Ryzen-7-7700.jpg",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "3.8 GHz",
+    "TDP": "65W",
+    "Socket": "AM5",
+    "Gráficos integrados": "Sí",
+    "Efectivo/Transferencia": "$352.900",
+    "Tarjeta crédito/débito": "$363.487"
+  },
+  "tags": [],
+  "created_at": "2026-05-04 01:21:43",
+  "updated_at": "2026-05-04 01:41:13",
+  "prices": [
+    {
+      "product_id": 31904,
+      "store_id": "winpy",
+      "price": 338656,
+      "price_normal": null,
+      "discount_pct": 22,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-7-7700-am5-8-cores-16-hilos-3-8-5-3ghz-32mb-cache/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$338.656"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 294,
+      "store_id": "centrale",
+      "price": 349660,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-7700-socket-am5-8-cores-16-hilos-3-8-5-3ghz/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$349.660"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 39,
+      "store_id": "n1g",
+      "price": 352900,
+      "price_normal": 371474,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/2692-amd-ryzen-7-7700-16-hilos-8-core-38-ghz-socket-am5-65w-amd-radeon-graphics-processor-100-100000592box.html",
+      "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$352.900",
+        "Tarjeta crédito/débito": "$371.474"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-04",
+      "price": 338656
+    }
+  ],
+  "scraped_at": "2026-05-04"
+}

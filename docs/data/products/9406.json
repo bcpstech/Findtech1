@@ -26,7 +26,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:55",
-  "updated_at": "2026-05-03 22:40:02",
+  "updated_at": "2026-05-04 01:41:13",
   "prices": [
     {
       "product_id": 1149,
@@ -44,6 +44,23 @@
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 31882,
+      "store_id": "winpy",
+      "price": 154432,
+      "price_normal": null,
+      "discount_pct": 18,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-5600gt-am4-6-cores-12-hilos-3-6-4-6ghz-16mb-cache/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$154.432"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     },
     {
       "product_id": 27,
@@ -122,7 +139,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-03",
       "price": 219990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-04",
+      "price": 219990
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-05-04"
 }

@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:20:06",
-  "updated_at": "2026-05-03 22:06:29",
+  "updated_at": "2026-05-04 00:54:31",
   "prices": [
     {
       "product_id": 19905,
@@ -35,6 +35,23 @@
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 32072,
+      "store_id": "winpy",
+      "price": 54112,
+      "price_normal": null,
+      "discount_pct": 9,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/gabinete-gamer-gamemax-defender-mesh-microatx-vidrio-templado-4-ventiladores-argb/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$54.112"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     }
   ],
   "history": [
@@ -49,7 +66,13 @@
       "store_name": "MyShop",
       "date": "2026-05-03",
       "price": 49790
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-04",
+      "price": 49790
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-05-04"
 }

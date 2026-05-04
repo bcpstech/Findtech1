@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:50:57",
-  "updated_at": "2026-05-03 22:40:02",
+  "updated_at": "2026-05-04 01:41:13",
   "prices": [
     {
       "product_id": 2526,
@@ -89,6 +89,23 @@
       "full_url": "https://www.alltec.cl"
     },
     {
+      "product_id": 32006,
+      "store_id": "winpy",
+      "price": 97280,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/disco-ssd-a-data-ultimate-su650-de-480gb-2-5-sata-3d-nand/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$97.280"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
       "product_id": 1532,
       "store_id": "centrale",
       "price": 113700,
@@ -124,7 +141,13 @@
       "store_name": "MegaBytes",
       "date": "2026-05-03",
       "price": 69990
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-05-04",
+      "price": 69990
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-05-04"
 }

@@ -1,0 +1,65 @@
+{
+  "id": 31917,
+  "external_id": "winpy_procesador-intel-core-i7-14700k-raptor-lake-s-lga1700-20-cores-28-hilos-3-4-5-6ghz-unlocked",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i7-14700K Raptor Lake-S (LGA1700, 20 Cores, 28 Hilos, 3.4/5.6GHz, UNLOCKED)",
+  "slug": "winpy-procesador-intel-core-i7-14700k-raptor-lake-s-lga1700-20-cores-28-hilos-3-4-5-6ghz-unlocked",
+  "image_url": "/files/tumb_36635-7076-Intel-Core-i7-14700K-Raptor-Lake-S.jpg",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "5.6 GHz",
+    "Socket": "LGA1700",
+    "Generación": "Intel 13ª Gen (Raptor Lake)",
+    "Efectivo / Transferencia": "$460.864",
+    "Tarjeta crédito/débito": "$474.690"
+  },
+  "tags": [],
+  "created_at": "2026-05-04 01:22:09",
+  "updated_at": "2026-05-04 01:41:13",
+  "prices": [
+    {
+      "product_id": 309,
+      "store_id": "centrale",
+      "price": 457560,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700k-raptor-lake-s-lga1700-20-cores-28-hilos/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$457.560"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 31917,
+      "store_id": "winpy",
+      "price": 460864,
+      "price_normal": null,
+      "discount_pct": 8,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i7-14700k-raptor-lake-s-lga1700-20-cores-28-hilos-3-4-5-6ghz-unlocked/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$460.864"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-04",
+      "price": 460864
+    }
+  ],
+  "scraped_at": "2026-05-04"
+}

@@ -1,0 +1,83 @@
+{
+  "id": 31935,
+  "external_id": "winpy_placa-madre-msi-pro-b760m-p-lga1700-ddr4-2133-4800-mhz-m-2-x2-microatx",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "Placa Madre MSI PRO B760M-P (LGA1700, DDR4 2133/4800+ MHz, M.2 x2, MicroATX)",
+  "slug": "winpy-placa-madre-msi-pro-b760m-p-lga1700-ddr4-2133-4800-mhz-m-2-x2-microatx",
+  "image_url": "/files/tumb_36762-1837-Placa-Madre-MSI-PRO-B760M-P-1.jpg",
+  "description": null,
+  "specs": {
+    "Socket": "LGA 1700",
+    "Factor de forma": "micro ATX",
+    "Memoria": "DDR4",
+    "Chipset": "Intel B760",
+    "Efectivo/Transferencia": "$219.990",
+    "Tarjeta crédito/débito": "$229.890"
+  },
+  "tags": [],
+  "created_at": "2026-05-04 01:22:48",
+  "updated_at": "2026-05-04 01:41:13",
+  "prices": [
+    {
+      "product_id": 31935,
+      "store_id": "winpy",
+      "price": 96064,
+      "price_normal": null,
+      "discount_pct": 36,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/placa-madre-msi-pro-b760m-p-lga1700-ddr4-2133-4800-mhz-m-2-x2-microatx/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$96.064"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1359,
+      "store_id": "centrale",
+      "price": 103030,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-msi-pro-b760m-p-ddr4-socket-intel-lga-1700/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$103.030"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9473,
+      "store_id": "spdigital",
+      "price": 219990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/msi-pro-b760m-p-ddr4-motherboard",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$219.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-04",
+      "price": 96064
+    }
+  ],
+  "scraped_at": "2026-05-04"
+}

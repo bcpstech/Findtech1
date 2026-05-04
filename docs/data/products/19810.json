@@ -21,7 +21,7 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:30",
-  "updated_at": "2026-05-03 22:40:02",
+  "updated_at": "2026-05-04 01:41:13",
   "prices": [
     {
       "product_id": 19810,
@@ -40,6 +40,23 @@
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 31844,
+      "store_id": "winpy",
+      "price": 214624,
+      "price_normal": null,
+      "discount_pct": 14,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-3050-ventus-2x-oc-con-6gb-gddr6/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$214.624"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     },
     {
       "product_id": 1194,
@@ -89,7 +106,13 @@
       "store_name": "MyShop",
       "date": "2026-05-03",
       "price": 213990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-04",
+      "price": 213990
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-05-04"
 }
