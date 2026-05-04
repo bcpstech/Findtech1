@@ -1,6 +1,7 @@
 /**
  * scraper/stores/mybox.js
- * MyBox — PrestaShop, URL: mybox.cl/64-procesador etc.
+ * MyBox — PrestaShop
+ * URLs verificadas directamente del sitio
  */
 require('dotenv').config();
 const BaseScraper = require('../base-scraper');
@@ -17,17 +18,17 @@ function proxify(url) {
 }
 
 const CATEGORIES = [
-  { url: '/64-procesador',           catId: 'cpu'     },
-  { url: '/tarjetas-de-video',       catId: 'gpu'     },
-  { url: '/placas-madre',            catId: 'mobo'    },
-  { url: '/memorias-ram',            catId: 'ram'     },
-  { url: '/almacenamiento',          catId: 'storage' },
-  { url: '/refrigeracion',           catId: 'cooling' },
-  { url: '/fuentes-de-poder',        catId: 'psu'     },
-  { url: '/gabinetes',               catId: 'case'    },
+  { url: '/64-procesador',                   catId: 'cpu'     },
+  { url: '/68-tarjeta-de-video',             catId: 'gpu'     },
+  { url: '/65-placa-madre',                  catId: 'mobo'    },
+  { url: '/66-memoria-ram',                  catId: 'ram'     },
+  { url: '/67-almacenamiento',               catId: 'storage' },
+  { url: '/92-enfriamiento-refrigeracion',   catId: 'cooling' },
+  { url: '/63-fuentes-de-poder',             catId: 'psu'     },
+  { url: '/62-gabinetes',                    catId: 'case'    },
 ];
 
-const OUT_OF_STOCK = ['sin stock', 'agotado', 'out of stock', 'no disponible', 'fuera de stock'];
+const OUT_OF_STOCK = ['sin stock', 'agotado', 'out of stock', 'no disponible'];
 
 function parsePrice(str) {
   if (!str) return null;
@@ -68,29 +69,30 @@ class MyBoxScraper extends BaseScraper {
         $ = cheerio.load(res.data);
       } catch (err) { this.log('warn', `[mybox] HTTP: ${err.message}`); break; }
 
-      const items = $('article.product-miniature, li.ajax_block_product, .products .product-miniature');
+      const items = $('article.product-miniature, .product-container, li.ajax_block_product');
       if (!items.length) { this.log('info', `[mybox] Sin productos pág ${page}`); break; }
 
       let newInPage = 0;
       for (const el of items.toArray()) {
         try {
           const $el = $(el);
-          const productUrl = $el.find('a.product-thumbnail, .product-title a, a[href*=".html"]').first().attr('href')
+          const productUrl = $el.find('a.product-thumbnail, .product-name a, h3 a, a[href*=".html"]').first().attr('href')
                           || $el.find('a').first().attr('href') || '';
           if (!productUrl || this.seenUrls.has(productUrl)) continue;
           this.seenUrls.add(productUrl);
-          const name = $el.find('.product-title').text().trim()
+          const name = $el.find('.product-title, .product-name, h3').first().text().trim()
                     || $el.find('a[href*=".html"]').first().attr('title') || '';
           if (!name || name.length < 4) continue;
-          const priceRaw = $el.find('span.price').first().text() || $el.find('.price').first().text();
+          const priceRaw = $el.find('span.price, .product-price').first().text().trim()
+                        || $el.find('[itemprop="price"]').attr('content') || '';
           const price = parsePrice(priceRaw);
           if (!price) continue;
-          const normalRaw = $el.find('.regular-price, .old-price').first().text();
+          const normalRaw = $el.find('.regular-price, .old-price, del').first().text().trim();
           const priceNormal = normalRaw ? parsePrice(normalRaw) : null;
           const priceCard = Math.round(price * FACTOR);
           const discount = priceNormal && priceNormal > price ? Math.round((1 - price / priceNormal) * 100) : null;
           const txt = $el.text().toLowerCase();
-          const stock = OUT_OF_STOCK.some(p => txt.includes(p)) || $el.find('.product-unavailable,.out-of-stock').length ? 'out_of_stock' : 'in_stock';
+          const stock = OUT_OF_STOCK.some(p => txt.includes(p)) || $el.find('.out-of-stock,.product-unavailable').length ? 'out_of_stock' : 'in_stock';
           const imageUrl = $el.find('img').first().attr('data-src') || $el.find('img').first().attr('src') || null;
           this.stats.found++; newInPage++;
           await this.saveProductWithR2(
