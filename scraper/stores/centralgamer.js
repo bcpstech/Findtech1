@@ -263,6 +263,7 @@ class CentralGamerScraper extends BaseScraper {
       },
       {
       current:  price,        // efectivo/transferencia
+      card:     priceCard,    // webpay/tarjeta
       normal:   priceNormal,  // precio tachado (sin descuento)
       discount,
       stock: p.is_in_stock ? 'in_stock' : 'out_of_stock',
@@ -348,7 +349,7 @@ class CentralGamerScraper extends BaseScraper {
                 'Webpay / Tarjeta':       `$${priceCard.toLocaleString('es-CL')}`,
               },
             },
-            { current: price, normal: null, discount: null, stock, url: productUrl }
+            { current: price, card: priceCard, normal: null, discount: null, stock, url: productUrl }
           );
         } catch (err) {
           this.log('warn', `[cg] Error producto HTML: ${err.message}`);
