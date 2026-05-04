@@ -1398,6 +1398,9 @@ async function loadData() {
 let _prevPage = 'hardware';
 
 function goBack() {
+  // Limpiar ?product=... de la URL sin recargar la página
+  const cleanUrl = window.location.href.split('?')[0];
+  history.replaceState(null, '', cleanUrl);
   showPage(_prevPage);
 }
 
@@ -2325,20 +2328,43 @@ async function sendContact() {
   const msg   = document.getElementById('contact-msg')?.value.trim();
   const subj  = document.getElementById('contact-subject')?.value.trim() || 'Consulta FindTech';
   const fb    = document.getElementById('contact-feedback');
+
   if (!name || !email || !msg) {
     if (fb) { fb.style.display='block'; fb.style.color='var(--red)'; fb.textContent='Por favor completa todos los campos obligatorios.'; }
     return;
   }
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    if (fb) { fb.style.display='block'; fb.style.color='var(--red)'; fb.textContent='Por favor ingresa un email válido.'; }
+    return;
+  }
+
   const btn = document.querySelector('.contact-submit');
   if (btn) { btn.disabled=true; btn.textContent='Enviando...'; }
+  if (fb)  { fb.style.display='none'; }
+
   try {
-    await emailjs.send('service_626rrfu','template_y5vz2z8',{
-      from_name:name, from_email:email, to_email:'contacto.findtech@gmail.com', subject:subj, message:msg,
+    await emailjs.send('service_626rrfu', 'template_y5vz2z8', {
+      from_name:  name,
+      from_email: email,
+      to_email:   'contacto.findtech@gmail.com',
+      subject:    subj,
+      message:    msg,
+      reply_to:   email,
     });
     if (fb) { fb.style.display='block'; fb.style.color='var(--green)'; fb.textContent='✓ Mensaje enviado. Te responderemos pronto.'; }
-    ['contact-name','contact-email','contact-msg','contact-subject'].forEach(id=>{const el=document.getElementById(id);if(el)el.value='';});
+    ['contact-name','contact-email','contact-msg','contact-subject'].forEach(id => {
+      const el = document.getElementById(id); if (el) el.value = '';
+    });
   } catch(err) {
-    if (fb) { fb.style.display='block'; fb.style.color='var(--red)'; fb.textContent='Error al enviar. Escríbenos a contacto.findtech@gmail.com'; }
+    console.error('EmailJS error:', err);
+    // Fallback: abrir cliente de correo con los datos pre-llenados
+    const body = encodeURIComponent(`Nombre: ${name}\nEmail: ${email}\n\n${msg}`);
+    const mailtoUrl = `mailto:contacto.findtech@gmail.com?subject=${encodeURIComponent(subj)}&body=${body}`;
+    if (fb) {
+      fb.style.display='block';
+      fb.style.color='var(--amber)';
+      fb.innerHTML='No se pudo enviar automáticamente. <a href="'+mailtoUrl+'" style="color:var(--accent);text-decoration:underline">Haz clic aquí para abrir tu cliente de correo</a> con el mensaje listo.';
+    }
   }
   if (btn) { btn.disabled=false; btn.textContent='Enviar mensaje'; }
 }
