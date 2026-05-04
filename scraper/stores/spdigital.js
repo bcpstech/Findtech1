@@ -256,21 +256,23 @@ class SPDigitalScraper extends BaseScraper {
       const pricingMeta = item.metadata?.find(m => m.key === 'pricing');
       if (pricingMeta) {
         const pObj = JSON.parse(pricingMeta.value)['sp-digital'];
-        // cash/other del metadata es el precio SIN descuento (precio normal/tachado)
-        priceNormal = pObj?.cash  ? Math.round(pObj.cash)  : null;
-        priceCard   = pObj?.other ? Math.round(pObj.other) : null;
+        // En metadata: cash = precio tachado (sin descuento), other = precio otros medios (tachado)
+        // Guardamos como priceNormal el mayor de los dos (precio original sin descuento)
+        const metaCash  = pObj?.cash  ? Math.round(pObj.cash)  : null;
+        const metaOther = pObj?.other ? Math.round(pObj.other) : null;
+        priceNormal = metaCash || metaOther || null;
       }
     } catch(e) {}
 
-    // El precio ACTUAL (con descuento) viene de priceRange o defaultVariant
+    // El precio ACTUAL (con descuento) viene de defaultVariant y priceRange
     try {
-      // priceRange.start.gross.amount = precio otros medios (tarjeta/webpay)
-      const startAmt = item.pricing?.priceRange?.start?.gross?.amount;
-      if (startAmt && startAmt > 0) priceCard = Math.round(startAmt);
-
-      // defaultVariant.pricing.price.gross.amount = precio transferencia (más bajo)
+      // defaultVariant.pricing.price.gross.amount = precio transferencia (el más bajo)
       const varPrice = item.defaultVariant?.pricing?.price?.gross?.amount;
       if (varPrice && varPrice > 0) price = Math.round(varPrice);
+
+      // priceRange.start.gross.amount = precio otros medios (tarjeta/webpay), siempre >= transferencia
+      const startAmt = item.pricing?.priceRange?.start?.gross?.amount;
+      if (startAmt && startAmt > 0) priceCard = Math.round(startAmt);
 
       // Fallback: si no hay varPrice, usar startAmt como precio base
       if (!price && priceCard) price = priceCard;
@@ -283,7 +285,7 @@ class SPDigitalScraper extends BaseScraper {
     // Si el precio actual >= precio normal, no hay descuento real
     if (priceNormal && priceNormal <= price) priceNormal = null;
 
-    // Precio tarjeta fallback si no vino de priceRange
+    // Precio tarjeta: si es menor o igual al de transferencia, calcular recargo estándar
     if (!priceCard || priceCard <= price) priceCard = Math.round(price * 1.045);
 
     const discount = priceNormal
