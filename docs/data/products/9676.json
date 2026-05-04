@@ -9,24 +9,24 @@
   "description": null,
   "specs": {
     "Certificación": "RU",
-    "Efectivo/Transferencia": "$24.025",
-    "Tarjeta crédito/débito": "$25.106"
+    "Efectivo/Transferencia": "$22.990",
+    "Tarjeta crédito/débito": "$24.025"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:23",
-  "updated_at": "2026-05-04 14:25:35",
+  "updated_at": "2026-05-04 14:37:04",
   "prices": [
     {
       "product_id": 9676,
       "store_id": "spdigital",
-      "price": 24025,
+      "price": 22990,
       "price_normal": 30990,
-      "discount_pct": 22,
+      "discount_pct": 26,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/kit-ventiladores-be-quiet-pure-wings-3-120mm-pwm-high-speed-triple-pack-negro",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$24.025",
+        "Transferencia / Efectivo": "$22.990",
         "Webpay / Tarjeta": "$30.990"
       },
       "store_rating": 0,
@@ -64,7 +64,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 24025
+      "price": 22990
     }
   ],
   "scraped_at": "2026-05-04"

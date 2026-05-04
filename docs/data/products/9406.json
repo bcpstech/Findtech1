@@ -21,12 +21,12 @@
     "TDP": "65 W",
     "Memoria soportada": "DDR4-SDRAM",
     "Gráficos integrados": "AMD Radeon Graphics",
-    "Efectivo/Transferencia": "$167.195",
-    "Tarjeta crédito/débito": "$174.719"
+    "Efectivo/Transferencia": "$159.995",
+    "Tarjeta crédito/débito": "$167.195"
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:55",
-  "updated_at": "2026-05-04 14:27:33",
+  "updated_at": "2026-05-04 14:38:17",
   "prices": [
     {
       "product_id": 1149,
@@ -81,6 +81,24 @@
       "full_url": "https://www.n1g.cl"
     },
     {
+      "product_id": 9406,
+      "store_id": "spdigital",
+      "price": 159995,
+      "price_normal": 219990,
+      "discount_pct": 27,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/ryzen-5-5600gt-460ghz-6core-skt-am4-19m",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$159.995",
+        "Webpay / Tarjeta": "$219.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 283,
       "store_id": "centrale",
       "price": 160200,
@@ -96,24 +114,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9406,
-      "store_id": "spdigital",
-      "price": 167195,
-      "price_normal": 219990,
-      "discount_pct": 24,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/ryzen-5-5600gt-460ghz-6core-skt-am4-19m",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$167.195",
-        "Webpay / Tarjeta": "$219.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -145,7 +145,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 167195
+      "price": 159995
     }
   ],
   "scraped_at": "2026-05-04"

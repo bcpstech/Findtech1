@@ -20,12 +20,12 @@
     "TDP": "120 W",
     "Memoria soportada": "DDR5-SDRAM",
     "Gráficos integrados": "AMD Radeon Graphics",
-    "Efectivo/Transferencia": "$574.745",
-    "Tarjeta crédito/débito": "$600.609"
+    "Efectivo/Transferencia": "$549.995",
+    "Tarjeta crédito/débito": "$574.745"
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:54",
-  "updated_at": "2026-05-04 14:23:21",
+  "updated_at": "2026-05-04 14:34:32",
   "prices": [
     {
       "product_id": 2817,
@@ -45,6 +45,24 @@
       "full_url": "https://www.alltec.cl"
     },
     {
+      "product_id": 9404,
+      "store_id": "spdigital",
+      "price": 549995,
+      "price_normal": 799990,
+      "discount_pct": 31,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-7-9800x3d-47ghz-52ghz-turbo-8-cores-16-threads-socket-am5",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$549.995",
+        "Webpay / Tarjeta": "$799.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 279,
       "store_id": "centrale",
       "price": 569460,
@@ -60,24 +78,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9404,
-      "store_id": "spdigital",
-      "price": 574745,
-      "price_normal": 799990,
-      "discount_pct": 28,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-7-9800x3d-47ghz-52ghz-turbo-8-cores-16-threads-socket-am5",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$574.745",
-        "Webpay / Tarjeta": "$799.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -109,7 +109,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 574745
+      "price": 549995
     }
   ],
   "scraped_at": "2026-05-04"

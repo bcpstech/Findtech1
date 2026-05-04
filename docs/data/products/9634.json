@@ -8,29 +8,47 @@
   "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-asus-rog-ryujin-iii-360-argb-extreme-pantalla-3-5-360mm-intel-amd.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$469.790",
-    "Tarjeta crédito/débito": "$490.930"
+    "Efectivo/Transferencia": "$380.389",
+    "Tarjeta crédito/débito": "$397.506"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:01",
-  "updated_at": "2026-05-01 13:10:40",
+  "updated_at": "2026-05-04 14:36:42",
   "prices": [
     {
       "product_id": 9634,
       "store_id": "spdigital",
-      "price": 469790,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 380389,
+      "price_normal": 469790,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/rog-ryujin-iii-360-argb-extreme",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$469.790"
+        "Transferencia / Efectivo": "$380.389",
+        "Webpay / Tarjeta": "$469.790"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1614,
+      "store_id": "centrale",
+      "price": 395770,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/refrigeracion-asus-rog-ryujin-iii-360-argb-extreme-lcd/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$395.770"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -51,7 +69,19 @@
       "store_name": "SP Digital",
       "date": "2026-05-01",
       "price": 469790
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-03",
+      "price": 469790
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-04",
+      "price": 380389
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-04"
 }

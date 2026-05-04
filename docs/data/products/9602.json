@@ -9,24 +9,24 @@
   "description": null,
   "specs": {
     "TDP": "190 W",
-    "Efectivo/Transferencia": "$31.345",
-    "Tarjeta crédito/débito": "$32.756"
+    "Efectivo/Transferencia": "$29.995",
+    "Tarjeta crédito/débito": "$31.345"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:44",
-  "updated_at": "2026-05-04 14:25:00",
+  "updated_at": "2026-05-04 14:36:26",
   "prices": [
     {
       "product_id": 9602,
       "store_id": "spdigital",
-      "price": 31340,
+      "price": 29990,
       "price_normal": 44990,
-      "discount_pct": 30,
+      "discount_pct": 33,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/disipador-cpu-be-quiet-pure-rock-3-black-190w-tdp-120mm-312-db-pwm",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$31.340",
+        "Transferencia / Efectivo": "$29.990",
         "Webpay / Tarjeta": "$44.990"
       },
       "store_rating": 0,
@@ -64,7 +64,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 31340
+      "price": 29990
     }
   ],
   "scraped_at": "2026-05-04"

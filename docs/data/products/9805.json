@@ -9,24 +9,24 @@
   "description": null,
   "specs": {
     "Factor de forma": "Escritorio",
-    "Efectivo/Transferencia": "$47.010",
-    "Tarjeta crédito/débito": "$49.125"
+    "Efectivo/Transferencia": "$44.986",
+    "Tarjeta crédito/débito": "$47.010"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:30",
-  "updated_at": "2026-05-04 14:27:27",
+  "updated_at": "2026-05-04 14:38:11",
   "prices": [
     {
       "product_id": 9805,
       "store_id": "spdigital",
-      "price": 47010,
+      "price": 44986,
       "price_normal": 79980,
-      "discount_pct": 41,
+      "discount_pct": 44,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/gabinete-gamer-bitfénix-nova-mesh-tg-black-vidrio-templado-atx-micro-atx-mini-itx-1-x-fan-rgb",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$47.010",
+        "Transferencia / Efectivo": "$44.986",
         "Webpay / Tarjeta": "$79.980"
       },
       "store_rating": 0,
@@ -64,7 +64,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 47010
+      "price": 44986
     }
   ],
   "scraped_at": "2026-05-04"

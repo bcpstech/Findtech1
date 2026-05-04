@@ -21,12 +21,12 @@
     "Caché L3": "144 MB",
     "Memoria soportada": "DDR5-SDRAM",
     "Gráficos integrados": "AMD Radeon Graphics",
-    "Efectivo/Transferencia": "$877.795",
-    "Tarjeta crédito/débito": "$917.296"
+    "Efectivo/Transferencia": "$839.995",
+    "Tarjeta crédito/débito": "$877.795"
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:59",
-  "updated_at": "2026-05-04 14:27:33",
+  "updated_at": "2026-05-04 14:38:17",
   "prices": [
     {
       "product_id": 2825,
@@ -46,6 +46,24 @@
       "full_url": "https://www.alltec.cl"
     },
     {
+      "product_id": 9415,
+      "store_id": "spdigital",
+      "price": 839995,
+      "price_normal": 1299990,
+      "discount_pct": 35,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/amd-ryzen-9-9950x3d-16-core-processor",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$839.995",
+        "Webpay / Tarjeta": "$1.299.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 2627,
       "store_id": "trulustore",
       "price": 869990,
@@ -63,24 +81,6 @@
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
-    },
-    {
-      "product_id": 9415,
-      "store_id": "spdigital",
-      "price": 877795,
-      "price_normal": 1299990,
-      "discount_pct": 32,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/amd-ryzen-9-9950x3d-16-core-processor",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$877.795",
-        "Webpay / Tarjeta": "$1.299.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -112,7 +112,7 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 877795
+      "price": 839995
     }
   ],
   "scraped_at": "2026-05-04"

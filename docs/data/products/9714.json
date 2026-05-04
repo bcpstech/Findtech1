@@ -8,29 +8,67 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-asus-rog-thor-1200w-certificada-80-plus-platinum-atx-3-1-gaming-premium.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$530.810",
-    "Tarjeta crédito/débito": "$554.700"
+    "Efectivo/Transferencia": "$429.853",
+    "Tarjeta crédito/débito": "$449.196"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:42",
-  "updated_at": "2026-05-01 13:11:11",
+  "updated_at": "2026-05-04 14:37:23",
   "prices": [
     {
       "product_id": 9714,
       "store_id": "spdigital",
-      "price": 530810,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 429853,
+      "price_normal": 530810,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/fuente-de-poder-asus-rog-thor-1200w-certificada-80-plus-platinum-atx-31-gaming-premium",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$530.810"
+        "Transferencia / Efectivo": "$429.853",
+        "Webpay / Tarjeta": "$530.810"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1684,
+      "store_id": "centrale",
+      "price": 438640,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/fuente-asus-rog-thor-1200w-80-platinum-atx-3-1-modular/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$438.640"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2656,
+      "store_id": "trulustore",
+      "price": 449990,
+      "price_normal": 549990,
+      "discount_pct": 18,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/fuente-de-poder-asus-rog-thor-1200-platinum-iii-de-1200w-80-platinum-full-modular-atx-3-1-pantalla-oled-aura-sync/",
+      "store_name": "TruluStore",
+      "khipu_price": 458990,
+      "price_specs": {
+        "Efectivo / Transferencia": "$449.990",
+        "Khipu": "$458.990",
+        "Tarjeta crédito/débito": "$549.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -51,7 +89,19 @@
       "store_name": "SP Digital",
       "date": "2026-05-01",
       "price": 530810
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-03",
+      "price": 530810
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-04",
+      "price": 429853
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-04"
 }
