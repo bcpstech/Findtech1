@@ -1,9 +1,9 @@
 /**
  * scraper/stores/winpy.js
  * Winpy.cl — plataforma propia
- * URLs verificadas: /partes-y-piezas/tarjetas-graficas/
- * Productos: /venta/nombre-producto/
- * Paginación: ?paged=2
+ * Estructura verificada: section#productos.page_categoria > article
+ * Precio: div.valor > $ 69.920
+ * Producto URL: a[href*="/venta/"]
  */
 require('dotenv').config();
 const BaseScraper = require('../base-scraper');
@@ -19,7 +19,6 @@ function proxify(url) {
   return `${PROXY_URL}?url=${encodeURIComponent(url)}&secret=${PROXY_KEY}`;
 }
 
-// URLs verificadas en el sitio real
 const CATEGORIES = [
   { url: '/partes-y-piezas/tarjetas-graficas/',  catId: 'gpu'     },
   { url: '/partes-y-piezas/procesadores/',        catId: 'cpu'     },
@@ -31,7 +30,7 @@ const CATEGORIES = [
   { url: '/partes-y-piezas/gabinetes/',           catId: 'case'    },
 ];
 
-const OUT_OF_STOCK = ['sin stock', 'agotado', 'out of stock', 'no disponible'];
+const OUT_OF_STOCK = ['sin stock', 'agotado', 'no disponible'];
 
 function parsePrice(str) {
   if (!str) return null;
@@ -62,7 +61,6 @@ class WinpyScraper extends BaseScraper {
     let total = 0;
 
     while (page <= 20) {
-      // Winpy usa ?paged=N para paginación
       const pageUrl = proxify(
         page === 1
           ? `${BASE}${cat.url}`
@@ -87,42 +85,52 @@ class WinpyScraper extends BaseScraper {
         break;
       }
 
-      // Winpy muestra productos en cards con link a /venta/
-      const items = $('a[href*="/venta/"]').closest('li, article, .product, [class*="product"]');
-      const fallback = items.length ? items : $('a[href*="/venta/"]').parent();
-      const allItems = items.length ? items : fallback;
+      // Estructura verificada: section#productos.page_categoria > article
+      const items = $('section#productos article, section.page_categoria article');
 
-      if (!allItems.length) {
+      if (!items.length) {
         this.log('info', `[winpy] Sin productos pág ${page}`);
         break;
       }
 
       let newInPage = 0;
-      for (const el of allItems.toArray()) {
+      for (const el of items.toArray()) {
         try {
           const $el = $(el);
+
+          // URL del producto
           let productUrl = $el.find('a[href*="/venta/"]').first().attr('href')
-                        || ($el.is('a') ? $el.attr('href') : '');
+                        || $el.find('a').first().attr('href') || '';
           if (!productUrl) continue;
           if (!productUrl.startsWith('http')) productUrl = `${BASE}${productUrl}`;
           if (this.seenUrls.has(productUrl)) continue;
           this.seenUrls.add(productUrl);
 
-          const name = $el.find('[class*="title"],[class*="name"],h2,h3,h4').first().text().trim()
-                    || $el.find('a[href*="/venta/"]').first().attr('title') || '';
+          // Nombre desde el title del link o h2/h3
+          const name = $el.find('a[href*="/venta/"]').first().attr('title')
+                    || $el.find('p.model, .nombre, h2, h3').first().text().trim()
+                    || $el.find('a').first().attr('title') || '';
           if (!name || name.length < 4) continue;
 
-          const priceRaw = $el.find('[class*="price"],[class*="precio"]').first().text().trim();
+          // Precio: div.valor contiene "$ 69.920"
+          const priceRaw = $el.find('.valor, div.valor, p.valor').first().text().trim()
+                        || $el.find('[class*="price"],[class*="precio"]').first().text().trim();
           const price = parsePrice(priceRaw);
           if (!price) continue;
 
           const priceCard = Math.round(price * FACTOR);
 
+          // Stock
           const txt = $el.text().toLowerCase();
           const stock = OUT_OF_STOCK.some(p => txt.includes(p)) ? 'out_of_stock' : 'in_stock';
 
-          const imageUrl = $el.find('img').first().attr('data-src')
-                        || $el.find('img').first().attr('src') || null;
+          // Imagen
+          const imageUrl = $el.find('img').first().attr('src')
+                        || $el.find('img').first().attr('data-src') || null;
+
+          // Descuento — hay p.descuento con "-12%"
+          const discountRaw = $el.find('p.descuento, .descuento').first().text().trim();
+          const discount = discountRaw ? parseInt(discountRaw.replace(/[^\d]/g, '')) || null : null;
 
           this.stats.found++;
           newInPage++;
@@ -138,7 +146,7 @@ class WinpyScraper extends BaseScraper {
                 'Tarjeta crédito/débito':   `$${priceCard.toLocaleString('es-CL')}`,
               },
             },
-            { current: price, normal: null, discount: null, stock, url: productUrl }
+            { current: price, normal: null, discount, stock, url: productUrl }
           );
         } catch (err) {
           this.log('warn', `[winpy] item error: ${err.message}`);
@@ -148,8 +156,7 @@ class WinpyScraper extends BaseScraper {
       total += newInPage;
       this.log('info', `[winpy] ✓ ${cat.catId} pág ${page}: ${newInPage}`);
 
-      // Verificar si hay siguiente página
-      const hasNext = $('a.next, a[href*="paged"]').length > 0;
+      const hasNext = $('a[rel="next"], a.siguiente, li.siguiente a').length > 0;
       if (!hasNext || newInPage === 0) break;
       page++;
       await this.delay(1500, 2500);
