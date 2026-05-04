@@ -319,6 +319,7 @@ class SPDigitalScraper extends BaseScraper {
       },
       {
         current:  price,                 // precio transferencia/efectivo (el más bajo)
+        card:     priceCard,             // otros medios (tarjeta/webpay)
         normal:   priceNormal || null,   // precio sin descuento (tachado) — puede ser null
         discount: priceNormal
           ? Math.round((1 - price / priceNormal) * 100)
