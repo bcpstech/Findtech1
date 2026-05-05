@@ -112,6 +112,14 @@ class WinpyScraper extends BaseScraper {
                     || $el.find('a').first().attr('title') || '';
           if (!name || name.length < 4) continue;
 
+          // Filtrar productos que no corresponden a la categoría
+          const nameLow = name.toLowerCase();
+          if (cat.catId === 'ram' && !/ddr[345]|ram|dimm|memoria/.test(nameLow)) continue;
+          if (cat.catId === 'gpu' && !/rtx|gtx|radeon|rx\s*\d|arc\s+[ab]|geforce|gráfica|video/.test(nameLow)) continue;
+          if (cat.catId === 'cpu' && !/ryzen|intel|core|procesador|celeron|xeon|athlon/.test(nameLow)) continue;
+          if (cat.catId === 'case' && !/gabinete|case|torre|chasis/.test(nameLow)) continue;
+          if (cat.catId === 'psu' && !/fuente|psu|poder|power/.test(nameLow)) continue;
+
           // Precio: div.valor contiene "$ 69.920"
           const priceRaw = $el.find('.valor, div.valor, p.valor').first().text().trim()
                         || $el.find('[class*="price"],[class*="precio"]').first().text().trim();
@@ -124,9 +132,22 @@ class WinpyScraper extends BaseScraper {
           const txt = $el.text().toLowerCase();
           const stock = OUT_OF_STOCK.some(p => txt.includes(p)) ? 'out_of_stock' : 'in_stock';
 
-          // Imagen
-          const imageUrl = $el.find('img').first().attr('src')
-                        || $el.find('img').first().attr('data-src') || null;
+          // Imagen — Winpy usa lazy loading: data-src o data-lazy-src tiene la imagen real
+          // src puede ser un placeholder genérico, ignorarlo si es pequeño o data:
+          const imgEl = $el.find('img').first();
+          let imageUrl = imgEl.attr('data-lazy-src')
+                      || imgEl.attr('data-src')
+                      || imgEl.attr('data-original')
+                      || imgEl.attr('src')
+                      || null;
+          // Descartar placeholders (data:image, svg, o URLs muy cortas)
+          if (imageUrl && (imageUrl.startsWith('data:') || imageUrl.includes('placeholder') || imageUrl.length < 20)) {
+            imageUrl = null;
+          }
+          // Asegurar URL absoluta
+          if (imageUrl && !imageUrl.startsWith('http')) {
+            imageUrl = BASE + imageUrl;
+          }
 
           // Descuento — hay p.descuento con "-12%"
           const discountRaw = $el.find('p.descuento, .descuento').first().text().trim();
@@ -146,7 +167,7 @@ class WinpyScraper extends BaseScraper {
                 'Tarjeta crédito/débito':   `$${priceCard.toLocaleString('es-CL')}`,
               },
             },
-            { current: price, normal: null, discount, stock, url: productUrl }
+            { current: price, card: priceCard, normal: null, discount, stock, url: productUrl }
           );
         } catch (err) {
           this.log('warn', `[winpy] item error: ${err.message}`);
