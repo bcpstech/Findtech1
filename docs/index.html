@@ -2145,14 +2145,14 @@ function renderFeatured() {
   sliderState['featured-track'] = 0;
   track.style.transform = 'translateX(0)';
 
-  const cats = ['gpu','cpu','ram','storage','cooling','mobo','psu','case'];
+  const cats = ['gpu','cpu','ram','storage','cooling','mobo','psu','case','pc'];
   let pool = [];
   cats.forEach(cat => {
-    const catProds = PRODUCTS.filter(p => p.category === cat && p.imageUrl && getPrice(p) > 0);
+    const catProds = PRODUCTS.filter(p => p.category === cat && getPrice(p) > 0);
     if (catProds.length) pool.push(...catProds.sort(() => Math.random() - 0.5).slice(0, 3));
   });
   if (pool.length < 18) {
-    const extras = PRODUCTS.filter(p => p.imageUrl && getPrice(p) > 0 && !pool.includes(p))
+    const extras = PRODUCTS.filter(p => getPrice(p) > 0 && !pool.includes(p))
       .sort(() => Math.random() - 0.5).slice(0, 18 - pool.length);
     pool.push(...extras);
   }
@@ -2163,8 +2163,8 @@ function renderFeatured() {
     const price = getPrice(p);
     const store = STORES.find(s => s.id === p._bestStoreId);
     const cardP = getCardPrice(p);
-    const hasDeal = cardP && cardP > price;
-    const badge = hasDeal ? `<div class="featured-badge deal">-${Math.round((1-price/cardP)*100)}%</div>` : '';
+    const hasDeal = p.best_discount_pct && p.best_discount_pct > 5;
+    const badge = hasDeal ? `<div class="featured-badge deal">-${p.best_discount_pct}%</div>` : '';
     const icon = catIcons[p.category] || '📦';
     return `<div class="featured-card" onclick="openProductTab(${p.id})">
       ${badge}
@@ -2223,16 +2223,32 @@ function renderHomeCats() {
   grid.innerHTML = catList.map(([id, cat]) => {
     const cnt = PRODUCTS.filter(p => p.category === id).length;
     if (!cnt) return '';
-    const svgIcon = CAT_ICONS[id] || '';
-    return `<div onclick="filterCat('${id}');showPage('hardware')"
-      style="background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:16px;cursor:pointer;text-align:center;transition:all .2s;display:flex;flex-direction:column;align-items:center;gap:8px"
-      onmouseover="this.style.borderColor='var(--accent)';this.style.transform='translateY(-2px)';this.querySelector('.cat-svg').style.color='var(--accent)'"
-      onmouseout="this.style.borderColor='var(--border)';this.style.transform='none';this.querySelector('.cat-svg').style.color='var(--text3)'">
+    const svgIcon = CAT_ICONS[id] || `<span style="font-size:24px">${cat.icon}</span>`;
+    return `<div class="home-cat-card" data-cat="${id}"
+      style="background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:16px;cursor:pointer;text-align:center;transition:all .2s;display:flex;flex-direction:column;align-items:center;gap:8px">
       <div class="cat-svg" style="width:36px;height:36px;color:var(--text3);transition:color .2s">${svgIcon}</div>
       <div style="font-size:12px;font-weight:600;color:var(--text);line-height:1.3">${cat.name}</div>
       <div style="font-size:10px;color:var(--text3)">${cnt} productos</div>
     </div>`;
   }).join('');
+
+  // Event listeners sin conflicto de comillas
+  grid.querySelectorAll('.home-cat-card').forEach(el => {
+    const id = el.dataset.cat;
+    el.addEventListener('click', () => { filterCat(id); showPage('hardware'); });
+    el.addEventListener('mouseover', () => {
+      el.style.borderColor = 'var(--accent)';
+      el.style.transform = 'translateY(-2px)';
+      const svg = el.querySelector('.cat-svg');
+      if (svg) svg.style.color = 'var(--accent)';
+    });
+    el.addEventListener('mouseout', () => {
+      el.style.borderColor = 'var(--border)';
+      el.style.transform = 'none';
+      const svg = el.querySelector('.cat-svg');
+      if (svg) svg.style.color = 'var(--text3)';
+    });
+  });
 }
 
 // Sub-labels for sidebar
