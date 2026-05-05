@@ -16,12 +16,13 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:19:46",
-  "updated_at": "2026-05-04 23:11:26",
+  "updated_at": "2026-05-05 12:33:41",
   "prices": [
     {
       "product_id": 19890,
       "store_id": "myshop",
       "price": 33990,
+      "price_card": 35010,
       "price_normal": 35859,
       "discount_pct": null,
       "stock": "in_stock",
@@ -29,7 +30,7 @@
       "store_name": "MyShop",
       "price_specs": {
         "Efectivo/Transferencia": "$33.990",
-        "Tarjeta crédito/débito": "$35.859"
+        "Tarjeta crédito/débito": "$35.010"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,6 +41,7 @@
       "product_id": 2564,
       "store_id": "megabytes",
       "price": 34990,
+      "price_card": 36040,
       "price_normal": 49990,
       "discount_pct": 30,
       "stock": "in_stock",
@@ -47,7 +49,7 @@
       "store_name": "MegaBytes",
       "price_specs": {
         "Efectivo/Transferencia": "$34.990",
-        "Tarjeta crédito/débito": "$49.990"
+        "Tarjeta crédito/débito": "$36.040"
       },
       "store_rating": 0,
       "review_count": 0,

@@ -17,19 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:23:02",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 31936,
       "store_id": "winpy",
       "price": 96672,
+      "price_card": 99572,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-msi-b550m-pro-vdh-am4-ddr4-1866-4400-mhz-m-2-x2-microatx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$96.672"
+        "Efectivo/Transferencia": "$96.672",
+        "Tarjeta crédito/débito": "$99.572"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,13 +42,15 @@
       "product_id": 4356,
       "store_id": "centrale",
       "price": 99660,
+      "price_card": 105141,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-b550m-pro-vdh-micro-atx-am4-ddr4-nvme-4-0/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$99.660"
+        "Transferencia / Efectivo": "$99.660",
+        "Tarjetas de Crédito / Débito": "$105.141"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,6 +61,7 @@
       "product_id": 33108,
       "store_id": "infor-ingen",
       "price": 102900,
+      "price_card": 105987,
       "price_normal": 109074,
       "discount_pct": 6,
       "stock": "in_stock",
@@ -64,7 +69,7 @@
       "store_name": "Infor-Ingen",
       "price_specs": {
         "Efectivo/Transferencia": "$102.900",
-        "Tarjeta crédito/débito": "$109.074"
+        "Tarjeta crédito/débito": "$105.987"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -75,6 +80,7 @@
       "product_id": 587,
       "store_id": "n1g",
       "price": 104900,
+      "price_card": 110460,
       "price_normal": 110421,
       "discount_pct": 5,
       "stock": "in_stock",
@@ -82,7 +88,7 @@
       "store_name": "N1G",
       "price_specs": {
         "Efectivo/Transferencia": "$104.900",
-        "Tarjeta crédito/débito": "$110.421"
+        "Tarjeta crédito/débito": "$110.460"
       },
       "store_rating": 0,
       "review_count": 0,

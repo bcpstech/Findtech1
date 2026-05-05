@@ -16,12 +16,13 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:19:46",
-  "updated_at": "2026-05-04 23:11:26",
+  "updated_at": "2026-05-05 12:33:41",
   "prices": [
     {
       "product_id": 19891,
       "store_id": "myshop",
       "price": 34990,
+      "price_card": 36040,
       "price_normal": 36914,
       "discount_pct": 38,
       "stock": "in_stock",
@@ -29,7 +30,7 @@
       "store_name": "MyShop",
       "price_specs": {
         "Efectivo/Transferencia": "$34.990",
-        "Tarjeta crédito/débito": "$36.914"
+        "Tarjeta crédito/débito": "$36.040"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,6 +41,7 @@
       "product_id": 9754,
       "store_id": "spdigital",
       "price": 54995,
+      "price_card": 57470,
       "price_normal": 89990,
       "discount_pct": 39,
       "stock": "in_stock",
@@ -47,7 +49,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$54.995",
-        "Webpay / Tarjeta": "$89.990"
+        "Webpay / Tarjeta": "$57.470"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,13 +60,15 @@
       "product_id": 1722,
       "store_id": "centrale",
       "price": 82060,
+      "price_card": 86573,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-cougar-fv150-rgb-s-fuente-atx-blanco-incluye-3-fan-argb-120mm-m-b-1/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$82.060"
+        "Transferencia / Efectivo": "$82.060",
+        "Tarjetas de Crédito / Débito": "$86.573"
       },
       "store_rating": 0,
       "review_count": 0,

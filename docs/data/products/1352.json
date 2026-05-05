@@ -17,19 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 1352,
       "store_id": "centrale",
       "price": 159490,
+      "price_card": 168262,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-b850m-p-micro-atx-am5-ddr5-wifi-7/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$159.490"
+        "Transferencia / Efectivo": "$159.490",
+        "Tarjetas de Crédito / Débito": "$168.262"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,6 +42,7 @@
       "product_id": 33175,
       "store_id": "infor-ingen",
       "price": 178900,
+      "price_card": 184267,
       "price_normal": 189634,
       "discount_pct": 6,
       "stock": "in_stock",
@@ -47,7 +50,7 @@
       "store_name": "Infor-Ingen",
       "price_specs": {
         "Efectivo/Transferencia": "$178.900",
-        "Tarjeta crédito/débito": "$189.634"
+        "Tarjeta crédito/débito": "$184.267"
       },
       "store_rating": 0,
       "review_count": 0,

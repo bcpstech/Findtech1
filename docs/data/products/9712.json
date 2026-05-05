@@ -14,12 +14,13 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:41",
-  "updated_at": "2026-05-04 23:03:51",
+  "updated_at": "2026-05-05 12:25:26",
   "prices": [
     {
       "product_id": 9712,
       "store_id": "spdigital",
       "price": 99995,
+      "price_card": 104495,
       "price_normal": 129990,
       "discount_pct": 23,
       "stock": "in_stock",
@@ -27,7 +28,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$99.995",
-        "Webpay / Tarjeta": "$129.990"
+        "Webpay / Tarjeta": "$104.495"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,13 +39,15 @@
       "product_id": 1690,
       "store_id": "centrale",
       "price": 109280,
+      "price_card": 115290,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-asus-prime-850w-80-plus-gold-modular-atx/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$109.280"
+        "Transferencia / Efectivo": "$109.280",
+        "Tarjetas de Crédito / Débito": "$115.290"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,13 +58,15 @@
       "product_id": 2236,
       "store_id": "dust2",
       "price": 109990,
+      "price_card": 113290,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-asus-tuf-gaming-750w-gold-atx-3-0/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$109.990"
+        "Efectivo/Transferencia": "$109.990",
+        "Tarjeta crédito/débito": "$113.290"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -72,6 +77,7 @@
       "product_id": 2654,
       "store_id": "trulustore",
       "price": 114990,
+      "price_card": 118440,
       "price_normal": 129990,
       "discount_pct": 12,
       "stock": "in_stock",
@@ -81,7 +87,7 @@
       "price_specs": {
         "Efectivo / Transferencia": "$114.990",
         "Khipu": "$117.290",
-        "Tarjeta crédito/débito": "$129.990"
+        "Tarjeta crédito/débito": "$118.440"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -92,6 +98,7 @@
       "product_id": 2549,
       "store_id": "megabytes",
       "price": 119990,
+      "price_card": 123590,
       "price_normal": 159990,
       "discount_pct": 25,
       "stock": "in_stock",
@@ -99,7 +106,7 @@
       "store_name": "MegaBytes",
       "price_specs": {
         "Efectivo/Transferencia": "$119.990",
-        "Tarjeta crédito/débito": "$159.990"
+        "Tarjeta crédito/débito": "$123.590"
       },
       "store_rating": 0,
       "review_count": 0,

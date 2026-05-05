@@ -17,24 +17,26 @@
     "Caché L3": "25 MB",
     "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$349.961",
-    "Tarjeta crédito/débito": "$365.709"
+    "Efectivo/Transferencia": "$312.382",
+    "Tarjeta crédito/débito": "$326.439"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:33",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 31899,
       "store_id": "winpy",
       "price": 279680,
+      "price_card": 288070,
       "price_normal": null,
       "discount_pct": 16,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i7-12700kf-alder-lake-lga1700-12-cores-20-hilos-3-6-5-0-ghz-sin-video/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$279.680"
+        "Efectivo/Transferencia": "$279.680",
+        "Tarjeta crédito/débito": "$288.070"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -45,6 +47,7 @@
       "product_id": 315,
       "store_id": "centrale",
       "price": 288850,
+      "price_card": 304737,
       "price_normal": 340240,
       "discount_pct": 15,
       "stock": "in_stock",
@@ -52,7 +55,7 @@
       "store_name": "Centrale",
       "price_specs": {
         "Transferencia / Efectivo": "$288.850",
-        "Tarjetas de Crédito / Débito": "$340.240"
+        "Tarjetas de Crédito / Débito": "$304.737"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,6 +66,7 @@
       "product_id": 9421,
       "store_id": "spdigital",
       "price": 349566,
+      "price_card": 365296,
       "price_normal": 431730,
       "discount_pct": 19,
       "stock": "in_stock",
@@ -70,7 +74,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$349.566",
-        "Webpay / Tarjeta": "$431.730"
+        "Webpay / Tarjeta": "$365.296"
       },
       "store_rating": 0,
       "review_count": 0,

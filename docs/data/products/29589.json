@@ -14,12 +14,13 @@
   },
   "tags": [],
   "created_at": "2026-05-03 22:36:26",
-  "updated_at": "2026-05-04 23:49:48",
+  "updated_at": "2026-05-05 13:15:20",
   "prices": [
     {
       "product_id": 29589,
       "store_id": "megabytes",
       "price": 1634990,
+      "price_card": 1684040,
       "price_normal": 1961990,
       "discount_pct": 17,
       "stock": "in_stock",
@@ -27,7 +28,7 @@
       "store_name": "MegaBytes",
       "price_specs": {
         "Efectivo/Transferencia": "$1.634.990",
-        "Tarjeta crédito/débito": "$1.961.990"
+        "Tarjeta crédito/débito": "$1.684.040"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,13 +39,15 @@
       "product_id": 7335,
       "store_id": "cg",
       "price": 1714990,
+      "price_card": 1805198,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/pc-medium/pc-gamer-ryzen-5-9600x-rtx-5070-16gb-ram-ddr5-1-tb-ssd-m-2/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$1.714.990"
+        "Efectivo/Transferencia": "$1.714.990",
+        "Webpay / Tarjeta": "$1.805.198"
       },
       "store_rating": 0,
       "review_count": 0,

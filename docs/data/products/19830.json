@@ -21,12 +21,13 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:40",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 19830,
       "store_id": "myshop",
       "price": 744500,
+      "price_card": 766835,
       "price_normal": 785448,
       "discount_pct": 3,
       "stock": "in_stock",
@@ -34,7 +35,7 @@
       "store_name": "MyShop",
       "price_specs": {
         "Efectivo/Transferencia": "$744.500",
-        "Tarjeta crédito/débito": "$785.448"
+        "Tarjeta crédito/débito": "$766.835"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -45,13 +46,15 @@
       "product_id": 31871,
       "store_id": "winpy",
       "price": 744800,
+      "price_card": 767144,
       "price_normal": null,
       "discount_pct": 21,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-dual-geforce-rtx-5070-oc-de-12gb-gddr7/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$744.800"
+        "Efectivo/Transferencia": "$744.800",
+        "Tarjeta crédito/débito": "$767.144"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,6 +65,7 @@
       "product_id": 9567,
       "store_id": "spdigital",
       "price": 779995,
+      "price_card": 815095,
       "price_normal": 1099990,
       "discount_pct": 29,
       "stock": "in_stock",
@@ -69,7 +73,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$779.995",
-        "Webpay / Tarjeta": "$1.099.990"
+        "Webpay / Tarjeta": "$815.095"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -80,13 +84,15 @@
       "product_id": 1188,
       "store_id": "centrale",
       "price": 781030,
+      "price_card": 823987,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-dual-geforce-rtx-5070-12gb-gddr7-oc-edition/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$781.030"
+        "Transferencia / Efectivo": "$781.030",
+        "Tarjetas de Crédito / Débito": "$823.987"
       },
       "store_rating": 0,
       "review_count": 0,

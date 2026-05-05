@@ -18,19 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-05-03 04:57:14",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 24428,
       "store_id": "dust2",
       "price": 67990,
+      "price_card": 70030,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/open-box-disco-duro-ssd-kingston-a400-240gb-sata3-2-5-500mb-s-negro/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$67.990"
+        "Efectivo/Transferencia": "$67.990",
+        "Tarjeta crédito/débito": "$70.030"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,13 +43,15 @@
       "product_id": 1604,
       "store_id": "centrale",
       "price": 86250,
+      "price_card": 90994,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-480gb-kingston-a400-sata3-2-5%e2%80%b3/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$86.250"
+        "Transferencia / Efectivo": "$86.250",
+        "Tarjetas de Crédito / Débito": "$90.994"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,13 +62,15 @@
       "product_id": 32003,
       "store_id": "winpy",
       "price": 86944,
+      "price_card": 89552,
       "price_normal": null,
       "discount_pct": 25,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/disco-estado-solido-kingston-a400-de-240gb-ssd-sata/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$86.944"
+        "Efectivo/Transferencia": "$86.944",
+        "Tarjeta crédito/débito": "$89.552"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -75,6 +81,7 @@
       "product_id": 16328,
       "store_id": "spdigital",
       "price": 124986,
+      "price_card": 130610,
       "price_normal": 124990,
       "discount_pct": null,
       "stock": "in_stock",
@@ -82,7 +89,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$124.986",
-        "Webpay / Tarjeta": "$124.990"
+        "Webpay / Tarjeta": "$130.610"
       },
       "store_rating": 0,
       "review_count": 0,

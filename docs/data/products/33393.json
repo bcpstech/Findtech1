@@ -18,12 +18,13 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:49:55",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 33393,
       "store_id": "infor-ingen",
       "price": 229900,
+      "price_card": 236797,
       "price_normal": 243694,
       "discount_pct": 6,
       "stock": "in_stock",
@@ -31,7 +32,7 @@
       "store_name": "Infor-Ingen",
       "price_specs": {
         "Efectivo/Transferencia": "$229.900",
-        "Tarjeta crédito/débito": "$243.694"
+        "Tarjeta crédito/débito": "$236.797"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,13 +43,15 @@
       "product_id": 1467,
       "store_id": "centrale",
       "price": 250500,
+      "price_card": 264278,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/xpg-memoria-ram-lancer-blade-rgb-negro-de-16gb-ddr5-6000mhz-cl48-xmp-dimm/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$250.500"
+        "Transferencia / Efectivo": "$250.500",
+        "Tarjetas de Crédito / Débito": "$264.278"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,6 +62,7 @@
       "product_id": 9504,
       "store_id": "spdigital",
       "price": 306103,
+      "price_card": 319878,
       "price_normal": 377960,
       "discount_pct": 19,
       "stock": "in_stock",
@@ -66,7 +70,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$306.103",
-        "Webpay / Tarjeta": "$377.960"
+        "Webpay / Tarjeta": "$319.878"
       },
       "store_rating": 0,
       "review_count": 0,

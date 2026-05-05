@@ -16,19 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:50:58",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 2528,
       "store_id": "megabytes",
       "price": 82990,
+      "price_card": 85480,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/crucial-e100-480gb-nvme-pciex-4-0-m-2-2280/",
       "store_name": "MegaBytes",
       "price_specs": {
-        "Efectivo/Transferencia": "$82.990"
+        "Efectivo/Transferencia": "$82.990",
+        "Tarjeta crédito/débito": "$85.480"
       },
       "store_rating": 0,
       "review_count": 0,

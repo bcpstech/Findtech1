@@ -17,19 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-05-03 04:31:50",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 23447,
       "store_id": "alltec",
       "price": 314900,
+      "price_card": 324347,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/nvidia/1702-tv-evga-geforce-gtx-1660-super-sc-ultra-gaming-6gb-gddr6-06g-p4-1068-kr.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$314.900"
+        "Efectivo/Transferencia": "$314.900",
+        "Tarjeta crédito/débito": "$324.347"
       },
       "store_rating": 0,
       "review_count": 0,

@@ -15,19 +15,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:39:59",
-  "updated_at": "2026-05-04 23:51:28",
+  "updated_at": "2026-05-05 13:17:02",
   "prices": [
     {
       "product_id": 1763,
       "store_id": "progaming",
       "price": 59990,
+      "price_card": 61790,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-msi-mag-coreliquid-a12-240-negro/",
       "store_name": "ProGaming",
       "price_specs": {
-        "Efectivo/Transferencia": "$59.990"
+        "Efectivo/Transferencia": "$59.990",
+        "Tarjeta crédito/débito": "$61.790"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,13 +40,15 @@
       "product_id": 1612,
       "store_id": "centrale",
       "price": 70460,
+      "price_card": 74335,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-msi-mag-coreliquid-a12-240mm-argb/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$70.460"
+        "Transferencia / Efectivo": "$70.460",
+        "Tarjetas de Crédito / Débito": "$74.335"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,13 +59,15 @@
       "product_id": 9660,
       "store_id": "spdigital",
       "price": 74651,
+      "price_card": 78010,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/refrigeracion-liquida-msi-mag-coreliquid-a12-240-argb-sockets-intel-lga-17001851-amd-am4am5",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$74.651"
+        "Transferencia / Efectivo": "$74.651",
+        "Webpay / Tarjeta": "$78.010"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -72,6 +78,7 @@
       "product_id": 2636,
       "store_id": "trulustore",
       "price": 79990,
+      "price_card": 82390,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -80,7 +87,8 @@
       "khipu_price": 81590,
       "price_specs": {
         "Efectivo / Transferencia": "$79.990",
-        "Khipu": "$81.590"
+        "Khipu": "$81.590",
+        "Tarjeta crédito/débito": "$82.390"
       },
       "store_rating": 0,
       "review_count": 0,

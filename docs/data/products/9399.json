@@ -25,19 +25,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:52",
-  "updated_at": "2026-05-04 23:01:30",
+  "updated_at": "2026-05-05 12:22:59",
   "prices": [
     {
       "product_id": 1976,
       "store_id": "dust2",
       "price": 351990,
+      "price_card": 362550,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-7-9700x-8c-16t-3-8-5-5ghz-am5/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$351.990"
+        "Efectivo/Transferencia": "$351.990",
+        "Tarjeta crédito/débito": "$362.550"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -48,6 +50,7 @@
       "product_id": 32927,
       "store_id": "infor-ingen",
       "price": 354900,
+      "price_card": 365547,
       "price_normal": 376194,
       "discount_pct": 6,
       "stock": "in_stock",
@@ -55,7 +58,7 @@
       "store_name": "Infor-Ingen",
       "price_specs": {
         "Efectivo/Transferencia": "$354.900",
-        "Tarjeta crédito/débito": "$376.194"
+        "Tarjeta crédito/débito": "$365.547"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -66,13 +69,15 @@
       "product_id": 31908,
       "store_id": "winpy",
       "price": 359936,
+      "price_card": 370734,
       "price_normal": null,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-7-9700x-am5-8-cores-16-hilos-3-8-5-5ghz-32mb-cache-unlocked/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$359.936"
+        "Efectivo/Transferencia": "$359.936",
+        "Tarjeta crédito/débito": "$370.734"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -83,13 +88,15 @@
       "product_id": 281,
       "store_id": "centrale",
       "price": 366790,
+      "price_card": 386963,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-9700x-8-cores-16-threads-3-8-a-5-5-ghz-65w/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$366.790"
+        "Transferencia / Efectivo": "$366.790",
+        "Tarjetas de Crédito / Débito": "$386.963"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -100,13 +107,15 @@
       "product_id": 2815,
       "store_id": "alltec",
       "price": 383300,
+      "price_card": 394799,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2269-amd-ryzen-7-9700x-38ghz-55ghz-turbo-octa-core-tdp-65w-am5.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$383.300"
+        "Efectivo/Transferencia": "$383.300",
+        "Tarjeta crédito/débito": "$394.799"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -117,6 +126,7 @@
       "product_id": 9399,
       "store_id": "spdigital",
       "price": 389995,
+      "price_card": 407545,
       "price_normal": 599990,
       "discount_pct": 35,
       "stock": "in_stock",
@@ -124,7 +134,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$389.995",
-        "Webpay / Tarjeta": "$599.990"
+        "Webpay / Tarjeta": "$407.545"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -135,13 +145,15 @@
       "product_id": 1138,
       "store_id": "cg",
       "price": 399024,
+      "price_card": 420013,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-7-9700x-2/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$399.024"
+        "Efectivo/Transferencia": "$399.024",
+        "Webpay / Tarjeta": "$420.013"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -152,6 +164,7 @@
       "product_id": 2630,
       "store_id": "trulustore",
       "price": 419990,
+      "price_card": 432590,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -160,7 +173,8 @@
       "khipu_price": 428390,
       "price_specs": {
         "Efectivo / Transferencia": "$419.990",
-        "Khipu": "$428.390"
+        "Khipu": "$428.390",
+        "Tarjeta crédito/débito": "$432.590"
       },
       "store_rating": 0,
       "review_count": 0,

@@ -14,12 +14,13 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:34",
-  "updated_at": "2026-05-04 23:03:43",
+  "updated_at": "2026-05-05 12:25:18",
   "prices": [
     {
       "product_id": 9694,
       "store_id": "spdigital",
       "price": 49995,
+      "price_card": 52245,
       "price_normal": 79990,
       "discount_pct": 37,
       "stock": "in_stock",
@@ -27,7 +28,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$49.995",
-        "Webpay / Tarjeta": "$79.990"
+        "Webpay / Tarjeta": "$52.245"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,13 +39,15 @@
       "product_id": 2245,
       "store_id": "dust2",
       "price": 53990,
+      "price_card": 55610,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-msi-mag-a650bn-pcie5-iii-650w-80plus-bronze/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$53.990"
+        "Efectivo/Transferencia": "$53.990",
+        "Tarjeta crédito/débito": "$55.610"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,13 +58,15 @@
       "product_id": 1718,
       "store_id": "centrale",
       "price": 57770,
+      "price_card": 60947,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-650w-msi-mag-a650bn-no-modular-80-bronze/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$57.770"
+        "Transferencia / Efectivo": "$57.770",
+        "Tarjetas de Crédito / Débito": "$60.947"
       },
       "store_rating": 0,
       "review_count": 0,

@@ -17,19 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 1569,
       "store_id": "centrale",
       "price": 524660,
+      "price_card": 553516,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ssd-micron-5400-max-1-92tb-sata-2-5-540mb-s-lectura-tlc-enterprise/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$524.660"
+        "Transferencia / Efectivo": "$524.660",
+        "Tarjetas de Crédito / Débito": "$553.516"
       },
       "store_rating": 0,
       "review_count": 0,

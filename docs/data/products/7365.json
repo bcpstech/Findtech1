@@ -14,19 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 02:03:01",
-  "updated_at": "2026-05-04 23:00:04",
+  "updated_at": "2026-05-05 12:21:29",
   "prices": [
     {
       "product_id": 7365,
       "store_id": "cg",
       "price": 7344990,
+      "price_card": 7731336,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/pc-premium/pc-gamer-amd-ryzen-9-9900x-5090-32gb-ram-ddr5-1-tb-nvme/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$7.344.990"
+        "Efectivo/Transferencia": "$7.344.990",
+        "Webpay / Tarjeta": "$7.731.336"
       },
       "store_rating": 0,
       "review_count": 0,

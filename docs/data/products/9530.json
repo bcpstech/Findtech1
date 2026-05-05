@@ -17,12 +17,13 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:03",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 9530,
       "store_id": "spdigital",
       "price": 59995,
+      "price_card": 62695,
       "price_normal": 119990,
       "discount_pct": 50,
       "stock": "in_stock",
@@ -30,7 +31,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$59.995",
-        "Webpay / Tarjeta": "$119.990"
+        "Webpay / Tarjeta": "$62.695"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,6 +42,7 @@
       "product_id": 2526,
       "store_id": "megabytes",
       "price": 69990,
+      "price_card": 72090,
       "price_normal": 89990,
       "discount_pct": 22,
       "stock": "in_stock",
@@ -48,7 +50,7 @@
       "store_name": "MegaBytes",
       "price_specs": {
         "Efectivo/Transferencia": "$69.990",
-        "Tarjeta crédito/débito": "$89.990"
+        "Tarjeta crédito/débito": "$72.090"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,13 +61,15 @@
       "product_id": 2187,
       "store_id": "dust2",
       "price": 81990,
+      "price_card": 84450,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/disco-solido-ssd-adata-sata-su650-480gb/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$81.990"
+        "Efectivo/Transferencia": "$81.990",
+        "Tarjeta crédito/débito": "$84.450"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -76,13 +80,15 @@
       "product_id": 23589,
       "store_id": "alltec",
       "price": 89000,
+      "price_card": 91670,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/ssd/2407-480gb-ssd-sata-6gbs-adata-su650-3d-asu650ss-480gt-r.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$89.000"
+        "Efectivo/Transferencia": "$89.000",
+        "Tarjeta crédito/débito": "$91.670"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -93,13 +99,15 @@
       "product_id": 32006,
       "store_id": "winpy",
       "price": 97280,
+      "price_card": 100198,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/disco-ssd-a-data-ultimate-su650-de-480gb-2-5-sata-3d-nand/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$97.280"
+        "Efectivo/Transferencia": "$97.280",
+        "Tarjeta crédito/débito": "$100.198"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -110,13 +118,15 @@
       "product_id": 1532,
       "store_id": "centrale",
       "price": 113700,
+      "price_card": 119954,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ssd-xpg-su650-480gb-2-5-sata-3-lectura-520mb-s-escritura-450mb-s-3d/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$113.700"
+        "Transferencia / Efectivo": "$113.700",
+        "Tarjetas de Crédito / Débito": "$119.954"
       },
       "store_rating": 0,
       "review_count": 0,

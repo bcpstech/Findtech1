@@ -16,19 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-04-27 00:32:00",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 291,
       "store_id": "centrale",
       "price": 165110,
+      "price_card": 174191,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-5700-8-nucleos-3-7-a-4-6ghz-am4/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$165.110"
+        "Transferencia / Efectivo": "$165.110",
+        "Tarjetas de Crédito / Débito": "$174.191"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,13 +41,15 @@
       "product_id": 2816,
       "store_id": "alltec",
       "price": 171500,
+      "price_card": 176645,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2494-amd-ryzen-7-5700-37ghz-46ghz-turbo-octa-core-tdp-65w-am5.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$171.500"
+        "Efectivo/Transferencia": "$171.500",
+        "Tarjeta crédito/débito": "$176.645"
       },
       "store_rating": 0,
       "review_count": 0,

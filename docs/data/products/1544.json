@@ -10,24 +10,26 @@
   "specs": {
     "Capacidad": "6 TB",
     "Interfaz": "SATA III",
-    "Transferencia / Efectivo": "$234.650",
-    "Tarjeta crédito/débito": "$247.560"
+    "Transferencia / Efectivo": "$237.750",
+    "Tarjeta crédito/débito": "$250.830"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 1544,
       "store_id": "centrale",
       "price": 234650,
+      "price_card": 247556,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-purple-sata-6-tb-western-digital-6gb-s-5400-rpm/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$234.650"
+        "Transferencia / Efectivo": "$234.650",
+        "Tarjetas de Crédito / Débito": "$247.556"
       },
       "store_rating": 0,
       "review_count": 0,

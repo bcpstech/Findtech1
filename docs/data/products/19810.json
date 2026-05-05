@@ -21,12 +21,13 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:30",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 19810,
       "store_id": "myshop",
       "price": 213990,
+      "price_card": 220410,
       "price_normal": 225759,
       "discount_pct": null,
       "stock": "in_stock",
@@ -34,7 +35,7 @@
       "store_name": "MyShop",
       "price_specs": {
         "Efectivo/Transferencia": "$213.990",
-        "Tarjeta crédito/débito": "$225.759"
+        "Tarjeta crédito/débito": "$220.410"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -45,13 +46,15 @@
       "product_id": 31844,
       "store_id": "winpy",
       "price": 214624,
+      "price_card": 221063,
       "price_normal": null,
       "discount_pct": 14,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-3050-ventus-2x-oc-con-6gb-gddr6/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$214.624"
+        "Efectivo/Transferencia": "$214.624",
+        "Tarjeta crédito/débito": "$221.063"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,13 +65,15 @@
       "product_id": 1194,
       "store_id": "centrale",
       "price": 225700,
+      "price_card": 238114,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-3050-ventus-2x-oc-6gb-gddr6-96-bit/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$225.700"
+        "Transferencia / Efectivo": "$225.700",
+        "Tarjetas de Crédito / Débito": "$238.114"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -79,13 +84,15 @@
       "product_id": 9576,
       "store_id": "spdigital",
       "price": 344220,
+      "price_card": 359710,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/geforce-rtx-3050-ventus-2x-6g-oc-2",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$344.220"
+        "Transferencia / Efectivo": "$344.220",
+        "Webpay / Tarjeta": "$359.710"
       },
       "store_rating": 0,
       "review_count": 0,

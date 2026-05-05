@@ -18,19 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:23:18",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 900,
       "store_id": "alltec",
       "price": 219900,
+      "price_card": 226497,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/nvidia/2481-tv-msi-geforce-rtx-3050-ventus-2x-6g-oc.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$219.900"
+        "Efectivo/Transferencia": "$219.900",
+        "Tarjeta crédito/débito": "$226.497"
       },
       "store_rating": 0,
       "review_count": 0,

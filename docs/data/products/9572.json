@@ -15,24 +15,26 @@
     "Velocidad": "20000 MHz",
     "Factor de forma": "Full-Height/Half-Length (FH/HL)",
     "TDP": "94 W",
-    "Efectivo/Transferencia": "$352.655",
-    "Tarjeta crédito/débito": "$368.524"
+    "Efectivo/Transferencia": "$355.359",
+    "Tarjeta crédito/débito": "$371.350"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:26",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 1820,
       "store_id": "dust2",
       "price": 345990,
+      "price_card": 356370,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-gigabyte-rtx-5050-windforce-oc-v2-8-gb/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$345.990"
+        "Efectivo/Transferencia": "$345.990",
+        "Tarjeta crédito/débito": "$356.370"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,6 +45,7 @@
       "product_id": 19812,
       "store_id": "myshop",
       "price": 347990,
+      "price_card": 358430,
       "price_normal": 367129,
       "discount_pct": null,
       "stock": "in_stock",
@@ -50,7 +53,7 @@
       "store_name": "MyShop",
       "price_specs": {
         "Efectivo/Transferencia": "$347.990",
-        "Tarjeta crédito/débito": "$367.129"
+        "Tarjeta crédito/débito": "$358.430"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -61,13 +64,15 @@
       "product_id": 31850,
       "store_id": "winpy",
       "price": 349600,
+      "price_card": 360088,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-gigabyte-geforce-rtx-5050-windforce-oc-v2-de-8gb-gddr6/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$349.600"
+        "Efectivo/Transferencia": "$349.600",
+        "Tarjeta crédito/débito": "$360.088"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -78,6 +83,7 @@
       "product_id": 9572,
       "store_id": "spdigital",
       "price": 352267,
+      "price_card": 368119,
       "price_normal": 435000,
       "discount_pct": 19,
       "stock": "in_stock",
@@ -85,7 +91,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$352.267",
-        "Webpay / Tarjeta": "$435.000"
+        "Webpay / Tarjeta": "$368.119"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -96,13 +102,15 @@
       "product_id": 1239,
       "store_id": "centrale",
       "price": 358380,
+      "price_card": 378091,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-gigabyte-geforce-rtx-5050-windforce-oc-8gb-gddr6-128-bit/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$358.380"
+        "Transferencia / Efectivo": "$358.380",
+        "Tarjetas de Crédito / Débito": "$378.091"
       },
       "store_rating": 0,
       "review_count": 0,

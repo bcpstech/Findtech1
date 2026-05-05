@@ -12,24 +12,26 @@
     "Interfaz": "PCI Express 4.0",
     "Factor de forma": "M.2 2280",
     "Lectura": "7200 MB/s",
-    "Efectivo/Transferencia": "$175.016",
-    "Tarjeta crédito/débito": "$182.892"
+    "Efectivo/Transferencia": "$176.349",
+    "Tarjeta crédito/débito": "$184.285"
   },
   "tags": [],
   "created_at": "2026-05-04 01:25:55",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 32025,
       "store_id": "winpy",
       "price": 149568,
+      "price_card": 154055,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/unidad-de-estado-solido-crucial-t500-de-500gb-nvme-4-0-m-2-2280-hasta-7200mb-s/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$149.568"
+        "Efectivo/Transferencia": "$149.568",
+        "Tarjeta crédito/débito": "$154.055"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,13 +42,15 @@
       "product_id": 1575,
       "store_id": "centrale",
       "price": 174500,
+      "price_card": 184098,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-500gb-crucial-t500-nvme-pcie-4-0-x4-m-2-2280/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$174.500"
+        "Transferencia / Efectivo": "$174.500",
+        "Tarjetas de Crédito / Débito": "$184.098"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,6 +61,7 @@
       "product_id": 9545,
       "store_id": "spdigital",
       "price": 174814,
+      "price_card": 182681,
       "price_normal": 215850,
       "discount_pct": 19,
       "stock": "in_stock",
@@ -64,7 +69,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$174.814",
-        "Webpay / Tarjeta": "$215.850"
+        "Webpay / Tarjeta": "$182.681"
       },
       "store_rating": 0,
       "review_count": 0,

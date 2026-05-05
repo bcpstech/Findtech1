@@ -13,19 +13,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:31:54",
-  "updated_at": "2026-05-04 23:14:22",
+  "updated_at": "2026-05-05 12:37:10",
   "prices": [
     {
       "product_id": 1060,
       "store_id": "alltec",
       "price": 33900,
+      "price_card": 34917,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/cpu-cooler/2297-cpu-cooler-xigmatek-air-killer-s-arctic.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$33.900"
+        "Efectivo/Transferencia": "$33.900",
+        "Tarjeta crédito/débito": "$34.917"
       },
       "store_rating": 0,
       "review_count": 0,

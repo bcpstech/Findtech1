@@ -14,19 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:14",
-  "updated_at": "2026-05-04 14:37:54",
+  "updated_at": "2026-05-05 12:26:12",
   "prices": [
     {
       "product_id": 9778,
       "store_id": "spdigital",
       "price": 609990,
+      "price_card": 637440,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/haf-700-evo",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$609.990"
+        "Transferencia / Efectivo": "$609.990",
+        "Webpay / Tarjeta": "$637.440"
       },
       "store_rating": 0,
       "review_count": 0,

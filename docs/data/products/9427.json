@@ -18,12 +18,13 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:09",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 9427,
       "store_id": "spdigital",
       "price": 244995,
+      "price_card": 256020,
       "price_normal": 349990,
       "discount_pct": 30,
       "stock": "in_stock",
@@ -31,7 +32,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$244.995",
-        "Webpay / Tarjeta": "$349.990"
+        "Webpay / Tarjeta": "$256.020"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,13 +43,15 @@
       "product_id": 1373,
       "store_id": "centrale",
       "price": 247660,
+      "price_card": 261281,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b850m-aorus-elite-wifi6e-ice-am5-ddr5-pcie-5-0-wi-fi-6e/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$247.660"
+        "Transferencia / Efectivo": "$247.660",
+        "Tarjetas de Crédito / Débito": "$261.281"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,6 +62,7 @@
       "product_id": 613,
       "store_id": "n1g",
       "price": 299000,
+      "price_card": 314847,
       "price_normal": 314737,
       "discount_pct": 5,
       "stock": "in_stock",
@@ -66,7 +70,7 @@
       "store_name": "N1G",
       "price_specs": {
         "Efectivo/Transferencia": "$299.000",
-        "Tarjeta crédito/débito": "$314.737"
+        "Tarjeta crédito/débito": "$314.847"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -77,6 +81,7 @@
       "product_id": 2642,
       "store_id": "trulustore",
       "price": 299990,
+      "price_card": 308990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -85,7 +90,8 @@
       "khipu_price": 305990,
       "price_specs": {
         "Efectivo / Transferencia": "$299.990",
-        "Khipu": "$305.990"
+        "Khipu": "$305.990",
+        "Tarjeta crédito/débito": "$308.990"
       },
       "store_rating": 0,
       "review_count": 0,

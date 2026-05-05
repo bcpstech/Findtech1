@@ -12,24 +12,26 @@
     "Interfaz": "Serial ATA III",
     "Factor de forma": "2.5\"",
     "Lectura": "540 MB/s",
-    "Efectivo/Transferencia": "$179.990",
-    "Tarjeta crédito/débito": "$188.090"
+    "Efectivo/Transferencia": "$115.206",
+    "Tarjeta crédito/débito": "$120.390"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:01",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 9526,
       "store_id": "spdigital",
       "price": 114201,
+      "price_card": 119340,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/500gb-ssd-bx500-3d-sata-25",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$114.201"
+        "Transferencia / Efectivo": "$114.201",
+        "Webpay / Tarjeta": "$119.340"
       },
       "store_rating": 0,
       "review_count": 0,

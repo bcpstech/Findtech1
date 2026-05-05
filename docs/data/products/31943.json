@@ -17,19 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:23:04",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 31943,
       "store_id": "winpy",
       "price": 121600,
+      "price_card": 125248,
       "price_normal": null,
       "discount_pct": 20,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-b650m-ayw-wifi-am5-ddr5-x2-m-2-x2-micro-atx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$121.600"
+        "Efectivo/Transferencia": "$121.600",
+        "Tarjeta crédito/débito": "$125.248"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,13 +42,15 @@
       "product_id": 1384,
       "store_id": "centrale",
       "price": 126150,
+      "price_card": 133088,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-b650m-ayw-wifi-am5-ddr5-x2-m-2-x2-micro-atx-wifi-6/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$126.150"
+        "Transferencia / Efectivo": "$126.150",
+        "Tarjetas de Crédito / Débito": "$133.088"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,6 +61,7 @@
       "product_id": 9428,
       "store_id": "spdigital",
       "price": 129995,
+      "price_card": 135845,
       "price_normal": 249990,
       "discount_pct": 48,
       "stock": "in_stock",
@@ -64,7 +69,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$129.995",
-        "Webpay / Tarjeta": "$249.990"
+        "Webpay / Tarjeta": "$135.845"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -75,6 +80,7 @@
       "product_id": 595,
       "store_id": "n1g",
       "price": 142900,
+      "price_card": 150474,
       "price_normal": 150421,
       "discount_pct": 5,
       "stock": "in_stock",
@@ -82,7 +88,7 @@
       "store_name": "N1G",
       "price_specs": {
         "Efectivo/Transferencia": "$142.900",
-        "Tarjeta crédito/débito": "$150.421"
+        "Tarjeta crédito/débito": "$150.474"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -93,13 +99,15 @@
       "product_id": 23519,
       "store_id": "alltec",
       "price": 142900,
+      "price_card": 147187,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/para-amd/2453-mb-asus-b650m-ayw-wi-fi-am5-ddr5-ryzen-700080009000.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$142.900"
+        "Efectivo/Transferencia": "$142.900",
+        "Tarjeta crédito/débito": "$147.187"
       },
       "store_rating": 0,
       "review_count": 0,

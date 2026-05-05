@@ -17,19 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:42:55",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 1986,
       "store_id": "dust2",
       "price": 78990,
+      "price_card": 81360,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/memoria-ram-corsair-vengeance-lpx-ddr4-8gb-3200mhz-black/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$78.990"
+        "Efectivo/Transferencia": "$78.990",
+        "Tarjeta crédito/débito": "$81.360"
       },
       "store_rating": 0,
       "review_count": 0,

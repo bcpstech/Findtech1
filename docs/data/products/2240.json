@@ -14,19 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:13",
-  "updated_at": "2026-05-04 23:48:10",
+  "updated_at": "2026-05-05 13:12:40",
   "prices": [
     {
       "product_id": 2240,
       "store_id": "dust2",
       "price": 57990,
+      "price_card": 59730,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-gigabyte-gp-p750bs-750w-80-plus-bronze/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$57.990"
+        "Efectivo/Transferencia": "$57.990",
+        "Tarjeta crédito/débito": "$59.730"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,13 +39,15 @@
       "product_id": 15389,
       "store_id": "spdigital",
       "price": 99990,
+      "price_card": 104490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/segunda-seleccion-fuente-de-poder-750w-gigabyte-gp-p750bs-80-plus-bronze-atx-color-negro",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$99.990"
+        "Transferencia / Efectivo": "$99.990",
+        "Webpay / Tarjeta": "$104.490"
       },
       "store_rating": 0,
       "review_count": 0,

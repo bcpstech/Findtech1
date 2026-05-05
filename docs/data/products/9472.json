@@ -18,19 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:34",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 1339,
       "store_id": "centrale",
       "price": 152720,
+      "price_card": 161120,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-b760m-a-wifi-lga1700-ddr5-wifi-6e/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$152.720"
+        "Transferencia / Efectivo": "$152.720",
+        "Tarjetas de Crédito / Débito": "$161.120"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,6 +43,7 @@
       "product_id": 9472,
       "store_id": "spdigital",
       "price": 169995,
+      "price_card": 177645,
       "price_normal": 263990,
       "discount_pct": 36,
       "stock": "in_stock",
@@ -48,7 +51,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$169.995",
-        "Webpay / Tarjeta": "$263.990"
+        "Webpay / Tarjeta": "$177.645"
       },
       "store_rating": 0,
       "review_count": 0,

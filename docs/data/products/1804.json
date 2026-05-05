@@ -19,12 +19,13 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:30",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 1804,
       "store_id": "dust2",
       "price": 2151990,
+      "price_card": 2216550,
       "price_normal": 2219990,
       "discount_pct": 3,
       "stock": "in_stock",
@@ -32,7 +33,7 @@
       "store_name": "Dust2",
       "price_specs": {
         "Efectivo/Transferencia": "$2.151.990",
-        "Tarjeta crédito/débito": "$2.219.990"
+        "Tarjeta crédito/débito": "$2.216.550"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,6 +44,7 @@
       "product_id": 9564,
       "store_id": "spdigital",
       "price": 2299995,
+      "price_card": 2403495,
       "price_normal": 2919990,
       "discount_pct": 21,
       "stock": "in_stock",
@@ -50,7 +52,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$2.299.995",
-        "Webpay / Tarjeta": "$2.919.990"
+        "Webpay / Tarjeta": "$2.403.495"
       },
       "store_rating": 0,
       "review_count": 0,

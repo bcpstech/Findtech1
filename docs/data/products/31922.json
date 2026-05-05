@@ -16,19 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:22",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 31922,
       "store_id": "winpy",
       "price": 52896,
+      "price_card": 54483,
       "price_normal": null,
       "discount_pct": 27,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-msi-a520m-a-pro-am4-ddr4-1866-3200-mhz-m-2-microatx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$52.896"
+        "Efectivo/Transferencia": "$52.896",
+        "Tarjeta crédito/débito": "$54.483"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,13 +41,15 @@
       "product_id": 1362,
       "store_id": "centrale",
       "price": 56130,
+      "price_card": 59217,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-msi-a520m-a-pro-socket-amd-am4-ddr4/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$56.130"
+        "Transferencia / Efectivo": "$56.130",
+        "Tarjetas de Crédito / Débito": "$59.217"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -56,6 +60,7 @@
       "product_id": 33058,
       "store_id": "infor-ingen",
       "price": 59900,
+      "price_card": 61697,
       "price_normal": 63494,
       "discount_pct": 6,
       "stock": "in_stock",
@@ -63,7 +68,7 @@
       "store_name": "Infor-Ingen",
       "price_specs": {
         "Efectivo/Transferencia": "$59.900",
-        "Tarjeta crédito/débito": "$63.494"
+        "Tarjeta crédito/débito": "$61.697"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -74,6 +79,7 @@
       "product_id": 9433,
       "store_id": "spdigital",
       "price": 59995,
+      "price_card": 62695,
       "price_normal": 149990,
       "discount_pct": 60,
       "stock": "in_stock",
@@ -81,7 +87,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$59.995",
-        "Webpay / Tarjeta": "$149.990"
+        "Webpay / Tarjeta": "$62.695"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -92,13 +98,15 @@
       "product_id": 1164,
       "store_id": "cg",
       "price": 64580,
+      "price_card": 67977,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/placas-madre/msi-a520m-a-pro-motherboard/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$64.580"
+        "Efectivo/Transferencia": "$64.580",
+        "Webpay / Tarjeta": "$67.977"
       },
       "store_rating": 0,
       "review_count": 0,

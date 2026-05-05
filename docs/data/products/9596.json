@@ -12,24 +12,26 @@
     "Tipo memoria": "GDDR6",
     "Bus de memoria": "256-bit",
     "Factor de forma": "Full-Height/Half-Length (FH/HL)",
-    "Efectivo/Transferencia": "$2.244.679",
-    "Tarjeta crédito/débito": "$2.345.690"
+    "Efectivo/Transferencia": "$2.261.895",
+    "Tarjeta crédito/débito": "$2.363.680"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:37",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 1208,
       "store_id": "centrale",
       "price": 1891770,
+      "price_card": 1995817,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-profesional-asus-turbo-radeon-ai-pro-r9700-32gb/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.891.770"
+        "Transferencia / Efectivo": "$1.891.770",
+        "Tarjetas de Crédito / Débito": "$1.995.817"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,6 +42,7 @@
       "product_id": 9592,
       "store_id": "spdigital",
       "price": 1999995,
+      "price_card": 2089995,
       "price_normal": 2999990,
       "discount_pct": 33,
       "stock": "in_stock",
@@ -47,7 +50,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$1.999.995",
-        "Webpay / Tarjeta": "$2.999.990"
+        "Webpay / Tarjeta": "$2.089.995"
       },
       "store_rating": 0,
       "review_count": 0,

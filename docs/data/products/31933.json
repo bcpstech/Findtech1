@@ -18,19 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:44",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 31933,
       "store_id": "winpy",
       "price": 91200,
+      "price_card": 93936,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b760m-a-d4-csm-lga1700-ddr4-x4-m-2-x2-micro-atx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$91.200"
+        "Efectivo/Transferencia": "$91.200",
+        "Tarjeta crédito/débito": "$93.936"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,13 +43,15 @@
       "product_id": 1153,
       "store_id": "cg",
       "price": 96990,
+      "price_card": 102092,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-b760m-a-d4-csm/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$96.990"
+        "Efectivo/Transferencia": "$96.990",
+        "Webpay / Tarjeta": "$102.092"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,6 +62,7 @@
       "product_id": 9461,
       "store_id": "spdigital",
       "price": 129990,
+      "price_card": 135840,
       "price_normal": 184990,
       "discount_pct": 30,
       "stock": "in_stock",
@@ -65,7 +70,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$129.990",
-        "Webpay / Tarjeta": "$184.990"
+        "Webpay / Tarjeta": "$135.840"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -76,13 +81,15 @@
       "product_id": 1377,
       "store_id": "centrale",
       "price": 131320,
+      "price_card": 138543,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b760m-a-lga1700-mb-prime-b760m-a-lga1700-mb/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$131.320"
+        "Transferencia / Efectivo": "$131.320",
+        "Tarjetas de Crédito / Débito": "$138.543"
       },
       "store_rating": 0,
       "review_count": 0,

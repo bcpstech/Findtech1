@@ -14,19 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:27:21",
-  "updated_at": "2026-05-04 23:43:38",
+  "updated_at": "2026-05-05 13:06:42",
   "prices": [
     {
       "product_id": 32063,
       "store_id": "winpy",
       "price": 44384,
+      "price_card": 45716,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-esgaming-slim-j01-micro-atx-itx-fuente-650w-negro/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$44.384"
+        "Efectivo/Transferencia": "$44.384",
+        "Tarjeta crédito/débito": "$45.716"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,13 +39,15 @@
       "product_id": 4213,
       "store_id": "cg",
       "price": 46990,
+      "price_card": 49462,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/gabinetes-gamer/gabinete-slim-j01-matx-itx-650w-usb-c-usb-2-0-usb-3-0-negro/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$46.990"
+        "Efectivo/Transferencia": "$46.990",
+        "Webpay / Tarjeta": "$49.462"
       },
       "store_rating": 0,
       "review_count": 0,

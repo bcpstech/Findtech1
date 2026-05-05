@@ -13,19 +13,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:45",
-  "updated_at": "2026-05-04 23:31:14",
+  "updated_at": "2026-05-05 12:54:17",
   "prices": [
     {
       "product_id": 1640,
       "store_id": "centrale",
       "price": 85900,
+      "price_card": 90625,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-cpu-arctic-liquid-freezer-iii-240-argb-white-aio/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$85.900"
+        "Transferencia / Efectivo": "$85.900",
+        "Tarjetas de Crédito / Débito": "$90.625"
       },
       "store_rating": 0,
       "review_count": 0,

@@ -11,24 +11,26 @@
     "Capacidad": "2 TB",
     "Interfaz": "PCI Express 5.0",
     "Factor de forma": "M.2 2280",
-    "Efectivo/Transferencia": "$515.301",
-    "Tarjeta crédito/débito": "$538.490"
+    "Efectivo/Transferencia": "$519.828",
+    "Tarjeta crédito/débito": "$543.220"
   },
   "tags": [],
   "created_at": "2026-04-29 16:29:52",
-  "updated_at": "2026-05-04 14:38:17",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 15185,
       "store_id": "spdigital",
       "price": 515301,
+      "price_card": 538490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/unidad-ssd-crucial-t710-2tb-pcie-50-nvme-m2-2280-write-14500-mbs-read-13800-mbs",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$515.301"
+        "Transferencia / Efectivo": "$515.301",
+        "Webpay / Tarjeta": "$538.490"
       },
       "store_rating": 0,
       "review_count": 0,

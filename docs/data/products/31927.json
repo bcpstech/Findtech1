@@ -16,19 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:32",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 31927,
       "store_id": "winpy",
       "price": 76608,
+      "price_card": 78906,
       "price_normal": null,
       "discount_pct": 21,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-msi-pro-a620am-b-evo-am5-chipset-a620-ddr5-m-2-micro-atx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$76.608"
+        "Efectivo/Transferencia": "$76.608",
+        "Tarjeta crédito/débito": "$78.906"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,13 +41,15 @@
       "product_id": 1323,
       "store_id": "centrale",
       "price": 82480,
+      "price_card": 87016,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/msi-pro-a620am-b-evo-911-7e36-002/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$82.480"
+        "Transferencia / Efectivo": "$82.480",
+        "Tarjetas de Crédito / Débito": "$87.016"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -56,13 +60,15 @@
       "product_id": 1156,
       "store_id": "cg",
       "price": 89990,
+      "price_card": 94723,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/placas-madre/placa-madre-msi-pro-a620am-b-evo/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$89.990"
+        "Efectivo/Transferencia": "$89.990",
+        "Webpay / Tarjeta": "$94.723"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -73,6 +79,7 @@
       "product_id": 33102,
       "store_id": "infor-ingen",
       "price": 94900,
+      "price_card": 97747,
       "price_normal": 100594,
       "discount_pct": 6,
       "stock": "in_stock",
@@ -80,7 +87,7 @@
       "store_name": "Infor-Ingen",
       "price_specs": {
         "Efectivo/Transferencia": "$94.900",
-        "Tarjeta crédito/débito": "$100.594"
+        "Tarjeta crédito/débito": "$97.747"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -91,6 +98,7 @@
       "product_id": 2641,
       "store_id": "trulustore",
       "price": 94990,
+      "price_card": 97840,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -99,7 +107,8 @@
       "khipu_price": 96890,
       "price_specs": {
         "Efectivo / Transferencia": "$94.990",
-        "Khipu": "$96.890"
+        "Khipu": "$96.890",
+        "Tarjeta crédito/débito": "$97.840"
       },
       "store_rating": 0,
       "review_count": 0,

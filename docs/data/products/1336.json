@@ -16,19 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 1336,
       "store_id": "centrale",
       "price": 120710,
+      "price_card": 127349,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-b850m-b-am5-ddr5-8200-oc-pcie-5-0-2-5g-lan-matx/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$120.710"
+        "Transferencia / Efectivo": "$120.710",
+        "Tarjetas de Crédito / Débito": "$127.349"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,6 +41,7 @@
       "product_id": 2633,
       "store_id": "trulustore",
       "price": 149990,
+      "price_card": 154490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -47,7 +50,8 @@
       "khipu_price": 152990,
       "price_specs": {
         "Efectivo / Transferencia": "$149.990",
-        "Khipu": "$152.990"
+        "Khipu": "$152.990",
+        "Tarjeta crédito/débito": "$154.490"
       },
       "store_rating": 0,
       "review_count": 0,

@@ -14,19 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 02:03:02",
-  "updated_at": "2026-05-04 23:00:06",
+  "updated_at": "2026-05-05 12:21:31",
   "prices": [
     {
       "product_id": 7366,
       "store_id": "cg",
       "price": 3299990,
+      "price_card": 3473569,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/pc-gamer-pba/pc-gamer-intel-i7-14700kf-5070-ti-32gb-ram-ddr5-1-tb-nvme/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$3.299.990"
+        "Efectivo/Transferencia": "$3.299.990",
+        "Webpay / Tarjeta": "$3.473.569"
       },
       "store_rating": 0,
       "review_count": 0,

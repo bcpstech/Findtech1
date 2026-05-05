@@ -16,19 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:42:50",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 1979,
       "store_id": "dust2",
       "price": 242990,
+      "price_card": 250280,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/memoria-ram-kingston-fury-renegade-ddr5-rgb-16g-7200mts/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$242.990"
+        "Efectivo/Transferencia": "$242.990",
+        "Tarjeta crédito/débito": "$250.280"
       },
       "store_rating": 0,
       "review_count": 0,

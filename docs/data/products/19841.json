@@ -21,12 +21,13 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:47",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 19841,
       "store_id": "myshop",
       "price": 1629990,
+      "price_card": 1678890,
       "price_normal": 1719639,
       "discount_pct": 14,
       "stock": "in_stock",
@@ -34,7 +35,7 @@
       "store_name": "MyShop",
       "price_specs": {
         "Efectivo/Transferencia": "$1.629.990",
-        "Tarjeta crédito/débito": "$1.719.639"
+        "Tarjeta crédito/débito": "$1.678.890"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -45,13 +46,15 @@
       "product_id": 1201,
       "store_id": "centrale",
       "price": 1645010,
+      "price_card": 1735486,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-rtx-5080-16gb-gddr7-solid-core-oc-pcie-5-0-360w/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.645.010"
+        "Transferencia / Efectivo": "$1.645.010",
+        "Tarjetas de Crédito / Débito": "$1.735.486"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,6 +65,7 @@
       "product_id": 9563,
       "store_id": "spdigital",
       "price": 1653686,
+      "price_card": 1728102,
       "price_normal": 2042350,
       "discount_pct": 19,
       "stock": "in_stock",
@@ -69,7 +73,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$1.653.686",
-        "Webpay / Tarjeta": "$2.042.350"
+        "Webpay / Tarjeta": "$1.728.102"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -80,6 +84,7 @@
       "product_id": 2602,
       "store_id": "trulustore",
       "price": 1699990,
+      "price_card": 1750990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -88,7 +93,8 @@
       "khipu_price": 1733990,
       "price_specs": {
         "Efectivo / Transferencia": "$1.699.990",
-        "Khipu": "$1.733.990"
+        "Khipu": "$1.733.990",
+        "Tarjeta crédito/débito": "$1.750.990"
       },
       "store_rating": 0,
       "review_count": 0,

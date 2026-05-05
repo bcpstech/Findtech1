@@ -22,19 +22,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:01",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 31913,
       "store_id": "winpy",
       "price": 409792,
+      "price_card": 422086,
       "price_normal": null,
       "discount_pct": 27,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-9-7900x-am5-12-cores-24-hilos-4-7-5-6ghz-64mb-de-cache/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$409.792"
+        "Efectivo/Transferencia": "$409.792",
+        "Tarjeta crédito/débito": "$422.086"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -45,13 +47,15 @@
       "product_id": 289,
       "store_id": "centrale",
       "price": 421440,
+      "price_card": 444619,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-7900x-4-7ghz-12-nucleos-24-hilos-socket-am5/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$421.440"
+        "Transferencia / Efectivo": "$421.440",
+        "Tarjetas de Crédito / Débito": "$444.619"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,13 +66,15 @@
       "product_id": 9414,
       "store_id": "spdigital",
       "price": 799990,
+      "price_card": 835990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ryzen-9-am5-7900x",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$799.990"
+        "Transferencia / Efectivo": "$799.990",
+        "Webpay / Tarjeta": "$835.990"
       },
       "store_rating": 0,
       "review_count": 0,

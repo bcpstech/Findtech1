@@ -12,24 +12,26 @@
     "Interfaz": "SATA",
     "Factor de forma": "2.5\"",
     "Lectura": "540 MB/s",
-    "Efectivo/Transferencia": "$471.474",
-    "Tarjeta crédito/débito": "$492.690"
+    "Efectivo/Transferencia": "$475.085",
+    "Tarjeta crédito/débito": "$496.464"
   },
   "tags": [],
   "created_at": "2026-05-04 01:25:05",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 32000,
       "store_id": "winpy",
       "price": 57760,
+      "price_card": 59493,
       "price_normal": null,
       "discount_pct": 41,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/disco-estado-solido-crucial-bx500-de-240gb-3d-nand-sata-ssd/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$57.760"
+        "Efectivo/Transferencia": "$57.760",
+        "Tarjeta crédito/débito": "$59.493"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,13 +42,15 @@
       "product_id": 1596,
       "store_id": "centrale",
       "price": 67750,
+      "price_card": 71476,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-240gb-crucial-bx500-3d-nand-sata-25/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$67.750"
+        "Transferencia / Efectivo": "$67.750",
+        "Tarjetas de Crédito / Débito": "$71.476"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,6 +61,7 @@
       "product_id": 9541,
       "store_id": "spdigital",
       "price": 470963,
+      "price_card": 492156,
       "price_normal": 581580,
       "discount_pct": 19,
       "stock": "in_stock",
@@ -64,7 +69,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$470.963",
-        "Webpay / Tarjeta": "$581.580"
+        "Webpay / Tarjeta": "$492.156"
       },
       "store_rating": 0,
       "review_count": 0,

@@ -17,12 +17,13 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:12:39",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 592,
       "store_id": "n1g",
       "price": 123500,
+      "price_card": 130045,
       "price_normal": 130000,
       "discount_pct": 5,
       "stock": "in_stock",
@@ -30,7 +31,7 @@
       "store_name": "N1G",
       "price_specs": {
         "Efectivo/Transferencia": "$123.500",
-        "Tarjeta crédito/débito": "$130.000"
+        "Tarjeta crédito/débito": "$130.045"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,13 +42,15 @@
       "product_id": 1372,
       "store_id": "centrale",
       "price": 134040,
+      "price_card": 141412,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-b840m-gaming-wifi6e-amd-am5-ddr5-pcie-4-0-wifi-6e/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$134.040"
+        "Transferencia / Efectivo": "$134.040",
+        "Tarjetas de Crédito / Débito": "$141.412"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,6 +61,7 @@
       "product_id": 33143,
       "store_id": "infor-ingen",
       "price": 139900,
+      "price_card": 144097,
       "price_normal": 148294,
       "discount_pct": 6,
       "stock": "in_stock",
@@ -65,7 +69,7 @@
       "store_name": "Infor-Ingen",
       "price_specs": {
         "Efectivo/Transferencia": "$139.900",
-        "Tarjeta crédito/débito": "$148.294"
+        "Tarjeta crédito/débito": "$144.097"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -76,13 +80,15 @@
       "product_id": 23521,
       "store_id": "alltec",
       "price": 154900,
+      "price_card": 159547,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/para-amd/2464-mb-msi-b840m-gaming-wifi6e-am5-ddr5-amd-ryzen-9000.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$154.900"
+        "Efectivo/Transferencia": "$154.900",
+        "Tarjeta crédito/débito": "$159.547"
       },
       "store_rating": 0,
       "review_count": 0,

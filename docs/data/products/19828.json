@@ -20,12 +20,13 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:39",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 9556,
       "store_id": "spdigital",
       "price": 699995,
+      "price_card": 731495,
       "price_normal": 799990,
       "discount_pct": 12,
       "stock": "in_stock",
@@ -33,7 +34,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$699.995",
-        "Webpay / Tarjeta": "$799.990"
+        "Webpay / Tarjeta": "$731.495"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -44,6 +45,7 @@
       "product_id": 19828,
       "store_id": "myshop",
       "price": 709990,
+      "price_card": 731290,
       "price_normal": 749039,
       "discount_pct": null,
       "stock": "in_stock",
@@ -51,7 +53,7 @@
       "store_name": "MyShop",
       "price_specs": {
         "Efectivo/Transferencia": "$709.990",
-        "Tarjeta crédito/débito": "$749.039"
+        "Tarjeta crédito/débito": "$731.290"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,13 +64,15 @@
       "product_id": 1206,
       "store_id": "centrale",
       "price": 782600,
+      "price_card": 825643,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-dual-rtx-5060-ti-evo-16gb-gddr7-128-bit-pcie-5-0/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$782.600"
+        "Transferencia / Efectivo": "$782.600",
+        "Tarjetas de Crédito / Débito": "$825.643"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -79,13 +83,15 @@
       "product_id": 31875,
       "store_id": "winpy",
       "price": 808032,
+      "price_card": 832273,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-dual-geforce-rtx-5060-ti-evo-oc-de-16gb-gddr7/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$808.032"
+        "Efectivo/Transferencia": "$808.032",
+        "Tarjeta crédito/débito": "$832.273"
       },
       "store_rating": 0,
       "review_count": 0,

@@ -14,19 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 02:02:35",
-  "updated_at": "2026-05-04 22:59:37",
+  "updated_at": "2026-05-05 12:21:00",
   "prices": [
     {
       "product_id": 7353,
       "store_id": "cg",
       "price": 2424990,
+      "price_card": 2552544,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/pc-high/pc-gamer-amd-ryzen-7-9700x-rtx-5070-32gb-ram-ddr5-1-tb-nvme/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$2.424.990"
+        "Efectivo/Transferencia": "$2.424.990",
+        "Webpay / Tarjeta": "$2.552.544"
       },
       "store_rating": 0,
       "review_count": 0,

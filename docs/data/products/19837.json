@@ -21,12 +21,13 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:45",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 19837,
       "store_id": "myshop",
       "price": 994990,
+      "price_card": 1024840,
       "price_normal": 1049714,
       "discount_pct": 9,
       "stock": "in_stock",
@@ -34,7 +35,7 @@
       "store_name": "MyShop",
       "price_specs": {
         "Efectivo/Transferencia": "$994.990",
-        "Tarjeta crédito/débito": "$1.049.714"
+        "Tarjeta crédito/débito": "$1.024.840"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -45,13 +46,15 @@
       "product_id": 31879,
       "store_id": "winpy",
       "price": 997120,
+      "price_card": 1027034,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5070-wow-midnight-light-edition-oc-de-12gb-gddr7/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$997.120"
+        "Efectivo/Transferencia": "$997.120",
+        "Tarjeta crédito/débito": "$1.027.034"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,6 +65,7 @@
       "product_id": 9557,
       "store_id": "spdigital",
       "price": 999995,
+      "price_card": 1044995,
       "price_normal": 1299990,
       "discount_pct": 23,
       "stock": "in_stock",
@@ -69,7 +73,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$999.995",
-        "Webpay / Tarjeta": "$1.299.990"
+        "Webpay / Tarjeta": "$1.044.995"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -80,13 +84,15 @@
       "product_id": 1195,
       "store_id": "centrale",
       "price": 1061300,
+      "price_card": 1119672,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5070-12gb-gddr7-world-of-warcraft-midnight-void/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.061.300"
+        "Transferencia / Efectivo": "$1.061.300",
+        "Tarjetas de Crédito / Débito": "$1.119.672"
       },
       "store_rating": 0,
       "review_count": 0,

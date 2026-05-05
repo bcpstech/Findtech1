@@ -13,12 +13,13 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:31",
-  "updated_at": "2026-05-04 23:04:23",
+  "updated_at": "2026-05-05 12:26:36",
   "prices": [
     {
       "product_id": 2625,
       "store_id": "trulustore",
       "price": 799990,
+      "price_card": 823990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -27,7 +28,8 @@
       "khipu_price": 815990,
       "price_specs": {
         "Efectivo / Transferencia": "$799.990",
-        "Khipu": "$815.990"
+        "Khipu": "$815.990",
+        "Tarjeta crédito/débito": "$823.990"
       },
       "store_rating": 0,
       "review_count": 0,

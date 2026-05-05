@@ -19,19 +19,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:39",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 1817,
       "store_id": "dust2",
       "price": 749890,
+      "price_card": 772387,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-msi-geforce-rtx-5070-12g-ventus-3x-oc/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$749.890"
+        "Efectivo/Transferencia": "$749.890",
+        "Tarjeta crédito/débito": "$772.387"
       },
       "store_rating": 0,
       "review_count": 0,

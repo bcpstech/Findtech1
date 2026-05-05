@@ -17,12 +17,13 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:42:03",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 324,
       "store_id": "centrale",
       "price": 640290,
+      "price_card": 675506,
       "price_normal": 722900,
       "discount_pct": 11,
       "stock": "in_stock",
@@ -30,7 +31,7 @@
       "store_name": "Centrale",
       "price_specs": {
         "Transferencia / Efectivo": "$640.290",
-        "Tarjetas de Crédito / Débito": "$722.900"
+        "Tarjetas de Crédito / Débito": "$675.506"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,6 +42,7 @@
       "product_id": 19,
       "store_id": "n1g",
       "price": 664900,
+      "price_card": 700140,
       "price_normal": 699895,
       "discount_pct": 5,
       "stock": "in_stock",
@@ -48,7 +50,7 @@
       "store_name": "N1G",
       "price_specs": {
         "Efectivo/Transferencia": "$664.900",
-        "Tarjeta crédito/débito": "$699.895"
+        "Tarjeta crédito/débito": "$700.140"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,13 +61,15 @@
       "product_id": 1925,
       "store_id": "dust2",
       "price": 719990,
+      "price_card": 741590,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/procesador-intel-core-ultra-9-285k-hasta-5-7ghz-lga1851/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$719.990"
+        "Efectivo/Transferencia": "$719.990",
+        "Tarjeta crédito/débito": "$741.590"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -76,13 +80,15 @@
       "product_id": 13796,
       "store_id": "cg",
       "price": 822967,
+      "price_card": 866255,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-9-285k-3-7-ghz-24-core-lga1851/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$822.967"
+        "Efectivo/Transferencia": "$822.967",
+        "Webpay / Tarjeta": "$866.255"
       },
       "store_rating": 0,
       "review_count": 0,

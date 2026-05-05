@@ -16,19 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:42:13",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 1939,
       "store_id": "dust2",
       "price": 399890,
+      "price_card": 411887,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/procesador-intel-core-ultra-7-265f-5-3ghz-lga1851/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$399.890"
+        "Efectivo/Transferencia": "$399.890",
+        "Tarjeta crédito/débito": "$411.887"
       },
       "store_rating": 0,
       "review_count": 0,

@@ -12,17 +12,18 @@
     "Factor de forma": "micro ATX",
     "Memoria": "DDR5",
     "Chipset": "Intel H610",
-    "Efectivo/Transferencia": "$81.394",
-    "Tarjeta crédito/débito": "$85.057"
+    "Efectivo/Transferencia": "$82.014",
+    "Tarjeta crédito/débito": "$85.705"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:33",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 9470,
       "store_id": "spdigital",
       "price": 81294,
+      "price_card": 84952,
       "price_normal": 100330,
       "discount_pct": 19,
       "stock": "in_stock",
@@ -30,7 +31,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$81.294",
-        "Webpay / Tarjeta": "$100.330"
+        "Webpay / Tarjeta": "$84.952"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,13 +42,15 @@
       "product_id": 31931,
       "store_id": "winpy",
       "price": 83904,
+      "price_card": 86421,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-gigabyte-h610m-k-v2-lga1700-ddr5-4400-5600mhz-m-2-micro-atx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$83.904"
+        "Efectivo/Transferencia": "$83.904",
+        "Tarjeta crédito/débito": "$86.421"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,13 +61,15 @@
       "product_id": 1391,
       "store_id": "centrale",
       "price": 84910,
+      "price_card": 89580,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-h610m-k-v2-micro-atx-lga-1700-ddr5-nvme-3-0/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$84.910"
+        "Transferencia / Efectivo": "$84.910",
+        "Tarjetas de Crédito / Débito": "$89.580"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -75,13 +80,15 @@
       "product_id": 1161,
       "store_id": "cg",
       "price": 86990,
+      "price_card": 91566,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/placas-madre/placa-madre-gigabyte-h610m-k-v2-ddr5/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$86.990"
+        "Efectivo/Transferencia": "$86.990",
+        "Webpay / Tarjeta": "$91.566"
       },
       "store_rating": 0,
       "review_count": 0,

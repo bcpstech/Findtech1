@@ -18,19 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:36",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 31872,
       "store_id": "winpy",
       "price": 747232,
+      "price_card": 769649,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5070-ventus-2x-oc-de-12gb-gddr7/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$747.232"
+        "Efectivo/Transferencia": "$747.232",
+        "Tarjeta crédito/débito": "$769.649"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,13 +43,15 @@
       "product_id": 1220,
       "store_id": "centrale",
       "price": 804010,
+      "price_card": 848231,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-de-video-msi-geforce-rtx-5070-ventus-2x-oc-12gb-gddr7/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$804.010"
+        "Transferencia / Efectivo": "$804.010",
+        "Tarjetas de Crédito / Débito": "$848.231"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,6 +62,7 @@
       "product_id": 9578,
       "store_id": "spdigital",
       "price": 819995,
+      "price_card": 856895,
       "price_normal": 999990,
       "discount_pct": 18,
       "stock": "in_stock",
@@ -65,7 +70,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$819.995",
-        "Webpay / Tarjeta": "$999.990"
+        "Webpay / Tarjeta": "$856.895"
       },
       "store_rating": 0,
       "review_count": 0,

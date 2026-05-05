@@ -16,19 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:18:54",
-  "updated_at": "2026-05-04 23:10:45",
+  "updated_at": "2026-05-05 12:32:50",
   "prices": [
     {
       "product_id": 1704,
       "store_id": "centrale",
       "price": 89020,
+      "price_card": 93916,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-gigabyte-gp-ud750gm-pg5-750w-80-plus-gold-full-modular/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$89.020"
+        "Transferencia / Efectivo": "$89.020",
+        "Tarjetas de Crédito / Débito": "$93.916"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,13 +41,15 @@
       "product_id": 2239,
       "store_id": "dust2",
       "price": 89990,
+      "price_card": 92690,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-gigabyte-gp-ud750gm-pg5-750w-80plus-gold/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$89.990"
+        "Efectivo/Transferencia": "$89.990",
+        "Tarjeta crédito/débito": "$92.690"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -56,6 +60,7 @@
       "product_id": 19882,
       "store_id": "myshop",
       "price": 93850,
+      "price_card": 96666,
       "price_normal": 99012,
       "discount_pct": null,
       "stock": "in_stock",
@@ -63,7 +68,7 @@
       "store_name": "MyShop",
       "price_specs": {
         "Efectivo/Transferencia": "$93.850",
-        "Tarjeta crédito/débito": "$99.012"
+        "Tarjeta crédito/débito": "$96.666"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -74,6 +79,7 @@
       "product_id": 2661,
       "store_id": "trulustore",
       "price": 94990,
+      "price_card": 97840,
       "price_normal": 109890,
       "discount_pct": 14,
       "stock": "in_stock",
@@ -83,7 +89,7 @@
       "price_specs": {
         "Efectivo / Transferencia": "$94.990",
         "Khipu": "$96.890",
-        "Tarjeta crédito/débito": "$109.890"
+        "Tarjeta crédito/débito": "$97.840"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -94,6 +100,7 @@
       "product_id": 9707,
       "store_id": "spdigital",
       "price": 99995,
+      "price_card": 104495,
       "price_normal": 149990,
       "discount_pct": 33,
       "stock": "in_stock",
@@ -101,7 +108,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$99.995",
-        "Webpay / Tarjeta": "$149.990"
+        "Webpay / Tarjeta": "$104.495"
       },
       "store_rating": 0,
       "review_count": 0,

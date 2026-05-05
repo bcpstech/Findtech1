@@ -13,19 +13,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:51:34",
-  "updated_at": "2026-05-04 23:50:52",
+  "updated_at": "2026-05-05 13:16:24",
   "prices": [
     {
       "product_id": 2585,
       "store_id": "megabytes",
       "price": 19990,
+      "price_card": 20590,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/lancool-ii-2x/",
       "store_name": "MegaBytes",
       "price_specs": {
-        "Efectivo/Transferencia": "$19.990"
+        "Efectivo/Transferencia": "$19.990",
+        "Tarjeta crédito/débito": "$20.590"
       },
       "store_rating": 0,
       "review_count": 0,

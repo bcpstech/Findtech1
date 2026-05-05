@@ -16,19 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-04-27 22:15:07",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 4605,
       "store_id": "centrale",
       "price": 98540,
+      "price_card": 103960,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-2-tb-western-digital-wd-blue-interno-3-5-sata-6gb-s-7200rpm/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$98.540"
+        "Transferencia / Efectivo": "$98.540",
+        "Tarjetas de Crédito / Débito": "$103.960"
       },
       "store_rating": 0,
       "review_count": 0,

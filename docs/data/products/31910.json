@@ -18,19 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:55",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 31910,
       "store_id": "winpy",
       "price": 365408,
+      "price_card": 376370,
       "price_normal": null,
       "discount_pct": 17,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i7-14700f-raptor-lake-lga1700-2-1-5-4-ghz-20-nucleos-28-hilos-33-mb-cache-sin-video/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$365.408"
+        "Efectivo/Transferencia": "$365.408",
+        "Tarjeta crédito/débito": "$376.370"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,6 +43,7 @@
       "product_id": 333,
       "store_id": "centrale",
       "price": 393450,
+      "price_card": 415090,
       "price_normal": 470330,
       "discount_pct": 16,
       "stock": "in_stock",
@@ -48,7 +51,7 @@
       "store_name": "Centrale",
       "price_specs": {
         "Transferencia / Efectivo": "$393.450",
-        "Tarjetas de Crédito / Débito": "$470.330"
+        "Tarjetas de Crédito / Débito": "$415.090"
       },
       "store_rating": 0,
       "review_count": 0,

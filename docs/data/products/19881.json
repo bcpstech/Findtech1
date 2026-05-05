@@ -16,12 +16,13 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:18:30",
-  "updated_at": "2026-05-04 23:10:24",
+  "updated_at": "2026-05-05 12:32:27",
   "prices": [
     {
       "product_id": 19881,
       "store_id": "myshop",
       "price": 3990,
+      "price_card": 4110,
       "price_normal": 4209,
       "discount_pct": null,
       "stock": "in_stock",
@@ -29,7 +30,7 @@
       "store_name": "MyShop",
       "price_specs": {
         "Efectivo/Transferencia": "$3.990",
-        "Tarjeta crédito/débito": "$4.209"
+        "Tarjeta crédito/débito": "$4.110"
       },
       "store_rating": 0,
       "review_count": 0,

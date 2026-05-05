@@ -21,12 +21,13 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:50",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 19844,
       "store_id": "myshop",
       "price": 1894990,
+      "price_card": 1951840,
       "price_normal": 1999214,
       "discount_pct": null,
       "stock": "in_stock",
@@ -34,7 +35,7 @@
       "store_name": "MyShop",
       "price_specs": {
         "Efectivo/Transferencia": "$1.894.990",
-        "Tarjeta crédito/débito": "$1.999.214"
+        "Tarjeta crédito/débito": "$1.951.840"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -45,6 +46,7 @@
       "product_id": 9575,
       "store_id": "spdigital",
       "price": 1999995,
+      "price_card": 2089995,
       "price_normal": 2499990,
       "discount_pct": 20,
       "stock": "in_stock",
@@ -52,7 +54,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$1.999.995",
-        "Webpay / Tarjeta": "$2.499.990"
+        "Webpay / Tarjeta": "$2.089.995"
       },
       "store_rating": 0,
       "review_count": 0,

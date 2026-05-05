@@ -14,19 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-05-03 04:31:34",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 23432,
       "store_id": "alltec",
       "price": 399900,
+      "price_card": 411897,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2435-tv-sapphire-pulse-amd-radeon-rx-9060-xt-8gb.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$399.900"
+        "Efectivo/Transferencia": "$399.900",
+        "Tarjeta crédito/débito": "$411.897"
       },
       "store_rating": 0,
       "review_count": 0,

@@ -19,19 +19,21 @@
   },
   "tags": [],
   "created_at": "2026-04-29 03:31:27",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 13789,
       "store_id": "cg",
       "price": 805065,
+      "price_card": 847411,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/tarjetas-de-video/tarjeta-de-video-asus-rtx-5070-dual-12-gb-nvidia/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$805.065"
+        "Efectivo/Transferencia": "$805.065",
+        "Webpay / Tarjeta": "$847.411"
       },
       "store_rating": 0,
       "review_count": 0,

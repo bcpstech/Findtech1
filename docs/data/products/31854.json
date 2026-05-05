@@ -16,19 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:00",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 31854,
       "store_id": "winpy",
       "price": 399456,
+      "price_card": 411440,
       "price_normal": null,
       "discount_pct": 24,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5060-ventus-2x-oc-de-8gb-gddr7/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$399.456"
+        "Efectivo/Transferencia": "$399.456",
+        "Tarjeta crédito/débito": "$411.440"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,13 +41,15 @@
       "product_id": 1241,
       "store_id": "centrale",
       "price": 430060,
+      "price_card": 453713,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/msi-geforce-rtx-5060-8g-ventus-2x-oc-8gb-gddr7-pcie-gen-5-3840-cuda/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$430.060"
+        "Transferencia / Efectivo": "$430.060",
+        "Tarjetas de Crédito / Débito": "$453.713"
       },
       "store_rating": 0,
       "review_count": 0,

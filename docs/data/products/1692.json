@@ -13,19 +13,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:52",
-  "updated_at": "2026-05-04 23:33:21",
+  "updated_at": "2026-05-05 12:56:26",
   "prices": [
     {
       "product_id": 1692,
       "store_id": "centrale",
       "price": 658990,
+      "price_card": 695234,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-1600w-seasonic-prime-px-1600-80plus-platinum-atx-3-1-pcie-5-1/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$658.990"
+        "Transferencia / Efectivo": "$658.990",
+        "Tarjetas de Crédito / Débito": "$695.234"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -36,6 +38,7 @@
       "product_id": 798,
       "store_id": "n1g",
       "price": 659000,
+      "price_card": 693927,
       "price_normal": 693684,
       "discount_pct": 5,
       "stock": "in_stock",
@@ -43,7 +46,7 @@
       "store_name": "N1G",
       "price_specs": {
         "Efectivo/Transferencia": "$659.000",
-        "Tarjeta crédito/débito": "$693.684"
+        "Tarjeta crédito/débito": "$693.927"
       },
       "store_rating": 0,
       "review_count": 0,

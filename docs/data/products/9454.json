@@ -17,12 +17,13 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:23",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 9454,
       "store_id": "spdigital",
       "price": 279995,
+      "price_card": 292595,
       "price_normal": 399990,
       "discount_pct": 30,
       "stock": "in_stock",
@@ -30,7 +31,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$279.995",
-        "Webpay / Tarjeta": "$399.990"
+        "Webpay / Tarjeta": "$292.595"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,13 +42,15 @@
       "product_id": 1335,
       "store_id": "centrale",
       "price": 291230,
+      "price_card": 307248,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/msi-motherboard-pro-x870e-p-wifi-4-dimm-ddr5-a-824142425565/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$291.230"
+        "Transferencia / Efectivo": "$291.230",
+        "Tarjetas de Crédito / Débito": "$307.248"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,6 +61,7 @@
       "product_id": 2634,
       "store_id": "trulustore",
       "price": 319990,
+      "price_card": 329590,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -66,7 +70,8 @@
       "khipu_price": 326390,
       "price_specs": {
         "Efectivo / Transferencia": "$319.990",
-        "Khipu": "$326.390"
+        "Khipu": "$326.390",
+        "Tarjeta crédito/débito": "$329.590"
       },
       "store_rating": 0,
       "review_count": 0,

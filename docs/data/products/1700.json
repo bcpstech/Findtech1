@@ -13,19 +13,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:52",
-  "updated_at": "2026-05-04 23:33:37",
+  "updated_at": "2026-05-05 12:56:43",
   "prices": [
     {
       "product_id": 1700,
       "store_id": "centrale",
       "price": 63890,
+      "price_card": 67404,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-700w-gamerstorm-deepcool-pf700x-80-plus-bronze-no-modular/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$63.890"
+        "Transferencia / Efectivo": "$63.890",
+        "Tarjetas de Crédito / Débito": "$67.404"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -36,6 +38,7 @@
       "product_id": 803,
       "store_id": "n1g",
       "price": 63900,
+      "price_card": 67287,
       "price_normal": 67263,
       "discount_pct": 5,
       "stock": "in_stock",
@@ -43,7 +46,7 @@
       "store_name": "N1G",
       "price_specs": {
         "Efectivo/Transferencia": "$63.900",
-        "Tarjeta crédito/débito": "$67.263"
+        "Tarjeta crédito/débito": "$67.287"
       },
       "store_rating": 0,
       "review_count": 0,

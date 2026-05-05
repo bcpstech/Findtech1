@@ -18,12 +18,13 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:14",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 9436,
       "store_id": "spdigital",
       "price": 82995,
+      "price_card": 86730,
       "price_normal": 179990,
       "discount_pct": 54,
       "stock": "in_stock",
@@ -31,7 +32,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$82.995",
-        "Webpay / Tarjeta": "$179.990"
+        "Webpay / Tarjeta": "$86.730"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,13 +43,15 @@
       "product_id": 31939,
       "store_id": "winpy",
       "price": 103968,
+      "price_card": 107087,
       "price_normal": null,
       "discount_pct": 26,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b550m-a-ac-am4-ddr4-2133-4600-mhz-microatx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$103.968"
+        "Efectivo/Transferencia": "$103.968",
+        "Tarjeta crédito/débito": "$107.087"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,13 +62,15 @@
       "product_id": 1366,
       "store_id": "centrale",
       "price": 104590,
+      "price_card": 110342,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b550m-a-ac-micro-atx-am4-ddr4-pcie-4-0-wifi-bt/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$104.590"
+        "Transferencia / Efectivo": "$104.590",
+        "Tarjetas de Crédito / Débito": "$110.342"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -76,6 +81,7 @@
       "product_id": 33119,
       "store_id": "infor-ingen",
       "price": 118900,
+      "price_card": 122467,
       "price_normal": 126034,
       "discount_pct": 6,
       "stock": "in_stock",
@@ -83,7 +89,7 @@
       "store_name": "Infor-Ingen",
       "price_specs": {
         "Efectivo/Transferencia": "$118.900",
-        "Tarjeta crédito/débito": "$126.034"
+        "Tarjeta crédito/débito": "$122.467"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -94,6 +100,7 @@
       "product_id": 2643,
       "store_id": "trulustore",
       "price": 124990,
+      "price_card": 128740,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -102,7 +109,8 @@
       "khipu_price": 127490,
       "price_specs": {
         "Efectivo / Transferencia": "$124.990",
-        "Khipu": "$127.490"
+        "Khipu": "$127.490",
+        "Tarjeta crédito/débito": "$128.740"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -113,13 +121,15 @@
       "product_id": 23524,
       "store_id": "alltec",
       "price": 135900,
+      "price_card": 139977,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/para-amd/1823-mb-asus-prime-b550m-a-ac-am4-ddr4-ryzen-5000-wifi-ac-bt-50.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$135.900"
+        "Efectivo/Transferencia": "$135.900",
+        "Tarjeta crédito/débito": "$139.977"
       },
       "store_rating": 0,
       "review_count": 0,

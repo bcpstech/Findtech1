@@ -18,19 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:42",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 31932,
       "store_id": "winpy",
       "price": 87552,
+      "price_card": 90179,
       "price_normal": null,
       "discount_pct": 31,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-gigabyte-b550m-k-am4-ddr4-2133-4733mhz-m-2-microatx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$87.552"
+        "Efectivo/Transferencia": "$87.552",
+        "Tarjeta crédito/débito": "$90.179"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,13 +43,15 @@
       "product_id": 1389,
       "store_id": "centrale",
       "price": 109500,
+      "price_card": 115523,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b550m-ds3h-ac-r2-micro-atx-am4-ddr4-pcie-4-0-wifi-5/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$109.500"
+        "Transferencia / Efectivo": "$109.500",
+        "Tarjetas de Crédito / Débito": "$115.523"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,6 +62,7 @@
       "product_id": 9451,
       "store_id": "spdigital",
       "price": 114995,
+      "price_card": 120170,
       "price_normal": 169990,
       "discount_pct": 32,
       "stock": "in_stock",
@@ -65,7 +70,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$114.995",
-        "Webpay / Tarjeta": "$169.990"
+        "Webpay / Tarjeta": "$120.170"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -76,6 +81,7 @@
       "product_id": 33132,
       "store_id": "infor-ingen",
       "price": 129900,
+      "price_card": 133797,
       "price_normal": 137694,
       "discount_pct": 6,
       "stock": "in_stock",
@@ -83,7 +89,7 @@
       "store_name": "Infor-Ingen",
       "price_specs": {
         "Efectivo/Transferencia": "$129.900",
-        "Tarjeta crédito/débito": "$137.694"
+        "Tarjeta crédito/débito": "$133.797"
       },
       "store_rating": 0,
       "review_count": 0,

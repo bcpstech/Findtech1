@@ -15,12 +15,13 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:01",
-  "updated_at": "2026-05-04 23:03:16",
+  "updated_at": "2026-05-05 12:24:50",
   "prices": [
     {
       "product_id": 9633,
       "store_id": "spdigital",
       "price": 99995,
+      "price_card": 104495,
       "price_normal": 179990,
       "discount_pct": 44,
       "stock": "in_stock",
@@ -28,7 +29,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$99.995",
-        "Webpay / Tarjeta": "$179.990"
+        "Webpay / Tarjeta": "$104.495"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,13 +40,15 @@
       "product_id": 1766,
       "store_id": "progaming",
       "price": 109990,
+      "price_card": 113290,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-aio-asus-prime-lc-360-argb-negro/",
       "store_name": "ProGaming",
       "price_specs": {
-        "Efectivo/Transferencia": "$109.990"
+        "Efectivo/Transferencia": "$109.990",
+        "Tarjeta crédito/débito": "$113.290"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -56,13 +59,15 @@
       "product_id": 1611,
       "store_id": "centrale",
       "price": 160200,
+      "price_card": 169011,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-aio-asus-tuf-gaming-lc-iii-360-argb-lcd/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$160.200"
+        "Transferencia / Efectivo": "$160.200",
+        "Tarjetas de Crédito / Débito": "$169.011"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -73,6 +78,7 @@
       "product_id": 779,
       "store_id": "n1g",
       "price": 299000,
+      "price_card": 314847,
       "price_normal": 314737,
       "discount_pct": 5,
       "stock": "in_stock",
@@ -80,7 +86,7 @@
       "store_name": "N1G",
       "price_specs": {
         "Efectivo/Transferencia": "$299.000",
-        "Tarjeta crédito/débito": "$314.737"
+        "Tarjeta crédito/débito": "$314.847"
       },
       "store_rating": 0,
       "review_count": 0,

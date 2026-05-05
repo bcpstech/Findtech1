@@ -16,19 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:25:37",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 32016,
       "store_id": "winpy",
       "price": 120384,
+      "price_card": 123996,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/disco-ssd-western-digital-green-de-250gb-2-5-sata-545mb-s/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$120.384"
+        "Efectivo/Transferencia": "$120.384",
+        "Tarjeta crédito/débito": "$123.996"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,6 +41,7 @@
       "product_id": 33532,
       "store_id": "infor-ingen",
       "price": 129900,
+      "price_card": 133797,
       "price_normal": 137694,
       "discount_pct": 6,
       "stock": "in_stock",
@@ -46,7 +49,7 @@
       "store_name": "Infor-Ingen",
       "price_specs": {
         "Efectivo/Transferencia": "$129.900",
-        "Tarjeta crédito/débito": "$137.694"
+        "Tarjeta crédito/débito": "$133.797"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,13 +60,15 @@
       "product_id": 1525,
       "store_id": "centrale",
       "price": 405810,
+      "price_card": 428130,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ssd-western-digital-green-sn3000-2tb-m-2-nvme-pcie-4-0-5000mb-s/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$405.810"
+        "Transferencia / Efectivo": "$405.810",
+        "Tarjetas de Crédito / Débito": "$428.130"
       },
       "store_rating": 0,
       "review_count": 0,

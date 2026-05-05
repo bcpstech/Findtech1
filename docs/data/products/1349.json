@@ -16,19 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 1154,
       "store_id": "cg",
       "price": 73990,
+      "price_card": 77882,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/placas-madre/placa-madre-msi-pro-h610m-addr4/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$73.990"
+        "Efectivo/Transferencia": "$73.990",
+        "Webpay / Tarjeta": "$77.882"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,13 +41,15 @@
       "product_id": 1349,
       "store_id": "centrale",
       "price": 75670,
+      "price_card": 79832,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-h610m-a-ddr4-microatx-lga-1700-pcie-4-0-ddr4/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$75.670"
+        "Transferencia / Efectivo": "$75.670",
+        "Tarjetas de Crédito / Débito": "$79.832"
       },
       "store_rating": 0,
       "review_count": 0,

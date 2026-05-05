@@ -20,12 +20,13 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:32",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 505,
       "store_id": "n1g",
       "price": 397900,
+      "price_card": 418989,
       "price_normal": 418842,
       "discount_pct": 5,
       "stock": "in_stock",
@@ -33,7 +34,7 @@
       "store_name": "N1G",
       "price_specs": {
         "Efectivo/Transferencia": "$397.900",
-        "Tarjeta crédito/débito": "$418.842"
+        "Tarjeta crédito/débito": "$418.989"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -44,6 +45,7 @@
       "product_id": 19815,
       "store_id": "myshop",
       "price": 405950,
+      "price_card": 418129,
       "price_normal": 428277,
       "discount_pct": 18,
       "stock": "in_stock",
@@ -51,7 +53,7 @@
       "store_name": "MyShop",
       "price_specs": {
         "Efectivo/Transferencia": "$405.950",
-        "Tarjeta crédito/débito": "$428.277"
+        "Tarjeta crédito/débito": "$418.129"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,13 +64,15 @@
       "product_id": 1207,
       "store_id": "centrale",
       "price": 431830,
+      "price_card": 455581,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/msi-tarjeta-de-video-nvidia-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-128-bit/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$431.830"
+        "Transferencia / Efectivo": "$431.830",
+        "Tarjetas de Crédito / Débito": "$455.581"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -79,13 +83,15 @@
       "product_id": 31856,
       "store_id": "winpy",
       "price": 434720,
+      "price_card": 447762,
       "price_normal": null,
       "discount_pct": 16,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5060-shadow-2x-oc-de-8gb-gddr7/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$434.720"
+        "Efectivo/Transferencia": "$434.720",
+        "Tarjeta crédito/débito": "$447.762"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -96,6 +102,7 @@
       "product_id": 9566,
       "store_id": "spdigital",
       "price": 459995,
+      "price_card": 480695,
       "price_normal": 569990,
       "discount_pct": 19,
       "stock": "in_stock",
@@ -103,7 +110,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$459.995",
-        "Webpay / Tarjeta": "$569.990"
+        "Webpay / Tarjeta": "$480.695"
       },
       "store_rating": 0,
       "review_count": 0,

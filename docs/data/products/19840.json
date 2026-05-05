@@ -21,12 +21,13 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:46",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 19840,
       "store_id": "myshop",
       "price": 1579990,
+      "price_card": 1627390,
       "price_normal": 1666889,
       "discount_pct": 12,
       "stock": "in_stock",
@@ -34,7 +35,7 @@
       "store_name": "MyShop",
       "price_specs": {
         "Efectivo/Transferencia": "$1.579.990",
-        "Tarjeta crédito/débito": "$1.666.889"
+        "Tarjeta crédito/débito": "$1.627.390"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -45,6 +46,7 @@
       "product_id": 9580,
       "store_id": "spdigital",
       "price": 1739995,
+      "price_card": 1818295,
       "price_normal": 1999990,
       "discount_pct": 13,
       "stock": "in_stock",
@@ -52,7 +54,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$1.739.995",
-        "Webpay / Tarjeta": "$1.999.990"
+        "Webpay / Tarjeta": "$1.818.295"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,13 +65,15 @@
       "product_id": 1198,
       "store_id": "centrale",
       "price": 1973640,
+      "price_card": 2082190,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5080-inspire-3x-oc-16gb-gddr7-256-bit/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.973.640"
+        "Transferencia / Efectivo": "$1.973.640",
+        "Tarjetas de Crédito / Débito": "$2.082.190"
       },
       "store_rating": 0,
       "review_count": 0,

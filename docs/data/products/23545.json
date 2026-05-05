@@ -14,19 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-05-03 04:33:07",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 23545,
       "store_id": "alltec",
       "price": 89900,
+      "price_card": 92597,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/para-intel/2021-mb-asrock-j4025b-itx-intel-dual-core-j4025-29-ghz-2xddr4-sodimm.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$89.900"
+        "Efectivo/Transferencia": "$89.900",
+        "Tarjeta crédito/débito": "$92.597"
       },
       "store_rating": 0,
       "review_count": 0,

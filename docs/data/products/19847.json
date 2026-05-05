@@ -21,12 +21,13 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:51",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 19847,
       "store_id": "myshop",
       "price": 3989990,
+      "price_card": 4109690,
       "price_normal": 4209439,
       "discount_pct": null,
       "stock": "in_stock",
@@ -34,7 +35,7 @@
       "store_name": "MyShop",
       "price_specs": {
         "Efectivo/Transferencia": "$3.989.990",
-        "Tarjeta crédito/débito": "$4.209.439"
+        "Tarjeta crédito/débito": "$4.109.690"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -45,13 +46,15 @@
       "product_id": 1191,
       "store_id": "centrale",
       "price": 3999810,
+      "price_card": 4219800,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5090-ventus-3x-oc-32gb-gddr7-512-bit/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$3.999.810"
+        "Transferencia / Efectivo": "$3.999.810",
+        "Tarjetas de Crédito / Débito": "$4.219.800"
       },
       "store_rating": 0,
       "review_count": 0,

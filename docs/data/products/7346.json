@@ -14,19 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 02:02:16",
-  "updated_at": "2026-05-04 22:59:20",
+  "updated_at": "2026-05-05 12:20:42",
   "prices": [
     {
       "product_id": 7346,
       "store_id": "cg",
       "price": 1799990,
+      "price_card": 1894669,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/pc-medium/pc-gamer-amd-ryzen-5-9600x-9070-xt-64gb-ram-ddr5-1-tb-nvme/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$1.799.990"
+        "Efectivo/Transferencia": "$1.799.990",
+        "Webpay / Tarjeta": "$1.894.669"
       },
       "store_rating": 0,
       "review_count": 0,

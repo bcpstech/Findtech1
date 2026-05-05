@@ -21,19 +21,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 16:05:50",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 124,
       "store_id": "alltec",
       "price": 564900,
+      "price_card": 581847,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/intel/2178-2ghz-intel-i9-14900kf-60ghz-turbo-24c32t-36mb-cache-125w253w-lga1700-14th-generacion.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$564.900"
+        "Efectivo/Transferencia": "$564.900",
+        "Tarjeta crédito/débito": "$581.847"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -44,13 +46,15 @@
       "product_id": 310,
       "store_id": "centrale",
       "price": 684070,
+      "price_card": 721694,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900kf-raptor-lake-s-lga1700-sin-graficos/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$684.070"
+        "Transferencia / Efectivo": "$684.070",
+        "Tarjetas de Crédito / Débito": "$721.694"
       },
       "store_rating": 0,
       "review_count": 0,

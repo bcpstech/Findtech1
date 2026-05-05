@@ -20,19 +20,21 @@
   },
   "tags": [],
   "created_at": "2026-04-27 11:49:29",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 313,
       "store_id": "centrale",
       "price": 336570,
+      "price_card": 355081,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265kf-lga-1851-20-nucleos-3-9-5-5ghz/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$336.570"
+        "Transferencia / Efectivo": "$336.570",
+        "Tarjetas de Crédito / Débito": "$355.081"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,13 +45,15 @@
       "product_id": 31909,
       "store_id": "winpy",
       "price": 361152,
+      "price_card": 371987,
       "price_normal": null,
       "discount_pct": 34,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-ultra-7-265kf-lga1851-3-3-5-5-ghz-8-p-cores-12-e-cores-30mb-cache-sin-video/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$361.152"
+        "Efectivo/Transferencia": "$361.152",
+        "Tarjeta crédito/débito": "$371.987"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,13 +64,15 @@
       "product_id": 4154,
       "store_id": "cg",
       "price": 409544,
+      "price_card": 431086,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-7-265kf-3-9-ghz-20-core-lga1851/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$409.544"
+        "Efectivo/Transferencia": "$409.544",
+        "Webpay / Tarjeta": "$431.086"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -77,13 +83,15 @@
       "product_id": 3279,
       "store_id": "alltec",
       "price": 462900,
+      "price_card": 476787,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/intel/2392-9ghz-intel-core-ultra-7-265kf-55ghz-turbo-20c28t-33mb-cache-125w-lga1851.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$462.900"
+        "Efectivo/Transferencia": "$462.900",
+        "Tarjeta crédito/débito": "$476.787"
       },
       "store_rating": 0,
       "review_count": 0,

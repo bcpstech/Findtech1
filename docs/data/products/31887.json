@@ -17,19 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:09",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 31887,
       "store_id": "winpy",
       "price": 193344,
+      "price_card": 199144,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-ultra-5-225-arrow-lake-lga1851-6-p-cores-4-e-cores-10-hilos-3-3-4-9ghz-20mb-cache/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$193.344"
+        "Efectivo/Transferencia": "$193.344",
+        "Tarjeta crédito/débito": "$199.144"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,13 +42,15 @@
       "product_id": 321,
       "store_id": "centrale",
       "price": 198500,
+      "price_card": 209418,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-5-225-6p-cores-4e-cores-4-9-ghz-lga1851/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$198.500"
+        "Transferencia / Efectivo": "$198.500",
+        "Tarjetas de Crédito / Débito": "$209.418"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,6 +61,7 @@
       "product_id": 4,
       "store_id": "n1g",
       "price": 256000,
+      "price_card": 269568,
       "price_normal": 269474,
       "discount_pct": 5,
       "stock": "in_stock",
@@ -64,7 +69,7 @@
       "store_name": "N1G",
       "price_specs": {
         "Efectivo/Transferencia": "$256.000",
-        "Tarjeta crédito/débito": "$269.474"
+        "Tarjeta crédito/débito": "$269.568"
       },
       "store_rating": 0,
       "review_count": 0,

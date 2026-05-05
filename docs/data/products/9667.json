@@ -15,12 +15,13 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:19",
-  "updated_at": "2026-05-04 23:03:31",
+  "updated_at": "2026-05-05 12:25:06",
   "prices": [
     {
       "product_id": 9667,
       "store_id": "spdigital",
       "price": 14990,
+      "price_card": 15665,
       "price_normal": 44990,
       "discount_pct": 67,
       "stock": "in_stock",
@@ -28,7 +29,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$14.990",
-        "Webpay / Tarjeta": "$44.990"
+        "Webpay / Tarjeta": "$15.665"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,13 +40,15 @@
       "product_id": 1789,
       "store_id": "progaming",
       "price": 24990,
+      "price_card": 25740,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/preventa-ventilador-be-quiet-light-wings-140mm-pwm-high-speed/",
       "store_name": "ProGaming",
       "price_specs": {
-        "Efectivo/Transferencia": "$24.990"
+        "Efectivo/Transferencia": "$24.990",
+        "Tarjeta crédito/débito": "$25.740"
       },
       "store_rating": 0,
       "review_count": 0,

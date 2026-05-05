@@ -13,12 +13,13 @@
   },
   "tags": [],
   "created_at": "2026-04-28 00:57:08",
-  "updated_at": "2026-05-04 22:55:50",
+  "updated_at": "2026-05-05 12:17:34",
   "prices": [
     {
       "product_id": 6074,
       "store_id": "n1g",
       "price": 14900,
+      "price_card": 15690,
       "price_normal": 15684,
       "discount_pct": 5,
       "stock": "in_stock",
@@ -26,7 +27,7 @@
       "store_name": "N1G",
       "price_specs": {
         "Efectivo/Transferencia": "$14.900",
-        "Tarjeta crédito/débito": "$15.684"
+        "Tarjeta crédito/débito": "$15.690"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,13 +38,15 @@
       "product_id": 23610,
       "store_id": "alltec",
       "price": 29900,
+      "price_card": 30797,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/cpu-cooler/56-cpu-cooler-intel-thermal-solution-ts15a-lga1151-5032037075824.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$29.900"
+        "Efectivo/Transferencia": "$29.900",
+        "Tarjeta crédito/débito": "$30.797"
       },
       "store_rating": 0,
       "review_count": 0,

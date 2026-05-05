@@ -17,19 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:45:43",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 1577,
       "store_id": "centrale",
       "price": 118900,
+      "price_card": 125439,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-1tb-kingston-nv3-m-2-2280-pcie-4-0-nvme-6000mb-s/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$118.900"
+        "Transferencia / Efectivo": "$118.900",
+        "Tarjetas de Crédito / Débito": "$125.439"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,13 +42,15 @@
       "product_id": 2210,
       "store_id": "dust2",
       "price": 119990,
+      "price_card": 123590,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/ssd-kingston-nv3-m-2-2280-nvme-4-0-gen-4x4-ultra-fast-1tb/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$119.990"
+        "Efectivo/Transferencia": "$119.990",
+        "Tarjeta crédito/débito": "$123.590"
       },
       "store_rating": 0,
       "review_count": 0,

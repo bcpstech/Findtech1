@@ -20,12 +20,13 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:40",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 9588,
       "store_id": "spdigital",
       "price": 699995,
+      "price_card": 731495,
       "price_normal": 899990,
       "discount_pct": 22,
       "stock": "in_stock",
@@ -33,7 +34,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$699.995",
-        "Webpay / Tarjeta": "$899.990"
+        "Webpay / Tarjeta": "$731.495"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -44,13 +45,15 @@
       "product_id": 31870,
       "store_id": "winpy",
       "price": 739936,
+      "price_card": 762134,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-zotac-rtx-5060-ti-twin-edge-oc-white-edition-de-16gb-gddr7/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$739.936"
+        "Efectivo/Transferencia": "$739.936",
+        "Tarjeta crédito/débito": "$762.134"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -61,13 +64,15 @@
       "product_id": 1225,
       "store_id": "centrale",
       "price": 763580,
+      "price_card": 805577,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-geforce-rtx-5060-ti-16gb-twin-edge-oc-white-edition/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$763.580"
+        "Transferencia / Efectivo": "$763.580",
+        "Tarjetas de Crédito / Débito": "$805.577"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -78,6 +83,7 @@
       "product_id": 19831,
       "store_id": "myshop",
       "price": 774990,
+      "price_card": 798240,
       "price_normal": 817614,
       "discount_pct": null,
       "stock": "in_stock",
@@ -85,7 +91,7 @@
       "store_name": "MyShop",
       "price_specs": {
         "Efectivo/Transferencia": "$774.990",
-        "Tarjeta crédito/débito": "$817.614"
+        "Tarjeta crédito/débito": "$798.240"
       },
       "store_rating": 0,
       "review_count": 0,

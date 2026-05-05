@@ -14,19 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 02:02:55",
-  "updated_at": "2026-05-04 22:59:58",
+  "updated_at": "2026-05-05 12:21:23",
   "prices": [
     {
       "product_id": 7362,
       "store_id": "cg",
       "price": 7314990,
+      "price_card": 7699758,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/pc-premium/pc-gamer-intel-ultra-core-7-265kf-rtx-5090-32gb-ram-ddr5-1-tb-nvme/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$7.314.990"
+        "Efectivo/Transferencia": "$7.314.990",
+        "Webpay / Tarjeta": "$7.699.758"
       },
       "store_rating": 0,
       "review_count": 0,

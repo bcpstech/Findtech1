@@ -13,17 +13,18 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$774.910",
-    "Tarjeta crédito/débito": "$817.530"
+    "Transferencia / Efectivo": "$824.320",
+    "Tarjeta crédito/débito": "$869.660"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 1214,
       "store_id": "centrale",
       "price": 774910,
+      "price_card": 817530,
       "price_normal": 891500,
       "discount_pct": 13,
       "stock": "in_stock",
@@ -31,7 +32,7 @@
       "store_name": "Centrale",
       "price_specs": {
         "Transferencia / Efectivo": "$774.910",
-        "Tarjetas de Crédito / Débito": "$891.500"
+        "Tarjetas de Crédito / Débito": "$817.530"
       },
       "store_rating": 0,
       "review_count": 0,

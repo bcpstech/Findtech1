@@ -13,19 +13,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:26:55",
-  "updated_at": "2026-05-04 23:43:12",
+  "updated_at": "2026-05-05 13:06:16",
   "prices": [
     {
       "product_id": 32050,
       "store_id": "winpy",
       "price": 39520,
+      "price_card": 40706,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-clio-mado-atx-vidrio-templado-sin-fuente-negro/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$39.520"
+        "Efectivo/Transferencia": "$39.520",
+        "Tarjeta crédito/débito": "$40.706"
       },
       "store_rating": 0,
       "review_count": 0,

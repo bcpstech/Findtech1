@@ -17,19 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:41:08",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 1858,
       "store_id": "dust2",
       "price": 347990,
+      "price_card": 358430,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-asus-prime-rtx-5050-oc-gddr6-8gb/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$347.990"
+        "Efectivo/Transferencia": "$347.990",
+        "Tarjeta crédito/débito": "$358.430"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,6 +42,7 @@
       "product_id": 9568,
       "store_id": "spdigital",
       "price": 389995,
+      "price_card": 407545,
       "price_normal": 539990,
       "discount_pct": 28,
       "stock": "in_stock",
@@ -47,7 +50,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$389.995",
-        "Webpay / Tarjeta": "$539.990"
+        "Webpay / Tarjeta": "$407.545"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,13 +61,15 @@
       "product_id": 1133,
       "store_id": "cg",
       "price": 419990,
+      "price_card": 442081,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/grafica-asus/tarjeta-de-video-asus-prime-rtx-5050-oc-8gb-gddr6/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$419.990"
+        "Efectivo/Transferencia": "$419.990",
+        "Webpay / Tarjeta": "$442.081"
       },
       "store_rating": 0,
       "review_count": 0,

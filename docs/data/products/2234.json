@@ -14,19 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:08",
-  "updated_at": "2026-05-04 23:48:09",
+  "updated_at": "2026-05-05 13:12:37",
   "prices": [
     {
       "product_id": 2234,
       "store_id": "dust2",
       "price": 105990,
+      "price_card": 109170,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-gigabyte-gp-ud850gm-pg5-850w-80-plus-gold/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$105.990"
+        "Efectivo/Transferencia": "$105.990",
+        "Tarjeta crédito/débito": "$109.170"
       },
       "store_rating": 0,
       "review_count": 0,

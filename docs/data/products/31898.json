@@ -17,19 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:31",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 31898,
       "store_id": "winpy",
       "price": 269952,
+      "price_card": 278051,
       "price_normal": null,
       "discount_pct": 26,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i5-14600kf-raptor-lake-s-lga1700-14-cores-20-hilos-3-5-5-3ghz-sin-video/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$269.952"
+        "Efectivo/Transferencia": "$269.952",
+        "Tarjeta crédito/débito": "$278.051"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,13 +42,15 @@
       "product_id": 306,
       "store_id": "centrale",
       "price": 273920,
+      "price_card": 288986,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-14600kf-raptor-lake-s-lga1700-14-cores-20-hilos/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$273.920"
+        "Transferencia / Efectivo": "$273.920",
+        "Tarjetas de Crédito / Débito": "$288.986"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,13 +61,15 @@
       "product_id": 1926,
       "store_id": "dust2",
       "price": 274990,
+      "price_card": 283240,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/procesador-intel-core-i5-14600kf-hasta-5-3ghz-lga1700/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$274.990"
+        "Efectivo/Transferencia": "$274.990",
+        "Tarjeta crédito/débito": "$283.240"
       },
       "store_rating": 0,
       "review_count": 0,

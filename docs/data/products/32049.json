@@ -13,19 +13,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:26:53",
-  "updated_at": "2026-05-04 23:43:14",
+  "updated_at": "2026-05-05 13:06:18",
   "prices": [
     {
       "product_id": 32049,
       "store_id": "winpy",
       "price": 39520,
+      "price_card": 40706,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-clio-s609-slim-micro-atx-usb-c-3-1-fuente-500w-negro/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$39.520"
+        "Efectivo/Transferencia": "$39.520",
+        "Tarjeta crédito/débito": "$40.706"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -36,6 +38,7 @@
       "product_id": 1729,
       "store_id": "centrale",
       "price": 43680,
+      "price_card": 46082,
       "price_normal": 50730,
       "discount_pct": 14,
       "stock": "in_stock",
@@ -43,7 +46,7 @@
       "store_name": "Centrale",
       "price_specs": {
         "Transferencia / Efectivo": "$43.680",
-        "Tarjetas de Crédito / Débito": "$50.730"
+        "Tarjetas de Crédito / Débito": "$46.082"
       },
       "store_rating": 0,
       "review_count": 0,

@@ -13,12 +13,13 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:52",
-  "updated_at": "2026-05-04 23:33:51",
+  "updated_at": "2026-05-05 12:56:57",
   "prices": [
     {
       "product_id": 1707,
       "store_id": "centrale",
       "price": 53250,
+      "price_card": 56179,
       "price_normal": 62770,
       "discount_pct": 15,
       "stock": "in_stock",
@@ -26,7 +27,7 @@
       "store_name": "Centrale",
       "price_specs": {
         "Transferencia / Efectivo": "$53.250",
-        "Tarjetas de Crédito / Débito": "$62.770"
+        "Tarjetas de Crédito / Débito": "$56.179"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,6 +38,7 @@
       "product_id": 2551,
       "store_id": "megabytes",
       "price": 53900,
+      "price_card": 55517,
       "price_normal": 77990,
       "discount_pct": 31,
       "stock": "in_stock",
@@ -44,7 +46,7 @@
       "store_name": "MegaBytes",
       "price_specs": {
         "Efectivo/Transferencia": "$53.900",
-        "Tarjeta crédito/débito": "$77.990"
+        "Tarjeta crédito/débito": "$55.517"
       },
       "store_rating": 0,
       "review_count": 0,

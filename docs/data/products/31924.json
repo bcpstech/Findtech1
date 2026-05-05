@@ -17,19 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:26",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 31924,
       "store_id": "winpy",
       "price": 69312,
+      "price_card": 71391,
       "price_normal": null,
       "discount_pct": 26,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-gigabyte-h610m-k-ddr4-lga1700-ddr4-2133-3200mhz-m-2-micro-atx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$69.312"
+        "Efectivo/Transferencia": "$69.312",
+        "Tarjeta crédito/débito": "$71.391"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,13 +42,15 @@
       "product_id": 1411,
       "store_id": "centrale",
       "price": 73900,
+      "price_card": 77965,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-gigabyte-h610m-k-ddr4-intel-lga1700-ddr4-hdmi/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$73.900"
+        "Transferencia / Efectivo": "$73.900",
+        "Tarjetas de Crédito / Débito": "$77.965"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,6 +61,7 @@
       "product_id": 9469,
       "store_id": "spdigital",
       "price": 74995,
+      "price_card": 78370,
       "price_normal": 119990,
       "discount_pct": 37,
       "stock": "in_stock",
@@ -64,7 +69,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$74.995",
-        "Webpay / Tarjeta": "$119.990"
+        "Webpay / Tarjeta": "$78.370"
       },
       "store_rating": 0,
       "review_count": 0,

@@ -17,12 +17,13 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:13:14",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 610,
       "store_id": "n1g",
       "price": 249000,
+      "price_card": 262197,
       "price_normal": 262105,
       "discount_pct": 5,
       "stock": "in_stock",
@@ -30,7 +31,7 @@
       "store_name": "N1G",
       "price_specs": {
         "Efectivo/Transferencia": "$249.000",
-        "Tarjeta crédito/débito": "$262.105"
+        "Tarjeta crédito/débito": "$262.197"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,13 +42,15 @@
       "product_id": 9475,
       "store_id": "spdigital",
       "price": 299990,
+      "price_card": 313490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/msi-pro-z790-p-wifi-ddr5-motherboard",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$299.990"
+        "Transferencia / Efectivo": "$299.990",
+        "Webpay / Tarjeta": "$313.490"
       },
       "store_rating": 0,
       "review_count": 0,

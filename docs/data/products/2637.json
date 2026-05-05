@@ -13,12 +13,13 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:41",
-  "updated_at": "2026-05-04 23:08:01",
+  "updated_at": "2026-05-05 12:29:39",
   "prices": [
     {
       "product_id": 2637,
       "store_id": "trulustore",
       "price": 109990,
+      "price_card": 113290,
       "price_normal": 169990,
       "discount_pct": 35,
       "stock": "in_stock",
@@ -28,7 +29,7 @@
       "price_specs": {
         "Efectivo / Transferencia": "$109.990",
         "Khipu": "$112.190",
-        "Tarjeta crédito/débito": "$169.990"
+        "Tarjeta crédito/débito": "$113.290"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,13 +40,15 @@
       "product_id": 1678,
       "store_id": "centrale",
       "price": 127870,
+      "price_card": 134903,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/msi-mag-a1000gls-pcie5-306-7zpix23-ce0/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$127.870"
+        "Transferencia / Efectivo": "$127.870",
+        "Tarjetas de Crédito / Débito": "$134.903"
       },
       "store_rating": 0,
       "review_count": 0,

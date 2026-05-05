@@ -15,19 +15,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:36:21",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 1181,
       "store_id": "cg",
       "price": 39990,
+      "price_card": 42093,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/almacenamiento/tarjeta-microsd-adata-premier-pro-256gb-v30-a2/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$39.990"
+        "Efectivo/Transferencia": "$39.990",
+        "Webpay / Tarjeta": "$42.093"
       },
       "store_rating": 0,
       "review_count": 0,

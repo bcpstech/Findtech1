@@ -13,19 +13,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:45",
-  "updated_at": "2026-05-04 23:31:18",
+  "updated_at": "2026-05-05 12:54:21",
   "prices": [
     {
       "product_id": 1642,
       "store_id": "centrale",
       "price": 170220,
+      "price_card": 179582,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-cpu-cooler-master-master-liquid-pl240-flux/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$170.220"
+        "Transferencia / Efectivo": "$170.220",
+        "Tarjetas de Crédito / Débito": "$179.582"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -36,13 +38,15 @@
       "product_id": 9652,
       "store_id": "spdigital",
       "price": 172651,
+      "price_card": 180420,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/pl240-flux",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$172.651"
+        "Transferencia / Efectivo": "$172.651",
+        "Webpay / Tarjeta": "$180.420"
       },
       "store_rating": 0,
       "review_count": 0,

@@ -9,17 +9,18 @@
   "description": null,
   "specs": {
     "TDP": "300 W",
-    "Efectivo/Transferencia": "$94.833",
-    "Tarjeta crédito/débito": "$99.101"
+    "Efectivo/Transferencia": "$95.558",
+    "Tarjeta crédito/débito": "$99.858"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:15",
-  "updated_at": "2026-05-04 23:03:28",
+  "updated_at": "2026-05-05 12:25:03",
   "prices": [
     {
       "product_id": 9663,
       "store_id": "spdigital",
       "price": 94728,
+      "price_card": 98991,
       "price_normal": 111440,
       "discount_pct": 15,
       "stock": "in_stock",
@@ -27,7 +28,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$94.728",
-        "Webpay / Tarjeta": "$111.440"
+        "Webpay / Tarjeta": "$98.991"
       },
       "store_rating": 0,
       "review_count": 0,

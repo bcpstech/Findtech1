@@ -16,19 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 16:25:03",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 303,
       "store_id": "centrale",
       "price": 5690000,
+      "price_card": 6002950,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-threadripper-pro-9975wx-4-0-a-5-4ghz-32-nucleos-64-hilos/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$5.690.000"
+        "Transferencia / Efectivo": "$5.690.000",
+        "Tarjetas de Crédito / Débito": "$6.002.950"
       },
       "store_rating": 0,
       "review_count": 0,

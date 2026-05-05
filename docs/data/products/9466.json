@@ -18,12 +18,13 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:31",
-  "updated_at": "2026-05-05 00:12:27",
+  "updated_at": "2026-05-05 13:32:09",
   "prices": [
     {
       "product_id": 9466,
       "store_id": "spdigital",
       "price": 279995,
+      "price_card": 292595,
       "price_normal": 479990,
       "discount_pct": 42,
       "stock": "in_stock",
@@ -31,7 +32,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$279.995",
-        "Webpay / Tarjeta": "$479.990"
+        "Webpay / Tarjeta": "$292.595"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,13 +43,15 @@
       "product_id": 1357,
       "store_id": "centrale",
       "price": 296590,
+      "price_card": 312902,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/asus-motherboard-prime-z890-p-wifi-lga1851-ddr5-pcie-5-0-wifi-7/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$296.590"
+        "Transferencia / Efectivo": "$296.590",
+        "Tarjetas de Crédito / Débito": "$312.902"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,13 +62,15 @@
       "product_id": 23540,
       "store_id": "alltec",
       "price": 298900,
+      "price_card": 307867,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/para-intel/2422-mb-asus-prime-z890-p-wifi-lga1851-ddr5-intel-core-ultra-serie-2.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$298.900"
+        "Efectivo/Transferencia": "$298.900",
+        "Tarjeta crédito/débito": "$307.867"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -76,13 +81,15 @@
       "product_id": 1162,
       "store_id": "cg",
       "price": 303007,
+      "price_card": 318945,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/placas-madre/asus-motherboard-prime-z890-p-wifi-1851-ddr5/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$303.007"
+        "Efectivo/Transferencia": "$303.007",
+        "Webpay / Tarjeta": "$318.945"
       },
       "store_rating": 0,
       "review_count": 0,

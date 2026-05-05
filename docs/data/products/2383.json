@@ -14,19 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:48:04",
-  "updated_at": "2026-05-04 23:48:59",
+  "updated_at": "2026-05-05 13:13:57",
   "prices": [
     {
       "product_id": 2383,
       "store_id": "dust2",
       "price": 59990,
+      "price_card": 61790,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-cooler-master-elite-502-argb-atx-mid-tower-blanco/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$59.990"
+        "Efectivo/Transferencia": "$59.990",
+        "Tarjeta crédito/débito": "$61.790"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,13 +39,15 @@
       "product_id": 1730,
       "store_id": "centrale",
       "price": 65470,
+      "price_card": 69071,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-gamer-cooler-master-elite-502-e-atx-3-vent-argb-incluidos/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$65.470"
+        "Transferencia / Efectivo": "$65.470",
+        "Tarjetas de Crédito / Débito": "$69.071"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -54,6 +58,7 @@
       "product_id": 9744,
       "store_id": "spdigital",
       "price": 69995,
+      "price_card": 73145,
       "price_normal": 109990,
       "discount_pct": 36,
       "stock": "in_stock",
@@ -61,7 +66,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$69.995",
-        "Webpay / Tarjeta": "$109.990"
+        "Webpay / Tarjeta": "$73.145"
       },
       "store_rating": 0,
       "review_count": 0,

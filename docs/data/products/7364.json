@@ -14,19 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 02:02:59",
-  "updated_at": "2026-05-04 23:00:02",
+  "updated_at": "2026-05-05 12:21:27",
   "prices": [
     {
       "product_id": 7364,
       "store_id": "cg",
       "price": 4499990,
+      "price_card": 4736689,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/pc-premium/pc-gamer-amd-ryzen-9-9900x-rtx-5080-32gb-ram-5200-mts-1-tb-nvme/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$4.499.990"
+        "Efectivo/Transferencia": "$4.499.990",
+        "Webpay / Tarjeta": "$4.736.689"
       },
       "store_rating": 0,
       "review_count": 0,

@@ -13,19 +13,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:52",
-  "updated_at": "2026-05-04 23:32:56",
+  "updated_at": "2026-05-05 12:56:01",
   "prices": [
     {
       "product_id": 1679,
       "store_id": "centrale",
       "price": 83890,
+      "price_card": 88504,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-cooler-master-elite-gold-750w-80-plus-gold-full-modular/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$83.890"
+        "Transferencia / Efectivo": "$83.890",
+        "Tarjetas de Crédito / Débito": "$88.504"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -36,6 +38,7 @@
       "product_id": 9728,
       "store_id": "spdigital",
       "price": 87995,
+      "price_card": 91955,
       "price_normal": 129990,
       "discount_pct": 32,
       "stock": "in_stock",
@@ -43,7 +46,7 @@
       "store_name": "SP Digital",
       "price_specs": {
         "Transferencia / Efectivo": "$87.995",
-        "Webpay / Tarjeta": "$129.990"
+        "Webpay / Tarjeta": "$91.955"
       },
       "store_rating": 0,
       "review_count": 0,
