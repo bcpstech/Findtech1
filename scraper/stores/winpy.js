@@ -12,7 +12,7 @@ const cheerio = require('cheerio');
 const BASE      = 'https://www.winpy.cl';
 const PROXY_URL = process.env.CF_PROXY_URL    || '';
 const PROXY_KEY = process.env.CF_PROXY_SECRET || '';
-const FACTOR    = 1.03;
+const FACTOR    = 1.053;  // Winpy: otros medios ≈ 5.3% más que transferencia
 
 function proxify(url) {
   if (!PROXY_URL) return url;
