@@ -360,14 +360,19 @@ for (const { product: p, prices, group } of mergedProducts) {
     // Reconstruir specs de precio por tienda desde price_normal
     const priceSpecs = {};
     const storeLabels = {
-      'n1g':        { cash: 'Efectivo/Transferencia', card: 'Tarjeta crédito/débito' },
-      'alltec':     { cash: 'Efectivo/Transferencia', card: 'Tarjeta crédito/débito' },
+      'n1g':        { cash: 'Efectivo/Transferencia',   card: 'Tarjeta crédito/débito' },
+      'alltec':     { cash: 'Efectivo/Transferencia',   card: 'Tarjeta crédito/débito' },
       'spdigital':  { cash: 'Transferencia / Efectivo', card: 'Webpay / Tarjeta' },
-      'cg':         { cash: 'Efectivo/Transferencia', card: 'Webpay / Tarjeta' },
+      'cg':         { cash: 'Efectivo/Transferencia',   card: 'Webpay / Tarjeta' },
       'centrale':   { cash: 'Transferencia / Efectivo', card: 'Tarjetas de Crédito / Débito' },
-      'centralgamer':{ cash: 'Efectivo/Transferencia', card: 'Webpay / Tarjeta' },
+      'centralgamer':{ cash: 'Efectivo/Transferencia',  card: 'Webpay / Tarjeta' },
       'trulustore': { cash: 'Efectivo / Transferencia', card: 'Tarjeta crédito/débito', khipu: 'Khipu' },
-      'pcexpress':  { cash: 'Efectivo/Transferencia', card: 'Tarjeta crédito/débito' },
+      'pcexpress':  { cash: 'Efectivo/Transferencia',   card: 'Tarjeta crédito/débito' },
+      'winpy':      { cash: 'Transferencia o Depósito', card: 'Otros medios de pago' },
+      'dust2':      { cash: 'Efectivo/Transferencia',   card: 'Tarjeta crédito/débito' },
+      'myshop':     { cash: 'Efectivo/Transferencia',   card: 'Tarjeta crédito/débito' },
+      'progaming':  { cash: 'Efectivo/Transferencia',   card: 'Tarjeta crédito/débito' },
+      'megabytes':  { cash: 'Efectivo/Transferencia',   card: 'Tarjeta crédito/débito' },
     };
     const labels = storeLabels[pr.store_id] || { cash: 'Efectivo/Transferencia', card: 'Tarjeta crédito/débito' };
     priceSpecs[labels.cash] = `$${pr.price.toLocaleString('es-CL')}`;
@@ -378,8 +383,10 @@ for (const { product: p, prices, group } of mergedProducts) {
     // price_card: precio real de tarjeta guardado por el scraper
     // Fallback: calcular desde factor por tienda si no existe
     const CARD_FACTORS = {
-      'spdigital': 1.045, 'cg': 1.0526, 'centralgamer': 1.0526,
-      'n1g': 1.053, 'alltec': 1.03, 'centrale': 1.055, 'pcexpress': 1.03,
+      'spdigital': 1.045,  'cg': 1.0526, 'centralgamer': 1.0526,
+      'n1g': 1.053,        'alltec': 1.03, 'centrale': 1.055,
+      'pcexpress': 1.03,   'winpy': 1.053, 'dust2': 1.03,
+      'myshop': 1.03,      'progaming': 1.03, 'megabytes': 1.03,
     };
     const cardPrice = (pr.price_card && pr.price_card > pr.price)
       ? pr.price_card
