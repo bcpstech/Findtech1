@@ -252,7 +252,7 @@ const latestDate = db.prepare('SELECT MAX(date(scraped_at)) as d FROM prices').g
 
 // ── 4. Precios in_stock de hoy ────────────────────────────────────────────
 const todayPrices = db.prepare(`
-  SELECT p.product_id, p.store_id, p.price, p.price_normal,
+  SELECT p.product_id, p.store_id, p.price, p.price_card, p.price_normal,
          p.discount_pct, p.stock, p.product_url, s.name as store_name
   FROM prices p
   JOIN stores s ON s.id = p.store_id
@@ -370,9 +370,20 @@ for (const { product: p, prices, group } of mergedProducts) {
     if (labels.khipu) {
       priceSpecs[labels.khipu] = `$${Math.round(pr.price * 1.02).toLocaleString('es-CL')}`;
     }
-    if (pr.price_normal && pr.price_normal > pr.price) {
-      priceSpecs[labels.card] = `$${pr.price_normal.toLocaleString('es-CL')}`;
+    // price_card: precio real de tarjeta guardado por el scraper
+    // Fallback: calcular desde factor por tienda si no existe
+    const CARD_FACTORS = {
+      'spdigital': 1.045, 'cg': 1.0526, 'centralgamer': 1.0526,
+      'n1g': 1.053, 'alltec': 1.03, 'centrale': 1.055,
+    };
+    const cardPrice = (pr.price_card && pr.price_card > pr.price)
+      ? pr.price_card
+      : Math.round(pr.price * (CARD_FACTORS[pr.store_id] || 1.03));
+    if (labels.card) {
+      priceSpecs[labels.card] = `$${cardPrice.toLocaleString('es-CL')}`;
     }
+    // Agregar price_card al objeto para que el frontend lo use directamente
+    pr.price_card = cardPrice;
     // Add khipu_price field for frontend rendering
     if (labels.khipu) {
       pr.khipu_price = Math.round(pr.price * 1.02);
