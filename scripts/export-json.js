@@ -251,8 +251,12 @@ write(path.join(OUT_DIR, 'stores.json'), stores);
 const latestDate = db.prepare('SELECT MAX(date(scraped_at)) as d FROM prices').get()?.d;
 
 // ── 4. Precios in_stock de hoy ────────────────────────────────────────────
+// Verificar si la columna price_card existe (puede no existir en DBs antiguas)
+const hasPriceCard = db.prepare("PRAGMA table_info(prices)").all().some(c => c.name === 'price_card');
+const priceCardCol = hasPriceCard ? 'p.price_card' : 'NULL as price_card';
+
 const todayPrices = db.prepare(`
-  SELECT p.product_id, p.store_id, p.price, p.price_card, p.price_normal,
+  SELECT p.product_id, p.store_id, p.price, ${priceCardCol}, p.price_normal,
          p.discount_pct, p.stock, p.product_url, s.name as store_name
   FROM prices p
   JOIN stores s ON s.id = p.store_id
@@ -363,6 +367,7 @@ for (const { product: p, prices, group } of mergedProducts) {
       'centrale':   { cash: 'Transferencia / Efectivo', card: 'Tarjetas de Crédito / Débito' },
       'centralgamer':{ cash: 'Efectivo/Transferencia', card: 'Webpay / Tarjeta' },
       'trulustore': { cash: 'Efectivo / Transferencia', card: 'Tarjeta crédito/débito', khipu: 'Khipu' },
+      'pcexpress':  { cash: 'Efectivo/Transferencia', card: 'Tarjeta crédito/débito' },
     };
     const labels = storeLabels[pr.store_id] || { cash: 'Efectivo/Transferencia', card: 'Tarjeta crédito/débito' };
     priceSpecs[labels.cash] = `$${pr.price.toLocaleString('es-CL')}`;
@@ -374,7 +379,7 @@ for (const { product: p, prices, group } of mergedProducts) {
     // Fallback: calcular desde factor por tienda si no existe
     const CARD_FACTORS = {
       'spdigital': 1.045, 'cg': 1.0526, 'centralgamer': 1.0526,
-      'n1g': 1.053, 'alltec': 1.03, 'centrale': 1.055,
+      'n1g': 1.053, 'alltec': 1.03, 'centrale': 1.055, 'pcexpress': 1.03,
     };
     const cardPrice = (pr.price_card && pr.price_card > pr.price)
       ? pr.price_card
