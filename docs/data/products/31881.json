@@ -1,0 +1,56 @@
+{
+  "id": 31881,
+  "external_id": "winpy_procesador-amd-ryzen-5-8500g-am5-6-cores-12-hilos-3-5-5-0ghz-16mb-de-cache",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 5 8500G (AM5, 6 Cores, 12 Hilos, 3.5/5.0GHz, 16MB de Caché)",
+  "slug": "winpy-procesador-amd-ryzen-5-8500g-am5-6-cores-12-hilos-3-5-5-0ghz-16mb-de-cache",
+  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-5-8500g-am5-6-cores-12-hilos-3-5-5-0ghz-16mb-de-cache.jpg",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "5.0 GHz",
+    "Socket": "AM5",
+    "Generación": "AMD Zen 5 (4nm)",
+    "Efectivo / Transferencia": "$152.608",
+    "Tarjeta crédito/débito": "$157.186"
+  },
+  "tags": [],
+  "created_at": "2026-05-04 01:20:57",
+  "updated_at": "2026-05-05 21:32:02",
+  "prices": [
+    {
+      "product_id": 31881,
+      "store_id": "winpy",
+      "price": 152608,
+      "price_card": 157186,
+      "price_normal": null,
+      "discount_pct": 28,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-8500g-am5-6-cores-12-hilos-3-5-5-0ghz-16mb-de-cache/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Efectivo/Transferencia": "$152.608",
+        "Tarjeta crédito/débito": "$157.186"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-04",
+      "price": 151392
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 152608
+    }
+  ],
+  "scraped_at": "2026-05-05"
+}

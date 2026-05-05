@@ -5,7 +5,7 @@
   "brand": "ASRock",
   "name": "Placa madre ASRock A520M-HDV (AM4, DDR4-4733+ OC, M.2, HDMI/DVI/VGA, Micro-ATX)",
   "slug": "winpy-placa-madre-asrock-a520m-hdv-am4-ddr4-4733-oc-m-2-hdmi-dvi-vga-micro-atx",
-  "image_url": "/files/tumb_43734-4759-A520M-HDV.jpg",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asrock-a520m-hdv-am4-ddr4-4733-oc-m-2-hdmi-dvi-vga-micro-atx.jpg",
   "description": null,
   "specs": {
     "Socket": "AM4",
@@ -16,27 +16,8 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:24",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 21:32:02",
   "prices": [
-    {
-      "product_id": 578,
-      "store_id": "n1g",
-      "price": 54990,
-      "price_card": 57904,
-      "price_normal": 57884,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3635-asrock-a520m-hdv-am4-amd-a520-micro-atx-amd-motherboard.html",
-      "store_name": "N1G",
-      "price_specs": {
-        "Efectivo/Transferencia": "$54.990",
-        "Tarjeta crédito/débito": "$57.904"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
-    },
     {
       "product_id": 31923,
       "store_id": "winpy",
@@ -63,7 +44,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 59584
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 59584
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

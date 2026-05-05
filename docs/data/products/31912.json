@@ -5,57 +5,38 @@
   "brand": "Intel",
   "name": "Procesador Intel Core i7-14700KF Raptor Lake-S (LGA1700, 20 Cores, 28 Hilos, 3.4/5.6GHz, Sin Video)",
   "slug": "winpy-procesador-intel-core-i7-14700kf-raptor-lake-s-lga1700-20-cores-28-hilos-3-4-5-6ghz-sin-video",
-  "image_url": "/files/tumb_36634-8556-Intel-Core-i7-14700KF-Raptor-Lake-S.jpg",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i7-14700kf-raptor-lake-s-lga1700-20-cores-28-hilos-3-4-5-6ghz-sin-video.jpg",
   "description": null,
   "specs": {
     "Frecuencia base": "5.6 GHz",
     "Socket": "LGA1700",
     "Generación": "Intel 13ª Gen (Raptor Lake)",
     "Gráficos integrados": "No",
-    "Efectivo / Transferencia": "$419.520",
-    "Tarjeta crédito/débito": "$432.106"
+    "Efectivo / Transferencia": "$420.128",
+    "Tarjeta crédito/débito": "$432.732"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:59",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 21:32:02",
   "prices": [
     {
       "product_id": 31912,
       "store_id": "winpy",
-      "price": 399456,
-      "price_card": 411440,
+      "price": 420128,
+      "price_card": 432732,
       "price_normal": null,
-      "discount_pct": 22,
+      "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i7-14700kf-raptor-lake-s-lga1700-20-cores-28-hilos-3-4-5-6ghz-sin-video/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$399.456",
-        "Tarjeta crédito/débito": "$411.440"
+        "Efectivo/Transferencia": "$420.128",
+        "Tarjeta crédito/débito": "$432.732"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 307,
-      "store_id": "centrale",
-      "price": 407310,
-      "price_card": 429712,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700kf-raptor-lake-s-lga1700-20-cores-28-hilos/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$407.310",
-        "Tarjetas de Crédito / Débito": "$429.712"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -64,7 +45,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 399456
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 420128
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

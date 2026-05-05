@@ -5,57 +5,38 @@
   "brand": "Intel",
   "name": "Procesador Intel Core Ultra 7 265F (LGA1851, 8 P-cores, 12 E-cores, 3.0/5.5GHz, 30MB Cache, Sin Video)",
   "slug": "winpy-procesador-intel-core-ultra-7-265f-lga1851-8-p-cores-12-e-cores-3-0-5-5ghz-30mb-cache-sin-vide",
-  "image_url": "/files/tumb_41123-2992-Procesador-Intel-Core-Ultra-7-265F-.jpg",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-ultra-7-265f-lga1851-8-p-cores-12-e-cores-3-0-5-5ghz-30mb-cache-sin-video.jpg",
   "description": null,
   "specs": {
     "Frecuencia base": "5.5 GHz",
     "Caché L3": "30 MB",
     "Socket": "LGA1851",
     "Gráficos integrados": "No",
-    "Efectivo / Transferencia": "$418.912",
-    "Tarjeta crédito/débito": "$431.479"
+    "Efectivo / Transferencia": "$421.952",
+    "Tarjeta crédito/débito": "$434.611"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:03",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 21:32:02",
   "prices": [
     {
       "product_id": 31914,
       "store_id": "winpy",
-      "price": 417696,
-      "price_card": 430227,
+      "price": 421952,
+      "price_card": 434611,
       "price_normal": null,
-      "discount_pct": 28,
+      "discount_pct": 27,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-ultra-7-265f-lga1851-8-p-cores-12-e-cores-3-0-5-5ghz-30mb-cache-sin-video/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$417.696",
-        "Tarjeta crédito/débito": "$430.227"
+        "Efectivo/Transferencia": "$421.952",
+        "Tarjeta crédito/débito": "$434.611"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 327,
-      "store_id": "centrale",
-      "price": 429040,
-      "price_card": 452637,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265f-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$429.040",
-        "Tarjetas de Crédito / Débito": "$452.637"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -64,7 +45,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 417696
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 421952
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

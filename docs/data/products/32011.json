@@ -5,18 +5,18 @@
   "brand": "Crucial",
   "name": "Unidad SSD Crucial E100 de 1TB (PCIe Gen4, NVMe M.2, Hasta 5000MB/s)",
   "slug": "winpy-unidad-ssd-crucial-e100-de-1tb-pcie-gen4-nvme-m-2-hasta-5000mb-s",
-  "image_url": "/files/tumb_40766-8301-Unidad-de-Estado-Solido-Crucial-E100-1.jpg",
+  "image_url": "https://images.findtech.cl/products/unidad-ssd-crucial-e100-de-1tb-pcie-gen4-nvme-m-2-hasta-5000mb-s.jpg",
   "description": null,
   "specs": {
     "Capacidad": "1 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Efectivo/Transferencia": "$115.500",
-    "Tarjeta crédito/débito": "$118.965"
+    "Efectivo / Transferencia": "$114.912",
+    "Tarjeta crédito/débito": "$118.359"
   },
   "tags": [],
   "created_at": "2026-05-04 01:25:27",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 21:32:02",
   "prices": [
     {
       "product_id": 32011,
@@ -36,44 +36,6 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 681,
-      "store_id": "n1g",
-      "price": 115500,
-      "price_card": 121621,
-      "price_normal": 121579,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3234-crucial-ssd-e100-1tb-5000-mbs-nvme-pcie-40-m2-2280-pn-ct1000e100ssd8.html",
-      "store_name": "N1G",
-      "price_specs": {
-        "Efectivo/Transferencia": "$115.500",
-        "Tarjeta crédito/débito": "$121.621"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
-    },
-    {
-      "product_id": 1566,
-      "store_id": "centrale",
-      "price": 134200,
-      "price_card": 141581,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ssd-crucial-e100-1tb-nvme-pcie-4-0-m-2-2280-hasta-5000-mb-s/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$134.200",
-        "Tarjetas de Crédito / Débito": "$141.581"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -82,7 +44,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 114912
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 114912
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

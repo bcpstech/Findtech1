@@ -5,20 +5,18 @@
   "brand": "Gigabyte",
   "name": "Placa Madre Gigabyte B550M K (AM4, DDR4 2133/4733MHz, M.2, MicroATX)",
   "slug": "winpy-placa-madre-gigabyte-b550m-k-am4-ddr4-2133-4733mhz-m-2-microatx",
-  "image_url": "/files/tumb_36753-1797-Placa-Madre-Gigabyte-B550M-K-1.jpg",
+  "image_url": "https://images.findtech.cl/products/placa-madre-gigabyte-b550m-k-am4-ddr4-2133-4733mhz-m-2-microatx.jpg",
   "description": null,
   "specs": {
     "Socket": "AM4",
-    "Factor de forma": "micro ATX",
+    "Factor de forma": "Micro-ATX",
     "Memoria": "DDR4",
-    "WiFi": "Integrado",
-    "Chipset": "AMD B550",
-    "Efectivo/Transferencia": "$114.995",
-    "Tarjeta crédito/débito": "$120.170"
+    "Efectivo / Transferencia": "$87.552",
+    "Tarjeta crédito/débito": "$90.179"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:42",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 21:32:02",
   "prices": [
     {
       "product_id": 31932,
@@ -38,63 +36,6 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 1389,
-      "store_id": "centrale",
-      "price": 109500,
-      "price_card": 115523,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b550m-ds3h-ac-r2-micro-atx-am4-ddr4-pcie-4-0-wifi-5/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$109.500",
-        "Tarjetas de Crédito / Débito": "$115.523"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9451,
-      "store_id": "spdigital",
-      "price": 114995,
-      "price_card": 120170,
-      "price_normal": 169990,
-      "discount_pct": 32,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/placa-madre-gigabyte-b550m-ds3h-ac-r2-socket-amd-am4-wi-fi-pcie-40-rgb-fusion-micro-atx",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$114.995",
-        "Webpay / Tarjeta": "$120.170"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 33132,
-      "store_id": "infor-ingen",
-      "price": 129900,
-      "price_card": 133797,
-      "price_normal": 137694,
-      "discount_pct": 6,
-      "stock": "in_stock",
-      "product_url": "https://store.infor-ingen.com/producto/m-b-gigabyte-b550m-ds3h-ac/",
-      "store_name": "Infor-Ingen",
-      "price_specs": {
-        "Efectivo/Transferencia": "$129.900",
-        "Tarjeta crédito/débito": "$133.797"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "store.infor-ingen.com",
-      "full_url": "https://store.infor-ingen.com"
     }
   ],
   "history": [
@@ -103,7 +44,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 87552
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 87552
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

@@ -5,73 +5,34 @@
   "brand": "Corsair",
   "name": "Gabinete Gamer Corsair 480T Airflow (ATX, Vidrio Templado, Negro)",
   "slug": "winpy-gabinete-gamer-corsair-480t-airflow-atx-vidrio-templado-negro",
-  "image_url": "/files/tumb_43190-5807-Gabinete-Gamer-Corsair-480T-Airflow-1.jpg",
+  "image_url": "https://images.findtech.cl/products/gabinete-gamer-corsair-480t-airflow-atx-vidrio-templado-negro.jpg",
   "description": null,
   "specs": {
-    "Factor de forma": "Midi Tower",
-    "Efectivo/Transferencia": "$169.995",
-    "Tarjeta crédito/débito": "$177.645"
+    "Efectivo / Transferencia": "$49.856",
+    "Tarjeta crédito/débito": "$51.352"
   },
   "tags": [],
   "created_at": "2026-05-04 01:27:29",
-  "updated_at": "2026-05-05 13:06:52",
+  "updated_at": "2026-05-05 21:31:56",
   "prices": [
     {
       "product_id": 32067,
       "store_id": "winpy",
-      "price": 48032,
-      "price_card": 49473,
+      "price": 49856,
+      "price_card": 51352,
       "price_normal": null,
-      "discount_pct": 34,
+      "discount_pct": 32,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-gamer-corsair-480t-airflow-atx-vidrio-templado-negro/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$48.032",
-        "Tarjeta crédito/débito": "$49.473"
+        "Efectivo/Transferencia": "$49.856",
+        "Tarjeta crédito/débito": "$51.352"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 1744,
-      "store_id": "centrale",
-      "price": 53400,
-      "price_card": 56337,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-corsair-480t-airflow-mid-tower-vidrio-templado-atx/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$53.400",
-        "Tarjetas de Crédito / Débito": "$56.337"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9786,
-      "store_id": "spdigital",
-      "price": 169995,
-      "price_card": 177645,
-      "price_normal": 319990,
-      "discount_pct": 47,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/gabinete-gamer-corsair-5000x-rgb-mid-tower-white-vidrio-templado-atxeatxitx",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$169.995",
-        "Webpay / Tarjeta": "$177.645"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -80,7 +41,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 48032
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 49856
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

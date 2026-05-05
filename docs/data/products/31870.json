@@ -5,92 +5,37 @@
   "brand": "Zotac",
   "name": "Tarjeta gráfica ZOTAC RTX 5060 Ti Twin Edge OC White Edition de 16GB GDDR7",
   "slug": "winpy-tarjeta-grafica-zotac-rtx-5060-ti-twin-edge-oc-white-edition-de-16gb-gddr7",
-  "image_url": "/files/tumb_46320-69b17eb67a6f7.jpg",
+  "image_url": "https://images.findtech.cl/products/tarjeta-grafica-zotac-rtx-5060-ti-twin-edge-oc-white-edition-de-16gb-gddr7.jpg",
   "description": null,
   "specs": {
     "VRAM": "16 GB",
     "Tipo memoria": "GDDR7",
-    "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$774.990",
-    "Tarjeta crédito/débito": "$817.614",
-    "Garantía": "6 meses",
-    "SKU": "37002",
-    "Part Number": "ZT-B50620H-10M"
+    "Efectivo / Transferencia": "$739.936",
+    "Tarjeta crédito/débito": "$762.134"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:32",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-05-05 21:32:02",
   "prices": [
     {
       "product_id": 31870,
       "store_id": "winpy",
       "price": 739936,
+      "price_card": 762134,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-zotac-rtx-5060-ti-twin-edge-oc-white-edition-de-16gb-gddr7/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$739.936"
+        "Efectivo/Transferencia": "$739.936",
+        "Tarjeta crédito/débito": "$762.134"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 1225,
-      "store_id": "centrale",
-      "price": 763580,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-geforce-rtx-5060-ti-16gb-twin-edge-oc-white-edition/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$763.580"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 19831,
-      "store_id": "myshop",
-      "price": 774990,
-      "price_normal": 817614,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/tarjeta-de-video-zotac-geforce-rtx-5060-ti-16gb-twin-edge-oc-16-gb-gddr7-128-bit-displayport-hdmi-zt-b50620h-10m-p37002",
-      "store_name": "MyShop",
-      "price_specs": {
-        "Efectivo/Transferencia": "$774.990",
-        "Tarjeta crédito/débito": "$817.614"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.myshop.cl",
-      "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 15206,
-      "store_id": "spdigital",
-      "price": 882830,
-      "price_normal": 922550,
-      "discount_pct": 4,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-geforcer-rtx5060ti-twin-edge-oc",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$882.830",
-        "Webpay / Tarjeta": "$922.550"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -99,7 +44,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 739936
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 739936
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

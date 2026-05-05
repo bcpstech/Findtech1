@@ -5,7 +5,7 @@
   "brand": "Intel",
   "name": "Procesador Intel Core i5-14600K Raptor Lake-S (LGA1700, 14 Cores, 20 Hilos, 3.5/5.3GHz)",
   "slug": "winpy-procesador-intel-core-i5-14600k-raptor-lake-s-lga1700-14-cores-20-hilos-3-5-5-3ghz",
-  "image_url": "/files/tumb_36922-7592-Procesador-Intel-Core-i5-14600K-Raptor-Lake-S.jpg",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i5-14600k-raptor-lake-s-lga1700-14-cores-20-hilos-3-5-5-3ghz.jpg",
   "description": null,
   "specs": {
     "Frecuencia base": "5.3 GHz",
@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:37",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 21:32:02",
   "prices": [
     {
       "product_id": 31901,
@@ -36,25 +36,6 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 1145,
-      "store_id": "cg",
-      "price": 399990,
-      "price_card": 421029,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-intel-core-i5-14600k/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$399.990",
-        "Webpay / Tarjeta": "$421.029"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -63,7 +44,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 284544
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 284544
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

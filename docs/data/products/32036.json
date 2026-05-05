@@ -5,18 +5,18 @@
   "brand": "Western Digital",
   "name": "Unidad de Estado Sólido Western Digital Black SN850X de 1TB (NVMe, M.2 2280, PCIe Gen4)",
   "slug": "winpy-unidad-de-estado-solido-western-digital-black-sn850x-de-1tb-nvme-m-2-2280-pcie-gen4",
-  "image_url": "/files/tumb_32424-3570-Western-Digital-BLACK-SN850X-1.jpg",
+  "image_url": "https://images.findtech.cl/products/unidad-de-estado-solido-western-digital-black-sn850x-de-1tb-nvme-m-2-2280-pcie-gen4.jpg",
   "description": null,
   "specs": {
     "Capacidad": "1 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Efectivo / Transferencia": "$210.368",
-    "Tarjeta crédito/débito": "$216.679"
+    "Efectivo / Transferencia": "$199.424",
+    "Tarjeta crédito/débito": "$205.407"
   },
   "tags": [],
   "created_at": "2026-05-04 01:26:17",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 21:32:02",
   "prices": [
     {
       "product_id": 32036,
@@ -36,25 +36,6 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 1537,
-      "store_id": "centrale",
-      "price": 241540,
-      "price_card": 254825,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-1tb-nvme-pcie-4-0-western-digital-black-sn850x-7300mb-s/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$241.540",
-        "Tarjetas de Crédito / Débito": "$254.825"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -63,7 +44,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 199424
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 199424
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

@@ -5,56 +5,36 @@
   "brand": "NVIDIA",
   "name": "Tarjeta gráfica Profesional PNY NVIDIA RTX A400 de 4GB GDDR6",
   "slug": "winpy-tarjeta-grafica-profesional-pny-nvidia-rtx-a400-de-4gb-gddr6",
-  "image_url": "/files/tumb_40030-9166-Tarjeta-de-Video-PNY-NVIDIA-RTX-A400-de-4GB-GDDR6-1.jpg",
+  "image_url": "https://images.findtech.cl/products/tarjeta-grafica-profesional-pny-nvidia-rtx-a400-de-4gb-gddr6.jpg",
   "description": null,
   "specs": {
     "VRAM": "4 GB",
     "Tipo memoria": "GDDR6",
-    "Bus de memoria": "64-bit",
-    "Transferencia / Efectivo": "$227.540",
-    "Tarjeta crédito/débito": "$240.050"
+    "Efectivo / Transferencia": "$221.312",
+    "Tarjeta crédito/débito": "$227.951"
   },
   "tags": [],
   "created_at": "2026-05-04 01:19:42",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 21:32:02",
   "prices": [
     {
       "product_id": 31845,
       "store_id": "winpy",
-      "price": 219488,
-      "price_card": 226073,
+      "price": 221312,
+      "price_card": 227951,
       "price_normal": null,
-      "discount_pct": 17,
+      "discount_pct": 16,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-profesional-pny-nvidia-rtx-a400-de-4gb-gddr6/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$219.488",
-        "Tarjeta crédito/débito": "$226.073"
+        "Efectivo/Transferencia": "$221.312",
+        "Tarjeta crédito/débito": "$227.951"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 1231,
-      "store_id": "centrale",
-      "price": 224580,
-      "price_card": 236932,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-pny-nvidia-rtx-a400-4gb-gddr6-64-bits-nvidia-ampere/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$224.580",
-        "Tarjetas de Crédito / Débito": "$236.932"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -63,7 +43,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 219488
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 221312
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

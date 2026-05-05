@@ -5,67 +5,34 @@
   "brand": "Genérico",
   "name": "Gabinete Gamer Cougar MX360 ARGB (ATX, Vidrio Templado, 1 Ventilador, Negro)",
   "slug": "winpy-gabinete-gamer-cougar-mx360-argb-atx-vidrio-templado-1-ventilador-negro",
-  "image_url": "/files/tumb_39441-3183-Gabinete-Gamer-Cougar-MX360-ARGB-0.jpg",
+  "image_url": "https://images.findtech.cl/products/gabinete-gamer-cougar-mx360-argb-atx-vidrio-templado-1-ventilador-negro.jpg",
   "description": null,
   "specs": {
-    "Marca": "Cougar",
-    "Efectivo / Transferencia": "$57.990",
-    "Tarjeta crédito/débito": "$59.730"
+    "Efectivo / Transferencia": "$42.560",
+    "Tarjeta crédito/débito": "$43.837"
   },
   "tags": [],
   "created_at": "2026-05-04 01:27:09",
-  "updated_at": "2026-05-04 01:27:09",
+  "updated_at": "2026-05-05 21:31:53",
   "prices": [
     {
       "product_id": 32057,
       "store_id": "winpy",
       "price": 42560,
+      "price_card": 43837,
       "price_normal": null,
       "discount_pct": 29,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-gamer-cougar-mx360-argb-atx-vidrio-templado-1-ventilador-negro/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$42.560"
+        "Efectivo/Transferencia": "$42.560",
+        "Tarjeta crédito/débito": "$43.837"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 2351,
-      "store_id": "dust2",
-      "price": 57990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/gabinete-cougar-duoface-rgb-tg-mid-tower-blanco/",
-      "store_name": "Dust2",
-      "price_specs": {
-        "Efectivo/Transferencia": "$57.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 9793,
-      "store_id": "spdigital",
-      "price": 59990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/gabinete-cougar-mx360-rgb-black-1-ventilador-trasero",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$59.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -74,7 +41,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 42560
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 42560
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

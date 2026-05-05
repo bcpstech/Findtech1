@@ -5,31 +5,31 @@
   "brand": "NVIDIA",
   "name": "Tarjeta gráfica MSI Nvidia GeForce GT 710 de 2GB GDDR3 (Ventilador, Perfil Bajo)",
   "slug": "winpy-tarjeta-grafica-msi-nvidia-geforce-gt-710-de-2gb-gddr3-ventilador-perfil-bajo",
-  "image_url": "/files/tumb_21557-7662-GT-710-2GD3-LP.jpg",
+  "image_url": "https://images.findtech.cl/products/tarjeta-grafica-msi-nvidia-geforce-gt-710-de-2gb-gddr3-ventilador-perfil-bajo.jpg",
   "description": null,
   "specs": {
     "VRAM": "2 GB",
     "Tipo memoria": "GDDR3",
-    "Efectivo / Transferencia": "$69.920",
-    "Tarjeta crédito/débito": "$72.018"
+    "Efectivo / Transferencia": "$70.528",
+    "Tarjeta crédito/débito": "$72.644"
   },
   "tags": [],
   "created_at": "2026-05-04 01:19:32",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 21:32:02",
   "prices": [
     {
       "product_id": 31840,
       "store_id": "winpy",
-      "price": 69920,
-      "price_card": 72018,
+      "price": 70528,
+      "price_card": 72644,
       "price_normal": null,
-      "discount_pct": 12,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-nvidia-geforce-gt-710-de-2gb-gddr3-ventilador-perfil-bajo/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$69.920",
-        "Tarjeta crédito/débito": "$72.018"
+        "Efectivo/Transferencia": "$70.528",
+        "Tarjeta crédito/débito": "$72.644"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,7 +43,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 69920
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 70528
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

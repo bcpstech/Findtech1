@@ -5,7 +5,7 @@
   "brand": "Gigabyte",
   "name": "Tarjeta gráfica Gigabyte Radeon RX 7600 GAMING OC de 8GB GDDR6",
   "slug": "winpy-tarjeta-grafica-gigabyte-radeon-rx-7600-gaming-oc-de-8gb-gddr6",
-  "image_url": "/files/tumb_35288-9241-Gigabyte-Radeon-RX-7600-GAMING-OC-8G-GDDR6-1.jpg",
+  "image_url": "https://images.findtech.cl/products/tarjeta-grafica-gigabyte-radeon-rx-7600-gaming-oc-de-8gb-gddr6.jpg",
   "description": null,
   "specs": {
     "VRAM": "8 GB",
@@ -13,46 +13,31 @@
     "Bus de memoria": "128-bit",
     "Arquitectura": "RDNA 3",
     "Variante": "OC (Overclocked)",
-    "Efectivo/Transferencia": "$499.990",
-    "Tarjeta crédito/débito": "$522.490"
+    "Efectivo / Transferencia": "$364.800",
+    "Tarjeta crédito/débito": "$375.744"
   },
   "tags": [],
   "created_at": "2026-05-04 01:19:58",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-05-05 21:32:02",
   "prices": [
     {
       "product_id": 31853,
       "store_id": "winpy",
-      "price": 361152,
+      "price": 364800,
+      "price_card": 375744,
       "price_normal": null,
-      "discount_pct": 10,
+      "discount_pct": 9,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-gigabyte-radeon-rx-7600-gaming-oc-de-8gb-gddr6/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$361.152"
+        "Efectivo/Transferencia": "$364.800",
+        "Tarjeta crédito/débito": "$375.744"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 9589,
-      "store_id": "spdigital",
-      "price": 499990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/radeon-gigabyte-rx-7600",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$499.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -61,7 +46,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 361152
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 364800
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

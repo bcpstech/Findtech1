@@ -5,180 +5,38 @@
   "brand": "AMD",
   "name": "Procesador AMD Ryzen 5 8600G (AM5, 6 Cores, 12 Hilos, 4.3/5.0GHz, 16MB Caché)",
   "slug": "winpy-procesador-amd-ryzen-5-8600g-am5-6-cores-12-hilos-4-3-5-0ghz-16mb-cache",
-  "image_url": "/files/tumb_37509-7519-AMD-Ryzen-5-8600G.jpg",
+  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-5-8600g-am5-6-cores-12-hilos-4-3-5-0ghz-16mb-cache.jpg",
   "description": null,
   "specs": {
+    "Frecuencia base": "5.0 GHz",
+    "Caché L3": "16 MB",
     "Socket": "AM5",
     "Generación": "AMD Zen 5 (4nm)",
-    "Gráficos integrados": "AMD Radeon 760M",
-    "Familia": "AMD Ryzen™ 5",
-    "Núcleos": "6",
-    "Litografía": "4 nm",
-    "Incluye cooler": "No",
-    "Frecuencia base": "4,3 GHz",
-    "Hilos": "12",
-    "Frecuencia turbo": "5 GHz",
-    "Caché L3": "16 MB",
-    "TDP": "65 W",
-    "Memoria soportada": "DDR5-SDRAM",
-    "Efectivo/Transferencia": "$199.995",
-    "Tarjeta crédito/débito": "$208.995"
+    "Efectivo / Transferencia": "$184.832",
+    "Tarjeta crédito/débito": "$190.377"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:05",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 21:32:02",
   "prices": [
     {
       "product_id": 31885,
       "store_id": "winpy",
-      "price": 173888,
-      "price_card": 179105,
+      "price": 184832,
+      "price_card": 190377,
       "price_normal": null,
-      "discount_pct": 33,
+      "discount_pct": 29,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-8600g-am5-6-cores-12-hilos-4-3-5-0ghz-16mb-cache/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$173.888",
-        "Tarjeta crédito/débito": "$179.105"
+        "Efectivo/Transferencia": "$184.832",
+        "Tarjeta crédito/débito": "$190.377"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 1952,
-      "store_id": "dust2",
-      "price": 175990,
-      "price_card": 181270,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-5-8600g-4-3-ghz-6-core-am5/",
-      "store_name": "Dust2",
-      "price_specs": {
-        "Efectivo/Transferencia": "$175.990",
-        "Tarjeta crédito/débito": "$181.270"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 3304,
-      "store_id": "alltec",
-      "price": 181900,
-      "price_card": 187357,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/amd/2200-amd-ryzen-5-8600g-43ghz-50ghz-turbo-six-core-tdp-65w-am5-amd-radeon-760m-graphics.html",
-      "store_name": "Alltec",
-      "price_specs": {
-        "Efectivo/Transferencia": "$181.900",
-        "Tarjeta crédito/débito": "$187.357"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
-    },
-    {
-      "product_id": 282,
-      "store_id": "centrale",
-      "price": 184680,
-      "price_card": 194837,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-8600g-npu-ryzen-ai-4-3-a-5-0ghz-6-nucleos-12-hilos/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$184.680",
-        "Tarjetas de Crédito / Débito": "$194.837"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 1150,
-      "store_id": "cg",
-      "price": 189990,
-      "price_card": 199983,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-8600g/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$189.990",
-        "Webpay / Tarjeta": "$199.983"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
-    },
-    {
-      "product_id": 30,
-      "store_id": "n1g",
-      "price": 198500,
-      "price_card": 209021,
-      "price_normal": 208947,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2620-amd-ryzen-5-8600g-socket-am5-6-core-12-hilos-43-ghz-65w-amd-radeon-760m-100-100001237box.html",
-      "store_name": "N1G",
-      "price_specs": {
-        "Efectivo/Transferencia": "$198.500",
-        "Tarjeta crédito/débito": "$209.021"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
-    },
-    {
-      "product_id": 9403,
-      "store_id": "spdigital",
-      "price": 199995,
-      "price_card": 208995,
-      "price_normal": 329990,
-      "discount_pct": 39,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-5-8600g",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$199.995",
-        "Webpay / Tarjeta": "$208.995"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 32924,
-      "store_id": "infor-ingen",
-      "price": 268900,
-      "price_card": 276967,
-      "price_normal": 285034,
-      "discount_pct": 6,
-      "stock": "in_stock",
-      "product_url": "https://store.infor-ingen.com/producto/cpu-amd-ryzen-5-8600g-4-3ghz/",
-      "store_name": "Infor-Ingen",
-      "price_specs": {
-        "Efectivo/Transferencia": "$268.900",
-        "Tarjeta crédito/débito": "$276.967"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "store.infor-ingen.com",
-      "full_url": "https://store.infor-ingen.com"
     }
   ],
   "history": [
@@ -187,7 +45,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 173888
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 184832
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

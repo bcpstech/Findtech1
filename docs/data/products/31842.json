@@ -5,57 +5,36 @@
   "brand": "MSI",
   "name": "Tarjeta gráfica MSI GeForce GT 1030 OC de 4GB (Perfil Bajo)",
   "slug": "winpy-tarjeta-grafica-msi-geforce-gt-1030-oc-de-4gb-perfil-bajo",
-  "image_url": "/files/tumb_36763-7605-GEFORCE-GT-1030-4GD4-LP-OC-1.jpg",
+  "image_url": "https://images.findtech.cl/products/tarjeta-grafica-msi-geforce-gt-1030-oc-de-4gb-perfil-bajo.jpg",
   "description": null,
   "specs": {
     "VRAM": "4 GB",
-    "Bus de memoria": "64-bit",
     "Variante": "OC (Overclocked)",
-    "Factor de forma": "Low Profile",
-    "Transferencia / Efectivo": "$142.410",
-    "Tarjeta crédito/débito": "$150.240"
+    "Efectivo / Transferencia": "$138.016",
+    "Tarjeta crédito/débito": "$142.156"
   },
   "tags": [],
   "created_at": "2026-05-04 01:19:36",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 21:32:02",
   "prices": [
     {
       "product_id": 31842,
       "store_id": "winpy",
-      "price": 136800,
-      "price_card": 140904,
+      "price": 138016,
+      "price_card": 142156,
       "price_normal": null,
-      "discount_pct": 36,
+      "discount_pct": 35,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-gt-1030-oc-de-4gb-perfil-bajo/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$136.800",
-        "Tarjeta crédito/débito": "$140.904"
+        "Efectivo/Transferencia": "$138.016",
+        "Tarjeta crédito/débito": "$142.156"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 1229,
-      "store_id": "centrale",
-      "price": 142410,
-      "price_card": 150243,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-nvidia-geforce-gt-1030-oc-4gb-ddr4-64-bit-low-profile/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$142.410",
-        "Tarjetas de Crédito / Débito": "$150.243"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -64,7 +43,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 136800
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 138016
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

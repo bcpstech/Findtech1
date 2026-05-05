@@ -5,7 +5,7 @@
   "brand": "Intel",
   "name": "Procesador Intel Core i7-12700F Alder Lake (LGA1700, 12 Cores, 20 Hilos, 3.6/4.9 GHz, Sin Video)",
   "slug": "winpy-procesador-intel-core-i7-12700f-alder-lake-lga1700-12-cores-20-hilos-3-6-4-9-ghz-sin-video",
-  "image_url": "/files/tumb_28726-1422-BX8071512100F.jpg",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i7-12700f-alder-lake-lga1700-12-cores-20-hilos-3-6-4-9-ghz-sin-video.jpg",
   "description": null,
   "specs": {
     "Frecuencia base": "4.9 GHz",
@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:39",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 21:32:02",
   "prices": [
     {
       "product_id": 31902,
@@ -37,25 +37,6 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 312,
-      "store_id": "centrale",
-      "price": 305780,
-      "price_card": 322598,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-12700f-2-1-ghz-12-core-lga-1700/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$305.780",
-        "Tarjetas de Crédito / Débito": "$322.598"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -64,7 +45,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 296096
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 296096
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

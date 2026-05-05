@@ -5,22 +5,18 @@
   "brand": "Gigabyte",
   "name": "Tarjeta gráfica Gigabyte Radeon RX 9060 XT GAMING OC ICE de 16GB GDDR6",
   "slug": "winpy-tarjeta-grafica-gigabyte-radeon-rx-9060-xt-gaming-oc-ice-de-16gb-gddr6",
-  "image_url": "/files/tumb_45931-6994e1e81f147.jpg",
+  "image_url": "https://images.findtech.cl/products/tarjeta-grafica-gigabyte-radeon-rx-9060-xt-gaming-oc-ice-de-16gb-gddr6.jpg",
   "description": null,
   "specs": {
     "VRAM": "16 GB",
     "Tipo memoria": "GDDR6",
-    "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$569.990",
-    "Tarjeta crédito/débito": "$601.339",
-    "Garantía": "6 meses",
-    "SKU": "41672",
-    "Part Number": "GV-R906XGAMINGOCICE-16GD"
+    "Efectivo / Transferencia": "$569.696",
+    "Tarjeta crédito/débito": "$586.787"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:22",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 21:32:02",
   "prices": [
     {
       "product_id": 31865,
@@ -40,84 +36,6 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 19853,
-      "store_id": "myshop",
-      "price": 569990,
-      "price_card": 587090,
-      "price_normal": 601339,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/radeon-rx-9060-xt-gaming-oc-ice-16g-p41672",
-      "store_name": "MyShop",
-      "price_specs": {
-        "Efectivo/Transferencia": "$569.990",
-        "Tarjeta crédito/débito": "$587.090"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.myshop.cl",
-      "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 2612,
-      "store_id": "trulustore",
-      "price": 599990,
-      "price_card": 617990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-gigabyte-amd-radeon-rx-9060-xt-gaming-oc-16gb/",
-      "store_name": "TruluStore",
-      "khipu_price": 611990,
-      "price_specs": {
-        "Efectivo / Transferencia": "$599.990",
-        "Khipu": "$611.990",
-        "Tarjeta crédito/débito": "$617.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
-    },
-    {
-      "product_id": 14070,
-      "store_id": "spdigital",
-      "price": 599995,
-      "price_card": 626995,
-      "price_normal": 899990,
-      "discount_pct": 33,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-gigabyte-radeon-rx-9060-xt-gaming-oc-ice-16gb-gddr6-128-bit-pci-e-50",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$599.995",
-        "Webpay / Tarjeta": "$626.995"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 1213,
-      "store_id": "centrale",
-      "price": 613120,
-      "price_card": 646842,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gigabyte-tarjeta-de-video-gaming-oc-ice-amd-radeon-rx-9060-xt-16-gb-gddr6-128/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$613.120",
-        "Tarjetas de Crédito / Débito": "$646.842"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -126,7 +44,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 569696
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 569696
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

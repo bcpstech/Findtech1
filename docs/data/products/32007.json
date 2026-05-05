@@ -5,19 +5,16 @@
   "brand": "Western Digital",
   "name": "Disco de Estado Sólido Western Digital SA510 Blue de 500GB (SSD, 560MB/s)",
   "slug": "winpy-disco-de-estado-solido-western-digital-sa510-blue-de-500gb-ssd-560mb-s",
-  "image_url": "/files/tumb_31143-3200-Western-Digital-SA510-Blue-500GB-2.jpg",
+  "image_url": "https://images.findtech.cl/products/disco-de-estado-solido-western-digital-sa510-blue-de-500gb-ssd-560mb-s.jpg",
   "description": null,
   "specs": {
     "Capacidad": "500 GB",
-    "Interfaz": "SATA III",
-    "Factor de forma": "2.5\"",
-    "Lectura": "560 MB/s",
-    "Transferencia / Efectivo": "$116.530",
-    "Tarjeta crédito/débito": "$122.940"
+    "Efectivo / Transferencia": "$99.712",
+    "Tarjeta crédito/débito": "$102.703"
   },
   "tags": [],
   "created_at": "2026-05-04 01:25:19",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 21:32:02",
   "prices": [
     {
       "product_id": 32007,
@@ -37,25 +34,6 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 1536,
-      "store_id": "centrale",
-      "price": 116530,
-      "price_card": 122939,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ssd-western-digital-blue-sa510-500gb-2-5-sata-3-560mb-s-lectura/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$116.530",
-        "Tarjetas de Crédito / Débito": "$122.939"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -64,7 +42,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 99712
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 99712
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

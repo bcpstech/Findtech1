@@ -5,22 +5,18 @@
   "brand": "MSI",
   "name": "Tarjeta gráfica MSI GeForce RTX 5060 GAMING TRIO OC de 8GB GDDR7",
   "slug": "winpy-tarjeta-grafica-msi-geforce-rtx-5060-gaming-trio-oc-de-8gb-gddr7",
-  "image_url": "/files/tumb_42931-3089-MSI-GeForce-RTX-5060-GAMING-TRIO-OC-de-8GB-GDDR7-1.jpg",
+  "image_url": "https://images.findtech.cl/products/tarjeta-grafica-msi-geforce-rtx-5060-gaming-trio-oc-de-8gb-gddr7.jpg",
   "description": null,
   "specs": {
     "VRAM": "8 GB",
     "Tipo memoria": "GDDR7",
-    "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$469.990",
-    "Tarjeta crédito/débito": "$495.839",
-    "Garantía": "6 meses",
-    "SKU": "41192",
-    "Part Number": "912-V537-022"
+    "Efectivo / Transferencia": "$469.984",
+    "Tarjeta crédito/débito": "$484.084"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:06",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 21:32:02",
   "prices": [
     {
       "product_id": 31857,
@@ -40,63 +36,6 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 19821,
-      "store_id": "myshop",
-      "price": 469990,
-      "price_card": 484090,
-      "price_normal": 495839,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/rtx-5060-8g-gaming-trio-oc-white-p41192",
-      "store_name": "MyShop",
-      "price_specs": {
-        "Efectivo/Transferencia": "$469.990",
-        "Tarjeta crédito/débito": "$484.090"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.myshop.cl",
-      "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 1233,
-      "store_id": "centrale",
-      "price": 505900,
-      "price_card": 533725,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5060-gaming-trio-oc-8gb-gddr7-128-bit/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$505.900",
-        "Tarjetas de Crédito / Débito": "$533.725"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9577,
-      "store_id": "spdigital",
-      "price": 638890,
-      "price_card": 667640,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-msi-nvidia-geforce-rtx-5060-gaming-trio-oc-8gb-gddr7-128-bit-pci-e-50",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$638.890",
-        "Webpay / Tarjeta": "$667.640"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -105,7 +44,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 469984
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 469984
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

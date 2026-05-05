@@ -5,7 +5,7 @@
   "brand": "Intel",
   "name": "Procesador Intel Core i7-14700F Raptor Lake (LGA1700, 2.1/5.4 GHz, 20 Nucleos, 28 Hilos, 33 MB Cache, Sin Video)",
   "slug": "winpy-procesador-intel-core-i7-14700f-raptor-lake-lga1700-2-1-5-4-ghz-20-nucleos-28-hilos-33-mb-cach",
-  "image_url": "/files/tumb_w37632_procesador_intel_core_i7-14700f_raptor_lake.jpg",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i7-14700f-raptor-lake-lga1700-2-1-5-4-ghz-20-nucleos-28-hilos-33-mb-cache-sin-.jpg",
   "description": null,
   "specs": {
     "Frecuencia base": "5.4 GHz",
@@ -18,45 +18,26 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:55",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 21:32:02",
   "prices": [
     {
       "product_id": 31910,
       "store_id": "winpy",
-      "price": 365408,
-      "price_card": 376370,
+      "price": 429856,
+      "price_card": 442752,
       "price_normal": null,
-      "discount_pct": 17,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i7-14700f-raptor-lake-lga1700-2-1-5-4-ghz-20-nucleos-28-hilos-33-mb-cache-sin-video/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$365.408",
-        "Tarjeta crédito/débito": "$376.370"
+        "Efectivo/Transferencia": "$429.856",
+        "Tarjeta crédito/débito": "$442.752"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 333,
-      "store_id": "centrale",
-      "price": 393450,
-      "price_card": 415090,
-      "price_normal": 470330,
-      "discount_pct": 16,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700f-core-2-1ghz-33mb-lga1700-14th-gen-no-graphic/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$393.450",
-        "Tarjetas de Crédito / Débito": "$415.090"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -65,7 +46,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 365408
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 429856
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

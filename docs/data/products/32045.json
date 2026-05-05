@@ -5,7 +5,7 @@
   "brand": "Genérico",
   "name": "Gabinete XTech XTQ-209 con Fuente 600W (ATX, USB 2.0, Audio/Mic, Negro)",
   "slug": "winpy-gabinete-xtech-xtq-209-con-fuente-600w-atx-usb-2-0-audio-mic-negro",
-  "image_url": "/files/tumb_35554-2912-XTech-XTQ-209-1.jpg",
+  "image_url": "https://images.findtech.cl/products/gabinete-xtech-xtq-209-con-fuente-600w-atx-usb-2-0-audio-mic-negro.jpg",
   "description": null,
   "specs": {
     "Efectivo / Transferencia": "$34.656",
@@ -13,21 +13,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:26:45",
-  "updated_at": "2026-05-05 13:06:08",
+  "updated_at": "2026-05-05 21:31:50",
   "prices": [
     {
       "product_id": 32045,
       "store_id": "winpy",
-      "price": 34048,
-      "price_card": 35069,
+      "price": 34656,
+      "price_card": 35696,
       "price_normal": null,
-      "discount_pct": 32,
+      "discount_pct": 30,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-xtech-xtq-209-con-fuente-600w-atx-usb-2-0-audio-mic-negro/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$34.048",
-        "Tarjeta crédito/débito": "$35.069"
+        "Efectivo/Transferencia": "$34.656",
+        "Tarjeta crédito/débito": "$35.696"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,7 +41,13 @@
       "store_name": "Winpy",
       "date": "2026-05-04",
       "price": 34048
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-05",
+      "price": 34656
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }
