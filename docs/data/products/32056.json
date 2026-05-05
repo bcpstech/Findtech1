@@ -9,25 +9,25 @@
   "description": null,
   "specs": {
     "Efectivo / Transferencia": "$41.952",
-    "Tarjeta crédito/débito": "$43.211"
+    "Tarjeta crédito/débito": "$44.175"
   },
   "tags": [],
   "created_at": "2026-05-04 01:27:07",
-  "updated_at": "2026-05-05 21:31:52",
+  "updated_at": "2026-05-05 21:43:49",
   "prices": [
     {
       "product_id": 32056,
       "store_id": "winpy",
       "price": 41952,
-      "price_card": 43211,
+      "price_card": 44175,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-esgaming-nb20-mini-torre-micro-atx-fuente-650watts-negro/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$41.952",
-        "Tarjeta crédito/débito": "$43.211"
+        "Transferencia o Depósito": "$41.952",
+        "Otros medios de pago": "$44.175"
       },
       "store_rating": 0,
       "review_count": 0,
