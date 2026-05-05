@@ -14,21 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1583,
       "store_id": "centrale",
-      "price": 10430,
-      "price_card": 11004,
+      "price": 10510,
+      "price_card": 11088,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/crucial-soporte-adaptador-de-ssd-2-5-a-3-5-ctssdbrkt35r/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$10.430",
-        "Tarjetas de Crédito / Débito": "$11.004"
+        "Transferencia / Efectivo": "$10.510",
+        "Tarjetas de Crédito / Débito": "$11.088"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,7 +60,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 10430
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 10510
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

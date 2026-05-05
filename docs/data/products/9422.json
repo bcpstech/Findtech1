@@ -17,12 +17,12 @@
     "Frecuencia turbo": "4,9 GHz",
     "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
     "Gráficos integrados": "Intel UHD Graphics 770",
-    "Efectivo/Transferencia": "$339.605",
-    "Tarjeta crédito/débito": "$354.887"
+    "Efectivo/Transferencia": "$384.194",
+    "Tarjeta crédito/débito": "$401.483"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:04",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 322,
@@ -47,15 +47,15 @@
       "product_id": 31905,
       "store_id": "winpy",
       "price": 347776,
-      "price_card": 358209,
+      "price_card": 366208,
       "price_normal": null,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i7-12700-alder-lake-lga1700-12-cores-20-hilos-3-6-4-9-ghz/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$347.776",
-        "Tarjeta crédito/débito": "$358.209"
+        "Transferencia o Depósito": "$347.776",
+        "Otros medios de pago": "$366.208"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -65,16 +65,16 @@
     {
       "product_id": 9422,
       "store_id": "spdigital",
-      "price": 380846,
-      "price_card": 397984,
-      "price_normal": 470300,
+      "price": 384194,
+      "price_card": 401483,
+      "price_normal": 474430,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/core-i7-12700-210ghz-sktlga1700-2500mb",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$380.846",
-        "Webpay / Tarjeta": "$397.984"
+        "Transferencia / Efectivo": "$384.194",
+        "Webpay / Tarjeta": "$401.483"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -84,16 +84,16 @@
     {
       "product_id": 1141,
       "store_id": "cg",
-      "price": 507833,
-      "price_card": 534545,
+      "price": 429746,
+      "price_card": 452351,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/procesadores/intel-core-i7-12700-2-1-ghz-12-nucleos-20-hilos-25-mb-cache-lga1700-socket-caja/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$507.833",
-        "Webpay / Tarjeta": "$534.545"
+        "Efectivo/Transferencia": "$429.746",
+        "Webpay / Tarjeta": "$452.351"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -131,7 +131,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 380846
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 384194
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

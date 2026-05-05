@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:32",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1354,
@@ -38,6 +38,25 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 38897,
+      "store_id": "mybox",
+      "price": 382848,
+      "price_card": 394333,
+      "price_normal": 413890,
+      "discount_pct": 8,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/5669-placa-madre-asus-tuf-z890-plus-wifi-4711387763926.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$382.848",
+        "Tarjeta crédito/débito": "$394.333"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     },
     {
       "product_id": 9468,
@@ -89,7 +108,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 579990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 579990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

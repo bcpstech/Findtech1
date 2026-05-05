@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1529,
@@ -40,16 +40,16 @@
     {
       "product_id": 32039,
       "store_id": "winpy",
-      "price": 212800,
-      "price_card": 219184,
+      "price": 214624,
+      "price_card": 225999,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/unidad-de-estado-solido-msi-spatium-m450-de-1tb-nvme-4-0-m-2-2280-hasta-3-600mb-s/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$212.800",
-        "Tarjeta crédito/débito": "$219.184"
+        "Transferencia o Depósito": "$214.624",
+        "Otros medios de pago": "$225.999"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -87,7 +87,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 212470
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 212470
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

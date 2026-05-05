@@ -9,18 +9,18 @@
   "description": null,
   "specs": {
     "Efectivo / Transferencia": "$84.890",
-    "Khipu": "$86.588",
-    "Tarjeta crédito/débito": "$89.135"
+    "Khipu": "$86.588"
   },
   "tags": [],
   "created_at": "2026-04-26 20:53:08",
-  "updated_at": "2026-05-01 00:34:27",
+  "updated_at": "2026-05-05 22:01:48",
   "prices": [
     {
       "product_id": 2660,
       "store_id": "trulustore",
       "price": 84890,
-      "price_normal": 89135,
+      "price_card": 87437,
+      "price_normal": 139450,
       "discount_pct": 39,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/fuente-de-poder-msi-mag-a850gl-white-850w-80-gold-cybenetics-gold-full-modular-pcie-5-1-atx-3-1/",
@@ -29,12 +29,50 @@
       "price_specs": {
         "Efectivo / Transferencia": "$84.890",
         "Khipu": "$86.588",
-        "Tarjeta crédito/débito": "$89.135"
+        "Tarjeta crédito/débito": "$87.437"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 1721,
+      "store_id": "centrale",
+      "price": 104900,
+      "price_card": 110670,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/fuente-de-poder-850w-msi-mag-a850gl-80-gold-full-modular-pcie-5-1-atx-3-1/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$104.900",
+        "Tarjetas de Crédito / Débito": "$110.670"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 38970,
+      "store_id": "mybox",
+      "price": 116990,
+      "price_card": 120500,
+      "price_normal": 119990,
+      "discount_pct": 3,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/fuentes-de-poder/6084-fuente-de-poder-msi-mag-a850gl-pcie5-white-4711377115391.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$116.990",
+        "Tarjeta crédito/débito": "$120.500"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -67,7 +105,25 @@
       "store_name": "TruluStore",
       "date": "2026-05-01",
       "price": 84890
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-05-03",
+      "price": 84890
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-05-04",
+      "price": 84890
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-05-05",
+      "price": 84890
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-05"
 }

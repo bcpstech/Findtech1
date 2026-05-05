@@ -11,26 +11,26 @@
     "VRAM": "8 GB",
     "Tipo memoria": "GDDR6",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$527.070",
-    "Tarjeta crédito/débito": "$556.060"
+    "Transferencia / Efectivo": "$524.780",
+    "Tarjeta crédito/débito": "$553.640"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1202,
       "store_id": "centrale",
-      "price": 520200,
-      "price_card": 548811,
+      "price": 524780,
+      "price_card": 553643,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-zotac-geforce-rtx5060ti-twin-edge-oc-8gb-gddr6/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$520.200",
-        "Tarjetas de Crédito / Débito": "$548.811"
+        "Transferencia / Efectivo": "$524.780",
+        "Tarjetas de Crédito / Débito": "$553.643"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,7 +68,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 520200
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 524780
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

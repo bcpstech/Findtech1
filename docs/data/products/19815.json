@@ -20,7 +20,7 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:32",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 505,
@@ -83,15 +83,15 @@
       "product_id": 31856,
       "store_id": "winpy",
       "price": 434720,
-      "price_card": 447762,
+      "price_card": 457760,
       "price_normal": null,
       "discount_pct": 16,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5060-shadow-2x-oc-de-8gb-gddr7/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$434.720",
-        "Tarjeta crédito/débito": "$447.762"
+        "Transferencia o Depósito": "$434.720",
+        "Otros medios de pago": "$457.760"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -136,7 +136,13 @@
       "store_name": "MyShop",
       "date": "2026-05-04",
       "price": 405950
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-05",
+      "price": 405950
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

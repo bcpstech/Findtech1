@@ -11,26 +11,26 @@
     "Capacidad": "12 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$433.930",
-    "Tarjeta crédito/débito": "$457.800"
+    "Transferencia / Efectivo": "$432.050",
+    "Tarjeta crédito/débito": "$455.810"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1567,
       "store_id": "centrale",
-      "price": 428270,
-      "price_card": 451825,
+      "price": 432050,
+      "price_card": 455813,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-wd-purple-pro-12tb-3-5-7200rpm-sata-para-video-inteligente/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$428.270",
-        "Tarjetas de Crédito / Débito": "$451.825"
+        "Transferencia / Efectivo": "$432.050",
+        "Tarjetas de Crédito / Débito": "$455.813"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,7 +68,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 428270
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 432050
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:33",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 9470,
       "store_id": "spdigital",
-      "price": 81294,
-      "price_card": 84952,
-      "price_normal": 100330,
+      "price": 82014,
+      "price_card": 85705,
+      "price_normal": 101210,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-gigabyte-lga-1700-m-atx-2-dimm-ddr5-pcie-40-1x-m2-soporte-gen-12deg-13deg-14deg",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$81.294",
-        "Webpay / Tarjeta": "$84.952"
+        "Transferencia / Efectivo": "$82.014",
+        "Webpay / Tarjeta": "$85.705"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,15 +42,15 @@
       "product_id": 31931,
       "store_id": "winpy",
       "price": 83904,
-      "price_card": 86421,
+      "price_card": 88351,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-gigabyte-h610m-k-v2-lga1700-ddr5-4400-5600mhz-m-2-micro-atx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$83.904",
-        "Tarjeta crédito/débito": "$86.421"
+        "Transferencia o Depósito": "$83.904",
+        "Otros medios de pago": "$88.351"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,16 +60,16 @@
     {
       "product_id": 1391,
       "store_id": "centrale",
-      "price": 84910,
-      "price_card": 89580,
+      "price": 85650,
+      "price_card": 90361,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-h610m-k-v2-micro-atx-lga-1700-ddr5-nvme-3-0/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$84.910",
-        "Tarjetas de Crédito / Débito": "$89.580"
+        "Transferencia / Efectivo": "$85.650",
+        "Tarjetas de Crédito / Débito": "$90.361"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -126,7 +126,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 81294
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 82014
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

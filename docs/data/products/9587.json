@@ -18,21 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:32",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 9587,
       "store_id": "spdigital",
-      "price": 511561,
-      "price_card": 534581,
-      "price_normal": 631720,
+      "price": 516048,
+      "price_card": 539270,
+      "price_normal": 637260,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-ti-8gb-gddr7-twin-edge-oc-128bits-28gbps-pcie-50",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$511.561",
-        "Webpay / Tarjeta": "$534.581"
+        "Transferencia / Efectivo": "$516.048",
+        "Webpay / Tarjeta": "$539.270"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,16 +63,16 @@
     {
       "product_id": 31862,
       "store_id": "winpy",
-      "price": 522272,
-      "price_card": 537940,
+      "price": 527136,
+      "price_card": 555074,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-zotac-geforce-rtx-5060-ti-twin-edge-oc-de-8gb-gddr7/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$522.272",
-        "Tarjeta crédito/débito": "$537.940"
+        "Transferencia o Depósito": "$527.136",
+        "Otros medios de pago": "$555.074"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -110,7 +110,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 511561
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 516048
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

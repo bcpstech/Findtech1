@@ -11,12 +11,13 @@
     "Socket": "LGA1700",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
-    "Efectivo / Transferencia": "$78.432",
-    "Tarjeta crédito/débito": "$82.589"
+    "WiFi": "Integrado",
+    "Efectivo/Transferencia": "$149.990",
+    "Tarjeta crédito/débito": "$156.740"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:34",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 31928,
@@ -36,6 +37,63 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1365,
+      "store_id": "centrale",
+      "price": 84440,
+      "price_card": 89084,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-msi-pro-h610m-g-lga-1700-ddr5/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$84.440",
+        "Tarjetas de Crédito / Débito": "$89.084"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 585,
+      "store_id": "n1g",
+      "price": 99000,
+      "price_card": 104247,
+      "price_normal": 104210,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3150-msi-pro-h610m-g-ddr5-proseries-lga-1700-141312-pcie-4-lan-de-1-gbps-m2-sata-6g-usb-32-gen1-matx.html",
+      "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$99.000",
+        "Tarjeta crédito/débito": "$104.247"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 9459,
+      "store_id": "spdigital",
+      "price": 149990,
+      "price_card": 156740,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/segunda-seleccion-placa-madre-msi-pro-h610m-g-wifi-ddr5-lga-1700-2x-ddr5-hdmi-dp-wi-fi-6e-m-at",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$149.990",
+        "Webpay / Tarjeta": "$156.740"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [

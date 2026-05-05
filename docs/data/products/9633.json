@@ -15,7 +15,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:01",
-  "updated_at": "2026-05-05 12:24:50",
+  "updated_at": "2026-05-05 21:56:52",
   "prices": [
     {
       "product_id": 9633,
@@ -58,21 +58,40 @@
     {
       "product_id": 1611,
       "store_id": "centrale",
-      "price": 160200,
-      "price_card": 169011,
+      "price": 161600,
+      "price_card": 170488,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-aio-asus-tuf-gaming-lc-iii-360-argb-lcd/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$160.200",
-        "Tarjetas de Crédito / Débito": "$169.011"
+        "Transferencia / Efectivo": "$161.600",
+        "Tarjetas de Crédito / Débito": "$170.488"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 38938,
+      "store_id": "mybox",
+      "price": 187901,
+      "price_card": 193538,
+      "price_normal": 197790,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/enfriamiento-refrigeracion/6097-refrigeracion-asus-tuf-gaming-lc-iii-360-argb-lcd-black-4711636047838.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$187.901",
+        "Tarjeta crédito/débito": "$193.538"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     },
     {
       "product_id": 779,
@@ -124,7 +143,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 99995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 99995
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

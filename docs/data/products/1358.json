@@ -16,21 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1358,
       "store_id": "centrale",
-      "price": 78890,
-      "price_card": 83229,
+      "price": 75460,
+      "price_card": 79610,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-h610-k-d4-csm-micro-atx-ddr4-lga-1700/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$78.890",
-        "Tarjetas de Crédito / Débito": "$83.229"
+        "Transferencia / Efectivo": "$75.460",
+        "Tarjetas de Crédito / Débito": "$79.610"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,7 +62,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 78890
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 75460
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:30",
-  "updated_at": "2026-05-05 12:26:26",
+  "updated_at": "2026-05-05 21:58:08",
   "prices": [
     {
       "product_id": 9806,
@@ -34,6 +34,25 @@
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 39011,
+      "store_id": "mybox",
+      "price": 98411,
+      "price_card": 101363,
+      "price_normal": 106390,
+      "discount_pct": 7,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/gabinetes/5104-gabinete-coolermaster-mb520-masterbox-white-argb-4719512127438.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$98.411",
+        "Tarjeta crédito/débito": "$101.363"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     },
     {
       "product_id": 33935,
@@ -85,7 +104,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 59990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 59990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

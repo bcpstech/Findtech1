@@ -26,7 +26,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:55",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1149,
@@ -51,15 +51,15 @@
       "product_id": 31882,
       "store_id": "winpy",
       "price": 154432,
-      "price_card": 159065,
+      "price_card": 162617,
       "price_normal": null,
       "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-5600gt-am4-6-cores-12-hilos-3-6-4-6ghz-16mb-cache/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$154.432",
-        "Tarjeta crédito/débito": "$159.065"
+        "Transferencia o Depósito": "$154.432",
+        "Otros medios de pago": "$162.617"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -154,7 +154,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 159995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 159995
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

@@ -25,7 +25,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:41:43",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 32929,
@@ -50,15 +50,15 @@
       "product_id": 31918,
       "store_id": "winpy",
       "price": 460864,
-      "price_card": 474690,
+      "price_card": 485290,
       "price_normal": null,
       "discount_pct": 28,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-9-9900x-am5-12-cores-24-hilos-4-4-5-6ghz-64mb-cache/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$460.864",
-        "Tarjeta crédito/débito": "$474.690"
+        "Transferencia o Depósito": "$460.864",
+        "Otros medios de pago": "$485.290"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -106,16 +106,16 @@
     {
       "product_id": 299,
       "store_id": "centrale",
-      "price": 482470,
-      "price_card": 509006,
+      "price": 486710,
+      "price_card": 513479,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-9900x-12-cores-24-threads-4-4-ghz-a-5-6-ghz-120w/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$482.470",
-        "Tarjetas de Crédito / Débito": "$509.006"
+        "Transferencia / Efectivo": "$486.710",
+        "Tarjetas de Crédito / Débito": "$513.479"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -142,6 +142,25 @@
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 38836,
+      "store_id": "mybox",
+      "price": 558988,
+      "price_card": 575758,
+      "price_normal": 612590,
+      "discount_pct": 9,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/procesador/5572-procesador-amd-ryzen-9-9900x.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$558.988",
+        "Tarjeta crédito/débito": "$575.758"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -150,7 +169,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-05-04",
       "price": 449900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-05-05",
+      "price": 449900
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

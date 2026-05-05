@@ -14,26 +14,26 @@
     "Latencia": "CL16",
     "Kit": "2x16 GB",
     "Iluminación": "RGB",
-    "Transferencia / Efectivo": "$370.190",
-    "Tarjeta crédito/débito": "$390.550"
+    "Transferencia / Efectivo": "$368.580",
+    "Tarjeta crédito/débito": "$388.850"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:41",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 9484,
       "store_id": "spdigital",
-      "price": 347508,
-      "price_card": 363146,
-      "price_normal": 381420,
+      "price": 350551,
+      "price_card": 366326,
+      "price_normal": 384760,
       "discount_pct": 9,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/corsair-vengeance-rgb-pro-sl-32gb-2x16gb-ddr4-3200-pc4-25600-c16-135v-desktop-memory-black",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$347.508",
-        "Webpay / Tarjeta": "$363.146"
+        "Transferencia / Efectivo": "$350.551",
+        "Webpay / Tarjeta": "$366.326"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,16 +43,16 @@
     {
       "product_id": 1426,
       "store_id": "centrale",
-      "price": 365370,
-      "price_card": 385465,
+      "price": 368580,
+      "price_card": 388852,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-32gb-2x16gb-ddr4-3200mt-s-cl16-1-35v-corsair-vengeance-rgb-pro-sl/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$365.370",
-        "Tarjetas de Crédito / Débito": "$385.465"
+        "Transferencia / Efectivo": "$368.580",
+        "Tarjetas de Crédito / Débito": "$388.852"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -90,7 +90,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 347508
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 350551
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

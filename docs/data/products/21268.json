@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "VRAM": "24 GB",
-    "Transferencia / Efectivo": "$2.113.990",
-    "Tarjeta crédito/débito": "$2.230.260"
+    "Transferencia / Efectivo": "$2.130.990",
+    "Tarjeta crédito/débito": "$2.248.190"
   },
   "tags": [],
   "created_at": "2026-05-01 14:06:18",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 21268,
       "store_id": "centrale",
-      "price": 2149340,
-      "price_card": 2267554,
+      "price": 2130990,
+      "price_card": 2248194,
       "price_normal": 2789990,
-      "discount_pct": 23,
+      "discount_pct": 24,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-pny-nvidia-rtx-pro-4000-blackwell-24gb-ecc/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$2.149.340",
-        "Tarjetas de Crédito / Débito": "$2.267.554"
+        "Transferencia / Efectivo": "$2.130.990",
+        "Tarjetas de Crédito / Débito": "$2.248.194"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -54,7 +54,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 2149340
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 2130990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

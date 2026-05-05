@@ -17,19 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1443,
       "store_id": "centrale",
       "price": 238000,
+      "price_card": 251090,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-6000mt-s-cl36-xpg-lancer-blade-black/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$238.000"
+        "Transferencia / Efectivo": "$238.000",
+        "Tarjetas de Crédito / Débito": "$251.090"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,13 +42,15 @@
       "product_id": 9478,
       "store_id": "spdigital",
       "price": 449990,
+      "price_card": 470240,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/xpg-ram-lancer-blade-rgb-ddr5-16gb-6000-black",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$449.990"
+        "Transferencia / Efectivo": "$449.990",
+        "Webpay / Tarjeta": "$470.240"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -84,7 +88,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 238000
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 238000
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

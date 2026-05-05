@@ -25,7 +25,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:56",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1950,
@@ -69,15 +69,15 @@
       "product_id": 31884,
       "store_id": "winpy",
       "price": 162336,
-      "price_card": 167206,
+      "price_card": 170940,
       "price_normal": null,
       "discount_pct": 14,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-8400f-am5-6-cores-12-hilos-4-2-4-7ghz-sin-video/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$162.336",
-        "Tarjeta crédito/débito": "$167.206"
+        "Transferencia o Depósito": "$162.336",
+        "Otros medios de pago": "$170.940"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -123,6 +123,25 @@
       "full_url": "https://www.spdigital.cl"
     },
     {
+      "product_id": 293,
+      "store_id": "centrale",
+      "price": 173910,
+      "price_card": 183475,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-8400f-6-cores-12threads-4-2-a-4-7ghz-65w/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$173.910",
+        "Tarjetas de Crédito / Débito": "$183.475"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
       "product_id": 2809,
       "store_id": "alltec",
       "price": 175600,
@@ -142,23 +161,23 @@
       "full_url": "https://www.alltec.cl"
     },
     {
-      "product_id": 293,
-      "store_id": "centrale",
-      "price": 176020,
-      "price_card": 185701,
-      "price_normal": null,
-      "discount_pct": null,
+      "product_id": 38839,
+      "store_id": "mybox",
+      "price": 206929,
+      "price_card": 213137,
+      "price_normal": 236490,
+      "discount_pct": 12,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-8400f-6-cores-12threads-4-2-a-4-7ghz-65w/",
-      "store_name": "Centrale",
+      "product_url": "https://mybox.cl/procesador/5517-procesador-amd-ryzen-5-8400f-730143316736.html",
+      "store_name": "MyBox",
       "price_specs": {
-        "Transferencia / Efectivo": "$176.020",
-        "Tarjetas de Crédito / Débito": "$185.701"
+        "Efectivo/Transferencia": "$206.929",
+        "Tarjeta crédito/débito": "$213.137"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -191,7 +210,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 169995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 169995
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

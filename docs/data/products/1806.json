@@ -19,21 +19,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:31",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1806,
       "store_id": "dust2",
-      "price": 996990,
-      "price_card": 1026900,
+      "price": 993990,
+      "price_card": 1023810,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-rtx-5070-12g-wow-midnight-void-edition-oc/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$996.990",
-        "Tarjeta crédito/débito": "$1.026.900"
+        "Efectivo/Transferencia": "$993.990",
+        "Tarjeta crédito/débito": "$1.023.810"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -71,7 +71,13 @@
       "store_name": "Dust2",
       "date": "2026-05-04",
       "price": 996990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-05",
+      "price": 993990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

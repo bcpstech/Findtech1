@@ -8,26 +8,26 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Asus-Prime-Lc-360-Argb-Fan-Unit-90RC0101-B0EAY0.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$112.680",
-    "Tarjeta crédito/débito": "$118.880"
+    "Transferencia / Efectivo": "$112.190",
+    "Tarjeta crédito/débito": "$118.360"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:45",
-  "updated_at": "2026-05-05 12:53:38",
+  "updated_at": "2026-05-05 22:25:55",
   "prices": [
     {
       "product_id": 1617,
       "store_id": "centrale",
-      "price": 111220,
-      "price_card": 117337,
+      "price": 112190,
+      "price_card": 118360,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-asus-prime-lc-360-argb-360mm-3x120mm-600-2200-rpm/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$111.220",
-        "Tarjetas de Crédito / Débito": "$117.337"
+        "Transferencia / Efectivo": "$112.190",
+        "Tarjetas de Crédito / Débito": "$118.360"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -65,7 +65,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 111220
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 112190
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

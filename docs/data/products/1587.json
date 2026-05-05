@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Capacidad": "2 TB",
-    "Transferencia / Efectivo": "$100.010",
-    "Tarjeta crédito/débito": "$105.510"
+    "Transferencia / Efectivo": "$99.580",
+    "Tarjeta crédito/débito": "$105.060"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1587,
       "store_id": "centrale",
-      "price": 98720,
-      "price_card": 104150,
+      "price": 99580,
+      "price_card": 105057,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-hdd-2tb-western-digita-wd-purple-video-vigilancia-5400rpm/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$98.720",
-        "Tarjetas de Crédito / Débito": "$104.150"
+        "Transferencia / Efectivo": "$99.580",
+        "Tarjetas de Crédito / Débito": "$105.057"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,7 +60,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 98720
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 99580
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

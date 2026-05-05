@@ -11,12 +11,13 @@
     "Socket": "AM5",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
-    "Efectivo / Transferencia": "$79.648",
-    "Tarjeta crédito/débito": "$83.869"
+    "WiFi": "Integrado",
+    "Efectivo/Transferencia": "$119.995",
+    "Tarjeta crédito/débito": "$125.395"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:38",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 31930,
@@ -36,6 +37,82 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 25121,
+      "store_id": "centrale",
+      "price": 88080,
+      "price_card": 92924,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-gigabyte-a620m-h-socket-amd-am5-ddr5/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$88.080",
+        "Tarjetas de Crédito / Débito": "$92.924"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 38892,
+      "store_id": "mybox",
+      "price": 103066,
+      "price_card": 106158,
+      "price_normal": 117790,
+      "discount_pct": 13,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/5726-placa-madre-gigabyte-a620m-h--4719331855512.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$103.066",
+        "Tarjeta crédito/débito": "$106.158"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
+    },
+    {
+      "product_id": 9426,
+      "store_id": "spdigital",
+      "price": 119995,
+      "price_card": 125395,
+      "price_normal": 229990,
+      "discount_pct": 48,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/placa-madre-gigabyte-b650m-gaming-wifi-am5-ddr5",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$119.995",
+        "Webpay / Tarjeta": "$125.395"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 33142,
+      "store_id": "infor-ingen",
+      "price": 139900,
+      "price_card": 144097,
+      "price_normal": 148294,
+      "discount_pct": 6,
+      "stock": "in_stock",
+      "product_url": "https://store.infor-ingen.com/producto/m-b-gigabyte-a620m-gaming-x/",
+      "store_name": "Infor-Ingen",
+      "price_specs": {
+        "Efectivo/Transferencia": "$139.900",
+        "Tarjeta crédito/débito": "$144.097"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
     }
   ],
   "history": [

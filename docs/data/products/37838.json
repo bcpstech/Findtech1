@@ -8,15 +8,16 @@
   "image_url": "https://images.findtech.cl/products/placa-madre-asus-prime-h610m-k-d4-csm-lga1700-ddr4-2133-3200mhz-m-2-microatx.jpg",
   "description": null,
   "specs": {
-    "Socket": "LGA1700",
-    "Factor de forma": "Micro-ATX",
+    "Socket": "LGA 1700",
+    "Factor de forma": "micro ATX",
     "Memoria": "DDR5",
-    "Efectivo / Transferencia": "$74.784",
-    "Tarjeta crédito/débito": "$78.748"
+    "Chipset": "Intel H610",
+    "Efectivo/Transferencia": "$84.423",
+    "Tarjeta crédito/débito": "$88.222"
   },
   "tags": [],
   "created_at": "2026-05-04 23:38:42",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 37838,
@@ -36,6 +37,63 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1408,
+      "store_id": "centrale",
+      "price": 82580,
+      "price_card": 87122,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-mini-atx-asus-prime-h610m-k-socket-intel-lga-1700-ddr5-pcie-3-0/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$82.580",
+        "Tarjetas de Crédito / Débito": "$87.122"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9464,
+      "store_id": "spdigital",
+      "price": 84423,
+      "price_card": 88222,
+      "price_normal": 100900,
+      "discount_pct": 16,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-h610m-k-socket-intel-lga1700-2xddr5-1x-m2-4x-sata-hdmi-vga-micro-atx",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$84.423",
+        "Webpay / Tarjeta": "$88.222"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 38908,
+      "store_id": "mybox",
+      "price": 92741,
+      "price_card": 95523,
+      "price_normal": 105990,
+      "discount_pct": 13,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/5280-placa-madre-asus-prime-h610m-k-d4-ddr4.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$92.741",
+        "Tarjeta crédito/débito": "$95.523"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [

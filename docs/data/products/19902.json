@@ -16,21 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:19:57",
-  "updated_at": "2026-05-05 12:33:51",
+  "updated_at": "2026-05-05 22:06:27",
   "prices": [
     {
       "product_id": 19902,
       "store_id": "myshop",
-      "price": 44800,
-      "price_card": 46144,
-      "price_normal": 47264,
-      "discount_pct": 21,
+      "price": 43990,
+      "price_card": 45310,
+      "price_normal": 46409,
+      "discount_pct": 22,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/gabinete-gamemax-diamond-cp-bk-rgb-sfuente-atx-negro-incluye-1-fan-120mm-argb-trasero-1-de-140mm-turbo-normal-lateral-mb-p38348",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$44.800",
-        "Tarjeta crédito/débito": "$46.144"
+        "Efectivo/Transferencia": "$43.990",
+        "Tarjeta crédito/débito": "$45.310"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,15 +41,15 @@
       "product_id": 32064,
       "store_id": "winpy",
       "price": 44992,
-      "price_card": 46342,
+      "price_card": 47377,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-gamer-gamemax-diamond-cp-bk-midi-atx-4-ventiladores-controlador-rgb-negro/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$44.992",
-        "Tarjeta crédito/débito": "$46.342"
+        "Transferencia o Depósito": "$44.992",
+        "Otros medios de pago": "$47.377"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -94,7 +94,13 @@
       "store_name": "MyShop",
       "date": "2026-05-04",
       "price": 44800
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-05",
+      "price": 43990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:12:29",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 586,
@@ -40,16 +40,16 @@
     {
       "product_id": 31937,
       "store_id": "winpy",
-      "price": 101536,
-      "price_card": 104582,
+      "price": 102144,
+      "price_card": 107558,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b650m-f-am5-ddr5-1-m-2-hdmi-micro-atx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$101.536",
-        "Tarjeta crédito/débito": "$104.582"
+        "Transferencia o Depósito": "$102.144",
+        "Otros medios de pago": "$107.558"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,16 +59,16 @@
     {
       "product_id": 1332,
       "store_id": "centrale",
-      "price": 105300,
-      "price_card": 111092,
+      "price": 106230,
+      "price_card": 112073,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b650m-f-micro-atx-amd-b650-socket-am5-ddr5/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$105.300",
-        "Tarjetas de Crédito / Débito": "$111.092"
+        "Transferencia / Efectivo": "$106.230",
+        "Tarjetas de Crédito / Débito": "$112.073"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -156,7 +156,13 @@
       "store_name": "N1G",
       "date": "2026-05-04",
       "price": 96500
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-05-05",
+      "price": 96500
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

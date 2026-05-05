@@ -21,7 +21,7 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:43",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 19832,
@@ -65,15 +65,15 @@
       "product_id": 31877,
       "store_id": "winpy",
       "price": 819584,
-      "price_card": 844172,
+      "price_card": 863022,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-prime-geforce-rtx-5070-oc-de-12gb-gddr7/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$819.584",
-        "Tarjeta crédito/débito": "$844.172"
+        "Transferencia o Depósito": "$819.584",
+        "Otros medios de pago": "$863.022"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -83,16 +83,16 @@
     {
       "product_id": 1236,
       "store_id": "centrale",
-      "price": 833840,
-      "price_card": 879701,
+      "price": 841180,
+      "price_card": 887445,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-prime-geforce-rtx-5070-oc-edition-12gb-gddr7-sff-ready/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$833.840",
-        "Tarjetas de Crédito / Débito": "$879.701"
+        "Transferencia / Efectivo": "$841.180",
+        "Tarjetas de Crédito / Débito": "$887.445"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -118,7 +118,13 @@
       "store_name": "MyShop",
       "date": "2026-05-04",
       "price": 779990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-05",
+      "price": 779990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

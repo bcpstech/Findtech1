@@ -11,26 +11,26 @@
     "Capacidad": "960 GB",
     "Interfaz": "SATA III",
     "Factor de forma": "2.5\"",
-    "Transferencia / Efectivo": "$1.622.720",
-    "Tarjeta crédito/débito": "$1.711.970"
+    "Transferencia / Efectivo": "$1.615.670",
+    "Tarjeta crédito/débito": "$1.704.530"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1516,
       "store_id": "centrale",
-      "price": 1601540,
-      "price_card": 1689625,
+      "price": 1615670,
+      "price_card": 1704532,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ssd-lenovo-960gb-2-5-sata-iii-v-nand-tlc-servidor/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.601.540",
-        "Tarjetas de Crédito / Débito": "$1.689.625"
+        "Transferencia / Efectivo": "$1.615.670",
+        "Tarjetas de Crédito / Débito": "$1.704.532"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,7 +68,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 1601540
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 1615670
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

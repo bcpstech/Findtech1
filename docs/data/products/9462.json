@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:29",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 9462,
@@ -36,6 +36,25 @@
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 38874,
+      "store_id": "mybox",
+      "price": 144391,
+      "price_card": 148723,
+      "price_normal": 151990,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/inicio/6105-placa-madre-asus-prime-b860m-k--4711387808498.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$144.391",
+        "Tarjeta crédito/débito": "$148.723"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     },
     {
       "product_id": 1370,
@@ -59,16 +78,16 @@
     {
       "product_id": 31953,
       "store_id": "winpy",
-      "price": 151392,
-      "price_card": 155934,
+      "price": 149568,
+      "price_card": 157495,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b860m-k-lga1851-ddr5-pcie-5-0-2-5gb-lan-micro-atx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$151.392",
-        "Tarjeta crédito/débito": "$155.934"
+        "Transferencia o Depósito": "$149.568",
+        "Otros medios de pago": "$157.495"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -106,7 +125,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 139995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 139995
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

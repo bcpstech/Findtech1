@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:16",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1160,
@@ -39,18 +39,37 @@
       "full_url": "https://www.centralgamer.cl"
     },
     {
+      "product_id": 38905,
+      "store_id": "mybox",
+      "price": 161491,
+      "price_card": 166336,
+      "price_normal": 169990,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/5377-placa-madre-asus-prime-b650m-a-ii-csm-ddr5-4711387025543.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$161.491",
+        "Tarjeta crédito/débito": "$166.336"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
+    },
+    {
       "product_id": 31956,
       "store_id": "winpy",
       "price": 179968,
-      "price_card": 185367,
+      "price_card": 189506,
       "price_normal": null,
       "discount_pct": 26,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b650m-a-ax6-ii-am5-ddr5-4800-7600-mhz-m-2-x3-micro-atx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$179.968",
-        "Tarjeta crédito/débito": "$185.367"
+        "Transferencia o Depósito": "$179.968",
+        "Otros medios de pago": "$189.506"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -126,7 +145,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 259990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 259990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

@@ -12,26 +12,26 @@
     "Factor de forma": "ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$255.870",
-    "Tarjeta crédito/débito": "$269.940"
+    "Transferencia / Efectivo": "$254.760",
+    "Tarjeta crédito/débito": "$268.770"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1399,
       "store_id": "centrale",
-      "price": 252530,
-      "price_card": 266419,
+      "price": 254760,
+      "price_card": 268772,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-x870-eagle-wifi7-am5-atx-ddr5-pcie-5-0-wifi-7-nvme-5/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$252.530",
-        "Tarjetas de Crédito / Débito": "$266.419"
+        "Transferencia / Efectivo": "$254.760",
+        "Tarjetas de Crédito / Débito": "$268.772"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -69,7 +69,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 252530
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 254760
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

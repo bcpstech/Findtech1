@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:55",
-  "updated_at": "2026-05-05 12:24:46",
+  "updated_at": "2026-05-05 21:56:47",
   "prices": [
     {
       "product_id": 9619,
@@ -33,6 +33,25 @@
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 38939,
+      "store_id": "mybox",
+      "price": 437790,
+      "price_card": 450924,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/enfriamiento-refrigeracion/6085-refrigeracion-liquida-asus-rog-ryuo-iv-360-argb-hatsune-miku-edition-4711636215343.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$437.790",
+        "Tarjeta crédito/débito": "$450.924"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -65,7 +84,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 419995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 419995
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

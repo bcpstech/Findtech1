@@ -18,21 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:46",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 9496,
       "store_id": "spdigital",
-      "price": 127575,
-      "price_card": 133316,
-      "price_normal": 155620,
+      "price": 128697,
+      "price_card": 134488,
+      "price_normal": 156980,
       "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/adata-premier-series-ddr4-mã3dulo-8-gb-dimm-de-288-contactos-3200-mhz-pc4-25600-cl22",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$127.575",
-        "Webpay / Tarjeta": "$133.316"
+        "Transferencia / Efectivo": "$128.697",
+        "Webpay / Tarjeta": "$134.488"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -89,7 +89,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 127575
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 128697
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

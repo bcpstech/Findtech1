@@ -13,12 +13,15 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$712.576",
-    "Tarjeta crédito/débito": "$750.343"
+    "Efectivo / Transferencia": "$718.990",
+    "Tarjeta crédito/débito": "$758.534",
+    "Garantía": "6 meses",
+    "SKU": "40532",
+    "Part Number": "912-V532-011"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:28",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 31868,
@@ -38,6 +41,44 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 19829,
+      "store_id": "myshop",
+      "price": 718990,
+      "price_card": 740560,
+      "price_normal": 758534,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/msi-geforce-rtx-5070-12g-shadow-2x-oc-p40532",
+      "store_name": "MyShop",
+      "price_specs": {
+        "Efectivo/Transferencia": "$718.990",
+        "Tarjeta crédito/débito": "$740.560"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 1211,
+      "store_id": "centrale",
+      "price": 766750,
+      "price_card": 808921,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-de-video-msi-geforce-rtx-5070-shadow-2x-oc-12gb-gddr7/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$766.750",
+        "Tarjetas de Crédito / Débito": "$808.921"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [

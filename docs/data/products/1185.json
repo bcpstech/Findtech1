@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:36:23",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1185,
       "store_id": "cg",
-      "price": 294160,
-      "price_card": 309633,
+      "price": 296836,
+      "price_card": 312450,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/almacenamiento/kingston-kc3000-ssd-1024-gb-interno-m-2-2280-pcie-4-0-nvme-para-intel-next-unit-of-computing-12-pro-kit-nuc12wski5/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$294.160",
-        "Webpay / Tarjeta": "$309.633"
+        "Efectivo/Transferencia": "$296.836",
+        "Webpay / Tarjeta": "$312.450"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -81,7 +81,13 @@
       "store_name": "CentralGamer",
       "date": "2026-05-04",
       "price": 294160
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-05-05",
+      "price": 296836
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

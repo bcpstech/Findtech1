@@ -1,46 +1,100 @@
 {
   "id": 1395,
-  "external_id": "pcexpress_16494-disco-de-estado-solido-western-digital-black-sn850x-2tb-nvme-ssd-wds200t2x0e-m-2-2280-pcie-4-0",
-  "category_id": "storage",
-  "brand": "WD",
-  "name": "16494 - disco de estado solido western digital black sn850x 2tb nvme ssd wds200t2x0e - m.2 2280 - pcie 4.0 x4 (nvme) p/n wds200t2x0e",
-  "slug": "16494-disco-de-estado-solido-western-digital-black-sn850x-2tb-nvme-ssd-wds200t2x0e-m-2-2280-pcie-4-0",
-  "image_url": null,
+  "external_id": "centrale_placa-madre-atx-msi-mag-b760-tomahawk-wifi-intel-lga-1700-ddr5-wifi-6e",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "Placa Madre ATX MSI MAG B760 TOMAHAWK WIFI, Intel LGA 1700, DDR5, WiFi 6E",
+  "slug": "placa-madre-atx-msi-mag-b760-tomahawk-wifi-intel-lga-1700-ddr5-wifi-6e",
+  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ATX-MSI-MAG-B760-TOMAHAWK-WIFI-Intel-LGA-1700-DDR5-WiFi-6E_iRcOYRD-1.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$357.900",
-    "Tarjeta crédito/débito": "$368.637"
+    "Socket": "LGA1851",
+    "Factor de forma": "ATX",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
+    "Transferencia / Efectivo": "$279.900",
+    "Tarjeta crédito/débito": "$295.290"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:55:44",
-  "updated_at": "2026-04-25 04:55:44",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
-      "id": 1395,
       "product_id": 1395,
-      "store_id": "pcexpress",
-      "price": 357900,
+      "store_id": "centrale",
+      "price": 244490,
+      "price_card": 257937,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=16494&search=ssd+nvme+m2+pcie&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:55:44",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/placa-madre-atx-msi-mag-b760-tomahawk-wifi-intel-lga-1700-ddr5-wifi-6e/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$244.490",
+        "Tarjetas de Crédito / Débito": "$257.937"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 38909,
+      "store_id": "mybox",
+      "price": 283041,
+      "price_card": 291532,
+      "price_normal": 305990,
+      "discount_pct": 7,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/5212-placa-madre-msi-mag-b760-tomahawk-wifi-4711377026376.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$283.041",
+        "Tarjeta crédito/débito": "$291.532"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
-      "date": "2026-04-25",
-      "price": 357900
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-26",
+      "price": 239900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-04-27",
+      "price": 239900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 2399
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 239900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-04",
+      "price": 239900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 244490
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-05-05"
 }

@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:03",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 9530,
@@ -99,15 +99,15 @@
       "product_id": 32006,
       "store_id": "winpy",
       "price": 97280,
-      "price_card": 100198,
+      "price_card": 102436,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/disco-ssd-a-data-ultimate-su650-de-480gb-2-5-sata-3d-nand/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$97.280",
-        "Tarjeta crédito/débito": "$100.198"
+        "Transferencia o Depósito": "$97.280",
+        "Otros medios de pago": "$102.436"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -164,7 +164,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 59995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 59995
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

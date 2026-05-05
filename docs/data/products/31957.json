@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:23:32",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 31954,
@@ -37,6 +37,44 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1386,
+      "store_id": "centrale",
+      "price": 167910,
+      "price_card": 177145,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b860m-a-lga-1851-ddr5-m-2-gen5-pcie-gen5/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$167.910",
+        "Tarjetas de Crédito / Débito": "$177.145"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 38883,
+      "store_id": "mybox",
+      "price": 185491,
+      "price_card": 191056,
+      "price_normal": 211990,
+      "discount_pct": 13,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/5951-placa-madre-asus-prime-b860m-a-4711387819845.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$185.491",
+        "Tarjeta crédito/débito": "$191.056"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [

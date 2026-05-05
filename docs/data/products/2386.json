@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:48:06",
-  "updated_at": "2026-05-05 13:13:59",
+  "updated_at": "2026-05-05 22:38:45",
   "prices": [
     {
       "product_id": 2386,
@@ -39,15 +39,15 @@
       "product_id": 32071,
       "store_id": "winpy",
       "price": 52288,
-      "price_card": 53857,
+      "price_card": 55059,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-cooler-master-elite-302-micro-atx-compacto-negro/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$52.288",
-        "Tarjeta crédito/débito": "$53.857"
+        "Transferencia o Depósito": "$52.288",
+        "Otros medios de pago": "$55.059"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -79,7 +79,13 @@
       "store_name": "Dust2",
       "date": "2026-05-04",
       "price": 48990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-05",
+      "price": 48990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

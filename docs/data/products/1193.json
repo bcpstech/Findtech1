@@ -12,26 +12,26 @@
     "Tipo memoria": "GDDR7",
     "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$545.660",
-    "Tarjeta crédito/débito": "$575.670"
+    "Transferencia / Efectivo": "$543.290",
+    "Tarjeta crédito/débito": "$573.170"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1193,
       "store_id": "centrale",
-      "price": 538540,
-      "price_card": 568160,
+      "price": 543290,
+      "price_card": 573171,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5060-ti-shadow-2x-oc-plus-8gb-gddr7-128-bit/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$538.540",
-        "Tarjetas de Crédito / Débito": "$568.160"
+        "Transferencia / Efectivo": "$543.290",
+        "Tarjetas de Crédito / Débito": "$573.171"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -69,7 +69,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 538540
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 543290
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

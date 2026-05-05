@@ -12,26 +12,26 @@
     "Factor de forma": "ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$202.440",
-    "Tarjeta crédito/débito": "$213.570"
+    "Transferencia / Efectivo": "$201.560",
+    "Tarjeta crédito/débito": "$212.650"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1350,
       "store_id": "centrale",
-      "price": 199800,
-      "price_card": 210789,
+      "price": 201560,
+      "price_card": 212646,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-b840-gaming-plus-wifi-atx-am5-pcie-4-0-ddr5-wifi7/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$199.800",
-        "Tarjetas de Crédito / Débito": "$210.789"
+        "Transferencia / Efectivo": "$201.560",
+        "Tarjetas de Crédito / Débito": "$212.646"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -69,7 +69,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 199800
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 201560
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1369,
       "store_id": "centrale",
-      "price": 126980,
-      "price_card": 133964,
+      "price": 128100,
+      "price_card": 135146,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-h810m-b-micro-atx-lga-1851-ddr5/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$126.980",
-        "Tarjetas de Crédito / Débito": "$133.964"
+        "Transferencia / Efectivo": "$128.100",
+        "Tarjetas de Crédito / Débito": "$135.146"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,15 +42,15 @@
       "product_id": 31949,
       "store_id": "winpy",
       "price": 139840,
-      "price_card": 144035,
+      "price_card": 147252,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-msi-pro-h810m-b-wifi6e-lga1851-ddr5-pcie-5-0-micro-atx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$139.840",
-        "Tarjeta crédito/débito": "$144.035"
+        "Transferencia o Depósito": "$139.840",
+        "Otros medios de pago": "$147.252"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -77,18 +77,37 @@
       "full_url": "https://www.alltec.cl"
     },
     {
+      "product_id": 38881,
+      "store_id": "mybox",
+      "price": 161503,
+      "price_card": 166348,
+      "price_normal": 176990,
+      "discount_pct": 9,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/6011-placa-madre-msi-pro-h810m-b-wifi6e-4711377337984.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$161.503",
+        "Tarjeta crédito/débito": "$166.348"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
+    },
+    {
       "product_id": 9474,
       "store_id": "spdigital",
-      "price": 182842,
-      "price_card": 191070,
+      "price": 184440,
+      "price_card": 192740,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/msi-pro-h810m-b-wifi6e",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$182.842",
-        "Webpay / Tarjeta": "$191.070"
+        "Transferencia / Efectivo": "$184.440",
+        "Webpay / Tarjeta": "$192.740"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -126,7 +145,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 126980
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 128100
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

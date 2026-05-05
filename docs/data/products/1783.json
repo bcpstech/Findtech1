@@ -15,7 +15,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:07",
-  "updated_at": "2026-05-05 13:17:08",
+  "updated_at": "2026-05-05 22:41:39",
   "prices": [
     {
       "product_id": 1783,
@@ -54,6 +54,25 @@
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 38940,
+      "store_id": "mybox",
+      "price": 91191,
+      "price_card": 93927,
+      "price_normal": 95990,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/enfriamiento-refrigeracion/6077-refrigeracion-liquida-gigabyte-gaming-360-black-4719331555337.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$91.191",
+        "Tarjeta crédito/débito": "$93.927"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -80,7 +99,13 @@
       "store_name": "ProGaming",
       "date": "2026-05-04",
       "price": 81990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-05-05",
+      "price": 81990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

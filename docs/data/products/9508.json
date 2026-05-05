@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:51",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 9508,
       "store_id": "spdigital",
-      "price": 603368,
-      "price_card": 630520,
-      "price_normal": null,
+      "price": 608651,
+      "price_card": 636040,
+      "price_normal": 608660,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/crucial-pro-32gb-ddr5-5600-udimm-cl46-16gbit",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$603.368",
-        "Webpay / Tarjeta": "$630.520"
+        "Transferencia / Efectivo": "$608.651",
+        "Webpay / Tarjeta": "$636.040"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -69,7 +69,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 603368
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 608651
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

@@ -15,21 +15,21 @@
   },
   "tags": [],
   "created_at": "2026-05-01 14:04:51",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 21225,
       "store_id": "centrale",
-      "price": 6245640,
-      "price_card": 6589150,
+      "price": 6300550,
+      "price_card": 6647080,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-pny-nvidia-rtx-5000-blackwell-48gb-gddr7-ecc/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$6.245.640",
-        "Tarjetas de Crédito / Débito": "$6.589.150"
+        "Transferencia / Efectivo": "$6.300.550",
+        "Tarjetas de Crédito / Débito": "$6.647.080"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,7 +55,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 6245640
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 6300550
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

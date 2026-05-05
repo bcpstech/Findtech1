@@ -11,26 +11,26 @@
     "Capacidad": "500 GB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Transferencia / Efectivo": "$116.380",
-    "Tarjeta crédito/débito": "$122.780"
+    "Transferencia / Efectivo": "$115.880",
+    "Tarjeta crédito/débito": "$122.250"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1527,
       "store_id": "centrale",
-      "price": 114870,
-      "price_card": 121188,
+      "price": 115880,
+      "price_card": 122253,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ssd-wd-green-sn3000-500gb-nvme-pcie-gen4-m-2-2280/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$114.870",
-        "Tarjetas de Crédito / Débito": "$121.188"
+        "Transferencia / Efectivo": "$115.880",
+        "Tarjetas de Crédito / Débito": "$122.253"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,7 +68,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 114870
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 115880
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

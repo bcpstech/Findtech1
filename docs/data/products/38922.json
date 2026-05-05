@@ -1,0 +1,88 @@
+{
+  "id": 38922,
+  "external_id": "mybox_disco-duro-hdd-western-digital-blue-2tb-256mb",
+  "category_id": "storage",
+  "brand": "Western Digital",
+  "name": "Disco Duro HDD Western Digital Blue 2TB 256MB",
+  "slug": "mybox-disco-duro-hdd-western-digital-blue-2tb-256mb",
+  "image_url": "https://images.findtech.cl/products/disco-duro-hdd-western-digital-blue-2tb-256mb.jpg",
+  "description": null,
+  "specs": {
+    "Capacidad": "2 TB",
+    "Interfaz": "NVMe PCIe",
+    "Factor de forma": "M.2 2280",
+    "Transferencia / Efectivo": "$696.960",
+    "Tarjeta crédito/débito": "$735.290"
+  },
+  "tags": [],
+  "created_at": "2026-05-04 23:53:43",
+  "updated_at": "2026-05-05 23:04:42",
+  "prices": [
+    {
+      "product_id": 38922,
+      "store_id": "mybox",
+      "price": 102365,
+      "price_card": 105436,
+      "price_normal": 104990,
+      "discount_pct": 3,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/almacenamiento/5208-disco-duro-hdd-wd-blue-2tb-256mb.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$102.365",
+        "Tarjeta crédito/débito": "$105.436"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
+    },
+    {
+      "product_id": 696,
+      "store_id": "n1g",
+      "price": 249000,
+      "price_card": 262197,
+      "price_normal": 262105,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3804-western-digital-black-2tb-ssd-nvme-2280-pcie-40-7250mbs-sn7100-wds200t4x0e.html",
+      "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$249.000",
+        "Tarjeta crédito/débito": "$262.197"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 21549,
+      "store_id": "centrale",
+      "price": 696960,
+      "price_card": 735293,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/disco-ssd-western-digital-negro-sn7100-de-2tb-nvme-4-0-m-2-2280-hasta-7-250m/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$696.960",
+        "Tarjetas de Crédito / Débito": "$735.293"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-05-05",
+      "price": 102365
+    }
+  ],
+  "scraped_at": "2026-05-05"
+}

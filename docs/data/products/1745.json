@@ -8,31 +8,50 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Gamer-Corsair-FRAME-4000D-Negro-Modular-Mid-Tower-1.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$87.660",
-    "Tarjeta crédito/débito": "$92.480"
+    "Transferencia / Efectivo": "$87.290",
+    "Tarjeta crédito/débito": "$92.090"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-05-05 12:58:16",
+  "updated_at": "2026-05-05 22:30:35",
   "prices": [
     {
       "product_id": 1745,
       "store_id": "centrale",
-      "price": 79430,
-      "price_card": 83799,
+      "price": 87290,
+      "price_card": 92091,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-gamer-corsair-frame-4000d-negro-modular-mid-tower/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$79.430",
-        "Tarjetas de Crédito / Débito": "$83.799"
+        "Transferencia / Efectivo": "$87.290",
+        "Tarjetas de Crédito / Débito": "$92.091"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 38997,
+      "store_id": "mybox",
+      "price": 91951,
+      "price_card": 94710,
+      "price_normal": 96790,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/gabinetes/6025-gabinete-corsair-frame-4000d-black.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$91.951",
+        "Tarjeta crédito/débito": "$94.710"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -59,7 +78,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 79430
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 87290
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

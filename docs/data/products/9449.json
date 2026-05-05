@@ -18,21 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:20",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1407,
       "store_id": "centrale",
-      "price": 312480,
-      "price_card": 329666,
+      "price": 318250,
+      "price_card": 335754,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-atx-asus-tuf-gaming-x870-plus-wifi-socket-amd-am5-ddr5-wifi-7/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$312.480",
-        "Tarjetas de Crédito / Débito": "$329.666"
+        "Transferencia / Efectivo": "$318.250",
+        "Tarjetas de Crédito / Débito": "$335.754"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -89,7 +89,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 329995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 329995
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

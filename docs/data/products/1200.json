@@ -10,26 +10,26 @@
   "specs": {
     "VRAM": "16 GB",
     "Tipo memoria": "GDDR6",
-    "Transferencia / Efectivo": "$745.090",
-    "Tarjeta crédito/débito": "$786.070"
+    "Transferencia / Efectivo": "$741.850",
+    "Tarjeta crédito/débito": "$782.650"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1200,
       "store_id": "centrale",
-      "price": 735370,
-      "price_card": 775815,
+      "price": 741850,
+      "price_card": 782652,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-tuf-rx-9060-xt-16gb-gddr6-pcie-5-0/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$735.370",
-        "Tarjetas de Crédito / Débito": "$775.815"
+        "Transferencia / Efectivo": "$741.850",
+        "Tarjetas de Crédito / Débito": "$782.652"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -67,7 +67,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 735370
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 741850
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

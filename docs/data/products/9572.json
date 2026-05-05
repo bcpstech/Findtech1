@@ -20,7 +20,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:26",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1820,
@@ -64,15 +64,15 @@
       "product_id": 31850,
       "store_id": "winpy",
       "price": 349600,
-      "price_card": 360088,
+      "price_card": 368129,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-gigabyte-geforce-rtx-5050-windforce-oc-v2-de-8gb-gddr6/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$349.600",
-        "Tarjeta crédito/débito": "$360.088"
+        "Transferencia o Depósito": "$349.600",
+        "Otros medios de pago": "$368.129"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -82,16 +82,16 @@
     {
       "product_id": 9572,
       "store_id": "spdigital",
-      "price": 352267,
-      "price_card": 368119,
-      "price_normal": 435000,
+      "price": 355359,
+      "price_card": 371350,
+      "price_normal": 438820,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-gigabyte-nvidia-geforce-rtx-5050-windforce-oc-8gb-gddr6-128-bit-pci-e-50",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$352.267",
-        "Webpay / Tarjeta": "$368.119"
+        "Transferencia / Efectivo": "$355.359",
+        "Webpay / Tarjeta": "$371.350"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -101,16 +101,16 @@
     {
       "product_id": 1239,
       "store_id": "centrale",
-      "price": 358380,
-      "price_card": 378091,
+      "price": 361530,
+      "price_card": 381414,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-gigabyte-geforce-rtx-5050-windforce-oc-8gb-gddr6-128-bit/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$358.380",
-        "Tarjetas de Crédito / Débito": "$378.091"
+        "Transferencia / Efectivo": "$361.530",
+        "Tarjetas de Crédito / Débito": "$381.414"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -148,7 +148,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 352267
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 355359
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

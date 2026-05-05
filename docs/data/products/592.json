@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:12:39",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 592,
@@ -94,6 +94,25 @@
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 38880,
+      "store_id": "mybox",
+      "price": 161840,
+      "price_card": 166695,
+      "price_normal": 165990,
+      "discount_pct": 3,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/6013-placa-madre-msi-b840m-gaming-wifi6e-4711377358668.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$161.840",
+        "Tarjeta crédito/débito": "$166.695"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -138,7 +157,13 @@
       "store_name": "N1G",
       "date": "2026-05-04",
       "price": 123500
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-05-05",
+      "price": 123500
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

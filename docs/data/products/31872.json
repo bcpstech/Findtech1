@@ -13,12 +13,12 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$747.232",
-    "Tarjeta crédito/débito": "$786.835"
+    "Transferencia / Efectivo": "$870.160",
+    "Tarjeta crédito/débito": "$918.020"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:36",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 31872,
@@ -38,6 +38,44 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1220,
+      "store_id": "centrale",
+      "price": 804020,
+      "price_card": 848241,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-de-video-msi-geforce-rtx-5070-ventus-2x-oc-12gb-gddr7/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$804.020",
+        "Tarjetas de Crédito / Débito": "$848.241"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9578,
+      "store_id": "spdigital",
+      "price": 819995,
+      "price_card": 856895,
+      "price_normal": 999990,
+      "discount_pct": 18,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-msi-nvidia-geforce-rtx-5070-ventus-2x-oc-12gb-gddr7-192-bit-pci-e-50",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$819.995",
+        "Webpay / Tarjeta": "$856.895"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [

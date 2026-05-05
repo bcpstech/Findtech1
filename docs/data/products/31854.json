@@ -10,13 +10,17 @@
   "specs": {
     "VRAM": "8 GB",
     "Tipo memoria": "GDDR7",
+    "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$399.456",
-    "Tarjeta crédito/débito": "$420.627"
+    "Efectivo / Transferencia": "$409.990",
+    "Tarjeta crédito/débito": "$432.539",
+    "Garantía": "6 meses",
+    "SKU": "38283",
+    "Part Number": "912-V537-017"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:00",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 31854,
@@ -36,6 +40,63 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 19816,
+      "store_id": "myshop",
+      "price": 409990,
+      "price_card": 422290,
+      "price_normal": 432539,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/rtx-5060-8g-ventus-2x-oc-p38283",
+      "store_name": "MyShop",
+      "price_specs": {
+        "Efectivo/Transferencia": "$409.990",
+        "Tarjeta crédito/débito": "$422.290"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 1241,
+      "store_id": "centrale",
+      "price": 454500,
+      "price_card": 479498,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/msi-geforce-rtx-5060-8g-ventus-2x-oc-8gb-gddr7-pcie-gen-5-3840-cuda/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$454.500",
+        "Tarjetas de Crédito / Débito": "$479.498"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 38852,
+      "store_id": "mybox",
+      "price": 459990,
+      "price_card": 473790,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/tarjeta-de-video/6087-tarjeta-de-video-msi-rtx-5060-8g-ventus-3x-oc-4711377344326.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$459.990",
+        "Tarjeta crédito/débito": "$473.790"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [

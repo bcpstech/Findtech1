@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:22",
-  "updated_at": "2026-05-05 12:26:19",
+  "updated_at": "2026-05-05 21:58:02",
   "prices": [
     {
       "product_id": 9793,
@@ -39,15 +39,15 @@
       "product_id": 32057,
       "store_id": "winpy",
       "price": 42560,
-      "price_card": 43837,
+      "price_card": 44816,
       "price_normal": null,
       "discount_pct": 29,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-gamer-cougar-mx360-argb-atx-vidrio-templado-1-ventilador-negro/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$42.560",
-        "Tarjeta crédito/débito": "$43.837"
+        "Transferencia o Depósito": "$42.560",
+        "Otros medios de pago": "$44.816"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -72,6 +72,25 @@
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 39001,
+      "store_id": "mybox",
+      "price": 62691,
+      "price_card": 64572,
+      "price_normal": 65990,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/gabinetes/5890-gabinete-cougar-archon-2-mesh-rgb-white-4710483773020.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$62.691",
+        "Tarjeta crédito/débito": "$64.572"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -104,7 +123,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 38995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 38995
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

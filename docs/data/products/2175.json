@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:45:14",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 2175,
@@ -39,37 +39,18 @@
       "full_url": "https://www.dust2.gg"
     },
     {
-      "product_id": 33472,
-      "store_id": "infor-ingen",
-      "price": 55900,
-      "price_card": 57577,
-      "price_normal": 59254,
-      "discount_pct": 6,
-      "stock": "in_stock",
-      "product_url": "https://store.infor-ingen.com/producto/adata-legend-710-256gb/",
-      "store_name": "Infor-Ingen",
-      "price_specs": {
-        "Efectivo/Transferencia": "$55.900",
-        "Tarjeta crédito/débito": "$57.577"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "store.infor-ingen.com",
-      "full_url": "https://store.infor-ingen.com"
-    },
-    {
       "product_id": 32002,
       "store_id": "winpy",
-      "price": 80256,
-      "price_card": 82664,
+      "price": 81472,
+      "price_card": 85790,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/unidad-ssd-adata-legend-710-de-256gb-nvme-m-2-pcle-3-0-hasta-2-400mb-s/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$80.256",
-        "Tarjeta crédito/débito": "$82.664"
+        "Transferencia o Depósito": "$81.472",
+        "Otros medios de pago": "$85.790"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -94,6 +75,25 @@
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 33536,
+      "store_id": "infor-ingen",
+      "price": 149900,
+      "price_card": 154397,
+      "price_normal": 158894,
+      "discount_pct": 6,
+      "stock": "in_stock",
+      "product_url": "https://store.infor-ingen.com/producto/disco-duro-adata-elite-se880-ssd-externo-1tb-usb-c-3-2/",
+      "store_name": "Infor-Ingen",
+      "price_specs": {
+        "Efectivo/Transferencia": "$149.900",
+        "Tarjeta crédito/débito": "$154.397"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
     },
     {
       "product_id": 1533,
@@ -139,7 +139,13 @@
       "store_name": "Dust2",
       "date": "2026-05-04",
       "price": 51990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-05",
+      "price": 51990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

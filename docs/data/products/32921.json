@@ -26,7 +26,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:41:40",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 32921,
@@ -51,15 +51,15 @@
       "product_id": 31893,
       "store_id": "winpy",
       "price": 237120,
-      "price_card": 244234,
+      "price_card": 249687,
       "price_normal": null,
       "discount_pct": 24,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-9600x-am5-6-cores-12-hilos-3-9-5-4ghz-32mb-cache-unlocked/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$237.120",
-        "Tarjeta crédito/débito": "$244.234"
+        "Transferencia o Depósito": "$237.120",
+        "Otros medios de pago": "$249.687"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -187,7 +187,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-05-04",
       "price": 219900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-05-05",
+      "price": 219900
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

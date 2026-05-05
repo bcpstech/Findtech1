@@ -8,16 +8,16 @@
   "image_url": "https://images.findtech.cl/products/disco-duro-ssd-crucial-bx500-240gb-3d-nand-sata-2-5-inch.png",
   "description": null,
   "specs": {
-    "Capacidad": "2 TB",
-    "Interfaz": "NVMe PCIe",
-    "Factor de forma": "M.2 2280",
-    "Lectura": "7100 MB/s",
-    "Transferencia / Efectivo": "$331.450",
-    "Tarjeta crédito/débito": "$349.680"
+    "Capacidad": "4 TB",
+    "Interfaz": "SATA",
+    "Factor de forma": "2.5\"",
+    "Lectura": "540 MB/s",
+    "Efectivo/Transferencia": "$475.085",
+    "Tarjeta crédito/débito": "$496.464"
   },
   "tags": [],
   "created_at": "2026-05-04 02:51:17",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 33469,
@@ -39,37 +39,18 @@
       "full_url": "https://store.infor-ingen.com"
     },
     {
-      "product_id": 1574,
-      "store_id": "centrale",
-      "price": 181570,
-      "price_card": 191556,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-1tb-crucial-p310-m-2-2230-pcie-4-0-x4-lectura-7100mb-s/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$181.570",
-        "Tarjetas de Crédito / Débito": "$191.556"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 32035,
+      "product_id": 32000,
       "store_id": "winpy",
-      "price": 195168,
-      "price_card": 201023,
+      "price": 57760,
+      "price_card": 60821,
       "price_normal": null,
-      "discount_pct": 3,
+      "discount_pct": 41,
       "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/disco-ssd-crucial-bx500-de-2tb-3d-nand-sata-540-500-mb-s/",
+      "product_url": "https://www.winpy.cl/venta/disco-estado-solido-crucial-bx500-de-240gb-3d-nand-sata-ssd/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$195.168",
-        "Tarjeta crédito/débito": "$201.023"
+        "Transferencia o Depósito": "$57.760",
+        "Otros medios de pago": "$60.821"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -77,18 +58,37 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 9542,
+      "product_id": 1596,
+      "store_id": "centrale",
+      "price": 67750,
+      "price_card": 71476,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/disco-ssd-240gb-crucial-bx500-3d-nand-sata-25/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$67.750",
+        "Tarjetas de Crédito / Débito": "$71.476"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9541,
       "store_id": "spdigital",
-      "price": 343251,
-      "price_card": 358697,
-      "price_normal": 423930,
+      "price": 475085,
+      "price_card": 496464,
+      "price_normal": 586670,
       "discount_pct": 19,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/unidad-ssd-crucial-p310-2tb-m2-2230-pcie-40-x4-lectura-7100mbs-escritura-6000mbs",
+      "product_url": "https://www.spdigital.cl/ssd-bx500-4000gb-4tb-nand-sata-25-2",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$343.251",
-        "Webpay / Tarjeta": "$358.697"
+        "Transferencia / Efectivo": "$475.085",
+        "Webpay / Tarjeta": "$496.464"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -102,7 +102,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-05-04",
       "price": 54900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-05-05",
+      "price": 54900
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

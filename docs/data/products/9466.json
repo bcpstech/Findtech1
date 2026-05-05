@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:31",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 9466,
@@ -40,25 +40,6 @@
       "full_url": "https://www.spdigital.cl"
     },
     {
-      "product_id": 1357,
-      "store_id": "centrale",
-      "price": 296590,
-      "price_card": 312902,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/asus-motherboard-prime-z890-p-wifi-lga1851-ddr5-pcie-5-0-wifi-7/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$296.590",
-        "Tarjetas de Crédito / Débito": "$312.902"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
       "product_id": 23540,
       "store_id": "alltec",
       "price": 298900,
@@ -78,23 +59,61 @@
       "full_url": "https://www.alltec.cl"
     },
     {
+      "product_id": 1357,
+      "store_id": "centrale",
+      "price": 299210,
+      "price_card": 315667,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/asus-motherboard-prime-z890-p-wifi-lga1851-ddr5-pcie-5-0-wifi-7/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$299.210",
+        "Tarjetas de Crédito / Débito": "$315.667"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
       "product_id": 1162,
       "store_id": "cg",
-      "price": 303007,
-      "price_card": 318945,
+      "price": 305764,
+      "price_card": 321847,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/placas-madre/asus-motherboard-prime-z890-p-wifi-1851-ddr5/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$303.007",
-        "Webpay / Tarjeta": "$318.945"
+        "Efectivo/Transferencia": "$305.764",
+        "Webpay / Tarjeta": "$321.847"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 38896,
+      "store_id": "mybox",
+      "price": 306166,
+      "price_card": 315351,
+      "price_normal": 330990,
+      "discount_pct": 7,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/5670-placa-madre-asus-prime-z890-p-wifi-4711387754818.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$306.166",
+        "Tarjeta crédito/débito": "$315.351"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -127,7 +146,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 279995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 279995
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

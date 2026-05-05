@@ -5,32 +5,58 @@
   "brand": "AMD",
   "name": "AMD RYZEN 9 9950X3D (4.3GHz/5.7GHz TURBO) SIXTEEN CORE (TDP 170W) (AM5)",
   "slug": "amd-ryzen-9-9950x3d-4-3ghz-5-7ghz-turbo-sixteen-core-tdp-170w-am5",
-  "image_url": "https://www.alltec.cl/12249-large_default/amd-ryzen-9-9950x3d-43ghz57ghz-turbo-sixteen-core-tdp-170w-am5.jpg",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-9-9950x3d-4-3ghz-5-7ghz-turbo-sixteen-core-tdp-170w-am5.jpg",
   "description": null,
   "specs": {
-    "Frecuencia base": "4.3 GHz",
-    "Frecuencia turbo": "5.7 GHz",
+    "Núcleos": "16",
+    "Hilos": "32",
     "Socket": "AM5",
-    "Efectivo/Transferencia": "$825.900",
-    "Tarjeta crédito/débito": "$850.677"
+    "Efectivo / Transferencia": "$869.990",
+    "Khipu": "$887.390"
   },
   "tags": [],
   "created_at": "2026-04-27 00:32:19",
-  "updated_at": "2026-04-27 11:52:32",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 2825,
       "store_id": "alltec",
       "price": 825900,
+      "price_card": 850677,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2376-amd-ryzen-9-9950x3d-43ghz57ghz-turbo-sixteen-core-tdp-170w-am5.html",
       "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$825.900",
+        "Tarjeta crédito/débito": "$850.677"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 2627,
+      "store_id": "trulustore",
+      "price": 869990,
+      "price_card": 896090,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/procesador-amd-ryzen-9-9950x3d-am5-16c-32t-cache-l3-128mb/",
+      "store_name": "TruluStore",
+      "khipu_price": 887390,
+      "price_specs": {
+        "Efectivo / Transferencia": "$869.990",
+        "Khipu": "$887.390",
+        "Tarjeta crédito/débito": "$896.090"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -39,7 +65,25 @@
       "store_name": "Alltec",
       "date": "2026-04-27",
       "price": 825900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-05-03",
+      "price": 825900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-05-04",
+      "price": 825900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-05-05",
+      "price": 825900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-05"
 }

@@ -11,26 +11,26 @@
     "Capacidad": "1 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$101.950",
-    "Tarjeta crédito/débito": "$107.560"
+    "Transferencia / Efectivo": "$101.520",
+    "Tarjeta crédito/débito": "$107.100"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1551,
       "store_id": "centrale",
-      "price": 100630,
-      "price_card": 106165,
+      "price": 101520,
+      "price_card": 107104,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-seagate-skyhawk-1tb-3-5-sata-6gb-s-para-videovigilancia/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$100.630",
-        "Tarjetas de Crédito / Débito": "$106.165"
+        "Transferencia / Efectivo": "$101.520",
+        "Tarjetas de Crédito / Débito": "$107.104"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,7 +68,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 100630
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 101520
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

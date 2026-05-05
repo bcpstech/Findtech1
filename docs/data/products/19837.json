@@ -21,7 +21,7 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:45",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 19837,
@@ -46,15 +46,15 @@
       "product_id": 31879,
       "store_id": "winpy",
       "price": 997120,
-      "price_card": 1027034,
+      "price_card": 1049967,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5070-wow-midnight-light-edition-oc-de-12gb-gddr7/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$997.120",
-        "Tarjeta crédito/débito": "$1.027.034"
+        "Transferencia o Depósito": "$997.120",
+        "Otros medios de pago": "$1.049.967"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -118,7 +118,13 @@
       "store_name": "MyShop",
       "date": "2026-05-04",
       "price": 994990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-05",
+      "price": 994990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

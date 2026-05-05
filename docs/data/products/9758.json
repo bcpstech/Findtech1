@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:06",
-  "updated_at": "2026-05-05 12:26:04",
+  "updated_at": "2026-05-05 21:57:47",
   "prices": [
     {
       "product_id": 9758,
@@ -34,6 +34,25 @@
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 38991,
+      "store_id": "mybox",
+      "price": 140971,
+      "price_card": 145200,
+      "price_normal": 148390,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/gabinetes/6066-gabinete-antec-c7-argb-black.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$140.971",
+        "Tarjeta crédito/débito": "$145.200"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -66,7 +85,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 124995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 124995
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

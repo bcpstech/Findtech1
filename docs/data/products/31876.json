@@ -13,12 +13,15 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$817.760",
-    "Tarjeta crédito/débito": "$861.101"
+    "Efectivo / Transferencia": "$824.990",
+    "Tarjeta crédito/débito": "$870.364",
+    "Garantía": "6 meses",
+    "SKU": "37385",
+    "Part Number": "912-V532-019"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:44",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 31876,
@@ -38,6 +41,44 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 19835,
+      "store_id": "myshop",
+      "price": 824990,
+      "price_card": 849740,
+      "price_normal": 870364,
+      "discount_pct": 14,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/geforce-rtx-5070-12g-gaming-trio-oc-p37385",
+      "store_name": "MyShop",
+      "price_specs": {
+        "Efectivo/Transferencia": "$824.990",
+        "Tarjeta crédito/débito": "$849.740"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 1199,
+      "store_id": "centrale",
+      "price": 870490,
+      "price_card": 918367,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5070-12gb-gddr7-gaming-trio-oc-pcie-gen-5-250w/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$870.490",
+        "Tarjetas de Crédito / Débito": "$918.367"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [

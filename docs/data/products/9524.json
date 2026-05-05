@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:00",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1562,
@@ -41,16 +41,16 @@
     {
       "product_id": 9524,
       "store_id": "spdigital",
-      "price": 443464,
-      "price_card": 463420,
-      "price_normal": null,
+      "price": 447349,
+      "price_card": 467480,
+      "price_normal": 447350,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ssd-xpg-gammix-s70-blade-nvme-1tb-pci-express-40-m2",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$443.464",
-        "Webpay / Tarjeta": "$463.420"
+        "Transferencia / Efectivo": "$447.349",
+        "Webpay / Tarjeta": "$467.480"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -88,7 +88,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 443464
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 447349
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

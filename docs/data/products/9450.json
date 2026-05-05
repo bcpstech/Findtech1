@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:21",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1342,
@@ -57,6 +57,25 @@
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 38890,
+      "store_id": "mybox",
+      "price": 179390,
+      "price_card": 184772,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/5790-placa-madre-gigabyte-b840m-eagle-wifi6-4719331868970.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$179.390",
+        "Tarjeta crédito/débito": "$184.772"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -89,7 +108,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 139995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 139995
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

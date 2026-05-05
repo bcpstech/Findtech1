@@ -20,7 +20,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 16:05:48",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 123,
@@ -66,7 +66,13 @@
       "store_name": "Alltec",
       "date": "2026-05-04",
       "price": 344500
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-05-05",
+      "price": 344500
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

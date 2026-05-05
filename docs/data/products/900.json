@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:23:18",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 900,
@@ -38,6 +38,25 @@
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 38848,
+      "store_id": "mybox",
+      "price": 263290,
+      "price_card": 271189,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/tarjeta-de-video/6112-tarjeta-de-video-msi-rtx-3050-ventus-2x-6g-oc.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$263.290",
+        "Tarjeta crédito/débito": "$271.189"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -64,7 +83,13 @@
       "store_name": "Alltec",
       "date": "2026-05-04",
       "price": 219900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-05-05",
+      "price": 219900
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

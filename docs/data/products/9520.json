@@ -11,26 +11,26 @@
     "Capacidad": "1 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Efectivo/Transferencia": "$175.589",
-    "Tarjeta crédito/débito": "$183.490"
+    "Efectivo/Transferencia": "$199.990",
+    "Tarjeta crédito/débito": "$208.990"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:58",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 9520,
       "store_id": "spdigital",
-      "price": 174067,
-      "price_card": 181900,
-      "price_normal": 174070,
+      "price": 199990,
+      "price_card": 208990,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ssd-e100-1tb-pcie-gen4-2280-nvme-m2",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$174.067",
-        "Webpay / Tarjeta": "$181.900"
+        "Transferencia / Efectivo": "$199.990",
+        "Webpay / Tarjeta": "$208.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,7 +68,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 174067
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 199990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:30",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 2601,
@@ -43,16 +43,16 @@
     {
       "product_id": 9583,
       "store_id": "spdigital",
-      "price": 477256,
-      "price_card": 498733,
-      "price_normal": 589350,
+      "price": 481448,
+      "price_card": 503113,
+      "price_normal": 594520,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/zotac-gaming-geforce-rtx-5060-twin-edge",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$477.256",
-        "Webpay / Tarjeta": "$498.733"
+        "Transferencia / Efectivo": "$481.448",
+        "Webpay / Tarjeta": "$503.113"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,16 +62,16 @@
     {
       "product_id": 31859,
       "store_id": "winpy",
-      "price": 484576,
-      "price_card": 499113,
+      "price": 488832,
+      "price_card": 514740,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-zotac-geforce-rtx-5060-twin-edge-oc-de-8gb-gddr7/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$484.576",
-        "Tarjeta crédito/débito": "$499.113"
+        "Transferencia o Depósito": "$488.832",
+        "Otros medios de pago": "$514.740"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -81,16 +81,16 @@
     {
       "product_id": 1237,
       "store_id": "centrale",
-      "price": 485340,
-      "price_card": 512034,
+      "price": 489620,
+      "price_card": 516549,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-nvidia-geforce-rtx-5060-twin-edge-oc-8gb-gddr7/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$485.340",
-        "Tarjetas de Crédito / Débito": "$512.034"
+        "Transferencia / Efectivo": "$489.620",
+        "Tarjetas de Crédito / Débito": "$516.549"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -128,7 +128,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 477256
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 481448
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:44",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 9490,
@@ -42,16 +42,16 @@
     {
       "product_id": 1490,
       "store_id": "centrale",
-      "price": 204230,
-      "price_card": 215463,
+      "price": 206010,
+      "price_card": 217341,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr4-3200mt-s-cl22-kingston-16gbit-dimm/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$204.230",
-        "Tarjetas de Crédito / Débito": "$215.463"
+        "Transferencia / Efectivo": "$206.010",
+        "Tarjetas de Crédito / Débito": "$217.341"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -89,7 +89,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 124995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 124995
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

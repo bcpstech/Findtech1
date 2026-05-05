@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:51:51",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 33514,
@@ -41,16 +41,16 @@
     {
       "product_id": 9543,
       "store_id": "spdigital",
-      "price": 434619,
-      "price_card": 454177,
-      "price_normal": 536770,
+      "price": 438432,
+      "price_card": 458161,
+      "price_normal": 541470,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/crucial-p3-4000gb-3d-nand-nvme-pcie-m-2",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$434.619",
-        "Webpay / Tarjeta": "$454.177"
+        "Transferencia / Efectivo": "$438.432",
+        "Webpay / Tarjeta": "$458.161"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -83,7 +83,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-05-04",
       "price": 99900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-05-05",
+      "price": 99900
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

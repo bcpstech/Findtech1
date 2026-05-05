@@ -8,26 +8,26 @@
   "image_url": "https://centrale.cl/wp-content/uploads/RefrigeraciC3B3n-LC3ADquida-CPU-Cooler-Master-Master-Liquid-PL240-Flux_OQaNBSD.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$172.470",
-    "Tarjeta crédito/débito": "$181.960"
+    "Transferencia / Efectivo": "$171.730",
+    "Tarjeta crédito/débito": "$181.180"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:45",
-  "updated_at": "2026-05-05 12:54:21",
+  "updated_at": "2026-05-05 22:26:39",
   "prices": [
     {
       "product_id": 1642,
       "store_id": "centrale",
-      "price": 170220,
-      "price_card": 179582,
+      "price": 171730,
+      "price_card": 181175,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-cpu-cooler-master-master-liquid-pl240-flux/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$170.220",
-        "Tarjetas de Crédito / Débito": "$179.582"
+        "Transferencia / Efectivo": "$171.730",
+        "Tarjetas de Crédito / Débito": "$181.175"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,16 +37,16 @@
     {
       "product_id": 9652,
       "store_id": "spdigital",
-      "price": 172651,
-      "price_card": 180420,
+      "price": 174172,
+      "price_card": 182010,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/pl240-flux",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$172.651",
-        "Webpay / Tarjeta": "$180.420"
+        "Transferencia / Efectivo": "$174.172",
+        "Webpay / Tarjeta": "$182.010"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -84,7 +84,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 170220
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 171730
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

@@ -8,15 +8,15 @@
   "image_url": "https://images.findtech.cl/products/procesador-intel-core-ultra-7-265-lga1851-8-p-cores-12-e-cores-3-0-5-5ghz-30mb-cache.jpg",
   "description": null,
   "specs": {
-    "Frecuencia base": "5.5 GHz",
+    "Frecuencia base": "5.3 GHz",
+    "Frecuencia turbo": "5.3 GHz",
     "Caché L3": "30 MB",
-    "Socket": "LGA1851",
-    "Efectivo / Transferencia": "$419.520",
-    "Tarjeta crédito/débito": "$441.755"
+    "Transferencia / Efectivo": "$439.280",
+    "Tarjeta crédito/débito": "$463.440"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:05",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 31915,
@@ -36,6 +36,25 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 330,
+      "store_id": "centrale",
+      "price": 439280,
+      "price_card": 463440,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$439.280",
+        "Tarjetas de Crédito / Débito": "$463.440"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [

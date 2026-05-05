@@ -25,7 +25,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:52",
-  "updated_at": "2026-05-05 12:22:59",
+  "updated_at": "2026-05-05 21:55:01",
   "prices": [
     {
       "product_id": 1976,
@@ -69,15 +69,15 @@
       "product_id": 31908,
       "store_id": "winpy",
       "price": 359936,
-      "price_card": 370734,
+      "price_card": 379013,
       "price_normal": null,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-7-9700x-am5-8-cores-16-hilos-3-8-5-5ghz-32mb-cache-unlocked/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$359.936",
-        "Tarjeta crédito/débito": "$370.734"
+        "Transferencia o Depósito": "$359.936",
+        "Otros medios de pago": "$379.013"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -102,6 +102,25 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 1138,
+      "store_id": "cg",
+      "price": 375990,
+      "price_card": 395767,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-7-9700x/",
+      "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$375.990",
+        "Webpay / Tarjeta": "$395.767"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     },
     {
       "product_id": 2815,
@@ -142,25 +161,6 @@
       "full_url": "https://www.spdigital.cl"
     },
     {
-      "product_id": 1138,
-      "store_id": "cg",
-      "price": 399024,
-      "price_card": 420013,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-7-9700x-2/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$399.024",
-        "Webpay / Tarjeta": "$420.013"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
-    },
-    {
       "product_id": 2630,
       "store_id": "trulustore",
       "price": 419990,
@@ -180,6 +180,25 @@
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 38837,
+      "store_id": "mybox",
+      "price": 425306,
+      "price_card": 438065,
+      "price_normal": 447690,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/procesador/5571-procesador-amd-ryzen-7-9700x.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$425.306",
+        "Tarjeta crédito/débito": "$438.065"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -212,7 +231,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 389995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 389995
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

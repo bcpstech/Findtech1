@@ -21,7 +21,7 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:17:03",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 19858,
@@ -43,6 +43,25 @@
       "full_url": "https://www.myshop.cl"
     },
     {
+      "product_id": 31874,
+      "store_id": "winpy",
+      "price": 796480,
+      "price_card": 838693,
+      "price_normal": null,
+      "discount_pct": 17,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-prime-radeon-rx-9070-xt-oc-de-16gb-gddr6/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Transferencia o Depósito": "$796.480",
+        "Otros medios de pago": "$838.693"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
       "product_id": 496,
       "store_id": "n1g",
       "price": 799900,
@@ -60,25 +79,6 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
-    },
-    {
-      "product_id": 31874,
-      "store_id": "winpy",
-      "price": 806816,
-      "price_card": 831020,
-      "price_normal": null,
-      "discount_pct": 16,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-prime-radeon-rx-9070-xt-oc-de-16gb-gddr6/",
-      "store_name": "Winpy",
-      "price_specs": {
-        "Efectivo/Transferencia": "$806.816",
-        "Tarjeta crédito/débito": "$831.020"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
     },
     {
       "product_id": 1230,
@@ -100,18 +100,18 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 9595,
+      "product_id": 9590,
       "store_id": "spdigital",
-      "price": 849406,
-      "price_card": 887629,
-      "price_normal": 999310,
-      "discount_pct": 15,
+      "price": 849995,
+      "price_card": 888245,
+      "price_normal": 1299990,
+      "discount_pct": 35,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/prime-rx9070xt-o16g",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-prime-radeon-rx-9070-xt-oc-edition-16gb-gddr6-256-bit-pci-e-50",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$849.406",
-        "Webpay / Tarjeta": "$887.629"
+        "Transferencia / Efectivo": "$849.995",
+        "Webpay / Tarjeta": "$888.245"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -158,7 +158,13 @@
       "store_name": "MyShop",
       "date": "2026-05-04",
       "price": 795990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-05",
+      "price": 795990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

@@ -13,21 +13,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:01",
-  "updated_at": "2026-05-05 12:24:51",
+  "updated_at": "2026-05-05 21:56:52",
   "prices": [
     {
       "product_id": 9634,
       "store_id": "spdigital",
-      "price": 380389,
-      "price_card": 397507,
-      "price_normal": 469790,
+      "price": 383728,
+      "price_card": 400996,
+      "price_normal": 473910,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/rog-ryujin-iii-360-argb-extreme",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$380.389",
-        "Webpay / Tarjeta": "$397.507"
+        "Transferencia / Efectivo": "$383.728",
+        "Webpay / Tarjeta": "$400.996"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -84,7 +84,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 380389
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 383728
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

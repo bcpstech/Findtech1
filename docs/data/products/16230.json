@@ -24,7 +24,7 @@
   },
   "tags": [],
   "created_at": "2026-05-01 00:27:15",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1924,
@@ -67,16 +67,16 @@
     {
       "product_id": 329,
       "store_id": "centrale",
-      "price": 740030,
-      "price_card": 780732,
+      "price": 747370,
+      "price_card": 788475,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900-24-core-3-2-5-8ghz-lga1700-36mb-cache/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$740.030",
-        "Tarjetas de Crédito / Débito": "$780.732"
+        "Transferencia / Efectivo": "$747.370",
+        "Tarjetas de Crédito / Débito": "$788.475"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -121,7 +121,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 799995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 799995
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:07",
-  "updated_at": "2026-05-05 12:24:55",
+  "updated_at": "2026-05-05 21:56:57",
   "prices": [
     {
       "product_id": 9647,
@@ -37,16 +37,16 @@
     {
       "product_id": 1605,
       "store_id": "centrale",
-      "price": 75360,
-      "price_card": 79505,
+      "price": 76020,
+      "price_card": 80201,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/cooler-master-refrigeracion-liquida-masterliquid-360l-core-ii-argb-360mm/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$75.360",
-        "Tarjetas de Crédito / Débito": "$79.505"
+        "Transferencia / Efectivo": "$76.020",
+        "Tarjetas de Crédito / Débito": "$80.201"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -84,7 +84,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 74995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 74995
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

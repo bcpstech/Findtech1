@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1594,
@@ -41,16 +41,16 @@
     {
       "product_id": 4196,
       "store_id": "cg",
-      "price": 341995,
-      "price_card": 359984,
+      "price": 345107,
+      "price_card": 363260,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/almacenamiento/disco-ssd-kingston-kc3000-2tb-m-2-nvme-pcie-7000-7000mb-s/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$341.995",
-        "Webpay / Tarjeta": "$359.984"
+        "Efectivo/Transferencia": "$345.107",
+        "Webpay / Tarjeta": "$363.260"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -88,7 +88,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 129470
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 129470
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

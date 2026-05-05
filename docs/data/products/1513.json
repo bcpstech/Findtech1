@@ -11,26 +11,26 @@
     "Capacidad": "24 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$979.870",
-    "Tarjeta crédito/débito": "$1.033.760"
+    "Transferencia / Efectivo": "$975.610",
+    "Tarjeta crédito/débito": "$1.029.270"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1513,
       "store_id": "centrale",
-      "price": 967080,
-      "price_card": 1020269,
+      "price": 975610,
+      "price_card": 1029269,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-seagate-skyhawk-ai-24tb-7200rpm-3-5-sata/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$967.080",
-        "Tarjetas de Crédito / Débito": "$1.020.269"
+        "Transferencia / Efectivo": "$975.610",
+        "Tarjetas de Crédito / Débito": "$1.029.269"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -56,7 +56,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 967080
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 975610
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

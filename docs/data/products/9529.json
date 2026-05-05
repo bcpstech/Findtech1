@@ -18,19 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:02",
-  "updated_at": "2026-05-03 05:12:06",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
-      "product_id": 1602,
+      "product_id": 1604,
       "store_id": "centrale",
-      "price": 1901,
+      "price": 86250,
+      "price_card": 90994,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-960gb-kingston-a400-2-5%e2%80%b3-sata3/",
+      "product_url": "https://centrale.cl/producto/disco-ssd-480gb-kingston-a400-sata3-2-5%e2%80%b3/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.901"
+        "Transferencia / Efectivo": "$86.250",
+        "Tarjetas de Crédito / Débito": "$90.994"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,33 +40,36 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 24428,
-      "store_id": "dust2",
-      "price": 67990,
+      "product_id": 32003,
+      "store_id": "winpy",
+      "price": 87552,
+      "price_card": 92192,
       "price_normal": null,
-      "discount_pct": null,
+      "discount_pct": 24,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/open-box-disco-duro-ssd-kingston-a400-240gb-sata3-2-5-500mb-s-negro/",
-      "store_name": "Dust2",
+      "product_url": "https://www.winpy.cl/venta/disco-estado-solido-kingston-a400-de-240gb-ssd-sata/",
+      "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$67.990"
+        "Transferencia o Depósito": "$87.552",
+        "Otros medios de pago": "$92.192"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     },
     {
       "product_id": 16328,
       "store_id": "spdigital",
-      "price": 124990,
-      "price_normal": 130610,
-      "discount_pct": 4,
+      "price": 124986,
+      "price_card": 130610,
+      "price_normal": 124990,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/unidad-ssd-kingston-ssdnow-a400-480gb-25-lectura-500mbs-escritura-450mbs",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$124.990",
+        "Transferencia / Efectivo": "$124.986",
         "Webpay / Tarjeta": "$130.610"
       },
       "store_rating": 0,
@@ -97,7 +102,19 @@
       "store_name": "SP Digital",
       "date": "2026-05-03",
       "price": 189990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-04",
+      "price": 189990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 189990
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-05-05"
 }

@@ -18,27 +18,8 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:18",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
-    {
-      "product_id": 1401,
-      "store_id": "centrale",
-      "price": 779570,
-      "price_card": 822446,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-crosshair-x870e-hero-socket-amd-am5-ddr5-wifi-7/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$779.570",
-        "Tarjetas de Crédito / Débito": "$822.446"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
     {
       "product_id": 9444,
       "store_id": "spdigital",
@@ -76,6 +57,44 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 1401,
+      "store_id": "centrale",
+      "price": 880420,
+      "price_card": 928843,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-crosshair-x870e-hero-socket-amd-am5-ddr5-wifi-7/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$880.420",
+        "Tarjetas de Crédito / Débito": "$928.843"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 38894,
+      "store_id": "mybox",
+      "price": 926240,
+      "price_card": 954027,
+      "price_normal": 949990,
+      "discount_pct": 3,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/5719-placa-madre-asus-rog-x870e-crosshair-hero--4711387710302.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$926.240",
+        "Tarjeta crédito/débito": "$954.027"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -108,7 +127,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 799995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 799995
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

@@ -8,15 +8,16 @@
   "image_url": "https://images.findtech.cl/products/placa-madre-gigabyte-h610m-k-ddr4-lga1700-ddr4-2133-3200mhz-m-2-micro-atx.jpg",
   "description": null,
   "specs": {
-    "Socket": "LGA1700",
-    "Factor de forma": "Micro-ATX",
+    "Socket": "LGA 1700",
+    "Factor de forma": "micro ATX",
     "Memoria": "DDR4",
-    "Efectivo / Transferencia": "$69.312",
-    "Tarjeta crédito/débito": "$72.986"
+    "Chipset": "Intel H610 Express",
+    "Efectivo/Transferencia": "$74.995",
+    "Tarjeta crédito/débito": "$78.370"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:26",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 31924,
@@ -36,6 +37,63 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1411,
+      "store_id": "centrale",
+      "price": 74550,
+      "price_card": 78650,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-gigabyte-h610m-k-ddr4-intel-lga1700-ddr4-hdmi/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$74.550",
+        "Tarjetas de Crédito / Débito": "$78.650"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9469,
+      "store_id": "spdigital",
+      "price": 74995,
+      "price_card": 78370,
+      "price_normal": 119990,
+      "discount_pct": 37,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/mb-h610m-k-ddr4-mb-h610m-k-ddr4",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$74.995",
+        "Webpay / Tarjeta": "$78.370"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 38906,
+      "store_id": "mybox",
+      "price": 88137,
+      "price_card": 90781,
+      "price_normal": 103690,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/5360-placa-madre-gigabyte-h610m-k-ddr4-4719331851675.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$88.137",
+        "Tarjeta crédito/débito": "$90.781"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [

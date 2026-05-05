@@ -11,12 +11,12 @@
     "Capacidad": "1 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Efectivo / Transferencia": "$114.912",
-    "Tarjeta crédito/débito": "$121.002"
+    "Transferencia / Efectivo": "$134.200",
+    "Tarjeta crédito/débito": "$141.580"
   },
   "tags": [],
   "created_at": "2026-05-04 01:25:27",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 32011,
@@ -36,6 +36,25 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1566,
+      "store_id": "centrale",
+      "price": 134200,
+      "price_card": 141581,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/ssd-crucial-e100-1tb-nvme-pcie-4-0-m-2-2280-hasta-5000-mb-s/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$134.200",
+        "Tarjetas de Crédito / Débito": "$141.581"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [

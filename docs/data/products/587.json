@@ -16,12 +16,13 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:12:30",
-  "updated_at": "2026-05-01 13:20:38",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 587,
       "store_id": "n1g",
       "price": 104900,
+      "price_card": 110460,
       "price_normal": 110421,
       "discount_pct": 5,
       "stock": "in_stock",
@@ -29,12 +30,31 @@
       "store_name": "N1G",
       "price_specs": {
         "Efectivo/Transferencia": "$104.900",
-        "Tarjeta crédito/débito": "$110.421"
+        "Tarjeta crédito/débito": "$110.460"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 1397,
+      "store_id": "centrale",
+      "price": 107630,
+      "price_card": 113550,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-msi-b550m-pro-vdh-wifi-socket-amd-am4-pcie-4-0-wifi-5/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$107.630",
+        "Tarjetas de Crédito / Débito": "$113.550"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -67,7 +87,25 @@
       "store_name": "N1G",
       "date": "2026-05-01",
       "price": 104900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-05-03",
+      "price": 104900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-05-04",
+      "price": 104900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-05-05",
+      "price": 104900
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-05-05"
 }

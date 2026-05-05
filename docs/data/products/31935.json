@@ -8,15 +8,16 @@
   "image_url": "https://images.findtech.cl/products/placa-madre-msi-pro-b760m-p-lga1700-ddr4-2133-4800-mhz-m-2-x2-microatx.jpg",
   "description": null,
   "specs": {
-    "Socket": "LGA1700",
-    "Factor de forma": "Micro-ATX",
+    "Socket": "LGA 1700",
+    "Factor de forma": "micro ATX",
     "Memoria": "DDR4",
-    "Efectivo / Transferencia": "$97.280",
-    "Tarjeta crédito/débito": "$102.436"
+    "Chipset": "Intel B760",
+    "Efectivo/Transferencia": "$109.995",
+    "Tarjeta crédito/débito": "$114.945"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:48",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 31935,
@@ -36,6 +37,44 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1359,
+      "store_id": "centrale",
+      "price": 103930,
+      "price_card": 109646,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-msi-pro-b760m-p-ddr4-socket-intel-lga-1700/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$103.930",
+        "Tarjetas de Crédito / Débito": "$109.646"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9473,
+      "store_id": "spdigital",
+      "price": 109995,
+      "price_card": 114945,
+      "price_normal": 219990,
+      "discount_pct": 50,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/msi-pro-b760m-p-ddr4-motherboard",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$109.995",
+        "Webpay / Tarjeta": "$114.945"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [

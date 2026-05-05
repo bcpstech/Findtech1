@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:49:55",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 33393,
@@ -61,16 +61,16 @@
     {
       "product_id": 9504,
       "store_id": "spdigital",
-      "price": 306103,
-      "price_card": 319878,
-      "price_normal": 377960,
+      "price": 308792,
+      "price_card": 322688,
+      "price_normal": 381270,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/memoria-ram-ddr5-16gb-6000mhz-dimm-288-pines-xpg-lancer-blade-cl48-11v-14v-negra",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$306.103",
-        "Webpay / Tarjeta": "$319.878"
+        "Transferencia / Efectivo": "$308.792",
+        "Webpay / Tarjeta": "$322.688"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -84,7 +84,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-05-04",
       "price": 229900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-05-05",
+      "price": 229900
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

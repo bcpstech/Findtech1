@@ -9,15 +9,15 @@
   "description": null,
   "specs": {
     "Frecuencia base": "5.3 GHz",
+    "Frecuencia turbo": "5.3 GHz",
     "Socket": "LGA1700",
-    "Generación": "Intel 13ª Gen (Raptor Lake)",
-    "Gráficos integrados": "No",
-    "Efectivo / Transferencia": "$269.952",
-    "Tarjeta crédito/débito": "$284.259"
+    "Marca": "Intel",
+    "Efectivo / Transferencia": "$274.990",
+    "Tarjeta crédito/débito": "$283.240"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:31",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 31898,
@@ -37,6 +37,44 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1926,
+      "store_id": "dust2",
+      "price": 274990,
+      "price_card": 283240,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/procesador-intel-core-i5-14600kf-hasta-5-3ghz-lga1700/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$274.990",
+        "Tarjeta crédito/débito": "$283.240"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 306,
+      "store_id": "centrale",
+      "price": 276330,
+      "price_card": 291528,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-14600kf-raptor-lake-s-lga1700-14-cores-20-hilos/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$276.330",
+        "Tarjetas de Crédito / Débito": "$291.528"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [

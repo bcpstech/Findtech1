@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:19:46",
-  "updated_at": "2026-05-05 12:33:41",
+  "updated_at": "2026-05-05 22:06:14",
   "prices": [
     {
       "product_id": 19891,
@@ -57,6 +57,25 @@
       "full_url": "https://www.spdigital.cl"
     },
     {
+      "product_id": 47844,
+      "store_id": "dust2",
+      "price": 72990,
+      "price_card": 75180,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/gabinete-cougar-fv150-rgb-atx-white/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$72.990",
+        "Tarjeta crédito/débito": "$75.180"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
       "product_id": 1722,
       "store_id": "centrale",
       "price": 82060,
@@ -94,7 +113,13 @@
       "store_name": "MyShop",
       "date": "2026-05-04",
       "price": 34990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-05",
+      "price": 34990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

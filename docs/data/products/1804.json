@@ -19,7 +19,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:30",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1804,
@@ -39,25 +39,6 @@
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 9564,
-      "store_id": "spdigital",
-      "price": 2299995,
-      "price_card": 2403495,
-      "price_normal": 2919990,
-      "discount_pct": 21,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-rog-astral-geforce-rtx-5080-oc-16gb-gddr7-256-bit-pcie-50",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$2.299.995",
-        "Webpay / Tarjeta": "$2.403.495"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -90,7 +71,13 @@
       "store_name": "Dust2",
       "date": "2026-05-04",
       "price": 2151990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-05",
+      "price": 2151990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:31",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 9586,
       "store_id": "spdigital",
-      "price": 104907,
-      "price_card": 109628,
-      "price_normal": 114600,
+      "price": 105827,
+      "price_card": 110589,
+      "price_normal": 115600,
       "discount_pct": 8,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-geforce-gt730-4gb-ddr3-pcie-20-x16-perfil-bajo-dvi",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$104.907",
-        "Webpay / Tarjeta": "$109.628"
+        "Transferencia / Efectivo": "$105.827",
+        "Webpay / Tarjeta": "$110.589"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 1204,
       "store_id": "centrale",
-      "price": 108280,
-      "price_card": 114235,
+      "price": 109230,
+      "price_card": 115238,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/zotac-tarjeta-de-video-geforce-gt-730-4-gb-ddr3-pcie-2-0-x16-perfil-bajo-dvi/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$108.280",
-        "Tarjetas de Crédito / Débito": "$114.235"
+        "Transferencia / Efectivo": "$109.230",
+        "Tarjetas de Crédito / Débito": "$115.238"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -88,7 +88,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 104907
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 105827
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

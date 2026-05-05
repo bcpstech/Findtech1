@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:14",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 9436,
@@ -40,25 +40,6 @@
       "full_url": "https://www.spdigital.cl"
     },
     {
-      "product_id": 31939,
-      "store_id": "winpy",
-      "price": 103968,
-      "price_card": 107087,
-      "price_normal": null,
-      "discount_pct": 26,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b550m-a-ac-am4-ddr4-2133-4600-mhz-microatx/",
-      "store_name": "Winpy",
-      "price_specs": {
-        "Efectivo/Transferencia": "$103.968",
-        "Tarjeta crédito/débito": "$107.087"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
-    {
       "product_id": 1366,
       "store_id": "centrale",
       "price": 104590,
@@ -76,6 +57,25 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 31939,
+      "store_id": "winpy",
+      "price": 105792,
+      "price_card": 111399,
+      "price_normal": null,
+      "discount_pct": 24,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b550m-a-ac-am4-ddr4-2133-4600-mhz-microatx/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Transferencia o Depósito": "$105.792",
+        "Otros medios de pago": "$111.399"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     },
     {
       "product_id": 33119,
@@ -167,7 +167,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 82995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 82995
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

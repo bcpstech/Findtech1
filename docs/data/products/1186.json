@@ -16,21 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:36:23",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1186,
       "store_id": "cg",
-      "price": 529333,
-      "price_card": 557176,
+      "price": 534149,
+      "price_card": 562245,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/almacenamiento/kingston-dc600m-ssd-mixed-use-960-gb-interno-2-5-sata-6gb-s/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$529.333",
-        "Webpay / Tarjeta": "$557.176"
+        "Efectivo/Transferencia": "$534.149",
+        "Webpay / Tarjeta": "$562.245"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -80,7 +80,13 @@
       "store_name": "CentralGamer",
       "date": "2026-05-04",
       "price": 529333
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-05-05",
+      "price": 534149
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

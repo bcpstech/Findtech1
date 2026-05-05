@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:12",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1409,
       "store_id": "centrale",
-      "price": 131430,
-      "price_card": 138659,
+      "price": 132580,
+      "price_card": 139872,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b550-gaming-x-v2-socket-amd-am4-ddr4-pcie-4-0/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$131.430",
-        "Tarjetas de Crédito / Débito": "$138.659"
+        "Transferencia / Efectivo": "$132.580",
+        "Tarjetas de Crédito / Débito": "$139.872"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -88,7 +88,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 134990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 134990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

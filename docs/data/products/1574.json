@@ -17,19 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1574,
       "store_id": "centrale",
       "price": 181570,
-      "price_normal": null,
-      "discount_pct": null,
+      "price_card": 191556,
+      "price_normal": 210910,
+      "discount_pct": 14,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-1tb-crucial-p310-m-2-2230-pcie-4-0-x4-lectura-7100mb-s/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$181.570"
+        "Transferencia / Efectivo": "$181.570",
+        "Tarjetas de Crédito / Débito": "$191.556"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,33 +39,18 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 32035,
-      "store_id": "winpy",
-      "price": 195168,
-      "price_normal": null,
-      "discount_pct": 3,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/disco-ssd-crucial-bx500-de-2tb-3d-nand-sata-540-500-mb-s/",
-      "store_name": "Winpy",
-      "price_specs": {
-        "Efectivo/Transferencia": "$195.168"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
-    {
       "product_id": 9542,
       "store_id": "spdigital",
-      "price": 423930,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 346265,
+      "price_card": 361847,
+      "price_normal": 427640,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/unidad-ssd-crucial-p310-2tb-m2-2230-pcie-40-x4-lectura-7100mbs-escritura-6000mbs",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$423.930"
+        "Transferencia / Efectivo": "$346.265",
+        "Webpay / Tarjeta": "$361.847"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -101,7 +88,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 181570
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 181570
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

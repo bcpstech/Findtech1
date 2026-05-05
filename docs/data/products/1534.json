@@ -11,26 +11,26 @@
     "Capacidad": "4 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$154.900",
-    "Tarjeta crédito/débito": "$163.420"
+    "Transferencia / Efectivo": "$154.230",
+    "Tarjeta crédito/débito": "$162.710"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1534,
       "store_id": "centrale",
-      "price": 152890,
-      "price_card": 161299,
+      "price": 154230,
+      "price_card": 162713,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/hdd-western-digital-purple-4tb-3-5-sata-5400rpm-vigilancia-24-7/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$152.890",
-        "Tarjetas de Crédito / Débito": "$161.299"
+        "Transferencia / Efectivo": "$154.230",
+        "Tarjetas de Crédito / Débito": "$162.713"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,7 +68,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 152890
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 154230
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Capacidad": "8 TB",
-    "Transferencia / Efectivo": "$303.920",
-    "Tarjeta crédito/débito": "$320.640"
+    "Transferencia / Efectivo": "$302.600",
+    "Tarjeta crédito/débito": "$319.240"
   },
   "tags": [],
   "created_at": "2026-05-01 14:17:19",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 21586,
       "store_id": "centrale",
-      "price": 299960,
-      "price_card": 316458,
+      "price": 302600,
+      "price_card": 319243,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-hdd-western-digital-red-plus-nas-8tb-5640-rpm-256mb-cache/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$299.960",
-        "Tarjetas de Crédito / Débito": "$316.458"
+        "Transferencia / Efectivo": "$302.600",
+        "Tarjetas de Crédito / Débito": "$319.243"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -54,7 +54,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 299960
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 302600
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

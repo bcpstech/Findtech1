@@ -8,14 +8,21 @@
   "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-9-7900x-am5-12-cores-24-hilos-4-7-5-6ghz-64mb-de-cache.jpg",
   "description": null,
   "specs": {
-    "Frecuencia base": "5.6 GHz",
+    "Familia": "AMD Ryzen™ 9",
+    "Núcleos": "12",
     "Socket": "AM5",
-    "Efectivo / Transferencia": "$409.792",
-    "Tarjeta crédito/débito": "$431.511"
+    "Frecuencia base": "4,7 GHz",
+    "Hilos": "24",
+    "Frecuencia turbo": "5,6 GHz",
+    "Caché L3": "64 MB",
+    "TDP": "170 W",
+    "Gráficos integrados": "AMD Radeon Graphics",
+    "Efectivo/Transferencia": "$799.990",
+    "Tarjeta crédito/débito": "$835.990"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:01",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 31913,
@@ -35,6 +42,44 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 289,
+      "store_id": "centrale",
+      "price": 425170,
+      "price_card": 448554,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-7900x-4-7ghz-12-nucleos-24-hilos-socket-am5/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$425.170",
+        "Tarjetas de Crédito / Débito": "$448.554"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9414,
+      "store_id": "spdigital",
+      "price": 799990,
+      "price_card": 835990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/ryzen-9-am5-7900x",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$799.990",
+        "Webpay / Tarjeta": "$835.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [

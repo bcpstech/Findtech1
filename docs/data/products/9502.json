@@ -18,21 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:49",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 9502,
       "store_id": "spdigital",
-      "price": 355052,
-      "price_card": 371029,
-      "price_normal": 438500,
+      "price": 358167,
+      "price_card": 374285,
+      "price_normal": 442350,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/memoria-ram-ddr5-16gb-5600mhz-dimm-adata-premier-cl46-11v",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$355.052",
-        "Webpay / Tarjeta": "$371.029"
+        "Transferencia / Efectivo": "$358.167",
+        "Webpay / Tarjeta": "$374.285"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -70,7 +70,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 355052
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 358167
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

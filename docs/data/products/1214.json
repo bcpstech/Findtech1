@@ -18,21 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1214,
       "store_id": "centrale",
-      "price": 774910,
-      "price_card": 817530,
-      "price_normal": 891500,
-      "discount_pct": 13,
+      "price": 824320,
+      "price_card": 869658,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5070-12g-shadow-2x-oc/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$774.910",
-        "Tarjetas de Crédito / Débito": "$817.530"
+        "Transferencia / Efectivo": "$824.320",
+        "Tarjetas de Crédito / Débito": "$869.658"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -70,7 +70,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 774910
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 824320
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

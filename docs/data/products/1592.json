@@ -10,26 +10,26 @@
   "specs": {
     "Capacidad": "4 TB",
     "Interfaz": "NVMe PCIe",
-    "Transferencia / Efectivo": "$668.790",
-    "Tarjeta crédito/débito": "$705.570"
+    "Transferencia / Efectivo": "$665.880",
+    "Tarjeta crédito/débito": "$702.500"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1592,
       "store_id": "centrale",
-      "price": 403390,
-      "price_card": 425576,
+      "price": 406940,
+      "price_card": 429322,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-2tb-kingston-fury-renegade-pcie-4-0-nvme-con-disipador-ps5-compatible/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$403.390",
-        "Tarjetas de Crédito / Débito": "$425.576"
+        "Transferencia / Efectivo": "$406.940",
+        "Tarjetas de Crédito / Débito": "$429.322"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -67,7 +67,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 403390
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 406940
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

@@ -9,14 +9,15 @@
   "description": null,
   "specs": {
     "Socket": "AM5",
-    "Factor de forma": "Micro-ATX",
+    "Factor de forma": "micro ATX",
     "Memoria": "DDR5",
-    "Efectivo / Transferencia": "$79.040",
-    "Tarjeta crédito/débito": "$83.229"
+    "Chipset": "AMD A620",
+    "Efectivo/Transferencia": "$87.221",
+    "Tarjeta crédito/débito": "$91.146"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:36",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 31929,
@@ -36,6 +37,120 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1340,
+      "store_id": "centrale",
+      "price": 86750,
+      "price_card": 91521,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-a620m-k-micro-atx-am5-ddr5-pcie-4-0/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$86.750",
+        "Tarjetas de Crédito / Débito": "$91.521"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9439,
+      "store_id": "spdigital",
+      "price": 87221,
+      "price_card": 91146,
+      "price_normal": 102510,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/mb-sam5-prime-a620m-k-ddr5-matxm2hdmivgausb30-asus",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$87.221",
+        "Webpay / Tarjeta": "$91.146"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 33090,
+      "store_id": "infor-ingen",
+      "price": 89900,
+      "price_card": 92597,
+      "price_normal": 95294,
+      "discount_pct": 6,
+      "stock": "in_stock",
+      "product_url": "https://store.infor-ingen.com/producto/m-b-asus-prime-a620m-k/",
+      "store_name": "Infor-Ingen",
+      "price_specs": {
+        "Efectivo/Transferencia": "$89.900",
+        "Tarjeta crédito/débito": "$92.597"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
+    },
+    {
+      "product_id": 23520,
+      "store_id": "alltec",
+      "price": 90900,
+      "price_card": 93627,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/para-amd/2461-mb-asus-prime-a620m-k-am5-ddr5-ryzen-700080009000.html",
+      "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$90.900",
+        "Tarjeta crédito/débito": "$93.627"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 38901,
+      "store_id": "mybox",
+      "price": 94141,
+      "price_card": 96965,
+      "price_normal": 107590,
+      "discount_pct": 13,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/5523-placa-madre-asus-prime-a620m-k-ddr5-4711387242087.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$94.141",
+        "Tarjeta crédito/débito": "$96.965"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
+    },
+    {
+      "product_id": 1167,
+      "store_id": "cg",
+      "price": 97990,
+      "price_card": 103144,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-a620m-k-ddr5/",
+      "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$97.990",
+        "Webpay / Tarjeta": "$103.144"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [

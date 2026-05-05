@@ -8,31 +8,50 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-Corsair-CX550-80-PLUS-Bronze-550W.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$59.030",
-    "Tarjeta crédito/débito": "$62.280"
+    "Transferencia / Efectivo": "$58.780",
+    "Tarjeta crédito/débito": "$62.010"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:52",
-  "updated_at": "2026-05-05 12:57:14",
+  "updated_at": "2026-05-05 22:29:32",
   "prices": [
     {
       "product_id": 1715,
       "store_id": "centrale",
-      "price": 58270,
-      "price_card": 61475,
+      "price": 58780,
+      "price_card": 62013,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-corsair-cx550-80-plus-bronze-550w/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$58.270",
-        "Tarjetas de Crédito / Débito": "$61.475"
+        "Transferencia / Efectivo": "$58.780",
+        "Tarjetas de Crédito / Débito": "$62.013"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 38975,
+      "store_id": "mybox",
+      "price": 64211,
+      "price_card": 66137,
+      "price_normal": 67590,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/fuentes-de-poder/6028-fuente-de-poder-corsair-cx550-bronze-550w.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$64.211",
+        "Tarjeta crédito/débito": "$66.137"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -59,7 +78,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 58270
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 58780
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

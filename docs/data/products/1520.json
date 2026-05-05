@@ -11,26 +11,26 @@
     "Capacidad": "1 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Transferencia / Efectivo": "$212.420",
-    "Tarjeta crédito/débito": "$224.100"
+    "Transferencia / Efectivo": "$211.500",
+    "Tarjeta crédito/débito": "$223.130"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1520,
       "store_id": "centrale",
-      "price": 209660,
-      "price_card": 221191,
+      "price": 211500,
+      "price_card": 223133,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ssd-wd-blue-sn5100-1tb-m-2-nvme-pcie-4-0-hasta-7100mb-s/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$209.660",
-        "Tarjetas de Crédito / Débito": "$221.191"
+        "Transferencia / Efectivo": "$211.500",
+        "Tarjetas de Crédito / Débito": "$223.133"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,7 +68,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 209660
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 211500
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

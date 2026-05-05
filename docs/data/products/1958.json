@@ -15,7 +15,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:42:27",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1958,
@@ -35,6 +35,25 @@
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 38835,
+      "store_id": "mybox",
+      "price": 411531,
+      "price_card": 423877,
+      "price_normal": 433190,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/procesador/5683-procesador-intel-core-ultra-i5-245kf-5032037282109.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$411.531",
+        "Tarjeta crédito/débito": "$423.877"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -67,7 +86,13 @@
       "store_name": "Dust2",
       "date": "2026-05-04",
       "price": 234990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-05",
+      "price": 234990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

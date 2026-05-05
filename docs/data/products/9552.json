@@ -11,26 +11,26 @@
     "Capacidad": "2 TB",
     "Factor de forma": "3.5\"",
     "Interfaz": "SATA",
-    "Efectivo/Transferencia": "$89.037",
-    "Tarjeta crédito/débito": "$93.044"
+    "Efectivo/Transferencia": "$91.066",
+    "Tarjeta crédito/débito": "$95.164"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:14",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 9552,
       "store_id": "spdigital",
-      "price": 88270,
-      "price_card": 92242,
-      "price_normal": 107860,
+      "price": 91066,
+      "price_card": 95164,
+      "price_normal": 111280,
       "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/western-digital-wd-purple-surveillance-hard-drive-hard-drive-internal-hard-drive-2-tb-35",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$88.270",
-        "Webpay / Tarjeta": "$92.242"
+        "Transferencia / Efectivo": "$91.066",
+        "Webpay / Tarjeta": "$95.164"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,7 +68,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-04",
       "price": 88270
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 91066
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

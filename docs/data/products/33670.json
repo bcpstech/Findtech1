@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:54:30",
-  "updated_at": "2026-05-05 13:29:00",
+  "updated_at": "2026-05-05 22:59:23",
   "prices": [
     {
       "product_id": 33670,
@@ -33,6 +33,25 @@
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
+    },
+    {
+      "product_id": 38953,
+      "store_id": "mybox",
+      "price": 99706,
+      "price_card": 102697,
+      "price_normal": 107790,
+      "discount_pct": 7,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/enfriamiento-refrigeracion/5539-refrigeracion-aio-coolermaster-240l-core-argb-black-4719512137680.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$99.706",
+        "Tarjeta crédito/débito": "$102.697"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -41,7 +60,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-05-04",
       "price": 82900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-05-05",
+      "price": 82900
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

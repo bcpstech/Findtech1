@@ -16,21 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:18:21",
-  "updated_at": "2026-05-05 12:32:16",
+  "updated_at": "2026-05-05 22:04:38",
   "prices": [
     {
       "product_id": 19878,
       "store_id": "myshop",
-      "price": 62990,
-      "price_card": 64880,
-      "price_normal": 66454,
-      "discount_pct": 21,
+      "price": 61990,
+      "price_card": 63850,
+      "price_normal": 65399,
+      "discount_pct": 22,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/gabinete-gamemax-brufen-coc-sfuente-axt-negro-ventiladores-120-mm-rgb-incluidos-3-frontales-y-1-trasero-p39103",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$62.990",
-        "Tarjeta crédito/débito": "$64.880"
+        "Efectivo/Transferencia": "$61.990",
+        "Tarjeta crédito/débito": "$63.850"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -56,7 +56,13 @@
       "store_name": "MyShop",
       "date": "2026-05-04",
       "price": 62990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-05",
+      "price": 61990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

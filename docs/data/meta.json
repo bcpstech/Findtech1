@@ -1,9 +1,135 @@
 {
   "last_update": "2026-05-05",
-  "generated_at": "2026-05-05T21:44:01.684Z",
-  "total_products": 167,
+  "generated_at": "2026-05-05T23:04:45.115Z",
+  "total_products": 1323,
   "total_stores": 18,
   "last_runs": [
+    {
+      "store_id": "infor-ingen",
+      "status": "success",
+      "products_updated": 1051,
+      "errors_count": 0,
+      "finished_at": "2026-05-05 23:04:42"
+    },
+    {
+      "store_id": "sandos",
+      "status": "success",
+      "products_updated": 0,
+      "errors_count": 0,
+      "finished_at": "2026-05-05 22:45:03"
+    },
+    {
+      "store_id": "mybox",
+      "status": "success",
+      "products_updated": 184,
+      "errors_count": 0,
+      "finished_at": "2026-05-05 22:44:39"
+    },
+    {
+      "store_id": "tytgamer",
+      "status": "success",
+      "products_updated": 0,
+      "errors_count": 0,
+      "finished_at": "2026-05-05 22:42:46"
+    },
+    {
+      "store_id": "sipo",
+      "status": "success",
+      "products_updated": 0,
+      "errors_count": 0,
+      "finished_at": "2026-05-05 22:42:22"
+    },
+    {
+      "store_id": "progaming",
+      "status": "success",
+      "products_updated": 36,
+      "errors_count": 0,
+      "finished_at": "2026-05-05 22:41:56"
+    },
+    {
+      "store_id": "megabytes",
+      "status": "success",
+      "products_updated": 63,
+      "errors_count": 0,
+      "finished_at": "2026-05-05 22:40:58"
+    },
+    {
+      "store_id": "dust2",
+      "status": "success",
+      "products_updated": 741,
+      "errors_count": 0,
+      "finished_at": "2026-05-05 22:39:49"
+    },
+    {
+      "store_id": "pcexpress",
+      "status": "success",
+      "products_updated": 0,
+      "errors_count": 0,
+      "finished_at": "2026-05-05 22:33:36"
+    },
+    {
+      "store_id": "megadrive",
+      "status": "success",
+      "products_updated": 0,
+      "errors_count": 0,
+      "finished_at": "2026-05-05 22:32:52"
+    },
+    {
+      "store_id": "winpy",
+      "status": "success",
+      "products_updated": 200,
+      "errors_count": 0,
+      "finished_at": "2026-05-05 22:32:30"
+    },
+    {
+      "store_id": "centrale",
+      "status": "success",
+      "products_updated": 574,
+      "errors_count": 0,
+      "finished_at": "2026-05-05 22:31:06"
+    },
+    {
+      "store_id": "alltec",
+      "status": "success",
+      "products_updated": 272,
+      "errors_count": 0,
+      "finished_at": "2026-05-05 22:10:40"
+    },
+    {
+      "store_id": "myshop",
+      "status": "success",
+      "products_updated": 136,
+      "errors_count": 223,
+      "finished_at": "2026-05-05 22:07:11"
+    },
+    {
+      "store_id": "trulustore",
+      "status": "success",
+      "products_updated": 93,
+      "errors_count": 0,
+      "finished_at": "2026-05-05 22:01:51"
+    },
+    {
+      "store_id": "spdigital",
+      "status": "success",
+      "products_updated": 423,
+      "errors_count": 0,
+      "finished_at": "2026-05-05 21:58:15"
+    },
+    {
+      "store_id": "cg",
+      "status": "success",
+      "products_updated": 137,
+      "errors_count": 0,
+      "finished_at": "2026-05-05 21:54:59"
+    },
+    {
+      "store_id": "n1g",
+      "status": "success",
+      "products_updated": 512,
+      "errors_count": 0,
+      "finished_at": "2026-05-05 21:51:34"
+    },
     {
       "store_id": "winpy",
       "status": "success",
@@ -17,132 +143,6 @@
       "products_updated": 200,
       "errors_count": 0,
       "finished_at": "2026-05-05 21:32:02"
-    },
-    {
-      "store_id": "infor-ingen",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 1051,
-      "finished_at": "2026-05-05 13:32:08"
-    },
-    {
-      "store_id": "sandos",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 0,
-      "finished_at": "2026-05-05 13:20:38"
-    },
-    {
-      "store_id": "mybox",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 183,
-      "finished_at": "2026-05-05 13:20:13"
-    },
-    {
-      "store_id": "tytgamer",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 0,
-      "finished_at": "2026-05-05 13:18:18"
-    },
-    {
-      "store_id": "sipo",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 0,
-      "finished_at": "2026-05-05 13:17:54"
-    },
-    {
-      "store_id": "progaming",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 37,
-      "finished_at": "2026-05-05 13:17:26"
-    },
-    {
-      "store_id": "megabytes",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 63,
-      "finished_at": "2026-05-05 13:16:27"
-    },
-    {
-      "store_id": "dust2",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 738,
-      "finished_at": "2026-05-05 13:15:17"
-    },
-    {
-      "store_id": "pcexpress",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 0,
-      "finished_at": "2026-05-05 13:08:24"
-    },
-    {
-      "store_id": "megadrive",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 0,
-      "finished_at": "2026-05-05 13:07:39"
-    },
-    {
-      "store_id": "winpy",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 240,
-      "finished_at": "2026-05-05 13:07:15"
-    },
-    {
-      "store_id": "centrale",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 584,
-      "finished_at": "2026-05-05 12:58:47"
-    },
-    {
-      "store_id": "alltec",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 272,
-      "finished_at": "2026-05-05 12:38:05"
-    },
-    {
-      "store_id": "myshop",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 362,
-      "finished_at": "2026-05-05 12:34:31"
-    },
-    {
-      "store_id": "trulustore",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 94,
-      "finished_at": "2026-05-05 12:29:42"
-    },
-    {
-      "store_id": "spdigital",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 425,
-      "finished_at": "2026-05-05 12:26:33"
-    },
-    {
-      "store_id": "cg",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 136,
-      "finished_at": "2026-05-05 12:22:57"
-    },
-    {
-      "store_id": "n1g",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 512,
-      "finished_at": "2026-05-05 12:19:30"
     }
   ]
 }

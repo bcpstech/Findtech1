@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 1360,
       "store_id": "centrale",
-      "price": 584090,
-      "price_card": 616215,
+      "price": 589240,
+      "price_card": 621648,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-strix-z890-e-gaming-wifi-lga1851-ddr5-8800mhz-atx/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$584.090",
-        "Tarjetas de Crédito / Débito": "$616.215"
+        "Transferencia / Efectivo": "$589.240",
+        "Tarjetas de Crédito / Débito": "$621.648"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 1163,
       "store_id": "cg",
-      "price": 597269,
-      "price_card": 628685,
+      "price": 602704,
+      "price_card": 634406,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/placas-madre/asus-motherboard-rog-strix-z890-e-gaming-1851-d/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$597.269",
-        "Webpay / Tarjeta": "$628.685"
+        "Efectivo/Transferencia": "$602.704",
+        "Webpay / Tarjeta": "$634.406"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -107,7 +107,13 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 584090
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 589240
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-05"
 }

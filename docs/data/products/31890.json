@@ -8,15 +8,22 @@
   "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-5-7600x-am5-6-cores-12-hilos-4-7-5-3ghz-32mb-de-cache-desbloqueado.jpg",
   "description": null,
   "specs": {
-    "Frecuencia base": "5.3 GHz",
+    "Núcleos": "6",
+    "Hilos": "12",
+    "Frecuencia base": "4,7 GHz",
     "Socket": "AM5",
     "Generación": "AMD Zen 5 (4nm)",
-    "Efectivo / Transferencia": "$229.216",
-    "Tarjeta crédito/débito": "$241.364"
+    "Familia": "AMD Ryzen™ 5",
+    "Frecuencia turbo": "5,3 GHz",
+    "Caché L3": "32 MB",
+    "TDP": "105 W",
+    "Gráficos integrados": "AMD Radeon Graphics",
+    "Efectivo/Transferencia": "$499.990",
+    "Tarjeta crédito/débito": "$522.490"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:15",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-05-05 23:04:42",
   "prices": [
     {
       "product_id": 31890,
@@ -36,6 +43,63 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 295,
+      "store_id": "centrale",
+      "price": 236820,
+      "price_card": 249845,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-7600x-4-7ghz-6-nucleos-12-hilos-socket-am5/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$236.820",
+        "Tarjetas de Crédito / Débito": "$249.845"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2823,
+      "store_id": "alltec",
+      "price": 245900,
+      "price_card": 253277,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/1880-amd-ryzen-5-7600x-47ghz-53ghz-turbo-six-core-tdp-105w-am5-730143314442.html",
+      "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$245.900",
+        "Tarjeta crédito/débito": "$253.277"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 9408,
+      "store_id": "spdigital",
+      "price": 499990,
+      "price_card": 522490,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/ryzen-5-am5-7600x",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$499.990",
+        "Webpay / Tarjeta": "$522.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
