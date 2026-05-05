@@ -41,21 +41,47 @@ function upsertProduct(product) {
   return stmt.get(product);
 }
 
+// Cache: si la columna price_card existe en la tabla prices
+let _hasPriceCard = null;
+function hasPriceCard() {
+  if (_hasPriceCard !== null) return _hasPriceCard;
+  const cols = getDb().prepare("PRAGMA table_info(prices)").all();
+  _hasPriceCard = cols.some(c => c.name === 'price_card');
+  return _hasPriceCard;
+}
+
 function upsertPrice(price) {
   const db = getDb();
-  // Un precio por producto/tienda/día — si ya existe, actualiza
-  const stmt = db.prepare(`
-    INSERT INTO prices (product_id, store_id, price, price_card, price_normal, discount_pct, stock, product_url, price_date, scraped_at)
-    VALUES (@product_id, @store_id, @price, @price_card, @price_normal, @discount_pct, @stock, @product_url, date('now'), datetime('now'))
-    ON CONFLICT(product_id, store_id, price_date) DO UPDATE SET
-      price        = excluded.price,
-      price_card   = excluded.price_card,
-      price_normal = excluded.price_normal,
-      discount_pct = excluded.discount_pct,
-      stock        = excluded.stock,
-      product_url  = excluded.product_url,
-      scraped_at   = datetime('now')
-  `);
+  let stmt;
+  if (hasPriceCard()) {
+    stmt = db.prepare(`
+      INSERT INTO prices (product_id, store_id, price, price_card, price_normal, discount_pct, stock, product_url, price_date, scraped_at)
+      VALUES (@product_id, @store_id, @price, @price_card, @price_normal, @discount_pct, @stock, @product_url, date('now'), datetime('now'))
+      ON CONFLICT(product_id, store_id, price_date) DO UPDATE SET
+        price        = excluded.price,
+        price_card   = excluded.price_card,
+        price_normal = excluded.price_normal,
+        discount_pct = excluded.discount_pct,
+        stock        = excluded.stock,
+        product_url  = excluded.product_url,
+        scraped_at   = datetime('now')
+    `);
+  } else {
+    // Columna price_card no existe aún — insertar sin ella
+    const { price_card, ...priceWithout } = price;
+    price = priceWithout;
+    stmt = db.prepare(`
+      INSERT INTO prices (product_id, store_id, price, price_normal, discount_pct, stock, product_url, price_date, scraped_at)
+      VALUES (@product_id, @store_id, @price, @price_normal, @discount_pct, @stock, @product_url, date('now'), datetime('now'))
+      ON CONFLICT(product_id, store_id, price_date) DO UPDATE SET
+        price        = excluded.price,
+        price_normal = excluded.price_normal,
+        discount_pct = excluded.discount_pct,
+        stock        = excluded.stock,
+        product_url  = excluded.product_url,
+        scraped_at   = datetime('now')
+    `);
+  }
   return stmt.run(price);
 }
 
