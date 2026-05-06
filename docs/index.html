@@ -1076,6 +1076,8 @@ function imgErr(el, icon) {
 function imgErrReplace(el, icon) {
   el.parentElement.innerHTML = `<span class="emoji">${icon}</span>`;
 }
+
+function renderHome() {
   // Stats
   const total = PRODUCTS.filter(p=>getPrice(p)>0).length;
   const el = document.getElementById('hw-stat-prods');
