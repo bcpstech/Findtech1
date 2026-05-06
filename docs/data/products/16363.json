@@ -10,26 +10,26 @@
   "specs": {
     "Capacidad": "10 TB",
     "Interfaz": "Serial ATA III",
-    "Efectivo/Transferencia": "$524.804",
-    "Tarjeta crédito/débito": "$548.420"
+    "Efectivo/Transferencia": "$429.447",
+    "Tarjeta crédito/débito": "$448.772"
   },
   "tags": [],
   "created_at": "2026-05-01 00:28:19",
-  "updated_at": "2026-05-05 23:04:42",
+  "updated_at": "2026-05-06 04:05:08",
   "prices": [
     {
       "product_id": 16363,
       "store_id": "spdigital",
-      "price": 524804,
-      "price_card": 548420,
+      "price": 429447,
+      "price_card": 448772,
       "price_normal": 524810,
-      "discount_pct": null,
+      "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/disco-duro-nas-10tb-seagate-ironwolf-35-5900-rpm-sata-6gbs-optimizado-para-uso-247-alta-con",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$524.804",
-        "Webpay / Tarjeta": "$548.420"
+        "Transferencia / Efectivo": "$429.447",
+        "Webpay / Tarjeta": "$448.772"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -61,7 +61,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-05",
       "price": 524804
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-06",
+      "price": 429447
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-05-06"
 }

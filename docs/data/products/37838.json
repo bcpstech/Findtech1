@@ -12,12 +12,12 @@
     "Factor de forma": "micro ATX",
     "Memoria": "DDR5",
     "Chipset": "Intel H610",
-    "Efectivo/Transferencia": "$84.423",
-    "Tarjeta crédito/débito": "$88.222"
+    "Efectivo/Transferencia": "$81.779",
+    "Tarjeta crédito/débito": "$85.459"
   },
   "tags": [],
   "created_at": "2026-05-04 23:38:42",
-  "updated_at": "2026-05-05 23:04:42",
+  "updated_at": "2026-05-06 04:05:08",
   "prices": [
     {
       "product_id": 37838,
@@ -39,6 +39,25 @@
       "full_url": "https://www.winpy.cl"
     },
     {
+      "product_id": 40776,
+      "store_id": "spdigital",
+      "price": 75380,
+      "price_card": 78772,
+      "price_normal": 90120,
+      "discount_pct": 16,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/mb-s1700-h610m-k-d4-csm-matxvgahdmiusbrj45-asus",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$75.380",
+        "Webpay / Tarjeta": "$78.772"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 1408,
       "store_id": "centrale",
       "price": 82580,
@@ -56,25 +75,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9464,
-      "store_id": "spdigital",
-      "price": 84423,
-      "price_card": 88222,
-      "price_normal": 100900,
-      "discount_pct": 16,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-h610m-k-socket-intel-lga1700-2xddr5-1x-m2-4x-sata-hdmi-vga-micro-atx",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$84.423",
-        "Webpay / Tarjeta": "$88.222"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 38908,
@@ -102,7 +102,13 @@
       "store_name": "Winpy",
       "date": "2026-05-05",
       "price": 72960
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-06",
+      "price": 72960
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-05-06"
 }

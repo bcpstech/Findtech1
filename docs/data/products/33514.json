@@ -12,12 +12,12 @@
     "Interfaz": "PCI Express 3.0",
     "Factor de forma": "M.2 2280",
     "Lectura": "3500 MB/s",
-    "Efectivo/Transferencia": "$438.432",
-    "Tarjeta crédito/débito": "$458.161"
+    "Efectivo/Transferencia": "$438.485",
+    "Tarjeta crédito/débito": "$458.217"
   },
   "tags": [],
   "created_at": "2026-05-04 02:51:51",
-  "updated_at": "2026-05-05 23:04:42",
+  "updated_at": "2026-05-06 04:05:08",
   "prices": [
     {
       "product_id": 33514,
@@ -41,16 +41,16 @@
     {
       "product_id": 9543,
       "store_id": "spdigital",
-      "price": 438432,
-      "price_card": 458161,
+      "price": 438485,
+      "price_card": 458217,
       "price_normal": 541470,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/crucial-p3-4000gb-3d-nand-nvme-pcie-m-2",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$438.432",
-        "Webpay / Tarjeta": "$458.161"
+        "Transferencia / Efectivo": "$438.485",
+        "Webpay / Tarjeta": "$458.217"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -89,7 +89,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-05-05",
       "price": 99900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-05-06",
+      "price": 99900
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-05-06"
 }

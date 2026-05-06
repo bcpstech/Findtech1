@@ -8,30 +8,50 @@
   "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-asus-rog-ryuo-iv-slc-360-argb-aio-360mm-argb-display-amoled.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$429.180",
-    "Tarjeta crédito/débito": "$448.490"
+    "Efectivo/Transferencia": "$350.549",
+    "Tarjeta crédito/débito": "$366.324"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:01",
-  "updated_at": "2026-05-04 00:44:23",
+  "updated_at": "2026-05-06 03:06:34",
   "prices": [
     {
       "product_id": 9635,
       "store_id": "spdigital",
-      "price": 429180,
-      "price_normal": 448490,
-      "discount_pct": 4,
+      "price": 350549,
+      "price_card": 366324,
+      "price_normal": 432930,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/refrigeracion-liquida-asus-rog-ryuo-iv-slc-360-argb-aio-360mm-argb-display-amoled",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$429.180",
-        "Webpay / Tarjeta": "$448.490"
+        "Transferencia / Efectivo": "$350.549",
+        "Webpay / Tarjeta": "$366.324"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 38939,
+      "store_id": "mybox",
+      "price": 437790,
+      "price_card": 450924,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/enfriamiento-refrigeracion/6085-refrigeracion-liquida-asus-rog-ryuo-iv-360-argb-hatsune-miku-edition-4711636215343.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$437.790",
+        "Tarjeta crédito/débito": "$450.924"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -63,8 +83,20 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-05-04",
-      "price": 429180
+      "price": 429177
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 432938
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-06",
+      "price": 350549
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-06"
 }

@@ -12,12 +12,12 @@
     "Tipo memoria": "GDDR7",
     "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo/Transferencia": "$481.448",
-    "Tarjeta crédito/débito": "$503.113"
+    "Efectivo/Transferencia": "$481.328",
+    "Tarjeta crédito/débito": "$502.988"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:30",
-  "updated_at": "2026-05-05 23:04:42",
+  "updated_at": "2026-05-06 04:05:08",
   "prices": [
     {
       "product_id": 2601,
@@ -43,16 +43,16 @@
     {
       "product_id": 9583,
       "store_id": "spdigital",
-      "price": 481448,
-      "price_card": 503113,
+      "price": 481328,
+      "price_card": 502988,
       "price_normal": 594520,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/zotac-gaming-geforce-rtx-5060-twin-edge",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$481.448",
-        "Webpay / Tarjeta": "$503.113"
+        "Transferencia / Efectivo": "$481.328",
+        "Webpay / Tarjeta": "$502.988"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -134,7 +134,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-05",
       "price": 481448
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-06",
+      "price": 481328
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-05-06"
 }

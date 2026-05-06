@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-05 23:04:42",
+  "updated_at": "2026-05-06 04:05:08",
   "prices": [
     {
       "product_id": 1369,
@@ -58,6 +58,25 @@
       "full_url": "https://www.winpy.cl"
     },
     {
+      "product_id": 9474,
+      "store_id": "spdigital",
+      "price": 149378,
+      "price_card": 156100,
+      "price_normal": 184440,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/msi-pro-h810m-b-wifi6e",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$149.378",
+        "Webpay / Tarjeta": "$156.100"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 23543,
       "store_id": "alltec",
       "price": 158900,
@@ -94,25 +113,6 @@
       "review_count": 0,
       "store_url": "www.mybox.cl",
       "full_url": "https://www.mybox.cl"
-    },
-    {
-      "product_id": 9474,
-      "store_id": "spdigital",
-      "price": 184440,
-      "price_card": 192740,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/msi-pro-h810m-b-wifi6e",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$184.440",
-        "Webpay / Tarjeta": "$192.740"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -151,7 +151,13 @@
       "store_name": "Centrale",
       "date": "2026-05-05",
       "price": 128100
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-06",
+      "price": 128100
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-05-06"
 }

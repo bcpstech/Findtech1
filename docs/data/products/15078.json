@@ -13,13 +13,32 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Chipset": "AMD B650",
-    "Efectivo/Transferencia": "$187.158",
-    "Tarjeta crédito/débito": "$195.580"
+    "Efectivo/Transferencia": "$151.579",
+    "Tarjeta crédito/débito": "$158.400"
   },
   "tags": [],
   "created_at": "2026-04-29 16:29:07",
-  "updated_at": "2026-05-05 23:04:42",
+  "updated_at": "2026-05-06 04:05:08",
   "prices": [
+    {
+      "product_id": 15078,
+      "store_id": "spdigital",
+      "price": 151579,
+      "price_card": 158400,
+      "price_normal": 187160,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/asus-motherboard-prime-b650em-a-wifi",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$151.579",
+        "Webpay / Tarjeta": "$158.400"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
     {
       "product_id": 1347,
       "store_id": "centrale",
@@ -57,25 +76,6 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 15078,
-      "store_id": "spdigital",
-      "price": 187158,
-      "price_card": 195580,
-      "price_normal": 187160,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/asus-motherboard-prime-b650em-a-wifi",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$187.158",
-        "Webpay / Tarjeta": "$195.580"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -108,7 +108,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-05",
       "price": 187158
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-06",
+      "price": 151579
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-05-06"
 }

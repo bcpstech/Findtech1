@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:20",
-  "updated_at": "2026-05-05 23:04:42",
+  "updated_at": "2026-05-06 04:05:08",
   "prices": [
     {
       "product_id": 31921,
@@ -41,16 +41,16 @@
     {
       "product_id": 9438,
       "store_id": "spdigital",
-      "price": 54467,
-      "price_card": 56918,
+      "price": 54380,
+      "price_card": 56827,
       "price_normal": 67180,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-a520m-k-socket-amd-am4-2xddr4-1x-m2-4x-sata-hdmi-vga-micro-atx",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$54.467",
-        "Webpay / Tarjeta": "$56.918"
+        "Transferencia / Efectivo": "$54.380",
+        "Webpay / Tarjeta": "$56.827"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -146,7 +146,13 @@
       "store_name": "Winpy",
       "date": "2026-05-05",
       "price": 52288
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-06",
+      "price": 52288
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-05-06"
 }

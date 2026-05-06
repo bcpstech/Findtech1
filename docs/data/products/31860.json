@@ -11,12 +11,12 @@
     "VRAM": "8 GB",
     "Tipo memoria": "GDDR7",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$575.410",
-    "Tarjeta crédito/débito": "$607.060"
+    "Transferencia / Efectivo": "$544.470",
+    "Tarjeta crédito/débito": "$574.420"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:12",
-  "updated_at": "2026-05-05 23:04:42",
+  "updated_at": "2026-05-06 04:05:08",
   "prices": [
     {
       "product_id": 31860,
@@ -40,16 +40,16 @@
     {
       "product_id": 1243,
       "store_id": "centrale",
-      "price": 575410,
-      "price_card": 607058,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 544470,
+      "price_card": 574416,
+      "price_normal": 614100,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-de-video-msi-geforce-rtx-5060-ti-gaming-trio-oc-de-8gb-gddr7/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$575.410",
-        "Tarjetas de Crédito / Débito": "$607.058"
+        "Transferencia / Efectivo": "$544.470",
+        "Tarjetas de Crédito / Débito": "$574.416"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -69,7 +69,13 @@
       "store_name": "Winpy",
       "date": "2026-05-05",
       "price": 505856
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-06",
+      "price": 505856
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-05-06"
 }

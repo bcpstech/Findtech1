@@ -15,7 +15,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:39:59",
-  "updated_at": "2026-05-05 22:41:33",
+  "updated_at": "2026-05-06 03:46:30",
   "prices": [
     {
       "product_id": 1763,
@@ -37,6 +37,25 @@
       "full_url": "https://www.progaming.cl"
     },
     {
+      "product_id": 9660,
+      "store_id": "spdigital",
+      "price": 60979,
+      "price_card": 63723,
+      "price_normal": 75300,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/refrigeracion-liquida-msi-mag-coreliquid-a12-240-argb-sockets-intel-lga-17001851-amd-am4am5",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$60.979",
+        "Webpay / Tarjeta": "$63.723"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 1612,
       "store_id": "centrale",
       "price": 70460,
@@ -54,25 +73,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9660,
-      "store_id": "spdigital",
-      "price": 75301,
-      "price_card": 78690,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/refrigeracion-liquida-msi-mag-coreliquid-a12-240-argb-sockets-intel-lga-17001851-amd-am4am5",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$75.301",
-        "Webpay / Tarjeta": "$78.690"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 2636,
@@ -126,7 +126,13 @@
       "store_name": "ProGaming",
       "date": "2026-05-05",
       "price": 59990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-05-06",
+      "price": 59990
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-05-06"
 }

@@ -19,21 +19,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:41",
-  "updated_at": "2026-05-05 23:04:42",
+  "updated_at": "2026-05-06 04:05:08",
   "prices": [
     {
       "product_id": 9484,
       "store_id": "spdigital",
-      "price": 350551,
-      "price_card": 366326,
+      "price": 351667,
+      "price_card": 367492,
       "price_normal": 384760,
       "discount_pct": 9,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/corsair-vengeance-rgb-pro-sl-32gb-2x16gb-ddr4-3200-pc4-25600-c16-135v-desktop-memory-black",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$350.551",
-        "Webpay / Tarjeta": "$366.326"
+        "Transferencia / Efectivo": "$351.667",
+        "Webpay / Tarjeta": "$367.492"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -96,7 +96,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-05",
       "price": 350551
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-06",
+      "price": 351667
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-05-06"
 }

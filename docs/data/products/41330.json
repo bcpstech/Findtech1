@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-05-05 12:33:29",
-  "updated_at": "2026-05-05 22:05:59",
+  "updated_at": "2026-05-06 03:14:22",
   "prices": [
     {
       "product_id": 1709,
@@ -59,16 +59,16 @@
     {
       "product_id": 9715,
       "store_id": "spdigital",
-      "price": 772371,
-      "price_card": 807128,
+      "price": 772276,
+      "price_card": 807028,
       "price_normal": 953780,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/rog-thor-1600w-titanium-iii",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$772.371",
-        "Webpay / Tarjeta": "$807.128"
+        "Transferencia / Efectivo": "$772.276",
+        "Webpay / Tarjeta": "$807.028"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -120,7 +120,13 @@
       "store_name": "MyShop",
       "date": "2026-05-05",
       "price": 749500
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-06",
+      "price": 749500
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-05-06"
 }

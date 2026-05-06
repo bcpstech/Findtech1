@@ -8,22 +8,27 @@
   "image_url": "https://images.findtech.cl/products/xpg-valor-mesh-black.jpeg",
   "description": null,
   "specs": {
-    "Transferencia/Efectivo": "$41.650",
-    "Webpay / Tarjeta crédito-débito": "$42.900"
+    "Efectivo / Transferencia": "$42.900",
+    "Tarjeta crédito/débito": "$44.190"
   },
   "tags": [],
   "created_at": "2026-04-26 20:51:30",
-  "updated_at": "2026-04-27 22:27:36",
+  "updated_at": "2026-05-06 03:45:48",
   "prices": [
     {
       "product_id": 2577,
       "store_id": "megabytes",
-      "price": 41650,
-      "price_normal": 66890,
+      "price": 42900,
+      "price_card": 44187,
+      "price_normal": 68900,
       "discount_pct": 38,
       "stock": "in_stock",
       "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/xpg-valor-mesh-black/",
       "store_name": "MegaBytes",
+      "price_specs": {
+        "Efectivo/Transferencia": "$42.900",
+        "Tarjeta crédito/débito": "$44.187"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.megabytes.cl",
@@ -42,7 +47,13 @@
       "store_name": "MegaBytes",
       "date": "2026-04-27",
       "price": 41650
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-05-06",
+      "price": 42900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-06"
 }

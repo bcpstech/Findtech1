@@ -13,26 +13,26 @@
     "Velocidad": "5600 MHz",
     "Latencia": "CL46",
     "Tipo de memoria": "DDR5",
-    "Efectivo/Transferencia": "$358.167",
-    "Tarjeta crédito/débito": "$374.284"
+    "Efectivo/Transferencia": "$309.251",
+    "Tarjeta crédito/débito": "$323.167"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:49",
-  "updated_at": "2026-05-05 23:04:42",
+  "updated_at": "2026-05-06 04:05:08",
   "prices": [
     {
       "product_id": 9502,
       "store_id": "spdigital",
-      "price": 358167,
-      "price_card": 374285,
-      "price_normal": 442350,
+      "price": 309251,
+      "price_card": 323167,
+      "price_normal": 381940,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/memoria-ram-ddr5-16gb-5600mhz-dimm-adata-premier-cl46-11v",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$358.167",
-        "Webpay / Tarjeta": "$374.285"
+        "Transferencia / Efectivo": "$309.251",
+        "Webpay / Tarjeta": "$323.167"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -76,7 +76,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-05",
       "price": 358167
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-06",
+      "price": 309251
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-05-06"
 }
