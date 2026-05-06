@@ -284,8 +284,9 @@ nav{display:flex;align-items:center;gap:2px}
 
 /* BANNERS */
 .banners-row{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:28px 0}
-.banner-slot{background:var(--bg2);border:1px solid var(--border);border-radius:12px;height:120px;display:flex;align-items:center;justify-content:center;color:var(--text3);font-size:13px;overflow:hidden;position:relative}
-.banner-slot img{width:100%;height:100%;object-fit:cover;border-radius:12px}
+.banner-slot{background:var(--bg2);border:1px solid var(--border);border-radius:16px;height:200px;display:flex;align-items:center;justify-content:center;color:var(--text3);font-size:13px;overflow:hidden;position:relative;transition:transform .2s,box-shadow .2s}
+.banner-slot:hover{transform:translateY(-3px);box-shadow:0 12px 40px rgba(0,0,0,0.2)}
+.banner-slot img{width:100%;height:100%;object-fit:cover;border-radius:16px}
 
 /* PC SLIDER */
 .pc-card{background:var(--bg2);border:1px solid var(--border);border-radius:12px;overflow:hidden;cursor:pointer;transition:all .2s;display:flex;flex-direction:column;position:relative}
@@ -350,6 +351,15 @@ nav{display:flex;align-items:center;gap:2px}
   .slider-track .featured-card{flex:0 0 calc((100% - 2*14px)/3)}
   .slider-track .pc-card{flex:0 0 calc((100% - 2*14px)/3)}
   .banners-row{grid-template-columns:1fr 1fr}
+
+  /* Precios: precio cash más pequeño, todo cabe en una fila */
+  .dpr-cash{font-size:15px}
+  .dpr-card{font-size:12px}
+  .detail-price-row{padding:10px 12px;gap:8px}
+  .dpr-link{padding:7px 10px;font-size:11px}
+
+  /* Specs: 1 columna en mobile */
+  .detail-specs-grid{grid-template-columns:1fr}
 }
 @media(max-width:480px){
   .header-inner{padding:0 12px}
@@ -359,6 +369,24 @@ nav{display:flex;align-items:center;gap:2px}
   .slider-track .pc-card{flex:0 0 calc((100% - 14px)/2)}
   .banners-row{grid-template-columns:1fr}
   .hero-title{font-size:24px}
+
+  /* Precios por tienda en detalle — apilar verticalmente */
+  .detail-price-row{flex-wrap:wrap;gap:8px;padding:12px}
+  .dpr-store{flex:1 1 100%}
+  .dpr-methods{align-items:flex-start;width:100%}
+  .dpr-method-row{justify-content:space-between;width:100%}
+  .dpr-cash{font-size:16px}
+  .dpr-link{margin-left:auto;padding:7px 12px;font-size:11px}
+
+  /* Specs en mobile — 1 columna */
+  .detail-specs-grid{grid-template-columns:1fr}
+
+  /* Detalle imagen más pequeña */
+  .detail-img-box{min-height:180px}
+
+  /* Tarjetas de producto más compactas */
+  .prod-card .dual-price{font-size:11px}
+  .price-val{font-size:14px}
 }
 @keyframes fadeIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
 /* Page visibility - controlled by showPage() */
@@ -596,25 +624,28 @@ nav{display:flex;align-items:center;gap:2px}
 
     <!-- BANNERS x3 -->
     <div class="banners-row" id="banners-row">
-      <div class="banner-slot" id="banner-1" onclick="showPage('hardware')" style="cursor:pointer;background:linear-gradient(135deg,rgba(59,130,246,0.15),rgba(6,182,212,0.08));border-color:rgba(59,130,246,0.3)">
-        <div style="text-align:center">
-          <div style="font-size:28px;margin-bottom:6px">🎮</div>
-          <div style="font-weight:700;font-size:14px;color:var(--text)">Tarjetas de Video</div>
-          <div style="font-size:11px;color:var(--text3);margin-top:3px">Mejores precios RTX y Radeon</div>
+      <div class="banner-slot" id="banner-1" onclick="filterCat('gpu');showPage('hardware')" style="cursor:pointer;background:linear-gradient(135deg,rgba(59,130,246,0.18),rgba(6,182,212,0.10));border-color:rgba(59,130,246,0.35)">
+        <div style="text-align:center;padding:8px">
+          <div style="font-size:44px;margin-bottom:10px;filter:drop-shadow(0 4px 8px rgba(59,130,246,0.4))">🎮</div>
+          <div style="font-weight:800;font-size:17px;color:var(--text);margin-bottom:4px">Tarjetas de Video</div>
+          <div style="font-size:12px;color:var(--text2);margin-bottom:14px;line-height:1.5">RTX 5000 · RX 9000<br>Compara entre todas las tiendas</div>
+          <div style="display:inline-block;background:rgba(59,130,246,0.2);border:1px solid rgba(59,130,246,0.4);color:#93c5fd;font-size:11px;font-weight:600;padding:5px 14px;border-radius:20px">Ver GPUs →</div>
         </div>
       </div>
-      <div class="banner-slot" id="banner-2" onclick="filterCat('cpu');showPage('hardware')" style="cursor:pointer;background:linear-gradient(135deg,rgba(239,68,68,0.12),rgba(245,158,11,0.08));border-color:rgba(239,68,68,0.25)">
-        <div style="text-align:center">
-          <div style="font-size:28px;margin-bottom:6px">⚡</div>
-          <div style="font-weight:700;font-size:14px;color:var(--text)">Procesadores</div>
-          <div style="font-size:11px;color:var(--text3);margin-top:3px">Intel y AMD al mejor precio</div>
+      <div class="banner-slot" id="banner-2" onclick="filterCat('cpu');showPage('hardware')" style="cursor:pointer;background:linear-gradient(135deg,rgba(239,68,68,0.15),rgba(245,158,11,0.10));border-color:rgba(239,68,68,0.30)">
+        <div style="text-align:center;padding:8px">
+          <div style="font-size:44px;margin-bottom:10px;filter:drop-shadow(0 4px 8px rgba(239,68,68,0.4))">⚡</div>
+          <div style="font-weight:800;font-size:17px;color:var(--text);margin-bottom:4px">Procesadores</div>
+          <div style="font-size:12px;color:var(--text2);margin-bottom:14px;line-height:1.5">AMD Ryzen · Intel Core<br>Desde entry-level hasta HEDT</div>
+          <div style="display:inline-block;background:rgba(239,68,68,0.2);border:1px solid rgba(239,68,68,0.4);color:#fca5a5;font-size:11px;font-weight:600;padding:5px 14px;border-radius:20px">Ver CPUs →</div>
         </div>
       </div>
-      <div class="banner-slot" id="banner-3" onclick="filterCat('pc');showPage('hardware')" style="cursor:pointer;background:linear-gradient(135deg,rgba(34,197,94,0.12),rgba(6,182,212,0.08));border-color:rgba(34,197,94,0.25)">
-        <div style="text-align:center">
-          <div style="font-size:28px;margin-bottom:6px">💻</div>
-          <div style="font-weight:700;font-size:14px;color:var(--text)">PCs Armados</div>
-          <div style="font-size:11px;color:var(--text3);margin-top:3px">Equipos listos para usar</div>
+      <div class="banner-slot" id="banner-3" onclick="filterCat('pc');showPage('hardware')" style="cursor:pointer;background:linear-gradient(135deg,rgba(34,197,94,0.15),rgba(6,182,212,0.10));border-color:rgba(34,197,94,0.30)">
+        <div style="text-align:center;padding:8px">
+          <div style="font-size:44px;margin-bottom:10px;filter:drop-shadow(0 4px 8px rgba(34,197,94,0.4))">💻</div>
+          <div style="font-weight:800;font-size:17px;color:var(--text);margin-bottom:4px">PCs Armados</div>
+          <div style="font-size:12px;color:var(--text2);margin-bottom:14px;line-height:1.5">Gamer · Trabajo · Streaming<br>Listos para usar, entrega inmediata</div>
+          <div style="display:inline-block;background:rgba(34,197,94,0.2);border:1px solid rgba(34,197,94,0.4);color:#86efac;font-size:11px;font-weight:600;padding:5px 14px;border-radius:20px">Ver PCs →</div>
         </div>
       </div>
     </div>
@@ -1022,7 +1053,14 @@ function onSearch(val) {
 // ═══════════════════════════════════════════════
 // RENDER HOME
 // ═══════════════════════════════════════════════
-function renderHome() {
+function imgErr(el, icon) {
+  el.style.display = 'none';
+  const fb = el.nextElementSibling;
+  if (fb) fb.style.display = 'flex';
+}
+function imgErrReplace(el, icon) {
+  el.parentElement.innerHTML = `<span class="emoji">${icon}</span>`;
+}
   // Stats
   const total = PRODUCTS.filter(p=>getPrice(p)>0).length;
   const el = document.getElementById('hw-stat-prods');
@@ -1190,7 +1228,7 @@ function cardHtml(p) {
   const store = getBestStore(p);
   const cat = CATS[p.category] || { icon:'📦', name:p.category };
   const imgHtml = p.imageUrl
-    ? `<img src="${p.imageUrl}" alt="${p.name}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`
+    ? `<img src="${p.imageUrl}" alt="${p.name}" onerror="imgErr(this)">`
     + `<div class="emoji" style="display:none">${cat.icon}</div>`
     : `<div class="emoji">${cat.icon}</div>`;
 
@@ -1241,7 +1279,7 @@ function openModal(id) {
   // Image
   const imgEl = document.getElementById('modal-img');
   imgEl.innerHTML = p.imageUrl
-    ? `<img src="${p.imageUrl}" alt="${p.name}" style="max-height:200px;object-fit:contain" onerror="this.innerHTML='<span style=\\'font-size:72px\\'>${cat.icon}</span>'">`
+    ? `<img src="${p.imageUrl}" alt="${p.name}" style="max-height:200px;object-fit:contain" onerror="imgErrReplace(this,'${cat.icon}')">`
     : `<span style="font-size:72px">${cat.icon}</span>`;
 
   // Prices
@@ -1453,7 +1491,7 @@ async function openDetail(id) {
 
   // Imagen inicial desde el índice
   imgEl.innerHTML = p.imageUrl
-    ? `<img src="${p.imageUrl}" alt="${p.name}" onerror="this.style.display='none'">`
+    ? `<img src="${p.imageUrl}" alt="${p.name}" onerror="this.style.display='none';this.insertAdjacentHTML('afterend','<div class=\\'emoji\\'>${cat.icon}</div>')">`
     : `<div class="emoji">${cat.icon}</div>`;
 
   document.getElementById('detail-brand').textContent = p.brand || cat.name;
@@ -2170,7 +2208,7 @@ function renderFeatured() {
       ${badge}
       <div class="featured-img">
         ${p.imageUrl
-          ? `<img src="${p.imageUrl}" alt="${p.name}" loading="lazy" onerror="this.parentElement.innerHTML='<span class=\\"emoji\\">${icon}</span>'">`
+          ? `<img src="${p.imageUrl}" alt="${p.name}" loading="lazy" onerror="imgErrReplace(this,'${icon}')">`
           : `<span class="emoji">${icon}</span>`}
       </div>
       <div class="featured-body">
@@ -2203,7 +2241,7 @@ function renderPcSlider() {
     return `<div class="pc-card" onclick="openProductTab(${p.id})">
       <div class="pc-card-img">
         ${p.imageUrl
-          ? `<img src="${p.imageUrl}" alt="${p.name}" loading="lazy" onerror="this.parentElement.innerHTML='<span style=\\"font-size:40px\\">💻</span>'">`
+          ? `<img src="${p.imageUrl}" alt="${p.name}" loading="lazy" onerror="imgErrReplace(this,'💻')">`
           : `<span style="font-size:40px">💻</span>`}
       </div>
       <div class="pc-card-body">
