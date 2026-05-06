@@ -295,21 +295,31 @@ const products = mergedProducts.map(({ product: p, prices }) => {
   let specs = {};
   try { specs = p.specs ? JSON.parse(p.specs) : {}; } catch {}
 
+  // Mejor descuento entre todas las tiendas
+  const bestDiscount = prices.reduce((max, r) => {
+    const d = r.discount_pct || (r.price_normal && r.price_normal > r.price
+      ? Math.round((1 - r.price / r.price_normal) * 100) : 0);
+    return d > max ? d : max;
+  }, 0);
+
   return {
-    id:              p.id,
-    category_id:     p.category_id,
-    brand:           p.brand,
-    name:            p.name,
-    slug:            p.slug,
-    image_url:       p.image_url,
-    tags:            p.tags ? JSON.parse(p.tags) : [],
-    updated_at:      p.updated_at,
-    best_price:      best.price,
-    best_store_name: best.store_name,
-    best_store_id:   best.store_id,
-    store_count:     prices.length,
-    prices:          pricesMap,
-    url:             best.product_url || null,
+    id:               p.id,
+    category_id:      p.category_id,
+    brand:            p.brand,
+    name:             p.name,
+    slug:             p.slug,
+    image_url:        p.image_url,
+    tags:             p.tags ? JSON.parse(p.tags) : [],
+    updated_at:       p.updated_at,
+    best_price:       best.price,
+    best_price_card:  best.price_card || null,
+    best_store_name:  best.store_name,
+    best_store_id:    best.store_id,
+    best_discount_pct: bestDiscount || null,
+    store_count:      prices.length,
+    prices:           pricesMap,
+    specs:            specs,
+    url:              best.product_url || null,
   };
 }).sort((a, b) => a.best_price - b.best_price);
 
