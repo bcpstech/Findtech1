@@ -601,29 +601,14 @@ nav{display:flex;align-items:center;gap:2px}
       </div>
     </div>
 
-    <!-- CATEGORÍAS (arriba de productos destacados) -->
+    <!-- CATEGORÍAS -->
     <div class="featured-header" style="margin-bottom:14px">
       <div class="featured-title">📦 Categorías</div>
     </div>
     <div id="home-cats-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;margin-bottom:32px"></div>
 
-    <!-- PRODUCTOS DESTACADOS — slider 18 productos, 6 por fila -->
-    <div class="featured-section">
-      <div class="featured-header">
-        <div class="featured-title">🔥 Productos Destacados</div>
-        <button class="featured-refresh" onclick="renderFeatured()">↻ Actualizar</button>
-      </div>
-      <div style="position:relative">
-        <button class="slider-arrow prev" id="feat-prev" onclick="slideMove('featured-track',-1)">‹</button>
-        <div class="slider-wrap">
-          <div class="slider-track" id="featured-track"></div>
-        </div>
-        <button class="slider-arrow next" id="feat-next" onclick="slideMove('featured-track',1)">›</button>
-      </div>
-    </div>
-
     <!-- BANNERS x3 -->
-    <div class="banners-row" id="banners-row">
+    <div class="banners-row" id="banners-row" style="margin-bottom:32px">
       <div class="banner-slot" id="banner-1" onclick="filterCat('gpu');showPage('hardware')" style="cursor:pointer;background:linear-gradient(135deg,rgba(59,130,246,0.18),rgba(6,182,212,0.10));border-color:rgba(59,130,246,0.35)">
         <div style="text-align:center;padding:8px">
           <div style="font-size:44px;margin-bottom:10px;filter:drop-shadow(0 4px 8px rgba(59,130,246,0.4))">🎮</div>
@@ -650,6 +635,20 @@ nav{display:flex;align-items:center;gap:2px}
       </div>
     </div>
 
+    <!-- PRODUCTOS DESTACADOS -->
+    <div class="featured-section">
+      <div class="featured-header">
+        <div class="featured-title">🔥 Productos Destacados</div>
+        <button class="featured-refresh" onclick="renderFeatured()">↻ Actualizar</button>
+      </div>
+      <div style="position:relative">
+        <button class="slider-arrow prev" id="feat-prev" onclick="slideMove('featured-track',-1)">‹</button>
+        <div class="slider-wrap">
+          <div class="slider-track" id="featured-track"></div>
+        </div>
+        <button class="slider-arrow next" id="feat-next" onclick="slideMove('featured-track',1)">›</button>
+      </div>
+    </div>
     <!-- PCs ARMADOS — slider 12 productos, 6 por fila -->
     <div class="featured-section">
       <div class="featured-header">
