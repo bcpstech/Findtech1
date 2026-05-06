@@ -958,7 +958,13 @@ function getPrice(p) {
 function getCardPrice(p) {
   const base = getPrice(p);
   if (!base) return 0;
-  return Math.round(base * 1.0526);
+  const FACTORS = {
+    spdigital:1.045, cg:1.0526, centralgamer:1.0526,
+    n1g:1.053, winpy:1.053, alltec:1.03,
+    centrale:1.055, pcexpress:1.03,
+  };
+  const factor = FACTORS[p._bestStoreId] || 1.03;
+  return Math.round(base * factor);
 }
 
 function getBestStore(p) {
@@ -1400,19 +1406,20 @@ async function loadData() {
     }
 
     PRODUCTS = apiProds.map(ap => ({
-      id:             ap.id,
-      category:       ap.category_id,
-      brand:          ap.brand||'Genérico',
-      name:           ap.name,
-      imageUrl:       ap.image_url||null,
-      tags:           ap.tags||[],
-      specs:          ap.specs||{},
-      prices:         ap.prices||{},
-      url:            ap.url||null,
-      _bestPrice:     ap.best_price,
-      _bestStoreId:   ap.best_store_id,
-      _bestStoreName: ap.best_store_name,
-      _storeCount:    ap.store_count||1,
+      id:               ap.id,
+      category:         ap.category_id,
+      brand:            ap.brand||'Genérico',
+      name:             ap.name,
+      imageUrl:         ap.image_url||null,
+      tags:             ap.tags||[],
+      specs:            ap.specs||{},
+      prices:           ap.prices||{},
+      url:              ap.url||null,
+      _bestPrice:       ap.best_price,
+      _bestStoreId:     ap.best_store_id,
+      _bestStoreName:   ap.best_store_name,
+      _storeCount:      ap.store_count||1,
+      best_discount_pct: ap.best_discount_pct||null,
     }));
 
     console.log(`[FindTech] ${PRODUCTS.length} productos cargados`);
