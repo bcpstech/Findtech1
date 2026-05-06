@@ -277,6 +277,7 @@ nav{display:flex;align-items:center;gap:2px}
 .slider-track{display:flex;gap:14px;transition:transform .35s ease;will-change:transform}
 .slider-track .featured-card{flex:0 0 calc((100% - 5*14px)/6);min-width:160px}
 .slider-track .pc-card{flex:0 0 calc((100% - 5*14px)/6);min-width:160px}
+.slider-track .cat-slide-card{flex:0 0 calc((100% - 6*14px)/7);min-width:120px}
 .slider-arrow{position:absolute;top:50%;transform:translateY(-50%);width:34px;height:34px;border-radius:50%;background:var(--bg2);border:1px solid var(--border2);color:var(--text2);font-size:16px;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:5;transition:all .15s}
 .slider-arrow:hover{border-color:var(--accent);color:var(--accent)}
 .slider-arrow.prev{left:-12px}
@@ -334,6 +335,7 @@ nav{display:flex;align-items:center;gap:2px}
 @media(max-width:900px){
   .slider-track .featured-card{flex:0 0 calc((100% - 3*14px)/4)}
   .slider-track .pc-card{flex:0 0 calc((100% - 3*14px)/4)}
+  .slider-track .cat-slide-card{flex:0 0 calc((100% - 4*14px)/5)}
   .contact-grid{grid-template-columns:1fr}
   .banners-row{grid-template-columns:1fr}
 }
@@ -350,6 +352,7 @@ nav{display:flex;align-items:center;gap:2px}
   .home-hero{flex-direction:column;text-align:center}
   .slider-track .featured-card{flex:0 0 calc((100% - 2*14px)/3)}
   .slider-track .pc-card{flex:0 0 calc((100% - 2*14px)/3)}
+  .slider-track .cat-slide-card{flex:0 0 calc((100% - 3*14px)/4)}
   .banners-row{grid-template-columns:1fr 1fr}
 
   /* Precios: precio cash más pequeño, todo cabe en una fila */
@@ -367,6 +370,7 @@ nav{display:flex;align-items:center;gap:2px}
   .prod-grid{grid-template-columns:1fr 1fr}
   .slider-track .featured-card{flex:0 0 calc((100% - 14px)/2)}
   .slider-track .pc-card{flex:0 0 calc((100% - 14px)/2)}
+  .slider-track .cat-slide-card{flex:0 0 calc((100% - 14px)/3);min-width:100px}
   .banners-row{grid-template-columns:1fr}
   .hero-title{font-size:24px}
 
@@ -601,11 +605,17 @@ nav{display:flex;align-items:center;gap:2px}
       </div>
     </div>
 
-    <!-- CATEGORÍAS -->
+    <!-- CATEGORÍAS SLIDER -->
     <div class="featured-header" style="margin-bottom:14px">
       <div class="featured-title">📦 Categorías</div>
     </div>
-    <div id="home-cats-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;margin-bottom:32px"></div>
+    <div style="position:relative;margin-bottom:32px">
+      <button class="slider-arrow prev" id="cat-prev" onclick="slideMove('cat-track',-1)">‹</button>
+      <div class="slider-wrap">
+        <div class="slider-track" id="cat-track"></div>
+      </div>
+      <button class="slider-arrow next" id="cat-next" onclick="slideMove('cat-track',1)">›</button>
+    </div>
 
     <!-- BANNERS x3 -->
     <div class="banners-row" id="banners-row" style="margin-bottom:32px">
@@ -2261,36 +2271,56 @@ function renderPcSlider() {
 }
 
 function renderHomeCats() {
-  const grid = document.getElementById('home-cats-grid');
-  if (!grid || !PRODUCTS.length) return;
+  const track = document.getElementById('cat-track');
+  if (!track || !PRODUCTS.length) return;
+  sliderState['cat-track'] = 0;
+  track.style.transform = 'translateX(0)';
+
+  const CAT_COLORS = {
+    gpu:     { bg:'rgba(139,92,246,0.12)', border:'rgba(139,92,246,0.3)', icon:'#a78bfa' },
+    cpu:     { bg:'rgba(239,68,68,0.12)',  border:'rgba(239,68,68,0.3)',  icon:'#f87171' },
+    ram:     { bg:'rgba(59,130,246,0.12)', border:'rgba(59,130,246,0.3)', icon:'#60a5fa' },
+    storage: { bg:'rgba(6,182,212,0.12)',  border:'rgba(6,182,212,0.3)',  icon:'#22d3ee' },
+    cooling: { bg:'rgba(14,165,233,0.12)', border:'rgba(14,165,233,0.3)', icon:'#38bdf8' },
+    mobo:    { bg:'rgba(245,158,11,0.12)', border:'rgba(245,158,11,0.3)', icon:'#fbbf24' },
+    psu:     { bg:'rgba(234,179,8,0.12)',  border:'rgba(234,179,8,0.3)',  icon:'#facc15' },
+    case:    { bg:'rgba(107,114,128,0.12)',border:'rgba(107,114,128,0.3)',icon:'#9ca3af' },
+    pc:      { bg:'rgba(34,197,94,0.12)',  border:'rgba(34,197,94,0.3)',  icon:'#4ade80' },
+    monitor: { bg:'rgba(168,85,247,0.12)', border:'rgba(168,85,247,0.3)', icon:'#c084fc' },
+    periph:  { bg:'rgba(236,72,153,0.12)', border:'rgba(236,72,153,0.3)', icon:'#f472b6' },
+  };
+
   const catList = Object.entries(CATS).filter(([id]) => id !== 'other');
-  grid.innerHTML = catList.map(([id, cat]) => {
+  const items = catList.map(([id, cat]) => {
     const cnt = PRODUCTS.filter(p => p.category === id).length;
-    if (!cnt) return '';
-    const svgIcon = CAT_ICONS[id] || `<span style="font-size:24px">${cat.icon}</span>`;
-    return `<div class="home-cat-card" data-cat="${id}"
-      style="background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:16px;cursor:pointer;text-align:center;transition:all .2s;display:flex;flex-direction:column;align-items:center;gap:8px">
-      <div class="cat-svg" style="width:36px;height:36px;color:var(--text3);transition:color .2s">${svgIcon}</div>
-      <div style="font-size:12px;font-weight:600;color:var(--text);line-height:1.3">${cat.name}</div>
+    if (!cnt) return null;
+    return { id, cat, cnt };
+  }).filter(Boolean);
+
+  track.innerHTML = items.map(({ id, cat, cnt }) => {
+    const svg = CAT_ICONS[id] || '';
+    const col = CAT_COLORS[id] || { bg:'rgba(59,130,246,0.12)', border:'rgba(59,130,246,0.3)', icon:'#60a5fa' };
+    return `<div class="cat-slide-card" data-cat="${id}" data-color="${col.icon}"
+      style="background:${col.bg};border:1px solid ${col.border};border-radius:14px;
+             padding:18px 10px;cursor:pointer;text-align:center;transition:all .2s;
+             display:flex;flex-direction:column;align-items:center;gap:10px">
+      <div style="width:40px;height:40px;color:${col.icon}">${svg}</div>
+      <div style="font-size:11px;font-weight:700;color:var(--text);line-height:1.3">${cat.name}</div>
       <div style="font-size:10px;color:var(--text3)">${cnt} productos</div>
     </div>`;
   }).join('');
 
-  // Event listeners sin conflicto de comillas
-  grid.querySelectorAll('.home-cat-card').forEach(el => {
+  track.querySelectorAll('.cat-slide-card').forEach(el => {
     const id = el.dataset.cat;
+    const col = el.dataset.color;
     el.addEventListener('click', () => { filterCat(id); showPage('hardware'); });
     el.addEventListener('mouseover', () => {
-      el.style.borderColor = 'var(--accent)';
-      el.style.transform = 'translateY(-2px)';
-      const svg = el.querySelector('.cat-svg');
-      if (svg) svg.style.color = 'var(--accent)';
+      el.style.transform = 'translateY(-3px)';
+      el.style.boxShadow = `0 8px 24px rgba(0,0,0,0.15)`;
     });
     el.addEventListener('mouseout', () => {
-      el.style.borderColor = 'var(--border)';
       el.style.transform = 'none';
-      const svg = el.querySelector('.cat-svg');
-      if (svg) svg.style.color = 'var(--text3)';
+      el.style.boxShadow = 'none';
     });
   });
 }
