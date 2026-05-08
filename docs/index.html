@@ -1854,37 +1854,42 @@ function openOpinion() {
   const p = currentOpinionProduct;
   if (p) {
     document.getElementById('opinion-product-ref').innerHTML =
-      `<strong>Producto:</strong> ${p.name} &nbsp;|&nbsp; <strong>Categoría:</strong> ${CATS[p.category]?.name || p.category}`;
+      `<strong>${p.name}</strong><br>${CATS[p.category]?.name || p.category}`;
+  }
+  // Poblar tiendas
+  const sel = document.getElementById('op-tienda');
+  if (sel && STORES.length) {
+    sel.innerHTML = '<option value="">Seleccionar tienda...</option>' +
+      STORES.map(s => `<option value="${s.id}">${s.name}</option>`).join('');
   }
   // Reset form
   document.getElementById('opinion-body').style.display = '';
-  document.getElementById('opinion-success').classList.remove('show');
+  document.getElementById('opinion-success').style.display = 'none';
   document.getElementById('op-nombre').value = '';
   document.getElementById('op-correo').value = '';
-  document.getElementById('op-telefono').value = '';
   document.getElementById('op-tienda').value = '';
-  document.getElementById('op-pedido').value = '';
   document.getElementById('op-comment-tienda').value = '';
   document.getElementById('op-comment-producto').value = '';
-  document.getElementById('op-boleta').value = '';
-  document.getElementById('fu-boleta-name').textContent = '';
+  const fb = document.getElementById('op-feedback');
+  if (fb) fb.style.display = 'none';
   setRating(0);
-  modal.classList.add('open');
+  modal.style.display = 'flex';
   document.body.style.overflow = 'hidden';
 }
 
 function closeOpinion() {
-  document.getElementById('opinion-modal').classList.remove('open');
+  document.getElementById('opinion-modal').style.display = 'none';
   document.body.style.overflow = '';
 }
 
 function setRating(n) {
   currentRating = n;
   const labels = ['Sin calificar','Muy malo','Malo','Regular','Bueno','Excelente'];
-  document.getElementById('rating-label').textContent = n ? labels[n] : 'Sin calificar';
+  const lbl = document.getElementById('rating-label');
+  if (lbl) lbl.textContent = n ? labels[n] : 'Sin calificar';
   for (let i = 1; i <= 5; i++) {
     const btn = document.getElementById('rb-' + i);
-    btn.classList.toggle('active', i <= n);
+    if (btn) btn.style.opacity = i <= n ? '1' : '0.3';
   }
 }
 
@@ -1897,55 +1902,46 @@ function updateFileLabel(inputId, labelId) {
 }
 
 async function submitOpinion() {
-  const nombre = document.getElementById('op-nombre').value.trim();
-  const correo = document.getElementById('op-correo').value.trim();
-  const tienda = document.getElementById('op-tienda').value;
-  
-  if (!nombre || !correo || !tienda) {
-    showToast('Por favor completa los campos obligatorios (*)','error');
+  const nombre  = document.getElementById('op-nombre').value.trim();
+  const correo  = document.getElementById('op-correo').value.trim();
+  const tienda  = document.getElementById('op-tienda').value;
+  const comment = document.getElementById('op-comment-producto').value.trim();
+  const fb      = document.getElementById('op-feedback');
+
+  if (!nombre || !tienda || !comment) {
+    if (fb) { fb.style.display='block'; fb.style.background='rgba(239,68,68,0.1)'; fb.style.color='#f87171'; fb.textContent='Por favor completa: nombre, tienda y opinión del producto.'; }
     return;
   }
 
-  const btn = document.getElementById('op-submit');
-  btn.disabled = true;
-  btn.textContent = 'Enviando...';
+  // Deshabilitar botón de envío
+  const btns = document.querySelectorAll('#opinion-modal button[onclick="submitOpinion()"]');
+  btns.forEach(b => { b.disabled=true; b.textContent='Enviando...'; });
 
-  // Convertir boleta a base64 si existe
-  let boletaB64 = '';
-  let boletaNombre = '';
-  const boletaFile = document.getElementById('op-boleta').files[0];
-  if (boletaFile) {
-    boletaB64 = await fileToBase64(boletaFile);
-    boletaNombre = boletaFile.name;
-  }
-
-  const producto = currentOpinionProduct;
-  const ratingStars = currentRating ? '🖥️'.repeat(currentRating) + ' (' + currentRating + '/5)' : 'Sin calificar';
+  const producto    = currentOpinionProduct;
+  const ratingStars = currentRating ? '⭐'.repeat(currentRating) + ` (${currentRating}/5)` : 'Sin calificar';
+  const tiendaNombre = STORES.find(s => s.id === tienda)?.name || tienda;
 
   const templateParams = {
     from_name:        nombre,
-    from_email:       correo,
-    telefono:         document.getElementById('op-telefono').value || 'No indicado',
-    tienda:           tienda,
-    pedido:           document.getElementById('op-pedido').value || 'No indicado',
+    from_email:       correo || 'No indicado',
+    tienda:           tiendaNombre,
     producto_nombre:  producto ? producto.name : 'No especificado',
     producto_cat:     producto ? (CATS[producto.category]?.name || producto.category) : '',
+    comment_producto: comment,
     comment_tienda:   document.getElementById('op-comment-tienda').value || 'Sin comentario',
-    comment_producto: document.getElementById('op-comment-producto').value || 'Sin comentario',
     calificacion:     ratingStars,
-    boleta_nombre:    boletaNombre || 'No adjuntada',
     to_email:         'contacto.findtech@gmail.com',
+    reply_to:         correo || 'contacto.findtech@gmail.com',
   };
 
   try {
     await emailjs.send('service_626rrfu', 'template_y5vz2z8', templateParams);
     document.getElementById('opinion-body').style.display = 'none';
-    document.getElementById('opinion-success').classList.add('show');
+    document.getElementById('opinion-success').style.display = 'block';
   } catch (err) {
     console.error('EmailJS error:', err);
-    showToast('Error al enviar. Intenta de nuevo.','error');
-    btn.disabled = false;
-    btn.textContent = 'Enviar opinión';
+    if (fb) { fb.style.display='block'; fb.style.background='rgba(239,68,68,0.1)'; fb.style.color='#f87171'; fb.textContent='Error al enviar. Intenta de nuevo o escríbenos a contacto.findtech@gmail.com'; }
+    btns.forEach(b => { b.disabled=false; b.textContent='Enviar opinión'; });
   }
 }
 
@@ -2477,17 +2473,71 @@ async function sendContact() {
 <div id="sidebar-overlay" style="display:none"></div>
 <div id="stores-detail" style="display:none"></div>
 <div id="search-wrap" style="display:none"></div>
-<div id="opinion-modal" style="display:none">
-  <div id="opinion-body">
-    <div id="opinion-product-ref"></div>
-    <div id="opinion-success"></div>
-    <input id="op-nombre"><input id="op-correo"><input id="op-telefono">
-    <select id="op-tienda"></select><input id="op-pedido">
-    <textarea id="op-comment-producto"></textarea>
-    <textarea id="op-comment-tienda"></textarea>
-    <select id="op-boleta"></select>
-    <input id="fu-boleta-name"><span id="rating-label"></span>
-    <button id="op-submit"></button>
+<div id="opinion-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.75);z-index:600;align-items:center;justify-content:center;padding:16px" onclick="if(event.target===this)closeOpinion()">
+  <div style="background:var(--bg2);border:1px solid var(--border2);border-radius:16px;padding:28px;width:100%;max-width:500px;max-height:90vh;overflow-y:auto;box-shadow:0 24px 80px rgba(0,0,0,0.6);position:relative">
+    <button onclick="closeOpinion()" style="position:absolute;top:16px;right:16px;background:none;border:none;font-size:18px;color:var(--text3);cursor:pointer;line-height:1">✕</button>
+    <h3 style="font-size:17px;font-weight:700;color:var(--text);margin-bottom:6px">✍️ Dar opinión</h3>
+    <div id="opinion-product-ref" style="font-size:12px;color:var(--text3);margin-bottom:20px;line-height:1.5"></div>
+
+    <div id="opinion-body">
+      <!-- Calificación -->
+      <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:6px">Calificación</label>
+      <div style="display:flex;gap:6px;margin-bottom:4px">
+        <button id="rb-1" onclick="setRating(1)" style="background:none;border:none;font-size:26px;cursor:pointer;transition:transform .1s;padding:0">⭐</button>
+        <button id="rb-2" onclick="setRating(2)" style="background:none;border:none;font-size:26px;cursor:pointer;transition:transform .1s;padding:0">⭐</button>
+        <button id="rb-3" onclick="setRating(3)" style="background:none;border:none;font-size:26px;cursor:pointer;transition:transform .1s;padding:0">⭐</button>
+        <button id="rb-4" onclick="setRating(4)" style="background:none;border:none;font-size:26px;cursor:pointer;transition:transform .1s;padding:0">⭐</button>
+        <button id="rb-5" onclick="setRating(5)" style="background:none;border:none;font-size:26px;cursor:pointer;transition:transform .1s;padding:0">⭐</button>
+        <span id="rating-label" style="font-size:12px;color:var(--text3);align-self:center;margin-left:6px">Sin calificar</span>
+      </div>
+
+      <!-- Tienda -->
+      <label style="font-size:12px;color:var(--text3);display:block;margin:12px 0 4px">Tienda donde compraste</label>
+      <select id="op-tienda" style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;font-size:13px;color:var(--text);font-family:inherit;margin-bottom:12px">
+        <option value="">Seleccionar tienda...</option>
+      </select>
+
+      <!-- Nombre y correo -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px">
+        <div>
+          <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:4px">Nombre</label>
+          <input id="op-nombre" type="text" placeholder="Tu nombre" style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;font-size:13px;color:var(--text);font-family:inherit;box-sizing:border-box">
+        </div>
+        <div>
+          <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:4px">Correo (opcional)</label>
+          <input id="op-correo" type="email" placeholder="tu@correo.cl" style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;font-size:13px;color:var(--text);font-family:inherit;box-sizing:border-box">
+        </div>
+      </div>
+
+      <!-- Opinión del producto -->
+      <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:4px">Opinión sobre el producto</label>
+      <textarea id="op-comment-producto" rows="3" placeholder="¿Qué te pareció el producto?" style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;font-size:13px;color:var(--text);font-family:inherit;resize:vertical;margin-bottom:12px;box-sizing:border-box"></textarea>
+
+      <!-- Opinión de la tienda -->
+      <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:4px">Opinión sobre la tienda (opcional)</label>
+      <textarea id="op-comment-tienda" rows="2" placeholder="¿Cómo fue tu experiencia de compra?" style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;font-size:13px;color:var(--text);font-family:inherit;resize:vertical;margin-bottom:16px;box-sizing:border-box"></textarea>
+
+      <!-- Campos ocultos para compatibilidad -->
+      <input id="op-telefono" type="hidden">
+      <input id="op-pedido" type="hidden">
+      <input id="op-boleta" type="hidden">
+      <span id="fu-boleta-name"></span>
+
+      <div id="op-feedback" style="display:none;font-size:13px;margin-bottom:12px;padding:10px 14px;border-radius:8px"></div>
+
+      <div style="display:flex;gap:10px;justify-content:flex-end">
+        <button onclick="closeOpinion()" style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:9px 18px;font-size:13px;color:var(--text2);cursor:pointer;font-family:inherit">Cancelar</button>
+        <button onclick="submitOpinion()" style="background:var(--accent);border:none;border-radius:8px;padding:9px 18px;font-size:13px;color:#fff;cursor:pointer;font-weight:600;font-family:inherit">Enviar opinión</button>
+      </div>
+    </div>
+
+    <!-- Estado de éxito -->
+    <div id="opinion-success" style="display:none;text-align:center;padding:20px 0">
+      <div style="font-size:48px;margin-bottom:12px">🎉</div>
+      <div style="font-size:16px;font-weight:700;color:var(--text);margin-bottom:6px">¡Gracias por tu opinión!</div>
+      <div style="font-size:13px;color:var(--text3);margin-bottom:20px">Tu comentario ayuda a otros usuarios.</div>
+      <button onclick="closeOpinion()" style="background:var(--accent);border:none;border-radius:8px;padding:10px 24px;font-size:13px;color:#fff;cursor:pointer;font-weight:600;font-family:inherit">Cerrar</button>
+    </div>
   </div>
 </div>
 <div id="modal" style="display:none">
