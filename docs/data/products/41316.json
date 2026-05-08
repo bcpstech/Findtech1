@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-05-05 12:33:05",
-  "updated_at": "2026-05-06 03:14:00",
+  "updated_at": "2026-05-08 22:24:15",
   "prices": [
     {
       "product_id": 41316,
@@ -57,37 +57,18 @@
       "full_url": "https://www.spdigital.cl"
     },
     {
-      "product_id": 2245,
-      "store_id": "dust2",
-      "price": 53990,
-      "price_card": 55610,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/fuente-de-poder-msi-mag-a650bn-pcie5-iii-650w-80plus-bronze/",
-      "store_name": "Dust2",
-      "price_specs": {
-        "Efectivo/Transferencia": "$53.990",
-        "Tarjeta crédito/débito": "$55.610"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 1718,
+      "product_id": 1689,
       "store_id": "centrale",
-      "price": 57770,
-      "price_card": 60947,
+      "price": 53620,
+      "price_card": 56569,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-650w-msi-mag-a650bn-no-modular-80-bronze/",
+      "product_url": "https://centrale.cl/producto/fuente-de-poder-650w-msi-mag-a650bn-pcie-iii-80-plus-bronze-pcie-5-1-atx-3-1/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$57.770",
-        "Tarjetas de Crédito / Débito": "$60.947"
+        "Transferencia / Efectivo": "$53.620",
+        "Tarjetas de Crédito / Débito": "$56.569"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -126,7 +107,13 @@
       "store_name": "MyShop",
       "date": "2026-05-06",
       "price": 49500
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-08",
+      "price": 49500
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

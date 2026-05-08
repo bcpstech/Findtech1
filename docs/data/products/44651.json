@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-05-05 21:31:17",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 44651,
       "store_id": "winpy",
-      "price": 209760,
-      "price_card": 220877,
+      "price": 204896,
+      "price_card": 215755,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-tuf-gaming-b760m-plus-wifi-ii-lga1700-ddr5-4800-7800mhz-m-2-x3-microatx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$209.760",
-        "Otros medios de pago": "$220.877"
+        "Transferencia o Depósito": "$204.896",
+        "Otros medios de pago": "$215.755"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -70,7 +70,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 209760
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 204896
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

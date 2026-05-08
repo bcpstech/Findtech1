@@ -11,26 +11,26 @@
     "Capacidad": "8 TB",
     "Interfaz": "Serial ATA III",
     "Factor de forma": "3.5\"",
-    "Efectivo/Transferencia": "$314.976",
-    "Tarjeta crédito/débito": "$329.150"
+    "Efectivo/Transferencia": "$252.191",
+    "Tarjeta crédito/débito": "$263.540"
   },
   "tags": [],
   "created_at": "2026-05-01 00:28:19",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 16364,
       "store_id": "spdigital",
-      "price": 314976,
-      "price_card": 329150,
+      "price": 252191,
+      "price_card": 263540,
       "price_normal": 314980,
-      "discount_pct": null,
+      "discount_pct": 20,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/western-digital-wd-red-plus-nas-hard-drive-hard-drive-internal-hard-drive-8-tb-25-7200-r",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$314.976",
-        "Webpay / Tarjeta": "$329.150"
+        "Transferencia / Efectivo": "$252.191",
+        "Webpay / Tarjeta": "$263.540"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,7 +68,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-06",
       "price": 314976
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-08",
+      "price": 252191
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

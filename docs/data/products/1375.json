@@ -11,31 +11,50 @@
     "Socket": "LGA1700",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR4",
-    "Transferencia / Efectivo": "$73.730",
-    "Tarjeta crédito/débito": "$77.790"
+    "Transferencia / Efectivo": "$72.140",
+    "Tarjeta crédito/débito": "$76.110"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 1375,
       "store_id": "centrale",
-      "price": 73730,
-      "price_card": 77785,
+      "price": 72140,
+      "price_card": 76108,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-h610m-f-d4-lga1700-micro-atx-ddr4-m-2-pcie-4-0/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$73.730",
-        "Tarjetas de Crédito / Débito": "$77.785"
+        "Transferencia / Efectivo": "$72.140",
+        "Tarjetas de Crédito / Débito": "$76.108"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 31925,
+      "store_id": "winpy",
+      "price": 77824,
+      "price_card": 81949,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-h610m-f-d4-r2-0-lga1700-ddr4-3200mhz-m-2-hdmi-micro-atx/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Transferencia o Depósito": "$77.824",
+        "Otros medios de pago": "$81.949"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     },
     {
       "product_id": 9463,
@@ -74,25 +93,6 @@
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
-    },
-    {
-      "product_id": 31925,
-      "store_id": "winpy",
-      "price": 85120,
-      "price_card": 89631,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-h610m-f-d4-r2-0-lga1700-ddr4-3200mhz-m-2-hdmi-micro-atx/",
-      "store_name": "Winpy",
-      "price_specs": {
-        "Transferencia o Depósito": "$85.120",
-        "Otros medios de pago": "$89.631"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
     }
   ],
   "history": [
@@ -131,7 +131,13 @@
       "store_name": "Centrale",
       "date": "2026-05-06",
       "price": 73730
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-08",
+      "price": 72140
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

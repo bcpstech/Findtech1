@@ -8,33 +8,74 @@
   "image_url": "https://images.findtech.cl/products/disco-estado-solido-kingston-a400-de-240gb-ssd-sata.jpg",
   "description": null,
   "specs": {
-    "Capacidad": "240 GB",
+    "Capacidad": "960 GB",
     "Interfaz": "SATA III",
-    "Efectivo / Transferencia": "$87.552",
-    "Tarjeta crédito/débito": "$92.192"
+    "Factor de forma": "2.5\"",
+    "Lectura": "500 MB/s",
+    "Certificación": "CE, FCC",
+    "Efectivo/Transferencia": "$189.990",
+    "Tarjeta crédito/débito": "$198.540"
   },
   "tags": [],
   "created_at": "2026-05-04 01:25:11",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 32003,
       "store_id": "winpy",
-      "price": 87552,
-      "price_card": 92192,
+      "price": 85728,
+      "price_card": 90272,
       "price_normal": null,
-      "discount_pct": 24,
+      "discount_pct": 26,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/disco-estado-solido-kingston-a400-de-240gb-ssd-sata/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$87.552",
-        "Otros medios de pago": "$92.192"
+        "Transferencia o Depósito": "$85.728",
+        "Otros medios de pago": "$90.272"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1603,
+      "store_id": "centrale",
+      "price": 92680,
+      "price_card": 97777,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/disco-ssd-240gb-kingston-a400-2-5-sata3/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$92.680",
+        "Tarjetas de Crédito / Débito": "$97.777"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9529,
+      "store_id": "spdigital",
+      "price": 189990,
+      "price_card": 198540,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/unidad-ssd-kingston-ssdnow-a400-960gb-25-lectura-500mbs-escritura-450mbs",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$189.990",
+        "Webpay / Tarjeta": "$198.540"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -49,7 +90,19 @@
       "store_name": "Winpy",
       "date": "2026-05-05",
       "price": 87552
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-06",
+      "price": 87552
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 85728
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-05-08"
 }

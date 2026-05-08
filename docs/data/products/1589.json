@@ -11,12 +11,12 @@
     "Capacidad": "6 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$232.490",
-    "Tarjeta crédito/débito": "$245.280"
+    "Transferencia / Efectivo": "$229.490",
+    "Tarjeta crédito/débito": "$242.110"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 1589,
@@ -99,7 +99,13 @@
       "store_name": "Centrale",
       "date": "2026-05-06",
       "price": 124310
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-08",
+      "price": 124310
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

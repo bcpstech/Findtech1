@@ -12,15 +12,15 @@
     "Tipo memoria": "GDDR7",
     "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$409.990",
-    "Tarjeta crédito/débito": "$432.539",
+    "Efectivo / Transferencia": "$403.990",
+    "Tarjeta crédito/débito": "$426.209",
     "Garantía": "6 meses",
     "SKU": "38283",
     "Part Number": "912-V537-017"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:00",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31854,
@@ -44,16 +44,16 @@
     {
       "product_id": 19816,
       "store_id": "myshop",
-      "price": 409990,
-      "price_card": 422290,
-      "price_normal": 432539,
+      "price": 403990,
+      "price_card": 416110,
+      "price_normal": 426209,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/rtx-5060-8g-ventus-2x-oc-p38283",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$409.990",
-        "Tarjeta crédito/débito": "$422.290"
+        "Efectivo/Transferencia": "$403.990",
+        "Tarjeta crédito/débito": "$416.110"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -117,7 +117,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 399456
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 399456
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

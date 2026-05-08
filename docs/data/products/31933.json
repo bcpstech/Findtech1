@@ -18,21 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:44",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31933,
       "store_id": "winpy",
-      "price": 94240,
-      "price_card": 99235,
+      "price": 91808,
+      "price_card": 96674,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b760m-a-d4-csm-lga1700-ddr4-x4-m-2-x2-micro-atx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$94.240",
-        "Otros medios de pago": "$99.235"
+        "Transferencia o Depósito": "$91.808",
+        "Otros medios de pago": "$96.674"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -61,16 +61,16 @@
     {
       "product_id": 1377,
       "store_id": "centrale",
-      "price": 125400,
-      "price_card": 132297,
+      "price": 129590,
+      "price_card": 136717,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b760m-a-lga1700-mb-prime-b760m-a-lga1700-mb/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$125.400",
-        "Tarjetas de Crédito / Débito": "$132.297"
+        "Transferencia / Efectivo": "$129.590",
+        "Tarjetas de Crédito / Débito": "$136.717"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -95,6 +95,25 @@
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 32965,
+      "store_id": "infor-ingen",
+      "price": 149900,
+      "price_card": 154397,
+      "price_normal": 158894,
+      "discount_pct": 6,
+      "stock": "in_stock",
+      "product_url": "https://store.infor-ingen.com/producto/m-b-asus-prime-b760m-a/",
+      "store_name": "Infor-Ingen",
+      "price_specs": {
+        "Efectivo/Transferencia": "$149.900",
+        "Tarjeta crédito/débito": "$154.397"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
     },
     {
       "product_id": 38887,
@@ -134,7 +153,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 94240
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 91808
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

@@ -15,15 +15,15 @@
   },
   "tags": [],
   "created_at": "2026-04-26 16:25:52",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 317,
       "store_id": "centrale",
       "price": 196300,
       "price_card": 207097,
-      "price_normal": 221210,
-      "discount_pct": 11,
+      "price_normal": 266830,
+      "discount_pct": 26,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-12400-2-5ghz-18mb-6-cores-lga-1700/",
       "store_name": "Centrale",
@@ -79,7 +79,13 @@
       "store_name": "Centrale",
       "date": "2026-05-06",
       "price": 196300
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-08",
+      "price": 196300
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

@@ -25,7 +25,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:52",
-  "updated_at": "2026-05-06 03:05:02",
+  "updated_at": "2026-05-08 22:13:47",
   "prices": [
     {
       "product_id": 1976,
@@ -85,25 +85,6 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 281,
-      "store_id": "centrale",
-      "price": 366790,
-      "price_card": 386963,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-9700x-8-cores-16-threads-3-8-a-5-5-ghz-65w/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$366.790",
-        "Tarjetas de Crédito / Débito": "$386.963"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
       "product_id": 1138,
       "store_id": "cg",
       "price": 375990,
@@ -121,6 +102,25 @@
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 281,
+      "store_id": "centrale",
+      "price": 377530,
+      "price_card": 398294,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-9700x-8-cores-16-threads-3-8-a-5-5-ghz-65w/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$377.530",
+        "Tarjetas de Crédito / Débito": "$398.294"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 2815,
@@ -243,7 +243,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-06",
       "price": 389995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-08",
+      "price": 389995
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

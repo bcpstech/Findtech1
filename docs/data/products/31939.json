@@ -11,31 +11,109 @@
     "Socket": "AM4",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR4",
-    "Efectivo / Transferencia": "$105.792",
-    "Tarjeta crédito/débito": "$111.399"
+    "WiFi": "Integrado",
+    "Chipset": "AMD B550",
+    "Efectivo/Transferencia": "$109.995",
+    "Tarjeta crédito/débito": "$114.945"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:56",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31939,
       "store_id": "winpy",
-      "price": 105792,
-      "price_card": 111399,
+      "price": 102752,
+      "price_card": 108198,
       "price_normal": null,
-      "discount_pct": 24,
+      "discount_pct": 27,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b550m-a-ac-am4-ddr4-2133-4600-mhz-microatx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$105.792",
-        "Otros medios de pago": "$111.399"
+        "Transferencia o Depósito": "$102.752",
+        "Otros medios de pago": "$108.198"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1366,
+      "store_id": "centrale",
+      "price": 104590,
+      "price_card": 110342,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b550m-a-ac-micro-atx-am4-ddr4-pcie-4-0-wifi-bt/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$104.590",
+        "Tarjetas de Crédito / Débito": "$110.342"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9424,
+      "store_id": "spdigital",
+      "price": 109995,
+      "price_card": 114945,
+      "price_normal": 179990,
+      "discount_pct": 39,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-b550m-a-ac-socket-am4-factor-matx-aura-sync-rgb",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$109.995",
+        "Webpay / Tarjeta": "$114.945"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 33119,
+      "store_id": "infor-ingen",
+      "price": 118900,
+      "price_card": 122467,
+      "price_normal": 126034,
+      "discount_pct": 6,
+      "stock": "in_stock",
+      "product_url": "https://store.infor-ingen.com/producto/m-b-asus-prime-b550m-a-ac/",
+      "store_name": "Infor-Ingen",
+      "price_specs": {
+        "Efectivo/Transferencia": "$118.900",
+        "Tarjeta crédito/débito": "$122.467"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
+    },
+    {
+      "product_id": 23524,
+      "store_id": "alltec",
+      "price": 135900,
+      "price_card": 139977,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/para-amd/1823-mb-asus-prime-b550m-a-ac-am4-ddr4-ryzen-5000-wifi-ac-bt-50.html",
+      "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$135.900",
+        "Tarjeta crédito/débito": "$139.977"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -50,7 +128,19 @@
       "store_name": "Winpy",
       "date": "2026-05-05",
       "price": 105792
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-06",
+      "price": 105792
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 102752
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-05-08"
 }

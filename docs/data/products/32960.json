@@ -8,13 +8,17 @@
   "image_url": "https://images.findtech.cl/products/m-b-msi-pro-b760m-a-wifi.png",
   "description": null,
   "specs": {
+    "Socket": "LGA 1700",
+    "Factor de forma": "micro ATX",
+    "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Efectivo / Transferencia": "$139.900",
-    "Tarjeta crédito/débito": "$144.097"
+    "Chipset": "Intel B760",
+    "Efectivo/Transferencia": "$169.995",
+    "Tarjeta crédito/débito": "$177.645"
   },
   "tags": [],
   "created_at": "2026-05-04 02:42:31",
-  "updated_at": "2026-05-08 21:58:19",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 32960,
@@ -34,6 +38,44 @@
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
+    },
+    {
+      "product_id": 1339,
+      "store_id": "centrale",
+      "price": 141490,
+      "price_card": 149272,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-b760m-a-wifi-lga1700-ddr5-wifi-6e/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$141.490",
+        "Tarjetas de Crédito / Débito": "$149.272"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9472,
+      "store_id": "spdigital",
+      "price": 169995,
+      "price_card": 177645,
+      "price_normal": 263990,
+      "discount_pct": 36,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/pro-b760m-a-wifi",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$169.995",
+        "Webpay / Tarjeta": "$177.645"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [

@@ -11,26 +11,26 @@
     "VRAM": "16 GB",
     "Tipo memoria": "GDDR7",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$1.851.370",
-    "Tarjeta crédito/débito": "$1.953.200"
+    "Transferencia / Efectivo": "$1.748.300",
+    "Tarjeta crédito/débito": "$1.844.460"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 1247,
       "store_id": "centrale",
-      "price": 1851370,
-      "price_card": 1953195,
+      "price": 1748300,
+      "price_card": 1844457,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-prime-geforce-rtx-5080-oc-edition-16gb-gddr7-sff-ready/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.851.370",
-        "Tarjetas de Crédito / Débito": "$1.953.195"
+        "Transferencia / Efectivo": "$1.748.300",
+        "Tarjetas de Crédito / Débito": "$1.844.457"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -80,7 +80,13 @@
       "store_name": "Centrale",
       "date": "2026-05-06",
       "price": 1851370
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-08",
+      "price": 1748300
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

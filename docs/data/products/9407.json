@@ -26,21 +26,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:55",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 275,
       "store_id": "centrale",
-      "price": 204490,
-      "price_card": 215737,
+      "price": 204980,
+      "price_card": 216254,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-7600-socket-am5-6-cores-12-hilos-3-8-5-1ghz/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$204.490",
-        "Tarjetas de Crédito / Débito": "$215.737"
+        "Transferencia / Efectivo": "$204.980",
+        "Tarjetas de Crédito / Débito": "$216.254"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -88,16 +88,16 @@
     {
       "product_id": 1142,
       "store_id": "cg",
-      "price": 227652,
-      "price_card": 239626,
+      "price": 222104,
+      "price_card": 233787,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/procesadores/amd-ryzen-5-7600-3-8-ghz-6-nucleos-12-hilos-32-mb-cache-socket-am5-caja/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$227.652",
-        "Webpay / Tarjeta": "$239.626"
+        "Efectivo/Transferencia": "$222.104",
+        "Webpay / Tarjeta": "$233.787"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -141,25 +141,6 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
-    },
-    {
-      "product_id": 32922,
-      "store_id": "infor-ingen",
-      "price": 238900,
-      "price_card": 246067,
-      "price_normal": 253234,
-      "discount_pct": 6,
-      "stock": "in_stock",
-      "product_url": "https://store.infor-ingen.com/producto/cpu-amd-ryzen-5-7600-3-8ghz/",
-      "store_name": "Infor-Ingen",
-      "price_specs": {
-        "Efectivo/Transferencia": "$238.900",
-        "Tarjeta crédito/débito": "$246.067"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "store.infor-ingen.com",
-      "full_url": "https://store.infor-ingen.com"
     }
   ],
   "history": [
@@ -204,7 +185,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-06",
       "price": 229990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-08",
+      "price": 229990
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

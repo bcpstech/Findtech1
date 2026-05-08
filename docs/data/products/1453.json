@@ -14,26 +14,26 @@
     "Latencia": "CL40",
     "Kit": "2x24 GB",
     "Iluminación": "RGB",
-    "Transferencia / Efectivo": "$1.013.120",
-    "Tarjeta crédito/débito": "$1.068.840"
+    "Transferencia / Efectivo": "$994.310",
+    "Tarjeta crédito/débito": "$1.049.000"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 1453,
       "store_id": "centrale",
-      "price": 1013120,
-      "price_card": 1068842,
+      "price": 994310,
+      "price_card": 1048997,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-48gb-2x-24gb-ddr5-8400mt-s-cl40-kingston-fury-renegade-silver-rgb/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.013.120",
-        "Tarjetas de Crédito / Débito": "$1.068.842"
+        "Transferencia / Efectivo": "$994.310",
+        "Tarjetas de Crédito / Débito": "$1.048.997"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -83,7 +83,13 @@
       "store_name": "Centrale",
       "date": "2026-05-06",
       "price": 1013120
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-08",
+      "price": 994310
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

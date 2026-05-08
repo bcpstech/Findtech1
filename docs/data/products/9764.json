@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Factor de forma": "Midi Tower",
-    "Efectivo/Transferencia": "$149.995",
-    "Tarjeta crédito/débito": "$156.745"
+    "Efectivo/Transferencia": "$139.995",
+    "Tarjeta crédito/débito": "$146.295"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:08",
-  "updated_at": "2026-05-06 03:07:18",
+  "updated_at": "2026-05-08 22:16:25",
   "prices": [
     {
       "product_id": 9764,
       "store_id": "spdigital",
-      "price": 104990,
-      "price_card": 109715,
+      "price": 99990,
+      "price_card": 104490,
       "price_normal": 154990,
-      "discount_pct": 32,
+      "discount_pct": 35,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/be-quiet-bgw83",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$104.990",
-        "Webpay / Tarjeta": "$109.715"
+        "Transferencia / Efectivo": "$99.990",
+        "Webpay / Tarjeta": "$104.490"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -78,7 +78,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-06",
       "price": 104990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-08",
+      "price": 99990
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

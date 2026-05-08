@@ -12,24 +12,26 @@
     "Interfaz": "SATA",
     "Factor de forma": "2.5\"",
     "Lectura": "540 MB/s",
-    "Efectivo/Transferencia": "$581.580",
-    "Tarjeta crédito/débito": "$607.750"
+    "Efectivo/Transferencia": "$463.668",
+    "Tarjeta crédito/débito": "$484.533"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:08",
-  "updated_at": "2026-05-03 22:40:02",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 1596,
       "store_id": "centrale",
       "price": 67750,
+      "price_card": 71476,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-240gb-crucial-bx500-3d-nand-sata-25/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$67.750"
+        "Transferencia / Efectivo": "$67.750",
+        "Tarjetas de Crédito / Débito": "$71.476"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,16 +39,37 @@
       "full_url": "https://www.centrale.cl"
     },
     {
+      "product_id": 32021,
+      "store_id": "winpy",
+      "price": 129504,
+      "price_card": 136368,
+      "price_normal": null,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/disco-de-estado-solido-crucial-bx500-de-1tb-ssd-3d-nand-sata-540-500-mb-s/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Transferencia o Depósito": "$129.504",
+        "Otros medios de pago": "$136.368"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
       "product_id": 9541,
       "store_id": "spdigital",
-      "price": 581580,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 463668,
+      "price_card": 484533,
+      "price_normal": 572650,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ssd-bx500-4000gb-4tb-nand-sata-25-2",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$581.580"
+        "Transferencia / Efectivo": "$463.668",
+        "Webpay / Tarjeta": "$484.533"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -78,7 +101,31 @@
       "store_name": "SP Digital",
       "date": "2026-05-03",
       "price": 581580
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-04",
+      "price": 470963
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 475085
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-06",
+      "price": 475027
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-08",
+      "price": 463668
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-05-08"
 }

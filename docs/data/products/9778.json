@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Factor de forma": "Full Tower",
-    "Efectivo/Transferencia": "$609.990",
-    "Tarjeta crédito/débito": "$637.440"
+    "Efectivo/Transferencia": "$387.995",
+    "Tarjeta crédito/débito": "$405.455"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:14",
-  "updated_at": "2026-05-06 03:07:21",
+  "updated_at": "2026-05-08 22:16:30",
   "prices": [
     {
       "product_id": 9778,
       "store_id": "spdigital",
-      "price": 609990,
-      "price_card": 637440,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 387995,
+      "price_card": 405455,
+      "price_normal": 609990,
+      "discount_pct": 36,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/haf-700-evo",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$609.990",
-        "Webpay / Tarjeta": "$637.440"
+        "Transferencia / Efectivo": "$387.995",
+        "Webpay / Tarjeta": "$405.455"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -78,7 +78,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-06",
       "price": 609990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-08",
+      "price": 387995
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

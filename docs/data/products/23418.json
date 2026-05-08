@@ -9,24 +9,26 @@
   "description": null,
   "specs": {
     "VRAM": "16 GB",
-    "Efectivo / Transferencia": "$509.900",
-    "Tarjeta crédito/débito": "$525.197"
+    "Efectivo / Transferencia": "$529.900",
+    "Tarjeta crédito/débito": "$545.797"
   },
   "tags": [],
   "created_at": "2026-05-03 04:31:27",
-  "updated_at": "2026-05-03 05:12:06",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 23418,
       "store_id": "alltec",
-      "price": 509900,
+      "price": 529900,
+      "price_card": 545797,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2436-tv-sapphire-pulse-amd-radeon-rx-9060-xt-16gb.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$509.900"
+        "Efectivo/Transferencia": "$529.900",
+        "Tarjeta crédito/débito": "$545.797"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,9 +40,9 @@
     {
       "store_id": "alltec",
       "store_name": "Alltec",
-      "date": "2026-05-03",
-      "price": 509900
+      "date": "2026-05-08",
+      "price": 529900
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-05-08"
 }

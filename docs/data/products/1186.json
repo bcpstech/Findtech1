@@ -11,26 +11,26 @@
     "Capacidad": "960 GB",
     "Interfaz": "SATA III",
     "Marca": "KINGSTON",
-    "Efectivo/Transferencia": "$534.149",
-    "Webpay / Tarjeta": "$562.245"
+    "Efectivo/Transferencia": "$521.130",
+    "Webpay / Tarjeta": "$548.541"
   },
   "tags": [],
   "created_at": "2026-04-26 20:36:23",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 1186,
       "store_id": "cg",
-      "price": 534149,
-      "price_card": 562245,
+      "price": 521130,
+      "price_card": 548541,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/almacenamiento/kingston-dc600m-ssd-mixed-use-960-gb-interno-2-5-sata-6gb-s/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$534.149",
-        "Webpay / Tarjeta": "$562.245"
+        "Efectivo/Transferencia": "$521.130",
+        "Webpay / Tarjeta": "$548.541"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -92,7 +92,13 @@
       "store_name": "CentralGamer",
       "date": "2026-05-06",
       "price": 534149
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-05-08",
+      "price": 521130
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

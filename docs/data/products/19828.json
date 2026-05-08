@@ -12,16 +12,35 @@
     "Tipo memoria": "GDDR7",
     "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$709.990",
-    "Tarjeta crédito/débito": "$749.039",
+    "Efectivo / Transferencia": "$699.990",
+    "Tarjeta crédito/débito": "$738.489",
     "Garantía": "6 meses",
     "SKU": "41846",
     "Part Number": "90YV0NQ0-M0AA00"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:39",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
+    {
+      "product_id": 19828,
+      "store_id": "myshop",
+      "price": 699990,
+      "price_card": 720990,
+      "price_normal": 738489,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/tarjeta-de-video-asus-dual-nvidia-geforce-rtx-5060-ti-16g-oc-edition-evo-16-gb-gddr7-128-bits-pcie-50-displayport-hdmi-p41846",
+      "store_name": "MyShop",
+      "price_specs": {
+        "Efectivo/Transferencia": "$699.990",
+        "Tarjeta crédito/débito": "$720.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
     {
       "product_id": 9556,
       "store_id": "spdigital",
@@ -40,25 +59,6 @@
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 19828,
-      "store_id": "myshop",
-      "price": 709990,
-      "price_card": 731290,
-      "price_normal": 749039,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/tarjeta-de-video-asus-dual-nvidia-geforce-rtx-5060-ti-16g-oc-edition-evo-16-gb-gddr7-128-bits-pcie-50-displayport-hdmi-p41846",
-      "store_name": "MyShop",
-      "price_specs": {
-        "Efectivo/Transferencia": "$709.990",
-        "Tarjeta crédito/débito": "$731.290"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.myshop.cl",
-      "full_url": "https://www.myshop.cl"
     },
     {
       "product_id": 38860,
@@ -82,16 +82,16 @@
     {
       "product_id": 1206,
       "store_id": "centrale",
-      "price": 782600,
-      "price_card": 825643,
+      "price": 769750,
+      "price_card": 812086,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-dual-rtx-5060-ti-evo-16gb-gddr7-128-bit-pcie-5-0/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$782.600",
-        "Tarjetas de Crédito / Débito": "$825.643"
+        "Transferencia / Efectivo": "$769.750",
+        "Tarjetas de Crédito / Débito": "$812.086"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -101,16 +101,16 @@
     {
       "product_id": 31875,
       "store_id": "winpy",
-      "price": 814720,
-      "price_card": 857900,
+      "price": 795264,
+      "price_card": 837413,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-dual-geforce-rtx-5060-ti-evo-oc-de-16gb-gddr7/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$814.720",
-        "Otros medios de pago": "$857.900"
+        "Transferencia o Depósito": "$795.264",
+        "Otros medios de pago": "$837.413"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -148,7 +148,13 @@
       "store_name": "MyShop",
       "date": "2026-05-06",
       "price": 709990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-08",
+      "price": 699990
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

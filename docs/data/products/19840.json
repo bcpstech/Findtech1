@@ -13,29 +13,29 @@
     "Bus de memoria": "256-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$1.579.990",
-    "Tarjeta crédito/débito": "$1.666.889",
+    "Efectivo / Transferencia": "$1.579.700",
+    "Tarjeta crédito/débito": "$1.666.584",
     "Garantía": "",
     "SKU": "40523",
     "Part Number": "824142395943"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:46",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 19840,
       "store_id": "myshop",
-      "price": 1579990,
-      "price_card": 1627390,
-      "price_normal": 1666889,
+      "price": 1579700,
+      "price_card": 1627091,
+      "price_normal": 1666584,
       "discount_pct": 12,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/msi-pci-express-nvidia-geforce-rtx-5080-16g-inspire-3x-p40523",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$1.579.990",
-        "Tarjeta crédito/débito": "$1.627.390"
+        "Efectivo/Transferencia": "$1.579.700",
+        "Tarjeta crédito/débito": "$1.627.091"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -64,16 +64,16 @@
     {
       "product_id": 1198,
       "store_id": "centrale",
-      "price": 1973640,
-      "price_card": 2082190,
+      "price": 1941220,
+      "price_card": 2047987,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5080-inspire-3x-oc-16gb-gddr7-256-bit/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.973.640",
-        "Tarjetas de Crédito / Débito": "$2.082.190"
+        "Transferencia / Efectivo": "$1.941.220",
+        "Tarjetas de Crédito / Débito": "$2.047.987"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -111,7 +111,13 @@
       "store_name": "MyShop",
       "date": "2026-05-06",
       "price": 1579990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-08",
+      "price": 1579700
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

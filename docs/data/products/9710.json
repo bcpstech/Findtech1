@@ -8,69 +8,31 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-aorus-elite-p850w-pcie-5-1-ice-850w-full-modular-80-plus-platinum-pci-e-5-1.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$139.584",
-    "Tarjeta crédito/débito": "$145.865"
+    "Efectivo/Transferencia": "$136.983",
+    "Tarjeta crédito/débito": "$143.147"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:40",
-  "updated_at": "2026-05-06 03:07:01",
+  "updated_at": "2026-05-08 22:16:01",
   "prices": [
     {
       "product_id": 9710,
       "store_id": "spdigital",
-      "price": 139584,
-      "price_card": 145865,
-      "price_normal": 172320,
+      "price": 136983,
+      "price_card": 143147,
+      "price_normal": 168200,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/fuente-de-poder-aorus-elite-p850w-pcie-51-ice-850w-full-modular-80-plus-platinum-pci-e-51",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$139.584",
-        "Webpay / Tarjeta": "$145.865"
+        "Transferencia / Efectivo": "$136.983",
+        "Webpay / Tarjeta": "$143.147"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 1680,
-      "store_id": "centrale",
-      "price": 143860,
-      "price_card": 151772,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-gigabyte-aorus-elite-p850w-80plus-platinum-full-modular/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$143.860",
-        "Tarjetas de Crédito / Débito": "$151.772"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 38963,
-      "store_id": "mybox",
-      "price": 183816,
-      "price_card": 189330,
-      "price_normal": 193490,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://mybox.cl/fuentes-de-poder/6121-fuente-de-poder-aorus-elite-p1000w-80-platinum-modular-pcie-50-ice-4719331554545.html",
-      "store_name": "MyBox",
-      "price_specs": {
-        "Efectivo/Transferencia": "$183.816",
-        "Tarjeta crédito/débito": "$189.330"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.mybox.cl",
-      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -115,7 +77,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-06",
       "price": 139584
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-08",
+      "price": 136983
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

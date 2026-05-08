@@ -11,26 +11,26 @@
     "Capacidad": "2 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$121.420",
-    "Tarjeta crédito/débito": "$128.100"
+    "Transferencia / Efectivo": "$119.170",
+    "Tarjeta crédito/débito": "$125.720"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 1550,
       "store_id": "centrale",
-      "price": 121420,
-      "price_card": 128098,
+      "price": 119170,
+      "price_card": 125724,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/hdd-nas-wd-red-2tb-5400rpm-3-5-sata-6gb-s-64mb-bufer/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$121.420",
-        "Tarjetas de Crédito / Débito": "$128.098"
+        "Transferencia / Efectivo": "$119.170",
+        "Tarjetas de Crédito / Débito": "$125.724"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -80,7 +80,13 @@
       "store_name": "Centrale",
       "date": "2026-05-06",
       "price": 121420
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-08",
+      "price": 119170
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

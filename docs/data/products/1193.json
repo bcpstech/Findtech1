@@ -12,31 +12,50 @@
     "Tipo memoria": "GDDR7",
     "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$543.290",
-    "Tarjeta crédito/débito": "$573.170"
+    "Transferencia / Efectivo": "$520.150",
+    "Tarjeta crédito/débito": "$548.760"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 1193,
       "store_id": "centrale",
-      "price": 543290,
-      "price_card": 573171,
+      "price": 520150,
+      "price_card": 548758,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5060-ti-shadow-2x-oc-plus-8gb-gddr7-128-bit/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$543.290",
-        "Tarjetas de Crédito / Débito": "$573.171"
+        "Transferencia / Efectivo": "$520.150",
+        "Tarjetas de Crédito / Débito": "$548.758"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 56773,
+      "store_id": "winpy",
+      "price": 564224,
+      "price_card": 594128,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5060-ti-shadow-2x-oc-plus-de-8gb-gddr7/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Transferencia o Depósito": "$564.224",
+        "Otros medios de pago": "$594.128"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     }
   ],
   "history": [
@@ -81,7 +100,13 @@
       "store_name": "Centrale",
       "date": "2026-05-06",
       "price": 543290
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-08",
+      "price": 520150
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

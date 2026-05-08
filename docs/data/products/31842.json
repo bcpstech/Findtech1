@@ -12,26 +12,26 @@
     "Bus de memoria": "64-bit",
     "Variante": "OC (Overclocked)",
     "Factor de forma": "Low Profile",
-    "Transferencia / Efectivo": "$142.410",
-    "Tarjeta crédito/débito": "$150.240"
+    "Transferencia / Efectivo": "$140.080",
+    "Tarjeta crédito/débito": "$147.780"
   },
   "tags": [],
   "created_at": "2026-05-04 01:19:36",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31842,
       "store_id": "winpy",
-      "price": 138016,
-      "price_card": 145331,
+      "price": 134368,
+      "price_card": 141490,
       "price_normal": null,
-      "discount_pct": 35,
+      "discount_pct": 37,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-gt-1030-oc-de-4gb-perfil-bajo/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$138.016",
-        "Otros medios de pago": "$145.331"
+        "Transferencia o Depósito": "$134.368",
+        "Otros medios de pago": "$141.490"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 1229,
       "store_id": "centrale",
-      "price": 142410,
-      "price_card": 150243,
+      "price": 140080,
+      "price_card": 147784,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-nvidia-geforce-gt-1030-oc-4gb-ddr4-64-bit-low-profile/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$142.410",
-        "Tarjetas de Crédito / Débito": "$150.243"
+        "Transferencia / Efectivo": "$140.080",
+        "Tarjetas de Crédito / Débito": "$147.784"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -76,7 +76,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 138016
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 134368
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

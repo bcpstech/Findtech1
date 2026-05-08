@@ -12,26 +12,26 @@
     "Tipo": "DDR4",
     "Velocidad": "3600 MHz",
     "Latencia": "CL16",
-    "Transferencia / Efectivo": "$219.210",
-    "Tarjeta crédito/débito": "$231.270"
+    "Transferencia / Efectivo": "$215.150",
+    "Tarjeta crédito/débito": "$226.980"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 1442,
       "store_id": "centrale",
-      "price": 119740,
-      "price_card": 126326,
+      "price": 117530,
+      "price_card": 123994,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr4-3200mt-s-cl16-kingston-fury-renegade-black/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$119.740",
-        "Tarjetas de Crédito / Débito": "$126.326"
+        "Transferencia / Efectivo": "$117.530",
+        "Tarjetas de Crédito / Débito": "$123.994"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -81,7 +81,13 @@
       "store_name": "Centrale",
       "date": "2026-05-06",
       "price": 119740
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-08",
+      "price": 117530
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

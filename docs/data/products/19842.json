@@ -13,29 +13,29 @@
     "Bus de memoria": "256-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$1.738.990",
-    "Tarjeta crédito/débito": "$1.834.634",
+    "Efectivo / Transferencia": "$1.719.990",
+    "Tarjeta crédito/débito": "$1.814.589",
     "Garantía": "6 meses",
     "SKU": "38388",
     "Part Number": "PRIME-RTX5080-O16G"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:47",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 19842,
       "store_id": "myshop",
-      "price": 1738990,
-      "price_card": 1791160,
-      "price_normal": 1834634,
+      "price": 1719990,
+      "price_card": 1771590,
+      "price_normal": 1814589,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/asus-tvideo-prime-rtx-5080-nvidia-rtx-5080-gddr7-gaming-p38388",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$1.738.990",
-        "Tarjeta crédito/débito": "$1.791.160"
+        "Efectivo/Transferencia": "$1.719.990",
+        "Tarjeta crédito/débito": "$1.771.590"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -111,7 +111,13 @@
       "store_name": "MyShop",
       "date": "2026-05-06",
       "price": 1738990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-08",
+      "price": 1719990
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

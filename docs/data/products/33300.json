@@ -8,16 +8,18 @@
   "image_url": "https://images.findtech.cl/products/memoria-ram-biostar-gaming-x-rgb-8gb-3200mhz-ddr4.jpg",
   "description": null,
   "specs": {
-    "Capacidad": "8 GB",
+    "Capacidad": "16 GB",
     "Tipo": "DDR4",
     "Velocidad": "3200 MHz",
+    "Latencia": "CL16",
     "Iluminación": "RGB",
-    "Efectivo / Transferencia": "$62.900",
-    "Tarjeta crédito/débito": "$64.787"
+    "Marca": "KINGSTON",
+    "Efectivo/Transferencia": "$134.990",
+    "Webpay / Tarjeta": "$142.090"
   },
   "tags": [],
   "created_at": "2026-05-04 02:48:23",
-  "updated_at": "2026-05-08 21:58:19",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 33300,
@@ -37,6 +39,63 @@
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
+    },
+    {
+      "product_id": 1510,
+      "store_id": "centrale",
+      "price": 64900,
+      "price_card": 68470,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-8gb-3200mhz-ddr4-kingston-fury-impact-sodimm/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$64.900",
+        "Tarjetas de Crédito / Débito": "$68.470"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 1171,
+      "store_id": "cg",
+      "price": 74990,
+      "price_card": 78934,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-kingston-fury-beast-cl16-8gb-ddr4-3200mhz/",
+      "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$74.990",
+        "Webpay / Tarjeta": "$78.934"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 2089,
+      "store_id": "dust2",
+      "price": 91990,
+      "price_card": 94750,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/memoria-ram-kingston-fury-beast-rgb-de-8gb-ddr4-3200mhz-dimm/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$91.990",
+        "Tarjeta crédito/débito": "$94.750"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [

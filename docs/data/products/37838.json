@@ -12,26 +12,26 @@
     "Factor de forma": "micro ATX",
     "Memoria": "DDR5",
     "Chipset": "Intel H610",
-    "Efectivo/Transferencia": "$81.779",
-    "Tarjeta crédito/débito": "$85.459"
+    "Efectivo/Transferencia": "$79.777",
+    "Tarjeta crédito/débito": "$83.367"
   },
   "tags": [],
   "created_at": "2026-05-04 23:38:42",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 37838,
       "store_id": "winpy",
-      "price": 72960,
-      "price_card": 76827,
+      "price": 71136,
+      "price_card": 74906,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-h610m-k-d4-csm-lga1700-ddr4-2133-3200mhz-m-2-microatx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$72.960",
-        "Otros medios de pago": "$76.827"
+        "Transferencia o Depósito": "$71.136",
+        "Otros medios de pago": "$74.906"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 40776,
       "store_id": "spdigital",
-      "price": 75380,
-      "price_card": 78772,
-      "price_normal": 90120,
-      "discount_pct": 16,
+      "price": 71276,
+      "price_card": 74483,
+      "price_normal": 87970,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/mb-s1700-h610m-k-d4-csm-matxvgahdmiusbrj45-asus",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$75.380",
-        "Webpay / Tarjeta": "$78.772"
+        "Transferencia / Efectivo": "$71.276",
+        "Webpay / Tarjeta": "$74.483"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,16 +60,16 @@
     {
       "product_id": 1408,
       "store_id": "centrale",
-      "price": 82580,
-      "price_card": 87122,
+      "price": 81240,
+      "price_card": 85708,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-mini-atx-asus-prime-h610m-k-socket-intel-lga-1700-ddr5-pcie-3-0/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$82.580",
-        "Tarjetas de Crédito / Débito": "$87.122"
+        "Transferencia / Efectivo": "$81.240",
+        "Tarjetas de Crédito / Débito": "$85.708"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -108,7 +108,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 72960
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 71136
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

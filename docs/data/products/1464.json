@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Capacidad": "1 GB",
-    "Transferencia / Efectivo": "$149.990",
-    "Tarjeta crédito/débito": "$158.240"
+    "Transferencia / Efectivo": "$147.220",
+    "Tarjeta crédito/débito": "$155.320"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 1464,
       "store_id": "centrale",
-      "price": 149990,
-      "price_card": 158239,
+      "price": 147220,
+      "price_card": 155317,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-hp-e5k48a-1gb-ddr3-800mhz-so-dimm-laserjet-m506-m527/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$149.990",
-        "Tarjetas de Crédito / Débito": "$158.239"
+        "Transferencia / Efectivo": "$147.220",
+        "Tarjetas de Crédito / Débito": "$155.317"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -78,7 +78,13 @@
       "store_name": "Centrale",
       "date": "2026-05-06",
       "price": 149990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-08",
+      "price": 147220
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

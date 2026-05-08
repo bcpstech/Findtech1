@@ -13,13 +13,32 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Chipset": "AMD B850",
-    "Efectivo/Transferencia": "$332.049",
-    "Tarjeta crédito/débito": "$346.991"
+    "Efectivo/Transferencia": "$324.074",
+    "Tarjeta crédito/débito": "$338.657"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:19",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
+    {
+      "product_id": 9446,
+      "store_id": "spdigital",
+      "price": 324074,
+      "price_card": 338657,
+      "price_normal": 400240,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/placa-madre-asus-rog-strix-b850-f-gaming-wifi-amd-am5-ddr5-pcie-50-wifi-7-atx",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$324.074",
+        "Webpay / Tarjeta": "$338.657"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
     {
       "product_id": 1385,
       "store_id": "centrale",
@@ -38,25 +57,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9446,
-      "store_id": "spdigital",
-      "price": 332049,
-      "price_card": 346991,
-      "price_normal": 410040,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/placa-madre-asus-rog-strix-b850-f-gaming-wifi-amd-am5-ddr5-pcie-50-wifi-7-atx",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$332.049",
-        "Webpay / Tarjeta": "$346.991"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -101,7 +101,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-06",
       "price": 332049
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-08",
+      "price": 324074
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:26:53",
-  "updated_at": "2026-05-06 03:39:32",
+  "updated_at": "2026-05-08 22:50:27",
   "prices": [
     {
       "product_id": 32049,
@@ -37,16 +37,16 @@
     {
       "product_id": 1729,
       "store_id": "centrale",
-      "price": 43680,
-      "price_card": 46082,
+      "price": 43930,
+      "price_card": 46346,
       "price_normal": 50730,
-      "discount_pct": 14,
+      "discount_pct": 13,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-pctronix-clio-slim-tower-s609-micro-atx-500w-usb-3-0-negro/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$43.680",
-        "Tarjetas de Crédito / Débito": "$46.082"
+        "Transferencia / Efectivo": "$43.930",
+        "Tarjetas de Crédito / Débito": "$46.346"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -72,7 +72,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 39520
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 39520
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

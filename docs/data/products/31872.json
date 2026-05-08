@@ -13,12 +13,12 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$870.160",
-    "Tarjeta crédito/débito": "$918.020"
+    "Transferencia / Efectivo": "$855.880",
+    "Tarjeta crédito/débito": "$902.950"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:36",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31872,
@@ -42,16 +42,16 @@
     {
       "product_id": 1220,
       "store_id": "centrale",
-      "price": 804020,
-      "price_card": 848241,
+      "price": 788260,
+      "price_card": 831614,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-de-video-msi-geforce-rtx-5070-ventus-2x-oc-12gb-gddr7/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$804.020",
-        "Tarjetas de Crédito / Débito": "$848.241"
+        "Transferencia / Efectivo": "$788.260",
+        "Tarjetas de Crédito / Débito": "$831.614"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -96,7 +96,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 747232
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 747232
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

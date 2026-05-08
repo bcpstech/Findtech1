@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:21:22",
-  "updated_at": "2026-05-06 02:59:39",
+  "updated_at": "2026-05-08 22:05:47",
   "prices": [
     {
       "product_id": 847,
@@ -33,25 +33,6 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
-    },
-    {
-      "product_id": 21674,
-      "store_id": "centrale",
-      "price": 286770,
-      "price_card": 302542,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-gamer-lian-li-o11-dynamic-evo-xl-e-atx-atx-reversible-usb-c-negro/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$286.770",
-        "Tarjetas de Crédito / Débito": "$302.542"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -108,7 +89,13 @@
       "store_name": "N1G",
       "date": "2026-05-06",
       "price": 279000
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-05-08",
+      "price": 279000
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

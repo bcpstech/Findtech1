@@ -14,26 +14,26 @@
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
     "Marca": "Zotac",
-    "Efectivo / Transferencia": "$1.119.980",
-    "Tarjeta crédito/débito": "$1.153.580"
+    "Efectivo / Transferencia": "$1.079.990",
+    "Tarjeta crédito/débito": "$1.112.390"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:38",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 1815,
       "store_id": "dust2",
-      "price": 1119980,
-      "price_card": 1153579,
+      "price": 1079990,
+      "price_card": 1112390,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-zotac-rtx-5070ti-16g-gaming-solid-sff-oc/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$1.119.980",
-        "Tarjeta crédito/débito": "$1.153.579"
+        "Efectivo/Transferencia": "$1.079.990",
+        "Tarjeta crédito/débito": "$1.112.390"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,16 +43,16 @@
     {
       "product_id": 1223,
       "store_id": "centrale",
-      "price": 1195730,
-      "price_card": 1261495,
+      "price": 1173530,
+      "price_card": 1238074,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-geforce-rtx-5070-ti-solid-core-oc-white-edition/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.195.730",
-        "Tarjetas de Crédito / Débito": "$1.261.495"
+        "Transferencia / Efectivo": "$1.173.530",
+        "Tarjetas de Crédito / Débito": "$1.238.074"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -102,7 +102,13 @@
       "store_name": "Dust2",
       "date": "2026-05-06",
       "price": 1119980
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-08",
+      "price": 1079990
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

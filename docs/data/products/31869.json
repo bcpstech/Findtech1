@@ -11,26 +11,26 @@
     "VRAM": "16 GB",
     "Tipo memoria": "GDDR6",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$738.720",
-    "Tarjeta crédito/débito": "$777.872"
+    "Efectivo / Transferencia": "$721.088",
+    "Tarjeta crédito/débito": "$759.306"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:30",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31869,
       "store_id": "winpy",
-      "price": 738720,
-      "price_card": 777872,
+      "price": 721088,
+      "price_card": 759306,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-radeon-rx-9060-xt-gaming-oc-de-16gb-gddr6/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$738.720",
-        "Otros medios de pago": "$777.872"
+        "Transferencia o Depósito": "$721.088",
+        "Otros medios de pago": "$759.306"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -56,7 +56,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 738720
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 721088
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

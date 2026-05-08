@@ -13,15 +13,15 @@
     "Bus de memoria": "128-bit",
     "Arquitectura": "Ampere",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$204.500",
-    "Tarjeta crédito/débito": "$215.748",
+    "Efectivo / Transferencia": "$207.990",
+    "Tarjeta crédito/débito": "$219.429",
     "Garantía": "6 meses",
     "SKU": "28248",
     "Part Number": "824142348697"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:29",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 502,
@@ -45,16 +45,16 @@
     {
       "product_id": 19808,
       "store_id": "myshop",
-      "price": 204500,
-      "price_card": 210635,
-      "price_normal": 215748,
+      "price": 207990,
+      "price_card": 214230,
+      "price_normal": 219429,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/tarjeta-de-video-msi-geforce-rtx-3050-lp-6g-oc-6-gb-gddr6-128-bit-rtx-3050-lp-6g-oc-p28248",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$204.500",
-        "Tarjeta crédito/débito": "$210.635"
+        "Efectivo/Transferencia": "$207.990",
+        "Tarjeta crédito/débito": "$214.230"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -64,16 +64,16 @@
     {
       "product_id": 1258,
       "store_id": "centrale",
-      "price": 317100,
-      "price_card": 334541,
+      "price": 311220,
+      "price_card": 328337,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-3050-lp-oc-6gb-gddr6-low-profile/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$317.100",
-        "Tarjetas de Crédito / Débito": "$334.541"
+        "Transferencia / Efectivo": "$311.220",
+        "Tarjetas de Crédito / Débito": "$328.337"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -111,7 +111,13 @@
       "store_name": "MyShop",
       "date": "2026-05-06",
       "price": 204500
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-08",
+      "price": 207990
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

@@ -8,24 +8,26 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Cooler-Master-Masterliquid-Core-Nex-360-Argb-MLX-D36M-A18PA-R1-1775869392.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$75.360",
-    "Tarjeta crédito/débito": "$79.500"
+    "Transferencia / Efectivo": "$74.620",
+    "Tarjeta crédito/débito": "$78.720"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:45",
-  "updated_at": "2026-05-04 01:14:01",
+  "updated_at": "2026-05-08 22:43:36",
   "prices": [
     {
       "product_id": 1605,
       "store_id": "centrale",
-      "price": 75360,
+      "price": 74620,
+      "price_card": 78724,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/cooler-master-refrigeracion-liquida-masterliquid-360l-core-ii-argb-360mm/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$75.360"
+        "Transferencia / Efectivo": "$74.620",
+        "Tarjetas de Crédito / Débito": "$78.724"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -35,15 +37,16 @@
     {
       "product_id": 9647,
       "store_id": "spdigital",
-      "price": 78370,
+      "price": 74995,
+      "price_card": 78370,
       "price_normal": 119990,
-      "discount_pct": 35,
+      "discount_pct": 37,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/refrigeracion-liquida-masterliquid-360l-core-nex-argb-360mm-intelamd-negro",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$78.370",
-        "Webpay / Tarjeta": "$119.990"
+        "Transferencia / Efectivo": "$74.995",
+        "Webpay / Tarjeta": "$78.370"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -75,7 +78,25 @@
       "store_name": "Centrale",
       "date": "2026-05-04",
       "price": 75360
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 76020
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-06",
+      "price": 76020
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-08",
+      "price": 74620
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-05-08"
 }

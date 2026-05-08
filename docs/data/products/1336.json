@@ -11,26 +11,26 @@
     "Socket": "AM5",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
-    "Transferencia / Efectivo": "$120.710",
-    "Tarjeta crédito/débito": "$127.350"
+    "Transferencia / Efectivo": "$118.730",
+    "Tarjeta crédito/débito": "$125.260"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 1336,
       "store_id": "centrale",
-      "price": 120710,
-      "price_card": 127349,
+      "price": 118730,
+      "price_card": 125260,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-b850m-b-am5-ddr5-8200-oc-pcie-5-0-2-5g-lan-matx/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$120.710",
-        "Tarjetas de Crédito / Débito": "$127.349"
+        "Transferencia / Efectivo": "$118.730",
+        "Tarjetas de Crédito / Débito": "$125.260"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -101,7 +101,13 @@
       "store_name": "Centrale",
       "date": "2026-05-06",
       "price": 120710
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-08",
+      "price": 118730
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

@@ -15,26 +15,26 @@
     "Velocidad": "20000 MHz",
     "Factor de forma": "Full-Height/Half-Length (FH/HL)",
     "TDP": "94 W",
-    "Efectivo/Transferencia": "$355.359",
-    "Tarjeta crédito/débito": "$371.350"
+    "Efectivo/Transferencia": "$346.857",
+    "Tarjeta crédito/débito": "$362.466"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:26",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 1820,
       "store_id": "dust2",
-      "price": 345990,
-      "price_card": 356370,
+      "price": 339890,
+      "price_card": 350087,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-gigabyte-rtx-5050-windforce-oc-v2-8-gb/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$345.990",
-        "Tarjeta crédito/débito": "$356.370"
+        "Efectivo/Transferencia": "$339.890",
+        "Tarjeta crédito/débito": "$350.087"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -44,21 +44,40 @@
     {
       "product_id": 19812,
       "store_id": "myshop",
-      "price": 347990,
-      "price_card": 358430,
-      "price_normal": 367129,
+      "price": 339900,
+      "price_card": 350097,
+      "price_normal": 358595,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/geforce-rtx-5050-windforce-oc-v2-8g-p41146",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$347.990",
-        "Tarjeta crédito/débito": "$358.430"
+        "Efectivo/Transferencia": "$339.900",
+        "Tarjeta crédito/débito": "$350.097"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 9572,
+      "store_id": "spdigital",
+      "price": 346857,
+      "price_card": 362466,
+      "price_normal": 428320,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-gigabyte-nvidia-geforce-rtx-5050-windforce-oc-8gb-gddr6-128-bit-pci-e-50",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$346.857",
+        "Webpay / Tarjeta": "$362.466"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 31850,
@@ -80,37 +99,18 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 9572,
-      "store_id": "spdigital",
-      "price": 355359,
-      "price_card": 371350,
-      "price_normal": 438820,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-gigabyte-nvidia-geforce-rtx-5050-windforce-oc-8gb-gddr6-128-bit-pci-e-50",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$355.359",
-        "Webpay / Tarjeta": "$371.350"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 1239,
+      "product_id": 1212,
       "store_id": "centrale",
-      "price": 361530,
-      "price_card": 381414,
+      "price": 376460,
+      "price_card": 397165,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-gigabyte-geforce-rtx-5050-windforce-oc-8gb-gddr6-128-bit/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-gigabyte-rtx-5050-windforce-oc-v2-8gb-gddr6/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$361.530",
-        "Tarjetas de Crédito / Débito": "$381.414"
+        "Transferencia / Efectivo": "$376.460",
+        "Tarjetas de Crédito / Débito": "$397.165"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -160,7 +160,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-06",
       "price": 355359
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-08",
+      "price": 346857
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

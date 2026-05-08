@@ -24,7 +24,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:29",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31897,
@@ -48,16 +48,16 @@
     {
       "product_id": 302,
       "store_id": "centrale",
-      "price": 258030,
-      "price_card": 272222,
+      "price": 253250,
+      "price_card": 267179,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-8700f-socket-am5-8-cores-16-threads-4-1-a-5-0ghz-65w/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$258.030",
-        "Tarjetas de Crédito / Débito": "$272.222"
+        "Transferencia / Efectivo": "$253.250",
+        "Tarjetas de Crédito / Débito": "$267.179"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -180,7 +180,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 248672
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 248672
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

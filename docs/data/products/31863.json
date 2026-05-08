@@ -16,21 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:18",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31863,
       "store_id": "winpy",
-      "price": 537472,
-      "price_card": 565958,
+      "price": 524704,
+      "price_card": 552513,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-pny-nvidia-rtx-a1000-de-8gb-gddr6/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$537.472",
-        "Otros medios de pago": "$565.958"
+        "Transferencia o Depósito": "$524.704",
+        "Otros medios de pago": "$552.513"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -75,7 +75,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 537472
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 524704
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

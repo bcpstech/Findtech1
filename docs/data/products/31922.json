@@ -11,26 +11,26 @@
     "Socket": "AM4",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR4",
-    "Transferencia / Efectivo": "$56.620",
-    "Tarjeta crédito/débito": "$59.730"
+    "Transferencia / Efectivo": "$55.580",
+    "Tarjeta crédito/débito": "$58.640"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:22",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31922,
       "store_id": "winpy",
-      "price": 52896,
-      "price_card": 55699,
+      "price": 51680,
+      "price_card": 54419,
       "price_normal": null,
-      "discount_pct": 27,
+      "discount_pct": 29,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-msi-a520m-a-pro-am4-ddr4-1866-3200-mhz-m-2-microatx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$52.896",
-        "Otros medios de pago": "$55.699"
+        "Transferencia o Depósito": "$51.680",
+        "Otros medios de pago": "$54.419"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,40 +59,21 @@
     {
       "product_id": 1362,
       "store_id": "centrale",
-      "price": 56620,
-      "price_card": 59734,
+      "price": 55580,
+      "price_card": 58637,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-msi-a520m-a-pro-socket-amd-am4-ddr4/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$56.620",
-        "Tarjetas de Crédito / Débito": "$59.734"
+        "Transferencia / Efectivo": "$55.580",
+        "Tarjetas de Crédito / Débito": "$58.637"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 33058,
-      "store_id": "infor-ingen",
-      "price": 59900,
-      "price_card": 61697,
-      "price_normal": 63494,
-      "discount_pct": 6,
-      "stock": "in_stock",
-      "product_url": "https://store.infor-ingen.com/producto/m-b-msi-a520m-a-pro/",
-      "store_name": "Infor-Ingen",
-      "price_specs": {
-        "Efectivo/Transferencia": "$59.900",
-        "Tarjeta crédito/débito": "$61.697"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "store.infor-ingen.com",
-      "full_url": "https://store.infor-ingen.com"
     },
     {
       "product_id": 9433,
@@ -132,7 +113,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 52896
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 51680
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

@@ -8,33 +8,116 @@
   "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-7-7700x-am5-8-cores-16-hilos-4-5-5-4ghz-32mb-de-cache-desbloqueado.jpg",
   "description": null,
   "specs": {
-    "Frecuencia base": "5.4 GHz",
+    "Familia": "AMD Ryzen™ 7",
+    "Núcleos": "8",
     "Socket": "AM5",
-    "Efectivo / Transferencia": "$358.720",
-    "Tarjeta crédito/débito": "$377.732"
+    "Frecuencia base": "4,5 GHz",
+    "Hilos": "16",
+    "Frecuencia turbo": "5,4 GHz",
+    "Caché L3": "32 MB",
+    "TDP": "105 W",
+    "Gráficos integrados": "AMD Radeon Graphics",
+    "Efectivo/Transferencia": "$359.995",
+    "Tarjeta crédito/débito": "$376.195"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:49",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31907,
       "store_id": "winpy",
-      "price": 358720,
-      "price_card": 377732,
+      "price": 344736,
+      "price_card": 363007,
       "price_normal": null,
-      "discount_pct": 35,
+      "discount_pct": 38,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-7-7700x-am5-8-cores-16-hilos-4-5-5-4ghz-32mb-de-cache-desbloqueado/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$358.720",
-        "Otros medios de pago": "$377.732"
+        "Transferencia o Depósito": "$344.736",
+        "Otros medios de pago": "$363.007"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 38,
+      "store_id": "n1g",
+      "price": 351500,
+      "price_card": 370130,
+      "price_normal": 370000,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/1928-amd-ryzen-7-7700x-socket-am5-8-core-16-hilos-max-54ghz-video-int.html",
+      "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$351.500",
+        "Tarjeta crédito/débito": "$370.130"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 278,
+      "store_id": "centrale",
+      "price": 351890,
+      "price_card": 371244,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-7700x-4-5ghz-8-nucleos-16-hilos-socket-am5-sin/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$351.890",
+        "Tarjetas de Crédito / Débito": "$371.244"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 3306,
+      "store_id": "alltec",
+      "price": 359900,
+      "price_card": 370697,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/1881-amd-ryzen-7-7700x-45ghz-54ghz-turbo-octa-core-tdp-105w-am5-730143314428.html",
+      "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$359.900",
+        "Tarjeta crédito/débito": "$370.697"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 9411,
+      "store_id": "spdigital",
+      "price": 359995,
+      "price_card": 376195,
+      "price_normal": 599990,
+      "discount_pct": 40,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/ryzen-7-am5-7700x",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$359.995",
+        "Webpay / Tarjeta": "$376.195"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -49,7 +132,19 @@
       "store_name": "Winpy",
       "date": "2026-05-05",
       "price": 358720
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-06",
+      "price": 358720
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 344736
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-05-08"
 }

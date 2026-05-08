@@ -10,26 +10,26 @@
   "specs": {
     "Capacidad": "1 TB",
     "Interfaz": "NVMe PCIe",
-    "Efectivo / Transferencia": "$186.656",
-    "Tarjeta crédito/débito": "$196.549"
+    "Efectivo / Transferencia": "$182.400",
+    "Tarjeta crédito/débito": "$192.067"
   },
   "tags": [],
   "created_at": "2026-05-04 01:26:05",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 32030,
       "store_id": "winpy",
-      "price": 186656,
-      "price_card": 196549,
+      "price": 182400,
+      "price_card": 192067,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/unidad-de-estado-solido-western-digital-green-sn350-de-1tb-nvme-pcie-gen3-x4/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$186.656",
-        "Otros medios de pago": "$196.549"
+        "Transferencia o Depósito": "$182.400",
+        "Otros medios de pago": "$192.067"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,7 +55,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 186656
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 182400
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

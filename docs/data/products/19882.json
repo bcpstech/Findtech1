@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:18:54",
-  "updated_at": "2026-05-06 03:13:48",
+  "updated_at": "2026-05-08 22:23:54",
   "prices": [
     {
       "product_id": 1704,
@@ -76,6 +76,25 @@
       "full_url": "https://www.myshop.cl"
     },
     {
+      "product_id": 9737,
+      "store_id": "spdigital",
+      "price": 94684,
+      "price_card": 98945,
+      "price_normal": 116900,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/fuente-de-poder-gigabyte-850w-certificacion-gold-conector-pg5-full-modular-color-blanco",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$94.684",
+        "Webpay / Tarjeta": "$98.945"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 2661,
       "store_id": "trulustore",
       "price": 94990,
@@ -95,25 +114,6 @@
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
-    },
-    {
-      "product_id": 9737,
-      "store_id": "spdigital",
-      "price": 96982,
-      "price_card": 101346,
-      "price_normal": 119760,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/fuente-de-poder-gigabyte-850w-certificacion-gold-conector-pg5-full-modular-color-blanco",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$96.982",
-        "Webpay / Tarjeta": "$101.346"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -146,7 +146,13 @@
       "store_name": "MyShop",
       "date": "2026-05-06",
       "price": 93850
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-08",
+      "price": 93850
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

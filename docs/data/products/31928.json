@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:34",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31928,
       "store_id": "winpy",
-      "price": 78432,
-      "price_card": 82589,
+      "price": 76608,
+      "price_card": 80668,
       "price_normal": null,
-      "discount_pct": 17,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-msi-pro-h610m-g-ddr5-lga1700-5600mhz-m-2-microatx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$78.432",
-        "Otros medios de pago": "$82.589"
+        "Transferencia o Depósito": "$76.608",
+        "Otros medios de pago": "$80.668"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 1365,
       "store_id": "centrale",
-      "price": 84440,
-      "price_card": 89084,
+      "price": 82980,
+      "price_card": 87544,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-msi-pro-h610m-g-lga-1700-ddr5/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$84.440",
-        "Tarjetas de Crédito / Débito": "$89.084"
+        "Transferencia / Efectivo": "$82.980",
+        "Tarjetas de Crédito / Débito": "$87.544"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -75,6 +75,25 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 32951,
+      "store_id": "infor-ingen",
+      "price": 107900,
+      "price_card": 111137,
+      "price_normal": 114374,
+      "discount_pct": 6,
+      "stock": "in_stock",
+      "product_url": "https://store.infor-ingen.com/producto/m-b-msi-pro-h610m-g/",
+      "store_name": "Infor-Ingen",
+      "price_specs": {
+        "Efectivo/Transferencia": "$107.900",
+        "Tarjeta crédito/débito": "$111.137"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
     },
     {
       "product_id": 9459,
@@ -114,7 +133,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 78432
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 76608
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

@@ -12,28 +12,29 @@
     "Tipo memoria": "GDDR6",
     "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$569.990",
-    "Tarjeta crédito/débito": "$601.339",
+    "Efectivo / Transferencia": "$567.990",
+    "Tarjeta crédito/débito": "$599.229",
     "Garantía": "6 meses",
     "SKU": "41672",
     "Part Number": "GV-R906XGAMINGOCICE-16GD"
   },
   "tags": [],
   "created_at": "2026-05-01 13:17:01",
-  "updated_at": "2026-05-03 22:40:02",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 19853,
       "store_id": "myshop",
-      "price": 569990,
-      "price_normal": 601339,
+      "price": 567990,
+      "price_card": 585030,
+      "price_normal": 599229,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/radeon-rx-9060-xt-gaming-oc-ice-16g-p41672",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$569.990",
-        "Tarjeta crédito/débito": "$601.339"
+        "Efectivo/Transferencia": "$567.990",
+        "Tarjeta crédito/débito": "$585.030"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,9 +42,29 @@
       "full_url": "https://www.myshop.cl"
     },
     {
+      "product_id": 31865,
+      "store_id": "winpy",
+      "price": 569696,
+      "price_card": 599890,
+      "price_normal": null,
+      "discount_pct": 22,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-gigabyte-radeon-rx-9060-xt-gaming-oc-ice-de-16gb-gddr6/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Transferencia o Depósito": "$569.696",
+        "Otros medios de pago": "$599.890"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
       "product_id": 2612,
       "store_id": "trulustore",
       "price": 599990,
+      "price_card": 617990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -52,7 +73,8 @@
       "khipu_price": 611990,
       "price_specs": {
         "Efectivo / Transferencia": "$599.990",
-        "Khipu": "$611.990"
+        "Khipu": "$611.990",
+        "Tarjeta crédito/débito": "$617.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,38 +82,42 @@
       "full_url": "https://www.trulustore.cl"
     },
     {
+      "product_id": 14070,
+      "store_id": "spdigital",
+      "price": 599995,
+      "price_card": 626995,
+      "price_normal": 899990,
+      "discount_pct": 33,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-gigabyte-radeon-rx-9060-xt-gaming-oc-ice-16gb-gddr6-128-bit-pci-e-50",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$599.995",
+        "Webpay / Tarjeta": "$626.995"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 1213,
       "store_id": "centrale",
       "price": 613120,
+      "price_card": 646842,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gigabyte-tarjeta-de-video-gaming-oc-ice-amd-radeon-rx-9060-xt-16-gb-gddr6-128/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$613.120"
+        "Transferencia / Efectivo": "$613.120",
+        "Tarjetas de Crédito / Débito": "$646.842"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 14070,
-      "store_id": "spdigital",
-      "price": 899990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-gigabyte-radeon-rx-9060-xt-gaming-oc-ice-16gb-gddr6-128-bit-pci-e-50",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$899.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -106,7 +132,31 @@
       "store_name": "MyShop",
       "date": "2026-05-03",
       "price": 569990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-04",
+      "price": 569990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-05",
+      "price": 569990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-06",
+      "price": 569990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-08",
+      "price": 567990
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-05-08"
 }

@@ -12,26 +12,26 @@
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Efectivo / Transferencia": "$185.440",
-    "Tarjeta crédito/débito": "$195.268"
+    "Efectivo / Transferencia": "$181.184",
+    "Tarjeta crédito/débito": "$190.787"
   },
   "tags": [],
   "created_at": "2026-05-04 01:23:32",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31954,
       "store_id": "winpy",
-      "price": 166592,
-      "price_card": 175421,
+      "price": 162336,
+      "price_card": 170940,
       "price_normal": null,
-      "discount_pct": 17,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b860m-a-lga1851-ddr5-8666-mhz-m-2-microatx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$166.592",
-        "Otros medios de pago": "$175.421"
+        "Transferencia o Depósito": "$162.336",
+        "Otros medios de pago": "$170.940"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 1386,
       "store_id": "centrale",
-      "price": 167910,
-      "price_card": 177145,
+      "price": 165160,
+      "price_card": 174244,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b860m-a-lga-1851-ddr5-m-2-gen5-pcie-gen5/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$167.910",
-        "Tarjetas de Crédito / Débito": "$177.145"
+        "Transferencia / Efectivo": "$165.160",
+        "Tarjetas de Crédito / Débito": "$174.244"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -95,7 +95,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 185440
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 181184
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

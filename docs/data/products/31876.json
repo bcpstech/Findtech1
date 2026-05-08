@@ -21,7 +21,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:44",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31876,
@@ -64,16 +64,16 @@
     {
       "product_id": 1199,
       "store_id": "centrale",
-      "price": 870490,
-      "price_card": 918367,
+      "price": 842040,
+      "price_card": 888352,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5070-12gb-gddr7-gaming-trio-oc-pcie-gen-5-250w/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$870.490",
-        "Tarjetas de Crédito / Débito": "$918.367"
+        "Transferencia / Efectivo": "$842.040",
+        "Tarjetas de Crédito / Débito": "$888.352"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -99,7 +99,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 817760
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 817760
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

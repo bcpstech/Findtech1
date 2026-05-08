@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 23:52:59",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 38853,
@@ -37,25 +37,6 @@
       "review_count": 0,
       "store_url": "www.mybox.cl",
       "full_url": "https://www.mybox.cl"
-    },
-    {
-      "product_id": 9568,
-      "store_id": "spdigital",
-      "price": 389995,
-      "price_card": 407545,
-      "price_normal": 539990,
-      "discount_pct": 28,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-dual-nvidia-geforce-rtx-5050-oc-8gb-gddr6-128-bit-pci-e-50",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$389.995",
-        "Webpay / Tarjeta": "$407.545"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 1133,
@@ -89,7 +70,13 @@
       "store_name": "MyBox",
       "date": "2026-05-06",
       "price": 367191
+    },
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-05-08",
+      "price": 367191
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:37",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31901,
@@ -40,40 +40,21 @@
     {
       "product_id": 37243,
       "store_id": "centrale",
-      "price": 306500,
-      "price_card": 323358,
+      "price": 297870,
+      "price_card": 314253,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-14600k-raptor-lake-s-lga1700-14-cores-20-hilos/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$306.500",
-        "Tarjetas de Crédito / Débito": "$323.358"
+        "Transferencia / Efectivo": "$297.870",
+        "Tarjetas de Crédito / Débito": "$314.253"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 1145,
-      "store_id": "cg",
-      "price": 399990,
-      "price_card": 421029,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-intel-core-i5-14600k/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$399.990",
-        "Webpay / Tarjeta": "$421.029"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -94,7 +75,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 284544
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 284544
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

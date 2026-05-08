@@ -17,12 +17,12 @@
     "Caché L3": "25 MB",
     "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$352.685",
-    "Tarjeta crédito/débito": "$368.556"
+    "Efectivo/Transferencia": "$344.281",
+    "Tarjeta crédito/débito": "$359.774"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:33",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31899,
@@ -65,16 +65,16 @@
     {
       "product_id": 9421,
       "store_id": "spdigital",
-      "price": 352685,
-      "price_card": 368556,
-      "price_normal": 435520,
+      "price": 344281,
+      "price_card": 359774,
+      "price_normal": 425100,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-intel-core-i7-12700kf-12o-gen-36ghz-hasta-5ghz-socket-lga1700-sin-gráficas",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$352.685",
-        "Webpay / Tarjeta": "$368.556"
+        "Transferencia / Efectivo": "$344.281",
+        "Webpay / Tarjeta": "$359.774"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -100,7 +100,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 279680
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 279680
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

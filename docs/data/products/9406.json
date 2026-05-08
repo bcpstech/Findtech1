@@ -26,7 +26,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:55",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 1149,
@@ -86,6 +86,25 @@
       "full_url": "https://www.n1g.cl"
     },
     {
+      "product_id": 283,
+      "store_id": "centrale",
+      "price": 156750,
+      "price_card": 165371,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-5600gt-3-6ghz-a-4-2ghz-6-nucleos-12-hilos-socket-am4/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$156.750",
+        "Tarjetas de Crédito / Débito": "$165.371"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
       "product_id": 9406,
       "store_id": "spdigital",
       "price": 159995,
@@ -103,25 +122,6 @@
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 283,
-      "store_id": "centrale",
-      "price": 160200,
-      "price_card": 169011,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-5600gt-3-6ghz-a-4-2ghz-6-nucleos-12-hilos-socket-am4/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$160.200",
-        "Tarjetas de Crédito / Débito": "$169.011"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -166,7 +166,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-06",
       "price": 159995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-08",
+      "price": 159995
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

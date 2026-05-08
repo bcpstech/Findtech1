@@ -12,26 +12,26 @@
     "Caché L3": "33 MB",
     "Socket": "LGA1700",
     "Generación": "Intel 13ª Gen (Raptor Lake)",
-    "Efectivo / Transferencia": "$447.488",
-    "Tarjeta crédito/débito": "$471.205"
+    "Efectivo / Transferencia": "$442.624",
+    "Tarjeta crédito/débito": "$466.083"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:13",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31919,
       "store_id": "winpy",
-      "price": 447488,
-      "price_card": 471205,
+      "price": 442624,
+      "price_card": 466083,
       "price_normal": null,
-      "discount_pct": 4,
+      "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i7-14700-raptor-lake-lga1700-2-1-5-4-ghz-20-nucleos-28-hilos-33-mb-cache/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$447.488",
-        "Otros medios de pago": "$471.205"
+        "Transferencia o Depósito": "$442.624",
+        "Otros medios de pago": "$466.083"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 319,
       "store_id": "centrale",
-      "price": 453990,
-      "price_card": 478959,
+      "price": 445560,
+      "price_card": 470066,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700-lga1700-2-1ghz-a-5-4-ghz-20-nucleos-28-hilos/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$453.990",
-        "Tarjetas de Crédito / Débito": "$478.959"
+        "Transferencia / Efectivo": "$445.560",
+        "Tarjetas de Crédito / Débito": "$470.066"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -76,7 +76,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 447488
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 442624
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

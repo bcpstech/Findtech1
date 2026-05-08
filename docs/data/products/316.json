@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 16:25:48",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 316,
@@ -59,16 +59,16 @@
     {
       "product_id": 31911,
       "store_id": "winpy",
-      "price": 376960,
-      "price_card": 396939,
+      "price": 375136,
+      "price_card": 395018,
       "price_normal": null,
       "discount_pct": 23,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-ultra-7-265k-lga1851-3-3-5-5-ghz-8-p-cores-12-e-cores-30mb-cache/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$376.960",
-        "Otros medios de pago": "$396.939"
+        "Transferencia o Depósito": "$375.136",
+        "Otros medios de pago": "$395.018"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -78,16 +78,16 @@
     {
       "product_id": 1144,
       "store_id": "cg",
-      "price": 402603,
-      "price_card": 423780,
+      "price": 400741,
+      "price_card": 421820,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-7-265k-3-9-ghz-20-core-lga1851/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$402.603",
-        "Webpay / Tarjeta": "$423.780"
+        "Efectivo/Transferencia": "$400.741",
+        "Webpay / Tarjeta": "$421.820"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -137,7 +137,13 @@
       "store_name": "Centrale",
       "date": "2026-05-06",
       "price": 352460
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-08",
+      "price": 352460
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

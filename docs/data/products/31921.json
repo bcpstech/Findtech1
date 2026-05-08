@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:20",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31921,
       "store_id": "winpy",
-      "price": 52288,
-      "price_card": 55059,
+      "price": 51072,
+      "price_card": 53779,
       "price_normal": null,
-      "discount_pct": 38,
+      "discount_pct": 40,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-a520m-k-am4-2133-4600mhz-m-2-microatx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$52.288",
-        "Otros medios de pago": "$55.059"
+        "Transferencia o Depósito": "$51.072",
+        "Otros medios de pago": "$53.779"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,21 +41,40 @@
     {
       "product_id": 9438,
       "store_id": "spdigital",
-      "price": 54380,
-      "price_card": 56827,
-      "price_normal": 67180,
+      "price": 53185,
+      "price_card": 55578,
+      "price_normal": 65580,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-a520m-k-socket-amd-am4-2xddr4-1x-m2-4x-sata-hdmi-vga-micro-atx",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$54.380",
-        "Webpay / Tarjeta": "$56.827"
+        "Transferencia / Efectivo": "$53.185",
+        "Webpay / Tarjeta": "$55.578"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1410,
+      "store_id": "centrale",
+      "price": 56060,
+      "price_card": 59143,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-asus-prime-a520m-k-socket-amd-am4/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$56.060",
+        "Tarjetas de Crédito / Débito": "$59.143"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 23522,
@@ -77,37 +96,18 @@
       "full_url": "https://www.alltec.cl"
     },
     {
-      "product_id": 1410,
-      "store_id": "centrale",
-      "price": 60990,
-      "price_card": 64344,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-asus-prime-a520m-k-socket-amd-am4/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$60.990",
-        "Tarjetas de Crédito / Débito": "$64.344"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
       "product_id": 38912,
       "store_id": "mybox",
-      "price": 64116,
-      "price_card": 66039,
+      "price": 62428,
+      "price_card": 64301,
       "price_normal": 67490,
-      "discount_pct": 5,
+      "discount_pct": 8,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/placa-madre/3863-prime-a520m-k-4718017826921.html",
       "store_name": "MyBox",
       "price_specs": {
-        "Efectivo/Transferencia": "$64.116",
-        "Tarjeta crédito/débito": "$66.039"
+        "Efectivo/Transferencia": "$62.428",
+        "Tarjeta crédito/débito": "$64.301"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -117,16 +117,16 @@
     {
       "product_id": 1165,
       "store_id": "cg",
-      "price": 73739,
-      "price_card": 77618,
+      "price": 70919,
+      "price_card": 74649,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/placas-madre/asus-prime-a520m-k-placa-base-micro-atx-socket-am4-amd-a520-chipset-usb-3-2-gen-1-gigabit-lan-tarjeta-grafica-cpu-necesaria-hd-audio-8-canales/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$73.739",
-        "Webpay / Tarjeta": "$77.618"
+        "Efectivo/Transferencia": "$70.919",
+        "Webpay / Tarjeta": "$74.649"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -152,7 +152,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 52288
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 51072
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

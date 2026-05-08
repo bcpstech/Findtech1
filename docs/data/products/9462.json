@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:29",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 9462,
@@ -57,6 +57,25 @@
       "full_url": "https://www.mybox.cl"
     },
     {
+      "product_id": 31953,
+      "store_id": "winpy",
+      "price": 145920,
+      "price_card": 153654,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b860m-k-lga1851-ddr5-pcie-5-0-2-5gb-lan-micro-atx/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Transferencia o Depósito": "$145.920",
+        "Otros medios de pago": "$153.654"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
       "product_id": 1370,
       "store_id": "centrale",
       "price": 148990,
@@ -74,25 +93,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 31953,
-      "store_id": "winpy",
-      "price": 149568,
-      "price_card": 157495,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b860m-k-lga1851-ddr5-pcie-5-0-2-5gb-lan-micro-atx/",
-      "store_name": "Winpy",
-      "price_specs": {
-        "Transferencia o Depósito": "$149.568",
-        "Otros medios de pago": "$157.495"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
     }
   ],
   "history": [
@@ -137,7 +137,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-06",
       "price": 139995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-08",
+      "price": 139995
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

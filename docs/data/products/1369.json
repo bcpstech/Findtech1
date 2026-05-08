@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 1369,
       "store_id": "centrale",
-      "price": 128100,
-      "price_card": 135146,
+      "price": 125740,
+      "price_card": 132656,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-h810m-b-micro-atx-lga-1851-ddr5/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$128.100",
-        "Tarjetas de Crédito / Débito": "$135.146"
+        "Transferencia / Efectivo": "$125.740",
+        "Tarjetas de Crédito / Débito": "$132.656"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,16 +60,16 @@
     {
       "product_id": 9474,
       "store_id": "spdigital",
-      "price": 149378,
-      "price_card": 156100,
-      "price_normal": 184440,
+      "price": 145769,
+      "price_card": 152329,
+      "price_normal": 180030,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/msi-pro-h810m-b-wifi6e",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$149.378",
-        "Webpay / Tarjeta": "$156.100"
+        "Transferencia / Efectivo": "$145.769",
+        "Webpay / Tarjeta": "$152.329"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -157,7 +157,13 @@
       "store_name": "Centrale",
       "date": "2026-05-06",
       "price": 128100
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-08",
+      "price": 125740
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:34",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 9589,
@@ -42,16 +42,16 @@
     {
       "product_id": 31853,
       "store_id": "winpy",
-      "price": 364800,
-      "price_card": 384134,
+      "price": 355680,
+      "price_card": 374531,
       "price_normal": null,
-      "discount_pct": 9,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-gigabyte-radeon-rx-7600-gaming-oc-de-8gb-gddr6/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$364.800",
-        "Otros medios de pago": "$384.134"
+        "Transferencia o Depósito": "$355.680",
+        "Otros medios de pago": "$374.531"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -101,7 +101,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-06",
       "price": 329995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-08",
+      "price": 329995
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

@@ -12,26 +12,26 @@
     "Tipo": "DDR5",
     "Velocidad": "5600 MHz",
     "Latencia": "CL40",
-    "Transferencia / Efectivo": "$572.540",
-    "Tarjeta crédito/débito": "$604.030"
+    "Transferencia / Efectivo": "$568.700",
+    "Tarjeta crédito/débito": "$599.980"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 1505,
       "store_id": "centrale",
-      "price": 132540,
-      "price_card": 139830,
+      "price": 132990,
+      "price_card": 140304,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-notebook-16gb-3200mt-s-ddr4-cl20-kingston-fury-impact-sodimm/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$132.540",
-        "Tarjetas de Crédito / Débito": "$139.830"
+        "Transferencia / Efectivo": "$132.990",
+        "Tarjetas de Crédito / Débito": "$140.304"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -81,7 +81,13 @@
       "store_name": "Centrale",
       "date": "2026-05-06",
       "price": 132540
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-08",
+      "price": 132990
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

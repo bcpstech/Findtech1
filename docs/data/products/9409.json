@@ -25,7 +25,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:56",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 1950,
@@ -104,6 +104,25 @@
       "full_url": "https://store.infor-ingen.com"
     },
     {
+      "product_id": 293,
+      "store_id": "centrale",
+      "price": 167810,
+      "price_card": 177040,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-8400f-6-cores-12threads-4-2-a-4-7ghz-65w/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$167.810",
+        "Tarjetas de Crédito / Débito": "$177.040"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
       "product_id": 9409,
       "store_id": "spdigital",
       "price": 169995,
@@ -121,25 +140,6 @@
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 293,
-      "store_id": "centrale",
-      "price": 173910,
-      "price_card": 183475,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-8400f-6-cores-12threads-4-2-a-4-7ghz-65w/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$173.910",
-        "Tarjetas de Crédito / Débito": "$183.475"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 2809,
@@ -222,7 +222,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-06",
       "price": 169995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-08",
+      "price": 169995
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

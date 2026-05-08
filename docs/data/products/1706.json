@@ -8,22 +8,27 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-550W-XPG-Pylon-No-Modular-80-Bronze-PCIe-5.0.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$45.170",
-    "Tarjetas de Crédito / Débito": "$47.650"
+    "Transferencia / Efectivo": "$47.850",
+    "Tarjeta crédito/débito": "$50.480"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:52",
-  "updated_at": "2026-04-27 22:15:16",
+  "updated_at": "2026-05-08 22:47:29",
   "prices": [
     {
       "product_id": 1706,
       "store_id": "centrale",
-      "price": 45170,
+      "price": 47850,
+      "price_card": 50482,
       "price_normal": 55330,
-      "discount_pct": 18,
+      "discount_pct": 14,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-550w-xpg-pylon-no-modular-80-bronze/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$47.850",
+        "Tarjetas de Crédito / Débito": "$50.482"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -42,7 +47,13 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 45170
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-08",
+      "price": 47850
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-08"
 }

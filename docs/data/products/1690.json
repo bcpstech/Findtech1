@@ -8,54 +8,71 @@
   "image_url": "https://centrale.cl/wp-content/uploads/Asus-Fuente-De-Poder-Prime-850W-Certificada-80-Plus-Gold-Modular-Atx-Alto.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$108.770",
-    "Tarjetas de Crédito / Débito": "$114.750"
+    "Transferencia / Efectivo": "$107.840",
+    "Tarjeta crédito/débito": "$113.770"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:52",
-  "updated_at": "2026-04-27 22:15:16",
+  "updated_at": "2026-05-08 22:46:54",
   "prices": [
     {
       "product_id": 1690,
       "store_id": "centrale",
-      "price": 108770,
-      "price_normal": 132790,
-      "discount_pct": 18,
+      "price": 107840,
+      "price_card": 113771,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-asus-prime-850w-80-plus-gold-modular-atx/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$107.840",
+        "Tarjetas de Crédito / Débito": "$113.771"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 2549,
-      "store_id": "megabytes",
-      "price": 116500,
-      "price_normal": 155330,
-      "discount_pct": 25,
-      "stock": "in_stock",
-      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/asus-fuente-de-poder-prime-850w-80gold-ap-850g/",
-      "store_name": "MegaBytes",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.megabytes.cl",
-      "full_url": "https://www.megabytes.cl"
-    },
-    {
       "product_id": 2654,
       "store_id": "trulustore",
-      "price": 129990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 114990,
+      "price_card": 118440,
+      "price_normal": 129990,
+      "discount_pct": 12,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/fuente-de-poder-asus-prime-850g-de-850w-80-gold-full-modular-atx-3-1/",
       "store_name": "TruluStore",
+      "khipu_price": 117290,
+      "price_specs": {
+        "Efectivo / Transferencia": "$114.990",
+        "Khipu": "$117.290",
+        "Tarjeta crédito/débito": "$118.440"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 2549,
+      "store_id": "megabytes",
+      "price": 119990,
+      "price_card": 123590,
+      "price_normal": 159990,
+      "discount_pct": 25,
+      "stock": "in_stock",
+      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/asus-fuente-de-poder-prime-850w-80gold-ap-850g/",
+      "store_name": "MegaBytes",
+      "price_specs": {
+        "Efectivo/Transferencia": "$119.990",
+        "Tarjeta crédito/débito": "$123.590"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.megabytes.cl",
+      "full_url": "https://www.megabytes.cl"
     }
   ],
   "history": [
@@ -70,7 +87,43 @@
       "store_name": "Centrale",
       "date": "2026-04-27",
       "price": 108770
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-01",
+      "price": 1093
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-03",
+      "price": 109280
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-04",
+      "price": 109280
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-05",
+      "price": 110230
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-06",
+      "price": 110230
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-08",
+      "price": 107840
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-05-08"
 }

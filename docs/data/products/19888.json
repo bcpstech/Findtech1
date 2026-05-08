@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:19:31",
-  "updated_at": "2026-05-06 03:14:21",
+  "updated_at": "2026-05-08 22:24:44",
   "prices": [
     {
       "product_id": 19888,
@@ -40,16 +40,16 @@
     {
       "product_id": 9714,
       "store_id": "spdigital",
-      "price": 433566,
-      "price_card": 453076,
-      "price_normal": 535470,
-      "discount_pct": 19,
+      "price": 429835,
+      "price_card": 449178,
+      "price_normal": 522660,
+      "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/fuente-de-poder-asus-rog-thor-1200w-certificada-80-plus-platinum-atx-31-gaming-premium",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$433.566",
-        "Webpay / Tarjeta": "$453.076"
+        "Transferencia / Efectivo": "$429.835",
+        "Webpay / Tarjeta": "$449.178"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,16 +59,16 @@
     {
       "product_id": 1684,
       "store_id": "centrale",
-      "price": 442490,
-      "price_card": 466827,
+      "price": 432860,
+      "price_card": 456667,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-asus-rog-thor-1200w-80-platinum-atx-3-1-modular/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$442.490",
-        "Tarjetas de Crédito / Débito": "$466.827"
+        "Transferencia / Efectivo": "$432.860",
+        "Tarjetas de Crédito / Débito": "$456.667"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -128,7 +128,13 @@
       "store_name": "MyShop",
       "date": "2026-05-06",
       "price": 429500
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-08",
+      "price": 429500
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

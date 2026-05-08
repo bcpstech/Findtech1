@@ -13,31 +13,50 @@
     "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
     "Factor de forma": "Full-Height/Half-Length (FH/HL)",
-    "Efectivo/Transferencia": "$352.755",
-    "Tarjeta crédito/débito": "$368.629"
+    "Efectivo/Transferencia": "$344.281",
+    "Tarjeta crédito/débito": "$359.774"
   },
   "tags": [],
   "created_at": "2026-05-04 01:19:50",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31849,
       "store_id": "winpy",
-      "price": 344736,
-      "price_card": 363007,
+      "price": 342912,
+      "price_card": 361086,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-zotac-rtx-5050-twin-edge-oc-de-8gb-gddr6/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$344.736",
-        "Otros medios de pago": "$363.007"
+        "Transferencia o Depósito": "$342.912",
+        "Otros medios de pago": "$361.086"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 9582,
+      "store_id": "spdigital",
+      "price": 344281,
+      "price_card": 359774,
+      "price_normal": 425200,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/zotac-gaming-geforce-rtx-5050-twin-edge",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$344.281",
+        "Webpay / Tarjeta": "$359.774"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 2597,
@@ -59,25 +78,6 @@
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
-    },
-    {
-      "product_id": 9582,
-      "store_id": "spdigital",
-      "price": 352755,
-      "price_card": 368629,
-      "price_normal": 435610,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/zotac-gaming-geforce-rtx-5050-twin-edge",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$352.755",
-        "Webpay / Tarjeta": "$368.629"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 1238,
@@ -117,7 +117,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 344736
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 342912
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

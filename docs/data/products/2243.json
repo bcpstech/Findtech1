@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:15",
-  "updated_at": "2026-05-06 03:43:24",
+  "updated_at": "2026-05-08 22:56:50",
   "prices": [
     {
       "product_id": 2243,
@@ -53,6 +53,25 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 38963,
+      "store_id": "mybox",
+      "price": 183816,
+      "price_card": 189330,
+      "price_normal": 193490,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/fuentes-de-poder/6121-fuente-de-poder-aorus-elite-p1000w-80-platinum-modular-pcie-50-ice-4719331554545.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$183.816",
+        "Tarjeta crédito/débito": "$189.330"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -97,7 +116,13 @@
       "store_name": "Dust2",
       "date": "2026-05-06",
       "price": 159990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-08",
+      "price": 159990
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

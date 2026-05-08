@@ -14,34 +14,37 @@
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
     "Factor de forma": "Full-Height/Full-Length (FH/FL)",
-    "Efectivo/Transferencia": "$1.065.670",
-    "Tarjeta crédito/débito": "$1.113.630"
+    "Efectivo/Transferencia": "$849.634",
+    "Tarjeta crédito/débito": "$887.868"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:30",
-  "updated_at": "2026-05-03 05:12:06",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
-      "product_id": 1244,
-      "store_id": "centrale",
-      "price": 8678,
-      "price_normal": null,
-      "discount_pct": null,
+      "product_id": 9584,
+      "store_id": "spdigital",
+      "price": 849634,
+      "price_card": 887868,
+      "price_normal": 1049320,
+      "discount_pct": 19,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bit/",
-      "store_name": "Centrale",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-gaming-nvidia-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bits-pcie-50",
+      "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$8.678"
+        "Transferencia / Efectivo": "$849.634",
+        "Webpay / Tarjeta": "$887.868"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 12141,
       "store_id": "trulustore",
       "price": 849990,
+      "price_card": 875490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
@@ -50,7 +53,8 @@
       "khipu_price": 866990,
       "price_specs": {
         "Efectivo / Transferencia": "$849.990",
-        "Khipu": "$866.990"
+        "Khipu": "$866.990",
+        "Tarjeta crédito/débito": "$875.490"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,21 +62,42 @@
       "full_url": "https://www.trulustore.cl"
     },
     {
-      "product_id": 9584,
-      "store_id": "spdigital",
-      "price": 1065670,
+      "product_id": 1244,
+      "store_id": "centrale",
+      "price": 859230,
+      "price_card": 906488,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-gaming-nvidia-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bits-pcie-50",
-      "store_name": "SP Digital",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bit/",
+      "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.065.670"
+        "Transferencia / Efectivo": "$859.230",
+        "Tarjetas de Crédito / Débito": "$906.488"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 31878,
+      "store_id": "winpy",
+      "price": 869440,
+      "price_card": 915520,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-zotac-geforce-rtx-5070-solid-oc-de-12gb-gddr7/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Transferencia o Depósito": "$869.440",
+        "Otros medios de pago": "$915.520"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     }
   ],
   "history": [
@@ -99,7 +124,31 @@
       "store_name": "SP Digital",
       "date": "2026-05-03",
       "price": 1065670
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-04",
+      "price": 862877
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-05",
+      "price": 870439
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-06",
+      "price": 870439
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-08",
+      "price": 849634
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-05-08"
 }

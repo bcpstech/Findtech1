@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-cooler-master-masterliquid-pl240-flux-argb-240mm-intel-amd-color-negro.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$166.683",
-    "Tarjeta crédito/débito": "$174.184"
+    "Efectivo/Transferencia": "$162.673",
+    "Tarjeta crédito/débito": "$169.993"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:09",
-  "updated_at": "2026-05-06 03:06:38",
+  "updated_at": "2026-05-08 22:15:35",
   "prices": [
     {
       "product_id": 9652,
       "store_id": "spdigital",
-      "price": 166683,
-      "price_card": 174184,
-      "price_normal": 174170,
+      "price": 162673,
+      "price_card": 169993,
+      "price_normal": 170000,
       "discount_pct": 4,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/pl240-flux",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$166.683",
-        "Webpay / Tarjeta": "$174.184"
+        "Transferencia / Efectivo": "$162.673",
+        "Webpay / Tarjeta": "$169.993"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,16 +37,16 @@
     {
       "product_id": 1642,
       "store_id": "centrale",
-      "price": 171730,
-      "price_card": 181175,
+      "price": 168540,
+      "price_card": 177810,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-cpu-cooler-master-master-liquid-pl240-flux/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$171.730",
-        "Tarjetas de Crédito / Débito": "$181.175"
+        "Transferencia / Efectivo": "$168.540",
+        "Tarjetas de Crédito / Débito": "$177.810"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -96,7 +96,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-06",
       "price": 166683
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-08",
+      "price": 162673
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

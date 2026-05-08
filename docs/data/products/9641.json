@@ -9,27 +9,27 @@
   "description": null,
   "specs": {
     "Marca": "be quiet!",
-    "Modelo": "BW024",
-    "Efectivo / Transferencia": "$109.990",
-    "Tarjeta crédito/débito": "$113.290"
+    "Modelo": "BW020",
+    "Efectivo / Transferencia": "$79.990",
+    "Tarjeta crédito/débito": "$82.390"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:04",
-  "updated_at": "2026-05-06 03:06:36",
+  "updated_at": "2026-05-08 22:15:32",
   "prices": [
     {
       "product_id": 9641,
       "store_id": "spdigital",
-      "price": 74995,
-      "price_card": 78370,
+      "price": 69995,
+      "price_card": 73145,
       "price_normal": 109990,
-      "discount_pct": 32,
+      "discount_pct": 36,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/refrigeracion-liquida-be-quiet-pure-loop-3-240mm-pwm-alto-rendimiento-cpu-intel-amd",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$74.995",
-        "Webpay / Tarjeta": "$78.370"
+        "Transferencia / Efectivo": "$69.995",
+        "Webpay / Tarjeta": "$73.145"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -98,7 +98,13 @@
       "store_name": "SP Digital",
       "date": "2026-05-06",
       "price": 74995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-05-08",
+      "price": 69995
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

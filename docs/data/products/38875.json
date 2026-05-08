@@ -1,0 +1,83 @@
+{
+  "id": 38875,
+  "external_id": "mybox_placa-madre-gigabyte-z790-d-ax",
+  "category_id": "mobo",
+  "brand": "Gigabyte",
+  "name": "Placa Madre Gigabyte Z790 D AX",
+  "slug": "mybox-placa-madre-gigabyte-z790-d-ax",
+  "image_url": "https://images.findtech.cl/products/placa-madre-gigabyte-z790-d-ax.jpg",
+  "description": null,
+  "specs": {
+    "Socket": "LGA 1700",
+    "Factor de forma": "ATX",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
+    "Chipset": "Intel Z790 Express",
+    "Efectivo/Transferencia": "$259.995",
+    "Tarjeta crédito/débito": "$271.695"
+  },
+  "tags": [],
+  "created_at": "2026-05-04 23:53:14",
+  "updated_at": "2026-05-08 23:03:02",
+  "prices": [
+    {
+      "product_id": 38875,
+      "store_id": "mybox",
+      "price": 253166,
+      "price_card": 260761,
+      "price_normal": 266490,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/6075-placa-madre-gigabyte-z790-d-ax-4719331860592.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$253.166",
+        "Tarjeta crédito/débito": "$260.761"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
+    },
+    {
+      "product_id": 9471,
+      "store_id": "spdigital",
+      "price": 259995,
+      "price_card": 271695,
+      "price_normal": 319990,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/placa-madre-gigabyte-lga-1700-ddr5-soporte-12ava-13ava-y-14ava-gen-intel-wifi-6e-bluetooth-pc",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$259.995",
+        "Webpay / Tarjeta": "$271.695"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-05-05",
+      "price": 253166
+    },
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-05-06",
+      "price": 253166
+    },
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-05-08",
+      "price": 253166
+    }
+  ],
+  "scraped_at": "2026-05-08"
+}

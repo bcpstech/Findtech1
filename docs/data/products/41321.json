@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-05-05 12:33:13",
-  "updated_at": "2026-05-06 03:14:07",
+  "updated_at": "2026-05-08 22:24:23",
   "prices": [
     {
       "product_id": 2551,
@@ -36,6 +36,25 @@
       "review_count": 0,
       "store_url": "www.megabytes.cl",
       "full_url": "https://www.megabytes.cl"
+    },
+    {
+      "product_id": 1713,
+      "store_id": "centrale",
+      "price": 54090,
+      "price_card": 57065,
+      "price_normal": 60170,
+      "discount_pct": 10,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/fuente-poder-xpg-pylon-750w-80-plus-bronze-pylon750b-bkccl/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$54.090",
+        "Tarjetas de Crédito / Débito": "$57.065"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 2296,
@@ -76,25 +95,6 @@
       "full_url": "https://www.myshop.cl"
     },
     {
-      "product_id": 1713,
-      "store_id": "centrale",
-      "price": 57240,
-      "price_card": 60388,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-poder-xpg-pylon-750w-80-plus-bronze-pylon750b-bkccl/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$57.240",
-        "Tarjetas de Crédito / Débito": "$60.388"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
       "product_id": 810,
       "store_id": "n1g",
       "price": 67900,
@@ -126,7 +126,13 @@
       "store_name": "MyShop",
       "date": "2026-05-06",
       "price": 56900
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-08",
+      "price": 56900
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

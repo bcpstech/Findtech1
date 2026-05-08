@@ -11,26 +11,26 @@
     "VRAM": "8 GB",
     "Tipo memoria": "GDDR6",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$415.810",
-    "Tarjeta crédito/débito": "$438.680"
+    "Transferencia / Efectivo": "$389.990",
+    "Tarjeta crédito/débito": "$411.440"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 1232,
       "store_id": "centrale",
-      "price": 415810,
-      "price_card": 438680,
+      "price": 389990,
+      "price_card": 411439,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-prime-geforce-rtx-5050-8gb-gddr6-oc-edition/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$415.810",
-        "Tarjetas de Crédito / Débito": "$438.680"
+        "Transferencia / Efectivo": "$389.990",
+        "Tarjetas de Crédito / Débito": "$411.439"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -80,7 +80,13 @@
       "store_name": "Centrale",
       "date": "2026-05-06",
       "price": 415810
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-08",
+      "price": 389990
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

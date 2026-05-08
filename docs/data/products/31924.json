@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:26",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31924,
@@ -37,25 +37,6 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 1411,
-      "store_id": "centrale",
-      "price": 74550,
-      "price_card": 78650,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-gigabyte-h610m-k-ddr4-intel-lga1700-ddr4-hdmi/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$74.550",
-        "Tarjetas de Crédito / Débito": "$78.650"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 9469,
@@ -114,7 +95,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 69312
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 69312
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

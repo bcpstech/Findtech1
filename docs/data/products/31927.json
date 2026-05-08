@@ -11,12 +11,12 @@
     "Socket": "AM5",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$89.010",
-    "Tarjeta crédito/débito": "$93.910"
+    "Transferencia / Efectivo": "$87.560",
+    "Tarjeta crédito/débito": "$92.380"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:32",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 31927,
@@ -40,16 +40,16 @@
     {
       "product_id": 1323,
       "store_id": "centrale",
-      "price": 82480,
-      "price_card": 87016,
+      "price": 78490,
+      "price_card": 82807,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/msi-pro-a620am-b-evo-911-7e36-002/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$82.480",
-        "Tarjetas de Crédito / Débito": "$87.016"
+        "Transferencia / Efectivo": "$78.490",
+        "Tarjetas de Crédito / Débito": "$82.807"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -74,46 +74,6 @@
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
-    },
-    {
-      "product_id": 33102,
-      "store_id": "infor-ingen",
-      "price": 94900,
-      "price_card": 97747,
-      "price_normal": 100594,
-      "discount_pct": 6,
-      "stock": "in_stock",
-      "product_url": "https://store.infor-ingen.com/producto/m-b-msi-pro-a620am-b-evo/",
-      "store_name": "Infor-Ingen",
-      "price_specs": {
-        "Efectivo/Transferencia": "$94.900",
-        "Tarjeta crédito/débito": "$97.747"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "store.infor-ingen.com",
-      "full_url": "https://store.infor-ingen.com"
-    },
-    {
-      "product_id": 2641,
-      "store_id": "trulustore",
-      "price": 94990,
-      "price_card": 97840,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/placa-madre-msi-pro-a620am-b-evo-amd-am5-ddr5-matx/",
-      "store_name": "TruluStore",
-      "khipu_price": 96890,
-      "price_specs": {
-        "Efectivo / Transferencia": "$94.990",
-        "Khipu": "$96.890",
-        "Tarjeta crédito/débito": "$97.840"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -134,7 +94,13 @@
       "store_name": "Winpy",
       "date": "2026-05-06",
       "price": 76608
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-05-08",
+      "price": 76608
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

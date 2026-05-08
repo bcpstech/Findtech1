@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:42:03",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 324,
@@ -79,16 +79,16 @@
     {
       "product_id": 13796,
       "store_id": "cg",
-      "price": 764528,
-      "price_card": 804742,
+      "price": 768666,
+      "price_card": 809098,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-9-285k-3-7-ghz-24-core-lga1851/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$764.528",
-        "Webpay / Tarjeta": "$804.742"
+        "Efectivo/Transferencia": "$768.666",
+        "Webpay / Tarjeta": "$809.098"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -157,7 +157,13 @@
       "store_name": "Dust2",
       "date": "2026-05-06",
       "price": 719990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-05-08",
+      "price": 719990
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

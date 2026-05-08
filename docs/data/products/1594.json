@@ -12,12 +12,12 @@
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
     "Marca": "KINGSTON",
-    "Efectivo/Transferencia": "$719.569",
-    "Webpay / Tarjeta": "$757.418"
+    "Efectivo/Transferencia": "$702.032",
+    "Webpay / Tarjeta": "$738.959"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 1594,
@@ -41,16 +41,16 @@
     {
       "product_id": 4196,
       "store_id": "cg",
-      "price": 345107,
-      "price_card": 363260,
+      "price": 324090,
+      "price_card": 341137,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/almacenamiento/disco-ssd-kingston-kc3000-2tb-m-2-nvme-pcie-7000-7000mb-s/",
+      "product_url": "https://centralgamer.cl/almacenamiento/disco-ssd-kingston-kc3000-2tb-m-2-2280-nvme-pcie-4-0-x4-lectura-7000mb-s-escritura-7000mb-s/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$345.107",
-        "Webpay / Tarjeta": "$363.260"
+        "Efectivo/Transferencia": "$324.090",
+        "Webpay / Tarjeta": "$341.137"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -100,7 +100,13 @@
       "store_name": "Centrale",
       "date": "2026-05-06",
       "price": 129470
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-05-08",
+      "price": 129470
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

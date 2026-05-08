@@ -12,15 +12,15 @@
     "Tipo memoria": "GDDR7",
     "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$405.950",
-    "Tarjeta crédito/débito": "$428.277",
+    "Efectivo / Transferencia": "$399.900",
+    "Tarjeta crédito/débito": "$421.895",
     "Garantía": "6 meses",
     "SKU": "38536",
     "Part Number": "912-V537-038"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:32",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 23:18:23",
   "prices": [
     {
       "product_id": 505,
@@ -44,16 +44,16 @@
     {
       "product_id": 19815,
       "store_id": "myshop",
-      "price": 405950,
-      "price_card": 418129,
-      "price_normal": 428277,
-      "discount_pct": 18,
+      "price": 399900,
+      "price_card": 411897,
+      "price_normal": 421895,
+      "discount_pct": 20,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/geforce-rtx-5060-8g-shadow-2x-oc-p38536",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$405.950",
-        "Tarjeta crédito/débito": "$418.129"
+        "Efectivo/Transferencia": "$399.900",
+        "Tarjeta crédito/débito": "$411.897"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -148,7 +148,13 @@
       "store_name": "MyShop",
       "date": "2026-05-06",
       "price": 405950
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-05-08",
+      "price": 399900
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }
