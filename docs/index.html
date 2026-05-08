@@ -1382,8 +1382,10 @@ function renderStores() {
 // ═══════════════════════════════════════════════
 // DATA LOADING
 // ═══════════════════════════════════════════════
+const SUPABASE_URL = 'https://bxpxrlcfuiohzvkoofnh.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ4cHhybGNmdWlvaHp2a29vZm5oIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgyNTEyNDIsImV4cCI6MjA5MzgyNzI0Mn0.KbLDHGwLHGz71qUUaLvyCW2GiSrnVQn8E1d14Vs22VA';
+
 const DATA_BASE = (() => {
-  const href = window.location.href.split('?')[0].split('#')[0];
   const base = href.endsWith('/') ? href : href.substring(0, href.lastIndexOf('/') + 1);
   return base + 'data';
 })();
@@ -1917,46 +1919,56 @@ async function submitOpinion() {
     return;
   }
 
-  // Deshabilitar botón de envío
   const btns = document.querySelectorAll('#opinion-modal button[onclick="submitOpinion()"]');
   btns.forEach(b => { b.disabled=true; b.textContent='Enviando...'; });
+  if (fb) fb.style.display = 'none';
 
-  const producto    = currentOpinionProduct;
-  const ratingStars = currentRating ? '⭐'.repeat(currentRating) + ` (${currentRating}/5)` : 'Sin calificar';
+  const producto     = currentOpinionProduct;
   const tiendaNombre = STORES.find(s => s.id === tienda)?.name || tienda;
 
-  const templateParams = {
-    from_name:        nombre,
-    from_email:       correo || 'No indicado',
-    tienda:           tiendaNombre,
-    producto_nombre:  producto ? producto.name : 'No especificado',
-    producto_cat:     producto ? (CATS[producto.category]?.name || producto.category) : '',
+  // Boleta a base64 si existe
+  let boletaNombre = 'No adjuntada';
+  const boletaFile = document.getElementById('op-boleta-file')?.files[0];
+  if (boletaFile) boletaNombre = boletaFile.name;
+
+  const record = {
+    product_id:       producto?.id || null,
+    product_name:     producto?.name || 'No especificado',
+    product_cat:      producto ? (CATS[producto.category]?.name || producto.category) : '',
+    store_id:         tienda,
+    store_name:       tiendaNombre,
+    nombre,
+    correo:           correo || null,
+    pedido:           document.getElementById('op-pedido').value.trim() || null,
+    rating:           currentRating || null,
     comment_producto: comment,
-    comment_tienda:   document.getElementById('op-comment-tienda').value || 'Sin comentario',
-    calificacion:     ratingStars,
-    pedido:           document.getElementById('op-pedido').value || 'No indicado',
-    to_email:         'contacto.findtech@gmail.com',
-    reply_to:         correo || 'contacto.findtech@gmail.com',
+    comment_tienda:   document.getElementById('op-comment-tienda').value.trim() || null,
+    boleta_nombre:    boletaNombre,
+    estado:           'pendiente',
   };
 
-  // Adjuntar boleta si existe
-  const boletaFile = document.getElementById('op-boleta-file')?.files[0];
-  if (boletaFile) {
-    templateParams.boleta_nombre = boletaFile.name;
-    try {
-      templateParams.boleta_b64 = await fileToBase64(boletaFile);
-    } catch(e) {}
-  } else {
-    templateParams.boleta_nombre = 'No adjuntada';
-  }
-
   try {
-    await emailjs.send('service_626rrfu', 'template_y5vz2z8', templateParams);
+    const res = await fetch(`${SUPABASE_URL}/rest/v1/opinions`, {
+      method: 'POST',
+      headers: {
+        'apikey':        SUPABASE_KEY,
+        'Authorization': `Bearer ${SUPABASE_KEY}`,
+        'Content-Type':  'application/json',
+        'Prefer':        'return=minimal',
+      },
+      body: JSON.stringify(record),
+    });
+
+    if (!res.ok) {
+      const err = await res.text();
+      throw new Error(err);
+    }
+
     document.getElementById('opinion-body').style.display = 'none';
     document.getElementById('opinion-success').style.display = 'block';
   } catch (err) {
-    console.error('EmailJS error:', err);
-    if (fb) { fb.style.display='block'; fb.style.background='rgba(239,68,68,0.1)'; fb.style.color='#f87171'; fb.textContent='Error al enviar. Intenta de nuevo o escríbenos a contacto.findtech@gmail.com'; }
+    console.error('Supabase error:', err);
+    if (fb) { fb.style.display='block'; fb.style.background='rgba(239,68,68,0.1)'; fb.style.color='#f87171'; fb.textContent='Error al enviar. Intenta de nuevo.'; }
     btns.forEach(b => { b.disabled=false; b.textContent='Enviar opinión'; });
   }
 }
