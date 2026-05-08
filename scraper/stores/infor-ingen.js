@@ -33,6 +33,35 @@ const CATEGORIES = [
 
 const OUT_OF_STOCK = ['sin stock', 'agotado', 'out of stock', 'no disponible'];
 
+// Filtro estricto por categoría — evita que WooCommerce mezcle subcategorías
+function matchesCategory(name, catId) {
+  const n = name.toLowerCase();
+  switch (catId) {
+    case 'cpu':
+      // Debe contener palabras de CPU y NO contener palabras de placa madre
+      return /ryzen|intel|core\s*(i[3579]|ultra)|procesador|athlon|threadripper|celeron|pentium/.test(n)
+          && !/placa|motherboard|mainboard|b\d{3}m|b\d{3}|x\d{3}|z\d{3}|h\d{3}|socket/.test(n);
+    case 'mobo':
+      return /placa|motherboard|mainboard|b\d{3}|x\d{3}|z\d{3}|h\d{3}/.test(n)
+          && !/procesador|ryzen|intel\s+core/.test(n);
+    case 'gpu':
+      return /rtx|gtx|rx\s*\d|radeon|geforce|tarjeta.*video|video.*tarjeta|arc\s+[ab]/.test(n);
+    case 'ram':
+      return /ddr[345]|ram|dimm|memoria/.test(n)
+          && !/notebook|sodimm|so-dimm|laptop/.test(n);
+    case 'storage':
+      return /ssd|nvme|m\.2|hdd|disco|almacenamiento/.test(n);
+    case 'cooling':
+      return /cooler|disipador|refriger|aio|watercool|liquid|ventilador|fan/.test(n);
+    case 'psu':
+      return /fuente|psu|power supply/.test(n);
+    case 'case':
+      return /gabinete|case|torre|chasis/.test(n);
+    default:
+      return true;
+  }
+}
+
 function parsePrice(str) {
   if (!str) return null;
   const n = parseInt(String(str).replace(/[^\d]/g, ''));
@@ -90,6 +119,8 @@ class InforIngenScraper extends BaseScraper {
           this.seenUrls.add(productUrl);
           const name = $el.find('.woocommerce-loop-product__title, h2').first().text().trim();
           if (!name || name.length < 4) continue;
+          // Filtro estricto: descartar si el nombre no corresponde a la categoría
+          if (!matchesCategory(name, cat.catId)) continue;
           const priceRaw = $el.find('.price ins .amount').first().text()
                         || $el.find('.price .amount').first().text()
                         || $el.find('.price').first().text();
@@ -106,7 +137,7 @@ class InforIngenScraper extends BaseScraper {
           await this.saveProductWithR2(
             { name, category: cat.catId, brand: this.extractBrand(name), imageUrl,
               specs: { 'Efectivo / Transferencia': `$${price.toLocaleString('es-CL')}`, 'Tarjeta crédito/débito': `$${priceCard.toLocaleString('es-CL')}` } },
-            { current: price, normal: priceNormal && priceNormal > price ? priceNormal : null, discount, stock, url: productUrl }
+            { current: price, card: priceCard, normal: priceNormal && priceNormal > price ? priceNormal : null, discount, stock, url: productUrl }
           );
         } catch (err) { this.log('warn', `[infor-ingen] item: ${err.message}`); }
       }
