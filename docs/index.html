@@ -697,14 +697,6 @@ nav{display:flex;align-items:center;gap:2px}
             <button class="filter-clear-btn" onclick="clearFilters()">Limpiar</button>
           </div>
           <div class="filter-group">
-            <div class="filter-group-label">Tienda</div>
-            <div id="filter-stores-list"></div>
-          </div>
-          <div class="filter-group" id="filter-subcat-group" style="display:none">
-            <div class="filter-group-label" id="filter-subcat-label">Subcategoría</div>
-            <div id="filter-subcat-list"></div>
-          </div>
-          <div class="filter-group">
             <div class="filter-group-label">Precio máximo</div>
             <div class="price-range-wrap">
               <input type="range" id="filter-price-range" min="0" max="5000000" step="10000" value="5000000" oninput="onPriceRange(this.value)">
@@ -713,6 +705,14 @@ nav{display:flex;align-items:center;gap:2px}
                 <span id="filter-price-label" style="color:var(--accent);font-weight:600">Sin límite</span>
               </div>
             </div>
+          </div>
+          <div class="filter-group">
+            <div class="filter-group-label">Tienda</div>
+            <div id="filter-stores-list"></div>
+          </div>
+          <div class="filter-group" id="filter-subcat-group" style="display:none">
+            <div class="filter-group-label" id="filter-subcat-label">Subcategoría</div>
+            <div id="filter-subcat-list"></div>
           </div>
         </div>
       </div>
