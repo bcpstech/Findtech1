@@ -1644,8 +1644,10 @@ async function openDetail(id) {
   pricesEl.innerHTML = '<div style="padding:20px;color:var(--text3);text-align:center">⏳ Cargando precios...</div>';
   specsBox.style.display = 'none';
 
-  // Cargar opiniones aprobadas
+  // Cargar opiniones aprobadas del producto y de sus tiendas
   loadProductOpinions(p.id);
+  // Pre-cargar opiniones de tiendas para mostrar rating en filas de precio
+  Object.keys(p.prices || {}).forEach(sid => loadStoreOpinions(sid));
 
   showPage('detail');
   window.scrollTo(0, 0);
@@ -1680,9 +1682,20 @@ async function openDetail(id) {
         khipuPrice = lbl.khipu ? Math.round(cashPrice * lbl.khipu) : null;
         const discount  = row.discount_pct || (row.price_normal > cashPrice ? Math.round((1 - cashPrice / row.price_normal) * 100) : null);
 
-        // Estrellas de rating
-        const rating = row.store_rating || 0;
-        const stars  = rating ? '★'.repeat(Math.round(rating)) + '☆'.repeat(5 - Math.round(rating)) : '';
+        // Estrellas de rating — cargar desde cache de opiniones
+        const storeOpinions = _storeOpinions[row.store_id];
+        let rating = 0;
+        if (storeOpinions?.length) {
+          const withR = storeOpinions.filter(o => o.rating);
+          if (withR.length) rating = withR.reduce((s,o) => s + o.rating, 0) / withR.length;
+        }
+        const ratingFixed = rating ? rating.toFixed(1) : '';
+        const starsHtml = rating
+          ? `<span onclick="openStoreReviews('${row.store_id}')" title="Ver ${storeOpinions.length} opiniones" style="cursor:pointer">
+               <span style="color:#f59e0b;font-size:13px">${'★'.repeat(Math.round(rating))}${'☆'.repeat(5-Math.round(rating))}</span>
+               <span style="font-size:10px;color:var(--text3);margin-left:3px">${ratingFixed} (${storeOpinions.length})</span>
+             </span>`
+          : '';
 
         return `<div class="detail-price-row${isBest ? ' best-row' : ''}">
           <div class="dpr-store">
@@ -1691,7 +1704,7 @@ async function openDetail(id) {
               ${isBest ? '<span class="dpr-best-badge">MEJOR PRECIO</span>' : ''}
               ${discount ? `<span class="dpr-discount-badge">-${discount}%</span>` : ''}
             </div>
-            ${stars ? `<div class="dpr-stars" title="${rating}/5">${stars} <span style="font-size:10px;color:var(--text3)">${rating}/5</span></div>` : ''}
+            ${starsHtml ? `<div class="dpr-stars">${starsHtml}</div>` : ''}
           </div>
           <div class="dpr-methods">
             <div class="dpr-method-row">
