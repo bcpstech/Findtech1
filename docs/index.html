@@ -756,6 +756,12 @@ nav{display:flex;align-items:center;gap:2px}
           <div class="detail-specs-title">📋 Especificaciones técnicas</div>
           <div class="detail-specs-grid" id="detail-specs-grid"></div>
         </div>
+        <!-- OPINIONES APROBADAS -->
+        <div id="detail-opinions-box" style="display:none;margin-top:24px">
+          <div class="detail-specs-title" style="margin-bottom:14px">💬 Opiniones de usuarios</div>
+          <div id="detail-opinions-summary" style="display:flex;align-items:center;gap:16px;margin-bottom:16px;padding:14px 16px;background:var(--bg3);border-radius:10px"></div>
+          <div id="detail-opinions-list" style="display:flex;flex-direction:column;gap:10px"></div>
+        </div>
       </div>
     </div>
     <div class="detail-desc-section" id="detail-desc-section" style="display:none;margin-top:24px;max-width:1200px">
@@ -1522,6 +1528,9 @@ async function openDetail(id) {
   pricesEl.innerHTML = '<div style="padding:20px;color:var(--text3);text-align:center">⏳ Cargando precios...</div>';
   specsBox.style.display = 'none';
 
+  // Cargar opiniones aprobadas
+  loadProductOpinions(p.id);
+
   showPage('detail');
   window.scrollTo(0, 0);
 
@@ -1972,6 +1981,72 @@ async function submitOpinion() {
     if (fb) { fb.style.display='block'; fb.style.background='rgba(239,68,68,0.1)'; fb.style.color='#f87171'; fb.textContent='Error al enviar. Intenta de nuevo.'; }
     btns.forEach(b => { b.disabled=false; b.textContent='Enviar opinión'; });
   }
+}
+
+// ── Opiniones aprobadas en detalle de producto ──────────────────────────
+async function loadProductOpinions(productId) {
+  const box     = document.getElementById('detail-opinions-box');
+  const summary = document.getElementById('detail-opinions-summary');
+  const list    = document.getElementById('detail-opinions-list');
+  if (!box) return;
+
+  box.style.display    = 'none';
+  list.innerHTML       = '';
+  summary.innerHTML    = '';
+
+  try {
+    const res = await fetch(
+      `${SUPABASE_URL}/rest/v1/opinions?product_id=eq.${productId}&estado=eq.aprobado&order=created_at.desc&select=*`,
+      { headers: { 'apikey': SUPABASE_KEY, 'Authorization': `Bearer ${SUPABASE_KEY}` } }
+    );
+    if (!res.ok) return;
+    const opinions = await res.json();
+    if (!opinions.length) return;
+
+    // Resumen
+    const withRating = opinions.filter(o => o.rating);
+    const avgRating  = withRating.length
+      ? (withRating.reduce((s, o) => s + o.rating, 0) / withRating.length).toFixed(1)
+      : null;
+    const stars = avgRating
+      ? '⭐'.repeat(Math.round(avgRating)) + `<span style="font-size:13px;color:var(--text3)"> (${avgRating}/5)</span>`
+      : '';
+    summary.innerHTML = `
+      <div style="font-size:32px;font-weight:800;color:var(--text)">${avgRating || '—'}</div>
+      <div>
+        <div style="font-size:18px">${stars}</div>
+        <div style="font-size:12px;color:var(--text3);margin-top:2px">${opinions.length} opinión${opinions.length !== 1 ? 'es' : ''}</div>
+      </div>`;
+
+    // Lista
+    list.innerHTML = opinions.map(o => {
+      const stars  = o.rating ? '⭐'.repeat(o.rating) : '';
+      const date   = new Date(o.created_at).toLocaleDateString('es-CL', {day:'2-digit', month:'long', year:'numeric'});
+      return `<div style="background:var(--bg3);border-radius:10px;padding:14px 16px;border:1px solid var(--border)">
+        <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px;flex-wrap:wrap;gap:6px">
+          <div>
+            <span style="font-weight:700;font-size:13px;color:var(--text)">${esc(o.nombre)}</span>
+            <span style="font-size:11px;color:var(--text3);margin-left:8px">en ${esc(o.store_name)}</span>
+          </div>
+          <div style="display:flex;align-items:center;gap:8px">
+            ${stars ? `<span style="font-size:13px">${stars}</span>` : ''}
+            <span style="font-size:11px;color:var(--text3)">${date}</span>
+          </div>
+        </div>
+        <p style="font-size:13px;color:var(--text2);line-height:1.6;margin:0">${esc(o.comment_producto)}</p>
+        ${o.comment_tienda ? `<p style="font-size:12px;color:var(--text3);margin-top:6px;padding-top:6px;border-top:1px solid var(--border);line-height:1.5">🏪 ${esc(o.comment_tienda)}</p>` : ''}
+      </div>`;
+    }).join('');
+
+    box.style.display = 'block';
+  } catch(e) {
+    console.warn('Error cargando opiniones:', e.message);
+  }
+}
+
+function esc(str) {
+  if (!str) return '';
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
 function fileToBase64(file) {
