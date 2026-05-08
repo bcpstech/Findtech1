@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FindTech — Panel Admin</title>
+<style>
+  :root {
+    --bg:     #0f1117;
+    --bg2:    #1a1d27;
+    --bg3:    #242736;
+    --border: #2e3347;
+    --border2:#3d4460;
+    --text:   #f0f2ff;
+    --text2:  #a8b0cc;
+    --text3:  #6b7599;
+    --accent: #3b82f6;
+    --green:  #22c55e;
+    --red:    #ef4444;
+    --yellow: #f59e0b;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+
+  /* LOGIN */
+  #login-screen{display:flex;align-items:center;justify-content:center;min-height:100vh;padding:20px}
+  .login-box{background:var(--bg2);border:1px solid var(--border);border-radius:16px;padding:40px;width:100%;max-width:380px;text-align:center}
+  .login-box h1{font-size:22px;font-weight:800;margin-bottom:6px}
+  .login-box p{font-size:13px;color:var(--text3);margin-bottom:28px}
+  .login-box input{width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:12px 16px;font-size:14px;color:var(--text);font-family:inherit;margin-bottom:12px}
+  .login-box input:focus{outline:none;border-color:var(--accent)}
+  .btn{background:var(--accent);border:none;border-radius:8px;padding:12px 24px;font-size:14px;font-weight:600;color:#fff;cursor:pointer;width:100%;font-family:inherit;transition:opacity .15s}
+  .btn:hover{opacity:.85}
+  .btn.danger{background:var(--red)}
+  .btn.success{background:var(--green)}
+  .btn.sm{padding:6px 14px;font-size:12px;width:auto;border-radius:6px}
+  .login-error{color:var(--red);font-size:13px;margin-top:10px;display:none}
+
+  /* PANEL */
+  #panel{display:none}
+  .topbar{background:var(--bg2);border-bottom:1px solid var(--border);padding:0 24px;height:60px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
+  .topbar-left{display:flex;align-items:center;gap:16px}
+  .topbar h1{font-size:16px;font-weight:700}
+  .topbar-badge{background:var(--accent);color:#fff;font-size:11px;font-weight:700;padding:2px 8px;border-radius:20px}
+  .topbar-right{display:flex;align-items:center;gap:12px}
+  .main{max-width:1200px;margin:0 auto;padding:24px 20px}
+
+  /* STATS */
+  .stats-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:28px}
+  .stat-card{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:16px 20px}
+  .stat-card .label{font-size:11px;color:var(--text3);text-transform:uppercase;letter-spacing:.8px;margin-bottom:6px}
+  .stat-card .value{font-size:28px;font-weight:800}
+  .stat-card .value.pending{color:var(--yellow)}
+  .stat-card .value.approved{color:var(--green)}
+  .stat-card .value.rejected{color:var(--red)}
+
+  /* FILTERS */
+  .filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:20px;align-items:center}
+  .filter-btn{background:var(--bg2);border:1px solid var(--border);border-radius:20px;padding:6px 16px;font-size:12px;font-weight:600;color:var(--text2);cursor:pointer;transition:all .15s;font-family:inherit}
+  .filter-btn.active{background:var(--accent);border-color:var(--accent);color:#fff}
+  .filter-btn.pending.active{background:var(--yellow);border-color:var(--yellow);color:#000}
+  .filter-btn.approved.active{background:var(--green);border-color:var(--green);color:#fff}
+  .filter-btn.rejected.active{background:var(--red);border-color:var(--red);color:#fff}
+  .search-filter{background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:7px 14px;font-size:13px;color:var(--text);font-family:inherit;flex:1;max-width:280px}
+  .search-filter:focus{outline:none;border-color:var(--accent)}
+
+  /* OPINIONS LIST */
+  .opinions-list{display:flex;flex-direction:column;gap:14px}
+  .opinion-card{background:var(--bg2);border:1px solid var(--border);border-radius:12px;overflow:hidden;transition:border-color .2s}
+  .opinion-card.pendiente{border-left:3px solid var(--yellow)}
+  .opinion-card.aprobado{border-left:3px solid var(--green)}
+  .opinion-card.rechazado{border-left:3px solid var(--red);opacity:.65}
+  .opinion-header{display:flex;align-items:flex-start;justify-content:space-between;padding:16px 20px;gap:12px;flex-wrap:wrap}
+  .opinion-meta{display:flex;flex-direction:column;gap:4px}
+  .opinion-meta .who{font-size:14px;font-weight:700;color:var(--text)}
+  .opinion-meta .where{font-size:12px;color:var(--text3)}
+  .opinion-meta .when{font-size:11px;color:var(--text3)}
+  .opinion-stars{font-size:16px;margin-bottom:2px}
+  .opinion-badge{display:inline-flex;align-items:center;gap:4px;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700}
+  .opinion-badge.pendiente{background:rgba(245,158,11,0.15);color:var(--yellow)}
+  .opinion-badge.aprobado{background:rgba(34,197,94,0.15);color:var(--green)}
+  .opinion-badge.rechazado{background:rgba(239,68,68,0.15);color:var(--red)}
+  .opinion-body{padding:0 20px 16px;display:flex;flex-direction:column;gap:8px}
+  .opinion-body .comment-block{background:var(--bg3);border-radius:8px;padding:12px 14px}
+  .opinion-body .comment-label{font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.8px;margin-bottom:4px}
+  .opinion-body .comment-text{font-size:13px;color:var(--text2);line-height:1.5}
+  .opinion-details{display:flex;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--text3);margin-top:4px}
+  .opinion-details span{display:flex;align-items:center;gap:4px}
+  .opinion-actions{display:flex;gap:8px;padding:12px 20px;background:var(--bg3);border-top:1px solid var(--border);align-items:center;flex-wrap:wrap}
+  .opinion-actions .nota-input{flex:1;min-width:180px;background:var(--bg2);border:1px solid var(--border);border-radius:6px;padding:7px 12px;font-size:12px;color:var(--text);font-family:inherit}
+  .opinion-actions .nota-input:focus{outline:none;border-color:var(--accent)}
+  .boleta-link{color:var(--accent);font-size:12px;text-decoration:none;display:flex;align-items:center;gap:4px}
+  .boleta-link:hover{text-decoration:underline}
+  .empty-state{text-align:center;padding:60px 20px;color:var(--text3)}
+  .empty-state .icon{font-size:48px;margin-bottom:12px}
+  .loading{text-align:center;padding:40px;color:var(--text3)}
+
+  @media(max-width:600px){
+    .stats-row{grid-template-columns:1fr 1fr}
+    .opinion-header{flex-direction:column}
+  }
+</style>
+</head>
+<body>
+
+<!-- LOGIN -->
+<div id="login-screen">
+  <div class="login-box">
+    <div style="font-size:36px;margin-bottom:12px">🔐</div>
+    <h1>FindTech Admin</h1>
+    <p>Panel de moderación de opiniones</p>
+    <input type="password" id="pwd-input" placeholder="Contraseña" onkeydown="if(event.key==='Enter')doLogin()">
+    <button class="btn" onclick="doLogin()">Ingresar</button>
+    <div class="login-error" id="login-error">Contraseña incorrecta</div>
+  </div>
+</div>
+
+<!-- PANEL -->
+<div id="panel">
+  <div class="topbar">
+    <div class="topbar-left">
+      <h1>🛡️ FindTech Admin</h1>
+      <span class="topbar-badge" id="pending-badge">0 pendientes</span>
+    </div>
+    <div class="topbar-right">
+      <select id="store-filter" onchange="applyFilters()" style="background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:6px 12px;font-size:12px;color:var(--text);font-family:inherit">
+        <option value="">Todas las tiendas</option>
+      </select>
+      <button class="btn sm" onclick="loadOpinions()" style="background:var(--bg3);border:1px solid var(--border);color:var(--text2)">↻ Refrescar</button>
+      <button class="btn sm danger" onclick="doLogout()">Salir</button>
+    </div>
+  </div>
+
+  <div class="main">
+    <!-- Stats -->
+    <div class="stats-row">
+      <div class="stat-card">
+        <div class="label">Total</div>
+        <div class="value" id="stat-total">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Pendientes</div>
+        <div class="value pending" id="stat-pending">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Aprobados</div>
+        <div class="value approved" id="stat-approved">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Rechazados</div>
+        <div class="value rejected" id="stat-rejected">—</div>
+      </div>
+    </div>
+
+    <!-- Filtros -->
+    <div class="filters">
+      <button class="filter-btn active" data-estado="" onclick="setEstadoFilter('')">Todos</button>
+      <button class="filter-btn pending" data-estado="pendiente" onclick="setEstadoFilter('pendiente')">⏳ Pendientes</button>
+      <button class="filter-btn approved" data-estado="aprobado" onclick="setEstadoFilter('aprobado')">✅ Aprobados</button>
+      <button class="filter-btn rejected" data-estado="rechazado" onclick="setEstadoFilter('rechazado')">❌ Rechazados</button>
+      <input class="search-filter" type="text" id="search-filter" placeholder="Buscar por nombre, tienda, producto..." oninput="applyFilters()">
+    </div>
+
+    <!-- Lista -->
+    <div id="opinions-list" class="opinions-list">
+      <div class="loading">Cargando...</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const SUPABASE_URL = 'https://bxpxrlcfuiohzvkoofnh.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ4cHhybGNmdWlvaHp2a29vZm5oIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgyNTEyNDIsImV4cCI6MjA5MzgyNzI0Mn0.KbLDHGwLHGz71qUUaLvyCW2GiSrnVQn8E1d14Vs22VA';
+const ADMIN_PASS  = 'Y6FHCKQMT7di4Yze';
+
+let allOpinions = [];
+let currentEstado = '';
+
+// ── Auth ──────────────────────────────────────────────────────────────────
+function doLogin() {
+  const val = document.getElementById('pwd-input').value;
+  if (val === ADMIN_PASS) {
+    sessionStorage.setItem('ft_admin', '1');
+    document.getElementById('login-screen').style.display = 'none';
+    document.getElementById('panel').style.display = 'block';
+    loadOpinions();
+  } else {
+    document.getElementById('login-error').style.display = 'block';
+    setTimeout(() => document.getElementById('login-error').style.display = 'none', 2000);
+  }
+}
+
+function doLogout() {
+  sessionStorage.removeItem('ft_admin');
+  location.reload();
+}
+
+// Auto-login si ya estaba autenticado
+if (sessionStorage.getItem('ft_admin') === '1') {
+  document.getElementById('login-screen').style.display = 'none';
+  document.getElementById('panel').style.display = 'block';
+}
+
+// ── API Supabase ──────────────────────────────────────────────────────────
+async function sbFetch(path, opts = {}) {
+  const res = await fetch(`${SUPABASE_URL}/rest/v1/${path}`, {
+    ...opts,
+    headers: {
+      'apikey': SUPABASE_KEY,
+      'Authorization': `Bearer ${SUPABASE_KEY}`,
+      'Content-Type': 'application/json',
+      'Prefer': opts.prefer || 'return=representation',
+      ...(opts.headers || {}),
+    },
+  });
+  if (!res.ok) {
+    const err = await res.text();
+    throw new Error(err);
+  }
+  return opts.noJson ? res : res.json();
+}
+
+// ── Cargar opiniones ──────────────────────────────────────────────────────
+async function loadOpinions() {
+  document.getElementById('opinions-list').innerHTML = '<div class="loading">Cargando opiniones...</div>';
+  try {
+    // Admin necesita ver todas — usamos header para bypass RLS
+    const data = await sbFetch('opinions?select=*&order=created_at.desc', {
+      headers: { 'Prefer': 'return=representation' },
+    });
+    allOpinions = data;
+    updateStats();
+    populateStoreFilter();
+    applyFilters();
+  } catch(e) {
+    document.getElementById('opinions-list').innerHTML =
+      `<div class="empty-state"><div class="icon">⚠️</div><p>${e.message}</p><p style="margin-top:8px;font-size:12px">Verifica que la tabla "opinions" existe en Supabase y que las políticas RLS permiten lectura al admin.</p></div>`;
+  }
+}
+
+function updateStats() {
+  const total    = allOpinions.length;
+  const pending  = allOpinions.filter(o => o.estado === 'pendiente').length;
+  const approved = allOpinions.filter(o => o.estado === 'aprobado').length;
+  const rejected = allOpinions.filter(o => o.estado === 'rechazado').length;
+  document.getElementById('stat-total').textContent    = total;
+  document.getElementById('stat-pending').textContent  = pending;
+  document.getElementById('stat-approved').textContent = approved;
+  document.getElementById('stat-rejected').textContent = rejected;
+  document.getElementById('pending-badge').textContent = `${pending} pendiente${pending !== 1 ? 's' : ''}`;
+  document.getElementById('pending-badge').style.background = pending > 0 ? 'var(--yellow)' : 'var(--bg3)';
+  document.getElementById('pending-badge').style.color = pending > 0 ? '#000' : 'var(--text3)';
+}
+
+function populateStoreFilter() {
+  const stores = [...new Set(allOpinions.map(o => o.store_name))].sort();
+  const sel = document.getElementById('store-filter');
+  const current = sel.value;
+  sel.innerHTML = '<option value="">Todas las tiendas</option>' +
+    stores.map(s => `<option value="${s}" ${s===current?'selected':''}>${s}</option>`).join('');
+}
+
+function setEstadoFilter(estado) {
+  currentEstado = estado;
+  document.querySelectorAll('.filter-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.estado === estado);
+  });
+  applyFilters();
+}
+
+function applyFilters() {
+  const search      = document.getElementById('search-filter').value.toLowerCase();
+  const storeFilter = document.getElementById('store-filter').value;
+  let filtered = allOpinions;
+  if (currentEstado) filtered = filtered.filter(o => o.estado === currentEstado);
+  if (storeFilter)   filtered = filtered.filter(o => o.store_name === storeFilter);
+  if (search) filtered = filtered.filter(o =>
+    (o.nombre||'').toLowerCase().includes(search) ||
+    (o.store_name||'').toLowerCase().includes(search) ||
+    (o.product_name||'').toLowerCase().includes(search) ||
+    (o.comment_producto||'').toLowerCase().includes(search)
+  );
+  renderList(filtered);
+}
+
+// ── Render ────────────────────────────────────────────────────────────────
+function renderList(opinions) {
+  const el = document.getElementById('opinions-list');
+  if (!opinions.length) {
+    el.innerHTML = `<div class="empty-state"><div class="icon">💬</div><p>No hay opiniones${currentEstado ? ' ' + currentEstado + 's' : ''}</p></div>`;
+    return;
+  }
+
+  el.innerHTML = opinions.map(o => {
+    const stars = o.rating ? '⭐'.repeat(o.rating) + ` (${o.rating}/5)` : 'Sin calificar';
+    const date  = new Date(o.created_at).toLocaleDateString('es-CL', {day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    const boletaHtml = o.boleta_url
+      ? `<a class="boleta-link" href="${o.boleta_url}" target="_blank">📎 Ver boleta</a>`
+      : o.boleta_nombre && o.boleta_nombre !== 'No adjuntada'
+        ? `<span style="font-size:12px;color:var(--text3)">📎 ${o.boleta_nombre}</span>`
+        : '';
+
+    return `<div class="opinion-card ${o.estado}" id="card-${o.id}">
+      <div class="opinion-header">
+        <div class="opinion-meta">
+          <div class="opinion-stars">${stars}</div>
+          <div class="who">${esc(o.nombre)}</div>
+          <div class="where">🏪 ${esc(o.store_name)} &nbsp;·&nbsp; 📦 ${esc(o.product_name)}</div>
+          <div class="opinion-details">
+            ${o.correo ? `<span>✉️ ${esc(o.correo)}</span>` : ''}
+            ${o.pedido && o.pedido !== 'No indicado' ? `<span>🧾 Pedido: ${esc(o.pedido)}</span>` : ''}
+            <span>🕐 ${date}</span>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;align-items:flex-end;gap:8px">
+          <span class="opinion-badge ${o.estado}">${estadoIcon(o.estado)} ${o.estado}</span>
+          ${boletaHtml}
+        </div>
+      </div>
+      <div class="opinion-body">
+        <div class="comment-block">
+          <div class="comment-label">Opinión del producto</div>
+          <div class="comment-text">${esc(o.comment_producto)}</div>
+        </div>
+        ${o.comment_tienda && o.comment_tienda !== 'Sin comentario' ? `
+        <div class="comment-block">
+          <div class="comment-label">Experiencia de compra</div>
+          <div class="comment-text">${esc(o.comment_tienda)}</div>
+        </div>` : ''}
+        ${o.nota_admin ? `
+        <div class="comment-block" style="border:1px solid var(--border2)">
+          <div class="comment-label" style="color:var(--accent)">Nota admin</div>
+          <div class="comment-text">${esc(o.nota_admin)}</div>
+        </div>` : ''}
+      </div>
+      <div class="opinion-actions">
+        <input class="nota-input" id="nota-${o.id}" placeholder="Nota interna (opcional)..." value="${esc(o.nota_admin||'')}">
+        ${o.estado !== 'aprobado' ? `<button class="btn sm success" onclick="moderar(${o.id},'aprobado')">✅ Aprobar</button>` : ''}
+        ${o.estado !== 'rechazado' ? `<button class="btn sm danger" onclick="moderar(${o.id},'rechazado')">❌ Rechazar</button>` : ''}
+        ${o.estado !== 'pendiente' ? `<button class="btn sm" style="background:var(--bg);border:1px solid var(--border);color:var(--text3)" onclick="moderar(${o.id},'pendiente')">⏳ Pendiente</button>` : ''}
+        <button class="btn sm danger" style="background:transparent;border:1px solid var(--red);color:var(--red);margin-left:auto" onclick="eliminar(${o.id})">🗑 Eliminar</button>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function estadoIcon(e) {
+  return e === 'aprobado' ? '✅' : e === 'rechazado' ? '❌' : '⏳';
+}
+
+function esc(str) {
+  if (!str) return '';
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ── Acciones ──────────────────────────────────────────────────────────────
+async function moderar(id, estado) {
+  const nota = document.getElementById(`nota-${id}`)?.value || null;
+  try {
+    await sbFetch(`opinions?id=eq.${id}`, {
+      method: 'PATCH',
+      prefer: 'return=minimal',
+      body: JSON.stringify({
+        estado,
+        nota_admin:    nota || null,
+        moderado_at:   new Date().toISOString(),
+      }),
+    });
+    // Actualizar en memoria
+    const idx = allOpinions.findIndex(o => o.id === id);
+    if (idx >= 0) {
+      allOpinions[idx].estado     = estado;
+      allOpinions[idx].nota_admin = nota;
+    }
+    updateStats();
+    applyFilters();
+  } catch(e) {
+    alert('Error al moderar: ' + e.message);
+  }
+}
+
+async function eliminar(id) {
+  if (!confirm('¿Eliminar esta opinión permanentemente?')) return;
+  try {
+    await sbFetch(`opinions?id=eq.${id}`, {
+      method: 'DELETE',
+      prefer: 'return=minimal',
+      noJson: true,
+    });
+    allOpinions = allOpinions.filter(o => o.id !== id);
+    updateStats();
+    applyFilters();
+  } catch(e) {
+    alert('Error al eliminar: ' + e.message);
+  }
+}
+
+// Init
+if (sessionStorage.getItem('ft_admin') === '1') loadOpinions();
+document.getElementById('pwd-input').addEventListener('keydown', e => {
+  if (e.key === 'Enter') doLogin();
+});
+</script>
+</body>
+</html>
