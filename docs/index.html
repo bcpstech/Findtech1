@@ -1386,6 +1386,7 @@ const SUPABASE_URL = 'https://bxpxrlcfuiohzvkoofnh.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ4cHhybGNmdWlvaHp2a29vZm5oIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgyNTEyNDIsImV4cCI6MjA5MzgyNzI0Mn0.KbLDHGwLHGz71qUUaLvyCW2GiSrnVQn8E1d14Vs22VA';
 
 const DATA_BASE = (() => {
+  const href = window.location.href.split('?')[0].split('#')[0];
   const base = href.endsWith('/') ? href : href.substring(0, href.lastIndexOf('/') + 1);
   return base + 'data';
 })();
