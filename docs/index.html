@@ -1369,20 +1369,136 @@ document.addEventListener('keydown', e => { if (e.key==='Escape') closeModal(); 
 // ═══════════════════════════════════════════════
 // STORES PAGE
 // ═══════════════════════════════════════════════
-function renderStores() {
+// Cache de opiniones por tienda
+const _storeOpinions = {};
+
+async function loadStoreOpinions(storeId) {
+  if (_storeOpinions[storeId]) return _storeOpinions[storeId];
+  try {
+    const res = await fetch(
+      `${SUPABASE_URL}/rest/v1/opinions?store_id=eq.${storeId}&estado=eq.aprobado&order=created_at.desc&select=*`,
+      { headers: { 'apikey': SUPABASE_KEY, 'Authorization': `Bearer ${SUPABASE_KEY}` } }
+    );
+    const data = res.ok ? await res.json() : [];
+    _storeOpinions[storeId] = data;
+    return data;
+  } catch(e) { return []; }
+}
+
+function storeRatingHtml(opinions, storeId, clickable = true) {
+  if (!opinions.length) return `<span style="font-size:12px;color:var(--text3)">Sin opiniones aún</span>`;
+  const withRating = opinions.filter(o => o.rating);
+  const avg = withRating.length
+    ? (withRating.reduce((s,o) => s + o.rating, 0) / withRating.length)
+    : 0;
+  const full  = Math.floor(avg);
+  const half  = avg - full >= 0.5 ? 1 : 0;
+  const empty = 5 - full - half;
+  const starsHtml = '★'.repeat(full) + (half ? '½' : '') + '☆'.repeat(empty);
+  const onclick = clickable ? `onclick="openStoreReviews('${storeId}')" style="cursor:pointer"` : '';
+  return `<span ${onclick} title="${clickable ? 'Ver opiniones' : ''}">
+    <span style="color:#f59e0b;font-size:16px">${starsHtml}</span>
+    <span style="font-size:12px;color:var(--text3);margin-left:4px">${avg.toFixed(1)} (${opinions.length})</span>
+  </span>`;
+}
+
+async function renderStores() {
   const el = document.getElementById('stores-detail');
+  el.innerHTML = '<div style="padding:20px;color:var(--text3);text-align:center">⏳ Cargando tiendas...</div>';
+
+  // Cargar opiniones de todas las tiendas en paralelo
+  await Promise.all(STORES.map(s => loadStoreOpinions(s.id)));
+
   el.innerHTML = `<div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px">
     ${STORES.map(s => {
-      const cnt = PRODUCTS.filter(p=>p.prices?.[s.id]>0||p._bestStoreId===s.id).length;
-      return `<div style="background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:24px">
-        <div style="font-size:18px;font-weight:700;margin-bottom:4px">${s.name}</div>
-        <div style="font-size:13px;color:var(--text3);margin-bottom:12px">${s.url}</div>
+      const cnt      = PRODUCTS.filter(p => p.prices?.[s.id] > 0 || p._bestStoreId === s.id).length;
+      const opinions = _storeOpinions[s.id] || [];
+      const ratingHtml = storeRatingHtml(opinions, s.id);
+      return `<div style="background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:24px;transition:all .2s" onmouseover="this.style.borderColor='var(--accent)';this.style.transform='translateY(-2px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='none'">
+        <div style="font-size:18px;font-weight:700;margin-bottom:2px">${s.name}</div>
+        <div style="font-size:12px;color:var(--text3);margin-bottom:10px">${s.url}</div>
+        <div style="margin-bottom:12px">${ratingHtml}</div>
         <div style="font-size:28px;font-weight:800;color:var(--accent);font-family:var(--mono)">${cnt}</div>
-        <div style="font-size:12px;color:var(--text3)">productos comparados</div>
-        <a href="${s.url}" target="_blank" style="display:inline-block;margin-top:12px;padding:6px 16px;background:var(--bg3);border:1px solid var(--border);border-radius:6px;font-size:12px;transition:all .15s" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">Visitar tienda →</a>
+        <div style="font-size:12px;color:var(--text3);margin-bottom:14px">productos comparados</div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <a href="https://${s.url}" target="_blank" style="padding:6px 14px;background:var(--bg3);border:1px solid var(--border);border-radius:6px;font-size:12px;color:var(--text2);text-decoration:none;transition:all .15s" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">Visitar →</a>
+          ${opinions.length ? `<button onclick="openStoreReviews('${s.id}')" style="padding:6px 14px;background:rgba(245,158,11,0.1);border:1px solid rgba(245,158,11,0.3);border-radius:6px;font-size:12px;color:#fbbf24;cursor:pointer;font-family:inherit">💬 Ver ${opinions.length} opinión${opinions.length !== 1 ? 'es' : ''}</button>` : ''}
+        </div>
       </div>`;
     }).join('')}
   </div>`;
+}
+
+// Modal de opiniones por tienda
+async function openStoreReviews(storeId) {
+  const store    = STORES.find(s => s.id === storeId);
+  const opinions = _storeOpinions[storeId] || await loadStoreOpinions(storeId);
+  const modal    = document.getElementById('store-reviews-modal');
+  const title    = document.getElementById('srm-title');
+  const summary  = document.getElementById('srm-summary');
+  const list     = document.getElementById('srm-list');
+  if (!modal) return;
+
+  title.textContent = `Opiniones — ${store?.name || storeId}`;
+
+  // Resumen
+  const withRating = opinions.filter(o => o.rating);
+  const avg = withRating.length
+    ? (withRating.reduce((s,o) => s + o.rating, 0) / withRating.length).toFixed(1)
+    : null;
+
+  // Distribución de estrellas
+  const dist = [5,4,3,2,1].map(n => ({
+    n, cnt: withRating.filter(o => o.rating === n).length
+  }));
+  const maxDist = Math.max(...dist.map(d => d.cnt), 1);
+
+  summary.innerHTML = avg ? `
+    <div style="display:flex;gap:24px;align-items:center;flex-wrap:wrap">
+      <div style="text-align:center">
+        <div style="font-size:48px;font-weight:800;color:var(--text);line-height:1">${avg}</div>
+        <div style="font-size:20px;color:#f59e0b;margin:4px 0">${'★'.repeat(Math.round(avg))}${'☆'.repeat(5 - Math.round(avg))}</div>
+        <div style="font-size:12px;color:var(--text3)">${opinions.length} opiniones</div>
+      </div>
+      <div style="flex:1;min-width:180px">
+        ${dist.map(d => `
+          <div style="display:flex;align-items:center;gap:8px;margin-bottom:4px">
+            <span style="font-size:12px;color:var(--text3);width:12px">${d.n}</span>
+            <span style="color:#f59e0b;font-size:12px">★</span>
+            <div style="flex:1;background:var(--bg3);border-radius:4px;height:8px">
+              <div style="background:#f59e0b;height:8px;border-radius:4px;width:${Math.round(d.cnt/maxDist*100)}%;transition:width .4s"></div>
+            </div>
+            <span style="font-size:11px;color:var(--text3);width:16px">${d.cnt}</span>
+          </div>`).join('')}
+      </div>
+    </div>` : `<p style="color:var(--text3);font-size:13px">Sin calificaciones numéricas aún.</p>`;
+
+  list.innerHTML = opinions.map(o => {
+    const date = new Date(o.created_at).toLocaleDateString('es-CL', {day:'2-digit',month:'long',year:'numeric'});
+    const stars = o.rating ? `<span style="color:#f59e0b">${'★'.repeat(o.rating)}${'☆'.repeat(5-o.rating)}</span>` : '';
+    return `<div style="padding:14px 0;border-bottom:1px solid var(--border)">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:4px;margin-bottom:6px">
+        <div>
+          <span style="font-weight:700;font-size:13px">${esc(o.nombre)}</span>
+          ${o.product_name ? `<span style="font-size:11px;color:var(--text3);margin-left:6px">sobre ${esc(o.product_name)}</span>` : ''}
+        </div>
+        <div style="display:flex;align-items:center;gap:8px">
+          ${stars}
+          <span style="font-size:11px;color:var(--text3)">${date}</span>
+        </div>
+      </div>
+      <p style="font-size:13px;color:var(--text2);line-height:1.6;margin:0">${esc(o.comment_producto)}</p>
+      ${o.comment_tienda ? `<p style="font-size:12px;color:var(--text3);margin-top:6px;font-style:italic">"${esc(o.comment_tienda)}"</p>` : ''}
+    </div>`;
+  }).join('');
+
+  modal.style.display = 'flex';
+  document.body.style.overflow = 'hidden';
+}
+
+function closeStoreReviews() {
+  document.getElementById('store-reviews-modal').style.display = 'none';
+  document.body.style.overflow = '';
 }
 
 // ═══════════════════════════════════════════════
@@ -2662,6 +2778,18 @@ async function sendContact() {
   <div id="modal-img"></div><div id="modal-brand"></div>
   <div id="modal-title"></div><div id="modal-prices"></div>
   <div id="modal-specs"></div>
+</div>
+<div id="store-reviews-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.75);z-index:600;align-items:center;justify-content:center;padding:16px" onclick="if(event.target===this)closeStoreReviews()">
+  <div style="background:var(--bg2);border:1px solid var(--border2);border-radius:16px;width:100%;max-width:580px;max-height:88vh;display:flex;flex-direction:column;box-shadow:0 24px 80px rgba(0,0,0,0.6)">
+    <div style="display:flex;align-items:center;justify-content:space-between;padding:20px 24px;border-bottom:1px solid var(--border);flex-shrink:0">
+      <h3 id="srm-title" style="font-size:16px;font-weight:700;color:var(--text)"></h3>
+      <button onclick="closeStoreReviews()" style="background:none;border:none;font-size:20px;color:var(--text3);cursor:pointer;line-height:1;padding:0">✕</button>
+    </div>
+    <div style="overflow-y:auto;padding:20px 24px;flex:1">
+      <div id="srm-summary" style="margin-bottom:20px;padding:16px;background:var(--bg3);border-radius:10px"></div>
+      <div id="srm-list"></div>
+    </div>
+  </div>
 </div>
 </body>
 </html>
