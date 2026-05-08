@@ -1,0 +1,66 @@
+{
+  "id": 32933,
+  "external_id": "infor-ingen_cpu-amd-ryzen-9-7950x-4-5ghz",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "CPU AMD RYZEN 9 7950X 4.5GHz",
+  "slug": "infor-ingen-cpu-amd-ryzen-9-7950x-4-5ghz",
+  "image_url": "https://images.findtech.cl/products/cpu-amd-ryzen-9-7950x-4-5ghz.png",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "4.5 GHz",
+    "Efectivo / Transferencia": "$649.900",
+    "Tarjeta crédito/débito": "$669.397"
+  },
+  "tags": [],
+  "created_at": "2026-05-04 02:41:46",
+  "updated_at": "2026-05-08 21:58:19",
+  "prices": [
+    {
+      "product_id": 32933,
+      "store_id": "infor-ingen",
+      "price": 649900,
+      "price_card": 669397,
+      "price_normal": 688894,
+      "discount_pct": 6,
+      "stock": "in_stock",
+      "product_url": "https://store.infor-ingen.com/producto/cpu-amd-ryzen-9-7950x-4-5ghz/",
+      "store_name": "Infor-Ingen",
+      "price_specs": {
+        "Efectivo/Transferencia": "$649.900",
+        "Tarjeta crédito/débito": "$669.397"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-05-04",
+      "price": 649900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-05-05",
+      "price": 649900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-05-06",
+      "price": 649900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-05-08",
+      "price": 649900
+    }
+  ],
+  "scraped_at": "2026-05-08"
+}

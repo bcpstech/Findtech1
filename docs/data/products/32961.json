@@ -1,7 +1,7 @@
 {
   "id": 32961,
   "external_id": "infor-ingen_m-b-msi-pro-b760m-g",
-  "category_id": "cpu",
+  "category_id": "mobo",
   "brand": "MSI",
   "name": "M/B MSI PRO B760M-G",
   "slug": "infor-ingen-m-b-msi-pro-b760m-g",
@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:42:32",
-  "updated_at": "2026-05-06 03:50:28",
+  "updated_at": "2026-05-08 21:46:51",
   "prices": [
     {
       "product_id": 32961,
@@ -53,7 +53,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-05-06",
       "price": 139900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-05-08",
+      "price": 139900
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

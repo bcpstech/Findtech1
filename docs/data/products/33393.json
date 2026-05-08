@@ -10,15 +10,13 @@
   "specs": {
     "Capacidad": "16 GB",
     "Tipo": "DDR5",
-    "Velocidad": "6000 MHz",
-    "Latencia": "CL48",
-    "Iluminación": "RGB",
-    "Transferencia / Efectivo": "$250.500",
-    "Tarjeta crédito/débito": "$264.280"
+    "Velocidad": "5600 MHz",
+    "Efectivo / Transferencia": "$229.900",
+    "Tarjeta crédito/débito": "$236.797"
   },
   "tags": [],
   "created_at": "2026-05-04 02:49:55",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 21:58:19",
   "prices": [
     {
       "product_id": 33393,
@@ -38,44 +36,6 @@
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
-    },
-    {
-      "product_id": 1467,
-      "store_id": "centrale",
-      "price": 250500,
-      "price_card": 264278,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/xpg-memoria-ram-lancer-blade-rgb-negro-de-16gb-ddr5-6000mhz-cl48-xmp-dimm/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$250.500",
-        "Tarjetas de Crédito / Débito": "$264.278"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9504,
-      "store_id": "spdigital",
-      "price": 266583,
-      "price_card": 278579,
-      "price_normal": 329190,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/memoria-ram-ddr5-16gb-6000mhz-dimm-288-pines-xpg-lancer-blade-cl48-11v-14v-negra",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$266.583",
-        "Webpay / Tarjeta": "$278.579"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -96,7 +56,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-05-06",
       "price": 229900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-05-08",
+      "price": 229900
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

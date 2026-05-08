@@ -8,16 +8,15 @@
   "image_url": "https://images.findtech.cl/products/disco-duro-ssd-crucial-bx500-240gb-3d-nand-sata-2-5-inch.png",
   "description": null,
   "specs": {
-    "Capacidad": "4 TB",
-    "Interfaz": "SATA",
+    "Capacidad": "240 GB",
+    "Interfaz": "SATA III",
     "Factor de forma": "2.5\"",
-    "Lectura": "540 MB/s",
-    "Efectivo/Transferencia": "$475.027",
-    "Tarjeta crédito/débito": "$496.403"
+    "Efectivo / Transferencia": "$54.900",
+    "Tarjeta crédito/débito": "$56.547"
   },
   "tags": [],
   "created_at": "2026-05-04 02:51:17",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-05-08 21:58:19",
   "prices": [
     {
       "product_id": 33469,
@@ -37,63 +36,6 @@
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
-    },
-    {
-      "product_id": 32000,
-      "store_id": "winpy",
-      "price": 57760,
-      "price_card": 60821,
-      "price_normal": null,
-      "discount_pct": 41,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/disco-estado-solido-crucial-bx500-de-240gb-3d-nand-sata-ssd/",
-      "store_name": "Winpy",
-      "price_specs": {
-        "Transferencia o Depósito": "$57.760",
-        "Otros medios de pago": "$60.821"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 1596,
-      "store_id": "centrale",
-      "price": 67750,
-      "price_card": 71476,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-240gb-crucial-bx500-3d-nand-sata-25/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$67.750",
-        "Tarjetas de Crédito / Débito": "$71.476"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9541,
-      "store_id": "spdigital",
-      "price": 475027,
-      "price_card": 496403,
-      "price_normal": 586670,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/ssd-bx500-4000gb-4tb-nand-sata-25-2",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$475.027",
-        "Webpay / Tarjeta": "$496.403"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -114,7 +56,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-05-06",
       "price": 54900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-05-08",
+      "price": 54900
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

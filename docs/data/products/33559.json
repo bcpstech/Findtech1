@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:52:39",
-  "updated_at": "2026-05-06 03:59:07",
+  "updated_at": "2026-05-08 21:52:59",
   "prices": [
     {
       "product_id": 33559,
@@ -33,27 +33,6 @@
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
-    },
-    {
-      "product_id": 12115,
-      "store_id": "trulustore",
-      "price": 9990,
-      "price_card": 10290,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/ventilador-gamemax-fn12a-s8i-white-argb-120mm-45-35-cfm/",
-      "store_name": "TruluStore",
-      "khipu_price": 10190,
-      "price_specs": {
-        "Efectivo / Transferencia": "$9.990",
-        "Khipu": "$10.190",
-        "Tarjeta crédito/débito": "$10.290"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -74,7 +53,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-05-06",
       "price": 5900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-05-08",
+      "price": 5900
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }

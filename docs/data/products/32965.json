@@ -1,7 +1,7 @@
 {
   "id": 32965,
   "external_id": "infor-ingen_m-b-asus-prime-b760m-a",
-  "category_id": "cpu",
+  "category_id": "mobo",
   "brand": "ASUS",
   "name": "M/B ASUS PRIME B760M-A",
   "slug": "infor-ingen-m-b-asus-prime-b760m-a",
@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:42:34",
-  "updated_at": "2026-05-06 03:50:30",
+  "updated_at": "2026-05-08 21:47:00",
   "prices": [
     {
       "product_id": 32965,
@@ -53,7 +53,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-05-06",
       "price": 149900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-05-08",
+      "price": 149900
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-05-08"
 }
