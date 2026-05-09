@@ -2095,10 +2095,31 @@ async function submitOpinion() {
   const producto     = currentOpinionProduct;
   const tiendaNombre = STORES.find(s => s.id === tienda)?.name || tienda;
 
-  // Boleta a base64 si existe
-  let boletaNombre = 'No adjuntada';
-  const boletaFile = document.getElementById('op-boleta-file')?.files[0];
-  if (boletaFile) boletaNombre = boletaFile.name;
+  // Subir boleta a Supabase Storage
+  let boletaUrl    = null;
+  let boletaNombre = boleta.name;
+  try {
+    const ext      = boleta.name.split('.').pop();
+    const fileName = `boletas/${Date.now()}_${nombre.replace(/\s+/g,'-')}.${ext}`;
+    const uploadRes = await fetch(
+      `${SUPABASE_URL}/storage/v1/object/opiniones/${fileName}`,
+      {
+        method: 'POST',
+        headers: {
+          'apikey':        SUPABASE_KEY,
+          'Authorization': `Bearer ${SUPABASE_KEY}`,
+          'Content-Type':  boleta.type || 'application/octet-stream',
+          'x-upsert':      'true',
+        },
+        body: boleta,
+      }
+    );
+    if (uploadRes.ok) {
+      boletaUrl = `${SUPABASE_URL}/storage/v1/object/public/opiniones/${fileName}`;
+    }
+  } catch(e) {
+    console.warn('Error subiendo boleta:', e.message);
+  }
 
   const record = {
     product_id:       producto?.id || null,
@@ -2112,7 +2133,8 @@ async function submitOpinion() {
     rating:           currentRating,
     comment_producto: comment,
     comment_tienda:   commentT,
-    boleta_nombre:    boleta ? boleta.name : null,
+    boleta_nombre:    boletaNombre,
+    boleta_url:       boletaUrl,
     estado:           'pendiente',
   };
 
