@@ -2045,14 +2045,46 @@ function updateFileLabel(inputId, labelId) {
 }
 
 async function submitOpinion() {
-  const nombre  = document.getElementById('op-nombre').value.trim();
-  const correo  = document.getElementById('op-correo').value.trim();
-  const tienda  = document.getElementById('op-tienda').value;
-  const comment = document.getElementById('op-comment-producto').value.trim();
-  const fb      = document.getElementById('op-feedback');
+  const nombre   = document.getElementById('op-nombre').value.trim();
+  const correo   = document.getElementById('op-correo').value.trim();
+  const tienda   = document.getElementById('op-tienda').value;
+  const comment  = document.getElementById('op-comment-producto').value.trim();
+  const commentT = document.getElementById('op-comment-tienda').value.trim();
+  const pedido   = document.getElementById('op-pedido').value.trim();
+  const boleta   = document.getElementById('op-boleta-file')?.files[0];
+  const fb       = document.getElementById('op-feedback');
 
-  if (!nombre || !tienda || !comment) {
-    if (fb) { fb.style.display='block'; fb.style.background='rgba(239,68,68,0.1)'; fb.style.color='#f87171'; fb.textContent='Por favor completa: nombre, tienda y opinión del producto.'; }
+  // Validar todos los campos obligatorios
+  if (!currentRating) {
+    if (fb) { fb.style.display='block'; fb.style.background='rgba(239,68,68,0.1)'; fb.style.color='#f87171'; fb.textContent='Por favor selecciona una calificación.'; }
+    return;
+  }
+  if (!tienda) {
+    if (fb) { fb.style.display='block'; fb.style.background='rgba(239,68,68,0.1)'; fb.style.color='#f87171'; fb.textContent='Por favor selecciona la tienda donde compraste.'; }
+    return;
+  }
+  if (!nombre) {
+    if (fb) { fb.style.display='block'; fb.style.background='rgba(239,68,68,0.1)'; fb.style.color='#f87171'; fb.textContent='Por favor ingresa tu nombre.'; }
+    return;
+  }
+  if (!correo || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(correo)) {
+    if (fb) { fb.style.display='block'; fb.style.background='rgba(239,68,68,0.1)'; fb.style.color='#f87171'; fb.textContent='Por favor ingresa un correo válido.'; }
+    return;
+  }
+  if (!comment) {
+    if (fb) { fb.style.display='block'; fb.style.background='rgba(239,68,68,0.1)'; fb.style.color='#f87171'; fb.textContent='Por favor escribe tu opinión sobre el producto.'; }
+    return;
+  }
+  if (!commentT) {
+    if (fb) { fb.style.display='block'; fb.style.background='rgba(239,68,68,0.1)'; fb.style.color='#f87171'; fb.textContent='Por favor escribe tu opinión sobre la tienda.'; }
+    return;
+  }
+  if (!pedido) {
+    if (fb) { fb.style.display='block'; fb.style.background='rgba(239,68,68,0.1)'; fb.style.color='#f87171'; fb.textContent='Por favor ingresa el número de pedido.'; }
+    return;
+  }
+  if (!boleta) {
+    if (fb) { fb.style.display='block'; fb.style.background='rgba(239,68,68,0.1)'; fb.style.color='#f87171'; fb.textContent='Por favor adjunta la boleta de compra.'; }
     return;
   }
 
@@ -2075,12 +2107,12 @@ async function submitOpinion() {
     store_id:         tienda,
     store_name:       tiendaNombre,
     nombre,
-    correo:           correo || null,
-    pedido:           document.getElementById('op-pedido').value.trim() || null,
-    rating:           currentRating || null,
+    correo,
+    pedido,
+    rating:           currentRating,
     comment_producto: comment,
-    comment_tienda:   document.getElementById('op-comment-tienda').value.trim() || null,
-    boleta_nombre:    boletaNombre,
+    comment_tienda:   commentT,
+    boleta_nombre:    boleta ? boleta.name : null,
     estado:           'pendiente',
   };
 
@@ -2712,7 +2744,7 @@ async function sendContact() {
 
     <div id="opinion-body">
       <!-- Calificación -->
-      <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:6px">Calificación</label>
+      <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:6px">Calificación <span style="color:var(--red)">*</span></label>
       <div style="display:flex;gap:6px;margin-bottom:4px">
         <button id="rb-1" onclick="setRating(1)" style="background:none;border:none;font-size:26px;cursor:pointer;transition:transform .1s;padding:0">⭐</button>
         <button id="rb-2" onclick="setRating(2)" style="background:none;border:none;font-size:26px;cursor:pointer;transition:transform .1s;padding:0">⭐</button>
@@ -2723,7 +2755,7 @@ async function sendContact() {
       </div>
 
       <!-- Tienda -->
-      <label style="font-size:12px;color:var(--text3);display:block;margin:12px 0 4px">Tienda donde compraste</label>
+      <label style="font-size:12px;color:var(--text3);display:block;margin:12px 0 4px">Tienda donde compraste <span style="color:var(--red)">*</span></label>
       <select id="op-tienda" style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;font-size:13px;color:var(--text);font-family:inherit;margin-bottom:12px">
         <option value="">Seleccionar tienda...</option>
       </select>
@@ -2731,31 +2763,31 @@ async function sendContact() {
       <!-- Nombre y correo -->
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px">
         <div>
-          <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:4px">Nombre</label>
+          <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:4px">Nombre <span style="color:var(--red)">*</span></label>
           <input id="op-nombre" type="text" placeholder="Tu nombre" style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;font-size:13px;color:var(--text);font-family:inherit;box-sizing:border-box">
         </div>
         <div>
-          <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:4px">Correo (opcional)</label>
+          <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:4px">Correo <span style="color:var(--red)">*</span></label>
           <input id="op-correo" type="email" placeholder="tu@correo.cl" style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;font-size:13px;color:var(--text);font-family:inherit;box-sizing:border-box">
         </div>
       </div>
 
       <!-- Opinión del producto -->
-      <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:4px">Opinión sobre el producto</label>
+      <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:4px">Opinión sobre el producto <span style="color:var(--red)">*</span></label>
       <textarea id="op-comment-producto" rows="3" placeholder="¿Qué te pareció el producto?" style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;font-size:13px;color:var(--text);font-family:inherit;resize:vertical;margin-bottom:12px;box-sizing:border-box"></textarea>
 
       <!-- Opinión de la tienda -->
-      <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:4px">Opinión sobre la tienda (opcional)</label>
+      <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:4px">Opinión sobre la tienda <span style="color:var(--red)">*</span></label>
       <textarea id="op-comment-tienda" rows="2" placeholder="¿Cómo fue tu experiencia de compra?" style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;font-size:13px;color:var(--text);font-family:inherit;resize:vertical;margin-bottom:16px;box-sizing:border-box"></textarea>
 
       <!-- Número de pedido y boleta -->
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px">
         <div>
-          <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:4px">N° de pedido (opcional)</label>
+          <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:4px">N° de pedido <span style="color:var(--red)">*</span></label>
           <input id="op-pedido" type="text" placeholder="Ej: 123456" style="width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;font-size:13px;color:var(--text);font-family:inherit;box-sizing:border-box">
         </div>
         <div>
-          <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:4px">Adjuntar boleta (opcional)</label>
+          <label style="font-size:12px;color:var(--text3);display:block;margin-bottom:4px">Adjuntar boleta <span style="color:var(--red)">*</span></label>
           <label for="op-boleta-file" style="display:flex;align-items:center;gap:8px;width:100%;background:var(--bg3);border:1px solid var(--border);border-radius:8px;padding:10px 14px;font-size:12px;color:var(--text3);cursor:pointer;box-sizing:border-box;transition:border-color .15s" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border)'">
             <span style="font-size:16px">📎</span>
             <span id="fu-boleta-name" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap">Seleccionar archivo</span>
