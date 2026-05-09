@@ -299,11 +299,17 @@ function renderList(opinions) {
   el.innerHTML = opinions.map(o => {
     const stars = o.rating ? '⭐'.repeat(o.rating) + ` (${o.rating}/5)` : 'Sin calificar';
     const date  = new Date(o.created_at).toLocaleDateString('es-CL', {day:'2-digit',month:'2-digit',year:'numeric',hour:'2-digit',minute:'2-digit'});
+    const isImg = o.boleta_url && /\.(jpg|jpeg|png|gif|webp)$/i.test(o.boleta_url);
+    const isPdf = o.boleta_url && /\.pdf$/i.test(o.boleta_url);
     const boletaHtml = o.boleta_url
-      ? `<a class="boleta-link" href="${o.boleta_url}" target="_blank">📎 Ver boleta</a>`
-      : o.boleta_nombre && o.boleta_nombre !== 'No adjuntada'
-        ? `<span style="font-size:12px;color:var(--text3)">📎 ${o.boleta_nombre}</span>`
-        : '';
+      ? isImg
+        ? `<a href="${o.boleta_url}" target="_blank" title="Ver boleta completa">
+             <img src="${o.boleta_url}" alt="Boleta" style="max-width:120px;max-height:80px;border-radius:6px;object-fit:cover;border:1px solid var(--border);cursor:pointer">
+           </a>`
+        : `<a class="boleta-link" href="${o.boleta_url}" target="_blank">📄 Ver boleta PDF</a>`
+      : o.boleta_nombre
+        ? `<span style="font-size:11px;color:var(--text3)">📎 ${esc(o.boleta_nombre)}</span>`
+        : '<span style="font-size:11px;color:var(--text3);opacity:.5">Sin boleta</span>';
 
     return `<div class="opinion-card ${o.estado}" id="card-${o.id}">
       <div class="opinion-header">
