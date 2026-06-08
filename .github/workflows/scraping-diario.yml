@@ -142,6 +142,10 @@ jobs:
         if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == 'infor-ingen' }}
         run: node scraper/stores/infor-ingen.js || echo "Infor-Ingen fallo, continuando..."
 
+      - name: Scrapear BCPS Tech
+        if: ${{ github.event.inputs.store == 'todas' || github.event.inputs.store == 'bcpstech' }}
+        run: node scraper/stores/bcpstech.js || echo "BCPS Tech fallo, continuando..."
+
       # ── Post-procesamiento ───────────────────────────────────────────────
 
       - name: Debug stock en DB
