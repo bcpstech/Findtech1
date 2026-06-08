@@ -251,12 +251,8 @@ write(path.join(OUT_DIR, 'stores.json'), stores);
 const latestDate = db.prepare('SELECT MAX(date(scraped_at)) as d FROM prices').get()?.d;
 
 // ── 4. Precios in_stock de hoy ────────────────────────────────────────────
-// Verificar si la columna price_card existe (puede no existir en DBs antiguas)
-const hasPriceCard = db.prepare("PRAGMA table_info(prices)").all().some(c => c.name === 'price_card');
-const priceCardCol = hasPriceCard ? 'p.price_card' : 'NULL as price_card';
-
 const todayPrices = db.prepare(`
-  SELECT p.product_id, p.store_id, p.price, ${priceCardCol}, p.price_normal,
+  SELECT p.product_id, p.store_id, p.price, p.price_normal,
          p.discount_pct, p.stock, p.product_url, s.name as store_name
   FROM prices p
   JOIN stores s ON s.id = p.store_id
@@ -295,31 +291,21 @@ const products = mergedProducts.map(({ product: p, prices }) => {
   let specs = {};
   try { specs = p.specs ? JSON.parse(p.specs) : {}; } catch {}
 
-  // Mejor descuento entre todas las tiendas
-  const bestDiscount = prices.reduce((max, r) => {
-    const d = r.discount_pct || (r.price_normal && r.price_normal > r.price
-      ? Math.round((1 - r.price / r.price_normal) * 100) : 0);
-    return d > max ? d : max;
-  }, 0);
-
   return {
-    id:               p.id,
-    category_id:      p.category_id,
-    brand:            p.brand,
-    name:             p.name,
-    slug:             p.slug,
-    image_url:        p.image_url,
-    tags:             p.tags ? JSON.parse(p.tags) : [],
-    updated_at:       p.updated_at,
-    best_price:       best.price,
-    best_price_card:  best.price_card || null,
-    best_store_name:  best.store_name,
-    best_store_id:    best.store_id,
-    best_discount_pct: bestDiscount || null,
-    store_count:      prices.length,
-    prices:           pricesMap,
-    specs:            specs,
-    url:              best.product_url || null,
+    id:              p.id,
+    category_id:     p.category_id,
+    brand:           p.brand,
+    name:            p.name,
+    slug:            p.slug,
+    image_url:       p.image_url,
+    tags:            p.tags ? JSON.parse(p.tags) : [],
+    updated_at:      p.updated_at,
+    best_price:      best.price,
+    best_store_name: best.store_name,
+    best_store_id:   best.store_id,
+    store_count:     prices.length,
+    prices:          pricesMap,
+    url:             best.product_url || null,
   };
 }).sort((a, b) => a.best_price - b.best_price);
 
@@ -383,30 +369,25 @@ for (const { product: p, prices, group } of mergedProducts) {
       'myshop':     { cash: 'Efectivo/Transferencia',   card: 'Tarjeta crédito/débito' },
       'progaming':  { cash: 'Efectivo/Transferencia',   card: 'Tarjeta crédito/débito' },
       'megabytes':  { cash: 'Efectivo/Transferencia',   card: 'Tarjeta crédito/débito' },
+      'bcpstech':   { cash: 'Efectivo/Transferencia',   card: 'Tarjeta crédito/débito' },
     };
-    const labels = storeLabels[pr.store_id] || { cash: 'Efectivo/Transferencia', card: 'Tarjeta crédito/débito' };
-    priceSpecs[labels.cash] = `$${pr.price.toLocaleString('es-CL')}`;
-    // Khipu para TruluStore (× 1.02)
-    if (labels.khipu) {
-      priceSpecs[labels.khipu] = `$${Math.round(pr.price * 1.02).toLocaleString('es-CL')}`;
-    }
-    // price_card: precio real de tarjeta guardado por el scraper
-    // Fallback: calcular desde factor por tienda si no existe
     const CARD_FACTORS = {
-      'spdigital': 1.045,  'cg': 1.0526, 'centralgamer': 1.0526,
-      'n1g': 1.053,        'alltec': 1.03, 'centrale': 1.055,
-      'pcexpress': 1.03,   'winpy': 1.053, 'dust2': 1.03,
-      'myshop': 1.03,      'progaming': 1.03, 'megabytes': 1.03,
+      'spdigital': 1.045, 'cg': 1.0526, 'centralgamer': 1.0526,
+      'n1g': 1.053, 'winpy': 1.053, 'alltec': 1.03,
+      'centrale': 1.055, 'pcexpress': 1.03, 'bcpstech': 1.03,
     };
+    const labels    = storeLabels[pr.store_id] || { cash: 'Efectivo/Transferencia', card: 'Tarjeta crédito/débito' };
     const cardPrice = (pr.price_card && pr.price_card > pr.price)
       ? pr.price_card
       : Math.round(pr.price * (CARD_FACTORS[pr.store_id] || 1.03));
+    priceSpecs[labels.cash] = `$${pr.price.toLocaleString('es-CL')}`;
+    if (labels.khipu) {
+      priceSpecs[labels.khipu] = `$${Math.round(pr.price * 1.02).toLocaleString('es-CL')}`;
+    }
     if (labels.card) {
       priceSpecs[labels.card] = `$${cardPrice.toLocaleString('es-CL')}`;
     }
-    // Agregar price_card al objeto para que el frontend lo use directamente
     pr.price_card = cardPrice;
-    // Add khipu_price field for frontend rendering
     if (labels.khipu) {
       pr.khipu_price = Math.round(pr.price * 1.02);
     }
