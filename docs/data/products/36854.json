@@ -11,34 +11,53 @@
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Efectivo / Transferencia": "$184.990",
-    "Tarjeta crédito/débito": "$195.164",
+    "Efectivo / Transferencia": "$171.990",
+    "Tarjeta crédito/débito": "$181.449",
     "Garantía": "6 meses",
     "SKU": "43059",
     "Part Number": "90MB1LW0-M0EAY0"
   },
   "tags": [],
   "created_at": "2026-05-04 23:10:30",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 36854,
       "store_id": "myshop",
-      "price": 184990,
-      "price_card": 190540,
-      "price_normal": 195164,
+      "price": 171990,
+      "price_card": 177150,
+      "price_normal": 181449,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/b850m-ayw-gaming-wifi-p43059",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$184.990",
-        "Tarjeta crédito/débito": "$190.540"
+        "Efectivo/Transferencia": "$171.990",
+        "Tarjeta crédito/débito": "$177.150"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 59483,
+      "store_id": "spdigital",
+      "price": 172070,
+      "price_card": 179813,
+      "price_normal": 210950,
+      "discount_pct": 18,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/b850m-ayw-gaming-wifi",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$172.070",
+        "Webpay / Tarjeta": "$179.813"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 1331,
@@ -60,6 +79,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-08",
+      "price": 171990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

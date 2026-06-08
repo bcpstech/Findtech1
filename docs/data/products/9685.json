@@ -15,21 +15,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:27",
-  "updated_at": "2026-05-08 22:15:50",
+  "updated_at": "2026-06-08 20:45:14",
   "prices": [
     {
       "product_id": 9685,
       "store_id": "spdigital",
-      "price": 12990,
-      "price_card": 13575,
+      "price": 9990,
+      "price_card": 10440,
       "price_normal": 16990,
-      "discount_pct": 24,
+      "discount_pct": 41,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/be-quiet-bl110",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$12.990",
-        "Webpay / Tarjeta": "$13.575"
+        "Transferencia / Efectivo": "$9.990",
+        "Webpay / Tarjeta": "$10.440"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -56,6 +56,13 @@
       "full_url": "https://www.progaming.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 9990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

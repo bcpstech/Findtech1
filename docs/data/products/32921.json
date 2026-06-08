@@ -21,12 +21,12 @@
     "Caché L3": "38 MB",
     "TDP": "65 W",
     "Memoria soportada": "DDR5-SDRAM",
-    "Efectivo/Transferencia": "$259.995",
-    "Tarjeta crédito/débito": "$271.695"
+    "Efectivo/Transferencia": "$326.344",
+    "Tarjeta crédito/débito": "$341.030"
   },
   "tags": [],
   "created_at": "2026-05-04 02:41:40",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 32921,
@@ -48,25 +48,6 @@
       "full_url": "https://store.infor-ingen.com"
     },
     {
-      "product_id": 31893,
-      "store_id": "winpy",
-      "price": 239552,
-      "price_card": 252248,
-      "price_normal": null,
-      "discount_pct": 23,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-9600x-am5-6-cores-12-hilos-3-9-5-4ghz-32mb-cache-unlocked/",
-      "store_name": "Winpy",
-      "price_specs": {
-        "Transferencia o Depósito": "$239.552",
-        "Otros medios de pago": "$252.248"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
-    {
       "product_id": 1975,
       "store_id": "dust2",
       "price": 239990,
@@ -84,6 +65,25 @@
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 2812,
+      "store_id": "alltec",
+      "price": 241200,
+      "price_card": 248436,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/2268-amd-ryzen-5-9600x-39ghz-54ghz-turbo-six-core-tdp-65w-am5.html",
+      "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$241.200",
+        "Tarjeta crédito/débito": "$248.436"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     },
     {
       "product_id": 34,
@@ -105,37 +105,18 @@
       "full_url": "https://www.n1g.cl"
     },
     {
-      "product_id": 2812,
-      "store_id": "alltec",
-      "price": 249900,
-      "price_card": 257397,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/amd/2268-amd-ryzen-5-9600x-39ghz-54ghz-turbo-six-core-tdp-65w-am5.html",
-      "store_name": "Alltec",
-      "price_specs": {
-        "Efectivo/Transferencia": "$249.900",
-        "Tarjeta crédito/débito": "$257.397"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
-    },
-    {
       "product_id": 286,
       "store_id": "centrale",
-      "price": 255510,
-      "price_card": 269563,
+      "price": 250940,
+      "price_card": 264742,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-9600x-6-cores-12-threads-3-9-a-5-4ghz-65w/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$255.510",
-        "Tarjetas de Crédito / Débito": "$269.563"
+        "Transferencia / Efectivo": "$250.940",
+        "Tarjetas de Crédito / Débito": "$264.742"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -143,44 +124,70 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 9410,
-      "store_id": "spdigital",
-      "price": 259995,
-      "price_card": 271695,
-      "price_normal": 399990,
-      "discount_pct": 35,
+      "product_id": 31893,
+      "store_id": "winpy",
+      "price": 252320,
+      "price_card": 265693,
+      "price_normal": null,
+      "discount_pct": 26,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/amd-ryzen-5-9600x-6-core-processor",
-      "store_name": "SP Digital",
+      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-9600x-am5-6-cores-12-hilos-3-9-5-4ghz-32mb-cache-unlocked/",
+      "store_name": "Winpy",
       "price_specs": {
-        "Transferencia / Efectivo": "$259.995",
-        "Webpay / Tarjeta": "$271.695"
+        "Transferencia o Depósito": "$252.320",
+        "Otros medios de pago": "$265.693"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     },
     {
       "product_id": 1151,
       "store_id": "cg",
-      "price": 265990,
-      "price_card": 279981,
+      "price": 259990,
+      "price_card": 273665,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-9600x/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$265.990",
-        "Webpay / Tarjeta": "$279.981"
+        "Efectivo/Transferencia": "$259.990",
+        "Webpay / Tarjeta": "$273.665"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 9410,
+      "store_id": "spdigital",
+      "price": 326344,
+      "price_card": 341029,
+      "price_normal": 326350,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/amd-ryzen-5-9600x-6-core-processor",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$326.344",
+        "Webpay / Tarjeta": "$341.029"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-08",
+      "price": 219900
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

@@ -14,21 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:27:21",
-  "updated_at": "2026-05-08 22:50:31",
+  "updated_at": "2026-06-08 21:00:17",
   "prices": [
     {
       "product_id": 32063,
       "store_id": "winpy",
-      "price": 44384,
-      "price_card": 46736,
+      "price": 43168,
+      "price_card": 45456,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-esgaming-slim-j01-micro-atx-itx-fuente-650w-negro/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$44.384",
-        "Otros medios de pago": "$46.736"
+        "Transferencia o Depósito": "$43.168",
+        "Otros medios de pago": "$45.456"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,6 +55,13 @@
       "full_url": "https://www.centralgamer.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 43168
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

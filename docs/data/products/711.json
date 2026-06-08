@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:16:40",
-  "updated_at": "2026-05-08 22:09:46",
+  "updated_at": "2026-06-08 20:36:39",
   "prices": [
     {
       "product_id": 711,
@@ -35,6 +35,13 @@
       "full_url": "https://www.n1g.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-08",
+      "price": 12900
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

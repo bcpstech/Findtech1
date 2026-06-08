@@ -8,150 +8,45 @@
   "image_url": "https://images.findtech.cl/products/memoria-ram-kingston-fury-beast-black-8gb-5200mhz-ddr5-cl40.jpg",
   "description": null,
   "specs": {
-    "Capacidad": "32 GB (total)",
+    "Capacidad": "8 GB",
     "Tipo": "DDR5",
-    "Velocidad": "6000 MHz",
-    "Latencia": "CL36",
-    "Kit": "2x16 GB",
-    "Iluminación": "RGB",
-    "Transferencia / Efectivo": "$598.970",
-    "Tarjeta crédito/débito": "$631.910"
+    "Velocidad": "5200 MHz",
+    "Latencia": "CL40",
+    "Marca": "Kingston",
+    "Efectivo / Transferencia": "$155.990",
+    "Tarjeta crédito/débito": "$160.670"
   },
   "tags": [],
   "created_at": "2026-04-26 20:42:51",
-  "updated_at": "2026-05-03 05:12:06",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1980,
       "store_id": "dust2",
-      "price": 1560,
+      "price": 155990,
+      "price_card": 160670,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/memoria-ram-kingston-fury-beast-black-8gb-5200mhz-ddr5-cl40/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$1.560"
+        "Efectivo/Transferencia": "$155.990",
+        "Tarjeta crédito/débito": "$160.670"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 1496,
-      "store_id": "centrale",
-      "price": 72490,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr4-3200mt-s-cl16-kingston-fury-beast-rgb/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$72.490"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9497,
-      "store_id": "spdigital",
-      "price": 112990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/memoria-ram-ddr4-8gb-3200mhz-kingston-fury-beast-dimm-unbuffered-cl16-135v",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$112.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 1177,
-      "store_id": "cg",
-      "price": 259308,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/memorias-ram/memoria-16gb-5600mt-s-ddr5-cl36-dimm-fury-beast-bl/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$259.308"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
-    },
-    {
-      "product_id": 2653,
-      "store_id": "trulustore",
-      "price": 259990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/memoria-ram-kingston-fury-beast-ddr5-16gb-5600mhz-cl36/",
-      "store_name": "TruluStore",
-      "khipu_price": 265190,
-      "price_specs": {
-        "Efectivo / Transferencia": "$259.990",
-        "Khipu": "$265.190"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
-    },
-    {
-      "product_id": 663,
-      "store_id": "n1g",
-      "price": 379000,
-      "price_normal": 398947,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2634-kingston-32gb-ddr5-ecc-fury-renegade-pro-xmp-5600mts-reg-cl36-kf556r36rb-32.html",
-      "store_name": "N1G",
-      "price_specs": {
-        "Efectivo/Transferencia": "$379.000",
-        "Tarjeta crédito/débito": "$398.947"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
       "store_id": "dust2",
       "store_name": "Dust2",
-      "date": "2026-04-26",
-      "price": 166980
-    },
-    {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-27",
-      "price": 151450
-    },
-    {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-05-01",
-      "price": 1510
-    },
-    {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-05-03",
-      "price": 1560
+      "date": "2026-06-08",
+      "price": 155990
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-06-08"
 }

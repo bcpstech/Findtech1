@@ -12,26 +12,26 @@
     "Factor de forma": "micro ATX",
     "Memoria": "DDR5",
     "Chipset": "Intel H610",
-    "Efectivo/Transferencia": "$79.984",
-    "Tarjeta crédito/débito": "$83.583"
+    "Efectivo/Transferencia": "$82.014",
+    "Tarjeta crédito/débito": "$85.705"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:33",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 9470,
       "store_id": "spdigital",
-      "price": 79984,
-      "price_card": 83583,
-      "price_normal": 98800,
+      "price": 82014,
+      "price_card": 85705,
+      "price_normal": 101210,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-gigabyte-lga-1700-m-atx-2-dimm-ddr5-pcie-40-1x-m2-soporte-gen-12deg-13deg-14deg",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$79.984",
-        "Webpay / Tarjeta": "$83.583"
+        "Transferencia / Efectivo": "$82.014",
+        "Webpay / Tarjeta": "$85.705"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,21 +41,40 @@
     {
       "product_id": 31931,
       "store_id": "winpy",
-      "price": 83904,
-      "price_card": 88351,
+      "price": 85728,
+      "price_card": 90272,
       "price_normal": null,
-      "discount_pct": null,
+      "discount_pct": 16,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-gigabyte-h610m-k-v2-lga1700-ddr5-4400-5600mhz-m-2-micro-atx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$83.904",
-        "Otros medios de pago": "$88.351"
+        "Transferencia o Depósito": "$85.728",
+        "Otros medios de pago": "$90.272"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1391,
+      "store_id": "centrale",
+      "price": 86770,
+      "price_card": 91542,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-h610m-k-v2-micro-atx-lga-1700-ddr5-nvme-3-0/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$86.770",
+        "Tarjetas de Crédito / Débito": "$91.542"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 1161,
@@ -77,6 +96,13 @@
       "full_url": "https://www.centralgamer.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 82014
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

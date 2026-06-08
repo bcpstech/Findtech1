@@ -9,76 +9,59 @@
   "description": null,
   "specs": {
     "Marca": "Gigabyte",
-    "Efectivo / Transferencia": "$429.990",
-    "Tarjeta crédito/débito": "$442.890"
+    "Efectivo / Transferencia": "$399.890",
+    "Tarjeta crédito/débito": "$411.890"
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:14",
-  "updated_at": "2026-05-06 03:43:24",
+  "updated_at": "2026-06-08 21:04:51",
   "prices": [
     {
       "product_id": 2242,
       "store_id": "dust2",
-      "price": 429990,
-      "price_card": 442890,
+      "price": 399890,
+      "price_card": 411887,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-ud1600pm-pg5-ia-1600w-80plus-platinum/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$429.990",
-        "Tarjeta crédito/débito": "$442.890"
+        "Efectivo/Transferencia": "$399.890",
+        "Tarjeta crédito/débito": "$411.887"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 61037,
+      "store_id": "centrale",
+      "price": 419620,
+      "price_card": 442699,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/fuente-de-poder-gigabyte-ud1600pm-pg5-ai-top-1600w-80-platinum-atx-3-1-modular/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$419.620",
+        "Tarjetas de Crédito / Débito": "$442.699"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
       "store_id": "dust2",
       "store_name": "Dust2",
-      "date": "2026-04-26",
-      "price": 417470
-    },
-    {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-27",
-      "price": 417470
-    },
-    {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-05-01",
-      "price": 4170
-    },
-    {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-05-03",
-      "price": 429990
-    },
-    {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-05-04",
-      "price": 429990
-    },
-    {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-05-05",
-      "price": 429990
-    },
-    {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-05-06",
-      "price": 429990
+      "date": "2026-06-08",
+      "price": 399890
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-06-08"
 }

@@ -10,64 +10,59 @@
   "specs": {
     "Socket": "AM5",
     "Memoria": "DDR5",
-    "Efectivo/Transferencia": "$179.990",
-    "Tarjeta crédito/débito": "$188.090"
+    "Efectivo/Transferencia": "$133.995",
+    "Tarjeta crédito/débito": "$140.025"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:23",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 9455,
       "store_id": "spdigital",
-      "price": 179990,
-      "price_card": 188090,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 133995,
+      "price_card": 140025,
+      "price_normal": 179990,
+      "discount_pct": 26,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/segunda-seleccion-placa-madre-asus-prime-a620m-a-amd-socket-am5-4xdimm-ddr5-dp-vga-hdmi-2xm2",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$179.990",
-        "Webpay / Tarjeta": "$188.090"
+        "Transferencia / Efectivo": "$133.995",
+        "Webpay / Tarjeta": "$140.025"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 38907,
+      "store_id": "mybox",
+      "price": 152941,
+      "price_card": 157529,
+      "price_normal": 174790,
+      "discount_pct": 13,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/5320-placa-madre-asus-a620m-a-prime-4711387176375.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$152.941",
+        "Tarjeta crédito/débito": "$157.529"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-28",
-      "price": 179990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-04-29",
-      "price": 179990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-01",
-      "price": 179990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-03",
-      "price": 179990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-04",
-      "price": 179990
+      "date": "2026-06-08",
+      "price": 133995
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-06-08"
 }

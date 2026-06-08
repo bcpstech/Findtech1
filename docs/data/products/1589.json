@@ -5,58 +5,46 @@
   "brand": "Seagate",
   "name": "Disco Duro HDD 2TB Seagate Skyhawk 3.5&#8243; SATA 6GB/s 5400rpm Video Vigilancia",
   "slug": "disco-duro-hdd-2tb-seagate-skyhawk-3-5-8243-sata-6gb-s-5400rpm-video-vigilancia",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-Duro-HDD-2TB-Seagate-Skyhawk-Interno-3.5-SATA-6GB-s-Video-Vigilan_Hpmpvaq-1.webp",
+  "image_url": "https://images.findtech.cl/products/disco-duro-hdd-2tb-seagate-skyhawk-3-5-8243-sata-6gb-s-5400rpm-video-vigilancia.webp",
   "description": null,
   "specs": {
     "Capacidad": "6 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$229.490",
-    "Tarjeta crédito/débito": "$242.110"
+    "Transferencia / Efectivo": "$247.770",
+    "Tarjeta crédito/débito": "$261.400"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1589,
       "store_id": "centrale",
-      "price": 124310,
-      "price_card": 131147,
+      "price": 117480,
+      "price_card": 123941,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-hdd-2tb-seagate-skyhawk-3-5-sata-6gb-s-5400rpm-video-vigilancia/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$124.310",
-        "Tarjetas de Crédito / Débito": "$131.147"
+        "Transferencia / Efectivo": "$117.480",
+        "Tarjetas de Crédito / Débito": "$123.941"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 16361,
-      "store_id": "spdigital",
-      "price": 173171,
-      "price_card": 180964,
-      "price_normal": 213820,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/seagate-skyhawk-hard-drive-internal-hard-drive-4-tb-35-5400-rpm-scsi",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$173.171",
-        "Webpay / Tarjeta": "$180.964"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 117480
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

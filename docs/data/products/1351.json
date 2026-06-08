@@ -5,19 +5,19 @@
   "brand": "MSI",
   "name": "Placa Madre MSI B850 GAMING PLUS WIFI (ATX, AM5, DDR5, PCIe 5.0, WiFi 7)",
   "slug": "placa-madre-msi-b850-gaming-plus-wifi-atx-am5-ddr5-pcie-5-0-wifi-7",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-MSI-B850-GAMING-PLUS-WIFI-ATX-AM5-DDR5-PCIe-5.0-WiFi-7_oRuqWkX.webp",
+  "image_url": "https://images.findtech.cl/products/placa-madre-msi-b850-gaming-plus-wifi-atx-am5-ddr5-pcie-5-0-wifi-7.webp",
   "description": null,
   "specs": {
     "Socket": "AM5",
     "Factor de forma": "ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Efectivo/Transferencia": "$259.500",
-    "Tarjeta crédito/débito": "$267.285"
+    "Transferencia / Efectivo": "$239.900",
+    "Tarjeta crédito/débito": "$253.090"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1351,
@@ -39,37 +39,18 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 605,
-      "store_id": "n1g",
-      "price": 259500,
-      "price_card": 273254,
-      "price_normal": 273158,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3117-msi-b850-gaming-plus-wifi-am5-amd-b850-sata-6gbs-5g-network-ddr5-wi-fi-7-atx.html",
-      "store_name": "N1G",
-      "price_specs": {
-        "Efectivo/Transferencia": "$259.500",
-        "Tarjeta crédito/débito": "$273.254"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
-    },
-    {
       "product_id": 9429,
       "store_id": "spdigital",
-      "price": 319995,
-      "price_card": 334395,
+      "price": 299995,
+      "price_card": 313495,
       "price_normal": 499990,
-      "discount_pct": 36,
+      "discount_pct": 40,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-msi-b850-mlg-edition-socket-am5-4x-ddr5-4x-m2-wifi-7-bluetooth-54-atx",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$319.995",
-        "Webpay / Tarjeta": "$334.395"
+        "Transferencia / Efectivo": "$299.995",
+        "Webpay / Tarjeta": "$313.495"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -77,6 +58,13 @@
       "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 239900
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

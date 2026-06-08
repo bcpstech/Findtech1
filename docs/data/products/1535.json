@@ -5,32 +5,32 @@
   "brand": "Adata",
   "name": "SSD ADATA Ultimate SU650 960GB 2.5&#8243; SATA III 520MB/s, 450MB/s escritura",
   "slug": "ssd-adata-ultimate-su650-960gb-2-5-8243-sata-iii-520mb-s-450mb-s-escritura",
-  "image_url": "https://centrale.cl/wp-content/uploads/Adata-Unidad-Ssd-Ultimate-Su650-960Gb-2.5-Sata-3-Lectura-520Mb-S-Escritura.webp",
+  "image_url": "https://images.findtech.cl/products/ssd-adata-ultimate-su650-960gb-2-5-8243-sata-iii-520mb-s-450mb-s-escritura.webp",
   "description": null,
   "specs": {
     "Capacidad": "960 GB",
     "Interfaz": "SATA III",
     "Factor de forma": "2.5\"",
-    "Transferencia / Efectivo": "$160.360",
-    "Tarjeta crédito/débito": "$169.180"
+    "Transferencia / Efectivo": "$142.870",
+    "Tarjeta crédito/débito": "$150.730"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1535,
       "store_id": "centrale",
-      "price": 160360,
-      "price_card": 169180,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 142870,
+      "price_card": 150728,
+      "price_normal": 151170,
+      "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ssd-adata-ultimate-su650-960gb-2-5-sata-iii-520mb-s-450mb-s-escritura/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$160.360",
-        "Tarjetas de Crédito / Débito": "$169.180"
+        "Transferencia / Efectivo": "$142.870",
+        "Tarjetas de Crédito / Débito": "$150.728"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,6 +38,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 142870
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

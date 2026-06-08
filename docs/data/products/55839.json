@@ -8,31 +8,31 @@
   "image_url": "https://images.findtech.cl/products/pack-4-unidades-fuente-de-poder-1000w-certificada-msi-mag-a1000gls-pcie5-80-plus-gold-atx-modular-en.jpg",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$411.990",
-    "Tarjeta crédito/débito": "$434.649",
+    "Efectivo / Transferencia": "$363.990",
+    "Tarjeta crédito/débito": "$384.009",
     "Garantía": "6 meses",
     "SKU": "43094",
     "Part Number": "306-7ZPIX12-CE0 -PACK"
   },
   "tags": [],
   "created_at": "2026-05-08 22:24:07",
-  "updated_at": "2026-05-08 22:24:07",
+  "updated_at": "2026-06-08 20:52:07",
   "prices": [
     {
       "product_id": 2637,
       "store_id": "trulustore",
-      "price": 109990,
-      "price_card": 113290,
+      "price": 104890,
+      "price_card": 108037,
       "price_normal": 169990,
-      "discount_pct": 35,
+      "discount_pct": 38,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/fuente-de-poder-msi-mag-a1000gls-1000w-80-gold-cybenetics-gold-full-modular-pcie-5-1-atx-3-1/",
       "store_name": "TruluStore",
-      "khipu_price": 112190,
+      "khipu_price": 106988,
       "price_specs": {
-        "Efectivo / Transferencia": "$109.990",
-        "Khipu": "$112.190",
-        "Tarjeta crédito/débito": "$113.290"
+        "Efectivo / Transferencia": "$104.890",
+        "Khipu": "$106.988",
+        "Tarjeta crédito/débito": "$108.037"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,18 +40,18 @@
       "full_url": "https://www.trulustore.cl"
     },
     {
-      "product_id": 1678,
+      "product_id": 61001,
       "store_id": "centrale",
-      "price": 125790,
-      "price_card": 132708,
+      "price": 122620,
+      "price_card": 129364,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/msi-mag-a1000gls-pcie5-306-7zpix23-ce0/",
+      "product_url": "https://centrale.cl/producto/fuente-de-poder-msi-mag-a1000gls-1000w-80plus-gold-pcie5/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$125.790",
-        "Tarjetas de Crédito / Débito": "$132.708"
+        "Transferencia / Efectivo": "$122.620",
+        "Tarjetas de Crédito / Débito": "$129.364"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,18 +59,37 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 55839,
+      "product_id": 59778,
+      "store_id": "spdigital",
+      "price": 124244,
+      "price_card": 129835,
+      "price_normal": 153450,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/mag-a1000gls-pcie5",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$124.244",
+        "Webpay / Tarjeta": "$129.835"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 60157,
       "store_id": "myshop",
-      "price": 411990,
-      "price_card": 424350,
-      "price_normal": 434649,
+      "price": 149990,
+      "price_card": 154490,
+      "price_normal": 158239,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/pack-4-unidades-fuente-de-poder-1000w-certificada-msi-mag-a1000gls-pcie5-80-plus-gold-atx-modular-ensambladores-mayoristas-p43094",
+      "product_url": "https://www.myshop.cl/producto/mag-a1000gls-pcie5-p40342",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$411.990",
-        "Tarjeta crédito/débito": "$424.350"
+        "Efectivo/Transferencia": "$149.990",
+        "Tarjeta crédito/débito": "$154.490"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -78,6 +97,13 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-08",
+      "price": 363990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

@@ -5,32 +5,32 @@
   "brand": "SanDisk",
   "name": "SSD WD Green 500GB 2.5&#8243; SATA III 3D NAND, hasta 545MB/s",
   "slug": "ssd-wd-green-500gb-2-5-8243-sata-iii-3d-nand-hasta-545mb-s",
-  "image_url": "https://centrale.cl/wp-content/uploads/Western-Digital-WD-Green-SSD-Internal-hard-drive-500-GB-2.5-Solid-state.webp",
+  "image_url": "https://images.findtech.cl/products/ssd-wd-green-500gb-2-5-8243-sata-iii-3d-nand-hasta-545mb-s.webp",
   "description": null,
   "specs": {
     "Capacidad": "500 GB",
     "Interfaz": "SATA III",
     "Factor de forma": "2.5\"",
-    "Transferencia / Efectivo": "$124.480",
-    "Tarjeta crédito/débito": "$131.330"
+    "Transferencia / Efectivo": "$110.130",
+    "Tarjeta crédito/débito": "$116.190"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1526,
       "store_id": "centrale",
-      "price": 124480,
-      "price_card": 131326,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 110130,
+      "price_card": 116187,
+      "price_normal": 118240,
+      "discount_pct": 7,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ssd-wd-green-500gb-2-5-sata-iii-3d-nand-hasta-545mb-s/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$124.480",
-        "Tarjetas de Crédito / Débito": "$131.326"
+        "Transferencia / Efectivo": "$110.130",
+        "Tarjetas de Crédito / Débito": "$116.187"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,6 +38,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 110130
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

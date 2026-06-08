@@ -3,9 +3,9 @@
   "external_id": "pn_912v812060",
   "category_id": "gpu",
   "brand": "MSI",
-  "name": "Tarjeta de Video - MSI VENTUS 2X Nvidia GeForce RTX  3050 6G OC Edition - 6 GB, GDDR6, 96 bits - PCIe 4.0 - DisplayPort, HDMI",
+  "name": "Tarjeta de Video Nvidia RTX 3050 6GB - MSI VENTUS 2X OC Edition - GDDR6, 96 bits - PCIe 4.0 - DisplayPort, HDMI",
   "slug": "tarjeta-de-video-msi-ventus-2x-nvidia-geforce-rtx-3050-6g-oc-edition-6-gb-gddr6-96-bits-pcie-4-",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-msi-ventus-2x-nvidia-geforce-rtx-3050-6g-oc-edition-6-gb-gddr6-96-bits-pcie-4-0-dis.png",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-rtx-3050-6gb-msi-ventus-2x-oc-edition-gddr6-96-bits-pcie-4-0-displayport-hdm.png",
   "description": null,
   "specs": {
     "VRAM": "8 GB",
@@ -13,74 +13,43 @@
     "Bus de memoria": "128-bit",
     "Arquitectura": "Ampere",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$213.990",
-    "Tarjeta crédito/débito": "$225.759",
+    "Efectivo / Transferencia": "$239.990",
+    "Tarjeta crédito/débito": "$253.189",
     "Garantía": "6 meses",
     "SKU": "31535",
     "Part Number": "912-V812-060"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:30",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 19810,
       "store_id": "myshop",
-      "price": 213990,
-      "price_card": 220410,
-      "price_normal": 225759,
+      "price": 239990,
+      "price_card": 247190,
+      "price_normal": 253189,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/geforce-rtx-3050-ventus-2x-6g-oc-p31535",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$213.990",
-        "Tarjeta crédito/débito": "$220.410"
+        "Efectivo/Transferencia": "$239.990",
+        "Tarjeta crédito/débito": "$247.190"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 31844,
-      "store_id": "winpy",
-      "price": 214624,
-      "price_card": 225999,
-      "price_normal": null,
-      "discount_pct": 14,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-3050-ventus-2x-oc-con-6gb-gddr6/",
-      "store_name": "Winpy",
-      "price_specs": {
-        "Transferencia o Depósito": "$214.624",
-        "Otros medios de pago": "$225.999"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 1194,
-      "store_id": "centrale",
-      "price": 225700,
-      "price_card": 238114,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-3050-ventus-2x-oc-6gb-gddr6-96-bit/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$225.700",
-        "Tarjetas de Crédito / Débito": "$238.114"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-08",
+      "price": 239990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

@@ -5,29 +5,29 @@
   "brand": "Arctic",
   "name": "Ventilador de Gabinete 140mm ARCTIC P14 Max Black 95CFM, 4.18mm H2O",
   "slug": "ventilador-de-gabinete-140mm-arctic-p14-max-black-95cfm-4-18mm-h2o",
-  "image_url": "https://centrale.cl/wp-content/uploads/Ventilador-de-Gabinete-140mm-ARCTIC-P14-Max-Black-95CFM-4.18mm-H2O_S5CykvA-1.webp",
+  "image_url": "https://images.findtech.cl/products/ventilador-de-gabinete-140mm-arctic-p14-max-black-95cfm-4-18mm-h2o.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$11.900",
-    "Tarjeta crédito/débito": "$12.550"
+    "Transferencia / Efectivo": "$9.990",
+    "Tarjeta crédito/débito": "$10.540"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:50",
-  "updated_at": "2026-05-08 22:46:16",
+  "updated_at": "2026-06-08 20:58:39",
   "prices": [
     {
       "product_id": 1672,
       "store_id": "centrale",
-      "price": 11900,
-      "price_card": 12555,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 9990,
+      "price_card": 10539,
+      "price_normal": 11130,
+      "discount_pct": 10,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ventilador-de-gabinete-140mm-arctic-p14-max-black-95cfm-4-18mm-h2o/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$11.900",
-        "Tarjetas de Crédito / Débito": "$12.555"
+        "Transferencia / Efectivo": "$9.990",
+        "Tarjetas de Crédito / Débito": "$10.539"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -35,6 +35,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 9990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

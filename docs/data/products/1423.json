@@ -5,28 +5,33 @@
   "brand": "Kingston",
   "name": "Memoria Kingston de 8GB DDR5 5600MT/s Non-ECC Unbuffered DIMM",
   "slug": "memoria-kingston-de-8gb-ddr5-5600mt-s-non-ecc-unbuffered-dimm",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-Kingston-de-8GB-DDR5-5600MT-s-Non-ECC-Unbuffered-DIMM-1.webp",
+  "image_url": "https://images.findtech.cl/products/memoria-kingston-de-8gb-ddr5-5600mt-s-non-ecc-unbuffered-dimm.webp",
   "description": null,
   "specs": {
     "Capacidad": "8 GB",
     "Tipo": "DDR5",
     "Velocidad": "5600 MHz",
-    "Transferencia / Efectivo": "$156.210",
-    "Tarjetas de Crédito / Débito": "$164.800"
+    "Transferencia / Efectivo": "$154.870",
+    "Tarjeta crédito/débito": "$163.390"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1423,
       "store_id": "centrale",
-      "price": 156210,
-      "price_normal": 178980,
-      "discount_pct": 13,
+      "price": 154870,
+      "price_card": 163388,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-kingston-de-8gb-ddr5-5600mt-s-non-ecc-unbuffered-dimm/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$154.870",
+        "Tarjetas de Crédito / Débito": "$163.388"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -37,15 +42,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 156380
-    },
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 156210
+      "date": "2026-06-08",
+      "price": 154870
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-08"
 }

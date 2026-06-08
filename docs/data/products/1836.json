@@ -19,7 +19,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:52",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1836,
@@ -43,16 +43,16 @@
     {
       "product_id": 1257,
       "store_id": "centrale",
-      "price": 1169000,
-      "price_card": 1233295,
+      "price": 1140990,
+      "price_card": 1203744,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-prime-geforce-rtx-5070-ti-oc-edition-16gb-gddr7-sff-ready/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.169.000",
-        "Tarjetas de Crédito / Débito": "$1.233.295"
+        "Transferencia / Efectivo": "$1.140.990",
+        "Tarjetas de Crédito / Débito": "$1.203.744"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,6 +60,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-08",
+      "price": 1139990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

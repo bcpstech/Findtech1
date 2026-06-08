@@ -12,26 +12,26 @@
     "Bus de memoria": "64-bit",
     "Variante": "OC (Overclocked)",
     "Factor de forma": "Low Profile",
-    "Transferencia / Efectivo": "$140.080",
-    "Tarjeta crédito/débito": "$147.780"
+    "Transferencia / Efectivo": "$134.100",
+    "Tarjeta crédito/débito": "$141.480"
   },
   "tags": [],
   "created_at": "2026-05-04 01:19:36",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 31842,
       "store_id": "winpy",
-      "price": 134368,
-      "price_card": 141490,
+      "price": 128896,
+      "price_card": 135727,
       "price_normal": null,
-      "discount_pct": 37,
+      "discount_pct": 39,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-gt-1030-oc-de-4gb-perfil-bajo/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$134.368",
-        "Otros medios de pago": "$141.490"
+        "Transferencia o Depósito": "$128.896",
+        "Otros medios de pago": "$135.727"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 1229,
       "store_id": "centrale",
-      "price": 140080,
-      "price_card": 147784,
+      "price": 134100,
+      "price_card": 141476,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-nvidia-geforce-gt-1030-oc-4gb-ddr4-64-bit-low-profile/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$140.080",
-        "Tarjetas de Crédito / Débito": "$147.784"
+        "Transferencia / Efectivo": "$134.100",
+        "Tarjetas de Crédito / Débito": "$141.476"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,6 +58,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 128896
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

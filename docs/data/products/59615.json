@@ -1,0 +1,72 @@
+{
+  "id": 59615,
+  "external_id": "spdigital_tarjeta-de-video-msi-nvidia-geforce-rtx-5090-ventus-3x-oc-32gb-gddr7-pcie-5-0",
+  "category_id": "gpu",
+  "brand": "NVIDIA",
+  "name": "Tarjeta de video MSI Nvidia Geforce RTX 5090 Ventus 3X OC, 32GB GDDR7, PCIe 5.0",
+  "slug": "spdigital-tarjeta-de-video-msi-nvidia-geforce-rtx-5090-ventus-3x-oc-32gb-gddr7-pcie-5-0",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-msi-nvidia-geforce-rtx-5090-ventus-3x-oc-32gb-gddr7-pcie-5-0.jpg",
+  "description": null,
+  "specs": {
+    "VRAM": "32 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "512-bit",
+    "Arquitectura": "Blackwell",
+    "Variante": "OC (Overclocked)",
+    "Factor de forma": "Full-Height/Full-Length (FH/FL)",
+    "Efectivo/Transferencia": "$3.999.995",
+    "Tarjeta crédito/débito": "$4.179.995"
+  },
+  "tags": [],
+  "created_at": "2026-06-08 20:44:28",
+  "updated_at": "2026-06-08 21:47:04",
+  "prices": [
+    {
+      "product_id": 1191,
+      "store_id": "centrale",
+      "price": 3920000,
+      "price_card": 4135600,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5090-ventus-3x-oc-32gb-gddr7-512-bit/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$3.920.000",
+        "Tarjetas de Crédito / Débito": "$4.135.600"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 59615,
+      "store_id": "spdigital",
+      "price": 3999995,
+      "price_card": 4179995,
+      "price_normal": 4999990,
+      "discount_pct": 20,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-msi-nvidia-geforce-rtx-5090-ventus-3x-oc-32gb-gddr7-pcie-50",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$3.999.995",
+        "Webpay / Tarjeta": "$4.179.995"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 3999995
+    }
+  ],
+  "scraped_at": "2026-06-08"
+}

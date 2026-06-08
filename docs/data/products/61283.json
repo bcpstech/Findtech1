@@ -1,0 +1,72 @@
+{
+  "id": 61283,
+  "external_id": "dust2_tarjeta-de-video-zotac-geforce-rtx3050-6g-gddr6-twin-edge-oc",
+  "category_id": "gpu",
+  "brand": "Zotac",
+  "name": "Tarjeta de Video ZOTAC GeForce RTX3050 6G GDDR6 Twin Edge OC",
+  "slug": "dust2-tarjeta-de-video-zotac-geforce-rtx3050-6g-gddr6-twin-edge-oc",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-zotac-geforce-rtx3050-6g-gddr6-twin-edge-oc.jpg",
+  "description": null,
+  "specs": {
+    "VRAM": "8 GB",
+    "Tipo memoria": "GDDR6",
+    "Bus de memoria": "128-bit",
+    "Arquitectura": "Ampere",
+    "Variante": "OC (Overclocked)",
+    "Marca": "Zotac",
+    "Efectivo / Transferencia": "$229.990",
+    "Tarjeta crédito/débito": "$236.890"
+  },
+  "tags": [],
+  "created_at": "2026-06-08 21:01:35",
+  "updated_at": "2026-06-08 21:47:04",
+  "prices": [
+    {
+      "product_id": 61283,
+      "store_id": "dust2",
+      "price": 229990,
+      "price_card": 236890,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-zotac-geforce-rtx3050-6g-gddr6-twin-edge-oc/",
+      "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$229.990",
+        "Tarjeta crédito/débito": "$236.890"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 1202,
+      "store_id": "centrale",
+      "price": 531660,
+      "price_card": 560901,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-zotac-geforce-rtx5060ti-twin-edge-oc-8gb-gddr6/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$531.660",
+        "Tarjetas de Crédito / Débito": "$560.901"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-08",
+      "price": 229990
+    }
+  ],
+  "scraped_at": "2026-06-08"
+}

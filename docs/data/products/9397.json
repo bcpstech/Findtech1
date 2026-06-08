@@ -20,41 +20,26 @@
     "TDP": "65 W",
     "Memoria soportada": "DDR4-SDRAM",
     "Gráficos integrados": "AMD Radeon Graphics",
-    "Efectivo/Transferencia": "$449.990",
-    "Tarjeta crédito/débito": "$470.240"
+    "Efectivo/Transferencia": "$214.995",
+    "Tarjeta crédito/débito": "$224.670"
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:51",
-  "updated_at": "2026-05-03 21:56:07",
+  "updated_at": "2026-06-08 20:43:12",
   "prices": [
-    {
-      "product_id": 280,
-      "store_id": "centrale",
-      "price": 201900,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-5700g-4-60ghz-graficos-integrados/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$201.900"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
     {
       "product_id": 2818,
       "store_id": "alltec",
-      "price": 209900,
+      "price": 199900,
+      "price_card": 205897,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/1655-amd-ryzen-7-5700g-38ghz-46ghz-turbo-octa-core-radeon-graphics-2000mhz-730143313377.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$209.900"
+        "Efectivo/Transferencia": "$199.900",
+        "Tarjeta crédito/débito": "$205.897"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,65 +47,89 @@
       "full_url": "https://www.alltec.cl"
     },
     {
+      "product_id": 280,
+      "store_id": "centrale",
+      "price": 205720,
+      "price_card": 217035,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-5700g-4-60ghz-graficos-integrados/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$205.720",
+        "Tarjetas de Crédito / Débito": "$217.035"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 31888,
+      "store_id": "winpy",
+      "price": 209152,
+      "price_card": 220237,
+      "price_normal": null,
+      "discount_pct": 23,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-7-5700g-con-graficos-radeon-am4-8-cores-16-hilos-3-8-4-6ghz/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Transferencia o Depósito": "$209.152",
+        "Otros medios de pago": "$220.237"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 9397,
+      "store_id": "spdigital",
+      "price": 214995,
+      "price_card": 224670,
+      "price_normal": 449990,
+      "discount_pct": 52,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-7-5700g-8-core-38ghz-max-boost-46ghz-socket-am4-radeon-vega-graphics",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$214.995",
+        "Webpay / Tarjeta": "$224.670"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 1147,
       "store_id": "cg",
-      "price": 209990,
+      "price": 221990,
+      "price_card": 233667,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-7-5700g/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$209.990"
+        "Efectivo/Transferencia": "$221.990",
+        "Webpay / Tarjeta": "$233.667"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
-    },
-    {
-      "product_id": 9397,
-      "store_id": "spdigital",
-      "price": 449990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-7-5700g-8-core-38ghz-max-boost-46ghz-socket-am4-radeon-vega-graphics",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$449.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-28",
-      "price": 449990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-04-29",
-      "price": 449990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-01",
-      "price": 449990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-03",
-      "price": 449990
+      "date": "2026-06-08",
+      "price": 214995
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-06-08"
 }

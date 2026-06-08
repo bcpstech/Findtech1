@@ -5,7 +5,7 @@
   "brand": "Asus",
   "name": "Placa Madre Asus  Rog Strix Z890-E Gaming Wifi (LGA1851, DDR5 8800MHZ, ATX",
   "slug": "placa-madre-asus-rog-strix-z890-e-gaming-wifi-lga1851-ddr5-8800mhz-atx",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Asus-Rog-Strix-Z890-E-Gaming-Wifi-LGA1851-DDR5-8800MHZ-ATX_cGK94NO.webp",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asus-rog-strix-z890-e-gaming-wifi-lga1851-ddr5-8800mhz-atx.webp",
   "description": null,
   "specs": {
     "Socket": "LGA1851",
@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1360,
       "store_id": "centrale",
-      "price": 578300,
-      "price_card": 610107,
+      "price": 555980,
+      "price_card": 586559,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-strix-z890-e-gaming-wifi-lga1851-ddr5-8800mhz-atx/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$578.300",
-        "Tarjetas de Crédito / Débito": "$610.107"
+        "Transferencia / Efectivo": "$555.980",
+        "Tarjetas de Crédito / Débito": "$586.559"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 1163,
       "store_id": "cg",
-      "price": 588015,
-      "price_card": 618945,
+      "price": 599752,
+      "price_card": 631299,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/placas-madre/asus-motherboard-rog-strix-z890-e-gaming-1851-d/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$588.015",
-        "Webpay / Tarjeta": "$618.945"
+        "Efectivo/Transferencia": "$599.752",
+        "Webpay / Tarjeta": "$631.299"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -77,6 +77,13 @@
       "full_url": "https://www.n1g.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 555980
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

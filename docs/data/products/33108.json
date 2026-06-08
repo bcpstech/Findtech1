@@ -1,0 +1,88 @@
+{
+  "id": 33108,
+  "external_id": "infor-ingen_m-b-msi-b550m-pro-vdh-wifi",
+  "category_id": "mobo",
+  "brand": "MSI",
+  "name": "M/B MSI B550M PRO-VDH WIFI",
+  "slug": "infor-ingen-m-b-msi-b550m-pro-vdh-wifi",
+  "image_url": "https://images.findtech.cl/products/m-b-msi-b550m-pro-vdh-wifi.jpg",
+  "description": null,
+  "specs": {
+    "Socket": "AM4",
+    "Factor de forma": "Micro-ATX",
+    "WiFi": "Integrado",
+    "Transferencia / Efectivo": "$107.630",
+    "Tarjeta crédito/débito": "$113.550"
+  },
+  "tags": [],
+  "created_at": "2026-05-04 02:45:02",
+  "updated_at": "2026-06-08 21:47:04",
+  "prices": [
+    {
+      "product_id": 33108,
+      "store_id": "infor-ingen",
+      "price": 93900,
+      "price_card": 96717,
+      "price_normal": 99534,
+      "discount_pct": 6,
+      "stock": "in_stock",
+      "product_url": "https://store.infor-ingen.com/producto/m-b-msi-b550m-pro-vdh-wifi/",
+      "store_name": "Infor-Ingen",
+      "price_specs": {
+        "Efectivo/Transferencia": "$93.900",
+        "Tarjeta crédito/débito": "$96.717"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
+    },
+    {
+      "product_id": 60329,
+      "store_id": "alltec",
+      "price": 106900,
+      "price_card": 110107,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/para-amd/1495-mb-msi-b550m-pro-vdh-wifi-am4-4xddr4-ryzen-5000.html",
+      "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$106.900",
+        "Tarjeta crédito/débito": "$110.107"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 1397,
+      "store_id": "centrale",
+      "price": 107630,
+      "price_card": 113550,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-msi-b550m-pro-vdh-wifi-socket-amd-am4-pcie-4-0-wifi-5/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$107.630",
+        "Tarjetas de Crédito / Débito": "$113.550"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-08",
+      "price": 93900
+    }
+  ],
+  "scraped_at": "2026-06-08"
+}

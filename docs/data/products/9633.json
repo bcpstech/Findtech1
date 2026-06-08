@@ -15,21 +15,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:01",
-  "updated_at": "2026-05-08 22:15:29",
+  "updated_at": "2026-06-08 20:44:54",
   "prices": [
     {
       "product_id": 9633,
       "store_id": "spdigital",
-      "price": 99995,
-      "price_card": 104495,
+      "price": 94995,
+      "price_card": 99270,
       "price_normal": 179990,
-      "discount_pct": 44,
+      "discount_pct": 47,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/asus-prime-lc-360-argb-fan-unit",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$99.995",
-        "Webpay / Tarjeta": "$104.495"
+        "Transferencia / Efectivo": "$94.995",
+        "Webpay / Tarjeta": "$99.270"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,16 +58,16 @@
     {
       "product_id": 1611,
       "store_id": "centrale",
-      "price": 158610,
-      "price_card": 167334,
+      "price": 163720,
+      "price_card": 172725,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-aio-asus-tuf-gaming-lc-iii-360-argb-lcd/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$158.610",
-        "Tarjetas de Crédito / Débito": "$167.334"
+        "Transferencia / Efectivo": "$163.720",
+        "Tarjetas de Crédito / Débito": "$172.725"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -113,6 +113,13 @@
       "full_url": "https://www.n1g.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 94995
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

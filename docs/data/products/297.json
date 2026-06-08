@@ -5,7 +5,7 @@
   "brand": "AMD",
   "name": "Procesador AMD Ryzen™ Threadripper™ 9960X (24 Cores, 48 Threads, 4.2 &#8211; 5.4GHz)",
   "slug": "procesador-amd-ryzen-threadripper-9960x-24-cores-48-threads-4-2-8211-5-4ghz",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-Threadripper-9960X-24-Cores-48-Threads-4.2-5.4GH_LRynqap.webp",
+  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-threadripper-9960x-24-cores-48-threads-4-2-8211-5-4ghz.webp",
   "description": null,
   "specs": {
     "Frecuencia base": "5.4 GHz",
@@ -18,19 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 16:24:42",
-  "updated_at": "2026-05-03 05:12:06",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 297,
       "store_id": "centrale",
-      "price": 22688,
+      "price": 1930890,
+      "price_card": 2037089,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-threadripper-9960x-24-cores-48-threads-4-2-5-4ghz/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$22.688"
+        "Transferencia / Efectivo": "$1.930.890",
+        "Tarjetas de Crédito / Débito": "$2.037.089"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,6 +43,7 @@
       "product_id": 43,
       "store_id": "n1g",
       "price": 1990000,
+      "price_card": 2095470,
       "price_normal": 2094737,
       "discount_pct": 5,
       "stock": "in_stock",
@@ -48,7 +51,7 @@
       "store_name": "N1G",
       "price_specs": {
         "Efectivo/Transferencia": "$1.990.000",
-        "Tarjeta crédito/débito": "$2.094.737"
+        "Tarjeta crédito/débito": "$2.095.470"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,27 +63,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 2268780
-    },
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 2268780
-    },
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-05-01",
-      "price": 22688
-    },
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-05-03",
-      "price": 22688
+      "date": "2026-06-08",
+      "price": 1930890
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-06-08"
 }

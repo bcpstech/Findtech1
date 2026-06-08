@@ -20,12 +20,12 @@
     "TDP": "65 W",
     "Memoria soportada": "DDR5-SDRAM",
     "Gráficos integrados": "AMD Radeon 780M",
-    "Efectivo/Transferencia": "$279.995",
-    "Tarjeta crédito/débito": "$292.595"
+    "Efectivo/Transferencia": "$399.990",
+    "Tarjeta crédito/débito": "$417.990"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:27",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 31896,
@@ -33,7 +33,7 @@
       "price": 247456,
       "price_card": 260571,
       "price_normal": null,
-      "discount_pct": null,
+      "discount_pct": 32,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-7-8700g-am5-8-cores-16-hilos-4-2-5-1ghz-16mb-de-cache-l3/",
       "store_name": "Winpy",
@@ -47,56 +47,18 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 1935,
-      "store_id": "dust2",
-      "price": 255990,
-      "price_card": 263670,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-7-8700g-8-core-5-15ghz-24mb/",
-      "store_name": "Dust2",
-      "price_specs": {
-        "Efectivo/Transferencia": "$255.990",
-        "Tarjeta crédito/débito": "$263.670"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 292,
-      "store_id": "centrale",
-      "price": 259080,
-      "price_card": 273329,
-      "price_normal": 372170,
-      "discount_pct": 30,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-8700g-npu-ryzen-ai-4-2ghz-a-5-10ghz-8-nucleos-16-hilos/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$259.080",
-        "Tarjetas de Crédito / Débito": "$273.329"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
       "product_id": 2822,
       "store_id": "alltec",
-      "price": 259900,
-      "price_card": 267697,
+      "price": 252900,
+      "price_card": 260487,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2459-amd-ryzen-7-8700g-42ghz-51ghz-turbo-octa-core-tdp-65w-am5-amd-radeon-780m-graphics.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$259.900",
-        "Tarjeta crédito/débito": "$267.697"
+        "Efectivo/Transferencia": "$252.900",
+        "Tarjeta crédito/débito": "$260.487"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -104,23 +66,23 @@
       "full_url": "https://www.alltec.cl"
     },
     {
-      "product_id": 9413,
-      "store_id": "spdigital",
-      "price": 279995,
-      "price_card": 292595,
-      "price_normal": 399990,
-      "discount_pct": 30,
+      "product_id": 292,
+      "store_id": "centrale",
+      "price": 263880,
+      "price_card": 278393,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-7-8700g-2",
-      "store_name": "SP Digital",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-8700g-npu-ryzen-ai-4-2ghz-a-5-10ghz-8-nucleos-16-hilos/",
+      "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$279.995",
-        "Webpay / Tarjeta": "$292.595"
+        "Transferencia / Efectivo": "$263.880",
+        "Tarjetas de Crédito / Débito": "$278.393"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 37,
@@ -180,6 +142,25 @@
       "full_url": "https://www.centralgamer.cl"
     },
     {
+      "product_id": 9413,
+      "store_id": "spdigital",
+      "price": 399990,
+      "price_card": 417990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-7-8700g-2",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$399.990",
+        "Webpay / Tarjeta": "$417.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 38841,
       "store_id": "mybox",
       "price": 401004,
@@ -199,6 +180,13 @@
       "full_url": "https://www.mybox.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 247456
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

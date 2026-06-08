@@ -5,7 +5,7 @@
   "brand": "Arctic",
   "name": "Ventilador Gabinete 120mm ARCTIC P12 Pro PWM PST Negro (77 CFM, 6.9mm H2O)",
   "slug": "ventilador-gabinete-120mm-arctic-p12-pro-pwm-pst-negro-77-cfm-6-9mm-h2o",
-  "image_url": "https://centrale.cl/wp-content/uploads/Ventilador-Gabinete-120mm-ARCTIC-P12-Pro-PWM-PST-Negro-77-CFM-6.9mm-H2O_CqYyJMP.webp",
+  "image_url": "https://images.findtech.cl/products/ventilador-gabinete-120mm-arctic-p12-pro-pwm-pst-negro-77-cfm-6-9mm-h2o.webp",
   "description": null,
   "specs": {
     "Transferencia / Efectivo": "$10.900",
@@ -13,15 +13,15 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:50",
-  "updated_at": "2026-05-08 22:46:02",
+  "updated_at": "2026-06-08 20:58:37",
   "prices": [
     {
       "product_id": 1665,
       "store_id": "centrale",
       "price": 10900,
       "price_card": 11500,
-      "price_normal": null,
-      "discount_pct": null,
+      "price_normal": 11900,
+      "discount_pct": 8,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ventilador-gabinete-120mm-arctic-p12-pro-pwm-pst-negro-77-cfm-6-9mm-h2o/",
       "store_name": "Centrale",
@@ -35,6 +35,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 10900
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

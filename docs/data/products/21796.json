@@ -11,26 +11,26 @@
     "Frecuencia base": "4.3 GHz",
     "Socket": "AM5",
     "Marca": "AMD",
-    "Efectivo / Transferencia": "$1.099.890",
-    "Tarjeta crédito/débito": "$1.132.890"
+    "Efectivo / Transferencia": "$1.081.990",
+    "Tarjeta crédito/débito": "$1.114.450"
   },
   "tags": [],
   "created_at": "2026-05-01 14:24:07",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 21796,
       "store_id": "dust2",
-      "price": 1099890,
-      "price_card": 1132887,
+      "price": 1081990,
+      "price_card": 1114450,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-9-9950x3d2-dual-edition-4-3-ghz-am5/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$1.099.890",
-        "Tarjeta crédito/débito": "$1.132.887"
+        "Efectivo/Transferencia": "$1.081.990",
+        "Tarjeta crédito/débito": "$1.114.450"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,6 +38,13 @@
       "full_url": "https://www.dust2.gg"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-08",
+      "price": 1081990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

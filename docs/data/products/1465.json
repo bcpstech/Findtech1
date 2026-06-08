@@ -5,33 +5,33 @@
   "brand": "Kingston",
   "name": "Memoria RAM 16GB DDR5 5600MT/s CL46 DIMM Kingston Value Ram",
   "slug": "memoria-ram-16gb-ddr5-5600mt-s-cl46-dimm-kingston-value-ram",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-16GB-DDR5-5600MT-s-CL46-DIMM-Kingston-Value-Ram-1.webp",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-16gb-ddr5-5600mt-s-cl46-dimm-kingston-value-ram.webp",
   "description": null,
   "specs": {
     "Capacidad": "16 GB",
     "Tipo": "DDR5",
     "Velocidad": "5600 MHz",
     "Latencia": "CL46",
-    "Transferencia / Efectivo": "$216.480",
-    "Tarjeta crédito/débito": "$228.390"
+    "Transferencia / Efectivo": "$218.990",
+    "Tarjeta crédito/débito": "$231.030"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1465,
       "store_id": "centrale",
-      "price": 216480,
-      "price_card": 228386,
+      "price": 218990,
+      "price_card": 231034,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-5600mt-s-cl46-dimm-kingston-value-ram/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$216.480",
-        "Tarjetas de Crédito / Débito": "$228.386"
+        "Transferencia / Efectivo": "$218.990",
+        "Tarjetas de Crédito / Débito": "$231.034"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,6 +39,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 218990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

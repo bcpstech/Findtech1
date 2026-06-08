@@ -12,26 +12,26 @@
     "Factor de forma": "micro ATX",
     "Memoria": "DDR5",
     "Chipset": "AMD A620",
-    "Efectivo/Transferencia": "$81.084",
-    "Tarjeta crédito/débito": "$84.733"
+    "Efectivo/Transferencia": "$75.695",
+    "Tarjeta crédito/débito": "$79.101"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:36",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 31929,
       "store_id": "winpy",
-      "price": 79040,
-      "price_card": 83229,
+      "price": 74176,
+      "price_card": 78107,
       "price_normal": null,
-      "discount_pct": 29,
+      "discount_pct": 28,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-a620m-k-am5-ddr5-4800-7200-mhz-m-2-rgb-microatx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$79.040",
-        "Otros medios de pago": "$83.229"
+        "Transferencia o Depósito": "$74.176",
+        "Otros medios de pago": "$78.107"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,42 +39,42 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 9439,
-      "store_id": "spdigital",
-      "price": 81084,
-      "price_card": 84733,
-      "price_normal": 100070,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/mb-sam5-prime-a620m-k-ddr5-matxm2hdmivgausb30-asus",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$81.084",
-        "Webpay / Tarjeta": "$84.733"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
       "product_id": 1340,
       "store_id": "centrale",
-      "price": 85150,
-      "price_card": 89833,
+      "price": 74490,
+      "price_card": 78587,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-a620m-k-micro-atx-am5-ddr5-pcie-4-0/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$85.150",
-        "Tarjetas de Crédito / Débito": "$89.833"
+        "Transferencia / Efectivo": "$74.490",
+        "Tarjetas de Crédito / Débito": "$78.587"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9439,
+      "store_id": "spdigital",
+      "price": 75695,
+      "price_card": 79101,
+      "price_normal": 93480,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/mb-sam5-prime-a620m-k-ddr5-matxm2hdmivgausb30-asus",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$75.695",
+        "Webpay / Tarjeta": "$79.101"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 23520,
@@ -115,6 +115,27 @@
       "full_url": "https://www.mybox.cl"
     },
     {
+      "product_id": 59885,
+      "store_id": "trulustore",
+      "price": 94990,
+      "price_card": 97840,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/placa-madre-asus-prime-a620m-k-ddr5-am5/",
+      "store_name": "TruluStore",
+      "khipu_price": 96890,
+      "price_specs": {
+        "Efectivo / Transferencia": "$94.990",
+        "Khipu": "$96.890",
+        "Tarjeta crédito/débito": "$97.840"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    },
+    {
       "product_id": 1167,
       "store_id": "cg",
       "price": 97990,
@@ -134,6 +155,13 @@
       "full_url": "https://www.centralgamer.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 74176
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

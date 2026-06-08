@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 02:01:58",
-  "updated_at": "2026-05-08 22:11:23",
+  "updated_at": "2026-06-08 20:39:21",
   "prices": [
     {
       "product_id": 7337,
@@ -36,6 +36,13 @@
       "full_url": "https://www.centralgamer.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-06-08",
+      "price": 1744990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

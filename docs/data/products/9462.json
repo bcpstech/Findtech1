@@ -16,26 +16,45 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:29",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 9462,
       "store_id": "spdigital",
-      "price": 139995,
-      "price_card": 146295,
+      "price": 126995,
+      "price_card": 132710,
       "price_normal": 199990,
-      "discount_pct": 30,
+      "discount_pct": 36,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-b860m-k-socket-lga-1851-2x-ddr5-2x-m2-25gbe-micro-atx",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$139.995",
-        "Webpay / Tarjeta": "$146.295"
+        "Transferencia / Efectivo": "$126.995",
+        "Webpay / Tarjeta": "$132.710"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 31953,
+      "store_id": "winpy",
+      "price": 129504,
+      "price_card": 136368,
+      "price_normal": null,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b860m-k-lga1851-ddr5-pcie-5-0-2-5gb-lan-micro-atx/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Transferencia o Depósito": "$129.504",
+        "Otros medios de pago": "$136.368"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     },
     {
       "product_id": 38874,
@@ -57,25 +76,6 @@
       "full_url": "https://www.mybox.cl"
     },
     {
-      "product_id": 31953,
-      "store_id": "winpy",
-      "price": 145920,
-      "price_card": 153654,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b860m-k-lga1851-ddr5-pcie-5-0-2-5gb-lan-micro-atx/",
-      "store_name": "Winpy",
-      "price_specs": {
-        "Transferencia o Depósito": "$145.920",
-        "Otros medios de pago": "$153.654"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
-    {
       "product_id": 1370,
       "store_id": "centrale",
       "price": 148990,
@@ -95,6 +95,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 126995
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

@@ -3,24 +3,24 @@
   "external_id": "pn_gvn5060eagleoc8gd",
   "category_id": "gpu",
   "brand": "Gigabyte",
-  "name": "Tarjeta de Video - Gigabyte Eagle Nvidia GeForce RTX  5060 8G OC Edition - 8 GB, GDDR7, 128 bits - PCIe 5.0 - DisplayPort, HDMI",
+  "name": "Tarjeta de Video Nvidia RTX 5060 8GB - Gigabyte Eagle OC Edition - GDDR7, 128 bits - PCIe 5.0 - DisplayPort, HDMI",
   "slug": "tarjeta-de-video-gigabyte-eagle-nvidia-geforce-rtx-5060-8g-oc-edition-8-gb-gddr7-128-bits-pcie-",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-gigabyte-eagle-nvidia-geforce-rtx-5060-8g-oc-edition-8-gb-gddr7-128-bits-pcie-5-0-d.png",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-rtx-5060-8gb-gigabyte-eagle-oc-edition-gddr7-128-bits-pcie-5-0-displayport-h.png",
   "description": null,
   "specs": {
     "VRAM": "8 GB",
     "Tipo memoria": "GDDR7",
     "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Velocidad": "28000 MHz",
-    "Factor de forma": "Full-Height/Full-Length (FH/FL)",
-    "TDP": "109 W",
-    "Efectivo/Transferencia": "$429.995",
-    "Tarjeta crédito/débito": "$449.345"
+    "Efectivo / Transferencia": "$419.990",
+    "Tarjeta crédito/débito": "$443.089",
+    "Garantía": "6 meses",
+    "SKU": "37417",
+    "Part Number": "GV-N5060EAGLE OC-8GD"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:33",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 19818,
@@ -40,46 +40,15 @@
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 9559,
-      "store_id": "spdigital",
-      "price": 429995,
-      "price_card": 449345,
-      "price_normal": 599990,
-      "discount_pct": 28,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/geforce-rtx-5060-eagle-max-oc-8g",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$429.995",
-        "Webpay / Tarjeta": "$449.345"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 38857,
-      "store_id": "mybox",
-      "price": 431781,
-      "price_card": 444734,
-      "price_normal": 466790,
-      "discount_pct": 7,
-      "stock": "in_stock",
-      "product_url": "https://mybox.cl/tarjeta-de-video/5937-tarjeta-de-video-gigabyte-5060-eagle-oc-8gb-4719331356439.html",
-      "store_name": "MyBox",
-      "price_specs": {
-        "Efectivo/Transferencia": "$431.781",
-        "Tarjeta crédito/débito": "$444.734"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.mybox.cl",
-      "full_url": "https://www.mybox.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-08",
+      "price": 419990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

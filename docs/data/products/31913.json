@@ -17,26 +17,26 @@
     "Caché L3": "64 MB",
     "TDP": "170 W",
     "Gráficos integrados": "AMD Radeon Graphics",
-    "Efectivo/Transferencia": "$449.995",
-    "Tarjeta crédito/débito": "$470.245"
+    "Efectivo/Transferencia": "$421.495",
+    "Tarjeta crédito/débito": "$440.462"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:01",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 31913,
       "store_id": "winpy",
-      "price": 409792,
-      "price_card": 431511,
+      "price": 407360,
+      "price_card": 428950,
       "price_normal": null,
       "discount_pct": 27,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-9-7900x-am5-12-cores-24-hilos-4-7-5-6ghz-64mb-de-cache/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$409.792",
-        "Otros medios de pago": "$431.511"
+        "Transferencia o Depósito": "$407.360",
+        "Otros medios de pago": "$428.950"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -46,16 +46,16 @@
     {
       "product_id": 289,
       "store_id": "centrale",
-      "price": 417290,
-      "price_card": 440241,
+      "price": 420490,
+      "price_card": 443617,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-7900x-4-7ghz-12-nucleos-24-hilos-socket-am5/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$417.290",
-        "Tarjetas de Crédito / Débito": "$440.241"
+        "Transferencia / Efectivo": "$420.490",
+        "Tarjetas de Crédito / Débito": "$443.617"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -65,16 +65,16 @@
     {
       "product_id": 9414,
       "store_id": "spdigital",
-      "price": 449995,
-      "price_card": 470245,
+      "price": 421495,
+      "price_card": 440462,
       "price_normal": 799990,
-      "discount_pct": 44,
+      "discount_pct": 47,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ryzen-9-am5-7900x",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$449.995",
-        "Webpay / Tarjeta": "$470.245"
+        "Transferencia / Efectivo": "$421.495",
+        "Webpay / Tarjeta": "$440.462"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -82,6 +82,13 @@
       "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 407360
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

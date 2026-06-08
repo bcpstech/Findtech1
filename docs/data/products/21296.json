@@ -5,31 +5,31 @@
   "brand": "Intel",
   "name": "Procesador Intel Core Ultra 5 250KF Plus (LGA 1851, 18 Cores, 4.2 a 5.3GHz)",
   "slug": "centrale-procesador-intel-core-ultra-5-250kf-plus-lga-1851-18-cores-4-2-a-5-3ghz",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-Ultra-5-250KF-Plus-LGA-1851-18-Cores-4.2-a-5.3GHz_Zca0vn1.webp",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-ultra-5-250kf-plus-lga-1851-18-cores-4-2-a-5-3ghz.webp",
   "description": null,
   "specs": {
     "Frecuencia base": "5.3 GHz",
     "Socket": "LGA1851",
-    "Transferencia / Efectivo": "$269.900",
-    "Tarjeta crédito/débito": "$284.740"
+    "Transferencia / Efectivo": "$240.480",
+    "Tarjeta crédito/débito": "$253.710"
   },
   "tags": [],
   "created_at": "2026-05-01 14:07:18",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 21296,
       "store_id": "centrale",
-      "price": 269900,
-      "price_card": 284745,
+      "price": 240480,
+      "price_card": 253706,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-5-250kf-plus-lga-1851-18-cores-4-2-a-5-3ghz/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$269.900",
-        "Tarjetas de Crédito / Débito": "$284.745"
+        "Transferencia / Efectivo": "$240.480",
+        "Tarjetas de Crédito / Débito": "$253.706"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,6 +37,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 240480
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

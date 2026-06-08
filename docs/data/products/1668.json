@@ -5,25 +5,30 @@
   "brand": "Arctic",
   "name": "Ventilador Gabinete 140mm ARCTIC P14 SLIM PWM PST Low Profile con Cable Splitter",
   "slug": "ventilador-gabinete-140mm-arctic-p14-slim-pwm-pst-low-profile-con-cable-splitter",
-  "image_url": "https://centrale.cl/wp-content/uploads/Ventilador-Gabinete-140mm-ARCTIC-P14-SLIM-PWM-PST-Low-Profile-con-Cable_8A3zUAm-1.webp",
+  "image_url": "https://images.findtech.cl/products/ventilador-gabinete-140mm-arctic-p14-slim-pwm-pst-low-profile-con-cable-splitter.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$7.200",
-    "Tarjetas de Crédito / Débito": "$7.600"
+    "Transferencia / Efectivo": "$5.990",
+    "Tarjeta crédito/débito": "$6.320"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:50",
-  "updated_at": "2026-04-27 22:15:13",
+  "updated_at": "2026-06-08 20:58:38",
   "prices": [
     {
       "product_id": 1668,
       "store_id": "centrale",
-      "price": 7200,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 5990,
+      "price_card": 6319,
+      "price_normal": 6800,
+      "discount_pct": 12,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ventilador-gabinete-140mm-arctic-p14-slim-pwm-pst-low-profile-con-cable-splitter/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$5.990",
+        "Tarjetas de Crédito / Débito": "$6.319"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -34,15 +39,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 7200
-    },
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 7200
+      "date": "2026-06-08",
+      "price": 5990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-08"
 }

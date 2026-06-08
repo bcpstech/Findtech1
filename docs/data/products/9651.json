@@ -9,33 +9,61 @@
   "description": null,
   "specs": {
     "TDP": "230 W",
-    "Efectivo/Transferencia": "$119.990",
-    "Tarjeta crédito/débito": "$125.390"
+    "Efectivo/Transferencia": "$99.990",
+    "Tarjeta crédito/débito": "$104.490"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:09",
-  "updated_at": "2026-05-08 22:15:35",
+  "updated_at": "2026-06-08 20:45:00",
   "prices": [
     {
       "product_id": 9651,
       "store_id": "spdigital",
-      "price": 119990,
-      "price_card": 125390,
+      "price": 99990,
+      "price_card": 104490,
       "price_normal": 134990,
-      "discount_pct": 11,
+      "discount_pct": 26,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/cooler-master-mlx-d28m-a14pk-r1-water-c-ml280-mirror",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$119.990",
-        "Webpay / Tarjeta": "$125.390"
+        "Transferencia / Efectivo": "$99.990",
+        "Webpay / Tarjeta": "$104.490"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 59894,
+      "store_id": "trulustore",
+      "price": 119990,
+      "price_card": 123590,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/refrigeracion-liquida-cooler-master-ml280-mirror-de-280mm/",
+      "store_name": "TruluStore",
+      "khipu_price": 122390,
+      "price_specs": {
+        "Efectivo / Transferencia": "$119.990",
+        "Khipu": "$122.390",
+        "Tarjeta crédito/débito": "$123.590"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 99990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

@@ -5,33 +5,33 @@
   "brand": "Kingston",
   "name": "Memoria RAM Notebook 16GB 3200MT/s DDR4 CL20 Kingston Fury Impact SODIMM",
   "slug": "memoria-ram-notebook-16gb-3200mt-s-ddr4-cl20-kingston-fury-impact-sodimm",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-Notebook-16GB-3200MT-s-DDR4-CL20-Kingston-Fury-Impact-SODIM_R9S28Py.webp",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-notebook-16gb-3200mt-s-ddr4-cl20-kingston-fury-impact-sodimm.webp",
   "description": null,
   "specs": {
-    "Capacidad": "32 GB",
+    "Capacidad": "16 GB",
     "Tipo": "DDR5",
-    "Velocidad": "5600 MHz",
-    "Latencia": "CL40",
-    "Transferencia / Efectivo": "$568.700",
-    "Tarjeta crédito/débito": "$599.980"
+    "Velocidad": "6400 MHz",
+    "Latencia": "CL38",
+    "Transferencia / Efectivo": "$219.900",
+    "Tarjeta crédito/débito": "$231.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1505,
       "store_id": "centrale",
-      "price": 132990,
-      "price_card": 140304,
+      "price": 172150,
+      "price_card": 181618,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-notebook-16gb-3200mt-s-ddr4-cl20-kingston-fury-impact-sodimm/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$132.990",
-        "Tarjetas de Crédito / Débito": "$140.304"
+        "Transferencia / Efectivo": "$172.150",
+        "Tarjetas de Crédito / Débito": "$181.618"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,6 +39,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 172150
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

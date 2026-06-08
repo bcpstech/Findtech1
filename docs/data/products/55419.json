@@ -15,26 +15,26 @@
     "Variante": "OC (Overclocked)",
     "Velocidad": "28000 MHz",
     "Factor de forma": "Full-Height/Full-Length (FH/FL)",
-    "Efectivo/Transferencia": "$4.499.990",
-    "Tarjeta crédito/débito": "$4.702.490"
+    "Efectivo/Transferencia": "$4.199.995",
+    "Tarjeta crédito/débito": "$4.388.995"
   },
   "tags": [],
   "created_at": "2026-05-08 22:15:01",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 55419,
       "store_id": "spdigital",
-      "price": 4499990,
-      "price_card": 4702490,
+      "price": 4199995,
+      "price_card": 4388995,
       "price_normal": 5129990,
-      "discount_pct": 12,
+      "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/geforce-gigabyte-rtx-5090-gaming-oc-32g",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$4.499.990",
-        "Webpay / Tarjeta": "$4.702.490"
+        "Transferencia / Efectivo": "$4.199.995",
+        "Webpay / Tarjeta": "$4.388.995"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,6 +42,13 @@
       "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 4199995
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

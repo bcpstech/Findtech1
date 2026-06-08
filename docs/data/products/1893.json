@@ -1,30 +1,39 @@
 {
   "id": 1893,
-  "external_id": "dust2_gabinete-formula-crystal-z6m-floe-black-m-atx-m-itx",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "Gabinete Formula Crystal Z6M FLOE Black m-ATX, m-ITX",
-  "slug": "gabinete-formula-crystal-z6m-floe-black-m-atx-m-itx",
-  "image_url": "https://images.findtech.cl/products/gabinete-formula-crystal-z6m-floe-black-m-atx-m-itx.jpg",
+  "external_id": "dust2_tarjeta-de-video-asus-8211-dual-rx7600-o8g-evo-8211-pci-express",
+  "category_id": "gpu",
+  "brand": "ASUS",
+  "name": "Tarjeta de Video ASUS &#8211; DUAL-RX7600-O8G-EVO &#8211; PCI Express",
+  "slug": "tarjeta-de-video-asus-8211-dual-rx7600-o8g-evo-8211-pci-express",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-asus-8211-dual-rx7600-o8g-evo-8211-pci-express.jpg",
   "description": null,
   "specs": {
-    "Marca": "Formula V Line",
-    "Transferencia/Efectivo": "$65.040",
-    "Webpay / Tarjeta crédito-débito": "$66.990"
+    "VRAM": "8 GB",
+    "Tipo memoria": "GDDR6",
+    "Bus de memoria": "128-bit",
+    "Arquitectura": "RDNA 3",
+    "Marca": "ASUS",
+    "Efectivo / Transferencia": "$327.890",
+    "Tarjeta crédito/débito": "$337.730"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:44:43",
-  "updated_at": "2026-04-25 19:44:43",
+  "created_at": "2026-04-26 20:41:33",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1893,
       "store_id": "dust2",
-      "price": 65040,
+      "price": 327890,
+      "price_card": 337727,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/gabinete-formula-crystal-z6m-floe-black/",
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-asus-dual-rx-7600-8gb-oc-gddr6-pcie-4/",
       "store_name": "Dust2",
+      "price_specs": {
+        "Efectivo/Transferencia": "$327.890",
+        "Tarjeta crédito/débito": "$337.727"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
@@ -35,9 +44,9 @@
     {
       "store_id": "dust2",
       "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 65040
+      "date": "2026-06-08",
+      "price": 327890
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-06-08"
 }

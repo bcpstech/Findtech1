@@ -3,9 +3,9 @@
   "external_id": "pn_primertx5080o16g",
   "category_id": "gpu",
   "brand": "Asus",
-  "name": "Tarjeta de Video - ASUS Prime Nvidia GeForce RTX 5080 16G OC Edition - 16 GB, GDDR7, 256 bits - PCIe 5.0 - DisplayPort, HDMI",
+  "name": "Tarjeta de Video Nvidia RTX 5080 16GB - ASUS Prime OC Edition - GDDR7, 256 bits - PCIe 5.0 - DisplayPort, HDMI",
   "slug": "tarjeta-de-video-asus-prime-nvidia-geforce-rtx-5080-16g-oc-edition-16-gb-gddr7-256-bits-pcie-5-",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-asus-prime-nvidia-geforce-rtx-5080-16g-oc-edition-16-gb-gddr7-256-bits-pcie-5-0-dis.jpg",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-rtx-5080-16gb-asus-prime-oc-edition-gddr7-256-bits-pcie-5-0-displayport-hdmi.jpg",
   "description": null,
   "specs": {
     "VRAM": "16 GB",
@@ -13,29 +13,29 @@
     "Bus de memoria": "256-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$1.719.990",
-    "Tarjeta crédito/débito": "$1.814.589",
+    "Efectivo / Transferencia": "$1.689.500",
+    "Tarjeta crédito/débito": "$1.782.423",
     "Garantía": "6 meses",
     "SKU": "38388",
     "Part Number": "PRIME-RTX5080-O16G"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:47",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 19842,
       "store_id": "myshop",
-      "price": 1719990,
-      "price_card": 1771590,
-      "price_normal": 1814589,
+      "price": 1689500,
+      "price_card": 1740185,
+      "price_normal": 1782423,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/asus-tvideo-prime-rtx-5080-nvidia-rtx-5080-gddr7-gaming-p38388",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$1.719.990",
-        "Tarjeta crédito/débito": "$1.771.590"
+        "Efectivo/Transferencia": "$1.689.500",
+        "Tarjeta crédito/débito": "$1.740.185"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,44 +43,34 @@
       "full_url": "https://www.myshop.cl"
     },
     {
-      "product_id": 16381,
-      "store_id": "spdigital",
-      "price": 1849995,
-      "price_card": 1933245,
-      "price_normal": 1999990,
-      "discount_pct": 7,
+      "product_id": 12123,
+      "store_id": "trulustore",
+      "price": 1799990,
+      "price_card": 1853990,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-prime-geforce-rtx-5080-oc-16gb-gddr7-256-bit-pcie-50",
-      "store_name": "SP Digital",
+      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-geforce-rtx-5080-16gb-asus-prime-oc/",
+      "store_name": "TruluStore",
+      "khipu_price": 1835990,
       "price_specs": {
-        "Transferencia / Efectivo": "$1.849.995",
-        "Webpay / Tarjeta": "$1.933.245"
+        "Efectivo / Transferencia": "$1.799.990",
+        "Khipu": "$1.835.990",
+        "Tarjeta crédito/débito": "$1.853.990"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 38865,
-      "store_id": "mybox",
-      "price": 1966491,
-      "price_card": 2025486,
-      "price_normal": 2069990,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://mybox.cl/tarjeta-de-video/5779-tarjeta-de-video-asus-prime-rtx-5080-oc-16gb-gddr7-4711387868393.html",
-      "store_name": "MyBox",
-      "price_specs": {
-        "Efectivo/Transferencia": "$1.966.491",
-        "Tarjeta crédito/débito": "$2.025.486"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.mybox.cl",
-      "full_url": "https://www.mybox.cl"
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-08",
+      "price": 1689500
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

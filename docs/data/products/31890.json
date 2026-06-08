@@ -18,12 +18,12 @@
     "Caché L3": "32 MB",
     "TDP": "105 W",
     "Gráficos integrados": "AMD Radeon Graphics",
-    "Efectivo/Transferencia": "$251.496",
-    "Tarjeta crédito/débito": "$262.813"
+    "Efectivo/Transferencia": "$245.896",
+    "Tarjeta crédito/débito": "$256.961"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:15",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 31890,
@@ -45,37 +45,18 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 295,
-      "store_id": "centrale",
-      "price": 235170,
-      "price_card": 248104,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-7600x-4-7ghz-6-nucleos-12-hilos-socket-am5/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$235.170",
-        "Tarjetas de Crédito / Débito": "$248.104"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
       "product_id": 2823,
       "store_id": "alltec",
-      "price": 245900,
-      "price_card": 253277,
+      "price": 229900,
+      "price_card": 236797,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/1880-amd-ryzen-5-7600x-47ghz-53ghz-turbo-six-core-tdp-105w-am5-730143314442.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$245.900",
-        "Tarjeta crédito/débito": "$253.277"
+        "Efectivo/Transferencia": "$229.900",
+        "Tarjeta crédito/débito": "$236.797"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -83,18 +64,37 @@
       "full_url": "https://www.alltec.cl"
     },
     {
+      "product_id": 295,
+      "store_id": "centrale",
+      "price": 239360,
+      "price_card": 252525,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-7600x-4-7ghz-6-nucleos-12-hilos-socket-am5/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$239.360",
+        "Tarjetas de Crédito / Débito": "$252.525"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
       "product_id": 9408,
       "store_id": "spdigital",
-      "price": 251496,
-      "price_card": 262813,
+      "price": 245896,
+      "price_card": 256961,
       "price_normal": 499990,
-      "discount_pct": 50,
+      "discount_pct": 51,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ryzen-5-am5-7600x",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$251.496",
-        "Webpay / Tarjeta": "$262.813"
+        "Transferencia / Efectivo": "$245.896",
+        "Webpay / Tarjeta": "$256.961"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -102,6 +102,13 @@
       "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 229216
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

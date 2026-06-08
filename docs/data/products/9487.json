@@ -8,55 +8,65 @@
   "image_url": "https://images.findtech.cl/products/memoria-ram-corsair-vengeance-rgb-8gb-ddr5-5200mt-s-cl40-intel-xmp-negro.jpg",
   "description": null,
   "specs": {
-    "Capacidad": "8 GB",
+    "Capacidad": "32 GB (total)",
     "Tipo": "DDR5",
     "Velocidad": "5200 MHz",
     "Latencia": "CL40",
+    "Kit": "2x16 GB",
     "Iluminación": "RGB",
-    "Efectivo/Transferencia": "$199.990",
-    "Tarjeta crédito/débito": "$208.990"
+    "Transferencia / Efectivo": "$737.970",
+    "Tarjeta crédito/débito": "$778.560"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:42",
-  "updated_at": "2026-05-01 13:20:38",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 9487,
       "store_id": "spdigital",
-      "price": 199990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 114995,
+      "price_card": 120170,
+      "price_normal": 199990,
+      "discount_pct": 42,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ddr5-5200mts-8gb-1x8gb-dimm-vengeance-rgb-ddr5",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$199.990"
+        "Transferencia / Efectivo": "$114.995",
+        "Webpay / Tarjeta": "$120.170"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1416,
+      "store_id": "centrale",
+      "price": 218400,
+      "price_card": 230412,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-5200mt-s-cl40-corsair-vengeance-gris/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$218.400",
+        "Tarjetas de Crédito / Débito": "$230.412"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-28",
-      "price": 199990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-04-29",
-      "price": 199990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-01",
-      "price": 199990
+      "date": "2026-06-08",
+      "price": 114995
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-06-08"
 }

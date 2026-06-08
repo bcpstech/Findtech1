@@ -15,21 +15,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:47",
-  "updated_at": "2026-05-08 22:15:19",
+  "updated_at": "2026-06-08 20:44:42",
   "prices": [
     {
       "product_id": 9606,
       "store_id": "spdigital",
-      "price": 29995,
-      "price_card": 31345,
+      "price": 24995,
+      "price_card": 26120,
       "price_normal": 49990,
-      "discount_pct": 40,
+      "discount_pct": 50,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/refrigeracion-cougar-forza-50-essential",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$29.995",
-        "Webpay / Tarjeta": "$31.345"
+        "Transferencia / Efectivo": "$24.995",
+        "Webpay / Tarjeta": "$26.120"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -56,6 +56,13 @@
       "full_url": "https://www.progaming.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 24995
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

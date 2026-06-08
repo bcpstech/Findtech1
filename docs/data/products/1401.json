@@ -5,61 +5,65 @@
   "brand": "Rog",
   "name": "Placa Madre ASUS ROG Crosshair X870E Hero, Socket AMD AM5, DDR5, WiFi 7",
   "slug": "placa-madre-asus-rog-crosshair-x870e-hero-socket-amd-am5-ddr5-wifi-7",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASUS-ROG-Crosshair-X870E-Hero-Socket-AMD-AM5-DDR5-WiFi-7-1.webp",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asus-rog-crosshair-x870e-hero-socket-amd-am5-ddr5-wifi-7.webp",
   "description": null,
   "specs": {
     "Socket": "AM5",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$765.450",
-    "Tarjetas de Crédito / Débito": "$807.550"
+    "Transferencia / Efectivo": "$788.990",
+    "Tarjeta crédito/débito": "$832.380"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1401,
       "store_id": "centrale",
-      "price": 765450,
-      "price_normal": 895870,
-      "discount_pct": 15,
+      "price": 788990,
+      "price_card": 832384,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-crosshair-x870e-hero-socket-amd-am5-ddr5-wifi-7/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$788.990",
+        "Tarjetas de Crédito / Débito": "$832.384"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 639,
-      "store_id": "n1g",
-      "price": 859900,
-      "price_normal": 905158,
-      "discount_pct": 5,
+      "product_id": 38894,
+      "store_id": "mybox",
+      "price": 830366,
+      "price_card": 855277,
+      "price_normal": 948990,
+      "discount_pct": 13,
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2906-rog-crosshair-x870e-hero-am5-atx-pcie-50-ddr5-wifi-7-ai-usb4-y-usb-type-c.html",
-      "store_name": "N1G",
+      "product_url": "https://mybox.cl/placa-madre/5719-placa-madre-asus-rog-x870e-crosshair-hero--4711387710302.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$830.366",
+        "Tarjeta crédito/débito": "$855.277"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 766310
-    },
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 765450
+      "date": "2026-06-08",
+      "price": 788990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-08"
 }

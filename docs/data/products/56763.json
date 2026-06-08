@@ -11,26 +11,26 @@
     "VRAM": "8 GB",
     "Tipo memoria": "GDDR6",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$419.650",
-    "Tarjeta crédito/débito": "$442.730"
+    "Transferencia / Efectivo": "$358.770",
+    "Tarjeta crédito/débito": "$378.500"
   },
   "tags": [],
   "created_at": "2026-05-08 22:49:22",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 56763,
       "store_id": "winpy",
-      "price": 418304,
-      "price_card": 440474,
+      "price": 339872,
+      "price_card": 357885,
       "price_normal": null,
-      "discount_pct": null,
+      "discount_pct": 7,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-dual-geforce-rtx-5050-oc-de-8gb-gddr6/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$418.304",
-        "Otros medios de pago": "$440.474"
+        "Transferencia o Depósito": "$339.872",
+        "Otros medios de pago": "$357.885"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,16 +40,16 @@
     {
       "product_id": 56232,
       "store_id": "centrale",
-      "price": 419650,
-      "price_card": 442731,
+      "price": 358770,
+      "price_card": 378502,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-dual-geforce-rtx-5050-8gb-gddr6-oc-edition-2/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$419.650",
-        "Tarjetas de Crédito / Débito": "$442.731"
+        "Transferencia / Efectivo": "$358.770",
+        "Tarjetas de Crédito / Débito": "$378.502"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,6 +57,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 339872
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

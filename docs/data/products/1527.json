@@ -5,32 +5,32 @@
   "brand": "SanDisk",
   "name": "SSD WD Green SN3000 500GB NVMe PCIe Gen4 M.2 2280",
   "slug": "ssd-wd-green-sn3000-500gb-nvme-pcie-gen4-m-2-2280",
-  "image_url": "https://centrale.cl/wp-content/uploads/Sandisk-Western-Digital-Wd-Verde-Sn3000-Disco-Duro-Interno-500-Gb-M.2-Solid-Sta.webp",
+  "image_url": "https://images.findtech.cl/products/ssd-wd-green-sn3000-500gb-nvme-pcie-gen4-m-2-2280.webp",
   "description": null,
   "specs": {
     "Capacidad": "500 GB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Transferencia / Efectivo": "$113.740",
-    "Tarjeta crédito/débito": "$120.000"
+    "Transferencia / Efectivo": "$120.820",
+    "Tarjeta crédito/débito": "$127.470"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1527,
       "store_id": "centrale",
-      "price": 113740,
-      "price_card": 119996,
+      "price": 120820,
+      "price_card": 127465,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ssd-wd-green-sn3000-500gb-nvme-pcie-gen4-m-2-2280/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$113.740",
-        "Tarjetas de Crédito / Débito": "$119.996"
+        "Transferencia / Efectivo": "$120.820",
+        "Tarjetas de Crédito / Débito": "$127.465"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,6 +38,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 120820
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

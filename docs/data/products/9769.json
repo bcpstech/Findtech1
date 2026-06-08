@@ -14,21 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:10",
-  "updated_at": "2026-05-08 22:16:27",
+  "updated_at": "2026-06-08 20:45:51",
   "prices": [
     {
       "product_id": 9769,
       "store_id": "spdigital",
-      "price": 139995,
-      "price_card": 146295,
+      "price": 119995,
+      "price_card": 125395,
       "price_normal": 229990,
-      "discount_pct": 39,
+      "discount_pct": 48,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/gabinete-gamer-be-quiet-light-base-900-dx-black-tira-argb-2x420-mm-e-atx-color-negro",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$139.995",
-        "Webpay / Tarjeta": "$146.295"
+        "Transferencia / Efectivo": "$119.995",
+        "Webpay / Tarjeta": "$125.395"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,6 +55,13 @@
       "full_url": "https://www.dust2.gg"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 119995
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

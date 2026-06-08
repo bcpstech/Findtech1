@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/kit-de-3-ventiladores-para-pc-cooler-master-sickleflow-120-argb-argb-direccionable-negro.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$35.990",
-    "Tarjeta crédito/débito": "$37.610"
+    "Efectivo/Transferencia": "$32.990",
+    "Tarjeta crédito/débito": "$34.475"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:20",
-  "updated_at": "2026-05-08 22:15:45",
+  "updated_at": "2026-06-08 20:45:09",
   "prices": [
     {
       "product_id": 9670,
       "store_id": "spdigital",
-      "price": 35990,
-      "price_card": 37610,
+      "price": 32990,
+      "price_card": 34475,
       "price_normal": 54990,
-      "discount_pct": 35,
+      "discount_pct": 40,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/sickleflow-edge-120-argb-3-in-1",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$35.990",
-        "Webpay / Tarjeta": "$37.610"
+        "Transferencia / Efectivo": "$32.990",
+        "Webpay / Tarjeta": "$34.475"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -35,6 +35,13 @@
       "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 32990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

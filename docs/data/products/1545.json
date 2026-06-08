@@ -5,28 +5,33 @@
   "brand": "Seagate",
   "name": "Disco Duro 16TB HDD Seagate IronWolf PRO NAS Interno 3.5&#8243; SATA 6GB/s 7200 RPM",
   "slug": "disco-duro-16tb-hdd-seagate-ironwolf-pro-nas-interno-3-5-8243-sata-6gb-s-7200-rpm",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-Duro-HDD-Seagate-IronWolf-PRO-NAS-16TB-Interno-3.5-SATA-6GB-s-7200-RPM.webp",
+  "image_url": "https://images.findtech.cl/products/disco-duro-16tb-hdd-seagate-ironwolf-pro-nas-interno-3-5-8243-sata-6gb-s-7200-rpm.webp",
   "description": null,
   "specs": {
     "Capacidad": "16 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$714.760",
-    "Tarjetas de Crédito / Débito": "$754.070"
+    "Transferencia / Efectivo": "$945.440",
+    "Tarjeta crédito/débito": "$997.440"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1545,
       "store_id": "centrale",
-      "price": 714760,
-      "price_normal": 807190,
-      "discount_pct": 11,
+      "price": 945440,
+      "price_card": 997439,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-16tb-hdd-seagate-ironwolf-pro-nas-interno-3-5-sata-6gb-s-7200-rpm/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$945.440",
+        "Tarjetas de Crédito / Débito": "$997.439"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -37,15 +42,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 783640
-    },
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 714760
+      "date": "2026-06-08",
+      "price": 945440
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-08"
 }

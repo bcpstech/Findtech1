@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:43",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 31904,
       "store_id": "winpy",
-      "price": 338656,
-      "price_card": 356605,
+      "price": 334400,
+      "price_card": 352123,
       "price_normal": null,
-      "discount_pct": 22,
+      "discount_pct": 23,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-7-7700-am5-8-cores-16-hilos-3-8-5-3ghz-32mb-cache/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$338.656",
-        "Otros medios de pago": "$356.605"
+        "Transferencia o Depósito": "$334.400",
+        "Otros medios de pago": "$352.123"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 294,
       "store_id": "centrale",
-      "price": 349660,
-      "price_card": 368891,
+      "price": 345270,
+      "price_card": 364260,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-7700-socket-am5-8-cores-16-hilos-3-8-5-3ghz/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$349.660",
-        "Tarjetas de Crédito / Débito": "$368.891"
+        "Transferencia / Efectivo": "$345.270",
+        "Tarjetas de Crédito / Débito": "$364.260"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -77,6 +77,13 @@
       "full_url": "https://www.n1g.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 334400
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

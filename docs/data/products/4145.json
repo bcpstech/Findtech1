@@ -13,24 +13,26 @@
     "Bus de memoria": "128-bit",
     "Arquitectura": "Ampere",
     "Marca": "ASUS",
-    "Efectivo/Transferencia": "$219.990",
-    "Webpay / Tarjeta": "$231.561"
+    "Efectivo/Transferencia": "$251.990",
+    "Webpay / Tarjeta": "$265.245"
   },
   "tags": [],
   "created_at": "2026-04-27 22:13:19",
-  "updated_at": "2026-04-28 22:09:11",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 4145,
       "store_id": "cg",
-      "price": 219990,
+      "price": 251990,
+      "price_card": 265245,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/grafica-asus/tarjeta-de-video-asus-dual-rtx3050-o6g/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$219.990"
+        "Efectivo/Transferencia": "$251.990",
+        "Webpay / Tarjeta": "$265.245"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,15 +44,9 @@
     {
       "store_id": "cg",
       "store_name": "CentralGamer",
-      "date": "2026-04-27",
-      "price": 209000
-    },
-    {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-04-28",
-      "price": 219990
+      "date": "2026-06-08",
+      "price": 251990
     }
   ],
-  "scraped_at": "2026-04-28"
+  "scraped_at": "2026-06-08"
 }

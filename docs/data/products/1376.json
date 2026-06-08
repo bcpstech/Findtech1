@@ -5,59 +5,47 @@
   "brand": "MSI",
   "name": "Placa Madre MSI X870E GAMING PLUS WIFI (ATX, AM5, DDR5, WiFi 7)",
   "slug": "placa-madre-msi-x870e-gaming-plus-wifi-atx-am5-ddr5-wifi-7",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-MSI-X870E-GAMING-PLUS-WIFI-ATX-AM5-DDR5-WiFi-7_rLs6a45-1.webp",
+  "image_url": "https://images.findtech.cl/products/placa-madre-msi-x870e-gaming-plus-wifi-atx-am5-ddr5-wifi-7.webp",
   "description": null,
   "specs": {
     "Socket": "AM5",
     "Factor de forma": "ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$294.490",
-    "Tarjeta crédito/débito": "$310.690"
+    "Transferencia / Efectivo": "$283.310",
+    "Tarjeta crédito/débito": "$298.890"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1376,
       "store_id": "centrale",
-      "price": 294490,
-      "price_card": 310687,
+      "price": 283310,
+      "price_card": 298892,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-x870e-gaming-plus-wifi-atx-am5-ddr5-wifi-7/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$294.490",
-        "Tarjetas de Crédito / Débito": "$310.687"
+        "Transferencia / Efectivo": "$283.310",
+        "Tarjetas de Crédito / Débito": "$298.892"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 1159,
-      "store_id": "cg",
-      "price": 354990,
-      "price_card": 373662,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-msi-x870e-gaming-plus-wifi/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$354.990",
-        "Webpay / Tarjeta": "$373.662"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 283310
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

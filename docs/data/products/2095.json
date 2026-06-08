@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:44:17",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 2095,
@@ -38,6 +38,13 @@
       "full_url": "https://www.dust2.gg"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-08",
+      "price": 209990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

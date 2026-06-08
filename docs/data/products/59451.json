@@ -1,0 +1,79 @@
+{
+  "id": 59451,
+  "external_id": "spdigital_procesador-amd-ryzen-9-7900-12-nucleos-24-hilos-socket-am5-ddr5-65w-cache-76mb",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 9 7900 12 núcleos 24 hilos Socket AM5 DDR5 65W Caché 76MB",
+  "slug": "spdigital-procesador-amd-ryzen-9-7900-12-nucleos-24-hilos-socket-am5-ddr5-65w-cache-76mb",
+  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-9-7900-12-nucleos-24-hilos-socket-am5-ddr5-65w-cache-76mb.jpg",
+  "description": null,
+  "specs": {
+    "Núcleos": "12",
+    "Hilos": "24",
+    "TDP": "65 W",
+    "Socket": "AM5",
+    "Memoria": "DDR5",
+    "Familia": "AMD Ryzen™ 9",
+    "Litografía": "5 nm",
+    "Incluye cooler": "Si",
+    "Frecuencia base": "3,7 GHz",
+    "Frecuencia turbo": "5,4 GHz",
+    "Caché L3": "64 MB",
+    "Memoria soportada": "DDR5-SDRAM",
+    "Gráficos integrados": "AMD Radeon Graphics",
+    "Efectivo/Transferencia": "$422.112",
+    "Tarjeta crédito/débito": "$441.107"
+  },
+  "tags": [],
+  "created_at": "2026-06-08 20:43:17",
+  "updated_at": "2026-06-08 21:47:04",
+  "prices": [
+    {
+      "product_id": 59451,
+      "store_id": "spdigital",
+      "price": 422112,
+      "price_card": 441107,
+      "price_normal": 495320,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/r9-7900-540ghz-12-core-skt-am5-76mb-65w",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$422.112",
+        "Webpay / Tarjeta": "$441.107"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 38843,
+      "store_id": "mybox",
+      "price": 459506,
+      "price_card": 473291,
+      "price_normal": 483690,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/procesador/5170-procesador-amd-ryzen-9-7900.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$459.506",
+        "Tarjeta crédito/débito": "$473.291"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 422112
+    }
+  ],
+  "scraped_at": "2026-06-08"
+}

@@ -5,7 +5,7 @@
   "brand": "Arctic",
   "name": "Ventilador Gabinete 80mm PWM Arctic P8 Max 40CFM, 5.3mm H2O, 0.6 Sone 5000rpm",
   "slug": "ventilador-gabinete-80mm-pwm-arctic-p8-max-40cfm-5-3mm-h2o-0-6-sone-5000rpm",
-  "image_url": "https://centrale.cl/wp-content/uploads/Ventilador-Gabinete-80mm-PWM-Arctic-P8-Max-40CFM-5.3mm-H2O-0.6-Sone-500_NBspk3L-1.webp",
+  "image_url": "https://images.findtech.cl/products/ventilador-gabinete-80mm-pwm-arctic-p8-max-40cfm-5-3mm-h2o-0-6-sone-5000rpm.webp",
   "description": null,
   "specs": {
     "Transferencia / Efectivo": "$6.990",
@@ -13,15 +13,15 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:50",
-  "updated_at": "2026-05-08 22:46:20",
+  "updated_at": "2026-06-08 20:58:39",
   "prices": [
     {
       "product_id": 1674,
       "store_id": "centrale",
       "price": 6990,
       "price_card": 7374,
-      "price_normal": null,
-      "discount_pct": null,
+      "price_normal": 7460,
+      "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ventilador-gabinete-80mm-pwm-arctic-p8-max-40cfm-5-3mm-h2o-0-6-sone-5000rpm/",
       "store_name": "Centrale",
@@ -35,6 +35,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 6990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

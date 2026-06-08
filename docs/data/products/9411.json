@@ -22,8 +22,46 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:57",
-  "updated_at": "2026-05-06 03:05:05",
+  "updated_at": "2026-06-08 20:43:16",
   "prices": [
+    {
+      "product_id": 3306,
+      "store_id": "alltec",
+      "price": 334700,
+      "price_card": 344741,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/1881-amd-ryzen-7-7700x-45ghz-54ghz-turbo-octa-core-tdp-105w-am5-730143314428.html",
+      "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$334.700",
+        "Tarjeta crédito/débito": "$344.741"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 31907,
+      "store_id": "winpy",
+      "price": 344736,
+      "price_card": 363007,
+      "price_normal": null,
+      "discount_pct": 38,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-7-7700x-am5-8-cores-16-hilos-4-5-5-4ghz-32mb-de-cache-desbloqueado/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Transferencia o Depósito": "$344.736",
+        "Otros medios de pago": "$363.007"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
     {
       "product_id": 38,
       "store_id": "n1g",
@@ -46,59 +84,21 @@
     {
       "product_id": 278,
       "store_id": "centrale",
-      "price": 351890,
-      "price_card": 371244,
+      "price": 351900,
+      "price_card": 371255,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-7700x-4-5ghz-8-nucleos-16-hilos-socket-am5-sin/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$351.890",
-        "Tarjetas de Crédito / Débito": "$371.244"
+        "Transferencia / Efectivo": "$351.900",
+        "Tarjetas de Crédito / Débito": "$371.255"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 31907,
-      "store_id": "winpy",
-      "price": 358720,
-      "price_card": 377732,
-      "price_normal": null,
-      "discount_pct": 35,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-7-7700x-am5-8-cores-16-hilos-4-5-5-4ghz-32mb-de-cache-desbloqueado/",
-      "store_name": "Winpy",
-      "price_specs": {
-        "Transferencia o Depósito": "$358.720",
-        "Otros medios de pago": "$377.732"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 3306,
-      "store_id": "alltec",
-      "price": 359900,
-      "price_card": 370697,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/amd/1881-amd-ryzen-7-7700x-45ghz-54ghz-turbo-octa-core-tdp-105w-am5-730143314428.html",
-      "store_name": "Alltec",
-      "price_specs": {
-        "Efectivo/Transferencia": "$359.900",
-        "Tarjeta crédito/débito": "$370.697"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
     },
     {
       "product_id": 9411,
@@ -124,45 +124,9 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-28",
-      "price": 599990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-04-29",
-      "price": 599990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-01",
-      "price": 599990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-03",
-      "price": 599990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-04",
-      "price": 599990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-05",
-      "price": 599990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-06",
+      "date": "2026-06-08",
       "price": 599990
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-06-08"
 }

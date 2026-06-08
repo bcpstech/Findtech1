@@ -17,19 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:44:14",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 2091,
       "store_id": "dust2",
       "price": 99890,
+      "price_card": 102887,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/disco-duro-ssd-adata-legend-860-500-gb-m-2-pcie-gen4-x4/",
       "store_name": "Dust2",
       "price_specs": {
-        "Efectivo/Transferencia": "$99.890"
+        "Efectivo/Transferencia": "$99.890",
+        "Tarjeta crédito/débito": "$102.887"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,46 +41,49 @@
     {
       "product_id": 9537,
       "store_id": "spdigital",
-      "price": 149990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 104995,
+      "price_card": 109720,
+      "price_normal": 149990,
+      "discount_pct": 30,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/unidad-ssd-adata-legend-860-500gb-m2-2280-pcie-gen4-x4-nvme-20-3d-nand",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$149.990"
+        "Transferencia / Efectivo": "$104.995",
+        "Webpay / Tarjeta": "$109.720"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 32015,
+      "store_id": "winpy",
+      "price": 113696,
+      "price_card": 119722,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/unidad-ssd-adata-legend-860-de-500gb-nvme-4-0-m-2-2280-hasta-5000mb-s/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Transferencia o Depósito": "$113.696",
+        "Otros medios de pago": "$119.722"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     }
   ],
   "history": [
     {
       "store_id": "dust2",
       "store_name": "Dust2",
-      "date": "2026-04-26",
-      "price": 96980
-    },
-    {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-27",
-      "price": 96980
-    },
-    {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-05-03",
-      "price": 99890
-    },
-    {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-05-04",
+      "date": "2026-06-08",
       "price": 99890
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-06-08"
 }

@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-05-03 04:31:34",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 23431,
@@ -37,21 +37,34 @@
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 38866,
+      "store_id": "mybox",
+      "price": 1076055,
+      "price_card": 1108337,
+      "price_normal": 1222790,
+      "discount_pct": 12,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/tarjeta-de-video/5758-tarjeta-de-video-sapphire-pulse-amd-radeon-rx-9070-16-gb-gddr6-amd-rdna-4.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.076.055",
+        "Tarjeta crédito/débito": "$1.108.337"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
     {
       "store_id": "alltec",
       "store_name": "Alltec",
-      "date": "2026-05-03",
-      "price": 1049900
-    },
-    {
-      "store_id": "alltec",
-      "store_name": "Alltec",
-      "date": "2026-05-04",
+      "date": "2026-06-08",
       "price": 1049900
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-06-08"
 }

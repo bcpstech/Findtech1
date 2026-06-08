@@ -13,33 +13,59 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Chipset": "AMD X870",
-    "Efectivo/Transferencia": "$269.995",
-    "Tarjeta crédito/débito": "$282.145"
+    "Efectivo/Transferencia": "$214.995",
+    "Tarjeta crédito/débito": "$224.670"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:11",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 9430,
       "store_id": "spdigital",
-      "price": 269995,
-      "price_card": 282145,
+      "price": 214995,
+      "price_card": 224670,
       "price_normal": 409990,
-      "discount_pct": 34,
+      "discount_pct": 48,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-msi-pro-x870-p-wifi-socket-am5-4x-ddr5-hdmi-type-c-dp-3x-m2-wi-fi-7-atx",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$269.995",
-        "Webpay / Tarjeta": "$282.145"
+        "Transferencia / Efectivo": "$214.995",
+        "Webpay / Tarjeta": "$224.670"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 60693,
+      "store_id": "centrale",
+      "price": 258130,
+      "price_card": 272327,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-x870-p-wifi-amd-am5-ddr5-m-2-pcie-5-0-wifi-7/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$258.130",
+        "Tarjetas de Crédito / Débito": "$272.327"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 214995
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

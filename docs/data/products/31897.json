@@ -8,23 +8,18 @@
   "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-7-8700f-am5-8-cores-16-hilos-4-1-5-0ghz-sin-video.jpg",
   "description": null,
   "specs": {
-    "Familia": "AMD Ryzen™ 7",
     "Núcleos": "8",
-    "Socket": "AM5",
-    "Litografía": "4 nm",
-    "Frecuencia base": "4,1 GHz",
     "Hilos": "16",
-    "Frecuencia turbo": "5 GHz",
-    "Caché L3": "16 MB",
-    "TDP": "65 W",
-    "Memoria soportada": "DDR5-SDRAM",
-    "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$279.995",
-    "Tarjeta crédito/débito": "$292.595"
+    "Frecuencia base": "4.1 GHz",
+    "TDP": "65W",
+    "Socket": "AM5",
+    "Gráficos integrados": "No",
+    "Efectivo/Transferencia": "$268.000",
+    "Tarjeta crédito/débito": "$276.040"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:29",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 31897,
@@ -46,18 +41,37 @@
       "full_url": "https://www.winpy.cl"
     },
     {
+      "product_id": 2814,
+      "store_id": "alltec",
+      "price": 249900,
+      "price_card": 257397,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/2244-amd-ryzen-7-8700f-41ghz-50ghz-turbo-octa-core-tdp-65w-am5.html",
+      "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$249.900",
+        "Tarjeta crédito/débito": "$257.397"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
       "product_id": 302,
       "store_id": "centrale",
-      "price": 253250,
-      "price_card": 267179,
+      "price": 261420,
+      "price_card": 275798,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-8700f-socket-am5-8-cores-16-threads-4-1-a-5-0ghz-65w/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$253.250",
-        "Tarjetas de Crédito / Débito": "$267.179"
+        "Transferencia / Efectivo": "$261.420",
+        "Tarjetas de Crédito / Débito": "$275.798"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -84,25 +98,6 @@
       "full_url": "https://www.n1g.cl"
     },
     {
-      "product_id": 9412,
-      "store_id": "spdigital",
-      "price": 279995,
-      "price_card": 292595,
-      "price_normal": 459990,
-      "discount_pct": 39,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/amd-8700f",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$279.995",
-        "Webpay / Tarjeta": "$292.595"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
       "product_id": 2631,
       "store_id": "trulustore",
       "price": 299990,
@@ -124,25 +119,6 @@
       "full_url": "https://www.trulustore.cl"
     },
     {
-      "product_id": 2814,
-      "store_id": "alltec",
-      "price": 329900,
-      "price_card": 339797,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/amd/2244-amd-ryzen-7-8700f-41ghz-50ghz-turbo-octa-core-tdp-65w-am5.html",
-      "store_name": "Alltec",
-      "price_specs": {
-        "Efectivo/Transferencia": "$329.900",
-        "Tarjeta crédito/débito": "$339.797"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
-    },
-    {
       "product_id": 38838,
       "store_id": "mybox",
       "price": 331371,
@@ -162,6 +138,13 @@
       "full_url": "https://www.mybox.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 248672
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

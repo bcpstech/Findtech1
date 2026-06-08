@@ -8,66 +8,43 @@
   "image_url": "https://images.findtech.cl/products/m-b-msi-pro-z890-p-wifi-lga1851-ddr5-intel-core-ultra-serie-2.jpg",
   "description": null,
   "specs": {
-    "Socket": "LGA 1851 (Socket V1)",
-    "Factor de forma": "ATX",
+    "Socket": "LGA1851",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Chipset": "Intel Z890",
-    "Efectivo/Transferencia": "$419.990",
-    "Tarjeta crédito/débito": "$438.890"
+    "Efectivo / Transferencia": "$299.900",
+    "Tarjeta crédito/débito": "$308.897"
   },
   "tags": [],
   "created_at": "2026-05-03 04:33:05",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 23542,
       "store_id": "alltec",
       "price": 299900,
+      "price_card": 308897,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/para-intel/2393-mb-msi-pro-z890-p-wifi-lga1851-ddr5-intel-core-ultra-serie-2.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$299.900"
+        "Efectivo/Transferencia": "$299.900",
+        "Tarjeta crédito/débito": "$308.897"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
-    },
-    {
-      "product_id": 9457,
-      "store_id": "spdigital",
-      "price": 419990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/pro-z890-p-wifi",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$419.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
     {
       "store_id": "alltec",
       "store_name": "Alltec",
-      "date": "2026-05-03",
-      "price": 299900
-    },
-    {
-      "store_id": "alltec",
-      "store_name": "Alltec",
-      "date": "2026-05-04",
+      "date": "2026-06-08",
       "price": 299900
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-06-08"
 }

@@ -1,42 +1,47 @@
 {
   "id": 811,
-  "external_id": "centrale_procesador-amd-ryzen-5-7600-socket-am5-6-cores-12-hilos-3-8-5-1ghz",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 5 7600, Socket AM5, 6 Cores, 12 Hilos, 3.8 / 5.1Ghz",
-  "slug": "procesador-amd-ryzen-5-7600-socket-am5-6-cores-12-hilos-3-8-5-1ghz",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-AMD-Ryzen-5-7600-Socket-AM5-6-Cores-12-Hilos-3.8-5.1Ghz_Tam8wiJ-1.webp",
+  "external_id": "n1g_evga-650-bp-80-bronze-650w-fuente-compacta-120mm-de-tamano-no-modular-100-bp-0650-k1",
+  "category_id": "psu",
+  "brand": "EVGA",
+  "name": "EVGA 650 BP, 80+ BRONZE 650W Fuente compacta 120mm de tamaño no modular 100-BP-0650-K1",
+  "slug": "evga-650-bp-80-bronze-650w-fuente-compacta-120mm-de-tamano-no-modular-100-bp-0650-k1",
+  "image_url": "https://images.findtech.cl/products/evga-650-bp-80-bronze-650w-fuente-compacta-120mm-de-tamano-no-modular-100-bp-0650-k1.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$205.180",
-    "Tarjetas de Crédito / Débito": "$216.460"
+    "Efectivo/Transferencia": "$69.900",
+    "Tarjeta crédito/débito": "$71.997"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:30",
-  "updated_at": "2026-04-25 19:37:30",
+  "created_at": "2026-04-26 20:20:01",
+  "updated_at": "2026-06-08 20:31:58",
   "prices": [
     {
       "product_id": 811,
-      "store_id": "centrale",
-      "price": 205180,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 69900,
+      "price_card": 73605,
+      "price_normal": 73579,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-7600-socket-am5-6-cores-12-hilos-3-8-5-1ghz/",
-      "store_name": "Centrale",
+      "product_url": "https://n1g.cl/Home/computacion/3008-evga-650-bp-80-bronze-650w-fuente-compacta-120mm-de-tamano-no-modular-100-bp-0650-k1.html",
+      "store_name": "N1G",
+      "price_specs": {
+        "Efectivo/Transferencia": "$69.900",
+        "Tarjeta crédito/débito": "$73.605"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 205180
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-08",
+      "price": 69900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-06-08"
 }

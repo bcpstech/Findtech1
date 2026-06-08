@@ -21,26 +21,26 @@
     "Caché L3": "32 MB",
     "Memoria soportada": "DDR5-SDRAM",
     "Gráficos integrados": "AMD Radeon Graphics",
-    "Efectivo/Transferencia": "$229.990",
-    "Tarjeta crédito/débito": "$240.340"
+    "Efectivo/Transferencia": "$225.330",
+    "Tarjeta crédito/débito": "$235.470"
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:55",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 275,
       "store_id": "centrale",
-      "price": 204980,
-      "price_card": 216254,
+      "price": 204390,
+      "price_card": 215631,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-7600-socket-am5-6-cores-12-hilos-3-8-5-1ghz/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$204.980",
-        "Tarjetas de Crédito / Débito": "$216.254"
+        "Transferencia / Efectivo": "$204.390",
+        "Tarjetas de Crédito / Débito": "$215.631"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -86,42 +86,42 @@
       "full_url": "https://www.winpy.cl"
     },
     {
+      "product_id": 9407,
+      "store_id": "spdigital",
+      "price": 225330,
+      "price_card": 235470,
+      "price_normal": 278220,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-5-7600-wraith-sthealth-65w",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$225.330",
+        "Webpay / Tarjeta": "$235.470"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 1142,
       "store_id": "cg",
-      "price": 222104,
-      "price_card": 233787,
+      "price": 227722,
+      "price_card": 239700,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/procesadores/amd-ryzen-5-7600-3-8-ghz-6-nucleos-12-hilos-32-mb-cache-socket-am5-caja/",
       "store_name": "CentralGamer",
       "price_specs": {
-        "Efectivo/Transferencia": "$222.104",
-        "Webpay / Tarjeta": "$233.787"
+        "Efectivo/Transferencia": "$227.722",
+        "Webpay / Tarjeta": "$239.700"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
-    },
-    {
-      "product_id": 9407,
-      "store_id": "spdigital",
-      "price": 229990,
-      "price_card": 240340,
-      "price_normal": 352990,
-      "discount_pct": 35,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-5-7600-wraith-sthealth-65w",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$229.990",
-        "Webpay / Tarjeta": "$240.340"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 33,
@@ -141,8 +141,34 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 32922,
+      "store_id": "infor-ingen",
+      "price": 238900,
+      "price_card": 246067,
+      "price_normal": 253234,
+      "discount_pct": 6,
+      "stock": "in_stock",
+      "product_url": "https://store.infor-ingen.com/producto/cpu-amd-ryzen-5-7600-3-8ghz/",
+      "store_name": "Infor-Ingen",
+      "price_specs": {
+        "Efectivo/Transferencia": "$238.900",
+        "Tarjeta crédito/débito": "$246.067"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 225330
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

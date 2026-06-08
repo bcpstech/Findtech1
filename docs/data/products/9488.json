@@ -13,24 +13,26 @@
     "Velocidad": "3200 MHz",
     "Latencia": "CL22",
     "Tipo de memoria": "DDR4",
-    "Efectivo/Transferencia": "$309.600",
-    "Tarjeta crédito/débito": "$323.540"
+    "Efectivo/Transferencia": "$191.090",
+    "Tarjeta crédito/débito": "$199.689"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:43",
-  "updated_at": "2026-05-03 05:12:06",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1431,
       "store_id": "centrale",
-      "price": 1952,
+      "price": 164920,
+      "price_card": 173991,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-xpg-16gb-ddr4-3200mhz-so-dimm-cl22-1-2v/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$1.952"
+        "Transferencia / Efectivo": "$164.920",
+        "Tarjetas de Crédito / Débito": "$173.991"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,16 +40,18 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 9496,
+      "product_id": 9488,
       "store_id": "spdigital",
-      "price": 155620,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 191090,
+      "price_card": 199689,
+      "price_normal": 235950,
+      "discount_pct": 19,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/adata-premier-series-ddr4-mã3dulo-8-gb-dimm-de-288-contactos-3200-mhz-pc4-25600-cl22",
+      "product_url": "https://www.spdigital.cl/memoria-ram-ddr4-16gb-3200mhz-dimm-288-pines-adata-premier-cl22-12v",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$155.620"
+        "Transferencia / Efectivo": "$191.090",
+        "Webpay / Tarjeta": "$199.689"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,27 +63,9 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-28",
-      "price": 264960
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-04-29",
-      "price": 307560
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-01",
-      "price": 309600
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-03",
-      "price": 309600
+      "date": "2026-06-08",
+      "price": 191090
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-06-08"
 }

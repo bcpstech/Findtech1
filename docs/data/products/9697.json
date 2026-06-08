@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-seasonic-g12-gc-850-850w-cables-fijos-certificada-80-plus-gold-atx.png",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$114.990",
-    "Tarjeta crédito/débito": "$120.165"
+    "Efectivo/Transferencia": "$99.990",
+    "Tarjeta crédito/débito": "$104.490"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:35",
-  "updated_at": "2026-05-08 22:15:57",
+  "updated_at": "2026-06-08 20:45:20",
   "prices": [
     {
       "product_id": 9697,
       "store_id": "spdigital",
-      "price": 114990,
-      "price_card": 120165,
+      "price": 99990,
+      "price_card": 104490,
       "price_normal": 144990,
-      "discount_pct": 21,
+      "discount_pct": 31,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/fuente-de-poder-seasonic-g12-gc-850",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$114.990",
-        "Webpay / Tarjeta": "$120.165"
+        "Transferencia / Efectivo": "$99.990",
+        "Webpay / Tarjeta": "$104.490"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -35,6 +35,13 @@
       "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 99990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

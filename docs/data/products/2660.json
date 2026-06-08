@@ -8,52 +8,33 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-msi-mag-a850gl-white-850w-80-gold-cybenetics-gold-full-modular-pcie-5-1-atx-3-1.jpg",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$84.890",
-    "Khipu": "$86.588"
+    "Efectivo / Transferencia": "$84.990",
+    "Khipu": "$86.690"
   },
   "tags": [],
   "created_at": "2026-04-26 20:53:08",
-  "updated_at": "2026-05-08 22:20:40",
+  "updated_at": "2026-06-08 20:48:41",
   "prices": [
     {
       "product_id": 2660,
       "store_id": "trulustore",
-      "price": 84890,
-      "price_card": 87437,
+      "price": 84990,
+      "price_card": 87540,
       "price_normal": 139450,
       "discount_pct": 39,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/fuente-de-poder-msi-mag-a850gl-white-850w-80-gold-cybenetics-gold-full-modular-pcie-5-1-atx-3-1/",
       "store_name": "TruluStore",
-      "khipu_price": 86588,
+      "khipu_price": 86690,
       "price_specs": {
-        "Efectivo / Transferencia": "$84.890",
-        "Khipu": "$86.588",
-        "Tarjeta crédito/débito": "$87.437"
+        "Efectivo / Transferencia": "$84.990",
+        "Khipu": "$86.690",
+        "Tarjeta crédito/débito": "$87.540"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
-    },
-    {
-      "product_id": 1721,
-      "store_id": "centrale",
-      "price": 104900,
-      "price_card": 110670,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-850w-msi-mag-a850gl-80-gold-full-modular-pcie-5-1-atx-3-1/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$104.900",
-        "Tarjetas de Crédito / Débito": "$110.670"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 38970,
@@ -73,8 +54,34 @@
       "review_count": 0,
       "store_url": "www.mybox.cl",
       "full_url": "https://www.mybox.cl"
+    },
+    {
+      "product_id": 1721,
+      "store_id": "centrale",
+      "price": 117340,
+      "price_card": 123794,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/fuente-de-poder-850w-msi-mag-a850gl-80-gold-full-modular-pcie-5-1-atx-3-1/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$117.340",
+        "Tarjetas de Crédito / Débito": "$123.794"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-06-08",
+      "price": 84990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

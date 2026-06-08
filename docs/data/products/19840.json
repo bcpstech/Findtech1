@@ -3,9 +3,9 @@
   "external_id": "pn_824142395943",
   "category_id": "gpu",
   "brand": "MSI",
-  "name": "Tarjeta de Video - MSI INSPIRE 3X - Nvidia GeForce RTX 5080 16G OC Edition - 16 GB, GDDR7, 256 bits - PCIe 5.0 - DisplayPort, HDMI",
+  "name": "Tarjeta de Video Nvidia RTX 5080 16GB - MSI INSPIRE 3x OC Edition - GDDR7, 256 bits - PCIe 5.0 - DisplayPort, HDMI",
   "slug": "tarjeta-de-video-msi-inspire-3x-nvidia-geforce-rtx-5080-16g-oc-edition-16-gb-gddr7-256-bits-pci",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-msi-inspire-3x-nvidia-geforce-rtx-5080-16g-oc-edition-16-gb-gddr7-256-bits-pcie-5-0.jpg",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-rtx-5080-16gb-msi-inspire-3x-oc-edition-gddr7-256-bits-pcie-5-0-displayport-.jpg",
   "description": null,
   "specs": {
     "VRAM": "16 GB",
@@ -13,74 +13,43 @@
     "Bus de memoria": "256-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$1.579.700",
-    "Tarjeta crédito/débito": "$1.666.584",
+    "Efectivo / Transferencia": "$1.559.990",
+    "Tarjeta crédito/débito": "$1.645.789",
     "Garantía": "",
     "SKU": "40523",
     "Part Number": "824142395943"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:46",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 19840,
       "store_id": "myshop",
-      "price": 1579700,
-      "price_card": 1627091,
-      "price_normal": 1666584,
-      "discount_pct": 12,
+      "price": 1559990,
+      "price_card": 1606790,
+      "price_normal": 1645789,
+      "discount_pct": 13,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/msi-pci-express-nvidia-geforce-rtx-5080-16g-inspire-3x-p40523",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$1.579.700",
-        "Tarjeta crédito/débito": "$1.627.091"
+        "Efectivo/Transferencia": "$1.559.990",
+        "Tarjeta crédito/débito": "$1.606.790"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 9580,
-      "store_id": "spdigital",
-      "price": 1739995,
-      "price_card": 1818295,
-      "price_normal": 1999990,
-      "discount_pct": 13,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-msi-geforce-rtx-5080-inspire-3x-oc-16gb-gddr7-256-bit-pcie-50",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$1.739.995",
-        "Webpay / Tarjeta": "$1.818.295"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 1198,
-      "store_id": "centrale",
-      "price": 1941220,
-      "price_card": 2047987,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5080-inspire-3x-oc-16gb-gddr7-256-bit/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$1.941.220",
-        "Tarjetas de Crédito / Débito": "$2.047.987"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-08",
+      "price": 1559990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

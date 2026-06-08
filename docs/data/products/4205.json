@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-27 22:14:20",
-  "updated_at": "2026-05-08 22:13:32",
+  "updated_at": "2026-06-08 20:42:53",
   "prices": [
     {
       "product_id": 4205,
@@ -38,16 +38,16 @@
     {
       "product_id": 9656,
       "store_id": "spdigital",
-      "price": 62995,
-      "price_card": 65830,
+      "price": 56995,
+      "price_card": 59560,
       "price_normal": 99990,
-      "discount_pct": 37,
+      "discount_pct": 43,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ventilador-cpu-water-cooler-cz-360b-bk-argb-360-esgaming",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$62.995",
-        "Webpay / Tarjeta": "$65.830"
+        "Transferencia / Efectivo": "$56.995",
+        "Webpay / Tarjeta": "$59.560"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,6 +55,13 @@
       "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-06-08",
+      "price": 47990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

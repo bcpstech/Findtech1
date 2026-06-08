@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-aorus-waterforce-x-ii-360-arg-360mm-intel-amd-pantalla-lcd-str5-negro.png",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$234.995",
-    "Tarjeta crédito/débito": "$245.570"
+    "Efectivo/Transferencia": "$219.995",
+    "Tarjeta crédito/débito": "$229.895"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:00",
-  "updated_at": "2026-05-08 22:15:29",
+  "updated_at": "2026-06-08 20:44:54",
   "prices": [
     {
       "product_id": 9632,
       "store_id": "spdigital",
-      "price": 234995,
-      "price_card": 245570,
+      "price": 219995,
+      "price_card": 229895,
       "price_normal": 329990,
-      "discount_pct": 29,
+      "discount_pct": 33,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/refrigeracion-liquida-gigabyte-aorus-waterforce-x-ii-360mm",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$234.995",
-        "Webpay / Tarjeta": "$245.570"
+        "Transferencia / Efectivo": "$219.995",
+        "Webpay / Tarjeta": "$229.895"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -35,6 +35,13 @@
       "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 219995
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

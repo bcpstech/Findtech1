@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:19:54",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 31851,
@@ -43,8 +43,8 @@
       "store_id": "centrale",
       "price": 380380,
       "price_card": 401301,
-      "price_normal": 425470,
-      "discount_pct": 11,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5050-shadow-2x-oc-8gb-gddr6-pcie-5-0-128-bit/",
       "store_name": "Centrale",
@@ -58,6 +58,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 353248
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

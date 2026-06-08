@@ -8,48 +8,62 @@
   "image_url": "https://images.findtech.cl/products/gabinete-antec-ax20-elite-s-fuente-atx-negro-incluye-3-fan-120mm-frontales-rgb-1-fan-120mm-rgb-trase.png",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$39.990",
-    "Tarjeta crédito/débito": "$42.189",
+    "Efectivo / Transferencia": "$37.490",
+    "Tarjeta crédito/débito": "$39.552",
     "Garantía": "6 meses",
     "SKU": "27543",
     "Part Number": "AX20 Elite"
   },
   "tags": [],
   "created_at": "2026-05-01 13:19:51",
-  "updated_at": "2026-05-03 22:06:18",
+  "updated_at": "2026-06-08 20:52:30",
   "prices": [
     {
       "product_id": 19896,
       "store_id": "myshop",
-      "price": 39990,
-      "price_normal": 42189,
+      "price": 37490,
+      "price_card": 38615,
+      "price_normal": 39552,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/gabinete-antec-ax20-atx-rgb-black-p27543",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$39.990",
-        "Tarjeta crédito/débito": "$42.189"
+        "Efectivo/Transferencia": "$37.490",
+        "Tarjeta crédito/débito": "$38.615"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 32051,
+      "store_id": "winpy",
+      "price": 38912,
+      "price_card": 40974,
+      "price_normal": null,
+      "discount_pct": 29,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/gabinete-gamer-antec-ax20-elite-atx-vidrio-templado-malla-frontal-4-ventiladores-rgb/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Transferencia o Depósito": "$38.912",
+        "Otros medios de pago": "$40.974"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     }
   ],
   "history": [
     {
       "store_id": "myshop",
       "store_name": "MyShop",
-      "date": "2026-05-01",
-      "price": 39990
-    },
-    {
-      "store_id": "myshop",
-      "store_name": "MyShop",
-      "date": "2026-05-03",
-      "price": 39990
+      "date": "2026-06-08",
+      "price": 37490
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-06-08"
 }

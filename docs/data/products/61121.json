@@ -1,0 +1,70 @@
+{
+  "id": 61121,
+  "external_id": "winpy_procesador-intel-core-i3-12100-alder-lake-lga1700-4-cores-8-hilos-3-30-4-30-ghz-uhd-730",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i3-12100 Alder Lake (LGA1700, 4 Cores, 8 Hilos, 3.30/4.30 GHz, UHD 730)",
+  "slug": "winpy-procesador-intel-core-i3-12100-alder-lake-lga1700-4-cores-8-hilos-3-30-4-30-ghz-uhd-730",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i3-12100-alder-lake-lga1700-4-cores-8-hilos-3-30-4-30-ghz-uhd-730.jpg",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "4.30 GHz",
+    "Socket": "LGA1700",
+    "Generación": "Intel 12ª Gen (Alder Lake)",
+    "Gráficos integrados": "Sí",
+    "Efectivo / Transferencia": "$157.472",
+    "Tarjeta crédito/débito": "$165.818"
+  },
+  "tags": [],
+  "created_at": "2026-06-08 20:59:24",
+  "updated_at": "2026-06-08 21:47:04",
+  "prices": [
+    {
+      "product_id": 61121,
+      "store_id": "winpy",
+      "price": 157472,
+      "price_card": 165818,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i3-12100-alder-lake-lga1700-4-cores-8-hilos-3-30-4-30-ghz-uhd-730/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Transferencia o Depósito": "$157.472",
+        "Otros medios de pago": "$165.818"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 60566,
+      "store_id": "centrale",
+      "price": 162860,
+      "price_card": 171817,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i3-12100-4-core-3-3-ghz-socket-lga-1700/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$162.860",
+        "Tarjetas de Crédito / Débito": "$171.817"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 157472
+    }
+  ],
+  "scraped_at": "2026-06-08"
+}

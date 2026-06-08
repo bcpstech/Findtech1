@@ -21,50 +21,50 @@
     "TDP": "65 W",
     "Memoria soportada": "DDR4-SDRAM",
     "Gráficos integrados": "AMD Radeon Graphics",
-    "Efectivo/Transferencia": "$159.995",
-    "Tarjeta crédito/débito": "$167.195"
+    "Efectivo/Transferencia": "$154.995",
+    "Tarjeta crédito/débito": "$161.970"
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:55",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
-      "product_id": 1149,
-      "store_id": "cg",
-      "price": 153990,
-      "price_card": 162090,
+      "product_id": 2829,
+      "store_id": "alltec",
+      "price": 153000,
+      "price_card": 157590,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-5600gt/",
-      "store_name": "CentralGamer",
+      "product_url": "https://www.alltec.cl/amd/2508-amd-ryzen-5-5600gt-36ghz-46ghz-turbo-six-core-tdp-65w-am4.html",
+      "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$153.990",
-        "Webpay / Tarjeta": "$162.090"
+        "Efectivo/Transferencia": "$153.000",
+        "Tarjeta crédito/débito": "$157.590"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     },
     {
-      "product_id": 31882,
-      "store_id": "winpy",
-      "price": 154432,
-      "price_card": 162617,
+      "product_id": 283,
+      "store_id": "centrale",
+      "price": 154270,
+      "price_card": 162755,
       "price_normal": null,
-      "discount_pct": 18,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-5600gt-am4-6-cores-12-hilos-3-6-4-6ghz-16mb-cache/",
-      "store_name": "Winpy",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-5600gt-3-6ghz-a-4-2ghz-6-nucleos-12-hilos-socket-am4/",
+      "store_name": "Centrale",
       "price_specs": {
-        "Transferencia o Depósito": "$154.432",
-        "Otros medios de pago": "$162.617"
+        "Transferencia / Efectivo": "$154.270",
+        "Tarjetas de Crédito / Débito": "$162.755"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 27,
@@ -86,44 +86,70 @@
       "full_url": "https://www.n1g.cl"
     },
     {
-      "product_id": 283,
-      "store_id": "centrale",
-      "price": 156750,
-      "price_card": 165371,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-5600gt-3-6ghz-a-4-2ghz-6-nucleos-12-hilos-socket-am4/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$156.750",
-        "Tarjetas de Crédito / Débito": "$165.371"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
       "product_id": 9406,
       "store_id": "spdigital",
-      "price": 159995,
-      "price_card": 167195,
+      "price": 154995,
+      "price_card": 161970,
       "price_normal": 219990,
-      "discount_pct": 27,
+      "discount_pct": 30,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ryzen-5-5600gt-460ghz-6core-skt-am4-19m",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$159.995",
-        "Webpay / Tarjeta": "$167.195"
+        "Transferencia / Efectivo": "$154.995",
+        "Webpay / Tarjeta": "$161.970"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 31882,
+      "store_id": "winpy",
+      "price": 159296,
+      "price_card": 167739,
+      "price_normal": null,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-5600gt-am4-6-cores-12-hilos-3-6-4-6ghz-16mb-cache/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Transferencia o Depósito": "$159.296",
+        "Otros medios de pago": "$167.739"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1149,
+      "store_id": "cg",
+      "price": 175990,
+      "price_card": 185247,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-5600gt/",
+      "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$175.990",
+        "Webpay / Tarjeta": "$185.247"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 154995
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

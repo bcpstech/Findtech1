@@ -5,60 +5,46 @@
   "brand": "MSI",
   "name": "Placa Madre MSI Pro B850M-B AM5, DDR5 8200+ OC, PCIe 5.0, 2.5G LAN, mATX",
   "slug": "placa-madre-msi-pro-b850m-b-am5-ddr5-8200-oc-pcie-5-0-2-5g-lan-matx",
-  "image_url": "https://centrale.cl/wp-content/uploads/Msi-Motherboard-Pro-B850M-B-Gen4-2-Dimm-Ddr5-A-824142446348.webp",
+  "image_url": "https://images.findtech.cl/products/placa-madre-msi-pro-b850m-b-am5-ddr5-8200-oc-pcie-5-0-2-5g-lan-matx.webp",
   "description": null,
   "specs": {
     "Socket": "AM5",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
-    "Transferencia / Efectivo": "$118.730",
-    "Tarjeta crédito/débito": "$125.260"
+    "Transferencia / Efectivo": "$121.900",
+    "Tarjeta crédito/débito": "$128.600"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1336,
       "store_id": "centrale",
-      "price": 118730,
-      "price_card": 125260,
+      "price": 121900,
+      "price_card": 128604,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-b850m-b-am5-ddr5-8200-oc-pcie-5-0-2-5g-lan-matx/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$118.730",
-        "Tarjetas de Crédito / Débito": "$125.260"
+        "Transferencia / Efectivo": "$121.900",
+        "Tarjetas de Crédito / Débito": "$128.604"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 2633,
-      "store_id": "trulustore",
-      "price": 149990,
-      "price_card": 154490,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/placa-madre-msi-pro-b850m-b-gen4-amd-am5-2x-ddr5-2x-m-2/",
-      "store_name": "TruluStore",
-      "khipu_price": 152990,
-      "price_specs": {
-        "Efectivo / Transferencia": "$149.990",
-        "Khipu": "$152.990",
-        "Tarjeta crédito/débito": "$154.490"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 121900
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

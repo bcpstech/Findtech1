@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:13",
-  "updated_at": "2026-05-08 22:56:49",
+  "updated_at": "2026-06-08 21:04:51",
   "prices": [
     {
       "product_id": 2240,
@@ -38,16 +38,16 @@
     {
       "product_id": 15389,
       "store_id": "spdigital",
-      "price": 99990,
-      "price_card": 104490,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 57995,
+      "price_card": 60605,
+      "price_normal": 99990,
+      "discount_pct": 42,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/segunda-seleccion-fuente-de-poder-750w-gigabyte-gp-p750bs-80-plus-bronze-atx-color-negro",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$99.990",
-        "Webpay / Tarjeta": "$104.490"
+        "Transferencia / Efectivo": "$57.995",
+        "Webpay / Tarjeta": "$60.605"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,6 +55,13 @@
       "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-08",
+      "price": 57990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

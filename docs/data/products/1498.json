@@ -5,29 +5,34 @@
   "brand": "Kingston",
   "name": "Memoria RAM Notebook 16GB DDR5 5600MT/s CL46 Kingston SODIMM 1Rx8 1.1V 16Gbit",
   "slug": "memoria-ram-notebook-16gb-ddr5-5600mt-s-cl46-kingston-sodimm-1rx8-1-1v-16gbit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-Notebook-16GB-DDR5-5600MT-s-CL46-Kingston-SODIMM-1Rx8-1.1V-_Rd67X2I-2.webp",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-notebook-16gb-ddr5-5600mt-s-cl46-kingston-sodimm-1rx8-1-1v-16gbit.webp",
   "description": null,
   "specs": {
-    "Capacidad": "16 GB",
+    "Capacidad": "32 GB",
     "Tipo": "DDR5",
     "Velocidad": "5600 MHz",
     "Latencia": "CL46",
-    "Transferencia / Efectivo": "$315.220",
-    "Tarjetas de Crédito / Débito": "$332.560"
+    "Transferencia / Efectivo": "$581.910",
+    "Tarjeta crédito/débito": "$613.920"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1498,
       "store_id": "centrale",
-      "price": 315220,
-      "price_normal": 521050,
-      "discount_pct": 40,
+      "price": 294400,
+      "price_card": 310592,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-notebook-16gb-ddr5-5600mt-s-cl46-kingston-sodimm-1rx8-1-1v-16gbit/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$294.400",
+        "Tarjetas de Crédito / Débito": "$310.592"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -38,15 +43,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 315570
-    },
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 315220
+      "date": "2026-06-08",
+      "price": 294400
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-08"
 }

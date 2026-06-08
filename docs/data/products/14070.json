@@ -14,18 +14,19 @@
     "Variante": "OC (Overclocked)",
     "Velocidad": "20000 MHz",
     "Factor de forma": "Full-Height/Full-Length (FH/FL)",
-    "Efectivo/Transferencia": "$899.990",
-    "Tarjeta crédito/débito": "$940.490"
+    "Efectivo/Transferencia": "$599.995",
+    "Tarjeta crédito/débito": "$626.995"
   },
   "tags": [],
   "created_at": "2026-04-29 03:34:42",
-  "updated_at": "2026-05-01 00:35:39",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 2612,
       "store_id": "trulustore",
       "price": 599990,
-      "price_normal": 629990,
+      "price_card": 617990,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/tarjeta-de-video-gigabyte-amd-radeon-rx-9060-xt-gaming-oc-16gb/",
@@ -34,7 +35,7 @@
       "price_specs": {
         "Efectivo / Transferencia": "$599.990",
         "Khipu": "$611.990",
-        "Tarjeta crédito/débito": "$629.990"
+        "Tarjeta crédito/débito": "$617.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -44,15 +45,16 @@
     {
       "product_id": 14070,
       "store_id": "spdigital",
-      "price": 899990,
-      "price_normal": 940490,
-      "discount_pct": null,
+      "price": 599995,
+      "price_card": 626995,
+      "price_normal": 899990,
+      "discount_pct": 33,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-gigabyte-radeon-rx-9060-xt-gaming-oc-ice-16gb-gddr6-128-bit-pci-e-50",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$899.990",
-        "Webpay / Tarjeta": "$940.490"
+        "Transferencia / Efectivo": "$599.995",
+        "Webpay / Tarjeta": "$626.995"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -64,15 +66,9 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-29",
-      "price": 899990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-01",
-      "price": 899990
+      "date": "2026-06-08",
+      "price": 599995
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-06-08"
 }

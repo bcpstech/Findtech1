@@ -1,0 +1,71 @@
+{
+  "id": 59530,
+  "external_id": "spdigital_placa-madre-gigabyte-z790-d-ax-lga-1700-4x-ddr5-2x-m-2-pcie-5-0-wifi-atx",
+  "category_id": "mobo",
+  "brand": "Gigabyte",
+  "name": "Placa madre GIGABYTE Z790 D AX, LGA 1700, 4x DDR5, 2x M.2, PCIe 5.0, WiFi, ATX",
+  "slug": "spdigital-placa-madre-gigabyte-z790-d-ax-lga-1700-4x-ddr5-2x-m-2-pcie-5-0-wifi-atx",
+  "image_url": "https://images.findtech.cl/products/placa-madre-gigabyte-z790-d-ax-lga-1700-4x-ddr5-2x-m-2-pcie-5-0-wifi-atx.jpg",
+  "description": null,
+  "specs": {
+    "Socket": "LGA 1700",
+    "Factor de forma": "ATX",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
+    "Chipset": "Intel Z790 Express",
+    "Efectivo/Transferencia": "$357.990",
+    "Tarjeta crédito/débito": "$374.100"
+  },
+  "tags": [],
+  "created_at": "2026-06-08 20:43:52",
+  "updated_at": "2026-06-08 21:47:04",
+  "prices": [
+    {
+      "product_id": 59525,
+      "store_id": "spdigital",
+      "price": 129995,
+      "price_card": 135845,
+      "price_normal": 199990,
+      "discount_pct": 35,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/gigabyte-b760m-ds3h-ax-ddr4-motherboard-micro-atx-lga1700-socket-b760m-para-celeron-pa",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$129.995",
+        "Webpay / Tarjeta": "$135.845"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1396,
+      "store_id": "centrale",
+      "price": 164690,
+      "price_card": 173748,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-b760m-gaming-plus-wifi-ddr4-micro-atx-lga-1700-ddr4-wifi-6/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$164.690",
+        "Tarjetas de Crédito / Débito": "$173.748"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 357990
+    }
+  ],
+  "scraped_at": "2026-06-08"
+}

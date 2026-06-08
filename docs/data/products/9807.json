@@ -14,21 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:30",
-  "updated_at": "2026-05-08 22:16:44",
+  "updated_at": "2026-06-08 20:46:08",
   "prices": [
     {
       "product_id": 9807,
       "store_id": "spdigital",
-      "price": 199995,
-      "price_card": 208995,
+      "price": 189995,
+      "price_card": 198545,
       "price_normal": 249990,
-      "discount_pct": 20,
+      "discount_pct": 24,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/gabinete-gamer-esgaming-aircraft-007-pantalla-led-9-ventiladores-argb-control-remoto-m-atx-itx",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$199.995",
-        "Webpay / Tarjeta": "$208.995"
+        "Transferencia / Efectivo": "$189.995",
+        "Webpay / Tarjeta": "$198.545"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,6 +55,13 @@
       "full_url": "https://www.centralgamer.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 189995
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

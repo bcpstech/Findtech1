@@ -8,29 +8,29 @@
   "image_url": "https://images.findtech.cl/products/gabinete-cougar-mx110-rgb-s-fuente-atx-negro-incluye-3-fan-120-mm-rgb-frontales-y-1-fan-120-mm-rgb-t.png",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$33.970",
-    "Tarjeta crédito/débito": "$35.838",
+    "Efectivo / Transferencia": "$30.990",
+    "Tarjeta crédito/débito": "$32.694",
     "Garantía": "6 meses",
     "SKU": "36957",
     "Part Number": "382BD20.0001\t"
   },
   "tags": [],
   "created_at": "2026-05-01 13:19:46",
-  "updated_at": "2026-05-08 22:25:00",
+  "updated_at": "2026-06-08 20:52:29",
   "prices": [
     {
       "product_id": 19891,
       "store_id": "myshop",
-      "price": 33970,
-      "price_card": 34989,
-      "price_normal": 35838,
-      "discount_pct": 40,
+      "price": 30990,
+      "price_card": 31920,
+      "price_normal": 32694,
+      "discount_pct": 48,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/gabinete-cougar-mx110-rgb-p36957",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$33.970",
-        "Tarjeta crédito/débito": "$34.989"
+        "Efectivo/Transferencia": "$30.990",
+        "Tarjeta crédito/débito": "$31.920"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -76,18 +76,18 @@
       "full_url": "https://www.dust2.gg"
     },
     {
-      "product_id": 1722,
+      "product_id": 1751,
       "store_id": "centrale",
-      "price": 82060,
-      "price_card": 86573,
+      "price": 73390,
+      "price_card": 77426,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-cougar-fv150-rgb-s-fuente-atx-blanco-incluye-3-fan-argb-120mm-m-b-1/",
+      "product_url": "https://centrale.cl/producto/gabinete-cougar-fv150-rgb-atx-negro-incluye-4-fan-argb/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$82.060",
-        "Tarjetas de Crédito / Débito": "$86.573"
+        "Transferencia / Efectivo": "$73.390",
+        "Tarjetas de Crédito / Débito": "$77.426"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -95,6 +95,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-08",
+      "price": 30990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

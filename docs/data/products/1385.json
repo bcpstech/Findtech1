@@ -5,29 +5,34 @@
   "brand": "Asus",
   "name": "Placa Madre ASUS ROG STRIX B850-F GAMING WIFI (ATX, AM5, DDR5, WiFi 7)",
   "slug": "placa-madre-asus-rog-strix-b850-f-gaming-wifi-atx-am5-ddr5-wifi-7",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASUS-ROG-STRIX-B850-F-GAMING-WIFI-ATX-AM5-DDR5-WiFi-7_t9OACXB-1.webp",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asus-rog-strix-b850-f-gaming-wifi-atx-am5-ddr5-wifi-7.webp",
   "description": null,
   "specs": {
     "Socket": "AM5",
     "Factor de forma": "ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$326.900",
-    "Tarjetas de Crédito / Débito": "$344.880"
+    "Transferencia / Efectivo": "$322.890",
+    "Tarjeta crédito/débito": "$340.650"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1385,
       "store_id": "centrale",
-      "price": 326900,
-      "price_normal": 369150,
-      "discount_pct": 11,
+      "price": 322890,
+      "price_card": 340649,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-strix-b850-f-gaming-wifi-atx-am5-ddr5-wifi-7/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$322.890",
+        "Tarjetas de Crédito / Débito": "$340.649"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -38,15 +43,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 326900
-    },
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 326900
+      "date": "2026-06-08",
+      "price": 322890
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-08"
 }

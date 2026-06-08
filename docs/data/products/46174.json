@@ -8,29 +8,29 @@
   "image_url": "https://images.findtech.cl/products/gabinete-cougar-cfv235-vision-s-fuente-atx-negro-incluye-1-ventilador-120mm-argb-pwm-y-1-unity-240-a.webp",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$179.990",
-    "Tarjeta crédito/débito": "$189.889",
+    "Efectivo / Transferencia": "$169.990",
+    "Tarjeta crédito/débito": "$179.339",
     "Garantía": "6 meses",
     "SKU": "43090",
     "Part Number": "382DA40.0003"
   },
   "tags": [],
   "created_at": "2026-05-05 22:04:46",
-  "updated_at": "2026-05-08 22:23:27",
+  "updated_at": "2026-06-08 20:51:36",
   "prices": [
     {
       "product_id": 46174,
       "store_id": "myshop",
-      "price": 179990,
-      "price_card": 185390,
-      "price_normal": 189889,
-      "discount_pct": null,
+      "price": 169990,
+      "price_card": 175090,
+      "price_normal": 179339,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/cfv235-vision-p43090",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$179.990",
-        "Tarjeta crédito/débito": "$185.390"
+        "Efectivo/Transferencia": "$169.990",
+        "Tarjeta crédito/débito": "$175.090"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,6 +38,13 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-08",
+      "price": 169990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

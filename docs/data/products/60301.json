@@ -1,0 +1,93 @@
+{
+  "id": 60301,
+  "external_id": "alltec_intel-i5-12600k-3-7ghz-4-9ghz-turbo-10c-16t-20mb-cache-125w-150w-lga1700-12th-generacion",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "INTEL I5-12600K (3.7GHz/4.9GHz TURBO, 10C/16T, 20MB CACHE, 125W/150W, LGA1700) 12TH GENERACION",
+  "slug": "alltec-intel-i5-12600k-3-7ghz-4-9ghz-turbo-10c-16t-20mb-cache-125w-150w-lga1700-12th-generacion",
+  "image_url": "https://images.findtech.cl/products/intel-i5-12600k-3-7ghz-4-9ghz-turbo-10c-16t-20mb-cache-125w-150w-lga1700-12th-generacion.jpg",
+  "description": null,
+  "specs": {
+    "Núcleos": "10",
+    "Hilos": "16",
+    "Frecuencia base": "3.7 GHz",
+    "Frecuencia turbo": "4.9 GHz",
+    "Caché L3": "20 MB",
+    "TDP": "150W",
+    "Socket": "LGA1700",
+    "Generación": "Intel 12ª Gen (Alder Lake)",
+    "Efectivo / Transferencia": "$329.900",
+    "Tarjeta crédito/débito": "$339.797"
+  },
+  "tags": [],
+  "created_at": "2026-06-08 20:54:00",
+  "updated_at": "2026-06-08 21:47:04",
+  "prices": [
+    {
+      "product_id": 320,
+      "store_id": "centrale",
+      "price": 235970,
+      "price_card": 248948,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-12600k-3-7-ghz-10-core-lga1700/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$235.970",
+        "Tarjetas de Crédito / Débito": "$248.948"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 60301,
+      "store_id": "alltec",
+      "price": 329900,
+      "price_card": 339797,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/intel/2471-intel-i5-12600k-37ghz49ghz-turbo-10c16t-20mb-cache-125w150w-lga1700-12th-generacion.html",
+      "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$329.900",
+        "Tarjeta crédito/débito": "$339.797"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 31891,
+      "store_id": "winpy",
+      "price": 331968,
+      "price_card": 349562,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i5-12600k-alder-lake-lga1700-10-cores-16-hilos-3-7-4-9-ghz-20mb-de-cache/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Transferencia o Depósito": "$331.968",
+        "Otros medios de pago": "$349.562"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-08",
+      "price": 329900
+    }
+  ],
+  "scraped_at": "2026-06-08"
+}

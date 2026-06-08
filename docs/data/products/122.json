@@ -21,7 +21,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 16:05:46",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 122,
@@ -60,8 +60,72 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 61127,
+      "store_id": "winpy",
+      "price": 179968,
+      "price_card": 189506,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i5-12400f-alder-lake-lga1700-6-cores-12-hilos-2-5-4-4ghz-sin-video/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Transferencia o Depósito": "$179.968",
+        "Otros medios de pago": "$189.506"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 308,
+      "store_id": "centrale",
+      "price": 187020,
+      "price_card": 197306,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-12400f-2-5ghz-18mb-6-cores-lga-1700/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$187.020",
+        "Tarjetas de Crédito / Débito": "$197.306"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 59372,
+      "store_id": "cg",
+      "price": 196622,
+      "price_card": 206964,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-i5-12400f-2-5-ghz-6-nucleos-12-hilos-18-mb-cache-lga1700-socket-caja/",
+      "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$196.622",
+        "Webpay / Tarjeta": "$206.964"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-08",
+      "price": 165900
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

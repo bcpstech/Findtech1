@@ -8,29 +8,29 @@
   "image_url": "https://images.findtech.cl/products/gabinete-cougar-fv270-s-fuente-e-atx-blanco-1-ventilador-inferior-120-mm-argb-pwm-con-aspas-invertid.jpg",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$136.750",
-    "Tarjeta crédito/débito": "$144.271",
+    "Efectivo / Transferencia": "$119.990",
+    "Tarjeta crédito/débito": "$126.589",
     "Garantía": "6 meses",
     "SKU": "40353",
     "Part Number": "3858M60.0002"
   },
   "tags": [],
   "created_at": "2026-05-01 13:18:27",
-  "updated_at": "2026-05-08 22:23:27",
+  "updated_at": "2026-06-08 20:51:36",
   "prices": [
     {
       "product_id": 19880,
       "store_id": "myshop",
-      "price": 136750,
-      "price_card": 140853,
-      "price_normal": 144271,
-      "discount_pct": null,
+      "price": 119990,
+      "price_card": 123590,
+      "price_normal": 126589,
+      "discount_pct": 40,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/fv270-blanco-p40353",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$136.750",
-        "Tarjeta crédito/débito": "$140.853"
+        "Efectivo/Transferencia": "$119.990",
+        "Tarjeta crédito/débito": "$123.590"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,6 +38,13 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-08",
+      "price": 119990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

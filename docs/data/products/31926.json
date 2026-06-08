@@ -5,33 +5,33 @@
   "brand": "ASUS",
   "name": "Placa Madre ASUS PRIME H610M-K DDR5 (LGA1700, M.2, RGB, Micro-ATX)",
   "slug": "winpy-placa-madre-asus-prime-h610m-k-ddr5-lga1700-m-2-rgb-micro-atx",
-  "image_url": "/files/tumb_43949-6933435e181fc.jpg",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asus-prime-h610m-k-ddr5-lga1700-m-2-rgb-micro-atx.jpg",
   "description": null,
   "specs": {
     "Socket": "LGA 1700",
     "Factor de forma": "micro ATX",
     "Memoria": "DDR5",
     "Chipset": "Intel H610",
-    "Efectivo/Transferencia": "$84.423",
-    "Tarjeta crédito/débito": "$88.222"
+    "Efectivo/Transferencia": "$81.699",
+    "Tarjeta crédito/débito": "$85.375"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:30",
-  "updated_at": "2026-05-05 13:32:09",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 31926,
       "store_id": "winpy",
-      "price": 74784,
-      "price_card": 77028,
+      "price": 76608,
+      "price_card": 80668,
       "price_normal": null,
-      "discount_pct": null,
+      "discount_pct": 21,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-h610m-k-ddr5-lga1700-m-2-rgb-micro-atx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Efectivo/Transferencia": "$74.784",
-        "Tarjeta crédito/débito": "$77.028"
+        "Transferencia o Depósito": "$76.608",
+        "Otros medios de pago": "$80.668"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 1408,
       "store_id": "centrale",
-      "price": 82580,
-      "price_card": 87122,
+      "price": 78170,
+      "price_card": 82469,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-mini-atx-asus-prime-h610m-k-socket-intel-lga-1700-ddr5-pcie-3-0/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$82.580",
-        "Tarjetas de Crédito / Débito": "$87.122"
+        "Transferencia / Efectivo": "$78.170",
+        "Tarjetas de Crédito / Débito": "$82.469"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,30 +60,49 @@
     {
       "product_id": 9464,
       "store_id": "spdigital",
-      "price": 83686,
-      "price_card": 87452,
-      "price_normal": 100020,
-      "discount_pct": 16,
+      "price": 81699,
+      "price_card": 85375,
+      "price_normal": 100900,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-h610m-k-socket-intel-lga1700-2xddr5-1x-m2-4x-sata-hdmi-vga-micro-atx",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$83.686",
-        "Webpay / Tarjeta": "$87.452"
+        "Transferencia / Efectivo": "$81.699",
+        "Webpay / Tarjeta": "$85.375"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 38908,
+      "store_id": "mybox",
+      "price": 92741,
+      "price_card": 95523,
+      "price_normal": 105990,
+      "discount_pct": 13,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/5280-placa-madre-asus-prime-h610m-k-d4-ddr4.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$92.741",
+        "Tarjeta crédito/débito": "$95.523"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-04",
-      "price": 74784
+      "date": "2026-06-08",
+      "price": 76608
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-06-08"
 }

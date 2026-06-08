@@ -15,21 +15,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:04",
-  "updated_at": "2026-05-08 22:15:32",
+  "updated_at": "2026-06-08 20:44:56",
   "prices": [
     {
       "product_id": 9641,
       "store_id": "spdigital",
-      "price": 69995,
-      "price_card": 73145,
+      "price": 64995,
+      "price_card": 67920,
       "price_normal": 109990,
-      "discount_pct": 36,
+      "discount_pct": 41,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/refrigeracion-liquida-be-quiet-pure-loop-3-240mm-pwm-alto-rendimiento-cpu-intel-amd",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$69.995",
-        "Webpay / Tarjeta": "$73.145"
+        "Transferencia / Efectivo": "$64.995",
+        "Webpay / Tarjeta": "$67.920"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -56,6 +56,13 @@
       "full_url": "https://www.progaming.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 64995
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

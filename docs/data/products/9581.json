@@ -12,25 +12,26 @@
     "Tipo memoria": "GDDR7",
     "Bus de memoria": "512-bit",
     "Arquitectura": "Blackwell",
-    "Efectivo/Transferencia": "$8.999.990",
-    "Tarjeta crédito/débito": "$9.404.990"
+    "Efectivo/Transferencia": "$5.799.995",
+    "Tarjeta crédito/débito": "$6.060.995"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:29",
-  "updated_at": "2026-05-01 00:35:39",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 9581,
       "store_id": "spdigital",
-      "price": 8999990,
-      "price_normal": 9404990,
-      "discount_pct": null,
+      "price": 5799995,
+      "price_card": 6060995,
+      "price_normal": 8999990,
+      "discount_pct": 36,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-msi-nvidia-geforce-rtx-5090-lightning-z-32gb-gddr7-pantalla-8-wc",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$8.999.990",
-        "Webpay / Tarjeta": "$9.404.990"
+        "Transferencia / Efectivo": "$5.799.995",
+        "Webpay / Tarjeta": "$6.060.995"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,21 +43,9 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-28",
-      "price": 8999990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-04-29",
-      "price": 8999990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-01",
-      "price": 8999990
+      "date": "2026-06-08",
+      "price": 5799995
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-06-08"
 }

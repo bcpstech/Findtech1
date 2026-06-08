@@ -3,9 +3,9 @@
   "external_id": "pn_912v531628",
   "category_id": "gpu",
   "brand": "MSI",
-  "name": "Tarjeta de Video - MSI Shadow 3x - Nvidia GeForce RTX 5080 16G OC Edition - 16 GB, GDDR7, 256 bits - PCIe 5.0 - DisplayPort, HDMI",
+  "name": "Tarjeta de Video Nvidia RTX 5080 16GB - MSI SHADOW 3x OC Edition - GDDR7, 256 bits - PCIe 5.0 - DisplayPort, HDMI",
   "slug": "tarjeta-de-video-msi-shadow-3x-nvidia-geforce-rtx-5080-16g-oc-edition-16-gb-gddr7-256-bits-pcie",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-msi-shadow-3x-nvidia-geforce-rtx-5080-16g-oc-edition-16-gb-gddr7-256-bits-pcie-5-0-.jpg",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-rtx-5080-16gb-msi-shadow-3x-oc-edition-gddr7-256-bits-pcie-5-0-displayport-h.jpg",
   "description": null,
   "specs": {
     "VRAM": "16 GB",
@@ -13,29 +13,29 @@
     "Bus de memoria": "256-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$1.839.990",
-    "Tarjeta crédito/débito": "$1.941.189",
+    "Efectivo / Transferencia": "$1.649.990",
+    "Tarjeta crédito/débito": "$1.740.739",
     "Garantía": "6 meses",
     "SKU": "42285",
     "Part Number": "912-V531-628"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:47",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 19843,
       "store_id": "myshop",
-      "price": 1839990,
-      "price_card": 1895190,
-      "price_normal": 1941189,
-      "discount_pct": 11,
+      "price": 1649990,
+      "price_card": 1699490,
+      "price_normal": 1740739,
+      "discount_pct": 17,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/rtx-5080-16g-shadow-3x-oc-p42285",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$1.839.990",
-        "Tarjeta crédito/débito": "$1.895.190"
+        "Efectivo/Transferencia": "$1.649.990",
+        "Tarjeta crédito/débito": "$1.699.490"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,6 +43,13 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-08",
+      "price": 1649990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

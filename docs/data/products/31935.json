@@ -8,54 +8,34 @@
   "image_url": "https://images.findtech.cl/products/placa-madre-msi-pro-b760m-p-lga1700-ddr4-2133-4800-mhz-m-2-x2-microatx.jpg",
   "description": null,
   "specs": {
-    "Socket": "LGA 1700",
-    "Factor de forma": "micro ATX",
+    "Socket": "LGA1700",
+    "Factor de forma": "Micro-ATX",
     "Memoria": "DDR4",
-    "Chipset": "Intel B760",
-    "Efectivo/Transferencia": "$109.995",
-    "Tarjeta crédito/débito": "$114.945"
+    "Transferencia / Efectivo": "$99.460",
+    "Tarjeta crédito/débito": "$104.930"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:48",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 31935,
       "store_id": "winpy",
-      "price": 89376,
-      "price_card": 94113,
+      "price": 89984,
+      "price_card": 94753,
       "price_normal": null,
       "discount_pct": 40,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-msi-pro-b760m-p-lga1700-ddr4-2133-4800-mhz-m-2-x2-microatx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$89.376",
-        "Otros medios de pago": "$94.113"
+        "Transferencia o Depósito": "$89.984",
+        "Otros medios de pago": "$94.753"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 1359,
-      "store_id": "centrale",
-      "price": 96360,
-      "price_card": 101660,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-msi-pro-b760m-p-ddr4-socket-intel-lga-1700/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$96.360",
-        "Tarjetas de Crédito / Débito": "$101.660"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 32948,
@@ -77,25 +57,32 @@
       "full_url": "https://store.infor-ingen.com"
     },
     {
-      "product_id": 9473,
-      "store_id": "spdigital",
-      "price": 109995,
-      "price_card": 114945,
-      "price_normal": 219990,
-      "discount_pct": 50,
+      "product_id": 1359,
+      "store_id": "centrale",
+      "price": 99460,
+      "price_card": 104930,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/msi-pro-b760m-p-ddr4-motherboard",
-      "store_name": "SP Digital",
+      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-msi-pro-b760m-p-ddr4-socket-intel-lga-1700/",
+      "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$109.995",
-        "Webpay / Tarjeta": "$114.945"
+        "Transferencia / Efectivo": "$99.460",
+        "Tarjetas de Crédito / Débito": "$104.930"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 89984
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

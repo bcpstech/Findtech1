@@ -5,27 +5,32 @@
   "brand": "Western Digital",
   "name": "Disco SSD 2TB NVMe PCIe 4.0 WD Black SN850x con HeatSink 7300mb/s",
   "slug": "disco-ssd-2tb-nvme-pcie-4-0-wd-black-sn850x-con-heatsink-7300mb-s",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-2TB-WD-Black-SN850x-NVMe-PCIe-Gen4-con-HotSink_hGRgd6f-1.webp",
+  "image_url": "https://images.findtech.cl/products/disco-ssd-2tb-nvme-pcie-4-0-wd-black-sn850x-con-heatsink-7300mb-s.webp",
   "description": null,
   "specs": {
     "Capacidad": "2 TB",
     "Interfaz": "NVMe PCIe",
-    "Transferencia / Efectivo": "$381.640",
-    "Tarjetas de Crédito / Débito": "$402.630"
+    "Transferencia / Efectivo": "$428.830",
+    "Tarjeta crédito/débito": "$452.420"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1563,
       "store_id": "centrale",
-      "price": 381640,
+      "price": 428830,
+      "price_card": 452416,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-2tb-nvme-pcie-4-0-wd-black-sn850x-con-heatsink-7300mb-s/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$428.830",
+        "Tarjetas de Crédito / Débito": "$452.416"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -36,15 +41,9 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 381640
-    },
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 381640
+      "date": "2026-06-08",
+      "price": 428830
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-08"
 }

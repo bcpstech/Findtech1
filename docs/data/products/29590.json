@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-05-03 22:36:26",
-  "updated_at": "2026-05-08 22:59:44",
+  "updated_at": "2026-06-08 21:06:42",
   "prices": [
     {
       "product_id": 29590,
@@ -35,6 +35,13 @@
       "full_url": "https://www.megabytes.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-06-08",
+      "price": 929990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

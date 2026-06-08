@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/gabinete-gamer-msi-pano-130r-mlg-edition-mid-tower-incluye-4-ventiladores-rojo.png",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$139.995",
-    "Tarjeta crédito/débito": "$146.295"
+    "Efectivo/Transferencia": "$129.995",
+    "Tarjeta crédito/débito": "$135.845"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:01",
-  "updated_at": "2026-05-08 22:16:17",
+  "updated_at": "2026-06-08 20:45:44",
   "prices": [
     {
       "product_id": 9747,
       "store_id": "spdigital",
-      "price": 139995,
-      "price_card": 146295,
+      "price": 129995,
+      "price_card": 135845,
       "price_normal": 199990,
-      "discount_pct": 30,
+      "discount_pct": 35,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/gabinete-gamer-msi-pano-130r-mlg-edition-mid-tower-incluye-4-ventiladores-rojo",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$139.995",
-        "Webpay / Tarjeta": "$146.295"
+        "Transferencia / Efectivo": "$129.995",
+        "Webpay / Tarjeta": "$135.845"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -35,6 +35,13 @@
       "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 129995
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

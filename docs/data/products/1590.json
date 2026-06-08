@@ -5,30 +5,30 @@
   "brand": "Hpe",
   "name": "Cartucho de datos Hpe LTO-6 Ultrium RW, 6,25TB, 1,4TB/h, cifrado AES",
   "slug": "cartucho-de-datos-hpe-lto-6-ultrium-rw-6-25tb-1-4tb-h-cifrado-aes",
-  "image_url": "https://centrale.cl/wp-content/uploads/Hpe-Ultrium-Rw-Data-Cartridge-Lto-Ultrium-6-X-1-Soportes-De-Almacenamie_xU7Nhiw-1.webp",
+  "image_url": "https://images.findtech.cl/products/cartucho-de-datos-hpe-lto-6-ultrium-rw-6-25tb-1-4tb-h-cifrado-aes.webp",
   "description": null,
   "specs": {
     "Capacidad": "25 TB",
-    "Transferencia / Efectivo": "$52.360",
-    "Tarjeta crédito/débito": "$55.240"
+    "Transferencia / Efectivo": "$59.470",
+    "Tarjeta crédito/débito": "$62.740"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 1590,
       "store_id": "centrale",
-      "price": 52360,
-      "price_card": 55240,
-      "price_normal": 58890,
-      "discount_pct": 11,
+      "price": 59470,
+      "price_card": 62741,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/cartucho-de-datos-hpe-lto-6-ultrium-rw-625tb-14tb-h-cifrado-aes/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$52.360",
-        "Tarjetas de Crédito / Débito": "$55.240"
+        "Transferencia / Efectivo": "$59.470",
+        "Tarjetas de Crédito / Débito": "$62.741"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -36,6 +36,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 59470
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

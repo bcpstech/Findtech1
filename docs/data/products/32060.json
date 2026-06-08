@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/gabinete-gamer-antec-ax65-atx-vidrio-templado-4-ventiladores-argb.jpg",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$42.560",
-    "Tarjeta crédito/débito": "$44.816"
+    "Efectivo / Transferencia": "$41.952",
+    "Tarjeta crédito/débito": "$44.175"
   },
   "tags": [],
   "created_at": "2026-05-04 01:27:15",
-  "updated_at": "2026-05-08 22:50:30",
+  "updated_at": "2026-06-08 21:00:16",
   "prices": [
     {
       "product_id": 32060,
       "store_id": "winpy",
-      "price": 42560,
-      "price_card": 44816,
+      "price": 41952,
+      "price_card": 44175,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-gamer-antec-ax65-atx-vidrio-templado-4-ventiladores-argb/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$42.560",
-        "Otros medios de pago": "$44.816"
+        "Transferencia o Depósito": "$41.952",
+        "Otros medios de pago": "$44.175"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -35,6 +35,13 @@
       "full_url": "https://www.winpy.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 41952
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

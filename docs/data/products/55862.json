@@ -3,20 +3,20 @@
   "external_id": "pn_31aa065001p01pack",
   "category_id": "psu",
   "brand": "Cougar",
-  "name": "Pack 9 Unidades - Fuente de Poder 650W (Certificada) - Cougar  Atlas 650 (ATX 3.1) - 80 Plus Bronce - ATX  (Ensambladores, Mayoristas) ",
+  "name": "Pack 9 Unidades - Fuente de Poder 650W (Certificada) - Cougar ATLAS 650 (ATX 3.1) - 80 Plus Bronce - ATX  (Ensambladores, Mayoristas) ",
   "slug": "pack-9-unidades-fuente-de-poder-650w-certificada-cougar-atlas-650-atx-3-1-80-plus-bronce-atx-en",
   "image_url": "https://images.findtech.cl/products/pack-9-unidades-fuente-de-poder-650w-certificada-cougar-atlas-650-atx-3-1-80-plus-bronce-atx-ensambl.jpg",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$467.990",
-    "Tarjeta crédito/débito": "$493.729",
+    "Efectivo / Transferencia": "$449.990",
+    "Tarjeta crédito/débito": "$474.739",
     "Garantía": "6 meses",
     "SKU": "43133",
     "Part Number": "31AA065001P01-PACK"
   },
   "tags": [],
   "created_at": "2026-05-08 22:24:45",
-  "updated_at": "2026-05-08 22:24:45",
+  "updated_at": "2026-06-08 20:52:16",
   "prices": [
     {
       "product_id": 2259,
@@ -38,18 +38,37 @@
       "full_url": "https://www.dust2.gg"
     },
     {
+      "product_id": 61034,
+      "store_id": "centrale",
+      "price": 80330,
+      "price_card": 84748,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/fuente-cougar-atlas-650w-80plus-bronze-dc-dc-120mm-protecciones/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$80.330",
+        "Tarjetas de Crédito / Débito": "$84.748"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
       "product_id": 55862,
       "store_id": "myshop",
-      "price": 467990,
-      "price_card": 482030,
-      "price_normal": 493729,
+      "price": 449990,
+      "price_card": 463490,
+      "price_normal": 474739,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/pack-9-unidades-fuente-de-poder-650w-certificada-cougar-atlas-650-atx-31-80-plus-bronce-atx-p43133",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$467.990",
-        "Tarjeta crédito/débito": "$482.030"
+        "Efectivo/Transferencia": "$449.990",
+        "Tarjeta crédito/débito": "$463.490"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,6 +76,13 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-08",
+      "price": 449990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

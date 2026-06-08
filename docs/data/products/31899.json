@@ -17,26 +17,26 @@
     "Caché L3": "25 MB",
     "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$344.281",
-    "Tarjeta crédito/débito": "$359.774"
+    "Efectivo/Transferencia": "$353.316",
+    "Tarjeta crédito/débito": "$369.215"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:33",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 31899,
       "store_id": "winpy",
-      "price": 279680,
-      "price_card": 294503,
+      "price": 334400,
+      "price_card": 352123,
       "price_normal": null,
-      "discount_pct": 16,
+      "discount_pct": 8,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i7-12700kf-alder-lake-lga1700-12-cores-20-hilos-3-6-5-0-ghz-sin-video/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$279.680",
-        "Otros medios de pago": "$294.503"
+        "Transferencia o Depósito": "$334.400",
+        "Otros medios de pago": "$352.123"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -46,16 +46,16 @@
     {
       "product_id": 315,
       "store_id": "centrale",
-      "price": 288850,
-      "price_card": 304737,
-      "price_normal": 340240,
-      "discount_pct": 15,
+      "price": 349200,
+      "price_card": 368406,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-12700kf-3-6ghz-lga-1700/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$288.850",
-        "Tarjetas de Crédito / Débito": "$304.737"
+        "Transferencia / Efectivo": "$349.200",
+        "Tarjetas de Crédito / Débito": "$368.406"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -65,23 +65,49 @@
     {
       "product_id": 9421,
       "store_id": "spdigital",
-      "price": 344281,
-      "price_card": 359774,
-      "price_normal": 425100,
+      "price": 353316,
+      "price_card": 369215,
+      "price_normal": 436350,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-intel-core-i7-12700kf-12o-gen-36ghz-hasta-5ghz-socket-lga1700-sin-gráficas",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$344.281",
-        "Webpay / Tarjeta": "$359.774"
+        "Transferencia / Efectivo": "$353.316",
+        "Webpay / Tarjeta": "$369.215"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 59371,
+      "store_id": "cg",
+      "price": 400153,
+      "price_card": 421201,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-i7-12700kf-3-6-ghz-12-nucleos-20-hilos-25-mb-cache-lga1700-socket-caja-sin-refrigerante/",
+      "store_name": "CentralGamer",
+      "price_specs": {
+        "Efectivo/Transferencia": "$400.153",
+        "Webpay / Tarjeta": "$421.201"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 334400
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

@@ -3,9 +3,9 @@
   "external_id": "pn_912v532019",
   "category_id": "gpu",
   "brand": "MSI",
-  "name": "Tarjeta de Video - MSI GAMING TRIO Nvidia GeForce RTX  5070 12G OC Edition - 12 GB, GDDR7, 192 bits - PCIe 5.0 - DisplayPort, HDMI",
+  "name": "Tarjeta de Video Nvidia RTX 5070 12GB - MSI GAMING TRIO  OC Edition - GDDR7, 192 bits - PCIe 5.0 - DisplayPort, HDMI",
   "slug": "tarjeta-de-video-msi-gaming-trio-nvidia-geforce-rtx-5070-12g-oc-edition-12-gb-gddr7-192-bits-pc",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-msi-gaming-trio-nvidia-geforce-rtx-5070-12g-oc-edition-12-gb-gddr7-192-bits-pcie-5-.png",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-rtx-5070-12gb-msi-gaming-trio-oc-edition-gddr7-192-bits-pcie-5-0-displayport.png",
   "description": null,
   "specs": {
     "VRAM": "12 GB",
@@ -13,28 +13,29 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$824.990",
-    "Tarjeta crédito/débito": "$870.364",
+    "Efectivo / Transferencia": "$799.990",
+    "Tarjeta crédito/débito": "$843.989",
     "Garantía": "6 meses",
     "SKU": "37385",
     "Part Number": "912-V532-019"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:44",
-  "updated_at": "2026-05-03 22:40:02",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 19835,
       "store_id": "myshop",
-      "price": 824990,
-      "price_normal": 870364,
-      "discount_pct": 14,
+      "price": 799990,
+      "price_card": 823990,
+      "price_normal": 843989,
+      "discount_pct": 16,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/geforce-rtx-5070-12g-gaming-trio-oc-p37385",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$824.990",
-        "Tarjeta crédito/débito": "$870.364"
+        "Efectivo/Transferencia": "$799.990",
+        "Tarjeta crédito/débito": "$823.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,36 +43,34 @@
       "full_url": "https://www.myshop.cl"
     },
     {
-      "product_id": 1199,
-      "store_id": "centrale",
-      "price": 870490,
+      "product_id": 2638,
+      "store_id": "trulustore",
+      "price": 859990,
+      "price_card": 885790,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5070-12gb-gddr7-gaming-trio-oc-pcie-gen-5-250w/",
-      "store_name": "Centrale",
+      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-rtx-5070-12gb-msi-gaming-trio-oc/",
+      "store_name": "TruluStore",
+      "khipu_price": 877190,
       "price_specs": {
-        "Transferencia / Efectivo": "$870.490"
+        "Efectivo / Transferencia": "$859.990",
+        "Khipu": "$877.190",
+        "Tarjeta crédito/débito": "$885.790"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
     {
       "store_id": "myshop",
       "store_name": "MyShop",
-      "date": "2026-05-01",
-      "price": 824990
-    },
-    {
-      "store_id": "myshop",
-      "store_name": "MyShop",
-      "date": "2026-05-03",
-      "price": 824990
+      "date": "2026-06-08",
+      "price": 799990
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-06-08"
 }

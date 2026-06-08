@@ -12,26 +12,26 @@
     "Hilos": "32",
     "Frecuencia base": "4.5 GHz",
     "Socket": "AM5",
-    "Transferencia / Efectivo": "$633.370",
-    "Tarjeta crédito/débito": "$668.210"
+    "Transferencia / Efectivo": "$614.990",
+    "Tarjeta crédito/débito": "$648.810"
   },
   "tags": [],
   "created_at": "2026-04-27 00:32:17",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 2824,
       "store_id": "alltec",
-      "price": 625900,
-      "price_card": 644677,
+      "price": 599900,
+      "price_card": 617897,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/1883-amd-ryzen-9-7950x-45ghz-57ghz-turbo-sixteen-core-tdp-170w-am5-730143314534.html",
       "store_name": "Alltec",
       "price_specs": {
-        "Efectivo/Transferencia": "$625.900",
-        "Tarjeta crédito/débito": "$644.677"
+        "Efectivo/Transferencia": "$599.900",
+        "Tarjeta crédito/débito": "$617.897"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 287,
       "store_id": "centrale",
-      "price": 633370,
-      "price_card": 668205,
+      "price": 614990,
+      "price_card": 648814,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-7950x-4-5ghz-16-nucleos-32-hilos-socket-am5/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$633.370",
-        "Tarjetas de Crédito / Débito": "$668.205"
+        "Transferencia / Efectivo": "$614.990",
+        "Tarjetas de Crédito / Débito": "$648.814"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -77,6 +77,13 @@
       "full_url": "https://store.infor-ingen.com"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-08",
+      "price": 599900
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

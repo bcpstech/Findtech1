@@ -1,0 +1,72 @@
+{
+  "id": 59609,
+  "external_id": "spdigital_tarjeta-de-video-msi-nvidia-geforce-rtx-5070-shadow-2x-oc-12gb-gddr7-pcie-5-0-compacta",
+  "category_id": "gpu",
+  "brand": "NVIDIA",
+  "name": "Tarjeta de Video MSI Nvidia GeForce RTX 5070 Shadow 2X OC 12GB GDDR7 PCIe 5.0 Compacta",
+  "slug": "spdigital-tarjeta-de-video-msi-nvidia-geforce-rtx-5070-shadow-2x-oc-12gb-gddr7-pcie-5-0-compacta",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-msi-nvidia-geforce-rtx-5070-shadow-2x-oc-12gb-gddr7-pcie-5-0-compacta.jpg",
+  "description": null,
+  "specs": {
+    "VRAM": "12 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "192-bit",
+    "Arquitectura": "Blackwell",
+    "Variante": "OC (Overclocked)",
+    "Factor de forma": "Full-Height/Half-Length (FH/HL)",
+    "Efectivo/Transferencia": "$709.995",
+    "Tarjeta crédito/débito": "$741.945"
+  },
+  "tags": [],
+  "created_at": "2026-06-08 20:44:26",
+  "updated_at": "2026-06-08 21:47:04",
+  "prices": [
+    {
+      "product_id": 31868,
+      "store_id": "winpy",
+      "price": 689472,
+      "price_card": 726014,
+      "price_normal": null,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5070-shadow-2x-oc-de-12gb-gddr7/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Transferencia o Depósito": "$689.472",
+        "Otros medios de pago": "$726.014"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 59609,
+      "store_id": "spdigital",
+      "price": 709995,
+      "price_card": 741945,
+      "price_normal": 899990,
+      "discount_pct": 21,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/rtx-5070-12g-shadow-2x-oc",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$709.995",
+        "Webpay / Tarjeta": "$741.945"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 709995
+    }
+  ],
+  "scraped_at": "2026-06-08"
+}

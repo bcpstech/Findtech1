@@ -5,31 +5,31 @@
   "brand": "Intel",
   "name": "Procesador Intel Core i9-14900F LGA1700, 24 núcleos, 5.8GHz, 36MB",
   "slug": "procesador-intel-core-i9-14900f-lga1700-24-nucleos-5-8ghz-36mb",
-  "image_url": "https://centrale.cl/wp-content/uploads/Intel-Procesador-Core-I9-14900F-S-1700-2.0Ghz-24-Core-36Mb-Smart-Cache-1.webp",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i9-14900f-lga1700-24-nucleos-5-8ghz-36mb.webp",
   "description": null,
   "specs": {
     "Frecuencia base": "5.8 GHz",
     "Socket": "LGA1700",
-    "Transferencia / Efectivo": "$720.330",
-    "Tarjeta crédito/débito": "$759.950"
+    "Transferencia / Efectivo": "$718.380",
+    "Tarjeta crédito/débito": "$757.890"
   },
   "tags": [],
   "created_at": "2026-04-26 16:26:46",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 332,
       "store_id": "centrale",
-      "price": 720330,
-      "price_card": 759948,
+      "price": 718380,
+      "price_card": 757891,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900f-lga1700-24-nucleos-5-8ghz-36mb/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$720.330",
-        "Tarjetas de Crédito / Débito": "$759.948"
+        "Transferencia / Efectivo": "$718.380",
+        "Tarjetas de Crédito / Débito": "$757.891"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,6 +37,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 718380
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

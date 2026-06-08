@@ -5,28 +5,33 @@
   "brand": "AMD",
   "name": "AMD RYZEN 7 9800X3D 4.7GHz (5.2GHz TURBO) OCTA CORE (TDP 120W) (AM5)",
   "slug": "amd-ryzen-7-9800x3d-4-7ghz-5-2ghz-turbo-octa-core-tdp-120w-am5",
-  "image_url": "https://www.alltec.cl/12193-large_default/amd-ryzen-7-9800x3d-47ghz-52ghz-turbo-octa-core-tdp-120w-am5.jpg",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-7-9800x3d-4-7ghz-5-2ghz-turbo-octa-core-tdp-120w-am5.jpg",
   "description": null,
   "specs": {
-    "Frecuencia base": "4.7 GHz",
-    "Frecuencia turbo": "5.2 GHz",
-    "Socket": "AM5",
-    "Efectivo/Transferencia": "$536.900",
-    "Tarjeta crédito/débito": "$553.007"
+    "Núcleos": "8",
+    "Hilos": "16",
+    "Frecuencia base": "5.2 GHz",
+    "Transferencia / Efectivo": "$589.000",
+    "Tarjeta crédito/débito": "$621.400"
   },
   "tags": [],
   "created_at": "2026-04-27 00:32:01",
-  "updated_at": "2026-04-27 11:52:32",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 2817,
       "store_id": "alltec",
-      "price": 536900,
+      "price": 498900,
+      "price_card": 513867,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2348-amd-ryzen-7-9800x3d-47ghz-52ghz-turbo-octa-core-tdp-120w-am5.html",
       "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$498.900",
+        "Tarjeta crédito/débito": "$513.867"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
@@ -35,25 +40,49 @@
     {
       "product_id": 279,
       "store_id": "centrale",
-      "price": 550480,
+      "price": 589000,
+      "price_card": 621395,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-9800x3d-8-nucleos-16-hilos-47-a-52-ghz-amd-3d-v-cache/",
       "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$589.000",
+        "Tarjetas de Crédito / Débito": "$621.395"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 38832,
+      "store_id": "mybox",
+      "price": 642866,
+      "price_card": 662152,
+      "price_normal": 694990,
+      "discount_pct": 7,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/procesador/5720-procesador-amd-ryzen-7-9800x3d-.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$642.866",
+        "Tarjeta crédito/débito": "$662.152"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
     {
       "store_id": "alltec",
       "store_name": "Alltec",
-      "date": "2026-04-27",
-      "price": 536900
+      "date": "2026-06-08",
+      "price": 498900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-08"
 }

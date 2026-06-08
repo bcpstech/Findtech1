@@ -5,7 +5,7 @@
   "brand": "Genérico",
   "name": "PASTA DISIPADORA GAMEMAX TG3",
   "slug": "pasta-disipadora-gamemax-tg3",
-  "image_url": "https://images.findtech.cl/products/pasta-disipadora-gamemax-tg3.png",
+  "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
   "description": null,
   "specs": {
     "Efectivo / Transferencia": "$6.500",
@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-04-29 03:38:48",
-  "updated_at": "2026-05-08 22:18:44",
+  "updated_at": "2026-06-08 20:47:11",
   "prices": [
     {
       "product_id": 14337,
@@ -37,6 +37,13 @@
       "full_url": "https://www.trulustore.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-06-08",
+      "price": 6500
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

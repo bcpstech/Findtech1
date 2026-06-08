@@ -5,31 +5,31 @@
   "brand": "Intel",
   "name": "Procesador Intel Core i9-12900 Alder Lake LGA1700, 16 Cores, 24 Hilos",
   "slug": "procesador-intel-core-i9-12900-alder-lake-lga1700-16-cores-24-hilos",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i9-12900-Alder-Lake-LGA1700-16-Cores-24-Hilos_MEKPJob-1.webp",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i9-12900-alder-lake-lga1700-16-cores-24-hilos.webp",
   "description": null,
   "specs": {
     "Socket": "LGA1700",
     "Generación": "Intel 12ª Gen (Alder Lake)",
-    "Transferencia / Efectivo": "$495.070",
-    "Tarjeta crédito/débito": "$522.300"
+    "Transferencia / Efectivo": "$474.390",
+    "Tarjeta crédito/débito": "$500.480"
   },
   "tags": [],
   "created_at": "2026-04-26 16:26:20",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 325,
       "store_id": "centrale",
-      "price": 495070,
-      "price_card": 522299,
+      "price": 474390,
+      "price_card": 500481,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-12900-alder-lake-lga1700-16-cores-24-hilos/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$495.070",
-        "Tarjetas de Crédito / Débito": "$522.299"
+        "Transferencia / Efectivo": "$474.390",
+        "Tarjetas de Crédito / Débito": "$500.481"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,6 +37,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 474390
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

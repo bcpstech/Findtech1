@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 23:53:04",
-  "updated_at": "2026-05-08 23:02:53",
+  "updated_at": "2026-06-08 21:09:58",
   "prices": [
     {
       "product_id": 38868,
@@ -35,6 +35,13 @@
       "full_url": "https://www.mybox.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-06-08",
+      "price": 6189239
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

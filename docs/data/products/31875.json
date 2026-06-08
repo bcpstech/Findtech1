@@ -10,47 +10,79 @@
   "specs": {
     "VRAM": "16 GB",
     "Tipo memoria": "GDDR7",
-    "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$814.720",
-    "Tarjeta crédito/débito": "$857.900"
+    "Bus de memoria": "128-bit",
+    "Transferencia / Efectivo": "$682.490",
+    "Tarjeta crédito/débito": "$720.030"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:42",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 31875,
       "store_id": "winpy",
-      "price": 814720,
-      "price_card": 857900,
+      "price": 671840,
+      "price_card": 707448,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-dual-geforce-rtx-5060-ti-evo-oc-de-16gb-gddr7/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$814.720",
-        "Otros medios de pago": "$857.900"
+        "Transferencia o Depósito": "$671.840",
+        "Otros medios de pago": "$707.448"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1206,
+      "store_id": "centrale",
+      "price": 682490,
+      "price_card": 720027,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-dual-rtx-5060-ti-evo-16gb-gddr7-128-bit-pcie-5-0/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$682.490",
+        "Tarjetas de Crédito / Débito": "$720.027"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 38860,
+      "store_id": "mybox",
+      "price": 769491,
+      "price_card": 792576,
+      "price_normal": 809990,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/tarjeta-de-video/5895-tarjeta-de-video-asus-dual-rtx-5060-ti-oc-16gb-4711636014793.html",
+      "store_name": "MyBox",
+      "price_specs": {
+        "Efectivo/Transferencia": "$769.491",
+        "Tarjeta crédito/débito": "$792.576"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-04",
-      "price": 808032
-    },
-    {
-      "store_id": "winpy",
-      "store_name": "Winpy",
-      "date": "2026-05-05",
-      "price": 814720
+      "date": "2026-06-08",
+      "price": 671840
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-06-08"
 }

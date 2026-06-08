@@ -8,29 +8,29 @@
   "image_url": "https://images.findtech.cl/products/gabinete-gamemax-brufen-coc-s-fuente-axt-negro-ventiladores-120-mm-argb-incluidos-3-frontales-y-1-tr.png",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$61.990",
-    "Tarjeta crédito/débito": "$65.399",
+    "Efectivo / Transferencia": "$59.990",
+    "Tarjeta crédito/débito": "$63.289",
     "Garantía": "6 meses",
     "SKU": "39103",
     "Part Number": "BRUFEN COC"
   },
   "tags": [],
   "created_at": "2026-05-01 13:18:21",
-  "updated_at": "2026-05-08 22:23:21",
+  "updated_at": "2026-06-08 20:51:31",
   "prices": [
     {
       "product_id": 19878,
       "store_id": "myshop",
-      "price": 61990,
-      "price_card": 63850,
-      "price_normal": 65399,
-      "discount_pct": 22,
+      "price": 59990,
+      "price_card": 61790,
+      "price_normal": 63289,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/gabinete-gamemax-brufen-coc-sfuente-axt-negro-ventiladores-120-mm-rgb-incluidos-3-frontales-y-1-trasero-p39103",
       "store_name": "MyShop",
       "price_specs": {
-        "Efectivo/Transferencia": "$61.990",
-        "Tarjeta crédito/débito": "$63.850"
+        "Efectivo/Transferencia": "$59.990",
+        "Tarjeta crédito/débito": "$61.790"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,6 +38,13 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-08",
+      "price": 59990
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

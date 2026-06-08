@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 23:41:37",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 37922,
@@ -40,16 +40,16 @@
     {
       "product_id": 56546,
       "store_id": "centrale",
-      "price": 116530,
-      "price_card": 122939,
+      "price": 110130,
+      "price_card": 116187,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/unidad-de-estado-solido-e100-480gb-pci-e-gen-4-nvme-m-2-2280-hasta-5000mb-s/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$116.530",
-        "Tarjetas de Crédito / Débito": "$122.939"
+        "Transferencia / Efectivo": "$110.130",
+        "Tarjetas de Crédito / Débito": "$116.187"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,6 +57,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 99712
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

@@ -1,0 +1,88 @@
+{
+  "id": 61123,
+  "external_id": "winpy_procesador-amd-ryzen-7-5700-am4-8-cores-16-hilos-3-7-4-6ghz-16mb-cache",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "Procesador AMD Ryzen 7 5700 (AM4, 8 Cores, 16 Hilos, 3.7/4.6GHz, 16MB Caché)",
+  "slug": "winpy-procesador-amd-ryzen-7-5700-am4-8-cores-16-hilos-3-7-4-6ghz-16mb-cache",
+  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-7-5700-am4-8-cores-16-hilos-3-7-4-6ghz-16mb-cache.jpg",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "3.7 GHz",
+    "Frecuencia turbo": "4.6 GHz",
+    "Socket": "AM5",
+    "Efectivo / Transferencia": "$169.900",
+    "Tarjeta crédito/débito": "$174.997"
+  },
+  "tags": [],
+  "created_at": "2026-06-08 20:59:24",
+  "updated_at": "2026-06-08 21:47:04",
+  "prices": [
+    {
+      "product_id": 61123,
+      "store_id": "winpy",
+      "price": 159904,
+      "price_card": 168379,
+      "price_normal": null,
+      "discount_pct": 18,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-7-5700-am4-8-cores-16-hilos-3-7-4-6ghz-16mb-cache/",
+      "store_name": "Winpy",
+      "price_specs": {
+        "Transferencia o Depósito": "$159.904",
+        "Otros medios de pago": "$168.379"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 2816,
+      "store_id": "alltec",
+      "price": 169900,
+      "price_card": 174997,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/2494-amd-ryzen-7-5700-37ghz-46ghz-turbo-octa-core-tdp-65w-am5.html",
+      "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$169.900",
+        "Tarjeta crédito/débito": "$174.997"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 291,
+      "store_id": "centrale",
+      "price": 174360,
+      "price_card": 183950,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-5700-8-nucleos-3-7-a-4-6ghz-am4/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$174.360",
+        "Tarjetas de Crédito / Débito": "$183.950"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 159904
+    }
+  ],
+  "scraped_at": "2026-06-08"
+}

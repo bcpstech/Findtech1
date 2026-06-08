@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Factor de forma": "Midi Tower",
-    "Efectivo/Transferencia": "$89.995",
-    "Tarjeta crédito/débito": "$94.045"
+    "Efectivo/Transferencia": "$84.995",
+    "Tarjeta crédito/débito": "$88.820"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:00",
-  "updated_at": "2026-05-08 22:16:17",
+  "updated_at": "2026-06-08 20:45:44",
   "prices": [
     {
       "product_id": 9746,
       "store_id": "spdigital",
-      "price": 89995,
-      "price_card": 94045,
+      "price": 84995,
+      "price_card": 88820,
       "price_normal": 119990,
-      "discount_pct": 25,
+      "discount_pct": 29,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/gabinete-gamer-antec-c3-argb-black-mid-tower-atx-micro-atx-itx-4-fans-incluidos",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$89.995",
-        "Webpay / Tarjeta": "$94.045"
+        "Transferencia / Efectivo": "$84.995",
+        "Webpay / Tarjeta": "$88.820"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,16 +38,16 @@
     {
       "product_id": 1740,
       "store_id": "centrale",
-      "price": 93790,
-      "price_card": 98948,
+      "price": 93810,
+      "price_card": 98970,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-gamer-antec-c3-argb-atx-4-ventiladores-argb-incluidos/",
       "store_name": "Centrale",
       "price_specs": {
-        "Transferencia / Efectivo": "$93.790",
-        "Tarjetas de Crédito / Débito": "$98.948"
+        "Transferencia / Efectivo": "$93.810",
+        "Tarjetas de Crédito / Débito": "$98.970"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -93,6 +93,13 @@
       "full_url": "https://www.mybox.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 84995
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

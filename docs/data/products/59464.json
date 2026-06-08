@@ -1,0 +1,75 @@
+{
+  "id": 59464,
+  "external_id": "spdigital_procesador-intel-core-i7-14700k-lga1700-20-nucleos-28-hilos-5-6ghz",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i7-14700K, LGA1700, 20 Núcleos, 28 Hilos, 5,6Ghz",
+  "slug": "spdigital-procesador-intel-core-i7-14700k-lga1700-20-nucleos-28-hilos-5-6ghz",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i7-14700k-lga1700-20-nucleos-28-hilos-5-6ghz.png",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "5.6 GHz",
+    "Socket": "LGA 1700",
+    "Familia": "Intel® Core™ i7",
+    "Núcleos": "20",
+    "Hilos": "28",
+    "Frecuencia turbo": "5,6 GHz",
+    "Caché L3": "33 MB",
+    "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
+    "Gráficos integrados": "Intel UHD Graphics 770",
+    "Efectivo/Transferencia": "$458.086",
+    "Tarjeta crédito/débito": "$478.700"
+  },
+  "tags": [],
+  "created_at": "2026-06-08 20:43:24",
+  "updated_at": "2026-06-08 21:47:04",
+  "prices": [
+    {
+      "product_id": 309,
+      "store_id": "centrale",
+      "price": 457280,
+      "price_card": 482430,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700k-raptor-lake-s-lga1700-20-cores-28-hilos/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$457.280",
+        "Tarjetas de Crédito / Débito": "$482.430"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 59464,
+      "store_id": "spdigital",
+      "price": 458086,
+      "price_card": 478700,
+      "price_normal": 671980,
+      "discount_pct": 32,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/core-i7-14700k-3-40ghz-sktlga1700-3300m",
+      "store_name": "SP Digital",
+      "price_specs": {
+        "Transferencia / Efectivo": "$458.086",
+        "Webpay / Tarjeta": "$478.700"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 458086
+    }
+  ],
+  "scraped_at": "2026-06-08"
+}

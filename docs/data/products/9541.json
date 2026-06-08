@@ -12,71 +12,59 @@
     "Interfaz": "SATA",
     "Factor de forma": "2.5\"",
     "Lectura": "540 MB/s",
-    "Efectivo/Transferencia": "$463.668",
-    "Tarjeta crédito/débito": "$484.533"
+    "Efectivo/Transferencia": "$475.027",
+    "Tarjeta crédito/débito": "$496.403"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:08",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
-    {
-      "product_id": 1596,
-      "store_id": "centrale",
-      "price": 67750,
-      "price_card": 71476,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-240gb-crucial-bx500-3d-nand-sata-25/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$67.750",
-        "Tarjetas de Crédito / Débito": "$71.476"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 32021,
-      "store_id": "winpy",
-      "price": 129504,
-      "price_card": 136368,
-      "price_normal": null,
-      "discount_pct": 11,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/disco-de-estado-solido-crucial-bx500-de-1tb-ssd-3d-nand-sata-540-500-mb-s/",
-      "store_name": "Winpy",
-      "price_specs": {
-        "Transferencia o Depósito": "$129.504",
-        "Otros medios de pago": "$136.368"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
     {
       "product_id": 9541,
       "store_id": "spdigital",
-      "price": 463668,
-      "price_card": 484533,
-      "price_normal": 572650,
+      "price": 475027,
+      "price_card": 496403,
+      "price_normal": 586670,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ssd-bx500-4000gb-4tb-nand-sata-25-2",
       "store_name": "SP Digital",
       "price_specs": {
-        "Transferencia / Efectivo": "$463.668",
-        "Webpay / Tarjeta": "$484.533"
+        "Transferencia / Efectivo": "$475.027",
+        "Webpay / Tarjeta": "$496.403"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1579,
+      "store_id": "centrale",
+      "price": 500270,
+      "price_card": 527785,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/disco-ssd-4tb-crucial-bx500-25-sata/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$500.270",
+        "Tarjetas de Crédito / Débito": "$527.785"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 475027
+    }
+  ],
+  "scraped_at": "2026-06-08"
 }

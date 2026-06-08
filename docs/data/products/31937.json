@@ -11,46 +11,78 @@
     "Socket": "AM5",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
-    "Efectivo / Transferencia": "$102.144",
-    "Tarjeta crédito/débito": "$107.558"
+    "Transferencia / Efectivo": "$100.700",
+    "Tarjeta crédito/débito": "$106.240"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:52",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-06-08 21:47:04",
   "prices": [
     {
       "product_id": 31937,
       "store_id": "winpy",
-      "price": 102144,
-      "price_card": 107558,
+      "price": 96672,
+      "price_card": 101796,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b650m-f-am5-ddr5-1-m-2-hdmi-micro-atx/",
       "store_name": "Winpy",
       "price_specs": {
-        "Transferencia o Depósito": "$102.144",
-        "Otros medios de pago": "$107.558"
+        "Transferencia o Depósito": "$96.672",
+        "Otros medios de pago": "$101.796"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1332,
+      "store_id": "centrale",
+      "price": 100700,
+      "price_card": 106239,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b650m-f-micro-atx-amd-b650-socket-am5-ddr5/",
+      "store_name": "Centrale",
+      "price_specs": {
+        "Transferencia / Efectivo": "$100.700",
+        "Tarjetas de Crédito / Débito": "$106.239"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 23523,
+      "store_id": "alltec",
+      "price": 109000,
+      "price_card": 112270,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/para-amd/2483-mb-asus-prime-b650m-f-am5-ddr5-ryzen-700080009000.html",
+      "store_name": "Alltec",
+      "price_specs": {
+        "Efectivo/Transferencia": "$109.000",
+        "Tarjeta crédito/débito": "$112.270"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-04",
-      "price": 101536
-    },
-    {
-      "store_id": "winpy",
-      "store_name": "Winpy",
-      "date": "2026-05-05",
-      "price": 102144
+      "date": "2026-06-08",
+      "price": 96672
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-06-08"
 }
