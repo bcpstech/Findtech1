@@ -1,206 +1,201 @@
 /**
  * scraper/stores/bcpstech.js
- * BCPS Tech — WooCommerce HTML scraping
- * Base: bcpstech.cl
- * Categorías vía /categoria-producto/componentes-de-pc/...
+ * BCPS Tech — WooCommerce REST API
+ * Sin proxy, autenticación directa con Consumer Key/Secret
  */
 require('dotenv').config();
 const BaseScraper = require('../base-scraper');
-const cheerio = require('cheerio');
 
-const BASE       = 'https://bcpstech.cl';
-const PROXY_URL  = process.env.CF_PROXY_URL    || '';
-const PROXY_KEY  = process.env.CF_PROXY_SECRET || '';
+const BASE        = 'https://bcpstech.cl';
+const API_BASE    = `${BASE}/wp-json/wc/v3`;
+const CK          = process.env.BCPS_CK || 'ck_93e66e20fbd687bee4b8a87eb8f0e567dd87d7f1';
+const CS          = process.env.BCPS_CS || 'cs_da4e271a4031949fd967cb90d3078a15d07420ed';
 const CARD_FACTOR = 1.03;
 
-function proxify(url) {
-  if (!PROXY_URL) return url;
-  return `${PROXY_URL}?url=${encodeURIComponent(url)}&secret=${PROXY_KEY}`;
-}
-
-// ── Categorías — URLs verificadas desde el sitio ──────────────────────────
-const CATEGORIES = [
-  // PROCESADORES
-  { url: '/?product_cat=procesadores-amd',   catId: 'cpu', sub: 'amd'   },
-  { url: '/?product_cat=procesadores-intel', catId: 'cpu', sub: 'intel' },
-
-  // TARJETAS DE VIDEO
-  { url: '/?product_cat=tarjetas-de-video-nvidia', catId: 'gpu', sub: 'nvidia' },
-  { url: '/?product_cat=tarjetas-de-video-amd',    catId: 'gpu', sub: 'amd'    },
-
-  // PLACAS MADRE
-  { url: '/?product_cat=placas-madre-am5',    catId: 'mobo', sub: 'am5'    },
-  { url: '/?product_cat=placas-madre-am4',    catId: 'mobo', sub: 'am4'    },
-  { url: '/?product_cat=placas-madre-lga1700', catId: 'mobo', sub: 'lga1700' },
-  { url: '/?product_cat=placas-madre-lga1851', catId: 'mobo', sub: 'lga1851' },
-
-  // MEMORIAS RAM
-  { url: '/?product_cat=memorias-ddr5', catId: 'ram', sub: 'ddr5' },
-  { url: '/?product_cat=memorias-ddr4', catId: 'ram', sub: 'ddr4' },
-
-  // ALMACENAMIENTO
-  { url: '/?product_cat=discos-ssd', catId: 'storage', sub: 'nvme' },
-  { url: '/?product_cat=discos-duro', catId: 'storage', sub: 'hdd'  },
-
-  // REFRIGERACIÓN
-  { url: '/?product_cat=refrigeracion-liquida',  catId: 'cooling', sub: 'liquida' },
-  { url: '/?product_cat=refrigeracion-por-aire', catId: 'cooling', sub: 'aire'    },
-  { url: '/?product_cat=ventiladores-fans',       catId: 'cooling', sub: 'fans'    },
-
-  // FUENTES DE PODER
-  { url: '/?product_cat=fuentes-modulares',   catId: 'psu', sub: 'modular'    },
-  { url: '/?product_cat=fuentes-certificadas', catId: 'psu', sub: 'certificada' },
-
-  // GABINETES
-  { url: '/?product_cat=gabinetes-atx',          catId: 'case', sub: 'atx'  },
-  { url: '/?product_cat=gabinetes-micro-atx',    catId: 'case', sub: 'matx' },
-  { url: '/?product_cat=gabinetes-mini-itx',     catId: 'case', sub: 'itx'  },
-  { url: '/?product_cat=gabinetes-extended-atx', catId: 'case', sub: 'eatx' },
-];
-
-const OUT_OF_STOCK = ['sin stock', 'agotado', 'out of stock', 'no disponible'];
-
-function parsePrice(str) {
-  if (!str) return null;
-  const n = parseInt(String(str).replace(/[^\d]/g, ''));
-  return n > 1000 && n < 100000000 ? n : null;
-}
+// ── Categorías WooCommerce → FindTech ─────────────────────────────────────
+// Obtener IDs reales: GET /wp-json/wc/v3/products/categories?per_page=100
+const CATEGORY_MAP = {
+  // slug de WooCommerce → { catId, sub }
+  'procesadores-amd':          { catId: 'cpu',     sub: 'amd'      },
+  'procesadores-intel':        { catId: 'cpu',     sub: 'intel'    },
+  'tarjetas-de-video-nvidia':  { catId: 'gpu',     sub: 'nvidia'   },
+  'tarjetas-de-video-amd':     { catId: 'gpu',     sub: 'amd'      },
+  'placas-madre-am5':          { catId: 'mobo',    sub: 'am5'      },
+  'placas-madre-am4':          { catId: 'mobo',    sub: 'am4'      },
+  'placas-madre-lga1700':      { catId: 'mobo',    sub: 'lga1700'  },
+  'placas-madre-lga1851':      { catId: 'mobo',    sub: 'lga1851'  },
+  'memorias-ddr5':             { catId: 'ram',     sub: 'ddr5'     },
+  'memorias-ddr4':             { catId: 'ram',     sub: 'ddr4'     },
+  'discos-ssd':                { catId: 'storage', sub: 'nvme'     },
+  'discos-duro':               { catId: 'storage', sub: 'hdd'      },
+  'refrigeracion-liquida':     { catId: 'cooling', sub: 'liquida'  },
+  'refrigeracion-por-aire':    { catId: 'cooling', sub: 'aire'     },
+  'ventiladores-fans':         { catId: 'cooling', sub: 'fans'     },
+  'fuentes-modulares':         { catId: 'psu',     sub: 'modular'  },
+  'fuentes-certificadas':      { catId: 'psu',     sub: 'certificada' },
+  'gabinetes-atx':             { catId: 'case',    sub: 'atx'      },
+  'gabinetes-micro-atx':       { catId: 'case',    sub: 'matx'     },
+  'gabinetes-mini-itx':        { catId: 'case',    sub: 'itx'      },
+  'gabinetes-extended-atx':    { catId: 'case',    sub: 'eatx'     },
+};
 
 class BcpsTechScraper extends BaseScraper {
   constructor() {
     super('bcpstech', 'BCPS Tech');
-    this.seenUrls = new Set();
+    this.seenIds = new Set();
+  }
+
+  // Llamada autenticada a la API WooCommerce
+  async apiGet(endpoint, params = {}) {
+    const url = new URL(`${API_BASE}${endpoint}`);
+    url.searchParams.set('consumer_key',    CK);
+    url.searchParams.set('consumer_secret', CS);
+    Object.entries(params).forEach(([k, v]) => url.searchParams.set(k, v));
+
+    const res = await this.client.get(url.toString(), {
+      headers: {
+        'Accept':       'application/json',
+        'User-Agent':   'FindTech-Scraper/1.0',
+      },
+      timeout: 30000,
+    });
+    return res;
   }
 
   async scrapeAll() {
-    for (const cat of CATEGORIES) {
+    // 1. Obtener todas las categorías del sitio
+    this.log('info', '[bcpstech] Obteniendo categorías...');
+    let categories = [];
+    try {
+      const res = await this.apiGet('/products/categories', { per_page: 100, hide_empty: true });
+      categories = res.data;
+      this.log('info', `[bcpstech] ${categories.length} categorías encontradas`);
+    } catch (err) {
+      this.log('warn', `[bcpstech] Error obteniendo categorías: ${err.message}`);
+      return;
+    }
+
+    // 2. Filtrar solo las categorías que mapeamos
+    const targetCats = categories.filter(c => CATEGORY_MAP[c.slug]);
+    this.log('info', `[bcpstech] ${targetCats.length} categorías a scrapear`);
+
+    // 3. Scrapear productos por categoría
+    for (const cat of targetCats) {
       try {
         await this.scrapeCategory(cat);
-        await this.delay(2000, 3500);
+        await this.delay(1000, 2000);
       } catch (err) {
         this.stats.errors++;
-        this.log('warn', `[bcpstech] Error ${cat.catId}: ${err.message}`);
+        this.log('warn', `[bcpstech] Error ${cat.slug}: ${err.message}`);
       }
     }
   }
 
-  async scrapeCategory(cat) {
-    let page = 1;
+  async scrapeCategory(wcat) {
+    const mapping = CATEGORY_MAP[wcat.slug];
+    let page  = 1;
     let total = 0;
 
     while (page <= 20) {
-      const pageUrl = proxify(
-        page === 1
-          ? `${BASE}${cat.url}`
-          : `${BASE}${cat.url}&paged=${page}`
-      );
-      this.log('info', `[bcpstech] ${cat.catId}/${cat.sub} pág ${page}`);
+      this.log('info', `[bcpstech] ${mapping.catId}/${mapping.sub} (${wcat.slug}) pág ${page}`);
 
-      let $;
+      let products;
       try {
-        const res = await this.client.get(pageUrl, {
-          headers: {
-            Accept: 'text/html,application/xhtml+xml',
-            'Accept-Language': 'es-CL,es;q=0.9',
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/124.0 Safari/537.36',
-            Referer: BASE,
-          },
-          timeout: 25000,
+        const res = await this.apiGet('/products', {
+          category: wcat.id,
+          per_page: 100,
+          page,
+          status:   'publish',
+          orderby:  'date',
+          order:    'desc',
         });
-        $ = cheerio.load(res.data);
+        products = res.data;
       } catch (err) {
-        this.log('warn', `[bcpstech] HTTP: ${err.message}`);
+        this.log('warn', `[bcpstech] API error ${wcat.slug} pág ${page}: ${err.message}`);
         break;
       }
 
-      // WooCommerce estándar
-      const items = $('ul.products li.product, .products .product');
-      if (!items.length) {
-        this.log('info', `[bcpstech] Sin productos pág ${page}`);
-        break;
-      }
+      if (!Array.isArray(products) || !products.length) break;
 
-      let newInPage = 0;
-      for (const el of items.toArray()) {
+      for (const p of products) {
         try {
-          const $el = $(el);
-
-          // URL
-          const productUrl = $el.find('a.woocommerce-loop-product__link, a').first().attr('href') || '';
-          if (!productUrl || this.seenUrls.has(productUrl)) continue;
-          this.seenUrls.add(productUrl);
-
-          // Nombre
-          const name = $el.find('.woocommerce-loop-product__title, h2').first().text().trim();
-          if (!name || name.length < 4) continue;
-
-          // Precio — precio con descuento (ins) o precio normal
-          const priceRaw = $el.find('.price ins .amount').first().text()
-                        || $el.find('.price .amount').first().text()
-                        || $el.find('.price').first().text();
-          const price = parsePrice(priceRaw);
-          if (!price) continue;
-
-          // Precio normal tachado
-          const normalRaw  = $el.find('.price del .amount').first().text();
-          const priceNormal = normalRaw ? parsePrice(normalRaw) : null;
-          const discount    = priceNormal && priceNormal > price
-            ? Math.round((1 - price / priceNormal) * 100) : null;
-
-          const priceCard = Math.round(price * CARD_FACTOR);
-
-          // Stock
-          const txt   = $el.text().toLowerCase();
-          const stock = OUT_OF_STOCK.some(p => txt.includes(p)) || $el.find('.out-of-stock').length
-            ? 'out_of_stock' : 'in_stock';
-
-          // Imagen — lazy loading
-          const imgEl    = $el.find('img').first();
-          let   imageUrl = imgEl.attr('data-lazy-src')
-                        || imgEl.attr('data-src')
-                        || imgEl.attr('src')
-                        || null;
-          if (imageUrl?.startsWith('data:') || (imageUrl?.length || 0) < 20) imageUrl = null;
-
-          this.stats.found++;
-          newInPage++;
-
-          await this.saveProductWithR2(
-            {
-              name,
-              category: cat.catId,
-              brand:    this.extractBrand(name),
-              imageUrl,
-              specs: {
-                'Efectivo/Transferencia': `$${price.toLocaleString('es-CL')}`,
-                'Tarjeta crédito/débito': `$${priceCard.toLocaleString('es-CL')}`,
-              },
-            },
-            {
-              current:  price,
-              card:     priceCard,
-              normal:   priceNormal && priceNormal > price ? priceNormal : null,
-              discount,
-              stock,
-              url: productUrl,
-            }
-          );
+          await this.processProduct(p, mapping);
         } catch (err) {
-          this.log('warn', `[bcpstech] item: ${err.message}`);
+          this.log('warn', `[bcpstech] Error producto ${p.id}: ${err.message}`);
         }
       }
 
-      total += newInPage;
-      this.log('info', `[bcpstech] ✓ pág ${page}: ${newInPage}`);
+      total += products.length;
+      this.log('info', `[bcpstech] ✓ ${wcat.slug} pág ${page}: ${products.length}`);
 
-      // Siguiente página
-      const hasNext = $('a.next.page-numbers, .woocommerce-pagination a.next').length > 0;
-      if (!hasNext || newInPage === 0) break;
+      if (products.length < 100) break;
       page++;
-      await this.delay(1500, 2500);
+      await this.delay(500, 1000);
     }
 
-    this.log('info', `[bcpstech] ✓ ${cat.url}: ${total} total`);
+    this.log('info', `[bcpstech] ✓ ${wcat.slug}: ${total} total`);
+  }
+
+  async processProduct(p, mapping) {
+    if (this.seenIds.has(p.id)) return;
+    this.seenIds.add(p.id);
+
+    const name = p.name?.trim();
+    if (!name) return;
+
+    // Precio — WooCommerce devuelve como string
+    const price = parseInt(p.price) || parseInt(p.regular_price) || 0;
+    if (!price || price < 1000) return;
+
+    const regularPrice = parseInt(p.regular_price) || 0;
+    const salePrice    = parseInt(p.sale_price)    || 0;
+    const priceNormal  = salePrice && regularPrice > salePrice ? regularPrice : null;
+    const discount     = priceNormal
+      ? Math.round((1 - price / priceNormal) * 100) : null;
+    const priceCard    = Math.round(price * CARD_FACTOR);
+
+    // Stock
+    const stock = p.stock_status === 'instock' ? 'in_stock' : 'out_of_stock';
+
+    // Imagen
+    const imageUrl = p.images?.[0]?.src || null;
+
+    // Specs desde atributos WooCommerce
+    const specs = {};
+    if (p.attributes?.length) {
+      for (const attr of p.attributes) {
+        const key = attr.name;
+        const val = attr.options?.join(', ') || '';
+        if (key && val && key.length < 60 && val.length < 120) {
+          specs[key] = val;
+        }
+      }
+    }
+    specs['Efectivo/Transferencia'] = `$${price.toLocaleString('es-CL')}`;
+    specs['Tarjeta crédito/débito'] = `$${priceCard.toLocaleString('es-CL')}`;
+
+    // SKU como partNumber para deduplicación entre tiendas
+    const partNumber = p.sku || null;
+
+    this.stats.found++;
+    await this.saveProductWithR2(
+      {
+        name,
+        category:    mapping.catId,
+        brand:       this.extractBrand(name),
+        imageUrl,
+        specs,
+        partNumber,
+      },
+      {
+        current:  price,
+        card:     priceCard,
+        normal:   priceNormal,
+        discount,
+        stock,
+        url: `${BASE}/?p=${p.id}`,
+      }
+    );
   }
 }
 
