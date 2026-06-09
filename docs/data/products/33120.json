@@ -17,18 +17,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:45:20",
-  "updated_at": "2026-06-08 21:18:45",
+  "updated_at": "2026-06-09 01:44:43",
   "prices": [
     {
       "product_id": 33120,
       "store_id": "infor-ingen",
       "price": 118900,
-      "price_card": 122467,
       "price_normal": 126035,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/m-b-asrock-b450m-steel-legend-2/",
       "store_name": "Infor-Ingen",
+      "price_card": 122467,
       "price_specs": {
         "Efectivo/Transferencia": "$118.900",
         "Tarjeta crédito/débito": "$122.467"
@@ -42,12 +42,12 @@
       "product_id": 604,
       "store_id": "n1g",
       "price": 249900,
-      "price_card": 263145,
       "price_normal": 263053,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3670-asrock-b860m-steel-legend-wifi-lga-1851-intel-b860-sata-6-gbs-intel-core-ultra-ddr5-micro-atx.html",
       "store_name": "N1G",
+      "price_card": 263145,
       "price_specs": {
         "Efectivo/Transferencia": "$249.900",
         "Tarjeta crédito/débito": "$263.145"
@@ -61,12 +61,12 @@
       "product_id": 1321,
       "store_id": "centrale",
       "price": 269000,
-      "price_card": 283795,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asrock-b850-steel-legend-wifi-atx-am5-ddr5-pcie-5-0-wifi-7/",
       "store_name": "Centrale",
+      "price_card": 283795,
       "price_specs": {
         "Transferencia / Efectivo": "$269.000",
         "Tarjetas de Crédito / Débito": "$283.795"
@@ -80,12 +80,12 @@
       "product_id": 23517,
       "store_id": "alltec",
       "price": 299900,
-      "price_card": 308897,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/para-amd/2184-mb-asrock-b650e-steel-legend-wifi-am5-ddr5-ryzen-70008000.html",
       "store_name": "Alltec",
+      "price_card": 308897,
       "price_specs": {
         "Efectivo/Transferencia": "$299.900",
         "Tarjeta crédito/débito": "$308.897"
@@ -102,7 +102,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-08",
       "price": 118900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-09",
+      "price": 118900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

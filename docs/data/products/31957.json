@@ -17,18 +17,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:23:32",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 31954,
       "store_id": "winpy",
       "price": 159904,
-      "price_card": 168379,
       "price_normal": null,
       "discount_pct": 20,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b860m-a-lga1851-ddr5-8666-mhz-m-2-microatx/",
       "store_name": "Winpy",
+      "price_card": 168379,
       "price_specs": {
         "Transferencia o Depósito": "$159.904",
         "Otros medios de pago": "$168.379"
@@ -42,12 +42,12 @@
       "product_id": 60631,
       "store_id": "centrale",
       "price": 173460,
-      "price_card": 183000,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b860m-a-wifi-lga1851-ddr5-4-slots-wifi-6e/",
       "store_name": "Centrale",
+      "price_card": 183000,
       "price_specs": {
         "Transferencia / Efectivo": "$173.460",
         "Tarjetas de Crédito / Débito": "$183.000"
@@ -61,12 +61,12 @@
       "product_id": 38883,
       "store_id": "mybox",
       "price": 185491,
-      "price_card": 191056,
       "price_normal": 211990,
       "discount_pct": 13,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/placa-madre/5951-placa-madre-asus-prime-b860m-a-4711387819845.html",
       "store_name": "MyBox",
+      "price_card": 191056,
       "price_specs": {
         "Efectivo/Transferencia": "$185.491",
         "Tarjeta crédito/débito": "$191.056"
@@ -83,7 +83,13 @@
       "store_name": "Winpy",
       "date": "2026-06-08",
       "price": 185440
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-09",
+      "price": 185440
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

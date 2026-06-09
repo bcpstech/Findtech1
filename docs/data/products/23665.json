@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-03 04:35:17",
-  "updated_at": "2026-06-08 20:56:00",
+  "updated_at": "2026-06-09 01:00:56",
   "prices": [
     {
       "product_id": 23665,
       "store_id": "alltec",
       "price": 19900,
-      "price_card": 20497,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/sin-fuente-de-poder/694-cooler-master-led-partition-plate-rgb-mc500-mc600.html",
       "store_name": "Alltec",
+      "price_card": 20497,
       "price_specs": {
         "Efectivo/Transferencia": "$19.900",
         "Tarjeta crédito/débito": "$20.497"
@@ -41,7 +41,13 @@
       "store_name": "Alltec",
       "date": "2026-06-08",
       "price": 19900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 19900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

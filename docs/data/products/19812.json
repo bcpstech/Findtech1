@@ -20,18 +20,18 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:30",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 19812,
       "store_id": "myshop",
       "price": 338990,
-      "price_card": 349160,
       "price_normal": 357634,
       "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/geforce-rtx-5050-windforce-oc-v2-8g-p41146",
       "store_name": "MyShop",
+      "price_card": 349160,
       "price_specs": {
         "Efectivo/Transferencia": "$338.990",
         "Tarjeta crédito/débito": "$349.160"
@@ -48,7 +48,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 338990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 338990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -21,18 +21,18 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:47",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 19843,
       "store_id": "myshop",
       "price": 1649990,
-      "price_card": 1699490,
       "price_normal": 1740739,
       "discount_pct": 17,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/rtx-5080-16g-shadow-3x-oc-p42285",
       "store_name": "MyShop",
+      "price_card": 1699490,
       "price_specs": {
         "Efectivo/Transferencia": "$1.649.990",
         "Tarjeta crédito/débito": "$1.699.490"
@@ -49,7 +49,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 1649990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 1649990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

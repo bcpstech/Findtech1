@@ -1,42 +1,94 @@
 {
   "id": 1206,
-  "external_id": "centrale_fuente-de-poder-gigabyte-gp-ud750gm-pg5-750w-80-plus-gold-full-modular",
-  "category_id": "psu",
-  "brand": "Gigabyte",
-  "name": "Fuente de Poder Gigabyte GP-UD750GM-PG5 750W, 80 Plus Gold, Full Modular",
-  "slug": "fuente-de-poder-gigabyte-gp-ud750gm-pg5-750w-80-plus-gold-full-modular",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gigabyte-Fuente-De-Poder-750W-Certificacion-Bronce-Conector-Pg5-Color-Negro.webp",
+  "external_id": "centrale_tarjeta-grafica-asus-dual-rtx-5060-ti-evo-16gb-gddr7-128-bit-pcie-5-0",
+  "category_id": "gpu",
+  "brand": "Asus",
+  "name": "Tarjeta Gráfica Asus Dual RTX 5060 Ti EVO 16GB GDDR7 128-bit PCIe 5.0",
+  "slug": "tarjeta-grafica-asus-dual-rtx-5060-ti-evo-16gb-gddr7-128-bit-pcie-5-0",
+  "image_url": "https://images.findtech.cl/products/tarjeta-grafica-asus-dual-rtx-5060-ti-evo-16gb-gddr7-128-bit-pcie-5-0.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$90.390",
-    "Tarjetas de Crédito / Débito": "$95.360"
+    "VRAM": "16 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "128-bit",
+    "Transferencia / Efectivo": "$671.490",
+    "Tarjeta crédito/débito": "$708.420"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:46",
-  "updated_at": "2026-04-25 19:37:46",
+  "created_at": "2026-04-26 20:37:32",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1206,
       "store_id": "centrale",
-      "price": 90390,
+      "price": 671490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-gigabyte-gp-ud750gm-pg5-750w-80-plus-gold-full-modular/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-dual-rtx-5060-ti-evo-16gb-gddr7-128-bit-pcie-5-0/",
       "store_name": "Centrale",
+      "price_card": 708422,
+      "price_specs": {
+        "Transferencia / Efectivo": "$671.490",
+        "Tarjetas de Crédito / Débito": "$708.422"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 31875,
+      "store_id": "winpy",
+      "price": 671840,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-dual-geforce-rtx-5060-ti-evo-oc-de-16gb-gddr7/",
+      "store_name": "Winpy",
+      "price_card": 707448,
+      "price_specs": {
+        "Transferencia o Depósito": "$671.840",
+        "Otros medios de pago": "$707.448"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 38860,
+      "store_id": "mybox",
+      "price": 769491,
+      "price_normal": 809990,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/tarjeta-de-video/5895-tarjeta-de-video-asus-dual-rtx-5060-ti-oc-16gb-4711636014793.html",
+      "store_name": "MyBox",
+      "price_card": 792576,
+      "price_specs": {
+        "Efectivo/Transferencia": "$769.491",
+        "Tarjeta crédito/débito": "$792.576"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 90390
+      "date": "2026-06-08",
+      "price": 682490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 671490
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-06-09"
 }

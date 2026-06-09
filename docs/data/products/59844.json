@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:46:03",
-  "updated_at": "2026-06-08 20:46:03",
+  "updated_at": "2026-06-09 00:42:16",
   "prices": [
     {
       "product_id": 59844,
       "store_id": "spdigital",
       "price": 118990,
-      "price_card": 124345,
       "price_normal": 314980,
       "discount_pct": 62,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/segunda-seleccion-gabinete-gamer-xyz-neutron-diseno-panoramico-doble-camara-pantalla-frontal-4-f",
       "store_name": "SP Digital",
+      "price_card": 124345,
       "price_specs": {
         "Transferencia / Efectivo": "$118.990",
         "Webpay / Tarjeta": "$124.345"
@@ -41,7 +41,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 118990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 118990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

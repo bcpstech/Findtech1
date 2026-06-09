@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1589,
       "store_id": "centrale",
       "price": 117480,
-      "price_card": 123941,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-hdd-2tb-seagate-skyhawk-3-5-sata-6gb-s-5400rpm-video-vigilancia/",
       "store_name": "Centrale",
+      "price_card": 123941,
       "price_specs": {
         "Transferencia / Efectivo": "$117.480",
         "Tarjetas de Crédito / Débito": "$123.941"
@@ -44,7 +44,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 117480
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 117480
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

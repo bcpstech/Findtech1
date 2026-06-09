@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:58:17",
-  "updated_at": "2026-06-08 21:44:56",
+  "updated_at": "2026-06-09 02:18:39",
   "prices": [
     {
       "product_id": 33892,
       "store_id": "infor-ingen",
       "price": 76900,
-      "price_card": 79207,
       "price_normal": 81514,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/gabinete-cooler-master-masterbox-mb311l-argb/",
       "store_name": "Infor-Ingen",
+      "price_card": 79207,
       "price_specs": {
         "Efectivo/Transferencia": "$76.900",
         "Tarjeta crédito/débito": "$79.207"
@@ -41,7 +41,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-08",
       "price": 76900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-09",
+      "price": 76900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

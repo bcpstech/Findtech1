@@ -15,18 +15,18 @@
   },
   "tags": [],
   "created_at": "2026-05-08 23:01:23",
-  "updated_at": "2026-06-08 21:08:19",
+  "updated_at": "2026-06-09 01:28:35",
   "prices": [
     {
       "product_id": 57752,
       "store_id": "progaming",
       "price": 30990,
-      "price_card": 31920,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/disipador-cooler-master-hyper-212-3dhp-black-argb-negro/",
       "store_name": "ProGaming",
+      "price_card": 31920,
       "price_specs": {
         "Efectivo/Transferencia": "$30.990",
         "Tarjeta crédito/débito": "$31.920"
@@ -40,12 +40,12 @@
       "product_id": 9607,
       "store_id": "spdigital",
       "price": 31995,
-      "price_card": 33435,
       "price_normal": 69990,
       "discount_pct": 54,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/disipador-de-cpu-hyper-212-3dhp-black-argb-120mm-intelamd",
       "store_name": "SP Digital",
+      "price_card": 33435,
       "price_specs": {
         "Transferencia / Efectivo": "$31.995",
         "Webpay / Tarjeta": "$33.435"
@@ -59,12 +59,12 @@
       "product_id": 60953,
       "store_id": "centrale",
       "price": 34110,
-      "price_card": 35986,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-cooler-master-hyper-212-3dhp-negro-argb/",
       "store_name": "Centrale",
+      "price_card": 35986,
       "price_specs": {
         "Transferencia / Efectivo": "$34.110",
         "Tarjetas de Crédito / Débito": "$35.986"
@@ -81,7 +81,13 @@
       "store_name": "ProGaming",
       "date": "2026-06-08",
       "price": 30990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-06-09",
+      "price": 30990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

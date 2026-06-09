@@ -11,26 +11,45 @@
     "Frecuencia base": "5.5 GHz",
     "Caché L3": "30 MB",
     "Socket": "LGA1851",
-    "Efectivo / Transferencia": "$376.960",
-    "Tarjeta crédito/débito": "$396.939"
+    "Efectivo / Transferencia": "$384.864",
+    "Tarjeta crédito/débito": "$405.262"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:57",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
+    {
+      "product_id": 316,
+      "store_id": "centrale",
+      "price": 357810,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265k-20-nucleos-3-9ghz-a-5-5ghz-lga-1851/",
+      "store_name": "Centrale",
+      "price_card": 377490,
+      "price_specs": {
+        "Transferencia / Efectivo": "$357.810",
+        "Tarjetas de Crédito / Débito": "$377.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
     {
       "product_id": 31911,
       "store_id": "winpy",
-      "price": 376960,
-      "price_card": 396939,
+      "price": 384864,
       "price_normal": null,
-      "discount_pct": 23,
+      "discount_pct": 21,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-ultra-7-265k-lga1851-3-3-5-5-ghz-8-p-cores-12-e-cores-30mb-cache/",
       "store_name": "Winpy",
+      "price_card": 405262,
       "price_specs": {
-        "Transferencia o Depósito": "$376.960",
-        "Otros medios de pago": "$396.939"
+        "Transferencia o Depósito": "$384.864",
+        "Otros medios de pago": "$405.262"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,15 +61,15 @@
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-04",
-      "price": 376960
+      "date": "2026-06-08",
+      "price": 384864
     },
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-05",
-      "price": 376960
+      "date": "2026-06-09",
+      "price": 384864
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-06-09"
 }

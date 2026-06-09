@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:42",
-  "updated_at": "2026-06-08 20:45:26",
+  "updated_at": "2026-06-09 00:41:03",
   "prices": [
     {
       "product_id": 9713,
       "store_id": "spdigital",
       "price": 209504,
-      "price_card": 218932,
       "price_normal": 258770,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/rog-strix-1000w-platinum",
       "store_name": "SP Digital",
+      "price_card": 218932,
       "price_specs": {
         "Transferencia / Efectivo": "$209.504",
         "Webpay / Tarjeta": "$218.932"
@@ -39,12 +39,12 @@
       "product_id": 2237,
       "store_id": "dust2",
       "price": 209990,
-      "price_card": 216290,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-asus-rog-strix-1000w-platinum/",
       "store_name": "Dust2",
+      "price_card": 216290,
       "price_specs": {
         "Efectivo/Transferencia": "$209.990",
         "Tarjeta crédito/débito": "$216.290"
@@ -58,12 +58,12 @@
       "product_id": 1705,
       "store_id": "centrale",
       "price": 210310,
-      "price_card": 221877,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-1000w-asus-rog-strix-1000p-gaming-full-modular-80-platinum/",
       "store_name": "Centrale",
+      "price_card": 221877,
       "price_specs": {
         "Transferencia / Efectivo": "$210.310",
         "Tarjetas de Crédito / Débito": "$221.877"
@@ -77,12 +77,12 @@
       "product_id": 2657,
       "store_id": "trulustore",
       "price": 224490,
-      "price_card": 231225,
       "price_normal": 299990,
       "discount_pct": 25,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/fuente-de-poder-asus-rog-strix-1000p-de-1000w-80-platinum-full-modular-atx-3-1/",
       "store_name": "TruluStore",
+      "price_card": 231225,
       "khipu_price": 228980,
       "price_specs": {
         "Efectivo / Transferencia": "$224.490",
@@ -101,7 +101,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 209504
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 209504
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

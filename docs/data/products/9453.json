@@ -18,18 +18,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:22",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 9453,
       "store_id": "spdigital",
       "price": 229990,
-      "price_card": 240340,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-msi-b650m-gaming-plus-wifi-am5-ddr5-hdmidp-usb-c-25g-lan-wi-fi-6e-bt-53-matx",
       "store_name": "SP Digital",
+      "price_card": 240340,
       "price_specs": {
         "Transferencia / Efectivo": "$229.990",
         "Webpay / Tarjeta": "$240.340"
@@ -46,7 +46,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 229990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 229990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

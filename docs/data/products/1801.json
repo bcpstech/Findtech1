@@ -17,18 +17,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:28",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1801,
       "store_id": "dust2",
       "price": 421990,
-      "price_card": 434650,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-asus-dual-geforce-rtx-5060-evo-oc-8gb-gddr7/",
       "store_name": "Dust2",
+      "price_card": 434650,
       "price_specs": {
         "Efectivo/Transferencia": "$421.990",
         "Tarjeta crédito/débito": "$434.650"
@@ -42,12 +42,12 @@
       "product_id": 38862,
       "store_id": "mybox",
       "price": 424566,
-      "price_card": 437303,
       "price_normal": 458990,
       "discount_pct": 7,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/tarjeta-de-video/5891-tarjeta-de-video-asus-dual-rtx-5060-oc-8gb-4711636057905.html",
       "store_name": "MyBox",
+      "price_card": 437303,
       "price_specs": {
         "Efectivo/Transferencia": "$424.566",
         "Tarjeta crédito/débito": "$437.303"
@@ -61,12 +61,12 @@
       "product_id": 31855,
       "store_id": "winpy",
       "price": 429856,
-      "price_card": 452638,
       "price_normal": null,
       "discount_pct": 26,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-dual-geforce-rtx-5060-oc-de-8gb-gddr7/",
       "store_name": "Winpy",
+      "price_card": 452638,
       "price_specs": {
         "Transferencia o Depósito": "$429.856",
         "Otros medios de pago": "$452.638"
@@ -77,34 +77,15 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 1131,
-      "store_id": "cg",
-      "price": 449990,
-      "price_card": 473659,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/tarjetas-de-video/tarjeta-de-video-asus-dual-rtx-5060-oc-8gb-evo/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$449.990",
-        "Webpay / Tarjeta": "$473.659"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
-    },
-    {
       "product_id": 1245,
       "store_id": "centrale",
       "price": 459910,
-      "price_card": 485205,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-dual-geforce-rtx-5060-8gb-gddr7-oc-edition/",
       "store_name": "Centrale",
+      "price_card": 485205,
       "price_specs": {
         "Transferencia / Efectivo": "$459.910",
         "Tarjetas de Crédito / Débito": "$485.205"
@@ -121,7 +102,13 @@
       "store_name": "Dust2",
       "date": "2026-06-08",
       "price": 421990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-09",
+      "price": 421990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

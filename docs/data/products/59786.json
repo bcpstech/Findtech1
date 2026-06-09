@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:45:40",
-  "updated_at": "2026-06-08 20:45:40",
+  "updated_at": "2026-06-09 00:41:44",
   "prices": [
     {
       "product_id": 59786,
       "store_id": "spdigital",
       "price": 57990,
-      "price_card": 60600,
       "price_normal": 84990,
       "discount_pct": 32,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/segunda-seleccion-fuente-de-poder-corsair-cx650-650w-certificacion-80-plus-bronze",
       "store_name": "SP Digital",
+      "price_card": 60600,
       "price_specs": {
         "Transferencia / Efectivo": "$57.990",
         "Webpay / Tarjeta": "$60.600"
@@ -41,7 +41,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 57990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 57990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

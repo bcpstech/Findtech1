@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:58:26",
-  "updated_at": "2026-06-08 21:45:44",
+  "updated_at": "2026-06-09 02:19:06",
   "prices": [
     {
       "product_id": 33900,
       "store_id": "infor-ingen",
       "price": 79900,
-      "price_card": 82297,
       "price_normal": 84693,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/gabinete-asus-a21/",
       "store_name": "Infor-Ingen",
+      "price_card": 82297,
       "price_specs": {
         "Efectivo/Transferencia": "$79.900",
         "Tarjeta crédito/débito": "$82.297"
@@ -35,23 +35,23 @@
       "full_url": "https://store.infor-ingen.com"
     },
     {
-      "product_id": 835,
-      "store_id": "n1g",
-      "price": 83000,
-      "price_card": 87399,
-      "price_normal": 87368,
-      "discount_pct": 5,
+      "product_id": 25483,
+      "store_id": "centrale",
+      "price": 89470,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2813-gabinete-asus-a21-blk-micro-atx-.html",
-      "store_name": "N1G",
+      "product_url": "https://centrale.cl/producto/gabinete-gamer-asus-a21-micro-atx-vidrio-templado-malla-frontal-negro/",
+      "store_name": "Centrale",
+      "price_card": 94391,
       "price_specs": {
-        "Efectivo/Transferencia": "$83.000",
-        "Tarjeta crédito/débito": "$87.399"
+        "Transferencia / Efectivo": "$89.470",
+        "Tarjetas de Crédito / Débito": "$94.391"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -60,7 +60,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-08",
       "price": 79900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-09",
+      "price": 79900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

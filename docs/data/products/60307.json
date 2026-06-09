@@ -20,18 +20,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:54:02",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 31909,
       "store_id": "winpy",
       "price": 309472,
-      "price_card": 325874,
       "price_normal": null,
       "discount_pct": 44,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-ultra-7-265kf-lga1851-3-3-5-5-ghz-8-p-cores-12-e-cores-30mb-cache-sin-video/",
       "store_name": "Winpy",
+      "price_card": 325874,
       "price_specs": {
         "Transferencia o Depósito": "$309.472",
         "Otros medios de pago": "$325.874"
@@ -45,12 +45,12 @@
       "product_id": 313,
       "store_id": "centrale",
       "price": 336580,
-      "price_card": 355092,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265kf-lga-1851-20-nucleos-3-9-5-5ghz/",
       "store_name": "Centrale",
+      "price_card": 355092,
       "price_specs": {
         "Transferencia / Efectivo": "$336.580",
         "Tarjetas de Crédito / Débito": "$355.092"
@@ -64,12 +64,12 @@
       "product_id": 60307,
       "store_id": "alltec",
       "price": 345900,
-      "price_card": 356277,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/intel/2392-intel-core-ultra-7-265kf-39ghz55ghz-turbo-20c28t-33mb-cache-125w-lga1851.html",
       "store_name": "Alltec",
+      "price_card": 356277,
       "price_specs": {
         "Efectivo/Transferencia": "$345.900",
         "Tarjeta crédito/débito": "$356.277"
@@ -78,25 +78,6 @@
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
-    },
-    {
-      "product_id": 4154,
-      "store_id": "cg",
-      "price": 393240,
-      "price_card": 413924,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-7-265kf-3-9-ghz-20-core-lga1851/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$393.240",
-        "Webpay / Tarjeta": "$413.924"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -105,7 +86,13 @@
       "store_name": "Alltec",
       "date": "2026-06-08",
       "price": 345900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 345900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-05-08 22:24:46",
-  "updated_at": "2026-06-08 20:52:17",
+  "updated_at": "2026-06-09 00:55:04",
   "prices": [
     {
       "product_id": 55864,
       "store_id": "myshop",
       "price": 569990,
-      "price_card": 587090,
       "price_normal": 601339,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/pack-6-unidades-fuente-de-poder-850w-certificada-cougar-atlas-850-atx-31-80-plus-bronce-atx-ensambladores-mayoristas-p43092",
       "store_name": "MyShop",
+      "price_card": 587090,
       "price_specs": {
         "Efectivo/Transferencia": "$569.990",
         "Tarjeta crédito/débito": "$587.090"
@@ -44,7 +44,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 569990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 569990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

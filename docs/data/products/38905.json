@@ -5,7 +5,7 @@
   "brand": "ASUS",
   "name": "Placa Madre Asus Prime B650M-A II CSM (DDR5)",
   "slug": "mybox-placa-madre-asus-prime-b650m-a-ii-csm-ddr5",
-  "image_url": "https://images.findtech.cl/products/placa-madre-asus-prime-b650m-a-ii-csm-ddr5.jpg",
+  "image_url": "https://mybox.cl/15021-home_default/placa-madre-asus-prime-b650m-a-ii-csm-ddr5.jpg",
   "description": null,
   "specs": {
     "Socket": "AM5",
@@ -17,18 +17,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 23:53:28",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 38905,
       "store_id": "mybox",
       "price": 161491,
-      "price_card": 166336,
       "price_normal": 169990,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/placa-madre/5377-placa-madre-asus-prime-b650m-a-ii-csm-ddr5-4711387025543.html",
       "store_name": "MyBox",
+      "price_card": 166336,
       "price_specs": {
         "Efectivo/Transferencia": "$161.491",
         "Tarjeta crédito/débito": "$166.336"
@@ -42,12 +42,12 @@
       "product_id": 31956,
       "store_id": "winpy",
       "price": 179968,
-      "price_card": 189506,
       "price_normal": null,
       "discount_pct": 26,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b650m-a-ax6-ii-am5-ddr5-4800-7600-mhz-m-2-x3-micro-atx/",
       "store_name": "Winpy",
+      "price_card": 189506,
       "price_specs": {
         "Transferencia o Depósito": "$179.968",
         "Otros medios de pago": "$189.506"
@@ -61,12 +61,12 @@
       "product_id": 60691,
       "store_id": "centrale",
       "price": 191470,
-      "price_card": 202001,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b650m-a-ax6-ii-amd-am5-ddr5-pcie-4-0-usb-c-wifi-6/",
       "store_name": "Centrale",
+      "price_card": 202001,
       "price_specs": {
         "Transferencia / Efectivo": "$191.470",
         "Tarjetas de Crédito / Débito": "$202.001"
@@ -80,12 +80,12 @@
       "product_id": 33199,
       "store_id": "infor-ingen",
       "price": 198900,
-      "price_card": 204867,
       "price_normal": 210834,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/m-b-asus-prime-b650m-a-ii-csm/",
       "store_name": "Infor-Ingen",
+      "price_card": 204867,
       "price_specs": {
         "Efectivo/Transferencia": "$198.900",
         "Tarjeta crédito/débito": "$204.867"
@@ -99,12 +99,12 @@
       "product_id": 9441,
       "store_id": "spdigital",
       "price": 259990,
-      "price_card": 271690,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/mb-sam5-prime-b650m-a-ii-csm-matxvgahdmidpddr5-asus",
       "store_name": "SP Digital",
+      "price_card": 271690,
       "price_specs": {
         "Transferencia / Efectivo": "$259.990",
         "Webpay / Tarjeta": "$271.690"
@@ -121,7 +121,13 @@
       "store_name": "MyBox",
       "date": "2026-06-08",
       "price": 161491
+    },
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-06-09",
+      "price": 161491
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

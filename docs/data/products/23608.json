@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-03 04:34:27",
-  "updated_at": "2026-06-08 20:55:25",
+  "updated_at": "2026-06-09 01:00:06",
   "prices": [
     {
       "product_id": 23608,
       "store_id": "alltec",
       "price": 20900,
-      "price_card": 21527,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/cpu-cooler/1511-cpu-cooler-thermaltake-ux100-argb-lighting-cpu-intel-y-amd.html",
       "store_name": "Alltec",
+      "price_card": 21527,
       "price_specs": {
         "Efectivo/Transferencia": "$20.900",
         "Tarjeta crédito/débito": "$21.527"
@@ -41,7 +41,13 @@
       "store_name": "Alltec",
       "date": "2026-06-08",
       "price": 20900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 20900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

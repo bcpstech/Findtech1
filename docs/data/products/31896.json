@@ -25,18 +25,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:27",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 31896,
       "store_id": "winpy",
       "price": 247456,
-      "price_card": 260571,
       "price_normal": null,
       "discount_pct": 32,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-7-8700g-am5-8-cores-16-hilos-4-2-5-1ghz-16mb-de-cache-l3/",
       "store_name": "Winpy",
+      "price_card": 260571,
       "price_specs": {
         "Transferencia o Depósito": "$247.456",
         "Otros medios de pago": "$260.571"
@@ -50,12 +50,12 @@
       "product_id": 2822,
       "store_id": "alltec",
       "price": 252900,
-      "price_card": 260487,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2459-amd-ryzen-7-8700g-42ghz-51ghz-turbo-octa-core-tdp-65w-am5-amd-radeon-780m-graphics.html",
       "store_name": "Alltec",
+      "price_card": 260487,
       "price_specs": {
         "Efectivo/Transferencia": "$252.900",
         "Tarjeta crédito/débito": "$260.487"
@@ -69,12 +69,12 @@
       "product_id": 292,
       "store_id": "centrale",
       "price": 263880,
-      "price_card": 278393,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-8700g-npu-ryzen-ai-4-2ghz-a-5-10ghz-8-nucleos-16-hilos/",
       "store_name": "Centrale",
+      "price_card": 278393,
       "price_specs": {
         "Transferencia / Efectivo": "$263.880",
         "Tarjetas de Crédito / Débito": "$278.393"
@@ -85,34 +85,15 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 37,
-      "store_id": "n1g",
-      "price": 288500,
-      "price_card": 303791,
-      "price_normal": 303684,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2621-amd-ryzen-7-8700g-socket-am5-8-core-16-hilos-42-ghz-65w-amd-radeon-780m-100-100001236box.html",
-      "store_name": "N1G",
-      "price_specs": {
-        "Efectivo/Transferencia": "$288.500",
-        "Tarjeta crédito/débito": "$303.791"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
-    },
-    {
       "product_id": 32926,
       "store_id": "infor-ingen",
       "price": 299900,
-      "price_card": 308897,
       "price_normal": 317894,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/cpu-amd-ryzen-7-8700g-4-2ghz/",
       "store_name": "Infor-Ingen",
+      "price_card": 308897,
       "price_specs": {
         "Efectivo/Transferencia": "$299.900",
         "Tarjeta crédito/débito": "$308.897"
@@ -123,34 +104,15 @@
       "full_url": "https://store.infor-ingen.com"
     },
     {
-      "product_id": 1152,
-      "store_id": "cg",
-      "price": 301990,
-      "price_card": 317875,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-7-8700g/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$301.990",
-        "Webpay / Tarjeta": "$317.875"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
-    },
-    {
       "product_id": 9413,
       "store_id": "spdigital",
       "price": 399990,
-      "price_card": 417990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-7-8700g-2",
       "store_name": "SP Digital",
+      "price_card": 417990,
       "price_specs": {
         "Transferencia / Efectivo": "$399.990",
         "Webpay / Tarjeta": "$417.990"
@@ -164,12 +126,12 @@
       "product_id": 38841,
       "store_id": "mybox",
       "price": 401004,
-      "price_card": 413034,
       "price_normal": 458290,
       "discount_pct": 12,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/procesador/5324-procesador-amd-ryzen-7-8700g.html",
       "store_name": "MyBox",
+      "price_card": 413034,
       "price_specs": {
         "Efectivo/Transferencia": "$401.004",
         "Tarjeta crédito/débito": "$413.034"
@@ -186,7 +148,13 @@
       "store_name": "Winpy",
       "date": "2026-06-08",
       "price": 247456
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-09",
+      "price": 247456
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

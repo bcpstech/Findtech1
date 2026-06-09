@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 00:58:01",
-  "updated_at": "2026-06-08 20:36:18",
+  "updated_at": "2026-06-09 00:28:56",
   "prices": [
     {
       "product_id": 6140,
       "store_id": "n1g",
       "price": 49900,
-      "price_card": 52545,
       "price_normal": 52526,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/ventiladores/3758-apevia-fr412l2s-rgb-frostblade-120mm-rgb-pack-4-ventiladores-control.html",
       "store_name": "N1G",
+      "price_card": 52545,
       "price_specs": {
         "Efectivo/Transferencia": "$49.900",
         "Tarjeta crédito/débito": "$52.545"
@@ -41,7 +41,13 @@
       "store_name": "N1G",
       "date": "2026-06-08",
       "price": 49900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-09",
+      "price": 49900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

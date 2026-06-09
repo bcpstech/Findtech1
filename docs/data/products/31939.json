@@ -18,18 +18,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:56",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 31939,
       "store_id": "winpy",
       "price": 104576,
-      "price_card": 110119,
       "price_normal": null,
       "discount_pct": 25,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b550m-a-ac-am4-ddr4-2133-4600-mhz-microatx/",
       "store_name": "Winpy",
+      "price_card": 110119,
       "price_specs": {
         "Transferencia o Depósito": "$104.576",
         "Otros medios de pago": "$110.119"
@@ -43,12 +43,12 @@
       "product_id": 9424,
       "store_id": "spdigital",
       "price": 104995,
-      "price_card": 109720,
       "price_normal": 179990,
       "discount_pct": 42,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-b550m-a-ac-socket-am4-factor-matx-aura-sync-rgb",
       "store_name": "SP Digital",
+      "price_card": 109720,
       "price_specs": {
         "Transferencia / Efectivo": "$104.995",
         "Webpay / Tarjeta": "$109.720"
@@ -62,12 +62,12 @@
       "product_id": 1366,
       "store_id": "centrale",
       "price": 105710,
-      "price_card": 111524,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b550m-a-ac-micro-atx-am4-ddr4-pcie-4-0-wifi-bt/",
       "store_name": "Centrale",
+      "price_card": 111524,
       "price_specs": {
         "Transferencia / Efectivo": "$105.710",
         "Tarjetas de Crédito / Débito": "$111.524"
@@ -81,12 +81,12 @@
       "product_id": 23524,
       "store_id": "alltec",
       "price": 110900,
-      "price_card": 114227,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/para-amd/1823-mb-asus-prime-b550m-a-ac-am4-ddr4-ryzen-5000-wifi-ac-bt-50.html",
       "store_name": "Alltec",
+      "price_card": 114227,
       "price_specs": {
         "Efectivo/Transferencia": "$110.900",
         "Tarjeta crédito/débito": "$114.227"
@@ -100,12 +100,12 @@
       "product_id": 33119,
       "store_id": "infor-ingen",
       "price": 118900,
-      "price_card": 122467,
       "price_normal": 126034,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/m-b-asus-prime-b550m-a-ac/",
       "store_name": "Infor-Ingen",
+      "price_card": 122467,
       "price_specs": {
         "Efectivo/Transferencia": "$118.900",
         "Tarjeta crédito/débito": "$122.467"
@@ -122,7 +122,13 @@
       "store_name": "Winpy",
       "date": "2026-06-08",
       "price": 104576
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-09",
+      "price": 104576
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

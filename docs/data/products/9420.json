@@ -23,18 +23,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:04",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 9420,
       "store_id": "spdigital",
       "price": 159995,
-      "price_card": 167195,
       "price_normal": 249990,
       "discount_pct": 36,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/intel-core-i3-i3-14100-35-ghz-4-nucleos-8-hilos-12-mb-cache-fclga1700-socket-caja",
       "store_name": "SP Digital",
+      "price_card": 167195,
       "price_specs": {
         "Transferencia / Efectivo": "$159.995",
         "Webpay / Tarjeta": "$167.195"
@@ -51,7 +51,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 159995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 159995
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

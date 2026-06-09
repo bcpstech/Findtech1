@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:47:36",
-  "updated_at": "2026-06-08 21:05:29",
+  "updated_at": "2026-06-09 01:23:56",
   "prices": [
     {
       "product_id": 2350,
       "store_id": "dust2",
       "price": 40990,
-      "price_card": 42220,
       "price_normal": 48990,
       "discount_pct": 16,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-redragon-600w-80-gc-ps002-atx/",
       "store_name": "Dust2",
+      "price_card": 42220,
       "price_specs": {
         "Efectivo/Transferencia": "$40.990",
         "Tarjeta crédito/débito": "$42.220"
@@ -42,7 +42,13 @@
       "store_name": "Dust2",
       "date": "2026-06-08",
       "price": 40990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-09",
+      "price": 40990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

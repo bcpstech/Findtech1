@@ -17,18 +17,18 @@
   },
   "tags": [],
   "created_at": "2026-05-03 04:31:48",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 23444,
       "store_id": "alltec",
       "price": 909900,
-      "price_card": 937197,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/nvidia/1899-tv-evga-geforce-rtx-3080-ftw3-ultra-gaming-12gb-gddr6-12g-p5-4877-kl.html",
       "store_name": "Alltec",
+      "price_card": 937197,
       "price_specs": {
         "Efectivo/Transferencia": "$909.900",
         "Tarjeta crédito/débito": "$937.197"
@@ -45,7 +45,13 @@
       "store_name": "Alltec",
       "date": "2026-06-08",
       "price": 909900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 909900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

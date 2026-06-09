@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:57:53",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 60825,
       "store_id": "centrale",
       "price": 629490,
-      "price_card": 664112,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-hdd-22tb-toshiba-n300-pro-nas-sata-6gb-s-7200rpm-3-5/",
       "store_name": "Centrale",
+      "price_card": 664112,
       "price_specs": {
         "Transferencia / Efectivo": "$629.490",
         "Tarjetas de Crédito / Débito": "$664.112"
@@ -44,7 +44,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 629490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 629490
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

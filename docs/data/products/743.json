@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:17:45",
-  "updated_at": "2026-06-08 20:36:55",
+  "updated_at": "2026-06-09 00:32:18",
   "prices": [
     {
       "product_id": 743,
       "store_id": "n1g",
       "price": 84900,
-      "price_card": 89400,
       "price_normal": 89368,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3707-deepcool-le360-v2-rgb-water-cooler-3x120mm-aluminio-pwm-argb-multisocket.html",
       "store_name": "N1G",
+      "price_card": 89400,
       "price_specs": {
         "Efectivo/Transferencia": "$84.900",
         "Tarjeta crédito/débito": "$89.400"
@@ -41,7 +41,13 @@
       "store_name": "N1G",
       "date": "2026-06-08",
       "price": 84900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-09",
+      "price": 84900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

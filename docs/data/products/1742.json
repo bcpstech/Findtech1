@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-06-08 20:59:03",
+  "updated_at": "2026-06-09 01:09:06",
   "prices": [
     {
       "product_id": 1742,
       "store_id": "centrale",
       "price": 150860,
-      "price_card": 159157,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-profesional-asus-proart-pa401-wood-edition-mesh-beige/",
       "store_name": "Centrale",
+      "price_card": 159157,
       "price_specs": {
         "Transferencia / Efectivo": "$150.860",
         "Tarjetas de Crédito / Débito": "$159.157"
@@ -38,12 +38,12 @@
       "product_id": 38998,
       "store_id": "mybox",
       "price": 154040,
-      "price_card": 158661,
       "price_normal": 157990,
       "discount_pct": 3,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/gabinetes/5971-gabinete-asus-proart-wood-edition-pa401.html",
       "store_name": "MyBox",
+      "price_card": 158661,
       "price_specs": {
         "Efectivo/Transferencia": "$154.040",
         "Tarjeta crédito/débito": "$158.661"
@@ -60,7 +60,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 150860
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 150860
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

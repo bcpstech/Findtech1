@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:34:38",
-  "updated_at": "2026-06-08 20:56:03",
+  "updated_at": "2026-06-09 01:01:00",
   "prices": [
     {
       "product_id": 1122,
       "store_id": "alltec",
       "price": 161900,
-      "price_card": 166757,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/sin-fuente-de-poder/2150-gabinete-xigmatek-endorphin-ultra-atx-black-4711409541327.html",
       "store_name": "Alltec",
+      "price_card": 166757,
       "price_specs": {
         "Efectivo/Transferencia": "$161.900",
         "Tarjeta crédito/débito": "$166.757"
@@ -41,7 +41,13 @@
       "store_name": "Alltec",
       "date": "2026-06-08",
       "price": 161900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 161900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

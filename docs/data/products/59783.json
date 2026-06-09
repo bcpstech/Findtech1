@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:45:39",
-  "updated_at": "2026-06-08 20:45:39",
+  "updated_at": "2026-06-09 00:41:43",
   "prices": [
     {
       "product_id": 59783,
       "store_id": "spdigital",
       "price": 45995,
-      "price_card": 48065,
       "price_normal": 89990,
       "discount_pct": 49,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/segunda-seleccion-fuente-de-poder-650w-msi-mag-a650bn-certificada-80-plus-bronce-active-pfc",
       "store_name": "SP Digital",
+      "price_card": 48065,
       "price_specs": {
         "Transferencia / Efectivo": "$45.995",
         "Webpay / Tarjeta": "$48.065"
@@ -41,12 +41,12 @@
       "product_id": 1718,
       "store_id": "centrale",
       "price": 53110,
-      "price_card": 56031,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-650w-msi-mag-a650bn-no-modular-80-bronze/",
       "store_name": "Centrale",
+      "price_card": 56031,
       "price_specs": {
         "Transferencia / Efectivo": "$53.110",
         "Tarjetas de Crédito / Débito": "$56.031"
@@ -60,12 +60,12 @@
       "product_id": 38980,
       "store_id": "mybox",
       "price": 61461,
-      "price_card": 63305,
       "price_normal": 68290,
       "discount_pct": 10,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/fuentes-de-poder/5568-fuente-de-poder-msi-mag-a650bn-bronce-650w.html",
       "store_name": "MyBox",
+      "price_card": 63305,
       "price_specs": {
         "Efectivo/Transferencia": "$61.461",
         "Tarjeta crédito/débito": "$63.305"
@@ -79,12 +79,12 @@
       "product_id": 55858,
       "store_id": "myshop",
       "price": 281990,
-      "price_card": 290450,
       "price_normal": 297499,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/pack-6-unidades-fuente-de-poder-650w-certificada-msi-mag-a650bn-pcie5-iii-80-plus-bronce-atx-no-modular-ensambladores-mayoristas--p43098",
       "store_name": "MyShop",
+      "price_card": 290450,
       "price_specs": {
         "Efectivo/Transferencia": "$281.990",
         "Tarjeta crédito/débito": "$290.450"
@@ -101,7 +101,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 45995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 45995
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

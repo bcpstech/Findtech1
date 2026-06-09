@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:45:47",
-  "updated_at": "2026-06-08 20:45:47",
+  "updated_at": "2026-06-09 00:41:52",
   "prices": [
     {
       "product_id": 59800,
       "store_id": "spdigital",
       "price": 50765,
-      "price_card": 53049,
       "price_normal": 62640,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/qube-540-stardust-iron",
       "store_name": "SP Digital",
+      "price_card": 53049,
       "price_specs": {
         "Transferencia / Efectivo": "$50.765",
         "Webpay / Tarjeta": "$53.049"
@@ -41,7 +41,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 50765
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 50765
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

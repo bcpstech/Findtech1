@@ -18,18 +18,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:33",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 9471,
       "store_id": "spdigital",
       "price": 234666,
-      "price_card": 245226,
       "price_normal": 289820,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-gigabyte-lga-1700-ddr5-soporte-12ava-13ava-y-14ava-gen-intel-wifi-6e-bluetooth-pc",
       "store_name": "SP Digital",
+      "price_card": 245226,
       "price_specs": {
         "Transferencia / Efectivo": "$234.666",
         "Webpay / Tarjeta": "$245.226"
@@ -43,12 +43,12 @@
       "product_id": 38875,
       "store_id": "mybox",
       "price": 253166,
-      "price_card": 260761,
       "price_normal": 266490,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/placa-madre/6075-placa-madre-gigabyte-z790-d-ax-4719331860592.html",
       "store_name": "MyBox",
+      "price_card": 260761,
       "price_specs": {
         "Efectivo/Transferencia": "$253.166",
         "Tarjeta crédito/débito": "$260.761"
@@ -65,7 +65,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 234666
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 234666
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -18,18 +18,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:19:40",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 31844,
       "store_id": "winpy",
       "price": 237728,
-      "price_card": 250328,
       "price_normal": null,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-3050-ventus-2x-oc-con-6gb-gddr6/",
       "store_name": "Winpy",
+      "price_card": 250328,
       "price_specs": {
         "Transferencia o Depósito": "$237.728",
         "Otros medios de pago": "$250.328"
@@ -43,12 +43,12 @@
       "product_id": 1194,
       "store_id": "centrale",
       "price": 247670,
-      "price_card": 261292,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-3050-ventus-2x-oc-6gb-gddr6-96-bit/",
       "store_name": "Centrale",
+      "price_card": 261292,
       "price_specs": {
         "Transferencia / Efectivo": "$247.670",
         "Tarjetas de Crédito / Débito": "$261.292"
@@ -65,7 +65,13 @@
       "store_name": "Winpy",
       "date": "2026-06-08",
       "price": 237728
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-09",
+      "price": 237728
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

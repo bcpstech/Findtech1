@@ -5,7 +5,7 @@
   "brand": "Genérico",
   "name": "Gabinete CoolerMaster HAF H500 EATX White",
   "slug": "mybox-gabinete-coolermaster-haf-h500-eatx-white",
-  "image_url": "https://images.findtech.cl/products/gabinete-coolermaster-haf-h500-eatx-white.jpg",
+  "image_url": "https://mybox.cl/13629-home_default/gabinete-coolermaster-haf-h500.jpg",
   "description": null,
   "specs": {
     "Efectivo / Transferencia": "$146.861",
@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 23:54:42",
-  "updated_at": "2026-06-08 21:11:57",
+  "updated_at": "2026-06-09 01:37:45",
   "prices": [
     {
       "product_id": 39012,
       "store_id": "mybox",
       "price": 146861,
-      "price_card": 151267,
       "price_normal": 154590,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/gabinetes/4858-gabinete-coolermaster-haf-h500.html",
       "store_name": "MyBox",
+      "price_card": 151267,
       "price_specs": {
         "Efectivo/Transferencia": "$146.861",
         "Tarjeta crédito/débito": "$151.267"
@@ -41,7 +41,13 @@
       "store_name": "MyBox",
       "date": "2026-06-08",
       "price": 146861
+    },
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-06-09",
+      "price": 146861
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -5,7 +5,7 @@
   "brand": "Pny",
   "name": "Tarjeta Gráfica PNY GeForce RTX 5070 ARGB EPIC-X RGB OC 12GB GDDR7 192-bit",
   "slug": "centrale-tarjeta-grafica-pny-geforce-rtx-5070-argb-epic-x-rgb-oc-12gb-gddr7-192-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-PNY-GeForce-RTX-5070-ARGB-EPIC-X-RGB-OC-12GB-GDDR7-192-_PJqOeQO.webp",
+  "image_url": "https://images.findtech.cl/products/tarjeta-grafica-pny-geforce-rtx-5070-argb-epic-x-rgb-oc-12gb-gddr7-192-bit.webp",
   "description": null,
   "specs": {
     "VRAM": "12 GB",
@@ -13,26 +13,26 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$803.200",
-    "Tarjeta crédito/débito": "$847.380"
+    "Transferencia / Efectivo": "$769.900",
+    "Tarjeta crédito/débito": "$812.240"
   },
   "tags": [],
   "created_at": "2026-05-01 14:04:55",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 21227,
       "store_id": "centrale",
-      "price": 803200,
-      "price_card": 847376,
+      "price": 769900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-pny-geforce-rtx-5070-argb-epic-x-rgb-oc-12gb-gddr7-192-bit/",
       "store_name": "Centrale",
+      "price_card": 812245,
       "price_specs": {
-        "Transferencia / Efectivo": "$803.200",
-        "Tarjetas de Crédito / Débito": "$847.376"
+        "Transferencia / Efectivo": "$769.900",
+        "Tarjetas de Crédito / Débito": "$812.245"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,6 +40,19 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 769900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 769900
+    }
+  ],
+  "scraped_at": "2026-06-09"
 }

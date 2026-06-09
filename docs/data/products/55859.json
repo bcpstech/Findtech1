@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-05-08 22:24:40",
-  "updated_at": "2026-06-08 20:52:13",
+  "updated_at": "2026-06-09 00:54:56",
   "prices": [
     {
       "product_id": 55859,
       "store_id": "myshop",
       "price": 257990,
-      "price_card": 265730,
       "price_normal": 272179,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/pack-6-unidades-fuente-de-poder-650w-certificada-asus-prime-650b-black-80-plus-bronce-atx-no-modular-ensambladores-mayoristas-p43096",
       "store_name": "MyShop",
+      "price_card": 265730,
       "price_specs": {
         "Efectivo/Transferencia": "$257.990",
         "Tarjeta crédito/débito": "$265.730"
@@ -44,7 +44,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 257990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 257990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

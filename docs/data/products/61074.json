@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:59:07",
-  "updated_at": "2026-06-08 20:59:07",
+  "updated_at": "2026-06-09 01:09:14",
   "prices": [
     {
       "product_id": 61074,
       "store_id": "centrale",
       "price": 50420,
-      "price_card": 53193,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-gamer-xpg-valor-mesh-compact-mid-tower-negro-atx-4-vent-incluidos/",
       "store_name": "Centrale",
+      "price_card": 53193,
       "price_specs": {
         "Transferencia / Efectivo": "$50.420",
         "Tarjetas de Crédito / Débito": "$53.193"
@@ -39,12 +39,12 @@
       "product_id": 2378,
       "store_id": "dust2",
       "price": 52990,
-      "price_card": 54580,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-xpg-valor-air-plus-mid-tower-atx-negro/",
       "store_name": "Dust2",
+      "price_card": 54580,
       "price_specs": {
         "Efectivo/Transferencia": "$52.990",
         "Tarjeta crédito/débito": "$54.580"
@@ -61,7 +61,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 50420
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 50420
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

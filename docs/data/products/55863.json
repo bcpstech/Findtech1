@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-05-08 22:24:45",
-  "updated_at": "2026-06-08 20:52:17",
+  "updated_at": "2026-06-09 00:55:02",
   "prices": [
     {
       "product_id": 55863,
       "store_id": "myshop",
       "price": 489990,
-      "price_card": 504690,
       "price_normal": 516939,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/pack-9-unidades-fuente-de-poder-750w-certificada-cougar-atlas-750-80-plus-bronce-atx-no-modular-ensambladores-mayoristas-p43093",
       "store_name": "MyShop",
+      "price_card": 504690,
       "price_specs": {
         "Efectivo/Transferencia": "$489.990",
         "Tarjeta crédito/débito": "$504.690"
@@ -44,7 +44,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 489990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 489990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

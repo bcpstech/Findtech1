@@ -20,18 +20,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:49:18",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 59947,
       "store_id": "myshop",
       "price": 409990,
-      "price_card": 422290,
       "price_normal": 432539,
       "discount_pct": 10,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/tarjeta-de-video-msi-geforce-rtx5060-8g-ventus-3x-oc-8-gb-gddr7-128-bits-displayport-hdmi-p40141",
       "store_name": "MyShop",
+      "price_card": 422290,
       "price_specs": {
         "Efectivo/Transferencia": "$409.990",
         "Tarjeta crédito/débito": "$422.290"
@@ -45,12 +45,12 @@
       "product_id": 12130,
       "store_id": "trulustore",
       "price": 449990,
-      "price_card": 463490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-rtx-5060-8gb-msi-ventus-3x-oc/",
       "store_name": "TruluStore",
+      "price_card": 463490,
       "khipu_price": 458990,
       "price_specs": {
         "Efectivo / Transferencia": "$449.990",
@@ -69,7 +69,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 409990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 409990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

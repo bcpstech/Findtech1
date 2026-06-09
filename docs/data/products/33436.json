@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:50:42",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 33436,
       "store_id": "infor-ingen",
       "price": 35900,
-      "price_card": 36977,
       "price_normal": 38054,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/disco-duro-ssd-biostar-s100-120gb/",
       "store_name": "Infor-Ingen",
+      "price_card": 36977,
       "price_specs": {
         "Efectivo/Transferencia": "$35.900",
         "Tarjeta crédito/débito": "$36.977"
@@ -42,7 +42,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-08",
       "price": 35900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-09",
+      "price": 35900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -25,18 +25,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:52",
-  "updated_at": "2026-06-08 20:43:12",
+  "updated_at": "2026-06-09 00:37:57",
   "prices": [
     {
       "product_id": 2815,
       "store_id": "alltec",
       "price": 349900,
-      "price_card": 360397,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2269-amd-ryzen-7-9700x-38ghz-55ghz-turbo-octa-core-tdp-65w-am5.html",
       "store_name": "Alltec",
+      "price_card": 360397,
       "price_specs": {
         "Efectivo/Transferencia": "$349.900",
         "Tarjeta crédito/débito": "$360.397"
@@ -50,12 +50,12 @@
       "product_id": 32927,
       "store_id": "infor-ingen",
       "price": 354900,
-      "price_card": 365547,
       "price_normal": 376194,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/cpu-amd-ryzen-7-9700x-3-8-ghz/",
       "store_name": "Infor-Ingen",
+      "price_card": 365547,
       "price_specs": {
         "Efectivo/Transferencia": "$354.900",
         "Tarjeta crédito/débito": "$365.547"
@@ -69,12 +69,12 @@
       "product_id": 31908,
       "store_id": "winpy",
       "price": 359328,
-      "price_card": 378372,
       "price_normal": null,
       "discount_pct": 20,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-7-9700x-am5-8-cores-16-hilos-3-8-5-5ghz-32mb-cache-unlocked/",
       "store_name": "Winpy",
+      "price_card": 378372,
       "price_specs": {
         "Transferencia o Depósito": "$359.328",
         "Otros medios de pago": "$378.372"
@@ -85,34 +85,15 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 1138,
-      "store_id": "cg",
-      "price": 375990,
-      "price_card": 395767,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-7-9700x/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$375.990",
-        "Webpay / Tarjeta": "$395.767"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
-    },
-    {
       "product_id": 9399,
       "store_id": "spdigital",
       "price": 387519,
-      "price_card": 404957,
       "price_normal": 478540,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/amd-ryzen-7-9700x-8-core-processor",
       "store_name": "SP Digital",
+      "price_card": 404957,
       "price_specs": {
         "Transferencia / Efectivo": "$387.519",
         "Webpay / Tarjeta": "$404.957"
@@ -126,12 +107,12 @@
       "product_id": 281,
       "store_id": "centrale",
       "price": 389720,
-      "price_card": 411155,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-9700x-8-cores-16-threads-3-8-a-5-5-ghz-65w/",
       "store_name": "Centrale",
+      "price_card": 411155,
       "price_specs": {
         "Transferencia / Efectivo": "$389.720",
         "Tarjetas de Crédito / Débito": "$411.155"
@@ -145,12 +126,12 @@
       "product_id": 2630,
       "store_id": "trulustore",
       "price": 419990,
-      "price_card": 432590,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/procesador-amd-ryzen-7-9700x-socket-am5/",
       "store_name": "TruluStore",
+      "price_card": 432590,
       "khipu_price": 428390,
       "price_specs": {
         "Efectivo / Transferencia": "$419.990",
@@ -166,12 +147,12 @@
       "product_id": 38837,
       "store_id": "mybox",
       "price": 425306,
-      "price_card": 438065,
       "price_normal": 447690,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/procesador/5571-procesador-amd-ryzen-7-9700x.html",
       "store_name": "MyBox",
+      "price_card": 438065,
       "price_specs": {
         "Efectivo/Transferencia": "$425.306",
         "Tarjeta crédito/débito": "$438.065"
@@ -188,7 +169,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 387519
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 387519
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -20,18 +20,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:44:23",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1852,
       "store_id": "dust2",
       "price": 394990,
-      "price_card": 406840,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-gigabyte-rtx-5060-eagle-oc-8gb-gddr7/",
       "store_name": "Dust2",
+      "price_card": 406840,
       "price_specs": {
         "Efectivo/Transferencia": "$394.990",
         "Tarjeta crédito/débito": "$406.840"
@@ -45,12 +45,12 @@
       "product_id": 59598,
       "store_id": "spdigital",
       "price": 414995,
-      "price_card": 433670,
       "price_normal": 499990,
       "discount_pct": 17,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-gigabyte-gv-n5060eagle-oc-8gd",
       "store_name": "SP Digital",
+      "price_card": 433670,
       "price_specs": {
         "Transferencia / Efectivo": "$414.995",
         "Webpay / Tarjeta": "$433.670"
@@ -64,12 +64,12 @@
       "product_id": 61100,
       "store_id": "winpy",
       "price": 429856,
-      "price_card": 452638,
       "price_normal": null,
       "discount_pct": 3,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-gigabyte-geforce-rtx-5060-eagle-oc-8gb-gddr7/",
       "store_name": "Winpy",
+      "price_card": 452638,
       "price_specs": {
         "Transferencia o Depósito": "$429.856",
         "Otros medios de pago": "$452.638"
@@ -83,12 +83,12 @@
       "product_id": 38857,
       "store_id": "mybox",
       "price": 431781,
-      "price_card": 444734,
       "price_normal": 466790,
       "discount_pct": 7,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/tarjeta-de-video/5937-tarjeta-de-video-gigabyte-5060-eagle-oc-8gb-4719331356439.html",
       "store_name": "MyBox",
+      "price_card": 444734,
       "price_specs": {
         "Efectivo/Transferencia": "$431.781",
         "Tarjeta crédito/débito": "$444.734"
@@ -105,7 +105,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 414995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 414995
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

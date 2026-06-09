@@ -26,37 +26,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:53",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
-    {
-      "product_id": 25,
-      "store_id": "n1g",
-      "price": 99900,
-      "price_card": 105195,
-      "price_normal": 105158,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/1807-procesador-amd-ryzen-5-5500-42ghz-turbo-6core12thread-am4-box-100-100000457box.html",
-      "store_name": "N1G",
-      "price_specs": {
-        "Efectivo/Transferencia": "$99.900",
-        "Tarjeta crédito/débito": "$105.195"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
-    },
     {
       "product_id": 290,
       "store_id": "centrale",
       "price": 100760,
-      "price_card": 106302,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-5500-3-6ghz-4-2ghz-turbo-6core-12thread-socket-am4/",
       "store_name": "Centrale",
+      "price_card": 106302,
       "price_specs": {
         "Transferencia / Efectivo": "$100.760",
         "Tarjetas de Crédito / Débito": "$106.302"
@@ -70,12 +51,12 @@
       "product_id": 3300,
       "store_id": "alltec",
       "price": 101500,
-      "price_card": 104545,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/1797-amd-ryzen-5-5500-36ghz-42ghz-turbo-six-core-tdp-65w-am4-730143314121.html",
       "store_name": "Alltec",
+      "price_card": 104545,
       "price_specs": {
         "Efectivo/Transferencia": "$101.500",
         "Tarjeta crédito/débito": "$104.545"
@@ -89,12 +70,12 @@
       "product_id": 9401,
       "store_id": "spdigital",
       "price": 104995,
-      "price_card": 109720,
       "price_normal": 249990,
       "discount_pct": 58,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-5-5500",
       "store_name": "SP Digital",
+      "price_card": 109720,
       "price_specs": {
         "Transferencia / Efectivo": "$104.995",
         "Webpay / Tarjeta": "$109.720"
@@ -105,34 +86,15 @@
       "full_url": "https://www.spdigital.cl"
     },
     {
-      "product_id": 1146,
-      "store_id": "cg",
-      "price": 109990,
-      "price_card": 115775,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-5500/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$109.990",
-        "Webpay / Tarjeta": "$115.775"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
-    },
-    {
       "product_id": 1974,
       "store_id": "dust2",
       "price": 109990,
-      "price_card": 113290,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-5-5500-6-nucleos-42-ghz-am4/",
       "store_name": "Dust2",
+      "price_card": 113290,
       "price_specs": {
         "Efectivo/Transferencia": "$109.990",
         "Tarjeta crédito/débito": "$113.290"
@@ -146,12 +108,12 @@
       "product_id": 31880,
       "store_id": "winpy",
       "price": 113088,
-      "price_card": 119082,
       "price_normal": null,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-5500-am4-6-cores-12-hilos-3-6-4-2ghz-16mb-de-cache/",
       "store_name": "Winpy",
+      "price_card": 119082,
       "price_specs": {
         "Transferencia o Depósito": "$113.088",
         "Otros medios de pago": "$119.082"
@@ -168,7 +130,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 104995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 104995
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

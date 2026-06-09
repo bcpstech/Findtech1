@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-05-05 22:04:28",
-  "updated_at": "2026-06-08 20:51:24",
+  "updated_at": "2026-06-09 00:53:15",
   "prices": [
     {
       "product_id": 46166,
       "store_id": "myshop",
       "price": 43990,
-      "price_card": 45310,
       "price_normal": 46409,
       "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/sickleflow-edge-360-argb-p40924",
       "store_name": "MyShop",
+      "price_card": 45310,
       "price_specs": {
         "Efectivo/Transferencia": "$43.990",
         "Tarjeta crédito/débito": "$45.310"
@@ -44,7 +44,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 43990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 43990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

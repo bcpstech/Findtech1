@@ -15,18 +15,18 @@
   },
   "tags": [],
   "created_at": "2026-05-03 04:33:54",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 23586,
       "store_id": "alltec",
       "price": 129900,
-      "price_card": 133797,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/ssd/2439-1tb-ssd-sata3-6gbs-teamgroup-cx2-t253x6001t0c101.html",
       "store_name": "Alltec",
+      "price_card": 133797,
       "price_specs": {
         "Efectivo/Transferencia": "$129.900",
         "Tarjeta crédito/débito": "$133.797"
@@ -43,7 +43,13 @@
       "store_name": "Alltec",
       "date": "2026-06-08",
       "price": 129900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 129900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

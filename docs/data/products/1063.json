@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:31:58",
-  "updated_at": "2026-06-08 20:55:27",
+  "updated_at": "2026-06-09 01:00:09",
   "prices": [
     {
       "product_id": 1063,
       "store_id": "alltec",
       "price": 33900,
-      "price_card": 34917,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/cpu-cooler/2276-alseye-warriors-w90-amd-tdp-145w.html",
       "store_name": "Alltec",
+      "price_card": 34917,
       "price_specs": {
         "Efectivo/Transferencia": "$33.900",
         "Tarjeta crédito/débito": "$34.917"
@@ -41,7 +41,13 @@
       "store_name": "Alltec",
       "date": "2026-06-08",
       "price": 33900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 33900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

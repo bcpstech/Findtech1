@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:56:57",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 38902,
       "store_id": "mybox",
       "price": 361793,
-      "price_card": 372647,
       "price_normal": 420690,
       "discount_pct": 14,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/placa-madre/5521-placa-madre-gigabyte-aero-b650-ddr5-4719331848972.html",
       "store_name": "MyBox",
+      "price_card": 372647,
       "price_specs": {
         "Efectivo/Transferencia": "$361.793",
         "Tarjeta crédito/débito": "$372.647"
@@ -41,12 +41,12 @@
       "product_id": 60625,
       "store_id": "centrale",
       "price": 520480,
-      "price_card": 549106,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-x870e-aero-x-wood-wifi-7-am5-ddr5/",
       "store_name": "Centrale",
+      "price_card": 549106,
       "price_specs": {
         "Transferencia / Efectivo": "$520.480",
         "Tarjetas de Crédito / Débito": "$549.106"
@@ -63,7 +63,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 520480
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 520480
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

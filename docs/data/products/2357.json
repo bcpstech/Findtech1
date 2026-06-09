@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:47:45",
-  "updated_at": "2026-06-08 21:05:37",
+  "updated_at": "2026-06-09 01:24:14",
   "prices": [
     {
       "product_id": 2357,
       "store_id": "dust2",
       "price": 99990,
-      "price_card": 102990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/open-box-gabinete-nzxt-h5-flow-rgb-2024-atx-c-fans-rgb-white/",
       "store_name": "Dust2",
+      "price_card": 102990,
       "price_specs": {
         "Efectivo/Transferencia": "$99.990",
         "Tarjeta crédito/débito": "$102.990"
@@ -42,7 +42,13 @@
       "store_name": "Dust2",
       "date": "2026-06-08",
       "price": 99990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-09",
+      "price": 99990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

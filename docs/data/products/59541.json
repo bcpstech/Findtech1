@@ -18,18 +18,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:58",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 59541,
       "store_id": "spdigital",
       "price": 189995,
-      "price_card": 198545,
       "price_normal": 299990,
       "discount_pct": 37,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/memoria-ram-adata-ddr5-16gb-4800mhz-cl46-udimm-negro",
       "store_name": "SP Digital",
+      "price_card": 198545,
       "price_specs": {
         "Transferencia / Efectivo": "$189.995",
         "Webpay / Tarjeta": "$198.545"
@@ -46,7 +46,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 189995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 189995
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

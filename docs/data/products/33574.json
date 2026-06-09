@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:52:57",
-  "updated_at": "2026-05-08 23:13:17",
+  "updated_at": "2026-06-09 02:09:20",
   "prices": [
     {
       "product_id": 33574,
       "store_id": "infor-ingen",
       "price": 7900,
-      "price_card": 8137,
       "price_normal": 10049,
       "discount_pct": 21,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/cooler-gamemax-rgb-force-120mm-gmx-12rgb/",
       "store_name": "Infor-Ingen",
+      "price_card": 8137,
       "price_specs": {
         "Efectivo/Transferencia": "$7.900",
         "Tarjeta crédito/débito": "$8.137"
@@ -35,6 +35,13 @@
       "full_url": "https://store.infor-ingen.com"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-09",
+      "price": 7900
+    }
+  ],
+  "scraped_at": "2026-06-09"
 }

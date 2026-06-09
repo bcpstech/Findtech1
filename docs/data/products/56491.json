@@ -15,18 +15,18 @@
   },
   "tags": [],
   "created_at": "2026-05-08 22:40:12",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 56491,
       "store_id": "centrale",
       "price": 95740,
-      "price_card": 101006,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-kingston-valueram-8gb-ddr3-1600mhz-so-dimm-204-pin-portatil/",
       "store_name": "Centrale",
+      "price_card": 101006,
       "price_specs": {
         "Transferencia / Efectivo": "$95.740",
         "Tarjetas de Crédito / Débito": "$101.006"
@@ -43,7 +43,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 95740
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 95740
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

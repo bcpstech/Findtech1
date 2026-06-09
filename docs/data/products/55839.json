@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-05-08 22:24:07",
-  "updated_at": "2026-06-08 20:52:07",
+  "updated_at": "2026-06-09 00:54:43",
   "prices": [
     {
       "product_id": 2637,
       "store_id": "trulustore",
       "price": 104890,
-      "price_card": 108037,
       "price_normal": 169990,
       "discount_pct": 38,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/fuente-de-poder-msi-mag-a1000gls-1000w-80-gold-cybenetics-gold-full-modular-pcie-5-1-atx-3-1/",
       "store_name": "TruluStore",
+      "price_card": 108037,
       "khipu_price": 106988,
       "price_specs": {
         "Efectivo / Transferencia": "$104.890",
@@ -42,16 +42,16 @@
     {
       "product_id": 61001,
       "store_id": "centrale",
-      "price": 122620,
-      "price_card": 129364,
+      "price": 123490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-msi-mag-a1000gls-1000w-80plus-gold-pcie5/",
       "store_name": "Centrale",
+      "price_card": 130282,
       "price_specs": {
-        "Transferencia / Efectivo": "$122.620",
-        "Tarjetas de Crédito / Débito": "$129.364"
+        "Transferencia / Efectivo": "$123.490",
+        "Tarjetas de Crédito / Débito": "$130.282"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,12 +62,12 @@
       "product_id": 59778,
       "store_id": "spdigital",
       "price": 124244,
-      "price_card": 129835,
       "price_normal": 153450,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/mag-a1000gls-pcie5",
       "store_name": "SP Digital",
+      "price_card": 129835,
       "price_specs": {
         "Transferencia / Efectivo": "$124.244",
         "Webpay / Tarjeta": "$129.835"
@@ -81,12 +81,12 @@
       "product_id": 60157,
       "store_id": "myshop",
       "price": 149990,
-      "price_card": 154490,
       "price_normal": 158239,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/mag-a1000gls-pcie5-p40342",
       "store_name": "MyShop",
+      "price_card": 154490,
       "price_specs": {
         "Efectivo/Transferencia": "$149.990",
         "Tarjeta crédito/débito": "$154.490"
@@ -103,7 +103,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 363990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 363990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

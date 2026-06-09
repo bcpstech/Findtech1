@@ -17,18 +17,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 21:03:49",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 61597,
       "store_id": "dust2",
       "price": 205990,
-      "price_card": 212170,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/disco-duro-ssd-m-2-nvme-hiksemi-future-core-1tb-gen5-3d-nand/",
       "store_name": "Dust2",
+      "price_card": 212170,
       "price_specs": {
         "Efectivo/Transferencia": "$205.990",
         "Tarjeta crédito/débito": "$212.170"
@@ -42,12 +42,12 @@
       "product_id": 61235,
       "store_id": "winpy",
       "price": 225568,
-      "price_card": 237523,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/unidad-ssd-hiksemi-future-core-de-1tb-nvme-5-0-m-2-2280-hasta-14-300mb-s/",
       "store_name": "Winpy",
+      "price_card": 237523,
       "price_specs": {
         "Transferencia o Depósito": "$225.568",
         "Otros medios de pago": "$237.523"
@@ -61,12 +61,12 @@
       "product_id": 60862,
       "store_id": "centrale",
       "price": 229420,
-      "price_card": 242038,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-1tb-hiksemi-future-core-pcie-5-0-nvme/",
       "store_name": "Centrale",
+      "price_card": 242038,
       "price_specs": {
         "Transferencia / Efectivo": "$229.420",
         "Tarjetas de Crédito / Débito": "$242.038"
@@ -83,7 +83,13 @@
       "store_name": "Dust2",
       "date": "2026-06-08",
       "price": 205990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-09",
+      "price": 205990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

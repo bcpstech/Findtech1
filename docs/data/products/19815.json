@@ -20,18 +20,18 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:32",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 19815,
       "store_id": "myshop",
       "price": 397990,
-      "price_card": 409930,
       "price_normal": 419879,
       "discount_pct": 20,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/geforce-rtx-5060-8g-shadow-2x-oc-p38536",
       "store_name": "MyShop",
+      "price_card": 409930,
       "price_specs": {
         "Efectivo/Transferencia": "$397.990",
         "Tarjeta crédito/débito": "$409.930"
@@ -45,12 +45,12 @@
       "product_id": 12129,
       "store_id": "trulustore",
       "price": 449990,
-      "price_card": 463490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-rtx-5060-8gb-msi-shadow-2x-oc/",
       "store_name": "TruluStore",
+      "price_card": 463490,
       "khipu_price": 458990,
       "price_specs": {
         "Efectivo / Transferencia": "$449.990",
@@ -69,7 +69,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 397990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 397990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

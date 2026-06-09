@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:04",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 9533,
       "store_id": "spdigital",
       "price": 356153,
-      "price_card": 372180,
       "price_normal": 356160,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/adata-ssd-1tb-xpg-mars-980-pro-gen5x4-heatsink",
       "store_name": "SP Digital",
+      "price_card": 372180,
       "price_specs": {
         "Transferencia / Efectivo": "$356.153",
         "Webpay / Tarjeta": "$372.180"
@@ -44,7 +44,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 356153
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 356153
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

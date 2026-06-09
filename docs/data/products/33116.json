@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:45:13",
-  "updated_at": "2026-06-08 21:18:41",
+  "updated_at": "2026-06-09 01:44:37",
   "prices": [
     {
       "product_id": 33116,
       "store_id": "infor-ingen",
       "price": 112900,
-      "price_card": 116287,
       "price_normal": 119674,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/m-b-asrock-b550m-pro4/",
       "store_name": "Infor-Ingen",
+      "price_card": 116287,
       "price_specs": {
         "Efectivo/Transferencia": "$112.900",
         "Tarjeta crédito/débito": "$116.287"
@@ -41,7 +41,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-08",
       "price": 112900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-09",
+      "price": 112900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

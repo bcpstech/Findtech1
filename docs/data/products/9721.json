@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:45",
-  "updated_at": "2026-06-08 20:45:28",
+  "updated_at": "2026-06-09 00:41:06",
   "prices": [
     {
       "product_id": 9721,
       "store_id": "spdigital",
       "price": 79995,
-      "price_card": 83595,
       "price_normal": 149990,
       "discount_pct": 47,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/be-quiet-bp004eu",
       "store_name": "SP Digital",
+      "price_card": 83595,
       "price_specs": {
         "Transferencia / Efectivo": "$79.995",
         "Webpay / Tarjeta": "$83.595"
@@ -39,12 +39,12 @@
       "product_id": 2267,
       "store_id": "dust2",
       "price": 129990,
-      "price_card": 133890,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-be-quiet-pure-power-13-m-850w-80-plus-gold/",
       "store_name": "Dust2",
+      "price_card": 133890,
       "price_specs": {
         "Efectivo/Transferencia": "$129.990",
         "Tarjeta crédito/débito": "$133.890"
@@ -61,7 +61,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 79995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 79995
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

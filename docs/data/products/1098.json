@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:34:10",
-  "updated_at": "2026-06-08 20:55:55",
+  "updated_at": "2026-06-09 01:00:48",
   "prices": [
     {
       "product_id": 1098,
       "store_id": "alltec",
       "price": 168900,
-      "price_card": 173967,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/sin-fuente-de-poder/2083-gabinete-cooler-master-haf-500-white-atx.html",
       "store_name": "Alltec",
+      "price_card": 173967,
       "price_specs": {
         "Efectivo/Transferencia": "$168.900",
         "Tarjeta crédito/débito": "$173.967"
@@ -41,7 +41,13 @@
       "store_name": "Alltec",
       "date": "2026-06-08",
       "price": 168900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 168900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

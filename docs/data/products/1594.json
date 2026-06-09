@@ -8,27 +8,25 @@
   "image_url": "https://images.findtech.cl/products/disco-ssd-nvme-512gb-kingston-kc3000-pcie-4-0-7000-mb-s.webp",
   "description": null,
   "specs": {
-    "Capacidad": "4 TB",
+    "Capacidad": "2 TB",
     "Interfaz": "NVMe PCIe",
-    "Factor de forma": "M.2 2280",
-    "Marca": "KINGSTON",
-    "Efectivo/Transferencia": "$719.789",
-    "Webpay / Tarjeta": "$757.650"
+    "Transferencia / Efectivo": "$294.990",
+    "Tarjeta crédito/débito": "$311.210"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1594,
       "store_id": "centrale",
       "price": 129470,
-      "price_card": 136591,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-nvme-512gb-kingston-kc3000-pcie-4-0-7000-mb-s/",
       "store_name": "Centrale",
+      "price_card": 136591,
       "price_specs": {
         "Transferencia / Efectivo": "$129.470",
         "Tarjetas de Crédito / Débito": "$136.591"
@@ -37,25 +35,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 4196,
-      "store_id": "cg",
-      "price": 324090,
-      "price_card": 341137,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/almacenamiento/disco-ssd-kingston-kc3000-2tb-m-2-2280-nvme-pcie-4-0-x4-lectura-7000mb-s-escritura-7000mb-s/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$324.090",
-        "Webpay / Tarjeta": "$341.137"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -64,7 +43,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 129470
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 129470
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

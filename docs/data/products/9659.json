@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:12",
-  "updated_at": "2026-06-08 20:45:03",
+  "updated_at": "2026-06-09 00:40:31",
   "prices": [
     {
       "product_id": 9659,
       "store_id": "spdigital",
       "price": 63995,
-      "price_card": 66875,
       "price_normal": 99990,
       "discount_pct": 36,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/zoomflow-240-xt-v2-white",
       "store_name": "SP Digital",
+      "price_card": 66875,
       "price_specs": {
         "Transferencia / Efectivo": "$63.995",
         "Webpay / Tarjeta": "$66.875"
@@ -41,7 +41,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 63995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 63995
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

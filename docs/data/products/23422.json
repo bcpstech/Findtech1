@@ -17,18 +17,18 @@
   },
   "tags": [],
   "created_at": "2026-05-03 04:31:29",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 23422,
       "store_id": "alltec",
       "price": 1099000,
-      "price_card": 1131970,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/1781-tv-powercolor-red-devil-radeon-rx-6900-xt-16gb-gddr6-4713436173489.html",
       "store_name": "Alltec",
+      "price_card": 1131970,
       "price_specs": {
         "Efectivo/Transferencia": "$1.099.000",
         "Tarjeta crédito/débito": "$1.131.970"
@@ -45,7 +45,13 @@
       "store_name": "Alltec",
       "date": "2026-06-08",
       "price": 1099000
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 1099000
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

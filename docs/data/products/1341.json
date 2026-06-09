@@ -18,18 +18,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1341,
       "store_id": "centrale",
       "price": 749980,
-      "price_card": 791229,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-maximus-z890-hero-lga1851-4ddr5-6m-2-wifi7-atx/",
       "store_name": "Centrale",
+      "price_card": 791229,
       "price_specs": {
         "Transferencia / Efectivo": "$749.980",
         "Tarjetas de Crédito / Débito": "$791.229"
@@ -43,12 +43,12 @@
       "product_id": 38873,
       "store_id": "mybox",
       "price": 888051,
-      "price_card": 914693,
       "price_normal": 934790,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/placa-madre/6106-placa-madre-asus-rog-maximus-z890-hero-4711387747223.html",
       "store_name": "MyBox",
+      "price_card": 914693,
       "price_specs": {
         "Efectivo/Transferencia": "$888.051",
         "Tarjeta crédito/débito": "$914.693"
@@ -65,7 +65,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 749980
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 749980
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

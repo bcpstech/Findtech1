@@ -19,18 +19,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:50:42",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 674,
       "store_id": "n1g",
       "price": 74900,
-      "price_card": 78870,
       "price_normal": 78842,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3456-crucial-e100-480gb-ssd-nvme-pci-e-40-m2-2280-lect-5000mbs-ct480e100ssd8-.html",
       "store_name": "N1G",
+      "price_card": 78870,
       "price_specs": {
         "Efectivo/Transferencia": "$74.900",
         "Tarjeta crédito/débito": "$78.870"
@@ -41,34 +41,15 @@
       "full_url": "https://www.n1g.cl"
     },
     {
-      "product_id": 2528,
-      "store_id": "megabytes",
-      "price": 82990,
-      "price_card": 85480,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/crucial-e100-480gb-nvme-pciex-4-0-m-2-2280/",
-      "store_name": "MegaBytes",
-      "price_specs": {
-        "Efectivo/Transferencia": "$82.990",
-        "Tarjeta crédito/débito": "$85.480"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.megabytes.cl",
-      "full_url": "https://www.megabytes.cl"
-    },
-    {
       "product_id": 60100,
       "store_id": "myshop",
       "price": 134990,
-      "price_card": 139040,
       "price_normal": 142414,
       "discount_pct": 20,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/ssd-m2-2280-1-tb-crucial-nvme-pcie-40-x4-ct1000e100ssd8-p34899",
       "store_name": "MyShop",
+      "price_card": 139040,
       "price_specs": {
         "Efectivo/Transferencia": "$134.990",
         "Tarjeta crédito/débito": "$139.040"
@@ -85,7 +66,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 134990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 134990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

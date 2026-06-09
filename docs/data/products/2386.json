@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:48:06",
-  "updated_at": "2026-06-08 21:05:47",
+  "updated_at": "2026-06-09 01:24:50",
   "prices": [
     {
       "product_id": 2386,
       "store_id": "dust2",
       "price": 48990,
-      "price_card": 50460,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-cooler-master-elite-302-argb-blanco/",
       "store_name": "Dust2",
+      "price_card": 50460,
       "price_specs": {
         "Efectivo/Transferencia": "$48.990",
         "Tarjeta crédito/débito": "$50.460"
@@ -39,12 +39,12 @@
       "product_id": 32071,
       "store_id": "winpy",
       "price": 53504,
-      "price_card": 56340,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-cooler-master-elite-302-micro-atx-compacto-negro/",
       "store_name": "Winpy",
+      "price_card": 56340,
       "price_specs": {
         "Transferencia o Depósito": "$53.504",
         "Otros medios de pago": "$56.340"
@@ -61,7 +61,13 @@
       "store_name": "Dust2",
       "date": "2026-06-08",
       "price": 48990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-09",
+      "price": 48990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:19:45",
-  "updated_at": "2026-06-08 20:31:41",
+  "updated_at": "2026-06-09 00:01:43",
   "prices": [
     {
       "product_id": 802,
       "store_id": "n1g",
       "price": 53900,
-      "price_card": 56757,
       "price_normal": 56737,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3703-deepcool-pf600x-black-600w-fuente-de-poder-80-bronze-no-modular-.html",
       "store_name": "N1G",
+      "price_card": 56757,
       "price_specs": {
         "Efectivo/Transferencia": "$53.900",
         "Tarjeta crédito/débito": "$56.757"
@@ -41,7 +41,13 @@
       "store_name": "N1G",
       "date": "2026-06-08",
       "price": 53900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-09",
+      "price": 53900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

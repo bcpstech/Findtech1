@@ -5,44 +5,87 @@
   "brand": "Esgaming",
   "name": "Gabinete Esgaming H60-BK M-ATX, 5 Ventiladores ARGB 120mm, Vidrio Templado",
   "slug": "gabinete-esgaming-h60-bk-m-atx-5-ventiladores-argb-120mm-vidrio-templado",
-  "image_url": "https://centrale.cl/wp-content/uploads/Esgaming-Gabinete-Micro-Atx-Vidrio-Templado-5-Ventiladores-Rgb-H60-BK.webp",
+  "image_url": "https://images.findtech.cl/products/gabinete-esgaming-h60-bk-m-atx-5-ventiladores-argb-120mm-vidrio-templado.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$57.340",
-    "Tarjetas de Crédito / Débito": "$60.490"
+    "Transferencia / Efectivo": "$46.180",
+    "Tarjeta crédito/débito": "$48.720"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-04-27 22:15:17",
+  "updated_at": "2026-06-09 01:08:59",
   "prices": [
     {
       "product_id": 1731,
       "store_id": "centrale",
-      "price": 57340,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 46180,
+      "price_normal": 57340,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-esgaming-h60-bk-m-atx-5-ventiladores-argb-120mm-vidrio-templado/",
       "store_name": "Centrale",
+      "price_card": 48720,
+      "price_specs": {
+        "Transferencia / Efectivo": "$46.180",
+        "Tarjetas de Crédito / Débito": "$48.720"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9794,
+      "store_id": "spdigital",
+      "price": 49995,
+      "price_normal": 89990,
+      "discount_pct": 44,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/gabinete-gamer-h60-bk-5-fan-argbm-atx-esgaming",
+      "store_name": "SP Digital",
+      "price_card": 52245,
+      "price_specs": {
+        "Transferencia / Efectivo": "$49.995",
+        "Webpay / Tarjeta": "$52.245"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 32070,
+      "store_id": "winpy",
+      "price": 52288,
+      "price_normal": null,
+      "discount_pct": 39,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/gabinete-esgaming-h60-bk-micro-atx-vidrio-templado-5-ventiladores-rgb/",
+      "store_name": "Winpy",
+      "price_card": 55059,
+      "price_specs": {
+        "Transferencia o Depósito": "$52.288",
+        "Otros medios de pago": "$55.059"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 57340
+      "date": "2026-06-08",
+      "price": 46180
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 57340
+      "date": "2026-06-09",
+      "price": 46180
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-09"
 }

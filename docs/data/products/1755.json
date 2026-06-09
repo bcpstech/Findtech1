@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-06-08 20:59:06",
+  "updated_at": "2026-06-09 01:09:14",
   "prices": [
     {
       "product_id": 1755,
       "store_id": "centrale",
       "price": 83260,
-      "price_card": 87839,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-gamer-asus-a31-black-atx-usb-c-compatible-con-placas-madre-btf/",
       "store_name": "Centrale",
+      "price_card": 87839,
       "price_specs": {
         "Transferencia / Efectivo": "$83.260",
         "Tarjetas de Crédito / Débito": "$87.839"
@@ -41,7 +41,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 83260
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 83260
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

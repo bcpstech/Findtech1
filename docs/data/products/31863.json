@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:18",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 31863,
       "store_id": "winpy",
       "price": 543552,
-      "price_card": 572360,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-pny-nvidia-rtx-a1000-de-8gb-gddr6/",
       "store_name": "Winpy",
+      "price_card": 572360,
       "price_specs": {
         "Transferencia o Depósito": "$543.552",
         "Otros medios de pago": "$572.360"
@@ -41,12 +41,12 @@
       "product_id": 1252,
       "store_id": "centrale",
       "price": 647660,
-      "price_card": 683281,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-pny-nvidia-rtx-a1000-8gb-gddr6-ecc-128-bit/",
       "store_name": "Centrale",
+      "price_card": 683281,
       "price_specs": {
         "Transferencia / Efectivo": "$647.660",
         "Tarjetas de Crédito / Débito": "$683.281"
@@ -63,7 +63,13 @@
       "store_name": "Winpy",
       "date": "2026-06-08",
       "price": 543552
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-09",
+      "price": 543552
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -18,18 +18,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:49",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1355,
       "store_id": "centrale",
       "price": 238490,
-      "price_card": 251607,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-tuf-gaming-b860-plus-wifi-atx-lga-1851-ddr5-wifi-7/",
       "store_name": "Centrale",
+      "price_card": 251607,
       "price_specs": {
         "Transferencia / Efectivo": "$238.490",
         "Tarjetas de Crédito / Débito": "$251.607"
@@ -43,12 +43,12 @@
       "product_id": 59523,
       "store_id": "spdigital",
       "price": 238922,
-      "price_card": 249673,
       "price_normal": 292400,
       "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tuf-gaming-b860-plus-wifi",
       "store_name": "SP Digital",
+      "price_card": 249673,
       "price_specs": {
         "Transferencia / Efectivo": "$238.922",
         "Webpay / Tarjeta": "$249.673"
@@ -65,7 +65,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 238922
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 238922
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

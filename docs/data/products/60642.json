@@ -11,26 +11,26 @@
     "Socket": "AM4",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR4",
-    "Transferencia / Efectivo": "$77.390",
-    "Tarjeta crédito/débito": "$81.650"
+    "Transferencia / Efectivo": "$75.390",
+    "Tarjeta crédito/débito": "$79.540"
   },
   "tags": [],
   "created_at": "2026-06-08 20:57:01",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 60642,
       "store_id": "centrale",
-      "price": 77390,
-      "price_card": 81646,
+      "price": 75390,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-a520m-a-ii-socket-am4-ddr4-m-2-pcie-3-0-micro-atx/",
       "store_name": "Centrale",
+      "price_card": 79536,
       "price_specs": {
-        "Transferencia / Efectivo": "$77.390",
-        "Tarjetas de Crédito / Débito": "$81.646"
+        "Transferencia / Efectivo": "$75.390",
+        "Tarjetas de Crédito / Débito": "$79.536"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,23 +38,23 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 1166,
-      "store_id": "cg",
-      "price": 79990,
-      "price_card": 84197,
+      "product_id": 65251,
+      "store_id": "winpy",
+      "price": 75392,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-a520m-a-ii/",
-      "store_name": "CentralGamer",
+      "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-a520m-a-ii-am4-ddr4-2133-4800mhz-m-2-microatx/",
+      "store_name": "Winpy",
+      "price_card": 79388,
       "price_specs": {
-        "Efectivo/Transferencia": "$79.990",
-        "Webpay / Tarjeta": "$84.197"
+        "Transferencia o Depósito": "$75.392",
+        "Otros medios de pago": "$79.388"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     }
   ],
   "history": [
@@ -63,7 +63,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 77390
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 75390
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:48:11",
-  "updated_at": "2026-06-08 21:05:49",
+  "updated_at": "2026-06-09 01:24:56",
   "prices": [
     {
       "product_id": 2392,
       "store_id": "dust2",
       "price": 49990,
-      "price_card": 51490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-formula-crystal-z1cm-plus-white/",
       "store_name": "Dust2",
+      "price_card": 51490,
       "price_specs": {
         "Efectivo/Transferencia": "$49.990",
         "Tarjeta crédito/débito": "$51.490"
@@ -42,7 +42,13 @@
       "store_name": "Dust2",
       "date": "2026-06-08",
       "price": 49990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-09",
+      "price": 49990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:14",
-  "updated_at": "2026-06-08 20:45:53",
+  "updated_at": "2026-06-09 00:42:01",
   "prices": [
     {
       "product_id": 9776,
       "store_id": "spdigital",
       "price": 63064,
-      "price_card": 65902,
       "price_normal": 77870,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/cm-case-gabinete-elite-520-bk-e502-kgnn-s00",
       "store_name": "SP Digital",
+      "price_card": 65902,
       "price_specs": {
         "Transferencia / Efectivo": "$63.064",
         "Webpay / Tarjeta": "$65.902"
@@ -39,12 +39,12 @@
       "product_id": 1730,
       "store_id": "centrale",
       "price": 66890,
-      "price_card": 70569,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-gamer-cooler-master-elite-502-e-atx-3-vent-argb-incluidos/",
       "store_name": "Centrale",
+      "price_card": 70569,
       "price_specs": {
         "Transferencia / Efectivo": "$66.890",
         "Tarjetas de Crédito / Débito": "$70.569"
@@ -61,7 +61,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 63064
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 63064
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

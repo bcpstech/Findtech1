@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:48:51",
-  "updated_at": "2026-06-08 21:06:12",
+  "updated_at": "2026-06-09 01:25:56",
   "prices": [
     {
       "product_id": 2449,
       "store_id": "dust2",
       "price": 56990,
-      "price_card": 58700,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-fantech-cg83-aero-frgb-space-edition/",
       "store_name": "Dust2",
+      "price_card": 58700,
       "price_specs": {
         "Efectivo/Transferencia": "$56.990",
         "Tarjeta crédito/débito": "$58.700"
@@ -42,7 +42,13 @@
       "store_name": "Dust2",
       "date": "2026-06-08",
       "price": 56990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-09",
+      "price": 56990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

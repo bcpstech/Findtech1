@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:58:29",
-  "updated_at": "2026-06-08 20:58:29",
+  "updated_at": "2026-06-09 01:07:35",
   "prices": [
     {
       "product_id": 60955,
       "store_id": "centrale",
       "price": 36990,
-      "price_card": 39024,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disipador-morpheus-tj400-rgb-am4-1200-1700-135w-4-tubos/",
       "store_name": "Centrale",
+      "price_card": 39024,
       "price_specs": {
         "Transferencia / Efectivo": "$36.990",
         "Tarjetas de Crédito / Débito": "$39.024"
@@ -41,7 +41,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 36990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 36990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

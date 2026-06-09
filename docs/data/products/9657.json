@@ -15,18 +15,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:11",
-  "updated_at": "2026-06-08 20:45:02",
+  "updated_at": "2026-06-09 00:40:30",
   "prices": [
     {
       "product_id": 9657,
       "store_id": "spdigital",
       "price": 79995,
-      "price_card": 83595,
       "price_normal": 119990,
       "discount_pct": 33,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/refrigeracion-liquida-gigabyte-gaming-360-360mm-argb-color-negro",
       "store_name": "SP Digital",
+      "price_card": 83595,
       "price_specs": {
         "Transferencia / Efectivo": "$79.995",
         "Webpay / Tarjeta": "$83.595"
@@ -40,12 +40,12 @@
       "product_id": 1783,
       "store_id": "progaming",
       "price": 81990,
-      "price_card": 84450,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-gigabyte-gaming-360-argb-negro/",
       "store_name": "ProGaming",
+      "price_card": 84450,
       "price_specs": {
         "Efectivo/Transferencia": "$81.990",
         "Tarjeta crédito/débito": "$84.450"
@@ -59,12 +59,12 @@
       "product_id": 60930,
       "store_id": "centrale",
       "price": 88090,
-      "price_card": 92935,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-gigabyte-gaming-360-ice-argb-lga-1851-1700-am4-am5/",
       "store_name": "Centrale",
+      "price_card": 92935,
       "price_specs": {
         "Transferencia / Efectivo": "$88.090",
         "Tarjetas de Crédito / Débito": "$92.935"
@@ -78,12 +78,12 @@
       "product_id": 38940,
       "store_id": "mybox",
       "price": 91191,
-      "price_card": 93927,
       "price_normal": 95990,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/enfriamiento-refrigeracion/6077-refrigeracion-liquida-gigabyte-gaming-360-black-4719331555337.html",
       "store_name": "MyBox",
+      "price_card": 93927,
       "price_specs": {
         "Efectivo/Transferencia": "$91.191",
         "Tarjeta crédito/débito": "$93.927"
@@ -100,7 +100,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 79995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 79995
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

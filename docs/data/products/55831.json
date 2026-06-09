@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-05-08 22:23:34",
-  "updated_at": "2026-06-08 20:51:42",
+  "updated_at": "2026-06-09 00:53:55",
   "prices": [
     {
       "product_id": 55831,
       "store_id": "myshop",
       "price": 11990,
-      "price_card": 12350,
       "price_normal": 12649,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/pasta-termica-noctua-nt-h1-35g-am5-edition-pro-grade-incluye-am5-install-p42244",
       "store_name": "MyShop",
+      "price_card": 12350,
       "price_specs": {
         "Efectivo/Transferencia": "$11.990",
         "Tarjeta crédito/débito": "$12.350"
@@ -44,7 +44,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 11990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 11990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:44:42",
-  "updated_at": "2026-06-08 20:44:42",
+  "updated_at": "2026-06-09 00:40:01",
   "prices": [
     {
       "product_id": 59641,
       "store_id": "spdigital",
       "price": 14995,
-      "price_card": 15670,
       "price_normal": 19990,
       "discount_pct": 25,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/disipador-intel-stock-rh1-aro-led-rgb-para-procesadores-con-socket-lga1700",
       "store_name": "SP Digital",
+      "price_card": 15670,
       "price_specs": {
         "Transferencia / Efectivo": "$14.995",
         "Webpay / Tarjeta": "$15.670"
@@ -41,7 +41,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 14995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 14995
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

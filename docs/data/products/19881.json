@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:18:30",
-  "updated_at": "2026-06-08 20:51:39",
+  "updated_at": "2026-06-09 00:53:49",
   "prices": [
     {
       "product_id": 19881,
       "store_id": "myshop",
       "price": 3990,
-      "price_card": 4110,
       "price_normal": 4209,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/pasta-termica-cooler-master-high-performance-237-g-conductividad-termica-08-wmetro-c-htk-002-u1-p11984",
       "store_name": "MyShop",
+      "price_card": 4110,
       "price_specs": {
         "Efectivo/Transferencia": "$3.990",
         "Tarjeta crédito/débito": "$4.110"
@@ -44,7 +44,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 3990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 3990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

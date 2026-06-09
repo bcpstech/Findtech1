@@ -26,18 +26,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:17",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 59451,
       "store_id": "spdigital",
       "price": 422112,
-      "price_card": 441107,
       "price_normal": 495320,
       "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/r9-7900-540ghz-12-core-skt-am5-76mb-65w",
       "store_name": "SP Digital",
+      "price_card": 441107,
       "price_specs": {
         "Transferencia / Efectivo": "$422.112",
         "Webpay / Tarjeta": "$441.107"
@@ -51,12 +51,12 @@
       "product_id": 38843,
       "store_id": "mybox",
       "price": 459506,
-      "price_card": 473291,
       "price_normal": 483690,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/procesador/5170-procesador-amd-ryzen-9-7900.html",
       "store_name": "MyBox",
+      "price_card": 473291,
       "price_specs": {
         "Efectivo/Transferencia": "$459.506",
         "Tarjeta crédito/débito": "$473.291"
@@ -73,7 +73,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 422112
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 422112
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

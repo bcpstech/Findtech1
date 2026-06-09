@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 01:42:03",
-  "updated_at": "2026-06-08 20:38:07",
+  "updated_at": "2026-06-09 00:37:12",
   "prices": [
     {
       "product_id": 6721,
       "store_id": "n1g",
       "price": 5290000,
-      "price_card": 5570370,
       "price_normal": 5568421,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/2765-workstation-amd-threadripper-3990x-128-hilos-43-ghz-64-core-128gb-ram-1tb-ssd-pcie-40-rtx-3090.html",
       "store_name": "N1G",
+      "price_card": 5570370,
       "price_specs": {
         "Efectivo/Transferencia": "$5.290.000",
         "Tarjeta crédito/débito": "$5.570.370"
@@ -41,7 +41,13 @@
       "store_name": "N1G",
       "date": "2026-06-08",
       "price": 5290000
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-09",
+      "price": 5290000
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

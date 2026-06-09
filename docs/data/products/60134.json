@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:51:42",
-  "updated_at": "2026-06-08 20:51:42",
+  "updated_at": "2026-06-09 00:53:56",
   "prices": [
     {
       "product_id": 60134,
       "store_id": "myshop",
       "price": 19490,
-      "price_card": 20075,
       "price_normal": 20562,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/cryofuze-5-20g-p40925",
       "store_name": "MyShop",
+      "price_card": 20075,
       "price_specs": {
         "Efectivo/Transferencia": "$19.490",
         "Tarjeta crédito/débito": "$20.075"
@@ -44,7 +44,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 19490
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 19490
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -15,18 +15,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:01",
-  "updated_at": "2026-06-08 20:44:54",
+  "updated_at": "2026-06-09 00:40:16",
   "prices": [
     {
       "product_id": 9633,
       "store_id": "spdigital",
       "price": 94995,
-      "price_card": 99270,
       "price_normal": 179990,
       "discount_pct": 47,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/asus-prime-lc-360-argb-fan-unit",
       "store_name": "SP Digital",
+      "price_card": 99270,
       "price_specs": {
         "Transferencia / Efectivo": "$94.995",
         "Webpay / Tarjeta": "$99.270"
@@ -40,12 +40,12 @@
       "product_id": 1766,
       "store_id": "progaming",
       "price": 109990,
-      "price_card": 113290,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-aio-asus-prime-lc-360-argb-negro/",
       "store_name": "ProGaming",
+      "price_card": 113290,
       "price_specs": {
         "Efectivo/Transferencia": "$109.990",
         "Tarjeta crédito/débito": "$113.290"
@@ -59,12 +59,12 @@
       "product_id": 1611,
       "store_id": "centrale",
       "price": 163720,
-      "price_card": 172725,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-aio-asus-tuf-gaming-lc-iii-360-argb-lcd/",
       "store_name": "Centrale",
+      "price_card": 172725,
       "price_specs": {
         "Transferencia / Efectivo": "$163.720",
         "Tarjetas de Crédito / Débito": "$172.725"
@@ -78,12 +78,12 @@
       "product_id": 38938,
       "store_id": "mybox",
       "price": 187901,
-      "price_card": 193538,
       "price_normal": 197790,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/enfriamiento-refrigeracion/6097-refrigeracion-asus-tuf-gaming-lc-iii-360-argb-lcd-black-4711636047838.html",
       "store_name": "MyBox",
+      "price_card": 193538,
       "price_specs": {
         "Efectivo/Transferencia": "$187.901",
         "Tarjeta crédito/débito": "$193.538"
@@ -97,12 +97,12 @@
       "product_id": 779,
       "store_id": "n1g",
       "price": 299000,
-      "price_card": 314847,
       "price_normal": 314737,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3581-asus-rog-strix-lc-iii-360-argb-lcd-aio-wc-cpu-intel-lga-1700-amd-am5-con-lcd-ips-de-21-bomba-gen7-v2.html",
       "store_name": "N1G",
+      "price_card": 314847,
       "price_specs": {
         "Efectivo/Transferencia": "$299.000",
         "Tarjeta crédito/débito": "$314.847"
@@ -119,7 +119,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 94995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 94995
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 23:08:24",
-  "updated_at": "2026-06-08 20:46:56",
+  "updated_at": "2026-06-09 00:43:27",
   "prices": [
     {
       "product_id": 12109,
       "store_id": "trulustore",
       "price": 33990,
-      "price_card": 35010,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/refrigeracion-cpu-redragon-cc1013-rgb-pantalla-digital-temperatura-intel-amd/",
       "store_name": "TruluStore",
+      "price_card": 35010,
       "khipu_price": 34670,
       "price_specs": {
         "Efectivo / Transferencia": "$33.990",
@@ -43,7 +43,13 @@
       "store_name": "TruluStore",
       "date": "2026-06-08",
       "price": 33990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-06-09",
+      "price": 33990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

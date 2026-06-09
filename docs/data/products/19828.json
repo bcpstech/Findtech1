@@ -20,18 +20,18 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:39",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 19828,
       "store_id": "myshop",
       "price": 699990,
-      "price_card": 720990,
       "price_normal": 738489,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/tarjeta-de-video-asus-dual-nvidia-geforce-rtx-5060-ti-16g-oc-edition-evo-16-gb-gddr7-128-bits-pcie-50-displayport-hdmi-p41846",
       "store_name": "MyShop",
+      "price_card": 720990,
       "price_specs": {
         "Efectivo/Transferencia": "$699.990",
         "Tarjeta crédito/débito": "$720.990"
@@ -48,7 +48,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 699990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 699990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

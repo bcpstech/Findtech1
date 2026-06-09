@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-05-08 22:24:45",
-  "updated_at": "2026-06-08 20:52:16",
+  "updated_at": "2026-06-09 00:55:01",
   "prices": [
     {
       "product_id": 2259,
       "store_id": "dust2",
       "price": 63990,
-      "price_card": 65910,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-cougar-atlas-650w-2024/",
       "store_name": "Dust2",
+      "price_card": 65910,
       "price_specs": {
         "Efectivo/Transferencia": "$63.990",
         "Tarjeta crédito/débito": "$65.910"
@@ -41,12 +41,12 @@
       "product_id": 61034,
       "store_id": "centrale",
       "price": 80330,
-      "price_card": 84748,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-cougar-atlas-650w-80plus-bronze-dc-dc-120mm-protecciones/",
       "store_name": "Centrale",
+      "price_card": 84748,
       "price_specs": {
         "Transferencia / Efectivo": "$80.330",
         "Tarjetas de Crédito / Débito": "$84.748"
@@ -60,12 +60,12 @@
       "product_id": 55862,
       "store_id": "myshop",
       "price": 449990,
-      "price_card": 463490,
       "price_normal": 474739,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/pack-9-unidades-fuente-de-poder-650w-certificada-cougar-atlas-650-atx-31-80-plus-bronce-atx-p43133",
       "store_name": "MyShop",
+      "price_card": 463490,
       "price_specs": {
         "Efectivo/Transferencia": "$449.990",
         "Tarjeta crédito/débito": "$463.490"
@@ -82,7 +82,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 449990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 449990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

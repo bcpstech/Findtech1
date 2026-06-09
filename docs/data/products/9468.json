@@ -18,18 +18,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:32",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1354,
       "store_id": "centrale",
       "price": 345970,
-      "price_card": 364998,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-tuf-gaming-z890-plus-wifi-intel-lga-1851-ddr5-wifi-7/",
       "store_name": "Centrale",
+      "price_card": 364998,
       "price_specs": {
         "Transferencia / Efectivo": "$345.970",
         "Tarjetas de Crédito / Débito": "$364.998"
@@ -43,12 +43,12 @@
       "product_id": 38897,
       "store_id": "mybox",
       "price": 382848,
-      "price_card": 394333,
       "price_normal": 413890,
       "discount_pct": 8,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/placa-madre/5669-placa-madre-asus-tuf-z890-plus-wifi-4711387763926.html",
       "store_name": "MyBox",
+      "price_card": 394333,
       "price_specs": {
         "Efectivo/Transferencia": "$382.848",
         "Tarjeta crédito/débito": "$394.333"
@@ -62,12 +62,12 @@
       "product_id": 9468,
       "store_id": "spdigital",
       "price": 579990,
-      "price_card": 606090,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tuf-gaming-z890-plus-wifi",
       "store_name": "SP Digital",
+      "price_card": 606090,
       "price_specs": {
         "Transferencia / Efectivo": "$579.990",
         "Webpay / Tarjeta": "$606.090"
@@ -84,7 +84,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 579990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 579990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

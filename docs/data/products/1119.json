@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:34:35",
-  "updated_at": "2026-06-08 20:56:02",
+  "updated_at": "2026-06-09 01:00:58",
   "prices": [
     {
       "product_id": 1119,
       "store_id": "alltec",
       "price": 77500,
-      "price_card": 79825,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/sin-fuente-de-poder/2082-gabinete-cooler-master-cmp-520-atx.html",
       "store_name": "Alltec",
+      "price_card": 79825,
       "price_specs": {
         "Efectivo/Transferencia": "$77.500",
         "Tarjeta crédito/débito": "$79.825"
@@ -41,7 +41,13 @@
       "store_name": "Alltec",
       "date": "2026-06-08",
       "price": 77500
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 77500
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

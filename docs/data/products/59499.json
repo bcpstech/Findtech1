@@ -19,18 +19,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:39",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 59497,
       "store_id": "spdigital",
       "price": 140624,
-      "price_card": 146952,
       "price_normal": 173580,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-gigabyte-b850m-d3hp-socket-am5-4x-ddr5-2x-m2-pcie-50-x3d-turbo-mode-m-atx",
       "store_name": "SP Digital",
+      "price_card": 146952,
       "price_specs": {
         "Transferencia / Efectivo": "$140.624",
         "Webpay / Tarjeta": "$146.952"
@@ -44,12 +44,12 @@
       "product_id": 38879,
       "store_id": "mybox",
       "price": 213551,
-      "price_card": 219958,
       "price_normal": 224790,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/placa-madre/6030-placa-madre-b840m-aorus-elite-wifi6e-4719331867331.html",
       "store_name": "MyBox",
+      "price_card": 219958,
       "price_specs": {
         "Efectivo/Transferencia": "$213.551",
         "Tarjeta crédito/débito": "$219.958"
@@ -62,16 +62,16 @@
     {
       "product_id": 60623,
       "store_id": "centrale",
-      "price": 231710,
-      "price_card": 244454,
+      "price": 235490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b850m-aorus-elite-wifi-7-socket-am5-ddr5-micro-atx/",
       "store_name": "Centrale",
+      "price_card": 248442,
       "price_specs": {
-        "Transferencia / Efectivo": "$231.710",
-        "Tarjetas de Crédito / Débito": "$244.454"
+        "Transferencia / Efectivo": "$235.490",
+        "Tarjetas de Crédito / Débito": "$248.442"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -82,12 +82,12 @@
       "product_id": 2642,
       "store_id": "trulustore",
       "price": 299990,
-      "price_card": 308990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/placa-madre-gigabyte-b850m-aorus-elite-wifi7-ice-p-am5-wifi-7-bt-5-3-m-2-gen5-pcie-gen5-turbo-mode/",
       "store_name": "TruluStore",
+      "price_card": 308990,
       "khipu_price": 305990,
       "price_specs": {
         "Efectivo / Transferencia": "$299.990",
@@ -106,7 +106,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 294296
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 294296
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

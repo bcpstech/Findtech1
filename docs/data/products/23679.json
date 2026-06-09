@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-03 04:35:27",
-  "updated_at": "2026-06-08 20:56:04",
+  "updated_at": "2026-06-09 01:01:03",
   "prices": [
     {
       "product_id": 23679,
       "store_id": "alltec",
       "price": 39900,
-      "price_card": 41097,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/sin-fuente-de-poder/2460-gabinete-antec-vcx20m-rgb-elite-black-m-atxitx.html",
       "store_name": "Alltec",
+      "price_card": 41097,
       "price_specs": {
         "Efectivo/Transferencia": "$39.900",
         "Tarjeta crédito/débito": "$41.097"
@@ -41,7 +41,13 @@
       "store_name": "Alltec",
       "date": "2026-06-08",
       "price": 39900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 39900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

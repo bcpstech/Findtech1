@@ -17,18 +17,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:01",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1577,
       "store_id": "centrale",
       "price": 132900,
-      "price_card": 140210,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-1tb-kingston-nv3-m-2-2280-pcie-4-0-nvme-6000mb-s/",
       "store_name": "Centrale",
+      "price_card": 140210,
       "price_specs": {
         "Transferencia / Efectivo": "$132.900",
         "Tarjetas de Crédito / Débito": "$140.210"
@@ -42,12 +42,12 @@
       "product_id": 32024,
       "store_id": "winpy",
       "price": 139840,
-      "price_card": 147252,
       "price_normal": null,
       "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/unidad-de-estado-solido-kingston-nv3-de-1tb-nvme-pcie-4-0-6-000mb-s/",
       "store_name": "Winpy",
+      "price_card": 147252,
       "price_specs": {
         "Transferencia o Depósito": "$139.840",
         "Otros medios de pago": "$147.252"
@@ -61,12 +61,12 @@
       "product_id": 9525,
       "store_id": "spdigital",
       "price": 189990,
-      "price_card": 198540,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/kng-ssd-1tb-m2-2280-60005000mbs-pcie-nvme-gen4",
       "store_name": "SP Digital",
+      "price_card": 198540,
       "price_specs": {
         "Transferencia / Efectivo": "$189.990",
         "Webpay / Tarjeta": "$198.540"
@@ -83,7 +83,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 189990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 189990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

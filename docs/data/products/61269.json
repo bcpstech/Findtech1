@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 21:00:17",
-  "updated_at": "2026-06-08 21:00:17",
+  "updated_at": "2026-06-09 01:11:27",
   "prices": [
     {
       "product_id": 61269,
       "store_id": "winpy",
       "price": 44992,
-      "price_card": 47377,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-gamer-antec-vcx300-argb-atx-vidrio-templado-5-ventiladores-negro/",
       "store_name": "Winpy",
+      "price_card": 47377,
       "price_specs": {
         "Transferencia o Depósito": "$44.992",
         "Otros medios de pago": "$47.377"
@@ -38,12 +38,12 @@
       "product_id": 1126,
       "store_id": "alltec",
       "price": 52900,
-      "price_card": 54487,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/sin-fuente-de-poder/2512-gabinete-antec-vcx300-argb-black-atx.html",
       "store_name": "Alltec",
+      "price_card": 54487,
       "price_specs": {
         "Efectivo/Transferencia": "$52.900",
         "Tarjeta crédito/débito": "$54.487"
@@ -60,7 +60,13 @@
       "store_name": "Winpy",
       "date": "2026-06-08",
       "price": 44992
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-09",
+      "price": 44992
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -15,18 +15,18 @@
   },
   "tags": [],
   "created_at": "2026-05-03 04:31:31",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 23426,
       "store_id": "alltec",
       "price": 699900,
-      "price_card": 720897,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2441-tv-amd-radeon-pro-w6600-8gb-gddr6-100-506208.html",
       "store_name": "Alltec",
+      "price_card": 720897,
       "price_specs": {
         "Efectivo/Transferencia": "$699.900",
         "Tarjeta crédito/débito": "$720.897"
@@ -43,7 +43,13 @@
       "store_name": "Alltec",
       "date": "2026-06-08",
       "price": 699900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 699900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

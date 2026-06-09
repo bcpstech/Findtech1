@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:59:24",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 61123,
       "store_id": "winpy",
       "price": 159904,
-      "price_card": 168379,
       "price_normal": null,
       "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-7-5700-am4-8-cores-16-hilos-3-7-4-6ghz-16mb-cache/",
       "store_name": "Winpy",
+      "price_card": 168379,
       "price_specs": {
         "Transferencia o Depósito": "$159.904",
         "Otros medios de pago": "$168.379"
@@ -41,12 +41,12 @@
       "product_id": 2816,
       "store_id": "alltec",
       "price": 169900,
-      "price_card": 174997,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2494-amd-ryzen-7-5700-37ghz-46ghz-turbo-octa-core-tdp-65w-am5.html",
       "store_name": "Alltec",
+      "price_card": 174997,
       "price_specs": {
         "Efectivo/Transferencia": "$169.900",
         "Tarjeta crédito/débito": "$174.997"
@@ -60,12 +60,12 @@
       "product_id": 291,
       "store_id": "centrale",
       "price": 174360,
-      "price_card": 183950,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-5700-8-nucleos-3-7-a-4-6ghz-am4/",
       "store_name": "Centrale",
+      "price_card": 183950,
       "price_specs": {
         "Transferencia / Efectivo": "$174.360",
         "Tarjetas de Crédito / Débito": "$183.950"
@@ -82,7 +82,13 @@
       "store_name": "Winpy",
       "date": "2026-06-08",
       "price": 159904
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-09",
+      "price": 159904
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

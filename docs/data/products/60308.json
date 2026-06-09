@@ -23,18 +23,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:54:02",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 60308,
       "store_id": "alltec",
       "price": 284900,
-      "price_card": 293447,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/intel/2514-intel-i5-14600k-35ghz53ghz-turbo-14c20t-24mb-cache-125w181w-lga1700-14th-generacion.html",
       "store_name": "Alltec",
+      "price_card": 293447,
       "price_specs": {
         "Efectivo/Transferencia": "$284.900",
         "Tarjeta crédito/débito": "$293.447"
@@ -48,12 +48,12 @@
       "product_id": 31901,
       "store_id": "winpy",
       "price": 287584,
-      "price_card": 302826,
       "price_normal": null,
       "discount_pct": 21,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i5-14600k-raptor-lake-s-lga1700-14-cores-20-hilos-3-5-5-3ghz/",
       "store_name": "Winpy",
+      "price_card": 302826,
       "price_specs": {
         "Transferencia o Depósito": "$287.584",
         "Otros medios de pago": "$302.826"
@@ -67,12 +67,12 @@
       "product_id": 37243,
       "store_id": "centrale",
       "price": 294740,
-      "price_card": 310951,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-14600k-raptor-lake-s-lga1700-14-cores-20-hilos/",
       "store_name": "Centrale",
+      "price_card": 310951,
       "price_specs": {
         "Transferencia / Efectivo": "$294.740",
         "Tarjetas de Crédito / Débito": "$310.951"
@@ -86,12 +86,12 @@
       "product_id": 59458,
       "store_id": "spdigital",
       "price": 297712,
-      "price_card": 311109,
       "price_normal": 367640,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/core-i5-14600k-3-50ghz-sktlga1700-2400m",
       "store_name": "SP Digital",
+      "price_card": 311109,
       "price_specs": {
         "Transferencia / Efectivo": "$297.712",
         "Webpay / Tarjeta": "$311.109"
@@ -100,25 +100,6 @@
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 1145,
-      "store_id": "cg",
-      "price": 334332,
-      "price_card": 351918,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/intel-core-i5-i5-14600k-3-5-ghz-14-nucleos-20-hilos-24-mb-cache-fclga1700-socket-caja/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$334.332",
-        "Webpay / Tarjeta": "$351.918"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -127,7 +108,13 @@
       "store_name": "Alltec",
       "date": "2026-06-08",
       "price": 284900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 284900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

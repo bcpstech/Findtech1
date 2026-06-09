@@ -25,18 +25,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:56",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 2809,
       "store_id": "alltec",
       "price": 157600,
-      "price_card": 162328,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2245-amd-ryzen-5-8400f-42ghz-47ghz-turbo-six-core-tdp-65w-am5.html",
       "store_name": "Alltec",
+      "price_card": 162328,
       "price_specs": {
         "Efectivo/Transferencia": "$157.600",
         "Tarjeta crédito/débito": "$162.328"
@@ -50,12 +50,12 @@
       "product_id": 1950,
       "store_id": "dust2",
       "price": 158990,
-      "price_card": 163760,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-5-8400f-4-2-ghz-6-core-am5/",
       "store_name": "Dust2",
+      "price_card": 163760,
       "price_specs": {
         "Efectivo/Transferencia": "$158.990",
         "Tarjeta crédito/débito": "$163.760"
@@ -66,37 +66,18 @@
       "full_url": "https://www.dust2.gg"
     },
     {
-      "product_id": 31,
-      "store_id": "n1g",
-      "price": 160900,
-      "price_card": 169428,
-      "price_normal": 169368,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2922-amd-ryzen-5-8400f-42-ghz-6-core-12-threads-socket-am5-65w-processor-100-100001591box.html",
-      "store_name": "N1G",
-      "price_specs": {
-        "Efectivo/Transferencia": "$160.900",
-        "Tarjeta crédito/débito": "$169.428"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
-    },
-    {
       "product_id": 31884,
       "store_id": "winpy",
-      "price": 162336,
-      "price_card": 170940,
+      "price": 159904,
       "price_normal": null,
-      "discount_pct": 14,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-8400f-am5-6-cores-12-hilos-4-2-4-7ghz-sin-video/",
       "store_name": "Winpy",
+      "price_card": 168379,
       "price_specs": {
-        "Transferencia o Depósito": "$162.336",
-        "Otros medios de pago": "$170.940"
+        "Transferencia o Depósito": "$159.904",
+        "Otros medios de pago": "$168.379"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -107,12 +88,12 @@
       "product_id": 32919,
       "store_id": "infor-ingen",
       "price": 164900,
-      "price_card": 169847,
       "price_normal": 174794,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/cpu-amd-ryzen-5-8400f-4-2ghz/",
       "store_name": "Infor-Ingen",
+      "price_card": 169847,
       "price_specs": {
         "Efectivo/Transferencia": "$164.900",
         "Tarjeta crédito/débito": "$169.847"
@@ -126,12 +107,12 @@
       "product_id": 293,
       "store_id": "centrale",
       "price": 169620,
-      "price_card": 178949,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-8400f-6-cores-12threads-4-2-a-4-7ghz-65w/",
       "store_name": "Centrale",
+      "price_card": 178949,
       "price_specs": {
         "Transferencia / Efectivo": "$169.620",
         "Tarjetas de Crédito / Débito": "$178.949"
@@ -145,12 +126,12 @@
       "product_id": 38839,
       "store_id": "mybox",
       "price": 206929,
-      "price_card": 213137,
       "price_normal": 236490,
       "discount_pct": 12,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/procesador/5517-procesador-amd-ryzen-5-8400f-730143316736.html",
       "store_name": "MyBox",
+      "price_card": 213137,
       "price_specs": {
         "Efectivo/Transferencia": "$206.929",
         "Tarjeta crédito/débito": "$213.137"
@@ -164,12 +145,12 @@
       "product_id": 9409,
       "store_id": "spdigital",
       "price": 213234,
-      "price_card": 222830,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ryzen-5-8400f",
       "store_name": "SP Digital",
+      "price_card": 222830,
       "price_specs": {
         "Transferencia / Efectivo": "$213.234",
         "Webpay / Tarjeta": "$222.830"
@@ -186,7 +167,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 213234
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 213234
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

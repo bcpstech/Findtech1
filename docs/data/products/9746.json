@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:00",
-  "updated_at": "2026-06-08 20:45:44",
+  "updated_at": "2026-06-09 00:41:48",
   "prices": [
     {
       "product_id": 9746,
       "store_id": "spdigital",
       "price": 84995,
-      "price_card": 88820,
       "price_normal": 119990,
       "discount_pct": 29,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/gabinete-gamer-antec-c3-argb-black-mid-tower-atx-micro-atx-itx-4-fans-incluidos",
       "store_name": "SP Digital",
+      "price_card": 88820,
       "price_specs": {
         "Transferencia / Efectivo": "$84.995",
         "Webpay / Tarjeta": "$88.820"
@@ -39,12 +39,12 @@
       "product_id": 1740,
       "store_id": "centrale",
       "price": 93810,
-      "price_card": 98970,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-gamer-antec-c3-argb-atx-4-ventiladores-argb-incluidos/",
       "store_name": "Centrale",
+      "price_card": 98970,
       "price_specs": {
         "Transferencia / Efectivo": "$93.810",
         "Tarjetas de Crédito / Débito": "$98.970"
@@ -55,34 +55,15 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 5849,
-      "store_id": "n1g",
-      "price": 99000,
-      "price_card": 104247,
-      "price_normal": 104211,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3647-antec-c3-white-argb-black-mid-tower-atx-micro-atx-itx-4-fans-incluidos.html",
-      "store_name": "N1G",
-      "price_specs": {
-        "Efectivo/Transferencia": "$99.000",
-        "Tarjeta crédito/débito": "$104.247"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
-    },
-    {
       "product_id": 39007,
       "store_id": "mybox",
       "price": 99741,
-      "price_card": 102733,
       "price_normal": 104990,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/gabinetes/5585-gabinete-antec-c3-black-argb-.html",
       "store_name": "MyBox",
+      "price_card": 102733,
       "price_specs": {
         "Efectivo/Transferencia": "$99.741",
         "Tarjeta crédito/débito": "$102.733"
@@ -99,7 +80,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 84995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 84995
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

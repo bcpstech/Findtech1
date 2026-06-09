@@ -17,18 +17,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1326,
       "store_id": "centrale",
       "price": 137390,
-      "price_card": 144946,
       "price_normal": 147800,
       "discount_pct": 7,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-b850m-gaming-wifi6e-micro-atx-am5-2x-ddr5-pcie-5-0-wifi-6e/",
       "store_name": "Centrale",
+      "price_card": 144946,
       "price_specs": {
         "Transferencia / Efectivo": "$137.390",
         "Tarjetas de Crédito / Débito": "$144.946"
@@ -45,7 +45,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 137390
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 137390
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

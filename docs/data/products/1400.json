@@ -17,18 +17,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1400,
       "store_id": "centrale",
       "price": 403270,
-      "price_card": 425450,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-z890-gaming-x-wifi7-atx-intel-lga-1851-ddr5-wifi-7/",
       "store_name": "Centrale",
+      "price_card": 425450,
       "price_specs": {
         "Transferencia / Efectivo": "$403.270",
         "Tarjetas de Crédito / Débito": "$425.450"
@@ -45,7 +45,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 403270
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 403270
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

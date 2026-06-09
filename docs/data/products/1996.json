@@ -18,18 +18,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:43:02",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1996,
       "store_id": "dust2",
       "price": 555990,
-      "price_card": 572670,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/memorias-ram-corsair-vengeance-rgb-2-x-16gb-ddr5-6400/",
       "store_name": "Dust2",
+      "price_card": 572670,
       "price_specs": {
         "Efectivo/Transferencia": "$555.990",
         "Tarjeta crédito/débito": "$572.670"
@@ -46,7 +46,13 @@
       "store_name": "Dust2",
       "date": "2026-06-08",
       "price": 555990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-09",
+      "price": 555990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

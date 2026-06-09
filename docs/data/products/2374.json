@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:47:57",
-  "updated_at": "2026-06-08 21:05:43",
+  "updated_at": "2026-06-09 01:24:30",
   "prices": [
     {
       "product_id": 2374,
       "store_id": "dust2",
       "price": 59990,
-      "price_card": 61790,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-cooler-master-elite-481-wood-m-atx-m-itx-blanco/",
       "store_name": "Dust2",
+      "price_card": 61790,
       "price_specs": {
         "Efectivo/Transferencia": "$59.990",
         "Tarjeta crédito/débito": "$61.790"
@@ -39,12 +39,12 @@
       "product_id": 61047,
       "store_id": "centrale",
       "price": 60970,
-      "price_card": 64323,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-cooler-master-elite-690-wood-atx-micro-atx-2xusb-3-0-3x120mm-argb/",
       "store_name": "Centrale",
+      "price_card": 64323,
       "price_specs": {
         "Transferencia / Efectivo": "$60.970",
         "Tarjetas de Crédito / Débito": "$64.323"
@@ -61,7 +61,13 @@
       "store_name": "Dust2",
       "date": "2026-06-08",
       "price": 59990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-09",
+      "price": 59990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

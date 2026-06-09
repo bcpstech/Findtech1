@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:53",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 59535,
       "store_id": "spdigital",
       "price": 72995,
-      "price_card": 76280,
       "price_normal": 129990,
       "discount_pct": 44,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/segunda-seleccion-placa-madre-asus-prime-h610m-f-d4-r20-socket-lga-1700-2x-ddr4-m2-pcie-40-h",
       "store_name": "SP Digital",
+      "price_card": 76280,
       "price_specs": {
         "Transferencia / Efectivo": "$72.995",
         "Webpay / Tarjeta": "$76.280"
@@ -41,12 +41,12 @@
       "product_id": 31925,
       "store_id": "winpy",
       "price": 77824,
-      "price_card": 81949,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-h610m-f-d4-r2-0-lga1700-ddr4-3200mhz-m-2-hdmi-micro-atx/",
       "store_name": "Winpy",
+      "price_card": 81949,
       "price_specs": {
         "Transferencia o Depósito": "$77.824",
         "Otros medios de pago": "$81.949"
@@ -60,12 +60,12 @@
       "product_id": 1375,
       "store_id": "centrale",
       "price": 78740,
-      "price_card": 83071,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-h610m-f-d4-lga1700-micro-atx-ddr4-m-2-pcie-4-0/",
       "store_name": "Centrale",
+      "price_card": 83071,
       "price_specs": {
         "Transferencia / Efectivo": "$78.740",
         "Tarjetas de Crédito / Débito": "$83.071"
@@ -79,12 +79,12 @@
       "product_id": 23544,
       "store_id": "alltec",
       "price": 84900,
-      "price_card": 87447,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/para-intel/2484-mb-asus-prime-h610m-f-d4-r20-lga1700-ddr4-intel-141312-generacion.html",
       "store_name": "Alltec",
+      "price_card": 87447,
       "price_specs": {
         "Efectivo/Transferencia": "$84.900",
         "Tarjeta crédito/débito": "$87.447"
@@ -101,7 +101,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 72995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 72995
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

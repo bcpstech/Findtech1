@@ -25,18 +25,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:52",
-  "updated_at": "2026-06-08 20:43:12",
+  "updated_at": "2026-06-09 00:37:56",
   "prices": [
     {
       "product_id": 3317,
       "store_id": "alltec",
       "price": 409900,
-      "price_card": 422197,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2030-amd-ryzen-7-7800x3d-42ghz-50ghz-turbo-octa-core-tdp-120w-am5.html",
       "store_name": "Alltec",
+      "price_card": 422197,
       "price_specs": {
         "Efectivo/Transferencia": "$409.900",
         "Tarjeta crédito/débito": "$422.197"
@@ -50,12 +50,12 @@
       "product_id": 1967,
       "store_id": "dust2",
       "price": 425990,
-      "price_card": 438770,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-7-7800x3d-8-nucleos-4-2ghz-am5/",
       "store_name": "Dust2",
+      "price_card": 438770,
       "price_specs": {
         "Efectivo/Transferencia": "$425.990",
         "Tarjeta crédito/débito": "$438.770"
@@ -69,12 +69,12 @@
       "product_id": 31916,
       "store_id": "winpy",
       "price": 437152,
-      "price_card": 460321,
       "price_normal": null,
       "discount_pct": 25,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-7-7800x3d-am5-8-cores-16-hilos-4-2-5-0ghz/",
       "store_name": "Winpy",
+      "price_card": 460321,
       "price_specs": {
         "Transferencia o Depósito": "$437.152",
         "Otros medios de pago": "$460.321"
@@ -85,53 +85,15 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 41,
-      "store_id": "n1g",
-      "price": 439900,
-      "price_card": 463215,
-      "price_normal": 463053,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2274-amd-ryzen-9-7800x3d-8-core-42-ghz-7000-series-am5-120w-amd-radeon-graphics-desktop-100-100000910wof.html",
-      "store_name": "N1G",
-      "price_specs": {
-        "Efectivo/Transferencia": "$439.900",
-        "Tarjeta crédito/débito": "$463.215"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
-    },
-    {
-      "product_id": 59382,
-      "store_id": "cg",
-      "price": 465990,
-      "price_card": 490501,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-7-7800x3d/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$465.990",
-        "Webpay / Tarjeta": "$490.501"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
-    },
-    {
       "product_id": 277,
       "store_id": "centrale",
       "price": 475880,
-      "price_card": 502053,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-7800x3d-4-2-a-5-0ghz-8-nucleos-16-hilos/",
       "store_name": "Centrale",
+      "price_card": 502053,
       "price_specs": {
         "Transferencia / Efectivo": "$475.880",
         "Tarjetas de Crédito / Débito": "$502.053"
@@ -145,12 +107,12 @@
       "product_id": 9398,
       "store_id": "spdigital",
       "price": 481723,
-      "price_card": 503401,
       "price_normal": 503370,
       "discount_pct": 4,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ryzen-7-7800x3d-500ghz-8-core-skt-am5",
       "store_name": "SP Digital",
+      "price_card": 503401,
       "price_specs": {
         "Transferencia / Efectivo": "$481.723",
         "Webpay / Tarjeta": "$503.401"
@@ -167,7 +129,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 481723
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 481723
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

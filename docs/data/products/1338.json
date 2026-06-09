@@ -17,18 +17,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1338,
       "store_id": "centrale",
       "price": 145700,
-      "price_card": 153714,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-b860m-ayw-gaming-wifi-micro-atx-lga-1851-2x-ddr5-wifi-6/",
       "store_name": "Centrale",
+      "price_card": 153714,
       "price_specs": {
         "Transferencia / Efectivo": "$145.700",
         "Tarjetas de Crédito / Débito": "$153.714"
@@ -45,7 +45,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 145700
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 145700
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

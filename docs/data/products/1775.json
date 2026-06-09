@@ -15,18 +15,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:04",
-  "updated_at": "2026-06-08 21:08:22",
+  "updated_at": "2026-06-09 01:28:42",
   "prices": [
     {
       "product_id": 1775,
       "store_id": "progaming",
       "price": 75490,
-      "price_card": 77755,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-xpg-levante-ii-240-argb-blanco/",
       "store_name": "ProGaming",
+      "price_card": 77755,
       "price_specs": {
         "Efectivo/Transferencia": "$75.490",
         "Tarjeta crédito/débito": "$77.755"
@@ -40,12 +40,12 @@
       "product_id": 1619,
       "store_id": "centrale",
       "price": 82010,
-      "price_card": 86521,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-xpg-levante-ii-240-argb-blanco-2x120mm/",
       "store_name": "Centrale",
+      "price_card": 86521,
       "price_specs": {
         "Transferencia / Efectivo": "$82.010",
         "Tarjetas de Crédito / Débito": "$86.521"
@@ -62,7 +62,13 @@
       "store_name": "ProGaming",
       "date": "2026-06-08",
       "price": 75490
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-06-09",
+      "price": 75490
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

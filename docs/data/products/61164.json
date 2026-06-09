@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:59:37",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 61164,
       "store_id": "winpy",
       "price": 66880,
-      "price_card": 70425,
       "price_normal": null,
       "discount_pct": 24,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-msi-pro-h610m-a-ddr4-lga1700-ddr4-x2-m-2-micro-atx/",
       "store_name": "Winpy",
+      "price_card": 70425,
       "price_specs": {
         "Transferencia o Depósito": "$66.880",
         "Otros medios de pago": "$70.425"
@@ -44,7 +44,13 @@
       "store_name": "Winpy",
       "date": "2026-06-08",
       "price": 66880
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-09",
+      "price": 66880
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

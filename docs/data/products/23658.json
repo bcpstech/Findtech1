@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-03 04:35:14",
-  "updated_at": "2026-06-08 20:55:55",
+  "updated_at": "2026-06-09 01:00:48",
   "prices": [
     {
       "product_id": 23658,
       "store_id": "alltec",
       "price": 44900,
-      "price_card": 46247,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/sin-fuente-de-poder/2485-gabinete-newgen-cobalt-glass-white-matxitx-3xfan-argb.html",
       "store_name": "Alltec",
+      "price_card": 46247,
       "price_specs": {
         "Efectivo/Transferencia": "$44.900",
         "Tarjeta crédito/débito": "$46.247"
@@ -41,7 +41,13 @@
       "store_name": "Alltec",
       "date": "2026-06-08",
       "price": 44900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 44900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

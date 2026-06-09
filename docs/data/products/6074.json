@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 00:57:08",
-  "updated_at": "2026-06-08 20:34:45",
+  "updated_at": "2026-06-09 00:21:59",
   "prices": [
     {
       "product_id": 6074,
       "store_id": "n1g",
       "price": 14900,
-      "price_card": 15690,
       "price_normal": 15684,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3473-intel-disipador-stock-lga-1700-1200-1151-e97379-003-foxconn-thermal-solution-shipped-with-the-boxed-processor.html",
       "store_name": "N1G",
+      "price_card": 15690,
       "price_specs": {
         "Efectivo/Transferencia": "$14.900",
         "Tarjeta crédito/débito": "$15.690"
@@ -38,12 +38,12 @@
       "product_id": 23610,
       "store_id": "alltec",
       "price": 29900,
-      "price_card": 30797,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/cpu-cooler/56-cpu-cooler-intel-thermal-solution-ts15a-lga1151-5032037075824.html",
       "store_name": "Alltec",
+      "price_card": 30797,
       "price_specs": {
         "Efectivo/Transferencia": "$29.900",
         "Tarjeta crédito/débito": "$30.797"
@@ -60,7 +60,13 @@
       "store_name": "N1G",
       "date": "2026-06-08",
       "price": 14900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-09",
+      "price": 14900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

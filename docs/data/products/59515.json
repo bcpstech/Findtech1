@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:45",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 59515,
       "store_id": "spdigital",
       "price": 46995,
-      "price_card": 49110,
       "price_normal": 149990,
       "discount_pct": 69,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/segunda-seleccion-placa-madre-msi-a520m-pro-am4-2x-ddr4-1x-m2-hdmi-usb-32-dvi-micro-atx",
       "store_name": "SP Digital",
+      "price_card": 49110,
       "price_specs": {
         "Transferencia / Efectivo": "$46.995",
         "Webpay / Tarjeta": "$49.110"
@@ -44,7 +44,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 46995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 46995
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

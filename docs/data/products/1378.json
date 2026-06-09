@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1378,
       "store_id": "centrale",
       "price": 1476130,
-      "price_card": 1557317,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asrock-wrx90-ws-evo-socket-str5-amd-ryzen-threadripper-pro-eeb/",
       "store_name": "Centrale",
+      "price_card": 1557317,
       "price_specs": {
         "Transferencia / Efectivo": "$1.476.130",
         "Tarjetas de Crédito / Débito": "$1.557.317"
@@ -42,7 +42,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 1476130
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 1476130
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

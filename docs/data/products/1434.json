@@ -1,44 +1,40 @@
 {
   "id": 1434,
-  "external_id": "dust2_procesador-intel-core-i9-14900-hasta-5-8ghz-lga1700",
-  "category_id": "cpu",
-  "brand": "Intel",
-  "name": "Procesador Intel Core i9-14900, hasta 5.8Ghz, LGA1700",
-  "slug": "procesador-intel-core-i9-14900-hasta-5-8ghz-lga1700",
-  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i9-14900-hasta-5-8ghz-lga1700.jpg",
+  "external_id": "centrale_memoria-ram-32gb-ddr5-6000mt-s-cl30-kingston-fury-beast-rgb-xmp",
+  "category_id": "ram",
+  "brand": "Kingston",
+  "name": "Memoria RAM 32GB DDR5 6000MT/s CL30 Kingston Fury Beast RGB (XMP)",
+  "slug": "memoria-ram-32gb-ddr5-6000mt-s-cl30-kingston-fury-beast-rgb-xmp",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-32gb-ddr5-6000mt-s-cl30-kingston-fury-beast-rgb-xmp.webp",
   "description": null,
   "specs": {
-    "Marca": "Intel",
-    "Transferencia/Efectivo": "$697.080",
-    "Webpay / Tarjeta crédito-débito": "$717.990"
+    "Capacidad": "32 GB (total)",
+    "Tipo": "DDR5",
+    "Velocidad": "6000 MHz",
+    "Latencia": "CL36",
+    "Kit": "2x16 GB",
+    "Iluminación": "RGB",
+    "Transferencia / Efectivo": "$611.790",
+    "Tarjeta crédito/débito": "$645.440"
   },
   "tags": [],
-  "created_at": "2026-04-25 21:00:25",
-  "updated_at": "2026-04-25 21:00:25",
+  "created_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1434,
-      "store_id": "dust2",
-      "price": 697080,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/procesador-intel-core-i9-14900-hasta-5-8ghz-lga1700/",
-      "store_name": "Dust2",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 779,
       "store_id": "centrale",
-      "price": 732690,
+      "price": 498990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900-24-core-3-2-5-8ghz-lga1700-36mb-cache/",
+      "product_url": "https://centrale.cl/producto/memoria-ram-32gb-ddr5-6000mt-s-cl30-kingston-fury-beast-rgb-xmp/",
       "store_name": "Centrale",
+      "price_card": 526434,
+      "price_specs": {
+        "Transferencia / Efectivo": "$498.990",
+        "Tarjetas de Crédito / Débito": "$526.434"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -47,11 +43,17 @@
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 697080
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 498990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 498990
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-06-09"
 }

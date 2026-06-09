@@ -23,18 +23,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:25",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 323,
       "store_id": "centrale",
       "price": 174880,
-      "price_card": 184498,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-5-225f-arrow-lake-6-p-cores-4-e-cores-lga-1851/",
       "store_name": "Centrale",
+      "price_card": 184498,
       "price_specs": {
         "Transferencia / Efectivo": "$174.880",
         "Tarjetas de Crédito / Débito": "$184.498"
@@ -48,12 +48,12 @@
       "product_id": 1940,
       "store_id": "dust2",
       "price": 175990,
-      "price_card": 181270,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/procesador-intel-core-ultra-5-225f-4-9-ghz-lga1851/",
       "store_name": "Dust2",
+      "price_card": 181270,
       "price_specs": {
         "Efectivo/Transferencia": "$175.990",
         "Tarjeta crédito/débito": "$181.270"
@@ -67,12 +67,12 @@
       "product_id": 31886,
       "store_id": "winpy",
       "price": 176928,
-      "price_card": 186305,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-ultra-5-225f-arrow-lake-lga1851-6-p-cores-4-e-cores-10-hilos-3-3-4-9ghz-20mb-cache-sin-video/",
       "store_name": "Winpy",
+      "price_card": 186305,
       "price_specs": {
         "Transferencia o Depósito": "$176.928",
         "Otros medios de pago": "$186.305"
@@ -86,12 +86,12 @@
       "product_id": 59467,
       "store_id": "spdigital",
       "price": 181495,
-      "price_card": 189662,
       "price_normal": 469990,
       "discount_pct": 61,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-intel-core-ultra-5-225-20m-cache-up-to-490-ghz-fclga18w-socket-lga-1851-65w-no-gpu",
       "store_name": "SP Digital",
+      "price_card": 189662,
       "price_specs": {
         "Transferencia / Efectivo": "$181.495",
         "Webpay / Tarjeta": "$189.662"
@@ -108,7 +108,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 181495
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 181495
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:52:38",
-  "updated_at": "2026-06-08 21:35:35",
+  "updated_at": "2026-06-09 02:08:05",
   "prices": [
     {
       "product_id": 33555,
       "store_id": "infor-ingen",
       "price": 5900,
-      "price_card": 6077,
       "price_normal": 6254,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/ventilador-riotoro-cross-x-clear-classic-led-red-120mm/",
       "store_name": "Infor-Ingen",
+      "price_card": 6077,
       "price_specs": {
         "Efectivo/Transferencia": "$5.900",
         "Tarjeta crédito/débito": "$6.077"
@@ -41,7 +41,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-08",
       "price": 5900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-09",
+      "price": 5900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

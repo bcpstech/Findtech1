@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:46:14",
-  "updated_at": "2026-06-08 20:46:14",
+  "updated_at": "2026-06-09 00:42:28",
   "prices": [
     {
       "product_id": 59873,
       "store_id": "trulustore",
       "price": 3499990,
-      "price_card": 3604990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/pc-gamer-gilgamesh-ryzen-7-9850x3d-liquida-360m-pantalla-ips-2-8-rtx-5080-asus-ram-16-32gb-ssd-nvme-1tb-gabinete-gilgamesh-6-ventiladores/",
       "store_name": "TruluStore",
+      "price_card": 3604990,
       "khipu_price": 3569990,
       "price_specs": {
         "Efectivo / Transferencia": "$3.499.990",
@@ -43,7 +43,13 @@
       "store_name": "TruluStore",
       "date": "2026-06-08",
       "price": 3499990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-06-09",
+      "price": 3499990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

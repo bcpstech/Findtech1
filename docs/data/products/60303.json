@@ -23,18 +23,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:54:01",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 60303,
       "store_id": "alltec",
       "price": 564900,
-      "price_card": 581847,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/intel/2178-intel-i9-14900kf-32ghz60ghz-turbo-24c32t-36mb-cache-125w253w-lga1700-14th-generacion.html",
       "store_name": "Alltec",
+      "price_card": 581847,
       "price_specs": {
         "Efectivo/Transferencia": "$564.900",
         "Tarjeta crédito/débito": "$581.847"
@@ -48,12 +48,12 @@
       "product_id": 310,
       "store_id": "centrale",
       "price": 617730,
-      "price_card": 651705,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900kf-raptor-lake-s-lga1700-sin-graficos/",
       "store_name": "Centrale",
+      "price_card": 651705,
       "price_specs": {
         "Transferencia / Efectivo": "$617.730",
         "Tarjetas de Crédito / Débito": "$651.705"
@@ -67,12 +67,12 @@
       "product_id": 38842,
       "store_id": "mybox",
       "price": 666453,
-      "price_card": 686447,
       "price_normal": 720490,
       "discount_pct": 8,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/procesador/5233-procesador-intel-core-i9-14900kf--5032037278546.html",
       "store_name": "MyBox",
+      "price_card": 686447,
       "price_specs": {
         "Efectivo/Transferencia": "$666.453",
         "Tarjeta crédito/débito": "$686.447"
@@ -86,12 +86,12 @@
       "product_id": 59465,
       "store_id": "spdigital",
       "price": 899990,
-      "price_card": 940490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/intel-core-i9-i9-14900kf-32-ghz-24-core-lga1700-socket",
       "store_name": "SP Digital",
+      "price_card": 940490,
       "price_specs": {
         "Transferencia / Efectivo": "$899.990",
         "Webpay / Tarjeta": "$940.490"
@@ -108,7 +108,13 @@
       "store_name": "Alltec",
       "date": "2026-06-08",
       "price": 564900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 564900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

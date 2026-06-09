@@ -21,18 +21,18 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:39",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 19829,
       "store_id": "myshop",
       "price": 699990,
-      "price_card": 720990,
       "price_normal": 738489,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/msi-geforce-rtx-5070-12g-shadow-2x-oc-p40532",
       "store_name": "MyShop",
+      "price_card": 720990,
       "price_specs": {
         "Efectivo/Transferencia": "$699.990",
         "Tarjeta crédito/débito": "$720.990"
@@ -46,12 +46,12 @@
       "product_id": 2640,
       "store_id": "trulustore",
       "price": 789990,
-      "price_card": 813690,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-rtx-5070-12gb-msi-shadow-2x-oc/",
       "store_name": "TruluStore",
+      "price_card": 813690,
       "khipu_price": 805790,
       "price_specs": {
         "Efectivo / Transferencia": "$789.990",
@@ -70,7 +70,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 699990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 699990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

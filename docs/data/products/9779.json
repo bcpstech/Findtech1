@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:15",
-  "updated_at": "2026-06-08 20:45:54",
+  "updated_at": "2026-06-09 00:42:02",
   "prices": [
     {
       "product_id": 9779,
       "store_id": "spdigital",
       "price": 64990,
-      "price_card": 67915,
       "price_normal": 104990,
       "discount_pct": 38,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/masterbox-540",
       "store_name": "SP Digital",
+      "price_card": 67915,
       "price_specs": {
         "Transferencia / Efectivo": "$64.990",
         "Webpay / Tarjeta": "$67.915"
@@ -41,7 +41,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 64990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 64990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-08 22:17:30",
-  "updated_at": "2026-06-08 20:46:14",
+  "updated_at": "2026-06-09 00:42:28",
   "prices": [
     {
       "product_id": 55686,
       "store_id": "trulustore",
       "price": 919990,
-      "price_card": 947590,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/pc-gamer-nebulite-v1-ryzen-5-5500-rtx-5050-msi-gaming-oc-ram-8-16gb-ssd-nvme-500gb-wifi-y-bluetooth/",
       "store_name": "TruluStore",
+      "price_card": 947590,
       "khipu_price": 938390,
       "price_specs": {
         "Efectivo / Transferencia": "$919.990",
@@ -43,7 +43,13 @@
       "store_name": "TruluStore",
       "date": "2026-06-08",
       "price": 919990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-06-09",
+      "price": 919990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

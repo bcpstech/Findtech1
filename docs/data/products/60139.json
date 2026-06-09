@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:51:57",
-  "updated_at": "2026-06-08 20:51:57",
+  "updated_at": "2026-06-09 00:54:18",
   "prices": [
     {
       "product_id": 59760,
       "store_id": "spdigital",
       "price": 77732,
-      "price_card": 81230,
       "price_normal": 95900,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/elite-gold-650-fm-awo-cord",
       "store_name": "SP Digital",
+      "price_card": 81230,
       "price_specs": {
         "Transferencia / Efectivo": "$77.732",
         "Webpay / Tarjeta": "$81.230"
@@ -41,12 +41,12 @@
       "product_id": 60139,
       "store_id": "myshop",
       "price": 77990,
-      "price_card": 80330,
       "price_normal": 82279,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/elite-gold-650-p40937",
       "store_name": "MyShop",
+      "price_card": 80330,
       "price_specs": {
         "Efectivo/Transferencia": "$77.990",
         "Tarjeta crédito/débito": "$80.330"
@@ -60,12 +60,12 @@
       "product_id": 2232,
       "store_id": "dust2",
       "price": 79990,
-      "price_card": 82390,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-cooler-master-elite-gold-650w-80plus-gold/",
       "store_name": "Dust2",
+      "price_card": 82390,
       "price_specs": {
         "Efectivo/Transferencia": "$79.990",
         "Tarjeta crédito/débito": "$82.390"
@@ -79,12 +79,12 @@
       "product_id": 60997,
       "store_id": "centrale",
       "price": 81810,
-      "price_card": 86310,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/cooler-master-fuente-de-poder-elite-gold-650-full-modular-certificada-80-plus/",
       "store_name": "Centrale",
+      "price_card": 86310,
       "price_specs": {
         "Transferencia / Efectivo": "$81.810",
         "Tarjetas de Crédito / Débito": "$86.310"
@@ -98,12 +98,12 @@
       "product_id": 38962,
       "store_id": "mybox",
       "price": 89291,
-      "price_card": 91970,
       "price_normal": 93990,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/fuentes-de-poder/6134-fuente-de-poder-coolermaster-elite-650w-gold.html",
       "store_name": "MyBox",
+      "price_card": 91970,
       "price_specs": {
         "Efectivo/Transferencia": "$89.291",
         "Tarjeta crédito/débito": "$91.970"
@@ -120,7 +120,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 77990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 77990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

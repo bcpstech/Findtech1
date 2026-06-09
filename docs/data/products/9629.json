@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:59",
-  "updated_at": "2026-06-08 20:44:53",
+  "updated_at": "2026-06-09 00:40:14",
   "prices": [
     {
       "product_id": 9629,
       "store_id": "spdigital",
       "price": 79995,
-      "price_card": 83595,
       "price_normal": 119990,
       "discount_pct": 33,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/antec-water-c-skeleton-360-argb-bk-0-761345-40066-4",
       "store_name": "SP Digital",
+      "price_card": 83595,
       "price_specs": {
         "Transferencia / Efectivo": "$79.995",
         "Webpay / Tarjeta": "$83.595"
@@ -41,7 +41,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 79995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 79995
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

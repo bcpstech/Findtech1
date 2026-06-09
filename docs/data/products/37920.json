@@ -8,27 +8,27 @@
   "image_url": "https://images.findtech.cl/products/disco-ssd-crucial-bx500-de-500gb-2-5-3d-nand-sata.jpg",
   "description": null,
   "specs": {
-    "Capacidad": "500 GB",
-    "Interfaz": "PCI Express 4.0",
+    "Capacidad": "4 TB",
+    "Interfaz": "PCI Express 3.0",
     "Factor de forma": "M.2 2280",
-    "Lectura": "7200 MB/s",
-    "Efectivo/Transferencia": "$217.742",
-    "Tarjeta crédito/débito": "$227.540"
+    "Lectura": "3500 MB/s",
+    "Efectivo/Transferencia": "$438.485",
+    "Tarjeta crédito/débito": "$458.217"
   },
   "tags": [],
   "created_at": "2026-05-04 23:41:33",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 37920,
       "store_id": "winpy",
       "price": 98496,
-      "price_card": 103716,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/disco-ssd-crucial-bx500-de-500gb-2-5-3d-nand-sata/",
       "store_name": "Winpy",
+      "price_card": 103716,
       "price_specs": {
         "Transferencia o Depósito": "$98.496",
         "Otros medios de pago": "$103.716"
@@ -39,42 +39,61 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 1575,
-      "store_id": "centrale",
-      "price": 186030,
-      "price_card": 196262,
-      "price_normal": null,
-      "discount_pct": null,
+      "product_id": 33514,
+      "store_id": "infor-ingen",
+      "price": 99900,
+      "price_normal": 105894,
+      "discount_pct": 6,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-500gb-crucial-t500-nvme-pcie-4-0-x4-m-2-2280/",
-      "store_name": "Centrale",
+      "product_url": "https://store.infor-ingen.com/producto/disco-ssd-m-2-crucial-p3-plus-500gb-nvme-pcie-4-0-2/",
+      "store_name": "Infor-Ingen",
+      "price_card": 102897,
       "price_specs": {
-        "Transferencia / Efectivo": "$186.030",
-        "Tarjetas de Crédito / Débito": "$196.262"
+        "Efectivo/Transferencia": "$99.900",
+        "Tarjeta crédito/débito": "$102.897"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
     },
     {
-      "product_id": 9545,
+      "product_id": 9543,
       "store_id": "spdigital",
-      "price": 217742,
-      "price_card": 227540,
-      "price_normal": 217750,
-      "discount_pct": null,
+      "price": 438485,
+      "price_normal": 541470,
+      "discount_pct": 19,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/crucial-t500-500gb-pcie-gen4-nvme-m2-ss",
+      "product_url": "https://www.spdigital.cl/crucial-p3-4000gb-3d-nand-nvme-pcie-m-2",
       "store_name": "SP Digital",
+      "price_card": 458217,
       "price_specs": {
-        "Transferencia / Efectivo": "$217.742",
-        "Webpay / Tarjeta": "$227.540"
+        "Transferencia / Efectivo": "$438.485",
+        "Webpay / Tarjeta": "$458.217"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1582,
+      "store_id": "centrale",
+      "price": 442190,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/disco-ssd-4tb-crucial-p3-nvme-pcie-3-0-m-2-2280/",
+      "store_name": "Centrale",
+      "price_card": 466510,
+      "price_specs": {
+        "Transferencia / Efectivo": "$442.190",
+        "Tarjetas de Crédito / Débito": "$466.510"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -83,7 +102,13 @@
       "store_name": "Winpy",
       "date": "2026-06-08",
       "price": 98496
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-09",
+      "price": 98496
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

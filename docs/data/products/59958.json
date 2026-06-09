@@ -20,18 +20,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:49:23",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 59958,
       "store_id": "myshop",
       "price": 497990,
-      "price_card": 512930,
       "price_normal": 525379,
       "discount_pct": 14,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/geforce-rtx-5060-ti-8g-ventus-2x-oc-plus-p41089",
       "store_name": "MyShop",
+      "price_card": 512930,
       "price_specs": {
         "Efectivo/Transferencia": "$497.990",
         "Tarjeta crédito/débito": "$512.930"
@@ -48,7 +48,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 497990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 497990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:19:46",
-  "updated_at": "2026-06-08 20:52:29",
+  "updated_at": "2026-06-09 00:55:21",
   "prices": [
     {
       "product_id": 19891,
       "store_id": "myshop",
       "price": 30990,
-      "price_card": 31920,
       "price_normal": 32694,
       "discount_pct": 48,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/gabinete-cougar-mx110-rgb-p36957",
       "store_name": "MyShop",
+      "price_card": 31920,
       "price_specs": {
         "Efectivo/Transferencia": "$30.990",
         "Tarjeta crédito/débito": "$31.920"
@@ -41,12 +41,12 @@
       "product_id": 9754,
       "store_id": "spdigital",
       "price": 54995,
-      "price_card": 57470,
       "price_normal": 89990,
       "discount_pct": 39,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/gabinete-cougar-uniface-white-1-ventilador-frontale-1-trasero",
       "store_name": "SP Digital",
+      "price_card": 57470,
       "price_specs": {
         "Transferencia / Efectivo": "$54.995",
         "Webpay / Tarjeta": "$57.470"
@@ -60,12 +60,12 @@
       "product_id": 47844,
       "store_id": "dust2",
       "price": 72990,
-      "price_card": 75180,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-cougar-fv150-rgb-atx-white/",
       "store_name": "Dust2",
+      "price_card": 75180,
       "price_specs": {
         "Efectivo/Transferencia": "$72.990",
         "Tarjeta crédito/débito": "$75.180"
@@ -79,12 +79,12 @@
       "product_id": 1751,
       "store_id": "centrale",
       "price": 73390,
-      "price_card": 77426,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-cougar-fv150-rgb-atx-negro-incluye-4-fan-argb/",
       "store_name": "Centrale",
+      "price_card": 77426,
       "price_specs": {
         "Transferencia / Efectivo": "$73.390",
         "Tarjetas de Crédito / Débito": "$77.426"
@@ -101,7 +101,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 30990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 30990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

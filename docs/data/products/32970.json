@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:42:36",
-  "updated_at": "2026-06-08 21:21:28",
+  "updated_at": "2026-06-09 01:49:59",
   "prices": [
     {
       "product_id": 32970,
       "store_id": "infor-ingen",
       "price": 169900,
-      "price_card": 174997,
       "price_normal": 180094,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/m-b-gigabyte-b760m-c-v2/",
       "store_name": "Infor-Ingen",
+      "price_card": 174997,
       "price_specs": {
         "Efectivo/Transferencia": "$169.900",
         "Tarjeta crédito/débito": "$174.997"
@@ -41,7 +41,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-08",
       "price": 169900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-09",
+      "price": 169900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

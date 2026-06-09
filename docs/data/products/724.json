@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:17:07",
-  "updated_at": "2026-06-08 20:36:40",
+  "updated_at": "2026-06-09 00:30:42",
   "prices": [
     {
       "product_id": 724,
       "store_id": "n1g",
       "price": 27000,
-      "price_card": 28431,
       "price_normal": 28421,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/1560-ekwb-ek-cryofuel-verde-acido-concentrado-pc-refrigerante-100ml-rinde-1-litro.html",
       "store_name": "N1G",
+      "price_card": 28431,
       "price_specs": {
         "Efectivo/Transferencia": "$27.000",
         "Tarjeta crédito/débito": "$28.431"
@@ -41,7 +41,13 @@
       "store_name": "N1G",
       "date": "2026-06-08",
       "price": 27000
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-09",
+      "price": 27000
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

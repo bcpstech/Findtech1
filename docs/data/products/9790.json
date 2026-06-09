@@ -8,24 +8,24 @@
   "image_url": "https://images.findtech.cl/products/gabinete-gamer-cougar-duoface-rgb-e-atx-atx-m-atx-mini-itx-color-blanco.png",
   "description": null,
   "specs": {
-    "Marca": "COUGAR",
-    "Efectivo/Transferencia": "$85.990",
-    "Webpay / Tarjeta": "$90.513"
+    "Factor de forma": "Midi Tower",
+    "Efectivo/Transferencia": "$55.995",
+    "Tarjeta crédito/débito": "$58.515"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:19",
-  "updated_at": "2026-06-08 20:45:57",
+  "updated_at": "2026-06-09 00:42:08",
   "prices": [
     {
       "product_id": 9790,
       "store_id": "spdigital",
       "price": 55995,
-      "price_card": 58515,
       "price_normal": 89990,
       "discount_pct": 38,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/gabinete-cougar-duoface-argb-white",
       "store_name": "SP Digital",
+      "price_card": 58515,
       "price_specs": {
         "Transferencia / Efectivo": "$55.995",
         "Webpay / Tarjeta": "$58.515"
@@ -34,63 +34,6 @@
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 2568,
-      "store_id": "megabytes",
-      "price": 61990,
-      "price_card": 63850,
-      "price_normal": 89990,
-      "discount_pct": 31,
-      "stock": "in_stock",
-      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/gabinete-cougar-duoface-rgb-negro/",
-      "store_name": "MegaBytes",
-      "price_specs": {
-        "Efectivo/Transferencia": "$61.990",
-        "Tarjeta crédito/débito": "$63.850"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.megabytes.cl",
-      "full_url": "https://www.megabytes.cl"
-    },
-    {
-      "product_id": 61076,
-      "store_id": "centrale",
-      "price": 76530,
-      "price_card": 80739,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-cougar-duoface-rgb-mid-tower-paneles-frontales-intercambiables-y/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$76.530",
-        "Tarjetas de Crédito / Débito": "$80.739"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 4216,
-      "store_id": "cg",
-      "price": 85990,
-      "price_card": 90513,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/gabinetes-gamer/gabinete-gamer-cougar-duoface-pro-rgb-black/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$85.990",
-        "Webpay / Tarjeta": "$90.513"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -99,7 +42,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 55995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 55995
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

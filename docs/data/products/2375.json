@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:47:58",
-  "updated_at": "2026-06-08 21:05:43",
+  "updated_at": "2026-06-09 01:24:32",
   "prices": [
     {
       "product_id": 2375,
       "store_id": "dust2",
       "price": 47990,
-      "price_card": 49430,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-cooler-master-elite-490-micro-atx-mini-itx-blanco/",
       "store_name": "Dust2",
+      "price_card": 49430,
       "price_specs": {
         "Efectivo/Transferencia": "$47.990",
         "Tarjeta crédito/débito": "$49.430"
@@ -39,12 +39,12 @@
       "product_id": 59849,
       "store_id": "spdigital",
       "price": 48229,
-      "price_card": 50399,
       "price_normal": 59260,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/elite-490-3x-argb-fans",
       "store_name": "SP Digital",
+      "price_card": 50399,
       "price_specs": {
         "Transferencia / Efectivo": "$48.229",
         "Webpay / Tarjeta": "$50.399"
@@ -55,37 +55,18 @@
       "full_url": "https://www.spdigital.cl"
     },
     {
-      "product_id": 2567,
-      "store_id": "megabytes",
-      "price": 49990,
-      "price_card": 51490,
-      "price_normal": 72490,
-      "discount_pct": 31,
-      "stock": "in_stock",
-      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/gabinete-cooler-master-elite-490/",
-      "store_name": "MegaBytes",
-      "price_specs": {
-        "Efectivo/Transferencia": "$49.990",
-        "Tarjeta crédito/débito": "$51.490"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.megabytes.cl",
-      "full_url": "https://www.megabytes.cl"
-    },
-    {
       "product_id": 61048,
       "store_id": "centrale",
-      "price": 51620,
-      "price_card": 54459,
+      "price": 51600,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-cooler-master-elite-490-micro-atx-vidrio-templado-3x120mm-argb/",
       "store_name": "Centrale",
+      "price_card": 54438,
       "price_specs": {
-        "Transferencia / Efectivo": "$51.620",
-        "Tarjetas de Crédito / Débito": "$54.459"
+        "Transferencia / Efectivo": "$51.600",
+        "Tarjetas de Crédito / Débito": "$54.438"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -99,7 +80,13 @@
       "store_name": "Dust2",
       "date": "2026-06-08",
       "price": 47990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-09",
+      "price": 47990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

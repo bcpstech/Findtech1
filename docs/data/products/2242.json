@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:14",
-  "updated_at": "2026-06-08 21:04:51",
+  "updated_at": "2026-06-09 01:22:18",
   "prices": [
     {
       "product_id": 2242,
       "store_id": "dust2",
       "price": 399890,
-      "price_card": 411887,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-ud1600pm-pg5-ia-1600w-80plus-platinum/",
       "store_name": "Dust2",
+      "price_card": 411887,
       "price_specs": {
         "Efectivo/Transferencia": "$399.890",
         "Tarjeta crédito/débito": "$411.887"
@@ -39,12 +39,12 @@
       "product_id": 61037,
       "store_id": "centrale",
       "price": 419620,
-      "price_card": 442699,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-gigabyte-ud1600pm-pg5-ai-top-1600w-80-platinum-atx-3-1-modular/",
       "store_name": "Centrale",
+      "price_card": 442699,
       "price_specs": {
         "Transferencia / Efectivo": "$419.620",
         "Tarjetas de Crédito / Débito": "$442.699"
@@ -61,7 +61,13 @@
       "store_name": "Dust2",
       "date": "2026-06-08",
       "price": 399890
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-09",
+      "price": 399890
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

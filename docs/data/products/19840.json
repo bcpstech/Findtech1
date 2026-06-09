@@ -21,18 +21,18 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:46",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 19840,
       "store_id": "myshop",
       "price": 1559990,
-      "price_card": 1606790,
       "price_normal": 1645789,
       "discount_pct": 13,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/msi-pci-express-nvidia-geforce-rtx-5080-16g-inspire-3x-p40523",
       "store_name": "MyShop",
+      "price_card": 1606790,
       "price_specs": {
         "Efectivo/Transferencia": "$1.559.990",
         "Tarjeta crédito/débito": "$1.606.790"
@@ -49,7 +49,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 1559990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 1559990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

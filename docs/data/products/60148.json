@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:52:02",
-  "updated_at": "2026-06-08 20:52:02",
+  "updated_at": "2026-06-09 00:54:28",
   "prices": [
     {
       "product_id": 2289,
       "store_id": "dust2",
       "price": 89980,
-      "price_card": 92679,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-corsair-rme-series-rm750e-750w-full-modular/",
       "store_name": "Dust2",
+      "price_card": 92679,
       "price_specs": {
         "Efectivo/Transferencia": "$89.980",
         "Tarjeta crédito/débito": "$92.679"
@@ -41,12 +41,12 @@
       "product_id": 60148,
       "store_id": "myshop",
       "price": 98990,
-      "price_card": 101960,
       "price_normal": 104434,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/fuente-de-poder-750w-certificada-corsair-rme-series-rm750e-80plus-gold-modular-atx-cp-9020295-na-p35735",
       "store_name": "MyShop",
+      "price_card": 101960,
       "price_specs": {
         "Efectivo/Transferencia": "$98.990",
         "Tarjeta crédito/débito": "$101.960"
@@ -60,12 +60,12 @@
       "product_id": 56705,
       "store_id": "centrale",
       "price": 108940,
-      "price_card": 114932,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-750w-corsair-rm750e-80-plus-gold-full-modular-pcie-5-1-atx-3-1/",
       "store_name": "Centrale",
+      "price_card": 114932,
       "price_specs": {
         "Transferencia / Efectivo": "$108.940",
         "Tarjetas de Crédito / Débito": "$114.932"
@@ -79,12 +79,12 @@
       "product_id": 59731,
       "store_id": "spdigital",
       "price": 113072,
-      "price_card": 118160,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/corsair-memory-fuente-de-poder-rm750e-80-plus-gold-full-modular",
       "store_name": "SP Digital",
+      "price_card": 118160,
       "price_specs": {
         "Transferencia / Efectivo": "$113.072",
         "Webpay / Tarjeta": "$118.160"
@@ -101,7 +101,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 98990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 98990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

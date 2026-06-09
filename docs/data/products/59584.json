@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:44:18",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 59584,
       "store_id": "spdigital",
       "price": 584937,
-      "price_card": 611259,
       "price_normal": 690190,
       "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ubiquiti-16tb-512mb-7200rpm-disco-duro-interno-35pulg-sata-6gbps",
       "store_name": "SP Digital",
+      "price_card": 611259,
       "price_specs": {
         "Transferencia / Efectivo": "$584.937",
         "Webpay / Tarjeta": "$611.259"
@@ -44,7 +44,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 584937
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 584937
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

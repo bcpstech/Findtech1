@@ -21,18 +21,18 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:51",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 19847,
       "store_id": "myshop",
       "price": 3979990,
-      "price_card": 4099390,
       "price_normal": 4198889,
       "discount_pct": 7,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/vga-msi-geforce-rtx5090-32g-ventus-3x-oc-p42272",
       "store_name": "MyShop",
+      "price_card": 4099390,
       "price_specs": {
         "Efectivo/Transferencia": "$3.979.990",
         "Tarjeta crédito/débito": "$4.099.390"
@@ -49,7 +49,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 3979990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 3979990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

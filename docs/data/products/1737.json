@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-06-08 20:59:02",
+  "updated_at": "2026-06-09 01:09:03",
   "prices": [
     {
       "product_id": 1737,
       "store_id": "centrale",
       "price": 159900,
-      "price_card": 168695,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-premium-arctic-xtender-mirror-black-e-atx-5-ventiladores-a-rgb-incl/",
       "store_name": "Centrale",
+      "price_card": 168695,
       "price_specs": {
         "Transferencia / Efectivo": "$159.900",
         "Tarjetas de Crédito / Débito": "$168.695"
@@ -41,7 +41,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 159900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 159900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

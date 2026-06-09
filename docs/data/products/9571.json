@@ -21,18 +21,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:25",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 9571,
       "store_id": "spdigital",
       "price": 1349995,
-      "price_card": 1410745,
       "price_normal": 1699990,
       "discount_pct": 21,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-gigabyte-geforce-rtx-5070-ti-gaming-oc-16gb-gddr7-256-bit-pci-e-50",
       "store_name": "SP Digital",
+      "price_card": 1410745,
       "price_specs": {
         "Transferencia / Efectivo": "$1.349.995",
         "Webpay / Tarjeta": "$1.410.745"
@@ -49,7 +49,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 1349995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 1349995
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

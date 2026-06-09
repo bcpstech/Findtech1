@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1580,
       "store_id": "centrale",
       "price": 111300,
-      "price_card": 117422,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-256gb-kingston-kc600-2-5%e2%80%b3-sata3-auto-encript/",
       "store_name": "Centrale",
+      "price_card": 117422,
       "price_specs": {
         "Transferencia / Efectivo": "$111.300",
         "Tarjetas de Crédito / Débito": "$117.422"
@@ -44,7 +44,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 111300
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 111300
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

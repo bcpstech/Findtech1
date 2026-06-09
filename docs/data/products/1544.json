@@ -15,18 +15,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1544,
       "store_id": "centrale",
       "price": 249630,
-      "price_card": 263360,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-purple-sata-6-tb-western-digital-6gb-s-5400-rpm/",
       "store_name": "Centrale",
+      "price_card": 263360,
       "price_specs": {
         "Transferencia / Efectivo": "$249.630",
         "Tarjetas de Crédito / Débito": "$263.360"
@@ -43,7 +43,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 249630
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 249630
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

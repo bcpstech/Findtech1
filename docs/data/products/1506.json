@@ -1,43 +1,58 @@
 {
   "id": 1506,
-  "external_id": "dust2_memorias-ram-corsair-vengeance-rgb-32gb-ddr5-6400",
+  "external_id": "centrale_memoria-ram-16gb-3200mhz-ddr4-cl16-kingston-fury-beast-black",
   "category_id": "ram",
-  "brand": "Corsair",
-  "name": "Memorias RAM Corsair VENGEANCE RGB 32GB DDR5-6400",
-  "slug": "memorias-ram-corsair-vengeance-rgb-32gb-ddr5-6400",
-  "image_url": "https://images.findtech.cl/products/memorias-ram-corsair-vengeance-rgb-32gb-ddr5-6400.jpg",
+  "brand": "Kingston",
+  "name": "Memoria RAM 16GB 3200Mhz DDR4 CL16 Kingston Fury Beast Black",
+  "slug": "memoria-ram-16gb-3200mhz-ddr4-cl16-kingston-fury-beast-black",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-16gb-3200mhz-ddr4-cl16-kingston-fury-beast-black.webp",
   "description": null,
   "specs": {
-    "Marca": "Corsair",
-    "Transferencia/Efectivo": "$539.800",
-    "Webpay / Tarjeta crédito-débito": "$555.990"
+    "Capacidad": "16 GB",
+    "Tipo": "DDR4",
+    "Velocidad": "3200 MHz",
+    "Latencia": "CL16",
+    "Iluminación": "RGB",
+    "Transferencia / Efectivo": "$132.290",
+    "Tarjeta crédito/débito": "$139.570"
   },
   "tags": [],
-  "created_at": "2026-04-25 21:00:50",
-  "updated_at": "2026-04-25 21:00:50",
+  "created_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1506,
-      "store_id": "dust2",
-      "price": 539800,
+      "store_id": "centrale",
+      "price": 129310,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/memorias-ram-corsair-vengeance-rgb-2-x-16gb-ddr5-6400/",
-      "store_name": "Dust2",
+      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-3200mhz-ddr4-cl16-kingston-fury-beast-black/",
+      "store_name": "Centrale",
+      "price_card": 136422,
+      "price_specs": {
+        "Transferencia / Efectivo": "$129.310",
+        "Tarjetas de Crédito / Débito": "$136.422"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 539800
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 129310
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 129310
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-06-09"
 }

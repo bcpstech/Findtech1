@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 21:04:47",
-  "updated_at": "2026-06-08 21:04:47",
+  "updated_at": "2026-06-09 01:22:04",
   "prices": [
     {
       "product_id": 61755,
       "store_id": "dust2",
       "price": 341990,
-      "price_card": 352250,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-corsair-hx1200i-1200w-80-plus-platinum/",
       "store_name": "Dust2",
+      "price_card": 352250,
       "price_specs": {
         "Efectivo/Transferencia": "$341.990",
         "Tarjeta crédito/débito": "$352.250"
@@ -39,12 +39,12 @@
       "product_id": 60995,
       "store_id": "centrale",
       "price": 366000,
-      "price_card": 386130,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/corsair-fuente-de-poder-hx1200i-1200w-full-modular-2x-12v-2x6-certificada-80/",
       "store_name": "Centrale",
+      "price_card": 386130,
       "price_specs": {
         "Transferencia / Efectivo": "$366.000",
         "Tarjetas de Crédito / Débito": "$386.130"
@@ -61,7 +61,13 @@
       "store_name": "Dust2",
       "date": "2026-06-08",
       "price": 341990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-09",
+      "price": 341990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

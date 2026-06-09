@@ -18,18 +18,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:19",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 9557,
       "store_id": "spdigital",
       "price": 919995,
-      "price_card": 961395,
       "price_normal": 1299990,
       "discount_pct": 29,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-msi-nvidia-geforce-rtx-5070-world-of-warcraft-void-edition-oc-12gb-gddr7",
       "store_name": "SP Digital",
+      "price_card": 961395,
       "price_specs": {
         "Transferencia / Efectivo": "$919.995",
         "Webpay / Tarjeta": "$961.395"
@@ -42,16 +42,16 @@
     {
       "product_id": 1196,
       "store_id": "centrale",
-      "price": 948800,
-      "price_card": 1000984,
+      "price": 950490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5070-12gb-gddr7-world-of-warcraft-midnight-light/",
       "store_name": "Centrale",
+      "price_card": 1002767,
       "price_specs": {
-        "Transferencia / Efectivo": "$948.800",
-        "Tarjetas de Crédito / Débito": "$1.000.984"
+        "Transferencia / Efectivo": "$950.490",
+        "Tarjetas de Crédito / Débito": "$1.002.767"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -65,7 +65,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 919995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 919995
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

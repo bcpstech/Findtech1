@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:36",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1813,
       "store_id": "dust2",
       "price": 173990,
-      "price_card": 179210,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-asrock-arc-a380-challenger-itx-6gb-oc/",
       "store_name": "Dust2",
+      "price_card": 179210,
       "price_specs": {
         "Efectivo/Transferencia": "$173.990",
         "Tarjeta crédito/débito": "$179.210"
@@ -41,12 +41,12 @@
       "product_id": 31843,
       "store_id": "winpy",
       "price": 179968,
-      "price_card": 189506,
       "price_normal": null,
       "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asrock-intel-arc-a380-challenger-itx-de-6gb-gddr6/",
       "store_name": "Winpy",
+      "price_card": 189506,
       "price_specs": {
         "Transferencia o Depósito": "$179.968",
         "Otros medios de pago": "$189.506"
@@ -63,7 +63,13 @@
       "store_name": "Dust2",
       "date": "2026-06-08",
       "price": 173990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-09",
+      "price": 173990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

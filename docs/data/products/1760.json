@@ -5,55 +5,49 @@
   "brand": "Clio",
   "name": "Gabinete Corporativo Micro ATX Clio Slim CL-S605",
   "slug": "gabinete-corporativo-micro-atx-clio-slim-cl-s605",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Corporativo-Micro-ATX-Clio-Slim-CL-S605_Gd4vi5u.webp",
+  "image_url": "https://images.findtech.cl/products/gabinete-corporativo-micro-atx-clio-slim-cl-s605.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$46.510",
-    "Tarjeta crédito/débito": "$49.070"
+    "Transferencia / Efectivo": "$53.280",
+    "Tarjeta crédito/débito": "$56.210"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-05-08 22:49:15",
+  "updated_at": "2026-06-09 01:09:19",
   "prices": [
     {
       "product_id": 1760,
       "store_id": "centrale",
-      "price": 46510,
-      "price_card": 49068,
-      "price_normal": 53350,
-      "discount_pct": 13,
+      "price": 53280,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-corporativo-micro-atx-clio-slim-cl-s605/",
       "store_name": "Centrale",
+      "price_card": 56210,
       "price_specs": {
-        "Transferencia / Efectivo": "$46.510",
-        "Tarjetas de Crédito / Débito": "$49.068"
+        "Transferencia / Efectivo": "$53.280",
+        "Tarjetas de Crédito / Débito": "$56.210"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 2572,
-      "store_id": "megabytes",
-      "price": 48990,
-      "price_card": 50460,
-      "price_normal": 65490,
-      "discount_pct": 25,
-      "stock": "in_stock",
-      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/clio-gabinete-cl-s605-full-slim-2usb-3-0-sfx/",
-      "store_name": "MegaBytes",
-      "price_specs": {
-        "Efectivo/Transferencia": "$48.990",
-        "Tarjeta crédito/débito": "$50.460"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.megabytes.cl",
-      "full_url": "https://www.megabytes.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 53280
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 53280
+    }
+  ],
+  "scraped_at": "2026-06-09"
 }

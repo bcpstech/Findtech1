@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 00:57:35",
-  "updated_at": "2026-06-08 20:35:35",
+  "updated_at": "2026-06-09 00:24:45",
   "prices": [
     {
       "product_id": 6112,
       "store_id": "n1g",
       "price": 188900,
-      "price_card": 198912,
       "price_normal": 198842,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3050-noctua-nh-d15-g2-disipador-am5-lga-1851-1700-doble-torre-version-versatil-estandar-cpu-cooler-nh-d15-g2.html",
       "store_name": "N1G",
+      "price_card": 198912,
       "price_specs": {
         "Efectivo/Transferencia": "$188.900",
         "Tarjeta crédito/débito": "$198.912"
@@ -41,7 +41,13 @@
       "store_name": "N1G",
       "date": "2026-06-08",
       "price": 188900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-09",
+      "price": 188900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:46:14",
-  "updated_at": "2026-06-08 20:46:14",
+  "updated_at": "2026-06-09 00:42:28",
   "prices": [
     {
       "product_id": 59857,
       "store_id": "trulustore",
       "price": 1559990,
-      "price_card": 1606790,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/pc-gamer-abyss-v4-ryzen-7-8700f-rx-9060-xt-16gb-gaming-oc-ram-8-16gb-ssd-nvme-500gb-wifi-y-bluetooth/",
       "store_name": "TruluStore",
+      "price_card": 1606790,
       "khipu_price": 1591190,
       "price_specs": {
         "Efectivo / Transferencia": "$1.559.990",
@@ -43,7 +43,13 @@
       "store_name": "TruluStore",
       "date": "2026-06-08",
       "price": 1559990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-06-09",
+      "price": 1559990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

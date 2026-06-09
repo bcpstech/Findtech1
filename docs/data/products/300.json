@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 16:24:53",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 300,
       "store_id": "centrale",
       "price": 1706740,
-      "price_card": 1800611,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-threadripper-7960x-24-nucleos-48-hilos-4-2ghz-a-5-3ghz/",
       "store_name": "Centrale",
+      "price_card": 1800611,
       "price_specs": {
         "Transferencia / Efectivo": "$1.706.740",
         "Tarjetas de Crédito / Débito": "$1.800.611"
@@ -42,7 +42,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 1706740
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 1706740
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -19,18 +19,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:50:56",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 60105,
       "store_id": "myshop",
       "price": 87990,
-      "price_card": 90630,
       "price_normal": 92829,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/ssd-25-512-gb-kingspec-sata-iii-6gbs-p3-512-p38670",
       "store_name": "MyShop",
+      "price_card": 90630,
       "price_specs": {
         "Efectivo/Transferencia": "$87.990",
         "Tarjeta crédito/débito": "$90.630"
@@ -47,7 +47,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 87990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 87990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

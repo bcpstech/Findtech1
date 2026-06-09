@@ -17,18 +17,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:56:17",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 60489,
       "store_id": "centrale",
       "price": 4035110,
-      "price_card": 4257041,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-geforce-rtx-5090-aorus-elite-stealth-ice-32gb/",
       "store_name": "Centrale",
+      "price_card": 4257041,
       "price_specs": {
         "Transferencia / Efectivo": "$4.035.110",
         "Tarjetas de Crédito / Débito": "$4.257.041"
@@ -45,7 +45,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 4035110
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 4035110
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

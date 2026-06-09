@@ -13,45 +13,26 @@
     "WiFi": "Integrado",
     "Factor de forma": "ATX",
     "Chipset": "AMD B550",
-    "Efectivo/Transferencia": "$139.995",
-    "Tarjeta crédito/débito": "$146.295"
+    "Efectivo/Transferencia": "$131.677",
+    "Tarjeta crédito/débito": "$137.602"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:21",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
-    {
-      "product_id": 1342,
-      "store_id": "centrale",
-      "price": 136290,
-      "price_card": 143786,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b550-eagle-wifi6-atx-am4-4xddr4-m-2-pcie-3-0-wifi-6/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$136.290",
-        "Tarjetas de Crédito / Débito": "$143.786"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
     {
       "product_id": 9450,
       "store_id": "spdigital",
-      "price": 139995,
-      "price_card": 146295,
-      "price_normal": 169990,
-      "discount_pct": 18,
+      "price": 131677,
+      "price_normal": 162590,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/b550-eagle-wifi6",
       "store_name": "SP Digital",
+      "price_card": 137602,
       "price_specs": {
-        "Transferencia / Efectivo": "$139.995",
-        "Webpay / Tarjeta": "$146.295"
+        "Transferencia / Efectivo": "$131.677",
+        "Webpay / Tarjeta": "$137.602"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,15 +40,34 @@
       "full_url": "https://www.spdigital.cl"
     },
     {
+      "product_id": 1342,
+      "store_id": "centrale",
+      "price": 136300,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b550-eagle-wifi6-atx-am4-4xddr4-m-2-pcie-3-0-wifi-6/",
+      "store_name": "Centrale",
+      "price_card": 143797,
+      "price_specs": {
+        "Transferencia / Efectivo": "$136.300",
+        "Tarjetas de Crédito / Débito": "$143.797"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
       "product_id": 38890,
       "store_id": "mybox",
       "price": 179390,
-      "price_card": 184772,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/placa-madre/5790-placa-madre-gigabyte-b840m-eagle-wifi6-4719331868970.html",
       "store_name": "MyBox",
+      "price_card": 184772,
       "price_specs": {
         "Efectivo/Transferencia": "$179.390",
         "Tarjeta crédito/débito": "$184.772"
@@ -78,6 +78,19 @@
       "full_url": "https://www.mybox.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-08",
+      "price": 131677
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 131677
+    }
+  ],
+  "scraped_at": "2026-06-09"
 }

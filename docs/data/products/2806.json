@@ -18,18 +18,18 @@
   },
   "tags": [],
   "created_at": "2026-04-27 00:31:34",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 2806,
       "store_id": "alltec",
       "price": 72900,
-      "price_card": 75087,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/1939-amd-ryzen-3-3200g-36ghz-40ghz-turbo-quad-core-tdp-65w-am4-radeon-vega-8-730143313100.html",
       "store_name": "Alltec",
+      "price_card": 75087,
       "price_specs": {
         "Efectivo/Transferencia": "$72.900",
         "Tarjeta crédito/débito": "$75.087"
@@ -46,7 +46,13 @@
       "store_name": "Alltec",
       "date": "2026-06-08",
       "price": 72900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 72900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -13,39 +13,65 @@
     "Bus de memoria": "256-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo/Transferencia": "$1.999.990",
-    "Tarjeta crédito/débito": "$2.089.990"
+    "Efectivo/Transferencia": "$1.699.995",
+    "Tarjeta crédito/débito": "$1.776.495"
   },
   "tags": [],
   "created_at": "2026-05-01 00:28:27",
-  "updated_at": "2026-05-01 00:35:39",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 16381,
       "store_id": "spdigital",
-      "price": 1999990,
-      "price_normal": 2089990,
-      "discount_pct": null,
+      "price": 1699995,
+      "price_normal": 1999990,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-prime-geforce-rtx-5080-oc-16gb-gddr7-256-bit-pcie-50",
       "store_name": "SP Digital",
+      "price_card": 1776495,
       "price_specs": {
-        "Transferencia / Efectivo": "$1.999.990",
-        "Webpay / Tarjeta": "$2.089.990"
+        "Transferencia / Efectivo": "$1.699.995",
+        "Webpay / Tarjeta": "$1.776.495"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 38865,
+      "store_id": "mybox",
+      "price": 1966491,
+      "price_normal": 2069990,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/tarjeta-de-video/5779-tarjeta-de-video-asus-prime-rtx-5080-oc-16gb-gddr7-4711387868393.html",
+      "store_name": "MyBox",
+      "price_card": 2025486,
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.966.491",
+        "Tarjeta crédito/débito": "$2.025.486"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-05-01",
-      "price": 1999990
+      "date": "2026-06-08",
+      "price": 1699995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 1699995
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-06-09"
 }

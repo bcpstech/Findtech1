@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:52",
-  "updated_at": "2026-06-08 20:58:53",
+  "updated_at": "2026-06-09 01:08:43",
   "prices": [
     {
       "product_id": 1715,
       "store_id": "centrale",
       "price": 61290,
-      "price_card": 64661,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-corsair-cx550-80-plus-bronze-550w/",
       "store_name": "Centrale",
+      "price_card": 64661,
       "price_specs": {
         "Transferencia / Efectivo": "$61.290",
         "Tarjetas de Crédito / Débito": "$64.661"
@@ -38,12 +38,12 @@
       "product_id": 38975,
       "store_id": "mybox",
       "price": 64211,
-      "price_card": 66137,
       "price_normal": 67590,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/fuentes-de-poder/6028-fuente-de-poder-corsair-cx550-bronze-550w.html",
       "store_name": "MyBox",
+      "price_card": 66137,
       "price_specs": {
         "Efectivo/Transferencia": "$64.211",
         "Tarjeta crédito/débito": "$66.137"
@@ -60,7 +60,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 61290
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 61290
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

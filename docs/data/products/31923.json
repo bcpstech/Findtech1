@@ -16,18 +16,37 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:24",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
+    {
+      "product_id": 578,
+      "store_id": "n1g",
+      "price": 54990,
+      "price_normal": 57884,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3635-asrock-a520m-hdv-am4-amd-a520-micro-atx-amd-motherboard.html",
+      "store_name": "N1G",
+      "price_card": 57904,
+      "price_specs": {
+        "Efectivo/Transferencia": "$54.990",
+        "Tarjeta crédito/débito": "$57.904"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
     {
       "product_id": 31923,
       "store_id": "winpy",
       "price": 57152,
-      "price_card": 60181,
       "price_normal": null,
       "discount_pct": 33,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asrock-a520m-hdv-am4-ddr4-4733-oc-m-2-hdmi-dvi-vga-micro-atx/",
       "store_name": "Winpy",
+      "price_card": 60181,
       "price_specs": {
         "Transferencia o Depósito": "$57.152",
         "Otros medios de pago": "$60.181"
@@ -44,7 +63,13 @@
       "store_name": "Winpy",
       "date": "2026-06-08",
       "price": 57152
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-09",
+      "price": 57152
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

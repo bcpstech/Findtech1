@@ -15,18 +15,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 21:33:00",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 62773,
       "store_id": "infor-ingen",
       "price": 44900,
-      "price_card": 46247,
       "price_normal": 47594,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/disco-duro-3-5-western-digital-1-tb-wd10eurx-refurbished/",
       "store_name": "Infor-Ingen",
+      "price_card": 46247,
       "price_specs": {
         "Efectivo/Transferencia": "$44.900",
         "Tarjeta crédito/débito": "$46.247"
@@ -43,7 +43,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-08",
       "price": 44900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-09",
+      "price": 44900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

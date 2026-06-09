@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:50",
-  "updated_at": "2026-06-08 20:58:39",
+  "updated_at": "2026-06-09 01:08:03",
   "prices": [
     {
       "product_id": 1672,
       "store_id": "centrale",
       "price": 9990,
-      "price_card": 10539,
       "price_normal": 11130,
       "discount_pct": 10,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ventilador-de-gabinete-140mm-arctic-p14-max-black-95cfm-4-18mm-h2o/",
       "store_name": "Centrale",
+      "price_card": 10539,
       "price_specs": {
         "Transferencia / Efectivo": "$9.990",
         "Tarjetas de Crédito / Débito": "$10.539"
@@ -41,7 +41,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 9990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 9990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

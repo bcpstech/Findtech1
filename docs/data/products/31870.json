@@ -18,18 +18,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:32",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 31870,
       "store_id": "winpy",
       "price": 739936,
-      "price_card": 779153,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-zotac-rtx-5060-ti-twin-edge-oc-white-edition-de-16gb-gddr7/",
       "store_name": "Winpy",
+      "price_card": 779153,
       "price_specs": {
         "Transferencia o Depósito": "$739.936",
         "Otros medios de pago": "$779.153"
@@ -43,12 +43,12 @@
       "product_id": 9588,
       "store_id": "spdigital",
       "price": 757662,
-      "price_card": 791757,
       "price_normal": 935740,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-geforcer-rtx5060ti-twin-edge-oc-white-edition",
       "store_name": "SP Digital",
+      "price_card": 791757,
       "price_specs": {
         "Transferencia / Efectivo": "$757.662",
         "Webpay / Tarjeta": "$791.757"
@@ -61,16 +61,16 @@
     {
       "product_id": 1225,
       "store_id": "centrale",
-      "price": 780420,
-      "price_card": 823343,
+      "price": 780410,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-geforce-rtx-5060-ti-16gb-twin-edge-oc-white-edition/",
       "store_name": "Centrale",
+      "price_card": 823333,
       "price_specs": {
-        "Transferencia / Efectivo": "$780.420",
-        "Tarjetas de Crédito / Débito": "$823.343"
+        "Transferencia / Efectivo": "$780.410",
+        "Tarjetas de Crédito / Débito": "$823.333"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -84,7 +84,13 @@
       "store_name": "Winpy",
       "date": "2026-06-08",
       "price": 739936
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-09",
+      "price": 739936
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

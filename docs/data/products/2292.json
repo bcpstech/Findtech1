@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:50",
-  "updated_at": "2026-06-08 21:05:07",
+  "updated_at": "2026-06-09 01:23:01",
   "prices": [
     {
       "product_id": 2292,
       "store_id": "dust2",
       "price": 109990,
-      "price_card": 113290,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-corsair-rm850e-850w-modular-gold/",
       "store_name": "Dust2",
+      "price_card": 113290,
       "price_specs": {
         "Efectivo/Transferencia": "$109.990",
         "Tarjeta crédito/débito": "$113.290"
@@ -38,16 +38,16 @@
     {
       "product_id": 61042,
       "store_id": "centrale",
-      "price": 119490,
-      "price_card": 126062,
+      "price": 112420,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-850w-corsair-rm850e-modular-80-gold-atx-3-1-pcie-5-1-2025/",
       "store_name": "Centrale",
+      "price_card": 118603,
       "price_specs": {
-        "Transferencia / Efectivo": "$119.490",
-        "Tarjetas de Crédito / Débito": "$126.062"
+        "Transferencia / Efectivo": "$112.420",
+        "Tarjetas de Crédito / Débito": "$118.603"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,12 +58,12 @@
       "product_id": 59740,
       "store_id": "spdigital",
       "price": 134957,
-      "price_card": 141030,
       "price_normal": 134960,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/fuente-de-poder-corsair-rm850e-850w-full-modular-certificada-80-plus-gold-bajo-ruido-atx-3131",
       "store_name": "SP Digital",
+      "price_card": 141030,
       "price_specs": {
         "Transferencia / Efectivo": "$134.957",
         "Webpay / Tarjeta": "$141.030"
@@ -80,7 +80,13 @@
       "store_name": "Dust2",
       "date": "2026-06-08",
       "price": 109990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-09",
+      "price": 109990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

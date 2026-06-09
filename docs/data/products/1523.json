@@ -11,26 +11,26 @@
     "Capacidad": "1 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "2.5\"",
-    "Transferencia / Efectivo": "$214.490",
-    "Tarjeta crédito/débito": "$226.290"
+    "Transferencia / Efectivo": "$217.990",
+    "Tarjeta crédito/débito": "$229.980"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1523,
       "store_id": "centrale",
-      "price": 214490,
-      "price_card": 226287,
+      "price": 217990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ssd-sandisk-plus-1tb-2-5-sata-iii-545mb-s-3d-nand/",
       "store_name": "Centrale",
+      "price_card": 229979,
       "price_specs": {
-        "Transferencia / Efectivo": "$214.490",
-        "Tarjetas de Crédito / Débito": "$226.287"
+        "Transferencia / Efectivo": "$217.990",
+        "Tarjetas de Crédito / Débito": "$229.979"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,12 +41,12 @@
       "product_id": 56903,
       "store_id": "winpy",
       "price": 218272,
-      "price_card": 229840,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/disco-ssd-sandisk-plus-1tb-sata-hasta-545-mb-s/",
       "store_name": "Winpy",
+      "price_card": 229840,
       "price_specs": {
         "Transferencia o Depósito": "$218.272",
         "Otros medios de pago": "$229.840"
@@ -63,7 +63,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 214490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 217990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

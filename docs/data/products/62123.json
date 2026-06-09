@@ -15,18 +15,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 21:08:18",
-  "updated_at": "2026-06-08 21:08:18",
+  "updated_at": "2026-06-09 01:28:35",
   "prices": [
     {
       "product_id": 62123,
       "store_id": "progaming",
       "price": 75990,
-      "price_card": 78270,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-gigabyte-240-ice-argb-white/",
       "store_name": "ProGaming",
+      "price_card": 78270,
       "price_specs": {
         "Efectivo/Transferencia": "$75.990",
         "Tarjeta crédito/débito": "$78.270"
@@ -43,7 +43,13 @@
       "store_name": "ProGaming",
       "date": "2026-06-08",
       "price": 75990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-06-09",
+      "price": 75990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

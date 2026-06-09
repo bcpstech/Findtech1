@@ -17,18 +17,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:51",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 59527,
       "store_id": "spdigital",
       "price": 172991,
-      "price_card": 180776,
       "price_normal": 207100,
       "discount_pct": 16,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-gigabyte-b860m-gaming-wifi6-socket-lga-1851-2x-ddr5-2x-m2-pcie-50-m-atx",
       "store_name": "SP Digital",
+      "price_card": 180776,
       "price_specs": {
         "Transferencia / Efectivo": "$172.991",
         "Webpay / Tarjeta": "$180.776"
@@ -42,12 +42,12 @@
       "product_id": 61195,
       "store_id": "winpy",
       "price": 179968,
-      "price_card": 189506,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-gigabyte-b860m-gaming-wifi6-lga1851-ddr5-x2-m-2-x2-micro-atx/",
       "store_name": "Winpy",
+      "price_card": 189506,
       "price_specs": {
         "Transferencia o Depósito": "$179.968",
         "Otros medios de pago": "$189.506"
@@ -64,7 +64,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 172991
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 172991
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1541,
       "store_id": "centrale",
       "price": 339430,
-      "price_card": 358099,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-8tb-wd-purple-3-5-sata-6gb-s-5640rpm-allframe/",
       "store_name": "Centrale",
+      "price_card": 358099,
       "price_specs": {
         "Transferencia / Efectivo": "$339.430",
         "Tarjetas de Crédito / Débito": "$358.099"
@@ -44,7 +44,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 339430
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 339430
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

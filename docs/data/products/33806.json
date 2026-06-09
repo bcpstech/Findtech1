@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:56:51",
-  "updated_at": "2026-06-08 21:38:57",
+  "updated_at": "2026-06-09 02:15:43",
   "prices": [
     {
       "product_id": 33806,
       "store_id": "infor-ingen",
       "price": 50900,
-      "price_card": 52427,
       "price_normal": 64745,
       "discount_pct": 21,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/gabinete-azza-spectra-280w-white/",
       "store_name": "Infor-Ingen",
+      "price_card": 52427,
       "price_specs": {
         "Efectivo/Transferencia": "$50.900",
         "Tarjeta crédito/débito": "$52.427"
@@ -41,7 +41,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-08",
       "price": 50900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-09",
+      "price": 50900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

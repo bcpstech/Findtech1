@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:51:58",
-  "updated_at": "2026-06-08 20:51:58",
+  "updated_at": "2026-06-09 00:54:20",
   "prices": [
     {
       "product_id": 60142,
       "store_id": "myshop",
       "price": 84990,
-      "price_card": 87540,
       "price_normal": 89664,
       "discount_pct": 26,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/fuente-de-poder-850w-certificada-msi-mag-a850gls-pcie5-80-plus-gold-atx-full-modular-p42006",
       "store_name": "MyShop",
+      "price_card": 87540,
       "price_specs": {
         "Efectivo/Transferencia": "$84.990",
         "Tarjeta crédito/débito": "$87.540"
@@ -41,12 +41,12 @@
       "product_id": 60990,
       "store_id": "centrale",
       "price": 91750,
-      "price_card": 96796,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-850w-msi-mag-a850gls-pcie5-80-plus-gold-pcie-5-1-atx-3-1-open-box/",
       "store_name": "Centrale",
+      "price_card": 96796,
       "price_specs": {
         "Transferencia / Efectivo": "$91.750",
         "Tarjetas de Crédito / Débito": "$96.796"
@@ -60,12 +60,12 @@
       "product_id": 2233,
       "store_id": "dust2",
       "price": 95990,
-      "price_card": 98870,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-msi-mag-a850gls-pcie5-850w-80-plus-gold/",
       "store_name": "Dust2",
+      "price_card": 98870,
       "price_specs": {
         "Efectivo/Transferencia": "$95.990",
         "Tarjeta crédito/débito": "$98.870"
@@ -82,7 +82,13 @@
       "store_name": "MyShop",
       "date": "2026-06-08",
       "price": 84990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 84990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

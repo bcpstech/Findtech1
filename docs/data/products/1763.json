@@ -15,18 +15,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:39:59",
-  "updated_at": "2026-06-08 21:08:19",
+  "updated_at": "2026-06-09 01:28:37",
   "prices": [
     {
       "product_id": 1763,
       "store_id": "progaming",
       "price": 59990,
-      "price_card": 61790,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-msi-mag-coreliquid-a12-240-negro/",
       "store_name": "ProGaming",
+      "price_card": 61790,
       "price_specs": {
         "Efectivo/Transferencia": "$59.990",
         "Tarjeta crédito/débito": "$61.790"
@@ -40,12 +40,12 @@
       "product_id": 9660,
       "store_id": "spdigital",
       "price": 61047,
-      "price_card": 63794,
       "price_normal": 75300,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/refrigeracion-liquida-msi-mag-coreliquid-a12-240-argb-sockets-intel-lga-17001851-amd-am4am5",
       "store_name": "SP Digital",
+      "price_card": 63794,
       "price_specs": {
         "Transferencia / Efectivo": "$61.047",
         "Webpay / Tarjeta": "$63.794"
@@ -59,12 +59,12 @@
       "product_id": 1612,
       "store_id": "centrale",
       "price": 71150,
-      "price_card": 75063,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-msi-mag-coreliquid-a12-240mm-argb/",
       "store_name": "Centrale",
+      "price_card": 75063,
       "price_specs": {
         "Transferencia / Efectivo": "$71.150",
         "Tarjetas de Crédito / Débito": "$75.063"
@@ -81,7 +81,13 @@
       "store_name": "ProGaming",
       "date": "2026-06-08",
       "price": 59990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-06-09",
+      "price": 59990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

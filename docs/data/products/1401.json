@@ -9,25 +9,26 @@
   "description": null,
   "specs": {
     "Socket": "AM5",
+    "Factor de forma": "ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$788.990",
-    "Tarjeta crédito/débito": "$832.380"
+    "Efectivo/Transferencia": "$789.000",
+    "Tarjeta crédito/débito": "$812.670"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1401,
       "store_id": "centrale",
       "price": 788990,
-      "price_card": 832384,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-crosshair-x870e-hero-socket-amd-am5-ddr5-wifi-7/",
       "store_name": "Centrale",
+      "price_card": 832384,
       "price_specs": {
         "Transferencia / Efectivo": "$788.990",
         "Tarjetas de Crédito / Débito": "$832.384"
@@ -38,15 +39,34 @@
       "full_url": "https://www.centrale.cl"
     },
     {
+      "product_id": 639,
+      "store_id": "n1g",
+      "price": 789000,
+      "price_normal": 830526,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/2906-rog-crosshair-x870e-hero-am5-atx-pcie-50-ddr5-wifi-7-ai-usb4-y-usb-type-c.html",
+      "store_name": "N1G",
+      "price_card": 830817,
+      "price_specs": {
+        "Efectivo/Transferencia": "$789.000",
+        "Tarjeta crédito/débito": "$830.817"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
+    {
       "product_id": 38894,
       "store_id": "mybox",
       "price": 830366,
-      "price_card": 855277,
       "price_normal": 948990,
       "discount_pct": 13,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/placa-madre/5719-placa-madre-asus-rog-x870e-crosshair-hero--4711387710302.html",
       "store_name": "MyBox",
+      "price_card": 855277,
       "price_specs": {
         "Efectivo/Transferencia": "$830.366",
         "Tarjeta crédito/débito": "$855.277"
@@ -63,7 +83,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 788990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 788990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

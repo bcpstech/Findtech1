@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 1545,
       "store_id": "centrale",
       "price": 945440,
-      "price_card": 997439,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-16tb-hdd-seagate-ironwolf-pro-nas-interno-3-5-sata-6gb-s-7200-rpm/",
       "store_name": "Centrale",
+      "price_card": 997439,
       "price_specs": {
         "Transferencia / Efectivo": "$945.440",
         "Tarjetas de Crédito / Débito": "$997.439"
@@ -44,7 +44,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 945440
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 945440
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

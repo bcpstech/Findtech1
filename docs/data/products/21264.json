@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-05-01 14:06:10",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 21264,
       "store_id": "centrale",
       "price": 3598620,
-      "price_card": 3796544,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-pny-nvidia-rtx-pro-4500-blackwell-32gb-gddr7-256-bit-200w/",
       "store_name": "Centrale",
+      "price_card": 3796544,
       "price_specs": {
         "Transferencia / Efectivo": "$3.598.620",
         "Tarjetas de Crédito / Débito": "$3.796.544"
@@ -44,7 +44,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 3598620
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 3598620
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

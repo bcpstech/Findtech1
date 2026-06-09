@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:26:35",
-  "updated_at": "2026-06-08 21:00:11",
+  "updated_at": "2026-06-09 01:11:12",
   "prices": [
     {
       "product_id": 32040,
       "store_id": "winpy",
       "price": 23104,
-      "price_card": 24329,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-gamer-clio-m3-micro-atx-1-ventilador-argb-vidrio-templado-negro/",
       "store_name": "Winpy",
+      "price_card": 24329,
       "price_specs": {
         "Transferencia o Depósito": "$23.104",
         "Otros medios de pago": "$24.329"
@@ -41,7 +41,13 @@
       "store_name": "Winpy",
       "date": "2026-06-08",
       "price": 23104
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-09",
+      "price": 23104
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

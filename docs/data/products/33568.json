@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:52:48",
-  "updated_at": "2026-06-08 21:35:47",
+  "updated_at": "2026-06-09 02:09:16",
   "prices": [
     {
       "product_id": 33568,
       "store_id": "infor-ingen",
       "price": 6900,
-      "price_card": 7107,
       "price_normal": 7413,
       "discount_pct": 7,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/cooler-gamemax-airforce-led-red-120mm-gmx-af12r/",
       "store_name": "Infor-Ingen",
+      "price_card": 7107,
       "price_specs": {
         "Efectivo/Transferencia": "$6.900",
         "Tarjeta crédito/débito": "$7.107"
@@ -41,7 +41,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-08",
       "price": 6900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-09",
+      "price": 6900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

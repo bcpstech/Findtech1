@@ -17,18 +17,18 @@
   },
   "tags": [],
   "created_at": "2026-05-03 04:31:49",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 23445,
       "store_id": "alltec",
       "price": 819900,
-      "price_card": 844497,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/nvidia/2350-tv-asus-rog-strix-geforce-rtx-3070-ti-8g-gaming.html",
       "store_name": "Alltec",
+      "price_card": 844497,
       "price_specs": {
         "Efectivo/Transferencia": "$819.900",
         "Tarjeta crédito/débito": "$844.497"
@@ -45,7 +45,13 @@
       "store_name": "Alltec",
       "date": "2026-06-08",
       "price": 819900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 819900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

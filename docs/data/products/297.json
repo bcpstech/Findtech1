@@ -9,27 +9,23 @@
   "description": null,
   "specs": {
     "Frecuencia base": "5.4 GHz",
-    "Frecuencia turbo": "5.4 GHz",
-    "TDP": "350W",
-    "Socket": "STR5",
-    "Incluye cooler": "No",
-    "Efectivo/Transferencia": "$1.990.000",
-    "Tarjeta crédito/débito": "$2.049.700"
+    "Transferencia / Efectivo": "$1.930.890",
+    "Tarjeta crédito/débito": "$2.037.090"
   },
   "tags": [],
   "created_at": "2026-04-26 16:24:42",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 02:22:21",
   "prices": [
     {
       "product_id": 297,
       "store_id": "centrale",
       "price": 1930890,
-      "price_card": 2037089,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-threadripper-9960x-24-cores-48-threads-4-2-5-4ghz/",
       "store_name": "Centrale",
+      "price_card": 2037089,
       "price_specs": {
         "Transferencia / Efectivo": "$1.930.890",
         "Tarjetas de Crédito / Débito": "$2.037.089"
@@ -38,25 +34,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 43,
-      "store_id": "n1g",
-      "price": 1990000,
-      "price_card": 2095470,
-      "price_normal": 2094737,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3666-amd-ryzen-threadripper-pro-9955wx-serie-wx-shimada-16-nucleos-45-ghz-str5-350-w-100-100000725wof.html",
-      "store_name": "N1G",
-      "price_specs": {
-        "Efectivo/Transferencia": "$1.990.000",
-        "Tarjeta crédito/débito": "$2.095.470"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -65,7 +42,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 1930890
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 1930890
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }
