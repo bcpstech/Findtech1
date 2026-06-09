@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:53:30",
-  "updated_at": "2026-05-08 23:13:47",
+  "updated_at": "2026-06-09 03:44:11",
   "prices": [
     {
       "product_id": 33610,
       "store_id": "infor-ingen",
       "price": 22900,
-      "price_card": 23587,
       "price_normal": 24274,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/cooler-gamemax-sigma-540/",
       "store_name": "Infor-Ingen",
+      "price_card": 23587,
       "price_specs": {
         "Efectivo/Transferencia": "$22.900",
         "Tarjeta crédito/débito": "$23.587"
@@ -35,6 +35,13 @@
       "full_url": "https://store.infor-ingen.com"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-09",
+      "price": 22900
+    }
+  ],
+  "scraped_at": "2026-06-09"
 }

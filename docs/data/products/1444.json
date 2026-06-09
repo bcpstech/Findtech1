@@ -18,18 +18,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 03:51:08",
   "prices": [
     {
       "product_id": 1444,
       "store_id": "centrale",
       "price": 140870,
-      "price_card": 148618,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr4-3200mt-s-cl16-adata-xpg-spectrix-d35g-rgb/",
       "store_name": "Centrale",
+      "price_card": 148618,
       "price_specs": {
         "Transferencia / Efectivo": "$140.870",
         "Tarjetas de Crédito / Débito": "$148.618"
@@ -43,12 +43,12 @@
       "product_id": 1983,
       "store_id": "dust2",
       "price": 151990,
-      "price_card": 156550,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/memoria-ram-adata-xpg-spectrix-d35g-rbg-ddr4-3200-16gb/",
       "store_name": "Dust2",
+      "price_card": 156550,
       "price_specs": {
         "Efectivo/Transferencia": "$151.990",
         "Tarjeta crédito/débito": "$156.550"
@@ -65,7 +65,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 140870
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 140870
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

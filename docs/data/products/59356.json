@@ -19,18 +19,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:41:31",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 03:51:08",
   "prices": [
     {
       "product_id": 16381,
       "store_id": "spdigital",
       "price": 1699995,
-      "price_card": 1776495,
       "price_normal": 1999990,
       "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-prime-geforce-rtx-5080-oc-16gb-gddr7-256-bit-pcie-50",
       "store_name": "SP Digital",
+      "price_card": 1776495,
       "price_specs": {
         "Transferencia / Efectivo": "$1.699.995",
         "Webpay / Tarjeta": "$1.776.495"
@@ -44,12 +44,12 @@
       "product_id": 59356,
       "store_id": "cg",
       "price": 1830990,
-      "price_card": 1927300,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/tarjetas-de-video/tarjeta-de-video-asus-prime-geforce-rtx-5080-oc-16gb/",
       "store_name": "CentralGamer",
+      "price_card": 1927300,
       "price_specs": {
         "Efectivo/Transferencia": "$1.830.990",
         "Webpay / Tarjeta": "$1.927.300"
@@ -63,12 +63,12 @@
       "product_id": 38865,
       "store_id": "mybox",
       "price": 1966491,
-      "price_card": 2025486,
       "price_normal": 2069990,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/tarjeta-de-video/5779-tarjeta-de-video-asus-prime-rtx-5080-oc-16gb-gddr7-4711387868393.html",
       "store_name": "MyBox",
+      "price_card": 2025486,
       "price_specs": {
         "Efectivo/Transferencia": "$1.966.491",
         "Tarjeta crédito/débito": "$2.025.486"
@@ -85,7 +85,13 @@
       "store_name": "CentralGamer",
       "date": "2026-06-08",
       "price": 1830990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-06-09",
+      "price": 1830990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

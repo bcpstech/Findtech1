@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:19:22",
-  "updated_at": "2026-06-08 20:31:16",
+  "updated_at": "2026-06-09 02:32:54",
   "prices": [
     {
       "product_id": 793,
       "store_id": "n1g",
       "price": 169900,
-      "price_card": 178905,
       "price_normal": 178842,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/1950-lian-li-sp-850w-negra-full-modular-80-gold-sfx-form-factor-power-supply-sp850.html",
       "store_name": "N1G",
+      "price_card": 178905,
       "price_specs": {
         "Efectivo/Transferencia": "$169.900",
         "Tarjeta crédito/débito": "$178.905"
@@ -41,7 +41,13 @@
       "store_name": "N1G",
       "date": "2026-06-08",
       "price": 169900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-09",
+      "price": 169900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

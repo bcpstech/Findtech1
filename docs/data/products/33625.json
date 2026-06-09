@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:53:42",
-  "updated_at": "2026-05-08 23:13:55",
+  "updated_at": "2026-06-09 03:44:42",
   "prices": [
     {
       "product_id": 33625,
       "store_id": "infor-ingen",
       "price": 28900,
-      "price_card": 29767,
       "price_normal": 30634,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/cooler-cpu-gamemax-gamma-500-green/",
       "store_name": "Infor-Ingen",
+      "price_card": 29767,
       "price_specs": {
         "Efectivo/Transferencia": "$28.900",
         "Tarjeta crédito/débito": "$29.767"
@@ -35,6 +35,13 @@
       "full_url": "https://store.infor-ingen.com"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-09",
+      "price": 28900
+    }
+  ],
+  "scraped_at": "2026-06-09"
 }

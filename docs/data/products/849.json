@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:21:26",
-  "updated_at": "2026-06-08 20:30:42",
+  "updated_at": "2026-06-09 02:32:30",
   "prices": [
     {
       "product_id": 849,
       "store_id": "n1g",
       "price": 259000,
-      "price_card": 272727,
       "price_normal": 272632,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3285-pantalla-149-hyte-y70-taro-milk-touch-infinite-display-upgrade-25k-touchscreen-for-y70-acc-hyte-lk-y7tti-tm.html",
       "store_name": "N1G",
+      "price_card": 272727,
       "price_specs": {
         "Efectivo/Transferencia": "$259.000",
         "Tarjeta crédito/débito": "$272.727"
@@ -41,7 +41,13 @@
       "store_name": "N1G",
       "date": "2026-06-08",
       "price": 259000
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-09",
+      "price": 259000
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

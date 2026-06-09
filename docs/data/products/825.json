@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:20:40",
-  "updated_at": "2026-06-08 20:29:11",
+  "updated_at": "2026-06-09 02:30:44",
   "prices": [
     {
       "product_id": 825,
       "store_id": "n1g",
       "price": 34900,
-      "price_card": 36750,
       "price_normal": 36737,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3287-hyte-powered-usb-hub-hyte-4x-usb-20-usb-c-5v-4a-magnetic-powered-usb-hub-hyte-4x-usb-20-acc-hyte-usb-hub.html",
       "store_name": "N1G",
+      "price_card": 36750,
       "price_specs": {
         "Efectivo/Transferencia": "$34.900",
         "Tarjeta crédito/débito": "$36.750"
@@ -41,7 +41,13 @@
       "store_name": "N1G",
       "date": "2026-06-08",
       "price": 34900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-09",
+      "price": 34900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

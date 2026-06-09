@@ -19,18 +19,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:35:37",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 03:51:08",
   "prices": [
     {
       "product_id": 1135,
       "store_id": "cg",
       "price": 1229990,
-      "price_card": 1294687,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/promo-nvidia/tarjeta-de-video-asus-prime-rtx-5070-ti-16gb-ddr7/",
       "store_name": "CentralGamer",
+      "price_card": 1294687,
       "price_specs": {
         "Efectivo/Transferencia": "$1.229.990",
         "Webpay / Tarjeta": "$1.294.687"
@@ -47,7 +47,13 @@
       "store_name": "CentralGamer",
       "date": "2026-06-08",
       "price": 1229990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-06-09",
+      "price": 1229990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

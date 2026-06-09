@@ -18,18 +18,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 03:51:08",
   "prices": [
     {
       "product_id": 1442,
       "store_id": "centrale",
       "price": 106650,
-      "price_card": 112516,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr4-3200mt-s-cl16-kingston-fury-renegade-black/",
       "store_name": "Centrale",
+      "price_card": 112516,
       "price_specs": {
         "Transferencia / Efectivo": "$106.650",
         "Tarjetas de Crédito / Débito": "$112.516"
@@ -43,12 +43,12 @@
       "product_id": 38914,
       "store_id": "mybox",
       "price": 289990,
-      "price_card": 298690,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/memoria-ram/6064-memoria-ram-kingston-fury-renegade-16gb-7200mhz-white.html",
       "store_name": "MyBox",
+      "price_card": 298690,
       "price_specs": {
         "Efectivo/Transferencia": "$289.990",
         "Tarjeta crédito/débito": "$298.690"
@@ -65,7 +65,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 110420
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 110420
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 00:53:36",
-  "updated_at": "2026-06-08 20:29:34",
+  "updated_at": "2026-06-09 02:31:25",
   "prices": [
     {
       "product_id": 5834,
       "store_id": "n1g",
       "price": 79900,
-      "price_card": 84135,
       "price_normal": 84105,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3662-airflow-roble-work-blackmadera-usb-c-x4-fan-gabinete-atx-e-atx-ssi-ceb-y-ssi-eeb.html",
       "store_name": "N1G",
+      "price_card": 84135,
       "price_specs": {
         "Efectivo/Transferencia": "$79.900",
         "Tarjeta crédito/débito": "$84.135"
@@ -41,7 +41,13 @@
       "store_name": "N1G",
       "date": "2026-06-08",
       "price": 79900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-09",
+      "price": 79900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

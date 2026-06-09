@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-03 12:59:21",
-  "updated_at": "2026-06-08 20:59:07",
+  "updated_at": "2026-06-09 03:05:58",
   "prices": [
     {
       "product_id": 25483,
       "store_id": "centrale",
       "price": 89470,
-      "price_card": 94391,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-gamer-asus-a21-micro-atx-vidrio-templado-malla-frontal-negro/",
       "store_name": "Centrale",
+      "price_card": 94391,
       "price_specs": {
         "Transferencia / Efectivo": "$89.470",
         "Tarjetas de Crédito / Débito": "$94.391"
@@ -41,7 +41,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 89470
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 89470
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

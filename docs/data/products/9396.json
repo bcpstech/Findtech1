@@ -25,8 +25,27 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:51",
-  "updated_at": "2026-06-09 00:37:55",
+  "updated_at": "2026-06-09 02:42:32",
   "prices": [
+    {
+      "product_id": 3556,
+      "store_id": "n1g",
+      "price": 578000,
+      "price_normal": 608421,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3847-amd-ryzen-7-9850x3d-socket-am5-8-nucleos-16-hilos-47-ghz-tdp-120w.html",
+      "store_name": "N1G",
+      "price_card": 608634,
+      "price_specs": {
+        "Efectivo/Transferencia": "$578.000",
+        "Tarjeta crédito/débito": "$608.634"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
     {
       "product_id": 9396,
       "store_id": "spdigital",
@@ -64,6 +83,25 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 59361,
+      "store_id": "cg",
+      "price": 597990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-7-9850x3d/",
+      "store_name": "CentralGamer",
+      "price_card": 629444,
+      "price_specs": {
+        "Efectivo/Transferencia": "$597.990",
+        "Webpay / Tarjeta": "$629.444"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     },
     {
       "product_id": 2616,

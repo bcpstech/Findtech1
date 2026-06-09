@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 02:02:22",
-  "updated_at": "2026-06-08 20:39:54",
+  "updated_at": "2026-06-09 02:40:18",
   "prices": [
     {
       "product_id": 7347,
       "store_id": "cg",
       "price": 2734990,
-      "price_card": 2878850,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/pc-high/pc-gamer-amd-ryzen-7-7800x-3d-rtx-5070-ti-32gb-ram-ddr5-1-tb-nvme/",
       "store_name": "CentralGamer",
+      "price_card": 2878850,
       "price_specs": {
         "Efectivo/Transferencia": "$2.734.990",
         "Webpay / Tarjeta": "$2.878.850"
@@ -42,7 +42,13 @@
       "store_name": "CentralGamer",
       "date": "2026-06-08",
       "price": 2734990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-06-09",
+      "price": 2734990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -20,7 +20,7 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:50:19",
-  "updated_at": "2026-06-09 02:22:21",
+  "updated_at": "2026-06-09 03:51:08",
   "prices": [
     {
       "product_id": 33300,
@@ -61,42 +61,80 @@
       "full_url": "https://www.myshop.cl"
     },
     {
-      "product_id": 59548,
-      "store_id": "spdigital",
-      "price": 96064,
-      "price_normal": 118610,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/adata-premier-series-ddr4-mã3dulo-8-gb-dimm-de-288-contactos-3200-mhz-pc4-25600-cl22",
-      "store_name": "SP Digital",
-      "price_card": 100387,
-      "price_specs": {
-        "Transferencia / Efectivo": "$96.064",
-        "Webpay / Tarjeta": "$100.387"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 60714,
-      "store_id": "centrale",
-      "price": 96680,
+      "product_id": 2089,
+      "store_id": "dust2",
+      "price": 73990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-sk-hynix-16gb-ddr4-3200-mt-s-sodimm-cl22-1rx8-open-box/",
-      "store_name": "Centrale",
-      "price_card": 101997,
+      "product_url": "https://dust2.gg/producto/memoria-ram-kingston-fury-beast-rgb-de-8gb-ddr4-3200mhz-dimm/",
+      "store_name": "Dust2",
+      "price_card": 76210,
       "price_specs": {
-        "Transferencia / Efectivo": "$96.680",
-        "Tarjetas de Crédito / Débito": "$101.997"
+        "Efectivo/Transferencia": "$73.990",
+        "Tarjeta crédito/débito": "$76.210"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 1171,
+      "store_id": "cg",
+      "price": 74990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-kingston-fury-beast-cl16-8gb-ddr4-3200mhz/",
+      "store_name": "CentralGamer",
+      "price_card": 78934,
+      "price_specs": {
+        "Efectivo/Transferencia": "$74.990",
+        "Webpay / Tarjeta": "$78.934"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 1509,
+      "store_id": "centrale",
+      "price": 79480,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr4-3600mt-s-cl17-kingston-fury-beast-black/",
+      "store_name": "Centrale",
+      "price_card": 83851,
+      "price_specs": {
+        "Transferencia / Efectivo": "$79.480",
+        "Tarjetas de Crédito / Débito": "$83.851"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9497,
+      "store_id": "spdigital",
+      "price": 84990,
+      "price_normal": 112990,
+      "discount_pct": 25,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/memoria-ram-ddr4-8gb-3200mhz-kingston-fury-beast-dimm-unbuffered-cl16-135v",
+      "store_name": "SP Digital",
+      "price_card": 88815,
+      "price_specs": {
+        "Transferencia / Efectivo": "$84.990",
+        "Webpay / Tarjeta": "$88.815"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [

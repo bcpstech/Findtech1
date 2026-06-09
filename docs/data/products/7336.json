@@ -15,18 +15,18 @@
   },
   "tags": [],
   "created_at": "2026-04-28 02:01:56",
-  "updated_at": "2026-06-08 20:39:19",
+  "updated_at": "2026-06-09 02:39:52",
   "prices": [
     {
       "product_id": 7336,
       "store_id": "cg",
       "price": 1399990,
-      "price_card": 1473629,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/pc-medium/pc-gamer-ryzen-7-5700x-rtx-5060ti-16-ram-ddr4-1-tb-ssd-m-2/",
       "store_name": "CentralGamer",
+      "price_card": 1473629,
       "price_specs": {
         "Efectivo/Transferencia": "$1.399.990",
         "Webpay / Tarjeta": "$1.473.629"
@@ -43,7 +43,13 @@
       "store_name": "CentralGamer",
       "date": "2026-06-08",
       "price": 1399990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-06-09",
+      "price": 1399990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

@@ -17,18 +17,18 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:42:41",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 03:51:08",
   "prices": [
     {
       "product_id": 59410,
       "store_id": "cg",
       "price": 230990,
-      "price_card": 243140,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-wchudisk-16gb-ddr5-5600-mhz-silver/",
       "store_name": "CentralGamer",
+      "price_card": 243140,
       "price_specs": {
         "Efectivo/Transferencia": "$230.990",
         "Webpay / Tarjeta": "$243.140"
@@ -42,12 +42,12 @@
       "product_id": 60781,
       "store_id": "centrale",
       "price": 243090,
-      "price_card": 256460,
       "price_normal": 271940,
       "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/crucial-memoria-16gb-ddr5-5600-udimm-disipador-termico/",
       "store_name": "Centrale",
+      "price_card": 256460,
       "price_specs": {
         "Transferencia / Efectivo": "$243.090",
         "Tarjetas de Crédito / Débito": "$256.460"
@@ -64,7 +64,13 @@
       "store_name": "CentralGamer",
       "date": "2026-06-08",
       "price": 230990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-06-09",
+      "price": 230990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }

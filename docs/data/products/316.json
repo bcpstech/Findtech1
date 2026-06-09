@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 16:25:48",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-09 03:51:08",
   "prices": [
     {
       "product_id": 316,
       "store_id": "centrale",
       "price": 357810,
-      "price_card": 377490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265k-20-nucleos-3-9ghz-a-5-5ghz-lga-1851/",
       "store_name": "Centrale",
+      "price_card": 377490,
       "price_specs": {
         "Transferencia / Efectivo": "$357.810",
         "Tarjetas de Crédito / Débito": "$377.490"
@@ -41,12 +41,12 @@
       "product_id": 12,
       "store_id": "n1g",
       "price": 364900,
-      "price_card": 384240,
       "price_normal": 384105,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3020-intel-core-ultra-7-265k-20-core-8p12e-lga-1851-125w-desktop-processor-arrow-lake-bx80768265k.html",
       "store_name": "N1G",
+      "price_card": 384240,
       "price_specs": {
         "Efectivo/Transferencia": "$364.900",
         "Tarjeta crédito/débito": "$384.240"
@@ -60,12 +60,12 @@
       "product_id": 31911,
       "store_id": "winpy",
       "price": 384864,
-      "price_card": 405262,
       "price_normal": null,
       "discount_pct": 21,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-ultra-7-265k-lga1851-3-3-5-5-ghz-8-p-cores-12-e-cores-30mb-cache/",
       "store_name": "Winpy",
+      "price_card": 405262,
       "price_specs": {
         "Transferencia o Depósito": "$384.864",
         "Otros medios de pago": "$405.262"
@@ -79,12 +79,12 @@
       "product_id": 1144,
       "store_id": "cg",
       "price": 410878,
-      "price_card": 432490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-7-265k-3-9-ghz-20-core-lga1851/",
       "store_name": "CentralGamer",
+      "price_card": 432490,
       "price_specs": {
         "Efectivo/Transferencia": "$410.878",
         "Webpay / Tarjeta": "$432.490"
@@ -101,7 +101,13 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 357810
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 357810
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-09"
 }
