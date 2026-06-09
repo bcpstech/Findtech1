@@ -1,0 +1,69 @@
+{
+  "id": 71315,
+  "external_id": "pn_st1000dm014",
+  "category_id": "storage",
+  "brand": "Seagate",
+  "name": "Disco Duro Seagate Barracuda 1 TB Sata 3.5 7200RPM",
+  "slug": "disco-duro-seagate-barracuda-1-tb-sata-3-5-7200rpm",
+  "image_url": "https://images.findtech.cl/products/disco-duro-seagate-barracuda-1-tb-sata-3-5-7200rpm.webp",
+  "description": null,
+  "specs": {
+    "Capacidad": "1 TB",
+    "Interfaz": "SATA III",
+    "Factor de forma": "3.5\"",
+    "Transferencia / Efectivo": "$90.450",
+    "Tarjeta crédito/débito": "$95.420"
+  },
+  "tags": [],
+  "created_at": "2026-06-09 23:40:55",
+  "updated_at": "2026-06-09 23:43:25",
+  "prices": [
+    {
+      "product_id": 71315,
+      "store_id": "bcpstech",
+      "price": 85990,
+      "price_normal": 97990,
+      "discount_pct": 12,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=1401",
+      "store_name": "BCPS Tech",
+      "price_card": 88570,
+      "price_specs": {
+        "Efectivo/Transferencia": "$85.990",
+        "Tarjeta crédito/débito": "$88.570"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
+    },
+    {
+      "product_id": 1540,
+      "store_id": "centrale",
+      "price": 90450,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/disco-duro-seagate-barracuda-1tb-sata-6gb-s-7200rpm-256mb-3-5/",
+      "store_name": "Centrale",
+      "price_card": 95425,
+      "price_specs": {
+        "Transferencia / Efectivo": "$90.450",
+        "Tarjetas de Crédito / Débito": "$95.425"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-06-09",
+      "price": 85990
+    }
+  ],
+  "scraped_at": "2026-06-09"
+}

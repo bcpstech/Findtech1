@@ -1,0 +1,72 @@
+{
+  "id": 71367,
+  "external_id": "pn_g507012s2c912v532011",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "MSI GeForce RTX 5070 12G SHADOW 2X OC",
+  "slug": "msi-geforce-rtx-5070-12g-shadow-2x-oc",
+  "image_url": "https://images.findtech.cl/products/msi-geforce-rtx-5070-12g-shadow-2x-oc.webp",
+  "description": null,
+  "specs": {
+    "VRAM": "12 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "192-bit",
+    "Arquitectura": "Blackwell",
+    "Variante": "OC (Overclocked)",
+    "Marca": "MSI",
+    "Efectivo/Transferencia": "$734.990",
+    "Webpay / Tarjeta": "$773.650"
+  },
+  "tags": [],
+  "created_at": "2026-06-09 23:43:23",
+  "updated_at": "2026-06-09 23:43:25",
+  "prices": [
+    {
+      "product_id": 71367,
+      "store_id": "bcpstech",
+      "price": 712990,
+      "price_normal": 750990,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=717",
+      "store_name": "BCPS Tech",
+      "price_card": 734380,
+      "price_specs": {
+        "Efectivo/Transferencia": "$712.990",
+        "Tarjeta crédito/débito": "$734.380"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
+    },
+    {
+      "product_id": 59357,
+      "store_id": "cg",
+      "price": 734990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/promo-nvidia/tarjeta-de-video-msi-geforce-rtx-5070-12g-shadow-2x-oc/",
+      "store_name": "CentralGamer",
+      "price_card": 773650,
+      "price_specs": {
+        "Efectivo/Transferencia": "$734.990",
+        "Webpay / Tarjeta": "$773.650"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-06-09",
+      "price": 712990
+    }
+  ],
+  "scraped_at": "2026-06-09"
+}

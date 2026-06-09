@@ -1,9 +1,16 @@
 {
   "last_update": "2026-06-09",
-  "generated_at": "2026-06-09T08:31:04.857Z",
-  "total_products": 1212,
+  "generated_at": "2026-06-09T23:43:27.652Z",
+  "total_products": 1218,
   "total_stores": 19,
   "last_runs": [
+    {
+      "store_id": "bcpstech",
+      "status": "success",
+      "products_updated": 54,
+      "errors_count": 5,
+      "finished_at": "2026-06-09 23:43:25"
+    },
     {
       "store_id": "bcpstech",
       "status": "success",
@@ -136,13 +143,6 @@
       "products_updated": 516,
       "errors_count": 0,
       "finished_at": "2026-06-09 02:39:02"
-    },
-    {
-      "store_id": "bcpstech",
-      "status": "success",
-      "products_updated": 0,
-      "errors_count": 0,
-      "finished_at": "2026-06-09 02:22:21"
     }
   ]
 }
