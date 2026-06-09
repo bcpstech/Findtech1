@@ -18,44 +18,44 @@ function proxify(url) {
   return `${PROXY_URL}?url=${encodeURIComponent(url)}&secret=${PROXY_KEY}`;
 }
 
-// ── Categorías ─────────────────────────────────────────────────────────────
+// ── Categorías — URLs verificadas desde el sitio ──────────────────────────
 const CATEGORIES = [
   // PROCESADORES
-  { url: '/categoria-producto/componentes-de-pc/procesadores/procesadores-amd/',   catId: 'cpu',     sub: 'amd'    },
-  { url: '/categoria-producto/componentes-de-pc/procesadores/procesadores-intel/', catId: 'cpu',     sub: 'intel'  },
+  { url: '/?product_cat=procesadores-amd',   catId: 'cpu', sub: 'amd'   },
+  { url: '/?product_cat=procesadores-intel', catId: 'cpu', sub: 'intel' },
 
   // TARJETAS DE VIDEO
-  { url: '/categoria-producto/componentes-de-pc/tarjetas-de-video/tarjetas-de-video-nvidia/', catId: 'gpu', sub: 'nvidia' },
-  { url: '/categoria-producto/componentes-de-pc/tarjetas-de-video/tarjetas-de-video-amd/',    catId: 'gpu', sub: 'amd'    },
+  { url: '/?product_cat=tarjetas-de-video-nvidia', catId: 'gpu', sub: 'nvidia' },
+  { url: '/?product_cat=tarjetas-de-video-amd',    catId: 'gpu', sub: 'amd'    },
 
   // PLACAS MADRE
-  { url: '/categoria-producto/componentes-de-pc/placas-madre/placas-madre-am5/',   catId: 'mobo', sub: 'am5'    },
-  { url: '/categoria-producto/componentes-de-pc/placas-madre/placas-madre-am4/',   catId: 'mobo', sub: 'am4'    },
-  { url: '/categoria-producto/componentes-de-pc/placas-madre/placas-madre-lga1700/', catId: 'mobo', sub: 'lga1700' },
-  { url: '/categoria-producto/componentes-de-pc/placas-madre/placas-madre-lga1851/', catId: 'mobo', sub: 'lga1851' },
+  { url: '/?product_cat=placas-madre-am5',    catId: 'mobo', sub: 'am5'    },
+  { url: '/?product_cat=placas-madre-am4',    catId: 'mobo', sub: 'am4'    },
+  { url: '/?product_cat=placas-madre-lga1700', catId: 'mobo', sub: 'lga1700' },
+  { url: '/?product_cat=placas-madre-lga1851', catId: 'mobo', sub: 'lga1851' },
 
   // MEMORIAS RAM
-  { url: '/categoria-producto/componentes-de-pc/memorias-ram/memorias-ddr5/', catId: 'ram', sub: 'ddr5' },
-  { url: '/categoria-producto/componentes-de-pc/memorias-ram/memorias-ddr4/', catId: 'ram', sub: 'ddr4' },
+  { url: '/?product_cat=memorias-ddr5', catId: 'ram', sub: 'ddr5' },
+  { url: '/?product_cat=memorias-ddr4', catId: 'ram', sub: 'ddr4' },
 
   // ALMACENAMIENTO
-  { url: '/categoria-producto/componentes-de-pc/almacenamiento/discos-ssd/',  catId: 'storage', sub: 'nvme' },
-  { url: '/categoria-producto/componentes-de-pc/almacenamiento/discos-duro/', catId: 'storage', sub: 'hdd'  },
+  { url: '/?product_cat=discos-ssd', catId: 'storage', sub: 'nvme' },
+  { url: '/?product_cat=discos-duro', catId: 'storage', sub: 'hdd'  },
 
   // REFRIGERACIÓN
-  { url: '/categoria-producto/componentes-de-pc/refrigeracion/refrigeracion-liquida/',  catId: 'cooling', sub: 'liquida' },
-  { url: '/categoria-producto/componentes-de-pc/refrigeracion/refrigeracion-por-aire/', catId: 'cooling', sub: 'aire'    },
-  { url: '/categoria-producto/componentes-de-pc/refrigeracion/ventiladores-fans/',       catId: 'cooling', sub: 'fans'    },
+  { url: '/?product_cat=refrigeracion-liquida',  catId: 'cooling', sub: 'liquida' },
+  { url: '/?product_cat=refrigeracion-por-aire', catId: 'cooling', sub: 'aire'    },
+  { url: '/?product_cat=ventiladores-fans',       catId: 'cooling', sub: 'fans'    },
 
   // FUENTES DE PODER
-  { url: '/categoria-producto/componentes-de-pc/fuentes-de-poder/fuentes-modulares/',  catId: 'psu', sub: 'modular'    },
-  { url: '/categoria-producto/componentes-de-pc/fuentes-de-poder/fuentes-certificadas/', catId: 'psu', sub: 'certificada' },
+  { url: '/?product_cat=fuentes-modulares',   catId: 'psu', sub: 'modular'    },
+  { url: '/?product_cat=fuentes-certificadas', catId: 'psu', sub: 'certificada' },
 
   // GABINETES
-  { url: '/categoria-producto/componentes-de-pc/gabinetes/gabinetes-atx/',        catId: 'case', sub: 'atx'  },
-  { url: '/categoria-producto/componentes-de-pc/gabinetes/gabinetes-micro-atx/',  catId: 'case', sub: 'matx' },
-  { url: '/categoria-producto/componentes-de-pc/gabinetes/gabinetes-mini-itx/',   catId: 'case', sub: 'itx'  },
-  { url: '/categoria-producto/componentes-de-pc/gabinetes/gabinetes-extended-atx/', catId: 'case', sub: 'eatx' },
+  { url: '/?product_cat=gabinetes-atx',          catId: 'case', sub: 'atx'  },
+  { url: '/?product_cat=gabinetes-micro-atx',    catId: 'case', sub: 'matx' },
+  { url: '/?product_cat=gabinetes-mini-itx',     catId: 'case', sub: 'itx'  },
+  { url: '/?product_cat=gabinetes-extended-atx', catId: 'case', sub: 'eatx' },
 ];
 
 const OUT_OF_STOCK = ['sin stock', 'agotado', 'out of stock', 'no disponible'];
@@ -92,7 +92,7 @@ class BcpsTechScraper extends BaseScraper {
       const pageUrl = proxify(
         page === 1
           ? `${BASE}${cat.url}`
-          : `${BASE}${cat.url}page/${page}/`
+          : `${BASE}${cat.url}&paged=${page}`
       );
       this.log('info', `[bcpstech] ${cat.catId}/${cat.sub} pág ${page}`);
 
@@ -194,7 +194,7 @@ class BcpsTechScraper extends BaseScraper {
       this.log('info', `[bcpstech] ✓ pág ${page}: ${newInPage}`);
 
       // Siguiente página
-      const hasNext = $('a.next.page-numbers').length > 0;
+      const hasNext = $('a.next.page-numbers, .woocommerce-pagination a.next').length > 0;
       if (!hasNext || newInPage === 0) break;
       page++;
       await this.delay(1500, 2500);
