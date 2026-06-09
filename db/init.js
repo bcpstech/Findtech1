@@ -112,7 +112,6 @@ const insertStore = db.prepare(`
 `);
 
 const stores = [
-  { id:'bcpstech', name:'BCPS Tech', url:'www.bcpstech.cl', full_url:'https://bcpstech.cl', rating:0, review_count:0, description:'Tienda gamer con componentes PC y periféricos.', shipping:'24-72 hrs', payment:'Transferencia, Débito, Crédito', founded:'2025' },
   { id:'n1g',         name:'N1G',         url:'www.n1g.cl',                    full_url:'https://www.n1g.cl',                rating:0, review_count:0, description:'Tienda especializada en componentes gaming y hardware.',                    shipping:'24-48 hrs', payment:'Débito, Crédito, Transferencia', founded:'2015' },
   { id:'alltec',      name:'Alltec',       url:'www.alltec.cl',                 full_url:'https://www.alltec.cl',             rating:0, review_count:0, description:'Gran variedad de componentes y precios competitivos.',                      shipping:'24-72 hrs', payment:'Todos los medios',                founded:'2010' },
   { id:'cg',          name:'CentralGamer', url:'www.centralgamer.cl',           full_url:'https://www.centralgamer.cl',       rating:0, review_count:0, description:'Especialistas en gaming, periféricos y PCs armadas.',                       shipping:'48-72 hrs', payment:'Débito, Crédito, WebPay',        founded:'2017' },
@@ -131,6 +130,7 @@ const stores = [
   { id:'sipo',        name:'Sipo',         url:'sipo.cl',                       full_url:'https://sipo.cl',                   rating:0, review_count:0, description:'Tecnología y componentes PC en Chile.',                                    shipping:'24-72 hrs', payment:'Todos los medios',                founded:'2015' },
   { id:'megadrive',   name:'MegaDrive',    url:'www.megadrivestore.cl',          full_url:'https://www.megadrivestore.cl',      rating:0, review_count:0, description:'Hardware, componentes y accesorios para PC.',                              shipping:'24-72 hrs', payment:'Todos los medios',                founded:'2014' },
   { id:'infor-ingen', name:'Infor-Ingen',  url:'store.infor-ingen.com',         full_url:'https://store.infor-ingen.com',     rating:0, review_count:0, description:'Tienda de tecnología e informática.',                                      shipping:'24-72 hrs', payment:'Todos los medios',                founded:'2010' },
+  { id:'bcpstech',    name:'BCPS Tech',    url:'www.bcpstech.cl',               full_url:'https://bcpstech.cl',               rating:0, review_count:0, description:'Tienda gamer con componentes PC y periféricos.',                            shipping:'24-72 hrs', payment:'Transferencia, Débito, Crédito',  founded:'2026' },
 ];
 
 const insertCategory = db.prepare(`
