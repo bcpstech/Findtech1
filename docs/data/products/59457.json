@@ -17,12 +17,12 @@
     "Caché L3": "24 MB",
     "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$282.686",
-    "Tarjeta crédito/débito": "$295.407"
+    "Efectivo/Transferencia": "$278.653",
+    "Tarjeta crédito/débito": "$291.192"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:21",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 306,
@@ -46,16 +46,16 @@
     {
       "product_id": 31898,
       "store_id": "winpy",
-      "price": 280896,
+      "price": 272992,
       "price_normal": null,
-      "discount_pct": 23,
+      "discount_pct": 25,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i5-14600kf-raptor-lake-s-lga1700-14-cores-20-hilos-3-5-5-3ghz-sin-video/",
       "store_name": "Winpy",
-      "price_card": 295783,
+      "price_card": 287461,
       "price_specs": {
-        "Transferencia o Depósito": "$280.896",
-        "Otros medios de pago": "$295.783"
+        "Transferencia o Depósito": "$272.992",
+        "Otros medios de pago": "$287.461"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -65,40 +65,21 @@
     {
       "product_id": 59457,
       "store_id": "spdigital",
-      "price": 282686,
-      "price_normal": 349080,
+      "price": 278653,
+      "price_normal": 344140,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/core-i5-14600kf-350ghz-sktlga1700-cache",
       "store_name": "SP Digital",
-      "price_card": 295407,
+      "price_card": 291192,
       "price_specs": {
-        "Transferencia / Efectivo": "$282.686",
-        "Webpay / Tarjeta": "$295.407"
+        "Transferencia / Efectivo": "$278.653",
+        "Webpay / Tarjeta": "$291.192"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 59384,
-      "store_id": "cg",
-      "price": 283990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-intel-core-i5-14600kf/",
-      "store_name": "CentralGamer",
-      "price_card": 298928,
-      "price_specs": {
-        "Efectivo/Transferencia": "$283.990",
-        "Webpay / Tarjeta": "$298.928"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -113,7 +94,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 282686
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 278653
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

@@ -16,26 +16,45 @@
   },
   "tags": [],
   "created_at": "2026-05-08 22:24:09",
-  "updated_at": "2026-06-09 02:55:32",
+  "updated_at": "2026-06-20 00:20:06",
   "prices": [
     {
       "product_id": 1697,
       "store_id": "centrale",
-      "price": 105310,
+      "price": 98520,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-asus-prime-750w-gold-atx-3-0-80-plus-gold-modular-blanca/",
       "store_name": "Centrale",
-      "price_card": 111102,
+      "price_card": 103939,
       "price_specs": {
-        "Transferencia / Efectivo": "$105.310",
-        "Tarjetas de Crédito / Débito": "$111.102"
+        "Transferencia / Efectivo": "$98.520",
+        "Tarjetas de Crédito / Débito": "$103.939"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9701,
+      "store_id": "spdigital",
+      "price": 105176,
+      "price_normal": 129890,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/fuente-de-poder-asus-tuf-gaming-750g-750w-full-modular-certificada-80-plus-gold",
+      "store_name": "SP Digital",
+      "price_card": 109909,
+      "price_specs": {
+        "Transferencia / Efectivo": "$105.176",
+        "Webpay / Tarjeta": "$109.909"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 2654,
@@ -59,23 +78,23 @@
       "full_url": "https://www.trulustore.cl"
     },
     {
-      "product_id": 59746,
-      "store_id": "spdigital",
-      "price": 109995,
-      "price_normal": 129990,
-      "discount_pct": 15,
+      "product_id": 2549,
+      "store_id": "megabytes",
+      "price": 119990,
+      "price_normal": 159990,
+      "discount_pct": 25,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/ap-850g-psu-north-america",
-      "store_name": "SP Digital",
-      "price_card": 114945,
+      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/asus-fuente-de-poder-prime-850w-80gold-ap-850g/",
+      "store_name": "MegaBytes",
+      "price_card": 123590,
       "price_specs": {
-        "Transferencia / Efectivo": "$109.995",
-        "Webpay / Tarjeta": "$114.945"
+        "Efectivo/Transferencia": "$119.990",
+        "Tarjeta crédito/débito": "$123.590"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
+      "store_url": "www.megabytes.cl",
+      "full_url": "https://www.megabytes.cl"
     },
     {
       "product_id": 38967,
@@ -128,7 +147,13 @@
       "store_name": "MyShop",
       "date": "2026-06-09",
       "price": 632990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 632990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

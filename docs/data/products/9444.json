@@ -13,64 +13,26 @@
     "WiFi": "Integrado",
     "Factor de forma": "ATX",
     "Chipset": "AMD X870E",
-    "Efectivo/Transferencia": "$799.995",
-    "Tarjeta crédito/débito": "$835.995"
+    "Efectivo/Transferencia": "$791.508",
+    "Tarjeta crédito/débito": "$827.126"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:18",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
-    {
-      "product_id": 9444,
-      "store_id": "spdigital",
-      "price": 799995,
-      "price_card": 835995,
-      "price_normal": 999990,
-      "discount_pct": 20,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/asus-motherboard-rog-crosshair-x870e-hero-wifi",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$799.995",
-        "Webpay / Tarjeta": "$835.995"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 639,
-      "store_id": "n1g",
-      "price": 859900,
-      "price_card": 905475,
-      "price_normal": 905158,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2906-rog-crosshair-x870e-hero-am5-atx-pcie-50-ddr5-wifi-7-ai-usb4-y-usb-type-c.html",
-      "store_name": "N1G",
-      "price_specs": {
-        "Efectivo/Transferencia": "$859.900",
-        "Tarjeta crédito/débito": "$905.475"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
-    },
     {
       "product_id": 1401,
       "store_id": "centrale",
-      "price": 880420,
-      "price_card": 928843,
+      "price": 756350,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-crosshair-x870e-hero-socket-amd-am5-ddr5-wifi-7/",
       "store_name": "Centrale",
+      "price_card": 797949,
       "price_specs": {
-        "Transferencia / Efectivo": "$880.420",
-        "Tarjetas de Crédito / Débito": "$928.843"
+        "Transferencia / Efectivo": "$756.350",
+        "Tarjetas de Crédito / Débito": "$797.949"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -78,18 +40,56 @@
       "full_url": "https://www.centrale.cl"
     },
     {
+      "product_id": 639,
+      "store_id": "n1g",
+      "price": 789000,
+      "price_normal": 830526,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/2906-rog-crosshair-x870e-hero-am5-atx-pcie-50-ddr5-wifi-7-ai-usb4-y-usb-type-c.html",
+      "store_name": "N1G",
+      "price_card": 830817,
+      "price_specs": {
+        "Efectivo/Transferencia": "$789.000",
+        "Tarjeta crédito/débito": "$830.817"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 9444,
+      "store_id": "spdigital",
+      "price": 791508,
+      "price_normal": 931190,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/asus-rog-motherboard-atx-socket-am5-amd-x870e-rog-crosshair-x870e-hero",
+      "store_name": "SP Digital",
+      "price_card": 827126,
+      "price_specs": {
+        "Transferencia / Efectivo": "$791.508",
+        "Webpay / Tarjeta": "$827.126"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 38894,
       "store_id": "mybox",
-      "price": 926240,
-      "price_card": 954027,
-      "price_normal": 949990,
-      "discount_pct": 3,
+      "price": 830366,
+      "price_normal": 948990,
+      "discount_pct": 13,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/placa-madre/5719-placa-madre-asus-rog-x870e-crosshair-hero--4711387710302.html",
       "store_name": "MyBox",
+      "price_card": 855277,
       "price_specs": {
-        "Efectivo/Transferencia": "$926.240",
-        "Tarjeta crédito/débito": "$954.027"
+        "Efectivo/Transferencia": "$830.366",
+        "Tarjeta crédito/débito": "$855.277"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -101,45 +101,9 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-28",
-      "price": 999990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-04-29",
-      "price": 999990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-01",
-      "price": 999990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-03",
-      "price": 999990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-04",
-      "price": 799995
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-05",
-      "price": 799995
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-06",
-      "price": 799995
+      "date": "2026-06-20",
+      "price": 791508
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-06-20"
 }

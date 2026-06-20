@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 1383,
       "store_id": "centrale",
-      "price": 261980,
+      "price": 261480,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-z790-gaming-plus-wifi-intel-lga-1700-ddr5-pcie-4-0-wifi-6e/",
       "store_name": "Centrale",
-      "price_card": 276389,
+      "price_card": 275861,
       "price_specs": {
-        "Transferencia / Efectivo": "$261.980",
-        "Tarjetas de Crédito / Débito": "$276.389"
+        "Transferencia / Efectivo": "$261.480",
+        "Tarjetas de Crédito / Débito": "$275.861"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -70,7 +70,13 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 261980
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 261480
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

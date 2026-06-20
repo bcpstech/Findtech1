@@ -11,31 +11,50 @@
     "Capacidad": "1 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Efectivo / Transferencia": "$193.952",
-    "Tarjeta crédito/débito": "$204.231"
+    "Efectivo / Transferencia": "$191.520",
+    "Tarjeta crédito/débito": "$201.671"
   },
   "tags": [],
   "created_at": "2026-05-04 01:26:09",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 32032,
       "store_id": "winpy",
-      "price": 193952,
+      "price": 191520,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/unidad-ssd-western-digital-blue-sn5100-de-1tb-nvme-4-0-m-2-2280-hasta-7-100mbps/",
       "store_name": "Winpy",
-      "price_card": 204231,
+      "price_card": 201671,
       "price_specs": {
-        "Transferencia o Depósito": "$193.952",
-        "Otros medios de pago": "$204.231"
+        "Transferencia o Depósito": "$191.520",
+        "Otros medios de pago": "$201.671"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 72106,
+      "store_id": "spdigital",
+      "price": 209380,
+      "price_normal": 231280,
+      "discount_pct": 9,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/western-digital-wd-blue-sn5100-internal-hard-drive-1-tb-m2-solid-state-drive",
+      "store_name": "SP Digital",
+      "price_card": 218802,
+      "price_specs": {
+        "Transferencia / Efectivo": "$209.380",
+        "Webpay / Tarjeta": "$218.802"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -50,7 +69,13 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 193952
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 191520
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

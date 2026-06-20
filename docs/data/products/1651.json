@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:48",
-  "updated_at": "2026-06-09 03:04:55",
+  "updated_at": "2026-06-20 00:31:40",
   "prices": [
     {
       "product_id": 1651,
@@ -66,7 +66,13 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 99710
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 99710
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

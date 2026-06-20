@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:13:02",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 604,
@@ -28,9 +28,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3670-asrock-b860m-steel-legend-wifi-lga-1851-intel-b860-sata-6-gbs-intel-core-ultra-ddr5-micro-atx.html",
       "store_name": "N1G",
+      "price_card": 263145,
       "price_specs": {
         "Efectivo/Transferencia": "$249.900",
-        "Tarjeta crédito/débito": "$263.053"
+        "Tarjeta crédito/débito": "$263.145"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -46,8 +47,10 @@
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asrock-b850-steel-legend-wifi-atx-am5-ddr5-pcie-5-0-wifi-7/",
       "store_name": "Centrale",
+      "price_card": 283795,
       "price_specs": {
-        "Transferencia / Efectivo": "$269.000"
+        "Transferencia / Efectivo": "$269.000",
+        "Tarjetas de Crédito / Débito": "$283.795"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,8 +66,10 @@
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/para-amd/2184-mb-asrock-b650e-steel-legend-wifi-am5-ddr5-ryzen-70008000.html",
       "store_name": "Alltec",
+      "price_card": 308897,
       "price_specs": {
-        "Efectivo/Transferencia": "$299.900"
+        "Efectivo/Transferencia": "$299.900",
+        "Tarjeta crédito/débito": "$308.897"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -76,45 +81,21 @@
     {
       "store_id": "n1g",
       "store_name": "N1G",
-      "date": "2026-04-26",
+      "date": "2026-06-08",
       "price": 249900
     },
     {
       "store_id": "n1g",
       "store_name": "N1G",
-      "date": "2026-04-27",
+      "date": "2026-06-09",
       "price": 249900
     },
     {
       "store_id": "n1g",
       "store_name": "N1G",
-      "date": "2026-04-28",
-      "price": 249900
-    },
-    {
-      "store_id": "n1g",
-      "store_name": "N1G",
-      "date": "2026-04-29",
-      "price": 249900
-    },
-    {
-      "store_id": "n1g",
-      "store_name": "N1G",
-      "date": "2026-05-01",
-      "price": 249900
-    },
-    {
-      "store_id": "n1g",
-      "store_name": "N1G",
-      "date": "2026-05-03",
-      "price": 249900
-    },
-    {
-      "store_id": "n1g",
-      "store_name": "N1G",
-      "date": "2026-05-04",
+      "date": "2026-06-20",
       "price": 249900
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-06-20"
 }

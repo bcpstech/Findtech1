@@ -8,34 +8,53 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-1000w-certificada-80-gold-xpg-core-reactor-ii-atx-modular.png",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$135.990",
-    "Tarjeta crédito/débito": "$143.469",
+    "Efectivo / Transferencia": "$129.990",
+    "Tarjeta crédito/débito": "$137.139",
     "Garantía": "6 meses",
     "SKU": "40783",
     "Part Number": "COREREACTORII1000G-BKCEU"
   },
   "tags": [],
   "created_at": "2026-06-08 20:52:04",
-  "updated_at": "2026-06-09 02:55:25",
+  "updated_at": "2026-06-20 00:19:58",
   "prices": [
     {
       "product_id": 60154,
       "store_id": "myshop",
-      "price": 135990,
-      "price_normal": 143469,
-      "discount_pct": null,
+      "price": 129990,
+      "price_normal": 137139,
+      "discount_pct": 27,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/fuente-de-poder-xpg-corereactor-1000w-80-gold-p40783",
       "store_name": "MyShop",
-      "price_card": 140070,
+      "price_card": 133890,
       "price_specs": {
-        "Efectivo/Transferencia": "$135.990",
-        "Tarjeta crédito/débito": "$140.070"
+        "Efectivo/Transferencia": "$129.990",
+        "Tarjeta crédito/débito": "$133.890"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 73587,
+      "store_id": "centrale",
+      "price": 146670,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/xpg-fuente-de-poder-1000w-certificada-80-gold-core-reactor-ii-atx-modular/",
+      "store_name": "Centrale",
+      "price_card": 154737,
+      "price_specs": {
+        "Transferencia / Efectivo": "$146.670",
+        "Tarjetas de Crédito / Débito": "$154.737"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -50,7 +69,13 @@
       "store_name": "MyShop",
       "date": "2026-06-09",
       "price": 135990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 129990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

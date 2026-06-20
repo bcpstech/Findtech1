@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:51:28",
-  "updated_at": "2026-06-08 21:07:42",
+  "updated_at": "2026-06-20 00:47:56",
   "prices": [
     {
       "product_id": 2573,
       "store_id": "megabytes",
       "price": 81990,
-      "price_card": 84450,
       "price_normal": 109990,
       "discount_pct": 25,
       "stock": "in_stock",
       "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/sama-neview-2851a-white/",
       "store_name": "MegaBytes",
+      "price_card": 84450,
       "price_specs": {
         "Efectivo/Transferencia": "$81.990",
         "Tarjeta crédito/débito": "$84.450"
@@ -41,7 +41,13 @@
       "store_name": "MegaBytes",
       "date": "2026-06-08",
       "price": 81990
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-06-20",
+      "price": 81990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-20"
 }

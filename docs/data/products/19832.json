@@ -13,29 +13,29 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$759.990",
-    "Tarjeta crédito/débito": "$801.789",
+    "Efectivo / Transferencia": "$760.990",
+    "Tarjeta crédito/débito": "$802.844",
     "Garantía": "6 meses",
     "SKU": "35456",
     "Part Number": "PRIME-RTX5070-O12G"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:43",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 19832,
       "store_id": "myshop",
-      "price": 759990,
-      "price_normal": 801789,
-      "discount_pct": 11,
+      "price": 760990,
+      "price_normal": 802844,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/tarjeta-de-video-asus-prime-geforce-rtx-5070-12-gb-gddr7-edicion-oc-12-gb-gddr7-192-bits-displayporthdmi-p35456",
       "store_name": "MyShop",
-      "price_card": 782790,
+      "price_card": 783820,
       "price_specs": {
-        "Efectivo/Transferencia": "$759.990",
-        "Tarjeta crédito/débito": "$782.790"
+        "Efectivo/Transferencia": "$760.990",
+        "Tarjeta crédito/débito": "$783.820"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,7 +55,13 @@
       "store_name": "MyShop",
       "date": "2026-06-09",
       "price": 759990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 760990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

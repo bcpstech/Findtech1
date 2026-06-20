@@ -14,21 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:51",
-  "updated_at": "2026-06-09 02:45:30",
+  "updated_at": "2026-06-20 00:10:24",
   "prices": [
     {
       "product_id": 9736,
       "store_id": "spdigital",
-      "price": 52188,
-      "price_normal": 62620,
-      "discount_pct": 17,
+      "price": 49985,
+      "price_normal": 61730,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/fuente-de-poder-gigabyte-p650g-pcie-51-650w-cables-fijos-certificada-80-plus-gold-atx-31",
       "store_name": "SP Digital",
-      "price_card": 54536,
+      "price_card": 52234,
       "price_specs": {
-        "Transferencia / Efectivo": "$52.188",
-        "Webpay / Tarjeta": "$54.536"
+        "Transferencia / Efectivo": "$49.985",
+        "Webpay / Tarjeta": "$52.234"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,16 +38,16 @@
     {
       "product_id": 1682,
       "store_id": "centrale",
-      "price": 53900,
+      "price": 52230,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-gigabyte-gp-p650g-650w-80plus-gold-cables-fijos/",
       "store_name": "Centrale",
-      "price_card": 56865,
+      "price_card": 55103,
       "price_specs": {
-        "Transferencia / Efectivo": "$53.900",
-        "Tarjetas de Crédito / Débito": "$56.865"
+        "Transferencia / Efectivo": "$52.230",
+        "Tarjetas de Crédito / Débito": "$55.103"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -107,7 +107,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 52188
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 49985
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

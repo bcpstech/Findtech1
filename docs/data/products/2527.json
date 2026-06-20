@@ -15,18 +15,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:50:58",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 2527,
       "store_id": "megabytes",
       "price": 12990,
-      "price_card": 13380,
       "price_normal": 19990,
       "discount_pct": 35,
       "stock": "in_stock",
       "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/thermalright-disipador-de-ssd-tr-m-2-2280-ssd/",
       "store_name": "MegaBytes",
+      "price_card": 13380,
       "price_specs": {
         "Efectivo/Transferencia": "$12.990",
         "Tarjeta crédito/débito": "$13.380"
@@ -43,7 +43,13 @@
       "store_name": "MegaBytes",
       "date": "2026-06-08",
       "price": 12990
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-06-20",
+      "price": 12990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-20"
 }

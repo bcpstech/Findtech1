@@ -12,50 +12,50 @@
     "Factor de forma": "micro ATX",
     "Memoria": "DDR4",
     "Chipset": "Intel H610 Express",
-    "Efectivo/Transferencia": "$69.995",
-    "Tarjeta crédito/débito": "$73.145"
+    "Efectivo/Transferencia": "$74.995",
+    "Tarjeta crédito/débito": "$78.370"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:32",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
-    {
-      "product_id": 9469,
-      "store_id": "spdigital",
-      "price": 69995,
-      "price_normal": 119990,
-      "discount_pct": 42,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/mb-h610m-k-ddr4-mb-h610m-k-ddr4",
-      "store_name": "SP Digital",
-      "price_card": 73145,
-      "price_specs": {
-        "Transferencia / Efectivo": "$69.995",
-        "Webpay / Tarjeta": "$73.145"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
     {
       "product_id": 1411,
       "store_id": "centrale",
-      "price": 75520,
+      "price": 72370,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-gigabyte-h610m-k-ddr4-intel-lga1700-ddr4-hdmi/",
       "store_name": "Centrale",
-      "price_card": 79674,
+      "price_card": 76350,
       "price_specs": {
-        "Transferencia / Efectivo": "$75.520",
-        "Tarjetas de Crédito / Débito": "$79.674"
+        "Transferencia / Efectivo": "$72.370",
+        "Tarjetas de Crédito / Débito": "$76.350"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9469,
+      "store_id": "spdigital",
+      "price": 74995,
+      "price_normal": 119990,
+      "discount_pct": 37,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/mb-h610m-k-ddr4-mb-h610m-k-ddr4",
+      "store_name": "SP Digital",
+      "price_card": 78370,
+      "price_specs": {
+        "Transferencia / Efectivo": "$74.995",
+        "Webpay / Tarjeta": "$78.370"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 38906,
@@ -89,7 +89,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 69995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 74995
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

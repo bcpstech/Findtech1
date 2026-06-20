@@ -12,26 +12,26 @@
     "Interfaz": "PCI Express 3.0",
     "Factor de forma": "M.2 2280",
     "Lectura": "3500 MB/s",
-    "Efectivo/Transferencia": "$438.485",
-    "Tarjeta crédito/débito": "$458.217"
+    "Efectivo/Transferencia": "$432.240",
+    "Tarjeta crédito/débito": "$451.691"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:09",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 9543,
       "store_id": "spdigital",
-      "price": 438485,
-      "price_card": 458217,
-      "price_normal": 541470,
+      "price": 432240,
+      "price_normal": 533830,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/crucial-p3-4000gb-3d-nand-nvme-pcie-m-2",
       "store_name": "SP Digital",
+      "price_card": 451691,
       "price_specs": {
-        "Transferencia / Efectivo": "$438.485",
-        "Webpay / Tarjeta": "$458.217"
+        "Transferencia / Efectivo": "$432.240",
+        "Webpay / Tarjeta": "$451.691"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 1582,
       "store_id": "centrale",
-      "price": 442190,
-      "price_card": 466510,
+      "price": 442200,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-4tb-crucial-p3-nvme-pcie-3-0-m-2-2280/",
       "store_name": "Centrale",
+      "price_card": 466521,
       "price_specs": {
-        "Transferencia / Efectivo": "$442.190",
-        "Tarjetas de Crédito / Débito": "$466.510"
+        "Transferencia / Efectivo": "$442.200",
+        "Tarjetas de Crédito / Débito": "$466.521"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -64,7 +64,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 438485
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 438485
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 432240
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-20"
 }

@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "TDP": "260 W",
-    "Efectivo/Transferencia": "$84.995",
-    "Tarjeta crédito/débito": "$88.820"
+    "Efectivo/Transferencia": "$87.995",
+    "Tarjeta crédito/débito": "$91.955"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:00",
-  "updated_at": "2026-06-09 02:44:35",
+  "updated_at": "2026-06-20 00:09:35",
   "prices": [
     {
       "product_id": 9631,
       "store_id": "spdigital",
-      "price": 84995,
+      "price": 87995,
       "price_normal": 119990,
-      "discount_pct": 29,
+      "discount_pct": 27,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/refrigeracion-liquida-antec-vortex-lum-240-argb-240mm-intelamd-incluye-controladora-black",
       "store_name": "SP Digital",
-      "price_card": 88820,
+      "price_card": 91955,
       "price_specs": {
-        "Transferencia / Efectivo": "$84.995",
-        "Webpay / Tarjeta": "$88.820"
+        "Transferencia / Efectivo": "$87.995",
+        "Webpay / Tarjeta": "$91.955"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -48,7 +48,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 84995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 87995
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

@@ -10,26 +10,26 @@
   "specs": {
     "Capacidad": "10 TB",
     "Interfaz": "SATA III",
-    "Transferencia / Efectivo": "$455.820",
-    "Tarjeta crédito/débito": "$480.890"
+    "Transferencia / Efectivo": "$446.290",
+    "Tarjeta crédito/débito": "$470.840"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 1517,
       "store_id": "centrale",
-      "price": 455820,
+      "price": 446290,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-western-digital-purple-pro-10tb-7200rpm-sata-iii-512mb-buffer/",
       "store_name": "Centrale",
-      "price_card": 480890,
+      "price_card": 470836,
       "price_specs": {
-        "Transferencia / Efectivo": "$455.820",
-        "Tarjetas de Crédito / Débito": "$480.890"
+        "Transferencia / Efectivo": "$446.290",
+        "Tarjetas de Crédito / Débito": "$470.836"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -49,7 +49,13 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 455820
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 446290
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

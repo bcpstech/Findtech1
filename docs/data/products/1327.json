@@ -5,62 +5,77 @@
   "brand": "Asus",
   "name": "Placa Madre ASUS PRIME H810M-E Micro ATX LGA 1851, DDR5 hasta 128GB",
   "slug": "placa-madre-asus-prime-h810m-e-micro-atx-lga-1851-ddr5-hasta-128gb",
-  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Tarjeta-Madre-Micro-Atx-Lga-1851-Intel-H810-128Gb-Ddr5-Hdmi-Dp-Para.webp",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asus-prime-h810m-e-micro-atx-lga-1851-ddr5-hasta-128gb.webp",
   "description": null,
   "specs": {
     "Socket": "LGA1851",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
-    "Transferencia / Efectivo": "$110.000",
-    "Tarjeta crédito/débito": "$116.050"
+    "Transferencia / Efectivo": "$112.680",
+    "Tarjeta crédito/débito": "$118.880"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-03 22:40:02",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 1327,
       "store_id": "centrale",
-      "price": 110000,
+      "price": 112680,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-h810m-e-micro-atx-lga-1851-ddr5-hasta-128gb/",
       "store_name": "Centrale",
+      "price_card": 118877,
       "price_specs": {
-        "Transferencia / Efectivo": "$110.000"
+        "Transferencia / Efectivo": "$112.680",
+        "Tarjetas de Crédito / Débito": "$118.877"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 71355,
+      "store_id": "bcpstech",
+      "price": 112990,
+      "price_normal": 125990,
+      "discount_pct": 10,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=993",
+      "store_name": "BCPS Tech",
+      "price_card": 116380,
+      "price_specs": {
+        "Efectivo/Transferencia": "$112.990",
+        "Tarjeta crédito/débito": "$116.380"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 104240
+      "date": "2026-06-08",
+      "price": 107240
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 104130
+      "date": "2026-06-09",
+      "price": 107240
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-05-01",
-      "price": 1100
-    },
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-05-03",
-      "price": 110000
+      "date": "2026-06-20",
+      "price": 112680
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-06-20"
 }

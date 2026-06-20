@@ -15,18 +15,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:51:06",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 2546,
       "store_id": "megabytes",
       "price": 8990,
-      "price_card": 9260,
       "price_normal": 10788,
       "discount_pct": 17,
       "stock": "in_stock",
       "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/adata-pendrive-3-2-uv128-64gb-auv128-64g-rbe/",
       "store_name": "MegaBytes",
+      "price_card": 9260,
       "price_specs": {
         "Efectivo/Transferencia": "$8.990",
         "Tarjeta crédito/débito": "$9.260"
@@ -43,7 +43,13 @@
       "store_name": "MegaBytes",
       "date": "2026-06-08",
       "price": 8990
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-06-20",
+      "price": 8990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-20"
 }

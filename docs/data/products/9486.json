@@ -13,26 +13,26 @@
     "Velocidad": "5600 MHz",
     "Latencia": "CL46",
     "Tipo de memoria": "DDR5",
-    "Efectivo/Transferencia": "$149.995",
-    "Tarjeta crédito/débito": "$156.745"
+    "Efectivo/Transferencia": "$169.995",
+    "Tarjeta crédito/débito": "$177.645"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:42",
-  "updated_at": "2026-06-09 02:22:21",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 9486,
       "store_id": "spdigital",
-      "price": 149995,
+      "price": 169995,
       "price_normal": 269990,
-      "discount_pct": 44,
+      "discount_pct": 37,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/memoria-ram-adata-ddr5-8gb-5600mts-cl46-udimm-negro",
       "store_name": "SP Digital",
-      "price_card": 156745,
+      "price_card": 177645,
       "price_specs": {
-        "Transferencia / Efectivo": "$149.995",
-        "Webpay / Tarjeta": "$156.745"
+        "Transferencia / Efectivo": "$169.995",
+        "Webpay / Tarjeta": "$177.645"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -52,7 +52,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 149995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 169995
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

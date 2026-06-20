@@ -13,52 +13,59 @@
     "Velocidad": "3200 MHz",
     "Latencia": "CL22",
     "Tipo de memoria": "DDR4",
-    "Efectivo/Transferencia": "$124.995",
-    "Tarjeta crédito/débito": "$130.620"
+    "Efectivo/Transferencia": "$183.180",
+    "Tarjeta crédito/débito": "$191.423"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:44",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
-    {
-      "product_id": 9490,
-      "store_id": "spdigital",
-      "price": 124995,
-      "price_card": 130620,
-      "price_normal": 269990,
-      "discount_pct": 54,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/memoria-ram-ddr4-16gb-3200mhz-kingston-dimm-non-ecc-cl22-12v",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$124.995",
-        "Webpay / Tarjeta": "$130.620"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
     {
       "product_id": 1490,
       "store_id": "centrale",
-      "price": 202200,
-      "price_card": 213321,
+      "price": 162780,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr4-3200mt-s-cl22-kingston-16gbit-dimm/",
       "store_name": "Centrale",
+      "price_card": 171733,
       "price_specs": {
-        "Transferencia / Efectivo": "$202.200",
-        "Tarjetas de Crédito / Débito": "$213.321"
+        "Transferencia / Efectivo": "$162.780",
+        "Tarjetas de Crédito / Débito": "$171.733"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9490,
+      "store_id": "spdigital",
+      "price": 183180,
+      "price_normal": 202370,
+      "discount_pct": 9,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/memoria-ram-ddr4-16gb-3200mhz-kingston-dimm-non-ecc-cl22-12v",
+      "store_name": "SP Digital",
+      "price_card": 191423,
+      "price_specs": {
+        "Transferencia / Efectivo": "$183.180",
+        "Webpay / Tarjeta": "$191.423"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 183180
+    }
+  ],
+  "scraped_at": "2026-06-20"
 }

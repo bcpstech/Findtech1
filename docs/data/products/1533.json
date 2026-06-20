@@ -12,26 +12,26 @@
     "Interfaz": "SATA III",
     "Factor de forma": "2.5\"",
     "Lectura": "520 MB/s",
-    "Transferencia / Efectivo": "$159.580",
-    "Tarjeta crédito/débito": "$168.360"
+    "Transferencia / Efectivo": "$180.960",
+    "Tarjeta crédito/débito": "$190.910"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 1533,
       "store_id": "centrale",
-      "price": 159580,
+      "price": 180960,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ssd-xpg-adata-ultimate-su650-1tb-2-5-sata-3-lectura-520mb-s-escritura/",
       "store_name": "Centrale",
-      "price_card": 168357,
+      "price_card": 190913,
       "price_specs": {
-        "Transferencia / Efectivo": "$159.580",
-        "Tarjetas de Crédito / Débito": "$168.357"
+        "Transferencia / Efectivo": "$180.960",
+        "Tarjetas de Crédito / Débito": "$190.913"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -51,7 +51,13 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 159580
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 180960
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

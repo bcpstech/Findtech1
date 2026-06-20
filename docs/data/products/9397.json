@@ -20,23 +20,61 @@
     "TDP": "65 W",
     "Memoria soportada": "DDR4-SDRAM",
     "Gráficos integrados": "AMD Radeon Graphics",
-    "Efectivo/Transferencia": "$214.995",
-    "Tarjeta crédito/débito": "$224.670"
+    "Efectivo/Transferencia": "$229.995",
+    "Tarjeta crédito/débito": "$240.345"
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:51",
-  "updated_at": "2026-06-08 20:43:12",
+  "updated_at": "2026-06-20 00:06:52",
   "prices": [
+    {
+      "product_id": 1947,
+      "store_id": "dust2",
+      "price": 195990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-7-5700g-46-ghz-8-nucleos-radeon-vega-8/",
+      "store_name": "Dust2",
+      "price_card": 201870,
+      "price_specs": {
+        "Efectivo/Transferencia": "$195.990",
+        "Tarjeta crédito/débito": "$201.870"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 31888,
+      "store_id": "winpy",
+      "price": 199424,
+      "price_normal": null,
+      "discount_pct": 27,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-7-5700g-con-graficos-radeon-am4-8-cores-16-hilos-3-8-4-6ghz/",
+      "store_name": "Winpy",
+      "price_card": 209993,
+      "price_specs": {
+        "Transferencia o Depósito": "$199.424",
+        "Otros medios de pago": "$209.993"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
     {
       "product_id": 2818,
       "store_id": "alltec",
       "price": 199900,
-      "price_card": 205897,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/1655-amd-ryzen-7-5700g-38ghz-46ghz-turbo-octa-core-radeon-graphics-2000mhz-730143313377.html",
       "store_name": "Alltec",
+      "price_card": 205897,
       "price_specs": {
         "Efectivo/Transferencia": "$199.900",
         "Tarjeta crédito/débito": "$205.897"
@@ -50,12 +88,12 @@
       "product_id": 280,
       "store_id": "centrale",
       "price": 205720,
-      "price_card": 217035,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-5700g-4-60ghz-graficos-integrados/",
       "store_name": "Centrale",
+      "price_card": 217035,
       "price_specs": {
         "Transferencia / Efectivo": "$205.720",
         "Tarjetas de Crédito / Débito": "$217.035"
@@ -66,61 +104,23 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 31888,
-      "store_id": "winpy",
-      "price": 209152,
-      "price_card": 220237,
-      "price_normal": null,
-      "discount_pct": 23,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-7-5700g-con-graficos-radeon-am4-8-cores-16-hilos-3-8-4-6ghz/",
-      "store_name": "Winpy",
-      "price_specs": {
-        "Transferencia o Depósito": "$209.152",
-        "Otros medios de pago": "$220.237"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
-    {
       "product_id": 9397,
       "store_id": "spdigital",
-      "price": 214995,
-      "price_card": 224670,
+      "price": 229995,
       "price_normal": 449990,
-      "discount_pct": 52,
+      "discount_pct": 49,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-7-5700g-8-core-38ghz-max-boost-46ghz-socket-am4-radeon-vega-graphics",
       "store_name": "SP Digital",
+      "price_card": 240345,
       "price_specs": {
-        "Transferencia / Efectivo": "$214.995",
-        "Webpay / Tarjeta": "$224.670"
+        "Transferencia / Efectivo": "$229.995",
+        "Webpay / Tarjeta": "$240.345"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 1147,
-      "store_id": "cg",
-      "price": 221990,
-      "price_card": 233667,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-7-5700g/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$221.990",
-        "Webpay / Tarjeta": "$233.667"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -129,7 +129,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-08",
       "price": 214995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 214995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 229995
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-20"
 }

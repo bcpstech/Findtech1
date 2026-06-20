@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "VRAM": "2 GB",
-    "Efectivo / Transferencia": "$89.984",
-    "Tarjeta crédito/débito": "$94.753"
+    "Efectivo / Transferencia": "$62.624",
+    "Tarjeta crédito/débito": "$65.943"
   },
   "tags": [],
   "created_at": "2026-06-09 01:09:23",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 65165,
       "store_id": "winpy",
-      "price": 89984,
+      "price": 62624,
       "price_normal": null,
-      "discount_pct": null,
+      "discount_pct": 24,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-geforce-gt-710-evo-de-2gb-ddr5-perfil-bajo/",
       "store_name": "Winpy",
-      "price_card": 94753,
+      "price_card": 65943,
       "price_specs": {
-        "Transferencia o Depósito": "$89.984",
-        "Otros medios de pago": "$94.753"
+        "Transferencia o Depósito": "$62.624",
+        "Otros medios de pago": "$65.943"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,7 +42,13 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 89984
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 62624
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

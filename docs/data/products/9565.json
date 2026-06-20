@@ -14,26 +14,26 @@
     "Arquitectura": "Ampere",
     "Variante": "OC (Overclocked)",
     "Factor de forma": "Full-Height/Half-Length (FH/HL)",
-    "Efectivo/Transferencia": "$234.995",
-    "Tarjeta crédito/débito": "$245.570"
+    "Efectivo/Transferencia": "$271.574",
+    "Tarjeta crédito/débito": "$283.795"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:23",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 9565,
       "store_id": "spdigital",
-      "price": 234995,
-      "price_normal": 309990,
-      "discount_pct": 24,
+      "price": 271574,
+      "price_normal": 331870,
+      "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/msi-geforce-rtx-3050-lp-6g-oc-pci-express-30-x16-x4-mode-nvidia-nvidia-geforce-rtx-3050",
       "store_name": "SP Digital",
-      "price_card": 245570,
+      "price_card": 283795,
       "price_specs": {
-        "Transferencia / Efectivo": "$234.995",
-        "Webpay / Tarjeta": "$245.570"
+        "Transferencia / Efectivo": "$271.574",
+        "Webpay / Tarjeta": "$283.795"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -53,7 +53,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 234995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 271574
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

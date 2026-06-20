@@ -16,18 +16,18 @@
   },
   "tags": [],
   "created_at": "2026-05-01 00:28:16",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 16357,
       "store_id": "spdigital",
       "price": 232372,
-      "price_card": 242829,
       "price_normal": 286980,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/seagate-skyhawk-hard-drive-internal-hard-drive-6-tb-35",
       "store_name": "SP Digital",
+      "price_card": 242829,
       "price_specs": {
         "Transferencia / Efectivo": "$232.372",
         "Webpay / Tarjeta": "$242.829"
@@ -38,6 +38,13 @@
       "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 232372
+    }
+  ],
+  "scraped_at": "2026-06-20"
 }

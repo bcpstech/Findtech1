@@ -18,12 +18,12 @@
     "Caché L3": "18 MB",
     "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
     "Gráficos integrados": "Intel UHD Graphics 730",
-    "Efectivo/Transferencia": "$203.106",
-    "Tarjeta crédito/débito": "$212.246"
+    "Efectivo/Transferencia": "$221.522",
+    "Tarjeta crédito/débito": "$231.490"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:20",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 317,
@@ -45,42 +45,42 @@
       "full_url": "https://www.centrale.cl"
     },
     {
+      "product_id": 73739,
+      "store_id": "winpy",
+      "price": 204896,
+      "price_normal": null,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i5-12400-alder-lake-lga-1700-6-cores-12-hilos-2-5-4-4ghz/",
+      "store_name": "Winpy",
+      "price_card": 215755,
+      "price_specs": {
+        "Transferencia o Depósito": "$204.896",
+        "Otros medios de pago": "$215.755"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
       "product_id": 59454,
       "store_id": "spdigital",
-      "price": 203106,
-      "price_normal": 212210,
-      "discount_pct": 4,
+      "price": 221522,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/core-i5-12400-250ghz-sktlga1700",
       "store_name": "SP Digital",
-      "price_card": 212246,
+      "price_card": 231490,
       "price_specs": {
-        "Transferencia / Efectivo": "$203.106",
-        "Webpay / Tarjeta": "$212.246"
+        "Transferencia / Efectivo": "$221.522",
+        "Webpay / Tarjeta": "$231.490"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 59381,
-      "store_id": "cg",
-      "price": 210990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-intel-core-i5-12400/",
-      "store_name": "CentralGamer",
-      "price_card": 222088,
-      "price_specs": {
-        "Efectivo/Transferencia": "$210.990",
-        "Webpay / Tarjeta": "$222.088"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -95,7 +95,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 203106
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 221522
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

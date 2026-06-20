@@ -8,50 +8,31 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-2000w-cooler-master-x-mighty-platinum-80plus-platinum.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$493.990",
-    "Tarjeta crédito/débito": "$521.160"
+    "Transferencia / Efectivo": "$398.200",
+    "Tarjeta crédito/débito": "$420.100"
   },
   "tags": [],
   "created_at": "2026-06-08 20:58:45",
-  "updated_at": "2026-06-09 03:05:18",
+  "updated_at": "2026-06-20 00:32:14",
   "prices": [
     {
       "product_id": 61002,
       "store_id": "centrale",
-      "price": 493990,
+      "price": 398200,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-2000w-cooler-master-x-mighty-platinum-80plus-platinum/",
       "store_name": "Centrale",
-      "price_card": 521159,
+      "price_card": 420101,
       "price_specs": {
-        "Transferencia / Efectivo": "$493.990",
-        "Tarjetas de Crédito / Débito": "$521.159"
+        "Transferencia / Efectivo": "$398.200",
+        "Tarjetas de Crédito / Débito": "$420.101"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9730,
-      "store_id": "spdigital",
-      "price": 493995,
-      "price_normal": 519990,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/x-mighty-plat-2000w-weu-cord",
-      "store_name": "SP Digital",
-      "price_card": 516225,
-      "price_specs": {
-        "Transferencia / Efectivo": "$493.995",
-        "Webpay / Tarjeta": "$516.225"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -66,7 +47,13 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 493990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 398200
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

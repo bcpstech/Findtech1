@@ -13,26 +13,26 @@
     "Velocidad": "3200 MHz",
     "Latencia": "CL22",
     "Tipo de memoria": "DDR4",
-    "Efectivo/Transferencia": "$191.090",
-    "Tarjeta crédito/débito": "$199.689"
+    "Efectivo/Transferencia": "$171.244",
+    "Tarjeta crédito/débito": "$178.950"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:43",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 1431,
       "store_id": "centrale",
-      "price": 164920,
+      "price": 168260,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-xpg-16gb-ddr4-3200mhz-so-dimm-cl22-1-2v/",
       "store_name": "Centrale",
-      "price_card": 173991,
+      "price_card": 177514,
       "price_specs": {
-        "Transferencia / Efectivo": "$164.920",
-        "Tarjetas de Crédito / Débito": "$173.991"
+        "Transferencia / Efectivo": "$168.260",
+        "Tarjetas de Crédito / Débito": "$177.514"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,16 +42,16 @@
     {
       "product_id": 9488,
       "store_id": "spdigital",
-      "price": 191090,
-      "price_normal": 235950,
+      "price": 171244,
+      "price_normal": 211470,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/memoria-ram-ddr4-16gb-3200mhz-dimm-288-pines-adata-premier-cl22-12v",
       "store_name": "SP Digital",
-      "price_card": 199689,
+      "price_card": 178950,
       "price_specs": {
-        "Transferencia / Efectivo": "$191.090",
-        "Webpay / Tarjeta": "$199.689"
+        "Transferencia / Efectivo": "$171.244",
+        "Webpay / Tarjeta": "$178.950"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -71,7 +71,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 191090
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 171244
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

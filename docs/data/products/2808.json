@@ -12,22 +12,27 @@
     "Frecuencia turbo": "4.2 GHz",
     "Socket": "AM4",
     "Generación": "AMD Zen 3 (7nm)",
-    "Efectivo/Transferencia": "$108.500",
-    "Tarjeta crédito/débito": "$111.755"
+    "Efectivo / Transferencia": "$99.900",
+    "Tarjeta crédito/débito": "$102.897"
   },
   "tags": [],
   "created_at": "2026-04-27 00:31:38",
-  "updated_at": "2026-04-27 01:21:21",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 2808,
       "store_id": "alltec",
-      "price": 108500,
+      "price": 99900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2194-amd-ryzen-3-5300g-40ghz-42ghz-turbo-quad-core-tdp-65w-am4.html",
       "store_name": "Alltec",
+      "price_card": 102897,
+      "price_specs": {
+        "Efectivo/Transferencia": "$99.900",
+        "Tarjeta crédito/débito": "$102.897"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
@@ -38,9 +43,21 @@
     {
       "store_id": "alltec",
       "store_name": "Alltec",
-      "date": "2026-04-27",
-      "price": 108500
+      "date": "2026-06-08",
+      "price": 99900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 99900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-20",
+      "price": 99900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-20"
 }

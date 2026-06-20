@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:52:28",
-  "updated_at": "2026-06-09 02:55:54",
+  "updated_at": "2026-06-20 00:20:36",
   "prices": [
     {
       "product_id": 60174,
@@ -38,42 +38,42 @@
       "full_url": "https://www.myshop.cl"
     },
     {
-      "product_id": 59843,
-      "store_id": "spdigital",
-      "price": 27995,
-      "price_normal": 49990,
-      "discount_pct": 44,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/pro-shield-m100p-mid-tower-negro",
-      "store_name": "SP Digital",
-      "price_card": 29255,
-      "price_specs": {
-        "Transferencia / Efectivo": "$27.995",
-        "Webpay / Tarjeta": "$29.255"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
       "product_id": 1748,
       "store_id": "centrale",
-      "price": 28190,
+      "price": 28210,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-corporativo-msi-pro-shield-m100p-micro-atx-mini-itx-4-usb-frontales/",
       "store_name": "Centrale",
-      "price_card": 29740,
+      "price_card": 29762,
       "price_specs": {
-        "Transferencia / Efectivo": "$28.190",
-        "Tarjetas de Crédito / Débito": "$29.740"
+        "Transferencia / Efectivo": "$28.210",
+        "Tarjetas de Crédito / Débito": "$29.762"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 59843,
+      "store_id": "spdigital",
+      "price": 29995,
+      "price_normal": 49990,
+      "discount_pct": 40,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/pro-shield-m100p-mid-tower-negro",
+      "store_name": "SP Digital",
+      "price_card": 31345,
+      "price_specs": {
+        "Transferencia / Efectivo": "$29.995",
+        "Webpay / Tarjeta": "$31.345"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -88,7 +88,13 @@
       "store_name": "MyShop",
       "date": "2026-06-09",
       "price": 27980
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 27980
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

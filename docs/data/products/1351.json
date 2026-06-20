@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 1351,
@@ -60,16 +60,16 @@
     {
       "product_id": 9429,
       "store_id": "spdigital",
-      "price": 299995,
+      "price": 319995,
       "price_normal": 499990,
-      "discount_pct": 40,
+      "discount_pct": 36,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-msi-b850-mlg-edition-socket-am5-4x-ddr5-4x-m2-wifi-7-bluetooth-54-atx",
       "store_name": "SP Digital",
-      "price_card": 313495,
+      "price_card": 334395,
       "price_specs": {
-        "Transferencia / Efectivo": "$299.995",
-        "Webpay / Tarjeta": "$313.495"
+        "Transferencia / Efectivo": "$319.995",
+        "Webpay / Tarjeta": "$334.395"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -89,7 +89,13 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 239900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 239900
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

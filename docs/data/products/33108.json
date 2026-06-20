@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:45:02",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 33108,
@@ -57,25 +57,6 @@
       "full_url": "https://www.n1g.cl"
     },
     {
-      "product_id": 60329,
-      "store_id": "alltec",
-      "price": 106900,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/para-amd/1495-mb-msi-b550m-pro-vdh-wifi-am4-4xddr4-ryzen-5000.html",
-      "store_name": "Alltec",
-      "price_card": 110107,
-      "price_specs": {
-        "Efectivo/Transferencia": "$106.900",
-        "Tarjeta crédito/débito": "$110.107"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
-    },
-    {
       "product_id": 1397,
       "store_id": "centrale",
       "price": 107630,
@@ -93,6 +74,25 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 60329,
+      "store_id": "alltec",
+      "price": 128900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/para-amd/1495-mb-msi-b550m-pro-vdh-wifi-am4-4xddr4-ryzen-5000.html",
+      "store_name": "Alltec",
+      "price_card": 132767,
+      "price_specs": {
+        "Efectivo/Transferencia": "$128.900",
+        "Tarjeta crédito/débito": "$132.767"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -107,7 +107,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-09",
       "price": 93900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-20",
+      "price": 93900
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

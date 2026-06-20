@@ -14,26 +14,26 @@
     "Kit": "2x16 GB",
     "Iluminación": "RGB",
     "Marca": "Corsair",
-    "Efectivo / Transferencia": "$515.990",
-    "Tarjeta crédito/débito": "$531.470"
+    "Efectivo / Transferencia": "$499.990",
+    "Tarjeta crédito/débito": "$514.990"
   },
   "tags": [],
   "created_at": "2026-05-01 14:24:58",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 21848,
       "store_id": "dust2",
-      "price": 515990,
-      "price_card": 531470,
+      "price": 499990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/memoria-ram-corsair-vengeance-rgb-32g-2x16gb-6000mhz-cl36/",
       "store_name": "Dust2",
+      "price_card": 514990,
       "price_specs": {
-        "Efectivo/Transferencia": "$515.990",
-        "Tarjeta crédito/débito": "$531.470"
+        "Efectivo/Transferencia": "$499.990",
+        "Tarjeta crédito/débito": "$514.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,6 +41,13 @@
       "full_url": "https://www.dust2.gg"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-20",
+      "price": 499990
+    }
+  ],
+  "scraped_at": "2026-06-20"
 }

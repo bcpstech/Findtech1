@@ -8,31 +8,50 @@
   "image_url": "https://images.findtech.cl/products/gabinete-antec-st6m-argb-micro-atx-malla-frontal-4-ventiladores-negro.jpg",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$27.968",
-    "Tarjeta crédito/débito": "$29.450"
+    "Efectivo / Transferencia": "$27.360",
+    "Tarjeta crédito/débito": "$28.810"
   },
   "tags": [],
   "created_at": "2026-06-08 21:00:11",
-  "updated_at": "2026-06-09 03:07:19",
+  "updated_at": "2026-06-20 00:34:48",
   "prices": [
     {
       "product_id": 61244,
       "store_id": "winpy",
-      "price": 27968,
+      "price": 27360,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-antec-st6m-argb-micro-atx-malla-frontal-4-ventiladores-negro/",
       "store_name": "Winpy",
-      "price_card": 29450,
+      "price_card": 28810,
       "price_specs": {
-        "Transferencia o Depósito": "$27.968",
-        "Otros medios de pago": "$29.450"
+        "Transferencia o Depósito": "$27.360",
+        "Otros medios de pago": "$28.810"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 2565,
+      "store_id": "megabytes",
+      "price": 28990,
+      "price_normal": 45490,
+      "discount_pct": 36,
+      "stock": "in_stock",
+      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/gabinete-antec-st6m-argb/",
+      "store_name": "MegaBytes",
+      "price_card": 29860,
+      "price_specs": {
+        "Efectivo/Transferencia": "$28.990",
+        "Tarjeta crédito/débito": "$29.860"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.megabytes.cl",
+      "full_url": "https://www.megabytes.cl"
     }
   ],
   "history": [
@@ -47,7 +66,13 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 27968
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 27360
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

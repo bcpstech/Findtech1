@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Velocidad": "1600 MHz",
-    "Transferencia / Efectivo": "$18.790",
-    "Tarjeta crédito/débito": "$19.820"
+    "Transferencia / Efectivo": "$21.270",
+    "Tarjeta crédito/débito": "$22.440"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 1503,
       "store_id": "centrale",
-      "price": 18790,
+      "price": 21270,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/kingston-memoria-ram-notebook-valueram-ddr3-sdram-1600-mhz-non-ecc/",
       "store_name": "Centrale",
-      "price_card": 19823,
+      "price_card": 22440,
       "price_specs": {
-        "Transferencia / Efectivo": "$18.790",
-        "Tarjetas de Crédito / Débito": "$19.823"
+        "Transferencia / Efectivo": "$21.270",
+        "Tarjetas de Crédito / Débito": "$22.440"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -48,7 +48,13 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 18790
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 21270
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

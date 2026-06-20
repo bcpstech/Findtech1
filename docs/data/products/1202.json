@@ -5,32 +5,32 @@
   "brand": "Zotac",
   "name": "Tarjeta Zotac GeForce RTX5060Ti Twin Edge OC 8GB GDDR6",
   "slug": "tarjeta-zotac-geforce-rtx5060ti-twin-edge-oc-8gb-gddr6",
-  "image_url": "https://centrale.cl/wp-content/uploads/Zotac-Geforce-Rtx5060Ti-Twin-Edge-Oc-ZT-B50610H-10A.webp",
+  "image_url": "https://images.findtech.cl/products/tarjeta-zotac-geforce-rtx5060ti-twin-edge-oc-8gb-gddr6.webp",
   "description": null,
   "specs": {
     "VRAM": "8 GB",
     "Tipo memoria": "GDDR6",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$515.040",
-    "Tarjeta crédito/débito": "$543.370"
+    "Transferencia / Efectivo": "$520.780",
+    "Tarjeta crédito/débito": "$549.420"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 1202,
       "store_id": "centrale",
-      "price": 515040,
-      "price_card": 543367,
+      "price": 520780,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-zotac-geforce-rtx5060ti-twin-edge-oc-8gb-gddr6/",
       "store_name": "Centrale",
+      "price_card": 549423,
       "price_specs": {
-        "Transferencia / Efectivo": "$515.040",
-        "Tarjetas de Crédito / Débito": "$543.367"
+        "Transferencia / Efectivo": "$520.780",
+        "Tarjetas de Crédito / Débito": "$549.423"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,6 +38,25 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 531660
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 531660
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 520780
+    }
+  ],
+  "scraped_at": "2026-06-20"
 }

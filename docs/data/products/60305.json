@@ -21,7 +21,7 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:54:01",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 60305,
@@ -41,25 +41,6 @@
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
-    },
-    {
-      "product_id": 10,
-      "store_id": "n1g",
-      "price": 499000,
-      "price_normal": 525263,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/1531-intel-core-i9-12900k-12th-gen-alder-lake-16-core-8p8e-32-ghz-lga-1700-125w-intel-uhd-graphics-770-bx8071512900k.html",
-      "store_name": "N1G",
-      "price_card": 525447,
-      "price_specs": {
-        "Efectivo/Transferencia": "$499.000",
-        "Tarjeta crédito/débito": "$525.447"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -74,7 +55,13 @@
       "store_name": "Alltec",
       "date": "2026-06-09",
       "price": 495900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-20",
+      "price": 495900
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

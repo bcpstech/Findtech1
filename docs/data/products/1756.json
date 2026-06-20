@@ -5,29 +5,29 @@
   "brand": "Asus",
   "name": "Gabinete Profesional ASUS ProArt PA401 Wood Edition Tempered Glass Panel (Black)",
   "slug": "gabinete-profesional-asus-proart-pa401-wood-edition-tempered-glass-panel-black",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Profesional-ASUS-ProArt-PA401-Wood-Edition-Tempered-Glass-Panel-1.webp",
+  "image_url": "https://images.findtech.cl/products/gabinete-profesional-asus-proart-pa401-wood-edition-tempered-glass-panel-black.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$144.230",
-    "Tarjeta crédito/débito": "$152.160"
+    "Transferencia / Efectivo": "$132.490",
+    "Tarjeta crédito/débito": "$139.780"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-05-08 22:49:05",
+  "updated_at": "2026-06-20 00:33:13",
   "prices": [
     {
       "product_id": 1756,
       "store_id": "centrale",
-      "price": 144230,
-      "price_card": 152163,
+      "price": 132490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-profesional-asus-proart-pa401-wood-edition-tempered-glass-panel-black/",
       "store_name": "Centrale",
+      "price_card": 139777,
       "price_specs": {
-        "Transferencia / Efectivo": "$144.230",
-        "Tarjetas de Crédito / Débito": "$152.163"
+        "Transferencia / Efectivo": "$132.490",
+        "Tarjetas de Crédito / Débito": "$139.777"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,12 +38,12 @@
       "product_id": 38998,
       "store_id": "mybox",
       "price": 154040,
-      "price_card": 158661,
       "price_normal": 157990,
       "discount_pct": 3,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/gabinetes/5971-gabinete-asus-proart-wood-edition-pa401.html",
       "store_name": "MyBox",
+      "price_card": 158661,
       "price_specs": {
         "Efectivo/Transferencia": "$154.040",
         "Tarjeta crédito/débito": "$158.661"
@@ -54,6 +54,13 @@
       "full_url": "https://www.mybox.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 132490
+    }
+  ],
+  "scraped_at": "2026-06-20"
 }

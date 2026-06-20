@@ -8,18 +8,15 @@
   "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-7-8700f-am5-8-cores-16-hilos-4-1-5-0ghz-sin-video.jpg",
   "description": null,
   "specs": {
-    "Núcleos": "8",
-    "Hilos": "16",
-    "Frecuencia base": "4.1 GHz",
+    "Frecuencia base": "5.0 GHz",
     "TDP": "65W",
     "Socket": "AM5",
-    "Gráficos integrados": "No",
-    "Efectivo/Transferencia": "$268.000",
-    "Tarjeta crédito/débito": "$276.040"
+    "Transferencia / Efectivo": "$267.940",
+    "Tarjeta crédito/débito": "$282.680"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:29",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 31897,
@@ -43,16 +40,16 @@
     {
       "product_id": 2814,
       "store_id": "alltec",
-      "price": 249900,
+      "price": 259900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2244-amd-ryzen-7-8700f-41ghz-50ghz-turbo-octa-core-tdp-65w-am5.html",
       "store_name": "Alltec",
-      "price_card": 257397,
+      "price_card": 267697,
       "price_specs": {
-        "Efectivo/Transferencia": "$249.900",
-        "Tarjeta crédito/débito": "$257.397"
+        "Efectivo/Transferencia": "$259.900",
+        "Tarjeta crédito/débito": "$267.697"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,40 +59,21 @@
     {
       "product_id": 302,
       "store_id": "centrale",
-      "price": 261420,
+      "price": 267940,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-8700f-socket-am5-8-cores-16-threads-4-1-a-5-0ghz-65w/",
       "store_name": "Centrale",
-      "price_card": 275798,
+      "price_card": 282677,
       "price_specs": {
-        "Transferencia / Efectivo": "$261.420",
-        "Tarjetas de Crédito / Débito": "$275.798"
+        "Transferencia / Efectivo": "$267.940",
+        "Tarjetas de Crédito / Débito": "$282.677"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 36,
-      "store_id": "n1g",
-      "price": 268000,
-      "price_normal": 282105,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2963-amd-ryzen-7-8700f-41ghz-8-core-16-hilos-socket-am5-65w-sin-graficos-processor-100-100001590box.html",
-      "store_name": "N1G",
-      "price_card": 282204,
-      "price_specs": {
-        "Efectivo/Transferencia": "$268.000",
-        "Tarjeta crédito/débito": "$282.204"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
     },
     {
       "product_id": 2631,
@@ -150,7 +128,13 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 248672
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 248672
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

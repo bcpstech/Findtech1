@@ -13,26 +13,26 @@
     "Bus de memoria": "256-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$1.946.790",
-    "Tarjeta crédito/débito": "$2.053.860"
+    "Transferencia / Efectivo": "$1.936.450",
+    "Tarjeta crédito/débito": "$2.042.950"
   },
   "tags": [],
   "created_at": "2026-06-08 20:44:24",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 59600,
       "store_id": "spdigital",
-      "price": 1869995,
+      "price": 1899995,
       "price_normal": 2299990,
-      "discount_pct": 19,
+      "discount_pct": 17,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-tuf-gaming-geforce-rtx-5080-oc-edition-16gb-gddr7-256-bit-pcie-50",
       "store_name": "SP Digital",
-      "price_card": 1954145,
+      "price_card": 1985495,
       "price_specs": {
-        "Transferencia / Efectivo": "$1.869.995",
-        "Webpay / Tarjeta": "$1.954.145"
+        "Transferencia / Efectivo": "$1.899.995",
+        "Webpay / Tarjeta": "$1.985.495"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,16 +42,16 @@
     {
       "product_id": 1251,
       "store_id": "centrale",
-      "price": 1946790,
+      "price": 1936450,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-tuf-gaming-geforce-rtx-5080-oc-edition-16gb-gddr7/",
       "store_name": "Centrale",
-      "price_card": 2053863,
+      "price_card": 2042955,
       "price_specs": {
-        "Transferencia / Efectivo": "$1.946.790",
-        "Tarjetas de Crédito / Débito": "$2.053.863"
+        "Transferencia / Efectivo": "$1.936.450",
+        "Tarjetas de Crédito / Débito": "$2.042.955"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -71,7 +71,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 1869995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 1899995
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

@@ -1,56 +1,89 @@
 {
   "id": 1234,
-  "external_id": "centrale_cooler-master-gabinete-elite-490-s-fuente-m-atx-blanco-incluye-3-ventiladores",
-  "category_id": "case",
-  "brand": "Cooler Master",
-  "name": "Cooler Master Gabinete Elite 490 S/Fuente M-Atx Blanco Incluye 3 Ventiladores",
-  "slug": "cooler-master-gabinete-elite-490-s-fuente-m-atx-blanco-incluye-3-ventiladores",
-  "image_url": "https://centrale.cl/wp-content/uploads/Cooler-Master-Elite-490-Blanco-3X-Argb-Fans-E490-WHNN-S00-1776017863-1.webp",
+  "external_id": "centrale_tarjeta-grafica-msi-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-128-bit",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "Tarjeta Gráfica MSI GeForce RTX 5060 SHADOW 2X OC 8GB GDDR7 128-bit",
+  "slug": "tarjeta-grafica-msi-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-128-bit",
+  "image_url": "https://images.findtech.cl/products/tarjeta-grafica-msi-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-128-bit.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$54.980",
-    "Tarjetas de Crédito / Débito": "$58.000"
+    "VRAM": "8 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "128-bit",
+    "Variante": "OC (Overclocked)",
+    "Transferencia / Efectivo": "$431.840",
+    "Tarjeta crédito/débito": "$455.590"
   },
   "tags": [],
-  "created_at": "2026-04-25 20:57:28",
-  "updated_at": "2026-04-25 20:57:28",
+  "created_at": "2026-04-26 20:37:32",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 1234,
       "store_id": "centrale",
-      "price": 54980,
+      "price": 431840,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/cooler-master-gabinete-elite-490-s-fuente-m-atx-blanco-incluye-3-ventiladores/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-128-bit/",
       "store_name": "Centrale",
+      "price_card": 455591,
+      "price_specs": {
+        "Transferencia / Efectivo": "$431.840",
+        "Tarjetas de Crédito / Débito": "$455.591"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 1885,
-      "store_id": "dust2",
-      "price": 61160,
+      "product_id": 31856,
+      "store_id": "winpy",
+      "price": 440192,
       "price_normal": null,
-      "discount_pct": null,
+      "discount_pct": 15,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/gabinete-cooler-master-elite-490-micro-atx-mini-itx-blanco/",
-      "store_name": "Dust2",
+      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5060-shadow-2x-oc-de-8gb-gddr7/",
+      "store_name": "Winpy",
+      "price_card": 463522,
+      "price_specs": {
+        "Transferencia o Depósito": "$440.192",
+        "Otros medios de pago": "$463.522"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 9566,
+      "store_id": "spdigital",
+      "price": 459995,
+      "price_normal": 569990,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-nvidia-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-128-bit-pci-e-50",
+      "store_name": "SP Digital",
+      "price_card": 480695,
+      "price_specs": {
+        "Transferencia / Efectivo": "$459.995",
+        "Webpay / Tarjeta": "$480.695"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 54980
+      "date": "2026-06-20",
+      "price": 431840
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-06-20"
 }

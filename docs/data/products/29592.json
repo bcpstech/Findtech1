@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-03 22:36:27",
-  "updated_at": "2026-06-08 21:06:42",
+  "updated_at": "2026-06-20 00:46:44",
   "prices": [
     {
       "product_id": 29592,
       "store_id": "megabytes",
       "price": 445990,
-      "price_card": 459370,
       "price_normal": 535190,
       "discount_pct": 17,
       "stock": "in_stock",
       "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/pc-gamer-starter-1-ryzen-5-3400g-vega-11-16gb-ddr4-512gb-wifi/",
       "store_name": "MegaBytes",
+      "price_card": 459370,
       "price_specs": {
         "Efectivo/Transferencia": "$445.990",
         "Tarjeta crédito/débito": "$459.370"
@@ -41,7 +41,13 @@
       "store_name": "MegaBytes",
       "date": "2026-06-08",
       "price": 445990
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-06-20",
+      "price": 445990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-20"
 }

@@ -21,13 +21,32 @@
     "TDP": "65 W",
     "Memoria soportada": "DDR4-SDRAM",
     "Gráficos integrados": "AMD Radeon Graphics",
-    "Efectivo/Transferencia": "$154.995",
-    "Tarjeta crédito/débito": "$161.970"
+    "Efectivo/Transferencia": "$159.995",
+    "Tarjeta crédito/débito": "$167.195"
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:55",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
+    {
+      "product_id": 1965,
+      "store_id": "dust2",
+      "price": 149990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-5-5600gt-6-nucleos-36-ghz-am4/",
+      "store_name": "Dust2",
+      "price_card": 154490,
+      "price_specs": {
+        "Efectivo/Transferencia": "$149.990",
+        "Tarjeta crédito/débito": "$154.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
     {
       "product_id": 2829,
       "store_id": "alltec",
@@ -67,56 +86,18 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 27,
-      "store_id": "n1g",
-      "price": 154900,
-      "price_normal": 163053,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2617-amd-ryzen-5-5600gt-socket-am4-6-core-12-hilos-36-ghz-65w-con-graficos-100-100001488box.html",
-      "store_name": "N1G",
-      "price_card": 163110,
-      "price_specs": {
-        "Efectivo/Transferencia": "$154.900",
-        "Tarjeta crédito/débito": "$163.110"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
-    },
-    {
-      "product_id": 9406,
-      "store_id": "spdigital",
-      "price": 154995,
-      "price_normal": 219990,
-      "discount_pct": 30,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/ryzen-5-5600gt-460ghz-6core-skt-am4-19m",
-      "store_name": "SP Digital",
-      "price_card": 161970,
-      "price_specs": {
-        "Transferencia / Efectivo": "$154.995",
-        "Webpay / Tarjeta": "$161.970"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
       "product_id": 31882,
       "store_id": "winpy",
-      "price": 159296,
+      "price": 157472,
       "price_normal": null,
-      "discount_pct": 15,
+      "discount_pct": 16,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-5600gt-am4-6-cores-12-hilos-3-6-4-6ghz-16mb-cache/",
       "store_name": "Winpy",
-      "price_card": 167739,
+      "price_card": 165818,
       "price_specs": {
-        "Transferencia o Depósito": "$159.296",
-        "Otros medios de pago": "$167.739"
+        "Transferencia o Depósito": "$157.472",
+        "Otros medios de pago": "$165.818"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -124,23 +105,23 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 1149,
-      "store_id": "cg",
-      "price": 175990,
-      "price_normal": null,
-      "discount_pct": null,
+      "product_id": 9406,
+      "store_id": "spdigital",
+      "price": 159995,
+      "price_normal": 219990,
+      "discount_pct": 27,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-5600gt/",
-      "store_name": "CentralGamer",
-      "price_card": 185247,
+      "product_url": "https://www.spdigital.cl/ryzen-5-5600gt-460ghz-6core-skt-am4-19m",
+      "store_name": "SP Digital",
+      "price_card": 167195,
       "price_specs": {
-        "Efectivo/Transferencia": "$175.990",
-        "Webpay / Tarjeta": "$185.247"
+        "Transferencia / Efectivo": "$159.995",
+        "Webpay / Tarjeta": "$167.195"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -155,7 +136,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 154995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 159995
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

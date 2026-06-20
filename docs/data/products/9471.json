@@ -13,26 +13,26 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Chipset": "Intel Z790 Express",
-    "Efectivo/Transferencia": "$234.666",
-    "Tarjeta crédito/débito": "$245.226"
+    "Efectivo/Transferencia": "$231.378",
+    "Tarjeta crédito/débito": "$241.790"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:33",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 9471,
       "store_id": "spdigital",
-      "price": 234666,
-      "price_normal": 289820,
+      "price": 231378,
+      "price_normal": 285720,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-gigabyte-lga-1700-ddr5-soporte-12ava-13ava-y-14ava-gen-intel-wifi-6e-bluetooth-pc",
       "store_name": "SP Digital",
-      "price_card": 245226,
+      "price_card": 241790,
       "price_specs": {
-        "Transferencia / Efectivo": "$234.666",
-        "Webpay / Tarjeta": "$245.226"
+        "Transferencia / Efectivo": "$231.378",
+        "Webpay / Tarjeta": "$241.790"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -71,7 +71,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 234666
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 231378
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

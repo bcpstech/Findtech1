@@ -8,18 +8,16 @@
   "image_url": "https://images.findtech.cl/products/amd-ryzen-5-5600xt-3-7ghz-4-7ghz-turbo-six-core-tdp-65w-am4.jpg",
   "description": null,
   "specs": {
-    "Núcleos": "6",
-    "Hilos": "12",
-    "Frecuencia base": "4.7 GHz",
+    "Frecuencia base": "3.7 GHz",
+    "Frecuencia turbo": "4.7 GHz",
     "Socket": "AM4",
     "Generación": "AMD Zen 5 (4nm)",
-    "Incluye cooler": "Sí (Wraith)",
-    "Efectivo/Transferencia": "$189.900",
-    "Tarjeta crédito/débito": "$195.597"
+    "Efectivo / Transferencia": "$180.000",
+    "Tarjeta crédito/débito": "$185.400"
   },
   "tags": [],
   "created_at": "2026-04-27 00:32:05",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 2819,
@@ -39,25 +37,6 @@
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
-    },
-    {
-      "product_id": 29,
-      "store_id": "n1g",
-      "price": 189900,
-      "price_normal": 199895,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3781-amd-ryzen-5-5600xt-socket-am4-6-nucleos12-hilos-47ghz-incluye-wraith-cooler.html",
-      "store_name": "N1G",
-      "price_card": 199965,
-      "price_specs": {
-        "Efectivo/Transferencia": "$189.900",
-        "Tarjeta crédito/débito": "$199.965"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -72,7 +51,13 @@
       "store_name": "Alltec",
       "date": "2026-06-09",
       "price": 180000
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-20",
+      "price": 180000
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

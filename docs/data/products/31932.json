@@ -13,26 +13,26 @@
     "Memoria": "DDR4",
     "WiFi": "Integrado",
     "Chipset": "AMD B550",
-    "Efectivo/Transferencia": "$112.995",
-    "Tarjeta crédito/débito": "$118.080"
+    "Efectivo/Transferencia": "$114.995",
+    "Tarjeta crédito/débito": "$120.170"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:42",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 31932,
       "store_id": "winpy",
-      "price": 89984,
+      "price": 83904,
       "price_normal": null,
-      "discount_pct": 30,
+      "discount_pct": 34,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-gigabyte-b550m-k-am4-ddr4-2133-4733mhz-m-2-microatx/",
       "store_name": "Winpy",
-      "price_card": 94753,
+      "price_card": 88351,
       "price_specs": {
-        "Transferencia o Depósito": "$89.984",
-        "Otros medios de pago": "$94.753"
+        "Transferencia o Depósito": "$83.904",
+        "Otros medios de pago": "$88.351"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -99,40 +99,21 @@
     {
       "product_id": 9451,
       "store_id": "spdigital",
-      "price": 112995,
+      "price": 114995,
       "price_normal": 169990,
-      "discount_pct": 34,
+      "discount_pct": 32,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-gigabyte-b550m-ds3h-ac-r2-socket-amd-am4-wi-fi-pcie-40-rgb-fusion-micro-atx",
       "store_name": "SP Digital",
-      "price_card": 118080,
+      "price_card": 120170,
       "price_specs": {
-        "Transferencia / Efectivo": "$112.995",
-        "Webpay / Tarjeta": "$118.080"
+        "Transferencia / Efectivo": "$114.995",
+        "Webpay / Tarjeta": "$120.170"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 33132,
-      "store_id": "infor-ingen",
-      "price": 129900,
-      "price_normal": 137694,
-      "discount_pct": 6,
-      "stock": "in_stock",
-      "product_url": "https://store.infor-ingen.com/producto/m-b-gigabyte-b550m-ds3h-ac/",
-      "store_name": "Infor-Ingen",
-      "price_card": 133797,
-      "price_specs": {
-        "Efectivo/Transferencia": "$129.900",
-        "Tarjeta crédito/débito": "$133.797"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "store.infor-ingen.com",
-      "full_url": "https://store.infor-ingen.com"
     }
   ],
   "history": [
@@ -147,7 +128,13 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 89984
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 83904
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

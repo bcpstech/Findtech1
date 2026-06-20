@@ -17,12 +17,12 @@
     "Caché L3": "64 MB",
     "TDP": "170 W",
     "Gráficos integrados": "AMD Radeon Graphics",
-    "Efectivo/Transferencia": "$421.495",
-    "Tarjeta crédito/débito": "$440.462"
+    "Efectivo/Transferencia": "$434.995",
+    "Tarjeta crédito/débito": "$454.570"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:01",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 31913,
@@ -46,16 +46,16 @@
     {
       "product_id": 289,
       "store_id": "centrale",
-      "price": 420490,
+      "price": 421920,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-7900x-4-7ghz-12-nucleos-24-hilos-socket-am5/",
       "store_name": "Centrale",
-      "price_card": 443617,
+      "price_card": 445126,
       "price_specs": {
-        "Transferencia / Efectivo": "$420.490",
-        "Tarjetas de Crédito / Débito": "$443.617"
+        "Transferencia / Efectivo": "$421.920",
+        "Tarjetas de Crédito / Débito": "$445.126"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -65,16 +65,16 @@
     {
       "product_id": 9414,
       "store_id": "spdigital",
-      "price": 421495,
+      "price": 434995,
       "price_normal": 799990,
-      "discount_pct": 47,
+      "discount_pct": 46,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ryzen-9-am5-7900x",
       "store_name": "SP Digital",
-      "price_card": 440462,
+      "price_card": 454570,
       "price_specs": {
-        "Transferencia / Efectivo": "$421.495",
-        "Webpay / Tarjeta": "$440.462"
+        "Transferencia / Efectivo": "$434.995",
+        "Webpay / Tarjeta": "$454.570"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -94,7 +94,13 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 407360
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 407360
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

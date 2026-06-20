@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Capacidad": "25 TB",
-    "Transferencia / Efectivo": "$59.470",
-    "Tarjeta crédito/débito": "$62.740"
+    "Transferencia / Efectivo": "$58.210",
+    "Tarjeta crédito/débito": "$61.410"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 1590,
       "store_id": "centrale",
-      "price": 59470,
+      "price": 58210,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/cartucho-de-datos-hpe-lto-6-ultrium-rw-625tb-14tb-h-cifrado-aes/",
       "store_name": "Centrale",
-      "price_card": 62741,
+      "price_card": 61412,
       "price_specs": {
-        "Transferencia / Efectivo": "$59.470",
-        "Tarjetas de Crédito / Débito": "$62.741"
+        "Transferencia / Efectivo": "$58.210",
+        "Tarjetas de Crédito / Débito": "$61.412"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -48,7 +48,13 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 59470
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 58210
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

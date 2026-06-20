@@ -20,21 +20,21 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:49:51",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
-      "product_id": 9517,
+      "product_id": 9511,
       "store_id": "spdigital",
-      "price": 129995,
-      "price_normal": 269990,
-      "discount_pct": 52,
+      "price": 134706,
+      "price_normal": 166340,
+      "discount_pct": 19,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/memoria-ram-xpg-lancer-blade-ddr5-8gb-5600mts-u-dimm-black",
+      "product_url": "https://www.spdigital.cl/adata-ddr5-u-dimm-8gb-5600-white",
       "store_name": "SP Digital",
-      "price_card": 135845,
+      "price_card": 140768,
       "price_specs": {
-        "Transferencia / Efectivo": "$129.995",
-        "Webpay / Tarjeta": "$135.845"
+        "Transferencia / Efectivo": "$134.706",
+        "Webpay / Tarjeta": "$140.768"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -44,16 +44,16 @@
     {
       "product_id": 59991,
       "store_id": "myshop",
-      "price": 135900,
-      "price_normal": 143375,
+      "price": 139990,
+      "price_normal": 147689,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/dimm-8-gb-xpg-lancer-blade-ddr5-5600-mhz-black-ax5u5600c468g-slabbk-p35182",
       "store_name": "MyShop",
-      "price_card": 139977,
+      "price_card": 144190,
       "price_specs": {
-        "Efectivo/Transferencia": "$135.900",
-        "Tarjeta crédito/débito": "$139.977"
+        "Efectivo/Transferencia": "$139.990",
+        "Tarjeta crédito/débito": "$144.190"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,16 +63,16 @@
     {
       "product_id": 1466,
       "store_id": "centrale",
-      "price": 193990,
+      "price": 207490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-5600mt-s-cl46-xpg-lancer-blade-black/",
       "store_name": "Centrale",
-      "price_card": 204659,
+      "price_card": 218902,
       "price_specs": {
-        "Transferencia / Efectivo": "$193.990",
-        "Tarjetas de Crédito / Débito": "$204.659"
+        "Transferencia / Efectivo": "$207.490",
+        "Tarjetas de Crédito / Débito": "$218.902"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -92,7 +92,13 @@
       "store_name": "MyShop",
       "date": "2026-06-09",
       "price": 199990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 199990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

@@ -3,9 +3,9 @@
   "external_id": "pn_ztb50800j210p",
   "category_id": "gpu",
   "brand": "Zotac",
-  "name": "Tarjeta de Video - Zotac Gaming Solid Core - Nvidia GeForce RTX 5080 OC Edition - 16 GB, GDDR7, 256 bits - PCIe 5.0 - DisplayPort, HDMI",
+  "name": "Tarjeta de Video Nvidia RTX 5080 16GB - Zotac Gaming Solid Core OC Edition - GDDR7, 256 bits - PCIe 5.0 - DisplayPort, HDMI",
   "slug": "tarjeta-de-video-zotac-gaming-solid-core-nvidia-geforce-rtx-5080-oc-edition-16-gb-gddr7-256-bit",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-zotac-gaming-solid-core-nvidia-geforce-rtx-5080-oc-edition-16-gb-gddr7-256-bits-pci.jpg",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-rtx-5080-16gb-zotac-gaming-solid-core-oc-edition-gddr7-256-bits-pcie-5-0-dis.jpg",
   "description": null,
   "specs": {
     "VRAM": "16 GB",
@@ -13,95 +13,55 @@
     "Bus de memoria": "256-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$1.629.990",
-    "Tarjeta crédito/débito": "$1.719.639",
-    "Garantía": "6 meses",
-    "SKU": "42273",
-    "Part Number": "ZT-B50800J2-10P"
+    "Efectivo / Transferencia": "$1.669.990",
+    "Tarjeta crédito/débito": "$1.761.839",
+    "Garantía": "",
+    "SKU": "40523",
+    "Part Number": "824142395943"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:47",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
-    {
-      "product_id": 9563,
-      "store_id": "spdigital",
-      "price": 1610978,
-      "price_card": 1683472,
-      "price_normal": 1989590,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-gaming-geforce-rtx-5080-solid-oc",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$1.610.978",
-        "Webpay / Tarjeta": "$1.683.472"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 1201,
-      "store_id": "centrale",
-      "price": 1628690,
-      "price_card": 1718268,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-rtx-5080-16gb-gddr7-solid-core-oc-pcie-5-0-360w/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$1.628.690",
-        "Tarjetas de Crédito / Débito": "$1.718.268"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
     {
       "product_id": 19841,
       "store_id": "myshop",
-      "price": 1629990,
-      "price_card": 1678890,
-      "price_normal": 1719639,
-      "discount_pct": 14,
+      "price": 1599990,
+      "price_normal": 1687989,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/vga-zotac-gaming-geforce-rtx5080-solid-core-oc-16gb-gddr7-p42273",
       "store_name": "MyShop",
+      "price_card": 1647990,
       "price_specs": {
-        "Efectivo/Transferencia": "$1.629.990",
-        "Tarjeta crédito/débito": "$1.678.890"
+        "Efectivo/Transferencia": "$1.599.990",
+        "Tarjeta crédito/débito": "$1.647.990"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 2602,
-      "store_id": "trulustore",
-      "price": 1699990,
-      "price_card": 1750990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-geforce-rtx-5080-solid-core-oc-16gb/",
-      "store_name": "TruluStore",
-      "khipu_price": 1733990,
-      "price_specs": {
-        "Efectivo / Transferencia": "$1.699.990",
-        "Khipu": "$1.733.990",
-        "Tarjeta crédito/débito": "$1.750.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-08",
+      "price": 1593990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 1593990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 1599990
+    }
+  ],
+  "scraped_at": "2026-06-20"
 }

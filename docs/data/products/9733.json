@@ -8,51 +8,31 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-esgaming-es-rgb750w-cables-fijos-certificada-80-plus-gold-atx.png",
   "description": null,
   "specs": {
-    "Marca": "ESGAMING",
-    "Efectivo/Transferencia": "$139.990",
-    "Webpay / Tarjeta": "$147.353"
+    "Efectivo/Transferencia": "$57.995",
+    "Tarjeta crédito/débito": "$60.605"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:50",
-  "updated_at": "2026-06-09 02:45:27",
+  "updated_at": "2026-06-20 00:10:22",
   "prices": [
     {
       "product_id": 9733,
       "store_id": "spdigital",
-      "price": 55995,
+      "price": 57995,
       "price_normal": 89990,
-      "discount_pct": 38,
+      "discount_pct": 36,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/fuente-poder-750w80-plus-bronze-certificada-es-rgb750w-esgaming",
       "store_name": "SP Digital",
-      "price_card": 58515,
+      "price_card": 60605,
       "price_specs": {
-        "Transferencia / Efectivo": "$55.995",
-        "Webpay / Tarjeta": "$58.515"
+        "Transferencia / Efectivo": "$57.995",
+        "Webpay / Tarjeta": "$60.605"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 4221,
-      "store_id": "cg",
-      "price": 139990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/fuentes-de-poder/fuente-de-poder-esgaming-1000w-80-plus-certificada-gold/",
-      "store_name": "CentralGamer",
-      "price_card": 147353,
-      "price_specs": {
-        "Efectivo/Transferencia": "$139.990",
-        "Webpay / Tarjeta": "$147.353"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -67,7 +47,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 55995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 57995
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

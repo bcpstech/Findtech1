@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Factor de forma": "Midi Tower",
-    "Efectivo/Transferencia": "$99.995",
-    "Tarjeta crédito/débito": "$104.495"
+    "Efectivo/Transferencia": "$109.995",
+    "Tarjeta crédito/débito": "$114.945"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:05",
-  "updated_at": "2026-06-09 02:45:48",
+  "updated_at": "2026-06-20 00:10:41",
   "prices": [
     {
       "product_id": 9757,
       "store_id": "spdigital",
-      "price": 94995,
+      "price": 104995,
       "price_normal": 139990,
-      "discount_pct": 32,
+      "discount_pct": 25,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/gabinete-gamer-antec-c5-curve-argb-doble-camara-vidrio-curvado-atx-m-atx-itx-negro",
       "store_name": "SP Digital",
-      "price_card": 99270,
+      "price_card": 109720,
       "price_specs": {
-        "Transferencia / Efectivo": "$94.995",
-        "Webpay / Tarjeta": "$99.270"
+        "Transferencia / Efectivo": "$104.995",
+        "Webpay / Tarjeta": "$109.720"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -67,7 +67,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 94995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 104995
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:51:01",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 2536,
       "store_id": "megabytes",
       "price": 4990,
-      "price_card": 5140,
       "price_normal": 8990,
       "discount_pct": 44,
       "stock": "in_stock",
       "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/adata-pendrive-16-gb-20-ac008-16g-rwe/",
       "store_name": "MegaBytes",
+      "price_card": 5140,
       "price_specs": {
         "Efectivo/Transferencia": "$4.990",
         "Tarjeta crédito/débito": "$5.140"
@@ -42,7 +42,13 @@
       "store_name": "MegaBytes",
       "date": "2026-06-08",
       "price": 4990
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-06-20",
+      "price": 4990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-20"
 }

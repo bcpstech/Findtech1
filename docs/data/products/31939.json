@@ -13,26 +13,26 @@
     "Memoria": "DDR4",
     "WiFi": "Integrado",
     "Chipset": "AMD B550",
-    "Efectivo/Transferencia": "$104.995",
-    "Tarjeta crédito/débito": "$109.720"
+    "Efectivo/Transferencia": "$179.990",
+    "Tarjeta crédito/débito": "$188.090"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:56",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 31939,
       "store_id": "winpy",
-      "price": 104576,
+      "price": 102752,
       "price_normal": null,
-      "discount_pct": 25,
+      "discount_pct": 27,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b550m-a-ac-am4-ddr4-2133-4600-mhz-microatx/",
       "store_name": "Winpy",
-      "price_card": 110119,
+      "price_card": 108198,
       "price_specs": {
-        "Transferencia o Depósito": "$104.576",
-        "Otros medios de pago": "$110.119"
+        "Transferencia o Depósito": "$102.752",
+        "Otros medios de pago": "$108.198"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,37 +40,18 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 9424,
-      "store_id": "spdigital",
-      "price": 104995,
-      "price_normal": 179990,
-      "discount_pct": 42,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-b550m-a-ac-socket-am4-factor-matx-aura-sync-rgb",
-      "store_name": "SP Digital",
-      "price_card": 109720,
-      "price_specs": {
-        "Transferencia / Efectivo": "$104.995",
-        "Webpay / Tarjeta": "$109.720"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
       "product_id": 1366,
       "store_id": "centrale",
-      "price": 105710,
+      "price": 108510,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b550m-a-ac-micro-atx-am4-ddr4-pcie-4-0-wifi-bt/",
       "store_name": "Centrale",
-      "price_card": 111524,
+      "price_card": 114478,
       "price_specs": {
-        "Transferencia / Efectivo": "$105.710",
-        "Tarjetas de Crédito / Débito": "$111.524"
+        "Transferencia / Efectivo": "$108.510",
+        "Tarjetas de Crédito / Débito": "$114.478"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -80,16 +61,16 @@
     {
       "product_id": 23524,
       "store_id": "alltec",
-      "price": 110900,
+      "price": 135900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/para-amd/1823-mb-asus-prime-b550m-a-ac-am4-ddr4-ryzen-5000-wifi-ac-bt-50.html",
       "store_name": "Alltec",
-      "price_card": 114227,
+      "price_card": 139977,
       "price_specs": {
-        "Efectivo/Transferencia": "$110.900",
-        "Tarjeta crédito/débito": "$114.227"
+        "Efectivo/Transferencia": "$135.900",
+        "Tarjeta crédito/débito": "$139.977"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -97,23 +78,23 @@
       "full_url": "https://www.alltec.cl"
     },
     {
-      "product_id": 33119,
-      "store_id": "infor-ingen",
-      "price": 118900,
-      "price_normal": 126034,
-      "discount_pct": 6,
+      "product_id": 9424,
+      "store_id": "spdigital",
+      "price": 179990,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://store.infor-ingen.com/producto/m-b-asus-prime-b550m-a-ac/",
-      "store_name": "Infor-Ingen",
-      "price_card": 122467,
+      "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-b550m-a-ac-socket-am4-factor-matx-aura-sync-rgb",
+      "store_name": "SP Digital",
+      "price_card": 188090,
       "price_specs": {
-        "Efectivo/Transferencia": "$118.900",
-        "Tarjeta crédito/débito": "$122.467"
+        "Transferencia / Efectivo": "$179.990",
+        "Webpay / Tarjeta": "$188.090"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "store.infor-ingen.com",
-      "full_url": "https://store.infor-ingen.com"
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -128,7 +109,13 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 104576
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 102752
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

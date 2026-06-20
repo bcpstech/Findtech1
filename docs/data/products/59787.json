@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:45:40",
-  "updated_at": "2026-06-09 00:41:45",
+  "updated_at": "2026-06-20 00:10:33",
   "prices": [
     {
       "product_id": 59787,
@@ -57,21 +57,40 @@
     {
       "product_id": 1703,
       "store_id": "centrale",
-      "price": 53260,
+      "price": 54020,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-esgaming-es-650w-80-bronze-ventilador-120mm-modular/",
       "store_name": "Centrale",
-      "price_card": 56189,
+      "price_card": 56991,
       "price_specs": {
-        "Transferencia / Efectivo": "$53.260",
-        "Tarjetas de Crédito / Débito": "$56.189"
+        "Transferencia / Efectivo": "$54.020",
+        "Tarjetas de Crédito / Débito": "$56.991"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 41317,
+      "store_id": "bcpstech",
+      "price": 56990,
+      "price_normal": 67990,
+      "discount_pct": 16,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=777",
+      "store_name": "BCPS Tech",
+      "price_card": 58700,
+      "price_specs": {
+        "Efectivo/Transferencia": "$56.990",
+        "Tarjeta crédito/débito": "$58.700"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
     }
   ],
   "history": [
@@ -86,7 +105,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 44995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 44995
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

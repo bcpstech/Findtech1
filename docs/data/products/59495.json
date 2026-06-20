@@ -11,26 +11,26 @@
     "Socket": "AM4",
     "Factor de forma": "ATX",
     "Memoria": "DDR4",
-    "Efectivo/Transferencia": "$99.995",
-    "Tarjeta crédito/débito": "$104.495"
+    "Efectivo/Transferencia": "$104.995",
+    "Tarjeta crédito/débito": "$109.720"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:38",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 59495,
       "store_id": "spdigital",
-      "price": 99995,
+      "price": 104995,
       "price_normal": 179990,
-      "discount_pct": 44,
+      "discount_pct": 42,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-gigabyte-b550-ud-ac-gaming-socket-am4-4x-ddr4-hdmi-pci-e-40-2x-m2-q-flash-atx",
       "store_name": "SP Digital",
-      "price_card": 104495,
+      "price_card": 109720,
       "price_specs": {
-        "Transferencia / Efectivo": "$99.995",
-        "Webpay / Tarjeta": "$104.495"
+        "Transferencia / Efectivo": "$104.995",
+        "Webpay / Tarjeta": "$109.720"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -50,7 +50,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 99995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 104995
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

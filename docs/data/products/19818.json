@@ -12,29 +12,29 @@
     "Tipo memoria": "GDDR7",
     "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$419.990",
-    "Tarjeta crédito/débito": "$443.089",
+    "Efectivo / Transferencia": "$409.990",
+    "Tarjeta crédito/débito": "$432.539",
     "Garantía": "6 meses",
     "SKU": "37417",
     "Part Number": "GV-N5060EAGLE OC-8GD"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:33",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 19818,
       "store_id": "myshop",
-      "price": 419990,
-      "price_normal": 443089,
-      "discount_pct": null,
+      "price": 409990,
+      "price_normal": 432539,
+      "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/tarjeta-de-video-gigabyte-rtx-5060-eagle-oc-8-gb-gddr7-128-bits-pci-e-50-displayporthdmi-p37417",
       "store_name": "MyShop",
-      "price_card": 432590,
+      "price_card": 422290,
       "price_specs": {
-        "Efectivo/Transferencia": "$419.990",
-        "Tarjeta crédito/débito": "$432.590"
+        "Efectivo/Transferencia": "$409.990",
+        "Tarjeta crédito/débito": "$422.290"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -54,7 +54,13 @@
       "store_name": "MyShop",
       "date": "2026-06-09",
       "price": 419990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 409990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

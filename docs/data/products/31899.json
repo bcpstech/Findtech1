@@ -17,12 +17,12 @@
     "Caché L3": "25 MB",
     "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$353.316",
-    "Tarjeta crédito/débito": "$369.215"
+    "Efectivo/Transferencia": "$348.369",
+    "Tarjeta crédito/débito": "$364.046"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:33",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 31899,
@@ -46,16 +46,16 @@
     {
       "product_id": 315,
       "store_id": "centrale",
-      "price": 349200,
+      "price": 342060,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-12700kf-3-6ghz-lga-1700/",
       "store_name": "Centrale",
-      "price_card": 368406,
+      "price_card": 360873,
       "price_specs": {
-        "Transferencia / Efectivo": "$349.200",
-        "Tarjetas de Crédito / Débito": "$368.406"
+        "Transferencia / Efectivo": "$342.060",
+        "Tarjetas de Crédito / Débito": "$360.873"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -65,40 +65,21 @@
     {
       "product_id": 9421,
       "store_id": "spdigital",
-      "price": 353316,
-      "price_normal": 436350,
+      "price": 348369,
+      "price_normal": 430190,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-intel-core-i7-12700kf-12o-gen-36ghz-hasta-5ghz-socket-lga1700-sin-gráficas",
       "store_name": "SP Digital",
-      "price_card": 369215,
+      "price_card": 364046,
       "price_specs": {
-        "Transferencia / Efectivo": "$353.316",
-        "Webpay / Tarjeta": "$369.215"
+        "Transferencia / Efectivo": "$348.369",
+        "Webpay / Tarjeta": "$364.046"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 59371,
-      "store_id": "cg",
-      "price": 400153,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/intel-core-i7-12700kf-3-6-ghz-12-nucleos-20-hilos-25-mb-cache-lga1700-socket-caja-sin-refrigerante/",
-      "store_name": "CentralGamer",
-      "price_card": 421201,
-      "price_specs": {
-        "Efectivo/Transferencia": "$400.153",
-        "Webpay / Tarjeta": "$421.201"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -113,7 +94,13 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 334400
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 334400
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

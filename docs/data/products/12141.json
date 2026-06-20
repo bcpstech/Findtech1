@@ -14,12 +14,12 @@
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
     "Factor de forma": "Full-Height/Full-Length (FH/FL)",
-    "Efectivo/Transferencia": "$870.439",
-    "Tarjeta crédito/débito": "$909.609"
+    "Efectivo/Transferencia": "$858.150",
+    "Tarjeta crédito/débito": "$896.767"
   },
   "tags": [],
   "created_at": "2026-04-28 23:09:29",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 12141,
@@ -45,16 +45,16 @@
     {
       "product_id": 9584,
       "store_id": "spdigital",
-      "price": 870439,
-      "price_normal": 1075020,
+      "price": 858150,
+      "price_normal": 1059830,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-gaming-nvidia-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bits-pcie-50",
       "store_name": "SP Digital",
-      "price_card": 909609,
+      "price_card": 896767,
       "price_specs": {
-        "Transferencia / Efectivo": "$870.439",
-        "Webpay / Tarjeta": "$909.609"
+        "Transferencia / Efectivo": "$858.150",
+        "Webpay / Tarjeta": "$896.767"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -64,16 +64,16 @@
     {
       "product_id": 1244,
       "store_id": "centrale",
-      "price": 886970,
+      "price": 868800,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bit/",
       "store_name": "Centrale",
-      "price_card": 935753,
+      "price_card": 916584,
       "price_specs": {
-        "Transferencia / Efectivo": "$886.970",
-        "Tarjetas de Crédito / Débito": "$935.753"
+        "Transferencia / Efectivo": "$868.800",
+        "Tarjetas de Crédito / Débito": "$916.584"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -93,7 +93,13 @@
       "store_name": "TruluStore",
       "date": "2026-06-09",
       "price": 849990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-06-20",
+      "price": 849990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

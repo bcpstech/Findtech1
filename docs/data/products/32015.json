@@ -11,26 +11,27 @@
     "Capacidad": "500 GB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Transferencia / Efectivo": "$116.530",
-    "Tarjeta crédito/débito": "$122.940"
+    "Marca": "ADATA",
+    "Efectivo / Transferencia": "$99.890",
+    "Tarjeta crédito/débito": "$102.890"
   },
   "tags": [],
   "created_at": "2026-05-04 01:25:35",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 32015,
       "store_id": "winpy",
-      "price": 99104,
-      "price_card": 104357,
+      "price": 94848,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/unidad-ssd-adata-legend-860-de-500gb-nvme-4-0-m-2-2280-hasta-5000mb-s/",
       "store_name": "Winpy",
+      "price_card": 99875,
       "price_specs": {
-        "Transferencia o Depósito": "$99.104",
-        "Otros medios de pago": "$104.357"
+        "Transferencia o Depósito": "$94.848",
+        "Otros medios de pago": "$99.875"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,25 +39,63 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 1521,
-      "store_id": "centrale",
-      "price": 116530,
-      "price_card": 122939,
+      "product_id": 2091,
+      "store_id": "dust2",
+      "price": 99890,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ssd-sandisk-plus-500gb-m-2-nvme-pcie-3-0-hasta-2400mb-s/",
-      "store_name": "Centrale",
+      "product_url": "https://dust2.gg/producto/disco-duro-ssd-adata-legend-860-500-gb-m-2-pcie-gen4-x4/",
+      "store_name": "Dust2",
+      "price_card": 102887,
       "price_specs": {
-        "Transferencia / Efectivo": "$116.530",
-        "Tarjetas de Crédito / Débito": "$122.939"
+        "Efectivo/Transferencia": "$99.890",
+        "Tarjeta crédito/débito": "$102.887"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 9537,
+      "store_id": "spdigital",
+      "price": 109995,
+      "price_normal": 149990,
+      "discount_pct": 27,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/unidad-ssd-adata-legend-860-500gb-m2-2280-pcie-gen4-x4-nvme-20-3d-nand",
+      "store_name": "SP Digital",
+      "price_card": 114945,
+      "price_specs": {
+        "Transferencia / Efectivo": "$109.995",
+        "Webpay / Tarjeta": "$114.945"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 113696
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-09",
+      "price": 113696
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 94848
+    }
+  ],
+  "scraped_at": "2026-06-20"
 }

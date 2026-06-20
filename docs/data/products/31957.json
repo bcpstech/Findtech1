@@ -12,12 +12,12 @@
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Efectivo / Transferencia": "$185.440",
-    "Tarjeta crédito/débito": "$195.268"
+    "Efectivo / Transferencia": "$164.160",
+    "Tarjeta crédito/débito": "$172.860"
   },
   "tags": [],
   "created_at": "2026-05-04 01:23:32",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 31954,
@@ -60,16 +60,16 @@
     {
       "product_id": 60631,
       "store_id": "centrale",
-      "price": 173460,
+      "price": 175350,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b860m-a-wifi-lga1851-ddr5-4-slots-wifi-6e/",
       "store_name": "Centrale",
-      "price_card": 183000,
+      "price_card": 184994,
       "price_specs": {
-        "Transferencia / Efectivo": "$173.460",
-        "Tarjetas de Crédito / Débito": "$183.000"
+        "Transferencia / Efectivo": "$175.350",
+        "Tarjetas de Crédito / Débito": "$184.994"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -108,7 +108,13 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 185440
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 164160
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

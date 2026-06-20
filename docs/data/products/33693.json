@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:54:45",
-  "updated_at": "2026-05-08 23:14:47",
+  "updated_at": "2026-06-20 01:03:56",
   "prices": [
     {
       "product_id": 33693,
       "store_id": "infor-ingen",
       "price": 119900,
-      "price_card": 123497,
       "price_normal": 127094,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/watercooling-asus-prime-lc-240-argb/",
       "store_name": "Infor-Ingen",
+      "price_card": 123497,
       "price_specs": {
         "Efectivo/Transferencia": "$119.900",
         "Tarjeta crédito/débito": "$123.497"
@@ -35,6 +35,13 @@
       "full_url": "https://store.infor-ingen.com"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-20",
+      "price": 119900
+    }
+  ],
+  "scraped_at": "2026-06-20"
 }

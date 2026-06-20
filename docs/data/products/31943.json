@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:23:04",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 31943,
       "store_id": "winpy",
-      "price": 111264,
+      "price": 119168,
       "price_normal": null,
-      "discount_pct": 27,
+      "discount_pct": 22,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-b650m-ayw-wifi-am5-ddr5-x2-m-2-x2-micro-atx/",
       "store_name": "Winpy",
-      "price_card": 117161,
+      "price_card": 125484,
       "price_specs": {
-        "Transferencia o Depósito": "$111.264",
-        "Otros medios de pago": "$117.161"
+        "Transferencia o Depósito": "$119.168",
+        "Otros medios de pago": "$125.484"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,21 +41,40 @@
     {
       "product_id": 1384,
       "store_id": "centrale",
-      "price": 126000,
+      "price": 120790,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-b650m-ayw-wifi-am5-ddr5-x2-m-2-x2-micro-atx-wifi-6/",
       "store_name": "Centrale",
-      "price_card": 132930,
+      "price_card": 127433,
       "price_specs": {
-        "Transferencia / Efectivo": "$126.000",
-        "Tarjetas de Crédito / Débito": "$132.930"
+        "Transferencia / Efectivo": "$120.790",
+        "Tarjetas de Crédito / Débito": "$127.433"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9428,
+      "store_id": "spdigital",
+      "price": 122573,
+      "price_normal": 144150,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/placa-madre-asus-b650m-ayw-wifi-socket-am5-2x-ddr5-2x-nvme-wi-fi-6-25-gbe-micro-atx",
+      "store_name": "SP Digital",
+      "price_card": 128089,
+      "price_specs": {
+        "Transferencia / Efectivo": "$122.573",
+        "Webpay / Tarjeta": "$128.089"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 595,
@@ -94,25 +113,6 @@
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
-    },
-    {
-      "product_id": 9428,
-      "store_id": "spdigital",
-      "price": 249990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/placa-madre-asus-b650m-ayw-wifi-socket-am5-2x-ddr5-2x-nvme-wi-fi-6-25-gbe-micro-atx",
-      "store_name": "SP Digital",
-      "price_card": 261240,
-      "price_specs": {
-        "Transferencia / Efectivo": "$249.990",
-        "Webpay / Tarjeta": "$261.240"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -127,7 +127,13 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 111264
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 119168
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

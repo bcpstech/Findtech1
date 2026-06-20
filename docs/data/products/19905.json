@@ -8,29 +8,29 @@
   "image_url": "https://images.findtech.cl/products/gabinete-gamemax-defender-mesh-s-fuente-micro-atx-negro-incluye-3-fans-120mm-argb-frontal-1-de-120mm.jpg",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$49.790",
-    "Tarjeta crédito/débito": "$52.528",
+    "Efectivo / Transferencia": "$49.900",
+    "Tarjeta crédito/débito": "$52.645",
     "Garantía": "6 meses",
     "SKU": "27375",
     "Part Number": "DEFENDERMESH"
   },
   "tags": [],
   "created_at": "2026-05-01 13:20:06",
-  "updated_at": "2026-05-08 22:25:22",
+  "updated_at": "2026-06-20 00:21:02",
   "prices": [
     {
       "product_id": 19905,
       "store_id": "myshop",
-      "price": 49790,
-      "price_card": 51284,
-      "price_normal": 52528,
+      "price": 49900,
+      "price_normal": 52645,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/gabinete-gamemax-defender-mesh-negro-p27375",
       "store_name": "MyShop",
+      "price_card": 51397,
       "price_specs": {
-        "Efectivo/Transferencia": "$49.790",
-        "Tarjeta crédito/débito": "$51.284"
+        "Efectivo/Transferencia": "$49.900",
+        "Tarjeta crédito/débito": "$51.397"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,16 +40,16 @@
     {
       "product_id": 32072,
       "store_id": "winpy",
-      "price": 54112,
-      "price_card": 56980,
+      "price": 51680,
       "price_normal": null,
-      "discount_pct": 9,
+      "discount_pct": 13,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-gamer-gamemax-defender-mesh-microatx-vidrio-templado-4-ventiladores-argb/",
       "store_name": "Winpy",
+      "price_card": 54419,
       "price_specs": {
-        "Transferencia o Depósito": "$54.112",
-        "Otros medios de pago": "$56.980"
+        "Transferencia o Depósito": "$51.680",
+        "Otros medios de pago": "$54.419"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,6 +57,13 @@
       "full_url": "https://www.winpy.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 49900
+    }
+  ],
+  "scraped_at": "2026-06-20"
 }

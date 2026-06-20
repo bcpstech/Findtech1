@@ -12,26 +12,26 @@
     "Interfaz": "PCI Express 4.0",
     "Factor de forma": "M.2 2280",
     "Certificación": "CE, FCC, BSMI, KC, Morocco, EAC",
-    "Efectivo/Transferencia": "$358.282",
-    "Tarjeta crédito/débito": "$374.405"
+    "Efectivo/Transferencia": "$294.986",
+    "Tarjeta crédito/débito": "$308.260"
   },
   "tags": [],
   "created_at": "2026-06-08 21:00:00",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 61238,
       "store_id": "winpy",
-      "price": 247456,
+      "price": 201856,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/unidad-de-estado-solido-xpg-gammix-s70-blade-de-1tb-nvme-m-2-pcie-4-0-hasta-7-400mb-s/",
       "store_name": "Winpy",
-      "price_card": 260571,
+      "price_card": 212554,
       "price_specs": {
-        "Transferencia o Depósito": "$247.456",
-        "Otros medios de pago": "$260.571"
+        "Transferencia o Depósito": "$201.856",
+        "Otros medios de pago": "$212.554"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 9524,
       "store_id": "spdigital",
-      "price": 358282,
-      "price_normal": 442490,
-      "discount_pct": 19,
+      "price": 294986,
+      "price_normal": 294990,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ssd-xpg-gammix-s70-blade-nvme-1tb-pci-express-40-m2",
       "store_name": "SP Digital",
-      "price_card": 374405,
+      "price_card": 308260,
       "price_specs": {
-        "Transferencia / Efectivo": "$358.282",
-        "Webpay / Tarjeta": "$374.405"
+        "Transferencia / Efectivo": "$294.986",
+        "Webpay / Tarjeta": "$308.260"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,16 +60,16 @@
     {
       "product_id": 1562,
       "store_id": "centrale",
-      "price": 382730,
+      "price": 355340,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ssd-xpg-gammix-s70-blade-2tb-m-2-nvme-pcie-4-0-7400mb-s/",
       "store_name": "Centrale",
-      "price_card": 403780,
+      "price_card": 374884,
       "price_specs": {
-        "Transferencia / Efectivo": "$382.730",
-        "Tarjetas de Crédito / Débito": "$403.780"
+        "Transferencia / Efectivo": "$355.340",
+        "Tarjetas de Crédito / Débito": "$374.884"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -89,7 +89,13 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 247456
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 201856
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

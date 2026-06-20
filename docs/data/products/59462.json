@@ -18,69 +18,50 @@
     "Frecuencia turbo": "5,4 GHz",
     "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
     "Gráficos integrados": "Intel UHD Graphics 770",
-    "Efectivo/Transferencia": "$429.491",
-    "Tarjeta crédito/débito": "$448.818"
+    "Efectivo/Transferencia": "$449.990",
+    "Tarjeta crédito/débito": "$470.240"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:23",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
-    {
-      "product_id": 31919,
-      "store_id": "winpy",
-      "price": 422560,
-      "price_normal": null,
-      "discount_pct": 10,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i7-14700-raptor-lake-lga1700-2-1-5-4-ghz-20-nucleos-28-hilos-33-mb-cache/",
-      "store_name": "Winpy",
-      "price_card": 444956,
-      "price_specs": {
-        "Transferencia o Depósito": "$422.560",
-        "Otros medios de pago": "$444.956"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 59462,
-      "store_id": "spdigital",
-      "price": 429491,
-      "price_normal": 640990,
-      "discount_pct": 33,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/intel-core-i7-i7-14700-21-ghz-20-nucleos-28-hilos-33-mb-cache-fclga1700-socket-caja",
-      "store_name": "SP Digital",
-      "price_card": 448818,
-      "price_specs": {
-        "Transferencia / Efectivo": "$429.491",
-        "Webpay / Tarjeta": "$448.818"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
     {
       "product_id": 319,
       "store_id": "centrale",
-      "price": 438920,
+      "price": 410820,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700-lga1700-2-1ghz-a-5-4-ghz-20-nucleos-28-hilos/",
       "store_name": "Centrale",
-      "price_card": 463061,
+      "price_card": 433415,
       "price_specs": {
-        "Transferencia / Efectivo": "$438.920",
-        "Tarjetas de Crédito / Débito": "$463.061"
+        "Transferencia / Efectivo": "$410.820",
+        "Tarjetas de Crédito / Débito": "$433.415"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 59462,
+      "store_id": "spdigital",
+      "price": 449990,
+      "price_normal": 640990,
+      "discount_pct": 30,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/intel-core-i7-i7-14700-21-ghz-20-nucleos-28-hilos-33-mb-cache-fclga1700-socket-caja",
+      "store_name": "SP Digital",
+      "price_card": 470240,
+      "price_specs": {
+        "Transferencia / Efectivo": "$449.990",
+        "Webpay / Tarjeta": "$470.240"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -95,7 +76,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 429491
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 449990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

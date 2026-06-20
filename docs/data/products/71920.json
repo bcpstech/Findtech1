@@ -1,0 +1,76 @@
+{
+  "id": 71920,
+  "external_id": "spdigital_procesador-intel-core-ultra-7-265-cache-de-30-mb-hasta-5-30-ghz-fclga18w-graficos-integrados",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core Ultra 7 265, caché de 30 MB, hasta 5,30 GHz, FCLGA18W, Gráficos integrados",
+  "slug": "spdigital-procesador-intel-core-ultra-7-265-cache-de-30-mb-hasta-5-30-ghz-fclga18w-graficos-integrad",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-ultra-7-265-cache-de-30-mb-hasta-5-30-ghz-fclga18w-graficos-integrados.jpg",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "5.30 GHz",
+    "Frecuencia turbo": "5,3 GHz",
+    "TDP": "18W",
+    "Familia": "Intel Core Ultra 7",
+    "Núcleos": "20",
+    "Socket": "FCLGA1851",
+    "Hilos": "20",
+    "Caché L3": "30 MB",
+    "Memoria soportada": "DDR5-SDRAM",
+    "Gráficos integrados": "Intel Graphics",
+    "Efectivo/Transferencia": "$483.277",
+    "Tarjeta crédito/débito": "$505.024"
+  },
+  "tags": [],
+  "created_at": "2026-06-20 00:07:11",
+  "updated_at": "2026-06-20 01:08:48",
+  "prices": [
+    {
+      "product_id": 330,
+      "store_id": "centrale",
+      "price": 451640,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n/",
+      "store_name": "Centrale",
+      "price_card": 476480,
+      "price_specs": {
+        "Transferencia / Efectivo": "$451.640",
+        "Tarjetas de Crédito / Débito": "$476.480"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 71920,
+      "store_id": "spdigital",
+      "price": 483277,
+      "price_normal": 565370,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/procesador-intel-core-ultra-7-265-cache-de-30-mb-hasta-530-ghz-fclga18w-graficos-integrados",
+      "store_name": "SP Digital",
+      "price_card": 505024,
+      "price_specs": {
+        "Transferencia / Efectivo": "$483.277",
+        "Webpay / Tarjeta": "$505.024"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 483277
+    }
+  ],
+  "scraped_at": "2026-06-20"
+}

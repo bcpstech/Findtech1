@@ -17,18 +17,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:51:33",
-  "updated_at": "2026-06-08 21:07:45",
+  "updated_at": "2026-06-20 00:47:59",
   "prices": [
     {
       "product_id": 2584,
       "store_id": "megabytes",
       "price": 39990,
-      "price_card": 41190,
       "price_normal": 67990,
       "discount_pct": 41,
       "stock": "in_stock",
       "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/gabinete-sama-205a-black/",
       "store_name": "MegaBytes",
+      "price_card": 41190,
       "price_specs": {
         "Efectivo/Transferencia": "$39.990",
         "Tarjeta crédito/débito": "$41.190"
@@ -45,7 +45,13 @@
       "store_name": "MegaBytes",
       "date": "2026-06-08",
       "price": 39990
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-06-20",
+      "price": 39990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-20"
 }

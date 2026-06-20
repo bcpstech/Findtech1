@@ -11,26 +11,26 @@
     "Capacidad": "24 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Efectivo/Transferencia": "$799.989",
-    "Tarjeta crédito/débito": "$835.988"
+    "Efectivo/Transferencia": "$912.469",
+    "Tarjeta crédito/débito": "$953.530"
   },
   "tags": [],
   "created_at": "2026-05-05 21:56:11",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 45743,
       "store_id": "spdigital",
-      "price": 799989,
+      "price": 912469,
       "price_normal": 912470,
-      "discount_pct": 12,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/unifi-hdd-24tb-cmr-512mb-7200rpm-disco-duro-interno-35pulg-sata-6gbps",
       "store_name": "SP Digital",
-      "price_card": 835989,
+      "price_card": 953530,
       "price_specs": {
-        "Transferencia / Efectivo": "$799.989",
-        "Webpay / Tarjeta": "$835.989"
+        "Transferencia / Efectivo": "$912.469",
+        "Webpay / Tarjeta": "$953.530"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -50,7 +50,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 799989
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 912469
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

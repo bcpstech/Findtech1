@@ -12,12 +12,12 @@
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$151.600",
-    "Tarjeta crédito/débito": "$159.940"
+    "Transferencia / Efectivo": "$163.130",
+    "Tarjeta crédito/débito": "$172.100"
   },
   "tags": [],
   "created_at": "2026-06-08 20:59:41",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 61185,
@@ -60,16 +60,16 @@
     {
       "product_id": 59533,
       "store_id": "spdigital",
-      "price": 124244,
-      "price_normal": 153370,
+      "price": 122484,
+      "price_normal": 151200,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/msi-mb-pro-h810m-b",
       "store_name": "SP Digital",
-      "price_card": 129835,
+      "price_card": 127996,
       "price_specs": {
-        "Transferencia / Efectivo": "$124.244",
-        "Webpay / Tarjeta": "$129.835"
+        "Transferencia / Efectivo": "$122.484",
+        "Webpay / Tarjeta": "$127.996"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -79,16 +79,16 @@
     {
       "product_id": 1369,
       "store_id": "centrale",
-      "price": 125600,
+      "price": 122700,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-h810m-b-micro-atx-lga-1851-ddr5/",
       "store_name": "Centrale",
-      "price_card": 132508,
+      "price_card": 129448,
       "price_specs": {
-        "Transferencia / Efectivo": "$125.600",
-        "Tarjetas de Crédito / Débito": "$132.508"
+        "Transferencia / Efectivo": "$122.700",
+        "Tarjetas de Crédito / Débito": "$129.448"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -146,7 +146,13 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 119776
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 119776
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

@@ -13,29 +13,29 @@
     "Bus de memoria": "512-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$3.979.990",
-    "Tarjeta crédito/débito": "$4.198.889",
+    "Efectivo / Transferencia": "$3.899.500",
+    "Tarjeta crédito/débito": "$4.113.973",
     "Garantía": "6 meses",
     "SKU": "42272",
     "Part Number": "G5090-32V3C"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:51",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 19847,
       "store_id": "myshop",
-      "price": 3979990,
-      "price_normal": 4198889,
-      "discount_pct": 7,
+      "price": 3899500,
+      "price_normal": 4113973,
+      "discount_pct": 9,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/vga-msi-geforce-rtx5090-32g-ventus-3x-oc-p42272",
       "store_name": "MyShop",
-      "price_card": 4099390,
+      "price_card": 4016485,
       "price_specs": {
-        "Efectivo/Transferencia": "$3.979.990",
-        "Tarjeta crédito/débito": "$4.099.390"
+        "Efectivo/Transferencia": "$3.899.500",
+        "Tarjeta crédito/débito": "$4.016.485"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,7 +55,13 @@
       "store_name": "MyShop",
       "date": "2026-06-09",
       "price": 3979990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 3899500
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

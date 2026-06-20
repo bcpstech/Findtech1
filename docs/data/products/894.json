@@ -13,26 +13,26 @@
     "Bus de memoria": "128-bit",
     "Arquitectura": "Ampere",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$215.900",
-    "Tarjeta crédito/débito": "$222.377"
+    "Efectivo / Transferencia": "$234.900",
+    "Tarjeta crédito/débito": "$241.947"
   },
   "tags": [],
   "created_at": "2026-04-26 20:23:11",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 894,
       "store_id": "alltec",
-      "price": 215900,
-      "price_card": 222377,
+      "price": 234900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/nvidia/2477-tv-msi-geforce-rtx-3050-lp-6g-oc.html",
       "store_name": "Alltec",
+      "price_card": 241947,
       "price_specs": {
-        "Efectivo/Transferencia": "$215.900",
-        "Tarjeta crédito/débito": "$222.377"
+        "Efectivo/Transferencia": "$234.900",
+        "Tarjeta crédito/débito": "$241.947"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -46,7 +46,13 @@
       "store_name": "Alltec",
       "date": "2026-06-08",
       "price": 215900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-20",
+      "price": 234900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-20"
 }

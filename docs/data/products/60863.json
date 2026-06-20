@@ -11,26 +11,26 @@
     "Capacidad": "2 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$200.340",
-    "Tarjeta crédito/débito": "$211.360"
+    "Transferencia / Efectivo": "$196.250",
+    "Tarjeta crédito/débito": "$207.040"
   },
   "tags": [],
   "created_at": "2026-06-08 20:58:02",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 60863,
       "store_id": "centrale",
-      "price": 200340,
+      "price": 196250,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/dell-disco-duro-3-5-interno-2tb-sata-sata-600-7200rpm-insertable-en-caliente/",
       "store_name": "Centrale",
-      "price_card": 211359,
+      "price_card": 207044,
       "price_specs": {
-        "Transferencia / Efectivo": "$200.340",
-        "Tarjetas de Crédito / Débito": "$211.359"
+        "Transferencia / Efectivo": "$196.250",
+        "Tarjetas de Crédito / Débito": "$207.044"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -50,7 +50,13 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 200340
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 196250
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

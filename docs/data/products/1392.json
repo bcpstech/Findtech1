@@ -18,21 +18,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 1392,
       "store_id": "centrale",
-      "price": 140840,
+      "price": 137560,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b840m-a-wifi-micro-atx-am5-ddr5-pcie-4-0-wifi-6e/",
       "store_name": "Centrale",
-      "price_card": 148586,
+      "price_card": 145126,
       "price_specs": {
-        "Transferencia / Efectivo": "$140.840",
-        "Tarjetas de Crédito / Débito": "$148.586"
+        "Transferencia / Efectivo": "$137.560",
+        "Tarjetas de Crédito / Débito": "$145.126"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,37 +40,18 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 59395,
-      "store_id": "cg",
-      "price": 143990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/ofertas-de-otono/tarjeta-madre-asus-prime-b840m-a-wifi/",
-      "store_name": "CentralGamer",
-      "price_card": 151564,
-      "price_specs": {
-        "Efectivo/Transferencia": "$143.990",
-        "Webpay / Tarjeta": "$151.564"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
-    },
-    {
       "product_id": 31951,
       "store_id": "winpy",
-      "price": 150176,
+      "price": 139840,
       "price_normal": null,
-      "discount_pct": 31,
+      "discount_pct": 35,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b840m-a-wifi-am5-ddr5-7600-mhz-m-2-x3-microatx/",
       "store_name": "Winpy",
-      "price_card": 158135,
+      "price_card": 147252,
       "price_specs": {
-        "Transferencia o Depósito": "$150.176",
-        "Otros medios de pago": "$158.135"
+        "Transferencia o Depósito": "$139.840",
+        "Otros medios de pago": "$147.252"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -78,23 +59,23 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 33167,
-      "store_id": "infor-ingen",
-      "price": 172900,
-      "price_normal": 183274,
-      "discount_pct": 6,
+      "product_id": 71943,
+      "store_id": "spdigital",
+      "price": 145174,
+      "price_normal": 170820,
+      "discount_pct": 15,
       "stock": "in_stock",
-      "product_url": "https://store.infor-ingen.com/producto/m-b-asus-prime-b840m-a/",
-      "store_name": "Infor-Ingen",
-      "price_card": 178087,
+      "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-b840m-a-wifi-amd-am5-4xddr5-3xm2-pcie40-4xsata-wifi-6e-micro-atx",
+      "store_name": "SP Digital",
+      "price_card": 151707,
       "price_specs": {
-        "Efectivo/Transferencia": "$172.900",
-        "Tarjeta crédito/débito": "$178.087"
+        "Transferencia / Efectivo": "$145.174",
+        "Webpay / Tarjeta": "$151.707"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "store.infor-ingen.com",
-      "full_url": "https://store.infor-ingen.com"
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 38888,
@@ -166,7 +147,13 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 140840
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 137560
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

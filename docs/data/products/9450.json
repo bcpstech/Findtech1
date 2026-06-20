@@ -13,26 +13,26 @@
     "WiFi": "Integrado",
     "Factor de forma": "ATX",
     "Chipset": "AMD B550",
-    "Efectivo/Transferencia": "$131.677",
-    "Tarjeta crédito/débito": "$137.602"
+    "Efectivo/Transferencia": "$129.977",
+    "Tarjeta crédito/débito": "$135.826"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:21",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 9450,
       "store_id": "spdigital",
-      "price": 131677,
-      "price_normal": 162590,
+      "price": 129977,
+      "price_normal": 160290,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/b550-eagle-wifi6",
       "store_name": "SP Digital",
-      "price_card": 137602,
+      "price_card": 135826,
       "price_specs": {
-        "Transferencia / Efectivo": "$131.677",
-        "Webpay / Tarjeta": "$137.602"
+        "Transferencia / Efectivo": "$129.977",
+        "Webpay / Tarjeta": "$135.826"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -90,7 +90,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 131677
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 129977
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

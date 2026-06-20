@@ -1,0 +1,97 @@
+{
+  "id": 71324,
+  "external_id": "pn_vistacocab",
+  "category_id": "case",
+  "brand": "Genérico",
+  "name": "Gabinete Gamemax Vista COC AB",
+  "slug": "gabinete-gamemax-vista-coc-ab",
+  "image_url": "https://images.findtech.cl/products/gabinete-gamemax-vista-coc-ab.webp",
+  "description": null,
+  "specs": {
+    "Efectivo/Transferencia": "$48.990",
+    "Tarjeta crédito/débito": "$50.460"
+  },
+  "tags": [],
+  "created_at": "2026-06-09 23:41:22",
+  "updated_at": "2026-06-20 01:07:13",
+  "prices": [
+    {
+      "product_id": 71324,
+      "store_id": "myshop",
+      "price": 46990,
+      "price_normal": 49574,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/gabinete-gamemax-vista-coc-ab-atx-negro-sin-fuente-incluye-5-fan-120mm-argb-frontales-p35389",
+      "store_name": "MyShop",
+      "price_card": 48400,
+      "price_specs": {
+        "Efectivo/Transferencia": "$46.990",
+        "Tarjeta crédito/débito": "$48.400"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 32069,
+      "store_id": "winpy",
+      "price": 47424,
+      "price_normal": null,
+      "discount_pct": 46,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/gabinete-gamer-gamemax-vista-coc-ab-atx-vidrio-templado-panoramico-5-ventiladores-argb-negro/",
+      "store_name": "Winpy",
+      "price_card": 49937,
+      "price_specs": {
+        "Transferencia o Depósito": "$47.424",
+        "Otros medios de pago": "$49.937"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 71324,
+      "store_id": "bcpstech",
+      "price": 48990,
+      "price_normal": 63590,
+      "discount_pct": 23,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=1298",
+      "store_name": "BCPS Tech",
+      "price_card": 50460,
+      "price_specs": {
+        "Efectivo/Transferencia": "$48.990",
+        "Tarjeta crédito/débito": "$50.460"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-06-09",
+      "price": 48990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-06-20",
+      "price": 48990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 46990
+    }
+  ],
+  "scraped_at": "2026-06-20"
+}

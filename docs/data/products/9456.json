@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:24",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 9456,
@@ -41,16 +41,16 @@
     {
       "product_id": 1412,
       "store_id": "centrale",
-      "price": 96770,
+      "price": 86870,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b550m-k-micro-atx-socket-am4-pcie-4-0/",
       "store_name": "Centrale",
-      "price_card": 102092,
+      "price_card": 91648,
       "price_specs": {
-        "Transferencia / Efectivo": "$96.770",
-        "Tarjetas de Crédito / Débito": "$102.092"
+        "Transferencia / Efectivo": "$86.870",
+        "Tarjetas de Crédito / Débito": "$91.648"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -70,7 +70,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 85995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 85995
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

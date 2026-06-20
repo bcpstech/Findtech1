@@ -12,26 +12,26 @@
     "Tipo memoria": "GDDR6",
     "Bus de memoria": "192-bit",
     "Arquitectura": "RDNA 2",
-    "Efectivo / Transferencia": "$629.900",
-    "Tarjeta crédito/débito": "$648.797"
+    "Efectivo / Transferencia": "$985.900",
+    "Tarjeta crédito/débito": "$1.015.477"
   },
   "tags": [],
   "created_at": "2026-05-03 04:31:33",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 23430,
       "store_id": "alltec",
-      "price": 629900,
+      "price": 985900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/1777-tv-powercolor-red-devil-radeon-rx-6700-xt-12gb-gddr6-4713436173366.html",
       "store_name": "Alltec",
-      "price_card": 648797,
+      "price_card": 1015477,
       "price_specs": {
-        "Efectivo/Transferencia": "$629.900",
-        "Tarjeta crédito/débito": "$648.797"
+        "Efectivo/Transferencia": "$985.900",
+        "Tarjeta crédito/débito": "$1.015.477"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -51,7 +51,13 @@
       "store_name": "Alltec",
       "date": "2026-06-09",
       "price": 629900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-20",
+      "price": 985900
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

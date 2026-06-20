@@ -8,29 +8,29 @@
   "image_url": "https://images.findtech.cl/products/gabinete-antec-vcx10m-rgb-bk-s-fuente-m-atx-negro-incluye-3-ventiladores-rgb-2-inferior-1-posterior.jpg",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$31.990",
-    "Tarjeta crédito/débito": "$33.749",
+    "Efectivo / Transferencia": "$33.990",
+    "Tarjeta crédito/débito": "$35.859",
     "Garantía": "6 meses",
     "SKU": "39721",
     "Part Number": "VCX10M BK RGB"
   },
   "tags": [],
   "created_at": "2026-05-01 13:19:46",
-  "updated_at": "2026-06-09 02:55:57",
+  "updated_at": "2026-06-20 00:20:38",
   "prices": [
     {
       "product_id": 19890,
       "store_id": "myshop",
-      "price": 31990,
-      "price_normal": 33749,
-      "discount_pct": 15,
+      "price": 33990,
+      "price_normal": 35859,
+      "discount_pct": 10,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/gabinete-antec-vcx10m-rgb-bk-sfuente-m-atx-negro-incluye-1-ventiladores-rgb-1-posterior-p39721",
       "store_name": "MyShop",
-      "price_card": 32950,
+      "price_card": 35010,
       "price_specs": {
-        "Efectivo/Transferencia": "$31.990",
-        "Tarjeta crédito/débito": "$32.950"
+        "Efectivo/Transferencia": "$33.990",
+        "Tarjeta crédito/débito": "$35.010"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,21 +40,40 @@
     {
       "product_id": 61251,
       "store_id": "winpy",
-      "price": 35264,
+      "price": 34656,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-antec-vcx10m-argb-micro-atx-vidrio-templado-5-ventiladores-negro/",
       "store_name": "Winpy",
-      "price_card": 37133,
+      "price_card": 36493,
       "price_specs": {
-        "Transferencia o Depósito": "$35.264",
-        "Otros medios de pago": "$37.133"
+        "Transferencia o Depósito": "$34.656",
+        "Otros medios de pago": "$36.493"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 2564,
+      "store_id": "megabytes",
+      "price": 34990,
+      "price_normal": 49990,
+      "discount_pct": 30,
+      "stock": "in_stock",
+      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/gabinete-antec-vcx10m-rgb/",
+      "store_name": "MegaBytes",
+      "price_card": 36040,
+      "price_specs": {
+        "Efectivo/Transferencia": "$34.990",
+        "Tarjeta crédito/débito": "$36.040"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.megabytes.cl",
+      "full_url": "https://www.megabytes.cl"
     }
   ],
   "history": [
@@ -69,7 +88,13 @@
       "store_name": "MyShop",
       "date": "2026-06-09",
       "price": 31990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 33990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

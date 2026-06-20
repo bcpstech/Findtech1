@@ -18,12 +18,12 @@
     "Caché L3": "24 MB",
     "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
     "Gráficos integrados": "Intel UHD Graphics 770",
-    "Efectivo/Transferencia": "$297.712",
-    "Tarjeta crédito/débito": "$311.109"
+    "Efectivo/Transferencia": "$308.275",
+    "Tarjeta crédito/débito": "$322.147"
   },
   "tags": [],
   "created_at": "2026-06-08 20:54:02",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 60308,
@@ -66,16 +66,16 @@
     {
       "product_id": 37243,
       "store_id": "centrale",
-      "price": 294740,
+      "price": 300680,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-14600k-raptor-lake-s-lga1700-14-cores-20-hilos/",
       "store_name": "Centrale",
-      "price_card": 310951,
+      "price_card": 317217,
       "price_specs": {
-        "Transferencia / Efectivo": "$294.740",
-        "Tarjetas de Crédito / Débito": "$310.951"
+        "Transferencia / Efectivo": "$300.680",
+        "Tarjetas de Crédito / Débito": "$317.217"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -85,40 +85,21 @@
     {
       "product_id": 59458,
       "store_id": "spdigital",
-      "price": 297712,
-      "price_normal": 367640,
+      "price": 308275,
+      "price_normal": 380730,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/core-i5-14600k-3-50ghz-sktlga1700-2400m",
       "store_name": "SP Digital",
-      "price_card": 311109,
+      "price_card": 322147,
       "price_specs": {
-        "Transferencia / Efectivo": "$297.712",
-        "Webpay / Tarjeta": "$311.109"
+        "Transferencia / Efectivo": "$308.275",
+        "Webpay / Tarjeta": "$322.147"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 1145,
-      "store_id": "cg",
-      "price": 334332,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/intel-core-i5-i5-14600k-3-5-ghz-14-nucleos-20-hilos-24-mb-cache-fclga1700-socket-caja/",
-      "store_name": "CentralGamer",
-      "price_card": 351918,
-      "price_specs": {
-        "Efectivo/Transferencia": "$334.332",
-        "Webpay / Tarjeta": "$351.918"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -133,7 +114,13 @@
       "store_name": "Alltec",
       "date": "2026-06-09",
       "price": 284900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-20",
+      "price": 284900
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

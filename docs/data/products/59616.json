@@ -13,26 +13,26 @@
     "Bus de memoria": "128-bit",
     "Arquitectura": "Ampere",
     "Variante": "OC (Overclocked)",
-    "Efectivo/Transferencia": "$231.308",
-    "Tarjeta crédito/débito": "$241.717"
+    "Efectivo/Transferencia": "$228.066",
+    "Tarjeta crédito/débito": "$238.329"
   },
   "tags": [],
   "created_at": "2026-06-08 20:44:28",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 59616,
       "store_id": "spdigital",
-      "price": 231308,
-      "price_normal": 285630,
+      "price": 228066,
+      "price_normal": 281600,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/zotac-gaming-geforce-rtx-3050-twin-edge",
       "store_name": "SP Digital",
-      "price_card": 241717,
+      "price_card": 238329,
       "price_specs": {
-        "Transferencia / Efectivo": "$231.308",
-        "Webpay / Tarjeta": "$241.717"
+        "Transferencia / Efectivo": "$228.066",
+        "Webpay / Tarjeta": "$238.329"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,16 +42,16 @@
     {
       "product_id": 60492,
       "store_id": "centrale",
-      "price": 238610,
+      "price": 233730,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/zotac-tarjeta-de-video-gaming-nvidia-geforce-rtx-3050-twin-edge-oc-6gb-gddr6/",
       "store_name": "Centrale",
-      "price_card": 251734,
+      "price_card": 246585,
       "price_specs": {
-        "Transferencia / Efectivo": "$238.610",
-        "Tarjetas de Crédito / Débito": "$251.734"
+        "Transferencia / Efectivo": "$233.730",
+        "Tarjetas de Crédito / Débito": "$246.585"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -71,7 +71,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 231308
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 228066
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

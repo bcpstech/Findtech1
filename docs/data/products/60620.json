@@ -11,26 +11,26 @@
     "Socket": "AM5",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$494.840",
-    "Tarjeta crédito/débito": "$522.060"
+    "Transferencia / Efectivo": "$490.480",
+    "Tarjeta crédito/débito": "$517.460"
   },
   "tags": [],
   "created_at": "2026-06-08 20:56:55",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 60620,
       "store_id": "centrale",
-      "price": 494840,
+      "price": 490480,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-x870e-aero-x3d-dark-wood-am5-ddr5-wifi-7/",
       "store_name": "Centrale",
-      "price_card": 522056,
+      "price_card": 517456,
       "price_specs": {
-        "Transferencia / Efectivo": "$494.840",
-        "Tarjetas de Crédito / Débito": "$522.056"
+        "Transferencia / Efectivo": "$490.480",
+        "Tarjetas de Crédito / Débito": "$517.456"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -50,7 +50,13 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 494840
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 490480
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

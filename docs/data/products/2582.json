@@ -17,18 +17,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:51:32",
-  "updated_at": "2026-06-08 21:07:44",
+  "updated_at": "2026-06-20 00:47:58",
   "prices": [
     {
       "product_id": 2582,
       "store_id": "megabytes",
       "price": 82990,
-      "price_card": 85480,
       "price_normal": 127990,
       "discount_pct": 35,
       "stock": "in_stock",
       "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/gabinete-sama-neview-2351-white/",
       "store_name": "MegaBytes",
+      "price_card": 85480,
       "price_specs": {
         "Efectivo/Transferencia": "$82.990",
         "Tarjeta crédito/débito": "$85.480"
@@ -45,7 +45,13 @@
       "store_name": "MegaBytes",
       "date": "2026-06-08",
       "price": 82990
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-06-20",
+      "price": 82990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-20"
 }

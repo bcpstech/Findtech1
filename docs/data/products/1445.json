@@ -12,12 +12,12 @@
     "Tipo": "DDR4",
     "Velocidad": "3200 MHz",
     "Latencia": "CL22",
-    "Transferencia / Efectivo": "$345.230",
-    "Tarjeta crédito/débito": "$364.220"
+    "Transferencia / Efectivo": "$324.240",
+    "Tarjeta crédito/débito": "$342.070"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 1445,
@@ -51,7 +51,13 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 88090
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 88090
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

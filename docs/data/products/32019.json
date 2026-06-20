@@ -11,26 +11,26 @@
     "Capacidad": "512 GB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Efectivo / Transferencia": "$159.296",
-    "Tarjeta crédito/débito": "$167.739"
+    "Efectivo / Transferencia": "$169.632",
+    "Tarjeta crédito/débito": "$178.622"
   },
   "tags": [],
   "created_at": "2026-05-04 01:25:43",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 32019,
       "store_id": "winpy",
-      "price": 159296,
+      "price": 169632,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/unidad-de-estado-solido-kingston-kc3000-de-512gb-m-2-nvme-pcie-4-0-hasta-7-000-mb-s/",
       "store_name": "Winpy",
-      "price_card": 167739,
+      "price_card": 178622,
       "price_specs": {
-        "Transferencia o Depósito": "$159.296",
-        "Otros medios de pago": "$167.739"
+        "Transferencia o Depósito": "$169.632",
+        "Otros medios de pago": "$178.622"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -50,7 +50,13 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 159296
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 169632
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

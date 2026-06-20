@@ -5,47 +5,96 @@
   "brand": "Asus",
   "name": "Placa Madre ASUS TUF GAMING Z890-PLUS WIFI, Intel LGA 1851, DDR5, WiFi 7",
   "slug": "placa-madre-asus-tuf-gaming-z890-plus-wifi-intel-lga-1851-ddr5-wifi-7",
-  "image_url": "https://centrale.cl/wp-content/uploads/Asus-Motherboard-Tuf-Gaming-Z890-Plus-1851-Ddr5-TUF-GAMING-Z890-PLUS-WIFI-1.webp",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asus-tuf-gaming-z890-plus-wifi-intel-lga-1851-ddr5-wifi-7.webp",
   "description": null,
   "specs": {
     "Socket": "LGA1851",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$349.980",
-    "Tarjetas de Crédito / Débito": "$369.230"
+    "Transferencia / Efectivo": "$344.860",
+    "Tarjeta crédito/débito": "$363.830"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 1354,
       "store_id": "centrale",
-      "price": 349980,
+      "price": 344860,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-tuf-gaming-z890-plus-wifi-intel-lga-1851-ddr5-wifi-7/",
       "store_name": "Centrale",
+      "price_card": 363827,
+      "price_specs": {
+        "Transferencia / Efectivo": "$344.860",
+        "Tarjetas de Crédito / Débito": "$363.827"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 71342,
+      "store_id": "bcpstech",
+      "price": 357950,
+      "price_normal": 382990,
+      "discount_pct": 7,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=1106",
+      "store_name": "BCPS Tech",
+      "price_card": 368689,
+      "price_specs": {
+        "Efectivo/Transferencia": "$357.950",
+        "Tarjeta crédito/débito": "$368.689"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
+    },
+    {
+      "product_id": 38897,
+      "store_id": "mybox",
+      "price": 382848,
+      "price_normal": 413890,
+      "discount_pct": 8,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/5669-placa-madre-asus-tuf-z890-plus-wifi-4711387763926.html",
+      "store_name": "MyBox",
+      "price_card": 394333,
+      "price_specs": {
+        "Efectivo/Transferencia": "$382.848",
+        "Tarjeta crédito/débito": "$394.333"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 349980
+      "date": "2026-06-08",
+      "price": 345970
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 349980
+      "date": "2026-06-09",
+      "price": 345970
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 344860
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-20"
 }

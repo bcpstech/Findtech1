@@ -5,47 +5,77 @@
   "brand": "Seagate",
   "name": "Disco HDD 4TB Seagate Skyhawk (3.5&#8243;, 5400 RPM, SATA 6GB/s, Video Vigilancia)",
   "slug": "disco-hdd-4tb-seagate-skyhawk-3-5-8243-5400-rpm-sata-6gb-s-video-vigilancia",
-  "image_url": "https://centrale.cl/wp-content/uploads/HDD-Seagate-Skyhawk-4TB-3.5-5400-RPM-SATA-Vigilancia-1776095844.webp",
+  "image_url": "https://images.findtech.cl/products/disco-hdd-4tb-seagate-skyhawk-3-5-8243-5400-rpm-sata-6gb-s-video-vigilancia.webp",
   "description": null,
   "specs": {
-    "Capacidad": "4 TB",
+    "Capacidad": "6 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$162.990",
-    "Tarjetas de Crédito / Débito": "$171.950"
+    "Transferencia / Efectivo": "$225.980",
+    "Tarjeta crédito/débito": "$238.410"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 1553,
       "store_id": "centrale",
-      "price": 162990,
-      "price_normal": 188740,
-      "discount_pct": 14,
+      "price": 179490,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-hdd-4tb-seagate-skyhawk-3-5-5400-rpm-sata-6gb-s-video-vigilancia/",
       "store_name": "Centrale",
+      "price_card": 189362,
+      "price_specs": {
+        "Transferencia / Efectivo": "$179.490",
+        "Tarjetas de Crédito / Débito": "$189.362"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 16361,
+      "store_id": "spdigital",
+      "price": 179864,
+      "price_normal": 213820,
+      "discount_pct": 16,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/seagate-skyhawk-hard-drive-internal-hard-drive-4-tb-35-5400-rpm-scsi",
+      "store_name": "SP Digital",
+      "price_card": 187958,
+      "price_specs": {
+        "Transferencia / Efectivo": "$179.864",
+        "Webpay / Tarjeta": "$187.958"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 162990
+      "date": "2026-06-08",
+      "price": 148190
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 162990
+      "date": "2026-06-09",
+      "price": 208990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 179490
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-20"
 }

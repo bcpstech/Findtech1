@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Certificación": "TUV / CB / RCM / CE / BIS / UKCA / KC",
-    "Efectivo/Transferencia": "$84.995",
-    "Tarjeta crédito/débito": "$88.820"
+    "Efectivo/Transferencia": "$89.995",
+    "Tarjeta crédito/débito": "$94.045"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:40",
-  "updated_at": "2026-06-09 02:45:15",
+  "updated_at": "2026-06-20 00:10:12",
   "prices": [
     {
       "product_id": 9709,
       "store_id": "spdigital",
-      "price": 84995,
+      "price": 89995,
       "price_normal": 129990,
-      "discount_pct": 35,
+      "discount_pct": 31,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/fuente-de-poder-antec-csk-pro-850w-ec-semi-modular-certificada-80-plus-bronze",
       "store_name": "SP Digital",
-      "price_card": 88820,
+      "price_card": 94045,
       "price_specs": {
-        "Transferencia / Efectivo": "$84.995",
-        "Webpay / Tarjeta": "$88.820"
+        "Transferencia / Efectivo": "$89.995",
+        "Webpay / Tarjeta": "$94.045"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -48,7 +48,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 84995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 89995
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

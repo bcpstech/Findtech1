@@ -5,7 +5,7 @@
   "brand": "MSI",
   "name": "FUENTE DE PODER MSI MAG A850GL WHITE 850W 80+ GOLD / CYBENETICS GOLD – FULL MODULAR – PCIE 5.1 – ATX 3.1",
   "slug": "fuente-de-poder-msi-mag-a850gl-white-850w-80-gold-cybenetics-gold-full-modular-pcie-5-1-atx-3-1",
-  "image_url": "https://trulustore.cl/wp-content/uploads/2026/03/MSI-MAG-A850GL-PCIE5-White-1.jpg",
+  "image_url": "https://images.findtech.cl/products/fuente-de-poder-msi-mag-a850gl-white-850w-80-gold-cybenetics-gold-full-modular-pcie-5-1-atx-3-1.jpg",
   "description": null,
   "specs": {
     "Efectivo / Transferencia": "$84.990",
@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:53:08",
-  "updated_at": "2026-06-09 02:49:36",
+  "updated_at": "2026-06-20 00:13:54",
   "prices": [
     {
       "product_id": 2660,
@@ -37,6 +37,25 @@
       "full_url": "https://www.trulustore.cl"
     },
     {
+      "product_id": 1721,
+      "store_id": "centrale",
+      "price": 87880,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/fuente-de-poder-850w-msi-mag-a850gl-80-gold-full-modular-pcie-5-1-atx-3-1/",
+      "store_name": "Centrale",
+      "price_card": 92713,
+      "price_specs": {
+        "Transferencia / Efectivo": "$87.880",
+        "Tarjetas de Crédito / Débito": "$92.713"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
       "product_id": 38970,
       "store_id": "mybox",
       "price": 116990,
@@ -54,25 +73,6 @@
       "review_count": 0,
       "store_url": "www.mybox.cl",
       "full_url": "https://www.mybox.cl"
-    },
-    {
-      "product_id": 1721,
-      "store_id": "centrale",
-      "price": 117340,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-850w-msi-mag-a850gl-80-gold-full-modular-pcie-5-1-atx-3-1/",
-      "store_name": "Centrale",
-      "price_card": 123794,
-      "price_specs": {
-        "Transferencia / Efectivo": "$117.340",
-        "Tarjetas de Crédito / Débito": "$123.794"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -87,7 +87,13 @@
       "store_name": "TruluStore",
       "date": "2026-06-09",
       "price": 84990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-06-20",
+      "price": 84990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

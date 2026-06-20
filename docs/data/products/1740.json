@@ -5,44 +5,74 @@
   "brand": "Antec",
   "name": "Gabinete Gamer ANTEC C3 ARGB (ATX, 4 Ventiladores ARGB Incluídos)",
   "slug": "gabinete-gamer-antec-c3-argb-atx-4-ventiladores-argb-incluidos",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Gamer-ANTEC-C3-ARGB-ATX-4-Ventiladores-ARGB-IncluC3ADdos_tJ7YdmU.webp",
+  "image_url": "https://images.findtech.cl/products/gabinete-gamer-antec-c3-argb-atx-4-ventiladores-argb-incluidos.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$93.790",
-    "Tarjetas de Crédito / Débito": "$98.950"
+    "Transferencia / Efectivo": "$93.810",
+    "Tarjeta crédito/débito": "$98.970"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-04-27 22:15:17",
+  "updated_at": "2026-06-20 00:33:04",
   "prices": [
     {
       "product_id": 1740,
       "store_id": "centrale",
-      "price": 93790,
+      "price": 93810,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-gamer-antec-c3-argb-atx-4-ventiladores-argb-incluidos/",
       "store_name": "Centrale",
+      "price_card": 98970,
+      "price_specs": {
+        "Transferencia / Efectivo": "$93.810",
+        "Tarjetas de Crédito / Débito": "$98.970"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 39007,
+      "store_id": "mybox",
+      "price": 99741,
+      "price_normal": 104990,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/gabinetes/5585-gabinete-antec-c3-black-argb-.html",
+      "store_name": "MyBox",
+      "price_card": 102733,
+      "price_specs": {
+        "Efectivo/Transferencia": "$99.741",
+        "Tarjeta crédito/débito": "$102.733"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 93790
+      "date": "2026-06-08",
+      "price": 93810
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 93790
+      "date": "2026-06-09",
+      "price": 93810
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 93810
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-20"
 }

@@ -1,0 +1,96 @@
+{
+  "id": 71922,
+  "external_id": "spdigital_procesador-intel-core-ultra-7-265k-30m-cache-up-to-5-50-ghz-fclga18w-tray",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core Ultra 7 265K (30M Cache, up to 5.50 GHz) FCLGA18W, Tray",
+  "slug": "spdigital-procesador-intel-core-ultra-7-265k-30m-cache-up-to-5-50-ghz-fclga18w-tray",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-ultra-7-265k-30m-cache-up-to-5-50-ghz-fclga18w-tray.jpg",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "5.50 GHz",
+    "Frecuencia turbo": "5,5 GHz",
+    "TDP": "18W",
+    "Familia": "Intel Core Ultra 7",
+    "Núcleos": "20",
+    "Socket": "FCLGA1851",
+    "Incluye cooler": "No",
+    "Hilos": "20",
+    "Caché L3": "30 MB",
+    "Memoria soportada": "DDR5-SDRAM",
+    "Gráficos integrados": "Intel Graphics",
+    "Efectivo/Transferencia": "$401.463",
+    "Tarjeta crédito/débito": "$419.529"
+  },
+  "tags": [],
+  "created_at": "2026-06-20 00:07:12",
+  "updated_at": "2026-06-20 01:08:48",
+  "prices": [
+    {
+      "product_id": 31911,
+      "store_id": "winpy",
+      "price": 362976,
+      "price_normal": null,
+      "discount_pct": 26,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-intel-core-ultra-7-265k-lga1851-3-3-5-5-ghz-8-p-cores-12-e-cores-30mb-cache/",
+      "store_name": "Winpy",
+      "price_card": 382214,
+      "price_specs": {
+        "Transferencia o Depósito": "$362.976",
+        "Otros medios de pago": "$382.214"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 316,
+      "store_id": "centrale",
+      "price": 368580,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265k-20-nucleos-3-9ghz-a-5-5ghz-lga-1851/",
+      "store_name": "Centrale",
+      "price_card": 388852,
+      "price_specs": {
+        "Transferencia / Efectivo": "$368.580",
+        "Tarjetas de Crédito / Débito": "$388.852"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 71922,
+      "store_id": "spdigital",
+      "price": 401463,
+      "price_normal": 469710,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/procesador-intel-core-ultra-7-processor-265k-30m-cache-up-to-550-ghz-fclga18w-tray",
+      "store_name": "SP Digital",
+      "price_card": 419529,
+      "price_specs": {
+        "Transferencia / Efectivo": "$401.463",
+        "Webpay / Tarjeta": "$419.529"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 401463
+    }
+  ],
+  "scraped_at": "2026-06-20"
+}

@@ -13,29 +13,29 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$915.990",
-    "Tarjeta crédito/débito": "$966.369",
+    "Efectivo / Transferencia": "$929.990",
+    "Tarjeta crédito/débito": "$981.139",
     "Garantía": "6 meses",
     "SKU": "35457",
     "Part Number": "TUF-RTX5070-O12G-GMG"
   },
   "tags": [],
   "created_at": "2026-05-04 23:08:56",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 36807,
       "store_id": "myshop",
-      "price": 915990,
-      "price_normal": 966369,
+      "price": 929990,
+      "price_normal": 981139,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/tarjeta-de-video-asus-tuf-gaming-geforce-rtx-5070-12gb-gddr7-oc-edition-12-gb-gddr7-192-bits-displayporthdmi-p35457",
       "store_name": "MyShop",
-      "price_card": 943470,
+      "price_card": 957890,
       "price_specs": {
-        "Efectivo/Transferencia": "$915.990",
-        "Tarjeta crédito/débito": "$943.470"
+        "Efectivo/Transferencia": "$929.990",
+        "Tarjeta crédito/débito": "$957.890"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,7 +55,13 @@
       "store_name": "MyShop",
       "date": "2026-06-09",
       "price": 915990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 929990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

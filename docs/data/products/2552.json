@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:51:15",
-  "updated_at": "2026-05-06 03:45:40",
+  "updated_at": "2026-06-20 00:47:39",
   "prices": [
     {
       "product_id": 2552,
       "store_id": "megabytes",
       "price": 97990,
-      "price_card": 100930,
       "price_normal": 120900,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/thermalright-fuente-poder-850w-80-platinum-full-modular-atx-3-1-tr-sp850/",
       "store_name": "MegaBytes",
+      "price_card": 100930,
       "price_specs": {
         "Efectivo/Transferencia": "$97.990",
         "Tarjeta crédito/débito": "$100.930"
@@ -39,39 +39,9 @@
     {
       "store_id": "megabytes",
       "store_name": "MegaBytes",
-      "date": "2026-04-26",
-      "price": 95140
-    },
-    {
-      "store_id": "megabytes",
-      "store_name": "MegaBytes",
-      "date": "2026-04-27",
-      "price": 95140
-    },
-    {
-      "store_id": "megabytes",
-      "store_name": "MegaBytes",
-      "date": "2026-05-03",
-      "price": 97990
-    },
-    {
-      "store_id": "megabytes",
-      "store_name": "MegaBytes",
-      "date": "2026-05-04",
-      "price": 97990
-    },
-    {
-      "store_id": "megabytes",
-      "store_name": "MegaBytes",
-      "date": "2026-05-05",
-      "price": 97990
-    },
-    {
-      "store_id": "megabytes",
-      "store_name": "MegaBytes",
-      "date": "2026-05-06",
+      "date": "2026-06-20",
       "price": 97990
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-06-20"
 }

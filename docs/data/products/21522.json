@@ -12,26 +12,26 @@
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
     "Lectura": "7250 MB/s",
-    "Transferencia / Efectivo": "$350.490",
-    "Tarjeta crédito/débito": "$369.770"
+    "Transferencia / Efectivo": "$307.240",
+    "Tarjeta crédito/débito": "$324.140"
   },
   "tags": [],
   "created_at": "2026-05-01 14:15:09",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 21522,
       "store_id": "centrale",
-      "price": 350490,
+      "price": 307240,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-wd-ssd-negro-sn7100-1tb-m-2-2280-pcie-4-0-nvme-7250mb-s-lectura/",
       "store_name": "Centrale",
-      "price_card": 369767,
+      "price_card": 324138,
       "price_specs": {
-        "Transferencia / Efectivo": "$350.490",
-        "Tarjetas de Crédito / Débito": "$369.767"
+        "Transferencia / Efectivo": "$307.240",
+        "Tarjetas de Crédito / Débito": "$324.138"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -51,7 +51,13 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 350490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 307240
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

@@ -12,35 +12,71 @@
     "Frecuencia turbo": "5.2 GHz",
     "Socket": "AM5",
     "Generación": "AMD Zen 5 (4nm)",
-    "Efectivo/Transferencia": "$258.700",
-    "Tarjeta crédito/débito": "$266.461"
+    "Efectivo / Transferencia": "$264.700",
+    "Tarjeta crédito/débito": "$272.641"
   },
   "tags": [],
   "created_at": "2026-04-27 00:31:54",
-  "updated_at": "2026-04-27 00:57:26",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 2813,
       "store_id": "alltec",
-      "price": 258700,
+      "price": 264700,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2420-amd-ryzen-5-9600-38ghz-52ghz-turbo-six-core-tdp-65w-am5.html",
       "store_name": "Alltec",
+      "price_card": 272641,
+      "price_specs": {
+        "Efectivo/Transferencia": "$264.700",
+        "Tarjeta crédito/débito": "$272.641"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 31900,
+      "store_id": "winpy",
+      "price": 279680,
+      "price_normal": null,
+      "discount_pct": 8,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-9600-am5-6-cores-12-hilos-3-8-5-2ghz-cache-32mb-l3/",
+      "store_name": "Winpy",
+      "price_card": 294503,
+      "price_specs": {
+        "Transferencia o Depósito": "$279.680",
+        "Otros medios de pago": "$294.503"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     }
   ],
   "history": [
     {
       "store_id": "alltec",
       "store_name": "Alltec",
-      "date": "2026-04-27",
-      "price": 258700
+      "date": "2026-06-08",
+      "price": 264700
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 264700
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-20",
+      "price": 264700
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-20"
 }

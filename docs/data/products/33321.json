@@ -8,26 +8,29 @@
   "image_url": "https://images.findtech.cl/products/memoria-adata-xpg-spectrix-d35g-8gb-3200mhz-rgb.png",
   "description": null,
   "specs": {
-    "Capacidad": "8 GB",
+    "Capacidad": "16 GB",
+    "Tipo": "DDR4",
     "Velocidad": "3200 MHz",
+    "Latencia": "CL16",
     "Iluminación": "RGB",
-    "Efectivo / Transferencia": "$69.900",
-    "Tarjeta crédito/débito": "$71.997"
+    "Tipo de memoria": "DDR4",
+    "Efectivo/Transferencia": "$141.980",
+    "Tarjeta crédito/débito": "$148.369"
   },
   "tags": [],
   "created_at": "2026-05-04 02:48:42",
-  "updated_at": "2026-05-08 21:58:19",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 33321,
       "store_id": "infor-ingen",
       "price": 69900,
-      "price_card": 71997,
       "price_normal": 74094,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/memoria-adata-spectrix-d35g-8gb-3200mhz-rgb/",
       "store_name": "Infor-Ingen",
+      "price_card": 71997,
       "price_specs": {
         "Efectivo/Transferencia": "$69.900",
         "Tarjeta crédito/débito": "$71.997"
@@ -36,33 +39,122 @@
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
+    },
+    {
+      "product_id": 60056,
+      "store_id": "myshop",
+      "price": 72990,
+      "price_normal": 77004,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/dimm-8-gb-xpg-spectrix-d35-ax4u32008g16a-sbkd35-1-x-8-gb--dimm-ddr4-3200-p22896",
+      "store_name": "MyShop",
+      "price_card": 75180,
+      "price_specs": {
+        "Efectivo/Transferencia": "$72.990",
+        "Tarjeta crédito/débito": "$75.180"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 60056,
+      "store_id": "bcpstech",
+      "price": 72990,
+      "price_normal": 79990,
+      "discount_pct": 9,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=765",
+      "store_name": "BCPS Tech",
+      "price_card": 75180,
+      "price_specs": {
+        "Efectivo/Transferencia": "$72.990",
+        "Tarjeta crédito/débito": "$75.180"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
+    },
+    {
+      "product_id": 1468,
+      "store_id": "centrale",
+      "price": 76930,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr4-3200mt-s-cl16-adata-xpg-spectrix-d35g-rgb/",
+      "store_name": "Centrale",
+      "price_card": 81161,
+      "price_specs": {
+        "Transferencia / Efectivo": "$76.930",
+        "Tarjetas de Crédito / Débito": "$81.161"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2014,
+      "store_id": "dust2",
+      "price": 84490,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/memoria-ram-xpg-spectrix-d35g-rgb-ddr4-3200mhz-8gb-blanco/",
+      "store_name": "Dust2",
+      "price_card": 87025,
+      "price_specs": {
+        "Efectivo/Transferencia": "$84.490",
+        "Tarjeta crédito/débito": "$87.025"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 59552,
+      "store_id": "spdigital",
+      "price": 88613,
+      "price_normal": 109430,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/memoria-ram-xpg-spectrix-d35g-rgb-ddr4-3200mhz-8gb",
+      "store_name": "SP Digital",
+      "price_card": 92601,
+      "price_specs": {
+        "Transferencia / Efectivo": "$88.613",
+        "Webpay / Tarjeta": "$92.601"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
     {
       "store_id": "infor-ingen",
       "store_name": "Infor-Ingen",
-      "date": "2026-05-04",
+      "date": "2026-06-08",
       "price": 69900
     },
     {
       "store_id": "infor-ingen",
       "store_name": "Infor-Ingen",
-      "date": "2026-05-05",
+      "date": "2026-06-09",
       "price": 69900
     },
     {
       "store_id": "infor-ingen",
       "store_name": "Infor-Ingen",
-      "date": "2026-05-06",
-      "price": 69900
-    },
-    {
-      "store_id": "infor-ingen",
-      "store_name": "Infor-Ingen",
-      "date": "2026-05-08",
+      "date": "2026-06-20",
       "price": 69900
     }
   ],
-  "scraped_at": "2026-05-08"
+  "scraped_at": "2026-06-20"
 }

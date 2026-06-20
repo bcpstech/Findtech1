@@ -8,29 +8,29 @@
   "image_url": "https://images.findtech.cl/products/ventilador-240mm-cougar-unity-240-rb-argb-1600-rpm-49-01-cfm-33-5-db-reverse-black-3mun24ra1-0001.png",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$17.990",
-    "Tarjeta crédito/débito": "$18.979",
+    "Efectivo / Transferencia": "$16.990",
+    "Tarjeta crédito/débito": "$17.924",
     "Garantía": "6 meses",
     "SKU": "41667",
     "Part Number": "3MUN24RA1.0001"
   },
   "tags": [],
   "created_at": "2026-05-01 13:18:01",
-  "updated_at": "2026-06-09 02:53:50",
+  "updated_at": "2026-06-20 00:18:42",
   "prices": [
     {
       "product_id": 19866,
       "store_id": "myshop",
-      "price": 17990,
-      "price_normal": 18979,
-      "discount_pct": 40,
+      "price": 16990,
+      "price_normal": 17924,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/ventilador-240mm-cougar-unity-240-rb-argb-2500-rpm-782-cfm-380-db-black-3mun24ra10001-p41667",
       "store_name": "MyShop",
-      "price_card": 18530,
+      "price_card": 17500,
       "price_specs": {
-        "Efectivo/Transferencia": "$17.990",
-        "Tarjeta crédito/débito": "$18.530"
+        "Efectivo/Transferencia": "$16.990",
+        "Tarjeta crédito/débito": "$17.500"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -50,7 +50,13 @@
       "store_name": "MyShop",
       "date": "2026-06-09",
       "price": 17990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 16990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

@@ -8,13 +8,12 @@
   "image_url": "https://images.findtech.cl/products/gabinete-esgaming-zero-bk.webp",
   "description": null,
   "specs": {
-    "Marca": "ESGAMING",
-    "Efectivo / Transferencia": "$79.990",
-    "Tarjeta crédito/débito": "$82.390"
+    "Efectivo/Transferencia": "$72.990",
+    "Tarjeta crédito/débito": "$75.180"
   },
   "tags": [],
   "created_at": "2026-06-09 23:41:37",
-  "updated_at": "2026-06-09 23:41:37",
+  "updated_at": "2026-06-20 01:07:25",
   "prices": [
     {
       "product_id": 71332,
@@ -34,25 +33,6 @@
       "review_count": 0,
       "store_url": "www.bcpstech.cl",
       "full_url": "https://bcpstech.cl"
-    },
-    {
-      "product_id": 2356,
-      "store_id": "dust2",
-      "price": 79990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/gabinete-gamer-esgaming-zero-max-bk-atx/",
-      "store_name": "Dust2",
-      "price_card": 82390,
-      "price_specs": {
-        "Efectivo/Transferencia": "$79.990",
-        "Tarjeta crédito/débito": "$82.390"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
@@ -61,7 +41,13 @@
       "store_name": "BCPS Tech",
       "date": "2026-06-09",
       "price": 72990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-06-20",
+      "price": 72990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

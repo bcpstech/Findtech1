@@ -12,26 +12,26 @@
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Efectivo/Transferencia": "$134.410",
-    "Tarjeta crédito/débito": "$140.458"
+    "Efectivo/Transferencia": "$132.577",
+    "Tarjeta crédito/débito": "$138.543"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:42",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 59507,
       "store_id": "spdigital",
-      "price": 134410,
-      "price_normal": 166020,
+      "price": 132577,
+      "price_normal": 163650,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-msi-b840m-gaming-wifi6e-socket-am5-2x-ddr5-2x-m2-m-atx",
       "store_name": "SP Digital",
-      "price_card": 140458,
+      "price_card": 138543,
       "price_specs": {
-        "Transferencia / Efectivo": "$134.410",
-        "Webpay / Tarjeta": "$140.458"
+        "Transferencia / Efectivo": "$132.577",
+        "Webpay / Tarjeta": "$138.543"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,40 +41,21 @@
     {
       "product_id": 1372,
       "store_id": "centrale",
-      "price": 135910,
+      "price": 133140,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-b840m-gaming-wifi6e-amd-am5-ddr5-pcie-4-0-wifi-6e/",
       "store_name": "Centrale",
-      "price_card": 143385,
+      "price_card": 140463,
       "price_specs": {
-        "Transferencia / Efectivo": "$135.910",
-        "Tarjetas de Crédito / Débito": "$143.385"
+        "Transferencia / Efectivo": "$133.140",
+        "Tarjetas de Crédito / Débito": "$140.463"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 33143,
-      "store_id": "infor-ingen",
-      "price": 139900,
-      "price_normal": 148294,
-      "discount_pct": 6,
-      "stock": "in_stock",
-      "product_url": "https://store.infor-ingen.com/producto/m-b-msi-b840m-gaming-wifi6e/",
-      "store_name": "Infor-Ingen",
-      "price_card": 144097,
-      "price_specs": {
-        "Efectivo/Transferencia": "$139.900",
-        "Tarjeta crédito/débito": "$144.097"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "store.infor-ingen.com",
-      "full_url": "https://store.infor-ingen.com"
     },
     {
       "product_id": 23521,
@@ -127,7 +108,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 134410
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 132577
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

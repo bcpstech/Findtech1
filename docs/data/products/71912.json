@@ -1,0 +1,75 @@
+{
+  "id": 71912,
+  "external_id": "spdigital_procesador-intel-core-i9-12900kf-12-gen-3-2ghz-hasta-5-2ghz-socket-lga1700-sin-graficas",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i9-12900KF, 12º Gen 3.2GHz (Hasta 5.2GHz), Socket LGA1700, sin Gráficas",
+  "slug": "spdigital-procesador-intel-core-i9-12900kf-12-gen-3-2ghz-hasta-5-2ghz-socket-lga1700-sin-graficas",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i9-12900kf-12-gen-3-2ghz-hasta-5-2ghz-socket-lga1700-sin-graficas.jpg",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "3.2 GHz",
+    "Frecuencia turbo": "5,2 GHz",
+    "Socket": "LGA 1700",
+    "Familia": "Intel® Core™ i9 de 12ma Generación",
+    "Núcleos": "16",
+    "Hilos": "24",
+    "Caché L3": "30 MB",
+    "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
+    "Gráficos integrados": "No disponible",
+    "Efectivo/Transferencia": "$554.986",
+    "Tarjeta crédito/débito": "$579.960"
+  },
+  "tags": [],
+  "created_at": "2026-06-20 00:07:08",
+  "updated_at": "2026-06-20 01:08:48",
+  "prices": [
+    {
+      "product_id": 328,
+      "store_id": "centrale",
+      "price": 499570,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-12900kf-core-3-2ghz-30mb-lga1700/",
+      "store_name": "Centrale",
+      "price_card": 527046,
+      "price_specs": {
+        "Transferencia / Efectivo": "$499.570",
+        "Tarjetas de Crédito / Débito": "$527.046"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 71912,
+      "store_id": "spdigital",
+      "price": 554986,
+      "price_normal": 554990,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/procesador-intel-core-i9-12900kf-12o-gen-32ghz-hasta-52ghz-socket-lga1700-sin-gráficas",
+      "store_name": "SP Digital",
+      "price_card": 579960,
+      "price_specs": {
+        "Transferencia / Efectivo": "$554.986",
+        "Webpay / Tarjeta": "$579.960"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 554986
+    }
+  ],
+  "scraped_at": "2026-06-20"
+}

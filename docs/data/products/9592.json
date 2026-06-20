@@ -10,26 +10,26 @@
   "specs": {
     "VRAM": "32 GB",
     "Bus de memoria": "256-bit",
-    "Efectivo/Transferencia": "$1.899.995",
-    "Tarjeta crédito/débito": "$1.985.495"
+    "Efectivo/Transferencia": "$1.949.995",
+    "Tarjeta crédito/débito": "$2.037.745"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:36",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 9592,
       "store_id": "spdigital",
-      "price": 1899995,
+      "price": 1949995,
       "price_normal": 2999990,
-      "discount_pct": 37,
+      "discount_pct": 35,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-amd-turbo-radeon-ai-pro-r9700-32gb-ddr6-256-bit-pci-e-50",
       "store_name": "SP Digital",
-      "price_card": 1985495,
+      "price_card": 2037745,
       "price_specs": {
-        "Transferencia / Efectivo": "$1.899.995",
-        "Webpay / Tarjeta": "$1.985.495"
+        "Transferencia / Efectivo": "$1.949.995",
+        "Webpay / Tarjeta": "$2.037.745"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -49,7 +49,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 1899995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 1949995
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

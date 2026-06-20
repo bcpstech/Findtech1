@@ -15,26 +15,26 @@
     "Variante": "OC (Overclocked)",
     "Velocidad": "28000 MHz",
     "Factor de forma": "Full-Height/Full-Length (FH/FL)",
-    "Efectivo/Transferencia": "$819.995",
-    "Tarjeta crédito/débito": "$856.895"
+    "Efectivo/Transferencia": "$839.995",
+    "Tarjeta crédito/débito": "$877.795"
   },
   "tags": [],
   "created_at": "2026-06-08 20:44:25",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 59605,
       "store_id": "spdigital",
-      "price": 819995,
+      "price": 839995,
       "price_normal": 999990,
-      "discount_pct": 18,
+      "discount_pct": 16,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-gigabyte-nvidia-geforce-rtx-5070-eagle-oc-ice-12g-gddr7-192-bit-3-ventiladores",
       "store_name": "SP Digital",
-      "price_card": 856895,
+      "price_card": 877795,
       "price_specs": {
-        "Transferencia / Efectivo": "$819.995",
-        "Webpay / Tarjeta": "$856.895"
+        "Transferencia / Efectivo": "$839.995",
+        "Webpay / Tarjeta": "$877.795"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -54,7 +54,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 819995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 839995
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

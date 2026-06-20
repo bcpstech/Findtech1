@@ -11,29 +11,29 @@
     "Capacidad": "128 GB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Efectivo / Transferencia": "$28.870",
-    "Tarjeta crédito/débito": "$30.458",
+    "Efectivo / Transferencia": "$26.990",
+    "Tarjeta crédito/débito": "$28.474",
     "Garantía": "6 meses",
     "SKU": "43236",
     "Part Number": "T33420F128"
   },
   "tags": [],
   "created_at": "2026-06-08 20:50:40",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 60096,
       "store_id": "myshop",
-      "price": 28870,
-      "price_normal": 30458,
+      "price": 26990,
+      "price_normal": 28474,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/ssd-m2-2280-bulk-128-gb-twsc-nvme-pcie-30-x4-sin-embalaje-p43236",
       "store_name": "MyShop",
-      "price_card": 29736,
+      "price_card": 27800,
       "price_specs": {
-        "Efectivo/Transferencia": "$28.870",
-        "Tarjeta crédito/débito": "$29.736"
+        "Efectivo/Transferencia": "$26.990",
+        "Tarjeta crédito/débito": "$27.800"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -53,7 +53,13 @@
       "store_name": "MyShop",
       "date": "2026-06-09",
       "price": 28870
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 26990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

@@ -13,29 +13,50 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Chipset": "Intel Z890",
-    "Efectivo/Transferencia": "$439.990",
-    "Tarjeta crédito/débito": "$459.790"
+    "Efectivo/Transferencia": "$279.995",
+    "Tarjeta crédito/débito": "$292.595"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:30",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 1357,
       "store_id": "centrale",
-      "price": 296590,
+      "price": 276950,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/asus-motherboard-prime-z890-p-wifi-lga1851-ddr5-pcie-5-0-wifi-7/",
       "store_name": "Centrale",
+      "price_card": 292182,
       "price_specs": {
-        "Transferencia / Efectivo": "$296.590"
+        "Transferencia / Efectivo": "$276.950",
+        "Tarjetas de Crédito / Débito": "$292.182"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9465,
+      "store_id": "spdigital",
+      "price": 279995,
+      "price_normal": 439990,
+      "discount_pct": 36,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/prime-z890-p-wifi",
+      "store_name": "SP Digital",
+      "price_card": 292595,
+      "price_specs": {
+        "Transferencia / Efectivo": "$279.995",
+        "Webpay / Tarjeta": "$292.595"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 23540,
@@ -46,8 +67,10 @@
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/para-intel/2422-mb-asus-prime-z890-p-wifi-lga1851-ddr5-intel-core-ultra-serie-2.html",
       "store_name": "Alltec",
+      "price_card": 307867,
       "price_specs": {
-        "Efectivo/Transferencia": "$298.900"
+        "Efectivo/Transferencia": "$298.900",
+        "Tarjeta crédito/débito": "$307.867"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,71 +78,32 @@
       "full_url": "https://www.alltec.cl"
     },
     {
-      "product_id": 1162,
-      "store_id": "cg",
-      "price": 303007,
-      "price_normal": null,
-      "discount_pct": null,
+      "product_id": 38896,
+      "store_id": "mybox",
+      "price": 306166,
+      "price_normal": 330990,
+      "discount_pct": 7,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/placas-madre/asus-motherboard-prime-z890-p-wifi-1851-ddr5/",
-      "store_name": "CentralGamer",
+      "product_url": "https://mybox.cl/placa-madre/5670-placa-madre-asus-prime-z890-p-wifi-4711387754818.html",
+      "store_name": "MyBox",
+      "price_card": 315351,
       "price_specs": {
-        "Efectivo/Transferencia": "$303.007"
+        "Efectivo/Transferencia": "$306.166",
+        "Tarjeta crédito/débito": "$315.351"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
-    },
-    {
-      "product_id": 9465,
-      "store_id": "spdigital",
-      "price": 439990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/prime-z890-p-wifi",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$439.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-28",
-      "price": 439990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-04-29",
-      "price": 439990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-01",
-      "price": 439990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-03",
-      "price": 439990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-04",
-      "price": 439990
+      "date": "2026-06-20",
+      "price": 279995
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-06-20"
 }

@@ -1,0 +1,75 @@
+{
+  "id": 71913,
+  "external_id": "spdigital_procesador-intel-core-i9-14900f-2-ghz-24-nucleos-32-hilos-36-mb-cache-fclga1700-socket",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i9-14900F, 2 GHz, 24 núcleos, 32 hilos,36 MB caché, FCLGA1700 Socket",
+  "slug": "spdigital-procesador-intel-core-i9-14900f-2-ghz-24-nucleos-32-hilos-36-mb-cache-fclga1700-socket",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i9-14900f-2-ghz-24-nucleos-32-hilos-36-mb-cache-fclga1700-socket.png",
+  "description": null,
+  "specs": {
+    "Familia": "Intel® Core™ i9",
+    "Núcleos": "24",
+    "Socket": "LGA 1700",
+    "Incluye cooler": "Si",
+    "Hilos": "32",
+    "Frecuencia turbo": "5,8 GHz",
+    "Caché L3": "36 MB",
+    "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
+    "Gráficos integrados": "No disponible",
+    "Efectivo/Transferencia": "$737.831",
+    "Tarjeta crédito/débito": "$771.033"
+  },
+  "tags": [],
+  "created_at": "2026-06-20 00:07:08",
+  "updated_at": "2026-06-20 00:07:08",
+  "prices": [
+    {
+      "product_id": 332,
+      "store_id": "centrale",
+      "price": 683720,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900f-lga1700-24-nucleos-5-8ghz-36mb/",
+      "store_name": "Centrale",
+      "price_card": 721325,
+      "price_specs": {
+        "Transferencia / Efectivo": "$683.720",
+        "Tarjetas de Crédito / Débito": "$721.325"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 71913,
+      "store_id": "spdigital",
+      "price": 737831,
+      "price_normal": 863260,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/intel-core-i9-i9-14900f-2-ghz-24-nucleos-32-hilos-36-mb-cache-fclga1700-socket-caja",
+      "store_name": "SP Digital",
+      "price_card": 771033,
+      "price_specs": {
+        "Transferencia / Efectivo": "$737.831",
+        "Webpay / Tarjeta": "$771.033"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 737831
+    }
+  ],
+  "scraped_at": "2026-06-20"
+}

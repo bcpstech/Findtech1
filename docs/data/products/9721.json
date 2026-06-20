@@ -14,21 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:45",
-  "updated_at": "2026-06-09 02:45:21",
+  "updated_at": "2026-06-20 00:10:17",
   "prices": [
     {
       "product_id": 9721,
       "store_id": "spdigital",
-      "price": 79995,
+      "price": 91995,
       "price_normal": 149990,
-      "discount_pct": 47,
+      "discount_pct": 39,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/be-quiet-bp004eu",
       "store_name": "SP Digital",
-      "price_card": 83595,
+      "price_card": 96135,
       "price_specs": {
-        "Transferencia / Efectivo": "$79.995",
-        "Webpay / Tarjeta": "$83.595"
+        "Transferencia / Efectivo": "$91.995",
+        "Webpay / Tarjeta": "$96.135"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -53,6 +53,25 @@
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 73601,
+      "store_id": "centrale",
+      "price": 175170,
+      "price_normal": 191490,
+      "discount_pct": 9,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/fuente-de-poder-1200w-be-quiet-pure-power-13-m-atx-3-1-80-gold-modular/",
+      "store_name": "Centrale",
+      "price_card": 184804,
+      "price_specs": {
+        "Transferencia / Efectivo": "$175.170",
+        "Tarjetas de Crédito / Débito": "$184.804"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -67,7 +86,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 79995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 91995
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

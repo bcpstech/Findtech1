@@ -13,26 +13,26 @@
     "Bus de memoria": "128-bit",
     "Arquitectura": "Ampere",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$263.290",
-    "Tarjeta crédito/débito": "$271.189"
+    "Efectivo / Transferencia": "$258.365",
+    "Tarjeta crédito/débito": "$266.116"
   },
   "tags": [],
   "created_at": "2026-05-04 23:52:57",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 38848,
       "store_id": "mybox",
-      "price": 263290,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 258365,
+      "price_normal": 264990,
+      "discount_pct": 3,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/tarjeta-de-video/6112-tarjeta-de-video-msi-rtx-3050-ventus-2x-6g-oc.html",
       "store_name": "MyBox",
-      "price_card": 271189,
+      "price_card": 266116,
       "price_specs": {
-        "Efectivo/Transferencia": "$263.290",
-        "Tarjeta crédito/débito": "$271.189"
+        "Efectivo/Transferencia": "$258.365",
+        "Tarjeta crédito/débito": "$266.116"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -52,7 +52,13 @@
       "store_name": "MyBox",
       "date": "2026-06-09",
       "price": 263290
+    },
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-06-20",
+      "price": 258365
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 23:52:48",
-  "updated_at": "2026-05-08 23:02:40",
+  "updated_at": "2026-06-20 00:50:08",
   "prices": [
     {
       "product_id": 38843,
       "store_id": "mybox",
       "price": 459506,
-      "price_card": 473291,
       "price_normal": 483690,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/procesador/5170-procesador-amd-ryzen-9-7900.html",
       "store_name": "MyBox",
+      "price_card": 473291,
       "price_specs": {
         "Efectivo/Transferencia": "$459.506",
         "Tarjeta crédito/débito": "$473.291"
@@ -35,6 +35,25 @@
       "full_url": "https://www.mybox.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-06-08",
+      "price": 459506
+    },
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-06-09",
+      "price": 459506
+    },
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-06-20",
+      "price": 459506
+    }
+  ],
+  "scraped_at": "2026-06-20"
 }

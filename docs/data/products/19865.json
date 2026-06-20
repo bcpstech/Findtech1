@@ -5,32 +5,32 @@
   "brand": "Cougar",
   "name": "Ventilador 240mm - Cougar UNITY 240-FW ARGB - 2500 RPM - 78.2 CFM - 38.0 dB - Regular - White (3MUN24FA1.0002)",
   "slug": "ventilador-240mm-cougar-unity-240-fw-argb-2500-rpm-78-2-cfm-38-0-db-regular-white-3mun24fa1-000",
-  "image_url": "https://images.findtech.cl/products/ventilador-240mm-cougar-unity-240-fw-argb-2500-rpm-78-2-cfm-38-0-db-regular-white-3mun24fa1-0002.webp",
+  "image_url": "https://images.findtech.cl/products/ventilador-240mm-cougar-unity-240-fw-argb-2500-rpm-78-2-cfm-38-0-db-regular-white-3mun24fa1-0002.jpg",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$17.990",
-    "Tarjeta crédito/débito": "$18.979",
+    "Efectivo / Transferencia": "$16.990",
+    "Tarjeta crédito/débito": "$17.924",
     "Garantía": "6 meses",
     "SKU": "41665",
     "Part Number": "3MUN24FA1.0002"
   },
   "tags": [],
   "created_at": "2026-05-01 13:18:01",
-  "updated_at": "2026-05-08 22:23:04",
+  "updated_at": "2026-06-20 00:18:41",
   "prices": [
     {
       "product_id": 19865,
       "store_id": "myshop",
-      "price": 17990,
-      "price_card": 18530,
-      "price_normal": 18979,
-      "discount_pct": 40,
+      "price": 16990,
+      "price_normal": 17924,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/ventilador-240mm-cougar-unity-240-fw-argb-2500-rpm-782-cfm-380-db-black-3mun24fa10002-p41665",
       "store_name": "MyShop",
+      "price_card": 17500,
       "price_specs": {
-        "Efectivo/Transferencia": "$17.990",
-        "Tarjeta crédito/débito": "$18.530"
+        "Efectivo/Transferencia": "$16.990",
+        "Tarjeta crédito/débito": "$17.500"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,6 +38,25 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-08",
+      "price": 17990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 17990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 16990
+    }
+  ],
+  "scraped_at": "2026-06-20"
 }

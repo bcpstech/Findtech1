@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-05-08 22:24:07",
-  "updated_at": "2026-06-09 02:55:31",
+  "updated_at": "2026-06-20 00:20:02",
   "prices": [
     {
       "product_id": 2637,
@@ -59,42 +59,42 @@
       "full_url": "https://www.myshop.cl"
     },
     {
-      "product_id": 61001,
-      "store_id": "centrale",
-      "price": 123490,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-msi-mag-a1000gls-1000w-80plus-gold-pcie5/",
-      "store_name": "Centrale",
-      "price_card": 130282,
-      "price_specs": {
-        "Transferencia / Efectivo": "$123.490",
-        "Tarjetas de Crédito / Débito": "$130.282"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 59778,
+      "product_id": 59779,
       "store_id": "spdigital",
-      "price": 124244,
-      "price_normal": 153450,
+      "price": 113390,
+      "price_normal": 139970,
       "discount_pct": 19,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/mag-a1000gls-pcie5",
+      "product_url": "https://www.spdigital.cl/msi-power-supply-mag-a1000gls-pcie5-plus-gold",
       "store_name": "SP Digital",
-      "price_card": 129835,
+      "price_card": 118493,
       "price_specs": {
-        "Transferencia / Efectivo": "$124.244",
-        "Webpay / Tarjeta": "$129.835"
+        "Transferencia / Efectivo": "$113.390",
+        "Webpay / Tarjeta": "$118.493"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1691,
+      "store_id": "centrale",
+      "price": 117230,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/fuente-msi-mag-a1000gls-pcie5-1000w-80-plus-gold-modular/",
+      "store_name": "Centrale",
+      "price_card": 123678,
+      "price_specs": {
+        "Transferencia / Efectivo": "$117.230",
+        "Tarjetas de Crédito / Débito": "$123.678"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -109,7 +109,13 @@
       "store_name": "MyShop",
       "date": "2026-06-09",
       "price": 363990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 363990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

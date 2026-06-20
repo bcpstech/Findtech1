@@ -8,50 +8,31 @@
   "image_url": "https://images.findtech.cl/products/gabinete-cooler-master-qube-540-e-atx-vidrio-templado-negro.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$53.920",
-    "Tarjeta crédito/débito": "$56.890"
+    "Transferencia / Efectivo": "$53.420",
+    "Tarjeta crédito/débito": "$56.360"
   },
   "tags": [],
   "created_at": "2026-06-08 20:59:00",
-  "updated_at": "2026-06-09 03:05:45",
+  "updated_at": "2026-06-20 00:32:57",
   "prices": [
     {
       "product_id": 61051,
       "store_id": "centrale",
-      "price": 53920,
+      "price": 53420,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-cooler-master-qube-540-e-atx-vidrio-templado-negro/",
       "store_name": "Centrale",
-      "price_card": 56886,
+      "price_card": 56358,
       "price_specs": {
-        "Transferencia / Efectivo": "$53.920",
-        "Tarjetas de Crédito / Débito": "$56.886"
+        "Transferencia / Efectivo": "$53.420",
+        "Tarjetas de Crédito / Débito": "$56.358"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 33913,
-      "store_id": "infor-ingen",
-      "price": 89900,
-      "price_normal": 95294,
-      "discount_pct": 6,
-      "stock": "in_stock",
-      "product_url": "https://store.infor-ingen.com/producto/gabinete-cooler-master-qube-500-flatpack-black/",
-      "store_name": "Infor-Ingen",
-      "price_card": 92597,
-      "price_specs": {
-        "Efectivo/Transferencia": "$89.900",
-        "Tarjeta crédito/débito": "$92.597"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "store.infor-ingen.com",
-      "full_url": "https://store.infor-ingen.com"
     }
   ],
   "history": [
@@ -66,7 +47,13 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 53920
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 53420
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

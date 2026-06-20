@@ -13,26 +13,26 @@
     "Velocidad": "4800 MHz",
     "Latencia": "CL40",
     "Tipo de memoria": "DDR5",
-    "Efectivo/Transferencia": "$189.995",
-    "Tarjeta crédito/débito": "$198.545"
+    "Efectivo/Transferencia": "$199.995",
+    "Tarjeta crédito/débito": "$208.995"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:58",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 59541,
       "store_id": "spdigital",
-      "price": 189995,
+      "price": 199995,
       "price_normal": 299990,
-      "discount_pct": 37,
+      "discount_pct": 33,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/memoria-ram-adata-ddr5-16gb-4800mhz-cl46-udimm-negro",
       "store_name": "SP Digital",
-      "price_card": 198545,
+      "price_card": 208995,
       "price_specs": {
-        "Transferencia / Efectivo": "$189.995",
-        "Webpay / Tarjeta": "$198.545"
+        "Transferencia / Efectivo": "$199.995",
+        "Webpay / Tarjeta": "$208.995"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -52,7 +52,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 189995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 199995
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

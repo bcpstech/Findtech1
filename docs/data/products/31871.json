@@ -13,46 +13,65 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$744.800",
-    "Tarjeta crédito/débito": "$784.274"
+    "Transferencia / Efectivo": "$781.030",
+    "Tarjeta crédito/débito": "$823.990"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:34",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 31871,
       "store_id": "winpy",
-      "price": 744800,
-      "price_card": 784274,
+      "price": 739936,
       "price_normal": null,
-      "discount_pct": 21,
+      "discount_pct": 22,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-dual-geforce-rtx-5070-oc-de-12gb-gddr7/",
       "store_name": "Winpy",
+      "price_card": 779153,
       "price_specs": {
-        "Transferencia o Depósito": "$744.800",
-        "Otros medios de pago": "$784.274"
+        "Transferencia o Depósito": "$739.936",
+        "Otros medios de pago": "$779.153"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1188,
+      "store_id": "centrale",
+      "price": 781030,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-dual-geforce-rtx-5070-12gb-gddr7-oc-edition/",
+      "store_name": "Centrale",
+      "price_card": 823987,
+      "price_specs": {
+        "Transferencia / Efectivo": "$781.030",
+        "Tarjetas de Crédito / Débito": "$823.987"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-04",
-      "price": 744800
+      "date": "2026-06-08",
+      "price": 811072
     },
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-05",
-      "price": 744800
+      "date": "2026-06-20",
+      "price": 739936
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-06-20"
 }

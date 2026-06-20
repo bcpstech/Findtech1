@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:51:20",
-  "updated_at": "2026-06-08 21:07:33",
+  "updated_at": "2026-06-20 00:47:44",
   "prices": [
     {
       "product_id": 2562,
       "store_id": "megabytes",
       "price": 43900,
-      "price_card": 45217,
       "price_normal": 69990,
       "discount_pct": 37,
       "stock": "in_stock",
       "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/thermalright-fuente-poder-550w-80-bronze-tr-tb550s/",
       "store_name": "MegaBytes",
+      "price_card": 45217,
       "price_specs": {
         "Efectivo/Transferencia": "$43.900",
         "Tarjeta crédito/débito": "$45.217"
@@ -41,7 +41,13 @@
       "store_name": "MegaBytes",
       "date": "2026-06-08",
       "price": 43900
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-06-20",
+      "price": 43900
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-20"
 }

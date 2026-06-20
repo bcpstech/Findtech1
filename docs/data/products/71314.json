@@ -8,15 +8,15 @@
   "image_url": "https://images.findtech.cl/products/disco-duro-seagate-skyhawk-1-tb-sata-3-5-5400rpm.webp",
   "description": null,
   "specs": {
-    "Capacidad": "6 TB",
+    "Capacidad": "1 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$247.770",
-    "Tarjeta crédito/débito": "$261.400"
+    "Efectivo/Transferencia": "$89.990",
+    "Tarjeta crédito/débito": "$92.690"
   },
   "tags": [],
   "created_at": "2026-06-09 23:40:54",
-  "updated_at": "2026-06-09 23:43:25",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 71314,
@@ -36,25 +36,6 @@
       "review_count": 0,
       "store_url": "www.bcpstech.cl",
       "full_url": "https://bcpstech.cl"
-    },
-    {
-      "product_id": 1589,
-      "store_id": "centrale",
-      "price": 117480,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-duro-hdd-2tb-seagate-skyhawk-3-5-sata-6gb-s-5400rpm-video-vigilancia/",
-      "store_name": "Centrale",
-      "price_card": 123941,
-      "price_specs": {
-        "Transferencia / Efectivo": "$117.480",
-        "Tarjetas de Crédito / Débito": "$123.941"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -63,7 +44,13 @@
       "store_name": "BCPS Tech",
       "date": "2026-06-09",
       "price": 89990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-06-20",
+      "price": 89990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

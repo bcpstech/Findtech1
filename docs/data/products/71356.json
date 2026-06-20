@@ -17,12 +17,12 @@
     "Caché L3": "32 MB",
     "TDP": "105 W",
     "Gráficos integrados": "AMD Radeon Graphics",
-    "Efectivo/Transferencia": "$599.990",
-    "Tarjeta crédito/débito": "$626.990"
+    "Efectivo/Transferencia": "$370.384",
+    "Tarjeta crédito/débito": "$387.051"
   },
   "tags": [],
   "created_at": "2026-06-09 23:42:39",
-  "updated_at": "2026-06-09 23:42:39",
+  "updated_at": "2026-06-20 01:08:13",
   "prices": [
     {
       "product_id": 71356,
@@ -65,16 +65,16 @@
     {
       "product_id": 31907,
       "store_id": "winpy",
-      "price": 344736,
+      "price": 337440,
       "price_normal": null,
-      "discount_pct": 38,
+      "discount_pct": 39,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-7-7700x-am5-8-cores-16-hilos-4-5-5-4ghz-32mb-de-cache-desbloqueado/",
       "store_name": "Winpy",
-      "price_card": 363007,
+      "price_card": 355324,
       "price_specs": {
-        "Transferencia o Depósito": "$344.736",
-        "Otros medios de pago": "$363.007"
+        "Transferencia o Depósito": "$337.440",
+        "Otros medios de pago": "$355.324"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -82,23 +82,23 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 38,
-      "store_id": "n1g",
-      "price": 351500,
-      "price_normal": 370000,
-      "discount_pct": 5,
+      "product_id": 71356,
+      "store_id": "myshop",
+      "price": 337700,
+      "price_normal": 356274,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/1928-amd-ryzen-7-7700x-socket-am5-8-core-16-hilos-max-54ghz-video-int.html",
-      "store_name": "N1G",
-      "price_card": 370130,
+      "product_url": "https://www.myshop.cl/producto/cpu-amd-ryzen-7-7700x-100-100000591wof-p12968",
+      "store_name": "MyShop",
+      "price_card": 347831,
       "price_specs": {
-        "Efectivo/Transferencia": "$351.500",
-        "Tarjeta crédito/débito": "$370.130"
+        "Efectivo/Transferencia": "$337.700",
+        "Tarjeta crédito/débito": "$347.831"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
     },
     {
       "product_id": 278,
@@ -122,16 +122,16 @@
     {
       "product_id": 9411,
       "store_id": "spdigital",
-      "price": 599990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 370384,
+      "price_normal": 386990,
+      "discount_pct": 4,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ryzen-7-am5-7700x",
       "store_name": "SP Digital",
-      "price_card": 626990,
+      "price_card": 387051,
       "price_specs": {
-        "Transferencia / Efectivo": "$599.990",
-        "Webpay / Tarjeta": "$626.990"
+        "Transferencia / Efectivo": "$370.384",
+        "Webpay / Tarjeta": "$387.051"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -145,7 +145,19 @@
       "store_name": "BCPS Tech",
       "date": "2026-06-09",
       "price": 312990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-06-20",
+      "price": 312990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 337700
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

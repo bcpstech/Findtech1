@@ -13,18 +13,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:51:28",
-  "updated_at": "2026-06-08 21:07:41",
+  "updated_at": "2026-06-20 00:47:55",
   "prices": [
     {
       "product_id": 2572,
       "store_id": "megabytes",
       "price": 48990,
-      "price_card": 50460,
       "price_normal": 65490,
       "discount_pct": 25,
       "stock": "in_stock",
       "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/clio-gabinete-cl-s605-full-slim-2usb-3-0-sfx/",
       "store_name": "MegaBytes",
+      "price_card": 50460,
       "price_specs": {
         "Efectivo/Transferencia": "$48.990",
         "Tarjeta crédito/débito": "$50.460"
@@ -37,16 +37,16 @@
     {
       "product_id": 1760,
       "store_id": "centrale",
-      "price": 53280,
-      "price_card": 56210,
+      "price": 52830,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-corporativo-micro-atx-clio-slim-cl-s605/",
       "store_name": "Centrale",
+      "price_card": 55736,
       "price_specs": {
-        "Transferencia / Efectivo": "$53.280",
-        "Tarjetas de Crédito / Débito": "$56.210"
+        "Transferencia / Efectivo": "$52.830",
+        "Tarjetas de Crédito / Débito": "$55.736"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,7 +60,13 @@
       "store_name": "MegaBytes",
       "date": "2026-06-08",
       "price": 48990
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-06-20",
+      "price": 48990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-20"
 }

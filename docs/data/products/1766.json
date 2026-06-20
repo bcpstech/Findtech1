@@ -10,24 +10,26 @@
   "specs": {
     "Marca": "Asus",
     "Modelo": "PRIME LC 360 ARGB",
-    "Efectivo / Transferencia": "$109.990",
-    "Tarjeta crédito/débito": "$113.290"
+    "Efectivo / Transferencia": "$89.990",
+    "Tarjeta crédito/débito": "$92.690"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:01",
-  "updated_at": "2026-05-04 01:38:43",
+  "updated_at": "2026-06-20 00:48:43",
   "prices": [
     {
       "product_id": 1766,
       "store_id": "progaming",
-      "price": 109990,
+      "price": 89990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-aio-asus-prime-lc-360-argb-negro/",
       "store_name": "ProGaming",
+      "price_card": 92690,
       "price_specs": {
-        "Efectivo/Transferencia": "$109.990"
+        "Efectivo/Transferencia": "$89.990",
+        "Tarjeta crédito/débito": "$92.690"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -35,16 +37,37 @@
       "full_url": "https://www.progaming.cl"
     },
     {
+      "product_id": 9633,
+      "store_id": "spdigital",
+      "price": 99995,
+      "price_normal": 179990,
+      "discount_pct": 44,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/asus-prime-lc-360-argb-fan-unit",
+      "store_name": "SP Digital",
+      "price_card": 104495,
+      "price_specs": {
+        "Transferencia / Efectivo": "$99.995",
+        "Webpay / Tarjeta": "$104.495"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 1611,
       "store_id": "centrale",
-      "price": 160200,
+      "price": 160380,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-aio-asus-tuf-gaming-lc-iii-360-argb-lcd/",
       "store_name": "Centrale",
+      "price_card": 169201,
       "price_specs": {
-        "Transferencia / Efectivo": "$160.200"
+        "Transferencia / Efectivo": "$160.380",
+        "Tarjetas de Crédito / Débito": "$169.201"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -52,21 +75,23 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 9633,
-      "store_id": "spdigital",
-      "price": 179990,
-      "price_normal": null,
-      "discount_pct": null,
+      "product_id": 38938,
+      "store_id": "mybox",
+      "price": 187901,
+      "price_normal": 197790,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/asus-prime-lc-360-argb-fan-unit",
-      "store_name": "SP Digital",
+      "product_url": "https://mybox.cl/enfriamiento-refrigeracion/6097-refrigeracion-asus-tuf-gaming-lc-iii-360-argb-lcd-black-4711636047838.html",
+      "store_name": "MyBox",
+      "price_card": 193538,
       "price_specs": {
-        "Transferencia / Efectivo": "$179.990"
+        "Efectivo/Transferencia": "$187.901",
+        "Tarjeta crédito/débito": "$193.538"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     },
     {
       "product_id": 779,
@@ -77,9 +102,10 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3581-asus-rog-strix-lc-iii-360-argb-lcd-aio-wc-cpu-intel-lga-1700-amd-am5-con-lcd-ips-de-21-bomba-gen7-v2.html",
       "store_name": "N1G",
+      "price_card": 314847,
       "price_specs": {
         "Efectivo/Transferencia": "$299.000",
-        "Tarjeta crédito/débito": "$314.737"
+        "Tarjeta crédito/débito": "$314.847"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -91,33 +117,21 @@
     {
       "store_id": "progaming",
       "store_name": "ProGaming",
-      "date": "2026-04-26",
-      "price": 106790
-    },
-    {
-      "store_id": "progaming",
-      "store_name": "ProGaming",
-      "date": "2026-04-27",
-      "price": 106790
-    },
-    {
-      "store_id": "progaming",
-      "store_name": "ProGaming",
-      "date": "2026-05-01",
-      "price": 1070
-    },
-    {
-      "store_id": "progaming",
-      "store_name": "ProGaming",
-      "date": "2026-05-03",
+      "date": "2026-06-08",
       "price": 109990
     },
     {
       "store_id": "progaming",
       "store_name": "ProGaming",
-      "date": "2026-05-04",
+      "date": "2026-06-09",
       "price": 109990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-06-20",
+      "price": 89990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-06-20"
 }

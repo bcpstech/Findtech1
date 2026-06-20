@@ -12,45 +12,26 @@
     "TDP": "170W",
     "Socket": "AM5",
     "Gráficos integrados": "Sí",
-    "Transferencia / Efectivo": "$851.040",
-    "Tarjeta crédito/débito": "$897.850"
+    "Transferencia / Efectivo": "$829.750",
+    "Tarjeta crédito/débito": "$875.390"
   },
   "tags": [],
   "created_at": "2026-06-08 20:56:43",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
-    {
-      "product_id": 2825,
-      "store_id": "alltec",
-      "price": 764900,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/amd/2376-amd-ryzen-9-9950x3d-43ghz57ghz-turbo-sixteen-core-tdp-170w-am5.html",
-      "store_name": "Alltec",
-      "price_card": 787847,
-      "price_specs": {
-        "Efectivo/Transferencia": "$764.900",
-        "Tarjeta crédito/débito": "$787.847"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
-    },
     {
       "product_id": 60586,
       "store_id": "centrale",
-      "price": 851040,
+      "price": 829750,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-9950x3d-am5-4-3-5-7ghz-radeon-graphics-170w/",
       "store_name": "Centrale",
-      "price_card": 897847,
+      "price_card": 875386,
       "price_specs": {
-        "Transferencia / Efectivo": "$851.040",
-        "Tarjetas de Crédito / Débito": "$897.847"
+        "Transferencia / Efectivo": "$829.750",
+        "Tarjetas de Crédito / Débito": "$875.386"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -91,7 +72,13 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 851040
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 829750
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

@@ -13,31 +13,50 @@
     "Bus de memoria": "512-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$4.436.590",
-    "Tarjeta crédito/débito": "$4.680.600"
+    "Efectivo/Transferencia": "$6.074.502",
+    "Tarjeta crédito/débito": "$6.347.855"
   },
   "tags": [],
   "created_at": "2026-06-08 20:56:17",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 60490,
       "store_id": "centrale",
-      "price": 4436590,
+      "price": 4536290,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-rog-astral-lc-rtx-5090-32gb-gddr7-oc-512-bit/",
       "store_name": "Centrale",
-      "price_card": 4680602,
+      "price_card": 4785786,
       "price_specs": {
-        "Transferencia / Efectivo": "$4.436.590",
-        "Tarjetas de Crédito / Débito": "$4.680.602"
+        "Transferencia / Efectivo": "$4.536.290",
+        "Tarjetas de Crédito / Débito": "$4.785.786"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9569,
+      "store_id": "spdigital",
+      "price": 6074502,
+      "price_normal": 7265280,
+      "discount_pct": 16,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-rog-astral-geforce-rtx-5090-oc-edition-32gb-gddr7-512-bit-pci-e-50",
+      "store_name": "SP Digital",
+      "price_card": 6347855,
+      "price_specs": {
+        "Transferencia / Efectivo": "$6.074.502",
+        "Webpay / Tarjeta": "$6.347.855"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -52,7 +71,13 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 4436590
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 4536290
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

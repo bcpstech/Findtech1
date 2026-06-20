@@ -11,71 +11,40 @@
     "Capacidad": "1 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Transferencia / Efectivo": "$134.200",
-    "Tarjeta crédito/débito": "$141.580"
+    "Efectivo / Transferencia": "$129.504",
+    "Tarjeta crédito/débito": "$136.368"
   },
   "tags": [],
   "created_at": "2026-05-04 01:25:27",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 32011,
       "store_id": "winpy",
-      "price": 114912,
-      "price_card": 121002,
+      "price": 129504,
       "price_normal": null,
-      "discount_pct": 24,
+      "discount_pct": 14,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/unidad-ssd-crucial-e100-de-1tb-pcie-gen4-nvme-m-2-hasta-5000mb-s/",
       "store_name": "Winpy",
+      "price_card": 136368,
       "price_specs": {
-        "Transferencia o Depósito": "$114.912",
-        "Otros medios de pago": "$121.002"
+        "Transferencia o Depósito": "$129.504",
+        "Otros medios de pago": "$136.368"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 1566,
-      "store_id": "centrale",
-      "price": 134200,
-      "price_card": 141581,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ssd-crucial-e100-1tb-nvme-pcie-4-0-m-2-2280-hasta-5000-mb-s/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$134.200",
-        "Tarjetas de Crédito / Débito": "$141.581"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-04",
-      "price": 114912
-    },
-    {
-      "store_id": "winpy",
-      "store_name": "Winpy",
-      "date": "2026-05-05",
-      "price": 114912
-    },
-    {
-      "store_id": "winpy",
-      "store_name": "Winpy",
-      "date": "2026-05-06",
-      "price": 114912
+      "date": "2026-06-20",
+      "price": 129504
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-06-20"
 }

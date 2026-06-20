@@ -13,50 +13,31 @@
     "Factor de forma": "2.5\"",
     "Lectura": "500 MB/s",
     "Certificación": "CE, FCC",
-    "Efectivo/Transferencia": "$69.995",
-    "Tarjeta crédito/débito": "$73.145"
+    "Efectivo/Transferencia": "$78.684",
+    "Tarjeta crédito/débito": "$82.225"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:02",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 9528,
       "store_id": "spdigital",
-      "price": 69995,
-      "price_normal": 89990,
-      "discount_pct": 22,
+      "price": 78684,
+      "price_normal": 112140,
+      "discount_pct": 30,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/unidad-ssd-kingston-ssdnow-a400-240gb-25-lectura-500mbs-escritura-350mbs",
       "store_name": "SP Digital",
-      "price_card": 73145,
+      "price_card": 82225,
       "price_specs": {
-        "Transferencia / Efectivo": "$69.995",
-        "Webpay / Tarjeta": "$73.145"
+        "Transferencia / Efectivo": "$78.684",
+        "Webpay / Tarjeta": "$82.225"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 71318,
-      "store_id": "bcpstech",
-      "price": 77990,
-      "price_normal": 89990,
-      "discount_pct": 13,
-      "stock": "in_stock",
-      "product_url": "https://bcpstech.cl/?p=1405",
-      "store_name": "BCPS Tech",
-      "price_card": 80330,
-      "price_specs": {
-        "Efectivo/Transferencia": "$77.990",
-        "Tarjeta crédito/débito": "$80.330"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.bcpstech.cl",
-      "full_url": "https://bcpstech.cl"
     }
   ],
   "history": [
@@ -71,7 +52,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 69995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 78684
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

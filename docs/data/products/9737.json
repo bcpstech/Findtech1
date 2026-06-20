@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-gigabyte-ud850gm-pg5w-850w-full-modular-certificada-80-plus-gold-blanco.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$96.958",
-    "Tarjeta crédito/débito": "$101.321"
+    "Efectivo/Transferencia": "$95.678",
+    "Tarjeta crédito/débito": "$99.983"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:52",
-  "updated_at": "2026-06-09 02:45:34",
+  "updated_at": "2026-06-20 00:10:29",
   "prices": [
     {
       "product_id": 9737,
       "store_id": "spdigital",
-      "price": 96958,
-      "price_normal": 119760,
+      "price": 95678,
+      "price_normal": 118070,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/fuente-de-poder-gigabyte-850w-certificacion-gold-conector-pg5-full-modular-color-blanco",
       "store_name": "SP Digital",
-      "price_card": 101321,
+      "price_card": 99984,
       "price_specs": {
-        "Transferencia / Efectivo": "$96.958",
-        "Webpay / Tarjeta": "$101.321"
+        "Transferencia / Efectivo": "$95.678",
+        "Webpay / Tarjeta": "$99.984"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,16 +37,16 @@
     {
       "product_id": 1719,
       "store_id": "centrale",
-      "price": 102580,
+      "price": 100490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-850w-gigabyte-ud850gm-pg5-white-80-plus-full-modular/",
       "store_name": "Centrale",
-      "price_card": 108222,
+      "price_card": 106017,
       "price_specs": {
-        "Transferencia / Efectivo": "$102.580",
-        "Tarjetas de Crédito / Débito": "$108.222"
+        "Transferencia / Efectivo": "$100.490",
+        "Tarjetas de Crédito / Débito": "$106.017"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -66,7 +66,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 96958
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 95678
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

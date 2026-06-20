@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-06-08 21:04:47",
-  "updated_at": "2026-06-09 03:15:26",
+  "updated_at": "2026-06-20 00:42:42",
   "prices": [
     {
       "product_id": 61755,
@@ -38,16 +38,16 @@
     {
       "product_id": 60995,
       "store_id": "centrale",
-      "price": 366000,
+      "price": 366660,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/corsair-fuente-de-poder-hx1200i-1200w-full-modular-2x-12v-2x6-certificada-80/",
       "store_name": "Centrale",
-      "price_card": 386130,
+      "price_card": 386826,
       "price_specs": {
-        "Transferencia / Efectivo": "$366.000",
-        "Tarjetas de Crédito / Débito": "$386.130"
+        "Transferencia / Efectivo": "$366.660",
+        "Tarjetas de Crédito / Débito": "$386.826"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -67,7 +67,13 @@
       "store_name": "Dust2",
       "date": "2026-06-09",
       "price": 341990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-20",
+      "price": 341990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

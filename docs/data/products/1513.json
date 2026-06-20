@@ -11,31 +11,50 @@
     "Capacidad": "24 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$756.280",
-    "Tarjeta crédito/débito": "$797.880"
+    "Transferencia / Efectivo": "$691.620",
+    "Tarjeta crédito/débito": "$729.660"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 1513,
       "store_id": "centrale",
-      "price": 756280,
+      "price": 691620,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-seagate-skyhawk-ai-24tb-7200rpm-3-5-sata/",
       "store_name": "Centrale",
-      "price_card": 797875,
+      "price_card": 729659,
       "price_specs": {
-        "Transferencia / Efectivo": "$756.280",
-        "Tarjetas de Crédito / Débito": "$797.875"
+        "Transferencia / Efectivo": "$691.620",
+        "Tarjetas de Crédito / Débito": "$729.659"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 72128,
+      "store_id": "spdigital",
+      "price": 697833,
+      "price_normal": 852780,
+      "discount_pct": 18,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/disco-duro-interno-seagate-skyhawk-ai-st24000ve002-24tb-sata-7200rpm-35-videovigilancia-e-ia",
+      "store_name": "SP Digital",
+      "price_card": 729235,
+      "price_specs": {
+        "Transferencia / Efectivo": "$697.833",
+        "Webpay / Tarjeta": "$729.235"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -50,7 +69,13 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 756280
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 691620
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

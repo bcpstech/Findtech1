@@ -12,26 +12,26 @@
     "Factor de forma": "micro ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Efectivo/Transferencia": "$172.991",
-    "Tarjeta crédito/débito": "$180.776"
+    "Efectivo/Transferencia": "$166.972",
+    "Tarjeta crédito/débito": "$174.486"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:51",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 59527,
       "store_id": "spdigital",
-      "price": 172991,
-      "price_normal": 207100,
-      "discount_pct": 16,
+      "price": 166972,
+      "price_normal": 204170,
+      "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-gigabyte-b860m-gaming-wifi6-socket-lga-1851-2x-ddr5-2x-m2-pcie-50-m-atx",
       "store_name": "SP Digital",
-      "price_card": 180776,
+      "price_card": 174486,
       "price_specs": {
-        "Transferencia / Efectivo": "$172.991",
-        "Webpay / Tarjeta": "$180.776"
+        "Transferencia / Efectivo": "$166.972",
+        "Webpay / Tarjeta": "$174.486"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -70,7 +70,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 172991
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 166972
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

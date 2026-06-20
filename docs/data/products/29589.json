@@ -8,24 +8,23 @@
   "image_url": "https://images.findtech.cl/products/pc-gamer-platinum-ryzen-7-7700x-rtx-5070-16gb-ddr5-1tb-nvme.jpg",
   "description": null,
   "specs": {
-    "Peso": "45 kg",
-    "Efectivo/Transferencia": "$1.714.990",
-    "Webpay / Tarjeta": "$1.805.198"
+    "Efectivo / Transferencia": "$1.634.990",
+    "Tarjeta crédito/débito": "$1.684.040"
   },
   "tags": [],
   "created_at": "2026-05-03 22:36:26",
-  "updated_at": "2026-06-08 21:06:41",
+  "updated_at": "2026-06-20 00:46:42",
   "prices": [
     {
       "product_id": 29589,
       "store_id": "megabytes",
       "price": 1634990,
-      "price_card": 1684040,
       "price_normal": 1961990,
       "discount_pct": 17,
       "stock": "in_stock",
       "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/pc-gamer-platinum-ryzen-7-7700x-rtx-5070-16gb-ddr5-1tb-nvme/",
       "store_name": "MegaBytes",
+      "price_card": 1684040,
       "price_specs": {
         "Efectivo/Transferencia": "$1.634.990",
         "Tarjeta crédito/débito": "$1.684.040"
@@ -34,25 +33,6 @@
       "review_count": 0,
       "store_url": "www.megabytes.cl",
       "full_url": "https://www.megabytes.cl"
-    },
-    {
-      "product_id": 7335,
-      "store_id": "cg",
-      "price": 1714990,
-      "price_card": 1805198,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/pc-medium/pc-gamer-ryzen-5-9600x-rtx-5070-16gb-ram-ddr5-1-tb-ssd-m-2/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$1.714.990",
-        "Webpay / Tarjeta": "$1.805.198"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -61,7 +41,13 @@
       "store_name": "MegaBytes",
       "date": "2026-06-08",
       "price": 1634990
+    },
+    {
+      "store_id": "megabytes",
+      "store_name": "MegaBytes",
+      "date": "2026-06-20",
+      "price": 1634990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-20"
 }

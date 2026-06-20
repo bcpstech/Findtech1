@@ -15,7 +15,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:00",
-  "updated_at": "2026-06-09 03:20:18",
+  "updated_at": "2026-06-20 00:48:42",
   "prices": [
     {
       "product_id": 1764,
@@ -37,25 +37,6 @@
       "full_url": "https://www.progaming.cl"
     },
     {
-      "product_id": 9598,
-      "store_id": "spdigital",
-      "price": 18995,
-      "price_normal": 69990,
-      "discount_pct": 73,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/disipador-mag-corefrozr-aa13",
-      "store_name": "SP Digital",
-      "price_card": 19850,
-      "price_specs": {
-        "Transferencia / Efectivo": "$18.995",
-        "Webpay / Tarjeta": "$19.850"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
       "product_id": 33618,
       "store_id": "infor-ingen",
       "price": 24900,
@@ -73,6 +54,25 @@
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
+    },
+    {
+      "product_id": 9598,
+      "store_id": "spdigital",
+      "price": 27995,
+      "price_normal": 69990,
+      "discount_pct": 60,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/disipador-mag-corefrozr-aa13",
+      "store_name": "SP Digital",
+      "price_card": 29255,
+      "price_specs": {
+        "Transferencia / Efectivo": "$27.995",
+        "Webpay / Tarjeta": "$29.255"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -87,7 +87,13 @@
       "store_name": "ProGaming",
       "date": "2026-06-09",
       "price": 18990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-06-20",
+      "price": 18990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

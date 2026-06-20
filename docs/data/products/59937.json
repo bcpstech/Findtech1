@@ -11,15 +11,15 @@
     "Frecuencia base": "4.4 GHz",
     "Socket": "AM5",
     "Incluye cooler": "No",
-    "Efectivo / Transferencia": "$664.990",
-    "Tarjeta crédito/débito": "$701.564",
+    "Efectivo / Transferencia": "$665.990",
+    "Tarjeta crédito/débito": "$702.619",
     "Garantía": "",
     "SKU": "43149",
     "Part Number": "100-100001368WOF"
   },
   "tags": [],
   "created_at": "2026-06-08 20:48:55",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-20 01:08:48",
   "prices": [
     {
       "product_id": 3315,
@@ -43,59 +43,21 @@
     {
       "product_id": 59937,
       "store_id": "myshop",
-      "price": 664990,
-      "price_normal": 701564,
+      "price": 665990,
+      "price_normal": 702619,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/procesador-amd-ryzen-9-9900x3d-12-core-w-radeon-p43149",
       "store_name": "MyShop",
-      "price_card": 684940,
+      "price_card": 685970,
       "price_specs": {
-        "Efectivo/Transferencia": "$664.990",
-        "Tarjeta crédito/débito": "$684.940"
+        "Efectivo/Transferencia": "$665.990",
+        "Tarjeta crédito/débito": "$685.970"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 549,
-      "store_id": "n1g",
-      "price": 689000,
-      "price_normal": 725263,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3165-amd-ryzen-9-9900x-3d-socket-am5-12c24t-44ghz-hasta-55-ghz-zen-5-tdp-120w-100-100001368wof.html",
-      "store_name": "N1G",
-      "price_card": 725517,
-      "price_specs": {
-        "Efectivo/Transferencia": "$689.000",
-        "Tarjeta crédito/débito": "$725.517"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
-    },
-    {
-      "product_id": 1137,
-      "store_id": "cg",
-      "price": 738990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/promo-amd/procesador-amd-ryzen-9-9900x3d/",
-      "store_name": "CentralGamer",
-      "price_card": 777861,
-      "price_specs": {
-        "Efectivo/Transferencia": "$738.990",
-        "Webpay / Tarjeta": "$777.861"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -110,7 +72,13 @@
       "store_name": "MyShop",
       "date": "2026-06-09",
       "price": 664990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 665990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }

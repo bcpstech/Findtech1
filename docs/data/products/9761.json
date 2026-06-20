@@ -9,31 +9,50 @@
   "description": null,
   "specs": {
     "Factor de forma": "Full Tower",
-    "Efectivo/Transferencia": "$109.995",
-    "Tarjeta crédito/débito": "$114.945"
+    "Efectivo/Transferencia": "$116.995",
+    "Tarjeta crédito/débito": "$122.260"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:07",
-  "updated_at": "2026-06-09 02:45:51",
+  "updated_at": "2026-06-20 00:10:42",
   "prices": [
     {
       "product_id": 9761,
       "store_id": "spdigital",
-      "price": 109995,
+      "price": 116995,
       "price_normal": 159990,
-      "discount_pct": 31,
+      "discount_pct": 27,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/gabinete-gamer-antec-c8-white-doble-camara-vidrio-templado-vista-270deg-e-atx-atx-m-atx-itx",
       "store_name": "SP Digital",
-      "price_card": 114945,
+      "price_card": 122260,
       "price_specs": {
-        "Transferencia / Efectivo": "$109.995",
-        "Webpay / Tarjeta": "$114.945"
+        "Transferencia / Efectivo": "$116.995",
+        "Webpay / Tarjeta": "$122.260"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 38993,
+      "store_id": "mybox",
+      "price": 131323,
+      "price_normal": 134690,
+      "discount_pct": 2,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/gabinetes/6056-gabinete-antec-c8-black.html",
+      "store_name": "MyBox",
+      "price_card": 135263,
+      "price_specs": {
+        "Efectivo/Transferencia": "$131.323",
+        "Tarjeta crédito/débito": "$135.263"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -48,7 +67,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 109995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 116995
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-20"
 }
