@@ -1570,10 +1570,11 @@
     "best_price": 26890,
     "best_store_name": "ProGaming",
     "best_store_id": "progaming",
-    "store_count": 2,
+    "store_count": 3,
     "prices": {
       "progaming": 26890,
-      "spdigital": 29995
+      "spdigital": 29995,
+      "bcpstech": 43450
     },
     "url": "https://progaming.cl/producto/componentes/refrigeracion/disipador-cougar-forza-50-essential/"
   },
@@ -2166,6 +2167,42 @@
       "spdigital": 34990
     },
     "url": "https://www.spdigital.cl/kit-de-3-ventiladores-cooler-master-sickleflow-edge-120-argb-white-edition-120mm-blanco"
+  },
+  {
+    "id": 79698,
+    "category_id": "case",
+    "brand": "Genérico",
+    "name": "Gabinete ESGAMING HA06 - 4 Fans ARGB",
+    "slug": "gabinete-esgaming-ha06-4-fans-argb",
+    "image_url": null,
+    "tags": [],
+    "updated_at": "2026-06-25 19:20:36",
+    "best_price": 34990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 1,
+    "prices": {
+      "bcpstech": 34990
+    },
+    "url": "https://bcpstech.cl/?p=1567"
+  },
+  {
+    "id": 79699,
+    "category_id": "case",
+    "brand": "Genérico",
+    "name": "Gabinete EsGaming U09 - 4 Ventiladores ARGB",
+    "slug": "bcpstech-gabinete-esgaming-u09-4-ventiladores-argb",
+    "image_url": null,
+    "tags": [],
+    "updated_at": "2026-06-25 19:20:36",
+    "best_price": 34990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 1,
+    "prices": {
+      "bcpstech": 34990
+    },
+    "url": "https://bcpstech.cl/?p=1566"
   },
   {
     "id": 33436,
@@ -2849,6 +2886,24 @@
     "url": "https://store.infor-ingen.com/producto/gabinete-micro-atx-eiranex-pm150-black-3-fan/"
   },
   {
+    "id": 71327,
+    "category_id": "case",
+    "brand": "Genérico",
+    "name": "Gabinete EsGaming F22, 4 Ventiladores ARGB",
+    "slug": "gabinete-esgaming-f22-4-ventiladores-argb",
+    "image_url": "https://images.findtech.cl/products/gabinete-esgaming-f22-4-ventiladores-argb.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:20:40",
+    "best_price": 42990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 1,
+    "prices": {
+      "bcpstech": 42990
+    },
+    "url": "https://bcpstech.cl/?p=1180"
+  },
+  {
     "id": 32063,
     "category_id": "case",
     "brand": "Genérico",
@@ -3168,11 +3223,12 @@
     "best_price": 44995,
     "best_store_name": "SP Digital",
     "best_store_id": "spdigital",
-    "store_count": 3,
+    "store_count": 4,
     "prices": {
       "spdigital": 44995,
       "dust2": 49990,
-      "centrale": 54020
+      "centrale": 54020,
+      "bcpstech": 56990
     },
     "url": "https://www.spdigital.cl/segunda-seleccion-fuente-de-poder-esgaming-es-rgb650w-cables-fijos-certificada-80-plus-bronze-atx"
   },
@@ -3278,10 +3334,11 @@
     "best_price": 46180,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
-    "store_count": 3,
+    "store_count": 4,
     "prices": {
       "centrale": 46180,
       "winpy": 49856,
+      "bcpstech": 49990,
       "spdigital": 52995
     },
     "url": "https://centrale.cl/producto/gabinete-esgaming-h60-bk-m-atx-5-ventiladores-argb-120mm-vidrio-templado/"
@@ -3308,19 +3365,20 @@
     "id": 71324,
     "category_id": "case",
     "brand": "Genérico",
-    "name": "Gabinete - GameMax VISTA COC AB - ATX - Negro - Sin Fuente - Incluye 5 FAN 120MM ARGB",
+    "name": "Gabinete Gamemax Vista COC AB",
     "slug": "gabinete-gamemax-vista-coc-ab",
-    "image_url": "https://images.findtech.cl/products/gabinete-gamemax-vista-coc-ab-atx-negro-sin-fuente-incluye-5-fan-120mm-argb.jpg",
+    "image_url": "https://images.findtech.cl/products/gabinete-gamemax-vista-coc-ab.webp",
     "tags": [],
-    "updated_at": "2026-06-25 18:07:40",
+    "updated_at": "2026-06-25 19:20:38",
     "best_price": 46990,
     "best_store_name": "MyShop",
     "best_store_id": "myshop",
-    "store_count": 4,
+    "store_count": 5,
     "prices": {
       "myshop": 46990,
       "winpy": 47424,
       "centrale": 48830,
+      "bcpstech": 48990,
       "infor-ingen": 80900
     },
     "url": "https://www.myshop.cl/producto/gabinete-gamemax-vista-coc-ab-atx-negro-sin-fuente-incluye-5-fan-120mm-argb-frontales-p35389"
@@ -3871,6 +3929,24 @@
     "url": "https://store.infor-ingen.com/producto/gabinete-azza-spectra-280w-white/"
   },
   {
+    "id": 71359,
+    "category_id": "cooling",
+    "brand": "Genérico",
+    "name": "Refrigeración Liquida EsGaming CZ-240B-BK ARGB 240",
+    "slug": "refrigeracion-liquida-esgaming-cz-240b-bk-argb-240",
+    "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-esgaming-cz-240b-bk-argb-240.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:21:51",
+    "best_price": 50990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 1,
+    "prices": {
+      "bcpstech": 50990
+    },
+    "url": "https://bcpstech.cl/?p=1116"
+  },
+  {
     "id": 31922,
     "category_id": "mobo",
     "brand": "MSI",
@@ -3938,9 +4014,10 @@
     "best_price": 51990,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
-    "store_count": 4,
+    "store_count": 5,
     "prices": {
       "centrale": 51990,
+      "bcpstech": 54990,
       "winpy": 57760,
       "mybox": 61741,
       "n1g": 68900
@@ -4297,9 +4374,10 @@
     "best_price": 54990,
     "best_store_name": "N1G",
     "best_store_id": "n1g",
-    "store_count": 3,
+    "store_count": 4,
     "prices": {
       "n1g": 54990,
+      "bcpstech": 56990,
       "winpy": 57152,
       "centrale": 62680
     },
@@ -4396,6 +4474,26 @@
     "url": "https://store.infor-ingen.com/producto/disco-duro-patriot-p210-ssd-256gb-sata3-2-5/"
   },
   {
+    "id": 71320,
+    "category_id": "psu",
+    "brand": "Gigabyte",
+    "name": "Fuente de Poder Gigabyte GP-P750BS",
+    "slug": "fuente-de-poder-gigabyte-gp-p750bs",
+    "image_url": "https://images.findtech.cl/products/fuente-de-poder-gigabyte-gp-p750bs.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:20:27",
+    "best_price": 55990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 3,
+    "prices": {
+      "bcpstech": 55990,
+      "dust2": 57990,
+      "spdigital": 57995
+    },
+    "url": "https://bcpstech.cl/?p=1320"
+  },
+  {
     "id": 72698,
     "category_id": "storage",
     "brand": "Kingspec",
@@ -4415,6 +4513,24 @@
       "n1g": 199000
     },
     "url": "https://dust2.gg/producto/disco-duro-ssd-kingspec-256-gb-p3-256-sata-iii-2-5/"
+  },
+  {
+    "id": 71333,
+    "category_id": "case",
+    "brand": "Genérico",
+    "name": "Gabinete EsGaming Rebel - Black",
+    "slug": "gabinete-esgaming-rebel-black",
+    "image_url": "https://images.findtech.cl/products/gabinete-esgaming-rebel-black.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:20:49",
+    "best_price": 55990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 1,
+    "prices": {
+      "bcpstech": 55990
+    },
+    "url": "https://bcpstech.cl/?p=1157"
   },
   {
     "id": 9790,
@@ -4651,25 +4767,6 @@
       "centrale": 63490
     },
     "url": "https://www.spdigital.cl/msi-a12-cooling-system-240mm"
-  },
-  {
-    "id": 2240,
-    "category_id": "psu",
-    "brand": "Gigabyte",
-    "name": "Fuente de Poder Gigabyte GP-P750BS 750W 80 PLUS Bronze",
-    "slug": "fuente-de-poder-gigabyte-gp-p750bs-750w-80-plus-bronze",
-    "image_url": "https://images.findtech.cl/products/fuente-de-poder-gigabyte-gp-p750bs-750w-80-plus-bronze.jpg",
-    "tags": [],
-    "updated_at": "2026-06-25 18:21:32",
-    "best_price": 57990,
-    "best_store_name": "Dust2",
-    "best_store_id": "dust2",
-    "store_count": 2,
-    "prices": {
-      "dust2": 57990,
-      "spdigital": 57995
-    },
-    "url": "https://dust2.gg/producto/fuente-de-poder-gigabyte-gp-p750bs-750w-80-plus-bronze/"
   },
   {
     "id": 1794,
@@ -5147,6 +5244,24 @@
     "url": "https://www.spdigital.cl/ventilador-cpu-water-cooler-cz-360b-bk-argb-360-esgaming"
   },
   {
+    "id": 71331,
+    "category_id": "case",
+    "brand": "Genérico",
+    "name": "Gabinete Gamemax T20 BK",
+    "slug": "gabinete-gamemax-t20-bk",
+    "image_url": "https://images.findtech.cl/products/gabinete-gamemax-t20-bk.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:20:47",
+    "best_price": 60990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 1,
+    "prices": {
+      "bcpstech": 60990
+    },
+    "url": "https://bcpstech.cl/?p=1281"
+  },
+  {
     "id": 1105,
     "category_id": "case",
     "brand": "Genérico",
@@ -5240,23 +5355,24 @@
     "url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-geforce-gt-710-evo-de-2gb-ddr5-perfil-bajo/"
   },
   {
-    "id": 60058,
+    "id": 60060,
     "category_id": "ram",
     "brand": "Kingston",
-    "name": "Memoria RAM DIMM 8 GB - DDR4 3200 MT/s - Kingston Fury Beast RGB Black (KF432C16BB2A/8)",
-    "slug": "memoria-ram-dimm-8-gb-ddr4-3200-mt-s-kingston-fury-beast-rgb-black-kf432c16bb2a-8",
-    "image_url": "https://images.findtech.cl/products/memoria-ram-dimm-8-gb-ddr4-3200-mt-s-kingston-fury-beast-rgb-black-kf432c16bb2a-8.jpg",
+    "name": "Memoria RAM DIMM 8 GB - DDR4 3200 MT/s - Kingston Fury Renegade RGB Black (KF432C16RB2A/8)",
+    "slug": "memoria-ram-dimm-8-gb-ddr4-3200-mt-s-kingston-fury-renegade-rgb-black-kf432c16rb2a-8",
+    "image_url": "https://images.findtech.cl/products/memoria-ram-dimm-8-gb-ddr4-3200-mt-s-kingston-fury-renegade-rgb-black-kf432c16rb2a-8.jpg",
     "tags": [],
     "updated_at": "2026-06-25 18:46:02",
     "best_price": 62900,
     "best_store_name": "Infor-Ingen",
     "best_store_id": "infor-ingen",
-    "store_count": 6,
+    "store_count": 7,
     "prices": {
       "infor-ingen": 62900,
       "centrale": 69820,
       "myshop": 69990,
       "dust2": 73990,
+      "bcpstech": 80990,
       "spdigital": 92263,
       "mybox": 289990
     },
@@ -5539,6 +5655,46 @@
     "url": "https://www.spdigital.cl/msi-pci-express-nvidia-gt-710-2gd3"
   },
   {
+    "id": 71358,
+    "category_id": "cooling",
+    "brand": "Genérico",
+    "name": "Refrigeración Liquida EsGaming CZ-360B-BK ARGB 360",
+    "slug": "refrigeracion-liquida-esgaming-cz-360b-bk-argb-360",
+    "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-esgaming-cz-360b-bk-argb-360.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:21:51",
+    "best_price": 65990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 3,
+    "prices": {
+      "bcpstech": 65990,
+      "progaming": 103890,
+      "trulustore": 149990
+    },
+    "url": "https://bcpstech.cl/?p=1120"
+  },
+  {
+    "id": 71360,
+    "category_id": "cooling",
+    "brand": "Genérico",
+    "name": "Refrigeración Liquida Cougar Poseidon Elite ARGB 240 - Black",
+    "slug": "refrigeracion-liquida-cougar-poseidon-elite-argb-240-black",
+    "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-cougar-poseidon-elite-argb-240-black.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:21:52",
+    "best_price": 65990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 3,
+    "prices": {
+      "bcpstech": 65990,
+      "spdigital": 84995,
+      "progaming": 85990
+    },
+    "url": "https://bcpstech.cl/?p=969"
+  },
+  {
     "id": 31840,
     "category_id": "gpu",
     "brand": "NVIDIA",
@@ -5610,6 +5766,24 @@
       "progaming": 68990
     },
     "url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-redragon-ccw-1018-360-argb/"
+  },
+  {
+    "id": 71334,
+    "category_id": "case",
+    "brand": "Genérico",
+    "name": "Gabinete EsGaming Viper - Black, 6 Ventiladores ARGB",
+    "slug": "gabinete-esgaming-viper-black-6-ventiladores-argb",
+    "image_url": "https://images.findtech.cl/products/gabinete-esgaming-viper-black-6-ventiladores-argb.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:20:50",
+    "best_price": 68990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 1,
+    "prices": {
+      "bcpstech": 68990
+    },
+    "url": "https://bcpstech.cl/?p=1149"
   },
   {
     "id": 72768,
@@ -5767,9 +5941,11 @@
     "best_price": 69900,
     "best_store_name": "Infor-Ingen",
     "best_store_id": "infor-ingen",
-    "store_count": 4,
+    "store_count": 6,
     "prices": {
       "infor-ingen": 69900,
+      "myshop": 72990,
+      "bcpstech": 72990,
       "centrale": 76930,
       "dust2": 84490,
       "spdigital": 100088
@@ -5959,6 +6135,24 @@
     "url": "https://www.spdigital.cl/masterbox-540"
   },
   {
+    "id": 71330,
+    "category_id": "case",
+    "brand": "Genérico",
+    "name": "Gabinete EsGaming BK01, 6 Ventiladores ARGB",
+    "slug": "gabinete-esgaming-bk01-6-ventiladores-argb",
+    "image_url": "https://images.findtech.cl/products/gabinete-esgaming-bk01-6-ventiladores-argb.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:20:42",
+    "best_price": 69990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 1,
+    "prices": {
+      "bcpstech": 69990
+    },
+    "url": "https://bcpstech.cl/?p=1132"
+  },
+  {
     "id": 9641,
     "category_id": "cooling",
     "brand": "AMD",
@@ -6072,21 +6266,20 @@
     "url": "https://centrale.cl/producto/fuente-de-poder-650w-seasonic-s12iii-80-plus-bronze-garantia-5-anos/"
   },
   {
-    "id": 60056,
+    "id": 2026,
     "category_id": "ram",
-    "brand": "XPG",
-    "name": "Memoria RAM DIMM 8 GB - DDR4 3200 MT/s - XPG Gammix D35 Black (AX4U32008G16A-SBKD35)",
-    "slug": "memoria-ram-dimm-8-gb-ddr4-3200-mt-s-xpg-gammix-d35-black-ax4u32008g16a-sbkd35",
-    "image_url": "https://images.findtech.cl/products/memoria-ram-dimm-8-gb-ddr4-3200-mt-s-xpg-gammix-d35-black-ax4u32008g16a-sbkd35.jpg",
+    "brand": "Genérico",
+    "name": "Memoria RAM XPG Gammix D35, DDR4, 3200 8 GB, CL16, Blanco",
+    "slug": "memoria-ram-xpg-gammix-d35-ddr4-3200-8-gb-cl16-blanco",
+    "image_url": "https://images.findtech.cl/products/memoria-ram-xpg-gammix-d35-ddr4-3200-8-gb-cl16-blanco.jpg",
     "tags": [],
     "updated_at": "2026-06-25 18:46:02",
     "best_price": 71990,
     "best_store_name": "Dust2",
     "best_store_id": "dust2",
-    "store_count": 2,
+    "store_count": 1,
     "prices": {
-      "dust2": 71990,
-      "myshop": 72990
+      "dust2": 71990
     },
     "url": "https://dust2.gg/producto/memoria-ram-xpg-gammix-d35-ddr4-3200-8-gb-cl16-blanco/"
   },
@@ -6168,6 +6361,24 @@
       "spdigital": 72855
     },
     "url": "https://www.spdigital.cl/qube-500-flatpack-macaron-edition"
+  },
+  {
+    "id": 71332,
+    "category_id": "case",
+    "brand": "Genérico",
+    "name": "Gabinete EsGaming ZERO-BK",
+    "slug": "gabinete-esgaming-zero-bk",
+    "image_url": "https://images.findtech.cl/products/gabinete-esgaming-zero-bk.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:20:48",
+    "best_price": 72990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 1,
+    "prices": {
+      "bcpstech": 72990
+    },
+    "url": "https://bcpstech.cl/?p=1172"
   },
   {
     "id": 9628,
@@ -6346,11 +6557,34 @@
     "best_price": 74990,
     "best_store_name": "Dust2",
     "best_store_id": "dust2",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "dust2": 74990
+      "dust2": 74990,
+      "bcpstech": 76990
     },
     "url": "https://dust2.gg/producto/gabinete-gamer-esgaming-gilgamesh-negro-atx/"
+  },
+  {
+    "id": 79723,
+    "category_id": "mobo",
+    "brand": "Gigabyte",
+    "name": "Placa Madre Gigabyte A620M H",
+    "slug": "placa-madre-gigabyte-a620m-h",
+    "image_url": "https://images.findtech.cl/products/placa-madre-gigabyte-a620m-h.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:21:13",
+    "best_price": 74990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 5,
+    "prices": {
+      "bcpstech": 74990,
+      "winpy": 77824,
+      "centrale": 78340,
+      "mybox": 103066,
+      "spdigital": 119995
+    },
+    "url": "https://bcpstech.cl/?p=1477"
   },
   {
     "id": 60137,
@@ -6485,17 +6719,18 @@
     "id": 71318,
     "category_id": "storage",
     "brand": "Kingston",
-    "name": "SSD 2.5\" - 240 GB - Kingston A400 - SATA 3 (6.0 Gb/s) (SA400S37/240G)",
+    "name": "SSD Kingston SSDNow A400 240 GB",
     "slug": "ssd-kingston-ssdnow-a400-240-gb",
-    "image_url": "https://images.findtech.cl/products/ssd-2-5-240-gb-kingston-a400-sata-3-6-0-gb-s-sa400s37-240g.png",
+    "image_url": "https://images.findtech.cl/products/ssd-kingston-ssdnow-a400-240-gb.webp",
     "tags": [],
-    "updated_at": "2026-06-25 18:46:02",
+    "updated_at": "2026-06-25 19:22:11",
     "best_price": 75990,
     "best_store_name": "MyShop",
     "best_store_id": "myshop",
-    "store_count": 4,
+    "store_count": 5,
     "prices": {
       "myshop": 75990,
+      "bcpstech": 77990,
       "winpy": 80256,
       "centrale": 84440,
       "spdigital": 119001
@@ -6514,11 +6749,30 @@
     "best_price": 75990,
     "best_store_name": "ProGaming",
     "best_store_id": "progaming",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "progaming": 75990
+      "progaming": 75990,
+      "bcpstech": 75990
     },
     "url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-gigabyte-240-ice-argb-white/"
+  },
+  {
+    "id": 71326,
+    "category_id": "case",
+    "brand": "ASUS",
+    "name": "Gabinete ASUS A31 Case - White",
+    "slug": "gabinete-asus-a31-case-white",
+    "image_url": "https://images.findtech.cl/products/gabinete-asus-a31-case-white.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:20:39",
+    "best_price": 75990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 1,
+    "prices": {
+      "bcpstech": 75990
+    },
+    "url": "https://bcpstech.cl/?p=1222"
   },
   {
     "id": 9463,
@@ -6615,27 +6869,6 @@
       "alltec": 77500
     },
     "url": "https://www.alltec.cl/sin-fuente-de-poder/2082-gabinete-cooler-master-cmp-520-atx.html"
-  },
-  {
-    "id": 31930,
-    "category_id": "mobo",
-    "brand": "Gigabyte",
-    "name": "Placa Madre Gigabyte A620M H (AM5, DDR5 4400/7200MHz, M.2, MicroATX)",
-    "slug": "winpy-placa-madre-gigabyte-a620m-h-am5-ddr5-4400-7200mhz-m-2-microatx",
-    "image_url": "https://images.findtech.cl/products/placa-madre-gigabyte-a620m-h-am5-ddr5-4400-7200mhz-m-2-microatx.jpg",
-    "tags": [],
-    "updated_at": "2026-06-25 18:46:02",
-    "best_price": 77824,
-    "best_store_name": "Winpy",
-    "best_store_id": "winpy",
-    "store_count": 4,
-    "prices": {
-      "winpy": 77824,
-      "centrale": 78340,
-      "mybox": 103066,
-      "spdigital": 119995
-    },
-    "url": "https://www.winpy.cl/venta/placa-madre-gigabyte-a620m-h-am5-ddr5-4400-7200mhz-m-2-microatx/"
   },
   {
     "id": 581,
@@ -6749,6 +6982,25 @@
       "dust2": 78990
     },
     "url": "https://dust2.gg/producto/memoria-ram-corsair-vengeance-lpx-ddr4-8gb-3200mhz-black/"
+  },
+  {
+    "id": 71325,
+    "category_id": "case",
+    "brand": "Genérico",
+    "name": "Gabinete Gamemax Hype-A BK",
+    "slug": "gabinete-gamemax-hype-a-bk",
+    "image_url": "https://images.findtech.cl/products/gabinete-gamemax-hype-a-bk.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:20:38",
+    "best_price": 78990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 2,
+    "prices": {
+      "bcpstech": 78990,
+      "infor-ingen": 82900
+    },
+    "url": "https://bcpstech.cl/?p=1287"
   },
   {
     "id": 23541,
@@ -7118,6 +7370,27 @@
     "url": "https://n1g.cl/Home/computacion/1876-amd-ryzen-5-4500-oem-6-core-12-hilos-socket-am4-65w-desktop-processor-.html"
   },
   {
+    "id": 79725,
+    "category_id": "mobo",
+    "brand": "ASRock",
+    "name": "Placa Madre ASRock H610M-HDV/M.2+ D5",
+    "slug": "placa-madre-asrock-h610m-hdv-m-2-d5",
+    "image_url": "https://images.findtech.cl/products/placa-madre-asrock-h610m-hdv-m-2-d5.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:21:19",
+    "best_price": 80990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 4,
+    "prices": {
+      "bcpstech": 80990,
+      "n1g": 88000,
+      "winpy": 95456,
+      "infor-ingen": 109900
+    },
+    "url": "https://bcpstech.cl/?p=1553"
+  },
+  {
     "id": 77740,
     "category_id": "case",
     "brand": "Antec",
@@ -7152,24 +7425,6 @@
       "centrale": 81780
     },
     "url": "https://centrale.cl/producto/fuente-de-poder-650w-antec-cuprum-strike-80-bronze-semi-modular/"
-  },
-  {
-    "id": 33905,
-    "category_id": "case",
-    "brand": "Genérico",
-    "name": "GABINETE GAMEMAX HYPE A BLACK (4 FAN ARGB)",
-    "slug": "infor-ingen-gabinete-gamemax-hype-a-black-4-fan-argb",
-    "image_url": "https://images.findtech.cl/products/gabinete-gamemax-hype-a-black-4-fan-argb.png",
-    "tags": [],
-    "updated_at": "2026-06-25 18:44:33",
-    "best_price": 82900,
-    "best_store_name": "Infor-Ingen",
-    "best_store_id": "infor-ingen",
-    "store_count": 1,
-    "prices": {
-      "infor-ingen": 82900
-    },
-    "url": "https://store.infor-ingen.com/producto/gabinete-gamemax-hype-a-black-3-fan-argb/"
   },
   {
     "id": 38924,
@@ -7223,7 +7478,7 @@
     "store_count": 4,
     "prices": {
       "myshop": 83970,
-      "dust2": 86890,
+      "dust2": 86990,
       "centrale": 89030,
       "trulustore": 94990
     },
@@ -7361,25 +7616,6 @@
     "url": "https://trulustore.cl/producto/fuente-de-poder-msi-mag-a850gl-white-850w-80-gold-cybenetics-gold-full-modular-pcie-5-1-atx-3-1/"
   },
   {
-    "id": 66142,
-    "category_id": "cooling",
-    "brand": "Genérico",
-    "name": "Refrigeracion Liquida Cougar Poseidon Vistek ARGB 360 White",
-    "slug": "progaming-refrigeracion-liquida-cougar-poseidon-vistek-argb-360-white",
-    "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-cougar-poseidon-vistek-argb-360-white.jpg",
-    "tags": [],
-    "updated_at": "2026-06-25 18:24:29",
-    "best_price": 84995,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
-    "store_count": 2,
-    "prices": {
-      "spdigital": 84995,
-      "progaming": 85990
-    },
-    "url": "https://www.spdigital.cl/cougar-poseidon-360-liquid-cooling-system-fluid-argb-utteright"
-  },
-  {
     "id": 6094,
     "category_id": "cooling",
     "brand": "Genérico",
@@ -7428,11 +7664,31 @@
     "best_price": 85900,
     "best_store_name": "Infor-Ingen",
     "best_store_id": "infor-ingen",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "infor-ingen": 85900
+      "infor-ingen": 85900,
+      "bcpstech": 85990
     },
     "url": "https://store.infor-ingen.com/producto/m-b-asrock-b550m-hdv/"
+  },
+  {
+    "id": 71315,
+    "category_id": "storage",
+    "brand": "Seagate",
+    "name": "Disco Duro Seagate Barracuda 1 TB Sata 3.5 7200RPM",
+    "slug": "disco-duro-seagate-barracuda-1-tb-sata-3-5-7200rpm",
+    "image_url": "https://images.findtech.cl/products/disco-duro-seagate-barracuda-1-tb-sata-3-5-7200rpm.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:22:11",
+    "best_price": 85990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 2,
+    "prices": {
+      "bcpstech": 85990,
+      "centrale": 90350
+    },
+    "url": "https://bcpstech.cl/?p=1401"
   },
   {
     "id": 9456,
@@ -7483,10 +7739,11 @@
     "best_price": 86336,
     "best_store_name": "Winpy",
     "best_store_id": "winpy",
-    "store_count": 5,
+    "store_count": 6,
     "prices": {
       "winpy": 86336,
       "mybox": 93590,
+      "bcpstech": 99990,
       "centrale": 109510,
       "spdigital": 114995,
       "infor-ingen": 129900
@@ -7510,6 +7767,29 @@
       "centrale": 86370
     },
     "url": "https://centrale.cl/producto/gabinete-gamer-antec-cx700-argb-black/"
+  },
+  {
+    "id": 61752,
+    "category_id": "psu",
+    "brand": "Gigabyte",
+    "name": "Fuente de Poder Gigabyte GP-UD750GM PG5 ICE 750W 80+ Gold",
+    "slug": "dust2-fuente-de-poder-gigabyte-gp-ud750gm-pg5-ice-750w-80-gold",
+    "image_url": "https://images.findtech.cl/products/fuente-de-poder-gigabyte-gp-ud750gm-pg5-ice-750w-80-gold.jpg",
+    "tags": [],
+    "updated_at": "2026-06-25 18:21:28",
+    "best_price": 86890,
+    "best_store_name": "Dust2",
+    "best_store_id": "dust2",
+    "store_count": 6,
+    "prices": {
+      "dust2": 86890,
+      "myshop": 97990,
+      "bcpstech": 107990,
+      "centrale": 117610,
+      "spdigital": 117995,
+      "mybox": 132991
+    },
+    "url": "https://dust2.gg/producto/fuente-de-poder-gigabyte-gp-ud750gm-pg5-ice-750w-80-gold/"
   },
   {
     "id": 65265,
@@ -7587,26 +7867,6 @@
       "spdigital": 87995
     },
     "url": "https://www.spdigital.cl/refrigeracion-liquida-antec-vortex-lum-240-argb-240mm-intelamd-incluye-controladora-black"
-  },
-  {
-    "id": 583,
-    "category_id": "mobo",
-    "brand": "ASROCK",
-    "name": "ASRock H610M-HDV LGA 1700 Intel H610 SATA 6Gb/s DDR4 Micro ATX Motherboard",
-    "slug": "asrock-h610m-hdv-lga-1700-intel-h610-sata-6gb-s-ddr4-micro-atx-motherboard",
-    "image_url": "https://images.findtech.cl/products/asrock-h610m-hdv-lga-1700-intel-h610-sata-6gb-s-ddr4-micro-atx-motherboard.jpg",
-    "tags": [],
-    "updated_at": "2026-06-25 18:46:02",
-    "best_price": 88000,
-    "best_store_name": "N1G",
-    "best_store_id": "n1g",
-    "store_count": 3,
-    "prices": {
-      "n1g": 88000,
-      "winpy": 95456,
-      "infor-ingen": 109900
-    },
-    "url": "https://n1g.cl/Home/computacion/2240-asrock-h610m-hdvm2-lga-1700-intel-h610-sata-6gbs-ddr4-micro-atx-motherboard.html"
   },
   {
     "id": 1445,
@@ -7907,6 +8167,42 @@
     "url": "https://mybox.cl/fuentes-de-poder/5580-fuente-de-poder-coolermaster-mwe-750-bronce-v3-750w--4719512145883.html"
   },
   {
+    "id": 60065,
+    "category_id": "ram",
+    "brand": "Kingston",
+    "name": "Memoria RAM DIMM 8 GB - DDR4 3600 MT/s - Kingston FURY Beast RGB Black (KF436C17BB2A/8)",
+    "slug": "memoria-ram-dimm-8-gb-ddr4-3600-mt-s-kingston-fury-beast-rgb-black-kf436c17bb2a-8",
+    "image_url": "https://images.findtech.cl/products/memoria-ram-dimm-8-gb-ddr4-3600-mt-s-kingston-fury-beast-rgb-black-kf436c17bb2a-8.jpg",
+    "tags": [],
+    "updated_at": "2026-06-25 18:46:02",
+    "best_price": 89990,
+    "best_store_name": "MyShop",
+    "best_store_id": "myshop",
+    "store_count": 1,
+    "prices": {
+      "myshop": 89990
+    },
+    "url": "https://www.myshop.cl/producto/dimm-8-gb-kingston-fury-beast-kf436c17bb8-1-x-8gb--dimm-ddr4-3600-p12247"
+  },
+  {
+    "id": 71314,
+    "category_id": "storage",
+    "brand": "Seagate",
+    "name": "Disco Duro Seagate SkyHawk 1 TB SATA 3.5 5400RPM",
+    "slug": "disco-duro-seagate-skyhawk-1-tb-sata-3-5-5400rpm",
+    "image_url": "https://images.findtech.cl/products/disco-duro-seagate-skyhawk-1-tb-sata-3-5-5400rpm.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:22:11",
+    "best_price": 89990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 1,
+    "prices": {
+      "bcpstech": 89990
+    },
+    "url": "https://bcpstech.cl/?p=1402"
+  },
+  {
     "id": 9709,
     "category_id": "psu",
     "brand": "Antec",
@@ -7923,24 +8219,6 @@
       "spdigital": 89995
     },
     "url": "https://www.spdigital.cl/fuente-de-poder-antec-csk-pro-850w-ec-semi-modular-certificada-80-plus-bronze"
-  },
-  {
-    "id": 1540,
-    "category_id": "storage",
-    "brand": "Seagate",
-    "name": "Disco Duro Seagate Barracuda 1TB, SATA 6Gb/s, 7200RPM, 256MB, 3.5&#8243;",
-    "slug": "disco-duro-seagate-barracuda-1tb-sata-6gb-s-7200rpm-256mb-3-5-8243",
-    "image_url": "https://images.findtech.cl/products/disco-duro-seagate-barracuda-1tb-sata-6gb-s-7200rpm-256mb-3-5-8243.webp",
-    "tags": [],
-    "updated_at": "2026-06-25 18:46:02",
-    "best_price": 90350,
-    "best_store_name": "Centrale",
-    "best_store_id": "centrale",
-    "store_count": 1,
-    "prices": {
-      "centrale": 90350
-    },
-    "url": "https://centrale.cl/producto/disco-duro-seagate-barracuda-1tb-sata-6gb-s-7200rpm-256mb-3-5/"
   },
   {
     "id": 23598,
@@ -8448,28 +8726,6 @@
       "centrale": 97900
     },
     "url": "https://centrale.cl/producto/fuente-de-poder-850w-thermalright-sp-850-black-80-platinum-full-modular/"
-  },
-  {
-    "id": 60149,
-    "category_id": "psu",
-    "brand": "Gigabyte",
-    "name": "Fuente de Poder 1000W (Certificada) 80+ Gold - Gigabyte GP-UD1000GM - ATX - Modular",
-    "slug": "fuente-de-poder-1000w-certificada-80-gold-gigabyte-gp-ud1000gm-atx-modular",
-    "image_url": "https://images.findtech.cl/products/fuente-de-poder-1000w-certificada-80-gold-gigabyte-gp-ud1000gm-atx-modular.jpg",
-    "tags": [],
-    "updated_at": "2026-06-25 18:06:56",
-    "best_price": 97990,
-    "best_store_name": "MyShop",
-    "best_store_id": "myshop",
-    "store_count": 5,
-    "prices": {
-      "myshop": 97990,
-      "dust2": 115990,
-      "centrale": 117610,
-      "spdigital": 117995,
-      "mybox": 132991
-    },
-    "url": "https://www.myshop.cl/producto/gp-ud1000gm-p39836"
   },
   {
     "id": 60099,
@@ -8992,25 +9248,6 @@
     "url": "https://centrale.cl/producto/fuente-de-poder-850w-gigabyte-ud850gm-pg5-white-80-plus-full-modular/"
   },
   {
-    "id": 1762,
-    "category_id": "cooling",
-    "brand": "Genérico",
-    "name": "Refrigeración Líquida ESGAMING Aurora 360 ARGB Negro",
-    "slug": "refrigeracion-liquida-esgaming-aurora-360-argb-negro",
-    "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-esgaming-aurora-360-argb-negro.jpg",
-    "tags": [],
-    "updated_at": "2026-06-25 18:24:30",
-    "best_price": 103890,
-    "best_store_name": "ProGaming",
-    "best_store_id": "progaming",
-    "store_count": 2,
-    "prices": {
-      "progaming": 103890,
-      "trulustore": 149990
-    },
-    "url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-esgaming-aurora-360-argb-negro/"
-  },
-  {
     "id": 32009,
     "category_id": "storage",
     "brand": "Kingston",
@@ -9231,9 +9468,10 @@
     "best_price": 106260,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "centrale": 106260
+      "centrale": 106260,
+      "bcpstech": 107990
     },
     "url": "https://centrale.cl/producto/disco-ssd-256gb-kingston-kc600-2-5%e2%80%b3-sata3-auto-encript/"
   },
@@ -9593,9 +9831,10 @@
     "best_price": 112680,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "centrale": 112680
+      "centrale": 112680,
+      "bcpstech": 112990
     },
     "url": "https://centrale.cl/producto/placa-madre-asus-prime-h810m-e-micro-atx-lga-1851-ddr5-hasta-128gb/"
   },
@@ -9963,9 +10202,10 @@
     "best_price": 119776,
     "best_store_name": "Winpy",
     "best_store_id": "winpy",
-    "store_count": 5,
+    "store_count": 6,
     "prices": {
       "winpy": 119776,
+      "bcpstech": 120990,
       "centrale": 125120,
       "spdigital": 125701,
       "alltec": 158900,
@@ -10408,10 +10648,11 @@
     "best_price": 129504,
     "best_store_name": "Winpy",
     "best_store_id": "winpy",
-    "store_count": 4,
+    "store_count": 5,
     "prices": {
       "winpy": 129504,
       "spdigital": 134995,
+      "bcpstech": 135990,
       "mybox": 144391,
       "centrale": 148990
     },
@@ -10561,6 +10802,26 @@
       "spdigital": 129995
     },
     "url": "https://www.spdigital.cl/gabinete-gamer-xyz-gaming-x-cs-tesseract-b"
+  },
+  {
+    "id": 79718,
+    "category_id": "mobo",
+    "brand": "Gigabyte",
+    "name": "Placa Madre Gigabyte B550 Eagle WIFI6",
+    "slug": "placa-madre-gigabyte-b550-eagle-wifi6",
+    "image_url": "https://images.findtech.cl/products/placa-madre-gigabyte-b550-eagle-wifi6.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:22:11",
+    "best_price": 130990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 3,
+    "prices": {
+      "bcpstech": 130990,
+      "centrale": 136300,
+      "mybox": 179390
+    },
+    "url": "https://bcpstech.cl/?p=1472"
   },
   {
     "id": 32022,
@@ -10727,9 +10988,10 @@
     "best_price": 135900,
     "best_store_name": "MyShop",
     "best_store_id": "myshop",
-    "store_count": 6,
+    "store_count": 7,
     "prices": {
       "myshop": 135900,
+      "bcpstech": 138990,
       "spdigital": 148273,
       "dust2": 151990,
       "centrale": 154410,
@@ -10737,25 +10999,6 @@
       "n1g": 379000
     },
     "url": "https://www.myshop.cl/producto/sodimm-16-gb-kingston-valueram-ddr4-3200-mhz-kvr32s22s816-p27818"
-  },
-  {
-    "id": 1342,
-    "category_id": "mobo",
-    "brand": "Gigabyte",
-    "name": "Placa Madre Gigabyte B550 EAGLE WIFI6  ATX, AM4, 4xDDR4, M.2 PCIe 3.0 , WiFi 6",
-    "slug": "placa-madre-gigabyte-b550-eagle-wifi6-atx-am4-4xddr4-m-2-pcie-3-0-wifi-6",
-    "image_url": "https://images.findtech.cl/products/placa-madre-gigabyte-b550-eagle-wifi6-atx-am4-4xddr4-m-2-pcie-3-0-wifi-6.webp",
-    "tags": [],
-    "updated_at": "2026-06-25 18:46:02",
-    "best_price": 136300,
-    "best_store_name": "Centrale",
-    "best_store_id": "centrale",
-    "store_count": 2,
-    "prices": {
-      "centrale": 136300,
-      "mybox": 179390
-    },
-    "url": "https://centrale.cl/producto/placa-madre-gigabyte-b550-eagle-wifi6-atx-am4-4xddr4-m-2-pcie-3-0-wifi-6/"
   },
   {
     "id": 1586,
@@ -10830,6 +11073,25 @@
       "centrale": 214990
     },
     "url": "https://www.myshop.cl/producto/dimm-8-gb-xpg-lancer-blade-ddr5-5600-mhz-black-ax5u5600c468g-slabbk-p35182"
+  },
+  {
+    "id": 79722,
+    "category_id": "mobo",
+    "brand": "Gigabyte",
+    "name": "Placa Madre Gigabyte B850M D3HP",
+    "slug": "placa-madre-gigabyte-b850m-d3hp",
+    "image_url": "https://images.findtech.cl/products/placa-madre-gigabyte-b850m-d3hp.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:21:13",
+    "best_price": 137990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 2,
+    "prices": {
+      "bcpstech": 137990,
+      "centrale": 146640
+    },
+    "url": "https://bcpstech.cl/?p=1483"
   },
   {
     "id": 761,
@@ -11165,24 +11427,6 @@
     "url": "https://www.alltec.cl/potencia-realcertificadas/2167-fuente-de-poder-xigmatek-fury-850w-80-plus-gold-full-modular-gen-5-4711409540740.html"
   },
   {
-    "id": 59993,
-    "category_id": "ram",
-    "brand": "Kingston",
-    "name": "Memoria RAM DIMM 8 GB - DDR5 5600 MT/s - Kingston FURY Beast RGB - Intel XMP/AMD EXPO (KF556C36BBEA-8)",
-    "slug": "memoria-ram-dimm-8-gb-ddr5-5600-mt-s-kingston-fury-beast-rgb-intel-xmp-amd-expo-kf556c36bbea-8",
-    "image_url": "https://images.findtech.cl/products/memoria-ram-dimm-8-gb-ddr5-5600-mt-s-kingston-fury-beast-rgb-intel-xmp-amd-expo-kf556c36bbea-8.jpg",
-    "tags": [],
-    "updated_at": "2026-06-25 18:46:02",
-    "best_price": 144990,
-    "best_store_name": "MyShop",
-    "best_store_id": "myshop",
-    "store_count": 1,
-    "prices": {
-      "myshop": 144990
-    },
-    "url": "https://www.myshop.cl/producto/dimm-8-gb-kingston-fury-beast-ddr5-288-contactos-5600-mhz--pc5-44800-cl40-125-v-sin-bufer-on-die-ecc-p18482"
-  },
-  {
     "id": 1680,
     "category_id": "psu",
     "brand": "Gigabyte",
@@ -11213,9 +11457,10 @@
     "best_price": 145700,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "centrale": 145700
+      "centrale": 145700,
+      "bcpstech": 155990
     },
     "url": "https://centrale.cl/producto/placa-madre-asus-b860m-ayw-gaming-wifi-micro-atx-lga-1851-2x-ddr5-wifi-6/"
   },
@@ -11236,24 +11481,6 @@
       "centrale": 145850
     },
     "url": "https://centrale.cl/producto/disco-duro-seagate-skyhawk-1tb-3-5-sata-6gb-s-para-videovigilancia/"
-  },
-  {
-    "id": 73230,
-    "category_id": "mobo",
-    "brand": "Gigabyte",
-    "name": "Placa Madre Gigabyte B850M D3HP Socket AM5, 4x DDR5, PCIe 5.0, 2x M.2",
-    "slug": "centrale-placa-madre-gigabyte-b850m-d3hp-socket-am5-4x-ddr5-pcie-5-0-2x-m-2",
-    "image_url": "https://images.findtech.cl/products/placa-madre-gigabyte-b850m-d3hp-socket-am5-4x-ddr5-pcie-5-0-2x-m-2.webp",
-    "tags": [],
-    "updated_at": "2026-06-25 18:46:02",
-    "best_price": 146640,
-    "best_store_name": "Centrale",
-    "best_store_id": "centrale",
-    "store_count": 1,
-    "prices": {
-      "centrale": 146640
-    },
-    "url": "https://centrale.cl/producto/placa-madre-gigabyte-b850m-d3hp-socket-am5-4x-ddr5-pcie-5-0-2x-m-2/"
   },
   {
     "id": 39012,
@@ -11901,9 +12128,10 @@
     "best_price": 159904,
     "best_store_name": "Winpy",
     "best_store_id": "winpy",
-    "store_count": 3,
+    "store_count": 4,
     "prices": {
       "winpy": 159904,
+      "bcpstech": 167990,
       "centrale": 171480,
       "mybox": 185491
     },
@@ -13457,11 +13685,12 @@
     "best_price": 202995,
     "best_store_name": "SP Digital",
     "best_store_id": "spdigital",
-    "store_count": 5,
+    "store_count": 6,
     "prices": {
       "spdigital": 202995,
       "mybox": 213551,
       "winpy": 217664,
+      "bcpstech": 237990,
       "centrale": 247690,
       "trulustore": 299990
     },
@@ -13676,9 +13905,10 @@
     "best_price": 210690,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "centrale": 210690
+      "centrale": 210690,
+      "bcpstech": 210990
     },
     "url": "https://centrale.cl/producto/placa-madre-msi-b860m-gaming-plus-wifi-micro-atx-lga-1851-ddr5-wifi-7/"
   },
@@ -15706,6 +15936,29 @@
     "url": "https://www.spdigital.cl/x-silent-max-plat-1300w-wwo-cord"
   },
   {
+    "id": 71356,
+    "category_id": "cpu",
+    "brand": "AMD",
+    "name": "Procesador AMD Ryzen 7 7700X",
+    "slug": "procesador-amd-ryzen-7-7700x",
+    "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-7-7700x.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:21:39",
+    "best_price": 312990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 6,
+    "prices": {
+      "bcpstech": 312990,
+      "n1g": 329900,
+      "winpy": 337440,
+      "myshop": 337700,
+      "centrale": 351900,
+      "spdigital": 380104
+    },
+    "url": "https://bcpstech.cl/?p=1214"
+  },
+  {
     "id": 23447,
     "category_id": "gpu",
     "brand": "EVGA",
@@ -15885,28 +16138,6 @@
       "n1g": 328900
     },
     "url": "https://n1g.cl/Home/computacion/2944-asrock-x870-steel-legend-wifi-am5-amd-x870-sata-6gbs-atx-motherboard.html"
-  },
-  {
-    "id": 9411,
-    "category_id": "cpu",
-    "brand": "AMD",
-    "name": "Procesador AMD Ryzen 7 7700X, 4.5GHz, 8 Núcleos / 16 Hilos, Socket AM5, Sin Ventilador",
-    "slug": "procesador-amd-ryzen-7-7700x-4-5ghz-8-nucleos-16-hilos-socket-am5-sin-ventilador",
-    "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-7-7700x-4-5ghz-8-nucleos-16-hilos-socket-am5-sin-ventilador.jpg",
-    "tags": [],
-    "updated_at": "2026-06-25 17:56:41",
-    "best_price": 329900,
-    "best_store_name": "N1G",
-    "best_store_id": "n1g",
-    "store_count": 5,
-    "prices": {
-      "n1g": 329900,
-      "winpy": 337440,
-      "myshop": 337700,
-      "centrale": 351900,
-      "spdigital": 380104
-    },
-    "url": "https://n1g.cl/Home/computacion/1928-amd-ryzen-7-7700x-socket-am5-8-core-16-hilos-max-54ghz-video-int.html"
   },
   {
     "id": 1487,
@@ -16158,6 +16389,26 @@
     "url": "https://dust2.gg/producto/fuente-de-poder-corsair-hx1200i-1200w-80-plus-platinum/"
   },
   {
+    "id": 72104,
+    "category_id": "storage",
+    "brand": "Western Digital",
+    "name": "Unidad SSD Western Digital Black SN850X, 2TB, M.2 2280, NVMe PCIe 4.0 x4, Lec.7300MB/s Esc.6600MB/s",
+    "slug": "spdigital-unidad-ssd-western-digital-black-sn850x-2tb-m-2-2280-nvme-pcie-4-0-x4-lec-7300mb-s-esc-660",
+    "image_url": "https://images.findtech.cl/products/unidad-ssd-western-digital-black-sn850x-2tb-m-2-2280-nvme-pcie-4-0-x4-lec-7300mb-s-esc-6600mb-s.jpg",
+    "tags": [],
+    "updated_at": "2026-06-25 18:46:02",
+    "best_price": 342990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 3,
+    "prices": {
+      "bcpstech": 342990,
+      "spdigital": 362013,
+      "centrale": 378350
+    },
+    "url": "https://bcpstech.cl/?p=1403"
+  },
+  {
     "id": 1514,
     "category_id": "storage",
     "brand": "Seagate",
@@ -16245,9 +16496,10 @@
     "best_price": 344860,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
-    "store_count": 2,
+    "store_count": 3,
     "prices": {
       "centrale": 344860,
+      "bcpstech": 357950,
       "mybox": 382848
     },
     "url": "https://centrale.cl/producto/placa-madre-asus-tuf-gaming-z890-plus-wifi-intel-lga-1851-ddr5-wifi-7/"
@@ -16521,25 +16773,6 @@
       "centrale": 490480
     },
     "url": "https://mybox.cl/placa-madre/5521-placa-madre-gigabyte-aero-b650-ddr5-4719331848972.html"
-  },
-  {
-    "id": 72104,
-    "category_id": "storage",
-    "brand": "Western Digital",
-    "name": "Unidad SSD Western Digital Black SN850X, 2TB, M.2 2280, NVMe PCIe 4.0 x4, Lec.7300MB/s Esc.6600MB/s",
-    "slug": "spdigital-unidad-ssd-western-digital-black-sn850x-2tb-m-2-2280-nvme-pcie-4-0-x4-lec-7300mb-s-esc-660",
-    "image_url": "https://images.findtech.cl/products/unidad-ssd-western-digital-black-sn850x-2tb-m-2-2280-nvme-pcie-4-0-x4-lec-7300mb-s-esc-6600mb-s.jpg",
-    "tags": [],
-    "updated_at": "2026-06-25 18:46:02",
-    "best_price": 362013,
-    "best_store_name": "SP Digital",
-    "best_store_id": "spdigital",
-    "store_count": 2,
-    "prices": {
-      "spdigital": 362013,
-      "centrale": 378350
-    },
-    "url": "https://www.spdigital.cl/wd_black-sn850x-nvme-ssd-wds200t2x0e-ssd-2-tb-interno-m2-2280-pcie-40-x4-nvme"
   },
   {
     "id": 1591,
@@ -17015,9 +17248,10 @@
     "best_price": 399900,
     "best_store_name": "N1G",
     "best_store_id": "n1g",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "n1g": 399900
+      "n1g": 399900,
+      "bcpstech": 407990
     },
     "url": "https://n1g.cl/Home/computacion/3316-power-color-hellhound-amd-radeon-rx-9060-xt-8gb-gddr6-rx9060xt-8g-loc.html"
   },
@@ -18125,6 +18359,27 @@
     "url": "https://www.myshop.cl/producto/geforce-rtx-5060-ti-windforce-8g-p39199"
   },
   {
+    "id": 71345,
+    "category_id": "mobo",
+    "brand": "ASUS",
+    "name": "Placa Madre ASUS ROG STRIX Z890-F GAMING WIFI",
+    "slug": "placa-madre-asus-rog-strix-z890-f-gaming-wifi",
+    "image_url": "https://images.findtech.cl/products/placa-madre-asus-rog-strix-z890-f-gaming-wifi.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:22:11",
+    "best_price": 487990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 4,
+    "prices": {
+      "bcpstech": 487990,
+      "centrale": 510480,
+      "mybox": 542254,
+      "n1g": 545000
+    },
+    "url": "https://bcpstech.cl/?p=1075"
+  },
+  {
     "id": 60305,
     "category_id": "cpu",
     "brand": "Intel",
@@ -18472,26 +18727,6 @@
     "url": "https://www.myshop.cl/producto/zotac-geforce-rtx5060ti-twin-edge-oc-p43847"
   },
   {
-    "id": 1403,
-    "category_id": "mobo",
-    "brand": "Rog",
-    "name": "Placa Madre ASUS ROG STRIX Z890-F GAMING WIFI, Intel LGA 1851, DDR5, WiFi 7",
-    "slug": "placa-madre-asus-rog-strix-z890-f-gaming-wifi-intel-lga-1851-ddr5-wifi-7",
-    "image_url": "https://images.findtech.cl/products/placa-madre-asus-rog-strix-z890-f-gaming-wifi-intel-lga-1851-ddr5-wifi-7.webp",
-    "tags": [],
-    "updated_at": "2026-06-25 18:46:02",
-    "best_price": 510480,
-    "best_store_name": "Centrale",
-    "best_store_id": "centrale",
-    "store_count": 3,
-    "prices": {
-      "centrale": 510480,
-      "mybox": 542254,
-      "n1g": 545000
-    },
-    "url": "https://centrale.cl/producto/placa-madre-asus-rog-strix-z890-f-gaming-wifi-intel-lga-1851-ddr5-wifi-7/"
-  },
-  {
     "id": 38844,
     "category_id": "cpu",
     "brand": "AMD",
@@ -18521,10 +18756,11 @@
     "best_price": 513436,
     "best_store_name": "SP Digital",
     "best_store_id": "spdigital",
-    "store_count": 3,
+    "store_count": 4,
     "prices": {
       "spdigital": 513436,
       "centrale": 531380,
+      "bcpstech": 557990,
       "n1g": 609900
     },
     "url": "https://www.spdigital.cl/asus-motherboard-rog-strix-z890-e-gaming-1851-d"
@@ -18755,6 +18991,24 @@
       "mybox": 666453
     },
     "url": "https://www.alltec.cl/intel/2178-intel-i9-14900kf-32ghz60ghz-turbo-24c32t-36mb-cache-125w253w-lga1700-14th-generacion.html"
+  },
+  {
+    "id": 71365,
+    "category_id": "gpu",
+    "brand": "ASRock",
+    "name": "Tarjeta de Video ASRock Radeon RX 9060 XT Steel Legend 16GB OC",
+    "slug": "tarjeta-de-video-asrock-radeon-rx-9060-xt-steel-legend-16gb-oc",
+    "image_url": "https://images.findtech.cl/products/tarjeta-de-video-asrock-radeon-rx-9060-xt-steel-legend-16gb-oc.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:22:11",
+    "best_price": 565990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 1,
+    "prices": {
+      "bcpstech": 565990
+    },
+    "url": "https://bcpstech.cl/?p=981"
   },
   {
     "id": 55864,
@@ -19015,6 +19269,24 @@
     "url": "https://centrale.cl/producto/procesador-amd-ryzen-9-7950x-4-5ghz-16-nucleos-32-hilos-socket-am5/"
   },
   {
+    "id": 71347,
+    "category_id": "mobo",
+    "brand": "ASUS",
+    "name": "Placa Madre ASUS ProArt Z890-CREATOR WIFI",
+    "slug": "placa-madre-asus-proart-z890-creator-wifi",
+    "image_url": "https://images.findtech.cl/products/placa-madre-asus-proart-z890-creator-wifi.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:22:11",
+    "best_price": 615990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 1,
+    "prices": {
+      "bcpstech": 615990
+    },
+    "url": "https://bcpstech.cl/?p=1055"
+  },
+  {
     "id": 59584,
     "category_id": "storage",
     "brand": "Genérico",
@@ -19255,10 +19527,11 @@
     "best_price": 680670,
     "best_store_name": "Centrale",
     "best_store_id": "centrale",
-    "store_count": 3,
+    "store_count": 4,
     "prices": {
       "centrale": 680670,
       "spdigital": 683634,
+      "bcpstech": 745590,
       "mybox": 888051
     },
     "url": "https://centrale.cl/producto/placa-madre-asus-rog-maximus-z890-hero-lga1851-4ddr5-6m-2-wifi7-atx/"
@@ -19374,6 +19647,24 @@
       "spdigital": 717479
     },
     "url": "https://centrale.cl/producto/procesador-intel-core-i9-14900f-lga1700-24-nucleos-5-8ghz-36mb/"
+  },
+  {
+    "id": 71367,
+    "category_id": "gpu",
+    "brand": "MSI",
+    "name": "MSI GeForce RTX 5070 12G SHADOW 2X OC",
+    "slug": "msi-geforce-rtx-5070-12g-shadow-2x-oc",
+    "image_url": "https://images.findtech.cl/products/msi-geforce-rtx-5070-12g-shadow-2x-oc.webp",
+    "tags": [],
+    "updated_at": "2026-06-25 19:22:11",
+    "best_price": 712990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 1,
+    "prices": {
+      "bcpstech": 712990
+    },
+    "url": "https://bcpstech.cl/?p=717"
   },
   {
     "id": 16230,
@@ -19679,26 +19970,27 @@
     "url": "https://www.myshop.cl/producto/asus-pci-express-50-nvidia-geforce-rtx-5070-gddr6-sdram-displayport-hdmi-p37152"
   },
   {
-    "id": 31874,
+    "id": 71366,
     "category_id": "gpu",
     "brand": "ASUS",
-    "name": "Tarjeta gráfica ASUS Prime Radeon RX 9070 XT OC de 16GB GDDR6",
-    "slug": "winpy-tarjeta-grafica-asus-prime-radeon-rx-9070-xt-oc-de-16gb-gddr6",
-    "image_url": "https://images.findtech.cl/products/tarjeta-grafica-asus-prime-radeon-rx-9070-xt-oc-de-16gb-gddr6.jpg",
+    "name": "Tarjeta de Video ASUS Prime Radeon RX 9070 XT OC Edition 16GB",
+    "slug": "tarjeta-de-video-asus-prime-radeon-rx-9070-xt-oc-edition-16gb",
+    "image_url": "https://images.findtech.cl/products/tarjeta-de-video-asus-prime-radeon-rx-9070-xt-oc-edition-16gb.webp",
     "tags": [],
-    "updated_at": "2026-06-25 18:46:02",
-    "best_price": 769728,
-    "best_store_name": "Winpy",
-    "best_store_id": "winpy",
-    "store_count": 5,
+    "updated_at": "2026-06-25 19:22:11",
+    "best_price": 765990,
+    "best_store_name": "BCPS Tech",
+    "best_store_id": "bcpstech",
+    "store_count": 6,
     "prices": {
+      "bcpstech": 765990,
       "winpy": 769728,
       "n1g": 799900,
       "centrale": 806890,
       "spdigital": 826056,
       "trulustore": 859990
     },
-    "url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-prime-radeon-rx-9070-xt-oc-de-16gb-gddr6/"
+    "url": "https://bcpstech.cl/?p=747"
   },
   {
     "id": 21227,
@@ -20284,9 +20576,10 @@
     "best_price": 959000,
     "best_store_name": "N1G",
     "best_store_id": "n1g",
-    "store_count": 1,
+    "store_count": 2,
     "prices": {
-      "n1g": 959000
+      "n1g": 959000,
+      "bcpstech": 993990
     },
     "url": "https://n1g.cl/Home/computacion/3685-power-color-rx-9070-xt-hellhound-16-gb-gddr6-edicion-reva-pcie-50-x16-1-hdmi-21b-3-displayport-21a-rx9070xt-16g-locreva.html"
   },

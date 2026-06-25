@@ -19,7 +19,7 @@
   },
   "tags": [],
   "created_at": "2026-06-09 23:43:16",
-  "updated_at": "2026-06-09 23:43:25",
+  "updated_at": "2026-06-25 19:22:11",
   "prices": [
     {
       "product_id": 71366,
@@ -43,16 +43,16 @@
     {
       "product_id": 31874,
       "store_id": "winpy",
-      "price": 777632,
+      "price": 769728,
       "price_normal": null,
-      "discount_pct": 21,
+      "discount_pct": 22,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-prime-radeon-rx-9070-xt-oc-de-16gb-gddr6/",
       "store_name": "Winpy",
-      "price_card": 818846,
+      "price_card": 810524,
       "price_specs": {
-        "Transferencia o Depósito": "$777.632",
-        "Otros medios de pago": "$818.846"
+        "Transferencia o Depósito": "$769.728",
+        "Otros medios de pago": "$810.524"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -100,16 +100,16 @@
     {
       "product_id": 9595,
       "store_id": "spdigital",
-      "price": 816294,
-      "price_normal": 1008150,
+      "price": 826056,
+      "price_normal": 1020200,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/prime-rx9070xt-o16g",
       "store_name": "SP Digital",
-      "price_card": 853027,
+      "price_card": 863229,
       "price_specs": {
-        "Transferencia / Efectivo": "$816.294",
-        "Webpay / Tarjeta": "$853.027"
+        "Transferencia / Efectivo": "$826.056",
+        "Webpay / Tarjeta": "$863.229"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -144,7 +144,19 @@
       "store_name": "BCPS Tech",
       "date": "2026-06-09",
       "price": 765990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-06-20",
+      "price": 765990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-06-25",
+      "price": 765990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-25"
 }

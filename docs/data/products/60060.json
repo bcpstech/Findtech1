@@ -12,15 +12,15 @@
     "Tipo": "DDR4",
     "Velocidad": "3200 MHz",
     "Iluminación": "RGB",
-    "Efectivo / Transferencia": "$79.990",
-    "Tarjeta crédito/débito": "$84.389",
+    "Efectivo / Transferencia": "$89.990",
+    "Tarjeta crédito/débito": "$94.939",
     "Garantía": "6 meses",
     "SKU": "23444",
     "Part Number": "KF432C16RB2A/8"
   },
   "tags": [],
   "created_at": "2026-06-08 20:50:19",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 33300,
@@ -42,6 +42,44 @@
       "full_url": "https://store.infor-ingen.com"
     },
     {
+      "product_id": 60818,
+      "store_id": "centrale",
+      "price": 69820,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/memoria-ram-8gb-3200mhz-ddr4-cl16-kingston-fury-beast-black/",
+      "store_name": "Centrale",
+      "price_card": 73660,
+      "price_specs": {
+        "Transferencia / Efectivo": "$69.820",
+        "Tarjetas de Crédito / Débito": "$73.660"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 60055,
+      "store_id": "myshop",
+      "price": 69990,
+      "price_normal": 73839,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/modulo-8gb-ddr4-3200mhz-sodimm-p38346",
+      "store_name": "MyShop",
+      "price_card": 72090,
+      "price_specs": {
+        "Efectivo/Transferencia": "$69.990",
+        "Tarjeta crédito/débito": "$72.090"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
       "product_id": 2089,
       "store_id": "dust2",
       "price": 73990,
@@ -59,25 +97,6 @@
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 60055,
-      "store_id": "myshop",
-      "price": 74990,
-      "price_normal": 79114,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/modulo-8gb-ddr4-3200mhz-sodimm-p38346",
-      "store_name": "MyShop",
-      "price_card": 77240,
-      "price_specs": {
-        "Efectivo/Transferencia": "$74.990",
-        "Tarjeta crédito/débito": "$77.240"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.myshop.cl",
-      "full_url": "https://www.myshop.cl"
     },
     {
       "product_id": 60058,
@@ -99,37 +118,18 @@
       "full_url": "https://bcpstech.cl"
     },
     {
-      "product_id": 1496,
-      "store_id": "centrale",
-      "price": 84540,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr4-3200mt-s-cl16-kingston-fury-beast-rgb/",
-      "store_name": "Centrale",
-      "price_card": 89190,
-      "price_specs": {
-        "Transferencia / Efectivo": "$84.540",
-        "Tarjetas de Crédito / Débito": "$89.190"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 59548,
+      "product_id": 9498,
       "store_id": "spdigital",
-      "price": 86068,
-      "price_normal": 106300,
+      "price": 92263,
+      "price_normal": 113970,
       "discount_pct": 19,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/adata-premier-series-ddr4-mã3dulo-8-gb-dimm-de-288-contactos-3200-mhz-pc4-25600-cl22",
+      "product_url": "https://www.spdigital.cl/kingston-fury-ddr4-sdram-cl16-generic-8gb",
       "store_name": "SP Digital",
-      "price_card": 89941,
+      "price_card": 96415,
       "price_specs": {
-        "Transferencia / Efectivo": "$86.068",
-        "Webpay / Tarjeta": "$89.941"
+        "Transferencia / Efectivo": "$92.263",
+        "Webpay / Tarjeta": "$96.415"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -174,7 +174,13 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 79990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 89990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

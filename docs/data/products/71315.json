@@ -11,12 +11,12 @@
     "Capacidad": "1 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$90.450",
-    "Tarjeta crédito/débito": "$95.420"
+    "Transferencia / Efectivo": "$90.350",
+    "Tarjeta crédito/débito": "$95.320"
   },
   "tags": [],
   "created_at": "2026-06-09 23:40:55",
-  "updated_at": "2026-06-09 23:43:25",
+  "updated_at": "2026-06-25 19:22:11",
   "prices": [
     {
       "product_id": 71315,
@@ -40,16 +40,16 @@
     {
       "product_id": 1540,
       "store_id": "centrale",
-      "price": 90450,
+      "price": 90350,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-seagate-barracuda-1tb-sata-6gb-s-7200rpm-256mb-3-5/",
       "store_name": "Centrale",
-      "price_card": 95425,
+      "price_card": 95319,
       "price_specs": {
-        "Transferencia / Efectivo": "$90.450",
-        "Tarjetas de Crédito / Débito": "$95.425"
+        "Transferencia / Efectivo": "$90.350",
+        "Tarjetas de Crédito / Débito": "$95.319"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,7 +63,19 @@
       "store_name": "BCPS Tech",
       "date": "2026-06-09",
       "price": 85990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-06-20",
+      "price": 85990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-06-25",
+      "price": 85990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-25"
 }

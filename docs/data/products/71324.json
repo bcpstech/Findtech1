@@ -3,20 +3,17 @@
   "external_id": "pn_vistacocab",
   "category_id": "case",
   "brand": "Genérico",
-  "name": "Gabinete - GameMax VISTA COC AB - ATX - Negro - Sin Fuente - Incluye 5 FAN 120MM ARGB",
+  "name": "Gabinete Gamemax Vista COC AB",
   "slug": "gabinete-gamemax-vista-coc-ab",
-  "image_url": "https://images.findtech.cl/products/gabinete-gamemax-vista-coc-ab-atx-negro-sin-fuente-incluye-5-fan-120mm-argb.jpg",
+  "image_url": "https://images.findtech.cl/products/gabinete-gamemax-vista-coc-ab.webp",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$46.990",
-    "Tarjeta crédito/débito": "$49.574",
-    "Garantía": "6 meses",
-    "SKU": "35389",
-    "Part Number": "VISTA COC AB"
+    "Efectivo/Transferencia": "$48.990",
+    "Tarjeta crédito/débito": "$50.460"
   },
   "tags": [],
   "created_at": "2026-06-09 23:41:22",
-  "updated_at": "2026-06-25 18:07:40",
+  "updated_at": "2026-06-25 19:20:38",
   "prices": [
     {
       "product_id": 71324,
@@ -76,6 +73,25 @@
       "full_url": "https://www.centrale.cl"
     },
     {
+      "product_id": 71324,
+      "store_id": "bcpstech",
+      "price": 48990,
+      "price_normal": 63590,
+      "discount_pct": 23,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=1298",
+      "store_name": "BCPS Tech",
+      "price_card": 50460,
+      "price_specs": {
+        "Efectivo/Transferencia": "$48.990",
+        "Tarjeta crédito/débito": "$50.460"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
+    },
+    {
       "product_id": 33903,
       "store_id": "infor-ingen",
       "price": 80900,
@@ -113,6 +129,12 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 46990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-06-25",
+      "price": 48990
     },
     {
       "store_id": "myshop",
