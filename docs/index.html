@@ -675,28 +675,43 @@ html{scroll-behavior:smooth}
 
     <!-- BANNERS x3 -->
     <div class="banners-row" id="banners-row" style="margin-bottom:32px">
-      <div class="banner-slot" id="banner-1" onclick="filterCat('gpu');showPage('hardware')" style="cursor:pointer;background:linear-gradient(135deg,rgba(59,130,246,0.18),rgba(6,182,212,0.10));border-color:rgba(59,130,246,0.35)">
-        <div style="text-align:center;padding:8px">
-          <div style="font-size:44px;margin-bottom:10px;filter:drop-shadow(0 4px 8px rgba(59,130,246,0.4))">🎮</div>
-          <div style="font-weight:800;font-size:17px;color:var(--text);margin-bottom:4px">Tarjetas de Video</div>
-          <div style="font-size:12px;color:var(--text2);margin-bottom:14px;line-height:1.5">RTX 5000 · RX 9000<br>Compara entre todas las tiendas</div>
-          <div style="display:inline-block;background:rgba(59,130,246,0.2);border:1px solid rgba(59,130,246,0.4);color:#93c5fd;font-size:11px;font-weight:600;padding:5px 14px;border-radius:20px">Ver GPUs →</div>
+      <!-- Banner GPU -->
+      <div class="banner-slot" id="banner-1" onclick="filterCat('gpu');showPage('hardware')" style="cursor:pointer;border-color:rgba(59,130,246,0.35)">
+        <img src="https://www.gigabyte.com/FileUpload/Global/Product/2/0/8/1413/Images/NVIDIA-GeForce-RTX5090-WINDFORCE-OC-32G/na-header.jpg"
+             alt="GPU" onerror="this.style.display='none'"
+             style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:16px;opacity:0.5">
+        <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(37,99,235,0.75),rgba(6,182,212,0.45));border-radius:16px"></div>
+        <div style="position:relative;z-index:1;text-align:center;padding:16px">
+          <div style="font-size:11px;font-weight:700;letter-spacing:2px;color:rgba(255,255,255,0.6);text-transform:uppercase;margin-bottom:8px">Tarjetas de Video</div>
+          <div style="font-weight:900;font-size:22px;color:#fff;margin-bottom:6px;letter-spacing:-0.02em">RTX 5000 · RX 9000</div>
+          <div style="font-size:12px;color:rgba(255,255,255,0.7);margin-bottom:14px">Compara entre todas las tiendas</div>
+          <div style="display:inline-block;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);color:#fff;font-size:11px;font-weight:700;padding:6px 16px;border-radius:20px;backdrop-filter:blur(4px)">Ver GPUs →</div>
         </div>
       </div>
-      <div class="banner-slot" id="banner-2" onclick="filterCat('cpu');showPage('hardware')" style="cursor:pointer;background:linear-gradient(135deg,rgba(239,68,68,0.15),rgba(245,158,11,0.10));border-color:rgba(239,68,68,0.30)">
-        <div style="text-align:center;padding:8px">
-          <div style="font-size:44px;margin-bottom:10px;filter:drop-shadow(0 4px 8px rgba(239,68,68,0.4))">⚡</div>
-          <div style="font-weight:800;font-size:17px;color:var(--text);margin-bottom:4px">Procesadores</div>
-          <div style="font-size:12px;color:var(--text2);margin-bottom:14px;line-height:1.5">AMD Ryzen · Intel Core<br>Desde entry-level hasta HEDT</div>
-          <div style="display:inline-block;background:rgba(239,68,68,0.2);border:1px solid rgba(239,68,68,0.4);color:#fca5a5;font-size:11px;font-weight:600;padding:5px 14px;border-radius:20px">Ver CPUs →</div>
+      <!-- Banner CPU -->
+      <div class="banner-slot" id="banner-2" onclick="filterCat('cpu');showPage('hardware')" style="cursor:pointer;border-color:rgba(239,68,68,0.30)">
+        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202406/2818/db94c24cbf9c9dcb12ba2a26f20a59b4a9d8ef2d7eb81bd5.png"
+             alt="CPU" onerror="this.style.display='none'"
+             style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:16px;opacity:0.45">
+        <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(220,38,38,0.75),rgba(245,158,11,0.45));border-radius:16px"></div>
+        <div style="position:relative;z-index:1;text-align:center;padding:16px">
+          <div style="font-size:11px;font-weight:700;letter-spacing:2px;color:rgba(255,255,255,0.6);text-transform:uppercase;margin-bottom:8px">Procesadores</div>
+          <div style="font-weight:900;font-size:22px;color:#fff;margin-bottom:6px;letter-spacing:-0.02em">AMD Ryzen · Intel Core</div>
+          <div style="font-size:12px;color:rgba(255,255,255,0.7);margin-bottom:14px">Desde entry-level hasta HEDT</div>
+          <div style="display:inline-block;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);color:#fff;font-size:11px;font-weight:700;padding:6px 16px;border-radius:20px;backdrop-filter:blur(4px)">Ver CPUs →</div>
         </div>
       </div>
-      <div class="banner-slot" id="banner-3" onclick="filterCat('pc');showPage('hardware')" style="cursor:pointer;background:linear-gradient(135deg,rgba(34,197,94,0.15),rgba(6,182,212,0.10));border-color:rgba(34,197,94,0.30)">
-        <div style="text-align:center;padding:8px">
-          <div style="font-size:44px;margin-bottom:10px;filter:drop-shadow(0 4px 8px rgba(34,197,94,0.4))">💻</div>
-          <div style="font-weight:800;font-size:17px;color:var(--text);margin-bottom:4px">PCs Armados</div>
-          <div style="font-size:12px;color:var(--text2);margin-bottom:14px;line-height:1.5">Gamer · Trabajo · Streaming<br>Listos para usar, entrega inmediata</div>
-          <div style="display:inline-block;background:rgba(34,197,94,0.2);border:1px solid rgba(34,197,94,0.4);color:#86efac;font-size:11px;font-weight:600;padding:5px 14px;border-radius:20px">Ver PCs →</div>
+      <!-- Banner PCs -->
+      <div class="banner-slot" id="banner-3" onclick="filterCat('pc');showPage('hardware')" style="cursor:pointer;border-color:rgba(34,197,94,0.30)">
+        <img src="https://i.rtings.com/assets/products/rE7hpI2w/corsair-icue-5000t-rgb/design-medium.jpg"
+             alt="PC" onerror="this.style.display='none'"
+             style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:16px;opacity:0.45">
+        <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(21,128,61,0.75),rgba(6,182,212,0.45));border-radius:16px"></div>
+        <div style="position:relative;z-index:1;text-align:center;padding:16px">
+          <div style="font-size:11px;font-weight:700;letter-spacing:2px;color:rgba(255,255,255,0.6);text-transform:uppercase;margin-bottom:8px">PCs Armados</div>
+          <div style="font-weight:900;font-size:22px;color:#fff;margin-bottom:6px;letter-spacing:-0.02em">Gamer · Trabajo · Streaming</div>
+          <div style="font-size:12px;color:rgba(255,255,255,0.7);margin-bottom:14px">Listos para usar, entrega inmediata</div>
+          <div style="display:inline-block;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);color:#fff;font-size:11px;font-weight:700;padding:6px 16px;border-radius:20px;backdrop-filter:blur(4px)">Ver PCs →</div>
         </div>
       </div>
     </div>
