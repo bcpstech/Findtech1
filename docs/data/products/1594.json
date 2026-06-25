@@ -15,21 +15,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 1594,
       "store_id": "centrale",
-      "price": 129470,
+      "price": 153110,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-nvme-512gb-kingston-kc3000-pcie-4-0-7000-mb-s/",
       "store_name": "Centrale",
-      "price_card": 136591,
+      "price_card": 161531,
       "price_specs": {
-        "Transferencia / Efectivo": "$129.470",
-        "Tarjetas de Crédito / Débito": "$136.591"
+        "Transferencia / Efectivo": "$153.110",
+        "Tarjetas de Crédito / Débito": "$161.531"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,7 +55,13 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 129470
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 153110
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

@@ -11,26 +11,26 @@
     "Capacidad": "1 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Transferencia / Efectivo": "$188.520",
-    "Tarjeta crédito/débito": "$198.890"
+    "Transferencia / Efectivo": "$187.280",
+    "Tarjeta crédito/débito": "$197.580"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 1549,
       "store_id": "centrale",
-      "price": 188520,
+      "price": 187280,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/sandisk-ssd-nvme-1tb-sn350-m-2-2280-pcie-3-0-x4/",
       "store_name": "Centrale",
-      "price_card": 198889,
+      "price_card": 197580,
       "price_specs": {
-        "Transferencia / Efectivo": "$188.520",
-        "Tarjetas de Crédito / Débito": "$198.889"
+        "Transferencia / Efectivo": "$187.280",
+        "Tarjetas de Crédito / Débito": "$197.580"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -56,7 +56,13 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 188520
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 187280
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

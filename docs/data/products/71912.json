@@ -17,50 +17,69 @@
     "Caché L3": "30 MB",
     "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$554.986",
-    "Tarjeta crédito/débito": "$579.960"
+    "Efectivo/Transferencia": "$545.122",
+    "Tarjeta crédito/débito": "$569.652"
   },
   "tags": [],
   "created_at": "2026-06-20 00:07:08",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
-      "product_id": 328,
-      "store_id": "centrale",
-      "price": 499570,
-      "price_normal": null,
-      "discount_pct": null,
+      "product_id": 11,
+      "store_id": "n1g",
+      "price": 389900,
+      "price_normal": 410421,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-12900kf-core-3-2ghz-30mb-lga1700/",
-      "store_name": "Centrale",
-      "price_card": 527046,
+      "product_url": "https://n1g.cl/Home/computacion/2916-intel-core-i9-12900kf-16-core-up-to-52ghz-12gen-alder-lake-lga-1700-125w-bx8071512900kf.html",
+      "store_name": "N1G",
+      "price_card": 410565,
       "price_specs": {
-        "Transferencia / Efectivo": "$499.570",
-        "Tarjetas de Crédito / Débito": "$527.046"
+        "Efectivo/Transferencia": "$389.900",
+        "Tarjeta crédito/débito": "$410.565"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     },
     {
       "product_id": 71912,
       "store_id": "spdigital",
-      "price": 554986,
-      "price_normal": 554990,
-      "discount_pct": null,
+      "price": 545122,
+      "price_normal": 569670,
+      "discount_pct": 4,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-intel-core-i9-12900kf-12o-gen-32ghz-hasta-52ghz-socket-lga1700-sin-gráficas",
       "store_name": "SP Digital",
-      "price_card": 579960,
+      "price_card": 569652,
       "price_specs": {
-        "Transferencia / Efectivo": "$554.986",
-        "Webpay / Tarjeta": "$579.960"
+        "Transferencia / Efectivo": "$545.122",
+        "Webpay / Tarjeta": "$569.652"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 328,
+      "store_id": "centrale",
+      "price": 546870,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-12900kf-core-3-2ghz-30mb-lga1700/",
+      "store_name": "Centrale",
+      "price_card": 576948,
+      "price_specs": {
+        "Transferencia / Efectivo": "$546.870",
+        "Tarjetas de Crédito / Débito": "$576.948"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -69,7 +88,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 554986
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 545122
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

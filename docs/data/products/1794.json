@@ -10,41 +10,96 @@
   "specs": {
     "Marca": "Corsair",
     "Modelo": "iCUE Link Titan 240 RX RGB",
-    "Transferencia/Efectivo": "$97.080",
-    "Webpay / Tarjeta crédito-débito": "$99.990"
+    "Efectivo / Transferencia": "$57.990",
+    "Tarjeta crédito/débito": "$59.730"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:12",
-  "updated_at": "2026-04-27 22:17:37",
+  "updated_at": "2026-06-25 18:24:35",
   "prices": [
     {
       "product_id": 1794,
       "store_id": "progaming",
-      "price": 97080,
+      "price": 57990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-corsair-icue-link-titan-240-rx-rgb/",
       "store_name": "ProGaming",
+      "price_card": 59730,
+      "price_specs": {
+        "Efectivo/Transferencia": "$57.990",
+        "Tarjeta crédito/débito": "$59.730"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.progaming.cl",
       "full_url": "https://www.progaming.cl"
+    },
+    {
+      "product_id": 60907,
+      "store_id": "centrale",
+      "price": 61900,
+      "price_normal": 171360,
+      "discount_pct": 64,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/refrigeracion-liquida-corsair-icue-link-titan-240-rx-rgb/",
+      "store_name": "Centrale",
+      "price_card": 65304,
+      "price_specs": {
+        "Transferencia / Efectivo": "$61.900",
+        "Tarjetas de Crédito / Débito": "$65.304"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 38946,
+      "store_id": "mybox",
+      "price": 180088,
+      "price_normal": 194690,
+      "discount_pct": 8,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/enfriamiento-refrigeracion/5902-refrigeracion-liquida-corsair-icue-link-titan-240-rx-rgb.html",
+      "store_name": "MyBox",
+      "price_card": 185491,
+      "price_specs": {
+        "Efectivo/Transferencia": "$180.088",
+        "Tarjeta crédito/débito": "$185.491"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
     {
       "store_id": "progaming",
       "store_name": "ProGaming",
-      "date": "2026-04-26",
-      "price": 97080
+      "date": "2026-06-08",
+      "price": 96990
     },
     {
       "store_id": "progaming",
       "store_name": "ProGaming",
-      "date": "2026-04-27",
-      "price": 97080
+      "date": "2026-06-09",
+      "price": 96990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-06-20",
+      "price": 57990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-06-25",
+      "price": 57990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-25"
 }

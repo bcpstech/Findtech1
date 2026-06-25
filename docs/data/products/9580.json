@@ -13,26 +13,26 @@
     "Bus de memoria": "256-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$1.879.900",
-    "Tarjeta crédito/débito": "$1.983.290"
+    "Transferencia / Efectivo": "$1.752.180",
+    "Tarjeta crédito/débito": "$1.848.550"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:29",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 9580,
       "store_id": "spdigital",
-      "price": 1699995,
+      "price": 1739995,
       "price_normal": 1999990,
-      "discount_pct": 15,
+      "discount_pct": 13,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-msi-geforce-rtx-5080-inspire-3x-oc-16gb-gddr7-256-bit-pcie-50",
       "store_name": "SP Digital",
-      "price_card": 1776495,
+      "price_card": 1818295,
       "price_specs": {
-        "Transferencia / Efectivo": "$1.699.995",
-        "Webpay / Tarjeta": "$1.776.495"
+        "Transferencia / Efectivo": "$1.739.995",
+        "Webpay / Tarjeta": "$1.818.295"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,16 +42,16 @@
     {
       "product_id": 1198,
       "store_id": "centrale",
-      "price": 1879900,
+      "price": 1752180,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5080-inspire-3x-oc-16gb-gddr7-256-bit/",
       "store_name": "Centrale",
-      "price_card": 1983294,
+      "price_card": 1848550,
       "price_specs": {
-        "Transferencia / Efectivo": "$1.879.900",
-        "Tarjetas de Crédito / Débito": "$1.983.294"
+        "Transferencia / Efectivo": "$1.752.180",
+        "Tarjetas de Crédito / Débito": "$1.848.550"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -71,7 +71,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 1699995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 1739995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 1739995
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-25"
 }

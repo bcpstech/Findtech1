@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-06-20 00:01:06",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 71658,
@@ -41,16 +41,16 @@
     {
       "product_id": 31921,
       "store_id": "winpy",
-      "price": 50464,
+      "price": 51680,
       "price_normal": null,
-      "discount_pct": 40,
+      "discount_pct": 39,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-a520m-k-am4-2133-4600mhz-m-2-microatx/",
       "store_name": "Winpy",
-      "price_card": 53139,
+      "price_card": 54419,
       "price_specs": {
-        "Transferencia o Depósito": "$50.464",
-        "Otros medios de pago": "$53.139"
+        "Transferencia o Depósito": "$51.680",
+        "Otros medios de pago": "$54.419"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -79,16 +79,16 @@
     {
       "product_id": 9438,
       "store_id": "spdigital",
-      "price": 53679,
-      "price_normal": 66230,
+      "price": 55064,
+      "price_normal": 67990,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-a520m-k-socket-amd-am4-2xddr4-1x-m2-4x-sata-hdmi-vga-micro-atx",
       "store_name": "SP Digital",
-      "price_card": 56095,
+      "price_card": 57542,
       "price_specs": {
-        "Transferencia / Efectivo": "$53.679",
-        "Webpay / Tarjeta": "$56.095"
+        "Transferencia / Efectivo": "$55.064",
+        "Webpay / Tarjeta": "$57.542"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -140,7 +140,13 @@
       "store_name": "N1G",
       "date": "2026-06-20",
       "price": 47500
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-25",
+      "price": 47500
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

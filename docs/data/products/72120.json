@@ -11,26 +11,26 @@
     "Capacidad": "2 TB",
     "Factor de forma": "3.5\"",
     "Interfaz": "SATA",
-    "Efectivo/Transferencia": "$127.678",
-    "Tarjeta crédito/débito": "$133.423"
+    "Efectivo/Transferencia": "$129.655",
+    "Tarjeta crédito/débito": "$135.489"
   },
   "tags": [],
   "created_at": "2026-06-20 00:08:43",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 72120,
       "store_id": "spdigital",
-      "price": 127068,
-      "price_normal": 155310,
-      "discount_pct": 18,
+      "price": 129428,
+      "price_normal": 159840,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/wd-purple-wd11purz-disco-duro-1-tb-interno-35-sata-6gbs-bufer-64-mb",
       "store_name": "SP Digital",
-      "price_card": 132786,
+      "price_card": 135252,
       "price_specs": {
-        "Transferencia / Efectivo": "$127.068",
-        "Webpay / Tarjeta": "$132.786"
+        "Transferencia / Efectivo": "$129.428",
+        "Webpay / Tarjeta": "$135.252"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -44,7 +44,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 127068
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 129428
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

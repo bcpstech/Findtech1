@@ -12,26 +12,26 @@
     "Interfaz": "SATA",
     "Factor de forma": "2.5\"",
     "Lectura": "540 MB/s",
-    "Efectivo/Transferencia": "$475.027",
-    "Tarjeta crédito/débito": "$496.403"
+    "Efectivo/Transferencia": "$480.714",
+    "Tarjeta crédito/débito": "$502.346"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:08",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 9541,
       "store_id": "spdigital",
-      "price": 475027,
-      "price_normal": 586670,
+      "price": 480714,
+      "price_normal": 593690,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ssd-bx500-4000gb-4tb-nand-sata-25-2",
       "store_name": "SP Digital",
-      "price_card": 496403,
+      "price_card": 502346,
       "price_specs": {
-        "Transferencia / Efectivo": "$475.027",
-        "Webpay / Tarjeta": "$496.403"
+        "Transferencia / Efectivo": "$480.714",
+        "Webpay / Tarjeta": "$502.346"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 1579,
       "store_id": "centrale",
-      "price": 500270,
+      "price": 499730,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-4tb-crucial-bx500-25-sata/",
       "store_name": "Centrale",
-      "price_card": 527785,
+      "price_card": 527215,
       "price_specs": {
-        "Transferencia / Efectivo": "$500.270",
-        "Tarjetas de Crédito / Débito": "$527.785"
+        "Transferencia / Efectivo": "$499.730",
+        "Tarjetas de Crédito / Débito": "$527.215"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -70,7 +70,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 475027
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 468382
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 480714
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-25"
 }

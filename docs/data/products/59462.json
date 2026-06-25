@@ -23,21 +23,21 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:23",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 319,
       "store_id": "centrale",
-      "price": 410820,
+      "price": 438450,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700-lga1700-2-1ghz-a-5-4-ghz-20-nucleos-28-hilos/",
       "store_name": "Centrale",
-      "price_card": 433415,
+      "price_card": 462565,
       "price_specs": {
-        "Transferencia / Efectivo": "$410.820",
-        "Tarjetas de Crédito / Débito": "$433.415"
+        "Transferencia / Efectivo": "$438.450",
+        "Tarjetas de Crédito / Débito": "$462.565"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -82,7 +82,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 449990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 449990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

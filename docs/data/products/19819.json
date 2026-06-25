@@ -12,29 +12,29 @@
     "Tipo memoria": "GDDR7",
     "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$419.990",
-    "Tarjeta crédito/débito": "$443.089",
+    "Efectivo / Transferencia": "$429.990",
+    "Tarjeta crédito/débito": "$453.639",
     "Garantía": "6 meses",
     "SKU": "42685",
     "Part Number": "90YV0NS0-M0AA00"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:33",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 19819,
       "store_id": "myshop",
-      "price": 419990,
-      "price_normal": 443089,
-      "discount_pct": 16,
+      "price": 429990,
+      "price_normal": 453639,
+      "discount_pct": 14,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/tarjeta-de-video-asus-dual-rtx5060-o8gb-evo-p42685",
       "store_name": "MyShop",
-      "price_card": 432590,
+      "price_card": 442890,
       "price_specs": {
-        "Efectivo/Transferencia": "$419.990",
-        "Tarjeta crédito/débito": "$432.590"
+        "Efectivo/Transferencia": "$429.990",
+        "Tarjeta crédito/débito": "$442.890"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -75,7 +75,19 @@
       "store_name": "MyShop",
       "date": "2026-06-09",
       "price": 419990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 429990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 429990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-25"
 }

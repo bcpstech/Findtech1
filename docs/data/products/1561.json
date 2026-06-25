@@ -11,26 +11,26 @@
     "Capacidad": "6 GB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$43.540",
-    "Tarjeta crédito/débito": "$45.930"
+    "Transferencia / Efectivo": "$43.440",
+    "Tarjeta crédito/débito": "$45.830"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 1561,
       "store_id": "centrale",
-      "price": 43540,
+      "price": 43440,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/bahia-startech-hot-swap-5-25-a-3-5-hdd-sata-sas-6gbit-s-aluminio/",
       "store_name": "Centrale",
-      "price_card": 45935,
+      "price_card": 45829,
       "price_specs": {
-        "Transferencia / Efectivo": "$43.540",
-        "Tarjetas de Crédito / Débito": "$45.935"
+        "Transferencia / Efectivo": "$43.440",
+        "Tarjetas de Crédito / Débito": "$45.829"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -56,7 +56,13 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 43540
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 43440
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

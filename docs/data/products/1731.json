@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-06-20 00:32:59",
+  "updated_at": "2026-06-25 18:15:21",
   "prices": [
     {
       "product_id": 1731,
@@ -54,25 +54,6 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 71329,
-      "store_id": "bcpstech",
-      "price": 49990,
-      "price_normal": 59990,
-      "discount_pct": 17,
-      "stock": "in_stock",
-      "product_url": "https://bcpstech.cl/?p=1137",
-      "store_name": "BCPS Tech",
-      "price_card": 51490,
-      "price_specs": {
-        "Efectivo/Transferencia": "$49.990",
-        "Tarjeta crédito/débito": "$51.490"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.bcpstech.cl",
-      "full_url": "https://bcpstech.cl"
-    },
-    {
       "product_id": 9794,
       "store_id": "spdigital",
       "price": 52995,
@@ -110,7 +91,13 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 46180
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 46180
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

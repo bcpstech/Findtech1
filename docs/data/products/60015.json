@@ -11,29 +11,29 @@
     "Capacidad": "16 GB",
     "Tipo": "DDR5",
     "Velocidad": "6400 MHz",
-    "Efectivo / Transferencia": "$247.990",
-    "Tarjeta crédito/débito": "$261.629",
+    "Efectivo / Transferencia": "$239.990",
+    "Tarjeta crédito/débito": "$253.189",
     "Garantía": "6 meses",
     "SKU": "43379",
     "Part Number": "CT16G64C52CU5"
   },
   "tags": [],
   "created_at": "2026-06-08 20:49:57",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 60015,
       "store_id": "myshop",
-      "price": 247990,
-      "price_normal": 261629,
+      "price": 239990,
+      "price_normal": 253189,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/dimm-16-gb-ddr5-5600-mts-p43379",
       "store_name": "MyShop",
-      "price_card": 255430,
+      "price_card": 247190,
       "price_specs": {
-        "Efectivo/Transferencia": "$247.990",
-        "Tarjeta crédito/débito": "$255.430"
+        "Efectivo/Transferencia": "$239.990",
+        "Tarjeta crédito/débito": "$247.190"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,7 +59,13 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 247990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 239990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

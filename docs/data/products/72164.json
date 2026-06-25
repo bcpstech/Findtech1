@@ -12,26 +12,26 @@
     "Bus de memoria": "64-bit",
     "Tipo memoria": "GDDR3",
     "Velocidad": "1600 MHz",
-    "Efectivo/Transferencia": "$64.783",
-    "Tarjeta crédito/débito": "$67.698"
+    "Efectivo/Transferencia": "$65.840",
+    "Tarjeta crédito/débito": "$68.803"
   },
   "tags": [],
   "created_at": "2026-06-20 00:09:02",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 72164,
       "store_id": "spdigital",
-      "price": 64783,
-      "price_normal": 79170,
-      "discount_pct": 18,
+      "price": 65840,
+      "price_normal": 81260,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/msi-pci-express-nvidia-gt-710-2gd3",
       "store_name": "SP Digital",
-      "price_card": 67698,
+      "price_card": 68803,
       "price_specs": {
-        "Transferencia / Efectivo": "$64.783",
-        "Webpay / Tarjeta": "$67.698"
+        "Transferencia / Efectivo": "$65.840",
+        "Webpay / Tarjeta": "$68.803"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 24958,
       "store_id": "centrale",
-      "price": 65430,
+      "price": 67300,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/msi-tarjeta-de-video-nvidia-gt-710-2gb-64-bit-ddr3-pci-express-2-0-low-profile/",
       "store_name": "Centrale",
-      "price_card": 69029,
+      "price_card": 71002,
       "price_specs": {
-        "Transferencia / Efectivo": "$65.430",
-        "Tarjetas de Crédito / Débito": "$69.029"
+        "Transferencia / Efectivo": "$67.300",
+        "Tarjetas de Crédito / Débito": "$71.002"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -64,7 +64,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 64783
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 65840
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

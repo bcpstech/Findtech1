@@ -12,12 +12,12 @@
     "Factor de forma": "micro ATX",
     "Memoria": "DDR5",
     "Chipset": "Intel H610",
-    "Efectivo/Transferencia": "$81.699",
-    "Tarjeta crédito/débito": "$85.375"
+    "Efectivo/Transferencia": "$85.352",
+    "Tarjeta crédito/débito": "$89.193"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:30",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 31926,
@@ -41,16 +41,16 @@
     {
       "product_id": 1408,
       "store_id": "centrale",
-      "price": 78170,
+      "price": 77060,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-mini-atx-asus-prime-h610m-k-socket-intel-lga-1700-ddr5-pcie-3-0/",
       "store_name": "Centrale",
-      "price_card": 82469,
+      "price_card": 81298,
       "price_specs": {
-        "Transferencia / Efectivo": "$78.170",
-        "Tarjetas de Crédito / Débito": "$82.469"
+        "Transferencia / Efectivo": "$77.060",
+        "Tarjetas de Crédito / Débito": "$81.298"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,18 +58,18 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 9464,
+      "product_id": 71982,
       "store_id": "spdigital",
-      "price": 81699,
-      "price_normal": 100900,
+      "price": 78140,
+      "price_normal": 96520,
       "discount_pct": 19,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-h610m-k-socket-intel-lga1700-2xddr5-1x-m2-4x-sata-hdmi-vga-micro-atx",
+      "product_url": "https://www.spdigital.cl/prime-h610m-k",
       "store_name": "SP Digital",
-      "price_card": 85375,
+      "price_card": 81656,
       "price_specs": {
-        "Transferencia / Efectivo": "$81.699",
-        "Webpay / Tarjeta": "$85.375"
+        "Transferencia / Efectivo": "$78.140",
+        "Webpay / Tarjeta": "$81.656"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -108,7 +108,19 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 76608
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 76608
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 76608
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-25"
 }

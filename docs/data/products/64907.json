@@ -10,26 +10,26 @@
   "specs": {
     "Capacidad": "10 TB",
     "Interfaz": "SATA III",
-    "Transferencia / Efectivo": "$432.840",
-    "Tarjeta crédito/débito": "$456.650"
+    "Transferencia / Efectivo": "$439.530",
+    "Tarjeta crédito/débito": "$463.700"
   },
   "tags": [],
   "created_at": "2026-06-09 01:05:53",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 64907,
       "store_id": "centrale",
-      "price": 432840,
+      "price": 439530,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-western-digital-red-plus-10tb-7200rpm-256mb-sata/",
       "store_name": "Centrale",
-      "price_card": 456646,
+      "price_card": 463704,
       "price_specs": {
-        "Transferencia / Efectivo": "$432.840",
-        "Tarjetas de Crédito / Débito": "$456.646"
+        "Transferencia / Efectivo": "$439.530",
+        "Tarjetas de Crédito / Débito": "$463.704"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -49,7 +49,13 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 432840
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 439530
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

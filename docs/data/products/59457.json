@@ -17,12 +17,12 @@
     "Caché L3": "24 MB",
     "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$278.653",
-    "Tarjeta crédito/débito": "$291.192"
+    "Efectivo/Transferencia": "$300.029",
+    "Tarjeta crédito/débito": "$313.530"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:21",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 306,
@@ -46,16 +46,16 @@
     {
       "product_id": 31898,
       "store_id": "winpy",
-      "price": 272992,
+      "price": 294272,
       "price_normal": null,
-      "discount_pct": 25,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i5-14600kf-raptor-lake-s-lga1700-14-cores-20-hilos-3-5-5-3ghz-sin-video/",
       "store_name": "Winpy",
-      "price_card": 287461,
+      "price_card": 309868,
       "price_specs": {
-        "Transferencia o Depósito": "$272.992",
-        "Otros medios de pago": "$287.461"
+        "Transferencia o Depósito": "$294.272",
+        "Otros medios de pago": "$309.868"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -65,16 +65,16 @@
     {
       "product_id": 59457,
       "store_id": "spdigital",
-      "price": 278653,
-      "price_normal": 344140,
+      "price": 300029,
+      "price_normal": 370500,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/core-i5-14600kf-350ghz-sktlga1700-cache",
       "store_name": "SP Digital",
-      "price_card": 291192,
+      "price_card": 313530,
       "price_specs": {
-        "Transferencia / Efectivo": "$278.653",
-        "Webpay / Tarjeta": "$291.192"
+        "Transferencia / Efectivo": "$300.029",
+        "Webpay / Tarjeta": "$313.530"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -100,7 +100,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 278653
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 300029
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

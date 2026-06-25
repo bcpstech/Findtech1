@@ -13,50 +13,50 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Chipset": "AMD B650",
-    "Efectivo/Transferencia": "$197.970",
-    "Tarjeta crédito/débito": "$206.879"
+    "Efectivo/Transferencia": "$193.602",
+    "Tarjeta crédito/débito": "$202.314"
   },
   "tags": [],
   "created_at": "2026-06-20 00:07:24",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
-    {
-      "product_id": 1345,
-      "store_id": "centrale",
-      "price": 195240,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-asus-tuf-gaming-b650m-plus-wifi-am5-ddr5-micro-atx/",
-      "store_name": "Centrale",
-      "price_card": 205978,
-      "price_specs": {
-        "Transferencia / Efectivo": "$195.240",
-        "Tarjetas de Crédito / Débito": "$205.978"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
     {
       "product_id": 71948,
       "store_id": "spdigital",
-      "price": 197970,
-      "price_normal": 232850,
-      "discount_pct": 15,
+      "price": 193602,
+      "price_normal": 239010,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/asus-motherboard-tuf-gaming-b650m-plus-wifiam",
       "store_name": "SP Digital",
-      "price_card": 206879,
+      "price_card": 202314,
       "price_specs": {
-        "Transferencia / Efectivo": "$197.970",
-        "Webpay / Tarjeta": "$206.879"
+        "Transferencia / Efectivo": "$193.602",
+        "Webpay / Tarjeta": "$202.314"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1345,
+      "store_id": "centrale",
+      "price": 199750,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-tuf-gaming-b650m-plus-wifi-am5-ddr5-micro-atx/",
+      "store_name": "Centrale",
+      "price_card": 210736,
+      "price_specs": {
+        "Transferencia / Efectivo": "$199.750",
+        "Tarjetas de Crédito / Débito": "$210.736"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -65,7 +65,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 197970
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 193602
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

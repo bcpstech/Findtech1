@@ -5,33 +5,33 @@
   "brand": "Kingston",
   "name": "Memoria Kingston 48GB DDR5 5600MT/s SO-DIMM, CL46",
   "slug": "memoria-kingston-48gb-ddr5-5600mt-s-so-dimm-cl46",
-  "image_url": "https://centrale.cl/wp-content/uploads/Kingston-Ddr5-Sdram-5600-Mhz-48Gb-Sodimm-KCP556SD8-48-1.webp",
+  "image_url": "https://images.findtech.cl/products/memoria-kingston-48gb-ddr5-5600mt-s-so-dimm-cl46.webp",
   "description": null,
   "specs": {
     "Capacidad": "48 GB",
     "Tipo": "DDR5",
     "Velocidad": "5600 MHz",
     "Latencia": "CL46",
-    "Transferencia / Efectivo": "$871.780",
-    "Tarjeta crédito/débito": "$919.730"
+    "Transferencia / Efectivo": "$715.000",
+    "Tarjeta crédito/débito": "$754.330"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 1473,
       "store_id": "centrale",
-      "price": 809810,
-      "price_card": 854350,
-      "price_normal": 919470,
-      "discount_pct": 12,
+      "price": 676040,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-kingston-48gb-ddr5-5600mt-s-so-dimm-cl46/",
       "store_name": "Centrale",
+      "price_card": 713222,
       "price_specs": {
-        "Transferencia / Efectivo": "$809.810",
-        "Tarjetas de Crédito / Débito": "$854.350"
+        "Transferencia / Efectivo": "$676.040",
+        "Tarjetas de Crédito / Débito": "$713.222"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,6 +39,31 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 734900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 734900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 687890
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 676040
+    }
+  ],
+  "scraped_at": "2026-06-25"
 }

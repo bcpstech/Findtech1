@@ -3,17 +3,20 @@
   "external_id": "pn_vistacocab",
   "category_id": "case",
   "brand": "Genérico",
-  "name": "Gabinete Gamemax Vista COC AB",
+  "name": "Gabinete - GameMax VISTA COC AB - ATX - Negro - Sin Fuente - Incluye 5 FAN 120MM ARGB",
   "slug": "gabinete-gamemax-vista-coc-ab",
-  "image_url": "https://images.findtech.cl/products/gabinete-gamemax-vista-coc-ab.webp",
+  "image_url": "https://images.findtech.cl/products/gabinete-gamemax-vista-coc-ab-atx-negro-sin-fuente-incluye-5-fan-120mm-argb.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$48.990",
-    "Tarjeta crédito/débito": "$50.460"
+    "Efectivo / Transferencia": "$46.990",
+    "Tarjeta crédito/débito": "$49.574",
+    "Garantía": "6 meses",
+    "SKU": "35389",
+    "Part Number": "VISTA COC AB"
   },
   "tags": [],
   "created_at": "2026-06-09 23:41:22",
-  "updated_at": "2026-06-20 01:07:13",
+  "updated_at": "2026-06-25 18:07:40",
   "prices": [
     {
       "product_id": 71324,
@@ -54,23 +57,42 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 71324,
-      "store_id": "bcpstech",
-      "price": 48990,
-      "price_normal": 63590,
-      "discount_pct": 23,
+      "product_id": 77701,
+      "store_id": "centrale",
+      "price": 48830,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://bcpstech.cl/?p=1298",
-      "store_name": "BCPS Tech",
-      "price_card": 50460,
+      "product_url": "https://centrale.cl/producto/gabinete-gamemax-vista-coc-ab-atx-vidrio-panoramico-262-5-argb/",
+      "store_name": "Centrale",
+      "price_card": 51516,
       "price_specs": {
-        "Efectivo/Transferencia": "$48.990",
-        "Tarjeta crédito/débito": "$50.460"
+        "Transferencia / Efectivo": "$48.830",
+        "Tarjetas de Crédito / Débito": "$51.516"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.bcpstech.cl",
-      "full_url": "https://bcpstech.cl"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 33903,
+      "store_id": "infor-ingen",
+      "price": 80900,
+      "price_normal": 85754,
+      "discount_pct": 6,
+      "stock": "in_stock",
+      "product_url": "https://store.infor-ingen.com/producto/gabinete-gamemax-vista-ab-6-fan-3-inverso-hub-v4-0-pwm-argb/",
+      "store_name": "Infor-Ingen",
+      "price_card": 83327,
+      "price_specs": {
+        "Efectivo/Transferencia": "$80.900",
+        "Tarjeta crédito/débito": "$83.327"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
     }
   ],
   "history": [
@@ -91,7 +113,13 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 46990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 46990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

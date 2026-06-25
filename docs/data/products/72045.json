@@ -15,26 +15,26 @@
     "Kit": "2x24 GB",
     "Iluminación": "RGB",
     "Tipo de memoria": "DDR5",
-    "Efectivo/Transferencia": "$821.878",
-    "Tarjeta crédito/débito": "$858.863"
+    "Efectivo/Transferencia": "$745.139",
+    "Tarjeta crédito/débito": "$778.670"
   },
   "tags": [],
   "created_at": "2026-06-20 00:08:08",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 72045,
       "store_id": "spdigital",
-      "price": 821878,
-      "price_normal": 908150,
-      "discount_pct": 9,
+      "price": 745139,
+      "price_normal": 902100,
+      "discount_pct": 17,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/memoria-ram-ddr5-48gb-2x24gb-8400mts-cl40-dimm-kingston-renegade-silverblack-rgb-cudimm-xmp",
       "store_name": "SP Digital",
-      "price_card": 858863,
+      "price_card": 778670,
       "price_specs": {
-        "Transferencia / Efectivo": "$821.878",
-        "Webpay / Tarjeta": "$858.863"
+        "Transferencia / Efectivo": "$745.139",
+        "Webpay / Tarjeta": "$778.670"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -44,16 +44,16 @@
     {
       "product_id": 1453,
       "store_id": "centrale",
-      "price": 942330,
+      "price": 992070,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-48gb-2x-24gb-ddr5-8400mt-s-cl40-kingston-fury-renegade-silver-rgb/",
       "store_name": "Centrale",
-      "price_card": 994158,
+      "price_card": 1046634,
       "price_specs": {
-        "Transferencia / Efectivo": "$942.330",
-        "Tarjetas de Crédito / Débito": "$994.158"
+        "Transferencia / Efectivo": "$992.070",
+        "Tarjetas de Crédito / Débito": "$1.046.634"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -67,7 +67,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 821878
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 745139
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

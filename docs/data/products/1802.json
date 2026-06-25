@@ -14,26 +14,26 @@
     "Arquitectura": "RDNA 4",
     "Variante": "OC (Overclocked)",
     "Marca": "ASUS",
-    "Efectivo / Transferencia": "$799.990",
-    "Tarjeta crédito/débito": "$823.990"
+    "Efectivo / Transferencia": "$749.990",
+    "Tarjeta crédito/débito": "$772.490"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:29",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 1802,
       "store_id": "dust2",
-      "price": 799990,
+      "price": 749990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-asus-prime-radeon-rx9070-evo-oc-16g/",
       "store_name": "Dust2",
-      "price_card": 823990,
+      "price_card": 772490,
       "price_specs": {
-        "Efectivo/Transferencia": "$799.990",
-        "Tarjeta crédito/débito": "$823.990"
+        "Efectivo/Transferencia": "$749.990",
+        "Tarjeta crédito/débito": "$772.490"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,7 +59,13 @@
       "store_name": "Dust2",
       "date": "2026-06-20",
       "price": 799990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-25",
+      "price": 749990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

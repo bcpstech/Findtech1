@@ -11,50 +11,31 @@
     "Socket": "LGA1700",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR4",
-    "Transferencia / Efectivo": "$77.050",
-    "Tarjeta crédito/débito": "$81.290"
+    "Transferencia / Efectivo": "$79.250",
+    "Tarjeta crédito/débito": "$83.610"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:29",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 9463,
       "store_id": "spdigital",
-      "price": 76995,
+      "price": 76496,
       "price_normal": 129990,
       "discount_pct": 41,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-madre-asus-h610m-f-d4-ddr4-lga1700",
       "store_name": "SP Digital",
-      "price_card": 80460,
+      "price_card": 79938,
       "price_specs": {
-        "Transferencia / Efectivo": "$76.995",
-        "Webpay / Tarjeta": "$80.460"
+        "Transferencia / Efectivo": "$76.496",
+        "Webpay / Tarjeta": "$79.938"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 1375,
-      "store_id": "centrale",
-      "price": 77050,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-h610m-f-d4-lga1700-micro-atx-ddr4-m-2-pcie-4-0/",
-      "store_name": "Centrale",
-      "price_card": 81288,
-      "price_specs": {
-        "Transferencia / Efectivo": "$77.050",
-        "Tarjetas de Crédito / Débito": "$81.288"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 31925,
@@ -74,6 +55,25 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1375,
+      "store_id": "centrale",
+      "price": 79250,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-h610m-f-d4-lga1700-micro-atx-ddr4-m-2-pcie-4-0/",
+      "store_name": "Centrale",
+      "price_card": 83609,
+      "price_specs": {
+        "Transferencia / Efectivo": "$79.250",
+        "Tarjetas de Crédito / Débito": "$83.609"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 23544,
@@ -113,7 +113,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 76995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 76496
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

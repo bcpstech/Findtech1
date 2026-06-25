@@ -18,12 +18,12 @@
     "Frecuencia turbo": "5,5 GHz",
     "Caché L3": "30 MB",
     "Memoria soportada": "DDR5-SDRAM",
-    "Efectivo/Transferencia": "$384.256",
-    "Tarjeta crédito/débito": "$401.547"
+    "Efectivo/Transferencia": "$373.701",
+    "Tarjeta crédito/débito": "$390.518"
   },
   "tags": [],
   "created_at": "2026-06-20 00:07:12",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 313,
@@ -85,16 +85,16 @@
     {
       "product_id": 71923,
       "store_id": "spdigital",
-      "price": 384256,
-      "price_normal": 449570,
-      "discount_pct": 15,
+      "price": 373701,
+      "price_normal": 461470,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/core-ultra-7-265kf-20-cores-39ghz-30mb-sin-video",
       "store_name": "SP Digital",
-      "price_card": 401548,
+      "price_card": 390518,
       "price_specs": {
-        "Transferencia / Efectivo": "$384.256",
-        "Webpay / Tarjeta": "$401.548"
+        "Transferencia / Efectivo": "$373.701",
+        "Webpay / Tarjeta": "$390.518"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -108,7 +108,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 384256
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 373701
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

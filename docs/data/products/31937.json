@@ -11,26 +11,26 @@
     "Socket": "AM5",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
-    "Transferencia / Efectivo": "$100.700",
-    "Tarjeta crédito/débito": "$106.240"
+    "Transferencia / Efectivo": "$98.650",
+    "Tarjeta crédito/débito": "$104.080"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:52",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 31937,
       "store_id": "winpy",
-      "price": 96672,
-      "price_card": 101796,
+      "price": 95456,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b650m-f-am5-ddr5-1-m-2-hdmi-micro-atx/",
       "store_name": "Winpy",
+      "price_card": 100515,
       "price_specs": {
-        "Transferencia o Depósito": "$96.672",
-        "Otros medios de pago": "$101.796"
+        "Transferencia o Depósito": "$95.456",
+        "Otros medios de pago": "$100.515"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,18 +38,56 @@
       "full_url": "https://www.winpy.cl"
     },
     {
+      "product_id": 63297,
+      "store_id": "n1g",
+      "price": 96500,
+      "price_normal": 101579,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3852-asus-prime-b650m-f-socket-am5-4x-ddr5-1x-m2-gigabit-ethernet-m-atx-bios-flashback-aura-sync.html",
+      "store_name": "N1G",
+      "price_card": 101615,
+      "price_specs": {
+        "Efectivo/Transferencia": "$96.500",
+        "Tarjeta crédito/débito": "$101.615"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
+    {
+      "product_id": 9442,
+      "store_id": "spdigital",
+      "price": 97354,
+      "price_normal": 120220,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-b650m-f-socket-am5-4x-ddr5-1x-m2-gigabit-ethernet-m-atx",
+      "store_name": "SP Digital",
+      "price_card": 101735,
+      "price_specs": {
+        "Transferencia / Efectivo": "$97.354",
+        "Webpay / Tarjeta": "$101.735"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 1332,
       "store_id": "centrale",
-      "price": 100700,
-      "price_card": 106239,
+      "price": 98650,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b650m-f-micro-atx-amd-b650-socket-am5-ddr5/",
       "store_name": "Centrale",
+      "price_card": 104076,
       "price_specs": {
-        "Transferencia / Efectivo": "$100.700",
-        "Tarjetas de Crédito / Débito": "$106.239"
+        "Transferencia / Efectivo": "$98.650",
+        "Tarjetas de Crédito / Débito": "$104.076"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,12 +98,12 @@
       "product_id": 23523,
       "store_id": "alltec",
       "price": 109000,
-      "price_card": 112270,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/para-amd/2483-mb-asus-prime-b650m-f-am5-ddr5-ryzen-700080009000.html",
       "store_name": "Alltec",
+      "price_card": 112270,
       "price_specs": {
         "Efectivo/Transferencia": "$109.000",
         "Tarjeta crédito/débito": "$112.270"
@@ -82,7 +120,25 @@
       "store_name": "Winpy",
       "date": "2026-06-08",
       "price": 96672
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-09",
+      "price": 96672
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 95456
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 95456
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-06-25"
 }

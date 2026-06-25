@@ -12,50 +12,50 @@
     "Interfaz": "PCI Express 3.0",
     "Factor de forma": "M.2 2280",
     "Certificación": "BSMI, ICES-003/NMB-003, CE, FCC, KC, Maghreb, RCM, UKCA, VCCI, CB-Scheme, TUV, UL",
-    "Efectivo/Transferencia": "$198.892",
-    "Tarjeta crédito/débito": "$207.842"
+    "Efectivo/Transferencia": "$178.952",
+    "Tarjeta crédito/débito": "$187.005"
   },
   "tags": [],
   "created_at": "2026-06-20 00:08:34",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
-    {
-      "product_id": 32030,
-      "store_id": "winpy",
-      "price": 186048,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/unidad-de-estado-solido-western-digital-green-sn350-de-1tb-nvme-pcie-gen3-x4/",
-      "store_name": "Winpy",
-      "price_card": 195909,
-      "price_specs": {
-        "Transferencia o Depósito": "$186.048",
-        "Otros medios de pago": "$195.909"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
     {
       "product_id": 72105,
       "store_id": "spdigital",
-      "price": 198892,
-      "price_normal": 219770,
-      "discount_pct": 9,
+      "price": 178952,
+      "price_normal": 220930,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/wd-ssd-green-1tb-sn350-nvme",
       "store_name": "SP Digital",
-      "price_card": 207842,
+      "price_card": 187005,
       "price_specs": {
-        "Transferencia / Efectivo": "$198.892",
-        "Webpay / Tarjeta": "$207.842"
+        "Transferencia / Efectivo": "$178.952",
+        "Webpay / Tarjeta": "$187.005"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 32030,
+      "store_id": "winpy",
+      "price": 187264,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/unidad-de-estado-solido-western-digital-green-sn350-de-1tb-nvme-pcie-gen3-x4/",
+      "store_name": "Winpy",
+      "price_card": 197189,
+      "price_specs": {
+        "Transferencia o Depósito": "$187.264",
+        "Otros medios de pago": "$197.189"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     }
   ],
   "history": [
@@ -64,7 +64,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 198892
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 178952
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

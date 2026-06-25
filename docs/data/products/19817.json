@@ -20,14 +20,14 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:32",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 19817,
       "store_id": "myshop",
       "price": 409700,
       "price_normal": 432234,
-      "discount_pct": 12,
+      "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/geforce-rtx-5060-windforce-oc-8g-p38500",
       "store_name": "MyShop",
@@ -48,7 +48,13 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 409700
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 409700
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

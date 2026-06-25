@@ -12,24 +12,64 @@
     "Factor de forma": "micro ATX",
     "Memoria": "DDR4",
     "Chipset": "Intel B760",
-    "Efectivo/Transferencia": "$219.990",
-    "Tarjeta crédito/débito": "$229.890"
+    "Efectivo/Transferencia": "$94.103",
+    "Tarjeta crédito/débito": "$98.338"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:34",
-  "updated_at": "2026-05-03 22:40:02",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
+    {
+      "product_id": 9473,
+      "store_id": "spdigital",
+      "price": 94103,
+      "price_normal": 116190,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/msi-pro-b760m-p-ddr4-motherboard",
+      "store_name": "SP Digital",
+      "price_card": 98338,
+      "price_specs": {
+        "Transferencia / Efectivo": "$94.103",
+        "Webpay / Tarjeta": "$98.338"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 31935,
+      "store_id": "winpy",
+      "price": 94848,
+      "price_normal": null,
+      "discount_pct": 37,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/placa-madre-msi-pro-b760m-p-lga1700-ddr4-2133-4800-mhz-m-2-x2-microatx/",
+      "store_name": "Winpy",
+      "price_card": 99875,
+      "price_specs": {
+        "Transferencia o Depósito": "$94.848",
+        "Otros medios de pago": "$99.875"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
     {
       "product_id": 1359,
       "store_id": "centrale",
-      "price": 103030,
+      "price": 96220,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-msi-pro-b760m-p-ddr4-socket-intel-lga-1700/",
       "store_name": "Centrale",
+      "price_card": 101512,
       "price_specs": {
-        "Transferencia / Efectivo": "$103.030"
+        "Transferencia / Efectivo": "$96.220",
+        "Tarjetas de Crédito / Débito": "$101.512"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,48 +77,38 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 9473,
-      "store_id": "spdigital",
-      "price": 219990,
-      "price_normal": null,
-      "discount_pct": null,
+      "product_id": 32948,
+      "store_id": "infor-ingen",
+      "price": 98900,
+      "price_normal": 104834,
+      "discount_pct": 6,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/msi-pro-b760m-p-ddr4-motherboard",
-      "store_name": "SP Digital",
+      "product_url": "https://store.infor-ingen.com/producto/m-b-msi-pro-b760m-p/",
+      "store_name": "Infor-Ingen",
+      "price_card": 101867,
       "price_specs": {
-        "Transferencia / Efectivo": "$219.990"
+        "Efectivo/Transferencia": "$98.900",
+        "Tarjeta crédito/débito": "$101.867"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
     }
   ],
   "history": [
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-28",
-      "price": 219990
+      "date": "2026-06-20",
+      "price": 94678
     },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-29",
-      "price": 219990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-01",
-      "price": 219990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-03",
-      "price": 219990
+      "date": "2026-06-25",
+      "price": 94103
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-06-25"
 }

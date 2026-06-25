@@ -12,12 +12,12 @@
     "Factor de forma": "ATX",
     "Memoria": "DDR5",
     "Chipset": "AMD A620A",
-    "Efectivo/Transferencia": "$77.985",
-    "Tarjeta crédito/débito": "$81.494"
+    "Efectivo/Transferencia": "$80.077",
+    "Tarjeta crédito/débito": "$83.680"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:42",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 31927,
@@ -41,16 +41,16 @@
     {
       "product_id": 73272,
       "store_id": "centrale",
-      "price": 77750,
+      "price": 79280,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-a620am-b-evo-micro-atx-am5-ddr5-pcie-4-0/",
       "store_name": "Centrale",
-      "price_card": 82026,
+      "price_card": 83640,
       "price_specs": {
-        "Transferencia / Efectivo": "$77.750",
-        "Tarjetas de Crédito / Débito": "$82.026"
+        "Transferencia / Efectivo": "$79.280",
+        "Tarjetas de Crédito / Débito": "$83.640"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,16 +60,16 @@
     {
       "product_id": 59508,
       "store_id": "spdigital",
-      "price": 77985,
-      "price_normal": 96270,
+      "price": 80077,
+      "price_normal": 98820,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/pro-a620am-b-evo",
       "store_name": "SP Digital",
-      "price_card": 81494,
+      "price_card": 83680,
       "price_specs": {
-        "Transferencia / Efectivo": "$77.985",
-        "Webpay / Tarjeta": "$81.494"
+        "Transferencia / Efectivo": "$80.077",
+        "Webpay / Tarjeta": "$83.680"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -95,7 +95,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 77985
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 80077
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

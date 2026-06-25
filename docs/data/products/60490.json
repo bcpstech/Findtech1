@@ -13,12 +13,12 @@
     "Bus de memoria": "512-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo/Transferencia": "$6.074.502",
-    "Tarjeta crédito/débito": "$6.347.855"
+    "Efectivo/Transferencia": "$5.882.700",
+    "Tarjeta crédito/débito": "$6.147.421"
   },
   "tags": [],
   "created_at": "2026-06-08 20:56:17",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 60490,
@@ -42,16 +42,16 @@
     {
       "product_id": 9569,
       "store_id": "spdigital",
-      "price": 6074502,
+      "price": 5882700,
       "price_normal": 7265280,
-      "discount_pct": 16,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-rog-astral-geforce-rtx-5090-oc-edition-32gb-gddr7-512-bit-pci-e-50",
       "store_name": "SP Digital",
-      "price_card": 6347855,
+      "price_card": 6147422,
       "price_specs": {
-        "Transferencia / Efectivo": "$6.074.502",
-        "Webpay / Tarjeta": "$6.347.855"
+        "Transferencia / Efectivo": "$5.882.700",
+        "Webpay / Tarjeta": "$6.147.422"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -77,7 +77,13 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 4536290
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 4536290
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

@@ -11,29 +11,29 @@
     "Capacidad": "16 GB",
     "Tipo": "DDR4",
     "Velocidad": "3600 MHz",
-    "Efectivo / Transferencia": "$178.990",
-    "Tarjeta crédito/débito": "$188.834",
+    "Efectivo / Transferencia": "$175.500",
+    "Tarjeta crédito/débito": "$185.153",
     "Garantía": "6 meses",
     "SKU": "23445",
     "Part Number": "KF436C16RB12/16"
   },
   "tags": [],
   "created_at": "2026-06-20 00:08:03",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 72033,
       "store_id": "spdigital",
-      "price": 111793,
-      "price_normal": 123470,
-      "discount_pct": 9,
+      "price": 99392,
+      "price_normal": 122740,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/8gb3600mts-ddr4-cl16dimmfuryrenegadeblack",
       "store_name": "SP Digital",
-      "price_card": 116824,
+      "price_card": 103865,
       "price_specs": {
-        "Transferencia / Efectivo": "$111.793",
-        "Webpay / Tarjeta": "$116.824"
+        "Transferencia / Efectivo": "$99.392",
+        "Webpay / Tarjeta": "$103.865"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,16 +43,16 @@
     {
       "product_id": 60083,
       "store_id": "myshop",
-      "price": 178990,
-      "price_normal": 188834,
+      "price": 175500,
+      "price_normal": 185153,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/dimm-16-gb-kingston-fury-renegade-kf436c16rb1216-1-x-16-gb--dimm-ddr4-3600-p23445",
       "store_name": "MyShop",
-      "price_card": 184360,
+      "price_card": 180765,
       "price_specs": {
-        "Efectivo/Transferencia": "$178.990",
-        "Tarjeta crédito/débito": "$184.360"
+        "Efectivo/Transferencia": "$175.500",
+        "Tarjeta crédito/débito": "$180.765"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,16 +62,16 @@
     {
       "product_id": 1507,
       "store_id": "centrale",
-      "price": 348990,
+      "price": 346490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-32gb-3600mhz-ddr4-kingston-fury-black-cl18-dimm/",
       "store_name": "Centrale",
-      "price_card": 368184,
+      "price_card": 365547,
       "price_specs": {
-        "Transferencia / Efectivo": "$348.990",
-        "Tarjetas de Crédito / Débito": "$368.184"
+        "Transferencia / Efectivo": "$346.490",
+        "Tarjetas de Crédito / Débito": "$365.547"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -104,7 +104,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 111793
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 99392
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

@@ -13,26 +13,26 @@
     "Factor de forma": "2.5\"",
     "Lectura": "500 MB/s",
     "Certificación": "CE, FCC",
-    "Efectivo/Transferencia": "$78.684",
-    "Tarjeta crédito/débito": "$82.225"
+    "Efectivo/Transferencia": "$80.770",
+    "Tarjeta crédito/débito": "$84.405"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:02",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 9528,
       "store_id": "spdigital",
-      "price": 78684,
-      "price_normal": 112140,
+      "price": 80770,
+      "price_normal": 115090,
       "discount_pct": 30,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/unidad-ssd-kingston-ssdnow-a400-240gb-25-lectura-500mbs-escritura-350mbs",
       "store_name": "SP Digital",
-      "price_card": 82225,
+      "price_card": 84405,
       "price_specs": {
-        "Transferencia / Efectivo": "$78.684",
-        "Webpay / Tarjeta": "$82.225"
+        "Transferencia / Efectivo": "$80.770",
+        "Webpay / Tarjeta": "$84.405"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,7 +58,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 78684
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 80770
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

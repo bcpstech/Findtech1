@@ -16,21 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-05-08 22:24:40",
-  "updated_at": "2026-06-20 00:20:15",
+  "updated_at": "2026-06-25 18:07:12",
   "prices": [
     {
       "product_id": 1689,
       "store_id": "centrale",
-      "price": 49750,
+      "price": 48260,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-650w-msi-mag-a650bn-pcie-iii-80-plus-bronze-pcie-5-1-atx-3-1/",
       "store_name": "Centrale",
-      "price_card": 52486,
+      "price_card": 50914,
       "price_specs": {
-        "Transferencia / Efectivo": "$49.750",
-        "Tarjetas de Crédito / Débito": "$52.486"
+        "Transferencia / Efectivo": "$48.260",
+        "Tarjetas de Crédito / Débito": "$50.914"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -113,7 +113,13 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 281990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 281990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

@@ -11,46 +11,77 @@
     "Socket": "LGA1700",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
-    "Efectivo / Transferencia": "$83.904",
-    "Tarjeta crédito/débito": "$88.351"
+    "Transferencia / Efectivo": "$86.680",
+    "Tarjeta crédito/débito": "$91.450"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:40",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 31931,
       "store_id": "winpy",
-      "price": 83904,
-      "price_card": 88351,
+      "price": 83296,
       "price_normal": null,
-      "discount_pct": null,
+      "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-gigabyte-h610m-k-v2-lga1700-ddr5-4400-5600mhz-m-2-micro-atx/",
       "store_name": "Winpy",
+      "price_card": 87711,
       "price_specs": {
-        "Transferencia o Depósito": "$83.904",
-        "Otros medios de pago": "$88.351"
+        "Transferencia o Depósito": "$83.296",
+        "Otros medios de pago": "$87.711"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1391,
+      "store_id": "centrale",
+      "price": 86680,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-h610m-k-v2-micro-atx-lga-1700-ddr5-nvme-3-0/",
+      "store_name": "Centrale",
+      "price_card": 91447,
+      "price_specs": {
+        "Transferencia / Efectivo": "$86.680",
+        "Tarjetas de Crédito / Débito": "$91.447"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-04",
-      "price": 83904
+      "date": "2026-06-08",
+      "price": 85728
     },
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-05",
-      "price": 83904
+      "date": "2026-06-09",
+      "price": 82688
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 81472
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 83296
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-06-25"
 }

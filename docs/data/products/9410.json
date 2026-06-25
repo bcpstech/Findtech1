@@ -21,42 +21,26 @@
     "Caché L3": "38 MB",
     "TDP": "65 W",
     "Memoria soportada": "DDR5-SDRAM",
-    "Efectivo/Transferencia": "$399.990",
-    "Tarjeta crédito/débito": "$417.990"
+    "Efectivo/Transferencia": "$255.096",
+    "Tarjeta crédito/débito": "$266.575"
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:57",
-  "updated_at": "2026-05-03 22:40:02",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
-    {
-      "product_id": 1975,
-      "store_id": "dust2",
-      "price": 239990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-5-9600x-6c-12t-3-9-5-4ghz/",
-      "store_name": "Dust2",
-      "price_specs": {
-        "Efectivo/Transferencia": "$239.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
     {
       "product_id": 34,
       "store_id": "n1g",
-      "price": 241500,
-      "price_normal": 254211,
+      "price": 209900,
+      "price_normal": 220947,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/2786-amd-ryzen-5-9600x-up-to-54-ghz-6-core-socket-am5-65w-radeon-sin-cooler-100-100001405wof.html",
       "store_name": "N1G",
+      "price_card": 221025,
       "price_specs": {
-        "Efectivo/Transferencia": "$241.500",
-        "Tarjeta crédito/débito": "$254.211"
+        "Efectivo/Transferencia": "$209.900",
+        "Tarjeta crédito/débito": "$221.025"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -64,33 +48,37 @@
       "full_url": "https://www.n1g.cl"
     },
     {
-      "product_id": 2812,
-      "store_id": "alltec",
-      "price": 249900,
-      "price_normal": null,
-      "discount_pct": null,
+      "product_id": 32921,
+      "store_id": "infor-ingen",
+      "price": 219900,
+      "price_normal": 233094,
+      "discount_pct": 6,
       "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/amd/2268-amd-ryzen-5-9600x-39ghz-54ghz-turbo-six-core-tdp-65w-am5.html",
-      "store_name": "Alltec",
+      "product_url": "https://store.infor-ingen.com/producto/cpu-amd-ryzen-5-9600x-3-9-ghz/",
+      "store_name": "Infor-Ingen",
+      "price_card": 226497,
       "price_specs": {
-        "Efectivo/Transferencia": "$249.900"
+        "Efectivo/Transferencia": "$219.900",
+        "Tarjeta crédito/débito": "$226.497"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
     },
     {
       "product_id": 286,
       "store_id": "centrale",
-      "price": 255510,
+      "price": 224190,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-9600x-6-cores-12-threads-3-9-a-5-4ghz-65w/",
       "store_name": "Centrale",
+      "price_card": 236520,
       "price_specs": {
-        "Transferencia / Efectivo": "$255.510"
+        "Transferencia / Efectivo": "$224.190",
+        "Tarjetas de Crédito / Débito": "$236.520"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -98,33 +86,37 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 1151,
-      "store_id": "cg",
-      "price": 265990,
+      "product_id": 31893,
+      "store_id": "winpy",
+      "price": 232864,
       "price_normal": null,
-      "discount_pct": null,
+      "discount_pct": 32,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-9600x/",
-      "store_name": "CentralGamer",
+      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-9600x-am5-6-cores-12-hilos-3-9-5-4ghz-32mb-cache-unlocked/",
+      "store_name": "Winpy",
+      "price_card": 245206,
       "price_specs": {
-        "Efectivo/Transferencia": "$265.990"
+        "Transferencia o Depósito": "$232.864",
+        "Otros medios de pago": "$245.206"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     },
     {
       "product_id": 9410,
       "store_id": "spdigital",
-      "price": 399990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 255096,
+      "price_normal": 399990,
+      "discount_pct": 36,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/amd-ryzen-5-9600x-6-core-processor",
       "store_name": "SP Digital",
+      "price_card": 266575,
       "price_specs": {
-        "Transferencia / Efectivo": "$399.990"
+        "Transferencia / Efectivo": "$255.096",
+        "Webpay / Tarjeta": "$266.575"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -136,27 +128,27 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-28",
+      "date": "2026-06-08",
+      "price": 326344
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-09",
+      "price": 326344
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
       "price": 399990
     },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-29",
-      "price": 399990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-01",
-      "price": 399990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-03",
-      "price": 399990
+      "date": "2026-06-25",
+      "price": 255096
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-06-25"
 }

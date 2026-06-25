@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:23:04",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 31943,
       "store_id": "winpy",
-      "price": 119168,
+      "price": 117344,
       "price_normal": null,
-      "discount_pct": 22,
+      "discount_pct": 23,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-b650m-ayw-wifi-am5-ddr5-x2-m-2-x2-micro-atx/",
       "store_name": "Winpy",
-      "price_card": 125484,
+      "price_card": 123563,
       "price_specs": {
-        "Transferencia o Depósito": "$119.168",
-        "Otros medios de pago": "$125.484"
+        "Transferencia o Depósito": "$117.344",
+        "Otros medios de pago": "$123.563"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 1384,
       "store_id": "centrale",
-      "price": 120790,
+      "price": 119990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-b650m-ayw-wifi-am5-ddr5-x2-m-2-x2-micro-atx-wifi-6/",
       "store_name": "Centrale",
-      "price_card": 127433,
+      "price_card": 126589,
       "price_specs": {
-        "Transferencia / Efectivo": "$120.790",
-        "Tarjetas de Crédito / Débito": "$127.433"
+        "Transferencia / Efectivo": "$119.990",
+        "Tarjetas de Crédito / Débito": "$126.589"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,16 +60,16 @@
     {
       "product_id": 9428,
       "store_id": "spdigital",
-      "price": 122573,
-      "price_normal": 144150,
-      "discount_pct": 15,
+      "price": 131466,
+      "price_normal": 162370,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-asus-b650m-ayw-wifi-socket-am5-2x-ddr5-2x-nvme-wi-fi-6-25-gbe-micro-atx",
       "store_name": "SP Digital",
-      "price_card": 128089,
+      "price_card": 137382,
       "price_specs": {
-        "Transferencia / Efectivo": "$122.573",
-        "Webpay / Tarjeta": "$128.089"
+        "Transferencia / Efectivo": "$131.466",
+        "Webpay / Tarjeta": "$137.382"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -133,7 +133,13 @@
       "store_name": "Winpy",
       "date": "2026-06-20",
       "price": 119168
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 117344
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

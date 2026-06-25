@@ -12,26 +12,26 @@
     "Interfaz": "PCI Express 4.0",
     "Factor de forma": "M.2 2280",
     "Certificación": "morocco",
-    "Efectivo/Transferencia": "$209.990",
-    "Tarjeta crédito/débito": "$219.440"
+    "Efectivo/Transferencia": "$169.995",
+    "Tarjeta crédito/débito": "$177.645"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:58",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 9519,
       "store_id": "spdigital",
-      "price": 209990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 169995,
+      "price_normal": 209990,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ssd-nvme-adata-legend-860-1tb-2280-pcie-40",
       "store_name": "SP Digital",
-      "price_card": 219440,
+      "price_card": 177645,
       "price_specs": {
-        "Transferencia / Efectivo": "$209.990",
-        "Webpay / Tarjeta": "$219.440"
+        "Transferencia / Efectivo": "$169.995",
+        "Webpay / Tarjeta": "$177.645"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,7 +57,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 209990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 169995
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

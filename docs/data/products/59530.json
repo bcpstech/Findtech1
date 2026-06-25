@@ -13,26 +13,26 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Chipset": "Intel Z790 Express",
-    "Efectivo/Transferencia": "$357.990",
-    "Tarjeta crédito/débito": "$374.100"
+    "Efectivo/Transferencia": "$229.995",
+    "Tarjeta crédito/débito": "$240.345"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:52",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 59525,
       "store_id": "spdigital",
-      "price": 129995,
+      "price": 134995,
       "price_normal": 199990,
-      "discount_pct": 35,
+      "discount_pct": 32,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/gigabyte-b760m-ds3h-ax-ddr4-motherboard-micro-atx-lga1700-socket-b760m-para-celeron-pa",
       "store_name": "SP Digital",
-      "price_card": 135845,
+      "price_card": 141070,
       "price_specs": {
-        "Transferencia / Efectivo": "$129.995",
-        "Webpay / Tarjeta": "$135.845"
+        "Transferencia / Efectivo": "$134.995",
+        "Webpay / Tarjeta": "$141.070"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,18 +40,18 @@
       "full_url": "https://www.spdigital.cl"
     },
     {
-      "product_id": 1396,
+      "product_id": 73223,
       "store_id": "centrale",
-      "price": 164690,
+      "price": 137640,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-b760m-gaming-plus-wifi-ddr4-micro-atx-lga-1700-ddr4-wifi-6/",
+      "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b760m-ds3h-ax-ddr4-wifi-6/",
       "store_name": "Centrale",
-      "price_card": 173748,
+      "price_card": 145210,
       "price_specs": {
-        "Transferencia / Efectivo": "$164.690",
-        "Tarjetas de Crédito / Débito": "$173.748"
+        "Transferencia / Efectivo": "$137.640",
+        "Tarjetas de Crédito / Débito": "$145.210"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -71,7 +71,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 357990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 229995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 229995
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-25"
 }

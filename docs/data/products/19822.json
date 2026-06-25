@@ -12,29 +12,29 @@
     "Tipo memoria": "GDDR7",
     "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$447.990",
-    "Tarjeta crédito/débito": "$472.629",
+    "Efectivo / Transferencia": "$439.900",
+    "Tarjeta crédito/débito": "$464.095",
     "Garantía": "6 meses",
     "SKU": "42710",
     "Part Number": "912-V537-018"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:36",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 19822,
       "store_id": "myshop",
-      "price": 447990,
-      "price_normal": 472629,
-      "discount_pct": 18,
+      "price": 439900,
+      "price_normal": 464095,
+      "discount_pct": 20,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/geforce-rtx-5060-8g-ventus-2x-oc-white-p42710",
       "store_name": "MyShop",
-      "price_card": 461430,
+      "price_card": 453097,
       "price_specs": {
-        "Efectivo/Transferencia": "$447.990",
-        "Tarjeta crédito/débito": "$461.430"
+        "Efectivo/Transferencia": "$439.900",
+        "Tarjeta crédito/débito": "$453.097"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,7 +60,13 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 447990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 439900
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

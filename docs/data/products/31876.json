@@ -13,29 +13,26 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$824.990",
-    "Tarjeta crédito/débito": "$870.364",
-    "Garantía": "6 meses",
-    "SKU": "37385",
-    "Part Number": "912-V532-019"
+    "Transferencia / Efectivo": "$882.690",
+    "Tarjeta crédito/débito": "$931.240"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:44",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 31876,
       "store_id": "winpy",
-      "price": 817760,
-      "price_card": 861101,
+      "price": 799520,
       "price_normal": null,
-      "discount_pct": 18,
+      "discount_pct": 20,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5070-gaming-trio-oc-de-12gb-gddr7/",
       "store_name": "Winpy",
+      "price_card": 841895,
       "price_specs": {
-        "Transferencia o Depósito": "$817.760",
-        "Otros medios de pago": "$861.101"
+        "Transferencia o Depósito": "$799.520",
+        "Otros medios de pago": "$841.895"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,37 +40,18 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 19835,
-      "store_id": "myshop",
-      "price": 824990,
-      "price_card": 849740,
-      "price_normal": 870364,
-      "discount_pct": 14,
-      "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/geforce-rtx-5070-12g-gaming-trio-oc-p37385",
-      "store_name": "MyShop",
-      "price_specs": {
-        "Efectivo/Transferencia": "$824.990",
-        "Tarjeta crédito/débito": "$849.740"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.myshop.cl",
-      "full_url": "https://www.myshop.cl"
-    },
-    {
       "product_id": 1199,
       "store_id": "centrale",
-      "price": 842040,
-      "price_card": 888352,
+      "price": 882690,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5070-12gb-gddr7-gaming-trio-oc-pcie-gen-5-250w/",
       "store_name": "Centrale",
+      "price_card": 931238,
       "price_specs": {
-        "Transferencia / Efectivo": "$842.040",
-        "Tarjetas de Crédito / Débito": "$888.352"
+        "Transferencia / Efectivo": "$882.690",
+        "Tarjetas de Crédito / Débito": "$931.238"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -81,6 +59,13 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 799520
+    }
+  ],
+  "scraped_at": "2026-06-25"
 }

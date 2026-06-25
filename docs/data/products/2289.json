@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:48",
-  "updated_at": "2026-06-20 00:43:26",
+  "updated_at": "2026-06-25 18:21:47",
   "prices": [
     {
       "product_id": 2289,
@@ -34,25 +34,6 @@
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 59731,
-      "store_id": "spdigital",
-      "price": 90282,
-      "price_normal": 111470,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/corsair-memory-fuente-de-poder-rm750e-80-plus-gold-full-modular",
-      "store_name": "SP Digital",
-      "price_card": 94345,
-      "price_specs": {
-        "Transferencia / Efectivo": "$90.282",
-        "Webpay / Tarjeta": "$94.345"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 56705,
@@ -92,7 +73,13 @@
       "store_name": "Dust2",
       "date": "2026-06-20",
       "price": 89390
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-25",
+      "price": 89390
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

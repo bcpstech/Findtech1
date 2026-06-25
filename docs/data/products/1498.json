@@ -12,26 +12,26 @@
     "Tipo": "DDR5",
     "Velocidad": "5600 MHz",
     "Latencia": "CL46",
-    "Transferencia / Efectivo": "$544.690",
-    "Tarjeta crédito/débito": "$574.650"
+    "Transferencia / Efectivo": "$555.480",
+    "Tarjeta crédito/débito": "$586.030"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 1498,
       "store_id": "centrale",
-      "price": 271880,
+      "price": 264190,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-notebook-16gb-ddr5-5600mt-s-cl46-kingston-sodimm-1rx8-1-1v-16gbit/",
       "store_name": "Centrale",
-      "price_card": 286833,
+      "price_card": 278720,
       "price_specs": {
-        "Transferencia / Efectivo": "$271.880",
-        "Tarjetas de Crédito / Débito": "$286.833"
+        "Transferencia / Efectivo": "$264.190",
+        "Tarjetas de Crédito / Débito": "$278.720"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,7 +57,13 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 271880
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 264190
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

@@ -18,26 +18,26 @@
     "Hilos": "20",
     "Caché L3": "30 MB",
     "Memoria soportada": "DDR5-SDRAM",
-    "Efectivo/Transferencia": "$461.363",
-    "Tarjeta crédito/débito": "$482.124"
+    "Efectivo/Transferencia": "$448.589",
+    "Tarjeta crédito/débito": "$468.776"
   },
   "tags": [],
   "created_at": "2026-06-20 00:07:11",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 327,
       "store_id": "centrale",
-      "price": 418810,
+      "price": 411700,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265f-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n/",
       "store_name": "Centrale",
-      "price_card": 441845,
+      "price_card": 434344,
       "price_specs": {
-        "Transferencia / Efectivo": "$418.810",
-        "Tarjetas de Crédito / Débito": "$441.845"
+        "Transferencia / Efectivo": "$411.700",
+        "Tarjetas de Crédito / Débito": "$434.344"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -47,16 +47,16 @@
     {
       "product_id": 71921,
       "store_id": "spdigital",
-      "price": 461363,
-      "price_normal": 539730,
-      "discount_pct": 15,
+      "price": 448589,
+      "price_normal": 554020,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-intel-core-ultra-7-265-cache-de-30-mb-hasta-530-ghz-fclga18w-sin-graficos-integrados",
       "store_name": "SP Digital",
-      "price_card": 482124,
+      "price_card": 468776,
       "price_specs": {
-        "Transferencia / Efectivo": "$461.363",
-        "Webpay / Tarjeta": "$482.124"
+        "Transferencia / Efectivo": "$448.589",
+        "Webpay / Tarjeta": "$468.776"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -70,7 +70,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 461363
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 448589
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

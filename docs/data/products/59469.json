@@ -18,26 +18,26 @@
     "Caché L3": "36 MB",
     "Memoria soportada": "DDR5-SDRAM",
     "Gráficos integrados": "Intel Graphics",
-    "Efectivo/Transferencia": "$635.386",
-    "Tarjeta crédito/débito": "$663.978"
+    "Efectivo/Transferencia": "$748.829",
+    "Tarjeta crédito/débito": "$782.526"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:26",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 324,
       "store_id": "centrale",
-      "price": 625070,
+      "price": 625080,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-9-285k-socket-lga1851-24-nucleos-37-57ghz-36-tops/",
       "store_name": "Centrale",
-      "price_card": 659449,
+      "price_card": 659459,
       "price_specs": {
-        "Transferencia / Efectivo": "$625.070",
-        "Tarjetas de Crédito / Débito": "$659.449"
+        "Transferencia / Efectivo": "$625.080",
+        "Tarjetas de Crédito / Débito": "$659.459"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -45,23 +45,23 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 59469,
-      "store_id": "spdigital",
-      "price": 635386,
-      "price_normal": 784710,
-      "discount_pct": 19,
+      "product_id": 19,
+      "store_id": "n1g",
+      "price": 664900,
+      "price_normal": 699895,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/procesador-intel-core-ultra-9-285k-cache-de-36-mb-hasta-570-ghz-socket-lga1851-125w",
-      "store_name": "SP Digital",
-      "price_card": 663978,
+      "product_url": "https://n1g.cl/Home/computacion/3536-intel-core-ultra-9-285k-core-ultra-9-series-2-arrow-lake-24-core-8p16e-lga-1851-125w-bx80768285k.html",
+      "store_name": "N1G",
+      "price_card": 700140,
       "price_specs": {
-        "Transferencia / Efectivo": "$635.386",
-        "Webpay / Tarjeta": "$663.978"
+        "Efectivo/Transferencia": "$664.900",
+        "Tarjeta crédito/débito": "$700.140"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     },
     {
       "product_id": 60302,
@@ -102,6 +102,25 @@
       "full_url": "https://www.dust2.gg"
     },
     {
+      "product_id": 59469,
+      "store_id": "spdigital",
+      "price": 748829,
+      "price_normal": 924830,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/procesador-intel-core-ultra-9-285k-cache-de-36-mb-hasta-570-ghz-socket-lga1851-125w",
+      "store_name": "SP Digital",
+      "price_card": 782526,
+      "price_specs": {
+        "Transferencia / Efectivo": "$748.829",
+        "Webpay / Tarjeta": "$782.526"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 38833,
       "store_id": "mybox",
       "price": 823241,
@@ -139,7 +158,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 635386
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 748829
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:07",
-  "updated_at": "2026-06-20 00:10:42",
+  "updated_at": "2026-06-25 17:59:37",
   "prices": [
     {
       "product_id": 9761,
@@ -34,6 +34,25 @@
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 77680,
+      "store_id": "centrale",
+      "price": 124360,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/gabinete-antec-c8-constellation-series-atx-dual-chamber-usb-c/",
+      "store_name": "Centrale",
+      "price_card": 131200,
+      "price_specs": {
+        "Transferencia / Efectivo": "$124.360",
+        "Tarjetas de Crédito / Débito": "$131.200"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 38993,
@@ -73,7 +92,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 116995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 116995
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

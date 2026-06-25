@@ -18,18 +18,18 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:23:20",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 31951,
       "store_id": "winpy",
       "price": 139840,
-      "price_card": 147252,
       "price_normal": null,
       "discount_pct": 35,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b840m-a-wifi-am5-ddr5-7600-mhz-m-2-x3-microatx/",
       "store_name": "Winpy",
+      "price_card": 147252,
       "price_specs": {
         "Transferencia o Depósito": "$139.840",
         "Otros medios de pago": "$147.252"
@@ -42,16 +42,16 @@
     {
       "product_id": 1392,
       "store_id": "centrale",
-      "price": 157700,
-      "price_card": 166374,
+      "price": 140690,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b840m-a-wifi-micro-atx-am5-ddr5-pcie-4-0-wifi-6e/",
       "store_name": "Centrale",
+      "price_card": 148428,
       "price_specs": {
-        "Transferencia / Efectivo": "$157.700",
-        "Tarjetas de Crédito / Débito": "$166.374"
+        "Transferencia / Efectivo": "$140.690",
+        "Tarjetas de Crédito / Débito": "$148.428"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,15 +59,34 @@
       "full_url": "https://www.centrale.cl"
     },
     {
+      "product_id": 71943,
+      "store_id": "spdigital",
+      "price": 141955,
+      "price_normal": 175340,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-b840m-a-wifi-amd-am5-4xddr5-3xm2-pcie40-4xsata-wifi-6e-micro-atx",
+      "store_name": "SP Digital",
+      "price_card": 148343,
+      "price_specs": {
+        "Transferencia / Efectivo": "$141.955",
+        "Webpay / Tarjeta": "$148.343"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 33167,
       "store_id": "infor-ingen",
       "price": 172900,
-      "price_card": 178087,
       "price_normal": 183274,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/m-b-asus-prime-b840m-a/",
       "store_name": "Infor-Ingen",
+      "price_card": 178087,
       "price_specs": {
         "Efectivo/Transferencia": "$172.900",
         "Tarjeta crédito/débito": "$178.087"
@@ -81,12 +100,12 @@
       "product_id": 38888,
       "store_id": "mybox",
       "price": 174991,
-      "price_card": 180241,
       "price_normal": 199990,
       "discount_pct": 13,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/placa-madre/5800-placa-madre-asus-prime-b840m-a-4711387797198.html",
       "store_name": "MyBox",
+      "price_card": 180241,
       "price_specs": {
         "Efectivo/Transferencia": "$174.991",
         "Tarjeta crédito/débito": "$180.241"
@@ -100,12 +119,12 @@
       "product_id": 23525,
       "store_id": "alltec",
       "price": 181000,
-      "price_card": 186430,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/asus/2423-mb-asus-prime-b840m-a-wifi-am5-ddr5-amd-ryzen-9000.html",
       "store_name": "Alltec",
+      "price_card": 186430,
       "price_specs": {
         "Efectivo/Transferencia": "$181.000",
         "Tarjeta crédito/débito": "$186.430"
@@ -119,12 +138,12 @@
       "product_id": 598,
       "store_id": "n1g",
       "price": 182900,
-      "price_card": 192594,
       "price_normal": 192526,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3143-asus-prime-b840m-a-am5-ddr5-matx-motherboard-4-dimm.html",
       "store_name": "N1G",
+      "price_card": 192594,
       "price_specs": {
         "Efectivo/Transferencia": "$182.900",
         "Tarjeta crédito/débito": "$192.594"
@@ -135,6 +154,31 @@
       "full_url": "https://www.n1g.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 150176
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-09",
+      "price": 150176
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 139840
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 139840
+    }
+  ],
+  "scraped_at": "2026-06-25"
 }

@@ -1,42 +1,56 @@
 {
   "id": 702,
-  "external_id": "centrale_tarjeta-grafica-zotac-rtx-5080-16gb-gddr7-solid-core-oc-pcie-5-0-360w",
-  "category_id": "gpu",
-  "brand": "Zotac",
-  "name": "Tarjeta Gráfica Zotac RTX 5080 16GB GDDR7 Solid Core OC, PCIe 5.0, 360W",
-  "slug": "tarjeta-grafica-zotac-rtx-5080-16gb-gddr7-solid-core-oc-pcie-5-0-360w",
-  "image_url": "https://centrale.cl/wp-content/uploads/Zotac-Tarjeta-De-Video-Geforce-Rtx-5080-16Gb-Solid-Core-Oc-256Bit-Gddr7-P-N.webp",
+  "external_id": "n1g_kingston-nv3-4tb-m-2-2280-nvme-pcie-4-0-x4-nand-3d-6000mb-s-snv3s-4000g",
+  "category_id": "storage",
+  "brand": "Kingston",
+  "name": "Kingston NV3 4TB M.2 2280 NVMe PCIe 4.0 x4 NAND 3D 6000MB/s SNV3S/4000G",
+  "slug": "kingston-nv3-4tb-m-2-2280-nvme-pcie-4-0-x4-nand-3d-6000mb-s-snv3s-4000g",
+  "image_url": "https://images.findtech.cl/products/kingston-nv3-4tb-m-2-2280-nvme-pcie-4-0-x4-nand-3d-6000mb-s-snv3s-4000g.jpg",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$1.632.310",
-    "Tarjetas de Crédito / Débito": "$1.722.090"
+    "Capacidad": "4 TB",
+    "Interfaz": "NVMe PCIe",
+    "Factor de forma": "M.2 2280",
+    "Efectivo/Transferencia": "$445.900",
+    "Tarjeta crédito/débito": "$459.277"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:28",
-  "updated_at": "2026-04-25 19:37:28",
+  "created_at": "2026-04-26 20:16:18",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 702,
-      "store_id": "centrale",
-      "price": 1632310,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "n1g",
+      "price": 445900,
+      "price_normal": 469368,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-rtx-5080-16gb-gddr7-solid-core-oc-pcie-5-0-360w/",
-      "store_name": "Centrale",
+      "product_url": "https://n1g.cl/Home/computacion/3742-kingston-nv3-2tb-m2-2230-nvme-pcie-40-x4-nand-3d-6000mbs-snv3sm32t0.html",
+      "store_name": "N1G",
+      "price_card": 469533,
+      "price_specs": {
+        "Efectivo/Transferencia": "$445.900",
+        "Tarjeta crédito/débito": "$469.533"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 1632310
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-19",
+      "price": 445900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-25",
+      "price": 445900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-06-25"
 }

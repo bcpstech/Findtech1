@@ -11,15 +11,15 @@
     "Capacidad": "1 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Efectivo / Transferencia": "$179.990",
-    "Tarjeta crédito/débito": "$189.889",
+    "Efectivo / Transferencia": "$169.500",
+    "Tarjeta crédito/débito": "$178.823",
     "Garantía": "6 meses",
     "SKU": "33043",
     "Part Number": "824142304174"
   },
   "tags": [],
   "created_at": "2026-06-09 02:05:30",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 66815,
@@ -43,16 +43,16 @@
     {
       "product_id": 60101,
       "store_id": "myshop",
-      "price": 179990,
-      "price_normal": 189889,
+      "price": 169500,
+      "price_normal": 178823,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/ssd-m2-2280-1tb-msi-spatium-m450-nvme-pcie-40-x4-spatium-m450-pcie-40-nvme-m2-p33043",
       "store_name": "MyShop",
-      "price_card": 185390,
+      "price_card": 174585,
       "price_specs": {
-        "Efectivo/Transferencia": "$179.990",
-        "Tarjeta crédito/débito": "$185.390"
+        "Efectivo/Transferencia": "$169.500",
+        "Tarjeta crédito/débito": "$174.585"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,16 +62,16 @@
     {
       "product_id": 1529,
       "store_id": "centrale",
-      "price": 192980,
+      "price": 193720,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-1tb-msi-spatium-m450-m-2-nvme-pcie-4-0/",
       "store_name": "Centrale",
-      "price_card": 203594,
+      "price_card": 204375,
       "price_specs": {
-        "Transferencia / Efectivo": "$192.980",
-        "Tarjetas de Crédito / Débito": "$203.594"
+        "Transferencia / Efectivo": "$193.720",
+        "Tarjetas de Crédito / Débito": "$204.375"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -81,40 +81,21 @@
     {
       "product_id": 59572,
       "store_id": "spdigital",
-      "price": 193345,
-      "price_normal": 238700,
-      "discount_pct": 19,
+      "price": 241550,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/msi-spatium-m450-pcie-40-nvme-m2-1tb-v",
       "store_name": "SP Digital",
-      "price_card": 202046,
+      "price_card": 252420,
       "price_specs": {
-        "Transferencia / Efectivo": "$193.345",
-        "Webpay / Tarjeta": "$202.046"
+        "Transferencia / Efectivo": "$241.550",
+        "Webpay / Tarjeta": "$252.420"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 32039,
-      "store_id": "winpy",
-      "price": 214624,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/unidad-de-estado-solido-msi-spatium-m450-de-1tb-nvme-4-0-m-2-2280-hasta-3-600mb-s/",
-      "store_name": "Winpy",
-      "price_card": 225999,
-      "price_specs": {
-        "Transferencia o Depósito": "$214.624",
-        "Otros medios de pago": "$225.999"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
     }
   ],
   "history": [
@@ -123,7 +104,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-09",
       "price": 89900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-25",
+      "price": 89900
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-25"
 }

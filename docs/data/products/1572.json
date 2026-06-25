@@ -1,0 +1,88 @@
+{
+  "id": 1572,
+  "external_id": "centrale_disco-ssd-2tb-crucial-p310-m-2-2230-pcie-4-0-lectura-7100mb-s",
+  "category_id": "storage",
+  "brand": "Crucial",
+  "name": "Disco SSD 2TB Crucial P310 M.2 2230, PCIe 4.0, Lectura 7100MB/s",
+  "slug": "disco-ssd-2tb-crucial-p310-m-2-2230-pcie-4-0-lectura-7100mb-s",
+  "image_url": "https://images.findtech.cl/products/disco-ssd-2tb-crucial-p310-m-2-2230-pcie-4-0-lectura-7100mb-s.webp",
+  "description": null,
+  "specs": {
+    "Capacidad": "2 TB",
+    "Interfaz": "NVMe PCIe",
+    "Factor de forma": "M.2 2280",
+    "Lectura": "7100 MB/s",
+    "Transferencia / Efectivo": "$297.880",
+    "Tarjeta crédito/débito": "$314.260"
+  },
+  "tags": [],
+  "created_at": "2026-04-26 20:37:43",
+  "updated_at": "2026-06-25 18:46:02",
+  "prices": [
+    {
+      "product_id": 1572,
+      "store_id": "centrale",
+      "price": 297880,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/disco-ssd-2tb-crucial-p310-m-2-2230-pcie-4-0-lectura-7100mb-s/",
+      "store_name": "Centrale",
+      "price_card": 314263,
+      "price_specs": {
+        "Transferencia / Efectivo": "$297.880",
+        "Tarjetas de Crédito / Débito": "$314.263"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9542,
+      "store_id": "spdigital",
+      "price": 350403,
+      "price_normal": 432750,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/unidad-ssd-crucial-p310-2tb-m2-2230-pcie-40-x4-lectura-7100mbs-escritura-6000mbs",
+      "store_name": "SP Digital",
+      "price_card": 366171,
+      "price_specs": {
+        "Transferencia / Efectivo": "$350.403",
+        "Webpay / Tarjeta": "$366.171"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 291870
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 291870
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 297880
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 297880
+    }
+  ],
+  "scraped_at": "2026-06-25"
+}

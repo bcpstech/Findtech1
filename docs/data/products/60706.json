@@ -12,26 +12,26 @@
     "Factor de forma": "E-ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$237.150",
-    "Tarjeta crédito/débito": "$250.190"
+    "Transferencia / Efectivo": "$241.840",
+    "Tarjeta crédito/débito": "$255.140"
   },
   "tags": [],
   "created_at": "2026-06-08 20:57:17",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 60706,
       "store_id": "centrale",
-      "price": 237150,
+      "price": 241840,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-atx-z790-eagle-ax-socket-intel-lga-1700-ddr5-wifi-6e/",
       "store_name": "Centrale",
-      "price_card": 250193,
+      "price_card": 255141,
       "price_specs": {
-        "Transferencia / Efectivo": "$237.150",
-        "Tarjetas de Crédito / Débito": "$250.193"
+        "Transferencia / Efectivo": "$241.840",
+        "Tarjetas de Crédito / Débito": "$255.141"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,7 +57,13 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 237150
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 241840
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

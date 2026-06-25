@@ -13,26 +13,26 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Chipset": "AMD B650",
-    "Efectivo/Transferencia": "$159.995",
-    "Tarjeta crédito/débito": "$167.195"
+    "Efectivo/Transferencia": "$148.372",
+    "Tarjeta crédito/débito": "$155.049"
   },
   "tags": [],
   "created_at": "2026-05-04 01:23:28",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 31955,
       "store_id": "winpy",
-      "price": 144096,
+      "price": 147136,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b650em-a-wifi-am5-ddr5-8000mhz-m-2-x3-microatx/",
       "store_name": "Winpy",
-      "price_card": 151733,
+      "price_card": 154934,
       "price_specs": {
-        "Transferencia o Depósito": "$144.096",
-        "Otros medios de pago": "$151.733"
+        "Transferencia o Depósito": "$147.136",
+        "Otros medios de pago": "$154.934"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,42 +40,42 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 1347,
-      "store_id": "centrale",
-      "price": 149170,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b650em-a-wifi-am5-ddr5-pcie-5-0/",
-      "store_name": "Centrale",
-      "price_card": 157374,
-      "price_specs": {
-        "Transferencia / Efectivo": "$149.170",
-        "Tarjetas de Crédito / Débito": "$157.374"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
       "product_id": 15078,
       "store_id": "spdigital",
-      "price": 159995,
-      "price_normal": 239990,
-      "discount_pct": 33,
+      "price": 148372,
+      "price_normal": 183240,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/asus-motherboard-prime-b650em-a-wifi",
       "store_name": "SP Digital",
-      "price_card": 167195,
+      "price_card": 155049,
       "price_specs": {
-        "Transferencia / Efectivo": "$159.995",
-        "Webpay / Tarjeta": "$167.195"
+        "Transferencia / Efectivo": "$148.372",
+        "Webpay / Tarjeta": "$155.049"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1347,
+      "store_id": "centrale",
+      "price": 153440,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b650em-a-wifi-am5-ddr5-pcie-5-0/",
+      "store_name": "Centrale",
+      "price_card": 161879,
+      "price_specs": {
+        "Transferencia / Efectivo": "$153.440",
+        "Tarjetas de Crédito / Débito": "$161.879"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -96,7 +96,13 @@
       "store_name": "Winpy",
       "date": "2026-06-20",
       "price": 144096
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 147136
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

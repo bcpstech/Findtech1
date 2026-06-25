@@ -13,29 +13,29 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$749.990",
-    "Tarjeta crédito/débito": "$791.239",
+    "Efectivo / Transferencia": "$759.990",
+    "Tarjeta crédito/débito": "$801.789",
     "Garantía": "6 meses",
     "SKU": "37152",
     "Part Number": "DUAL-RTX5070-O12G"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:40",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 19830,
       "store_id": "myshop",
-      "price": 749990,
-      "price_normal": 791239,
-      "discount_pct": 7,
+      "price": 759990,
+      "price_normal": 801789,
+      "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/asus-pci-express-50-nvidia-geforce-rtx-5070-gddr6-sdram-displayport-hdmi-p37152",
       "store_name": "MyShop",
-      "price_card": 772490,
+      "price_card": 782790,
       "price_specs": {
-        "Efectivo/Transferencia": "$749.990",
-        "Tarjeta crédito/débito": "$772.490"
+        "Efectivo/Transferencia": "$759.990",
+        "Tarjeta crédito/débito": "$782.790"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -61,7 +61,13 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 749990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 759990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

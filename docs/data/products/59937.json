@@ -19,27 +19,8 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:48:55",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
-    {
-      "product_id": 3315,
-      "store_id": "alltec",
-      "price": 662900,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/amd/2375-amd-ryzen-9-9900x3d-44ghz55ghz-turbo-twelve-core-tdp-120w-am5.html",
-      "store_name": "Alltec",
-      "price_card": 682787,
-      "price_specs": {
-        "Efectivo/Transferencia": "$662.900",
-        "Tarjeta crédito/débito": "$682.787"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
-    },
     {
       "product_id": 59937,
       "store_id": "myshop",
@@ -58,6 +39,25 @@
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 549,
+      "store_id": "n1g",
+      "price": 689000,
+      "price_normal": 725263,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3165-amd-ryzen-9-9900x-3d-socket-am5-12c24t-44ghz-hasta-55-ghz-zen-5-tdp-120w-100-100001368wof.html",
+      "store_name": "N1G",
+      "price_card": 725517,
+      "price_specs": {
+        "Efectivo/Transferencia": "$689.000",
+        "Tarjeta crédito/débito": "$725.517"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -78,7 +78,13 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 665990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 665990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

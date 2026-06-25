@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-05-01 14:16:12",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 21553,
@@ -40,16 +40,16 @@
     {
       "product_id": 72136,
       "store_id": "spdigital",
-      "price": 1385644,
-      "price_normal": 1693320,
-      "discount_pct": 18,
+      "price": 1435261,
+      "price_normal": 1772580,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/seagate-ironwolf-pro-hard-drive-internal-hard-drive-28-tb-35-7200-rpm",
       "store_name": "SP Digital",
-      "price_card": 1447998,
+      "price_card": 1499848,
       "price_specs": {
-        "Transferencia / Efectivo": "$1.385.644",
-        "Webpay / Tarjeta": "$1.447.998"
+        "Transferencia / Efectivo": "$1.435.261",
+        "Webpay / Tarjeta": "$1.499.848"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -75,7 +75,13 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 905250
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 905250
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

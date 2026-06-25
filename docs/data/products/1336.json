@@ -11,26 +11,26 @@
     "Socket": "AM5",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
-    "Transferencia / Efectivo": "$114.360",
-    "Tarjeta crédito/débito": "$120.650"
+    "Transferencia / Efectivo": "$116.990",
+    "Tarjeta crédito/débito": "$123.420"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 1336,
       "store_id": "centrale",
-      "price": 114360,
+      "price": 116990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-b850m-b-am5-ddr5-8200-oc-pcie-5-0-2-5g-lan-matx/",
       "store_name": "Centrale",
-      "price_card": 120650,
+      "price_card": 123424,
       "price_specs": {
-        "Transferencia / Efectivo": "$114.360",
-        "Tarjetas de Crédito / Débito": "$120.650"
+        "Transferencia / Efectivo": "$116.990",
+        "Tarjetas de Crédito / Débito": "$123.424"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,16 +40,16 @@
     {
       "product_id": 71972,
       "store_id": "spdigital",
-      "price": 120085,
-      "price_normal": 141180,
-      "discount_pct": 15,
+      "price": 117376,
+      "price_normal": 144910,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/msi-motherboard-pro-b850m-b-gen4-2-dimm-ddr5-a",
       "store_name": "SP Digital",
-      "price_card": 125489,
+      "price_card": 122658,
       "price_specs": {
-        "Transferencia / Efectivo": "$120.085",
-        "Webpay / Tarjeta": "$125.489"
+        "Transferencia / Efectivo": "$117.376",
+        "Webpay / Tarjeta": "$122.658"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -75,7 +75,13 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 114360
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 116990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

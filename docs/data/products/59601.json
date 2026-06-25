@@ -14,64 +14,26 @@
     "Arquitectura": "Ampere",
     "Variante": "OC (Overclocked)",
     "Factor de forma": "Full-Height/Half-Length (FH/HL)",
-    "Efectivo/Transferencia": "$244.026",
-    "Tarjeta crédito/débito": "$255.007"
+    "Efectivo/Transferencia": "$267.792",
+    "Tarjeta crédito/débito": "$279.843"
   },
   "tags": [],
   "created_at": "2026-06-08 20:44:24",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
-    {
-      "product_id": 23453,
-      "store_id": "alltec",
-      "price": 239900,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/nvidia/2246-tv-asus-dual-geforce-rtx-3050-oc-edition-6gb-gddr6.html",
-      "store_name": "Alltec",
-      "price_card": 247097,
-      "price_specs": {
-        "Efectivo/Transferencia": "$239.900",
-        "Tarjeta crédito/débito": "$247.097"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
-    },
-    {
-      "product_id": 31846,
-      "store_id": "winpy",
-      "price": 241376,
-      "price_normal": null,
-      "discount_pct": 21,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-dual-geforce-rtx-3050-oc-edition-6gb-gddr6/",
-      "store_name": "Winpy",
-      "price_card": 254169,
-      "price_specs": {
-        "Transferencia o Depósito": "$241.376",
-        "Otros medios de pago": "$254.169"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
     {
       "product_id": 59601,
       "store_id": "spdigital",
-      "price": 244026,
-      "price_normal": 301370,
-      "discount_pct": 19,
+      "price": 267792,
+      "price_normal": 320210,
+      "discount_pct": 16,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarj-video-pci-exp-6gb-gddr6-rtx-3050-dual-rtx3050-o6g-asus",
       "store_name": "SP Digital",
-      "price_card": 255007,
+      "price_card": 279843,
       "price_specs": {
-        "Transferencia / Efectivo": "$244.026",
-        "Webpay / Tarjeta": "$255.007"
+        "Transferencia / Efectivo": "$267.792",
+        "Webpay / Tarjeta": "$279.843"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -79,23 +41,23 @@
       "full_url": "https://www.spdigital.cl"
     },
     {
-      "product_id": 1235,
-      "store_id": "centrale",
-      "price": 250400,
+      "product_id": 23453,
+      "store_id": "alltec",
+      "price": 279900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-dual-geforce-rtx-3050-oc-edition-6gb-gddr6/",
-      "store_name": "Centrale",
-      "price_card": 264172,
+      "product_url": "https://www.alltec.cl/nvidia/2246-tv-asus-dual-geforce-rtx-3050-oc-edition-6gb-gddr6.html",
+      "store_name": "Alltec",
+      "price_card": 288297,
       "price_specs": {
-        "Transferencia / Efectivo": "$250.400",
-        "Tarjetas de Crédito / Débito": "$264.172"
+        "Efectivo/Transferencia": "$279.900",
+        "Tarjeta crédito/débito": "$288.297"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -110,7 +72,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 244026
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 267792
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-25"
 }

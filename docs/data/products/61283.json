@@ -14,50 +14,31 @@
     "Arquitectura": "Ampere",
     "Variante": "OC (Overclocked)",
     "Marca": "Zotac",
-    "Efectivo / Transferencia": "$229.990",
-    "Tarjeta crédito/débito": "$236.890"
+    "Efectivo / Transferencia": "$225.490",
+    "Tarjeta crédito/débito": "$232.250"
   },
   "tags": [],
   "created_at": "2026-06-08 21:01:35",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 61283,
       "store_id": "dust2",
-      "price": 229990,
+      "price": 225490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-zotac-geforce-rtx3050-6g-gddr6-twin-edge-oc/",
       "store_name": "Dust2",
-      "price_card": 236890,
+      "price_card": 232255,
       "price_specs": {
-        "Efectivo/Transferencia": "$229.990",
-        "Tarjeta crédito/débito": "$236.890"
+        "Efectivo/Transferencia": "$225.490",
+        "Tarjeta crédito/débito": "$232.255"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 1202,
-      "store_id": "centrale",
-      "price": 531660,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-zotac-geforce-rtx5060ti-twin-edge-oc-8gb-gddr6/",
-      "store_name": "Centrale",
-      "price_card": 560901,
-      "price_specs": {
-        "Transferencia / Efectivo": "$531.660",
-        "Tarjetas de Crédito / Débito": "$560.901"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -72,7 +53,13 @@
       "store_name": "Dust2",
       "date": "2026-06-09",
       "price": 229990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-25",
+      "price": 225490
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-25"
 }

@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:19:46",
-  "updated_at": "2026-06-20 00:20:38",
+  "updated_at": "2026-06-25 18:07:28",
   "prices": [
     {
       "product_id": 19890,
@@ -55,25 +55,6 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 2564,
-      "store_id": "megabytes",
-      "price": 34990,
-      "price_normal": 49990,
-      "discount_pct": 30,
-      "stock": "in_stock",
-      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/gabinete-antec-vcx10m-rgb/",
-      "store_name": "MegaBytes",
-      "price_card": 36040,
-      "price_specs": {
-        "Efectivo/Transferencia": "$34.990",
-        "Tarjeta crédito/débito": "$36.040"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.megabytes.cl",
-      "full_url": "https://www.megabytes.cl"
     }
   ],
   "history": [
@@ -94,7 +75,13 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 33990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 33990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

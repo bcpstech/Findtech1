@@ -12,23 +12,23 @@
     "Interfaz": "PCI Express 3.0",
     "Factor de forma": "M.2 2280",
     "Lectura": "3500 MB/s",
-    "Efectivo/Transferencia": "$427.947",
-    "Tarjeta crédito/débito": "$447.205"
+    "Efectivo/Transferencia": "$443.723",
+    "Tarjeta crédito/débito": "$463.691"
   },
   "tags": [],
   "created_at": "2026-05-04 02:51:51",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 33514,
       "store_id": "infor-ingen",
       "price": 99900,
-      "price_card": 102897,
       "price_normal": 105894,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/disco-ssd-m-2-crucial-p3-plus-500gb-nvme-pcie-4-0-2/",
       "store_name": "Infor-Ingen",
+      "price_card": 102897,
       "price_specs": {
         "Efectivo/Transferencia": "$99.900",
         "Tarjeta crédito/débito": "$102.897"
@@ -39,18 +39,18 @@
       "full_url": "https://store.infor-ingen.com"
     },
     {
-      "product_id": 56567,
+      "product_id": 1582,
       "store_id": "centrale",
-      "price": 115130,
-      "price_card": 121462,
+      "price": 442200,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ssd-crucial-bx500-500gb-sata-iii-2-5-velocidad-lectura-hasta-540mb-s/",
+      "product_url": "https://centrale.cl/producto/disco-ssd-4tb-crucial-p3-nvme-pcie-3-0-m-2-2280/",
       "store_name": "Centrale",
+      "price_card": 466521,
       "price_specs": {
-        "Transferencia / Efectivo": "$115.130",
-        "Tarjetas de Crédito / Débito": "$121.462"
+        "Transferencia / Efectivo": "$442.200",
+        "Tarjetas de Crédito / Débito": "$466.521"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,16 +60,16 @@
     {
       "product_id": 9543,
       "store_id": "spdigital",
-      "price": 427947,
-      "price_card": 447205,
-      "price_normal": 528520,
+      "price": 443723,
+      "price_normal": 547950,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/crucial-p3-4000gb-3d-nand-nvme-pcie-m-2",
       "store_name": "SP Digital",
+      "price_card": 463691,
       "price_specs": {
-        "Transferencia / Efectivo": "$427.947",
-        "Webpay / Tarjeta": "$447.205"
+        "Transferencia / Efectivo": "$443.723",
+        "Webpay / Tarjeta": "$463.691"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -77,6 +77,19 @@
       "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-09",
+      "price": 99900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-25",
+      "price": 99900
+    }
+  ],
+  "scraped_at": "2026-06-25"
 }

@@ -20,12 +20,12 @@
     "TDP": "120 W",
     "Memoria soportada": "DDR5-SDRAM",
     "Gráficos integrados": "AMD Radeon",
-    "Efectivo/Transferencia": "$467.266",
-    "Tarjeta crédito/débito": "$488.293"
+    "Efectivo/Transferencia": "$470.696",
+    "Tarjeta crédito/débito": "$491.877"
   },
   "tags": [],
   "created_at": "2026-05-04 02:41:43",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 32929,
@@ -68,16 +68,16 @@
     {
       "product_id": 9400,
       "store_id": "spdigital",
-      "price": 467266,
-      "price_normal": 577010,
-      "discount_pct": 19,
+      "price": 470696,
+      "price_normal": 769990,
+      "discount_pct": 39,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/amd-ryzen-9-9900x-12-core-processor",
       "store_name": "SP Digital",
-      "price_card": 488293,
+      "price_card": 491877,
       "price_specs": {
-        "Transferencia / Efectivo": "$467.266",
-        "Webpay / Tarjeta": "$488.293"
+        "Transferencia / Efectivo": "$470.696",
+        "Webpay / Tarjeta": "$491.877"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -143,7 +143,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-20",
       "price": 449900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-25",
+      "price": 449900
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

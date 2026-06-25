@@ -22,21 +22,21 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:24",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 309,
       "store_id": "centrale",
-      "price": 440530,
+      "price": 449270,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700k-raptor-lake-s-lga1700-20-cores-28-hilos/",
       "store_name": "Centrale",
-      "price_card": 464759,
+      "price_card": 473980,
       "price_specs": {
-        "Transferencia / Efectivo": "$440.530",
-        "Tarjetas de Crédito / Débito": "$464.759"
+        "Transferencia / Efectivo": "$449.270",
+        "Tarjetas de Crédito / Débito": "$473.980"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -81,7 +81,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 469987
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 469987
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

@@ -16,14 +16,14 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:52:12",
-  "updated_at": "2026-06-09 02:55:36",
+  "updated_at": "2026-06-25 18:07:11",
   "prices": [
     {
       "product_id": 60164,
       "store_id": "myshop",
       "price": 47500,
       "price_normal": 50113,
-      "discount_pct": null,
+      "discount_pct": 36,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/fuente-de-poder-700w-xpg-probe-80-bronze-atx-p39850",
       "store_name": "MyShop",
@@ -40,16 +40,16 @@
     {
       "product_id": 25435,
       "store_id": "centrale",
-      "price": 50410,
+      "price": 49310,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-700w-xpg-probe-no-modular-80-bronze/",
       "store_name": "Centrale",
-      "price_card": 53183,
+      "price_card": 52022,
       "price_specs": {
-        "Transferencia / Efectivo": "$50.410",
-        "Tarjetas de Crédito / Débito": "$53.183"
+        "Transferencia / Efectivo": "$49.310",
+        "Tarjetas de Crédito / Débito": "$52.022"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -107,7 +107,19 @@
       "store_name": "MyShop",
       "date": "2026-06-09",
       "price": 47500
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 47500
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 47500
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-25"
 }

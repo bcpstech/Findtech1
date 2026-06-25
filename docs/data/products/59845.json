@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:46:06",
-  "updated_at": "2026-06-20 00:11:02",
+  "updated_at": "2026-06-25 17:59:52",
   "prices": [
     {
       "product_id": 59845,
@@ -52,25 +52,6 @@
       "review_count": 0,
       "store_url": "www.mybox.cl",
       "full_url": "https://www.mybox.cl"
-    },
-    {
-      "product_id": 2570,
-      "store_id": "megabytes",
-      "price": 52990,
-      "price_normal": 70990,
-      "discount_pct": 25,
-      "stock": "in_stock",
-      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/clio-gabinete-slim-s613-usb-c1-usb3-01-black-sfx-600-4x4pines/",
-      "store_name": "MegaBytes",
-      "price_card": 54580,
-      "price_specs": {
-        "Efectivo/Transferencia": "$52.990",
-        "Tarjeta crédito/débito": "$54.580"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.megabytes.cl",
-      "full_url": "https://www.megabytes.cl"
     }
   ],
   "history": [
@@ -91,7 +72,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 37995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 37995
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

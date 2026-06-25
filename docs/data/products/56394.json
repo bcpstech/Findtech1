@@ -13,26 +13,26 @@
     "Velocidad": "5200 MHz",
     "Latencia": "CL40",
     "Iluminación": "RGB",
-    "Transferencia / Efectivo": "$459.980",
-    "Tarjeta crédito/débito": "$485.280"
+    "Transferencia / Efectivo": "$459.490",
+    "Tarjeta crédito/débito": "$484.760"
   },
   "tags": [],
   "created_at": "2026-05-08 22:36:54",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 56394,
       "store_id": "centrale",
-      "price": 459980,
+      "price": 459490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-32gb-5200mhz-ddr5-cl40-kingston-fury-beast-rgb/",
       "store_name": "Centrale",
-      "price_card": 485279,
+      "price_card": 484762,
       "price_specs": {
-        "Transferencia / Efectivo": "$459.980",
-        "Tarjetas de Crédito / Débito": "$485.279"
+        "Transferencia / Efectivo": "$459.490",
+        "Tarjetas de Crédito / Débito": "$484.762"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,7 +58,13 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 459980
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 459490
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

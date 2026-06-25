@@ -25,8 +25,27 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:54",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
+    {
+      "product_id": 30,
+      "store_id": "n1g",
+      "price": 169500,
+      "price_normal": 178421,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/2620-amd-ryzen-5-8600g-socket-am5-6-core-12-hilos-43-ghz-65w-amd-radeon-760m-100-100001237box.html",
+      "store_name": "N1G",
+      "price_card": 178484,
+      "price_specs": {
+        "Efectivo/Transferencia": "$169.500",
+        "Tarjeta crédito/débito": "$178.484"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
     {
       "product_id": 1952,
       "store_id": "dust2",
@@ -47,44 +66,6 @@
       "full_url": "https://www.dust2.gg"
     },
     {
-      "product_id": 3304,
-      "store_id": "alltec",
-      "price": 176900,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/amd/2200-amd-ryzen-5-8600g-43ghz-50ghz-turbo-six-core-tdp-65w-am5-amd-radeon-760m-graphics.html",
-      "store_name": "Alltec",
-      "price_card": 182207,
-      "price_specs": {
-        "Efectivo/Transferencia": "$176.900",
-        "Tarjeta crédito/débito": "$182.207"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
-    },
-    {
-      "product_id": 282,
-      "store_id": "centrale",
-      "price": 188350,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-8600g-npu-ryzen-ai-4-3-a-5-0ghz-6-nucleos-12-hilos/",
-      "store_name": "Centrale",
-      "price_card": 198709,
-      "price_specs": {
-        "Transferencia / Efectivo": "$188.350",
-        "Tarjetas de Crédito / Débito": "$198.709"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
       "product_id": 31885,
       "store_id": "winpy",
       "price": 189696,
@@ -102,6 +83,25 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 282,
+      "store_id": "centrale",
+      "price": 192080,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-8600g-npu-ryzen-ai-4-3-a-5-0ghz-6-nucleos-12-hilos/",
+      "store_name": "Centrale",
+      "price_card": 202644,
+      "price_specs": {
+        "Transferencia / Efectivo": "$192.080",
+        "Tarjetas de Crédito / Débito": "$202.644"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 9403,
@@ -179,7 +179,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 199995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 199995
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

@@ -8,13 +8,15 @@
   "image_url": "https://images.findtech.cl/products/open-box-gabinete-formula-crystal-z6m-floe-blanco.jpg",
   "description": null,
   "specs": {
-    "Marca": "Formula V Line",
-    "Efectivo / Transferencia": "$59.990",
-    "Tarjeta crédito/débito": "$61.790"
+    "Efectivo / Transferencia": "$61.990",
+    "Tarjeta crédito/débito": "$65.399",
+    "Garantía": "6 meses",
+    "SKU": "39057",
+    "Part Number": "Z6M-FLOE-BK"
   },
   "tags": [],
   "created_at": "2026-06-20 00:44:18",
-  "updated_at": "2026-06-20 00:44:18",
+  "updated_at": "2026-06-25 18:22:17",
   "prices": [
     {
       "product_id": 74494,
@@ -34,6 +36,25 @@
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 19889,
+      "store_id": "myshop",
+      "price": 61990,
+      "price_normal": 65399,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/gabinete-fantech-formula-v-line-crystal-z6m-floe-matx-black-incluye-1-fan-trasero-2-fan-laterales-p39057",
+      "store_name": "MyShop",
+      "price_card": 63850,
+      "price_specs": {
+        "Efectivo/Transferencia": "$61.990",
+        "Tarjeta crédito/débito": "$63.850"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
     }
   ],
   "history": [
@@ -42,7 +63,13 @@
       "store_name": "Dust2",
       "date": "2026-06-20",
       "price": 59990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-25",
+      "price": 59990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

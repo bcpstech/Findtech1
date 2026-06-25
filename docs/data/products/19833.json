@@ -1,0 +1,94 @@
+{
+  "id": 19833,
+  "external_id": "pn_824142405741",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "Tarjeta de Video Nvidia RTX 5070 12GB - MSI SHADOW 3x OC Edition - GDDR7, 192 bits - PCIe 5.0 - DisplayPort, HDMI",
+  "slug": "tarjeta-de-video-msi-shadow-3x-nvidia-geforce-rtx-5070-12g-oc-edition-12-gb-gddr7-192-bits-pcie",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-rtx-5070-12gb-msi-shadow-3x-oc-edition-gddr7-192-bits-pcie-5-0-displayport-h.webp",
+  "description": null,
+  "specs": {
+    "VRAM": "12 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "192-bit",
+    "Arquitectura": "Blackwell",
+    "Variante": "OC (Overclocked)",
+    "Efectivo / Transferencia": "$749.990",
+    "Tarjeta crédito/débito": "$791.239",
+    "Garantía": "6 meses",
+    "SKU": "42775",
+    "Part Number": "824142405741"
+  },
+  "tags": [],
+  "created_at": "2026-05-01 13:16:44",
+  "updated_at": "2026-06-25 18:46:02",
+  "prices": [
+    {
+      "product_id": 19833,
+      "store_id": "myshop",
+      "price": 749990,
+      "price_normal": 791239,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/msi-geforce-rtx-5070-12g-shadow-3x-oc-pci-express-nvidia-nvidia-geforce-rtx-5070-p42775",
+      "store_name": "MyShop",
+      "price_card": 772490,
+      "price_specs": {
+        "Efectivo/Transferencia": "$749.990",
+        "Tarjeta crédito/débito": "$772.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 2640,
+      "store_id": "trulustore",
+      "price": 789990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-rtx-5070-12gb-msi-shadow-2x-oc/",
+      "store_name": "TruluStore",
+      "price_card": 813690,
+      "khipu_price": 805790,
+      "price_specs": {
+        "Efectivo / Transferencia": "$789.990",
+        "Khipu": "$805.790",
+        "Tarjeta crédito/débito": "$813.690"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-08",
+      "price": 739990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-09",
+      "price": 739990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 779990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 749990
+    }
+  ],
+  "scraped_at": "2026-06-25"
+}

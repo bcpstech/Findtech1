@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-cooler-master-masterliquid-core-nex-240-argb-am4-am5-intel-rgb.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$62.180",
-    "Tarjeta crédito/débito": "$64.978"
+    "Efectivo/Transferencia": "$63.815",
+    "Tarjeta crédito/débito": "$66.687"
   },
   "tags": [],
   "created_at": "2026-06-08 20:44:59",
-  "updated_at": "2026-06-20 00:09:42",
+  "updated_at": "2026-06-25 17:58:57",
   "prices": [
     {
       "product_id": 59683,
       "store_id": "spdigital",
-      "price": 62180,
-      "price_normal": 76790,
+      "price": 63815,
+      "price_normal": 78810,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/masterliquid-core-nex-240-argb",
       "store_name": "SP Digital",
-      "price_card": 64978,
+      "price_card": 66687,
       "price_specs": {
-        "Transferencia / Efectivo": "$62.180",
-        "Webpay / Tarjeta": "$64.978"
+        "Transferencia / Efectivo": "$63.815",
+        "Webpay / Tarjeta": "$66.687"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,16 +37,16 @@
     {
       "product_id": 1606,
       "store_id": "centrale",
-      "price": 65550,
+      "price": 66830,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-cooler-master-masterliquid-core-nex-240-argb/",
       "store_name": "Centrale",
-      "price_card": 69155,
+      "price_card": 70506,
       "price_specs": {
-        "Transferencia / Efectivo": "$65.550",
-        "Tarjetas de Crédito / Débito": "$69.155"
+        "Transferencia / Efectivo": "$66.830",
+        "Tarjetas de Crédito / Débito": "$70.506"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -91,7 +91,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 62180
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 63815
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

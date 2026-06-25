@@ -16,45 +16,26 @@
   },
   "tags": [],
   "created_at": "2026-05-08 22:24:09",
-  "updated_at": "2026-06-20 00:20:06",
+  "updated_at": "2026-06-25 18:07:07",
   "prices": [
     {
       "product_id": 1697,
       "store_id": "centrale",
-      "price": 98520,
+      "price": 100460,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-asus-prime-750w-gold-atx-3-0-80-plus-gold-modular-blanca/",
       "store_name": "Centrale",
-      "price_card": 103939,
+      "price_card": 105985,
       "price_specs": {
-        "Transferencia / Efectivo": "$98.520",
-        "Tarjetas de Crédito / Débito": "$103.939"
+        "Transferencia / Efectivo": "$100.460",
+        "Tarjetas de Crédito / Débito": "$105.985"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9701,
-      "store_id": "spdigital",
-      "price": 105176,
-      "price_normal": 129890,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/fuente-de-poder-asus-tuf-gaming-750g-750w-full-modular-certificada-80-plus-gold",
-      "store_name": "SP Digital",
-      "price_card": 109909,
-      "price_specs": {
-        "Transferencia / Efectivo": "$105.176",
-        "Webpay / Tarjeta": "$109.909"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 2654,
@@ -78,23 +59,42 @@
       "full_url": "https://www.trulustore.cl"
     },
     {
-      "product_id": 2549,
-      "store_id": "megabytes",
-      "price": 119990,
-      "price_normal": 159990,
-      "discount_pct": 25,
+      "product_id": 76791,
+      "store_id": "myshop",
+      "price": 106600,
+      "price_normal": 112463,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/asus-fuente-de-poder-prime-850w-80gold-ap-850g/",
-      "store_name": "MegaBytes",
-      "price_card": 123590,
+      "product_url": "https://www.myshop.cl/producto/asus-power-supply-tuf-gaming-750g-p40633",
+      "store_name": "MyShop",
+      "price_card": 109798,
       "price_specs": {
-        "Efectivo/Transferencia": "$119.990",
-        "Tarjeta crédito/débito": "$123.590"
+        "Efectivo/Transferencia": "$106.600",
+        "Tarjeta crédito/débito": "$109.798"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.megabytes.cl",
-      "full_url": "https://www.megabytes.cl"
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 9701,
+      "store_id": "spdigital",
+      "price": 108032,
+      "price_normal": 133340,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/fuente-de-poder-asus-tuf-gaming-750g-750w-full-modular-certificada-80-plus-gold",
+      "store_name": "SP Digital",
+      "price_card": 112893,
+      "price_specs": {
+        "Transferencia / Efectivo": "$108.032",
+        "Webpay / Tarjeta": "$112.893"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 38967,
@@ -114,25 +114,6 @@
       "review_count": 0,
       "store_url": "www.mybox.cl",
       "full_url": "https://www.mybox.cl"
-    },
-    {
-      "product_id": 60155,
-      "store_id": "myshop",
-      "price": 139990,
-      "price_normal": 147689,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/tuf-gaming-1000g-p40630",
-      "store_name": "MyShop",
-      "price_card": 144190,
-      "price_specs": {
-        "Efectivo/Transferencia": "$139.990",
-        "Tarjeta crédito/débito": "$144.190"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.myshop.cl",
-      "full_url": "https://www.myshop.cl"
     }
   ],
   "history": [
@@ -153,7 +134,13 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 632990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 632990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

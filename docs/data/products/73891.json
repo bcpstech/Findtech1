@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-06-20 00:36:21",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 31875,
       "store_id": "winpy",
-      "price": 628672,
+      "price": 649952,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-dual-geforce-rtx-5060-ti-evo-oc-de-16gb-gddr7/",
       "store_name": "Winpy",
-      "price_card": 661992,
+      "price_card": 684399,
       "price_specs": {
-        "Transferencia o Depósito": "$628.672",
-        "Otros medios de pago": "$661.992"
+        "Transferencia o Depósito": "$649.952",
+        "Otros medios de pago": "$684.399"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 1206,
       "store_id": "centrale",
-      "price": 655020,
+      "price": 670170,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-dual-rtx-5060-ti-evo-16gb-gddr7-128-bit-pcie-5-0/",
       "store_name": "Centrale",
-      "price_card": 691046,
+      "price_card": 707029,
       "price_specs": {
-        "Transferencia / Efectivo": "$655.020",
-        "Tarjetas de Crédito / Débito": "$691.046"
+        "Transferencia / Efectivo": "$670.170",
+        "Tarjetas de Crédito / Débito": "$707.029"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -79,16 +79,16 @@
     {
       "product_id": 9556,
       "store_id": "spdigital",
-      "price": 686146,
-      "price_normal": 820650,
+      "price": 705809,
+      "price_normal": 842360,
       "discount_pct": 16,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-dual-nvidia-geforce-rtx-5060-ti-oc-edition-16gb-gddr7-128-bit-pci-e-50",
       "store_name": "SP Digital",
-      "price_card": 717023,
+      "price_card": 737570,
       "price_specs": {
-        "Transferencia / Efectivo": "$686.146",
-        "Webpay / Tarjeta": "$717.023"
+        "Transferencia / Efectivo": "$705.809",
+        "Webpay / Tarjeta": "$737.570"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -121,7 +121,13 @@
       "store_name": "Dust2",
       "date": "2026-06-20",
       "price": 679990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-25",
+      "price": 679990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

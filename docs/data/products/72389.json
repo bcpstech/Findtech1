@@ -9,50 +9,50 @@
   "description": null,
   "specs": {
     "Factor de forma": "Midi Tower",
-    "Efectivo/Transferencia": "$137.488",
-    "Tarjeta crédito/débito": "$143.675"
+    "Efectivo/Transferencia": "$134.429",
+    "Tarjeta crédito/débito": "$140.478"
   },
   "tags": [],
   "created_at": "2026-06-20 00:10:49",
-  "updated_at": "2026-06-20 00:10:49",
+  "updated_at": "2026-06-25 17:59:42",
   "prices": [
-    {
-      "product_id": 1743,
-      "store_id": "centrale",
-      "price": 135910,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-corsair-frame-4500x-mid-tower-vidrio-panoramico-curvado-atx/",
-      "store_name": "Centrale",
-      "price_card": 143385,
-      "price_specs": {
-        "Transferencia / Efectivo": "$135.910",
-        "Tarjetas de Crédito / Débito": "$143.385"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
     {
       "product_id": 72389,
       "store_id": "spdigital",
-      "price": 137488,
-      "price_normal": 161690,
-      "discount_pct": 15,
+      "price": 134429,
+      "price_normal": 165970,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/corsair-memory-desktop-gabinete-4500x-rs-r-argb-atx-p",
       "store_name": "SP Digital",
-      "price_card": 143675,
+      "price_card": 140478,
       "price_specs": {
-        "Transferencia / Efectivo": "$137.488",
-        "Webpay / Tarjeta": "$143.675"
+        "Transferencia / Efectivo": "$134.429",
+        "Webpay / Tarjeta": "$140.478"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1743,
+      "store_id": "centrale",
+      "price": 138580,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/gabinete-corsair-frame-4500x-mid-tower-vidrio-panoramico-curvado-atx/",
+      "store_name": "Centrale",
+      "price_card": 146202,
+      "price_specs": {
+        "Transferencia / Efectivo": "$138.580",
+        "Tarjetas de Crédito / Débito": "$146.202"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 38996,
@@ -80,7 +80,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 137488
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 134429
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

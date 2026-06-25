@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-06-20 00:33:04",
+  "updated_at": "2026-06-25 18:15:24",
   "prices": [
     {
       "product_id": 1740,
@@ -33,6 +33,25 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 5849,
+      "store_id": "n1g",
+      "price": 99000,
+      "price_normal": 104211,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3647-antec-c3-white-argb-black-mid-tower-atx-micro-atx-itx-4-fans-incluidos.html",
+      "store_name": "N1G",
+      "price_card": 104247,
+      "price_specs": {
+        "Efectivo/Transferencia": "$99.000",
+        "Tarjeta crédito/débito": "$104.247"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     },
     {
       "product_id": 39007,
@@ -72,7 +91,13 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 93810
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 93810
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

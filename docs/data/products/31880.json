@@ -26,7 +26,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:55",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 31880,
@@ -48,6 +48,25 @@
       "full_url": "https://www.winpy.cl"
     },
     {
+      "product_id": 25,
+      "store_id": "n1g",
+      "price": 94850,
+      "price_normal": 99842,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/1807-procesador-amd-ryzen-5-5500-42ghz-turbo-6core12thread-am4-box-100-100000457box.html",
+      "store_name": "N1G",
+      "price_card": 99877,
+      "price_specs": {
+        "Efectivo/Transferencia": "$94.850",
+        "Tarjeta crédito/débito": "$99.877"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
+    {
       "product_id": 290,
       "store_id": "centrale",
       "price": 98320,
@@ -65,25 +84,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 3300,
-      "store_id": "alltec",
-      "price": 101500,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/amd/1797-amd-ryzen-5-5500-36ghz-42ghz-turbo-six-core-tdp-65w-am4-730143314121.html",
-      "store_name": "Alltec",
-      "price_card": 104545,
-      "price_specs": {
-        "Efectivo/Transferencia": "$101.500",
-        "Tarjeta crédito/débito": "$104.545"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
     },
     {
       "product_id": 1974,
@@ -142,7 +142,13 @@
       "store_name": "Winpy",
       "date": "2026-06-20",
       "price": 94848
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 94848
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

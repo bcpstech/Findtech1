@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:20:16",
-  "updated_at": "2026-06-20 00:21:17",
+  "updated_at": "2026-06-25 18:07:57",
   "prices": [
     {
       "product_id": 19912,
@@ -36,25 +36,6 @@
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 38995,
-      "store_id": "mybox",
-      "price": 73490,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://mybox.cl/gabinetes/6054-gabinete-antec-cx300-argb-white.html",
-      "store_name": "MyBox",
-      "price_card": 75695,
-      "price_specs": {
-        "Efectivo/Transferencia": "$73.490",
-        "Tarjeta crédito/débito": "$75.695"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.mybox.cl",
-      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -75,7 +56,13 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 64990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 64990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

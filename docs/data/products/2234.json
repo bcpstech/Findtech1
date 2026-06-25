@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:08",
-  "updated_at": "2026-06-20 00:42:47",
+  "updated_at": "2026-06-25 18:21:31",
   "prices": [
     {
       "product_id": 2234,
@@ -34,6 +34,25 @@
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 9738,
+      "store_id": "spdigital",
+      "price": 124995,
+      "price_normal": 209990,
+      "discount_pct": 40,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/fuente-de-poder-gigabyte-ud850gm-pg5-850w-certificada-80-plus-gold-modular-pcie-50",
+      "store_name": "SP Digital",
+      "price_card": 130620,
+      "price_specs": {
+        "Transferencia / Efectivo": "$124.995",
+        "Webpay / Tarjeta": "$130.620"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -54,7 +73,13 @@
       "store_name": "Dust2",
       "date": "2026-06-20",
       "price": 105990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-25",
+      "price": 105990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

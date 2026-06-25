@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-corsair-cx550-550w-certificacion-80-plus-bronze-pfc-activo.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$51.682",
-    "Tarjeta crédito/débito": "$54.008"
+    "Efectivo/Transferencia": "$53.032",
+    "Tarjeta crédito/débito": "$55.418"
   },
   "tags": [],
   "created_at": "2026-06-20 00:10:21",
-  "updated_at": "2026-06-20 00:10:21",
+  "updated_at": "2026-06-25 17:59:25",
   "prices": [
     {
       "product_id": 72326,
       "store_id": "spdigital",
-      "price": 51682,
-      "price_normal": 63840,
+      "price": 53032,
+      "price_normal": 65520,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/fuente-de-poder-cp-9020277-na",
       "store_name": "SP Digital",
-      "price_card": 54008,
+      "price_card": 55418,
       "price_specs": {
-        "Transferencia / Efectivo": "$51.682",
-        "Webpay / Tarjeta": "$54.008"
+        "Transferencia / Efectivo": "$53.032",
+        "Webpay / Tarjeta": "$55.418"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,40 +37,21 @@
     {
       "product_id": 1715,
       "store_id": "centrale",
-      "price": 54590,
+      "price": 55660,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-corsair-cx550-80-plus-bronze-550w/",
       "store_name": "Centrale",
-      "price_card": 57592,
+      "price_card": 58721,
       "price_specs": {
-        "Transferencia / Efectivo": "$54.590",
-        "Tarjetas de Crédito / Débito": "$57.592"
+        "Transferencia / Efectivo": "$55.660",
+        "Tarjetas de Crédito / Débito": "$58.721"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 74706,
-      "store_id": "megabytes",
-      "price": 54990,
-      "price_normal": 71988,
-      "discount_pct": 24,
-      "stock": "in_stock",
-      "product_url": "https://www.megabytes.cl/sitio-nuevo/producto/corsair-cx550-550-watt-80-plus-bronze-cp-9020277-na/",
-      "store_name": "MegaBytes",
-      "price_card": 56640,
-      "price_specs": {
-        "Efectivo/Transferencia": "$54.990",
-        "Tarjeta crédito/débito": "$56.640"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.megabytes.cl",
-      "full_url": "https://www.megabytes.cl"
     },
     {
       "product_id": 38975,
@@ -98,7 +79,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 51682
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 53032
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

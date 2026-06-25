@@ -10,26 +10,26 @@
   "specs": {
     "Capacidad": "256 GB",
     "Interfaz": "SATA III",
-    "Efectivo / Transferencia": "$102.144",
-    "Tarjeta crédito/débito": "$107.558"
+    "Efectivo / Transferencia": "$104.576",
+    "Tarjeta crédito/débito": "$110.119"
   },
   "tags": [],
   "created_at": "2026-05-04 01:25:23",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 32009,
       "store_id": "winpy",
-      "price": 102144,
+      "price": 104576,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/disco-estado-solido-kingston-skc600-de-256gb-sata-nand-3d-tlc-550-520mb-seg/",
       "store_name": "Winpy",
-      "price_card": 107558,
+      "price_card": 110119,
       "price_specs": {
-        "Transferencia o Depósito": "$102.144",
-        "Otros medios de pago": "$107.558"
+        "Transferencia o Depósito": "$104.576",
+        "Otros medios de pago": "$110.119"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,7 +55,13 @@
       "store_name": "Winpy",
       "date": "2026-06-20",
       "price": 102144
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 104576
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

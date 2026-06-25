@@ -14,26 +14,26 @@
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
     "Marca": "MSI",
-    "Efectivo / Transferencia": "$939.990",
-    "Tarjeta crédito/débito": "$968.190"
+    "Efectivo / Transferencia": "$899.990",
+    "Tarjeta crédito/débito": "$926.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:31",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 1806,
       "store_id": "dust2",
-      "price": 939990,
+      "price": 899990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-rtx-5070-12g-wow-midnight-void-edition-oc/",
       "store_name": "Dust2",
-      "price_card": 968190,
+      "price_card": 926990,
       "price_specs": {
-        "Efectivo/Transferencia": "$939.990",
-        "Tarjeta crédito/débito": "$968.190"
+        "Efectivo/Transferencia": "$899.990",
+        "Tarjeta crédito/débito": "$926.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -53,7 +53,19 @@
       "store_name": "Dust2",
       "date": "2026-06-09",
       "price": 939990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-20",
+      "price": 937990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-25",
+      "price": 899990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-25"
 }

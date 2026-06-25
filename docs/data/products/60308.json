@@ -18,12 +18,12 @@
     "Caché L3": "24 MB",
     "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
     "Gráficos integrados": "Intel UHD Graphics 770",
-    "Efectivo/Transferencia": "$308.275",
-    "Tarjeta crédito/débito": "$322.147"
+    "Efectivo/Transferencia": "$316.473",
+    "Tarjeta crédito/débito": "$330.714"
   },
   "tags": [],
   "created_at": "2026-06-08 20:54:02",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 60308,
@@ -66,16 +66,16 @@
     {
       "product_id": 37243,
       "store_id": "centrale",
-      "price": 300680,
+      "price": 309780,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-14600k-raptor-lake-s-lga1700-14-cores-20-hilos/",
       "store_name": "Centrale",
-      "price_card": 317217,
+      "price_card": 326818,
       "price_specs": {
-        "Transferencia / Efectivo": "$300.680",
-        "Tarjetas de Crédito / Débito": "$317.217"
+        "Transferencia / Efectivo": "$309.780",
+        "Tarjetas de Crédito / Débito": "$326.818"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -85,16 +85,16 @@
     {
       "product_id": 59458,
       "store_id": "spdigital",
-      "price": 308275,
-      "price_normal": 380730,
+      "price": 316473,
+      "price_normal": 390800,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/core-i5-14600k-3-50ghz-sktlga1700-2400m",
       "store_name": "SP Digital",
-      "price_card": 322147,
+      "price_card": 330714,
       "price_specs": {
-        "Transferencia / Efectivo": "$308.275",
-        "Webpay / Tarjeta": "$322.147"
+        "Transferencia / Efectivo": "$316.473",
+        "Webpay / Tarjeta": "$330.714"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -120,7 +120,13 @@
       "store_name": "Alltec",
       "date": "2026-06-20",
       "price": 284900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-25",
+      "price": 284900
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

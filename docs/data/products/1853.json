@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:41:04",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 1853,
@@ -77,18 +77,37 @@
       "full_url": "https://www.winpy.cl"
     },
     {
+      "product_id": 76214,
+      "store_id": "spdigital",
+      "price": 468712,
+      "price_normal": 578870,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/asus-pci-express-50-x16-nvidia-geforce-rtx-5060-tarjeta-video",
+      "store_name": "SP Digital",
+      "price_card": 489804,
+      "price_specs": {
+        "Transferencia / Efectivo": "$468.712",
+        "Webpay / Tarjeta": "$489.804"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 60511,
       "store_id": "centrale",
-      "price": 467520,
+      "price": 476870,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-dual-rtx-5060-evo-8gb-gddr7-128-bit/",
       "store_name": "Centrale",
-      "price_card": 493234,
+      "price_card": 503098,
       "price_specs": {
-        "Transferencia / Efectivo": "$467.520",
-        "Tarjetas de Crédito / Débito": "$493.234"
+        "Transferencia / Efectivo": "$476.870",
+        "Tarjetas de Crédito / Débito": "$503.098"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -102,7 +121,13 @@
       "store_name": "Dust2",
       "date": "2026-06-20",
       "price": 415990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-25",
+      "price": 415990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

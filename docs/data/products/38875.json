@@ -13,23 +13,23 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Chipset": "Intel Z790 Express",
-    "Efectivo/Transferencia": "$259.995",
-    "Tarjeta crédito/débito": "$271.695"
+    "Efectivo/Transferencia": "$319.990",
+    "Tarjeta crédito/débito": "$334.390"
   },
   "tags": [],
   "created_at": "2026-05-04 23:53:14",
-  "updated_at": "2026-05-08 23:03:02",
+  "updated_at": "2026-06-25 18:25:59",
   "prices": [
     {
       "product_id": 38875,
       "store_id": "mybox",
       "price": 253166,
-      "price_card": 260761,
       "price_normal": 266490,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/placa-madre/6075-placa-madre-gigabyte-z790-d-ax-4719331860592.html",
       "store_name": "MyBox",
+      "price_card": 260761,
       "price_specs": {
         "Efectivo/Transferencia": "$253.166",
         "Tarjeta crédito/débito": "$260.761"
@@ -42,16 +42,16 @@
     {
       "product_id": 9471,
       "store_id": "spdigital",
-      "price": 259995,
-      "price_card": 271695,
-      "price_normal": 319990,
-      "discount_pct": 19,
+      "price": 319990,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-gigabyte-lga-1700-ddr5-soporte-12ava-13ava-y-14ava-gen-intel-wifi-6e-bluetooth-pc",
       "store_name": "SP Digital",
+      "price_card": 334390,
       "price_specs": {
-        "Transferencia / Efectivo": "$259.995",
-        "Webpay / Tarjeta": "$271.695"
+        "Transferencia / Efectivo": "$319.990",
+        "Webpay / Tarjeta": "$334.390"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,6 +59,31 @@
       "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-06-08",
+      "price": 253166
+    },
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-06-09",
+      "price": 253166
+    },
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-06-20",
+      "price": 253166
+    },
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-06-25",
+      "price": 253166
+    }
+  ],
+  "scraped_at": "2026-06-25"
 }

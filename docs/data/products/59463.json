@@ -22,7 +22,7 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:24",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 307,
@@ -42,6 +42,25 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 31912,
+      "store_id": "winpy",
+      "price": 419520,
+      "price_normal": null,
+      "discount_pct": 18,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i7-14700kf-raptor-lake-s-lga1700-20-cores-28-hilos-3-4-5-6ghz-sin-video/",
+      "store_name": "Winpy",
+      "price_card": 441755,
+      "price_specs": {
+        "Transferencia o Depósito": "$419.520",
+        "Otros medios de pago": "$441.755"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     },
     {
       "product_id": 59463,
@@ -81,7 +100,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 449995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 449995
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

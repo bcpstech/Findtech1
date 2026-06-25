@@ -14,26 +14,26 @@
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
     "Factor de forma": "Full-Height/Half-Length (FH/HL)",
-    "Efectivo/Transferencia": "$791.941",
-    "Tarjeta crédito/débito": "$827.578"
+    "Efectivo/Transferencia": "$821.705",
+    "Tarjeta crédito/débito": "$858.682"
   },
   "tags": [],
   "created_at": "2026-06-08 20:44:27",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 31872,
       "store_id": "winpy",
-      "price": 723520,
+      "price": 709536,
       "price_normal": null,
-      "discount_pct": 15,
+      "discount_pct": 17,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5070-ventus-2x-oc-de-12gb-gddr7/",
       "store_name": "Winpy",
-      "price_card": 761867,
+      "price_card": 747141,
       "price_specs": {
-        "Transferencia o Depósito": "$723.520",
-        "Otros medios de pago": "$761.867"
+        "Transferencia o Depósito": "$709.536",
+        "Otros medios de pago": "$747.141"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,16 +43,16 @@
     {
       "product_id": 1220,
       "store_id": "centrale",
-      "price": 759710,
+      "price": 774760,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-de-video-msi-geforce-rtx-5070-ventus-2x-oc-12gb-gddr7/",
       "store_name": "Centrale",
-      "price_card": 801494,
+      "price_card": 817372,
       "price_specs": {
-        "Transferencia / Efectivo": "$759.710",
-        "Tarjetas de Crédito / Débito": "$801.494"
+        "Transferencia / Efectivo": "$774.760",
+        "Tarjetas de Crédito / Débito": "$817.372"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,18 +60,18 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 59611,
+      "product_id": 72169,
       "store_id": "spdigital",
-      "price": 791941,
-      "price_normal": 978060,
+      "price": 809158,
+      "price_normal": 999330,
       "discount_pct": 19,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-msi-nvidia-geforce-rtx-5070-ventus-3x-oc-12gb-gddr7-pcie-50",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-msi-nvidia-geforce-rtx-5070-ventus-2x-oc-12gb-gddr7-28-gbps-192-bit-pcie-50",
       "store_name": "SP Digital",
-      "price_card": 827578,
+      "price_card": 845570,
       "price_specs": {
-        "Transferencia / Efectivo": "$791.941",
-        "Webpay / Tarjeta": "$827.578"
+        "Transferencia / Efectivo": "$809.158",
+        "Webpay / Tarjeta": "$845.570"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -97,7 +97,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 791941
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 821705
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

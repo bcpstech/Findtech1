@@ -14,26 +14,26 @@
     "Arquitectura": "Ampere",
     "Variante": "OC (Overclocked)",
     "Factor de forma": "Low Profile",
-    "Transferencia / Efectivo": "$257.320",
-    "Tarjeta crédito/débito": "$271.470"
+    "Transferencia / Efectivo": "$262.410",
+    "Tarjeta crédito/débito": "$276.840"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 1258,
       "store_id": "centrale",
-      "price": 257320,
+      "price": 262410,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-3050-lp-oc-6gb-gddr6-low-profile/",
       "store_name": "Centrale",
-      "price_card": 271473,
+      "price_card": 276843,
       "price_specs": {
-        "Transferencia / Efectivo": "$257.320",
-        "Tarjetas de Crédito / Débito": "$271.473"
+        "Transferencia / Efectivo": "$262.410",
+        "Tarjetas de Crédito / Débito": "$276.843"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,7 +59,13 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 257320
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 262410
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

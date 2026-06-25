@@ -21,13 +21,32 @@
     "Caché L3": "32 MB",
     "Memoria soportada": "DDR5-SDRAM",
     "Gráficos integrados": "AMD Radeon Graphics",
-    "Efectivo/Transferencia": "$215.760",
-    "Tarjeta crédito/débito": "$225.469"
+    "Efectivo/Transferencia": "$215.990",
+    "Tarjeta crédito/débito": "$225.710"
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:55",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
+    {
+      "product_id": 33,
+      "store_id": "n1g",
+      "price": 204300,
+      "price_normal": 215053,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/2614-amd-ryzen-5-7600-socket-am5-6-core-12-hilos-38-ghz-65w-procesador-de-escritorio-100-100001015box.html",
+      "store_name": "N1G",
+      "price_card": 215128,
+      "price_specs": {
+        "Efectivo/Transferencia": "$204.300",
+        "Tarjeta crédito/débito": "$215.128"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
     {
       "product_id": 275,
       "store_id": "centrale",
@@ -46,25 +65,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 1973,
-      "store_id": "dust2",
-      "price": 205490,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-5-7600-6-nucleos-3-8ghz-am5/",
-      "store_name": "Dust2",
-      "price_card": 211655,
-      "price_specs": {
-        "Efectivo/Transferencia": "$205.490",
-        "Tarjeta crédito/débito": "$211.655"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
     },
     {
       "product_id": 31889,
@@ -88,16 +88,16 @@
     {
       "product_id": 9407,
       "store_id": "spdigital",
-      "price": 215760,
-      "price_normal": 266470,
-      "discount_pct": 19,
+      "price": 215990,
+      "price_normal": 352990,
+      "discount_pct": 39,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-5-7600-wraith-sthealth-65w",
       "store_name": "SP Digital",
-      "price_card": 225469,
+      "price_card": 225710,
       "price_specs": {
-        "Transferencia / Efectivo": "$215.760",
-        "Webpay / Tarjeta": "$225.469"
+        "Transferencia / Efectivo": "$215.990",
+        "Webpay / Tarjeta": "$225.710"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -142,7 +142,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 215760
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 215990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

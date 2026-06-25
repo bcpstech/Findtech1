@@ -3,22 +3,23 @@
   "external_id": "pn_sa400s37240g",
   "category_id": "storage",
   "brand": "Kingston",
-  "name": "SSD Kingston SSDNow A400 240 GB",
+  "name": "SSD 2.5\" - 240 GB - Kingston A400 - SATA 3 (6.0 Gb/s) (SA400S37/240G)",
   "slug": "ssd-kingston-ssdnow-a400-240-gb",
-  "image_url": "https://images.findtech.cl/products/ssd-kingston-ssdnow-a400-240-gb.webp",
+  "image_url": "https://images.findtech.cl/products/ssd-2-5-240-gb-kingston-a400-sata-3-6-0-gb-s-sa400s37-240g.png",
   "description": null,
   "specs": {
-    "Capacidad": "960 GB",
+    "Capacidad": "480 GB",
     "Interfaz": "SATA III",
     "Factor de forma": "2.5\"",
-    "Lectura": "500 MB/s",
-    "Certificación": "CE, FCC",
-    "Efectivo/Transferencia": "$209.799",
-    "Tarjeta crédito/débito": "$219.240"
+    "Efectivo / Transferencia": "$97.990",
+    "Tarjeta crédito/débito": "$103.379",
+    "Garantía": "6 meses",
+    "SKU": "2511",
+    "Part Number": "SA400S37/480G"
   },
   "tags": [],
   "created_at": "2026-06-09 23:41:03",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 71318,
@@ -42,16 +43,16 @@
     {
       "product_id": 32003,
       "store_id": "winpy",
-      "price": 77824,
+      "price": 80256,
       "price_normal": null,
-      "discount_pct": 33,
+      "discount_pct": 31,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/disco-estado-solido-kingston-a400-de-240gb-ssd-sata/",
       "store_name": "Winpy",
-      "price_card": 81949,
+      "price_card": 84510,
       "price_specs": {
-        "Transferencia o Depósito": "$77.824",
-        "Otros medios de pago": "$81.949"
+        "Transferencia o Depósito": "$80.256",
+        "Otros medios de pago": "$84.510"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,37 +60,18 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 71318,
-      "store_id": "bcpstech",
-      "price": 77990,
-      "price_normal": 89990,
-      "discount_pct": 13,
-      "stock": "in_stock",
-      "product_url": "https://bcpstech.cl/?p=1405",
-      "store_name": "BCPS Tech",
-      "price_card": 80330,
-      "price_specs": {
-        "Efectivo/Transferencia": "$77.990",
-        "Tarjeta crédito/débito": "$80.330"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.bcpstech.cl",
-      "full_url": "https://bcpstech.cl"
-    },
-    {
       "product_id": 1603,
       "store_id": "centrale",
-      "price": 80350,
+      "price": 84440,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-240gb-kingston-a400-2-5-sata3/",
       "store_name": "Centrale",
-      "price_card": 84769,
+      "price_card": 89084,
       "price_specs": {
-        "Transferencia / Efectivo": "$80.350",
-        "Tarjetas de Crédito / Débito": "$84.769"
+        "Transferencia / Efectivo": "$84.440",
+        "Tarjetas de Crédito / Débito": "$89.084"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -99,16 +81,16 @@
     {
       "product_id": 16328,
       "store_id": "spdigital",
-      "price": 132105,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 119001,
+      "price_normal": 135600,
+      "discount_pct": 12,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/unidad-ssd-kingston-ssdnow-a400-480gb-25-lectura-500mbs-escritura-450mbs",
       "store_name": "SP Digital",
-      "price_card": 138050,
+      "price_card": 124356,
       "price_specs": {
-        "Transferencia / Efectivo": "$132.105",
-        "Webpay / Tarjeta": "$138.050"
+        "Transferencia / Efectivo": "$119.001",
+        "Webpay / Tarjeta": "$124.356"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -134,7 +116,13 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 75990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 75990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

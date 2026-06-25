@@ -11,12 +11,12 @@
     "VRAM": "16 GB",
     "Tipo memoria": "GDDR6",
     "Bus de memoria": "128-bit",
-    "Transferencia / Efectivo": "$573.360",
-    "Tarjeta crédito/débito": "$604.890"
+    "Transferencia / Efectivo": "$584.690",
+    "Tarjeta crédito/débito": "$616.850"
   },
   "tags": [],
   "created_at": "2026-06-08 20:59:19",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 61111,
@@ -59,16 +59,16 @@
     {
       "product_id": 1224,
       "store_id": "centrale",
-      "price": 573360,
+      "price": 584690,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-dual-amd-radeon-rx-9060-xt-16gb-gddr6-128-bit/",
       "store_name": "Centrale",
-      "price_card": 604895,
+      "price_card": 616848,
       "price_specs": {
-        "Transferencia / Efectivo": "$573.360",
-        "Tarjetas de Crédito / Débito": "$604.895"
+        "Transferencia / Efectivo": "$584.690",
+        "Tarjetas de Crédito / Débito": "$616.848"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -94,7 +94,13 @@
       "store_name": "Winpy",
       "date": "2026-06-20",
       "price": 547200
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 547200
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

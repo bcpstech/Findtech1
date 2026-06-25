@@ -10,26 +10,26 @@
   "specs": {
     "Capacidad": "5 TB",
     "Interfaz": "USB",
-    "Efectivo/Transferencia": "$246.061",
-    "Tarjeta crédito/débito": "$257.134"
+    "Efectivo/Transferencia": "$249.991",
+    "Tarjeta crédito/débito": "$261.241"
   },
   "tags": [],
   "created_at": "2026-06-20 00:08:50",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 72140,
       "store_id": "spdigital",
-      "price": 246061,
-      "price_normal": 300700,
-      "discount_pct": 18,
+      "price": 249991,
+      "price_normal": 308670,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/seagate-expansion-external-hard-drive-5-tb-usb",
       "store_name": "SP Digital",
-      "price_card": 257134,
+      "price_card": 261241,
       "price_specs": {
-        "Transferencia / Efectivo": "$246.061",
-        "Webpay / Tarjeta": "$257.134"
+        "Transferencia / Efectivo": "$249.991",
+        "Webpay / Tarjeta": "$261.241"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,7 +43,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 246061
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 249991
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

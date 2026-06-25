@@ -11,26 +11,26 @@
     "Capacidad": "8 TB",
     "Interfaz": "Serial ATA III",
     "Factor de forma": "3.5\"",
-    "Efectivo/Transferencia": "$412.161",
-    "Tarjeta crédito/débito": "$430.708"
+    "Efectivo/Transferencia": "$418.616",
+    "Tarjeta crédito/débito": "$437.454"
   },
   "tags": [],
   "created_at": "2026-06-20 00:08:42",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 72118,
       "store_id": "spdigital",
-      "price": 412161,
-      "price_normal": 503620,
-      "discount_pct": 18,
+      "price": 418616,
+      "price_normal": 516940,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/disco-duro-seagate-skyhawk-ai-8tb-35-sata-7200rpm-256mb-caché",
       "store_name": "SP Digital",
-      "price_card": 430708,
+      "price_card": 437454,
       "price_specs": {
-        "Transferencia / Efectivo": "$412.161",
-        "Webpay / Tarjeta": "$430.708"
+        "Transferencia / Efectivo": "$418.616",
+        "Webpay / Tarjeta": "$437.454"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -44,7 +44,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 412161
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 418616
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

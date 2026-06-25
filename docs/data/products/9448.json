@@ -13,50 +13,50 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Chipset": "AMD X870E",
-    "Efectivo/Transferencia": "$567.326",
-    "Tarjeta crédito/débito": "$592.856"
+    "Efectivo/Transferencia": "$554.788",
+    "Tarjeta crédito/débito": "$579.753"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:20",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
-    {
-      "product_id": 1344,
-      "store_id": "centrale",
-      "price": 549290,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-strix-x870e-e-gaming-wifi-am5-4xddr5-5xm-2/",
-      "store_name": "Centrale",
-      "price_card": 579501,
-      "price_specs": {
-        "Transferencia / Efectivo": "$549.290",
-        "Tarjetas de Crédito / Débito": "$579.501"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
     {
       "product_id": 9448,
       "store_id": "spdigital",
-      "price": 567326,
-      "price_normal": 667520,
-      "discount_pct": 15,
+      "price": 554788,
+      "price_normal": 685170,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/asus-motherboard-rog-crosshair-x870e-herolga1",
       "store_name": "SP Digital",
-      "price_card": 592856,
+      "price_card": 579753,
       "price_specs": {
-        "Transferencia / Efectivo": "$567.326",
-        "Webpay / Tarjeta": "$592.856"
+        "Transferencia / Efectivo": "$554.788",
+        "Webpay / Tarjeta": "$579.753"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1344,
+      "store_id": "centrale",
+      "price": 565110,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-strix-x870e-e-gaming-wifi-am5-4xddr5-5xm-2/",
+      "store_name": "Centrale",
+      "price_card": 596191,
+      "price_specs": {
+        "Transferencia / Efectivo": "$565.110",
+        "Tarjetas de Crédito / Débito": "$596.191"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 634,
@@ -103,7 +103,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 567326
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 554788
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

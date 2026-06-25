@@ -13,50 +13,31 @@
     "TDP": "65W",
     "Socket": "AM4",
     "Generación": "AMD Zen 5 (4nm)",
-    "Efectivo/Transferencia": "$91.900",
-    "Tarjeta crédito/débito": "$94.657"
+    "Efectivo/Transferencia": "$80.900",
+    "Tarjeta crédito/débito": "$83.327"
   },
   "tags": [],
   "created_at": "2026-04-26 15:47:50",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 23,
       "store_id": "n1g",
-      "price": 91900,
-      "price_normal": 96737,
+      "price": 80900,
+      "price_normal": 85158,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/1876-amd-ryzen-5-4500-oem-6-core-12-hilos-socket-am4-65w-desktop-processor-.html",
       "store_name": "N1G",
-      "price_card": 96771,
+      "price_card": 85188,
       "price_specs": {
-        "Efectivo/Transferencia": "$91.900",
-        "Tarjeta crédito/débito": "$96.771"
+        "Efectivo/Transferencia": "$80.900",
+        "Tarjeta crédito/débito": "$85.188"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
-    },
-    {
-      "product_id": 2810,
-      "store_id": "alltec",
-      "price": 96500,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/amd/1892-amd-ryzen-5-4500-mpk-36ghz-41ghz-turbo-six-core-tdp-65w-am4.html",
-      "store_name": "Alltec",
-      "price_card": 99395,
-      "price_specs": {
-        "Efectivo/Transferencia": "$96.500",
-        "Tarjeta crédito/débito": "$99.395"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -71,7 +52,19 @@
       "store_name": "N1G",
       "date": "2026-06-09",
       "price": 91900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-19",
+      "price": 80900
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-25",
+      "price": 80900
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-25"
 }

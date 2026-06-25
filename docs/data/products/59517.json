@@ -12,45 +12,26 @@
     "Factor de forma": "micro ATX",
     "Memoria": "DDR5",
     "Chipset": "Intel B760",
-    "Efectivo/Transferencia": "$121.089",
-    "Tarjeta crédito/débito": "$126.538"
+    "Efectivo/Transferencia": "$122.553",
+    "Tarjeta crédito/débito": "$128.068"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:47",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
-    {
-      "product_id": 31933,
-      "store_id": "winpy",
-      "price": 92416,
-      "price_normal": null,
-      "discount_pct": 16,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b760m-a-d4-csm-lga1700-ddr4-x4-m-2-x2-micro-atx/",
-      "store_name": "Winpy",
-      "price_card": 97314,
-      "price_specs": {
-        "Transferencia o Depósito": "$92.416",
-        "Otros medios de pago": "$97.314"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
     {
       "product_id": 59517,
       "store_id": "spdigital",
-      "price": 121089,
-      "price_normal": 149470,
+      "price": 122553,
+      "price_normal": 151260,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/prime-b760m-a-lga1700-mb",
       "store_name": "SP Digital",
-      "price_card": 126538,
+      "price_card": 128068,
       "price_specs": {
-        "Transferencia / Efectivo": "$121.089",
-        "Webpay / Tarjeta": "$126.538"
+        "Transferencia / Efectivo": "$122.553",
+        "Webpay / Tarjeta": "$128.068"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,18 +39,37 @@
       "full_url": "https://www.spdigital.cl"
     },
     {
-      "product_id": 1377,
-      "store_id": "centrale",
-      "price": 125140,
+      "product_id": 31946,
+      "store_id": "winpy",
+      "price": 124640,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b760m-a-lga1700-mb-prime-b760m-a-lga1700-mb/",
-      "store_name": "Centrale",
-      "price_card": 132023,
+      "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b760m-a-lga1700-ddr5-4800-7200-mhz-m-2-microatx/",
+      "store_name": "Winpy",
+      "price_card": 131246,
       "price_specs": {
-        "Transferencia / Efectivo": "$125.140",
-        "Tarjetas de Crédito / Débito": "$132.023"
+        "Transferencia o Depósito": "$124.640",
+        "Otros medios de pago": "$131.246"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1393,
+      "store_id": "centrale",
+      "price": 144050,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b760m-a-ax6-ii-lga-1700-ddr5-pcie-4-0-usb-c-wifi-6/",
+      "store_name": "Centrale",
+      "price_card": 151973,
+      "price_specs": {
+        "Transferencia / Efectivo": "$144.050",
+        "Tarjetas de Crédito / Débito": "$151.973"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -94,25 +94,6 @@
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
-    },
-    {
-      "product_id": 55203,
-      "store_id": "cg",
-      "price": 152990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-b760m-a-ax6-ii-socket-lga1700-4x-ddr5/",
-      "store_name": "CentralGamer",
-      "price_card": 161037,
-      "price_specs": {
-        "Efectivo/Transferencia": "$152.990",
-        "Webpay / Tarjeta": "$161.037"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -127,7 +108,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-09",
       "price": 121089
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 119375
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 122553
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-25"
 }

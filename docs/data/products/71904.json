@@ -18,12 +18,12 @@
     "Frecuencia turbo": "4,9 GHz",
     "Caché L3": "25 MB",
     "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
-    "Efectivo/Transferencia": "$374.064",
-    "Tarjeta crédito/débito": "$390.897"
+    "Efectivo/Transferencia": "$363.835",
+    "Tarjeta crédito/débito": "$380.208"
   },
   "tags": [],
   "created_at": "2026-06-20 00:07:05",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 31902,
@@ -47,16 +47,16 @@
     {
       "product_id": 312,
       "store_id": "centrale",
-      "price": 357220,
+      "price": 355310,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-12700f-2-1-ghz-12-core-lga-1700/",
       "store_name": "Centrale",
-      "price_card": 376867,
+      "price_card": 374852,
       "price_specs": {
-        "Transferencia / Efectivo": "$357.220",
-        "Tarjetas de Crédito / Débito": "$376.867"
+        "Transferencia / Efectivo": "$355.310",
+        "Tarjetas de Crédito / Débito": "$374.852"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -66,16 +66,16 @@
     {
       "product_id": 71904,
       "store_id": "spdigital",
-      "price": 374064,
-      "price_normal": 437650,
-      "discount_pct": 15,
+      "price": 363835,
+      "price_normal": 449240,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/core-i7-12700f-21ghz-25mb-12c20t",
       "store_name": "SP Digital",
-      "price_card": 390897,
+      "price_card": 380208,
       "price_specs": {
-        "Transferencia / Efectivo": "$374.064",
-        "Webpay / Tarjeta": "$390.897"
+        "Transferencia / Efectivo": "$363.835",
+        "Webpay / Tarjeta": "$380.208"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -89,7 +89,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 374064
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 363835
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

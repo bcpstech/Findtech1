@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:19:54",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 31851,
@@ -56,6 +56,25 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 76230,
+      "store_id": "spdigital",
+      "price": 409447,
+      "price_normal": 481650,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/msi-pci-express-x16-nvidia-geforce-rtx-5050-824142438336",
+      "store_name": "SP Digital",
+      "price_card": 427872,
+      "price_specs": {
+        "Transferencia / Efectivo": "$409.447",
+        "Webpay / Tarjeta": "$427.872"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -76,7 +95,13 @@
       "store_name": "Winpy",
       "date": "2026-06-20",
       "price": 345952
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 345952
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

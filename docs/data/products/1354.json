@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 1354,
@@ -36,25 +36,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 71342,
-      "store_id": "bcpstech",
-      "price": 357950,
-      "price_normal": 382990,
-      "discount_pct": 7,
-      "stock": "in_stock",
-      "product_url": "https://bcpstech.cl/?p=1106",
-      "store_name": "BCPS Tech",
-      "price_card": 368689,
-      "price_specs": {
-        "Efectivo/Transferencia": "$357.950",
-        "Tarjeta crédito/débito": "$368.689"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.bcpstech.cl",
-      "full_url": "https://bcpstech.cl"
     },
     {
       "product_id": 38897,
@@ -94,7 +75,13 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 344860
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 344860
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

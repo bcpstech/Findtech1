@@ -11,26 +11,26 @@
     "Capacidad": "12 TB",
     "Interfaz": "Serial ATA III",
     "Factor de forma": "3.5\"",
-    "Efectivo/Transferencia": "$444.638",
-    "Tarjeta crédito/débito": "$464.647"
+    "Efectivo/Transferencia": "$451.667",
+    "Tarjeta crédito/débito": "$471.992"
   },
   "tags": [],
   "created_at": "2026-06-20 00:08:47",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 72131,
       "store_id": "spdigital",
-      "price": 444638,
-      "price_normal": 543370,
-      "discount_pct": 18,
+      "price": 451667,
+      "price_normal": 557750,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/disco-duro-nas-western-digital-wd-red-plus-12tb-35-sata-7200rpm-para-servidores-nas",
       "store_name": "SP Digital",
-      "price_card": 464647,
+      "price_card": 471992,
       "price_specs": {
-        "Transferencia / Efectivo": "$444.638",
-        "Webpay / Tarjeta": "$464.647"
+        "Transferencia / Efectivo": "$451.667",
+        "Webpay / Tarjeta": "$471.992"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -44,7 +44,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 444638
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 451667
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

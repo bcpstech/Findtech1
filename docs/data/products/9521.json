@@ -11,26 +11,26 @@
     "Capacidad": "1 TB",
     "Interfaz": "PCI Express 4.0",
     "Factor de forma": "M.2 2280",
-    "Efectivo/Transferencia": "$350.239",
-    "Tarjeta crédito/débito": "$366.000"
+    "Efectivo/Transferencia": "$343.999",
+    "Tarjeta crédito/débito": "$359.479"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:59",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 9521,
       "store_id": "spdigital",
-      "price": 350239,
-      "price_normal": 350240,
-      "discount_pct": null,
+      "price": 343999,
+      "price_normal": 359500,
+      "discount_pct": 4,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/1000g-renegade-pcie-40-nvme-ssd-w-heatsink",
       "store_name": "SP Digital",
-      "price_card": 366000,
+      "price_card": 359479,
       "price_specs": {
-        "Transferencia / Efectivo": "$350.239",
-        "Webpay / Tarjeta": "$366.000"
+        "Transferencia / Efectivo": "$343.999",
+        "Webpay / Tarjeta": "$359.479"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -44,7 +44,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 350239
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 343999
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

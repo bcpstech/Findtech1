@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "VRAM": "96 GB",
-    "Transferencia / Efectivo": "$16.722.940",
-    "Tarjeta crédito/débito": "$17.642.700"
+    "Transferencia / Efectivo": "$17.054.440",
+    "Tarjeta crédito/débito": "$17.992.430"
   },
   "tags": [],
   "created_at": "2026-06-20 00:26:23",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 73144,
       "store_id": "centrale",
-      "price": 16722940,
+      "price": 17054440,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-nvidia-rtx-pro-6000-blackwell-max-q-workstation-edition-96gb/",
       "store_name": "Centrale",
-      "price_card": 17642702,
+      "price_card": 17992434,
       "price_specs": {
-        "Transferencia / Efectivo": "$16.722.940",
-        "Tarjetas de Crédito / Débito": "$17.642.702"
+        "Transferencia / Efectivo": "$17.054.440",
+        "Tarjetas de Crédito / Débito": "$17.992.434"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,7 +42,13 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 16722940
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 17054440
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

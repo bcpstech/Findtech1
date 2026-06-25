@@ -14,18 +14,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:48:00",
-  "updated_at": "2026-05-08 22:58:09",
+  "updated_at": "2026-06-25 18:22:27",
   "prices": [
     {
       "product_id": 2378,
       "store_id": "dust2",
       "price": 52990,
-      "price_card": 54580,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-xpg-valor-air-plus-mid-tower-atx-negro/",
       "store_name": "Dust2",
+      "price_card": 54580,
       "price_specs": {
         "Efectivo/Transferencia": "$52.990",
         "Tarjeta crédito/débito": "$54.580"
@@ -34,8 +34,52 @@
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 73645,
+      "store_id": "centrale",
+      "price": 90740,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/gabinete-mid-tower-xpg-invader-x-atx-5-vent-incluidos-usb-3-2-tipo-a-y-c/",
+      "store_name": "Centrale",
+      "price_card": 95731,
+      "price_specs": {
+        "Transferencia / Efectivo": "$90.740",
+        "Tarjetas de Crédito / Débito": "$95.731"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-08",
+      "price": 52990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-09",
+      "price": 52990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-20",
+      "price": 52990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-25",
+      "price": 52990
+    }
+  ],
+  "scraped_at": "2026-06-25"
 }

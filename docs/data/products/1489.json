@@ -12,26 +12,26 @@
     "Tipo": "DDR5",
     "Velocidad": "5600 MHz",
     "Latencia": "CL46",
-    "Transferencia / Efectivo": "$483.620",
-    "Tarjeta crédito/débito": "$510.220"
+    "Transferencia / Efectivo": "$503.660",
+    "Tarjeta crédito/débito": "$531.360"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 1489,
       "store_id": "centrale",
-      "price": 273160,
+      "price": 263800,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-notebook-16gb-ddr5-5600mt-s-cl46-crucial-sodimm-1-1v/",
       "store_name": "Centrale",
-      "price_card": 288184,
+      "price_card": 278309,
       "price_specs": {
-        "Transferencia / Efectivo": "$273.160",
-        "Tarjetas de Crédito / Débito": "$288.184"
+        "Transferencia / Efectivo": "$263.800",
+        "Tarjetas de Crédito / Débito": "$278.309"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,7 +57,13 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 273160
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 263800
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

@@ -12,48 +12,29 @@
     "Tipo": "DDR5",
     "Velocidad": "5600 MHz",
     "Iluminación": "RGB",
-    "Efectivo / Transferencia": "$199.990",
-    "Tarjeta crédito/débito": "$210.989",
+    "Efectivo / Transferencia": "$203.990",
+    "Tarjeta crédito/débito": "$215.209",
     "Garantía": "6 meses",
     "SKU": "40972",
     "Part Number": "AX5U5600C4616G-SAMRBK"
   },
   "tags": [],
   "created_at": "2026-06-08 20:49:51",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
-    {
-      "product_id": 9511,
-      "store_id": "spdigital",
-      "price": 134706,
-      "price_normal": 166340,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/adata-ddr5-u-dimm-8gb-5600-white",
-      "store_name": "SP Digital",
-      "price_card": 140768,
-      "price_specs": {
-        "Transferencia / Efectivo": "$134.706",
-        "Webpay / Tarjeta": "$140.768"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
     {
       "product_id": 59991,
       "store_id": "myshop",
-      "price": 139990,
-      "price_normal": 147689,
+      "price": 137990,
+      "price_normal": 145579,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/dimm-8-gb-xpg-lancer-blade-ddr5-5600-mhz-black-ax5u5600c468g-slabbk-p35182",
       "store_name": "MyShop",
-      "price_card": 144190,
+      "price_card": 142130,
       "price_specs": {
-        "Efectivo/Transferencia": "$139.990",
-        "Tarjeta crédito/débito": "$144.190"
+        "Efectivo/Transferencia": "$137.990",
+        "Tarjeta crédito/débito": "$142.130"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -61,18 +42,37 @@
       "full_url": "https://www.myshop.cl"
     },
     {
-      "product_id": 1466,
+      "product_id": 9518,
+      "store_id": "spdigital",
+      "price": 139995,
+      "price_normal": 269990,
+      "discount_pct": 48,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/memoria-ram-xpg-lancer-blade-rgb-ddr5-8gb-5600mts-u-dimm-xmpexpo-negro",
+      "store_name": "SP Digital",
+      "price_card": 146295,
+      "price_specs": {
+        "Transferencia / Efectivo": "$139.995",
+        "Webpay / Tarjeta": "$146.295"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1418,
       "store_id": "centrale",
-      "price": 207490,
+      "price": 214990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-5600mt-s-cl46-xpg-lancer-blade-black/",
+      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-5600mt-s-cl46-xpg-lancer-blade-rgb-black/",
       "store_name": "Centrale",
-      "price_card": 218902,
+      "price_card": 226814,
       "price_specs": {
-        "Transferencia / Efectivo": "$207.490",
-        "Tarjetas de Crédito / Débito": "$218.902"
+        "Transferencia / Efectivo": "$214.990",
+        "Tarjetas de Crédito / Débito": "$226.814"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -98,7 +98,13 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 199990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 203990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

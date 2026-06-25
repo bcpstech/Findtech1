@@ -13,29 +13,29 @@
     "Bus de memoria": "256-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$1.799.990",
-    "Tarjeta crédito/débito": "$1.898.989",
+    "Efectivo / Transferencia": "$1.749.990",
+    "Tarjeta crédito/débito": "$1.846.239",
     "Garantía": "",
     "SKU": "42707",
     "Part Number": "GV-N5080GAMING OC-16GD"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:50",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 19844,
       "store_id": "myshop",
-      "price": 1799990,
-      "price_normal": 1898989,
-      "discount_pct": 18,
+      "price": 1749990,
+      "price_normal": 1846239,
+      "discount_pct": 20,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/gigabyte-pci-express-50-x16-rtx-5080-gaming-16g-gddr7-256-bits-p42707",
       "store_name": "MyShop",
-      "price_card": 1853990,
+      "price_card": 1802490,
       "price_specs": {
-        "Efectivo/Transferencia": "$1.799.990",
-        "Tarjeta crédito/débito": "$1.853.990"
+        "Efectivo/Transferencia": "$1.749.990",
+        "Tarjeta crédito/débito": "$1.802.490"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -61,7 +61,13 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 1799990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 1749990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

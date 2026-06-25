@@ -8,29 +8,29 @@
   "image_url": "https://images.findtech.cl/products/disco-ssd-western-digital-green-de-250gb-2-5-sata-545mb-s.jpg",
   "description": null,
   "specs": {
-    "Capacidad": "2 TB",
-    "Interfaz": "NVMe PCIe",
-    "Factor de forma": "M.2 2280",
-    "Transferencia / Efectivo": "$383.940",
-    "Tarjeta crédito/débito": "$405.060"
+    "Capacidad": "1 TB",
+    "Interfaz": "SATA III",
+    "Factor de forma": "2.5\"",
+    "Efectivo/Transferencia": "$119.000",
+    "Tarjeta crédito/débito": "$122.570"
   },
   "tags": [],
   "created_at": "2026-05-04 01:25:37",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 32016,
       "store_id": "winpy",
-      "price": 91200,
+      "price": 93632,
       "price_normal": null,
-      "discount_pct": 42,
+      "discount_pct": 41,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/disco-ssd-western-digital-green-de-250gb-2-5-sata-545mb-s/",
       "store_name": "Winpy",
-      "price_card": 96034,
+      "price_card": 98594,
       "price_specs": {
-        "Transferencia o Depósito": "$91.200",
-        "Otros medios de pago": "$96.034"
+        "Transferencia o Depósito": "$93.632",
+        "Otros medios de pago": "$98.594"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,56 +38,37 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 38922,
-      "store_id": "mybox",
-      "price": 110165,
-      "price_normal": 112990,
-      "discount_pct": 3,
+      "product_id": 679,
+      "store_id": "n1g",
+      "price": 119000,
+      "price_normal": 125263,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://mybox.cl/almacenamiento/5208-disco-duro-hdd-wd-blue-2tb-256mb.html",
-      "store_name": "MyBox",
-      "price_card": 113470,
+      "product_url": "https://n1g.cl/Home/computacion/2416-western-digital-green-1-tb-ssd-25-wds100t3g0a-solid-state-drive-sata-3.html",
+      "store_name": "N1G",
+      "price_card": 125307,
       "price_specs": {
-        "Efectivo/Transferencia": "$110.165",
-        "Tarjeta crédito/débito": "$113.470"
+        "Efectivo/Transferencia": "$119.000",
+        "Tarjeta crédito/débito": "$125.307"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.mybox.cl",
-      "full_url": "https://www.mybox.cl"
-    },
-    {
-      "product_id": 1525,
-      "store_id": "centrale",
-      "price": 383940,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ssd-western-digital-green-sn3000-2tb-m-2-nvme-pcie-4-0-5000mb-s/",
-      "store_name": "Centrale",
-      "price_card": 405057,
-      "price_specs": {
-        "Transferencia / Efectivo": "$383.940",
-        "Tarjetas de Crédito / Débito": "$405.057"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     },
     {
       "product_id": 72107,
       "store_id": "spdigital",
-      "price": 405719,
-      "price_normal": 448260,
-      "discount_pct": 9,
+      "price": 364884,
+      "price_normal": 450640,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/unidad-ssd-western-digital-wd-green-sn3000-2tb-nvme-pcie-40-m2-2280-para-laptop-y-pc",
       "store_name": "SP Digital",
-      "price_card": 423976,
+      "price_card": 381304,
       "price_specs": {
-        "Transferencia / Efectivo": "$405.719",
-        "Webpay / Tarjeta": "$423.976"
+        "Transferencia / Efectivo": "$364.884",
+        "Webpay / Tarjeta": "$381.304"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -107,7 +88,13 @@
       "store_name": "Winpy",
       "date": "2026-06-20",
       "price": 91200
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 93632
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

@@ -8,29 +8,29 @@
   "image_url": "https://images.findtech.cl/products/disco-ssd-1tb-kingston-fury-renegade-g5-pcie-5-0-nvme-m-2-14-200-11-000-mb-s.webp",
   "description": null,
   "specs": {
-    "Capacidad": "8 TB",
+    "Capacidad": "2 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Transferencia / Efectivo": "$3.661.070",
-    "Tarjeta crédito/débito": "$3.862.430"
+    "Transferencia / Efectivo": "$414.990",
+    "Tarjeta crédito/débito": "$437.810"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 1564,
       "store_id": "centrale",
-      "price": 239900,
+      "price": 249900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-1tb-kingston-fury-renegade-g5-pcie-5-0-nvme-m-2-14-200-11-000-mb-s/",
       "store_name": "Centrale",
-      "price_card": 253094,
+      "price_card": 263645,
       "price_specs": {
-        "Transferencia / Efectivo": "$239.900",
-        "Tarjetas de Crédito / Débito": "$253.094"
+        "Transferencia / Efectivo": "$249.900",
+        "Tarjetas de Crédito / Débito": "$263.645"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -50,7 +50,19 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 239900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 239900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 249900
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-25"
 }

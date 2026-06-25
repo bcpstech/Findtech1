@@ -20,14 +20,14 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:37",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 19823,
       "store_id": "myshop",
       "price": 477990,
       "price_normal": 504279,
-      "discount_pct": null,
+      "discount_pct": 20,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/geforce-rtx-5060-8g-gaming-trio-oc-p38788",
       "store_name": "MyShop",
@@ -81,7 +81,13 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 477990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 477990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

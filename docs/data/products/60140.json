@@ -5,7 +5,7 @@
   "brand": "Gigabyte",
   "name": "Fuente de Poder 750W (Certificada) 80+ Gold - Gigabyte GP-UD750GM-PG5 - ATX - Modular",
   "slug": "fuente-de-poder-750w-certificada-80-gold-gigabyte-gp-ud750gm-pg5-atx-modular",
-  "image_url": "https://images.findtech.cl/products/fuente-de-poder-750w-certificada-80-gold-gigabyte-gp-ud750gm-pg5-atx-modular.webp",
+  "image_url": "https://images.findtech.cl/products/fuente-de-poder-750w-certificada-80-gold-gigabyte-gp-ud750gm-pg5-atx-modular.jpg",
   "description": null,
   "specs": {
     "Efectivo / Transferencia": "$91.500",
@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:51:57",
-  "updated_at": "2026-06-20 00:19:47",
+  "updated_at": "2026-06-25 18:06:54",
   "prices": [
     {
       "product_id": 60140,
@@ -38,18 +38,18 @@
       "full_url": "https://www.myshop.cl"
     },
     {
-      "product_id": 2239,
+      "product_id": 61752,
       "store_id": "dust2",
-      "price": 86990,
+      "price": 86890,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/fuente-de-poder-gigabyte-gp-ud750gm-pg5-750w-80plus-gold/",
+      "product_url": "https://dust2.gg/producto/fuente-de-poder-gigabyte-gp-ud750gm-pg5-ice-750w-80-gold/",
       "store_name": "Dust2",
-      "price_card": 89600,
+      "price_card": 89497,
       "price_specs": {
-        "Efectivo/Transferencia": "$86.990",
-        "Tarjeta crédito/débito": "$89.600"
+        "Efectivo/Transferencia": "$86.890",
+        "Tarjeta crédito/débito": "$89.497"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -95,25 +95,6 @@
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
-    },
-    {
-      "product_id": 59774,
-      "store_id": "spdigital",
-      "price": 95678,
-      "price_normal": 118070,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/fuente-de-poder-gigabyte-ud850gm-pg5-ice-850w-certificada-80-plus-gold-full-modular-pcie-50-blanca",
-      "store_name": "SP Digital",
-      "price_card": 99984,
-      "price_specs": {
-        "Transferencia / Efectivo": "$95.678",
-        "Webpay / Tarjeta": "$99.984"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -134,7 +115,13 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 83970
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 83970
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

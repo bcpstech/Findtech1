@@ -8,26 +8,32 @@
   "image_url": "https://images.findtech.cl/products/procesador-intel-core-i7-12700-alder-lake-lga1700-12-cores-20-hilos-3-6-4-9-ghz.jpg",
   "description": null,
   "specs": {
-    "Frecuencia base": "4.9 GHz",
-    "Socket": "LGA1700",
-    "Generación": "Intel 12ª Gen (Alder Lake)",
-    "Efectivo / Transferencia": "$347.776",
-    "Tarjeta crédito/débito": "$366.208"
+    "Núcleos": "12",
+    "Hilos": "20",
+    "Frecuencia base": "5.0 GHz",
+    "Caché L3": "25 MB",
+    "Socket": "LGA 1700",
+    "Familia": "Intel® Core™ i7",
+    "Frecuencia turbo": "4,9 GHz",
+    "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
+    "Gráficos integrados": "Intel UHD Graphics 770",
+    "Efectivo/Transferencia": "$379.995",
+    "Tarjeta crédito/débito": "$397.095"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:45",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 31905,
       "store_id": "winpy",
       "price": 347776,
-      "price_card": 366208,
       "price_normal": null,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i7-12700-alder-lake-lga1700-12-cores-20-hilos-3-6-4-9-ghz/",
       "store_name": "Winpy",
+      "price_card": 366208,
       "price_specs": {
         "Transferencia o Depósito": "$347.776",
         "Otros medios de pago": "$366.208"
@@ -36,21 +42,71 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 322,
+      "store_id": "centrale",
+      "price": 371570,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-12700-3-6ghz-12-core-20-hilos-lga-1700/",
+      "store_name": "Centrale",
+      "price_card": 392006,
+      "price_specs": {
+        "Transferencia / Efectivo": "$371.570",
+        "Tarjetas de Crédito / Débito": "$392.006"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9422,
+      "store_id": "spdigital",
+      "price": 379995,
+      "price_normal": 579990,
+      "discount_pct": 34,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/core-i7-12700-210ghz-sktlga1700-2500mb",
+      "store_name": "SP Digital",
+      "price_card": 397095,
+      "price_specs": {
+        "Transferencia / Efectivo": "$379.995",
+        "Webpay / Tarjeta": "$397.095"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-04",
+      "date": "2026-06-08",
       "price": 347776
     },
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-05",
+      "date": "2026-06-09",
+      "price": 347776
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 347776
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
       "price": 347776
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-06-25"
 }

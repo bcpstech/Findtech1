@@ -11,26 +11,26 @@
     "Capacidad": "8 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$262.970",
-    "Tarjeta crédito/débito": "$277.430"
+    "Transferencia / Efectivo": "$274.490",
+    "Tarjeta crédito/débito": "$289.590"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 1557,
       "store_id": "centrale",
-      "price": 262970,
+      "price": 274490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-8tb-hdd-seagate-barracuda-3-5-5400rpm-256mb-cache-sata/",
       "store_name": "Centrale",
-      "price_card": 277433,
+      "price_card": 289587,
       "price_specs": {
-        "Transferencia / Efectivo": "$262.970",
-        "Tarjetas de Crédito / Débito": "$277.433"
+        "Transferencia / Efectivo": "$274.490",
+        "Tarjetas de Crédito / Débito": "$289.587"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -56,7 +56,13 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 262970
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 274490
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

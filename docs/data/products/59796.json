@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Factor de forma": "Midi Tower",
-    "Efectivo/Transferencia": "$64.995",
-    "Tarjeta crédito/débito": "$67.920"
+    "Efectivo/Transferencia": "$67.055",
+    "Tarjeta crédito/débito": "$70.072"
   },
   "tags": [],
   "created_at": "2026-06-08 20:45:45",
-  "updated_at": "2026-06-20 00:10:38",
+  "updated_at": "2026-06-25 17:59:33",
   "prices": [
     {
       "product_id": 59796,
       "store_id": "spdigital",
-      "price": 64885,
-      "price_normal": 80110,
+      "price": 66663,
+      "price_normal": 82230,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/elite-502-white-argb-fan-3",
       "store_name": "SP Digital",
-      "price_card": 67805,
+      "price_card": 69663,
       "price_specs": {
-        "Transferencia / Efectivo": "$64.885",
-        "Webpay / Tarjeta": "$67.805"
+        "Transferencia / Efectivo": "$66.663",
+        "Webpay / Tarjeta": "$69.663"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,16 +38,16 @@
     {
       "product_id": 1730,
       "store_id": "centrale",
-      "price": 65550,
+      "price": 66820,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-gamer-cooler-master-elite-502-e-atx-3-vent-argb-incluidos/",
       "store_name": "Centrale",
-      "price_card": 69155,
+      "price_card": 70495,
       "price_specs": {
-        "Transferencia / Efectivo": "$65.550",
-        "Tarjetas de Crédito / Débito": "$69.155"
+        "Transferencia / Efectivo": "$66.820",
+        "Tarjetas de Crédito / Débito": "$70.495"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -73,7 +73,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 64885
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 66663
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

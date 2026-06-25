@@ -14,26 +14,26 @@
     "Kit": "2x8 GB",
     "Iluminación": "RGB",
     "Marca": "Corsair",
-    "Efectivo / Transferencia": "$157.990",
-    "Tarjeta crédito/débito": "$162.730"
+    "Efectivo / Transferencia": "$139.990",
+    "Tarjeta crédito/débito": "$144.190"
   },
   "tags": [],
   "created_at": "2026-04-26 20:43:00",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 1993,
       "store_id": "dust2",
-      "price": 157990,
+      "price": 139990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/ram-corsair-vengeance-rgb-pro-tuf-16gb-2x8gb-ddr4-3200mhz/",
       "store_name": "Dust2",
-      "price_card": 162730,
+      "price_card": 144190,
       "price_specs": {
-        "Efectivo/Transferencia": "$157.990",
-        "Tarjeta crédito/débito": "$162.730"
+        "Efectivo/Transferencia": "$139.990",
+        "Tarjeta crédito/débito": "$144.190"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,16 +43,16 @@
     {
       "product_id": 73323,
       "store_id": "centrale",
-      "price": 164150,
+      "price": 164490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-notebook-16gb-3200mhz-ddr4-cl22-corsair-vengeance/",
       "store_name": "Centrale",
-      "price_card": 173178,
+      "price_card": 173537,
       "price_specs": {
-        "Transferencia / Efectivo": "$164.150",
-        "Tarjetas de Crédito / Débito": "$173.178"
+        "Transferencia / Efectivo": "$164.490",
+        "Tarjetas de Crédito / Débito": "$173.537"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -78,7 +78,13 @@
       "store_name": "Dust2",
       "date": "2026-06-20",
       "price": 157990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-25",
+      "price": 139990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

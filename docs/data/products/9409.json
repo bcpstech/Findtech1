@@ -20,31 +20,31 @@
     "Caché L3": "16 MB",
     "Memoria soportada": "DDR5-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$170.278",
-    "Tarjeta crédito/débito": "$177.941"
+    "Efectivo/Transferencia": "$174.782",
+    "Tarjeta crédito/débito": "$182.647"
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:56",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
-      "product_id": 2809,
-      "store_id": "alltec",
-      "price": 157600,
-      "price_normal": null,
-      "discount_pct": null,
+      "product_id": 31,
+      "store_id": "n1g",
+      "price": 147900,
+      "price_normal": 155684,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/amd/2245-amd-ryzen-5-8400f-42ghz-47ghz-turbo-six-core-tdp-65w-am5.html",
-      "store_name": "Alltec",
-      "price_card": 162328,
+      "product_url": "https://n1g.cl/Home/computacion/2922-amd-ryzen-5-8400f-42-ghz-6-core-12-threads-socket-am5-65w-processor-100-100001591box.html",
+      "store_name": "N1G",
+      "price_card": 155739,
       "price_specs": {
-        "Efectivo/Transferencia": "$157.600",
-        "Tarjeta crédito/débito": "$162.328"
+        "Efectivo/Transferencia": "$147.900",
+        "Tarjeta crédito/débito": "$155.739"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     },
     {
       "product_id": 1950,
@@ -104,25 +104,6 @@
       "full_url": "https://store.infor-ingen.com"
     },
     {
-      "product_id": 9409,
-      "store_id": "spdigital",
-      "price": 170278,
-      "price_normal": 210220,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/ryzen-5-8400f",
-      "store_name": "SP Digital",
-      "price_card": 177941,
-      "price_specs": {
-        "Transferencia / Efectivo": "$170.278",
-        "Webpay / Tarjeta": "$177.941"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
       "product_id": 293,
       "store_id": "centrale",
       "price": 174360,
@@ -140,6 +121,25 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9409,
+      "store_id": "spdigital",
+      "price": 174782,
+      "price_normal": 215780,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/ryzen-5-8400f",
+      "store_name": "SP Digital",
+      "price_card": 182647,
+      "price_specs": {
+        "Transferencia / Efectivo": "$174.782",
+        "Webpay / Tarjeta": "$182.647"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 38839,
@@ -179,7 +179,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 170278
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 174782
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

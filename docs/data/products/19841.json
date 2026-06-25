@@ -13,15 +13,15 @@
     "Bus de memoria": "256-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$1.669.990",
-    "Tarjeta crédito/débito": "$1.761.839",
+    "Efectivo / Transferencia": "$1.644.990",
+    "Tarjeta crédito/débito": "$1.735.464",
     "Garantía": "",
     "SKU": "40523",
     "Part Number": "824142395943"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:47",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 19841,
@@ -61,7 +61,13 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 1599990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 1599990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

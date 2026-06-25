@@ -12,26 +12,26 @@
     "Tipo memoria": "GDDR3",
     "Velocidad": "1600 MHz",
     "Factor de forma": "LP",
-    "Efectivo/Transferencia": "$104.375",
-    "Tarjeta crédito/débito": "$109.072"
+    "Efectivo/Transferencia": "$107.112",
+    "Tarjeta crédito/débito": "$111.932"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:31",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 9586,
       "store_id": "spdigital",
-      "price": 104375,
-      "price_normal": 113970,
+      "price": 107112,
+      "price_normal": 116980,
       "discount_pct": 8,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-geforce-gt730-4gb-ddr3-pcie-20-x16-perfil-bajo-dvi",
       "store_name": "SP Digital",
-      "price_card": 109072,
+      "price_card": 111932,
       "price_specs": {
-        "Transferencia / Efectivo": "$104.375",
-        "Webpay / Tarjeta": "$109.072"
+        "Transferencia / Efectivo": "$107.112",
+        "Webpay / Tarjeta": "$111.932"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 1204,
       "store_id": "centrale",
-      "price": 108410,
+      "price": 110550,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/zotac-tarjeta-de-video-geforce-gt-730-4-gb-ddr3-pcie-2-0-x16-perfil-bajo-dvi/",
       "store_name": "Centrale",
-      "price_card": 114373,
+      "price_card": 116630,
       "price_specs": {
-        "Transferencia / Efectivo": "$108.410",
-        "Tarjetas de Crédito / Débito": "$114.373"
+        "Transferencia / Efectivo": "$110.550",
+        "Tarjetas de Crédito / Débito": "$116.630"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -76,7 +76,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 104375
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 107112
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

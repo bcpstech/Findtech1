@@ -11,26 +11,26 @@
     "Capacidad": "10 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Efectivo/Transferencia": "$485.038",
-    "Tarjeta crédito/débito": "$506.865"
+    "Efectivo/Transferencia": "$497.869",
+    "Tarjeta crédito/débito": "$520.273"
   },
   "tags": [],
   "created_at": "2026-06-20 00:08:38",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 72109,
       "store_id": "spdigital",
-      "price": 485038,
-      "price_normal": 506830,
+      "price": 497869,
+      "price_normal": 520240,
       "discount_pct": 4,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/seagate-skyhawk-ai-st10000ve001-disco-duro-10-tb-interno-35-sata-6gbs-7200-rpm-bufe",
       "store_name": "SP Digital",
-      "price_card": 506865,
+      "price_card": 520273,
       "price_specs": {
-        "Transferencia / Efectivo": "$485.038",
-        "Webpay / Tarjeta": "$506.865"
+        "Transferencia / Efectivo": "$497.869",
+        "Webpay / Tarjeta": "$520.273"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -44,7 +44,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 485038
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 497869
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

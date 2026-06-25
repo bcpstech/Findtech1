@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:50",
-  "updated_at": "2026-06-20 00:43:27",
+  "updated_at": "2026-06-25 18:21:48",
   "prices": [
     {
       "product_id": 2292,
@@ -34,25 +34,6 @@
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 59740,
-      "store_id": "spdigital",
-      "price": 107786,
-      "price_normal": 133050,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/fuente-de-poder-corsair-rm850e-850w-full-modular-certificada-80-plus-gold-bajo-ruido-atx-3131",
-      "store_name": "SP Digital",
-      "price_card": 112636,
-      "price_specs": {
-        "Transferencia / Efectivo": "$107.786",
-        "Webpay / Tarjeta": "$112.636"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 61042,
@@ -92,7 +73,13 @@
       "store_name": "Dust2",
       "date": "2026-06-20",
       "price": 105990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-25",
+      "price": 105990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

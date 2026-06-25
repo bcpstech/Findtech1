@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-05-05 12:32:56",
-  "updated_at": "2026-06-20 00:19:54",
+  "updated_at": "2026-06-25 18:06:56",
   "prices": [
     {
       "product_id": 41312,
@@ -56,7 +56,13 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 99990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 99990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

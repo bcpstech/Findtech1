@@ -12,26 +12,26 @@
     "Tipo": "DDR4",
     "Velocidad": "3200 MHz",
     "Latencia": "CL20",
-    "Transferencia / Efectivo": "$309.250",
-    "Tarjeta crédito/débito": "$326.260"
+    "Transferencia / Efectivo": "$332.850",
+    "Tarjeta crédito/débito": "$351.160"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 1487,
       "store_id": "centrale",
-      "price": 309250,
+      "price": 332850,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-notebook-32gb-ddr4-3200mt-s-cl20-kingston-fury-impact/",
       "store_name": "Centrale",
-      "price_card": 326259,
+      "price_card": 351157,
       "price_specs": {
-        "Transferencia / Efectivo": "$309.250",
-        "Tarjetas de Crédito / Débito": "$326.259"
+        "Transferencia / Efectivo": "$332.850",
+        "Tarjetas de Crédito / Débito": "$351.157"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,7 +57,13 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 309250
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 332850
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

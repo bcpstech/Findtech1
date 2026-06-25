@@ -13,31 +13,50 @@
     "WiFi": "Integrado",
     "Factor de forma": "ATX",
     "Chipset": "AMD X870E",
-    "Efectivo/Transferencia": "$791.508",
-    "Tarjeta crédito/débito": "$827.126"
+    "Efectivo/Transferencia": "$773.926",
+    "Tarjeta crédito/débito": "$808.753"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:18",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 1401,
       "store_id": "centrale",
-      "price": 756350,
+      "price": 771910,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-crosshair-x870e-hero-socket-amd-am5-ddr5-wifi-7/",
       "store_name": "Centrale",
-      "price_card": 797949,
+      "price_card": 814365,
       "price_specs": {
-        "Transferencia / Efectivo": "$756.350",
-        "Tarjetas de Crédito / Débito": "$797.949"
+        "Transferencia / Efectivo": "$771.910",
+        "Tarjetas de Crédito / Débito": "$814.365"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9444,
+      "store_id": "spdigital",
+      "price": 773926,
+      "price_normal": 955820,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/asus-rog-motherboard-atx-socket-am5-amd-x870e-rog-crosshair-x870e-hero",
+      "store_name": "SP Digital",
+      "price_card": 808753,
+      "price_specs": {
+        "Transferencia / Efectivo": "$773.926",
+        "Webpay / Tarjeta": "$808.753"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 639,
@@ -57,25 +76,6 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
-    },
-    {
-      "product_id": 9444,
-      "store_id": "spdigital",
-      "price": 791508,
-      "price_normal": 931190,
-      "discount_pct": 15,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/asus-rog-motherboard-atx-socket-am5-amd-x870e-rog-crosshair-x870e-hero",
-      "store_name": "SP Digital",
-      "price_card": 827126,
-      "price_specs": {
-        "Transferencia / Efectivo": "$791.508",
-        "Webpay / Tarjeta": "$827.126"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 38894,
@@ -103,7 +103,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 791508
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 773926
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

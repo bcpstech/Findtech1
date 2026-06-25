@@ -22,8 +22,27 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:25",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
+    {
+      "product_id": 9,
+      "store_id": "n1g",
+      "price": 558900,
+      "price_normal": 588316,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/2532-intel-core-i9-14900k-14th-gen-24-core-8p16e-lga-1700-125w-intel-uhd-graphics-770-bx8071514900k.html",
+      "store_name": "N1G",
+      "price_card": 588522,
+      "price_specs": {
+        "Efectivo/Transferencia": "$558.900",
+        "Tarjeta crédito/débito": "$588.522"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
     {
       "product_id": 326,
       "store_id": "centrale",
@@ -81,7 +100,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 669995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 669995
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

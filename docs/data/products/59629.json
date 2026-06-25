@@ -14,50 +14,31 @@
     "Arquitectura": "RDNA 3",
     "Variante": "OC (Overclocked)",
     "Factor de forma": "Full-Height/Half-Length (FH/HL)",
-    "Efectivo/Transferencia": "$357.870",
-    "Tarjeta crédito/débito": "$373.974"
+    "Efectivo/Transferencia": "$367.389",
+    "Tarjeta crédito/débito": "$383.922"
   },
   "tags": [],
   "created_at": "2026-06-08 20:44:34",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 31852,
       "store_id": "winpy",
-      "price": 329536,
+      "price": 338048,
       "price_normal": null,
-      "discount_pct": 13,
+      "discount_pct": 10,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-dual-radeon-rx-7600-evo-edicion-oc-de-8gb-gddr6/",
       "store_name": "Winpy",
-      "price_card": 347001,
+      "price_card": 355965,
       "price_specs": {
-        "Transferencia o Depósito": "$329.536",
-        "Otros medios de pago": "$347.001"
+        "Transferencia o Depósito": "$338.048",
+        "Otros medios de pago": "$355.965"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 74817,
-      "store_id": "mybox",
-      "price": 336804,
-      "price_normal": 345440,
-      "discount_pct": 3,
-      "stock": "in_stock",
-      "product_url": "https://mybox.cl/inicio/6148-asus-dual-radeon-rx-7600-evo-oc-edition-8gb-gddr6-dual-rx7600-o8g-evo-.html",
-      "store_name": "MyBox",
-      "price_card": 346908,
-      "price_specs": {
-        "Efectivo/Transferencia": "$336.804",
-        "Tarjeta crédito/débito": "$346.908"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.mybox.cl",
-      "full_url": "https://www.mybox.cl"
     },
     {
       "product_id": 5653,
@@ -100,25 +81,6 @@
       "full_url": "https://www.spdigital.cl"
     },
     {
-      "product_id": 1248,
-      "store_id": "centrale",
-      "price": 357490,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-video-asus-dual-radeon-rx-7600-evo-oc-edition-8-gb-gddr6/",
-      "store_name": "Centrale",
-      "price_card": 377152,
-      "price_specs": {
-        "Transferencia / Efectivo": "$357.490",
-        "Tarjetas de Crédito / Débito": "$377.152"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
       "product_id": 23428,
       "store_id": "alltec",
       "price": 359900,
@@ -136,6 +98,25 @@
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 1248,
+      "store_id": "centrale",
+      "price": 364990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-video-asus-dual-radeon-rx-7600-evo-oc-edition-8-gb-gddr6/",
+      "store_name": "Centrale",
+      "price_card": 385064,
+      "price_specs": {
+        "Transferencia / Efectivo": "$364.990",
+        "Tarjetas de Crédito / Débito": "$385.064"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -156,7 +137,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 357870
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 367389
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

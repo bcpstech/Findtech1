@@ -12,12 +12,12 @@
     "Tipo memoria": "GDDR6",
     "Bus de memoria": "128-bit",
     "Factor de forma": "Full-Height/Half-Length (FH/HL)",
-    "Efectivo/Transferencia": "$391.870",
-    "Tarjeta crédito/débito": "$409.504"
+    "Efectivo/Transferencia": "$389.541",
+    "Tarjeta crédito/débito": "$407.070"
   },
   "tags": [],
   "created_at": "2026-06-20 00:08:58",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 56763,
@@ -41,16 +41,16 @@
     {
       "product_id": 56232,
       "store_id": "centrale",
-      "price": 357490,
+      "price": 364310,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-dual-geforce-rtx-5050-8gb-gddr6-oc-edition-2/",
       "store_name": "Centrale",
-      "price_card": 377152,
+      "price_card": 384347,
       "price_specs": {
-        "Transferencia / Efectivo": "$357.490",
-        "Tarjetas de Crédito / Débito": "$377.152"
+        "Transferencia / Efectivo": "$364.310",
+        "Tarjetas de Crédito / Débito": "$384.347"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,16 +60,16 @@
     {
       "product_id": 72155,
       "store_id": "spdigital",
-      "price": 391870,
-      "price_normal": 468630,
-      "discount_pct": 16,
+      "price": 389541,
+      "price_normal": 481030,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarj-video-pci-exp-8gb-gddr6-rtx-5050-dual-oc-dual-rtx5050-08g",
       "store_name": "SP Digital",
-      "price_card": 409504,
+      "price_card": 407070,
       "price_specs": {
-        "Transferencia / Efectivo": "$391.870",
-        "Webpay / Tarjeta": "$409.504"
+        "Transferencia / Efectivo": "$389.541",
+        "Webpay / Tarjeta": "$407.070"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -83,7 +83,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 391870
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 389541
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

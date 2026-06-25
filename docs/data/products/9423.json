@@ -18,12 +18,12 @@
     "Incluye cooler": "No",
     "Caché L3": "24 MB",
     "Memoria soportada": "DDR5-SDRAM",
-    "Efectivo/Transferencia": "$244.481",
-    "Tarjeta crédito/débito": "$255.483"
+    "Efectivo/Transferencia": "$250.914",
+    "Tarjeta crédito/débito": "$262.205"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:05",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 318,
@@ -66,16 +66,16 @@
     {
       "product_id": 9423,
       "store_id": "spdigital",
-      "price": 244481,
-      "price_normal": 301870,
+      "price": 250914,
+      "price_normal": 309850,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-intel-core-ultra-5-245kf-cache-de-24-m-hasta-520-ghz-socket-lga1851-125w-sin-video",
       "store_name": "SP Digital",
-      "price_card": 255483,
+      "price_card": 262205,
       "price_specs": {
-        "Transferencia / Efectivo": "$244.481",
-        "Webpay / Tarjeta": "$255.483"
+        "Transferencia / Efectivo": "$250.914",
+        "Webpay / Tarjeta": "$262.205"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -101,7 +101,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 244481
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 250914
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

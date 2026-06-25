@@ -13,26 +13,26 @@
     "Velocidad": "3200 MHz",
     "Latencia": "CL22",
     "Tipo de memoria": "DDR4",
-    "Efectivo/Transferencia": "$183.180",
-    "Tarjeta crédito/débito": "$191.423"
+    "Efectivo/Transferencia": "$168.193",
+    "Tarjeta crédito/débito": "$175.762"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:44",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 1490,
       "store_id": "centrale",
-      "price": 162780,
+      "price": 166460,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr4-3200mt-s-cl22-kingston-16gbit-dimm/",
       "store_name": "Centrale",
-      "price_card": 171733,
+      "price_card": 175615,
       "price_specs": {
-        "Transferencia / Efectivo": "$162.780",
-        "Tarjetas de Crédito / Débito": "$171.733"
+        "Transferencia / Efectivo": "$166.460",
+        "Tarjetas de Crédito / Débito": "$175.615"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,16 +42,16 @@
     {
       "product_id": 9490,
       "store_id": "spdigital",
-      "price": 183180,
-      "price_normal": 202370,
-      "discount_pct": 9,
+      "price": 168193,
+      "price_normal": 207720,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/memoria-ram-ddr4-16gb-3200mhz-kingston-dimm-non-ecc-cl22-12v",
       "store_name": "SP Digital",
-      "price_card": 191423,
+      "price_card": 175762,
       "price_specs": {
-        "Transferencia / Efectivo": "$183.180",
-        "Webpay / Tarjeta": "$191.423"
+        "Transferencia / Efectivo": "$168.193",
+        "Webpay / Tarjeta": "$175.762"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -65,7 +65,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 183180
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 168193
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

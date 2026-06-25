@@ -10,26 +10,26 @@
   "specs": {
     "Capacidad": "8 GB",
     "Velocidad": "1600 MHz",
-    "Transferencia / Efectivo": "$89.490",
-    "Tarjeta crédito/débito": "$94.410"
+    "Transferencia / Efectivo": "$95.630",
+    "Tarjeta crédito/débito": "$100.890"
   },
   "tags": [],
   "created_at": "2026-05-08 22:40:12",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 56491,
       "store_id": "centrale",
-      "price": 89490,
+      "price": 95630,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-kingston-valueram-8gb-ddr3-1600mhz-so-dimm-204-pin-portatil/",
       "store_name": "Centrale",
-      "price_card": 94412,
+      "price_card": 100890,
       "price_specs": {
-        "Transferencia / Efectivo": "$89.490",
-        "Tarjetas de Crédito / Débito": "$94.412"
+        "Transferencia / Efectivo": "$95.630",
+        "Tarjetas de Crédito / Débito": "$100.890"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,7 +55,13 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 89490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 95630
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

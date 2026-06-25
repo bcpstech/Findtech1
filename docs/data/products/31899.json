@@ -17,12 +17,12 @@
     "Caché L3": "25 MB",
     "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$348.369",
-    "Tarjeta crédito/débito": "$364.046"
+    "Efectivo/Transferencia": "$357.539",
+    "Tarjeta crédito/débito": "$373.628"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:33",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 31899,
@@ -46,16 +46,16 @@
     {
       "product_id": 315,
       "store_id": "centrale",
-      "price": 342060,
+      "price": 348840,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-12700kf-3-6ghz-lga-1700/",
       "store_name": "Centrale",
-      "price_card": 360873,
+      "price_card": 368026,
       "price_specs": {
-        "Transferencia / Efectivo": "$342.060",
-        "Tarjetas de Crédito / Débito": "$360.873"
+        "Transferencia / Efectivo": "$348.840",
+        "Tarjetas de Crédito / Débito": "$368.026"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -65,16 +65,16 @@
     {
       "product_id": 9421,
       "store_id": "spdigital",
-      "price": 348369,
-      "price_normal": 430190,
+      "price": 357539,
+      "price_normal": 441570,
       "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-intel-core-i7-12700kf-12o-gen-36ghz-hasta-5ghz-socket-lga1700-sin-gráficas",
       "store_name": "SP Digital",
-      "price_card": 364046,
+      "price_card": 373628,
       "price_specs": {
-        "Transferencia / Efectivo": "$348.369",
-        "Webpay / Tarjeta": "$364.046"
+        "Transferencia / Efectivo": "$357.539",
+        "Webpay / Tarjeta": "$373.628"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -100,7 +100,13 @@
       "store_name": "Winpy",
       "date": "2026-06-20",
       "price": 334400
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 334400
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

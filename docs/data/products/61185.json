@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:59:41",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 61185,
@@ -39,61 +39,42 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 71354,
-      "store_id": "bcpstech",
-      "price": 120990,
-      "price_normal": 135990,
-      "discount_pct": 11,
-      "stock": "in_stock",
-      "product_url": "https://bcpstech.cl/?p=1000",
-      "store_name": "BCPS Tech",
-      "price_card": 124620,
-      "price_specs": {
-        "Efectivo/Transferencia": "$120.990",
-        "Tarjeta crédito/débito": "$124.620"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.bcpstech.cl",
-      "full_url": "https://bcpstech.cl"
-    },
-    {
-      "product_id": 59533,
-      "store_id": "spdigital",
-      "price": 122484,
-      "price_normal": 151200,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/msi-mb-pro-h810m-b",
-      "store_name": "SP Digital",
-      "price_card": 127996,
-      "price_specs": {
-        "Transferencia / Efectivo": "$122.484",
-        "Webpay / Tarjeta": "$127.996"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
       "product_id": 1369,
       "store_id": "centrale",
-      "price": 122700,
+      "price": 125120,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-h810m-b-micro-atx-lga-1851-ddr5/",
       "store_name": "Centrale",
-      "price_card": 129448,
+      "price_card": 132002,
       "price_specs": {
-        "Transferencia / Efectivo": "$122.700",
-        "Tarjetas de Crédito / Débito": "$129.448"
+        "Transferencia / Efectivo": "$125.120",
+        "Tarjetas de Crédito / Débito": "$132.002"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 59533,
+      "store_id": "spdigital",
+      "price": 125701,
+      "price_normal": 155200,
+      "discount_pct": 19,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/msi-mb-pro-h810m-b",
+      "store_name": "SP Digital",
+      "price_card": 131358,
+      "price_specs": {
+        "Transferencia / Efectivo": "$125.701",
+        "Webpay / Tarjeta": "$131.358"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 23543,
@@ -152,7 +133,13 @@
       "store_name": "Winpy",
       "date": "2026-06-20",
       "price": 119776
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 119776
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }

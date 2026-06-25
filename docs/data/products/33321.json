@@ -14,12 +14,12 @@
     "Latencia": "CL16",
     "Iluminación": "RGB",
     "Tipo de memoria": "DDR4",
-    "Efectivo/Transferencia": "$141.980",
-    "Tarjeta crédito/débito": "$148.369"
+    "Efectivo/Transferencia": "$329.990",
+    "Tarjeta crédito/débito": "$344.840"
   },
   "tags": [],
   "created_at": "2026-05-04 02:48:42",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-25 18:46:02",
   "prices": [
     {
       "product_id": 33321,
@@ -39,44 +39,6 @@
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
-    },
-    {
-      "product_id": 60056,
-      "store_id": "myshop",
-      "price": 72990,
-      "price_normal": 77004,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/dimm-8-gb-xpg-spectrix-d35-ax4u32008g16a-sbkd35-1-x-8-gb--dimm-ddr4-3200-p22896",
-      "store_name": "MyShop",
-      "price_card": 75180,
-      "price_specs": {
-        "Efectivo/Transferencia": "$72.990",
-        "Tarjeta crédito/débito": "$75.180"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.myshop.cl",
-      "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 60056,
-      "store_id": "bcpstech",
-      "price": 72990,
-      "price_normal": 79990,
-      "discount_pct": 9,
-      "stock": "in_stock",
-      "product_url": "https://bcpstech.cl/?p=765",
-      "store_name": "BCPS Tech",
-      "price_card": 75180,
-      "price_specs": {
-        "Efectivo/Transferencia": "$72.990",
-        "Tarjeta crédito/débito": "$75.180"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.bcpstech.cl",
-      "full_url": "https://bcpstech.cl"
     },
     {
       "product_id": 1468,
@@ -117,18 +79,18 @@
       "full_url": "https://www.dust2.gg"
     },
     {
-      "product_id": 59552,
+      "product_id": 9500,
       "store_id": "spdigital",
-      "price": 88613,
-      "price_normal": 109430,
+      "price": 100088,
+      "price_normal": 123550,
       "discount_pct": 19,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/memoria-ram-xpg-spectrix-d35g-rgb-ddr4-3200mhz-8gb",
+      "product_url": "https://www.spdigital.cl/a-data-ddr4-sdram-3200-mhz-unbuffered-non-ecc-gammix-d35",
       "store_name": "SP Digital",
-      "price_card": 92601,
+      "price_card": 104592,
       "price_specs": {
-        "Transferencia / Efectivo": "$88.613",
-        "Webpay / Tarjeta": "$92.601"
+        "Transferencia / Efectivo": "$100.088",
+        "Webpay / Tarjeta": "$104.592"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -154,7 +116,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-20",
       "price": 69900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-25",
+      "price": 69900
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-25"
 }
