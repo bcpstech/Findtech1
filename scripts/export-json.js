@@ -76,6 +76,15 @@ function extractModelNumber(name) {
              || n.match(/\b(SN\d{3}[XP]?)\b/);
   if (moboM) return moboM[1].toLowerCase();
 
+  // Monitor patterns
+  const monitorM = n.match(/\b(\d{2,3}(?:\.\d)?)\s*(?:PULGADAS|INCH|")\b/)
+                || n.match(/\b([A-Z]{2,4}\d{4,6}[A-Z]*)\b/);
+  if (monitorM) return 'mon_' + monitorM[1].toLowerCase().replace(/\s+/g,'');
+
+  // Periféricos — por SKU/modelo si tiene patrón alfanumérico
+  const periphM = n.match(/\b([A-Z]{2,4}[\s-]?\d{3,6}[A-Z0-9]*)\b/);
+  if (periphM) return 'periph_' + periphM[1].toLowerCase().replace(/[\s-]/g,'');
+
   return null;
 }
 
@@ -251,8 +260,11 @@ write(path.join(OUT_DIR, 'stores.json'), stores);
 const latestDate = db.prepare('SELECT MAX(date(scraped_at)) as d FROM prices').get()?.d;
 
 // ── 4. Precios in_stock de hoy ────────────────────────────────────────────
+const hasPriceCard = db.prepare("PRAGMA table_info(prices)").all().some(c => c.name === 'price_card');
+const priceCardCol = hasPriceCard ? 'p.price_card,' : '';
+
 const todayPrices = db.prepare(`
-  SELECT p.product_id, p.store_id, p.price, p.price_normal,
+  SELECT p.product_id, p.store_id, p.price, ${priceCardCol} p.price_normal,
          p.discount_pct, p.stock, p.product_url, s.name as store_name
   FROM prices p
   JOIN stores s ON s.id = p.store_id
@@ -370,6 +382,12 @@ for (const { product: p, prices, group } of mergedProducts) {
       'progaming':  { cash: 'Efectivo/Transferencia',   card: 'Tarjeta crédito/débito' },
       'megabytes':  { cash: 'Efectivo/Transferencia',   card: 'Tarjeta crédito/débito' },
       'bcpstech':   { cash: 'Efectivo/Transferencia',   card: 'Tarjeta crédito/débito' },
+      'mybox':      { cash: 'Efectivo/Transferencia',   card: 'Tarjeta crédito/débito' },
+      'sandos':     { cash: 'Efectivo/Transferencia',   card: 'Tarjeta crédito/débito' },
+      'sipo':       { cash: 'Efectivo/Transferencia',   card: 'Tarjeta crédito/débito' },
+      'tytgamer':   { cash: 'Efectivo/Transferencia',   card: 'Tarjeta crédito/débito' },
+      'megadrive':  { cash: 'Efectivo/Transferencia',   card: 'Tarjeta crédito/débito' },
+      'infor-ingen':{ cash: 'Efectivo / Transferencia', card: 'Tarjeta crédito/débito' },
     };
     const CARD_FACTORS = {
       'spdigital': 1.045, 'cg': 1.0526, 'centralgamer': 1.0526,
