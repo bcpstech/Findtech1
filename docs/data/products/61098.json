@@ -10,14 +10,13 @@
   "specs": {
     "VRAM": "8 GB",
     "Tipo memoria": "GDDR7",
-    "Variante": "OC (Overclocked)",
-    "Factor de forma": "Full-Height/Half-Length (FH/HL)",
-    "Efectivo/Transferencia": "$454.995",
-    "Tarjeta crédito/débito": "$475.470"
+    "Bus de memoria": "128-bit",
+    "Transferencia / Efectivo": "$462.470",
+    "Tarjeta crédito/débito": "$487.910"
   },
   "tags": [],
   "created_at": "2026-06-08 20:59:16",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 61098,
@@ -75,25 +74,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 59607,
-      "store_id": "spdigital",
-      "price": 454995,
-      "price_normal": 599990,
-      "discount_pct": 24,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-msi-nvidia-geforce-rtx-5060-ventus-2x-oc-white-8gb-gddr7-pcie-50",
-      "store_name": "SP Digital",
-      "price_card": 475470,
-      "price_specs": {
-        "Transferencia / Efectivo": "$454.995",
-        "Webpay / Tarjeta": "$475.470"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -120,7 +100,13 @@
       "store_name": "Winpy",
       "date": "2026-06-25",
       "price": 415872
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 415872
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:48:13",
-  "updated_at": "2026-06-25 18:22:32",
+  "updated_at": "2026-06-26 00:17:45",
   "prices": [
     {
       "product_id": 2395,
@@ -34,25 +34,6 @@
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 9770,
-      "store_id": "spdigital",
-      "price": 244986,
-      "price_normal": 244990,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/be-quiet-bgw70",
-      "store_name": "SP Digital",
-      "price_card": 256010,
-      "price_specs": {
-        "Transferencia / Efectivo": "$244.986",
-        "Webpay / Tarjeta": "$256.010"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -79,7 +60,13 @@
       "store_name": "Dust2",
       "date": "2026-06-25",
       "price": 199990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-26",
+      "price": 199990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

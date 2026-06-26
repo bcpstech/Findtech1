@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:48:06",
-  "updated_at": "2026-06-25 18:22:29",
+  "updated_at": "2026-06-26 00:17:40",
   "prices": [
     {
       "product_id": 2386,
@@ -34,6 +34,25 @@
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 19874,
+      "store_id": "bcpstech",
+      "price": 50990,
+      "price_normal": 59990,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=1573",
+      "store_name": "BCPS Tech",
+      "price_card": 52520,
+      "price_specs": {
+        "Efectivo/Transferencia": "$50.990",
+        "Tarjeta crédito/débito": "$52.520"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
     }
   ],
   "history": [
@@ -60,7 +79,13 @@
       "store_name": "Dust2",
       "date": "2026-06-25",
       "price": 48990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-26",
+      "price": 48990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

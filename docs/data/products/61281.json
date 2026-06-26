@@ -18,8 +18,27 @@
   },
   "tags": [],
   "created_at": "2026-06-08 21:01:35",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
+    {
+      "product_id": 56177,
+      "store_id": "centrale",
+      "price": 3990000,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-gigabyte-aorus-geforce-rtx-5090-master-32gb-gddr7-512-bit/",
+      "store_name": "Centrale",
+      "price_card": 4209450,
+      "price_specs": {
+        "Transferencia / Efectivo": "$3.990.000",
+        "Tarjetas de Crédito / Débito": "$4.209.450"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
     {
       "product_id": 61281,
       "store_id": "dust2",
@@ -38,25 +57,6 @@
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 56177,
-      "store_id": "centrale",
-      "price": 4230000,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-gigabyte-aorus-geforce-rtx-5090-master-32gb-gddr7-512-bit/",
-      "store_name": "Centrale",
-      "price_card": 4462650,
-      "price_specs": {
-        "Transferencia / Efectivo": "$4.230.000",
-        "Tarjetas de Crédito / Débito": "$4.462.650"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -65,7 +65,25 @@
       "store_name": "Dust2",
       "date": "2026-06-09",
       "price": 4228990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-20",
+      "price": 4228990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-25",
+      "price": 4228990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-26",
+      "price": 4228990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-26"
 }

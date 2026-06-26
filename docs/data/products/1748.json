@@ -5,29 +5,29 @@
   "brand": "MSI",
   "name": "Gabinete Corporativo MSI PRO SHIELD M100P (Micro ATX, Mini ITX, 4 USB Frontales)",
   "slug": "gabinete-corporativo-msi-pro-shield-m100p-micro-atx-mini-itx-4-usb-frontales",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Corporativo-MSI-PRO-SHIELD-M100P-Micro-ATX-Mini-ITX-4-USB-Frontales-1.webp",
+  "image_url": "https://images.findtech.cl/products/gabinete-corporativo-msi-pro-shield-m100p-micro-atx-mini-itx-4-usb-frontales.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$30.890",
-    "Tarjeta crédito/débito": "$32.590"
+    "Transferencia / Efectivo": "$30.440",
+    "Tarjeta crédito/débito": "$32.110"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-05-08 22:48:51",
+  "updated_at": "2026-06-26 00:07:52",
   "prices": [
     {
       "product_id": 1748,
       "store_id": "centrale",
-      "price": 30890,
-      "price_card": 32589,
+      "price": 30440,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-corporativo-msi-pro-shield-m100p-micro-atx-mini-itx-4-usb-frontales/",
       "store_name": "Centrale",
+      "price_card": 32114,
       "price_specs": {
-        "Transferencia / Efectivo": "$30.890",
-        "Tarjetas de Crédito / Débito": "$32.589"
+        "Transferencia / Efectivo": "$30.440",
+        "Tarjetas de Crédito / Débito": "$32.114"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -35,6 +35,37 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 28190
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 28190
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 28210
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 30440
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 30440
+    }
+  ],
+  "scraped_at": "2026-06-26"
 }

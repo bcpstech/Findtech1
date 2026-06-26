@@ -8,90 +8,31 @@
   "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-gigabyte-gaming-360-ice-argb-lga-1851-1700-am4-am5.webp",
   "description": null,
   "specs": {
-    "Marca": "Gigabyte",
-    "Modelo": "GAMING 360 ARGB Negro",
-    "Efectivo / Transferencia": "$81.990",
-    "Tarjeta crédito/débito": "$84.450"
+    "Transferencia / Efectivo": "$89.890",
+    "Tarjeta crédito/débito": "$94.830"
   },
   "tags": [],
   "created_at": "2026-06-08 20:58:20",
-  "updated_at": "2026-06-25 18:14:24",
+  "updated_at": "2026-06-26 00:06:17",
   "prices": [
     {
       "product_id": 60930,
       "store_id": "centrale",
-      "price": 80480,
+      "price": 89890,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-gigabyte-gaming-360-ice-argb-lga-1851-1700-am4-am5/",
       "store_name": "Centrale",
-      "price_card": 84906,
+      "price_card": 94834,
       "price_specs": {
-        "Transferencia / Efectivo": "$80.480",
-        "Tarjetas de Crédito / Débito": "$84.906"
+        "Transferencia / Efectivo": "$89.890",
+        "Tarjetas de Crédito / Débito": "$94.834"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 1783,
-      "store_id": "progaming",
-      "price": 81990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-gigabyte-gaming-360-argb-negro/",
-      "store_name": "ProGaming",
-      "price_card": 84450,
-      "price_specs": {
-        "Efectivo/Transferencia": "$81.990",
-        "Tarjeta crédito/débito": "$84.450"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.progaming.cl",
-      "full_url": "https://www.progaming.cl"
-    },
-    {
-      "product_id": 9657,
-      "store_id": "spdigital",
-      "price": 84995,
-      "price_normal": 119990,
-      "discount_pct": 29,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/refrigeracion-liquida-gigabyte-gaming-360-360mm-argb-color-negro",
-      "store_name": "SP Digital",
-      "price_card": 88820,
-      "price_specs": {
-        "Transferencia / Efectivo": "$84.995",
-        "Webpay / Tarjeta": "$88.820"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 38940,
-      "store_id": "mybox",
-      "price": 91191,
-      "price_normal": 95990,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://mybox.cl/enfriamiento-refrigeracion/6077-refrigeracion-liquida-gigabyte-gaming-360-black-4719331555337.html",
-      "store_name": "MyBox",
-      "price_card": 93927,
-      "price_specs": {
-        "Efectivo/Transferencia": "$91.191",
-        "Tarjeta crédito/débito": "$93.927"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.mybox.cl",
-      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -118,7 +59,13 @@
       "store_name": "Centrale",
       "date": "2026-06-25",
       "price": 80480
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 89890
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

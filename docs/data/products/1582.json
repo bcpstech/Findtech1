@@ -5,28 +5,33 @@
   "brand": "Crucial",
   "name": "Disco SSD 4TB Crucial P3 NVMe PCIe 3.0 M.2 2280",
   "slug": "disco-ssd-4tb-crucial-p3-nvme-pcie-3-0-m-2-2280",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-4TB-Crucial-P3-NVMe-PCIe-3.0-M.2-2280_Msvyuti-1.webp",
+  "image_url": "https://images.findtech.cl/products/disco-ssd-4tb-crucial-p3-nvme-pcie-3-0-m-2-2280.webp",
   "description": null,
   "specs": {
     "Capacidad": "4 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Transferencia / Efectivo": "$467.890",
-    "Tarjetas de Crédito / Débito": "$493.620"
+    "Transferencia / Efectivo": "$936.850",
+    "Tarjeta crédito/débito": "$988.380"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 1582,
       "store_id": "centrale",
-      "price": 467890,
+      "price": 442200,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-4tb-crucial-p3-nvme-pcie-3-0-m-2-2280/",
       "store_name": "Centrale",
+      "price_card": 466521,
+      "price_specs": {
+        "Transferencia / Efectivo": "$442.200",
+        "Tarjetas de Crédito / Débito": "$466.521"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -37,15 +42,33 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 467890
+      "date": "2026-06-08",
+      "price": 442190
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 467890
+      "date": "2026-06-09",
+      "price": 442190
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 442200
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 442200
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 442200
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-26"
 }

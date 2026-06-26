@@ -17,21 +17,40 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:23:12",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
-      "product_id": 31947,
-      "store_id": "winpy",
-      "price": 119776,
+      "product_id": 1411,
+      "store_id": "centrale",
+      "price": 72370,
       "price_normal": null,
-      "discount_pct": 32,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/placa-madre-gigabyte-b760m-d3hp-wifi6-lga1700-ddr5-4400-7600mhz-m-2-micro-atx/",
-      "store_name": "Winpy",
-      "price_card": 126124,
+      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-gigabyte-h610m-k-ddr4-intel-lga1700-ddr4-hdmi/",
+      "store_name": "Centrale",
+      "price_card": 76350,
       "price_specs": {
-        "Transferencia o Depósito": "$119.776",
-        "Otros medios de pago": "$126.124"
+        "Transferencia / Efectivo": "$72.370",
+        "Tarjetas de Crédito / Débito": "$76.350"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 31931,
+      "store_id": "winpy",
+      "price": 83296,
+      "price_normal": null,
+      "discount_pct": 18,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/placa-madre-gigabyte-h610m-k-v2-lga1700-ddr5-4400-5600mhz-m-2-micro-atx/",
+      "store_name": "Winpy",
+      "price_card": 87711,
+      "price_specs": {
+        "Transferencia o Depósito": "$83.296",
+        "Otros medios de pago": "$87.711"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,7 +82,13 @@
       "store_name": "Winpy",
       "date": "2026-06-25",
       "price": 119776
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 119776
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

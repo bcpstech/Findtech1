@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/gabinete-corporativo-micro-atx-clio-slim-cl-s605.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$53.280",
-    "Tarjeta crédito/débito": "$56.210"
+    "Transferencia / Efectivo": "$45.400",
+    "Tarjeta crédito/débito": "$47.900"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-06-09 03:05:59",
+  "updated_at": "2026-06-26 00:08:02",
   "prices": [
     {
       "product_id": 1760,
       "store_id": "centrale",
-      "price": 53280,
+      "price": 45400,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-corporativo-micro-atx-clio-slim-cl-s605/",
       "store_name": "Centrale",
-      "price_card": 56210,
+      "price_card": 47897,
       "price_specs": {
-        "Transferencia / Efectivo": "$53.280",
-        "Tarjetas de Crédito / Débito": "$56.210"
+        "Transferencia / Efectivo": "$45.400",
+        "Tarjetas de Crédito / Débito": "$47.897"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -47,7 +47,25 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 53280
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 52830
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 45400
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 45400
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-26"
 }

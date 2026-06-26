@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:41:46",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 32932,
@@ -30,7 +30,7 @@
       "store_name": "Infor-Ingen",
       "price_card": 648797,
       "price_specs": {
-        "Efectivo/Transferencia": "$629.900",
+        "Efectivo / Transferencia": "$629.900",
         "Tarjeta crédito/débito": "$648.797"
       },
       "store_rating": 0,
@@ -56,27 +56,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 2628,
-      "store_id": "trulustore",
-      "price": 699990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/procesador-amd-ryzen-9-9950x-am5-16c-32t/",
-      "store_name": "TruluStore",
-      "price_card": 720990,
-      "khipu_price": 713990,
-      "price_specs": {
-        "Efectivo / Transferencia": "$699.990",
-        "Khipu": "$713.990",
-        "Tarjeta crédito/débito": "$720.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -103,7 +82,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-25",
       "price": 629900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-26",
+      "price": 629900
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

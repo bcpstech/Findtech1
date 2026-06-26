@@ -9,53 +9,33 @@
   "description": null,
   "specs": {
     "Socket": "AM5",
-    "Factor de forma": "ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Efectivo/Transferencia": "$789.000",
-    "Tarjeta crédito/débito": "$812.670"
+    "Transferencia / Efectivo": "$771.910",
+    "Tarjeta crédito/débito": "$814.370"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 1401,
       "store_id": "centrale",
-      "price": 788990,
+      "price": 771910,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-crosshair-x870e-hero-socket-amd-am5-ddr5-wifi-7/",
       "store_name": "Centrale",
-      "price_card": 832384,
+      "price_card": 814365,
       "price_specs": {
-        "Transferencia / Efectivo": "$788.990",
-        "Tarjetas de Crédito / Débito": "$832.384"
+        "Transferencia / Efectivo": "$771.910",
+        "Tarjetas de Crédito / Débito": "$814.365"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 639,
-      "store_id": "n1g",
-      "price": 789000,
-      "price_normal": 830526,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2906-rog-crosshair-x870e-hero-am5-atx-pcie-50-ddr5-wifi-7-ai-usb4-y-usb-type-c.html",
-      "store_name": "N1G",
-      "price_card": 830817,
-      "price_specs": {
-        "Efectivo/Transferencia": "$789.000",
-        "Tarjeta crédito/débito": "$830.817"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
     },
     {
       "product_id": 38894,
@@ -89,7 +69,25 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 788990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 756350
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 771910
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 771910
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-26"
 }

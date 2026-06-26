@@ -12,97 +12,102 @@
     "Frecuencia turbo": "5.0 GHz",
     "Generación": "AMD Zen 5 (4nm)",
     "Marca": "AMD",
-    "Transferencia/Efectivo": "$145.620",
-    "Webpay / Tarjeta crédito-débito": "$149.990"
+    "Efectivo / Transferencia": "$149.990",
+    "Tarjeta crédito/débito": "$154.490"
   },
   "tags": [],
   "created_at": "2026-04-26 20:42:02",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 1923,
       "store_id": "dust2",
-      "price": 145620,
+      "price": 149990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-5-8500g-3-5ghz-hasta-5-0ghz-6-core/",
       "store_name": "Dust2",
+      "price_card": 154490,
+      "price_specs": {
+        "Efectivo/Transferencia": "$149.990",
+        "Tarjeta crédito/débito": "$154.490"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
     },
     {
-      "product_id": 1148,
-      "store_id": "cg",
-      "price": 148190,
+      "product_id": 31881,
+      "store_id": "winpy",
+      "price": 154432,
       "price_normal": null,
-      "discount_pct": null,
+      "discount_pct": 29,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-8500g/",
-      "store_name": "CentralGamer",
+      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-8500g-am5-6-cores-12-hilos-3-5-5-0ghz-16mb-de-cache/",
+      "store_name": "Winpy",
+      "price_card": 162617,
+      "price_specs": {
+        "Transferencia o Depósito": "$154.432",
+        "Otros medios de pago": "$162.617"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     },
     {
       "product_id": 285,
       "store_id": "centrale",
-      "price": 159580,
+      "price": 159590,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-8500g-3-5-a-5-00ghz-6-nucleos-12-hilos-socket-am5/",
       "store_name": "Centrale",
+      "price_card": 168367,
+      "price_specs": {
+        "Transferencia / Efectivo": "$159.590",
+        "Tarjetas de Crédito / Débito": "$168.367"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 925,
-      "store_id": "alltec",
-      "price": 159900,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/amd/2199-amd-ryzen-5-8500g-35ghz-50ghz-turbo-six-core-tdp-65w-am5-amd-radeon-740m-graphics.html",
-      "store_name": "Alltec",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
-    },
-    {
-      "product_id": 28,
-      "store_id": "n1g",
-      "price": 185900,
-      "price_normal": 195684,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2613-amd-ryzen-5-8500g-6-nucleos-y-12-hilos-socket-am5-procesador-de-escritorio-.html",
-      "store_name": "N1G",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
       "store_id": "dust2",
       "store_name": "Dust2",
-      "date": "2026-04-26",
-      "price": 145620
+      "date": "2026-06-08",
+      "price": 149990
     },
     {
       "store_id": "dust2",
       "store_name": "Dust2",
-      "date": "2026-04-27",
-      "price": 145620
+      "date": "2026-06-09",
+      "price": 149990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-20",
+      "price": 149990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-25",
+      "price": 149990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-26",
+      "price": 149990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-26"
 }

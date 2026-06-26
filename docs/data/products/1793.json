@@ -15,21 +15,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:12",
-  "updated_at": "2026-06-25 18:24:35",
+  "updated_at": "2026-06-26 00:20:36",
   "prices": [
     {
       "product_id": 1636,
       "store_id": "centrale",
-      "price": 64830,
+      "price": 61490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-msi-mag-coreliquid-a13-240-blanco-argb/",
       "store_name": "Centrale",
-      "price_card": 68396,
+      "price_card": 64872,
       "price_specs": {
-        "Transferencia / Efectivo": "$64.830",
-        "Tarjetas de Crédito / Débito": "$68.396"
+        "Transferencia / Efectivo": "$61.490",
+        "Tarjetas de Crédito / Débito": "$64.872"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -80,7 +80,13 @@
       "store_name": "ProGaming",
       "date": "2026-06-25",
       "price": 74990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-06-26",
+      "price": 74990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

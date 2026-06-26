@@ -5,65 +5,86 @@
   "brand": "Cooler Master",
   "name": "Cooler Master Gabinete Qube 500 Flatpack Atx, Vidrio Templado, Macaron Edition",
   "slug": "cooler-master-gabinete-qube-500-flatpack-atx-vidrio-templado-macaron-edition",
-  "image_url": "https://centrale.cl/wp-content/uploads/Cooler-Master-Gabinete-Qube-500-Flatpack-Atx-Vidrio-Templado-Macaron-Edition-2.webp",
+  "image_url": "https://images.findtech.cl/products/cooler-master-gabinete-qube-500-flatpack-atx-vidrio-templado-macaron-edition.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$101.270",
-    "Tarjeta crédito/débito": "$106.840"
+    "Transferencia / Efectivo": "$68.890",
+    "Tarjeta crédito/débito": "$72.680"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-05-04 01:19:13",
+  "updated_at": "2026-06-26 00:07:55",
   "prices": [
     {
       "product_id": 1754,
       "store_id": "centrale",
-      "price": 101270,
+      "price": 68890,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/cooler-master-gabinete-qube-500-flatpack-atx-vidrio-templado-macaron-edition/",
       "store_name": "Centrale",
+      "price_card": 72679,
       "price_specs": {
-        "Transferencia / Efectivo": "$101.270"
+        "Transferencia / Efectivo": "$68.890",
+        "Tarjetas de Crédito / Débito": "$72.679"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 33913,
+      "store_id": "infor-ingen",
+      "price": 89900,
+      "price_normal": 95294,
+      "discount_pct": 6,
+      "stock": "in_stock",
+      "product_url": "https://store.infor-ingen.com/producto/gabinete-cooler-master-qube-500-flatpack-black/",
+      "store_name": "Infor-Ingen",
+      "price_card": 92597,
+      "price_specs": {
+        "Efectivo / Transferencia": "$89.900",
+        "Tarjeta crédito/débito": "$92.597"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 91430
+      "date": "2026-06-08",
+      "price": 76260
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 91310
+      "date": "2026-06-09",
+      "price": 76260
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-05-01",
-      "price": 1013
+      "date": "2026-06-20",
+      "price": 74720
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-05-03",
-      "price": 101270
+      "date": "2026-06-25",
+      "price": 68890
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-05-04",
-      "price": 101270
+      "date": "2026-06-26",
+      "price": 68890
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-06-26"
 }

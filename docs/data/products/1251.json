@@ -5,75 +5,72 @@
   "brand": "Asus",
   "name": "Tarjeta Gráfica ASUS TUF Gaming GeForce RTX 5080 OC Edition 16GB GDDR7",
   "slug": "tarjeta-grafica-asus-tuf-gaming-geforce-rtx-5080-oc-edition-16gb-gddr7",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-ASUS-TUF-Gaming-GeForce-RTX-5080-OC-Edition-16GB-GDDR7-1.webp",
+  "image_url": "https://images.findtech.cl/products/tarjeta-grafica-asus-tuf-gaming-geforce-rtx-5080-oc-edition-16gb-gddr7.webp",
   "description": null,
   "specs": {
     "VRAM": "16 GB",
     "Tipo memoria": "GDDR7",
+    "Bus de memoria": "256-bit",
+    "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$1.899.980",
-    "Tarjetas de Crédito / Débito": "$2.004.480"
+    "Transferencia / Efectivo": "$1.936.450",
+    "Tarjeta crédito/débito": "$2.042.950"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 1251,
       "store_id": "centrale",
-      "price": 1899980,
+      "price": 1936450,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-tuf-gaming-geforce-rtx-5080-oc-edition-16gb-gddr7/",
       "store_name": "Centrale",
+      "price_card": 2042955,
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.936.450",
+        "Tarjetas de Crédito / Débito": "$2.042.955"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 1804,
-      "store_id": "dust2",
-      "price": 2089310,
-      "price_normal": 2155330,
-      "discount_pct": 3,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/tarjeta-de-video-asus-geforce-rtx-5080-16gb-gddr7-noctua-oc/",
-      "store_name": "Dust2",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 1134,
-      "store_id": "cg",
-      "price": 2251560,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/tarjetas-de-video/tarjeta-de-video-rog-astral-geforce-rtx-5080-16-gb-gddr7-edicion-oc/",
-      "store_name": "CentralGamer",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 1903130
+      "date": "2026-06-08",
+      "price": 1946790
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 1899980
+      "date": "2026-06-09",
+      "price": 1946790
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 1936450
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 1936450
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 1936450
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-26"
 }

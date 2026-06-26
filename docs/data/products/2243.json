@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:15",
-  "updated_at": "2026-06-25 18:21:33",
+  "updated_at": "2026-06-26 00:16:10",
   "prices": [
     {
       "product_id": 2243,
@@ -36,23 +36,23 @@
       "full_url": "https://www.dust2.gg"
     },
     {
-      "product_id": 1712,
-      "store_id": "centrale",
-      "price": 169010,
-      "price_normal": null,
-      "discount_pct": null,
+      "product_id": 79694,
+      "store_id": "bcpstech",
+      "price": 170590,
+      "price_normal": 190990,
+      "discount_pct": 11,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-1000w-gigabyte-aorus-elite-p1000w-80-platinum-pg5/",
-      "store_name": "Centrale",
-      "price_card": 178306,
+      "product_url": "https://bcpstech.cl/?p=1515",
+      "store_name": "BCPS Tech",
+      "price_card": 175708,
       "price_specs": {
-        "Transferencia / Efectivo": "$169.010",
-        "Tarjetas de Crédito / Débito": "$178.306"
+        "Efectivo/Transferencia": "$170.590",
+        "Tarjeta crédito/débito": "$175.708"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
     }
   ],
   "history": [
@@ -79,7 +79,13 @@
       "store_name": "Dust2",
       "date": "2026-06-25",
       "price": 159990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-26",
+      "price": 159990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

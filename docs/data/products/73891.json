@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-06-20 00:36:21",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 31875,
@@ -77,25 +77,6 @@
       "full_url": "https://www.dust2.gg"
     },
     {
-      "product_id": 9556,
-      "store_id": "spdigital",
-      "price": 705809,
-      "price_normal": 842360,
-      "discount_pct": 16,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-dual-nvidia-geforce-rtx-5060-ti-oc-edition-16gb-gddr7-128-bit-pci-e-50",
-      "store_name": "SP Digital",
-      "price_card": 737570,
-      "price_specs": {
-        "Transferencia / Efectivo": "$705.809",
-        "Webpay / Tarjeta": "$737.570"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
       "product_id": 38860,
       "store_id": "mybox",
       "price": 769491,
@@ -127,7 +108,13 @@
       "store_name": "Dust2",
       "date": "2026-06-25",
       "price": 679990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-26",
+      "price": 679990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

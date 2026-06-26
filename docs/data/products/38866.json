@@ -12,52 +12,64 @@
     "Tipo memoria": "GDDR6",
     "Bus de memoria": "256-bit",
     "Arquitectura": "RDNA 4",
-    "Efectivo / Transferencia": "$1.049.900",
-    "Tarjeta crédito/débito": "$1.081.397"
+    "Efectivo / Transferencia": "$1.076.055",
+    "Tarjeta crédito/débito": "$1.108.337"
   },
   "tags": [],
   "created_at": "2026-05-04 23:53:04",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 38866,
       "store_id": "mybox",
-      "price": 829620,
-      "price_card": 854509,
-      "price_normal": 942750,
+      "price": 1076055,
+      "price_normal": 1222790,
       "discount_pct": 12,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/tarjeta-de-video/5758-tarjeta-de-video-sapphire-pulse-amd-radeon-rx-9070-16-gb-gddr6-amd-rdna-4.html",
       "store_name": "MyBox",
+      "price_card": 1108337,
       "price_specs": {
-        "Efectivo/Transferencia": "$829.620",
-        "Tarjeta crédito/débito": "$854.509"
+        "Efectivo/Transferencia": "$1.076.055",
+        "Tarjeta crédito/débito": "$1.108.337"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.mybox.cl",
       "full_url": "https://www.mybox.cl"
-    },
-    {
-      "product_id": 23431,
-      "store_id": "alltec",
-      "price": 1049900,
-      "price_card": 1081397,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/amd/2379-tv-sapphire-pulse-amd-radeon-rx-9070-xt-gaming-16gb.html",
-      "store_name": "Alltec",
-      "price_specs": {
-        "Efectivo/Transferencia": "$1.049.900",
-        "Tarjeta crédito/débito": "$1.081.397"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-06-08",
+      "price": 1076055
+    },
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-06-09",
+      "price": 1076055
+    },
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-06-20",
+      "price": 1076055
+    },
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-06-25",
+      "price": 1076055
+    },
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-06-26",
+      "price": 1076055
+    }
+  ],
+  "scraped_at": "2026-06-26"
 }

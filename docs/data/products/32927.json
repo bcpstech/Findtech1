@@ -8,24 +8,16 @@
   "image_url": "https://images.findtech.cl/products/cpu-amd-ryzen-7-9700x-3-8-ghz.jpg",
   "description": null,
   "specs": {
-    "Familia": "AMD Ryzen™ 7",
     "Núcleos": "8",
-    "Socket": "AM5",
-    "Litografía": "4 nm",
-    "Incluye cooler": "No",
-    "Frecuencia base": "3,8 GHz",
     "Hilos": "16",
-    "Frecuencia turbo": "5,5 GHz",
-    "Caché L3": "40 MB",
-    "TDP": "65 W",
-    "Memoria soportada": "DDR5-SDRAM",
-    "Gráficos integrados": "AMD Radeon",
-    "Efectivo/Transferencia": "$379.995",
-    "Tarjeta crédito/débito": "$397.095"
+    "Frecuencia base": "5.5 GHz",
+    "TDP": "65W",
+    "Transferencia / Efectivo": "$374.150",
+    "Tarjeta crédito/débito": "$394.730"
   },
   "tags": [],
   "created_at": "2026-05-04 02:41:42",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 32927,
@@ -38,7 +30,7 @@
       "store_name": "Infor-Ingen",
       "price_card": 365547,
       "price_specs": {
-        "Efectivo/Transferencia": "$354.900",
+        "Efectivo / Transferencia": "$354.900",
         "Tarjeta crédito/débito": "$365.547"
       },
       "store_rating": 0,
@@ -85,46 +77,6 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 9399,
-      "store_id": "spdigital",
-      "price": 379995,
-      "price_normal": 599990,
-      "discount_pct": 37,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/amd-ryzen-7-9700x-8-core-processor",
-      "store_name": "SP Digital",
-      "price_card": 397095,
-      "price_specs": {
-        "Transferencia / Efectivo": "$379.995",
-        "Webpay / Tarjeta": "$397.095"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 2630,
-      "store_id": "trulustore",
-      "price": 419990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/procesador-amd-ryzen-7-9700x-socket-am5/",
-      "store_name": "TruluStore",
-      "price_card": 432590,
-      "khipu_price": 428390,
-      "price_specs": {
-        "Efectivo / Transferencia": "$419.990",
-        "Khipu": "$428.390",
-        "Tarjeta crédito/débito": "$432.590"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
-    },
-    {
       "product_id": 38837,
       "store_id": "mybox",
       "price": 425306,
@@ -168,7 +120,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-25",
       "price": 354900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-26",
+      "price": 354900
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

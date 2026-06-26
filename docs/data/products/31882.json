@@ -12,26 +12,64 @@
     "Caché L3": "16 MB",
     "Socket": "AM4",
     "Generación": "AMD Zen 5 (4nm)",
-    "Efectivo / Transferencia": "$154.432",
-    "Tarjeta crédito/débito": "$162.617"
+    "Efectivo / Transferencia": "$157.472",
+    "Tarjeta crédito/débito": "$165.818"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:59",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
+    {
+      "product_id": 1965,
+      "store_id": "dust2",
+      "price": 149990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-5-5600gt-6-nucleos-36-ghz-am4/",
+      "store_name": "Dust2",
+      "price_card": 154490,
+      "price_specs": {
+        "Efectivo/Transferencia": "$149.990",
+        "Tarjeta crédito/débito": "$154.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 283,
+      "store_id": "centrale",
+      "price": 154270,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-5600gt-3-6ghz-a-4-2ghz-6-nucleos-12-hilos-socket-am4/",
+      "store_name": "Centrale",
+      "price_card": 162755,
+      "price_specs": {
+        "Transferencia / Efectivo": "$154.270",
+        "Tarjetas de Crédito / Débito": "$162.755"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
     {
       "product_id": 31882,
       "store_id": "winpy",
-      "price": 154432,
-      "price_card": 162617,
+      "price": 157472,
       "price_normal": null,
-      "discount_pct": 18,
+      "discount_pct": 16,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-5600gt-am4-6-cores-12-hilos-3-6-4-6ghz-16mb-cache/",
       "store_name": "Winpy",
+      "price_card": 165818,
       "price_specs": {
-        "Transferencia o Depósito": "$154.432",
-        "Otros medios de pago": "$162.617"
+        "Transferencia o Depósito": "$157.472",
+        "Otros medios de pago": "$165.818"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,15 +81,33 @@
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-04",
-      "price": 154432
+      "date": "2026-06-08",
+      "price": 159296
     },
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-05",
-      "price": 154432
+      "date": "2026-06-09",
+      "price": 159296
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 157472
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 157472
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 157472
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-06-26"
 }

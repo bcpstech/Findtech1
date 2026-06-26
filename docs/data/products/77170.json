@@ -9,20 +9,14 @@
   "description": null,
   "specs": {
     "Frecuencia base": "5.3 GHz",
-    "Frecuencia turbo": "5,3 GHz",
-    "Socket": "LGA 1851 (Socket V1)",
-    "Familia": "Intel Core Ultra 5",
-    "Núcleos": "18",
-    "Hilos": "18",
     "Caché L3": "30 MB",
-    "Memoria soportada": "DDR5-SDRAM",
-    "Gráficos integrados": "Intel Graphics",
-    "Efectivo/Transferencia": "$265.149",
-    "Tarjeta crédito/débito": "$277.081"
+    "Socket": "LGA1851",
+    "Efectivo / Transferencia": "$263.264",
+    "Tarjeta crédito/débito": "$277.217"
   },
   "tags": [],
   "created_at": "2026-06-25 18:12:17",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 77170,
@@ -61,25 +55,6 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 75998,
-      "store_id": "spdigital",
-      "price": 265149,
-      "price_normal": 327430,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/intel-core-ultra-5-250k-plus-42-ghz-18-core-lga1851",
-      "store_name": "SP Digital",
-      "price_card": 277081,
-      "price_specs": {
-        "Transferencia / Efectivo": "$265.149",
-        "Webpay / Tarjeta": "$277.081"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -88,7 +63,13 @@
       "store_name": "Centrale",
       "date": "2026-06-25",
       "price": 258220
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 258220
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

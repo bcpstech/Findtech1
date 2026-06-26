@@ -9,13 +9,13 @@
   "description": null,
   "specs": {
     "Marca": "Cooler Master",
-    "Modelo": "MFW-B2DN-17NPA-R1",
-    "Efectivo / Transferencia": "$7.990",
-    "Tarjeta crédito/débito": "$8.230"
+    "Modelo": "MFL-B2DN-21NP2-R2",
+    "Efectivo / Transferencia": "$14.990",
+    "Tarjeta crédito/débito": "$15.440"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:07",
-  "updated_at": "2026-06-25 18:24:33",
+  "updated_at": "2026-06-26 00:20:32",
   "prices": [
     {
       "product_id": 1782,
@@ -54,25 +54,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9687,
-      "store_id": "spdigital",
-      "price": 10990,
-      "price_normal": 24990,
-      "discount_pct": 56,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/cm-fan-mf120-lite-argb-mfw-b2dn-17npa-r1",
-      "store_name": "SP Digital",
-      "price_card": 11485,
-      "price_specs": {
-        "Transferencia / Efectivo": "$10.990",
-        "Webpay / Tarjeta": "$11.485"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -99,7 +80,13 @@
       "store_name": "ProGaming",
       "date": "2026-06-25",
       "price": 7990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-06-26",
+      "price": 7990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

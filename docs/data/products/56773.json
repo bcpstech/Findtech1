@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-05-08 22:49:25",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 56773,
@@ -56,25 +56,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 72165,
-      "store_id": "spdigital",
-      "price": 510810,
-      "price_normal": 630780,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/msi-tvideo-geforce-rtx-5060-ti-8g-shadow-2x-oc-plus",
-      "store_name": "SP Digital",
-      "price_card": 533796,
-      "price_specs": {
-        "Transferencia / Efectivo": "$510.810",
-        "Webpay / Tarjeta": "$533.796"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -101,7 +82,13 @@
       "store_name": "Winpy",
       "date": "2026-06-25",
       "price": 459648
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 459648
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

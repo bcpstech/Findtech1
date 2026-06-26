@@ -5,25 +5,30 @@
   "brand": "Esgaming",
   "name": "Fuente ESGAMING ES-650W 80+ Bronze, Ventilador 120mm, Modular",
   "slug": "fuente-esgaming-es-650w-80-bronze-ventilador-120mm-modular",
-  "image_url": "https://centrale.cl/wp-content/uploads/Esgaming-Fuente-De-Poder-De-650W-Atx-80-Bronce-ES-650W.webp",
+  "image_url": "https://images.findtech.cl/products/fuente-esgaming-es-650w-80-bronze-ventilador-120mm-modular.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$54.670",
-    "Tarjetas de Crédito / Débito": "$57.680"
+    "Transferencia / Efectivo": "$54.020",
+    "Tarjeta crédito/débito": "$56.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:52",
-  "updated_at": "2026-04-26 20:37:52",
+  "updated_at": "2026-06-26 00:07:13",
   "prices": [
     {
       "product_id": 1703,
       "store_id": "centrale",
-      "price": 54670,
+      "price": 54020,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-esgaming-es-650w-80-bronze-ventilador-120mm-modular/",
       "store_name": "Centrale",
+      "price_card": 56991,
+      "price_specs": {
+        "Transferencia / Efectivo": "$54.020",
+        "Tarjetas de Crédito / Débito": "$56.991"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -34,9 +39,33 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 54670
+      "date": "2026-06-08",
+      "price": 53260
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 53260
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 54020
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 54020
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 54020
     }
   ],
-  "scraped_at": "2026-04-26"
+  "scraped_at": "2026-06-26"
 }

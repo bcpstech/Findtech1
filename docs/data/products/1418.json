@@ -1,46 +1,76 @@
 {
   "id": 1418,
-  "external_id": "pcexpress_10260-fuente-de-poder-gamemax-550w-atx-80-plus-bronce-gp-serie-p-n-gp-550",
-  "category_id": "psu",
-  "brand": "Genérico",
-  "name": "10260 - fuente de poder gamemax 550w atx 80 plus bronce gp serie p/n gp-550",
-  "slug": "10260-fuente-de-poder-gamemax-550w-atx-80-plus-bronce-gp-serie-p-n-gp-550",
-  "image_url": null,
+  "external_id": "centrale_memoria-ram-16gb-ddr5-5600mt-s-cl46-xpg-lancer-blade-rgb-black",
+  "category_id": "ram",
+  "brand": "XPG",
+  "name": "Memoria RAM 16GB DDR5 5600MT/s CL46 XPG Lancer Blade RGB Black",
+  "slug": "memoria-ram-16gb-ddr5-5600mt-s-cl46-xpg-lancer-blade-rgb-black",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-16gb-ddr5-5600mt-s-cl46-xpg-lancer-blade-rgb-black.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$49.900",
-    "Tarjeta crédito/débito": "$51.397"
+    "Capacidad": "16 GB",
+    "Tipo": "DDR5",
+    "Velocidad": "5600 MHz",
+    "Latencia": "CL46",
+    "Iluminación": "RGB",
+    "Transferencia / Efectivo": "$214.990",
+    "Tarjeta crédito/débito": "$226.810"
   },
   "tags": [],
-  "created_at": "2026-04-25 04:56:03",
-  "updated_at": "2026-04-25 04:56:03",
+  "created_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
-      "id": 1418,
       "product_id": 1418,
-      "store_id": "pcexpress",
-      "price": 49900,
+      "store_id": "centrale",
+      "price": 214990,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=10260&search=fuente+poder+80+plus&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 04:56:03",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-5600mt-s-cl46-xpg-lancer-blade-rgb-black/",
+      "store_name": "Centrale",
+      "price_card": 226814,
+      "price_specs": {
+        "Transferencia / Efectivo": "$214.990",
+        "Tarjetas de Crédito / Débito": "$226.814"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
-      "date": "2026-04-25",
-      "price": 49900
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 214990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 214990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 214990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 214990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 214990
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-06-26"
 }

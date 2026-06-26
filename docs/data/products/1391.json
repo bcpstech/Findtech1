@@ -1,46 +1,74 @@
 {
   "id": 1391,
-  "external_id": "pcexpress_1029905-gabinete-gamer-gamemax-blade-concept-bk-atx-1-usb-c",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "1029905 - gabinete gamer gamemax  blade concept bk atx - 1 usb-c",
-  "slug": "1029905-gabinete-gamer-gamemax-blade-concept-bk-atx-1-usb-c",
-  "image_url": null,
+  "external_id": "centrale_placa-madre-gigabyte-h610m-k-v2-micro-atx-lga-1700-ddr5-nvme-3-0",
+  "category_id": "mobo",
+  "brand": "Gigabyte",
+  "name": "Placa Madre Gigabyte H610M K V2 (Micro ATX, LGA 1700, DDR5, NVMe 3.0)",
+  "slug": "placa-madre-gigabyte-h610m-k-v2-micro-atx-lga-1700-ddr5-nvme-3-0",
+  "image_url": "https://images.findtech.cl/products/placa-madre-gigabyte-h610m-k-v2-micro-atx-lga-1700-ddr5-nvme-3-0.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$228.500",
-    "Tarjeta crédito/débito": "$235.355"
+    "Socket": "LGA1700",
+    "Factor de forma": "Micro-ATX",
+    "Memoria": "DDR5",
+    "Transferencia / Efectivo": "$86.680",
+    "Tarjeta crédito/débito": "$91.450"
   },
   "tags": [],
-  "created_at": "2026-04-25 12:59:17",
-  "updated_at": "2026-04-25 12:59:17",
+  "created_at": "2026-04-26 20:37:37",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
-      "id": 1391,
       "product_id": 1391,
-      "store_id": "pcexpress",
-      "price": 228500,
+      "store_id": "centrale",
+      "price": 86680,
       "price_normal": null,
       "discount_pct": null,
-      "currency": "CLP",
       "stock": "in_stock",
-      "product_url": "https://tienda.pc-express.cl/index.php?route=product/product&product_id=1029905&search=gabinete+atx+gamer&sort=p.price&order=ASC&page=1&limit=50",
-      "price_date": "2026-04-25",
-      "scraped_at": "2026-04-25 12:59:17",
-      "store_name": "PC-Express",
-      "store_url": "tienda.pc-express.cl",
-      "full_url": "https://tienda.pc-express.cl",
-      "store_rating": 4.2,
-      "review_count": 760
+      "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-h610m-k-v2-micro-atx-lga-1700-ddr5-nvme-3-0/",
+      "store_name": "Centrale",
+      "price_card": 91447,
+      "price_specs": {
+        "Transferencia / Efectivo": "$86.680",
+        "Tarjetas de Crédito / Débito": "$91.447"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "pcexpress",
-      "store_name": "PC-Express",
-      "date": "2026-04-25",
-      "price": 228500
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 86770
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 86770
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 85010
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 86680
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 86680
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-06-26"
 }

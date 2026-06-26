@@ -12,12 +12,12 @@
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Efectivo/Transferencia": "$142.900",
-    "Tarjeta crédito/débito": "$147.187"
+    "Transferencia / Efectivo": "$119.990",
+    "Tarjeta crédito/débito": "$126.590"
   },
   "tags": [],
   "created_at": "2026-05-04 01:23:04",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 31943,
@@ -56,44 +56,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9428,
-      "store_id": "spdigital",
-      "price": 131466,
-      "price_normal": 162370,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/placa-madre-asus-b650m-ayw-wifi-socket-am5-2x-ddr5-2x-nvme-wi-fi-6-25-gbe-micro-atx",
-      "store_name": "SP Digital",
-      "price_card": 137382,
-      "price_specs": {
-        "Transferencia / Efectivo": "$131.466",
-        "Webpay / Tarjeta": "$137.382"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 595,
-      "store_id": "n1g",
-      "price": 142900,
-      "price_normal": 150421,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3408-asus-b650m-ayw-wifi-micro-atxddr5am5pcie-50-m2hdmirealtek-25gb-ethernetwi-fi-6rear-usb-10gbps-portssata-6-gbps.html",
-      "store_name": "N1G",
-      "price_card": 150474,
-      "price_specs": {
-        "Efectivo/Transferencia": "$142.900",
-        "Tarjeta crédito/débito": "$150.474"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
     },
     {
       "product_id": 23519,
@@ -139,7 +101,13 @@
       "store_name": "Winpy",
       "date": "2026-06-25",
       "price": 117344
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 117344
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

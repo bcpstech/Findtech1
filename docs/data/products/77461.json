@@ -8,92 +8,34 @@
   "image_url": "https://images.findtech.cl/products/unidad-ssd-xpg-legend-710-256gb-m-2-pcie-nvme-gen3-con-disipador.webp",
   "description": null,
   "specs": {
-    "Capacidad": "1 TB",
+    "Capacidad": "256 GB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Marca": "ADATA",
-    "Efectivo / Transferencia": "$174.990",
-    "Tarjeta crédito/débito": "$180.240"
+    "Transferencia / Efectivo": "$61.980",
+    "Tarjeta crédito/débito": "$65.390"
   },
   "tags": [],
   "created_at": "2026-06-25 18:13:56",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 77461,
       "store_id": "centrale",
-      "price": 62320,
+      "price": 61980,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/unidad-ssd-xpg-legend-710-256gb-m-2-pcie-nvme-gen3-con-disipador/",
       "store_name": "Centrale",
-      "price_card": 65748,
+      "price_card": 65389,
       "price_specs": {
-        "Transferencia / Efectivo": "$62.320",
-        "Tarjetas de Crédito / Débito": "$65.748"
+        "Transferencia / Efectivo": "$61.980",
+        "Tarjetas de Crédito / Débito": "$65.389"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 32002,
-      "store_id": "winpy",
-      "price": 66272,
-      "price_normal": null,
-      "discount_pct": 48,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/unidad-ssd-adata-legend-710-de-256gb-nvme-m-2-pcle-3-0-hasta-2-400mb-s/",
-      "store_name": "Winpy",
-      "price_card": 69784,
-      "price_specs": {
-        "Transferencia o Depósito": "$66.272",
-        "Otros medios de pago": "$69.784"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 9535,
-      "store_id": "spdigital",
-      "price": 113096,
-      "price_normal": 139690,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/adata-legend-710-m2-512gb-nvme-nand-gen3x4",
-      "store_name": "SP Digital",
-      "price_card": 118185,
-      "price_specs": {
-        "Transferencia / Efectivo": "$113.096",
-        "Webpay / Tarjeta": "$118.185"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 2229,
-      "store_id": "dust2",
-      "price": 119990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/disco-duro-ssd-adata-legend-710-512gb-pcie-gen3-m-2-nvme/",
-      "store_name": "Dust2",
-      "price_card": 123590,
-      "price_specs": {
-        "Efectivo/Transferencia": "$119.990",
-        "Tarjeta crédito/débito": "$123.590"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
@@ -102,7 +44,13 @@
       "store_name": "Centrale",
       "date": "2026-06-25",
       "price": 62320
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 61980
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

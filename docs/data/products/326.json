@@ -5,81 +5,70 @@
   "brand": "Intel",
   "name": "Procesador Intel Core i9-14900K Raptor Lake-S LGA1700, UHD Graphics",
   "slug": "procesador-intel-core-i9-14900k-raptor-lake-s-lga1700-uhd-graphics",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i9-14900K-Raptor-Lake-S-LGA1700-UHD-Graphics_n4rqkpO-1.webp",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i9-14900k-raptor-lake-s-lga1700-uhd-graphics.webp",
   "description": null,
   "specs": {
-    "TDP": "125W",
     "Socket": "LGA1700",
-    "Generación": "Intel 14ª Gen (Raptor Lake Refresh)",
+    "Generación": "Intel 13ª Gen (Raptor Lake)",
     "Gráficos integrados": "Sí",
-    "Efectivo/Transferencia": "$559.000",
-    "Tarjeta crédito/débito": "$575.770"
+    "Transferencia / Efectivo": "$576.810",
+    "Tarjeta crédito/débito": "$608.530"
   },
   "tags": [],
   "created_at": "2026-04-26 16:26:24",
-  "updated_at": "2026-05-03 05:12:06",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 326,
       "store_id": "centrale",
-      "price": 6181,
+      "price": 576810,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900k-raptor-lake-s-lga1700-uhd-graphics/",
       "store_name": "Centrale",
+      "price_card": 608535,
       "price_specs": {
-        "Transferencia / Efectivo": "$6.181"
+        "Transferencia / Efectivo": "$576.810",
+        "Tarjetas de Crédito / Débito": "$608.535"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9,
-      "store_id": "n1g",
-      "price": 559000,
-      "price_normal": 588421,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2532-intel-core-i9-14900k-14th-gen-24-core-8p16e-lga-1700-125w-intel-uhd-graphics-770-bx8071514900k.html",
-      "store_name": "N1G",
-      "price_specs": {
-        "Efectivo/Transferencia": "$559.000",
-        "Tarjeta crédito/débito": "$588.421"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 613970
+      "date": "2026-06-08",
+      "price": 576810
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 613290
+      "date": "2026-06-09",
+      "price": 576810
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-05-01",
-      "price": 6181
+      "date": "2026-06-20",
+      "price": 576810
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-05-03",
-      "price": 6181
+      "date": "2026-06-25",
+      "price": 576810
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 576810
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-06-26"
 }

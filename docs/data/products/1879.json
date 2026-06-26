@@ -19,7 +19,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:41:22",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 1879,
@@ -58,25 +58,6 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 59599,
-      "store_id": "spdigital",
-      "price": 799325,
-      "price_normal": 987190,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-prime-geforce-rtx-5070-oc-edition-12gb-gddr7-192-bit-1005-ai-tops",
-      "store_name": "SP Digital",
-      "price_card": 835295,
-      "price_specs": {
-        "Transferencia / Efectivo": "$799.325",
-        "Webpay / Tarjeta": "$835.295"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 1236,
@@ -122,7 +103,13 @@
       "store_name": "Dust2",
       "date": "2026-06-25",
       "price": 755990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-26",
+      "price": 755990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

@@ -10,26 +10,26 @@
   "specs": {
     "Frecuencia base": "5.8 GHz",
     "Socket": "LGA1700",
-    "Transferencia / Efectivo": "$718.380",
-    "Tarjeta crédito/débito": "$757.890"
+    "Transferencia / Efectivo": "$711.190",
+    "Tarjeta crédito/débito": "$750.310"
   },
   "tags": [],
   "created_at": "2026-04-26 16:26:46",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 332,
       "store_id": "centrale",
-      "price": 718380,
+      "price": 711190,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900f-lga1700-24-nucleos-5-8ghz-36mb/",
       "store_name": "Centrale",
-      "price_card": 757891,
+      "price_card": 750305,
       "price_specs": {
-        "Transferencia / Efectivo": "$718.380",
-        "Tarjetas de Crédito / Débito": "$757.891"
+        "Transferencia / Efectivo": "$711.190",
+        "Tarjetas de Crédito / Débito": "$750.305"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -49,7 +49,25 @@
       "store_name": "Centrale",
       "date": "2026-06-09",
       "price": 718380
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 683720
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 711190
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 711190
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-26"
 }

@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:55:02",
-  "updated_at": "2026-06-20 01:04:16",
+  "updated_at": "2026-06-26 00:41:05",
   "prices": [
     {
       "product_id": 33708,
@@ -26,32 +26,13 @@
       "store_name": "Infor-Ingen",
       "price_card": 204867,
       "price_specs": {
-        "Efectivo/Transferencia": "$198.900",
+        "Efectivo / Transferencia": "$198.900",
         "Tarjeta crédito/débito": "$204.867"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
-    },
-    {
-      "product_id": 6192,
-      "store_id": "n1g",
-      "price": 199000,
-      "price_normal": 209474,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/2089-msi-mpg-coreliquid-k240-v2-black-lga-1700-am5-aio-cooler-240mm-radiator-24-lcd-torx-30-fan-argb-pwm-msi-center.html",
-      "store_name": "N1G",
-      "price_card": 209547,
-      "price_specs": {
-        "Efectivo/Transferencia": "$199.000",
-        "Tarjeta crédito/débito": "$209.547"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -60,7 +41,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-20",
       "price": 198900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-26",
+      "price": 198900
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-26"
 }

@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-06-25 18:12:41",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 77242,
       "store_id": "centrale",
-      "price": 174850,
+      "price": 179490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b860m-gaming-wifi6-lga1851-ddr5-pcie-5-0/",
       "store_name": "Centrale",
-      "price_card": 184467,
+      "price_card": 189362,
       "price_specs": {
-        "Transferencia / Efectivo": "$174.850",
-        "Tarjetas de Crédito / Débito": "$184.467"
+        "Transferencia / Efectivo": "$179.490",
+        "Tarjetas de Crédito / Débito": "$189.362"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -64,7 +64,13 @@
       "store_name": "Centrale",
       "date": "2026-06-25",
       "price": 174850
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 179490
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

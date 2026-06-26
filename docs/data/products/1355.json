@@ -5,40 +5,90 @@
   "brand": "Asus",
   "name": "Placa Madre ASUS TUF GAMING B860-PLUS WIFI (ATX, LGA 1851, DDR5, WiFi 7)",
   "slug": "placa-madre-asus-tuf-gaming-b860-plus-wifi-atx-lga-1851-ddr5-wifi-7",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASUS-TUF-GAMING-B860-PLUS-WIFI-ATX-LGA-1851-DDR5-WiFi-7-177_pVSIKxi.webp",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asus-tuf-gaming-b860-plus-wifi-atx-lga-1851-ddr5-wifi-7.webp",
   "description": null,
   "specs": {
     "Socket": "LGA1851",
     "Factor de forma": "ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$249.980",
-    "Tarjeta crédito/débito": "$263.730"
+    "Transferencia / Efectivo": "$233.990",
+    "Tarjeta crédito/débito": "$246.860"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 1355,
       "store_id": "centrale",
-      "price": 249980,
-      "price_card": 263729,
+      "price": 233990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-tuf-gaming-b860-plus-wifi-atx-lga-1851-ddr5-wifi-7/",
       "store_name": "Centrale",
+      "price_card": 246859,
       "price_specs": {
-        "Transferencia / Efectivo": "$249.980",
-        "Tarjetas de Crédito / Débito": "$263.729"
+        "Transferencia / Efectivo": "$233.990",
+        "Tarjetas de Crédito / Débito": "$246.859"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 77862,
+      "store_id": "winpy",
+      "price": 258400,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/placa-madre-asus-tuf-gaming-b860-plus-wifi-lga1851-ddr5-wifi-7-pcie-5-0-atx/",
+      "store_name": "Winpy",
+      "price_card": 272095,
+      "price_specs": {
+        "Transferencia o Depósito": "$258.400",
+        "Otros medios de pago": "$272.095"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 238490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 238490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 231490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 233990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 233990
+    }
+  ],
+  "scraped_at": "2026-06-26"
 }

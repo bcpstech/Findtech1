@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:47:40",
-  "updated_at": "2026-05-03 22:35:20",
+  "updated_at": "2026-06-26 00:17:23",
   "prices": [
     {
       "product_id": 2351,
@@ -25,51 +25,48 @@
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-cougar-duoface-rgb-tg-mid-tower-blanco/",
       "store_name": "Dust2",
+      "price_card": 59730,
       "price_specs": {
-        "Efectivo/Transferencia": "$57.990"
+        "Efectivo/Transferencia": "$57.990",
+        "Tarjeta crédito/débito": "$59.730"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 9793,
-      "store_id": "spdigital",
-      "price": 59990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/gabinete-cougar-mx360-rgb-black-1-ventilador-trasero",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$59.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
     {
       "store_id": "dust2",
       "store_name": "Dust2",
-      "date": "2026-04-26",
-      "price": 56300
+      "date": "2026-06-08",
+      "price": 57990
     },
     {
       "store_id": "dust2",
       "store_name": "Dust2",
-      "date": "2026-04-27",
-      "price": 56300
+      "date": "2026-06-09",
+      "price": 57990
     },
     {
       "store_id": "dust2",
       "store_name": "Dust2",
-      "date": "2026-05-03",
+      "date": "2026-06-20",
+      "price": 57990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-25",
+      "price": 57990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-26",
       "price": 57990
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-06-26"
 }

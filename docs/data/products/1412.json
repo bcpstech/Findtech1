@@ -5,27 +5,32 @@
   "brand": "Gigabyte",
   "name": "Placa Madre Gigabyte B550M K, Micro ATX, Socket AM4, PCIe 4.0",
   "slug": "placa-madre-gigabyte-b550m-k-micro-atx-socket-am4-pcie-4-0",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Gigabyte-B550M-K-Micro-ATX-Socket-AM4-PCIe-4.0_9S6VKTd-1.webp",
+  "image_url": "https://images.findtech.cl/products/placa-madre-gigabyte-b550m-k-micro-atx-socket-am4-pcie-4-0.webp",
   "description": null,
   "specs": {
     "Socket": "AM4",
     "Factor de forma": "Micro-ATX",
-    "Transferencia / Efectivo": "$96.760",
-    "Tarjetas de Crédito / Débito": "$102.080"
+    "Transferencia / Efectivo": "$86.870",
+    "Tarjeta crédito/débito": "$91.650"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 1412,
       "store_id": "centrale",
-      "price": 96760,
+      "price": 86870,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b550m-k-micro-atx-socket-am4-pcie-4-0/",
       "store_name": "Centrale",
+      "price_card": 91648,
+      "price_specs": {
+        "Transferencia / Efectivo": "$86.870",
+        "Tarjetas de Crédito / Débito": "$91.648"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -36,15 +41,33 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 96760
+      "date": "2026-06-08",
+      "price": 96770
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 96760
+      "date": "2026-06-09",
+      "price": 96770
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 86870
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 86870
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 86870
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-26"
 }

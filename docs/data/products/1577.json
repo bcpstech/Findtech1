@@ -5,7 +5,7 @@
   "brand": "Kingston",
   "name": "Disco SSD 1TB Kingston NV3 &#8211; M.2 2280 PCIe 4.0 NVMe 6000MB/s",
   "slug": "disco-ssd-1tb-kingston-nv3-8211-m-2-2280-pcie-4-0-nvme-6000mb-s",
-  "image_url": "https://centrale.cl/wp-content/uploads/Disco-SSD-1TB-Kingston-NV3-M.2-2280-PCIe-4.0-NVMe-6000MB-s_DFuMbJK-1.webp",
+  "image_url": "https://images.findtech.cl/products/disco-ssd-1tb-kingston-nv3-8211-m-2-2280-pcie-4-0-nvme-6000mb-s.webp",
   "description": null,
   "specs": {
     "Capacidad": "4 TB",
@@ -16,21 +16,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 1577,
       "store_id": "centrale",
-      "price": 118900,
-      "price_card": 125439,
+      "price": 139790,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-1tb-kingston-nv3-m-2-2280-pcie-4-0-nvme-6000mb-s/",
       "store_name": "Centrale",
+      "price_card": 147478,
       "price_specs": {
-        "Transferencia / Efectivo": "$118.900",
-        "Tarjetas de Crédito / Débito": "$125.439"
+        "Transferencia / Efectivo": "$139.790",
+        "Tarjetas de Crédito / Débito": "$147.478"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,6 +38,37 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 132900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 132900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 139790
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 139790
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 139790
+    }
+  ],
+  "scraped_at": "2026-06-26"
 }

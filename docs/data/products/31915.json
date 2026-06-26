@@ -11,12 +11,12 @@
     "Frecuencia base": "5.3 GHz",
     "Frecuencia turbo": "5.3 GHz",
     "Caché L3": "30 MB",
-    "Transferencia / Efectivo": "$461.490",
-    "Tarjeta crédito/débito": "$486.870"
+    "Transferencia / Efectivo": "$466.980",
+    "Tarjeta crédito/débito": "$492.660"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:05",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 31915,
@@ -40,16 +40,16 @@
     {
       "product_id": 330,
       "store_id": "centrale",
-      "price": 461490,
+      "price": 466980,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n/",
       "store_name": "Centrale",
-      "price_card": 486872,
+      "price_card": 492664,
       "price_specs": {
-        "Transferencia / Efectivo": "$461.490",
-        "Tarjetas de Crédito / Débito": "$486.872"
+        "Transferencia / Efectivo": "$466.980",
+        "Tarjetas de Crédito / Débito": "$492.664"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -69,7 +69,13 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 419520
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 419520
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-26"
 }

@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:53:30",
-  "updated_at": "2026-06-20 01:01:50",
+  "updated_at": "2026-06-26 00:39:03",
   "prices": [
     {
       "product_id": 33610,
@@ -26,13 +26,32 @@
       "store_name": "Infor-Ingen",
       "price_card": 23587,
       "price_specs": {
-        "Efectivo/Transferencia": "$22.900",
+        "Efectivo / Transferencia": "$22.900",
         "Tarjeta crédito/débito": "$23.587"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
+    },
+    {
+      "product_id": 77567,
+      "store_id": "centrale",
+      "price": 36490,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/refrigeracion-gamemax-sigma-520-digital-blanco-220w-tdp-lcd-argb/",
+      "store_name": "Centrale",
+      "price_card": 38497,
+      "price_specs": {
+        "Transferencia / Efectivo": "$36.490",
+        "Tarjetas de Crédito / Débito": "$38.497"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -47,7 +66,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-20",
       "price": 22900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-26",
+      "price": 22900
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-26"
 }

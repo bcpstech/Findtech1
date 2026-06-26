@@ -10,15 +10,13 @@
   "specs": {
     "VRAM": "16 GB",
     "Tipo memoria": "GDDR7",
-    "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Factor de forma": "Full-Height/Half-Length (FH/HL)",
-    "Efectivo/Transferencia": "$946.919",
-    "Tarjeta crédito/débito": "$989.530"
+    "Efectivo / Transferencia": "$749.664",
+    "Tarjeta crédito/débito": "$789.396"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:32",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 31870,
@@ -38,25 +36,6 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 9588,
-      "store_id": "spdigital",
-      "price": 946919,
-      "price_normal": 946920,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-geforcer-rtx5060ti-twin-edge-oc-white-edition",
-      "store_name": "SP Digital",
-      "price_card": 989530,
-      "price_specs": {
-        "Transferencia / Efectivo": "$946.919",
-        "Webpay / Tarjeta": "$989.530"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -83,7 +62,13 @@
       "store_name": "Winpy",
       "date": "2026-06-25",
       "price": 749664
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 749664
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

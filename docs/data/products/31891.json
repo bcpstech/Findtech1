@@ -11,26 +11,45 @@
     "Frecuencia base": "4.9 GHz",
     "Socket": "LGA1700",
     "Generación": "Intel 12ª Gen (Alder Lake)",
-    "Efectivo / Transferencia": "$229.824",
-    "Tarjeta crédito/débito": "$242.005"
+    "Efectivo / Transferencia": "$319.808",
+    "Tarjeta crédito/débito": "$336.758"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:17",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
+    {
+      "product_id": 320,
+      "store_id": "centrale",
+      "price": 239980,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-12600k-3-7-ghz-10-core-lga1700/",
+      "store_name": "Centrale",
+      "price_card": 253179,
+      "price_specs": {
+        "Transferencia / Efectivo": "$239.980",
+        "Tarjetas de Crédito / Débito": "$253.179"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
     {
       "product_id": 31891,
       "store_id": "winpy",
-      "price": 229824,
-      "price_card": 242005,
+      "price": 319808,
       "price_normal": null,
-      "discount_pct": 23,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i5-12600k-alder-lake-lga1700-10-cores-16-hilos-3-7-4-9-ghz-20mb-de-cache/",
       "store_name": "Winpy",
+      "price_card": 336758,
       "price_specs": {
-        "Transferencia o Depósito": "$229.824",
-        "Otros medios de pago": "$242.005"
+        "Transferencia o Depósito": "$319.808",
+        "Otros medios de pago": "$336.758"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,15 +61,33 @@
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-04",
-      "price": 229824
+      "date": "2026-06-08",
+      "price": 331968
     },
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-05",
-      "price": 229824
+      "date": "2026-06-09",
+      "price": 331968
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 319808
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 319808
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 319808
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-06-26"
 }

@@ -9,22 +9,27 @@
   "description": null,
   "specs": {
     "Marca": "Cougar",
-    "Transferencia/Efectivo": "$62.130",
-    "Webpay / Tarjeta crédito-débito": "$63.990"
+    "Efectivo / Transferencia": "$63.990",
+    "Tarjeta crédito/débito": "$65.910"
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:26",
-  "updated_at": "2026-04-27 22:23:05",
+  "updated_at": "2026-06-26 00:16:19",
   "prices": [
     {
       "product_id": 2259,
       "store_id": "dust2",
-      "price": 62130,
+      "price": 63990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-cougar-atlas-650w-2024/",
       "store_name": "Dust2",
+      "price_card": 65910,
+      "price_specs": {
+        "Efectivo/Transferencia": "$63.990",
+        "Tarjeta crédito/débito": "$65.910"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
@@ -35,15 +40,33 @@
     {
       "store_id": "dust2",
       "store_name": "Dust2",
-      "date": "2026-04-26",
-      "price": 62130
+      "date": "2026-06-08",
+      "price": 63990
     },
     {
       "store_id": "dust2",
       "store_name": "Dust2",
-      "date": "2026-04-27",
-      "price": 62130
+      "date": "2026-06-09",
+      "price": 63990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-20",
+      "price": 63990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-25",
+      "price": 63990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-26",
+      "price": 63990
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-26"
 }

@@ -9,28 +9,28 @@
   "description": null,
   "specs": {
     "Socket": "AM5",
+    "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
-    "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$87.560",
-    "Tarjeta crédito/débito": "$92.380"
+    "Efectivo / Transferencia": "$74.784",
+    "Tarjeta crédito/débito": "$78.748"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:32",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 31927,
       "store_id": "winpy",
-      "price": 76608,
-      "price_card": 80668,
+      "price": 74784,
       "price_normal": null,
-      "discount_pct": 21,
+      "discount_pct": 32,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-msi-pro-a620am-b-evo-am5-chipset-a620-ddr5-m-2-micro-atx/",
       "store_name": "Winpy",
+      "price_card": 78748,
       "price_specs": {
-        "Transferencia o Depósito": "$76.608",
-        "Otros medios de pago": "$80.668"
+        "Transferencia o Depósito": "$74.784",
+        "Otros medios de pago": "$78.748"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,44 +38,56 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 1323,
+      "product_id": 73272,
       "store_id": "centrale",
-      "price": 78490,
-      "price_card": 82807,
+      "price": 80120,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/msi-pro-a620am-b-evo-911-7e36-002/",
+      "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-a620am-b-evo-micro-atx-am5-ddr5-pcie-4-0/",
       "store_name": "Centrale",
+      "price_card": 84527,
       "price_specs": {
-        "Transferencia / Efectivo": "$78.490",
-        "Tarjetas de Crédito / Débito": "$82.807"
+        "Transferencia / Efectivo": "$80.120",
+        "Tarjetas de Crédito / Débito": "$84.527"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 1156,
-      "store_id": "cg",
-      "price": 89990,
-      "price_card": 94723,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-msi-pro-a620am-b-evo/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$89.990",
-        "Webpay / Tarjeta": "$94.723"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 79648
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-09",
+      "price": 79648
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 74784
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 74784
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 74784
+    }
+  ],
+  "scraped_at": "2026-06-26"
 }

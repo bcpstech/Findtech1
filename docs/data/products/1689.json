@@ -1,43 +1,90 @@
 {
   "id": 1689,
-  "external_id": "dust2_disco-solido-ssd-adata-sata-su650-480gb",
-  "category_id": "storage",
-  "brand": "Genérico",
-  "name": "Disco Solido SSD ADATA SATA SU650 480GB",
-  "slug": "disco-solido-ssd-adata-sata-su650-480gb",
-  "image_url": "https://images.findtech.cl/products/disco-solido-ssd-adata-sata-su650-480gb.jpg",
+  "external_id": "centrale_fuente-de-poder-650w-msi-mag-a650bn-pcie-iii-80-plus-bronze-pcie-5-1-atx-3-1",
+  "category_id": "psu",
+  "brand": "MSI",
+  "name": "Fuente de Poder 650W MSI MAG A650BN PCIE III (80 Plus Bronze, PCIe 5.1, ATX 3.1)",
+  "slug": "fuente-de-poder-650w-msi-mag-a650bn-pcie-iii-80-plus-bronze-pcie-5-1-atx-3-1",
+  "image_url": "https://images.findtech.cl/products/fuente-de-poder-650w-msi-mag-a650bn-pcie-iii-80-plus-bronze-pcie-5-1-atx-3-1.webp",
   "description": null,
   "specs": {
-    "Marca": "ADATA",
-    "Transferencia/Efectivo": "$79.600",
-    "Webpay / Tarjeta crédito-débito": "$81.990"
+    "Transferencia / Efectivo": "$45.700",
+    "Tarjeta crédito/débito": "$48.210"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:42:53",
-  "updated_at": "2026-04-25 19:42:53",
+  "created_at": "2026-04-26 20:37:52",
+  "updated_at": "2026-06-26 00:07:08",
   "prices": [
     {
       "product_id": 1689,
-      "store_id": "dust2",
-      "price": 79600,
-      "price_normal": null,
-      "discount_pct": null,
+      "store_id": "centrale",
+      "price": 45700,
+      "price_normal": 48260,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/disco-solido-ssd-adata-sata-su650-480gb/",
-      "store_name": "Dust2",
+      "product_url": "https://centrale.cl/producto/fuente-de-poder-650w-msi-mag-a650bn-pcie-iii-80-plus-bronze-pcie-5-1-atx-3-1/",
+      "store_name": "Centrale",
+      "price_card": 48214,
+      "price_specs": {
+        "Transferencia / Efectivo": "$45.700",
+        "Tarjetas de Crédito / Débito": "$48.214"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 38980,
+      "store_id": "mybox",
+      "price": 61461,
+      "price_normal": 68290,
+      "discount_pct": 10,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/fuentes-de-poder/5568-fuente-de-poder-msi-mag-a650bn-bronce-650w.html",
+      "store_name": "MyBox",
+      "price_card": 63305,
+      "price_specs": {
+        "Efectivo/Transferencia": "$61.461",
+        "Tarjeta crédito/débito": "$63.305"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 79600
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 53620
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 53620
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 49750
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 48260
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 45700
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-06-26"
 }

@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:58:16",
-  "updated_at": "2026-06-25 18:44:09",
+  "updated_at": "2026-06-26 00:45:00",
   "prices": [
     {
       "product_id": 33889,
@@ -26,13 +26,32 @@
       "store_name": "Infor-Ingen",
       "price_card": 76117,
       "price_specs": {
-        "Efectivo/Transferencia": "$73.900",
+        "Efectivo / Transferencia": "$73.900",
         "Tarjeta crédito/débito": "$76.117"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
+    },
+    {
+      "product_id": 1119,
+      "store_id": "alltec",
+      "price": 77500,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/sin-fuente-de-poder/2082-gabinete-cooler-master-cmp-520-atx.html",
+      "store_name": "Alltec",
+      "price_card": 79825,
+      "price_specs": {
+        "Efectivo/Transferencia": "$77.500",
+        "Tarjeta crédito/débito": "$79.825"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -53,7 +72,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-25",
       "price": 73900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-26",
+      "price": 73900
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

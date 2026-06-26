@@ -8,31 +8,30 @@
   "image_url": "https://images.findtech.cl/products/memoria-ram-biostar-gaming-x-rgb-8gb-3200mhz-ddr4.jpg",
   "description": null,
   "specs": {
-    "Capacidad": "16 GB",
+    "Capacidad": "32 GB",
     "Tipo": "DDR4",
     "Velocidad": "3200 MHz",
     "Latencia": "CL16",
     "Iluminación": "RGB",
-    "Marca": "KINGSTON",
-    "Efectivo/Transferencia": "$134.990",
-    "Webpay / Tarjeta": "$142.090"
+    "Transferencia / Efectivo": "$347.850",
+    "Tarjeta crédito/débito": "$366.980"
   },
   "tags": [],
   "created_at": "2026-05-04 02:48:23",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 33300,
       "store_id": "infor-ingen",
       "price": 62900,
-      "price_card": 64787,
       "price_normal": 66674,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/memoria-ram-biostar-gaming-x-rgb-8gb-3200mhz-ddr4/",
       "store_name": "Infor-Ingen",
+      "price_card": 64787,
       "price_specs": {
-        "Efectivo/Transferencia": "$62.900",
+        "Efectivo / Transferencia": "$62.900",
         "Tarjeta crédito/débito": "$64.787"
       },
       "store_rating": 0,
@@ -41,18 +40,18 @@
       "full_url": "https://store.infor-ingen.com"
     },
     {
-      "product_id": 1510,
+      "product_id": 60818,
       "store_id": "centrale",
-      "price": 64900,
-      "price_card": 68470,
+      "price": 69820,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-notebook-8gb-3200mhz-ddr4-kingston-fury-impact-sodimm/",
+      "product_url": "https://centrale.cl/producto/memoria-ram-8gb-3200mhz-ddr4-cl16-kingston-fury-beast-black/",
       "store_name": "Centrale",
+      "price_card": 73660,
       "price_specs": {
-        "Transferencia / Efectivo": "$64.900",
-        "Tarjetas de Crédito / Débito": "$68.470"
+        "Transferencia / Efectivo": "$69.820",
+        "Tarjetas de Crédito / Débito": "$73.660"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,44 +59,75 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 1171,
-      "store_id": "cg",
-      "price": 74990,
-      "price_card": 78934,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/memorias-ram/memoria-ram-kingston-fury-beast-cl16-8gb-ddr4-3200mhz/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$74.990",
-        "Webpay / Tarjeta": "$78.934"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
-    },
-    {
       "product_id": 2089,
       "store_id": "dust2",
-      "price": 91990,
-      "price_card": 94750,
+      "price": 73990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/memoria-ram-kingston-fury-beast-rgb-de-8gb-ddr4-3200mhz-dimm/",
       "store_name": "Dust2",
+      "price_card": 76210,
       "price_specs": {
-        "Efectivo/Transferencia": "$91.990",
-        "Tarjeta crédito/débito": "$94.750"
+        "Efectivo/Transferencia": "$73.990",
+        "Tarjeta crédito/débito": "$76.210"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 60058,
+      "store_id": "bcpstech",
+      "price": 80990,
+      "price_normal": 93990,
+      "discount_pct": 14,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=1390",
+      "store_name": "BCPS Tech",
+      "price_card": 83420,
+      "price_specs": {
+        "Efectivo/Transferencia": "$80.990",
+        "Tarjeta crédito/débito": "$83.420"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-08",
+      "price": 62900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-09",
+      "price": 62900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-20",
+      "price": 62900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-25",
+      "price": 62900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-26",
+      "price": 62900
+    }
+  ],
+  "scraped_at": "2026-06-26"
 }

@@ -8,13 +8,12 @@
   "image_url": "https://images.findtech.cl/products/gabinete-corsair-frame-4000d-black.jpg",
   "description": null,
   "specs": {
-    "Factor de forma": "Midi Tower",
-    "Efectivo/Transferencia": "$99.990",
-    "Tarjeta crédito/débito": "$104.490"
+    "Efectivo / Transferencia": "$91.951",
+    "Tarjeta crédito/débito": "$94.710"
   },
   "tags": [],
   "created_at": "2026-05-04 23:54:33",
-  "updated_at": "2026-06-25 18:26:58",
+  "updated_at": "2026-06-26 00:23:39",
   "prices": [
     {
       "product_id": 38997,
@@ -34,25 +33,6 @@
       "review_count": 0,
       "store_url": "www.mybox.cl",
       "full_url": "https://www.mybox.cl"
-    },
-    {
-      "product_id": 9787,
-      "store_id": "spdigital",
-      "price": 99990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/gabinete-gamer-corsair-4000d-frame-mid-tower-blanco-modular-vidrio-templado",
-      "store_name": "SP Digital",
-      "price_card": 104490,
-      "price_specs": {
-        "Transferencia / Efectivo": "$99.990",
-        "Webpay / Tarjeta": "$104.490"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -79,7 +59,13 @@
       "store_name": "MyBox",
       "date": "2026-06-25",
       "price": 91951
+    },
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-06-26",
+      "price": 91951
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

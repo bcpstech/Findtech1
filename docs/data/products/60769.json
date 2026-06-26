@@ -13,50 +13,31 @@
     "Velocidad": "6000 MHz",
     "Latencia": "CL32",
     "Iluminación": "RGB",
-    "Transferencia / Efectivo": "$833.130",
-    "Tarjeta crédito/débito": "$878.950"
+    "Transferencia / Efectivo": "$849.640",
+    "Tarjeta crédito/débito": "$896.370"
   },
   "tags": [],
   "created_at": "2026-06-08 20:57:34",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 60769,
       "store_id": "centrale",
-      "price": 706790,
+      "price": 743480,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-48gb-ddr5-6000mt-s-cl32-kingston-fury-renegade-silver-black-xmp/",
       "store_name": "Centrale",
-      "price_card": 745663,
+      "price_card": 784371,
       "price_specs": {
-        "Transferencia / Efectivo": "$706.790",
-        "Tarjetas de Crédito / Débito": "$745.663"
+        "Transferencia / Efectivo": "$743.480",
+        "Tarjetas de Crédito / Débito": "$784.371"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 72047,
-      "store_id": "spdigital",
-      "price": 804748,
-      "price_normal": 889220,
-      "discount_pct": 9,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/kingston-fury-ddr5-sdram-48gb-6000mts-ddr5-cl32-dimm-r",
-      "store_name": "SP Digital",
-      "price_card": 840962,
-      "price_specs": {
-        "Transferencia / Efectivo": "$804.748",
-        "Webpay / Tarjeta": "$840.962"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -77,7 +58,19 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 706790
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 743480
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 743480
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-26"
 }

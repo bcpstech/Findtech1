@@ -8,15 +8,15 @@
   "image_url": "https://images.findtech.cl/products/unidad-ssd-western-digital-green-sn3000-de-500gb-nvme-4-0-m-2-2280-hasta-4000mb-s.jpg",
   "description": null,
   "specs": {
-    "Capacidad": "500 GB",
+    "Capacidad": "2 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Efectivo / Transferencia": "$109.440",
-    "Tarjeta crédito/débito": "$115.240"
+    "Transferencia / Efectivo": "$381.410",
+    "Tarjeta crédito/débito": "$402.390"
   },
   "tags": [],
   "created_at": "2026-05-04 01:25:25",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 32010,
@@ -36,6 +36,25 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1525,
+      "store_id": "centrale",
+      "price": 381410,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/ssd-western-digital-green-sn3000-2tb-m-2-nvme-pcie-4-0-5000mb-s/",
+      "store_name": "Centrale",
+      "price_card": 402388,
+      "price_specs": {
+        "Transferencia / Efectivo": "$381.410",
+        "Tarjetas de Crédito / Débito": "$402.388"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -62,7 +81,13 @@
       "store_name": "Winpy",
       "date": "2026-06-25",
       "price": 109440
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 109440
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

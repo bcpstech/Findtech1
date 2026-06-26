@@ -11,26 +11,26 @@
     "Frecuencia base": "5.5 GHz",
     "Caché L3": "30 MB",
     "Socket": "LGA1851",
-    "Efectivo / Transferencia": "$384.864",
-    "Tarjeta crédito/débito": "$405.262"
+    "Efectivo / Transferencia": "$362.976",
+    "Tarjeta crédito/débito": "$382.214"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:57",
-  "updated_at": "2026-06-09 02:22:21",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 316,
       "store_id": "centrale",
-      "price": 357810,
+      "price": 354300,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265k-20-nucleos-3-9ghz-a-5-5ghz-lga-1851/",
       "store_name": "Centrale",
-      "price_card": 377490,
+      "price_card": 373787,
       "price_specs": {
-        "Transferencia / Efectivo": "$357.810",
-        "Tarjetas de Crédito / Débito": "$377.490"
+        "Transferencia / Efectivo": "$354.300",
+        "Tarjetas de Crédito / Débito": "$373.787"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,16 +40,16 @@
     {
       "product_id": 31911,
       "store_id": "winpy",
-      "price": 384864,
+      "price": 362976,
       "price_normal": null,
-      "discount_pct": 21,
+      "discount_pct": 26,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-ultra-7-265k-lga1851-3-3-5-5-ghz-8-p-cores-12-e-cores-30mb-cache/",
       "store_name": "Winpy",
-      "price_card": 405262,
+      "price_card": 382214,
       "price_specs": {
-        "Transferencia o Depósito": "$384.864",
-        "Otros medios de pago": "$405.262"
+        "Transferencia o Depósito": "$362.976",
+        "Otros medios de pago": "$382.214"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -69,7 +69,25 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 384864
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 362976
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 362976
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 362976
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-26"
 }

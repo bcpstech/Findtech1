@@ -5,25 +5,30 @@
   "brand": "Aorus",
   "name": "Fuente de Poder 1000W Gigabyte AORUS ELITE P1000W 80+ Platinum PG5",
   "slug": "fuente-de-poder-1000w-gigabyte-aorus-elite-p1000w-80-platinum-pg5",
-  "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-1000W-Gigabyte-AORUS-ELITE-P1000W-80-Platinum-PG5-1.webp",
+  "image_url": "https://images.findtech.cl/products/fuente-de-poder-1000w-gigabyte-aorus-elite-p1000w-80-platinum-pg5.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$169.000",
-    "Tarjetas de Crédito / Débito": "$178.300"
+    "Transferencia / Efectivo": "$169.010",
+    "Tarjeta crédito/débito": "$178.310"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:52",
-  "updated_at": "2026-04-27 22:15:16",
+  "updated_at": "2026-06-26 00:07:18",
   "prices": [
     {
       "product_id": 1712,
       "store_id": "centrale",
-      "price": 169000,
+      "price": 169010,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-1000w-gigabyte-aorus-elite-p1000w-80-platinum-pg5/",
       "store_name": "Centrale",
+      "price_card": 178306,
+      "price_specs": {
+        "Transferencia / Efectivo": "$169.010",
+        "Tarjetas de Crédito / Débito": "$178.306"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
@@ -34,15 +39,33 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 169000
+      "date": "2026-06-08",
+      "price": 169010
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 169000
+      "date": "2026-06-09",
+      "price": 169010
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 169010
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 169010
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 169010
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-26"
 }

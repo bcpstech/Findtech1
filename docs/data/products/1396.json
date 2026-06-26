@@ -5,7 +5,7 @@
   "brand": "Gigabyte",
   "name": "Placa Madre B760M GAMING PLUS WIFI DDR4 (Micro ATX, LGA 1700, DDR4, WiFi 6)",
   "slug": "placa-madre-b760m-gaming-plus-wifi-ddr4-micro-atx-lga-1700-ddr4-wifi-6",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-B760M-GAMING-PLUS-WIFI-DDR4-Micro-ATX-LGA-1700-DDR4-WiFi-6-1.webp",
+  "image_url": "https://images.findtech.cl/products/placa-madre-b760m-gaming-plus-wifi-ddr4-micro-atx-lga-1700-ddr4-wifi-6.webp",
   "description": null,
   "specs": {
     "Socket": "LGA1700",
@@ -17,18 +17,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 1396,
       "store_id": "centrale",
       "price": 164690,
-      "price_card": 173748,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-b760m-gaming-plus-wifi-ddr4-micro-atx-lga-1700-ddr4-wifi-6/",
       "store_name": "Centrale",
+      "price_card": 173748,
       "price_specs": {
         "Transferencia / Efectivo": "$164.690",
         "Tarjetas de Crédito / Débito": "$173.748"
@@ -39,6 +39,37 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 164690
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 164690
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 164690
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 164690
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 164690
+    }
+  ],
+  "scraped_at": "2026-06-26"
 }

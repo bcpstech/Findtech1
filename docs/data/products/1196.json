@@ -1,42 +1,94 @@
 {
   "id": 1196,
-  "external_id": "centrale_fuente-de-poder-2200w-seasonic-2-x-pcie-5-1-full-modular-80-platinum-12y",
-  "category_id": "psu",
-  "brand": "Seasonic",
-  "name": "Fuente de Poder 2200W Seasonic (2 x PCIe 5.1, Full Modular, 80+ Platinum, 12Y)",
-  "slug": "fuente-de-poder-2200w-seasonic-2-x-pcie-5-1-full-modular-80-platinum-12y",
-  "image_url": "https://centrale.cl/wp-content/uploads/Fuente-de-Poder-2200W-Seasonic-2-x-PCIe-5.1-Full-Modular-80-Platinum-12_Rz8NQQY.webp",
+  "external_id": "centrale_tarjeta-grafica-msi-rtx-5070-12gb-gddr7-world-of-warcraft-midnight-light",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "Tarjeta Gráfica MSI RTX 5070 12GB GDDR7 World of Warcraft Midnight Light",
+  "slug": "tarjeta-grafica-msi-rtx-5070-12gb-gddr7-world-of-warcraft-midnight-light",
+  "image_url": "https://images.findtech.cl/products/tarjeta-grafica-msi-rtx-5070-12gb-gddr7-world-of-warcraft-midnight-light.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$788.430",
-    "Tarjetas de Crédito / Débito": "$831.790"
+    "VRAM": "12 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "192-bit",
+    "Arquitectura": "Blackwell",
+    "Transferencia / Efectivo": "$934.970",
+    "Tarjeta crédito/débito": "$986.390"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:37:46",
-  "updated_at": "2026-04-25 19:37:46",
+  "created_at": "2026-04-26 20:37:32",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 1196,
       "store_id": "centrale",
-      "price": 788430,
+      "price": 934970,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-2200w-seasonic-2-x-pcie-5-1-full-modular-80-platinum-12y/",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5070-12gb-gddr7-world-of-warcraft-midnight-light/",
       "store_name": "Centrale",
+      "price_card": 986393,
+      "price_specs": {
+        "Transferencia / Efectivo": "$934.970",
+        "Tarjetas de Crédito / Débito": "$986.393"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 77780,
+      "store_id": "winpy",
+      "price": 988000,
+      "price_normal": null,
+      "discount_pct": 17,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/combo-msi-tarjeta-grafica-rtx-5070-wow-light-de-12gb-fuente-de-poder-mag-de-850w/",
+      "store_name": "Winpy",
+      "price_card": 1040364,
+      "price_specs": {
+        "Transferencia o Depósito": "$988.000",
+        "Otros medios de pago": "$1.040.364"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-25",
-      "price": 788430
+      "date": "2026-06-08",
+      "price": 948800
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 950490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 937490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 934970
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 934970
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-06-26"
 }

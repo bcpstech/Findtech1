@@ -5,29 +5,31 @@
   "brand": "Intel",
   "name": "Procesador Intel Core i7-14700 (LGA1700, 2.1GHz a 5.4 GHz, 20 Nucleos, 28 Hilos)",
   "slug": "procesador-intel-core-i7-14700-lga1700-2-1ghz-a-5-4-ghz-20-nucleos-28-hilos",
-  "image_url": "https://centrale.cl/wp-content/uploads/Intel-Procesador-Core-I7-14700-S-1700-2.10Ghz-20-Core-33Mb-Smart-Cache_seMK1Ds-1.webp",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i7-14700-lga1700-2-1ghz-a-5-4-ghz-20-nucleos-28-hilos.webp",
   "description": null,
   "specs": {
     "Frecuencia base": "2.1 GHz",
     "Socket": "LGA1700",
-    "Transferencia / Efectivo": "$483.410",
-    "Tarjeta crédito/débito": "$510.000"
+    "Transferencia / Efectivo": "$438.450",
+    "Tarjeta crédito/débito": "$462.560"
   },
   "tags": [],
   "created_at": "2026-04-26 16:25:59",
-  "updated_at": "2026-05-03 22:40:02",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 319,
       "store_id": "centrale",
-      "price": 483410,
+      "price": 438450,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700-lga1700-2-1ghz-a-5-4-ghz-20-nucleos-28-hilos/",
       "store_name": "Centrale",
+      "price_card": 462565,
       "price_specs": {
-        "Transferencia / Efectivo": "$483.410"
+        "Transferencia / Efectivo": "$438.450",
+        "Tarjetas de Crédito / Débito": "$462.565"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,27 +41,33 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 447050
+      "date": "2026-06-08",
+      "price": 438920
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 446550
+      "date": "2026-06-09",
+      "price": 438920
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-05-01",
-      "price": 4834
+      "date": "2026-06-20",
+      "price": 410820
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-05-03",
-      "price": 483410
+      "date": "2026-06-25",
+      "price": 438450
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 438450
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-06-26"
 }

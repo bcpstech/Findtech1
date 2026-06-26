@@ -10,28 +10,27 @@
   "specs": {
     "VRAM": "8 GB",
     "Tipo memoria": "GDDR7",
-    "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo/Transferencia": "$474.577",
-    "Tarjeta crédito/débito": "$495.933"
+    "Transferencia / Efectivo": "$490.560",
+    "Tarjeta crédito/débito": "$517.540"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:10",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 31859,
       "store_id": "winpy",
-      "price": 463296,
+      "price": 470592,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-zotac-geforce-rtx-5060-twin-edge-oc-de-8gb-gddr7/",
       "store_name": "Winpy",
-      "price_card": 487851,
+      "price_card": 495533,
       "price_specs": {
-        "Transferencia o Depósito": "$463.296",
-        "Otros medios de pago": "$487.851"
+        "Transferencia o Depósito": "$470.592",
+        "Otros medios de pago": "$495.533"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,58 +38,18 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 2601,
-      "store_id": "trulustore",
-      "price": 469390,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-8gb-twin-edge-oc/",
-      "store_name": "TruluStore",
-      "price_card": 483472,
-      "khipu_price": 478778,
-      "price_specs": {
-        "Efectivo / Transferencia": "$469.390",
-        "Khipu": "$478.778",
-        "Tarjeta crédito/débito": "$483.472"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
-    },
-    {
-      "product_id": 9583,
-      "store_id": "spdigital",
-      "price": 474577,
-      "price_normal": 586110,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/zotac-gaming-geforce-rtx-5060-twin-edge",
-      "store_name": "SP Digital",
-      "price_card": 495933,
-      "price_specs": {
-        "Transferencia / Efectivo": "$474.577",
-        "Webpay / Tarjeta": "$495.933"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
       "product_id": 1237,
       "store_id": "centrale",
-      "price": 485890,
+      "price": 490560,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-nvidia-geforce-rtx-5060-twin-edge-oc-8gb-gddr7/",
       "store_name": "Centrale",
-      "price_card": 512614,
+      "price_card": 517541,
       "price_specs": {
-        "Transferencia / Efectivo": "$485.890",
-        "Tarjetas de Crédito / Débito": "$512.614"
+        "Transferencia / Efectivo": "$490.560",
+        "Tarjetas de Crédito / Débito": "$517.541"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -116,7 +75,19 @@
       "store_name": "Winpy",
       "date": "2026-06-20",
       "price": 463296
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 470592
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 470592
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-26"
 }

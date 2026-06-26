@@ -9,16 +9,14 @@
   "description": null,
   "specs": {
     "Socket": "STR5",
-    "Factor de forma": "E-ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Slots M.2": "0",
-    "Efectivo/Transferencia": "$1.309.000",
-    "Tarjeta crédito/débito": "$1.348.270"
+    "Transferencia / Efectivo": "$1.107.990",
+    "Tarjeta crédito/débito": "$1.168.930"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 1390,
@@ -38,25 +36,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 643,
-      "store_id": "n1g",
-      "price": 1309000,
-      "price_normal": 1377895,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3570-gigabyte-trx50-ai-top-str5-amd-trx50-eatx-ddr5-pcie-50-m2-pcie-50-usb4-type-c-wi-fi-7-marvell-10gbe.html",
-      "store_name": "N1G",
-      "price_card": 1378377,
-      "price_specs": {
-        "Efectivo/Transferencia": "$1.309.000",
-        "Tarjeta crédito/débito": "$1.378.377"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -83,7 +62,13 @@
       "store_name": "Centrale",
       "date": "2026-06-25",
       "price": 1107990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 1107990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

@@ -1,43 +1,76 @@
 {
   "id": 1475,
-  "external_id": "dust2_procesador-amd-ryzen-5-7600-6-nucleos-3-8ghz-am5",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 5 7600 6 Nucleos 3.8Ghz AM5",
-  "slug": "procesador-amd-ryzen-5-7600-6-nucleos-3-8ghz-am5",
-  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-5-7600-6-nucleos-3-8ghz-am5.jpg",
+  "external_id": "centrale_memoria-ram-32gb-ddr4-3600mt-s-cl18-kingston-fury-renegade-rgb-black",
+  "category_id": "ram",
+  "brand": "Kingston",
+  "name": "Memoria RAM 32GB DDR4 3600MT/s CL18 Kingston Fury Renegade RGB Black",
+  "slug": "memoria-ram-32gb-ddr4-3600mt-s-cl18-kingston-fury-renegade-rgb-black",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-32gb-ddr4-3600mt-s-cl18-kingston-fury-renegade-rgb-black.webp",
   "description": null,
   "specs": {
-    "Marca": "AMD",
-    "Transferencia/Efectivo": "$199.500",
-    "Webpay / Tarjeta crédito-débito": "$205.490"
+    "Capacidad": "32 GB",
+    "Tipo": "DDR4",
+    "Velocidad": "3600 MHz",
+    "Latencia": "CL18",
+    "Iluminación": "RGB",
+    "Transferencia / Efectivo": "$361.360",
+    "Tarjeta crédito/débito": "$381.230"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:41:18",
-  "updated_at": "2026-04-25 19:41:18",
+  "created_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 1475,
-      "store_id": "dust2",
-      "price": 199500,
+      "store_id": "centrale",
+      "price": 361360,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-5-7600-6-nucleos-3-8ghz-am5/",
-      "store_name": "Dust2",
+      "product_url": "https://centrale.cl/producto/memoria-ram-32gb-ddr4-3600mt-s-cl18-kingston-fury-renegade-rgb-black/",
+      "store_name": "Centrale",
+      "price_card": 381235,
+      "price_specs": {
+        "Transferencia / Efectivo": "$361.360",
+        "Tarjetas de Crédito / Débito": "$381.235"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 199500
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 380250
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 380250
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 361170
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 361360
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 361360
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-06-26"
 }

@@ -13,46 +13,65 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$890.720",
-    "Tarjeta crédito/débito": "$937.928"
+    "Transferencia / Efectivo": "$877.160",
+    "Tarjeta crédito/débito": "$925.400"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:48",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 31878,
       "store_id": "winpy",
-      "price": 890720,
-      "price_card": 937928,
+      "price": 851808,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-zotac-geforce-rtx-5070-solid-oc-de-12gb-gddr7/",
       "store_name": "Winpy",
+      "price_card": 896954,
       "price_specs": {
-        "Transferencia o Depósito": "$890.720",
-        "Otros medios de pago": "$937.928"
+        "Transferencia o Depósito": "$851.808",
+        "Otros medios de pago": "$896.954"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1244,
+      "store_id": "centrale",
+      "price": 877160,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bit/",
+      "store_name": "Centrale",
+      "price_card": 925404,
+      "price_specs": {
+        "Transferencia / Efectivo": "$877.160",
+        "Tarjetas de Crédito / Débito": "$925.404"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-04",
-      "price": 883424
+      "date": "2026-06-25",
+      "price": 851808
     },
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-05",
-      "price": 890720
+      "date": "2026-06-26",
+      "price": 851808
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-06-26"
 }

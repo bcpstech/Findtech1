@@ -10,26 +10,26 @@
   "specs": {
     "Capacidad": "512 GB",
     "Interfaz": "NVMe PCIe",
-    "Efectivo / Transferencia": "$87.552",
-    "Tarjeta crédito/débito": "$92.192"
+    "Efectivo / Transferencia": "$94.848",
+    "Tarjeta crédito/débito": "$99.875"
   },
   "tags": [],
   "created_at": "2026-05-04 01:25:13",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 32004,
       "store_id": "winpy",
-      "price": 87552,
-      "price_card": 92192,
+      "price": 94848,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/unidad-de-estado-solido-adata-legend-710-de-512gb-nvme-pcie-gen3-hasta-2-400-mb-s/",
       "store_name": "Winpy",
+      "price_card": 99875,
       "price_specs": {
-        "Transferencia o Depósito": "$87.552",
-        "Otros medios de pago": "$92.192"
+        "Transferencia o Depósito": "$94.848",
+        "Otros medios de pago": "$99.875"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,15 +41,9 @@
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-04",
-      "price": 87552
-    },
-    {
-      "store_id": "winpy",
-      "store_name": "Winpy",
-      "date": "2026-05-05",
-      "price": 87552
+      "date": "2026-06-26",
+      "price": 94848
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-06-26"
 }

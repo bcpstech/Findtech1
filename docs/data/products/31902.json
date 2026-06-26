@@ -12,26 +12,26 @@
     "Socket": "LGA1700",
     "Generación": "Intel 12ª Gen (Alder Lake)",
     "Gráficos integrados": "No",
-    "Efectivo / Transferencia": "$292.448",
-    "Tarjeta crédito/débito": "$307.948"
+    "Efectivo / Transferencia": "$344.128",
+    "Tarjeta crédito/débito": "$362.367"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:39",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 31902,
       "store_id": "winpy",
-      "price": 292448,
+      "price": 344128,
       "price_normal": null,
-      "discount_pct": 21,
+      "discount_pct": 7,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i7-12700f-alder-lake-lga1700-12-cores-20-hilos-3-6-4-9-ghz-sin-video/",
       "store_name": "Winpy",
-      "price_card": 307948,
+      "price_card": 362367,
       "price_specs": {
-        "Transferencia o Depósito": "$292.448",
-        "Otros medios de pago": "$307.948"
+        "Transferencia o Depósito": "$344.128",
+        "Otros medios de pago": "$362.367"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 312,
       "store_id": "centrale",
-      "price": 364680,
+      "price": 355310,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-12700f-2-1-ghz-12-core-lga-1700/",
       "store_name": "Centrale",
-      "price_card": 384737,
+      "price_card": 374852,
       "price_specs": {
-        "Transferencia / Efectivo": "$364.680",
-        "Tarjetas de Crédito / Débito": "$384.737"
+        "Transferencia / Efectivo": "$355.310",
+        "Tarjetas de Crédito / Débito": "$374.852"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -70,7 +70,25 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 292448
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 344128
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 344128
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 344128
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-26"
 }

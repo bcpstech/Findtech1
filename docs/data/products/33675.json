@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:54:32",
-  "updated_at": "2026-06-20 01:03:22",
+  "updated_at": "2026-06-26 00:40:18",
   "prices": [
     {
       "product_id": 33675,
@@ -26,7 +26,7 @@
       "store_name": "Infor-Ingen",
       "price_card": 89507,
       "price_specs": {
-        "Efectivo/Transferencia": "$86.900",
+        "Efectivo / Transferencia": "$86.900",
         "Tarjeta crédito/débito": "$89.507"
       },
       "store_rating": 0,
@@ -41,7 +41,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-20",
       "price": 86900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-26",
+      "price": 86900
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-26"
 }

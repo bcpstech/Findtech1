@@ -5,55 +5,67 @@
   "brand": "Cooler Master",
   "name": "Gabinete Gamer Cooler Master Elite 502 ( E-ATX, 3 Vent ARGB Incluídos )",
   "slug": "gabinete-gamer-cooler-master-elite-502-e-atx-3-vent-argb-incluidos",
-  "image_url": "https://centrale.cl/wp-content/uploads/Gabinete-Gamer-Cooler-Master-Elite-502-E-ATX-3-Vent-ARGB-IncluC3ADdos-.webp",
+  "image_url": "https://images.findtech.cl/products/gabinete-gamer-cooler-master-elite-502-e-atx-3-vent-argb-incluidos.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$64.820",
-    "Tarjeta crédito/débito": "$68.390"
+    "Transferencia / Efectivo": "$66.820",
+    "Tarjeta crédito/débito": "$70.500"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-05-08 22:48:20",
+  "updated_at": "2026-06-26 00:07:43",
   "prices": [
     {
       "product_id": 1730,
       "store_id": "centrale",
-      "price": 64820,
-      "price_card": 68385,
+      "price": 66820,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-gamer-cooler-master-elite-502-e-atx-3-vent-argb-incluidos/",
       "store_name": "Centrale",
+      "price_card": 70495,
       "price_specs": {
-        "Transferencia / Efectivo": "$64.820",
-        "Tarjetas de Crédito / Débito": "$68.385"
+        "Transferencia / Efectivo": "$66.820",
+        "Tarjetas de Crédito / Débito": "$70.495"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9744,
-      "store_id": "spdigital",
-      "price": 69995,
-      "price_card": 73145,
-      "price_normal": 109990,
-      "discount_pct": 36,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/elite-502-argb-fan4",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$69.995",
-        "Webpay / Tarjeta": "$73.145"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 66890
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 66890
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 65550
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 66820
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 66820
+    }
+  ],
+  "scraped_at": "2026-06-26"
 }

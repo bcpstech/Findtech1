@@ -11,69 +11,31 @@
     "Capacidad": "1 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "2.5\"",
-    "Transferencia / Efectivo": "$214.490",
-    "Tarjeta crédito/débito": "$226.290"
+    "Transferencia / Efectivo": "$205.750",
+    "Tarjeta crédito/débito": "$217.070"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 1523,
       "store_id": "centrale",
-      "price": 214490,
+      "price": 205750,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ssd-sandisk-plus-1tb-2-5-sata-iii-545mb-s-3d-nand/",
       "store_name": "Centrale",
-      "price_card": 226287,
+      "price_card": 217066,
       "price_specs": {
-        "Transferencia / Efectivo": "$214.490",
-        "Tarjetas de Crédito / Débito": "$226.287"
+        "Transferencia / Efectivo": "$205.750",
+        "Tarjetas de Crédito / Débito": "$217.066"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 56903,
-      "store_id": "winpy",
-      "price": 214624,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/disco-ssd-sandisk-plus-1tb-sata-hasta-545-mb-s/",
-      "store_name": "Winpy",
-      "price_card": 225999,
-      "price_specs": {
-        "Transferencia o Depósito": "$214.624",
-        "Otros medios de pago": "$225.999"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 72103,
-      "store_id": "spdigital",
-      "price": 218592,
-      "price_normal": 241510,
-      "discount_pct": 9,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/unidad-ssd-sandisk-plus-1tb-sata-iii-25-545mbs-para-laptop-y-pc",
-      "store_name": "SP Digital",
-      "price_card": 228429,
-      "price_specs": {
-        "Transferencia / Efectivo": "$218.592",
-        "Webpay / Tarjeta": "$228.429"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -94,7 +56,19 @@
       "store_name": "Centrale",
       "date": "2026-06-20",
       "price": 214490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 205750
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 205750
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-26"
 }

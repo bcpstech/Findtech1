@@ -11,46 +11,102 @@
     "Socket": "LGA1700",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR4",
-    "Efectivo / Transferencia": "$85.120",
-    "Tarjeta crédito/débito": "$89.631"
+    "Transferencia / Efectivo": "$79.250",
+    "Tarjeta crédito/débito": "$83.610"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:28",
-  "updated_at": "2026-05-05 21:44:01",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 31925,
       "store_id": "winpy",
-      "price": 85120,
-      "price_card": 89631,
+      "price": 77824,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-h610m-f-d4-r2-0-lga1700-ddr4-3200mhz-m-2-hdmi-micro-atx/",
       "store_name": "Winpy",
+      "price_card": 81949,
       "price_specs": {
-        "Transferencia o Depósito": "$85.120",
-        "Otros medios de pago": "$89.631"
+        "Transferencia o Depósito": "$77.824",
+        "Otros medios de pago": "$81.949"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1375,
+      "store_id": "centrale",
+      "price": 79250,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-h610m-f-d4-lga1700-micro-atx-ddr4-m-2-pcie-4-0/",
+      "store_name": "Centrale",
+      "price_card": 83609,
+      "price_specs": {
+        "Transferencia / Efectivo": "$79.250",
+        "Tarjetas de Crédito / Débito": "$83.609"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 23544,
+      "store_id": "alltec",
+      "price": 84900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/para-intel/2484-mb-asus-prime-h610m-f-d4-r20-lga1700-ddr4-intel-141312-generacion.html",
+      "store_name": "Alltec",
+      "price_card": 87447,
+      "price_specs": {
+        "Efectivo/Transferencia": "$84.900",
+        "Tarjeta crédito/débito": "$87.447"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-04",
-      "price": 72352
+      "date": "2026-06-08",
+      "price": 77824
     },
     {
       "store_id": "winpy",
       "store_name": "Winpy",
-      "date": "2026-05-05",
-      "price": 85120
+      "date": "2026-06-09",
+      "price": 77824
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 77824
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 77824
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 77824
     }
   ],
-  "scraped_at": "2026-05-05"
+  "scraped_at": "2026-06-26"
 }

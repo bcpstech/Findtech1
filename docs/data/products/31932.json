@@ -9,16 +9,15 @@
   "description": null,
   "specs": {
     "Socket": "AM4",
-    "Factor de forma": "micro ATX",
+    "Factor de forma": "Micro-ATX",
     "Memoria": "DDR4",
     "WiFi": "Integrado",
-    "Chipset": "AMD B550",
-    "Efectivo/Transferencia": "$114.995",
-    "Tarjeta crédito/débito": "$120.170"
+    "Transferencia / Efectivo": "$109.510",
+    "Tarjeta crédito/débito": "$115.530"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:42",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 31932,
@@ -97,25 +96,6 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 9451,
-      "store_id": "spdigital",
-      "price": 114995,
-      "price_normal": 169990,
-      "discount_pct": 32,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/placa-madre-gigabyte-b550m-ds3h-ac-r2-socket-amd-am4-wi-fi-pcie-40-rgb-fusion-micro-atx",
-      "store_name": "SP Digital",
-      "price_card": 120170,
-      "price_specs": {
-        "Transferencia / Efectivo": "$114.995",
-        "Webpay / Tarjeta": "$120.170"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
       "product_id": 33132,
       "store_id": "infor-ingen",
       "price": 129900,
@@ -126,7 +106,7 @@
       "store_name": "Infor-Ingen",
       "price_card": 133797,
       "price_specs": {
-        "Efectivo/Transferencia": "$129.900",
+        "Efectivo / Transferencia": "$129.900",
         "Tarjeta crédito/débito": "$133.797"
       },
       "store_rating": 0,
@@ -159,7 +139,13 @@
       "store_name": "Winpy",
       "date": "2026-06-25",
       "price": 86336
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 86336
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

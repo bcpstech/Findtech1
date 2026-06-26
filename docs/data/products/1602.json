@@ -1,43 +1,74 @@
 {
   "id": 1602,
-  "external_id": "dust2_disco-duro-ssd-m-2-kingspec-xg7000-1tb-nvme-gen4-pcle-4-0",
+  "external_id": "centrale_disco-ssd-960gb-kingston-a400-2-5-sata3",
   "category_id": "storage",
-  "brand": "Genérico",
-  "name": "Disco Duro SSD M.2 KingSpec XG7000 1TB NVMe Gen4 PCle 4.0",
-  "slug": "disco-duro-ssd-m-2-kingspec-xg7000-1tb-nvme-gen4-pcle-4-0",
-  "image_url": "https://images.findtech.cl/products/disco-duro-ssd-m-2-kingspec-xg7000-1tb-nvme-gen4-pcle-4-0.jpg",
+  "brand": "Kingston",
+  "name": "Disco SSD 960GB Kingston A400 2.5″ SATA3",
+  "slug": "disco-ssd-960gb-kingston-a400-2-5-sata3",
+  "image_url": "https://images.findtech.cl/products/disco-ssd-960gb-kingston-a400-2-5-sata3.webp",
   "description": null,
   "specs": {
-    "Marca": "KingSpec",
-    "Transferencia/Efectivo": "$118.440",
-    "Webpay / Tarjeta crédito-débito": "$121.990"
+    "Capacidad": "960 GB",
+    "Interfaz": "SATA III",
+    "Factor de forma": "2.5\"",
+    "Transferencia / Efectivo": "$164.640",
+    "Tarjeta crédito/débito": "$173.700"
   },
   "tags": [],
-  "created_at": "2026-04-25 21:01:23",
-  "updated_at": "2026-04-25 21:01:23",
+  "created_at": "2026-04-26 20:37:43",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 1602,
-      "store_id": "dust2",
-      "price": 118440,
+      "store_id": "centrale",
+      "price": 164640,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/disco-duro-ssd-m-2-kingspec-xg7000-1tb-nvme-gen4-pcle-4-0/",
-      "store_name": "Dust2",
+      "product_url": "https://centrale.cl/producto/disco-ssd-960gb-kingston-a400-2-5%e2%80%b3-sata3/",
+      "store_name": "Centrale",
+      "price_card": 173695,
+      "price_specs": {
+        "Transferencia / Efectivo": "$164.640",
+        "Tarjetas de Crédito / Débito": "$173.695"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 118440
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 173610
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 173610
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 154920
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 164640
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 164640
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-06-26"
 }

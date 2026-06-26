@@ -8,21 +8,16 @@
   "image_url": "https://images.findtech.cl/products/procesador-intel-core-i7-12700kf-alder-lake-lga1700-12-cores-20-hilos-3-6-5-0-ghz-sin-video.jpg",
   "description": null,
   "specs": {
-    "Frecuencia base": "3.6 GHz",
-    "Socket": "LGA 1700",
-    "Familia": "Intel® Core™ i7 de 12ma Generación",
-    "Núcleos": "12",
-    "Hilos": "20",
-    "Frecuencia turbo": "5 GHz",
-    "Caché L3": "25 MB",
-    "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
-    "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$357.539",
-    "Tarjeta crédito/débito": "$373.628"
+    "Frecuencia base": "5.0 GHz",
+    "Socket": "LGA1700",
+    "Generación": "Intel 12ª Gen (Alder Lake)",
+    "Gráficos integrados": "No",
+    "Efectivo / Transferencia": "$334.400",
+    "Tarjeta crédito/débito": "$352.123"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:33",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 31899,
@@ -61,25 +56,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9421,
-      "store_id": "spdigital",
-      "price": 357539,
-      "price_normal": 441570,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/procesador-intel-core-i7-12700kf-12o-gen-36ghz-hasta-5ghz-socket-lga1700-sin-gráficas",
-      "store_name": "SP Digital",
-      "price_card": 373628,
-      "price_specs": {
-        "Transferencia / Efectivo": "$357.539",
-        "Webpay / Tarjeta": "$373.628"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -106,7 +82,13 @@
       "store_name": "Winpy",
       "date": "2026-06-25",
       "price": 334400
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 334400
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

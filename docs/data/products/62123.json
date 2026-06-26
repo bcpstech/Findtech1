@@ -9,13 +9,13 @@
   "description": null,
   "specs": {
     "Marca": "Gigabyte",
-    "Modelo": "Waterforce X II 240",
-    "Efectivo / Transferencia": "$189.990",
-    "Tarjeta crédito/débito": "$195.690"
+    "Modelo": "GAMING 360 ARGB Negro",
+    "Efectivo / Transferencia": "$81.990",
+    "Tarjeta crédito/débito": "$84.450"
   },
   "tags": [],
   "created_at": "2026-06-08 21:08:18",
-  "updated_at": "2026-06-25 18:24:29",
+  "updated_at": "2026-06-26 00:20:25",
   "prices": [
     {
       "product_id": 62123,
@@ -54,6 +54,25 @@
       "review_count": 0,
       "store_url": "www.bcpstech.cl",
       "full_url": "https://bcpstech.cl"
+    },
+    {
+      "product_id": 38940,
+      "store_id": "mybox",
+      "price": 91191,
+      "price_normal": 95990,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/enfriamiento-refrigeracion/6077-refrigeracion-liquida-gigabyte-gaming-360-black-4719331555337.html",
+      "store_name": "MyBox",
+      "price_card": 93927,
+      "price_specs": {
+        "Efectivo/Transferencia": "$91.191",
+        "Tarjeta crédito/débito": "$93.927"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -80,7 +99,13 @@
       "store_name": "ProGaming",
       "date": "2026-06-25",
       "price": 75990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-06-26",
+      "price": 75990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-06-26"
 }

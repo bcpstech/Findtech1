@@ -10,23 +10,15 @@
   "specs": {
     "Núcleos": "6",
     "Hilos": "12",
-    "Frecuencia base": "3,9 GHz",
-    "Frecuencia turbo": "5,4 GHz",
-    "Socket": "AM5",
+    "Frecuencia base": "5.4 GHz",
+    "TDP": "65W",
     "Generación": "AMD Zen 5 (4nm)",
-    "Gráficos integrados": "AMD Radeon",
-    "Familia": "AMD Ryzen™ 5",
-    "Litografía": "4 nm",
-    "Incluye cooler": "No",
-    "Caché L3": "38 MB",
-    "TDP": "65 W",
-    "Memoria soportada": "DDR5-SDRAM",
-    "Efectivo/Transferencia": "$399.990",
-    "Tarjeta crédito/débito": "$417.990"
+    "Transferencia / Efectivo": "$224.190",
+    "Tarjeta crédito/débito": "$236.520"
   },
   "tags": [],
   "created_at": "2026-05-04 02:41:40",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 32921,
@@ -39,13 +31,32 @@
       "store_name": "Infor-Ingen",
       "price_card": 226497,
       "price_specs": {
-        "Efectivo/Transferencia": "$219.900",
+        "Efectivo / Transferencia": "$219.900",
         "Tarjeta crédito/débito": "$226.497"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
+    },
+    {
+      "product_id": 286,
+      "store_id": "centrale",
+      "price": 224190,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-9600x-6-cores-12-threads-3-9-a-5-4ghz-65w/",
+      "store_name": "Centrale",
+      "price_card": 236520,
+      "price_specs": {
+        "Transferencia / Efectivo": "$224.190",
+        "Tarjetas de Crédito / Débito": "$236.520"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 31893,
@@ -65,63 +76,6 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 2812,
-      "store_id": "alltec",
-      "price": 241200,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/amd/2268-amd-ryzen-5-9600x-39ghz-54ghz-turbo-six-core-tdp-65w-am5.html",
-      "store_name": "Alltec",
-      "price_card": 248436,
-      "price_specs": {
-        "Efectivo/Transferencia": "$241.200",
-        "Tarjeta crédito/débito": "$248.436"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
-    },
-    {
-      "product_id": 286,
-      "store_id": "centrale",
-      "price": 254880,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-9600x-6-cores-12-threads-3-9-a-5-4ghz-65w/",
-      "store_name": "Centrale",
-      "price_card": 268898,
-      "price_specs": {
-        "Transferencia / Efectivo": "$254.880",
-        "Tarjetas de Crédito / Débito": "$268.898"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9410,
-      "store_id": "spdigital",
-      "price": 399990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/amd-ryzen-5-9600x-6-core-processor",
-      "store_name": "SP Digital",
-      "price_card": 417990,
-      "price_specs": {
-        "Transferencia / Efectivo": "$399.990",
-        "Webpay / Tarjeta": "$417.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -142,7 +96,19 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-20",
       "price": 219900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-25",
+      "price": 219900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-26",
+      "price": 219900
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-06-26"
 }

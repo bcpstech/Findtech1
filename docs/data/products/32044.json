@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/gabinete-xtech-xtq-100-usb-2-0-microatx-fuente-600w.jpg",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$32.832",
-    "Tarjeta crédito/débito": "$34.572"
+    "Efectivo / Transferencia": "$34.656",
+    "Tarjeta crédito/débito": "$36.493"
   },
   "tags": [],
   "created_at": "2026-05-04 01:26:43",
-  "updated_at": "2026-06-09 03:07:23",
+  "updated_at": "2026-06-26 00:09:29",
   "prices": [
     {
       "product_id": 32044,
       "store_id": "winpy",
-      "price": 32832,
+      "price": 34656,
       "price_normal": null,
-      "discount_pct": 18,
+      "discount_pct": 14,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-xtech-xtq-100-usb-2-0-microatx-fuente-600w/",
       "store_name": "Winpy",
-      "price_card": 34572,
+      "price_card": 36493,
       "price_specs": {
-        "Transferencia o Depósito": "$32.832",
-        "Otros medios de pago": "$34.572"
+        "Transferencia o Depósito": "$34.656",
+        "Otros medios de pago": "$36.493"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -47,7 +47,25 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 32832
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 32224
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 34656
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 34656
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-26"
 }

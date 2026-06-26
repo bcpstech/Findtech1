@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:42:03",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 324,
       "store_id": "centrale",
-      "price": 640290,
-      "price_card": 675506,
-      "price_normal": 722900,
-      "discount_pct": 11,
+      "price": 625080,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-9-285k-socket-lga1851-24-nucleos-37-57ghz-36-tops/",
       "store_name": "Centrale",
+      "price_card": 659459,
       "price_specs": {
-        "Transferencia / Efectivo": "$640.290",
-        "Tarjetas de Crédito / Débito": "$675.506"
+        "Transferencia / Efectivo": "$625.080",
+        "Tarjetas de Crédito / Débito": "$659.459"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,34 +39,15 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 19,
-      "store_id": "n1g",
-      "price": 664900,
-      "price_card": 700140,
-      "price_normal": 699895,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3536-intel-core-ultra-9-285k-core-ultra-9-series-2-arrow-lake-24-core-8p16e-lga-1851-125w-bx80768285k.html",
-      "store_name": "N1G",
-      "price_specs": {
-        "Efectivo/Transferencia": "$664.900",
-        "Tarjeta crédito/débito": "$700.140"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
-    },
-    {
       "product_id": 1925,
       "store_id": "dust2",
       "price": 719990,
-      "price_card": 741590,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/procesador-intel-core-ultra-9-285k-hasta-5-7ghz-lga1851/",
       "store_name": "Dust2",
+      "price_card": 741590,
       "price_specs": {
         "Efectivo/Transferencia": "$719.990",
         "Tarjeta crédito/débito": "$741.590"
@@ -77,34 +58,15 @@
       "full_url": "https://www.dust2.gg"
     },
     {
-      "product_id": 13796,
-      "store_id": "cg",
-      "price": 768666,
-      "price_card": 809098,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-9-285k-3-7-ghz-24-core-lga1851/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$768.666",
-        "Webpay / Tarjeta": "$809.098"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
-    },
-    {
       "product_id": 38833,
       "store_id": "mybox",
       "price": 823241,
-      "price_card": 847938,
       "price_normal": 889990,
       "discount_pct": 7,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/procesador/5685-procesador-intel-core-ultra-i9-285k-lga-1851-5032037281928.html",
       "store_name": "MyBox",
+      "price_card": 847938,
       "price_specs": {
         "Efectivo/Transferencia": "$823.241",
         "Tarjeta crédito/débito": "$847.938"
@@ -115,6 +77,37 @@
       "full_url": "https://www.mybox.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-08",
+      "price": 719990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-09",
+      "price": 719990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-20",
+      "price": 719990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-25",
+      "price": 719990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-26",
+      "price": 719990
+    }
+  ],
+  "scraped_at": "2026-06-26"
 }

@@ -5,62 +5,72 @@
   "brand": "MSI",
   "name": "Tarjeta Gráfica MSI GeForce RTX 5090 VENTUS 3X OC 32GB GDDR7 512-Bit",
   "slug": "tarjeta-grafica-msi-geforce-rtx-5090-ventus-3x-oc-32gb-gddr7-512-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-MSI-GeForce-RTX-5090-VENTUS-3X-OC-32GB-GDDR7-512-Bit.webp",
+  "image_url": "https://images.findtech.cl/products/tarjeta-grafica-msi-geforce-rtx-5090-ventus-3x-oc-32gb-gddr7-512-bit.webp",
   "description": null,
   "specs": {
     "VRAM": "32 GB",
     "Tipo memoria": "GDDR7",
     "Bus de memoria": "512-bit",
+    "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$3.999.810",
-    "Tarjetas de Crédito / Débito": "$4.219.800"
+    "Transferencia / Efectivo": "$3.920.000",
+    "Tarjeta crédito/débito": "$4.135.600"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
     {
       "product_id": 1191,
       "store_id": "centrale",
-      "price": 3999810,
+      "price": 3920000,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5090-ventus-3x-oc-32gb-gddr7-512-bit/",
       "store_name": "Centrale",
+      "price_card": 4135600,
+      "price_specs": {
+        "Transferencia / Efectivo": "$3.920.000",
+        "Tarjetas de Crédito / Débito": "$4.135.600"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 1808,
-      "store_id": "dust2",
-      "price": 7378630,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/tarjeta-de-video-msi-geforce-rtx-5090-32g-lightning-z/",
-      "store_name": "Dust2",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 3999810
+      "date": "2026-06-08",
+      "price": 3920000
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 3999810
+      "date": "2026-06-09",
+      "price": 3920000
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 3920000
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 3920000
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 3920000
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-06-26"
 }

@@ -8,25 +8,35 @@
   "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-7-5700g-con-graficos-radeon-am4-8-cores-16-hilos-3-8-4-6ghz.jpg",
   "description": null,
   "specs": {
-    "Familia": "AMD Ryzen™ 7",
-    "Núcleos": "8",
+    "Frecuencia base": "4.6 GHz",
     "Socket": "AM4",
-    "Litografía": "7 nm",
-    "Incluye cooler": "Si",
-    "Frecuencia base": "3,8 GHz",
-    "Hilos": "16",
-    "Frecuencia turbo": "4,6 GHz",
-    "Caché L3": "16 MB",
-    "TDP": "65 W",
-    "Memoria soportada": "DDR4-SDRAM",
-    "Gráficos integrados": "AMD Radeon Graphics",
-    "Efectivo/Transferencia": "$214.995",
-    "Tarjeta crédito/débito": "$224.670"
+    "Gráficos integrados": "Sí",
+    "Efectivo / Transferencia": "$199.424",
+    "Tarjeta crédito/débito": "$209.993"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:11",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-06-26 00:48:39",
   "prices": [
+    {
+      "product_id": 1947,
+      "store_id": "dust2",
+      "price": 195990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-7-5700g-46-ghz-8-nucleos-radeon-vega-8/",
+      "store_name": "Dust2",
+      "price_card": 201870,
+      "price_specs": {
+        "Efectivo/Transferencia": "$195.990",
+        "Tarjeta crédito/débito": "$201.870"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
     {
       "product_id": 31888,
       "store_id": "winpy",
@@ -47,25 +57,6 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 2818,
-      "store_id": "alltec",
-      "price": 199900,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/amd/1655-amd-ryzen-7-5700g-38ghz-46ghz-turbo-octa-core-radeon-graphics-2000mhz-730143313377.html",
-      "store_name": "Alltec",
-      "price_card": 205897,
-      "price_specs": {
-        "Efectivo/Transferencia": "$199.900",
-        "Tarjeta crédito/débito": "$205.897"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
-    },
-    {
       "product_id": 280,
       "store_id": "centrale",
       "price": 205720,
@@ -83,44 +74,6 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9397,
-      "store_id": "spdigital",
-      "price": 214995,
-      "price_normal": 449990,
-      "discount_pct": 52,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-7-5700g-8-core-38ghz-max-boost-46ghz-socket-am4-radeon-vega-graphics",
-      "store_name": "SP Digital",
-      "price_card": 224670,
-      "price_specs": {
-        "Transferencia / Efectivo": "$214.995",
-        "Webpay / Tarjeta": "$224.670"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 1147,
-      "store_id": "cg",
-      "price": 221990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-7-5700g/",
-      "store_name": "CentralGamer",
-      "price_card": 233667,
-      "price_specs": {
-        "Efectivo/Transferencia": "$221.990",
-        "Webpay / Tarjeta": "$233.667"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -135,7 +88,25 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 199424
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 199424
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 199424
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 199424
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-06-26"
 }
