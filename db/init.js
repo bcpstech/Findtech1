@@ -130,7 +130,7 @@ const stores = [
   { id:'sipo',        name:'Sipo',         url:'sipo.cl',                       full_url:'https://sipo.cl',                   rating:0, review_count:0, description:'Tecnología y componentes PC en Chile.',                                    shipping:'24-72 hrs', payment:'Todos los medios',                founded:'2015' },
   { id:'megadrive',   name:'MegaDrive',    url:'www.megadrivestore.cl',          full_url:'https://www.megadrivestore.cl',      rating:0, review_count:0, description:'Hardware, componentes y accesorios para PC.',                              shipping:'24-72 hrs', payment:'Todos los medios',                founded:'2014' },
   { id:'infor-ingen', name:'Infor-Ingen',  url:'store.infor-ingen.com',         full_url:'https://store.infor-ingen.com',     rating:0, review_count:0, description:'Tienda de tecnología e informática.',                                      shipping:'24-72 hrs', payment:'Todos los medios',                founded:'2010' },
-  { id:'bcpstech',    name:'BCPS Tech',    url:'www.bcpstech.cl',               full_url:'https://bcpstech.cl',               rating:0, review_count:0, description:'Tienda gamer con componentes PC y periféricos.',                            shipping:'24-72 hrs', payment:'Transferencia, Débito, Crédito',  founded:'2026' },
+  { id:'bcpstech',    name:'BCPS Tech',    url:'www.bcpstech.cl',               full_url:'https://bcpstech.cl',               rating:0, review_count:0, description:'Tienda gamer con componentes PC, periféricos y accesorios.',              shipping:'24-72 hrs', payment:'Transferencia, Débito, Crédito',  founded:'2025' },
 ];
 
 const insertCategory = db.prepare(`
