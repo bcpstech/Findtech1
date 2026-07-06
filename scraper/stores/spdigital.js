@@ -51,6 +51,18 @@ const CATEGORIES = [
   { path: 'componentes-gabinetes-mid-tower--atx',    catId: 'case' },
   { path: 'componentes-gabinetes-micro-atx--mini-itx', catId: 'case' },
 
+  // PERIFÉRICOS — Monitores
+  { path: 'gaming-y-streaming-monitor-gamer',                              catId: 'monitor' },
+
+  // PERIFÉRICOS — Mouse, Teclado, Headset, Silla
+  { path: 'gaming-y-streaming-perifericos-gamer-mouse-gamer',              catId: 'periph' },
+  { path: 'gaming-y-streaming-perifericos-gamer-teclado-gamer',            catId: 'periph' },
+  { path: 'gaming-y-streaming-perifericos-gamer-audifonos-gamer',          catId: 'periph' },
+  { path: 'gaming-y-streaming-perifericos-gamer-kit-teclado--mouse-gamer', catId: 'periph' },
+  { path: 'gaming-y-streaming-silla-gamer',                                catId: 'periph' },
+  { path: 'computacion-perifericos-teclados',                              catId: 'periph' },
+  { path: 'computacion-perifericos-kit-teclado--mouse',                    catId: 'periph' },
+
   // PCs ARMADOS
   { path: 'gaming-y-streaming-pc-y-notebook-gamer-armados-sp-labs', catId: 'pc' },
 ];
@@ -248,7 +260,7 @@ class SPDigitalScraper extends BaseScraper {
     if (this.seenIds.has(item.id)) return;
     this.seenIds.add(item.id);
 
-    // Precio desde metadata: cash y other son precios SIN descuento (tachados)
+    // Precio desde metadata pricing (fuente de verdad)
     let price = null;
     let priceCard = null;
     let priceNormal = null;
@@ -256,25 +268,35 @@ class SPDigitalScraper extends BaseScraper {
       const pricingMeta = item.metadata?.find(m => m.key === 'pricing');
       if (pricingMeta) {
         const pObj = JSON.parse(pricingMeta.value)['sp-digital'];
-        priceNormal = pObj?.cash ? Math.round(pObj.cash) : null;
+        // cash/other del metadata es el precio SIN descuento (precio normal/tachado)
+        priceNormal = pObj?.cash  ? Math.round(pObj.cash)  : null;
+        priceCard   = pObj?.other ? Math.round(pObj.other) : null;
       }
     } catch(e) {}
 
-    // priceRange.start.gross.amount = precio "otros medios" CON descuento aplicado
-    // SP Digital no expone precio transferencia directamente: es priceRange / 1.045
+    // El precio ACTUAL (con descuento) viene de priceRange o defaultVariant
     try {
+      // priceRange.start.gross.amount = precio otros medios (tarjeta/webpay)
       const startAmt = item.pricing?.priceRange?.start?.gross?.amount;
-      if (startAmt && startAmt > 0) {
-        priceCard = Math.round(startAmt);               // otros medios (tarjeta/webpay)
-        price     = Math.round(startAmt / 1.045);       // transferencia/efectivo (~4.5% menos)
-      }
+      if (startAmt && startAmt > 0) priceCard = Math.round(startAmt);
+
+      // defaultVariant.pricing.price.gross.amount = precio transferencia (más bajo)
+      const varPrice = item.defaultVariant?.pricing?.price?.gross?.amount;
+      if (varPrice && varPrice > 0) price = Math.round(varPrice);
+
+      // Fallback: si no hay varPrice, usar startAmt como precio base
+      if (!price && priceCard) price = priceCard;
     } catch(e) {}
 
+    // Si no hay precio con descuento, usar el precio normal
     if (!price && priceNormal) price = priceNormal;
     if (!price || price < 1000) return;
 
-    // Si precio actual >= precio normal, no hay descuento real
+    // Si el precio actual >= precio normal, no hay descuento real
     if (priceNormal && priceNormal <= price) priceNormal = null;
+
+    // Precio tarjeta fallback si no vino de priceRange
+    if (!priceCard || priceCard <= price) priceCard = Math.round(price * 1.045);
 
     const discount = priceNormal
       ? Math.round((1 - price / priceNormal) * 100) : null;
@@ -319,7 +341,6 @@ class SPDigitalScraper extends BaseScraper {
       },
       {
         current:  price,                 // precio transferencia/efectivo (el más bajo)
-        card:     priceCard,             // otros medios (tarjeta/webpay)
         normal:   priceNormal || null,   // precio sin descuento (tachado) — puede ser null
         discount: priceNormal
           ? Math.round((1 - price / priceNormal) * 100)
