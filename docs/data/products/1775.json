@@ -15,7 +15,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:04",
-  "updated_at": "2026-06-26 00:20:30",
+  "updated_at": "2026-07-07 00:45:57",
   "prices": [
     {
       "product_id": 1775,
@@ -39,16 +39,16 @@
     {
       "product_id": 1619,
       "store_id": "centrale",
-      "price": 77450,
+      "price": 81610,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-xpg-levante-ii-240-argb-blanco-2x120mm/",
       "store_name": "Centrale",
-      "price_card": 81710,
+      "price_card": 86099,
       "price_specs": {
-        "Transferencia / Efectivo": "$77.450",
-        "Tarjetas de Crédito / Débito": "$81.710"
+        "Transferencia / Efectivo": "$81.610",
+        "Tarjetas de Crédito / Débito": "$86.099"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -105,7 +105,13 @@
       "store_name": "ProGaming",
       "date": "2026-06-26",
       "price": 75490
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-07-07",
+      "price": 75490
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

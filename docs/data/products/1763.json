@@ -15,7 +15,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:39:59",
-  "updated_at": "2026-06-26 00:20:26",
+  "updated_at": "2026-07-07 00:45:48",
   "prices": [
     {
       "product_id": 1763,
@@ -39,21 +39,40 @@
     {
       "product_id": 1612,
       "store_id": "centrale",
-      "price": 60020,
+      "price": 61750,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-msi-mag-coreliquid-a12-240mm-argb/",
       "store_name": "Centrale",
-      "price_card": 63321,
+      "price_card": 65146,
       "price_specs": {
-        "Transferencia / Efectivo": "$60.020",
-        "Tarjetas de Crédito / Débito": "$63.321"
+        "Transferencia / Efectivo": "$61.750",
+        "Tarjetas de Crédito / Débito": "$65.146"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 38945,
+      "store_id": "mybox",
+      "price": 63365,
+      "price_normal": 64990,
+      "discount_pct": 3,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/enfriamiento-refrigeracion/5916-refrigeracion-liquida-aio-mag-coreliquid-a12-240-black-argb.html",
+      "store_name": "MyBox",
+      "price_card": 65266,
+      "price_specs": {
+        "Efectivo/Transferencia": "$63.365",
+        "Tarjeta crédito/débito": "$65.266"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -86,7 +105,13 @@
       "store_name": "ProGaming",
       "date": "2026-06-26",
       "price": 59990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-07-07",
+      "price": 59990
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

@@ -5,58 +5,113 @@
   "brand": "Asus",
   "name": "Refrigeración Líquida AIO Asus TUF Gaming LC III 360 ARGB LCD",
   "slug": "refrigeracion-liquida-aio-asus-tuf-gaming-lc-iii-360-argb-lcd",
-  "image_url": "https://centrale.cl/wp-content/uploads/RefrigeraciC3B3n-LC3ADquida-AIO-Asus-TUF-Gaming-LC-III-360-ARGB-LCD.webp",
+  "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-aio-asus-tuf-gaming-lc-iii-360-argb-lcd.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$159.810",
-    "Tarjetas de Crédito / Débito": "$168.600"
+    "Transferencia / Efectivo": "$156.340",
+    "Tarjeta crédito/débito": "$164.940"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:45",
-  "updated_at": "2026-04-27 22:15:09",
+  "updated_at": "2026-07-07 00:24:25",
   "prices": [
     {
       "product_id": 1611,
       "store_id": "centrale",
-      "price": 159810,
-      "price_normal": 181970,
-      "discount_pct": 12,
+      "price": 156340,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-aio-asus-tuf-gaming-lc-iii-360-argb-lcd/",
       "store_name": "Centrale",
+      "price_card": 164939,
+      "price_specs": {
+        "Transferencia / Efectivo": "$156.340",
+        "Tarjetas de Crédito / Débito": "$164.939"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 1776,
-      "store_id": "progaming",
-      "price": 165040,
+      "product_id": 38938,
+      "store_id": "mybox",
+      "price": 187901,
+      "price_normal": 197790,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/enfriamiento-refrigeracion/6097-refrigeracion-asus-tuf-gaming-lc-iii-360-argb-lcd-black-4711636047838.html",
+      "store_name": "MyBox",
+      "price_card": 193538,
+      "price_specs": {
+        "Efectivo/Transferencia": "$187.901",
+        "Tarjeta crédito/débito": "$193.538"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
+    },
+    {
+      "product_id": 76511,
+      "store_id": "trulustore",
+      "price": 198890,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-asus-tuf-gaming-lc-iii-360-argb-lcd/",
-      "store_name": "ProGaming",
+      "product_url": "https://trulustore.cl/producto/refrigeracion-liquida-asus-tuf-gaming-lc-iii-360-argb-lcd-black-con-pantalla-lcd-incluida/",
+      "store_name": "TruluStore",
+      "price_card": 204857,
+      "khipu_price": 202868,
+      "price_specs": {
+        "Efectivo / Transferencia": "$198.890",
+        "Khipu": "$202.868",
+        "Tarjeta crédito/débito": "$204.857"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.progaming.cl",
-      "full_url": "https://www.progaming.cl"
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 159990
+      "date": "2026-06-08",
+      "price": 163720
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 159810
+      "date": "2026-06-09",
+      "price": 163720
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 160380
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 163550
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 163550
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 156340
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-07-07"
 }

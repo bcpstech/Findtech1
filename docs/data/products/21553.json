@@ -11,26 +11,26 @@
     "Capacidad": "24 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$905.250",
-    "Tarjeta crédito/débito": "$955.040"
+    "Transferencia / Efectivo": "$925.590",
+    "Tarjeta crédito/débito": "$976.500"
   },
   "tags": [],
   "created_at": "2026-05-01 14:16:12",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 21553,
       "store_id": "centrale",
-      "price": 905250,
+      "price": 925590,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-seagate-ironwolf-pro-24tb-3-5-7200rpm-sata-iii-nas-24-7/",
       "store_name": "Centrale",
-      "price_card": 955039,
+      "price_card": 976497,
       "price_specs": {
-        "Transferencia / Efectivo": "$905.250",
-        "Tarjetas de Crédito / Débito": "$955.039"
+        "Transferencia / Efectivo": "$925.590",
+        "Tarjetas de Crédito / Débito": "$976.497"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,7 +68,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 905250
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 925590
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

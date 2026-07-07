@@ -10,12 +10,12 @@
   "specs": {
     "Socket": "AM5",
     "Memoria": "DDR5",
-    "Transferencia / Efectivo": "$146.640",
-    "Tarjeta crédito/débito": "$154.710"
+    "Transferencia / Efectivo": "$147.910",
+    "Tarjeta crédito/débito": "$156.050"
   },
   "tags": [],
   "created_at": "2026-06-25 19:21:13",
-  "updated_at": "2026-06-26 00:47:38",
+  "updated_at": "2026-07-07 01:09:40",
   "prices": [
     {
       "product_id": 79722,
@@ -39,16 +39,16 @@
     {
       "product_id": 73230,
       "store_id": "centrale",
-      "price": 146640,
+      "price": 147910,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b850m-d3hp-socket-am5-4x-ddr5-pcie-5-0-2x-m-2/",
       "store_name": "Centrale",
-      "price_card": 154705,
+      "price_card": 156045,
       "price_specs": {
-        "Transferencia / Efectivo": "$146.640",
-        "Tarjetas de Crédito / Débito": "$154.705"
+        "Transferencia / Efectivo": "$147.910",
+        "Tarjetas de Crédito / Débito": "$156.045"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,7 +68,13 @@
       "store_name": "BCPS Tech",
       "date": "2026-06-26",
       "price": 137990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-07-07",
+      "price": 137990
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

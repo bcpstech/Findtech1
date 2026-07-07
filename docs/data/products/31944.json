@@ -12,26 +12,26 @@
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Efectivo / Transferencia": "$128.896",
-    "Tarjeta crédito/débito": "$135.727"
+    "Efectivo / Transferencia": "$138.016",
+    "Tarjeta crédito/débito": "$145.331"
   },
   "tags": [],
   "created_at": "2026-05-04 01:23:06",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 31944,
       "store_id": "winpy",
-      "price": 128896,
+      "price": 138016,
       "price_normal": null,
-      "discount_pct": 13,
+      "discount_pct": 7,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-msi-b840m-gaming-wifi-6e-am5-ddr5-8000mhz-oc-pcie-4-0-m-2-micro-atx/",
       "store_name": "Winpy",
-      "price_card": 135727,
+      "price_card": 145331,
       "price_specs": {
-        "Transferencia o Depósito": "$128.896",
-        "Otros medios de pago": "$135.727"
+        "Transferencia o Depósito": "$138.016",
+        "Otros medios de pago": "$145.331"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -69,7 +69,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 128896
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 138016
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

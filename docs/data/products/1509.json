@@ -13,26 +13,26 @@
     "Velocidad": "3600 MHz",
     "Latencia": "CL17",
     "Iluminación": "RGB",
-    "Transferencia / Efectivo": "$104.630",
-    "Tarjeta crédito/débito": "$110.380"
+    "Transferencia / Efectivo": "$105.530",
+    "Tarjeta crédito/débito": "$111.330"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 1509,
       "store_id": "centrale",
-      "price": 101600,
+      "price": 97540,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr4-3600mt-s-cl17-kingston-fury-beast-black/",
       "store_name": "Centrale",
-      "price_card": 107188,
+      "price_card": 102905,
       "price_specs": {
-        "Transferencia / Efectivo": "$101.600",
-        "Tarjetas de Crédito / Débito": "$107.188"
+        "Transferencia / Efectivo": "$97.540",
+        "Tarjetas de Crédito / Débito": "$102.905"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -70,7 +70,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 101600
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 97540
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

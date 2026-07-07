@@ -12,26 +12,26 @@
     "Tipo": "DDR5",
     "Velocidad": "5600 MHz",
     "Latencia": "CL46",
-    "Transferencia / Efectivo": "$2.089.390",
-    "Tarjeta crédito/débito": "$2.204.310"
+    "Transferencia / Efectivo": "$2.111.230",
+    "Tarjeta crédito/débito": "$2.227.350"
   },
   "tags": [],
   "created_at": "2026-06-25 18:13:12",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 77331,
       "store_id": "centrale",
-      "price": 2089390,
+      "price": 2111230,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-kingston-64gb-ddr5-5600mhz-cl46-ecc-registered/",
       "store_name": "Centrale",
-      "price_card": 2204306,
+      "price_card": 2227348,
       "price_specs": {
-        "Transferencia / Efectivo": "$2.089.390",
-        "Tarjetas de Crédito / Débito": "$2.204.306"
+        "Transferencia / Efectivo": "$2.111.230",
+        "Tarjetas de Crédito / Débito": "$2.227.348"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -51,7 +51,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 2089390
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 2111230
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

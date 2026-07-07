@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/antec-gabinete-gaming-0-761345-80026-6-torque-black-white.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$338.440",
-    "Tarjeta crédito/débito": "$357.050"
+    "Transferencia / Efectivo": "$316.600",
+    "Tarjeta crédito/débito": "$334.010"
   },
   "tags": [],
   "created_at": "2026-06-25 18:15:19",
-  "updated_at": "2026-06-26 00:07:41",
+  "updated_at": "2026-07-07 00:26:56",
   "prices": [
     {
       "product_id": 77698,
       "store_id": "centrale",
-      "price": 338440,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 316600,
+      "price_normal": 338430,
+      "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/antec-gabinete-gaming-0-761345-80026-6-torque-black-white/",
       "store_name": "Centrale",
-      "price_card": 357054,
+      "price_card": 334013,
       "price_specs": {
-        "Transferencia / Efectivo": "$338.440",
-        "Tarjetas de Crédito / Débito": "$357.054"
+        "Transferencia / Efectivo": "$316.600",
+        "Tarjetas de Crédito / Débito": "$334.013"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -47,7 +47,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 338440
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 316600
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

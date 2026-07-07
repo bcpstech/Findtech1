@@ -11,26 +11,26 @@
     "Capacidad": "1 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$136.510",
-    "Tarjeta crédito/débito": "$144.020"
+    "Transferencia / Efectivo": "$145.790",
+    "Tarjeta crédito/débito": "$153.810"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 1586,
       "store_id": "centrale",
-      "price": 136510,
+      "price": 145790,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-purple-videovigilancia-western-digital-sata-1tb-3-5-disco-duro/",
       "store_name": "Centrale",
-      "price_card": 144018,
+      "price_card": 153808,
       "price_specs": {
-        "Transferencia / Efectivo": "$136.510",
-        "Tarjetas de Crédito / Débito": "$144.018"
+        "Transferencia / Efectivo": "$145.790",
+        "Tarjetas de Crédito / Débito": "$153.808"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,7 +68,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 136510
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 145790
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

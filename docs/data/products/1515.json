@@ -10,26 +10,26 @@
   "specs": {
     "Capacidad": "20 TB",
     "Interfaz": "SATA III",
-    "Transferencia / Efectivo": "$571.810",
-    "Tarjeta crédito/débito": "$603.260"
+    "Transferencia / Efectivo": "$591.310",
+    "Tarjeta crédito/débito": "$623.830"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 1515,
       "store_id": "centrale",
-      "price": 571810,
+      "price": 591310,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-toshiba-n300-20tb-nas-7200rpm-512mb-sata-6gb-s/",
       "store_name": "Centrale",
-      "price_card": 603260,
+      "price_card": 623832,
       "price_specs": {
-        "Transferencia / Efectivo": "$571.810",
-        "Tarjetas de Crédito / Débito": "$603.260"
+        "Transferencia / Efectivo": "$591.310",
+        "Tarjetas de Crédito / Débito": "$623.832"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -67,7 +67,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 571810
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 591310
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

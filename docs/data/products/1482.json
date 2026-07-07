@@ -13,26 +13,26 @@
     "Velocidad": "3200 MHz",
     "Latencia": "CL16",
     "Iluminación": "RGB",
-    "Transferencia / Efectivo": "$140.100",
-    "Tarjeta crédito/débito": "$147.810"
+    "Transferencia / Efectivo": "$139.480",
+    "Tarjeta crédito/débito": "$147.150"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 1482,
       "store_id": "centrale",
-      "price": 140100,
+      "price": 139480,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr4-3200mt-s-cl16-kingston-fury-beast-rgb/",
       "store_name": "Centrale",
-      "price_card": 147806,
+      "price_card": 147151,
       "price_specs": {
-        "Transferencia / Efectivo": "$140.100",
-        "Tarjetas de Crédito / Débito": "$147.806"
+        "Transferencia / Efectivo": "$139.480",
+        "Tarjetas de Crédito / Débito": "$147.151"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -70,7 +70,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 140100
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 139480
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

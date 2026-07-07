@@ -15,7 +15,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:41:43",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 32929,
@@ -54,6 +54,27 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2629,
+      "store_id": "trulustore",
+      "price": 549990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/procesador-amd-ryzen-9-9900x-socket-am5/",
+      "store_name": "TruluStore",
+      "price_card": 566490,
+      "khipu_price": 560990,
+      "price_specs": {
+        "Efectivo / Transferencia": "$549.990",
+        "Khipu": "$560.990",
+        "Tarjeta crédito/débito": "$566.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     },
     {
       "product_id": 38836,
@@ -105,7 +126,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-26",
       "price": 449900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-07-07",
+      "price": 449900
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

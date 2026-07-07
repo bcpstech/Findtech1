@@ -5,35 +5,59 @@
   "brand": "Asus",
   "name": "Placa Madre ASUS PRIME A620M-K (Micro ATX, AM5, DDR5, PCIe 4.0)",
   "slug": "placa-madre-asus-prime-a620m-k-micro-atx-am5-ddr5-pcie-4-0",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASUS-PRIME-A620M-K-Micro-ATX-AM5-DDR5-PCIe-4.0.webp",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asus-prime-a620m-k-micro-atx-am5-ddr5-pcie-4-0.webp",
   "description": null,
   "specs": {
     "Socket": "AM5",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
-    "Transferencia / Efectivo": "$82.330",
-    "Tarjetas de Crédito / Débito": "$86.860"
+    "Transferencia / Efectivo": "$74.490",
+    "Tarjeta crédito/débito": "$78.590"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 1340,
       "store_id": "centrale",
-      "price": 82330,
+      "price": 74490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-a620m-k-micro-atx-am5-ddr5-pcie-4-0/",
       "store_name": "Centrale",
+      "price_card": 78587,
+      "price_specs": {
+        "Transferencia / Efectivo": "$74.490",
+        "Tarjetas de Crédito / Débito": "$78.587"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 968,
+      "product_id": 31929,
+      "store_id": "winpy",
+      "price": 79040,
+      "price_normal": null,
+      "discount_pct": 24,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-a620m-k-am5-ddr5-4800-7200-mhz-m-2-rgb-microatx/",
+      "store_name": "Winpy",
+      "price_card": 83229,
+      "price_specs": {
+        "Transferencia o Depósito": "$79.040",
+        "Otros medios de pago": "$83.229"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 23520,
       "store_id": "alltec",
       "price": 90900,
       "price_normal": null,
@@ -41,39 +65,94 @@
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/para-amd/2461-mb-asus-prime-a620m-k-am5-ddr5-ryzen-700080009000.html",
       "store_name": "Alltec",
+      "price_card": 93627,
+      "price_specs": {
+        "Efectivo/Transferencia": "$90.900",
+        "Tarjeta crédito/débito": "$93.627"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
     },
     {
-      "product_id": 1167,
-      "store_id": "cg",
-      "price": 93090,
+      "product_id": 38901,
+      "store_id": "mybox",
+      "price": 94141,
+      "price_normal": 107590,
+      "discount_pct": 13,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/5523-placa-madre-asus-prime-a620m-k-ddr5-4711387242087.html",
+      "store_name": "MyBox",
+      "price_card": 96965,
+      "price_specs": {
+        "Efectivo/Transferencia": "$94.141",
+        "Tarjeta crédito/débito": "$96.965"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
+    },
+    {
+      "product_id": 59885,
+      "store_id": "trulustore",
+      "price": 94990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-a620m-k-ddr5/",
-      "store_name": "CentralGamer",
+      "product_url": "https://trulustore.cl/producto/placa-madre-asus-prime-a620m-k-ddr5-am5/",
+      "store_name": "TruluStore",
+      "price_card": 97840,
+      "khipu_price": 96890,
+      "price_specs": {
+        "Efectivo / Transferencia": "$94.990",
+        "Khipu": "$96.890",
+        "Tarjeta crédito/débito": "$97.840"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 82400
+      "date": "2026-06-08",
+      "price": 74490
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 82330
+      "date": "2026-06-09",
+      "price": 74080
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 72960
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 72960
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 72960
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 74490
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-07-07"
 }

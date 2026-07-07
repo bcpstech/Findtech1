@@ -11,26 +11,26 @@
     "Socket": "LGA1700",
     "Factor de forma": "ATX",
     "Memoria": "DDR5",
-    "Transferencia / Efectivo": "$77.060",
-    "Tarjeta crédito/débito": "$81.300"
+    "Transferencia / Efectivo": "$70.230",
+    "Tarjeta crédito/débito": "$74.090"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:30",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 31926,
       "store_id": "winpy",
-      "price": 76608,
+      "price": 69920,
       "price_normal": null,
-      "discount_pct": 21,
+      "discount_pct": 28,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-h610m-k-ddr5-lga1700-m-2-rgb-micro-atx/",
       "store_name": "Winpy",
-      "price_card": 80668,
+      "price_card": 73626,
       "price_specs": {
-        "Transferencia o Depósito": "$76.608",
-        "Otros medios de pago": "$80.668"
+        "Transferencia o Depósito": "$69.920",
+        "Otros medios de pago": "$73.626"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,16 +40,16 @@
     {
       "product_id": 1408,
       "store_id": "centrale",
-      "price": 77060,
+      "price": 70230,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-mini-atx-asus-prime-h610m-k-socket-intel-lga-1700-ddr5-pcie-3-0/",
       "store_name": "Centrale",
-      "price_card": 81298,
+      "price_card": 74093,
       "price_specs": {
-        "Transferencia / Efectivo": "$77.060",
-        "Tarjetas de Crédito / Débito": "$81.298"
+        "Transferencia / Efectivo": "$70.230",
+        "Tarjetas de Crédito / Débito": "$74.093"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -106,7 +106,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 76608
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 69920
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

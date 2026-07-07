@@ -11,53 +11,34 @@
     "Capacidad": "1 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Efectivo / Transferencia": "$177.500",
-    "Tarjeta crédito/débito": "$187.263",
+    "Efectivo / Transferencia": "$149.990",
+    "Tarjeta crédito/débito": "$158.239",
     "Garantía": "6 meses",
     "SKU": "33043",
     "Part Number": "824142304174"
   },
   "tags": [],
   "created_at": "2026-06-08 20:50:45",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 60101,
       "store_id": "myshop",
-      "price": 177500,
-      "price_normal": 187263,
+      "price": 149990,
+      "price_normal": 158239,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/ssd-m2-2280-1tb-msi-spatium-m450-nvme-pcie-40-x4-spatium-m450-pcie-40-nvme-m2-p33043",
       "store_name": "MyShop",
-      "price_card": 182825,
+      "price_card": 154490,
       "price_specs": {
-        "Efectivo/Transferencia": "$177.500",
-        "Tarjeta crédito/débito": "$182.825"
+        "Efectivo/Transferencia": "$149.990",
+        "Tarjeta crédito/débito": "$154.490"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 1529,
-      "store_id": "centrale",
-      "price": 188790,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-1tb-msi-spatium-m450-m-2-nvme-pcie-4-0/",
-      "store_name": "Centrale",
-      "price_card": 199173,
-      "price_specs": {
-        "Transferencia / Efectivo": "$188.790",
-        "Tarjetas de Crédito / Débito": "$199.173"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -78,7 +59,19 @@
       "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 177500
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 169500
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 149990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-07-07"
 }

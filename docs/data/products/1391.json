@@ -11,26 +11,26 @@
     "Socket": "LGA1700",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
-    "Transferencia / Efectivo": "$86.680",
-    "Tarjeta crédito/débito": "$91.450"
+    "Transferencia / Efectivo": "$87.430",
+    "Tarjeta crédito/débito": "$92.240"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 1391,
       "store_id": "centrale",
-      "price": 86680,
+      "price": 87430,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-h610m-k-v2-micro-atx-lga-1700-ddr5-nvme-3-0/",
       "store_name": "Centrale",
-      "price_card": 91447,
+      "price_card": 92239,
       "price_specs": {
-        "Transferencia / Efectivo": "$86.680",
-        "Tarjetas de Crédito / Débito": "$91.447"
+        "Transferencia / Efectivo": "$87.430",
+        "Tarjetas de Crédito / Débito": "$92.239"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,7 +68,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 86680
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 87430
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

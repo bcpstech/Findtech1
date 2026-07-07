@@ -12,12 +12,12 @@
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$126.320",
-    "Tarjeta crédito/débito": "$133.270"
+    "Transferencia / Efectivo": "$127.410",
+    "Tarjeta crédito/débito": "$134.420"
   },
   "tags": [],
   "created_at": "2026-06-25 19:21:13",
-  "updated_at": "2026-06-26 00:47:39",
+  "updated_at": "2026-07-07 01:09:42",
   "prices": [
     {
       "product_id": 79723,
@@ -41,16 +41,16 @@
     {
       "product_id": 31930,
       "store_id": "winpy",
-      "price": 77824,
+      "price": 78432,
       "price_normal": null,
       "discount_pct": 36,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-gigabyte-a620m-h-am5-ddr5-4400-7200mhz-m-2-microatx/",
       "store_name": "Winpy",
-      "price_card": 81949,
+      "price_card": 82589,
       "price_specs": {
-        "Transferencia o Depósito": "$77.824",
-        "Otros medios de pago": "$81.949"
+        "Transferencia o Depósito": "$78.432",
+        "Otros medios de pago": "$82.589"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,16 +60,16 @@
     {
       "product_id": 25121,
       "store_id": "centrale",
-      "price": 78340,
+      "price": 79010,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-gigabyte-a620m-h-socket-amd-am5-ddr5/",
       "store_name": "Centrale",
-      "price_card": 82649,
+      "price_card": 83356,
       "price_specs": {
-        "Transferencia / Efectivo": "$78.340",
-        "Tarjetas de Crédito / Débito": "$82.649"
+        "Transferencia / Efectivo": "$79.010",
+        "Tarjetas de Crédito / Débito": "$83.356"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -108,7 +108,13 @@
       "store_name": "BCPS Tech",
       "date": "2026-06-26",
       "price": 74990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-07-07",
+      "price": 74990
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

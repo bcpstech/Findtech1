@@ -11,29 +11,29 @@
     "Capacidad": "480 GB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Efectivo / Transferencia": "$93.990",
-    "Tarjeta crédito/débito": "$99.159",
+    "Efectivo / Transferencia": "$94.950",
+    "Tarjeta crédito/débito": "$100.172",
     "Garantía": "6 meses",
     "SKU": "35545",
     "Part Number": "CT480E100SSD8"
   },
   "tags": [],
   "created_at": "2026-06-08 20:50:40",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 60098,
       "store_id": "myshop",
-      "price": 93990,
-      "price_normal": 99159,
+      "price": 94950,
+      "price_normal": 100172,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/ssd-m2-2280-480-gb-crucial-e100-nvme-pcie-40-x4-ct480e100ssd8-p35545",
       "store_name": "MyShop",
-      "price_card": 96810,
+      "price_card": 97799,
       "price_specs": {
-        "Efectivo/Transferencia": "$93.990",
-        "Tarjeta crédito/débito": "$96.810"
+        "Efectivo/Transferencia": "$94.950",
+        "Tarjeta crédito/débito": "$97.799"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -65,7 +65,13 @@
       "store_name": "MyShop",
       "date": "2026-06-25",
       "price": 93990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 94950
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

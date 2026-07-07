@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:41:40",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 32921,
@@ -59,18 +59,37 @@
       "full_url": "https://www.centrale.cl"
     },
     {
+      "product_id": 2812,
+      "store_id": "alltec",
+      "price": 241900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/2268-amd-ryzen-5-9600x-39ghz-54ghz-turbo-six-core-tdp-65w-am5.html",
+      "store_name": "Alltec",
+      "price_card": 249157,
+      "price_specs": {
+        "Efectivo/Transferencia": "$241.900",
+        "Tarjeta crédito/débito": "$249.157"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
       "product_id": 31893,
       "store_id": "winpy",
-      "price": 232864,
+      "price": 247456,
       "price_normal": null,
-      "discount_pct": 32,
+      "discount_pct": 27,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-9600x-am5-6-cores-12-hilos-3-9-5-4ghz-32mb-cache-unlocked/",
       "store_name": "Winpy",
-      "price_card": 245206,
+      "price_card": 260571,
       "price_specs": {
-        "Transferencia o Depósito": "$232.864",
-        "Otros medios de pago": "$245.206"
+        "Transferencia o Depósito": "$247.456",
+        "Otros medios de pago": "$260.571"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -108,7 +127,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-26",
       "price": 219900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-07-07",
+      "price": 219900
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

@@ -13,26 +13,26 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$794.490",
-    "Tarjeta crédito/débito": "$838.190"
+    "Transferencia / Efectivo": "$819.560",
+    "Tarjeta crédito/débito": "$864.640"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:36",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 31872,
       "store_id": "winpy",
-      "price": 709536,
+      "price": 729600,
       "price_normal": null,
-      "discount_pct": 17,
+      "discount_pct": 14,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5070-ventus-2x-oc-de-12gb-gddr7/",
       "store_name": "Winpy",
-      "price_card": 747141,
+      "price_card": 768269,
       "price_specs": {
-        "Transferencia o Depósito": "$709.536",
-        "Otros medios de pago": "$747.141"
+        "Transferencia o Depósito": "$729.600",
+        "Otros medios de pago": "$768.269"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,16 +42,16 @@
     {
       "product_id": 1220,
       "store_id": "centrale",
-      "price": 774760,
+      "price": 785060,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-de-video-msi-geforce-rtx-5070-ventus-2x-oc-12gb-gddr7/",
       "store_name": "Centrale",
-      "price_card": 817372,
+      "price_card": 828238,
       "price_specs": {
-        "Transferencia / Efectivo": "$774.760",
-        "Tarjetas de Crédito / Débito": "$817.372"
+        "Transferencia / Efectivo": "$785.060",
+        "Tarjetas de Crédito / Débito": "$828.238"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -89,7 +89,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 709536
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 729600
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

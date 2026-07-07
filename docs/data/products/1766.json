@@ -15,8 +15,27 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:01",
-  "updated_at": "2026-06-26 00:20:27",
+  "updated_at": "2026-07-07 00:45:51",
   "prices": [
+    {
+      "product_id": 1617,
+      "store_id": "centrale",
+      "price": 89720,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/refrigeracion-liquida-asus-prime-lc-360-argb-360mm-3x120mm-600-2200-rpm/",
+      "store_name": "Centrale",
+      "price_card": 94655,
+      "price_specs": {
+        "Transferencia / Efectivo": "$89.720",
+        "Tarjetas de Crédito / Débito": "$94.655"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
     {
       "product_id": 1766,
       "store_id": "progaming",
@@ -37,23 +56,25 @@
       "full_url": "https://www.progaming.cl"
     },
     {
-      "product_id": 1617,
-      "store_id": "centrale",
-      "price": 97430,
+      "product_id": 76508,
+      "store_id": "trulustore",
+      "price": 119990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/refrigeracion-liquida-asus-prime-lc-360-argb-360mm-3x120mm-600-2200-rpm/",
-      "store_name": "Centrale",
-      "price_card": 102789,
+      "product_url": "https://trulustore.cl/producto/refrigeracion-liquida-asus-prime-lc-360-argb-75-7-cfm-am4-am5-lga-1700-1851/",
+      "store_name": "TruluStore",
+      "price_card": 123590,
+      "khipu_price": 122390,
       "price_specs": {
-        "Transferencia / Efectivo": "$97.430",
-        "Tarjetas de Crédito / Débito": "$102.789"
+        "Efectivo / Transferencia": "$119.990",
+        "Khipu": "$122.390",
+        "Tarjeta crédito/débito": "$123.590"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -86,7 +107,13 @@
       "store_name": "ProGaming",
       "date": "2026-06-26",
       "price": 89990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-07-07",
+      "price": 89990
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

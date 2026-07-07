@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 1394,
       "store_id": "centrale",
-      "price": 210690,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 197920,
+      "price_normal": 210680,
+      "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-b860m-gaming-plus-wifi-micro-atx-lga-1851-ddr5-wifi-7/",
       "store_name": "Centrale",
-      "price_card": 222278,
+      "price_card": 208806,
       "price_specs": {
-        "Transferencia / Efectivo": "$210.690",
-        "Tarjetas de Crédito / Débito": "$222.278"
+        "Transferencia / Efectivo": "$197.920",
+        "Tarjetas de Crédito / Débito": "$208.806"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -69,7 +69,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 210690
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 197920
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

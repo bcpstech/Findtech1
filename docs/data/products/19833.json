@@ -21,14 +21,14 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:44",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 19833,
       "store_id": "myshop",
       "price": 749990,
       "price_normal": 791239,
-      "discount_pct": null,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/msi-geforce-rtx-5070-12g-shadow-3x-oc-pci-express-nvidia-nvidia-geforce-rtx-5070-p42775",
       "store_name": "MyShop",
@@ -88,7 +88,13 @@
       "store_name": "MyShop",
       "date": "2026-06-25",
       "price": 749990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 749990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

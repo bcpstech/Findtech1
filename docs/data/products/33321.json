@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:48:42",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 33321,
@@ -59,18 +59,18 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 2014,
+      "product_id": 1983,
       "store_id": "dust2",
-      "price": 84490,
+      "price": 151990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/memoria-ram-xpg-spectrix-d35g-rgb-ddr4-3200mhz-8gb-blanco/",
+      "product_url": "https://dust2.gg/producto/memoria-ram-adata-xpg-spectrix-d35g-rbg-ddr4-3200-16gb/",
       "store_name": "Dust2",
-      "price_card": 87025,
+      "price_card": 156550,
       "price_specs": {
-        "Efectivo/Transferencia": "$84.490",
-        "Tarjeta crédito/débito": "$87.025"
+        "Efectivo/Transferencia": "$151.990",
+        "Tarjeta crédito/débito": "$156.550"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -108,7 +108,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-06-26",
       "price": 69900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-07-07",
+      "price": 69900
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

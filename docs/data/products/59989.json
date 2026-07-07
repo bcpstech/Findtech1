@@ -11,29 +11,29 @@
     "Capacidad": "8 GB",
     "Tipo": "DDR5",
     "Velocidad": "4800 MHz",
-    "Efectivo / Transferencia": "$109.990",
-    "Tarjeta crédito/débito": "$116.039",
+    "Efectivo / Transferencia": "$117.990",
+    "Tarjeta crédito/débito": "$124.479",
     "Garantía": "6 meses",
     "SKU": "41070",
     "Part Number": "KS4800D5P11008G"
   },
   "tags": [],
   "created_at": "2026-06-08 20:49:45",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 59989,
       "store_id": "myshop",
-      "price": 109990,
-      "price_normal": 116039,
+      "price": 117990,
+      "price_normal": 124479,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/ddr5-4800-16g-p41070",
       "store_name": "MyShop",
-      "price_card": 113290,
+      "price_card": 121530,
       "price_specs": {
-        "Efectivo/Transferencia": "$109.990",
-        "Tarjeta crédito/débito": "$113.290"
+        "Efectivo/Transferencia": "$117.990",
+        "Tarjeta crédito/débito": "$121.530"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -65,7 +65,13 @@
       "store_name": "MyShop",
       "date": "2026-06-25",
       "price": 109990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 117990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

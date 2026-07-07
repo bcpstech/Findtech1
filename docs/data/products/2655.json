@@ -9,27 +9,27 @@
   "description": null,
   "specs": {
     "Efectivo / Transferencia": "$159.990",
-    "Khipu": "$163.190",
-    "Tarjeta crédito/débito": "$167.990"
+    "Khipu": "$163.190"
   },
   "tags": [],
   "created_at": "2026-04-26 20:53:06",
-  "updated_at": "2026-05-01 13:15:24",
+  "updated_at": "2026-07-07 00:03:18",
   "prices": [
     {
       "product_id": 2655,
       "store_id": "trulustore",
       "price": 159990,
-      "price_normal": 167990,
+      "price_normal": 199990,
       "discount_pct": 20,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/fuente-de-poder-asus-tuf-gaming-1000g-de-1000w-80-gold-full-modular-atx-3-1/",
       "store_name": "TruluStore",
+      "price_card": 164790,
       "khipu_price": 163190,
       "price_specs": {
         "Efectivo / Transferencia": "$159.990",
         "Khipu": "$163.190",
-        "Tarjeta crédito/débito": "$167.990"
+        "Tarjeta crédito/débito": "$164.790"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,33 +41,33 @@
     {
       "store_id": "trulustore",
       "store_name": "TruluStore",
-      "date": "2026-04-26",
-      "price": 199990
-    },
-    {
-      "store_id": "trulustore",
-      "store_name": "TruluStore",
-      "date": "2026-04-27",
-      "price": 199990
-    },
-    {
-      "store_id": "trulustore",
-      "store_name": "TruluStore",
-      "date": "2026-04-28",
+      "date": "2026-06-08",
       "price": 159990
     },
     {
       "store_id": "trulustore",
       "store_name": "TruluStore",
-      "date": "2026-04-29",
+      "date": "2026-06-09",
       "price": 159990
     },
     {
       "store_id": "trulustore",
       "store_name": "TruluStore",
-      "date": "2026-05-01",
+      "date": "2026-06-20",
+      "price": 159990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-06-25",
+      "price": 159990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-07-07",
       "price": 159990
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-07-07"
 }

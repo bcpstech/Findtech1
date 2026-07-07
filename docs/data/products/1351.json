@@ -12,26 +12,26 @@
     "Factor de forma": "ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$239.900",
-    "Tarjeta crédito/débito": "$253.090"
+    "Transferencia / Efectivo": "$259.490",
+    "Tarjeta crédito/débito": "$273.760"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 1351,
       "store_id": "centrale",
-      "price": 239900,
+      "price": 259490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-b850-gaming-plus-wifi-atx-am5-ddr5-pcie-5-0-wifi-7/",
       "store_name": "Centrale",
-      "price_card": 253094,
+      "price_card": 273762,
       "price_specs": {
-        "Transferencia / Efectivo": "$239.900",
-        "Tarjetas de Crédito / Débito": "$253.094"
+        "Transferencia / Efectivo": "$259.490",
+        "Tarjetas de Crédito / Débito": "$273.762"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -69,7 +69,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 239900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 259490
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

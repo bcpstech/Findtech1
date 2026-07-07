@@ -11,26 +11,26 @@
     "Núcleos": "8",
     "Hilos": "16",
     "Frecuencia base": "5.2 GHz",
-    "Transferencia / Efectivo": "$589.000",
-    "Tarjeta crédito/débito": "$621.400"
+    "Transferencia / Efectivo": "$518.560",
+    "Tarjeta crédito/débito": "$547.080"
   },
   "tags": [],
   "created_at": "2026-04-27 00:32:01",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 2817,
       "store_id": "alltec",
-      "price": 498900,
+      "price": 508900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2348-amd-ryzen-7-9800x3d-47ghz-52ghz-turbo-octa-core-tdp-120w-am5.html",
       "store_name": "Alltec",
-      "price_card": 513867,
+      "price_card": 524167,
       "price_specs": {
-        "Efectivo/Transferencia": "$498.900",
-        "Tarjeta crédito/débito": "$513.867"
+        "Efectivo/Transferencia": "$508.900",
+        "Tarjeta crédito/débito": "$524.167"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,16 +40,16 @@
     {
       "product_id": 279,
       "store_id": "centrale",
-      "price": 589000,
+      "price": 518560,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-9800x3d-8-nucleos-16-hilos-47-a-52-ghz-amd-3d-v-cache/",
       "store_name": "Centrale",
-      "price_card": 621395,
+      "price_card": 547081,
       "price_specs": {
-        "Transferencia / Efectivo": "$589.000",
-        "Tarjetas de Crédito / Débito": "$621.395"
+        "Transferencia / Efectivo": "$518.560",
+        "Tarjetas de Crédito / Débito": "$547.081"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -88,7 +88,25 @@
       "store_name": "Alltec",
       "date": "2026-06-09",
       "price": 498900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-20",
+      "price": 498900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-25",
+      "price": 498900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-07-07",
+      "price": 508900
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-07-07"
 }

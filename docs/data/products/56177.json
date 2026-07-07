@@ -12,26 +12,26 @@
     "Tipo memoria": "GDDR7",
     "Bus de memoria": "512-bit",
     "Arquitectura": "Blackwell",
-    "Transferencia / Efectivo": "$4.230.000",
-    "Tarjeta crédito/débito": "$4.462.650"
+    "Transferencia / Efectivo": "$3.990.000",
+    "Tarjeta crédito/débito": "$4.209.450"
   },
   "tags": [],
   "created_at": "2026-05-08 22:29:21",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 56177,
       "store_id": "centrale",
-      "price": 4230000,
-      "price_card": 4462650,
+      "price": 3990000,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-gigabyte-aorus-geforce-rtx-5090-master-32gb-gddr7-512-bit/",
       "store_name": "Centrale",
+      "price_card": 4209450,
       "price_specs": {
-        "Transferencia / Efectivo": "$4.230.000",
-        "Tarjetas de Crédito / Débito": "$4.462.650"
+        "Transferencia / Efectivo": "$3.990.000",
+        "Tarjetas de Crédito / Débito": "$4.209.450"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -45,7 +45,37 @@
       "store_name": "Centrale",
       "date": "2026-06-08",
       "price": 4230000
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 4230000
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 4230000
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 3990000
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 3990000
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 3990000
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-07-07"
 }

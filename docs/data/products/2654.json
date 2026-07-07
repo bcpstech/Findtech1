@@ -8,84 +8,66 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-asus-prime-850g-de-850w-80-gold-full-modular-atx-3-1.png",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$114.990",
-    "Khipu": "$117.290",
-    "Tarjeta crédito/débito": "$120.740"
+    "Efectivo / Transferencia": "$105.990",
+    "Khipu": "$108.110"
   },
   "tags": [],
   "created_at": "2026-04-26 20:53:05",
-  "updated_at": "2026-05-01 00:33:46",
+  "updated_at": "2026-07-07 00:02:40",
   "prices": [
     {
       "product_id": 2654,
       "store_id": "trulustore",
-      "price": 114990,
-      "price_normal": 120740,
-      "discount_pct": 12,
+      "price": 105990,
+      "price_normal": 129990,
+      "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/fuente-de-poder-asus-prime-850g-de-850w-80-gold-full-modular-atx-3-1/",
       "store_name": "TruluStore",
-      "khipu_price": 117290,
+      "price_card": 109170,
+      "khipu_price": 108110,
       "price_specs": {
-        "Efectivo / Transferencia": "$114.990",
-        "Khipu": "$117.290",
-        "Tarjeta crédito/débito": "$120.740"
+        "Efectivo / Transferencia": "$105.990",
+        "Khipu": "$108.110",
+        "Tarjeta crédito/débito": "$109.170"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
-    },
-    {
-      "product_id": 9717,
-      "store_id": "spdigital",
-      "price": 137700,
-      "price_normal": 143900,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tuf-gaming-750g-80gold-psu",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$137.700",
-        "Webpay / Tarjeta": "$143.900"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
     {
       "store_id": "trulustore",
       "store_name": "TruluStore",
-      "date": "2026-04-26",
-      "price": 129990
+      "date": "2026-06-08",
+      "price": 105990
     },
     {
       "store_id": "trulustore",
       "store_name": "TruluStore",
-      "date": "2026-04-27",
-      "price": 129990
+      "date": "2026-06-09",
+      "price": 105990
     },
     {
       "store_id": "trulustore",
       "store_name": "TruluStore",
-      "date": "2026-04-28",
-      "price": 114990
+      "date": "2026-06-20",
+      "price": 105990
     },
     {
       "store_id": "trulustore",
       "store_name": "TruluStore",
-      "date": "2026-04-29",
-      "price": 114990
+      "date": "2026-06-25",
+      "price": 105990
     },
     {
       "store_id": "trulustore",
       "store_name": "TruluStore",
-      "date": "2026-05-01",
-      "price": 114990
+      "date": "2026-07-07",
+      "price": 105990
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-07-07"
 }

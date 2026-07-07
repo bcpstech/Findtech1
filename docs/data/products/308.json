@@ -5,74 +5,119 @@
   "brand": "Intel",
   "name": "Procesador Intel Core i5-12400F 2.5Ghz 18Mb 6 Cores LGA 1700",
   "slug": "procesador-intel-core-i5-12400f-2-5ghz-18mb-6-cores-lga-1700",
-  "image_url": "https://centrale.cl/wp-content/uploads/Procesador-Intel-Core-i5-12400F-2.5Ghz-18Mb-6-Cores-LGA-1700_JYLZnGg-1.webp",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i5-12400f-2-5ghz-18mb-6-cores-lga-1700.webp",
   "description": null,
   "specs": {
+    "Núcleos": "6",
+    "Hilos": "12",
     "Frecuencia base": "2.5 GHz",
+    "Frecuencia turbo": "4.4 GHz",
+    "Caché L3": "18 MB",
+    "TDP": "117W",
     "Socket": "LGA1700",
-    "Transferencia / Efectivo": "$155.490",
-    "Tarjetas de Crédito / Débito": "$164.040"
+    "Generación": "Intel 12ª Gen (Alder Lake)",
+    "Efectivo / Transferencia": "$209.900",
+    "Tarjeta crédito/débito": "$216.197"
   },
   "tags": [],
   "created_at": "2026-04-26 16:25:20",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 308,
       "store_id": "centrale",
-      "price": 155490,
+      "price": 185810,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-12400f-2-5ghz-18mb-6-cores-lga-1700/",
       "store_name": "Centrale",
+      "price_card": 196030,
+      "price_specs": {
+        "Transferencia / Efectivo": "$185.810",
+        "Tarjetas de Crédito / Débito": "$196.030"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
     },
     {
+      "product_id": 61127,
+      "store_id": "winpy",
+      "price": 186048,
+      "price_normal": null,
+      "discount_pct": 10,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i5-12400f-alder-lake-lga1700-6-cores-12-hilos-2-5-4-4ghz-sin-video/",
+      "store_name": "Winpy",
+      "price_card": 195909,
+      "price_specs": {
+        "Transferencia o Depósito": "$186.048",
+        "Otros medios de pago": "$195.909"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
       "product_id": 122,
       "store_id": "alltec",
-      "price": 165900,
+      "price": 209900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/intel/2022-5ghz-intel-i5-12400f-44ghz-turbo-6c12t-18mb-cache-65w117w-lga1700-12th-generacion.html",
       "store_name": "Alltec",
+      "price_card": 216197,
+      "price_specs": {
+        "Efectivo/Transferencia": "$209.900",
+        "Tarjeta crédito/débito": "$216.197"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
-    },
-    {
-      "product_id": 3,
-      "store_id": "n1g",
-      "price": 169900,
-      "price_normal": 178842,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/1524-intel-core-i5-12400f-core-i5-12th-gen-alder-lake-6-core-25-ghz-lga-1700-65w-desktop-bx8071512400f.html",
-      "store_name": "N1G",
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 155490
+      "date": "2026-06-08",
+      "price": 187020
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 155490
+      "date": "2026-06-09",
+      "price": 187020
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 172070
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 174780
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 174780
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 185810
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-07-07"
 }

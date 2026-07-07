@@ -12,12 +12,12 @@
     "Bus de memoria": "64-bit",
     "Variante": "OC (Overclocked)",
     "Factor de forma": "Low Profile",
-    "Transferencia / Efectivo": "$127.800",
-    "Tarjeta crédito/débito": "$134.830"
+    "Transferencia / Efectivo": "$135.120",
+    "Tarjeta crédito/débito": "$142.550"
   },
   "tags": [],
   "created_at": "2026-05-04 01:19:36",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 31842,
@@ -41,16 +41,16 @@
     {
       "product_id": 1229,
       "store_id": "centrale",
-      "price": 127800,
+      "price": 135120,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-nvidia-geforce-gt-1030-oc-4gb-ddr4-64-bit-low-profile/",
       "store_name": "Centrale",
-      "price_card": 134829,
+      "price_card": 142552,
       "price_specs": {
-        "Transferencia / Efectivo": "$127.800",
-        "Tarjetas de Crédito / Débito": "$134.829"
+        "Transferencia / Efectivo": "$135.120",
+        "Tarjetas de Crédito / Débito": "$142.552"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -88,7 +88,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 126464
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 126464
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

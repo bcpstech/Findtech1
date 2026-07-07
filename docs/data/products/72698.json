@@ -11,15 +11,15 @@
     "Capacidad": "2 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "2.5\"",
-    "Efectivo / Transferencia": "$177.500",
-    "Tarjeta crédito/débito": "$187.263",
+    "Efectivo / Transferencia": "$174.990",
+    "Tarjeta crédito/débito": "$184.614",
     "Garantía": "6 meses",
     "SKU": "41069",
     "Part Number": "P3-2TB"
   },
   "tags": [],
   "created_at": "2026-06-20 00:18:10",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 61591,
@@ -41,18 +41,18 @@
       "full_url": "https://www.dust2.gg"
     },
     {
-      "product_id": 61208,
+      "product_id": 32022,
       "store_id": "winpy",
-      "price": 98496,
+      "price": 131936,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/disco-ssd-kingspec-p3-de-512gb-sata-nand-3d-400mb-s/",
+      "product_url": "https://www.winpy.cl/venta/disco-ssd-kingspec-p3-de-1tb-2-5-sata-3d-nand-hasta-580-mb-s/",
       "store_name": "Winpy",
-      "price_card": 103716,
+      "price_card": 138929,
       "price_specs": {
-        "Transferencia o Depósito": "$98.496",
-        "Otros medios de pago": "$103.716"
+        "Transferencia o Depósito": "$131.936",
+        "Otros medios de pago": "$138.929"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,40 +62,21 @@
     {
       "product_id": 72698,
       "store_id": "myshop",
-      "price": 177500,
-      "price_normal": 187263,
+      "price": 174990,
+      "price_normal": 184614,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/sse-p3-2tb-p41069",
       "store_name": "MyShop",
-      "price_card": 182825,
+      "price_card": 180240,
       "price_specs": {
-        "Efectivo/Transferencia": "$177.500",
-        "Tarjeta crédito/débito": "$182.825"
+        "Efectivo/Transferencia": "$174.990",
+        "Tarjeta crédito/débito": "$180.240"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 689,
-      "store_id": "n1g",
-      "price": 199000,
-      "price_normal": 209474,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3463-kingspec-ssd-2tb-para-macbook-na900s-2tb-pcie-gen3-x4-r-3500mbs-w-3200mbs.html",
-      "store_name": "N1G",
-      "price_card": 209547,
-      "price_specs": {
-        "Efectivo/Transferencia": "$199.000",
-        "Tarjeta crédito/débito": "$209.547"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -110,7 +91,13 @@
       "store_name": "MyShop",
       "date": "2026-06-25",
       "price": 177500
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 174990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

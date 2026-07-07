@@ -11,26 +11,26 @@
     "VRAM": "2 GB",
     "Bus de memoria": "64-bit",
     "Factor de forma": "Low Profile",
-    "Transferencia / Efectivo": "$67.300",
-    "Tarjeta crédito/débito": "$71.000"
+    "Transferencia / Efectivo": "$70.660",
+    "Tarjeta crédito/débito": "$74.550"
   },
   "tags": [],
   "created_at": "2026-05-04 01:19:32",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 31840,
       "store_id": "winpy",
-      "price": 66272,
+      "price": 66880,
       "price_normal": null,
-      "discount_pct": 16,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-nvidia-geforce-gt-710-de-2gb-gddr3-ventilador-perfil-bajo/",
       "store_name": "Winpy",
-      "price_card": 69784,
+      "price_card": 70425,
       "price_specs": {
-        "Transferencia o Depósito": "$66.272",
-        "Otros medios de pago": "$69.784"
+        "Transferencia o Depósito": "$66.880",
+        "Otros medios de pago": "$70.425"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,16 +40,16 @@
     {
       "product_id": 24958,
       "store_id": "centrale",
-      "price": 67300,
+      "price": 70660,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/msi-tarjeta-de-video-nvidia-gt-710-2gb-64-bit-ddr3-pci-express-2-0-low-profile/",
       "store_name": "Centrale",
-      "price_card": 71002,
+      "price_card": 74546,
       "price_specs": {
-        "Transferencia / Efectivo": "$67.300",
-        "Tarjetas de Crédito / Débito": "$71.002"
+        "Transferencia / Efectivo": "$70.660",
+        "Tarjetas de Crédito / Débito": "$74.546"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -87,7 +87,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 66272
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 66880
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

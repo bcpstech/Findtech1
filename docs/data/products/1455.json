@@ -12,26 +12,26 @@
     "Tipo": "DDR5",
     "Velocidad": "5600 MHz",
     "Latencia": "CL46",
-    "Transferencia / Efectivo": "$715.000",
-    "Tarjeta crédito/débito": "$754.330"
+    "Transferencia / Efectivo": "$756.740",
+    "Tarjeta crédito/débito": "$798.360"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 1455,
       "store_id": "centrale",
-      "price": 715000,
+      "price": 756740,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-kingston-valueram-48gb-ddr5-5600mt-s-cl46-dimm-288-pines/",
       "store_name": "Centrale",
-      "price_card": 754325,
+      "price_card": 798361,
       "price_specs": {
-        "Transferencia / Efectivo": "$715.000",
-        "Tarjetas de Crédito / Débito": "$754.325"
+        "Transferencia / Efectivo": "$756.740",
+        "Tarjetas de Crédito / Débito": "$798.361"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -69,7 +69,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 715000
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 756740
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

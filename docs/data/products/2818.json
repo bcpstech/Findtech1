@@ -8,35 +8,124 @@
   "image_url": "https://images.findtech.cl/products/amd-ryzen-7-5700g-3-8ghz-4-6ghz-turbo-octa-core-radeon-graphics-2000mhz.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$209.900",
-    "Tarjeta crédito/débito": "$216.197"
+    "Frecuencia base": "3.8 GHz",
+    "Frecuencia turbo": "4.6 GHz",
+    "Gráficos integrados": "Sí",
+    "Efectivo / Transferencia": "$199.900",
+    "Tarjeta crédito/débito": "$205.897"
   },
   "tags": [],
   "created_at": "2026-04-27 00:32:03",
-  "updated_at": "2026-04-27 00:32:03",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
+    {
+      "product_id": 1947,
+      "store_id": "dust2",
+      "price": 195990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-7-5700g-46-ghz-8-nucleos-radeon-vega-8/",
+      "store_name": "Dust2",
+      "price_card": 201870,
+      "price_specs": {
+        "Efectivo/Transferencia": "$195.990",
+        "Tarjeta crédito/débito": "$201.870"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 31888,
+      "store_id": "winpy",
+      "price": 199424,
+      "price_normal": null,
+      "discount_pct": 27,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-7-5700g-con-graficos-radeon-am4-8-cores-16-hilos-3-8-4-6ghz/",
+      "store_name": "Winpy",
+      "price_card": 209993,
+      "price_specs": {
+        "Transferencia o Depósito": "$199.424",
+        "Otros medios de pago": "$209.993"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
     {
       "product_id": 2818,
       "store_id": "alltec",
-      "price": 209900,
+      "price": 199900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/1655-amd-ryzen-7-5700g-38ghz-46ghz-turbo-octa-core-radeon-graphics-2000mhz-730143313377.html",
       "store_name": "Alltec",
+      "price_card": 205897,
+      "price_specs": {
+        "Efectivo/Transferencia": "$199.900",
+        "Tarjeta crédito/débito": "$205.897"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 280,
+      "store_id": "centrale",
+      "price": 205720,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-5700g-4-60ghz-graficos-integrados/",
+      "store_name": "Centrale",
+      "price_card": 217035,
+      "price_specs": {
+        "Transferencia / Efectivo": "$205.720",
+        "Tarjetas de Crédito / Débito": "$217.035"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
       "store_id": "alltec",
       "store_name": "Alltec",
-      "date": "2026-04-27",
-      "price": 209900
+      "date": "2026-06-08",
+      "price": 199900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 199900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-20",
+      "price": 199900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-25",
+      "price": 199900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-07-07",
+      "price": 199900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-07-07"
 }

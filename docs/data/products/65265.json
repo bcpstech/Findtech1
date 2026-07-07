@@ -11,26 +11,26 @@
     "Socket": "AM5",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
-    "Efectivo / Transferencia": "$86.944",
-    "Tarjeta crédito/débito": "$91.552"
+    "Efectivo / Transferencia": "$91.808",
+    "Tarjeta crédito/débito": "$96.674"
   },
   "tags": [],
   "created_at": "2026-06-09 01:10:25",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 65265,
       "store_id": "winpy",
-      "price": 86944,
+      "price": 91808,
       "price_normal": null,
-      "discount_pct": 25,
+      "discount_pct": 21,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-msi-pro-b840m-b-am5-ddr5-8000mhz-m-2-x2-micro-atx/",
       "store_name": "Winpy",
-      "price_card": 91552,
+      "price_card": 96674,
       "price_specs": {
-        "Transferencia o Depósito": "$86.944",
-        "Otros medios de pago": "$91.552"
+        "Transferencia o Depósito": "$91.808",
+        "Otros medios de pago": "$96.674"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,18 +38,18 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 60624,
+      "product_id": 1324,
       "store_id": "centrale",
-      "price": 88340,
+      "price": 97810,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-b840m-b-socket-am5-b840/",
+      "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-b840m-b-socket-am5-2xddr5-2xm-2-pcie-4-0/",
       "store_name": "Centrale",
-      "price_card": 93199,
+      "price_card": 103190,
       "price_specs": {
-        "Transferencia / Efectivo": "$88.340",
-        "Tarjetas de Crédito / Débito": "$93.199"
+        "Transferencia / Efectivo": "$97.810",
+        "Tarjetas de Crédito / Débito": "$103.190"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -81,7 +81,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 86944
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 91808
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

@@ -11,29 +11,29 @@
     "Capacidad": "8 GB",
     "Tipo": "DDR4",
     "Velocidad": "3200 MHz",
-    "Efectivo / Transferencia": "$57.990",
-    "Tarjeta crédito/débito": "$61.179",
+    "Efectivo / Transferencia": "$64.790",
+    "Tarjeta crédito/débito": "$68.353",
     "Garantía": "6 meses",
     "SKU": "43552",
     "Part Number": "KS3200D4N12008G"
   },
   "tags": [],
   "created_at": "2026-06-08 20:50:16",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 60050,
       "store_id": "myshop",
-      "price": 57990,
-      "price_normal": 61179,
+      "price": 64790,
+      "price_normal": 68353,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/sodimm-8-3200-p43552",
       "store_name": "MyShop",
-      "price_card": 59730,
+      "price_card": 66734,
       "price_specs": {
-        "Efectivo/Transferencia": "$57.990",
-        "Tarjeta crédito/débito": "$59.730"
+        "Efectivo/Transferencia": "$64.790",
+        "Tarjeta crédito/débito": "$66.734"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -53,7 +53,25 @@
       "store_name": "MyShop",
       "date": "2026-06-09",
       "price": 57990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-20",
+      "price": 59990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-06-25",
+      "price": 59990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 64790
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-07-07"
 }

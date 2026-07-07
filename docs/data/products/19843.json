@@ -13,29 +13,29 @@
     "Bus de memoria": "256-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$1.649.990",
-    "Tarjeta crédito/débito": "$1.740.739",
+    "Efectivo / Transferencia": "$1.677.990",
+    "Tarjeta crédito/débito": "$1.770.279",
     "Garantía": "6 meses",
     "SKU": "42285",
     "Part Number": "912-V531-628"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:47",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 19843,
       "store_id": "myshop",
-      "price": 1649990,
-      "price_normal": 1740739,
-      "discount_pct": 17,
+      "price": 1677990,
+      "price_normal": 1770279,
+      "discount_pct": 16,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/rtx-5080-16g-shadow-3x-oc-p42285",
       "store_name": "MyShop",
-      "price_card": 1699490,
+      "price_card": 1728330,
       "price_specs": {
-        "Efectivo/Transferencia": "$1.649.990",
-        "Tarjeta crédito/débito": "$1.699.490"
+        "Efectivo/Transferencia": "$1.677.990",
+        "Tarjeta crédito/débito": "$1.728.330"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -66,8 +66,14 @@
       "store_id": "myshop",
       "store_name": "MyShop",
       "date": "2026-06-25",
-      "price": 1649990
+      "price": 1659990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 1677990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

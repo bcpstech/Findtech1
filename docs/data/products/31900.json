@@ -8,16 +8,16 @@
   "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-5-9600-am5-6-cores-12-hilos-3-8-5-2ghz-cache-32mb-l3.jpg",
   "description": null,
   "specs": {
-    "Frecuencia base": "5.2 GHz",
-    "Caché L3": "32 MB",
+    "Frecuencia base": "3.8 GHz",
+    "Frecuencia turbo": "5.2 GHz",
     "Socket": "AM5",
     "Generación": "AMD Zen 5 (4nm)",
-    "Efectivo / Transferencia": "$279.680",
-    "Tarjeta crédito/débito": "$294.503"
+    "Efectivo / Transferencia": "$279.900",
+    "Tarjeta crédito/débito": "$288.297"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:35",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 31900,
@@ -37,6 +37,25 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 2813,
+      "store_id": "alltec",
+      "price": 279900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/2420-amd-ryzen-5-9600-38ghz-52ghz-turbo-six-core-tdp-65w-am5.html",
+      "store_name": "Alltec",
+      "price_card": 288297,
+      "price_specs": {
+        "Efectivo/Transferencia": "$279.900",
+        "Tarjeta crédito/débito": "$288.297"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -69,7 +88,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 279680
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 279680
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

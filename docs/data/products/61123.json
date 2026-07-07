@@ -8,15 +8,15 @@
   "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-7-5700-am4-8-cores-16-hilos-3-7-4-6ghz-16mb-cache.jpg",
   "description": null,
   "specs": {
-    "Frecuencia base": "4.6 GHz",
-    "Caché L3": "16 MB",
-    "Socket": "AM4",
-    "Efectivo / Transferencia": "$159.904",
-    "Tarjeta crédito/débito": "$168.379"
+    "Frecuencia base": "3.7 GHz",
+    "Frecuencia turbo": "4.6 GHz",
+    "Socket": "AM5",
+    "Efectivo / Transferencia": "$169.900",
+    "Tarjeta crédito/débito": "$174.997"
   },
   "tags": [],
   "created_at": "2026-06-08 20:59:24",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 61123,
@@ -36,6 +36,25 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 2816,
+      "store_id": "alltec",
+      "price": 169900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/2494-amd-ryzen-7-5700-37ghz-46ghz-turbo-octa-core-tdp-65w-am5.html",
+      "store_name": "Alltec",
+      "price_card": 174997,
+      "price_specs": {
+        "Efectivo/Transferencia": "$169.900",
+        "Tarjeta crédito/débito": "$174.997"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     },
     {
       "product_id": 291,
@@ -87,7 +106,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 159904
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 159904
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

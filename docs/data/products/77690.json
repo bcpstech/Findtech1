@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/antec-gabinete-0-761345-91400-0-cannon.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$299.490",
-    "Tarjeta crédito/débito": "$315.960"
+    "Transferencia / Efectivo": "$276.420",
+    "Tarjeta crédito/débito": "$291.620"
   },
   "tags": [],
   "created_at": "2026-06-25 18:15:16",
-  "updated_at": "2026-06-26 00:07:37",
+  "updated_at": "2026-07-07 00:26:52",
   "prices": [
     {
       "product_id": 77690,
       "store_id": "centrale",
-      "price": 299490,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 276420,
+      "price_normal": 299490,
+      "discount_pct": 8,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/antec-gabinete-0-761345-91400-0-cannon/",
       "store_name": "Centrale",
-      "price_card": 315962,
+      "price_card": 291623,
       "price_specs": {
-        "Transferencia / Efectivo": "$299.490",
-        "Tarjetas de Crédito / Débito": "$315.962"
+        "Transferencia / Efectivo": "$276.420",
+        "Tarjetas de Crédito / Débito": "$291.623"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -47,7 +47,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 299490
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 276420
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

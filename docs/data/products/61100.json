@@ -1,0 +1,99 @@
+{
+  "id": 61100,
+  "external_id": "winpy_tarjeta-grafica-gigabyte-geforce-rtx-5060-eagle-oc-8gb-gddr7",
+  "category_id": "gpu",
+  "brand": "Gigabyte",
+  "name": "Tarjeta gráfica Gigabyte GeForce RTX 5060 EAGLE OC 8GB GDDR7",
+  "slug": "winpy-tarjeta-grafica-gigabyte-geforce-rtx-5060-eagle-oc-8gb-gddr7",
+  "image_url": "https://images.findtech.cl/products/tarjeta-grafica-gigabyte-geforce-rtx-5060-eagle-oc-8gb-gddr7.jpg",
+  "description": null,
+  "specs": {
+    "VRAM": "8 GB",
+    "Tipo memoria": "GDDR7",
+    "Variante": "OC (Overclocked)",
+    "Efectivo / Transferencia": "$417.088",
+    "Tarjeta crédito/débito": "$439.194"
+  },
+  "tags": [],
+  "created_at": "2026-06-08 20:59:16",
+  "updated_at": "2026-07-07 01:11:25",
+  "prices": [
+    {
+      "product_id": 61100,
+      "store_id": "winpy",
+      "price": 417088,
+      "price_normal": null,
+      "discount_pct": 6,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-gigabyte-geforce-rtx-5060-eagle-oc-8gb-gddr7/",
+      "store_name": "Winpy",
+      "price_card": 439194,
+      "price_specs": {
+        "Transferencia o Depósito": "$417.088",
+        "Otros medios de pago": "$439.194"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 38857,
+      "store_id": "mybox",
+      "price": 431781,
+      "price_normal": 466790,
+      "discount_pct": 7,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/tarjeta-de-video/5937-tarjeta-de-video-gigabyte-5060-eagle-oc-8gb-4719331356439.html",
+      "store_name": "MyBox",
+      "price_card": 444734,
+      "price_specs": {
+        "Efectivo/Transferencia": "$431.781",
+        "Tarjeta crédito/débito": "$444.734"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-08",
+      "price": 429856
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-09",
+      "price": 429856
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 417088
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 417088
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 417088
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 417088
+    }
+  ],
+  "scraped_at": "2026-07-07"
+}

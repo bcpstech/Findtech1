@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:41:04",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 1853,
@@ -58,18 +58,18 @@
       "full_url": "https://www.mybox.cl"
     },
     {
-      "product_id": 31855,
+      "product_id": 61103,
       "store_id": "winpy",
-      "price": 429856,
+      "price": 457216,
       "price_normal": null,
-      "discount_pct": 26,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-dual-geforce-rtx-5060-oc-de-8gb-gddr7/",
+      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-dual-geforce-rtx-5060-evo-oc-edition-de-8gb-gddr7/",
       "store_name": "Winpy",
-      "price_card": 452638,
+      "price_card": 481448,
       "price_specs": {
-        "Transferencia o Depósito": "$429.856",
-        "Otros medios de pago": "$452.638"
+        "Transferencia o Depósito": "$457.216",
+        "Otros medios de pago": "$481.448"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -79,16 +79,16 @@
     {
       "product_id": 60511,
       "store_id": "centrale",
-      "price": 476870,
+      "price": 491820,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-dual-rtx-5060-evo-8gb-gddr7-128-bit/",
       "store_name": "Centrale",
-      "price_card": 503098,
+      "price_card": 518870,
       "price_specs": {
-        "Transferencia / Efectivo": "$476.870",
-        "Tarjetas de Crédito / Débito": "$503.098"
+        "Transferencia / Efectivo": "$491.820",
+        "Tarjetas de Crédito / Débito": "$518.870"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -114,7 +114,13 @@
       "store_name": "Dust2",
       "date": "2026-06-26",
       "price": 415990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-07-07",
+      "price": 415990
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

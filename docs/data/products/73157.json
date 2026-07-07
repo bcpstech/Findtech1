@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Socket": "LGA1200",
-    "Transferencia / Efectivo": "$14.600",
-    "Tarjeta crédito/débito": "$15.400"
+    "Transferencia / Efectivo": "$15.690",
+    "Tarjeta crédito/débito": "$16.550"
   },
   "tags": [],
   "created_at": "2026-06-20 00:26:36",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 73157,
       "store_id": "centrale",
-      "price": 14600,
+      "price": 15690,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-cooler-lga1200-socket-bxtsrm1/",
       "store_name": "Centrale",
-      "price_card": 15403,
+      "price_card": 16553,
       "price_specs": {
-        "Transferencia / Efectivo": "$14.600",
-        "Tarjetas de Crédito / Débito": "$15.403"
+        "Transferencia / Efectivo": "$15.690",
+        "Tarjetas de Crédito / Débito": "$16.553"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -54,7 +54,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 14600
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 15690
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

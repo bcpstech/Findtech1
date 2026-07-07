@@ -10,26 +10,26 @@
   "specs": {
     "Capacidad": "1 TB",
     "Interfaz": "SATA III",
-    "Efectivo / Transferencia": "$215.840",
-    "Tarjeta crédito/débito": "$227.280"
+    "Efectivo / Transferencia": "$209.760",
+    "Tarjeta crédito/débito": "$220.877"
   },
   "tags": [],
   "created_at": "2026-05-08 22:50:13",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 56903,
       "store_id": "winpy",
-      "price": 215840,
+      "price": 209760,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/disco-ssd-sandisk-plus-1tb-sata-hasta-545-mb-s/",
       "store_name": "Winpy",
-      "price_card": 227280,
+      "price_card": 220877,
       "price_specs": {
-        "Transferencia o Depósito": "$215.840",
-        "Otros medios de pago": "$227.280"
+        "Transferencia o Depósito": "$209.760",
+        "Otros medios de pago": "$220.877"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -67,7 +67,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 215840
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 209760
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

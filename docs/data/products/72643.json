@@ -8,56 +8,37 @@
   "image_url": "https://images.findtech.cl/products/memoria-ram-sodimm-8-gb-ddr4-3200-mhz-corsair-vengeance-cmsx8gx4m1a3200c22.jpg",
   "description": null,
   "specs": {
-    "Capacidad": "16 GB (total)",
+    "Capacidad": "8 GB",
     "Tipo": "DDR4",
     "Velocidad": "3200 MHz",
-    "Kit": "2x8 GB",
-    "Iluminación": "RGB",
-    "Marca": "Corsair",
-    "Efectivo / Transferencia": "$161.990",
-    "Tarjeta crédito/débito": "$166.850"
+    "Efectivo / Transferencia": "$84.990",
+    "Tarjeta crédito/débito": "$89.664",
+    "Garantía": "6 meses",
+    "SKU": "23615",
+    "Part Number": "CMSX8GX4M1A3200C22"
   },
   "tags": [],
   "created_at": "2026-06-20 00:16:59",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 72643,
       "store_id": "myshop",
-      "price": 87990,
-      "price_normal": 92829,
+      "price": 84990,
+      "price_normal": 89664,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/sodimm-8-gb-corsair-vengeance-ddr4-3200-mhz-cmsx8gx4m1a3200c22-p23615",
       "store_name": "MyShop",
-      "price_card": 90630,
+      "price_card": 87540,
       "price_specs": {
-        "Efectivo/Transferencia": "$87.990",
-        "Tarjeta crédito/débito": "$90.630"
+        "Efectivo/Transferencia": "$84.990",
+        "Tarjeta crédito/débito": "$87.540"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 1991,
-      "store_id": "dust2",
-      "price": 161990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/ram-corsair-vengeance-rgb-pro-sl-16gb-2x8gb-ddr4-3200/",
-      "store_name": "Dust2",
-      "price_card": 166850,
-      "price_specs": {
-        "Efectivo/Transferencia": "$161.990",
-        "Tarjeta crédito/débito": "$166.850"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
     }
   ],
   "history": [
@@ -72,7 +53,13 @@
       "store_name": "MyShop",
       "date": "2026-06-25",
       "price": 87990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 84990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

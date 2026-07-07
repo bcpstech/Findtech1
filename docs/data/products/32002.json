@@ -11,26 +11,26 @@
     "Capacidad": "256 GB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Efectivo / Transferencia": "$62.624",
-    "Tarjeta crédito/débito": "$65.943"
+    "Efectivo / Transferencia": "$65.664",
+    "Tarjeta crédito/débito": "$69.144"
   },
   "tags": [],
   "created_at": "2026-05-04 01:25:09",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 32002,
       "store_id": "winpy",
-      "price": 62624,
+      "price": 65664,
       "price_normal": null,
-      "discount_pct": 51,
+      "discount_pct": 49,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/unidad-ssd-adata-legend-710-de-256gb-nvme-m-2-pcle-3-0-hasta-2-400mb-s/",
       "store_name": "Winpy",
-      "price_card": 65943,
+      "price_card": 69144,
       "price_specs": {
-        "Transferencia o Depósito": "$62.624",
-        "Otros medios de pago": "$65.943"
+        "Transferencia o Depósito": "$65.664",
+        "Otros medios de pago": "$69.144"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,7 +68,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 62624
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 65664
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

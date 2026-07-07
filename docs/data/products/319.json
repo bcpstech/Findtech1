@@ -10,26 +10,26 @@
   "specs": {
     "Frecuencia base": "2.1 GHz",
     "Socket": "LGA1700",
-    "Transferencia / Efectivo": "$438.450",
-    "Tarjeta crédito/débito": "$462.560"
+    "Transferencia / Efectivo": "$442.810",
+    "Tarjeta crédito/débito": "$467.160"
   },
   "tags": [],
   "created_at": "2026-04-26 16:25:59",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 319,
       "store_id": "centrale",
-      "price": 438450,
+      "price": 442810,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700-lga1700-2-1ghz-a-5-4-ghz-20-nucleos-28-hilos/",
       "store_name": "Centrale",
-      "price_card": 462565,
+      "price_card": 467165,
       "price_specs": {
-        "Transferencia / Efectivo": "$438.450",
-        "Tarjetas de Crédito / Débito": "$462.565"
+        "Transferencia / Efectivo": "$442.810",
+        "Tarjetas de Crédito / Débito": "$467.165"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -67,7 +67,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 438450
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 442810
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

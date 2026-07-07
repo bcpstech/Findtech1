@@ -8,42 +8,21 @@
   "image_url": "https://images.findtech.cl/products/intel-i5-14600k-3-5ghz-5-3ghz-turbo-14c-20t-24mb-cache-125w-181w-lga1700-14th-generacion.jpg",
   "description": null,
   "specs": {
-    "Frecuencia base": "5.3 GHz",
-    "Frecuencia turbo": "5,3 GHz",
-    "Socket": "LGA 1700",
-    "Familia": "Intel® Core™ i5",
     "Núcleos": "14",
-    "Incluye cooler": "No",
     "Hilos": "20",
+    "Frecuencia base": "3.5 GHz",
+    "Frecuencia turbo": "5.3 GHz",
     "Caché L3": "24 MB",
-    "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
-    "Gráficos integrados": "Intel UHD Graphics 770",
-    "Efectivo/Transferencia": "$316.473",
-    "Tarjeta crédito/débito": "$330.714"
+    "TDP": "181W",
+    "Socket": "LGA1700",
+    "Generación": "Intel 14ª Gen (Raptor Lake Refresh)",
+    "Efectivo / Transferencia": "$359.900",
+    "Tarjeta crédito/débito": "$370.697"
   },
   "tags": [],
   "created_at": "2026-06-08 20:54:02",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
-    {
-      "product_id": 60308,
-      "store_id": "alltec",
-      "price": 284900,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/intel/2514-intel-i5-14600k-35ghz53ghz-turbo-14c20t-24mb-cache-125w181w-lga1700-14th-generacion.html",
-      "store_name": "Alltec",
-      "price_card": 293447,
-      "price_specs": {
-        "Efectivo/Transferencia": "$284.900",
-        "Tarjeta crédito/débito": "$293.447"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
-    },
     {
       "product_id": 31901,
       "store_id": "winpy",
@@ -66,16 +45,16 @@
     {
       "product_id": 37243,
       "store_id": "centrale",
-      "price": 309780,
+      "price": 309050,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-14600k-raptor-lake-s-lga1700-14-cores-20-hilos/",
       "store_name": "Centrale",
-      "price_card": 326818,
+      "price_card": 326048,
       "price_specs": {
-        "Transferencia / Efectivo": "$309.780",
-        "Tarjetas de Crédito / Débito": "$326.818"
+        "Transferencia / Efectivo": "$309.050",
+        "Tarjetas de Crédito / Débito": "$326.048"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -83,23 +62,23 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 59458,
-      "store_id": "spdigital",
-      "price": 316473,
-      "price_normal": 390800,
-      "discount_pct": 19,
+      "product_id": 60308,
+      "store_id": "alltec",
+      "price": 359900,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/core-i5-14600k-3-50ghz-sktlga1700-2400m",
-      "store_name": "SP Digital",
-      "price_card": 330714,
+      "product_url": "https://www.alltec.cl/intel/2514-intel-i5-14600k-35ghz53ghz-turbo-14c20t-24mb-cache-125w181w-lga1700-14th-generacion.html",
+      "store_name": "Alltec",
+      "price_card": 370697,
       "price_specs": {
-        "Transferencia / Efectivo": "$316.473",
-        "Webpay / Tarjeta": "$330.714"
+        "Efectivo/Transferencia": "$359.900",
+        "Tarjeta crédito/débito": "$370.697"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -126,7 +105,13 @@
       "store_name": "Alltec",
       "date": "2026-06-25",
       "price": 284900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-07-07",
+      "price": 359900
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

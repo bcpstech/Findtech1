@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:47:58",
-  "updated_at": "2026-06-26 00:17:35",
+  "updated_at": "2026-07-07 00:42:18",
   "prices": [
     {
       "product_id": 2375,
@@ -36,18 +36,18 @@
       "full_url": "https://www.dust2.gg"
     },
     {
-      "product_id": 61048,
+      "product_id": 61050,
       "store_id": "centrale",
-      "price": 51560,
+      "price": 55780,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-cooler-master-elite-490-micro-atx-vidrio-templado-3x120mm-argb/",
+      "product_url": "https://centrale.cl/producto/gabinete-cooler-master-elite-490-micro-atx-vidrio-templado-blanco/",
       "store_name": "Centrale",
-      "price_card": 54396,
+      "price_card": 58848,
       "price_specs": {
-        "Transferencia / Efectivo": "$51.560",
-        "Tarjetas de Crédito / Débito": "$54.396"
+        "Transferencia / Efectivo": "$55.780",
+        "Tarjetas de Crédito / Débito": "$58.848"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -85,7 +85,13 @@
       "store_name": "Dust2",
       "date": "2026-06-26",
       "price": 47990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-07-07",
+      "price": 47990
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

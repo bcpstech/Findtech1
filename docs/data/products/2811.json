@@ -8,35 +8,126 @@
   "image_url": "https://images.findtech.cl/products/amd-ryzen-5-8500g-3-5ghz-5-0ghz-turbo-six-core-tdp-65w-am5-amd-radeon-740m-graphics.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$159.900",
-    "Tarjeta crédito/débito": "$164.697"
+    "Frecuencia base": "3.5 GHz",
+    "Frecuencia turbo": "5.0 GHz",
+    "Socket": "AM5",
+    "Generación": "AMD Zen 5 (4nm)",
+    "Gráficos integrados": "Sí",
+    "Efectivo / Transferencia": "$149.900",
+    "Tarjeta crédito/débito": "$154.397"
   },
   "tags": [],
   "created_at": "2026-04-27 00:31:48",
-  "updated_at": "2026-04-27 00:31:48",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 2811,
       "store_id": "alltec",
-      "price": 159900,
+      "price": 149900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2199-amd-ryzen-5-8500g-35ghz-50ghz-turbo-six-core-tdp-65w-am5-amd-radeon-740m-graphics.html",
       "store_name": "Alltec",
+      "price_card": 154397,
+      "price_specs": {
+        "Efectivo/Transferencia": "$149.900",
+        "Tarjeta crédito/débito": "$154.397"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 1923,
+      "store_id": "dust2",
+      "price": 149990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-5-8500g-3-5ghz-hasta-5-0ghz-6-core/",
+      "store_name": "Dust2",
+      "price_card": 154490,
+      "price_specs": {
+        "Efectivo/Transferencia": "$149.990",
+        "Tarjeta crédito/débito": "$154.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 31881,
+      "store_id": "winpy",
+      "price": 154432,
+      "price_normal": null,
+      "discount_pct": 29,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-amd-ryzen-5-8500g-am5-6-cores-12-hilos-3-5-5-0ghz-16mb-de-cache/",
+      "store_name": "Winpy",
+      "price_card": 162617,
+      "price_specs": {
+        "Transferencia o Depósito": "$154.432",
+        "Otros medios de pago": "$162.617"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 285,
+      "store_id": "centrale",
+      "price": 159590,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-8500g-3-5-a-5-00ghz-6-nucleos-12-hilos-socket-am5/",
+      "store_name": "Centrale",
+      "price_card": 168367,
+      "price_specs": {
+        "Transferencia / Efectivo": "$159.590",
+        "Tarjetas de Crédito / Débito": "$168.367"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
       "store_id": "alltec",
       "store_name": "Alltec",
-      "date": "2026-04-27",
-      "price": 159900
+      "date": "2026-06-08",
+      "price": 149900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 149900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-20",
+      "price": 149900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-25",
+      "price": 149900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-07-07",
+      "price": 149900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-07-07"
 }

@@ -5,47 +5,95 @@
   "brand": "Gigabyte",
   "name": "Placa Madre Micro ATX Gigabyte H610M K DDR4, Intel LGA1700, DDR4, HDMI",
   "slug": "placa-madre-micro-atx-gigabyte-h610m-k-ddr4-intel-lga1700-ddr4-hdmi",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-Micro-ATX-Gigabyte-H610M-K-DDR4-Intel-LGA1700-DDR4-HDMI_mua1HM9-1.webp",
+  "image_url": "https://images.findtech.cl/products/placa-madre-micro-atx-gigabyte-h610m-k-ddr4-intel-lga1700-ddr4-hdmi.webp",
   "description": null,
   "specs": {
     "Socket": "LGA1700",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR4",
-    "Transferencia / Efectivo": "$73.330",
-    "Tarjetas de Crédito / Débito": "$77.360"
+    "Transferencia / Efectivo": "$72.370",
+    "Tarjeta crédito/débito": "$76.350"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-04-27 22:31:09",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 1411,
       "store_id": "centrale",
-      "price": 73330,
+      "price": 72370,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-gigabyte-h610m-k-ddr4-intel-lga1700-ddr4-hdmi/",
       "store_name": "Centrale",
+      "price_card": 76350,
+      "price_specs": {
+        "Transferencia / Efectivo": "$72.370",
+        "Tarjetas de Crédito / Débito": "$76.350"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 31931,
+      "store_id": "winpy",
+      "price": 83296,
+      "price_normal": null,
+      "discount_pct": 18,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/placa-madre-gigabyte-h610m-k-v2-lga1700-ddr5-4400-5600mhz-m-2-micro-atx/",
+      "store_name": "Winpy",
+      "price_card": 87711,
+      "price_specs": {
+        "Transferencia o Depósito": "$83.296",
+        "Otros medios de pago": "$87.711"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 74820
+      "date": "2026-06-08",
+      "price": 75520
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 73330
+      "date": "2026-06-09",
+      "price": 75520
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 72370
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 72370
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 72370
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 72370
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-07-07"
 }

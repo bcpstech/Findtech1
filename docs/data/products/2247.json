@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Marca": "Gigabyte",
-    "Efectivo / Transferencia": "$96.790",
-    "Tarjeta crédito/débito": "$99.690"
+    "Efectivo / Transferencia": "$91.990",
+    "Tarjeta crédito/débito": "$94.750"
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:18",
-  "updated_at": "2026-06-26 00:16:12",
+  "updated_at": "2026-07-07 00:40:10",
   "prices": [
     {
       "product_id": 2247,
       "store_id": "dust2",
-      "price": 96790,
+      "price": 91990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-modular-80-plus-gold-gp-ud850gm-pg5/",
       "store_name": "Dust2",
-      "price_card": 99694,
+      "price_card": 94750,
       "price_specs": {
-        "Efectivo/Transferencia": "$96.790",
-        "Tarjeta crédito/débito": "$99.694"
+        "Efectivo/Transferencia": "$91.990",
+        "Tarjeta crédito/débito": "$94.750"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -66,7 +66,13 @@
       "store_name": "Dust2",
       "date": "2026-06-26",
       "price": 96790
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-07-07",
+      "price": 91990
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

@@ -11,26 +11,26 @@
     "Socket": "AM5",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$565.110",
-    "Tarjeta crédito/débito": "$596.190"
+    "Transferencia / Efectivo": "$568.770",
+    "Tarjeta crédito/débito": "$600.050"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 1344,
       "store_id": "centrale",
-      "price": 565110,
+      "price": 568770,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-strix-x870e-e-gaming-wifi-am5-4xddr5-5xm-2/",
       "store_name": "Centrale",
-      "price_card": 596191,
+      "price_card": 600052,
       "price_specs": {
-        "Transferencia / Efectivo": "$565.110",
-        "Tarjetas de Crédito / Débito": "$596.191"
+        "Transferencia / Efectivo": "$568.770",
+        "Tarjetas de Crédito / Débito": "$600.052"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -87,7 +87,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 565110
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 568770
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

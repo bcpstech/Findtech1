@@ -11,70 +11,31 @@
     "Capacidad": "2 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Lectura": "7100 MB/s",
-    "Transferencia / Efectivo": "$291.870",
-    "Tarjeta crédito/débito": "$307.920"
+    "Efectivo / Transferencia": "$270.560",
+    "Tarjeta crédito/débito": "$284.900"
   },
   "tags": [],
   "created_at": "2026-06-08 21:00:00",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 61240,
       "store_id": "winpy",
-      "price": 283936,
+      "price": 270560,
       "price_normal": null,
-      "discount_pct": 22,
+      "discount_pct": 26,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/unidad-de-estado-solido-crucial-p310-de-2tb-nvme-4-0-m-2-2230-hasta-7100mb-s/",
       "store_name": "Winpy",
-      "price_card": 298985,
+      "price_card": 284900,
       "price_specs": {
-        "Transferencia o Depósito": "$283.936",
-        "Otros medios de pago": "$298.985"
+        "Transferencia o Depósito": "$270.560",
+        "Otros medios de pago": "$284.900"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 1572,
-      "store_id": "centrale",
-      "price": 291870,
-      "price_normal": 308830,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-2tb-crucial-p310-m-2-2230-pcie-4-0-lectura-7100mb-s/",
-      "store_name": "Centrale",
-      "price_card": 307923,
-      "price_specs": {
-        "Transferencia / Efectivo": "$291.870",
-        "Tarjetas de Crédito / Débito": "$307.923"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9542,
-      "store_id": "spdigital",
-      "price": 346308,
-      "price_normal": 427640,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/unidad-ssd-crucial-p310-2tb-m2-2230-pcie-40-x4-lectura-7100mbs-escritura-6000mbs",
-      "store_name": "SP Digital",
-      "price_card": 361892,
-      "price_specs": {
-        "Transferencia / Efectivo": "$346.308",
-        "Webpay / Tarjeta": "$361.892"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -89,7 +50,13 @@
       "store_name": "Winpy",
       "date": "2026-06-09",
       "price": 283936
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 270560
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-07-07"
 }

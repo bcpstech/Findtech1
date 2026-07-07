@@ -1,22 +1,20 @@
 {
   "id": 19874,
   "external_id": "pn_e302kgnns00",
-  "category_id": "cooling",
+  "category_id": "case",
   "brand": "Cooler Master",
-  "name": "Gabinete - Cooler Master  Elite 302 - S/Fuente - m-ATX - Negro - Incluye 3 ventiladores ARGB 120mm Frontales",
+  "name": "Gabinete Cooler Master Elite 302 - Black",
   "slug": "gabinete-cooler-master-elite-302-s-fuente-m-atx-negro-incluye-3-ventiladores-argb-120mm-frontal",
-  "image_url": "https://images.findtech.cl/products/gabinete-cooler-master-elite-302-s-fuente-m-atx-negro-incluye-3-ventiladores-argb-120mm-frontales.png",
+  "image_url": "https://images.findtech.cl/products/gabinete-cooler-master-elite-302-black.webp",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$45.990",
-    "Tarjeta crédito/débito": "$48.519",
-    "Garantía": "6 meses",
-    "SKU": "39275",
-    "Part Number": "E302-KGNN-S00"
+    "Marca": "Cooler Master",
+    "Efectivo / Transferencia": "$48.990",
+    "Tarjeta crédito/débito": "$50.460"
   },
   "tags": [],
   "created_at": "2026-05-01 13:18:13",
-  "updated_at": "2026-06-25 18:06:17",
+  "updated_at": "2026-07-07 01:08:47",
   "prices": [
     {
       "product_id": 19874,
@@ -36,6 +34,44 @@
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 2386,
+      "store_id": "dust2",
+      "price": 48990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/gabinete-cooler-master-elite-302-argb-blanco/",
+      "store_name": "Dust2",
+      "price_card": 50460,
+      "price_specs": {
+        "Efectivo/Transferencia": "$48.990",
+        "Tarjeta crédito/débito": "$50.460"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 19874,
+      "store_id": "bcpstech",
+      "price": 50990,
+      "price_normal": 59990,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=1573",
+      "store_name": "BCPS Tech",
+      "price_card": 52520,
+      "price_specs": {
+        "Efectivo/Transferencia": "$50.990",
+        "Tarjeta crédito/débito": "$52.520"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
     }
   ],
   "history": [
@@ -62,7 +98,25 @@
       "store_name": "MyShop",
       "date": "2026-06-25",
       "price": 45990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-06-26",
+      "price": 50990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-07-07",
+      "price": 50990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 45990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

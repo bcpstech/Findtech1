@@ -11,76 +11,65 @@
     "VRAM": "16 GB",
     "Variante": "OC (Overclocked)",
     "Efectivo / Transferencia": "$599.990",
-    "Khipu": "$611.990",
-    "Tarjeta crédito/débito": "$629.990"
+    "Khipu": "$611.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:22",
-  "updated_at": "2026-04-29 03:41:08",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 2612,
       "store_id": "trulustore",
       "price": 599990,
-      "price_normal": 629990,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/tarjeta-de-video-gigabyte-amd-radeon-rx-9060-xt-gaming-oc-16gb/",
       "store_name": "TruluStore",
+      "price_card": 617990,
+      "khipu_price": 611990,
       "price_specs": {
         "Efectivo / Transferencia": "$599.990",
         "Khipu": "$611.990",
-        "Tarjeta crédito/débito": "$629.990"
+        "Tarjeta crédito/débito": "$617.990"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
-    },
-    {
-      "product_id": 14070,
-      "store_id": "spdigital",
-      "price": 899990,
-      "price_normal": 940490,
-      "discount_pct": 4,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-gigabyte-radeon-rx-9060-xt-gaming-oc-ice-16gb-gddr6-128-bit-pci-e-50",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$899.990",
-        "Webpay / Tarjeta": "$940.490"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
     {
       "store_id": "trulustore",
       "store_name": "TruluStore",
-      "date": "2026-04-26",
+      "date": "2026-06-08",
       "price": 599990
     },
     {
       "store_id": "trulustore",
       "store_name": "TruluStore",
-      "date": "2026-04-27",
+      "date": "2026-06-09",
       "price": 599990
     },
     {
       "store_id": "trulustore",
       "store_name": "TruluStore",
-      "date": "2026-04-28",
+      "date": "2026-06-20",
       "price": 599990
     },
     {
       "store_id": "trulustore",
       "store_name": "TruluStore",
-      "date": "2026-04-29",
+      "date": "2026-06-25",
+      "price": 599990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-07-07",
       "price": 599990
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-07-07"
 }

@@ -12,32 +12,13 @@
     "Tipo memoria": "GDDR6",
     "Bus de memoria": "96-bit",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$184.870",
-    "Tarjeta crédito/débito": "$195.040"
+    "Transferencia / Efectivo": "$184.880",
+    "Tarjeta crédito/débito": "$195.050"
   },
   "tags": [],
   "created_at": "2026-06-20 00:26:06",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
-    {
-      "product_id": 1813,
-      "store_id": "dust2",
-      "price": 169990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/tarjeta-de-video-asrock-arc-a380-challenger-itx-6gb-oc/",
-      "store_name": "Dust2",
-      "price_card": 175090,
-      "price_specs": {
-        "Efectivo/Transferencia": "$169.990",
-        "Tarjeta crédito/débito": "$175.090"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
     {
       "product_id": 31843,
       "store_id": "winpy",
@@ -60,16 +41,16 @@
     {
       "product_id": 73120,
       "store_id": "centrale",
-      "price": 184870,
+      "price": 184880,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asrock-intel-arc-a380-challenger-itx-6gb-gddr6-oc-96-bit/",
       "store_name": "Centrale",
-      "price_card": 195038,
+      "price_card": 195048,
       "price_specs": {
-        "Transferencia / Efectivo": "$184.870",
-        "Tarjetas de Crédito / Débito": "$195.038"
+        "Transferencia / Efectivo": "$184.880",
+        "Tarjetas de Crédito / Débito": "$195.048"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -95,7 +76,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 184870
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 184880
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

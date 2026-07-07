@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:44:14",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 2091,
@@ -37,6 +37,25 @@
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 86749,
+      "store_id": "centrale",
+      "price": 173610,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/disco-ssd-1tb-adata-legend-860-m2-nvme-gen4-x4-m-2-2280/",
+      "store_name": "Centrale",
+      "price_card": 183159,
+      "price_specs": {
+        "Transferencia / Efectivo": "$173.610",
+        "Tarjetas de Crédito / Débito": "$183.159"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -69,7 +88,13 @@
       "store_name": "Dust2",
       "date": "2026-06-26",
       "price": 99890
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-07-07",
+      "price": 99890
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

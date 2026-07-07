@@ -12,29 +12,29 @@
     "Tipo memoria": "GDDR7",
     "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$509.890",
-    "Tarjeta crédito/débito": "$537.934",
+    "Efectivo / Transferencia": "$509.500",
+    "Tarjeta crédito/débito": "$537.523",
     "Garantía": "",
     "SKU": "43847",
     "Part Number": "ZT-B50610H-10A"
   },
   "tags": [],
   "created_at": "2026-06-25 18:03:37",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 76578,
       "store_id": "myshop",
-      "price": 509890,
-      "price_normal": 537934,
+      "price": 509500,
+      "price_normal": 537523,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/zotac-geforce-rtx5060ti-twin-edge-oc-p43847",
       "store_name": "MyShop",
-      "price_card": 525187,
+      "price_card": 524785,
       "price_specs": {
-        "Efectivo/Transferencia": "$509.890",
-        "Tarjeta crédito/débito": "$525.187"
+        "Efectivo/Transferencia": "$509.500",
+        "Tarjeta crédito/débito": "$524.785"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -61,25 +61,6 @@
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
-    },
-    {
-      "product_id": 9587,
-      "store_id": "spdigital",
-      "price": 644871,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-ti-8gb-gddr7-twin-edge-oc-128bits-28gbps-pcie-50",
-      "store_name": "SP Digital",
-      "price_card": 673890,
-      "price_specs": {
-        "Transferencia / Efectivo": "$644.871",
-        "Webpay / Tarjeta": "$673.890"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -87,8 +68,14 @@
       "store_id": "myshop",
       "store_name": "MyShop",
       "date": "2026-06-25",
-      "price": 509890
+      "price": 509500
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 509500
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

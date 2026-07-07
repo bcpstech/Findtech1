@@ -1,0 +1,65 @@
+{
+  "id": 72471,
+  "external_id": "trulustore_ssd-m-2-nvme-crucial-e100-1tb-5000mb-s-lectura-gen-4-0",
+  "category_id": "storage",
+  "brand": "Crucial",
+  "name": "SSD M.2 NVMe CRUCIAL E100 1TB 5000MB/S LECTURA – Gen 4.0",
+  "slug": "trulustore-ssd-m-2-nvme-crucial-e100-1tb-5000mb-s-lectura-gen-4-0",
+  "image_url": "https://images.findtech.cl/products/ssd-m-2-nvme-crucial-e100-1tb-5000mb-s-lectura-gen-4-0.jpg",
+  "description": null,
+  "specs": {
+    "Capacidad": "1 TB",
+    "Interfaz": "NVMe PCIe",
+    "Factor de forma": "M.2 2280",
+    "Lectura": "5000 MB/s",
+    "Efectivo / Transferencia": "$149.990",
+    "Khipu": "$152.990"
+  },
+  "tags": [],
+  "created_at": "2026-06-20 00:12:14",
+  "updated_at": "2026-07-07 01:11:25",
+  "prices": [
+    {
+      "product_id": 72471,
+      "store_id": "trulustore",
+      "price": 149990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/ssd-m-2-nvme-crucial-e100-1tb-5000mb-s-lectura-gen-4-0/",
+      "store_name": "TruluStore",
+      "price_card": 154490,
+      "khipu_price": 152990,
+      "price_specs": {
+        "Efectivo / Transferencia": "$149.990",
+        "Khipu": "$152.990",
+        "Tarjeta crédito/débito": "$154.490"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-06-20",
+      "price": 149990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-06-25",
+      "price": 149990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-07-07",
+      "price": 149990
+    }
+  ],
+  "scraped_at": "2026-07-07"
+}

@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-06-09 23:42:39",
-  "updated_at": "2026-06-26 00:48:06",
+  "updated_at": "2026-07-07 01:10:18",
   "prices": [
     {
       "product_id": 71356,
@@ -39,6 +39,25 @@
       "full_url": "https://bcpstech.cl"
     },
     {
+      "product_id": 3306,
+      "store_id": "alltec",
+      "price": 334700,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/1881-amd-ryzen-7-7700x-45ghz-54ghz-turbo-octa-core-tdp-105w-am5-730143314428.html",
+      "store_name": "Alltec",
+      "price_card": 344741,
+      "price_specs": {
+        "Efectivo/Transferencia": "$334.700",
+        "Tarjeta crédito/débito": "$344.741"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
       "product_id": 31907,
       "store_id": "winpy",
       "price": 337440,
@@ -56,6 +75,25 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 71356,
+      "store_id": "myshop",
+      "price": 337700,
+      "price_normal": 356274,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/cpu-amd-ryzen-7-7700x-100-100000591wof-p12968",
+      "store_name": "MyShop",
+      "price_card": 347831,
+      "price_specs": {
+        "Efectivo/Transferencia": "$337.700",
+        "Tarjeta crédito/débito": "$347.831"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
     },
     {
       "product_id": 278,
@@ -113,7 +151,19 @@
       "store_name": "BCPS Tech",
       "date": "2026-06-26",
       "price": 312990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-07-07",
+      "price": 312990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 337700
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

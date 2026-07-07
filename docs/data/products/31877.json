@@ -13,27 +13,26 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Marca": "ASUS",
-    "Efectivo / Transferencia": "$755.990",
-    "Tarjeta crédito/débito": "$778.670"
+    "Transferencia / Efectivo": "$819.410",
+    "Tarjeta crédito/débito": "$864.480"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:46",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 31877,
       "store_id": "winpy",
-      "price": 753920,
+      "price": 769728,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-prime-geforce-rtx-5070-oc-de-12gb-gddr7/",
       "store_name": "Winpy",
-      "price_card": 793878,
+      "price_card": 810524,
       "price_specs": {
-        "Transferencia o Depósito": "$753.920",
-        "Otros medios de pago": "$793.878"
+        "Transferencia o Depósito": "$769.728",
+        "Otros medios de pago": "$810.524"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,61 +40,23 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 1879,
-      "store_id": "dust2",
-      "price": 755990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/tarjeta-de-video-asus-prime-geforce-rtx-5070-oc-12gb/",
-      "store_name": "Dust2",
-      "price_card": 778670,
-      "price_specs": {
-        "Efectivo/Transferencia": "$755.990",
-        "Tarjeta crédito/débito": "$778.670"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
-    {
       "product_id": 56242,
       "store_id": "centrale",
-      "price": 792670,
+      "price": 812050,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-video-asus-prime-rtx-5070-12gb-gddr7-pci-e-5-0-triple-slot/",
       "store_name": "Centrale",
-      "price_card": 836267,
+      "price_card": 856713,
       "price_specs": {
-        "Transferencia / Efectivo": "$792.670",
-        "Tarjetas de Crédito / Débito": "$836.267"
+        "Transferencia / Efectivo": "$812.050",
+        "Tarjetas de Crédito / Débito": "$856.713"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 59599,
-      "store_id": "spdigital",
-      "price": 804104,
-      "price_normal": 961740,
-      "discount_pct": 16,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-prime-geforce-rtx-5070-oc-edition-12gb-gddr7-192-bit-1005-ai-tops",
-      "store_name": "SP Digital",
-      "price_card": 840289,
-      "price_specs": {
-        "Transferencia / Efectivo": "$804.104",
-        "Webpay / Tarjeta": "$840.289"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -104,7 +65,25 @@
       "store_name": "Winpy",
       "date": "2026-06-20",
       "price": 753920
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 761824
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 761824
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 769728
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-07-07"
 }

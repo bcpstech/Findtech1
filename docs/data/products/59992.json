@@ -8,18 +8,17 @@
   "image_url": "https://images.findtech.cl/products/memoria-ram-kingston-fury-beast-8gb-dimm-ddr5-5600.webp",
   "description": null,
   "specs": {
-    "Capacidad": "32 GB (total)",
+    "Capacidad": "64 GB",
     "Tipo": "DDR5",
-    "Velocidad": "6400 MHz",
-    "Latencia": "CL32",
-    "Kit": "2x16 GB",
+    "Velocidad": "5600 MHz",
+    "Latencia": "CL36",
     "Iluminación": "RGB",
-    "Transferencia / Efectivo": "$599.990",
-    "Tarjeta crédito/débito": "$632.990"
+    "Transferencia / Efectivo": "$1.101.490",
+    "Tarjeta crédito/débito": "$1.162.070"
   },
   "tags": [],
   "created_at": "2026-06-08 20:49:46",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 59992,
@@ -60,23 +59,63 @@
       "full_url": "https://www.dust2.gg"
     },
     {
-      "product_id": 60756,
+      "product_id": 59992,
+      "store_id": "myshop",
+      "price": 153990,
+      "price_normal": 162459,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/dimm-8-gb-kingston-fury-beast-ddr5-288-contactos-5600-mhz--pc5-44800-cl40-125-v-sin-bufer-on-die-ecc-p18482",
+      "store_name": "MyShop",
+      "price_card": 158610,
+      "price_specs": {
+        "Efectivo/Transferencia": "$153.990",
+        "Tarjeta crédito/débito": "$158.610"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 60813,
       "store_id": "centrale",
-      "price": 160570,
+      "price": 158070,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr5-6000mt-s-cl36-kingston-fury-beast-black-xmp-expo/",
+      "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr5-5600mt-s-cl40-kingston-fury-beast-black/",
       "store_name": "Centrale",
-      "price_card": 169401,
+      "price_card": 166764,
       "price_specs": {
-        "Transferencia / Efectivo": "$160.570",
-        "Tarjetas de Crédito / Débito": "$169.401"
+        "Transferencia / Efectivo": "$158.070",
+        "Tarjetas de Crédito / Débito": "$166.764"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2653,
+      "store_id": "trulustore",
+      "price": 259990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/memoria-ram-kingston-fury-beast-ddr5-16gb-5600mhz-cl36/",
+      "store_name": "TruluStore",
+      "price_card": 267790,
+      "khipu_price": 265190,
+      "price_specs": {
+        "Efectivo / Transferencia": "$259.990",
+        "Khipu": "$265.190",
+        "Tarjeta crédito/débito": "$267.790"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -127,7 +166,19 @@
       "store_name": "BCPS Tech",
       "date": "2026-06-26",
       "price": 138990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-07-07",
+      "price": 138990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 153990
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

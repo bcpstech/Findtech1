@@ -8,29 +8,29 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-700w-certificada-xpg-probe-80-plus-bronze-atx-no-modular.jpg",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$47.500",
-    "Tarjeta crédito/débito": "$50.113",
+    "Efectivo / Transferencia": "$47.390",
+    "Tarjeta crédito/débito": "$49.996",
     "Garantía": "6 meses",
     "SKU": "39850",
     "Part Number": "PROBE700B-BKCCL"
   },
   "tags": [],
   "created_at": "2026-06-08 20:52:12",
-  "updated_at": "2026-06-25 18:07:11",
+  "updated_at": "2026-07-07 00:10:49",
   "prices": [
     {
       "product_id": 60164,
       "store_id": "myshop",
-      "price": 47500,
-      "price_normal": 50113,
+      "price": 47390,
+      "price_normal": 49996,
       "discount_pct": 36,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/fuente-de-poder-700w-xpg-probe-80-bronze-atx-p39850",
       "store_name": "MyShop",
-      "price_card": 48925,
+      "price_card": 48812,
       "price_specs": {
-        "Efectivo/Transferencia": "$47.500",
-        "Tarjeta crédito/débito": "$48.925"
+        "Efectivo/Transferencia": "$47.390",
+        "Tarjeta crédito/débito": "$48.812"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,59 +40,21 @@
     {
       "product_id": 25435,
       "store_id": "centrale",
-      "price": 49310,
+      "price": 50790,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-700w-xpg-probe-no-modular-80-bronze/",
       "store_name": "Centrale",
-      "price_card": 52022,
+      "price_card": 53583,
       "price_specs": {
-        "Transferencia / Efectivo": "$49.310",
-        "Tarjetas de Crédito / Débito": "$52.022"
+        "Transferencia / Efectivo": "$50.790",
+        "Tarjetas de Crédito / Débito": "$53.583"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9742,
-      "store_id": "spdigital",
-      "price": 54995,
-      "price_normal": 99990,
-      "discount_pct": 45,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/fuente-de-poder-xpg-probe-700w-certificacion-80-plus-bronze-negro",
-      "store_name": "SP Digital",
-      "price_card": 57470,
-      "price_specs": {
-        "Transferencia / Efectivo": "$54.995",
-        "Webpay / Tarjeta": "$57.470"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 808,
-      "store_id": "n1g",
-      "price": 59900,
-      "price_normal": 63053,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3558-xpg-probe-700w-80-bronze-atx-80plus-bronze-probe700b-bkcar.html",
-      "store_name": "N1G",
-      "price_card": 63075,
-      "price_specs": {
-        "Efectivo/Transferencia": "$59.900",
-        "Tarjeta crédito/débito": "$63.075"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -119,7 +81,13 @@
       "store_name": "MyShop",
       "date": "2026-06-25",
       "price": 47500
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 47390
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

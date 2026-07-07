@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:55",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 31910,
@@ -42,16 +42,16 @@
     {
       "product_id": 333,
       "store_id": "centrale",
-      "price": 455300,
+      "price": 454030,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700f-core-2-1ghz-33mb-lga1700-14th-gen-no-graphic/",
       "store_name": "Centrale",
-      "price_card": 480342,
+      "price_card": 479002,
       "price_specs": {
-        "Transferencia / Efectivo": "$455.300",
-        "Tarjetas de Crédito / Débito": "$480.342"
+        "Transferencia / Efectivo": "$454.030",
+        "Tarjetas de Crédito / Débito": "$479.002"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -89,7 +89,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 419520
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 419520
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

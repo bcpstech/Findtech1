@@ -13,29 +13,29 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$737.500",
-    "Tarjeta crédito/débito": "$778.063",
+    "Efectivo / Transferencia": "$734.990",
+    "Tarjeta crédito/débito": "$775.414",
     "Garantía": "6 meses",
     "SKU": "37386",
     "Part Number": "912-V532-009"
   },
   "tags": [],
   "created_at": "2026-06-08 20:49:24",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 59962,
       "store_id": "myshop",
-      "price": 737500,
-      "price_normal": 778063,
+      "price": 734990,
+      "price_normal": 775414,
       "discount_pct": 13,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/geforce-rtx-5070-12g-ventus-2x-oc-p37386",
       "store_name": "MyShop",
-      "price_card": 759625,
+      "price_card": 757040,
       "price_specs": {
-        "Efectivo/Transferencia": "$737.500",
-        "Tarjeta crédito/débito": "$759.625"
+        "Efectivo/Transferencia": "$734.990",
+        "Tarjeta crédito/débito": "$757.040"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -66,8 +66,14 @@
       "store_id": "myshop",
       "store_name": "MyShop",
       "date": "2026-06-25",
-      "price": 737500
+      "price": 734990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 734990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

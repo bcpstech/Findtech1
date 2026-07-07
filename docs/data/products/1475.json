@@ -13,26 +13,26 @@
     "Velocidad": "3600 MHz",
     "Latencia": "CL18",
     "Iluminación": "RGB",
-    "Transferencia / Efectivo": "$361.360",
-    "Tarjeta crédito/débito": "$381.230"
+    "Transferencia / Efectivo": "$374.050",
+    "Tarjeta crédito/débito": "$394.620"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 1475,
       "store_id": "centrale",
-      "price": 361360,
+      "price": 374050,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-32gb-ddr4-3600mt-s-cl18-kingston-fury-renegade-rgb-black/",
       "store_name": "Centrale",
-      "price_card": 381235,
+      "price_card": 394623,
       "price_specs": {
-        "Transferencia / Efectivo": "$361.360",
-        "Tarjetas de Crédito / Débito": "$381.235"
+        "Transferencia / Efectivo": "$374.050",
+        "Tarjetas de Crédito / Débito": "$394.623"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -70,7 +70,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 361360
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 374050
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

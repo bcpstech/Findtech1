@@ -21,14 +21,14 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:40",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 19830,
       "store_id": "myshop",
       "price": 759990,
       "price_normal": 801789,
-      "discount_pct": 6,
+      "discount_pct": 10,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/asus-pci-express-50-nvidia-geforce-rtx-5070-gddr6-sdram-displayport-hdmi-p37152",
       "store_name": "MyShop",
@@ -67,7 +67,13 @@
       "store_name": "MyShop",
       "date": "2026-06-25",
       "price": 759990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 759990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

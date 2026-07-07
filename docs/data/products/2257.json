@@ -9,24 +9,26 @@
   "description": null,
   "specs": {
     "Marca": "ESGAMING",
-    "Efectivo / Transferencia": "$49.990",
-    "Tarjeta crédito/débito": "$51.490"
+    "Efectivo / Transferencia": "$45.990",
+    "Tarjeta crédito/débito": "$47.370"
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:25",
-  "updated_at": "2026-05-04 01:34:04",
+  "updated_at": "2026-07-07 00:40:18",
   "prices": [
     {
       "product_id": 2257,
       "store_id": "dust2",
-      "price": 49990,
+      "price": 45990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-esgaming-es-rgb650w-80plus-bronze-atx/",
       "store_name": "Dust2",
+      "price_card": 47370,
       "price_specs": {
-        "Efectivo/Transferencia": "$49.990"
+        "Efectivo/Transferencia": "$45.990",
+        "Tarjeta crédito/débito": "$47.370"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -34,82 +36,62 @@
       "full_url": "https://www.dust2.gg"
     },
     {
-      "product_id": 4223,
-      "store_id": "cg",
-      "price": 51990,
-      "price_normal": null,
-      "discount_pct": null,
+      "product_id": 41314,
+      "store_id": "bcpstech",
+      "price": 48990,
+      "price_normal": 59590,
+      "discount_pct": 18,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/fuentes-de-poder/fuente-poder-650w-80-plus-bronze-certificada-es-rgb650w-esgaming/",
-      "store_name": "CentralGamer",
+      "product_url": "https://bcpstech.cl/?p=1568",
+      "store_name": "BCPS Tech",
+      "price_card": 50460,
       "price_specs": {
-        "Efectivo/Transferencia": "$51.990"
+        "Efectivo/Transferencia": "$48.990",
+        "Tarjeta crédito/débito": "$50.460"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
-    },
-    {
-      "product_id": 1703,
-      "store_id": "centrale",
-      "price": 54670,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-esgaming-es-650w-80-bronze-ventilador-120mm-modular/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$54.670"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 16523,
-      "store_id": "spdigital",
-      "price": 69990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/caja-abierta-fuente-de-poder-650w-gamemax-gp-650-80-plus-bronze-active-pfc-certificada",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$69.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
     }
   ],
   "history": [
     {
       "store_id": "dust2",
       "store_name": "Dust2",
-      "date": "2026-04-26",
-      "price": 48530
-    },
-    {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-27",
-      "price": 48530
-    },
-    {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-05-03",
+      "date": "2026-06-08",
       "price": 49990
     },
     {
       "store_id": "dust2",
       "store_name": "Dust2",
-      "date": "2026-05-04",
+      "date": "2026-06-09",
       "price": 49990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-20",
+      "price": 49990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-25",
+      "price": 49990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-06-26",
+      "price": 49990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-07-07",
+      "price": 45990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-07-07"
 }

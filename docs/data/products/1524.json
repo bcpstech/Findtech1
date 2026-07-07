@@ -11,26 +11,26 @@
     "Capacidad": "12 TB",
     "Interfaz": "SATA III",
     "Factor de forma": "3.5\"",
-    "Transferencia / Efectivo": "$474.770",
-    "Tarjeta crédito/débito": "$500.880"
+    "Transferencia / Efectivo": "$575.820",
+    "Tarjeta crédito/débito": "$607.490"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 1524,
       "store_id": "centrale",
-      "price": 474770,
+      "price": 575820,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-duro-wd-red-plus-nas-12tb-3-5-7200rpm-sata/",
       "store_name": "Centrale",
-      "price_card": 500882,
+      "price_card": 607490,
       "price_specs": {
-        "Transferencia / Efectivo": "$474.770",
-        "Tarjetas de Crédito / Débito": "$500.882"
+        "Transferencia / Efectivo": "$575.820",
+        "Tarjetas de Crédito / Débito": "$607.490"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,7 +68,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 474770
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 575820
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

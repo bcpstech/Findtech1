@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 23:42:56",
-  "updated_at": "2026-06-26 00:09:27",
+  "updated_at": "2026-07-07 00:30:15",
   "prices": [
     {
       "product_id": 37956,
@@ -33,25 +33,6 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 77681,
-      "store_id": "centrale",
-      "price": 32300,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ciio-clio-gabinete-itx-s101b-2usb-hdd-2-5-s-101b/",
-      "store_name": "Centrale",
-      "price_card": 34077,
-      "price_specs": {
-        "Transferencia / Efectivo": "$32.300",
-        "Tarjetas de Crédito / Débito": "$34.077"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -84,7 +65,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 29792
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 29792
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

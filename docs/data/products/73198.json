@@ -12,45 +12,26 @@
     "Hilos": "16",
     "Frecuencia base": "5.0 GHz",
     "Socket": "AM5",
-    "Transferencia / Efectivo": "$459.460",
-    "Tarjeta crédito/débito": "$484.730"
+    "Transferencia / Efectivo": "$479.470",
+    "Tarjeta crédito/débito": "$505.840"
   },
   "tags": [],
   "created_at": "2026-06-20 00:27:04",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
-    {
-      "product_id": 1967,
-      "store_id": "dust2",
-      "price": 418990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-7-7800x3d-8-nucleos-4-2ghz-am5/",
-      "store_name": "Dust2",
-      "price_card": 431560,
-      "price_specs": {
-        "Efectivo/Transferencia": "$418.990",
-        "Tarjeta crédito/débito": "$431.560"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
     {
       "product_id": 73198,
       "store_id": "centrale",
-      "price": 459460,
+      "price": 479470,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-7800x3d-am5-4-2-a-5-0ghz-8-nucleos-16-hilos/",
       "store_name": "Centrale",
-      "price_card": 484730,
+      "price_card": 505841,
       "price_specs": {
-        "Transferencia / Efectivo": "$459.460",
-        "Tarjetas de Crédito / Débito": "$484.730"
+        "Transferencia / Efectivo": "$479.470",
+        "Tarjetas de Crédito / Débito": "$505.841"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -76,7 +57,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 459460
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 479470
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

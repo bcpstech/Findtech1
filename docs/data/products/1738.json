@@ -1,43 +1,77 @@
 {
   "id": 1738,
-  "external_id": "dust2_fuente-de-poder-asus-tuf-gaming-750w-gold-atx-3-0",
-  "category_id": "psu",
-  "brand": "ASUS",
-  "name": "Fuente de Poder ASUS TUF Gaming 750W Gold ATX 3.0",
-  "slug": "fuente-de-poder-asus-tuf-gaming-750w-gold-atx-3-0",
-  "image_url": "https://images.findtech.cl/products/fuente-de-poder-asus-tuf-gaming-750w-gold-atx-3-0.jpg",
+  "external_id": "centrale_gabinete-premium-arctic-xtender-black-e-atx-5-ventiladores-pre-instalados",
+  "category_id": "case",
+  "brand": "Arctic",
+  "name": "Gabinete Premium ARCTIC Xtender (Black) E-ATX (5 Ventiladores Pre-Instalados)",
+  "slug": "gabinete-premium-arctic-xtender-black-e-atx-5-ventiladores-pre-instalados",
+  "image_url": "https://images.findtech.cl/products/gabinete-premium-arctic-xtender-black-e-atx-5-ventiladores-pre-instalados.webp",
   "description": null,
   "specs": {
-    "Marca": "ASUS",
-    "Transferencia/Efectivo": "$106.790",
-    "Webpay / Tarjeta crédito-débito": "$109.990"
+    "Transferencia / Efectivo": "$139.900",
+    "Tarjeta crédito/débito": "$147.590"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:43:22",
-  "updated_at": "2026-04-25 19:43:22",
+  "created_at": "2026-04-26 20:37:55",
+  "updated_at": "2026-07-07 00:27:09",
   "prices": [
     {
       "product_id": 1738,
-      "store_id": "dust2",
-      "price": 106790,
+      "store_id": "centrale",
+      "price": 139900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/fuente-de-poder-asus-tuf-gaming-750w-gold-atx-3-0/",
-      "store_name": "Dust2",
+      "product_url": "https://centrale.cl/producto/gabinete-premium-arctic-xtender-black-e-atx-5-ventiladores-pre-instalados/",
+      "store_name": "Centrale",
+      "price_card": 147595,
+      "price_specs": {
+        "Transferencia / Efectivo": "$139.900",
+        "Tarjetas de Crédito / Débito": "$147.595"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 106790
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-08",
+      "price": 179910
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-09",
+      "price": 179910
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 149900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 149900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 149900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 139900
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-07-07"
 }

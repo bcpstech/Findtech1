@@ -12,12 +12,12 @@
     "Socket": "LGA1700",
     "Generación": "Intel 13ª Gen (Raptor Lake)",
     "Gráficos integrados": "No",
-    "Efectivo / Transferencia": "$294.272",
-    "Tarjeta crédito/débito": "$309.868"
+    "Efectivo / Transferencia": "$303.392",
+    "Tarjeta crédito/débito": "$319.472"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:31",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 306,
@@ -41,16 +41,16 @@
     {
       "product_id": 31898,
       "store_id": "winpy",
-      "price": 294272,
+      "price": 303392,
       "price_normal": null,
-      "discount_pct": 19,
+      "discount_pct": 17,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i5-14600kf-raptor-lake-s-lga1700-14-cores-20-hilos-3-5-5-3ghz-sin-video/",
       "store_name": "Winpy",
-      "price_card": 309868,
+      "price_card": 319472,
       "price_specs": {
-        "Transferencia o Depósito": "$294.272",
-        "Otros medios de pago": "$309.868"
+        "Transferencia o Depósito": "$303.392",
+        "Otros medios de pago": "$319.472"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -88,7 +88,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 294272
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 303392
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

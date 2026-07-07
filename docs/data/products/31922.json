@@ -11,12 +11,12 @@
     "Socket": "AM4",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR4",
-    "Transferencia / Efectivo": "$58.680",
-    "Tarjeta crédito/débito": "$61.910"
+    "Transferencia / Efectivo": "$66.110",
+    "Tarjeta crédito/débito": "$69.750"
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:22",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 31922,
@@ -40,16 +40,16 @@
     {
       "product_id": 1362,
       "store_id": "centrale",
-      "price": 58680,
+      "price": 66110,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-msi-a520m-a-pro-socket-amd-am4-ddr4/",
       "store_name": "Centrale",
-      "price_card": 61907,
+      "price_card": 69746,
       "price_specs": {
-        "Transferencia / Efectivo": "$58.680",
-        "Tarjetas de Crédito / Débito": "$61.907"
+        "Transferencia / Efectivo": "$66.110",
+        "Tarjetas de Crédito / Débito": "$69.746"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -87,7 +87,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 51072
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 51072
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

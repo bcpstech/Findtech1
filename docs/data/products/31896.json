@@ -8,14 +8,16 @@
   "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-7-8700g-am5-8-cores-16-hilos-4-2-5-1ghz-16mb-de-cache-l3.jpg",
   "description": null,
   "specs": {
-    "Frecuencia base": "5.15 GHz",
-    "Marca": "AMD",
-    "Efectivo / Transferencia": "$248.990",
-    "Tarjeta crédito/débito": "$256.460"
+    "Frecuencia base": "4.2 GHz",
+    "Frecuencia turbo": "5.1 GHz",
+    "Socket": "AM5",
+    "Gráficos integrados": "Sí",
+    "Efectivo / Transferencia": "$252.900",
+    "Tarjeta crédito/débito": "$260.487"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:27",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 31896,
@@ -56,18 +58,37 @@
       "full_url": "https://www.dust2.gg"
     },
     {
+      "product_id": 2822,
+      "store_id": "alltec",
+      "price": 252900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/2459-amd-ryzen-7-8700g-42ghz-51ghz-turbo-octa-core-tdp-65w-am5-amd-radeon-780m-graphics.html",
+      "store_name": "Alltec",
+      "price_card": 260487,
+      "price_specs": {
+        "Efectivo/Transferencia": "$252.900",
+        "Tarjeta crédito/débito": "$260.487"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
       "product_id": 292,
       "store_id": "centrale",
-      "price": 265840,
+      "price": 263470,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-8700g-npu-ryzen-ai-4-2ghz-a-5-10ghz-8-nucleos-16-hilos/",
       "store_name": "Centrale",
-      "price_card": 280461,
+      "price_card": 277961,
       "price_specs": {
-        "Transferencia / Efectivo": "$265.840",
-        "Tarjetas de Crédito / Débito": "$280.461"
+        "Transferencia / Efectivo": "$263.470",
+        "Tarjetas de Crédito / Débito": "$277.961"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -143,7 +164,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 247456
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 247456
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

@@ -12,26 +12,26 @@
     "Caché L3": "20 MB",
     "Socket": "LGA1851",
     "Generación": "Intel Core Ultra Serie 200 (Arrow Lake)",
-    "Efectivo / Transferencia": "$189.696",
-    "Tarjeta crédito/débito": "$199.750"
+    "Efectivo / Transferencia": "$187.264",
+    "Tarjeta crédito/débito": "$197.189"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:09",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 31887,
       "store_id": "winpy",
-      "price": 189696,
+      "price": 187264,
       "price_normal": null,
-      "discount_pct": 8,
+      "discount_pct": 27,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-ultra-5-225-arrow-lake-lga1851-6-p-cores-4-e-cores-10-hilos-3-3-4-9ghz-20mb-cache/",
       "store_name": "Winpy",
-      "price_card": 199750,
+      "price_card": 197189,
       "price_specs": {
-        "Transferencia o Depósito": "$189.696",
-        "Otros medios de pago": "$199.750"
+        "Transferencia o Depósito": "$187.264",
+        "Otros medios de pago": "$197.189"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 321,
       "store_id": "centrale",
-      "price": 196100,
+      "price": 193580,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-5-225-6p-cores-4e-cores-4-9-ghz-lga1851/",
       "store_name": "Centrale",
-      "price_card": 206886,
+      "price_card": 204227,
       "price_specs": {
-        "Transferencia / Efectivo": "$196.100",
-        "Tarjetas de Crédito / Débito": "$206.886"
+        "Transferencia / Efectivo": "$193.580",
+        "Tarjetas de Crédito / Débito": "$204.227"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -88,7 +88,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 189696
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 187264
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

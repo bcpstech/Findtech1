@@ -11,12 +11,12 @@
     "Frecuencia base": "5.0 GHz",
     "TDP": "65W",
     "Socket": "AM5",
-    "Transferencia / Efectivo": "$267.940",
-    "Tarjeta crédito/débito": "$282.680"
+    "Transferencia / Efectivo": "$262.440",
+    "Tarjeta crédito/débito": "$276.870"
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:29",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 31897,
@@ -38,23 +38,63 @@
       "full_url": "https://www.winpy.cl"
     },
     {
+      "product_id": 2814,
+      "store_id": "alltec",
+      "price": 259900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/2244-amd-ryzen-7-8700f-41ghz-50ghz-turbo-octa-core-tdp-65w-am5.html",
+      "store_name": "Alltec",
+      "price_card": 267697,
+      "price_specs": {
+        "Efectivo/Transferencia": "$259.900",
+        "Tarjeta crédito/débito": "$267.697"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
       "product_id": 302,
       "store_id": "centrale",
-      "price": 267940,
+      "price": 262440,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-8700f-socket-am5-8-cores-16-threads-4-1-a-5-0ghz-65w/",
       "store_name": "Centrale",
-      "price_card": 282677,
+      "price_card": 276874,
       "price_specs": {
-        "Transferencia / Efectivo": "$267.940",
-        "Tarjetas de Crédito / Débito": "$282.677"
+        "Transferencia / Efectivo": "$262.440",
+        "Tarjetas de Crédito / Débito": "$276.874"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 2631,
+      "store_id": "trulustore",
+      "price": 299990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/procesador-amd-ryzen-7-8700f-ai-socket-am5-8-nucleos-16-hilos/",
+      "store_name": "TruluStore",
+      "price_card": 308990,
+      "khipu_price": 305990,
+      "price_specs": {
+        "Efectivo / Transferencia": "$299.990",
+        "Khipu": "$305.990",
+        "Tarjeta crédito/débito": "$308.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     },
     {
       "product_id": 38838,
@@ -106,7 +146,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 248672
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 248672
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

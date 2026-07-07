@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Marca": "Corsair",
-    "Efectivo / Transferencia": "$105.990",
-    "Tarjeta crédito/débito": "$109.170"
+    "Efectivo / Transferencia": "$105.790",
+    "Tarjeta crédito/débito": "$108.960"
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:50",
-  "updated_at": "2026-06-26 00:16:38",
+  "updated_at": "2026-07-07 00:40:50",
   "prices": [
     {
       "product_id": 2292,
       "store_id": "dust2",
-      "price": 105990,
+      "price": 105790,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-corsair-rm850e-850w-modular-gold/",
       "store_name": "Dust2",
-      "price_card": 109170,
+      "price_card": 108964,
       "price_specs": {
-        "Efectivo/Transferencia": "$105.990",
-        "Tarjeta crédito/débito": "$109.170"
+        "Efectivo/Transferencia": "$105.790",
+        "Tarjeta crédito/débito": "$108.964"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -85,7 +85,13 @@
       "store_name": "Dust2",
       "date": "2026-06-26",
       "price": 105990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-07-07",
+      "price": 105790
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

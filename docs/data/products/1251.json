@@ -13,26 +13,26 @@
     "Bus de memoria": "256-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$1.936.450",
-    "Tarjeta crédito/débito": "$2.042.950"
+    "Transferencia / Efectivo": "$2.490.290",
+    "Tarjeta crédito/débito": "$2.627.260"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 1251,
       "store_id": "centrale",
-      "price": 1936450,
+      "price": 2490290,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-tuf-gaming-geforce-rtx-5080-oc-edition-16gb-gddr7/",
       "store_name": "Centrale",
-      "price_card": 2042955,
+      "price_card": 2627256,
       "price_specs": {
-        "Transferencia / Efectivo": "$1.936.450",
-        "Tarjetas de Crédito / Débito": "$2.042.955"
+        "Transferencia / Efectivo": "$2.490.290",
+        "Tarjetas de Crédito / Débito": "$2.627.256"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -70,7 +70,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 1936450
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 2490290
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

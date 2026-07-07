@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-06-09 23:41:22",
-  "updated_at": "2026-06-25 19:20:38",
+  "updated_at": "2026-07-07 01:08:31",
   "prices": [
     {
       "product_id": 71324,
@@ -35,44 +35,6 @@
       "full_url": "https://www.myshop.cl"
     },
     {
-      "product_id": 32069,
-      "store_id": "winpy",
-      "price": 47424,
-      "price_normal": null,
-      "discount_pct": 46,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/gabinete-gamer-gamemax-vista-coc-ab-atx-vidrio-templado-panoramico-5-ventiladores-argb-negro/",
-      "store_name": "Winpy",
-      "price_card": 49937,
-      "price_specs": {
-        "Transferencia o Depósito": "$47.424",
-        "Otros medios de pago": "$49.937"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 77701,
-      "store_id": "centrale",
-      "price": 48830,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-gamemax-vista-coc-ab-atx-vidrio-panoramico-262-5-argb/",
-      "store_name": "Centrale",
-      "price_card": 51516,
-      "price_specs": {
-        "Transferencia / Efectivo": "$48.830",
-        "Tarjetas de Crédito / Débito": "$51.516"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
       "product_id": 71324,
       "store_id": "bcpstech",
       "price": 48990,
@@ -92,23 +54,42 @@
       "full_url": "https://bcpstech.cl"
     },
     {
-      "product_id": 33903,
-      "store_id": "infor-ingen",
-      "price": 80900,
-      "price_normal": 85754,
-      "discount_pct": 6,
+      "product_id": 32069,
+      "store_id": "winpy",
+      "price": 49856,
+      "price_normal": null,
+      "discount_pct": 43,
       "stock": "in_stock",
-      "product_url": "https://store.infor-ingen.com/producto/gabinete-gamemax-vista-ab-6-fan-3-inverso-hub-v4-0-pwm-argb/",
-      "store_name": "Infor-Ingen",
-      "price_card": 83327,
+      "product_url": "https://www.winpy.cl/venta/gabinete-gamer-gamemax-vista-coc-ab-atx-vidrio-templado-panoramico-5-ventiladores-argb-negro/",
+      "store_name": "Winpy",
+      "price_card": 52498,
       "price_specs": {
-        "Efectivo/Transferencia": "$80.900",
-        "Tarjeta crédito/débito": "$83.327"
+        "Transferencia o Depósito": "$49.856",
+        "Otros medios de pago": "$52.498"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "store.infor-ingen.com",
-      "full_url": "https://store.infor-ingen.com"
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 77699,
+      "store_id": "centrale",
+      "price": 54890,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/gabinete-gamemax-vista-coc-white-atx-vidrio-262-5-argb-blanco/",
+      "store_name": "Centrale",
+      "price_card": 57909,
+      "price_specs": {
+        "Transferencia / Efectivo": "$54.890",
+        "Tarjetas de Crédito / Débito": "$57.909"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -141,7 +122,25 @@
       "store_name": "MyShop",
       "date": "2026-06-25",
       "price": 46990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-06-26",
+      "price": 48990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-07-07",
+      "price": 48990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 46990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

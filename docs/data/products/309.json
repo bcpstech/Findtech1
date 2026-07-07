@@ -10,26 +10,26 @@
   "specs": {
     "Socket": "LGA1700",
     "Generación": "Intel 13ª Gen (Raptor Lake)",
-    "Transferencia / Efectivo": "$449.270",
-    "Tarjeta crédito/débito": "$473.980"
+    "Transferencia / Efectivo": "$470.340",
+    "Tarjeta crédito/débito": "$496.210"
   },
   "tags": [],
   "created_at": "2026-04-26 16:25:24",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 309,
       "store_id": "centrale",
-      "price": 449270,
+      "price": 470340,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700k-raptor-lake-s-lga1700-20-cores-28-hilos/",
       "store_name": "Centrale",
-      "price_card": 473980,
+      "price_card": 496209,
       "price_specs": {
-        "Transferencia / Efectivo": "$449.270",
-        "Tarjetas de Crédito / Débito": "$473.980"
+        "Transferencia / Efectivo": "$470.340",
+        "Tarjetas de Crédito / Débito": "$496.209"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -67,7 +67,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 449270
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 470340
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

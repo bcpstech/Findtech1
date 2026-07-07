@@ -3,9 +3,9 @@
   "external_id": "pn_cmh32gx5m2b5600z40",
   "category_id": "ram",
   "brand": "Corsair",
-  "name": "Memoria RAM DIMM 32 GB (2 x 16 GB) - DDR5 5600 MT/s - Corsair Vengeance RGB - Intel XMP/AMD EXPO (CMH32GX5M2B5600Z40)",
+  "name": "Memoria RAM DIMM 32 GB (Kit 2 x 16 GB) - DDR5 5600 MT/s - Corsair Vengeance RGB - Intel XMP/AMD EXPO (CMH32GX5M2B5600Z40)",
   "slug": "memoria-ram-dimm-32-gb-2-x-16-gb-ddr5-5600-mt-s-corsair-vengeance-rgb-intel-xmp-amd-expo-cmh32g",
-  "image_url": "https://images.findtech.cl/products/memoria-ram-dimm-32-gb-2-x-16-gb-ddr5-5600-mt-s-corsair-vengeance-rgb-intel-xmp-amd-expo-cmh32gx5m2b.jpg",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-dimm-32-gb-kit-2-x-16-gb-ddr5-5600-mt-s-corsair-vengeance-rgb-intel-xmp-amd-expo-cmh32gx.jpg",
   "description": null,
   "specs": {
     "Capacidad": "32 GB (total)",
@@ -13,34 +13,53 @@
     "Velocidad": "5600 MHz",
     "Kit": "2x16 GB",
     "Iluminación": "RGB",
-    "Efectivo / Transferencia": "$473.990",
-    "Tarjeta crédito/débito": "$500.059",
+    "Efectivo / Transferencia": "$487.990",
+    "Tarjeta crédito/débito": "$514.829",
     "Garantía": "6 meses",
     "SKU": "40602",
     "Part Number": "CMH32GX5M2B5600Z40"
   },
   "tags": [],
   "created_at": "2026-06-08 20:50:08",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 60009,
       "store_id": "myshop",
-      "price": 229850,
-      "price_normal": 242492,
+      "price": 237990,
+      "price_normal": 251079,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/dimm-16-gb-corsair-vengeance-ddr5-5600-mhz-cmk16gx5m1b5600c40-p29252",
       "store_name": "MyShop",
-      "price_card": 236746,
+      "price_card": 245130,
       "price_specs": {
-        "Efectivo/Transferencia": "$229.850",
-        "Tarjeta crédito/débito": "$236.746"
+        "Efectivo/Transferencia": "$237.990",
+        "Tarjeta crédito/débito": "$245.130"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 73318,
+      "store_id": "centrale",
+      "price": 513310,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/ram-corsair-vengeance-32-gb-1x32-gb-ddr5-so-dimm-5-600-mt-s-cl48/",
+      "store_name": "Centrale",
+      "price_card": 541542,
+      "price_specs": {
+        "Transferencia / Efectivo": "$513.310",
+        "Tarjetas de Crédito / Débito": "$541.542"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -67,7 +86,13 @@
       "store_name": "MyShop",
       "date": "2026-06-25",
       "price": 473990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 487990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

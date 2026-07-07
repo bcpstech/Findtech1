@@ -13,29 +13,29 @@
     "Bus de memoria": "256-bit",
     "Arquitectura": "RDNA 4",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$739.990",
-    "Tarjeta crédito/débito": "$780.689",
+    "Efectivo / Transferencia": "$759.990",
+    "Tarjeta crédito/débito": "$801.789",
     "Garantía": "6 meses",
     "SKU": "35858",
     "Part Number": "GV-R9070GAMING OC-16GD"
   },
   "tags": [],
   "created_at": "2026-05-01 13:17:02",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 19855,
       "store_id": "myshop",
-      "price": 739990,
-      "price_normal": 780689,
-      "discount_pct": 5,
+      "price": 759990,
+      "price_normal": 801789,
+      "discount_pct": 13,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/radeon-rx-9070-gaming-oc-16g-p35858",
       "store_name": "MyShop",
-      "price_card": 762190,
+      "price_card": 782790,
       "price_specs": {
-        "Efectivo/Transferencia": "$739.990",
-        "Tarjeta crédito/débito": "$762.190"
+        "Efectivo/Transferencia": "$759.990",
+        "Tarjeta crédito/débito": "$782.790"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -67,7 +67,13 @@
       "store_name": "MyShop",
       "date": "2026-06-25",
       "price": 739990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 759990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

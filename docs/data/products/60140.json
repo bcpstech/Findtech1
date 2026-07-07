@@ -8,16 +8,35 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-750w-certificada-80-gold-gigabyte-gp-ud750gm-pg5-atx-modular.jpg",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$91.500",
-    "Tarjeta crédito/débito": "$96.533",
+    "Efectivo / Transferencia": "$83.970",
+    "Tarjeta crédito/débito": "$88.588",
     "Garantía": "6 meses",
-    "SKU": "23047",
-    "Part Number": "GP-UD850GM"
+    "SKU": "42287",
+    "Part Number": "GP-UD750GM PG5"
   },
   "tags": [],
   "created_at": "2026-06-08 20:51:57",
-  "updated_at": "2026-06-25 18:06:54",
+  "updated_at": "2026-07-07 00:10:26",
   "prices": [
+    {
+      "product_id": 2239,
+      "store_id": "dust2",
+      "price": 82890,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/fuente-de-poder-gigabyte-gp-ud750gm-pg5-750w-80plus-gold/",
+      "store_name": "Dust2",
+      "price_card": 85377,
+      "price_specs": {
+        "Efectivo/Transferencia": "$82.890",
+        "Tarjeta crédito/débito": "$85.377"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
     {
       "product_id": 60140,
       "store_id": "myshop",
@@ -36,25 +55,6 @@
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 2239,
-      "store_id": "dust2",
-      "price": 86990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/fuente-de-poder-gigabyte-gp-ud750gm-pg5-750w-80plus-gold/",
-      "store_name": "Dust2",
-      "price_card": 89600,
-      "price_specs": {
-        "Efectivo/Transferencia": "$86.990",
-        "Tarjeta crédito/débito": "$89.600"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
     },
     {
       "product_id": 1704,
@@ -121,7 +121,13 @@
       "store_name": "MyShop",
       "date": "2026-06-25",
       "price": 83970
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 83970
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

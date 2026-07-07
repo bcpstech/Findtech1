@@ -20,7 +20,7 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:32",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 19817,
@@ -40,6 +40,27 @@
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 85787,
+      "store_id": "trulustore",
+      "price": 439990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-gigabyte-geforce-rtx-5060-windforce-oc-8gb/",
+      "store_name": "TruluStore",
+      "price_card": 453190,
+      "khipu_price": 448790,
+      "price_specs": {
+        "Efectivo / Transferencia": "$439.990",
+        "Khipu": "$448.790",
+        "Tarjeta crédito/débito": "$453.190"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
@@ -54,7 +75,13 @@
       "store_name": "MyShop",
       "date": "2026-06-25",
       "price": 409700
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 409700
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

@@ -13,12 +13,12 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$781.030",
-    "Tarjeta crédito/débito": "$823.990"
+    "Transferencia / Efectivo": "$781.040",
+    "Tarjeta crédito/débito": "$824.000"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:34",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 31871,
@@ -42,16 +42,16 @@
     {
       "product_id": 1188,
       "store_id": "centrale",
-      "price": 781030,
+      "price": 781040,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-dual-geforce-rtx-5070-12gb-gddr7-oc-edition/",
       "store_name": "Centrale",
-      "price_card": 823987,
+      "price_card": 823997,
       "price_specs": {
-        "Transferencia / Efectivo": "$781.030",
-        "Tarjetas de Crédito / Débito": "$823.987"
+        "Transferencia / Efectivo": "$781.040",
+        "Tarjetas de Crédito / Débito": "$823.997"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -83,7 +83,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 739936
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 739936
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

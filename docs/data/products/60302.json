@@ -1,0 +1,116 @@
+{
+  "id": 60302,
+  "external_id": "alltec_intel-core-ultra-9-285k-3-7ghz-5-7ghz-turbo-24c-24t-36mb-cache-125w-250w-lga1851",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "INTEL CORE ULTRA 9 285K (3.7GHz/5.7GHz TURBO, 24C/24T, 36MB CACHE, 125W/250W, LGA1851)",
+  "slug": "alltec-intel-core-ultra-9-285k-3-7ghz-5-7ghz-turbo-24c-24t-36mb-cache-125w-250w-lga1851",
+  "image_url": "https://images.findtech.cl/products/intel-core-ultra-9-285k-3-7ghz-5-7ghz-turbo-24c-24t-36mb-cache-125w-250w-lga1851.jpg",
+  "description": null,
+  "specs": {
+    "Núcleos": "24",
+    "Hilos": "24",
+    "Frecuencia base": "3.7 GHz",
+    "Frecuencia turbo": "5.7 GHz",
+    "Caché L3": "36 MB",
+    "TDP": "250W",
+    "Socket": "LGA1851",
+    "Efectivo / Transferencia": "$769.900",
+    "Tarjeta crédito/débito": "$792.997"
+  },
+  "tags": [],
+  "created_at": "2026-06-08 20:54:00",
+  "updated_at": "2026-07-07 01:11:25",
+  "prices": [
+    {
+      "product_id": 324,
+      "store_id": "centrale",
+      "price": 625080,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-9-285k-socket-lga1851-24-nucleos-37-57ghz-36-tops/",
+      "store_name": "Centrale",
+      "price_card": 659459,
+      "price_specs": {
+        "Transferencia / Efectivo": "$625.080",
+        "Tarjetas de Crédito / Débito": "$659.459"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 60302,
+      "store_id": "alltec",
+      "price": 769900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/intel/2516-intel-core-ultra-9-285k-37ghz57ghz-turbo-24c24t-36mb-cache-125w250w-lga1851.html",
+      "store_name": "Alltec",
+      "price_card": 792997,
+      "price_specs": {
+        "Efectivo/Transferencia": "$769.900",
+        "Tarjeta crédito/débito": "$792.997"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 38833,
+      "store_id": "mybox",
+      "price": 823241,
+      "price_normal": 889990,
+      "discount_pct": 7,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/procesador/5685-procesador-intel-core-ultra-i9-285k-lga-1851-5032037281928.html",
+      "store_name": "MyBox",
+      "price_card": 847938,
+      "price_specs": {
+        "Efectivo/Transferencia": "$823.241",
+        "Tarjeta crédito/débito": "$847.938"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-08",
+      "price": 669900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-09",
+      "price": 669900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-20",
+      "price": 669900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-25",
+      "price": 669900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-07-07",
+      "price": 769900
+    }
+  ],
+  "scraped_at": "2026-07-07"
+}

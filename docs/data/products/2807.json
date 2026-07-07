@@ -12,26 +12,26 @@
     "Frecuencia turbo": "4.2 GHz",
     "Socket": "AM4",
     "Generación": "AMD Zen 5 (4nm)",
-    "Efectivo / Transferencia": "$99.900",
-    "Tarjeta crédito/débito": "$102.897"
+    "Efectivo / Transferencia": "$199.900",
+    "Tarjeta crédito/débito": "$205.897"
   },
   "tags": [],
   "created_at": "2026-04-27 00:31:36",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 2807,
       "store_id": "alltec",
-      "price": 99900,
+      "price": 199900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/1772-amd-ryzen-5-3500-mpk-36ghz-42ghz-turbo-six-core-tdp-65w-am4-8592978369668.html",
       "store_name": "Alltec",
-      "price_card": 102897,
+      "price_card": 205897,
       "price_specs": {
-        "Efectivo/Transferencia": "$99.900",
-        "Tarjeta crédito/débito": "$102.897"
+        "Efectivo/Transferencia": "$199.900",
+        "Tarjeta crédito/débito": "$205.897"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,7 +57,19 @@
       "store_name": "Alltec",
       "date": "2026-06-20",
       "price": 99900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-06-25",
+      "price": 99900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-07-07",
+      "price": 199900
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-07-07"
 }

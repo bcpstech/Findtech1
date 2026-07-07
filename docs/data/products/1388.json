@@ -11,26 +11,26 @@
     "Socket": "LGA1851",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$302.710",
-    "Tarjeta crédito/débito": "$319.360"
+    "Transferencia / Efectivo": "$304.660",
+    "Tarjeta crédito/débito": "$321.420"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 1388,
       "store_id": "centrale",
-      "price": 302710,
+      "price": 304660,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-strix-b860-f-gaming-wifi-lga-1851-ddr5-pcie-5-0-wifi-7/",
       "store_name": "Centrale",
-      "price_card": 319359,
+      "price_card": 321416,
       "price_specs": {
-        "Transferencia / Efectivo": "$302.710",
-        "Tarjetas de Crédito / Débito": "$319.359"
+        "Transferencia / Efectivo": "$304.660",
+        "Tarjetas de Crédito / Débito": "$321.416"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,7 +68,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 302710
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 304660
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

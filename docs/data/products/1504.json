@@ -11,26 +11,26 @@
     "Capacidad": "16 GB",
     "Velocidad": "3200 MHz",
     "Latencia": "CL22",
-    "Transferencia / Efectivo": "$175.210",
-    "Tarjeta crédito/débito": "$184.850"
+    "Transferencia / Efectivo": "$176.720",
+    "Tarjeta crédito/débito": "$186.440"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 1504,
       "store_id": "centrale",
-      "price": 175210,
+      "price": 176720,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-16gb-3200mt-s-cl22-kingston-valueram-2rx8-1-2v-288-pin-8gbit/",
       "store_name": "Centrale",
-      "price_card": 184847,
+      "price_card": 186440,
       "price_specs": {
-        "Transferencia / Efectivo": "$175.210",
-        "Tarjetas de Crédito / Débito": "$184.847"
+        "Transferencia / Efectivo": "$176.720",
+        "Tarjetas de Crédito / Débito": "$186.440"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -56,7 +56,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 175210
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 176720
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

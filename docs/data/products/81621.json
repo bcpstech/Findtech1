@@ -13,26 +13,26 @@
     "Bus de memoria": "256-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$1.939.170",
-    "Tarjeta crédito/débito": "$2.045.820"
+    "Transferencia / Efectivo": "$2.147.930",
+    "Tarjeta crédito/débito": "$2.266.070"
   },
   "tags": [],
   "created_at": "2026-06-26 00:02:51",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 81621,
       "store_id": "centrale",
-      "price": 1939170,
+      "price": 2147930,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5080-gaming-trio-oc-16gb-gddr7-256-bit/",
       "store_name": "Centrale",
-      "price_card": 2045824,
+      "price_card": 2266066,
       "price_specs": {
-        "Transferencia / Efectivo": "$1.939.170",
-        "Tarjetas de Crédito / Débito": "$2.045.824"
+        "Transferencia / Efectivo": "$2.147.930",
+        "Tarjetas de Crédito / Débito": "$2.266.066"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -46,7 +46,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 1939170
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 2147930
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

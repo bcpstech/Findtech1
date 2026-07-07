@@ -15,21 +15,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:05",
-  "updated_at": "2026-06-26 00:20:30",
+  "updated_at": "2026-07-07 00:45:58",
   "prices": [
     {
       "product_id": 1635,
       "store_id": "centrale",
-      "price": 86050,
+      "price": 95580,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-xpg-levante-ii-360-argb-negro-3x-120mm/",
       "store_name": "Centrale",
-      "price_card": 90783,
+      "price_card": 100837,
       "price_specs": {
-        "Transferencia / Efectivo": "$86.050",
-        "Tarjetas de Crédito / Débito": "$90.783"
+        "Transferencia / Efectivo": "$95.580",
+        "Tarjetas de Crédito / Débito": "$100.837"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -105,7 +105,13 @@
       "store_name": "ProGaming",
       "date": "2026-06-26",
       "price": 97990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-07-07",
+      "price": 97990
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

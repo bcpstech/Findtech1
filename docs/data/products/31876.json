@@ -13,12 +13,12 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$848.370",
-    "Tarjeta crédito/débito": "$895.030"
+    "Transferencia / Efectivo": "$851.100",
+    "Tarjeta crédito/débito": "$897.910"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:44",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 31876,
@@ -42,16 +42,16 @@
     {
       "product_id": 1199,
       "store_id": "centrale",
-      "price": 848370,
+      "price": 851100,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5070-12gb-gddr7-gaming-trio-oc-pcie-gen-5-250w/",
       "store_name": "Centrale",
-      "price_card": 895030,
+      "price_card": 897911,
       "price_specs": {
-        "Transferencia / Efectivo": "$848.370",
-        "Tarjetas de Crédito / Débito": "$895.030"
+        "Transferencia / Efectivo": "$851.100",
+        "Tarjetas de Crédito / Débito": "$897.911"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -71,7 +71,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 799520
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 799520
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

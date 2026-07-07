@@ -12,26 +12,26 @@
     "Tipo": "DDR4",
     "Velocidad": "3200 MHz",
     "Latencia": "CL26",
-    "Transferencia / Efectivo": "$106.800",
-    "Tarjeta crédito/débito": "$112.670"
+    "Transferencia / Efectivo": "$95.470",
+    "Tarjeta crédito/débito": "$100.720"
   },
   "tags": [],
   "created_at": "2026-06-08 20:57:21",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 60713,
       "store_id": "centrale",
-      "price": 106800,
+      "price": 95470,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr4-3200mt-s-cl26-xpg-spectrix-d35-blanca/",
       "store_name": "Centrale",
-      "price_card": 112674,
+      "price_card": 100721,
       "price_specs": {
-        "Transferencia / Efectivo": "$106.800",
-        "Tarjetas de Crédito / Débito": "$112.674"
+        "Transferencia / Efectivo": "$95.470",
+        "Tarjetas de Crédito / Débito": "$100.721"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -69,7 +69,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 106800
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 95470
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

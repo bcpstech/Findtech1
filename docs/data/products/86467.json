@@ -1,0 +1,75 @@
+{
+  "id": 86467,
+  "external_id": "centrale_procesador-intel-core-i3-12100f-4-core-3-3-ghz-socket-lga-1700",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i3-12100F 4-Core 3.3 Ghz Socket LGA 1700",
+  "slug": "centrale-procesador-intel-core-i3-12100f-4-core-3-3-ghz-socket-lga-1700",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i3-12100f-4-core-3-3-ghz-socket-lga-1700.webp",
+  "description": null,
+  "specs": {
+    "Núcleos": "4",
+    "Hilos": "8",
+    "Frecuencia base": "3.3 GHz",
+    "Frecuencia turbo": "4.3 GHz",
+    "Caché L3": "12 MB",
+    "TDP": "65W",
+    "Socket": "LGA1700",
+    "Generación": "Intel 12ª Gen (Alder Lake)",
+    "Gráficos integrados": "No",
+    "Efectivo / Transferencia": "$139.900",
+    "Tarjeta crédito/débito": "$144.097"
+  },
+  "tags": [],
+  "created_at": "2026-07-07 00:19:28",
+  "updated_at": "2026-07-07 01:11:25",
+  "prices": [
+    {
+      "product_id": 86467,
+      "store_id": "centrale",
+      "price": 107370,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i3-12100f-4-core-3-3-ghz-socket-lga-1700/",
+      "store_name": "Centrale",
+      "price_card": 113275,
+      "price_specs": {
+        "Transferencia / Efectivo": "$107.370",
+        "Tarjetas de Crédito / Débito": "$113.275"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 121,
+      "store_id": "alltec",
+      "price": 139900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/intel/1851-3ghz-intel-i3-12100f-43ghz-turbo-4c8t-12mb-cache-65w-lga1700-sin-video-12th-generacion.html",
+      "store_name": "Alltec",
+      "price_card": 144097,
+      "price_specs": {
+        "Efectivo/Transferencia": "$139.900",
+        "Tarjeta crédito/débito": "$144.097"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 107370
+    }
+  ],
+  "scraped_at": "2026-07-07"
+}

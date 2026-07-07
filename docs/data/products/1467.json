@@ -13,26 +13,26 @@
     "Velocidad": "6000 MHz",
     "Latencia": "CL48",
     "Iluminación": "RGB",
-    "Transferencia / Efectivo": "$222.980",
-    "Tarjeta crédito/débito": "$235.240"
+    "Transferencia / Efectivo": "$224.990",
+    "Tarjeta crédito/débito": "$237.360"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 1467,
       "store_id": "centrale",
-      "price": 222980,
+      "price": 224990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/xpg-memoria-ram-lancer-blade-rgb-negro-de-16gb-ddr5-6000mhz-cl48-xmp-dimm/",
       "store_name": "Centrale",
-      "price_card": 235244,
+      "price_card": 237364,
       "price_specs": {
-        "Transferencia / Efectivo": "$222.980",
-        "Tarjetas de Crédito / Débito": "$235.244"
+        "Transferencia / Efectivo": "$224.990",
+        "Tarjetas de Crédito / Débito": "$237.364"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -89,7 +89,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 222980
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 224990
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

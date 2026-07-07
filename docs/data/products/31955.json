@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:23:28",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 31955,
@@ -41,16 +41,16 @@
     {
       "product_id": 1347,
       "store_id": "centrale",
-      "price": 153440,
+      "price": 154430,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b650em-a-wifi-am5-ddr5-pcie-5-0/",
       "store_name": "Centrale",
-      "price_card": 161879,
+      "price_card": 162924,
       "price_specs": {
-        "Transferencia / Efectivo": "$153.440",
-        "Tarjetas de Crédito / Débito": "$161.879"
+        "Transferencia / Efectivo": "$154.430",
+        "Tarjetas de Crédito / Débito": "$162.924"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -88,7 +88,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 147136
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 147136
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

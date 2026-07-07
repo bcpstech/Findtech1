@@ -12,26 +12,26 @@
     "Tipo memoria": "GDDR7",
     "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$546.440",
-    "Tarjeta crédito/débito": "$576.490"
+    "Transferencia / Efectivo": "$591.550",
+    "Tarjeta crédito/débito": "$624.090"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:14",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 31861,
       "store_id": "winpy",
-      "price": 507680,
+      "price": 549632,
       "price_normal": null,
-      "discount_pct": 24,
+      "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-prime-geforce-rtx-5060-ti-oc-edition-de-8gb-gddr7/",
       "store_name": "Winpy",
-      "price_card": 534587,
+      "price_card": 578762,
       "price_specs": {
-        "Transferencia o Depósito": "$507.680",
-        "Otros medios de pago": "$534.587"
+        "Transferencia o Depósito": "$549.632",
+        "Otros medios de pago": "$578.762"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,16 +41,16 @@
     {
       "product_id": 1246,
       "store_id": "centrale",
-      "price": 546440,
+      "price": 591550,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-prime-geforce-rtx-5060-ti-8gb-gddr7-oc-edition-128-bit/",
       "store_name": "Centrale",
-      "price_card": 576494,
+      "price_card": 624085,
       "price_specs": {
-        "Transferencia / Efectivo": "$546.440",
-        "Tarjetas de Crédito / Débito": "$576.494"
+        "Transferencia / Efectivo": "$591.550",
+        "Tarjetas de Crédito / Débito": "$624.085"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -88,7 +88,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 507680
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 549632
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

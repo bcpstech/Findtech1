@@ -12,26 +12,26 @@
     "Tipo memoria": "GDDR6",
     "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$363.220",
-    "Tarjeta crédito/débito": "$383.200"
+    "Transferencia / Efectivo": "$355.960",
+    "Tarjeta crédito/débito": "$375.540"
   },
   "tags": [],
   "created_at": "2026-06-08 21:01:35",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 61282,
       "store_id": "dust2",
-      "price": 338990,
+      "price": 334990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-zotac-geforce-rtx-5050-twin-edge-oc-8gb/",
       "store_name": "Dust2",
-      "price_card": 349160,
+      "price_card": 345040,
       "price_specs": {
-        "Efectivo/Transferencia": "$338.990",
-        "Tarjeta crédito/débito": "$349.160"
+        "Efectivo/Transferencia": "$334.990",
+        "Tarjeta crédito/débito": "$345.040"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,18 +58,39 @@
       "full_url": "https://www.winpy.cl"
     },
     {
+      "product_id": 2597,
+      "store_id": "trulustore",
+      "price": 344790,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-geforce-rtx-5050-8gb-twin-edge-oc/",
+      "store_name": "TruluStore",
+      "price_card": 355134,
+      "khipu_price": 351686,
+      "price_specs": {
+        "Efectivo / Transferencia": "$344.790",
+        "Khipu": "$351.686",
+        "Tarjeta crédito/débito": "$355.134"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    },
+    {
       "product_id": 1238,
       "store_id": "centrale",
-      "price": 363220,
+      "price": 355960,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-geforce-rtx-5050-twin-edge-oc-8gb-gddr6-128-bit/",
       "store_name": "Centrale",
-      "price_card": 383197,
+      "price_card": 375538,
       "price_specs": {
-        "Transferencia / Efectivo": "$363.220",
-        "Tarjetas de Crédito / Débito": "$383.197"
+        "Transferencia / Efectivo": "$355.960",
+        "Tarjetas de Crédito / Débito": "$375.538"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -107,7 +128,13 @@
       "store_name": "Dust2",
       "date": "2026-06-26",
       "price": 338990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-07-07",
+      "price": 334990
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

@@ -21,14 +21,14 @@
   },
   "tags": [],
   "created_at": "2026-05-04 23:08:56",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 36807,
       "store_id": "myshop",
       "price": 929990,
       "price_normal": 981139,
-      "discount_pct": null,
+      "discount_pct": 7,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/tarjeta-de-video-asus-tuf-gaming-geforce-rtx-5070-12gb-gddr7-oc-edition-12-gb-gddr7-192-bits-displayporthdmi-p35457",
       "store_name": "MyShop",
@@ -67,7 +67,13 @@
       "store_name": "MyShop",
       "date": "2026-06-25",
       "price": 929990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 929990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

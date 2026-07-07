@@ -10,14 +10,13 @@
   "specs": {
     "VRAM": "8 GB",
     "Tipo memoria": "GDDR6",
-    "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$372.540",
-    "Tarjeta crédito/débito": "$393.030"
+    "Efectivo / Transferencia": "$345.952",
+    "Tarjeta crédito/débito": "$364.287"
   },
   "tags": [],
   "created_at": "2026-05-04 01:19:54",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 31851,
@@ -37,25 +36,6 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 1192,
-      "store_id": "centrale",
-      "price": 372540,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5050-shadow-2x-oc-8gb-gddr6-pcie-5-0-128-bit/",
-      "store_name": "Centrale",
-      "price_card": 393030,
-      "price_specs": {
-        "Transferencia / Efectivo": "$372.540",
-        "Tarjetas de Crédito / Débito": "$393.030"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -88,7 +68,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 345952
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 345952
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

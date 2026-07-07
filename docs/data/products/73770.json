@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-06-20 00:34:00",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 31921,
@@ -40,16 +40,16 @@
     {
       "product_id": 1410,
       "store_id": "centrale",
-      "price": 52980,
+      "price": 52990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-asus-prime-a520m-k-socket-amd-am4/",
       "store_name": "Centrale",
-      "price_card": 55894,
+      "price_card": 55904,
       "price_specs": {
-        "Transferencia / Efectivo": "$52.980",
-        "Tarjetas de Crédito / Débito": "$55.894"
+        "Transferencia / Efectivo": "$52.990",
+        "Tarjetas de Crédito / Débito": "$55.904"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -113,7 +113,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 63232
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 63232
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

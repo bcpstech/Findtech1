@@ -5,32 +5,34 @@
   "brand": "NVIDIA",
   "name": "TARJETA DE VIDEO ZOTAC NVIDIA GEFORCE RTX 5060 8GB TWIN EDGE OC",
   "slug": "tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-8gb-twin-edge-oc",
-  "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-8gb-twin-edge-oc.webp",
   "description": null,
   "specs": {
     "VRAM": "8 GB",
+    "Tipo memoria": "GDDR7",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$469.390",
-    "Khipu": "$478.778",
-    "Tarjeta crédito/débito": "$492.860"
+    "Transferencia / Efectivo": "$494.790",
+    "Tarjeta crédito/débito": "$522.000"
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:14",
-  "updated_at": "2026-04-29 03:41:08",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 2601,
       "store_id": "trulustore",
       "price": 469390,
-      "price_normal": 492860,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-8gb-twin-edge-oc/",
       "store_name": "TruluStore",
+      "price_card": 483472,
+      "khipu_price": 478778,
       "price_specs": {
         "Efectivo / Transferencia": "$469.390",
         "Khipu": "$478.778",
-        "Tarjeta crédito/débito": "$492.860"
+        "Tarjeta crédito/débito": "$483.472"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,49 +40,75 @@
       "full_url": "https://www.trulustore.cl"
     },
     {
-      "product_id": 9583,
-      "store_id": "spdigital",
-      "price": 584180,
-      "price_normal": 610460,
+      "product_id": 31859,
+      "store_id": "winpy",
+      "price": 471200,
+      "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/zotac-gaming-geforce-rtx-5060-twin-edge",
-      "store_name": "SP Digital",
+      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-zotac-geforce-rtx-5060-twin-edge-oc-de-8gb-gddr7/",
+      "store_name": "Winpy",
+      "price_card": 496174,
       "price_specs": {
-        "Transferencia / Efectivo": "$584.180",
-        "Webpay / Tarjeta": "$610.460"
+        "Transferencia o Depósito": "$471.200",
+        "Otros medios de pago": "$496.174"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1237,
+      "store_id": "centrale",
+      "price": 494790,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-nvidia-geforce-rtx-5060-twin-edge-oc-8gb-gddr7/",
+      "store_name": "Centrale",
+      "price_card": 522003,
+      "price_specs": {
+        "Transferencia / Efectivo": "$494.790",
+        "Tarjetas de Crédito / Débito": "$522.003"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
       "store_id": "trulustore",
       "store_name": "TruluStore",
-      "date": "2026-04-26",
+      "date": "2026-06-08",
       "price": 469390
     },
     {
       "store_id": "trulustore",
       "store_name": "TruluStore",
-      "date": "2026-04-27",
+      "date": "2026-06-09",
       "price": 469390
     },
     {
       "store_id": "trulustore",
       "store_name": "TruluStore",
-      "date": "2026-04-28",
+      "date": "2026-06-20",
       "price": 469390
     },
     {
       "store_id": "trulustore",
       "store_name": "TruluStore",
-      "date": "2026-04-29",
+      "date": "2026-06-25",
+      "price": 469390
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-07-07",
       "price": 469390
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-07-07"
 }

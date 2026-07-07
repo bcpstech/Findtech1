@@ -12,12 +12,12 @@
     "Factor de forma": "ATX",
     "Memoria": "DDR4",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$136.300",
-    "Tarjeta crédito/débito": "$143.800"
+    "Transferencia / Efectivo": "$138.570",
+    "Tarjeta crédito/débito": "$146.190"
   },
   "tags": [],
   "created_at": "2026-06-25 19:21:06",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 79718,
@@ -41,16 +41,16 @@
     {
       "product_id": 1342,
       "store_id": "centrale",
-      "price": 136300,
+      "price": 138570,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b550-eagle-wifi6-atx-am4-4xddr4-m-2-pcie-3-0-wifi-6/",
       "store_name": "Centrale",
-      "price_card": 143797,
+      "price_card": 146191,
       "price_specs": {
-        "Transferencia / Efectivo": "$136.300",
-        "Tarjetas de Crédito / Débito": "$143.797"
+        "Transferencia / Efectivo": "$138.570",
+        "Tarjetas de Crédito / Débito": "$146.191"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -89,7 +89,13 @@
       "store_name": "BCPS Tech",
       "date": "2026-06-26",
       "price": 130990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-07-07",
+      "price": 130990
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-07"
 }

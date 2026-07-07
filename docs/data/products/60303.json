@@ -8,22 +8,20 @@
   "image_url": "https://images.findtech.cl/products/intel-i9-14900kf-3-2ghz-6-0ghz-turbo-24c-32t-36mb-cache-125w-253w-lga1700-14th-generacion.jpg",
   "description": null,
   "specs": {
-    "Frecuencia base": "6.00 GHz",
-    "Frecuencia turbo": "6 GHz",
-    "Socket": "LGA 1700",
-    "Gráficos integrados": "No disponible",
-    "Familia": "Intel® Core™ i9",
     "Núcleos": "24",
-    "Incluye cooler": "No",
     "Hilos": "32",
+    "Frecuencia base": "3.2 GHz",
+    "Frecuencia turbo": "6.0 GHz",
     "Caché L3": "36 MB",
-    "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
-    "Efectivo/Transferencia": "$619.995",
-    "Tarjeta crédito/débito": "$647.895"
+    "TDP": "253W",
+    "Socket": "LGA1700",
+    "Generación": "Intel 14ª Gen (Raptor Lake Refresh)",
+    "Efectivo / Transferencia": "$564.900",
+    "Tarjeta crédito/débito": "$581.847"
   },
   "tags": [],
   "created_at": "2026-06-08 20:54:01",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-07 01:11:25",
   "prices": [
     {
       "product_id": 60303,
@@ -47,40 +45,21 @@
     {
       "product_id": 310,
       "store_id": "centrale",
-      "price": 617050,
+      "price": 622300,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900kf-raptor-lake-s-lga1700-sin-graficos/",
       "store_name": "Centrale",
-      "price_card": 650988,
+      "price_card": 656527,
       "price_specs": {
-        "Transferencia / Efectivo": "$617.050",
-        "Tarjetas de Crédito / Débito": "$650.988"
+        "Transferencia / Efectivo": "$622.300",
+        "Tarjetas de Crédito / Débito": "$656.527"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 59465,
-      "store_id": "spdigital",
-      "price": 619995,
-      "price_normal": 899990,
-      "discount_pct": 31,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/intel-core-i9-i9-14900kf-32-ghz-24-core-lga1700-socket",
-      "store_name": "SP Digital",
-      "price_card": 647895,
-      "price_specs": {
-        "Transferencia / Efectivo": "$619.995",
-        "Webpay / Tarjeta": "$647.895"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 38842,
@@ -126,7 +105,13 @@
       "store_name": "Alltec",
       "date": "2026-06-25",
       "price": 564900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-07-07",
+      "price": 564900
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

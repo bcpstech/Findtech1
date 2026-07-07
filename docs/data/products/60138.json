@@ -8,29 +8,29 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-850w-certificada-xpg-kyber-ii-850g-80-plus-gold-atx-semi-modular.jpg",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$74.990",
-    "Tarjeta crédito/débito": "$79.114",
+    "Efectivo / Transferencia": "$79.990",
+    "Tarjeta crédito/débito": "$84.389",
     "Garantía": "6 meses",
     "SKU": "43070",
     "Part Number": "KYBERII850G-BKCCL"
   },
   "tags": [],
   "created_at": "2026-06-08 20:51:57",
-  "updated_at": "2026-06-25 18:06:53",
+  "updated_at": "2026-07-07 00:10:25",
   "prices": [
     {
       "product_id": 60138,
       "store_id": "myshop",
-      "price": 74990,
-      "price_normal": 79114,
-      "discount_pct": 25,
+      "price": 79990,
+      "price_normal": 84389,
+      "discount_pct": 20,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/fuente-de-poder-850w-certificada-xpg-kyber-ii-850g-p43070",
       "store_name": "MyShop",
-      "price_card": 77240,
+      "price_card": 82390,
       "price_specs": {
-        "Efectivo/Transferencia": "$74.990",
-        "Tarjeta crédito/débito": "$77.240"
+        "Efectivo/Transferencia": "$79.990",
+        "Tarjeta crédito/débito": "$82.390"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,16 +40,16 @@
     {
       "product_id": 77602,
       "store_id": "centrale",
-      "price": 88480,
+      "price": 91150,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/xpg-fuente-de-poder-850w-certificada-kyber-ii-850g-80-plus-gold-atx/",
       "store_name": "Centrale",
-      "price_card": 93346,
+      "price_card": 96163,
       "price_specs": {
-        "Transferencia / Efectivo": "$88.480",
-        "Tarjetas de Crédito / Débito": "$93.346"
+        "Transferencia / Efectivo": "$91.150",
+        "Tarjetas de Crédito / Débito": "$96.163"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -81,7 +81,13 @@
       "store_name": "MyShop",
       "date": "2026-06-25",
       "price": 74990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-07",
+      "price": 79990
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-07"
 }

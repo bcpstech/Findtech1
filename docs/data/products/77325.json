@@ -1,0 +1,84 @@
+{
+  "id": 77325,
+  "external_id": "centrale_memoria-ram-adata-ddr4-dimm-8gb-3200-mhz",
+  "category_id": "ram",
+  "brand": "Adata",
+  "name": "Memoria RAM Adata DDR4 DIMM 8GB 3200 Mhz",
+  "slug": "centrale-memoria-ram-adata-ddr4-dimm-8gb-3200-mhz",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-adata-ddr4-dimm-8gb-3200-mhz.webp",
+  "description": null,
+  "specs": {
+    "Capacidad": "8 GB",
+    "Tipo": "DDR4",
+    "Velocidad": "3200 MHz",
+    "Efectivo / Transferencia": "$79.500",
+    "Tarjeta crédito/débito": "$83.873",
+    "Garantía": "6 meses",
+    "SKU": "12091",
+    "Part Number": "AD4U32008G22-SGN"
+  },
+  "tags": [],
+  "created_at": "2026-06-25 18:13:11",
+  "updated_at": "2026-07-07 01:11:25",
+  "prices": [
+    {
+      "product_id": 77325,
+      "store_id": "centrale",
+      "price": 79490,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/memoria-ram-adata-ddr4-dimm-8gb-3200-mhz/",
+      "store_name": "Centrale",
+      "price_card": 83862,
+      "price_specs": {
+        "Transferencia / Efectivo": "$79.490",
+        "Tarjetas de Crédito / Débito": "$83.862"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 60054,
+      "store_id": "myshop",
+      "price": 79500,
+      "price_normal": 83873,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/dimm-8-gb-a-data-ad4u32008g22-sgn-1-x-8gb--dimm-ddr4-3200-p12091",
+      "store_name": "MyShop",
+      "price_card": 81885,
+      "price_specs": {
+        "Efectivo/Transferencia": "$79.500",
+        "Tarjeta crédito/débito": "$81.885"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 79980
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 79590
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 79490
+    }
+  ],
+  "scraped_at": "2026-07-07"
+}
