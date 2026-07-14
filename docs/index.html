@@ -201,6 +201,7 @@ nav{display:flex;align-items:center;gap:2px}
 .dpr-store-name{font-size:14.5px;font-weight:700;color:var(--text)}
 .dpr-best-badge{display:inline-block;font-size:9px;font-weight:700;background:var(--green);color:#fff;padding:3px 8px;border-radius:6px;letter-spacing:0.5px;margin-left:6px}
 .dpr-discount-badge{display:inline-block;font-size:9px;font-weight:700;background:rgba(239,68,68,0.15);color:var(--red);padding:3px 8px;border-radius:6px;margin-left:4px}
+.dpr-right{display:flex;align-items:center;gap:12px;flex-shrink:0}
 .dpr-methods{display:flex;flex-direction:column;gap:3px;align-items:flex-end}
 .dpr-method-row{display:flex;align-items:center;gap:8px}
 .dpr-cash{font-family:'Inter',sans-serif;font-size:19px;font-weight:800;color:var(--green);letter-spacing:-0.01em}
@@ -360,7 +361,7 @@ nav{display:flex;align-items:center;gap:2px}
 @media(max-width:768px){
   .page-layout{grid-template-columns:1fr}
   .left-sidebar{position:relative;top:0}
-  .detail-wrap{grid-template-columns:1fr}
+  .detail-wrap{grid-template-columns:1fr;gap:18px}
   .detail-left{position:relative;top:0}
   .prod-grid{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
   nav{display:none}
@@ -372,29 +373,40 @@ nav{display:flex;align-items:center;gap:2px}
   .slider-track .pc-card{flex:0 0 calc((100% - 2*14px)/3)}
   .slider-track .cat-slide-card{flex:0 0 calc((100% - 3*14px)/4)}
   .banners-row{grid-template-columns:1fr 1fr}
-  .dpr-cash{font-size:15px}
-  .dpr-card{font-size:12px}
-  .detail-price-row{padding:12px 14px;gap:8px}
-  .dpr-link{padding:7px 10px;font-size:11px}
+
+  /* PRECIOS EN MOBILE — fila más compacta */
+  .detail-prices-box{border-radius:14px}
+  .detail-price-row{padding:12px 14px;gap:8px;flex-wrap:wrap}
+  .dpr-store{flex:1 1 60%;min-width:0}
+  .dpr-store-name{font-size:13px}
+  .dpr-right{flex:1 1 auto;justify-content:flex-end;gap:8px}
+  .dpr-methods{align-items:flex-end;gap:2px}
+  .dpr-cash{font-size:16px}
+  .dpr-card{font-size:11px}
+  .dpr-link{padding:8px 12px;font-size:12px;flex-shrink:0}
   .detail-specs-grid{grid-template-columns:1fr}
 }
 @media(max-width:480px){
   .header-inner{padding:0 14px}
-  .main{padding:16px 14px}
+  .main{padding:12px 12px}
   .prod-grid{grid-template-columns:1fr 1fr}
   .slider-track .featured-card{flex:0 0 calc((100% - 14px)/2)}
   .slider-track .pc-card{flex:0 0 calc((100% - 14px)/2)}
   .slider-track .cat-slide-card{flex:0 0 calc((100% - 14px)/3);min-width:100px}
   .banners-row{grid-template-columns:1fr}
   .hero-title{font-size:26px}
-  .detail-price-row{flex-wrap:wrap;gap:8px;padding:12px}
-  .dpr-store{flex:1 1 100%}
-  .dpr-methods{align-items:flex-start;width:100%}
-  .dpr-method-row{justify-content:space-between;width:100%}
-  .dpr-cash{font-size:16px}
-  .dpr-link{margin-left:auto;padding:7px 12px;font-size:11px}
+
+  /* PRECIOS — apilar tienda arriba, precios+botón abajo */
+  .detail-price-row{flex-direction:column;align-items:flex-start;gap:10px;padding:14px}
+  .dpr-store{width:100%}
+  .dpr-store-name{font-size:14px}
+  .dpr-right{width:100%;justify-content:space-between;align-items:center}
+  .dpr-methods{align-items:flex-start;flex:1}
+  .dpr-cash{font-size:18px}
+  .dpr-link{margin-left:0;padding:10px 16px;font-size:13px;font-weight:700;align-self:flex-end}
   .detail-specs-grid{grid-template-columns:1fr}
-  .detail-img-box{min-height:180px}
+  .detail-img-box{min-height:200px;padding:20px}
+  .detail-name{font-size:20px}
 }
 
 /* ── ANIMACIONES ── */
@@ -675,43 +687,28 @@ html{scroll-behavior:smooth}
 
     <!-- BANNERS x3 -->
     <div class="banners-row" id="banners-row" style="margin-bottom:32px">
-      <!-- Banner GPU -->
-      <div class="banner-slot" id="banner-1" onclick="filterCat('gpu');showPage('hardware')" style="cursor:pointer;border-color:rgba(59,130,246,0.35)">
-        <img src="https://www.gigabyte.com/FileUpload/Global/Product/2/0/8/1413/Images/NVIDIA-GeForce-RTX5090-WINDFORCE-OC-32G/na-header.jpg"
-             alt="GPU" onerror="this.style.display='none'"
-             style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:16px;opacity:0.5">
-        <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(37,99,235,0.75),rgba(6,182,212,0.45));border-radius:16px"></div>
-        <div style="position:relative;z-index:1;text-align:center;padding:16px">
-          <div style="font-size:11px;font-weight:700;letter-spacing:2px;color:rgba(255,255,255,0.6);text-transform:uppercase;margin-bottom:8px">Tarjetas de Video</div>
-          <div style="font-weight:900;font-size:22px;color:#fff;margin-bottom:6px;letter-spacing:-0.02em">RTX 5000 · RX 9000</div>
-          <div style="font-size:12px;color:rgba(255,255,255,0.7);margin-bottom:14px">Compara entre todas las tiendas</div>
-          <div style="display:inline-block;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);color:#fff;font-size:11px;font-weight:700;padding:6px 16px;border-radius:20px;backdrop-filter:blur(4px)">Ver GPUs →</div>
+      <div class="banner-slot" id="banner-1" onclick="filterCat('gpu');showPage('hardware')" style="cursor:pointer;background:linear-gradient(135deg,rgba(59,130,246,0.18),rgba(6,182,212,0.10));border-color:rgba(59,130,246,0.35)">
+        <div style="text-align:center;padding:8px">
+          <div style="font-size:44px;margin-bottom:10px;filter:drop-shadow(0 4px 8px rgba(59,130,246,0.4))">🎮</div>
+          <div style="font-weight:800;font-size:17px;color:var(--text);margin-bottom:4px">Tarjetas de Video</div>
+          <div style="font-size:12px;color:var(--text2);margin-bottom:14px;line-height:1.5">RTX 5000 · RX 9000<br>Compara entre todas las tiendas</div>
+          <div style="display:inline-block;background:rgba(59,130,246,0.2);border:1px solid rgba(59,130,246,0.4);color:#93c5fd;font-size:11px;font-weight:600;padding:5px 14px;border-radius:20px">Ver GPUs →</div>
         </div>
       </div>
-      <!-- Banner CPU -->
-      <div class="banner-slot" id="banner-2" onclick="filterCat('cpu');showPage('hardware')" style="cursor:pointer;border-color:rgba(239,68,68,0.30)">
-        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202406/2818/db94c24cbf9c9dcb12ba2a26f20a59b4a9d8ef2d7eb81bd5.png"
-             alt="CPU" onerror="this.style.display='none'"
-             style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:16px;opacity:0.45">
-        <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(220,38,38,0.75),rgba(245,158,11,0.45));border-radius:16px"></div>
-        <div style="position:relative;z-index:1;text-align:center;padding:16px">
-          <div style="font-size:11px;font-weight:700;letter-spacing:2px;color:rgba(255,255,255,0.6);text-transform:uppercase;margin-bottom:8px">Procesadores</div>
-          <div style="font-weight:900;font-size:22px;color:#fff;margin-bottom:6px;letter-spacing:-0.02em">AMD Ryzen · Intel Core</div>
-          <div style="font-size:12px;color:rgba(255,255,255,0.7);margin-bottom:14px">Desde entry-level hasta HEDT</div>
-          <div style="display:inline-block;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);color:#fff;font-size:11px;font-weight:700;padding:6px 16px;border-radius:20px;backdrop-filter:blur(4px)">Ver CPUs →</div>
+      <div class="banner-slot" id="banner-2" onclick="filterCat('cpu');showPage('hardware')" style="cursor:pointer;background:linear-gradient(135deg,rgba(239,68,68,0.15),rgba(245,158,11,0.10));border-color:rgba(239,68,68,0.30)">
+        <div style="text-align:center;padding:8px">
+          <div style="font-size:44px;margin-bottom:10px;filter:drop-shadow(0 4px 8px rgba(239,68,68,0.4))">⚡</div>
+          <div style="font-weight:800;font-size:17px;color:var(--text);margin-bottom:4px">Procesadores</div>
+          <div style="font-size:12px;color:var(--text2);margin-bottom:14px;line-height:1.5">AMD Ryzen · Intel Core<br>Desde entry-level hasta HEDT</div>
+          <div style="display:inline-block;background:rgba(239,68,68,0.2);border:1px solid rgba(239,68,68,0.4);color:#fca5a5;font-size:11px;font-weight:600;padding:5px 14px;border-radius:20px">Ver CPUs →</div>
         </div>
       </div>
-      <!-- Banner PCs -->
-      <div class="banner-slot" id="banner-3" onclick="filterCat('pc');showPage('hardware')" style="cursor:pointer;border-color:rgba(34,197,94,0.30)">
-        <img src="https://i.rtings.com/assets/products/rE7hpI2w/corsair-icue-5000t-rgb/design-medium.jpg"
-             alt="PC" onerror="this.style.display='none'"
-             style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;border-radius:16px;opacity:0.45">
-        <div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(21,128,61,0.75),rgba(6,182,212,0.45));border-radius:16px"></div>
-        <div style="position:relative;z-index:1;text-align:center;padding:16px">
-          <div style="font-size:11px;font-weight:700;letter-spacing:2px;color:rgba(255,255,255,0.6);text-transform:uppercase;margin-bottom:8px">PCs Armados</div>
-          <div style="font-weight:900;font-size:22px;color:#fff;margin-bottom:6px;letter-spacing:-0.02em">Gamer · Trabajo · Streaming</div>
-          <div style="font-size:12px;color:rgba(255,255,255,0.7);margin-bottom:14px">Listos para usar, entrega inmediata</div>
-          <div style="display:inline-block;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);color:#fff;font-size:11px;font-weight:700;padding:6px 16px;border-radius:20px;backdrop-filter:blur(4px)">Ver PCs →</div>
+      <div class="banner-slot" id="banner-3" onclick="filterCat('pc');showPage('hardware')" style="cursor:pointer;background:linear-gradient(135deg,rgba(34,197,94,0.15),rgba(6,182,212,0.10));border-color:rgba(34,197,94,0.30)">
+        <div style="text-align:center;padding:8px">
+          <div style="font-size:44px;margin-bottom:10px;filter:drop-shadow(0 4px 8px rgba(34,197,94,0.4))">💻</div>
+          <div style="font-weight:800;font-size:17px;color:var(--text);margin-bottom:4px">PCs Armados</div>
+          <div style="font-size:12px;color:var(--text2);margin-bottom:14px;line-height:1.5">Gamer · Trabajo · Streaming<br>Listos para usar, entrega inmediata</div>
+          <div style="display:inline-block;background:rgba(34,197,94,0.2);border:1px solid rgba(34,197,94,0.4);color:#86efac;font-size:11px;font-weight:600;padding:5px 14px;border-radius:20px">Ver PCs →</div>
         </div>
       </div>
     </div>
@@ -1864,25 +1861,27 @@ async function openDetail(id) {
             </div>
             ${starsHtml ? `<div class="dpr-stars">${starsHtml}</div>` : ''}
           </div>
-          <div class="dpr-methods">
-            <div class="dpr-method-row">
-              <span class="dpr-cash-label">${lbl.cash}</span>
-              <span class="dpr-cash">$${cashPrice.toLocaleString('es-CL')}</span>
+          <div class="dpr-right">
+            <div class="dpr-methods">
+              <div class="dpr-method-row">
+                <span class="dpr-cash-label">${lbl.cash}</span>
+                <span class="dpr-cash">$${cashPrice.toLocaleString('es-CL')}</span>
+              </div>
+              ${khipuPrice ? `<div class="dpr-method-row">
+                <span class="dpr-card-label">Khipu</span>
+                <span class="dpr-card">$${khipuPrice.toLocaleString('es-CL')}</span>
+              </div>` : ''}
+              ${cardPrice && lbl.card ? `<div class="dpr-method-row">
+                <span class="dpr-card-label">${lbl.card}</span>
+                <span class="dpr-card">$${cardPrice.toLocaleString('es-CL')}</span>
+              </div>` : ''}
+              ${row.discount_pct && row.price_normal && row.price_normal > cashPrice ? `<div class="dpr-method-row" style="opacity:0.5">
+                <span class="dpr-cash-label">Precio normal</span>
+                <span style="text-decoration:line-through;font-size:12px;color:var(--text3)">$${row.price_normal.toLocaleString('es-CL')}</span>
+              </div>` : ''}
             </div>
-            ${khipuPrice ? `<div class="dpr-method-row">
-              <span class="dpr-card-label">Khipu</span>
-              <span class="dpr-card">$${khipuPrice.toLocaleString('es-CL')}</span>
-            </div>` : ''}
-            ${cardPrice && lbl.card ? `<div class="dpr-method-row">
-              <span class="dpr-card-label">${lbl.card}</span>
-              <span class="dpr-card">$${cardPrice.toLocaleString('es-CL')}</span>
-            </div>` : ''}
-            ${row.discount_pct && row.price_normal && row.price_normal > cashPrice ? `<div class="dpr-method-row" style="opacity:0.5">
-              <span class="dpr-cash-label">Precio normal</span>
-              <span style="text-decoration:line-through;font-size:12px;color:var(--text3)">$${row.price_normal.toLocaleString('es-CL')}</span>
-            </div>` : ''}
+            ${row.product_url ? `<a class="dpr-link" href="${row.product_url}" target="_blank" rel="noopener">Ir →</a>` : ''}
           </div>
-          ${row.product_url ? `<a class="dpr-link" href="${row.product_url}" target="_blank" rel="noopener">Ir →</a>` : ''}
         </div>`;
       }).join('');
     } else {
