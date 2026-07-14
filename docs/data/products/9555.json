@@ -12,26 +12,26 @@
     "Interfaz": "Serial ATA III",
     "Factor de forma": "3.5\"",
     "Certificación": "RoHS",
-    "Efectivo/Transferencia": "$596.551",
-    "Tarjeta crédito/débito": "$623.396"
+    "Efectivo/Transferencia": "$685.138",
+    "Tarjeta crédito/débito": "$715.969"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:16",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 9555,
       "store_id": "spdigital",
-      "price": 596551,
-      "price_normal": 736760,
-      "discount_pct": 19,
+      "price": 685138,
+      "price_normal": 771430,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/disco-duro-para-video-inteligente-wd-purple-pro-12tb-35-7200-rpm-cache-512mb-sata",
       "store_name": "SP Digital",
-      "price_card": 623396,
+      "price_card": 715969,
       "price_specs": {
-        "Transferencia / Efectivo": "$596.551",
-        "Webpay / Tarjeta": "$623.396"
+        "Transferencia / Efectivo": "$685.138",
+        "Webpay / Tarjeta": "$715.969"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -51,7 +51,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 596551
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 688358
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 685138
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

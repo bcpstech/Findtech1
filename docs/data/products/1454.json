@@ -1,43 +1,76 @@
 {
   "id": 1454,
-  "external_id": "dust2_procesador-amd-ryzen-5-8600g-4-3-ghz-6-core-am5",
-  "category_id": "cpu",
-  "brand": "AMD",
-  "name": "Procesador AMD Ryzen 5 8600G 4.3 GHz 6-Core AM5",
-  "slug": "procesador-amd-ryzen-5-8600g-4-3-ghz-6-core-am5",
-  "image_url": "https://images.findtech.cl/products/procesador-amd-ryzen-5-8600g-4-3-ghz-6-core-am5.jpg",
+  "external_id": "centrale_memoria-ram-16gb-ddr5-6400mt-s-cl32-kingston-fury-beast-rgb-expo",
+  "category_id": "ram",
+  "brand": "Kingston",
+  "name": "Memoria RAM 16GB DDR5 6400MT/s CL32 Kingston Fury Beast RGB (EXPO)",
+  "slug": "memoria-ram-16gb-ddr5-6400mt-s-cl32-kingston-fury-beast-rgb-expo",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-16gb-ddr5-6400mt-s-cl32-kingston-fury-beast-rgb-expo.webp",
   "description": null,
   "specs": {
-    "Marca": "AMD",
-    "Transferencia/Efectivo": "$170.860",
-    "Webpay / Tarjeta crédito-débito": "$175.990"
+    "Capacidad": "16 GB",
+    "Tipo": "DDR5",
+    "Velocidad": "6400 MHz",
+    "Latencia": "CL32",
+    "Iluminación": "RGB",
+    "Transferencia / Efectivo": "$289.990",
+    "Tarjeta crédito/débito": "$305.940"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:41:11",
-  "updated_at": "2026-04-25 19:41:11",
+  "created_at": "2026-04-26 20:37:39",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1454,
-      "store_id": "dust2",
-      "price": 170860,
+      "store_id": "centrale",
+      "price": 289990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-5-8600g-4-3-ghz-6-core-am5/",
-      "store_name": "Dust2",
+      "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr5-6400mt-s-cl32-kingston-fury-beast-rgb-expo/",
+      "store_name": "Centrale",
+      "price_card": 305939,
+      "price_specs": {
+        "Transferencia / Efectivo": "$289.990",
+        "Tarjetas de Crédito / Débito": "$305.939"
+      },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 170860
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 260730
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 260730
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 260730
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 289990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 289990
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-07-14"
 }

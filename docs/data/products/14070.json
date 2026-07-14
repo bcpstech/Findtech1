@@ -14,12 +14,12 @@
     "Variante": "OC (Overclocked)",
     "Velocidad": "20000 MHz",
     "Factor de forma": "Full-Height/Full-Length (FH/FL)",
-    "Efectivo/Transferencia": "$599.995",
-    "Tarjeta crédito/débito": "$626.995"
+    "Efectivo/Transferencia": "$626.995",
+    "Tarjeta crédito/débito": "$655.210"
   },
   "tags": [],
   "created_at": "2026-04-29 03:34:42",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 2612,
@@ -45,16 +45,16 @@
     {
       "product_id": 14070,
       "store_id": "spdigital",
-      "price": 599995,
+      "price": 626995,
       "price_normal": 899990,
-      "discount_pct": 33,
+      "discount_pct": 30,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-gigabyte-radeon-rx-9060-xt-gaming-oc-ice-16gb-gddr6-128-bit-pci-e-50",
       "store_name": "SP Digital",
-      "price_card": 626995,
+      "price_card": 655210,
       "price_specs": {
-        "Transferencia / Efectivo": "$599.995",
-        "Webpay / Tarjeta": "$626.995"
+        "Transferencia / Efectivo": "$626.995",
+        "Webpay / Tarjeta": "$655.210"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -66,18 +66,6 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 599995
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 599995
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 599995
     },
@@ -86,7 +74,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 599995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 626995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 626995
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

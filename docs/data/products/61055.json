@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/gabinete-gamer-xpg-lander-500-atx-4-ventiladores-argb-incluidos.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$42.200",
-    "Tarjeta crédito/débito": "$44.520"
+    "Transferencia / Efectivo": "$42.560",
+    "Tarjeta crédito/débito": "$44.900"
   },
   "tags": [],
   "created_at": "2026-06-08 20:59:01",
-  "updated_at": "2026-06-26 00:07:46",
+  "updated_at": "2026-07-14 19:30:58",
   "prices": [
     {
       "product_id": 61055,
       "store_id": "centrale",
-      "price": 42200,
+      "price": 42560,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-gamer-xpg-lander-500-atx-4-ventiladores-argb-incluidos/",
       "store_name": "Centrale",
-      "price_card": 44521,
+      "price_card": 44901,
       "price_specs": {
-        "Transferencia / Efectivo": "$42.200",
-        "Tarjetas de Crédito / Débito": "$44.521"
+        "Transferencia / Efectivo": "$42.560",
+        "Tarjetas de Crédito / Débito": "$44.901"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,16 +37,16 @@
     {
       "product_id": 77930,
       "store_id": "winpy",
-      "price": 43168,
+      "price": 43776,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-gamer-xpg-lander-500-atx-4-ventiladores-argb-negro/",
       "store_name": "Winpy",
-      "price_card": 45456,
+      "price_card": 46096,
       "price_specs": {
-        "Transferencia o Depósito": "$43.168",
-        "Otros medios de pago": "$45.456"
+        "Transferencia o Depósito": "$43.776",
+        "Otros medios de pago": "$46.096"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,18 +55,6 @@
     }
   ],
   "history": [
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-06-08",
-      "price": 43980
-    },
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-06-09",
-      "price": 43980
-    },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
@@ -84,7 +72,19 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 42200
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 43410
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 42560
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-14"
 }

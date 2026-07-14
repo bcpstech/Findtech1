@@ -17,12 +17,12 @@
     "Caché L3": "36 MB",
     "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
     "Gráficos integrados": "Intel UHD Graphics 770",
-    "Efectivo/Transferencia": "$669.995",
-    "Tarjeta crédito/débito": "$700.145"
+    "Efectivo/Transferencia": "$704.848",
+    "Tarjeta crédito/débito": "$736.566"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:25",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 9,
@@ -63,18 +63,37 @@
       "full_url": "https://www.centrale.cl"
     },
     {
+      "product_id": 59363,
+      "store_id": "cg",
+      "price": 604990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-intel-core-i9-14900k/",
+      "store_name": "CentralGamer",
+      "price_card": 636812,
+      "price_specs": {
+        "Efectivo/Transferencia": "$604.990",
+        "Webpay / Tarjeta": "$636.812"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
       "product_id": 59466,
       "store_id": "spdigital",
-      "price": 669995,
+      "price": 704848,
       "price_normal": 879990,
-      "discount_pct": 24,
+      "discount_pct": 20,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/core-i9-14900k-3-20ghz-sktlga1700-3600m",
       "store_name": "SP Digital",
-      "price_card": 700145,
+      "price_card": 736566,
       "price_specs": {
-        "Transferencia / Efectivo": "$669.995",
-        "Webpay / Tarjeta": "$700.145"
+        "Transferencia / Efectivo": "$704.848",
+        "Webpay / Tarjeta": "$736.566"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -86,18 +105,6 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 636795
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 636795
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 669995
     },
@@ -106,7 +113,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 669995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 699341
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 704848
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

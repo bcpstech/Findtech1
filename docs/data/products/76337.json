@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/kit-de-ventiladores-cougar-unity-240-fb-argb-control-pwm-tira-argb-240mm-negro.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$24.986",
-    "Tarjeta crédito/débito": "$26.110"
+    "Efectivo/Transferencia": "$17.755",
+    "Tarjeta crédito/débito": "$18.554"
   },
   "tags": [],
   "created_at": "2026-06-25 17:59:09",
-  "updated_at": "2026-06-25 17:59:09",
+  "updated_at": "2026-07-14 19:12:13",
   "prices": [
     {
       "product_id": 76337,
       "store_id": "spdigital",
-      "price": 24986,
+      "price": 17755,
       "price_normal": 24990,
-      "discount_pct": null,
+      "discount_pct": 29,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/kit-de-ventiladores-para-radiador-cougar-unity-240-fb-argb-control-pwm-tira-argb-240mm-negro",
       "store_name": "SP Digital",
-      "price_card": 26110,
+      "price_card": 18554,
       "price_specs": {
-        "Transferencia / Efectivo": "$24.986",
-        "Webpay / Tarjeta": "$26.110"
+        "Transferencia / Efectivo": "$17.755",
+        "Webpay / Tarjeta": "$18.554"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,7 +41,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 24986
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 20890
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 17755
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

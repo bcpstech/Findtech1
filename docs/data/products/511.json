@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:09:52",
-  "updated_at": "2026-04-29 03:41:08",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 511,
@@ -29,78 +29,42 @@
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3520-zotac-solid-core-oc-white-edition-geforce-rtx-5070-ti-16gb-gddr7-pci-express-50-x16-atx-zt-b50710q2-10p.html",
       "store_name": "N1G",
+      "price_card": 1283607,
       "price_specs": {
         "Efectivo/Transferencia": "$1.219.000",
-        "Tarjeta crédito/débito": "$1.283.158"
+        "Tarjeta crédito/débito": "$1.283.607"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
-    },
-    {
-      "product_id": 2599,
-      "store_id": "trulustore",
-      "price": 1249990,
-      "price_normal": 1312490,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-geforce-rtx-5070-ti-solid-core-oc-white-edition-16gb/",
-      "store_name": "TruluStore",
-      "price_specs": {
-        "Efectivo / Transferencia": "$1.249.990",
-        "Khipu": "$1.274.990",
-        "Tarjeta crédito/débito": "$1.312.490"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
-    },
-    {
-      "product_id": 9585,
-      "store_id": "spdigital",
-      "price": 1442940,
-      "price_normal": 1507880,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-gaming-geforce-rtx-5070ti-solid-core-oc-white-edition",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$1.442.940",
-        "Webpay / Tarjeta": "$1.507.880"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
     {
       "store_id": "n1g",
       "store_name": "N1G",
-      "date": "2026-04-26",
+      "date": "2026-06-19",
       "price": 1219000
     },
     {
       "store_id": "n1g",
       "store_name": "N1G",
-      "date": "2026-04-27",
+      "date": "2026-06-25",
       "price": 1219000
     },
     {
       "store_id": "n1g",
       "store_name": "N1G",
-      "date": "2026-04-28",
+      "date": "2026-07-06",
       "price": 1219000
     },
     {
       "store_id": "n1g",
       "store_name": "N1G",
-      "date": "2026-04-29",
+      "date": "2026-07-14",
       "price": 1219000
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-07-14"
 }

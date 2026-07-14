@@ -18,12 +18,12 @@
     "Caché L3": "20 MB",
     "Memoria soportada": "DDR5-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$207.301",
-    "Tarjeta crédito/débito": "$216.630"
+    "Efectivo/Transferencia": "$226.924",
+    "Tarjeta crédito/débito": "$237.136"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:25",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 31886,
@@ -85,16 +85,16 @@
     {
       "product_id": 59467,
       "store_id": "spdigital",
-      "price": 207301,
-      "price_normal": 255990,
-      "discount_pct": 19,
+      "price": 226924,
+      "price_normal": 255470,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-intel-core-ultra-5-225-20m-cache-up-to-490-ghz-fclga18w-socket-lga-1851-65w-no-gpu",
       "store_name": "SP Digital",
-      "price_card": 216630,
+      "price_card": 237136,
       "price_specs": {
-        "Transferencia / Efectivo": "$207.301",
-        "Webpay / Tarjeta": "$216.630"
+        "Transferencia / Efectivo": "$226.924",
+        "Webpay / Tarjeta": "$237.136"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -106,18 +106,6 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 181495
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 181495
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 213176
     },
@@ -126,7 +114,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 207301
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 214607
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 226924
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

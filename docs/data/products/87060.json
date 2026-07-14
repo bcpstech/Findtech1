@@ -11,26 +11,27 @@
     "VRAM": "16 GB",
     "Tipo memoria": "GDDR7",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$793.740",
-    "Tarjeta crédito/débito": "$837.400"
+    "Factor de forma": "Full-Height/Half-Length (FH/HL)",
+    "Efectivo/Transferencia": "$731.495",
+    "Tarjeta crédito/débito": "$764.412"
   },
   "tags": [],
   "created_at": "2026-07-07 00:28:00",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 87060,
       "store_id": "winpy",
-      "price": 697984,
+      "price": 687040,
       "price_normal": null,
-      "discount_pct": 4,
+      "discount_pct": 16,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5060-ti-ventus-2x-oc-black-plus-de-16gb-gddr7/",
       "store_name": "Winpy",
-      "price_card": 734977,
+      "price_card": 723453,
       "price_specs": {
-        "Transferencia o Depósito": "$697.984",
-        "Otros medios de pago": "$734.977"
+        "Transferencia o Depósito": "$687.040",
+        "Otros medios de pago": "$723.453"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,18 +39,37 @@
       "full_url": "https://www.winpy.cl"
     },
     {
+      "product_id": 85236,
+      "store_id": "spdigital",
+      "price": 731495,
+      "price_normal": 799990,
+      "discount_pct": 9,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/msi-pci-express-nvidea-geforce-rtx-5060-ti-16g-ventus-2x-oc-black-plus",
+      "store_name": "SP Digital",
+      "price_card": 764412,
+      "price_specs": {
+        "Transferencia / Efectivo": "$731.495",
+        "Webpay / Tarjeta": "$764.412"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
       "product_id": 86385,
       "store_id": "centrale",
-      "price": 793740,
+      "price": 751070,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-de-video-msi-gefortce-rtx-5060-ti-ventus-2x-oc-black-plus-16gb-gddr7/",
       "store_name": "Centrale",
-      "price_card": 837396,
+      "price_card": 792379,
       "price_specs": {
-        "Transferencia / Efectivo": "$793.740",
-        "Tarjetas de Crédito / Débito": "$837.396"
+        "Transferencia / Efectivo": "$751.070",
+        "Tarjetas de Crédito / Débito": "$792.379"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,7 +83,13 @@
       "store_name": "Winpy",
       "date": "2026-07-07",
       "price": 697984
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-14",
+      "price": 687040
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

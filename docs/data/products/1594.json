@@ -8,14 +8,16 @@
   "image_url": "https://images.findtech.cl/products/disco-ssd-nvme-512gb-kingston-kc3000-pcie-4-0-7000-mb-s.webp",
   "description": null,
   "specs": {
-    "Capacidad": "2 TB",
+    "Capacidad": "4 TB",
     "Interfaz": "NVMe PCIe",
-    "Transferencia / Efectivo": "$483.620",
-    "Tarjeta crédito/débito": "$510.220"
+    "Factor de forma": "M.2 2280",
+    "Marca": "KINGSTON",
+    "Efectivo/Transferencia": "$945.074",
+    "Webpay / Tarjeta": "$994.785"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1594,
@@ -35,21 +37,66 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 32019,
+      "store_id": "winpy",
+      "price": 169024,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/unidad-de-estado-solido-kingston-kc3000-de-512gb-m-2-nvme-pcie-4-0-hasta-7-000-mb-s/",
+      "store_name": "Winpy",
+      "price_card": 177982,
+      "price_specs": {
+        "Transferencia o Depósito": "$169.024",
+        "Otros medios de pago": "$177.982"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1184,
+      "store_id": "cg",
+      "price": 173798,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/almacenamiento/disco-ssd-kingston-kc3000-512gb-m-2-nvme-pcie-7000-3900mb-s-3/",
+      "store_name": "CentralGamer",
+      "price_card": 182940,
+      "price_specs": {
+        "Efectivo/Transferencia": "$173.798",
+        "Webpay / Tarjeta": "$182.940"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 72098,
+      "store_id": "spdigital",
+      "price": 220295,
+      "price_normal": 247960,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/unidad-de-estado-sólido-kingston-kc3000-512gb-pcie-40-nvme-m2-7000mbs",
+      "store_name": "SP Digital",
+      "price_card": 230208,
+      "price_specs": {
+        "Transferencia / Efectivo": "$220.295",
+        "Webpay / Tarjeta": "$230.208"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-06-08",
-      "price": 129470
-    },
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-06-09",
-      "price": 129470
-    },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
@@ -61,7 +108,25 @@
       "store_name": "Centrale",
       "date": "2026-06-25",
       "price": 153110
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 153110
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 153110
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 153110
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

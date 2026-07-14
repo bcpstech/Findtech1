@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Marca": "Corsair",
-    "Efectivo / Transferencia": "$88.990",
-    "Tarjeta crédito/débito": "$91.660"
+    "Efectivo / Transferencia": "$94.790",
+    "Tarjeta crédito/débito": "$97.630"
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:48",
-  "updated_at": "2026-07-07 00:40:48",
+  "updated_at": "2026-07-14 19:38:04",
   "prices": [
     {
       "product_id": 2289,
       "store_id": "dust2",
-      "price": 88990,
+      "price": 94790,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-corsair-rme-series-rm750e-750w-full-modular/",
       "store_name": "Dust2",
-      "price_card": 91660,
+      "price_card": 97634,
       "price_specs": {
-        "Efectivo/Transferencia": "$88.990",
-        "Tarjeta crédito/débito": "$91.660"
+        "Efectivo/Transferencia": "$94.790",
+        "Tarjeta crédito/débito": "$97.634"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,16 +38,16 @@
     {
       "product_id": 56705,
       "store_id": "centrale",
-      "price": 108940,
+      "price": 97180,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-750w-corsair-rm750e-80-plus-gold-full-modular-pcie-5-1-atx-3-1/",
       "store_name": "Centrale",
-      "price_card": 114932,
+      "price_card": 102525,
       "price_specs": {
-        "Transferencia / Efectivo": "$108.940",
-        "Tarjetas de Crédito / Débito": "$114.932"
+        "Transferencia / Efectivo": "$97.180",
+        "Tarjetas de Crédito / Débito": "$102.525"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -79,7 +79,13 @@
       "store_name": "Dust2",
       "date": "2026-07-07",
       "price": 88990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-07-14",
+      "price": 94790
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

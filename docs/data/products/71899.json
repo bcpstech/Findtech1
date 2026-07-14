@@ -17,12 +17,12 @@
     "Frecuencia turbo": "4,4 GHz",
     "Caché L3": "18 MB",
     "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
-    "Efectivo/Transferencia": "$185.960",
-    "Tarjeta crédito/débito": "$194.328"
+    "Efectivo/Transferencia": "$208.673",
+    "Tarjeta crédito/débito": "$218.063"
   },
   "tags": [],
   "created_at": "2026-06-20 00:07:03",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 3,
@@ -44,56 +44,18 @@
       "full_url": "https://www.n1g.cl"
     },
     {
-      "product_id": 122,
-      "store_id": "alltec",
-      "price": 165900,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.alltec.cl/intel/2022-5ghz-intel-i5-12400f-44ghz-turbo-6c12t-18mb-cache-65w117w-lga1700-12th-generacion.html",
-      "store_name": "Alltec",
-      "price_card": 170877,
-      "price_specs": {
-        "Efectivo/Transferencia": "$165.900",
-        "Tarjeta crédito/débito": "$170.877"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.alltec.cl",
-      "full_url": "https://www.alltec.cl"
-    },
-    {
-      "product_id": 61127,
-      "store_id": "winpy",
-      "price": 169024,
-      "price_normal": null,
-      "discount_pct": 18,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i5-12400f-alder-lake-lga1700-6-cores-12-hilos-2-5-4-4ghz-sin-video/",
-      "store_name": "Winpy",
-      "price_card": 177982,
-      "price_specs": {
-        "Transferencia o Depósito": "$169.024",
-        "Otros medios de pago": "$177.982"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
-    {
       "product_id": 308,
       "store_id": "centrale",
-      "price": 174780,
+      "price": 172400,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-12400f-2-5ghz-18mb-6-cores-lga-1700/",
       "store_name": "Centrale",
-      "price_card": 184393,
+      "price_card": 181882,
       "price_specs": {
-        "Transferencia / Efectivo": "$174.780",
-        "Tarjetas de Crédito / Débito": "$184.393"
+        "Transferencia / Efectivo": "$172.400",
+        "Tarjetas de Crédito / Débito": "$181.882"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -101,23 +63,80 @@
       "full_url": "https://www.centrale.cl"
     },
     {
+      "product_id": 61127,
+      "store_id": "winpy",
+      "price": 187872,
+      "price_normal": null,
+      "discount_pct": 9,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i5-12400f-alder-lake-lga1700-6-cores-12-hilos-2-5-4-4ghz-sin-video/",
+      "store_name": "Winpy",
+      "price_card": 197829,
+      "price_specs": {
+        "Transferencia o Depósito": "$187.872",
+        "Otros medios de pago": "$197.829"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 59372,
+      "store_id": "cg",
+      "price": 197806,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-i5-12400f-2-5-ghz-6-nucleos-12-hilos-18-mb-cache-lga1700-socket-caja/",
+      "store_name": "CentralGamer",
+      "price_card": 208211,
+      "price_specs": {
+        "Efectivo/Transferencia": "$197.806",
+        "Webpay / Tarjeta": "$208.211"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
       "product_id": 71899,
       "store_id": "spdigital",
-      "price": 185960,
-      "price_normal": 229640,
-      "discount_pct": 19,
+      "price": 208673,
+      "price_normal": 234870,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/core-i5-12400f-250ghz-sktlga1700",
       "store_name": "SP Digital",
-      "price_card": 194328,
+      "price_card": 218063,
       "price_specs": {
-        "Transferencia / Efectivo": "$185.960",
-        "Webpay / Tarjeta": "$194.328"
+        "Transferencia / Efectivo": "$208.673",
+        "Webpay / Tarjeta": "$218.063"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 122,
+      "store_id": "alltec",
+      "price": 209900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/intel/2022-5ghz-intel-i5-12400f-44ghz-turbo-6c12t-18mb-cache-65w117w-lga1700-12th-generacion.html",
+      "store_name": "Alltec",
+      "price_card": 216197,
+      "price_specs": {
+        "Efectivo/Transferencia": "$209.900",
+        "Tarjeta crédito/débito": "$216.197"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     }
   ],
   "history": [
@@ -132,7 +151,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 185960
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 197283
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 208673
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

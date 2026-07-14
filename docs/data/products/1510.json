@@ -12,26 +12,26 @@
     "Tipo": "DDR5",
     "Velocidad": "6400 MHz",
     "Latencia": "CL38",
-    "Transferencia / Efectivo": "$219.900",
-    "Tarjeta crédito/débito": "$231.990"
+    "Transferencia / Efectivo": "$199.990",
+    "Tarjeta crédito/débito": "$210.990"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1510,
       "store_id": "centrale",
-      "price": 93710,
+      "price": 89110,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-notebook-8gb-3200mhz-ddr4-kingston-fury-impact-sodimm/",
       "store_name": "Centrale",
-      "price_card": 98864,
+      "price_card": 94011,
       "price_specs": {
-        "Transferencia / Efectivo": "$93.710",
-        "Tarjetas de Crédito / Débito": "$98.864"
+        "Transferencia / Efectivo": "$89.110",
+        "Tarjetas de Crédito / Débito": "$94.011"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,7 +63,13 @@
       "store_name": "Centrale",
       "date": "2026-07-07",
       "price": 93710
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 89110
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

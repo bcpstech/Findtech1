@@ -11,26 +11,26 @@
     "VRAM": "16 GB",
     "Tipo memoria": "GDDR6",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$559.968",
-    "Tarjeta crédito/débito": "$589.646"
+    "Efectivo / Transferencia": "$547.808",
+    "Tarjeta crédito/débito": "$576.842"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:20",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 31864,
       "store_id": "winpy",
-      "price": 559968,
+      "price": 547808,
       "price_normal": null,
-      "discount_pct": 16,
+      "discount_pct": 18,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-dual-radeon-rx-9060-xt-oc-de-16gb-gddr6-dual-fan/",
       "store_name": "Winpy",
-      "price_card": 589646,
+      "price_card": 576842,
       "price_specs": {
-        "Transferencia o Depósito": "$559.968",
-        "Otros medios de pago": "$589.646"
+        "Transferencia o Depósito": "$547.808",
+        "Otros medios de pago": "$576.842"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,7 +62,13 @@
       "store_name": "Winpy",
       "date": "2026-07-07",
       "price": 559968
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-14",
+      "price": 547808
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

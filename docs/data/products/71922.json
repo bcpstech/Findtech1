@@ -19,13 +19,32 @@
     "Caché L3": "30 MB",
     "Memoria soportada": "DDR5-SDRAM",
     "Gráficos integrados": "Intel Graphics",
-    "Efectivo/Transferencia": "$389.413",
-    "Tarjeta crédito/débito": "$406.937"
+    "Efectivo/Transferencia": "$463.411",
+    "Tarjeta crédito/débito": "$484.264"
   },
   "tags": [],
   "created_at": "2026-06-20 00:07:12",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
+    {
+      "product_id": 1946,
+      "store_id": "dust2",
+      "price": 339990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/procesador-intel-core-ultra-7-265k-20-cores-3-9ghz/",
+      "store_name": "Dust2",
+      "price_card": 350190,
+      "price_specs": {
+        "Efectivo/Transferencia": "$339.990",
+        "Tarjeta crédito/débito": "$350.190"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
     {
       "product_id": 316,
       "store_id": "centrale",
@@ -84,18 +103,37 @@
       "full_url": "https://www.n1g.cl"
     },
     {
+      "product_id": 1144,
+      "store_id": "cg",
+      "price": 448813,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-7-265k-3-9-ghz-20-core-lga1851/",
+      "store_name": "CentralGamer",
+      "price_card": 472421,
+      "price_specs": {
+        "Efectivo/Transferencia": "$448.813",
+        "Webpay / Tarjeta": "$472.421"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
       "product_id": 71922,
       "store_id": "spdigital",
-      "price": 389413,
-      "price_normal": 481000,
-      "discount_pct": 19,
+      "price": 463411,
+      "price_normal": 521710,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-intel-core-ultra-7-processor-265k-30m-cache-up-to-550-ghz-fclga18w-tray",
       "store_name": "SP Digital",
-      "price_card": 406937,
+      "price_card": 484264,
       "price_specs": {
-        "Transferencia / Efectivo": "$389.413",
-        "Webpay / Tarjeta": "$406.937"
+        "Transferencia / Efectivo": "$463.411",
+        "Webpay / Tarjeta": "$484.264"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -115,7 +153,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 389413
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 438153
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 463411
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

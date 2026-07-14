@@ -12,31 +12,69 @@
     "Factor de forma": "E-ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Transferencia / Efectivo": "$270.530",
-    "Tarjeta crédito/débito": "$285.410"
+    "Transferencia / Efectivo": "$254.990",
+    "Tarjeta crédito/débito": "$269.010"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1406,
       "store_id": "centrale",
-      "price": 270530,
+      "price": 254990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-atx-asus-prime-x870-p-wifi-socket-amd-am5-ddr5-wifi-7/",
       "store_name": "Centrale",
-      "price_card": 285409,
+      "price_card": 269014,
       "price_specs": {
-        "Transferencia / Efectivo": "$270.530",
-        "Tarjetas de Crédito / Débito": "$285.409"
+        "Transferencia / Efectivo": "$254.990",
+        "Tarjetas de Crédito / Débito": "$269.014"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 59397,
+      "store_id": "cg",
+      "price": 291990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-asus-prime-x870-p-wifi/",
+      "store_name": "CentralGamer",
+      "price_card": 307349,
+      "price_specs": {
+        "Efectivo/Transferencia": "$291.990",
+        "Webpay / Tarjeta": "$307.349"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 89459,
+      "store_id": "spdigital",
+      "price": 302872,
+      "price_normal": 340970,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/prime-x870-p-wifi",
+      "store_name": "SP Digital",
+      "price_card": 316501,
+      "price_specs": {
+        "Transferencia / Efectivo": "$302.872",
+        "Webpay / Tarjeta": "$316.501"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -63,7 +101,13 @@
       "store_name": "Centrale",
       "date": "2026-07-07",
       "price": 270530
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 254990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

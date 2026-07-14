@@ -5,7 +5,7 @@
   "brand": "Kingston",
   "name": "Memoria RAM 16GB DDR4 3600MT/s CL18 Kingston Fury Beast RGB",
   "slug": "memoria-ram-16gb-ddr4-3600mt-s-cl18-kingston-fury-beast-rgb",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-16GB-DDR4-3600MT-s-CL18-Kingston-Fury-Beast-RGB_JcI0IV5-1.webp",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-16gb-ddr4-3600mt-s-cl18-kingston-fury-beast-rgb.webp",
   "description": null,
   "specs": {
     "Capacidad": "16 GB",
@@ -13,26 +13,26 @@
     "Velocidad": "3600 MHz",
     "Latencia": "CL18",
     "Iluminación": "RGB",
-    "Transferencia / Efectivo": "$149.980",
-    "Tarjeta crédito/débito": "$158.230"
+    "Transferencia / Efectivo": "$188.290",
+    "Tarjeta crédito/débito": "$198.650"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1448,
       "store_id": "centrale",
-      "price": 149980,
-      "price_card": 158229,
+      "price": 188290,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr4-3600mt-s-cl18-kingston-fury-beast-rgb/",
       "store_name": "Centrale",
+      "price_card": 198646,
       "price_specs": {
-        "Transferencia / Efectivo": "$149.980",
-        "Tarjetas de Crédito / Débito": "$158.229"
+        "Transferencia / Efectivo": "$188.290",
+        "Tarjetas de Crédito / Débito": "$198.646"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,6 +40,37 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 188760
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 196540
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 196540
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 198230
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 188290
+    }
+  ],
+  "scraped_at": "2026-07-14"
 }

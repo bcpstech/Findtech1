@@ -11,26 +11,26 @@
     "Capacidad": "1 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Efectivo / Transferencia": "$192.128",
-    "Tarjeta crédito/débito": "$202.311"
+    "Efectivo / Transferencia": "$269.344",
+    "Tarjeta crédito/débito": "$283.619"
   },
   "tags": [],
   "created_at": "2026-06-20 00:08:35",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 72106,
       "store_id": "spdigital",
-      "price": 188300,
-      "price_normal": 232500,
-      "discount_pct": 19,
+      "price": 196506,
+      "price_normal": 232270,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/western-digital-wd-blue-sn5100-internal-hard-drive-1-tb-m2-solid-state-drive",
       "store_name": "SP Digital",
-      "price_card": 196774,
+      "price_card": 205349,
       "price_specs": {
-        "Transferencia / Efectivo": "$188.300",
-        "Webpay / Tarjeta": "$196.774"
+        "Transferencia / Efectivo": "$196.506",
+        "Webpay / Tarjeta": "$205.349"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,16 +40,16 @@
     {
       "product_id": 32032,
       "store_id": "winpy",
-      "price": 192128,
+      "price": 269344,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/unidad-ssd-western-digital-blue-sn5100-de-1tb-nvme-4-0-m-2-2280-hasta-7-100mbps/",
       "store_name": "Winpy",
-      "price_card": 202311,
+      "price_card": 283619,
       "price_specs": {
-        "Transferencia o Depósito": "$192.128",
-        "Otros medios de pago": "$202.311"
+        "Transferencia o Depósito": "$269.344",
+        "Otros medios de pago": "$283.619"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -69,7 +69,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 188300
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 196960
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 196506
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

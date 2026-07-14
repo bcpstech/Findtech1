@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:48:17",
-  "updated_at": "2026-07-07 00:42:40",
+  "updated_at": "2026-07-14 19:38:49",
   "prices": [
     {
       "product_id": 2401,
@@ -34,6 +34,25 @@
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 9774,
+      "store_id": "spdigital",
+      "price": 120165,
+      "price_normal": 174990,
+      "discount_pct": 31,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/gabinete-gamer-be-quiet-pure-base-501-lx-white-4-argb-usb-c-360-mm-atx-color-blanco",
+      "store_name": "SP Digital",
+      "price_card": 125572,
+      "price_specs": {
+        "Transferencia / Efectivo": "$120.165",
+        "Webpay / Tarjeta": "$125.572"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -60,7 +79,13 @@
       "store_name": "Dust2",
       "date": "2026-07-07",
       "price": 69990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-07-14",
+      "price": 69990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

@@ -8,16 +8,18 @@
   "image_url": "https://images.findtech.cl/products/disco-duro-ssd-kingspec-256-gb-p3-256-sata-iii-2-5.jpg",
   "description": null,
   "specs": {
-    "Capacidad": "1 TB",
+    "Capacidad": "512 GB",
     "Interfaz": "SATA III",
     "Factor de forma": "2.5\"",
-    "Marca": "KingSpec",
-    "Efectivo / Transferencia": "$128.990",
-    "Tarjeta crédito/débito": "$132.860"
+    "Efectivo / Transferencia": "$94.750",
+    "Tarjeta crédito/débito": "$99.961",
+    "Garantía": "6 meses",
+    "SKU": "38670",
+    "Part Number": "P3-512"
   },
   "tags": [],
   "created_at": "2026-06-08 21:03:47",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 61591,
@@ -37,6 +39,44 @@
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 89585,
+      "store_id": "spdigital",
+      "price": 91362,
+      "price_normal": 107960,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/western-digital-wd-green-ssd-internal-hard-drive-250-gb-25-solid-state-drive",
+      "store_name": "SP Digital",
+      "price_card": 95473,
+      "price_specs": {
+        "Transferencia / Efectivo": "$91.362",
+        "Webpay / Tarjeta": "$95.473"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 60105,
+      "store_id": "myshop",
+      "price": 94750,
+      "price_normal": 99961,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/ssd-25-512-gb-kingspec-sata-iii-6gbs-p3-512-p38670",
+      "store_name": "MyShop",
+      "price_card": 97593,
+      "price_specs": {
+        "Efectivo/Transferencia": "$94.750",
+        "Tarjeta crédito/débito": "$97.593"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
     },
     {
       "product_id": 32022,
@@ -62,12 +102,6 @@
     {
       "store_id": "dust2",
       "store_name": "Dust2",
-      "date": "2026-06-09",
-      "price": 55990
-    },
-    {
-      "store_id": "dust2",
-      "store_name": "Dust2",
       "date": "2026-06-20",
       "price": 55990
     },
@@ -82,7 +116,19 @@
       "store_name": "Dust2",
       "date": "2026-06-26",
       "price": 55990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-07-07",
+      "price": 55990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-07-14",
+      "price": 55990
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-14"
 }

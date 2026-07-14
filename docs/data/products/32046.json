@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:26:47",
-  "updated_at": "2026-07-07 00:30:15",
+  "updated_at": "2026-07-14 19:32:44",
   "prices": [
     {
       "product_id": 32046,
@@ -33,6 +33,25 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 33777,
+      "store_id": "infor-ingen",
+      "price": 48900,
+      "price_normal": 51834,
+      "discount_pct": 6,
+      "stock": "in_stock",
+      "product_url": "https://store.infor-ingen.com/producto/gabinete-gamemax-infinity-black/",
+      "store_name": "Infor-Ingen",
+      "price_card": 50367,
+      "price_specs": {
+        "Efectivo / Transferencia": "$48.900",
+        "Tarjeta crédito/débito": "$50.367"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
     }
   ],
   "history": [
@@ -59,7 +78,13 @@
       "store_name": "Winpy",
       "date": "2026-07-07",
       "price": 31008
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-14",
+      "price": 31008
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

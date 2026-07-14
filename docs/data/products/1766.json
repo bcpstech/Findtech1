@@ -15,7 +15,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:01",
-  "updated_at": "2026-07-07 00:45:51",
+  "updated_at": "2026-07-14 19:40:53",
   "prices": [
     {
       "product_id": 1617,
@@ -54,6 +54,25 @@
       "review_count": 0,
       "store_url": "www.progaming.cl",
       "full_url": "https://www.progaming.cl"
+    },
+    {
+      "product_id": 9633,
+      "store_id": "spdigital",
+      "price": 108440,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/asus-prime-lc-360-argb-fan-unit",
+      "store_name": "SP Digital",
+      "price_card": 113320,
+      "price_specs": {
+        "Transferencia / Efectivo": "$108.440",
+        "Webpay / Tarjeta": "$113.320"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 76508,
@@ -101,7 +120,13 @@
       "store_name": "ProGaming",
       "date": "2026-07-07",
       "price": 89990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-07-14",
+      "price": 89990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

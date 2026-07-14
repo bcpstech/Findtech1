@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:55",
-  "updated_at": "2026-06-26 00:07:52",
+  "updated_at": "2026-07-14 19:31:03",
   "prices": [
     {
       "product_id": 1748,
@@ -33,21 +33,47 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 59843,
+      "store_id": "spdigital",
+      "price": 31345,
+      "price_normal": 49990,
+      "discount_pct": 37,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/pro-shield-m100p-mid-tower-negro",
+      "store_name": "SP Digital",
+      "price_card": 32756,
+      "price_specs": {
+        "Transferencia / Efectivo": "$31.345",
+        "Webpay / Tarjeta": "$32.756"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 91615,
+      "store_id": "winpy",
+      "price": 31616,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/gabinete-msi-pro-shield-m100p-torre-micro-atx-usb-3-2-negro/",
+      "store_name": "Winpy",
+      "price_card": 33292,
+      "price_specs": {
+        "Transferencia o Depósito": "$31.616",
+        "Otros medios de pago": "$33.292"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     }
   ],
   "history": [
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-06-08",
-      "price": 28190
-    },
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-06-09",
-      "price": 28190
-    },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
@@ -65,7 +91,19 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 30440
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 30440
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 30440
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-14"
 }

@@ -5,33 +5,33 @@
   "brand": "Kingston",
   "name": "Memoria RAM 8GB DDR4 3200MT/s CL16 Kingston Fury Renegade Black",
   "slug": "memoria-ram-8gb-ddr4-3200mt-s-cl16-kingston-fury-renegade-black",
-  "image_url": "https://centrale.cl/wp-content/uploads/Memoria-RAM-8GB-DDR4-3200MT-s-CL16-Kingston-Fury-Renegade-Black_rYOVEXY.webp",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-8gb-ddr4-3200mt-s-cl16-kingston-fury-renegade-black.webp",
   "description": null,
   "specs": {
-    "Capacidad": "16 GB",
+    "Capacidad": "8 GB",
     "Tipo": "DDR4",
     "Velocidad": "3600 MHz",
     "Latencia": "CL16",
-    "Transferencia / Efectivo": "$215.150",
-    "Tarjeta crédito/débito": "$226.980"
+    "Transferencia / Efectivo": "$100.480",
+    "Tarjeta crédito/débito": "$106.010"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1442,
       "store_id": "centrale",
-      "price": 117530,
-      "price_card": 123994,
+      "price": 98780,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr4-3200mt-s-cl16-kingston-fury-renegade-black/",
       "store_name": "Centrale",
+      "price_card": 104213,
       "price_specs": {
-        "Transferencia / Efectivo": "$117.530",
-        "Tarjetas de Crédito / Débito": "$123.994"
+        "Transferencia / Efectivo": "$98.780",
+        "Tarjetas de Crédito / Débito": "$104.213"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,6 +39,37 @@
       "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-20",
+      "price": 95550
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-25",
+      "price": 96390
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-06-26",
+      "price": 96390
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 98780
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 98780
+    }
+  ],
+  "scraped_at": "2026-07-14"
 }

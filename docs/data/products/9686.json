@@ -8,45 +8,79 @@
   "image_url": "https://images.findtech.cl/products/ventilador-para-gabinete-be-quiet-pure-wings-3-140mm-pwm-high-speed.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$19.990",
-    "Tarjeta crédito/débito": "$20.890"
+    "Marca": "be quiet!",
+    "Modelo": "BL075",
+    "Efectivo / Transferencia": "$24.990",
+    "Tarjeta crédito/débito": "$25.740"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:27",
-  "updated_at": "2026-04-29 03:35:44",
+  "updated_at": "2026-07-14 19:12:17",
   "prices": [
     {
       "product_id": 9686,
       "store_id": "spdigital",
-      "price": 19990,
-      "price_normal": 20890,
-      "discount_pct": null,
+      "price": 16715,
+      "price_normal": 19990,
+      "discount_pct": 16,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/be-quiet-bl109",
       "store_name": "SP Digital",
+      "price_card": 17467,
       "price_specs": {
-        "Transferencia / Efectivo": "$19.990",
-        "Webpay / Tarjeta": "$20.890"
+        "Transferencia / Efectivo": "$16.715",
+        "Webpay / Tarjeta": "$17.467"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1789,
+      "store_id": "progaming",
+      "price": 24990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://progaming.cl/producto/componentes/refrigeracion/preventa-ventilador-be-quiet-light-wings-140mm-pwm-high-speed/",
+      "store_name": "ProGaming",
+      "price_card": 25740,
+      "price_specs": {
+        "Efectivo/Transferencia": "$24.990",
+        "Tarjeta crédito/débito": "$25.740"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.progaming.cl",
+      "full_url": "https://www.progaming.cl"
     }
   ],
   "history": [
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-28",
-      "price": 19990
+      "date": "2026-06-20",
+      "price": 15995
     },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-29",
-      "price": 19990
+      "date": "2026-06-25",
+      "price": 15995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 16715
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 16715
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-07-14"
 }

@@ -10,13 +10,14 @@
   "specs": {
     "VRAM": "8 GB",
     "Tipo memoria": "GDDR7",
-    "Bus de memoria": "128-bit",
-    "Transferencia / Efectivo": "$462.470",
-    "Tarjeta crédito/débito": "$487.910"
+    "Variante": "OC (Overclocked)",
+    "Factor de forma": "Full-Height/Half-Length (FH/HL)",
+    "Efectivo/Transferencia": "$475.470",
+    "Tarjeta crédito/débito": "$496.866"
   },
   "tags": [],
   "created_at": "2026-06-08 20:59:16",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 61098,
@@ -38,25 +39,6 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 38852,
-      "store_id": "mybox",
-      "price": 430341,
-      "price_normal": 452990,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://mybox.cl/tarjeta-de-video/6087-tarjeta-de-video-msi-rtx-5060-8g-ventus-3x-oc-4711377344326.html",
-      "store_name": "MyBox",
-      "price_card": 443251,
-      "price_specs": {
-        "Efectivo/Transferencia": "$430.341",
-        "Tarjeta crédito/débito": "$443.251"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.mybox.cl",
-      "full_url": "https://www.mybox.cl"
-    },
-    {
       "product_id": 73098,
       "store_id": "centrale",
       "price": 447720,
@@ -74,21 +56,28 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 59607,
+      "store_id": "spdigital",
+      "price": 475470,
+      "price_normal": 599990,
+      "discount_pct": 21,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-msi-nvidia-geforce-rtx-5060-ventus-2x-oc-white-8gb-gddr7-pcie-50",
+      "store_name": "SP Digital",
+      "price_card": 496866,
+      "price_specs": {
+        "Transferencia / Efectivo": "$475.470",
+        "Webpay / Tarjeta": "$496.866"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
-    {
-      "store_id": "winpy",
-      "store_name": "Winpy",
-      "date": "2026-06-08",
-      "price": 424384
-    },
-    {
-      "store_id": "winpy",
-      "store_name": "Winpy",
-      "date": "2026-06-09",
-      "price": 424384
-    },
     {
       "store_id": "winpy",
       "store_name": "Winpy",
@@ -106,7 +95,13 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 415872
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-14",
+      "price": 415872
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-14"
 }

@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-06-09 23:41:09",
-  "updated_at": "2026-07-07 01:08:17",
+  "updated_at": "2026-07-14 20:07:22",
   "prices": [
     {
       "product_id": 71320,
@@ -53,6 +53,44 @@
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 15389,
+      "store_id": "spdigital",
+      "price": 60605,
+      "price_normal": 99990,
+      "discount_pct": 39,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/segunda-seleccion-fuente-de-poder-750w-gigabyte-gp-p750bs-80-plus-bronze-atx-color-negro",
+      "store_name": "SP Digital",
+      "price_card": 63332,
+      "price_specs": {
+        "Transferencia / Efectivo": "$60.605",
+        "Webpay / Tarjeta": "$63.332"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 91394,
+      "store_id": "centrale",
+      "price": 61060,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/fuente-de-poder-750w-gigabyte-p750bs-certificacion-80-plus-bronze/",
+      "store_name": "Centrale",
+      "price_card": 64418,
+      "price_specs": {
+        "Transferencia / Efectivo": "$61.060",
+        "Tarjetas de Crédito / Débito": "$64.418"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -79,7 +117,13 @@
       "store_name": "BCPS Tech",
       "date": "2026-07-07",
       "price": 55990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-07-14",
+      "price": 55990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

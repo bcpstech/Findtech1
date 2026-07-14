@@ -18,26 +18,45 @@
     "Caché L3": "30 MB",
     "Memoria soportada": "DDR5-SDRAM",
     "Gráficos integrados": "Intel Graphics",
-    "Efectivo/Transferencia": "$469.940",
-    "Tarjeta crédito/débito": "$491.087"
+    "Efectivo/Transferencia": "$527.584",
+    "Tarjeta crédito/débito": "$551.325"
   },
   "tags": [],
   "created_at": "2026-06-20 00:07:11",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
+    {
+      "product_id": 31915,
+      "store_id": "winpy",
+      "price": 419520,
+      "price_normal": null,
+      "discount_pct": 16,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-intel-core-ultra-7-265-lga1851-8-p-cores-12-e-cores-3-0-5-5ghz-30mb-cache/",
+      "store_name": "Winpy",
+      "price_card": 441755,
+      "price_specs": {
+        "Transferencia o Depósito": "$419.520",
+        "Otros medios de pago": "$441.755"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
     {
       "product_id": 330,
       "store_id": "centrale",
-      "price": 463490,
+      "price": 473990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-265-hasta-5-3ghz-30mb-cache-20-core-s1851-p-n/",
       "store_name": "Centrale",
-      "price_card": 488982,
+      "price_card": 500059,
       "price_specs": {
-        "Transferencia / Efectivo": "$463.490",
-        "Tarjetas de Crédito / Débito": "$488.982"
+        "Transferencia / Efectivo": "$473.990",
+        "Tarjetas de Crédito / Débito": "$500.059"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -47,16 +66,16 @@
     {
       "product_id": 71920,
       "store_id": "spdigital",
-      "price": 469940,
-      "price_normal": 580320,
-      "discount_pct": 19,
+      "price": 527584,
+      "price_normal": 594030,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-intel-core-ultra-7-265-cache-de-30-mb-hasta-530-ghz-fclga18w-graficos-integrados",
       "store_name": "SP Digital",
-      "price_card": 491087,
+      "price_card": 551325,
       "price_specs": {
-        "Transferencia / Efectivo": "$469.940",
-        "Webpay / Tarjeta": "$491.087"
+        "Transferencia / Efectivo": "$527.584",
+        "Webpay / Tarjeta": "$551.325"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -76,7 +95,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 469940
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 498950
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 527584
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

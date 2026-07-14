@@ -10,29 +10,29 @@
   "specs": {
     "Frecuencia base": "2.5 GHz",
     "Socket": "LGA1700",
-    "Efectivo / Transferencia": "$237.990",
-    "Tarjeta crédito/débito": "$251.079",
+    "Efectivo / Transferencia": "$237.500",
+    "Tarjeta crédito/débito": "$250.563",
     "Garantía": "6 meses",
     "SKU": "28315",
     "Part Number": "BX8071514400"
   },
   "tags": [],
   "created_at": "2026-06-20 00:14:29",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 72510,
       "store_id": "myshop",
-      "price": 237990,
-      "price_normal": 251079,
+      "price": 237500,
+      "price_normal": 250563,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/cpu-intel-socket-lga-1700-core-i5-14400-25-ghz-6-core-bx8071514400-p28315",
       "store_name": "MyShop",
-      "price_card": 245130,
+      "price_card": 244625,
       "price_specs": {
-        "Efectivo/Transferencia": "$237.990",
-        "Tarjeta crédito/débito": "$245.130"
+        "Efectivo/Transferencia": "$237.500",
+        "Tarjeta crédito/débito": "$244.625"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -76,6 +76,25 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 13802,
+      "store_id": "cg",
+      "price": 260990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-intel-core-i5-14400/",
+      "store_name": "CentralGamer",
+      "price_card": 274718,
+      "price_specs": {
+        "Efectivo/Transferencia": "$260.990",
+        "Webpay / Tarjeta": "$274.718"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -90,7 +109,13 @@
       "store_name": "MyShop",
       "date": "2026-07-07",
       "price": 237990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 237500
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

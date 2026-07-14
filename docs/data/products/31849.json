@@ -13,26 +13,26 @@
     "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
     "Factor de forma": "Full-Height/Half-Length (FH/HL)",
-    "Efectivo/Transferencia": "$344.281",
-    "Tarjeta crédito/débito": "$359.774"
+    "Efectivo/Transferencia": "$376.203",
+    "Tarjeta crédito/débito": "$393.132"
   },
   "tags": [],
   "created_at": "2026-05-04 01:19:50",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 31849,
       "store_id": "winpy",
-      "price": 342912,
-      "price_card": 361086,
+      "price": 344736,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-zotac-rtx-5050-twin-edge-oc-de-8gb-gddr6/",
       "store_name": "Winpy",
+      "price_card": 363007,
       "price_specs": {
-        "Transferencia o Depósito": "$342.912",
-        "Otros medios de pago": "$361.086"
+        "Transferencia o Depósito": "$344.736",
+        "Otros medios de pago": "$363.007"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,34 +40,15 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 9582,
-      "store_id": "spdigital",
-      "price": 344281,
-      "price_card": 359774,
-      "price_normal": 425200,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/zotac-gaming-geforce-rtx-5050-twin-edge",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$344.281",
-        "Webpay / Tarjeta": "$359.774"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
       "product_id": 2597,
       "store_id": "trulustore",
       "price": 344790,
-      "price_card": 355134,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-geforce-rtx-5050-8gb-twin-edge-oc/",
       "store_name": "TruluStore",
+      "price_card": 355134,
       "khipu_price": 351686,
       "price_specs": {
         "Efectivo / Transferencia": "$344.790",
@@ -82,23 +63,73 @@
     {
       "product_id": 1238,
       "store_id": "centrale",
-      "price": 354750,
-      "price_card": 374261,
+      "price": 355960,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-geforce-rtx-5050-twin-edge-oc-8gb-gddr6-128-bit/",
       "store_name": "Centrale",
+      "price_card": 375538,
       "price_specs": {
-        "Transferencia / Efectivo": "$354.750",
-        "Tarjetas de Crédito / Débito": "$374.261"
+        "Transferencia / Efectivo": "$355.960",
+        "Tarjetas de Crédito / Débito": "$375.538"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9582,
+      "store_id": "spdigital",
+      "price": 376203,
+      "price_normal": 444610,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/zotac-gaming-geforce-rtx-5050-twin-edge",
+      "store_name": "SP Digital",
+      "price_card": 393132,
+      "price_specs": {
+        "Transferencia / Efectivo": "$376.203",
+        "Webpay / Tarjeta": "$393.132"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-20",
+      "price": 339872
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-25",
+      "price": 344736
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 344736
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 344736
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-14",
+      "price": 344736
+    }
+  ],
+  "scraped_at": "2026-07-14"
 }

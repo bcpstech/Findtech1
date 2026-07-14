@@ -11,26 +11,27 @@
     "Capacidad": "1 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Efectivo / Transferencia": "$157.472",
-    "Tarjeta crédito/débito": "$165.818"
+    "Marca": "ADATA",
+    "Efectivo / Transferencia": "$164.990",
+    "Tarjeta crédito/débito": "$169.940"
   },
   "tags": [],
   "created_at": "2026-05-05 21:31:37",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 44694,
       "store_id": "winpy",
-      "price": 157472,
+      "price": 156256,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/unidad-ssd-adata-legend-860-de-1tb-nvme-4-0-m-2-2280-hasta-5000mb-s/",
       "store_name": "Winpy",
-      "price_card": 165818,
+      "price_card": 164538,
       "price_specs": {
-        "Transferencia o Depósito": "$157.472",
-        "Otros medios de pago": "$165.818"
+        "Transferencia o Depósito": "$156.256",
+        "Otros medios de pago": "$164.538"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,23 +39,61 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 86719,
-      "store_id": "centrale",
-      "price": 362700,
+      "product_id": 2094,
+      "store_id": "dust2",
+      "price": 164990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/xpg-unidad-ssd-adata-legend-860-2tb-m-2-2280-nvme-pcie-4-0-x4-lec-6000mb-s/",
-      "store_name": "Centrale",
-      "price_card": 382649,
+      "product_url": "https://dust2.gg/producto/disco-duro-ssd-adata-legend-710-gen3-m-2-1tb/",
+      "store_name": "Dust2",
+      "price_card": 169940,
       "price_specs": {
-        "Transferencia / Efectivo": "$362.700",
-        "Tarjetas de Crédito / Débito": "$382.649"
+        "Efectivo/Transferencia": "$164.990",
+        "Tarjeta crédito/débito": "$169.940"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 86749,
+      "store_id": "centrale",
+      "price": 172270,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/disco-ssd-1tb-adata-legend-860-m2-nvme-gen4-x4-m-2-2280/",
+      "store_name": "Centrale",
+      "price_card": 181745,
+      "price_specs": {
+        "Transferencia / Efectivo": "$172.270",
+        "Tarjetas de Crédito / Débito": "$181.745"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9534,
+      "store_id": "spdigital",
+      "price": 191761,
+      "price_normal": 226600,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/unidad-ssd-1tb-adata-legend-710-pcie-gen3-x4-m2-2280-lectura-2400mbs-escritura-1800mbs",
+      "store_name": "SP Digital",
+      "price_card": 200390,
+      "price_specs": {
+        "Transferencia / Efectivo": "$191.761",
+        "Webpay / Tarjeta": "$200.390"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -81,7 +120,13 @@
       "store_name": "Winpy",
       "date": "2026-07-07",
       "price": 157472
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-14",
+      "price": 156256
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Certificación": "RU",
-    "Efectivo/Transferencia": "$18.990",
-    "Tarjeta crédito/débito": "$19.845"
+    "Efectivo/Transferencia": "$32.380",
+    "Tarjeta crédito/débito": "$33.837"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:27",
-  "updated_at": "2026-06-25 17:59:12",
+  "updated_at": "2026-07-14 19:12:17",
   "prices": [
     {
       "product_id": 9685,
       "store_id": "spdigital",
-      "price": 12990,
+      "price": 13575,
       "price_normal": 16990,
-      "discount_pct": 24,
+      "discount_pct": 20,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/be-quiet-bl110",
       "store_name": "SP Digital",
-      "price_card": 13575,
+      "price_card": 14186,
       "price_specs": {
-        "Transferencia / Efectivo": "$12.990",
-        "Webpay / Tarjeta": "$13.575"
+        "Transferencia / Efectivo": "$13.575",
+        "Webpay / Tarjeta": "$14.186"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,18 +40,6 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 9990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 9990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 12990
     },
@@ -60,7 +48,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 12990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 13575
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 13575
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

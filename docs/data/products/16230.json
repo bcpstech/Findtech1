@@ -19,31 +19,31 @@
     "Caché L3": "36 MB",
     "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
     "Gráficos integrados": "Intel UHD Graphics 770",
-    "Efectivo/Transferencia": "$727.242",
-    "Tarjeta crédito/débito": "$759.968"
+    "Efectivo/Transferencia": "$813.305",
+    "Tarjeta crédito/débito": "$849.904"
   },
   "tags": [],
   "created_at": "2026-05-01 00:27:15",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
-      "product_id": 1924,
-      "store_id": "dust2",
-      "price": 717990,
+      "product_id": 329,
+      "store_id": "centrale",
+      "price": 716760,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/procesador-intel-core-i9-14900-hasta-5-8ghz-lga1700/",
-      "store_name": "Dust2",
-      "price_card": 739530,
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900-24-core-3-2-5-8ghz-lga1700-36mb-cache/",
+      "store_name": "Centrale",
+      "price_card": 756182,
       "price_specs": {
-        "Efectivo/Transferencia": "$717.990",
-        "Tarjeta crédito/débito": "$739.530"
+        "Transferencia / Efectivo": "$716.760",
+        "Tarjetas de Crédito / Débito": "$756.182"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 7,
@@ -67,40 +67,21 @@
     {
       "product_id": 16230,
       "store_id": "spdigital",
-      "price": 727242,
-      "price_normal": 898170,
-      "discount_pct": 19,
+      "price": 813305,
+      "price_normal": 915620,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/intel-core-i9-i9-14900-2-ghz-24-nucleos-32-hilos-36-mb-cache-fclga1700-socket-caja",
       "store_name": "SP Digital",
-      "price_card": 759968,
+      "price_card": 849904,
       "price_specs": {
-        "Transferencia / Efectivo": "$727.242",
-        "Webpay / Tarjeta": "$759.968"
+        "Transferencia / Efectivo": "$813.305",
+        "Webpay / Tarjeta": "$849.904"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 329,
-      "store_id": "centrale",
-      "price": 757160,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900-24-core-3-2-5-8ghz-lga1700-36mb-cache/",
-      "store_name": "Centrale",
-      "price_card": 798804,
-      "price_specs": {
-        "Transferencia / Efectivo": "$757.160",
-        "Tarjetas de Crédito / Débito": "$798.804"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -115,7 +96,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 727242
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 768972
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 813305
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

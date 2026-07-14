@@ -8,29 +8,29 @@
   "image_url": "https://images.findtech.cl/products/gabinete-cougar-fv150-mini-rgb-s-fuente-m-atx-negro-incluye-2-fan-120mm-rgb-costado-m-b-1-fan-120mm-.png",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$35.990",
-    "Tarjeta crédito/débito": "$37.969",
+    "Efectivo / Transferencia": "$35.970",
+    "Tarjeta crédito/débito": "$37.948",
     "Garantía": "6 meses",
     "SKU": "41608",
     "Part Number": "382QA60.0001"
   },
   "tags": [],
   "created_at": "2026-05-01 13:19:53",
-  "updated_at": "2026-07-07 00:11:16",
+  "updated_at": "2026-07-14 19:22:17",
   "prices": [
     {
       "product_id": 19899,
       "store_id": "myshop",
-      "price": 35990,
-      "price_normal": 37969,
+      "price": 35970,
+      "price_normal": 37948,
       "discount_pct": 48,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/gabinete-cougar-fv150-mini-rgb-sfuente-atx-negro-incluye-2-fan-120mm-rgb-costado-mb-1-fan-120mm-rgb-trasero-p41608",
       "store_name": "MyShop",
-      "price_card": 37070,
+      "price_card": 37049,
       "price_specs": {
-        "Efectivo/Transferencia": "$35.990",
-        "Tarjeta crédito/débito": "$37.070"
+        "Efectivo/Transferencia": "$35.970",
+        "Tarjeta crédito/débito": "$37.049"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -74,6 +74,25 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 76443,
+      "store_id": "spdigital",
+      "price": 83595,
+      "price_normal": 99990,
+      "discount_pct": 16,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/gabinete-gamer-cougar-fv150-rgb-pink-mid-tower-4-ventiladores-argb-diseno-panoramico-rosado",
+      "store_name": "SP Digital",
+      "price_card": 87357,
+      "price_specs": {
+        "Transferencia / Efectivo": "$83.595",
+        "Webpay / Tarjeta": "$87.357"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -94,7 +113,13 @@
       "store_name": "MyShop",
       "date": "2026-07-07",
       "price": 35990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 35970
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

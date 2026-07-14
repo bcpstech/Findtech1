@@ -1,0 +1,101 @@
+{
+  "id": 76232,
+  "external_id": "spdigital_tarjeta-de-video-msi-nvidia-geforce-rtx-5060-ti-shadow-2x-oc-plus-8gb-gddr7-pcie-5-0",
+  "category_id": "gpu",
+  "brand": "NVIDIA",
+  "name": "Tarjeta de Video MSI Nvidia GeForce RTX 5060 Ti Shadow 2X OC Plus 8GB GDDR7 PCIe 5.0",
+  "slug": "spdigital-tarjeta-de-video-msi-nvidia-geforce-rtx-5060-ti-shadow-2x-oc-plus-8gb-gddr7-pcie-5-0",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-msi-nvidia-geforce-rtx-5060-ti-shadow-2x-oc-plus-8gb-gddr7-pcie-5-0.jpg",
+  "description": null,
+  "specs": {
+    "VRAM": "8 GB",
+    "Tipo memoria": "GDDR7",
+    "Variante": "OC (Overclocked)",
+    "Factor de forma": "Full-Height/Half-Length (FH/HL)",
+    "Efectivo/Transferencia": "$510.060",
+    "Tarjeta crédito/débito": "$533.013"
+  },
+  "tags": [],
+  "created_at": "2026-06-25 17:58:27",
+  "updated_at": "2026-07-14 20:09:45",
+  "prices": [
+    {
+      "product_id": 76232,
+      "store_id": "spdigital",
+      "price": 510060,
+      "price_normal": 749990,
+      "discount_pct": 32,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-msi-nvidia-geforce-rtx-5060-ti-shadow-2x-oc-plus-8gb-gddr7-pcie-50",
+      "store_name": "SP Digital",
+      "price_card": 533013,
+      "price_specs": {
+        "Transferencia / Efectivo": "$510.060",
+        "Webpay / Tarjeta": "$533.013"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 60502,
+      "store_id": "centrale",
+      "price": 511480,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-rtx-5060-ti-shadow-2x-oc-plus-8gb-gddr6-pci-e-4-0/",
+      "store_name": "Centrale",
+      "price_card": 539611,
+      "price_specs": {
+        "Transferencia / Efectivo": "$511.480",
+        "Tarjetas de Crédito / Débito": "$539.611"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 56773,
+      "store_id": "winpy",
+      "price": 514976,
+      "price_normal": null,
+      "discount_pct": 23,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5060-ti-shadow-2x-oc-plus-de-8gb-gddr7/",
+      "store_name": "Winpy",
+      "price_card": 542270,
+      "price_specs": {
+        "Transferencia o Depósito": "$514.976",
+        "Otros medios de pago": "$542.270"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 749990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 522495
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 510060
+    }
+  ],
+  "scraped_at": "2026-07-14"
+}

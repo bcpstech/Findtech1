@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-27 22:14:31",
-  "updated_at": "2026-05-04 00:42:14",
+  "updated_at": "2026-07-14 19:09:33",
   "prices": [
     {
       "product_id": 4211,
@@ -25,69 +25,36 @@
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/gabinetes-gamer/gabinete-gamer-esgaming-aircraft-007-series/",
       "store_name": "CentralGamer",
+      "price_card": 221035,
       "price_specs": {
-        "Efectivo/Transferencia": "$209.990"
+        "Efectivo/Transferencia": "$209.990",
+        "Webpay / Tarjeta": "$221.035"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
-    },
-    {
-      "product_id": 9807,
-      "store_id": "spdigital",
-      "price": 249990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/gabinete-gamer-esgaming-aircraft-007-pantalla-led-9-ventiladores-argb-control-remoto-m-atx-itx",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$249.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
     {
       "store_id": "cg",
       "store_name": "CentralGamer",
-      "date": "2026-04-27",
-      "price": 199500
-    },
-    {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-04-28",
+      "date": "2026-06-25",
       "price": 209990
     },
     {
       "store_id": "cg",
       "store_name": "CentralGamer",
-      "date": "2026-04-29",
+      "date": "2026-07-06",
       "price": 209990
     },
     {
       "store_id": "cg",
       "store_name": "CentralGamer",
-      "date": "2026-05-01",
-      "price": 209990
-    },
-    {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-05-03",
-      "price": 209990
-    },
-    {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-05-04",
+      "date": "2026-07-14",
       "price": 209990
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-07-14"
 }

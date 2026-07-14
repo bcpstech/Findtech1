@@ -18,12 +18,12 @@
     "Frecuencia turbo": "5,5 GHz",
     "Caché L3": "30 MB",
     "Memoria soportada": "DDR5-SDRAM",
-    "Efectivo/Transferencia": "$373.701",
-    "Tarjeta crédito/débito": "$390.518"
+    "Efectivo/Transferencia": "$443.591",
+    "Tarjeta crédito/débito": "$463.553"
   },
   "tags": [],
   "created_at": "2026-06-20 00:07:12",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 313,
@@ -64,18 +64,37 @@
       "full_url": "https://www.winpy.cl"
     },
     {
+      "product_id": 4154,
+      "store_id": "cg",
+      "price": 429571,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-7-265kf-3-9-ghz-20-core-lga1851/",
+      "store_name": "CentralGamer",
+      "price_card": 452166,
+      "price_specs": {
+        "Efectivo/Transferencia": "$429.571",
+        "Webpay / Tarjeta": "$452.166"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
       "product_id": 60307,
       "store_id": "alltec",
-      "price": 345900,
+      "price": 435900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/intel/2392-intel-core-ultra-7-265kf-39ghz55ghz-turbo-20c28t-33mb-cache-125w-lga1851.html",
       "store_name": "Alltec",
-      "price_card": 356277,
+      "price_card": 448977,
       "price_specs": {
-        "Efectivo/Transferencia": "$345.900",
-        "Tarjeta crédito/débito": "$356.277"
+        "Efectivo/Transferencia": "$435.900",
+        "Tarjeta crédito/débito": "$448.977"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -85,16 +104,16 @@
     {
       "product_id": 71923,
       "store_id": "spdigital",
-      "price": 373701,
-      "price_normal": 461470,
-      "discount_pct": 19,
+      "price": 443591,
+      "price_normal": 499340,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/core-ultra-7-265kf-20-cores-39ghz-30mb-sin-video",
       "store_name": "SP Digital",
-      "price_card": 390518,
+      "price_card": 463553,
       "price_specs": {
-        "Transferencia / Efectivo": "$373.701",
-        "Webpay / Tarjeta": "$390.518"
+        "Transferencia / Efectivo": "$443.591",
+        "Webpay / Tarjeta": "$463.553"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -114,7 +133,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 373701
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 419412
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 443591
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

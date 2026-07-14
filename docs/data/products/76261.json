@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "TDP": "65 W",
-    "Efectivo/Transferencia": "$13.802",
-    "Tarjeta crédito/débito": "$14.423"
+    "Efectivo/Transferencia": "$14.091",
+    "Tarjeta crédito/débito": "$14.725"
   },
   "tags": [],
   "created_at": "2026-06-25 17:58:42",
-  "updated_at": "2026-06-25 17:58:42",
+  "updated_at": "2026-07-14 19:11:37",
   "prices": [
     {
       "product_id": 76261,
       "store_id": "spdigital",
-      "price": 13802,
-      "price_normal": 15540,
+      "price": 14091,
+      "price_normal": 15860,
       "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/intel-bxtsrm1-processor-cooler-lga1200-socket",
       "store_name": "SP Digital",
-      "price_card": 14423,
+      "price_card": 14725,
       "price_specs": {
-        "Transferencia / Efectivo": "$13.802",
-        "Webpay / Tarjeta": "$14.423"
+        "Transferencia / Efectivo": "$14.091",
+        "Webpay / Tarjeta": "$14.725"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,7 +42,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 13802
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 13364
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 14091
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

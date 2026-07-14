@@ -8,31 +8,50 @@
   "image_url": "https://images.findtech.cl/products/disipador-amd-wraith-stealth-compatible-con-procesadores-am4-am5.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$9.995",
-    "Tarjeta crédito/débito": "$10.445"
+    "Efectivo/Transferencia": "$10.445",
+    "Tarjeta crédito/débito": "$10.915"
   },
   "tags": [],
   "created_at": "2026-06-08 20:44:41",
-  "updated_at": "2026-06-25 17:58:42",
+  "updated_at": "2026-07-14 19:11:38",
   "prices": [
     {
       "product_id": 59636,
       "store_id": "spdigital",
-      "price": 9995,
+      "price": 10445,
       "price_normal": 11990,
-      "discount_pct": 17,
+      "discount_pct": 13,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/disipador-amd-wraith-stealth-compatible-con-procesadores-am4-am5",
       "store_name": "SP Digital",
-      "price_card": 10445,
+      "price_card": 10915,
       "price_specs": {
-        "Transferencia / Efectivo": "$9.995",
-        "Webpay / Tarjeta": "$10.445"
+        "Transferencia / Efectivo": "$10.445",
+        "Webpay / Tarjeta": "$10.915"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 86853,
+      "store_id": "centrale",
+      "price": 11750,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/disipador-cooler-amd-wraith-stealth-para-am4-con-base-de-aluminio/",
+      "store_name": "Centrale",
+      "price_card": 12396,
+      "price_specs": {
+        "Transferencia / Efectivo": "$11.750",
+        "Tarjetas de Crédito / Débito": "$12.396"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 710,
@@ -79,18 +98,6 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 9995
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 9995
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 9995
     },
@@ -99,7 +106,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 9995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 10445
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 10445
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

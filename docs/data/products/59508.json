@@ -12,12 +12,12 @@
     "Factor de forma": "ATX",
     "Memoria": "DDR5",
     "Chipset": "AMD A620A",
-    "Efectivo/Transferencia": "$80.077",
-    "Tarjeta crédito/débito": "$83.680"
+    "Efectivo/Transferencia": "$82.600",
+    "Tarjeta crédito/débito": "$86.317"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:42",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 31927,
@@ -41,16 +41,16 @@
     {
       "product_id": 73272,
       "store_id": "centrale",
-      "price": 79280,
+      "price": 76730,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-a620am-b-evo-micro-atx-am5-ddr5-pcie-4-0/",
       "store_name": "Centrale",
-      "price_card": 83640,
+      "price_card": 80950,
       "price_specs": {
-        "Transferencia / Efectivo": "$79.280",
-        "Tarjetas de Crédito / Débito": "$83.640"
+        "Transferencia / Efectivo": "$76.730",
+        "Tarjetas de Crédito / Débito": "$80.950"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,16 +60,16 @@
     {
       "product_id": 59508,
       "store_id": "spdigital",
-      "price": 80077,
-      "price_normal": 98820,
-      "discount_pct": 19,
+      "price": 82600,
+      "price_normal": 97510,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/pro-a620am-b-evo",
       "store_name": "SP Digital",
-      "price_card": 83680,
+      "price_card": 86317,
       "price_specs": {
-        "Transferencia / Efectivo": "$80.077",
-        "Webpay / Tarjeta": "$83.680"
+        "Transferencia / Efectivo": "$82.600",
+        "Webpay / Tarjeta": "$86.317"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -81,18 +81,6 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 79062
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 79062
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 77985
     },
@@ -101,7 +89,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 80077
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 75325
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 82600
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

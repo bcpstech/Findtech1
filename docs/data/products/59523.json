@@ -13,26 +13,26 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Chipset": "Intel B860",
-    "Efectivo/Transferencia": "$239.623",
-    "Tarjeta crédito/débito": "$250.406"
+    "Efectivo/Transferencia": "$252.560",
+    "Tarjeta crédito/débito": "$263.925"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:49",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1355,
       "store_id": "centrale",
-      "price": 233990,
+      "price": 235970,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-tuf-gaming-b860-plus-wifi-atx-lga-1851-ddr5-wifi-7/",
       "store_name": "Centrale",
-      "price_card": 246859,
+      "price_card": 248948,
       "price_specs": {
-        "Transferencia / Efectivo": "$233.990",
-        "Tarjetas de Crédito / Débito": "$246.859"
+        "Transferencia / Efectivo": "$235.970",
+        "Tarjetas de Crédito / Débito": "$248.948"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,55 +42,24 @@
     {
       "product_id": 59523,
       "store_id": "spdigital",
-      "price": 239623,
-      "price_normal": 295900,
-      "discount_pct": 19,
+      "price": 252560,
+      "price_normal": 298450,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tuf-gaming-b860-plus-wifi",
       "store_name": "SP Digital",
-      "price_card": 250406,
+      "price_card": 263925,
       "price_specs": {
-        "Transferencia / Efectivo": "$239.623",
-        "Webpay / Tarjeta": "$250.406"
+        "Transferencia / Efectivo": "$252.560",
+        "Webpay / Tarjeta": "$263.925"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 77862,
-      "store_id": "winpy",
-      "price": 258400,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/placa-madre-asus-tuf-gaming-b860-plus-wifi-lga1851-ddr5-wifi-7-pcie-5-0-atx/",
-      "store_name": "Winpy",
-      "price_card": 272095,
-      "price_specs": {
-        "Transferencia o Depósito": "$258.400",
-        "Otros medios de pago": "$272.095"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
     }
   ],
   "history": [
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 238922
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 238922
-    },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
@@ -102,7 +71,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 239623
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 250682
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 252560
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

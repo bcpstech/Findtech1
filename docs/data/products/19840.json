@@ -13,29 +13,29 @@
     "Bus de memoria": "256-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$1.644.990",
-    "Tarjeta crédito/débito": "$1.735.464",
+    "Efectivo / Transferencia": "$1.599.990",
+    "Tarjeta crédito/débito": "$1.687.989",
     "Garantía": "",
     "SKU": "40523",
     "Part Number": "824142395943"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:46",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 19840,
       "store_id": "myshop",
-      "price": 1644990,
-      "price_normal": 1735464,
-      "discount_pct": 8,
+      "price": 1599990,
+      "price_normal": 1687989,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/msi-pci-express-nvidia-geforce-rtx-5080-16g-inspire-3x-p40523",
       "store_name": "MyShop",
-      "price_card": 1694340,
+      "price_card": 1647990,
       "price_specs": {
-        "Efectivo/Transferencia": "$1.644.990",
-        "Tarjeta crédito/débito": "$1.694.340"
+        "Efectivo/Transferencia": "$1.599.990",
+        "Tarjeta crédito/débito": "$1.647.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -61,7 +61,13 @@
       "store_name": "MyShop",
       "date": "2026-07-07",
       "price": 1644990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 1599990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

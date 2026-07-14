@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Factor de forma": "Ambidextro",
-    "Efectivo/Transferencia": "$76.160",
-    "Tarjeta crédito/débito": "$79.587"
+    "Efectivo/Transferencia": "$76.407",
+    "Tarjeta crédito/débito": "$79.845"
   },
   "tags": [],
   "created_at": "2026-07-07 00:00:02",
-  "updated_at": "2026-07-07 00:00:02",
+  "updated_at": "2026-07-14 19:14:52",
   "prices": [
     {
       "product_id": 85721,
       "store_id": "spdigital",
-      "price": 76160,
-      "price_normal": 85730,
+      "price": 76407,
+      "price_normal": 86000,
       "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/logitech-pop-icon-combo-keyboard-and-mouse-set-spanish-latin-american-off-white",
       "store_name": "SP Digital",
-      "price_card": 79587,
+      "price_card": 79845,
       "price_specs": {
-        "Transferencia / Efectivo": "$76.160",
-        "Webpay / Tarjeta": "$79.587"
+        "Transferencia / Efectivo": "$76.407",
+        "Webpay / Tarjeta": "$79.845"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,7 +42,13 @@
       "store_name": "SP Digital",
       "date": "2026-07-07",
       "price": 76160
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 76407
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

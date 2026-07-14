@@ -13,29 +13,29 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$877.990",
-    "Tarjeta crédito/débito": "$926.279",
+    "Efectivo / Transferencia": "$849.990",
+    "Tarjeta crédito/débito": "$896.739",
     "Garantía": "6 meses",
     "SKU": "36730",
     "Part Number": "GV-N5070EAGLEOC ICE-12GD"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:45",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 19836,
       "store_id": "myshop",
-      "price": 877990,
-      "price_normal": 926279,
-      "discount_pct": 10,
+      "price": 849990,
+      "price_normal": 896739,
+      "discount_pct": 13,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/tarjeta-de-video-gigabyte-geforce-rtx-5070-eagle-oc-ice-sff-12g-12gb-gddr7-192-bit-pcie-50-displayporthdmi-p36730",
       "store_name": "MyShop",
-      "price_card": 904330,
+      "price_card": 875490,
       "price_specs": {
-        "Efectivo/Transferencia": "$877.990",
-        "Tarjeta crédito/débito": "$904.330"
+        "Efectivo/Transferencia": "$849.990",
+        "Tarjeta crédito/débito": "$875.490"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -61,7 +61,13 @@
       "store_name": "MyShop",
       "date": "2026-07-07",
       "price": 877990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 849990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

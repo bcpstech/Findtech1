@@ -21,7 +21,7 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:49:35",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 59985,
@@ -43,20 +43,20 @@
       "full_url": "https://www.myshop.cl"
     },
     {
-      "product_id": 72483,
+      "product_id": 90185,
       "store_id": "trulustore",
-      "price": 4499990,
+      "price": 4299990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-rtx-5090-asus-rog-astral-32gb/",
+      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-aorus-nvidia-geforce-rtx-5090-stealth-ice-32gb/",
       "store_name": "TruluStore",
-      "price_card": 4634990,
-      "khipu_price": 4589990,
+      "price_card": 4428990,
+      "khipu_price": 4385990,
       "price_specs": {
-        "Efectivo / Transferencia": "$4.499.990",
-        "Khipu": "$4.589.990",
-        "Tarjeta crédito/débito": "$4.634.990"
+        "Efectivo / Transferencia": "$4.299.990",
+        "Khipu": "$4.385.990",
+        "Tarjeta crédito/débito": "$4.428.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -82,7 +82,13 @@
       "store_name": "MyShop",
       "date": "2026-07-07",
       "price": 4189990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 4189990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

@@ -10,26 +10,26 @@
   "specs": {
     "VRAM": "8 GB",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$453.591",
-    "Tarjeta crédito/débito": "$467.199"
+    "Efectivo / Transferencia": "$467.116",
+    "Tarjeta crédito/débito": "$481.129"
   },
   "tags": [],
   "created_at": "2026-05-04 23:53:00",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 38856,
       "store_id": "mybox",
-      "price": 453591,
-      "price_normal": 503990,
-      "discount_pct": 10,
+      "price": 467116,
+      "price_normal": 504990,
+      "discount_pct": 7,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/tarjeta-de-video/5944-tarjeta-de-video-asus-prime-5060-oc-8gb--4711636057868.html",
       "store_name": "MyBox",
-      "price_card": 467199,
+      "price_card": 481129,
       "price_specs": {
-        "Efectivo/Transferencia": "$453.591",
-        "Tarjeta crédito/débito": "$467.199"
+        "Efectivo/Transferencia": "$467.116",
+        "Tarjeta crédito/débito": "$481.129"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,18 +38,6 @@
     }
   ],
   "history": [
-    {
-      "store_id": "mybox",
-      "store_name": "MyBox",
-      "date": "2026-06-08",
-      "price": 453591
-    },
-    {
-      "store_id": "mybox",
-      "store_name": "MyBox",
-      "date": "2026-06-09",
-      "price": 453591
-    },
     {
       "store_id": "mybox",
       "store_name": "MyBox",
@@ -67,7 +55,13 @@
       "store_name": "MyBox",
       "date": "2026-06-26",
       "price": 453591
+    },
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-07-14",
+      "price": 467116
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-14"
 }

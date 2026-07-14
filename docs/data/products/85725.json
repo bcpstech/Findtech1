@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Factor de forma": "Ambidextro",
-    "Efectivo/Transferencia": "$18.801",
-    "Tarjeta crédito/débito": "$19.647"
+    "Efectivo/Transferencia": "$17.725",
+    "Tarjeta crédito/débito": "$18.523"
   },
   "tags": [],
   "created_at": "2026-07-07 00:00:06",
-  "updated_at": "2026-07-07 00:00:06",
+  "updated_at": "2026-07-14 19:14:53",
   "prices": [
     {
       "product_id": 85725,
       "store_id": "spdigital",
-      "price": 18801,
-      "price_normal": 21070,
+      "price": 17725,
+      "price_normal": 19890,
       "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/kit-teclado-y-mouse-kensington-km100-eq-usb-espanol-con-cable-y-resistente-a-derrames",
       "store_name": "SP Digital",
-      "price_card": 19647,
+      "price_card": 18523,
       "price_specs": {
-        "Transferencia / Efectivo": "$18.801",
-        "Webpay / Tarjeta": "$19.647"
+        "Transferencia / Efectivo": "$17.725",
+        "Webpay / Tarjeta": "$18.523"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,7 +42,13 @@
       "store_name": "SP Digital",
       "date": "2026-07-07",
       "price": 18801
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 17725
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

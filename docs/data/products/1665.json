@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/ventilador-gabinete-120mm-arctic-p12-pro-pwm-pst-negro-77-cfm-6-9mm-h2o.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$10.900",
-    "Tarjeta crédito/débito": "$11.500"
+    "Transferencia / Efectivo": "$10.490",
+    "Tarjeta crédito/débito": "$11.070"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:50",
-  "updated_at": "2026-07-07 00:25:27",
+  "updated_at": "2026-07-14 19:29:39",
   "prices": [
     {
       "product_id": 1665,
       "store_id": "centrale",
-      "price": 10900,
-      "price_normal": 11900,
-      "discount_pct": 8,
+      "price": 10490,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/ventilador-gabinete-120mm-arctic-p12-pro-pwm-pst-negro-77-cfm-6-9mm-h2o/",
       "store_name": "Centrale",
-      "price_card": 11500,
+      "price_card": 11067,
       "price_specs": {
-        "Transferencia / Efectivo": "$10.900",
-        "Tarjetas de Crédito / Débito": "$11.500"
+        "Transferencia / Efectivo": "$10.490",
+        "Tarjetas de Crédito / Débito": "$11.067"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,7 +59,13 @@
       "store_name": "Centrale",
       "date": "2026-07-07",
       "price": 10900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 10490
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1341,
@@ -38,6 +38,25 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 71985,
+      "store_id": "spdigital",
+      "price": 756398,
+      "price_normal": 851560,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/asus-motherboard-rog-maximus-z890-hero-1851-ddr",
+      "store_name": "SP Digital",
+      "price_card": 790436,
+      "price_specs": {
+        "Transferencia / Efectivo": "$756.398",
+        "Webpay / Tarjeta": "$790.436"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -64,7 +83,13 @@
       "store_name": "Centrale",
       "date": "2026-07-07",
       "price": 686700
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 686700
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

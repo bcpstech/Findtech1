@@ -20,26 +20,45 @@
     "TDP": "120 W",
     "Memoria soportada": "DDR5-SDRAM",
     "Gráficos integrados": "AMD Radeon Graphics",
-    "Efectivo/Transferencia": "$562.343",
-    "Tarjeta crédito/débito": "$587.648"
+    "Efectivo/Transferencia": "$569.074",
+    "Tarjeta crédito/débito": "$594.682"
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:54",
-  "updated_at": "2026-06-20 00:06:55",
+  "updated_at": "2026-07-14 19:09:46",
   "prices": [
+    {
+      "product_id": 57,
+      "store_id": "n1g",
+      "price": 499500,
+      "price_normal": 525789,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3005-amd-ryzen-7-9800x3d-socket-am5-zen5-8-core-52-ghz-120w-no-incluye-cooler-100-100001084wof.html",
+      "store_name": "N1G",
+      "price_card": 525974,
+      "price_specs": {
+        "Efectivo/Transferencia": "$499.500",
+        "Tarjeta crédito/débito": "$525.974"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
     {
       "product_id": 2817,
       "store_id": "alltec",
-      "price": 498900,
+      "price": 508900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2348-amd-ryzen-7-9800x3d-47ghz-52ghz-turbo-octa-core-tdp-120w-am5.html",
       "store_name": "Alltec",
-      "price_card": 513867,
+      "price_card": 524167,
       "price_specs": {
-        "Efectivo/Transferencia": "$498.900",
-        "Tarjeta crédito/débito": "$513.867"
+        "Efectivo/Transferencia": "$508.900",
+        "Tarjeta crédito/débito": "$524.167"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,21 +87,40 @@
     {
       "product_id": 9404,
       "store_id": "spdigital",
-      "price": 562343,
-      "price_normal": 694510,
-      "discount_pct": 19,
+      "price": 569074,
+      "price_normal": 640600,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-7-9800x3d-47ghz-52ghz-turbo-8-cores-16-threads-socket-am5",
       "store_name": "SP Digital",
-      "price_card": 587648,
+      "price_card": 594682,
       "price_specs": {
-        "Transferencia / Efectivo": "$562.343",
-        "Webpay / Tarjeta": "$587.648"
+        "Transferencia / Efectivo": "$569.074",
+        "Webpay / Tarjeta": "$594.682"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 84934,
+      "store_id": "cg",
+      "price": 573424,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/amd-ryzen-7-4-4-ghz-9800x3d-6-core-4-4ghz-am5-rad/",
+      "store_name": "CentralGamer",
+      "price_card": 603586,
+      "price_specs": {
+        "Efectivo/Transferencia": "$573.424",
+        "Webpay / Tarjeta": "$603.586"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     },
     {
       "product_id": 38832,
@@ -110,7 +148,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 562343
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 589518
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 569074
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-07-14"
 }

@@ -10,26 +10,26 @@
   "specs": {
     "Certificación": "CB, TUV marking, CE, cTUVus, FCC, IC, IMDA, WPC, BIS, SIRIM, NBTC-SDOC, SDPPI, NTC, AITI, TRC, NCC, BSMI, MSIP, VCCI, JRF, KVALITET, ICASA, TRA, NTRA, MOC, PTA, ICT, EQM, BOCRA, ARCT, ETA, NCA, POTRAZ",
     "Factor de forma": "Ambidextro",
-    "Efectivo/Transferencia": "$39.905",
-    "Tarjeta crédito/débito": "$41.701"
+    "Efectivo/Transferencia": "$40.227",
+    "Tarjeta crédito/débito": "$42.037"
   },
   "tags": [],
   "created_at": "2026-07-07 00:00:01",
-  "updated_at": "2026-07-07 00:00:01",
+  "updated_at": "2026-07-14 19:14:51",
   "prices": [
     {
       "product_id": 85719,
       "store_id": "spdigital",
-      "price": 39905,
-      "price_normal": 44900,
+      "price": 40227,
+      "price_normal": 45240,
       "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/lenovo-keyboard-and-mouse-pad",
       "store_name": "SP Digital",
-      "price_card": 41701,
+      "price_card": 42037,
       "price_specs": {
-        "Transferencia / Efectivo": "$39.905",
-        "Webpay / Tarjeta": "$41.701"
+        "Transferencia / Efectivo": "$40.227",
+        "Webpay / Tarjeta": "$42.037"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,7 +43,13 @@
       "store_name": "SP Digital",
       "date": "2026-07-07",
       "price": 39905
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 40227
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

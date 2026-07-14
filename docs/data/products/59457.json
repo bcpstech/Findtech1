@@ -17,26 +17,26 @@
     "Caché L3": "24 MB",
     "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$300.029",
-    "Tarjeta crédito/débito": "$313.530"
+    "Efectivo/Transferencia": "$342.284",
+    "Tarjeta crédito/débito": "$357.687"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:21",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 306,
       "store_id": "centrale",
-      "price": 271380,
+      "price": 283550,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-14600kf-raptor-lake-s-lga1700-14-cores-20-hilos/",
       "store_name": "Centrale",
-      "price_card": 286306,
+      "price_card": 299145,
       "price_specs": {
-        "Transferencia / Efectivo": "$271.380",
-        "Tarjetas de Crédito / Débito": "$286.306"
+        "Transferencia / Efectivo": "$283.550",
+        "Tarjetas de Crédito / Débito": "$299.145"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -44,18 +44,37 @@
       "full_url": "https://www.centrale.cl"
     },
     {
+      "product_id": 59384,
+      "store_id": "cg",
+      "price": 283990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-intel-core-i5-14600kf/",
+      "store_name": "CentralGamer",
+      "price_card": 298928,
+      "price_specs": {
+        "Efectivo/Transferencia": "$283.990",
+        "Webpay / Tarjeta": "$298.928"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
       "product_id": 31898,
       "store_id": "winpy",
-      "price": 294272,
+      "price": 305824,
       "price_normal": null,
-      "discount_pct": 19,
+      "discount_pct": 16,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i5-14600kf-raptor-lake-s-lga1700-14-cores-20-hilos-3-5-5-3ghz-sin-video/",
       "store_name": "Winpy",
-      "price_card": 309868,
+      "price_card": 322033,
       "price_specs": {
-        "Transferencia o Depósito": "$294.272",
-        "Otros medios de pago": "$309.868"
+        "Transferencia o Depósito": "$305.824",
+        "Otros medios de pago": "$322.033"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -65,16 +84,16 @@
     {
       "product_id": 59457,
       "store_id": "spdigital",
-      "price": 300029,
-      "price_normal": 370500,
-      "discount_pct": 19,
+      "price": 342284,
+      "price_normal": 385300,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/core-i5-14600kf-350ghz-sktlga1700-cache",
       "store_name": "SP Digital",
-      "price_card": 313530,
+      "price_card": 357687,
       "price_specs": {
-        "Transferencia / Efectivo": "$300.029",
-        "Webpay / Tarjeta": "$313.530"
+        "Transferencia / Efectivo": "$342.284",
+        "Webpay / Tarjeta": "$357.687"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -86,18 +105,6 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 282686
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 282686
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 278653
     },
@@ -106,7 +113,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 300029
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 323589
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 342284
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

@@ -8,12 +8,13 @@
   "image_url": "https://images.findtech.cl/products/gabinete-gamer-antec-c7-black-argb.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$133.600",
-    "Tarjeta crédito/débito": "$140.950"
+    "Factor de forma": "Midi Tower",
+    "Efectivo/Transferencia": "$141.070",
+    "Tarjeta crédito/débito": "$147.418"
   },
   "tags": [],
   "created_at": "2026-06-08 20:59:04",
-  "updated_at": "2026-07-07 00:27:17",
+  "updated_at": "2026-07-14 19:31:03",
   "prices": [
     {
       "product_id": 61068,
@@ -52,6 +53,25 @@
       "review_count": 0,
       "store_url": "www.mybox.cl",
       "full_url": "https://www.mybox.cl"
+    },
+    {
+      "product_id": 9759,
+      "store_id": "spdigital",
+      "price": 141070,
+      "price_normal": 179990,
+      "discount_pct": 22,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/gabinete-gamer-antec-c7-argb-white-mid-tower-e-atx-atx-m-atx-itx-tempered-glass-usb-c",
+      "store_name": "SP Digital",
+      "price_card": 147418,
+      "price_specs": {
+        "Transferencia / Efectivo": "$141.070",
+        "Webpay / Tarjeta": "$147.418"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -78,7 +98,13 @@
       "store_name": "Centrale",
       "date": "2026-07-07",
       "price": 133600
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 133600
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

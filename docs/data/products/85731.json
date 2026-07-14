@@ -10,26 +10,26 @@
   "specs": {
     "Certificación": "CE; FCC; IC; RCM; BSMI; EAC; UKCA; KCC; VCCI; ANRT; BIS; NRTL; UkrSepro; RoHS",
     "Factor de forma": "Ambidextro",
-    "Efectivo/Transferencia": "$20.466",
-    "Tarjeta crédito/débito": "$21.387"
+    "Efectivo/Transferencia": "$20.621",
+    "Tarjeta crédito/débito": "$21.549"
   },
   "tags": [],
   "created_at": "2026-07-07 00:00:10",
-  "updated_at": "2026-07-07 00:00:10",
+  "updated_at": "2026-07-14 19:14:55",
   "prices": [
     {
       "product_id": 85731,
       "store_id": "spdigital",
-      "price": 20466,
-      "price_normal": 22980,
+      "price": 20621,
+      "price_normal": 23160,
       "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/hp-keyboard-and-mouse-set-spanish-wired",
       "store_name": "SP Digital",
-      "price_card": 21387,
+      "price_card": 21549,
       "price_specs": {
-        "Transferencia / Efectivo": "$20.466",
-        "Webpay / Tarjeta": "$21.387"
+        "Transferencia / Efectivo": "$20.621",
+        "Webpay / Tarjeta": "$21.549"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,7 +43,13 @@
       "store_name": "SP Digital",
       "date": "2026-07-07",
       "price": 20466
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 20621
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

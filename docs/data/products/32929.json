@@ -8,14 +8,24 @@
   "image_url": "https://images.findtech.cl/products/cpu-amd-ryzen-9-9900x-4-4-ghz.jpg",
   "description": null,
   "specs": {
-    "Frecuencia base": "4.4 GHz",
-    "TDP": "120W",
-    "Transferencia / Efectivo": "$460.800",
-    "Tarjeta crédito/débito": "$486.140"
+    "Familia": "AMD Ryzen™ 9",
+    "Núcleos": "12",
+    "Socket": "AM5",
+    "Litografía": "4 nm",
+    "Incluye cooler": "No",
+    "Frecuencia base": "4,4 GHz",
+    "Hilos": "24",
+    "Frecuencia turbo": "5,6 GHz",
+    "Caché L3": "76 MB",
+    "TDP": "120 W",
+    "Memoria soportada": "DDR5-SDRAM",
+    "Gráficos integrados": "AMD Radeon",
+    "Efectivo/Transferencia": "$506.925",
+    "Tarjeta crédito/débito": "$529.737"
   },
   "tags": [],
   "created_at": "2026-05-04 02:41:43",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 32929,
@@ -37,23 +47,23 @@
       "full_url": "https://store.infor-ingen.com"
     },
     {
-      "product_id": 299,
-      "store_id": "centrale",
-      "price": 460800,
-      "price_normal": null,
-      "discount_pct": null,
+      "product_id": 9400,
+      "store_id": "spdigital",
+      "price": 506925,
+      "price_normal": 769990,
+      "discount_pct": 34,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-9900x-12-cores-24-threads-4-4-ghz-a-5-6-ghz-120w/",
-      "store_name": "Centrale",
-      "price_card": 486144,
+      "product_url": "https://www.spdigital.cl/amd-ryzen-9-9900x-12-core-processor",
+      "store_name": "SP Digital",
+      "price_card": 529737,
       "price_specs": {
-        "Transferencia / Efectivo": "$460.800",
-        "Tarjetas de Crédito / Débito": "$486.144"
+        "Transferencia / Efectivo": "$506.925",
+        "Webpay / Tarjeta": "$529.737"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 2629,
@@ -120,7 +130,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-07-07",
       "price": 449900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-07-14",
+      "price": 449900
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

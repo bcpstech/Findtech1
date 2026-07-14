@@ -13,12 +13,12 @@
     "Bus de memoria": "512-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$4.665.890",
-    "Tarjeta crédito/débito": "$4.922.510"
+    "Efectivo / Transferencia": "$4.572.750",
+    "Tarjeta crédito/débito": "$4.709.933"
   },
   "tags": [],
   "created_at": "2026-06-08 21:09:58",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 62201,
@@ -38,25 +38,6 @@
       "review_count": 0,
       "store_url": "www.mybox.cl",
       "full_url": "https://www.mybox.cl"
-    },
-    {
-      "product_id": 1253,
-      "store_id": "centrale",
-      "price": 4665890,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-tuf-gaming-geforce-rtx-5090-oc-32gb-gddr7-512-bit/",
-      "store_name": "Centrale",
-      "price_card": 4922514,
-      "price_specs": {
-        "Transferencia / Efectivo": "$4.665.890",
-        "Tarjetas de Crédito / Débito": "$4.922.514"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -83,7 +64,13 @@
       "store_name": "MyBox",
       "date": "2026-07-07",
       "price": 4572750
+    },
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-07-14",
+      "price": 4572750
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

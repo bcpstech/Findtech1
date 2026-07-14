@@ -10,26 +10,26 @@
   "specs": {
     "Socket": "AM5",
     "Memoria": "DDR5",
-    "Efectivo/Transferencia": "$133.995",
-    "Tarjeta crédito/débito": "$140.025"
+    "Efectivo/Transferencia": "$140.025",
+    "Tarjeta crédito/débito": "$146.326"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:23",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 9455,
       "store_id": "spdigital",
-      "price": 133995,
+      "price": 140025,
       "price_normal": 179990,
-      "discount_pct": 26,
+      "discount_pct": 22,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/segunda-seleccion-placa-madre-asus-prime-a620m-a-amd-socket-am5-4xdimm-ddr5-dp-vga-hdmi-2xm2",
       "store_name": "SP Digital",
-      "price_card": 140025,
+      "price_card": 146326,
       "price_specs": {
-        "Transferencia / Efectivo": "$133.995",
-        "Webpay / Tarjeta": "$140.025"
+        "Transferencia / Efectivo": "$140.025",
+        "Webpay / Tarjeta": "$146.326"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,18 +60,6 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 133995
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 133995
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 133995
     },
@@ -80,7 +68,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 133995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 140025
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 140025
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

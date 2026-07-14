@@ -3,7 +3,7 @@
   "external_id": "spdigital_unidad-ssd-western-digital-black-sn850x-2tb-m-2-2280-nvme-pcie-4-0-x4-lec-7300mb-s-esc-6600mb-s",
   "category_id": "storage",
   "brand": "Western Digital",
-  "name": "Unidad SSD Western Digital Black SN850X, 2TB, M.2 2280, NVMe PCIe 4.0 x4, Lec.7300MB/s Esc.6600MB/s",
+  "name": "Unidad SSD Western Digital Black SN850X, 2TB, M.2 2280 ,NVMe PCIe 4.0 x4, Lec.7300MB/s Esc.6600MB/s",
   "slug": "spdigital-unidad-ssd-western-digital-black-sn850x-2tb-m-2-2280-nvme-pcie-4-0-x4-lec-7300mb-s-esc-660",
   "image_url": "https://images.findtech.cl/products/unidad-ssd-western-digital-black-sn850x-2tb-m-2-2280-nvme-pcie-4-0-x4-lec-7300mb-s-esc-6600mb-s.jpg",
   "description": null,
@@ -11,12 +11,12 @@
     "Capacidad": "2 TB",
     "Interfaz": "PCI Express 4.0",
     "Factor de forma": "M.2 2280",
-    "Efectivo/Transferencia": "$362.013",
-    "Tarjeta crédito/débito": "$378.304"
+    "Efectivo/Transferencia": "$453.962",
+    "Tarjeta crédito/débito": "$474.390"
   },
   "tags": [],
   "created_at": "2026-06-20 00:08:34",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 71319,
@@ -40,40 +40,21 @@
     {
       "product_id": 72104,
       "store_id": "spdigital",
-      "price": 362013,
-      "price_normal": 446990,
-      "discount_pct": 19,
+      "price": 453962,
+      "price_normal": 480920,
+      "discount_pct": 6,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/wd_black-sn850x-nvme-ssd-wds200t2x0e-ssd-2-tb-interno-m2-2280-pcie-40-x4-nvme",
+      "product_url": "https://www.spdigital.cl/wd_black-sn850x-nvme-ssd-wds200t2xhe-ssd-2-tb-interno-m2-2280-pcie-40-x4-nvme",
       "store_name": "SP Digital",
-      "price_card": 378304,
+      "price_card": 474390,
       "price_specs": {
-        "Transferencia / Efectivo": "$362.013",
-        "Webpay / Tarjeta": "$378.304"
+        "Transferencia / Efectivo": "$453.962",
+        "Webpay / Tarjeta": "$474.390"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 1546,
-      "store_id": "centrale",
-      "price": 378350,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-western-digital-black-ssd-2tb-nvme-pcie-4-0-sn850x-7300mb-s/",
-      "store_name": "Centrale",
-      "price_card": 399159,
-      "price_specs": {
-        "Transferencia / Efectivo": "$378.350",
-        "Tarjetas de Crédito / Débito": "$399.159"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -88,7 +69,13 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 362013
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 453962
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

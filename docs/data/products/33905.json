@@ -8,52 +8,71 @@
   "image_url": "https://images.findtech.cl/products/gabinete-gamemax-hype-a-black-4-fan-argb.png",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$82.900",
-    "Tarjeta crédito/débito": "$85.387"
+    "Efectivo / Transferencia": "$78.900",
+    "Tarjeta crédito/débito": "$81.267"
   },
   "tags": [],
   "created_at": "2026-05-04 02:58:28",
-  "updated_at": "2026-06-25 18:44:33",
+  "updated_at": "2026-07-14 20:05:12",
   "prices": [
     {
       "product_id": 33905,
       "store_id": "infor-ingen",
-      "price": 82900,
-      "price_normal": 87874,
+      "price": 78900,
+      "price_normal": 83634,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/gabinete-gamemax-hype-a-black-3-fan-argb/",
       "store_name": "Infor-Ingen",
-      "price_card": 85387,
+      "price_card": 81267,
       "price_specs": {
-        "Efectivo/Transferencia": "$82.900",
-        "Tarjeta crédito/débito": "$85.387"
+        "Efectivo / Transferencia": "$78.900",
+        "Tarjeta crédito/débito": "$81.267"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
+    },
+    {
+      "product_id": 71325,
+      "store_id": "bcpstech",
+      "price": 78990,
+      "price_normal": 89990,
+      "discount_pct": 12,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=1287",
+      "store_name": "BCPS Tech",
+      "price_card": 81360,
+      "price_specs": {
+        "Efectivo/Transferencia": "$78.990",
+        "Tarjeta crédito/débito": "$81.360"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
     }
   ],
   "history": [
     {
       "store_id": "infor-ingen",
       "store_name": "Infor-Ingen",
-      "date": "2026-06-08",
-      "price": 82900
-    },
-    {
-      "store_id": "infor-ingen",
-      "store_name": "Infor-Ingen",
-      "date": "2026-06-09",
-      "price": 82900
-    },
-    {
-      "store_id": "infor-ingen",
-      "store_name": "Infor-Ingen",
       "date": "2026-06-25",
       "price": 82900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-26",
+      "price": 82900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-07-14",
+      "price": 78900
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

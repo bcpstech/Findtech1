@@ -13,29 +13,29 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$849.500",
-    "Tarjeta crédito/débito": "$896.223",
+    "Efectivo / Transferencia": "$839.700",
+    "Tarjeta crédito/débito": "$885.884",
     "Garantía": "",
     "SKU": "43849",
     "Part Number": "ZT-B50700J-10P"
   },
   "tags": [],
   "created_at": "2026-06-25 18:03:43",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 76585,
       "store_id": "myshop",
-      "price": 849500,
-      "price_normal": 896223,
-      "discount_pct": null,
+      "price": 839700,
+      "price_normal": 885884,
+      "discount_pct": 14,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/zotac-gaming-geforce-rtx-5070-solid-oc-p43849",
       "store_name": "MyShop",
-      "price_card": 874985,
+      "price_card": 864891,
       "price_specs": {
-        "Efectivo/Transferencia": "$849.500",
-        "Tarjeta crédito/débito": "$874.985"
+        "Efectivo/Transferencia": "$839.700",
+        "Tarjeta crédito/débito": "$864.891"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -66,16 +66,16 @@
     {
       "product_id": 31878,
       "store_id": "winpy",
-      "price": 852416,
+      "price": 859104,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-zotac-geforce-rtx-5070-solid-oc-de-12gb-gddr7/",
       "store_name": "Winpy",
-      "price_card": 897594,
+      "price_card": 904637,
       "price_specs": {
-        "Transferencia o Depósito": "$852.416",
-        "Otros medios de pago": "$897.594"
+        "Transferencia o Depósito": "$859.104",
+        "Otros medios de pago": "$904.637"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -100,6 +100,25 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9584,
+      "store_id": "spdigital",
+      "price": 919115,
+      "price_normal": 1086250,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-gaming-nvidia-geforce-rtx-5070-solid-oc-12gb-gddr7-192-bits-pcie-50",
+      "store_name": "SP Digital",
+      "price_card": 960475,
+      "price_specs": {
+        "Transferencia / Efectivo": "$919.115",
+        "Webpay / Tarjeta": "$960.475"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -114,7 +133,13 @@
       "store_name": "MyShop",
       "date": "2026-07-07",
       "price": 849500
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 839700
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

@@ -12,26 +12,26 @@
     "Velocidad": "1600 MHz",
     "Latencia": "CL11",
     "Tipo de memoria": "DDR3",
-    "Efectivo/Transferencia": "$92.561",
-    "Tarjeta crédito/débito": "$96.726"
+    "Efectivo/Transferencia": "$102.472",
+    "Tarjeta crédito/débito": "$107.083"
   },
   "tags": [],
   "created_at": "2026-06-20 00:07:56",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 72015,
       "store_id": "spdigital",
-      "price": 92561,
-      "price_normal": 114290,
-      "discount_pct": 19,
+      "price": 102472,
+      "price_normal": 115280,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/kingston-valueram-ddr3-sdram-8-gb-1600-mhz-unbuffered-non-ecc",
       "store_name": "SP Digital",
-      "price_card": 96726,
+      "price_card": 107083,
       "price_specs": {
-        "Transferencia / Efectivo": "$92.561",
-        "Webpay / Tarjeta": "$96.726"
+        "Transferencia / Efectivo": "$102.472",
+        "Webpay / Tarjeta": "$107.083"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -51,7 +51,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 92561
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 96852
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 102472
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

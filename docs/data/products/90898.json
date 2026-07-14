@@ -1,0 +1,74 @@
+{
+  "id": 90898,
+  "external_id": "centrale_procesador-intel-core-ultra-7-270k-plus-24-nucleos-5-5ghz-lga1851",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core Ultra 7 270K Plus 24 núcleos, 5.5GHz, LGA1851",
+  "slug": "centrale-procesador-intel-core-ultra-7-270k-plus-24-nucleos-5-5ghz-lga1851",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-ultra-7-270k-plus-24-nucleos-5-5ghz-lga1851.webp",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "5.5 GHz",
+    "Frecuencia turbo": "5,5 GHz",
+    "Socket": "LGA 1851 (Socket V1)",
+    "Familia": "Intel Core Ultra 7",
+    "Núcleos": "24",
+    "Hilos": "24",
+    "Caché L3": "36 MB",
+    "Gráficos integrados": "Intel Graphics",
+    "Efectivo/Transferencia": "$475.328",
+    "Tarjeta crédito/débito": "$496.718"
+  },
+  "tags": [],
+  "created_at": "2026-07-14 19:26:42",
+  "updated_at": "2026-07-14 20:09:45",
+  "prices": [
+    {
+      "product_id": 90898,
+      "store_id": "centrale",
+      "price": 434380,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-7-270k-plus-24-nucleos-5-5ghz-lga1851/",
+      "store_name": "Centrale",
+      "price_card": 458271,
+      "price_specs": {
+        "Transferencia / Efectivo": "$434.380",
+        "Tarjetas de Crédito / Débito": "$458.271"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 85049,
+      "store_id": "spdigital",
+      "price": 475328,
+      "price_normal": 535130,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/intel-core-ultra-7-270k-plus-42-ghz-24-core-lga1851",
+      "store_name": "SP Digital",
+      "price_card": 496718,
+      "price_specs": {
+        "Transferencia / Efectivo": "$475.328",
+        "Webpay / Tarjeta": "$496.718"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 434380
+    }
+  ],
+  "scraped_at": "2026-07-14"
+}

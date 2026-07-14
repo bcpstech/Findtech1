@@ -9,50 +9,77 @@
   "description": null,
   "specs": {
     "TDP": "240 W",
-    "Efectivo/Transferencia": "$69.990",
-    "Tarjeta crédito/débito": "$73.140"
+    "Efectivo/Transferencia": "$29.255",
+    "Tarjeta crédito/débito": "$30.571"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:42",
-  "updated_at": "2026-05-01 13:51:20",
+  "updated_at": "2026-07-14 19:11:36",
   "prices": [
     {
       "product_id": 9598,
       "store_id": "spdigital",
-      "price": 69990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 29255,
+      "price_normal": 69990,
+      "discount_pct": 58,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/disipador-mag-corefrozr-aa13",
       "store_name": "SP Digital",
+      "price_card": 30571,
       "price_specs": {
-        "Transferencia / Efectivo": "$69.990"
+        "Transferencia / Efectivo": "$29.255",
+        "Webpay / Tarjeta": "$30.571"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 6192,
+      "store_id": "n1g",
+      "price": 199000,
+      "price_normal": 209474,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/2089-msi-mpg-coreliquid-k240-v2-black-lga-1700-am5-aio-cooler-240mm-radiator-24-lcd-torx-30-fan-argb-pwm-msi-center.html",
+      "store_name": "N1G",
+      "price_card": 209547,
+      "price_specs": {
+        "Efectivo/Transferencia": "$199.000",
+        "Tarjeta crédito/débito": "$209.547"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-28",
-      "price": 69990
+      "date": "2026-06-20",
+      "price": 27995
     },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-29",
-      "price": 69990
+      "date": "2026-06-25",
+      "price": 27995
     },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-05-01",
-      "price": 69990
+      "date": "2026-07-06",
+      "price": 29255
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 29255
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-07-14"
 }

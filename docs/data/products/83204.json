@@ -15,7 +15,7 @@
   },
   "tags": [],
   "created_at": "2026-06-26 00:20:23",
-  "updated_at": "2026-07-07 00:45:40",
+  "updated_at": "2026-07-14 19:40:49",
   "prices": [
     {
       "product_id": 83204,
@@ -54,6 +54,25 @@
       "review_count": 0,
       "store_url": "www.bcpstech.cl",
       "full_url": "https://bcpstech.cl"
+    },
+    {
+      "product_id": 4206,
+      "store_id": "cg",
+      "price": 69990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/refrigeracion-pc/refrigeracion-liquida-cougar-poseidon-elite-argb-240-white/",
+      "store_name": "CentralGamer",
+      "price_card": 73671,
+      "price_specs": {
+        "Efectivo/Transferencia": "$69.990",
+        "Webpay / Tarjeta": "$73.671"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
@@ -68,7 +87,13 @@
       "store_name": "ProGaming",
       "date": "2026-07-07",
       "price": 61990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-07-14",
+      "price": 61990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

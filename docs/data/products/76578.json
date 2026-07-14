@@ -20,14 +20,14 @@
   },
   "tags": [],
   "created_at": "2026-06-25 18:03:37",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 76578,
       "store_id": "myshop",
       "price": 509500,
       "price_normal": 537523,
-      "discount_pct": null,
+      "discount_pct": 21,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/zotac-geforce-rtx5060ti-twin-edge-oc-p43847",
       "store_name": "MyShop",
@@ -75,7 +75,13 @@
       "store_name": "MyShop",
       "date": "2026-07-07",
       "price": 509500
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 509500
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

@@ -13,26 +13,26 @@
     "Velocidad": "3200 MHz",
     "Latencia": "CL16",
     "Iluminación": "RGB",
-    "Transferencia / Efectivo": "$140.870",
-    "Tarjeta crédito/débito": "$148.620"
+    "Transferencia / Efectivo": "$137.270",
+    "Tarjeta crédito/débito": "$144.820"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1444,
       "store_id": "centrale",
-      "price": 140870,
+      "price": 137270,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-16gb-ddr4-3200mt-s-cl16-adata-xpg-spectrix-d35g-rgb/",
       "store_name": "Centrale",
-      "price_card": 148618,
+      "price_card": 144820,
       "price_specs": {
-        "Transferencia / Efectivo": "$140.870",
-        "Tarjetas de Crédito / Débito": "$148.618"
+        "Transferencia / Efectivo": "$137.270",
+        "Tarjetas de Crédito / Débito": "$144.820"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,15 +63,27 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-06-08",
-      "price": 140870
+      "date": "2026-06-25",
+      "price": 137270
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-06-09",
-      "price": 140870
+      "date": "2026-06-26",
+      "price": 137270
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 137270
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 137270
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-07-14"
 }

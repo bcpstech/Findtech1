@@ -17,32 +17,13 @@
     "Caché L3": "33 MB",
     "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$449.995",
-    "Tarjeta crédito/débito": "$470.245"
+    "Efectivo/Transferencia": "$467.737",
+    "Tarjeta crédito/débito": "$488.785"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:24",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
-    {
-      "product_id": 307,
-      "store_id": "centrale",
-      "price": 407320,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700kf-raptor-lake-s-lga1700-20-cores-28-hilos/",
-      "store_name": "Centrale",
-      "price_card": 429723,
-      "price_specs": {
-        "Transferencia / Efectivo": "$407.320",
-        "Tarjetas de Crédito / Débito": "$429.723"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
     {
       "product_id": 31912,
       "store_id": "winpy",
@@ -63,18 +44,56 @@
       "full_url": "https://www.winpy.cl"
     },
     {
+      "product_id": 59383,
+      "store_id": "cg",
+      "price": 425990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-intel-core-i7-14700kf/",
+      "store_name": "CentralGamer",
+      "price_card": 448397,
+      "price_specs": {
+        "Efectivo/Transferencia": "$425.990",
+        "Webpay / Tarjeta": "$448.397"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 307,
+      "store_id": "centrale",
+      "price": 447640,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700kf-raptor-lake-s-lga1700-20-cores-28-hilos/",
+      "store_name": "Centrale",
+      "price_card": 472260,
+      "price_specs": {
+        "Transferencia / Efectivo": "$447.640",
+        "Tarjetas de Crédito / Débito": "$472.260"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
       "product_id": 59463,
       "store_id": "spdigital",
-      "price": 449995,
+      "price": 467737,
       "price_normal": 629990,
-      "discount_pct": 29,
+      "discount_pct": 26,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/core-i7-14700kf-3-40ghz-sktlga1700-cache",
       "store_name": "SP Digital",
-      "price_card": 470245,
+      "price_card": 488785,
       "price_specs": {
-        "Transferencia / Efectivo": "$449.995",
-        "Webpay / Tarjeta": "$470.245"
+        "Transferencia / Efectivo": "$467.737",
+        "Webpay / Tarjeta": "$488.785"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -86,18 +105,6 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 433496
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 433496
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 449995
     },
@@ -106,7 +113,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 449995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 470245
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 467737
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

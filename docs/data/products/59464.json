@@ -17,26 +17,26 @@
     "Caché L3": "33 MB",
     "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
     "Gráficos integrados": "Intel UHD Graphics 770",
-    "Efectivo/Transferencia": "$469.987",
-    "Tarjeta crédito/débito": "$491.136"
+    "Efectivo/Transferencia": "$491.136",
+    "Tarjeta crédito/débito": "$513.237"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:24",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 309,
       "store_id": "centrale",
-      "price": 449270,
+      "price": 466880,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700k-raptor-lake-s-lga1700-20-cores-28-hilos/",
       "store_name": "Centrale",
-      "price_card": 473980,
+      "price_card": 492558,
       "price_specs": {
-        "Transferencia / Efectivo": "$449.270",
-        "Tarjetas de Crédito / Débito": "$473.980"
+        "Transferencia / Efectivo": "$466.880",
+        "Tarjetas de Crédito / Débito": "$492.558"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -46,16 +46,16 @@
     {
       "product_id": 59464,
       "store_id": "spdigital",
-      "price": 469987,
+      "price": 491136,
       "price_normal": 671980,
-      "discount_pct": 30,
+      "discount_pct": 27,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/core-i7-14700k-3-40ghz-sktlga1700-3300m",
       "store_name": "SP Digital",
-      "price_card": 491136,
+      "price_card": 513237,
       "price_specs": {
-        "Transferencia / Efectivo": "$469.987",
-        "Webpay / Tarjeta": "$491.136"
+        "Transferencia / Efectivo": "$491.136",
+        "Webpay / Tarjeta": "$513.237"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -67,18 +67,6 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 458086
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 458086
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 469987
     },
@@ -87,7 +75,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 469987
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 491136
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 491136
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

@@ -17,26 +17,26 @@
     "Frecuencia turbo": "4,9 GHz",
     "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
     "Gráficos integrados": "Intel UHD Graphics 770",
-    "Efectivo/Transferencia": "$379.995",
-    "Tarjeta crédito/débito": "$397.095"
+    "Efectivo/Transferencia": "$397.095",
+    "Tarjeta crédito/débito": "$414.964"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:04",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 322,
       "store_id": "centrale",
-      "price": 326200,
+      "price": 327320,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-12700-3-6ghz-12-core-20-hilos-lga-1700/",
       "store_name": "Centrale",
-      "price_card": 344141,
+      "price_card": 345323,
       "price_specs": {
-        "Transferencia / Efectivo": "$326.200",
-        "Tarjetas de Crédito / Débito": "$344.141"
+        "Transferencia / Efectivo": "$327.320",
+        "Tarjetas de Crédito / Débito": "$345.323"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -46,16 +46,16 @@
     {
       "product_id": 31905,
       "store_id": "winpy",
-      "price": 347776,
+      "price": 388512,
       "price_normal": null,
-      "discount_pct": 19,
+      "discount_pct": 10,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i7-12700-alder-lake-lga1700-12-cores-20-hilos-3-6-4-9-ghz/",
       "store_name": "Winpy",
-      "price_card": 366208,
+      "price_card": 409103,
       "price_specs": {
-        "Transferencia o Depósito": "$347.776",
-        "Otros medios de pago": "$366.208"
+        "Transferencia o Depósito": "$388.512",
+        "Otros medios de pago": "$409.103"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -65,42 +65,67 @@
     {
       "product_id": 9422,
       "store_id": "spdigital",
-      "price": 379995,
+      "price": 397095,
       "price_normal": 579990,
-      "discount_pct": 34,
+      "discount_pct": 32,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/core-i7-12700-210ghz-sktlga1700-2500mb",
       "store_name": "SP Digital",
-      "price_card": 397095,
+      "price_card": 414964,
       "price_specs": {
-        "Transferencia / Efectivo": "$379.995",
-        "Webpay / Tarjeta": "$397.095"
+        "Transferencia / Efectivo": "$397.095",
+        "Webpay / Tarjeta": "$414.964"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1141,
+      "store_id": "cg",
+      "price": 430789,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-i7-12700-2-1-ghz-12-nucleos-20-hilos-25-mb-cache-lga1700-socket-caja/",
+      "store_name": "CentralGamer",
+      "price_card": 453449,
+      "price_specs": {
+        "Efectivo/Transferencia": "$430.789",
+        "Webpay / Tarjeta": "$453.449"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 369795
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 369795
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 379995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 379995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 397095
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 397095
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-07-14"
 }

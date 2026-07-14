@@ -12,29 +12,29 @@
     "Tipo memoria": "GDDR6",
     "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$379.900",
-    "Tarjeta crédito/débito": "$400.795",
+    "Efectivo / Transferencia": "$369.990",
+    "Tarjeta crédito/débito": "$390.339",
     "Garantía": "6 meses",
     "SKU": "41145",
     "Part Number": "GV-N5050GAMING OC-8GD"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:31",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 19813,
       "store_id": "myshop",
-      "price": 379900,
-      "price_normal": 400795,
-      "discount_pct": 15,
+      "price": 369990,
+      "price_normal": 390339,
+      "discount_pct": 17,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/geforce-rtx-5050-gaming-oc-8g-p41145",
       "store_name": "MyShop",
-      "price_card": 391297,
+      "price_card": 381090,
       "price_specs": {
-        "Efectivo/Transferencia": "$379.900",
-        "Tarjeta crédito/débito": "$391.297"
+        "Efectivo/Transferencia": "$369.990",
+        "Tarjeta crédito/débito": "$381.090"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,7 +60,13 @@
       "store_name": "MyShop",
       "date": "2026-07-07",
       "price": 379900
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 369990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

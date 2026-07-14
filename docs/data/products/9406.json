@@ -21,12 +21,12 @@
     "TDP": "65 W",
     "Memoria soportada": "DDR4-SDRAM",
     "Gráficos integrados": "AMD Radeon Graphics",
-    "Efectivo/Transferencia": "$159.995",
-    "Tarjeta crédito/débito": "$167.195"
+    "Efectivo/Transferencia": "$167.195",
+    "Tarjeta crédito/débito": "$174.719"
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:55",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 27,
@@ -65,6 +65,25 @@
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 2829,
+      "store_id": "alltec",
+      "price": 153000,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/2508-amd-ryzen-5-5600gt-36ghz-46ghz-turbo-six-core-tdp-65w-am4.html",
+      "store_name": "Alltec",
+      "price_card": 157590,
+      "price_specs": {
+        "Efectivo/Transferencia": "$153.000",
+        "Tarjeta crédito/débito": "$157.590"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     },
     {
       "product_id": 283,
@@ -107,36 +126,43 @@
     {
       "product_id": 9406,
       "store_id": "spdigital",
-      "price": 159995,
+      "price": 167195,
       "price_normal": 219990,
-      "discount_pct": 27,
+      "discount_pct": 24,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ryzen-5-5600gt-460ghz-6core-skt-am4-19m",
       "store_name": "SP Digital",
-      "price_card": 167195,
+      "price_card": 174719,
       "price_specs": {
-        "Transferencia / Efectivo": "$159.995",
-        "Webpay / Tarjeta": "$167.195"
+        "Transferencia / Efectivo": "$167.195",
+        "Webpay / Tarjeta": "$174.719"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1149,
+      "store_id": "cg",
+      "price": 175990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-5-5600gt/",
+      "store_name": "CentralGamer",
+      "price_card": 185247,
+      "price_specs": {
+        "Efectivo/Transferencia": "$175.990",
+        "Webpay / Tarjeta": "$185.247"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 154995
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 154995
-    },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
@@ -148,7 +174,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 159995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 167195
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 167195
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

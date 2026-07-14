@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:24",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 578,
@@ -74,40 +74,9 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 1361,
-      "store_id": "centrale",
-      "price": 62680,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-asrock-a520m-hdv-am4-ddr4-m-2-nvme/",
-      "store_name": "Centrale",
-      "price_card": 66127,
-      "price_specs": {
-        "Transferencia / Efectivo": "$62.680",
-        "Tarjetas de Crédito / Débito": "$66.127"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
-    {
-      "store_id": "winpy",
-      "store_name": "Winpy",
-      "date": "2026-06-08",
-      "price": 57152
-    },
-    {
-      "store_id": "winpy",
-      "store_name": "Winpy",
-      "date": "2026-06-09",
-      "price": 57152
-    },
     {
       "store_id": "winpy",
       "store_name": "Winpy",
@@ -119,7 +88,25 @@
       "store_name": "Winpy",
       "date": "2026-06-25",
       "price": 57152
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-06-26",
+      "price": 57152
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 57152
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-14",
+      "price": 57152
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

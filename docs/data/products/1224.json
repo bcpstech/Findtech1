@@ -5,30 +5,32 @@
   "brand": "Asus",
   "name": "Tarjeta Gráfica ASUS Dual AMD Radeon RX 9060 XT 16GB GDDR6 128-bit",
   "slug": "tarjeta-grafica-asus-dual-amd-radeon-rx-9060-xt-16gb-gddr6-128-bit",
-  "image_url": "https://centrale.cl/wp-content/uploads/Tarjeta-GrC3A1fica-ASUS-Dual-AMD-Radeon-RX-9060-XT-16GB-GDDR6-128-bit.webp",
+  "image_url": "https://images.findtech.cl/products/tarjeta-grafica-asus-dual-amd-radeon-rx-9060-xt-16gb-gddr6-128-bit.webp",
   "description": null,
   "specs": {
     "VRAM": "16 GB",
     "Tipo memoria": "GDDR6",
     "Bus de memoria": "128-bit",
-    "Transferencia / Efectivo": "$5.730",
-    "Tarjeta crédito/débito": "$6.050"
+    "Transferencia / Efectivo": "$553.890",
+    "Tarjeta crédito/débito": "$584.350"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-05-03 05:12:06",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1224,
       "store_id": "centrale",
-      "price": 5730,
+      "price": 553890,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-dual-amd-radeon-rx-9060-xt-16gb-gddr6-128-bit/",
       "store_name": "Centrale",
+      "price_card": 584354,
       "price_specs": {
-        "Transferencia / Efectivo": "$5.730"
+        "Transferencia / Efectivo": "$553.890",
+        "Tarjetas de Crédito / Débito": "$584.354"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -44,10 +46,12 @@
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/tarjeta-de-video-asus-dual-amd-radeon-rx-9060-xt-16gb/",
       "store_name": "TruluStore",
+      "price_card": 587090,
       "khipu_price": 581390,
       "price_specs": {
         "Efectivo / Transferencia": "$569.990",
-        "Khipu": "$581.390"
+        "Khipu": "$581.390",
+        "Tarjeta crédito/débito": "$587.090"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,14 +61,16 @@
     {
       "product_id": 9593,
       "store_id": "spdigital",
-      "price": 695910,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 636592,
+      "price_normal": 716760,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarj-video-pci-exp-16gb-gddr6-prime-radeon-rx-9060-xt-dual-dual-rx9060xt-16g",
       "store_name": "SP Digital",
+      "price_card": 665239,
       "price_specs": {
-        "Transferencia / Efectivo": "$695.910"
+        "Transferencia / Efectivo": "$636.592",
+        "Webpay / Tarjeta": "$665.239"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -76,27 +82,33 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 509900
+      "date": "2026-06-20",
+      "price": 573360
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 509900
+      "date": "2026-06-25",
+      "price": 584690
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-05-01",
-      "price": 5099
+      "date": "2026-06-26",
+      "price": 584690
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-05-03",
-      "price": 5730
+      "date": "2026-07-07",
+      "price": 579260
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 553890
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-07-14"
 }

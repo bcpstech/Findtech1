@@ -17,12 +17,12 @@
     "Caché L3": "30 MB",
     "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$545.122",
-    "Tarjeta crédito/débito": "$569.652"
+    "Efectivo/Transferencia": "$578.531",
+    "Tarjeta crédito/débito": "$604.565"
   },
   "tags": [],
   "created_at": "2026-06-20 00:07:08",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 11,
@@ -44,42 +44,42 @@
       "full_url": "https://www.n1g.cl"
     },
     {
-      "product_id": 71912,
-      "store_id": "spdigital",
-      "price": 545122,
-      "price_normal": 569670,
-      "discount_pct": 4,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/procesador-intel-core-i9-12900kf-12o-gen-32ghz-hasta-52ghz-socket-lga1700-sin-gráficas",
-      "store_name": "SP Digital",
-      "price_card": 569652,
-      "price_specs": {
-        "Transferencia / Efectivo": "$545.122",
-        "Webpay / Tarjeta": "$569.652"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
       "product_id": 328,
       "store_id": "centrale",
-      "price": 546870,
+      "price": 511570,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-12900kf-core-3-2ghz-30mb-lga1700/",
       "store_name": "Centrale",
-      "price_card": 576948,
+      "price_card": 539706,
       "price_specs": {
-        "Transferencia / Efectivo": "$546.870",
-        "Tarjetas de Crédito / Débito": "$576.948"
+        "Transferencia / Efectivo": "$511.570",
+        "Tarjetas de Crédito / Débito": "$539.706"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 71912,
+      "store_id": "spdigital",
+      "price": 578531,
+      "price_normal": 582750,
+      "discount_pct": 1,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/procesador-intel-core-i9-12900kf-12o-gen-32ghz-hasta-52ghz-socket-lga1700-sin-gráficas",
+      "store_name": "SP Digital",
+      "price_card": 604565,
+      "price_specs": {
+        "Transferencia / Efectivo": "$578.531",
+        "Webpay / Tarjeta": "$604.565"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -94,7 +94,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 545122
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 578449
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 578531
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

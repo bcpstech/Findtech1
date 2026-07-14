@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:21:39",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 31902,
@@ -41,16 +41,16 @@
     {
       "product_id": 312,
       "store_id": "centrale",
-      "price": 355310,
+      "price": 348010,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-12700f-2-1-ghz-12-core-lga-1700/",
       "store_name": "Centrale",
-      "price_card": 374852,
+      "price_card": 367151,
       "price_specs": {
-        "Transferencia / Efectivo": "$355.310",
-        "Tarjetas de Crédito / Débito": "$374.852"
+        "Transferencia / Efectivo": "$348.010",
+        "Tarjetas de Crédito / Débito": "$367.151"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -82,7 +82,13 @@
       "store_name": "Winpy",
       "date": "2026-07-07",
       "price": 344128
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-14",
+      "price": 344128
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

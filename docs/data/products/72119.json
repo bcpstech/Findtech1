@@ -12,26 +12,45 @@
     "Interfaz": "Serial ATA III",
     "Factor de forma": "3.5\"",
     "Certificación": "RoHS",
-    "Efectivo/Transferencia": "$734.898",
-    "Tarjeta crédito/débito": "$767.968"
+    "Efectivo/Transferencia": "$894.421",
+    "Tarjeta crédito/débito": "$934.670"
   },
   "tags": [],
   "created_at": "2026-06-20 00:08:42",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
+    {
+      "product_id": 60843,
+      "store_id": "centrale",
+      "price": 852560,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/wd-purple-pro-18tb-7200rpm-512mb-surveillance-wd181purp/",
+      "store_name": "Centrale",
+      "price_card": 899451,
+      "price_specs": {
+        "Transferencia / Efectivo": "$852.560",
+        "Tarjetas de Crédito / Débito": "$899.451"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
     {
       "product_id": 72119,
       "store_id": "spdigital",
-      "price": 734898,
-      "price_normal": 907620,
-      "discount_pct": 19,
+      "price": 894421,
+      "price_normal": 1006950,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/wd-purple-pro-wd181purp-disco-duro-18-tb-interno-35-sata-6gbs-7200-rpm-bufer-512-m",
       "store_name": "SP Digital",
-      "price_card": 767968,
+      "price_card": 934670,
       "price_specs": {
-        "Transferencia / Efectivo": "$734.898",
-        "Webpay / Tarjeta": "$767.968"
+        "Transferencia / Efectivo": "$894.421",
+        "Webpay / Tarjeta": "$934.670"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -51,7 +70,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 734898
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 902046
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 894421
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

@@ -21,13 +21,32 @@
     "Caché L3": "32 MB",
     "Memoria soportada": "DDR5-SDRAM",
     "Gráficos integrados": "AMD Radeon Graphics",
-    "Efectivo/Transferencia": "$215.990",
-    "Tarjeta crédito/débito": "$225.710"
+    "Efectivo/Transferencia": "$235.115",
+    "Tarjeta crédito/débito": "$245.695"
   },
   "tags": [],
   "created_at": "2026-04-28 20:53:55",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
+    {
+      "product_id": 275,
+      "store_id": "centrale",
+      "price": 203990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-7600-socket-am5-6-cores-12-hilos-3-8-5-1ghz/",
+      "store_name": "Centrale",
+      "price_card": 215209,
+      "price_specs": {
+        "Transferencia / Efectivo": "$203.990",
+        "Tarjetas de Crédito / Débito": "$215.209"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
     {
       "product_id": 33,
       "store_id": "n1g",
@@ -46,25 +65,6 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
-    },
-    {
-      "product_id": 275,
-      "store_id": "centrale",
-      "price": 204330,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-7600-socket-am5-6-cores-12-hilos-3-8-5-1ghz/",
-      "store_name": "Centrale",
-      "price_card": 215568,
-      "price_specs": {
-        "Transferencia / Efectivo": "$204.330",
-        "Tarjetas de Crédito / Débito": "$215.568"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 31889,
@@ -88,16 +88,16 @@
     {
       "product_id": 9407,
       "store_id": "spdigital",
-      "price": 215990,
+      "price": 235115,
       "price_normal": 352990,
-      "discount_pct": 39,
+      "discount_pct": 33,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-amd-ryzen-5-7600-wraith-sthealth-65w",
       "store_name": "SP Digital",
-      "price_card": 225710,
+      "price_card": 245695,
       "price_specs": {
-        "Transferencia / Efectivo": "$215.990",
-        "Webpay / Tarjeta": "$225.710"
+        "Transferencia / Efectivo": "$235.115",
+        "Webpay / Tarjeta": "$245.695"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -115,28 +115,35 @@
       "store_name": "Infor-Ingen",
       "price_card": 246067,
       "price_specs": {
-        "Efectivo/Transferencia": "$238.900",
+        "Efectivo / Transferencia": "$238.900",
         "Tarjeta crédito/débito": "$246.067"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
+    },
+    {
+      "product_id": 1142,
+      "store_id": "cg",
+      "price": 239183,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/amd-ryzen-5-7600-3-8-ghz-6-nucleos-12-hilos-32-mb-cache-socket-am5-caja/",
+      "store_name": "CentralGamer",
+      "price_card": 251764,
+      "price_specs": {
+        "Efectivo/Transferencia": "$239.183",
+        "Webpay / Tarjeta": "$251.764"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 225330
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 225322
-    },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
@@ -148,7 +155,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 215990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 238532
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 235115
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

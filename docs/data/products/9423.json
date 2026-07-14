@@ -18,26 +18,26 @@
     "Incluye cooler": "No",
     "Caché L3": "24 MB",
     "Memoria soportada": "DDR5-SDRAM",
-    "Efectivo/Transferencia": "$250.914",
-    "Tarjeta crédito/débito": "$262.205"
+    "Efectivo/Transferencia": "$283.576",
+    "Tarjeta crédito/débito": "$296.337"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:05",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 318,
       "store_id": "centrale",
-      "price": 239000,
+      "price": 224900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-5-245kf-14-nucleos-4-2-ghz-lga-1851-sin-graficos/",
       "store_name": "Centrale",
-      "price_card": 252145,
+      "price_card": 237270,
       "price_specs": {
-        "Transferencia / Efectivo": "$239.000",
-        "Tarjetas de Crédito / Débito": "$252.145"
+        "Transferencia / Efectivo": "$224.900",
+        "Tarjetas de Crédito / Débito": "$237.270"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -66,36 +66,43 @@
     {
       "product_id": 9423,
       "store_id": "spdigital",
-      "price": 250914,
-      "price_normal": 309850,
-      "discount_pct": 19,
+      "price": 283576,
+      "price_normal": 335100,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-intel-core-ultra-5-245kf-cache-de-24-m-hasta-520-ghz-socket-lga1851-125w-sin-video",
       "store_name": "SP Digital",
-      "price_card": 262205,
+      "price_card": 296337,
       "price_specs": {
-        "Transferencia / Efectivo": "$250.914",
-        "Webpay / Tarjeta": "$262.205"
+        "Transferencia / Efectivo": "$283.576",
+        "Webpay / Tarjeta": "$296.337"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 13798,
+      "store_id": "cg",
+      "price": 288278,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-5-245kf-4-2-ghz-14-core-lga1851/",
+      "store_name": "CentralGamer",
+      "price_card": 303441,
+      "price_specs": {
+        "Efectivo/Transferencia": "$288.278",
+        "Webpay / Tarjeta": "$303.441"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 286700
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 286700
-    },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
@@ -107,7 +114,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 250914
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 281497
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 283576
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

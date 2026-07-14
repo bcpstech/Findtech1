@@ -8,24 +8,26 @@
   "image_url": "https://images.findtech.cl/products/gabinete-gamer-esgamer-h60-bk-5-ventiladores-argb-m-atx-negro.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$89.990",
-    "Tarjeta crédito/débito": "$94.040"
+    "Efectivo/Transferencia": "$55.380",
+    "Tarjeta crédito/débito": "$57.872"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:22",
-  "updated_at": "2026-05-03 04:19:21",
+  "updated_at": "2026-07-14 19:12:52",
   "prices": [
     {
       "product_id": 9794,
       "store_id": "spdigital",
-      "price": 89990,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 55380,
+      "price_normal": 89990,
+      "discount_pct": 38,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/gabinete-gamer-h60-bk-5-fan-argbm-atx-esgaming",
       "store_name": "SP Digital",
+      "price_card": 57872,
       "price_specs": {
-        "Transferencia / Efectivo": "$89.990"
+        "Transferencia / Efectivo": "$55.380",
+        "Webpay / Tarjeta": "$57.872"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,27 +39,27 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-28",
-      "price": 89990
+      "date": "2026-06-20",
+      "price": 52995
     },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-29",
-      "price": 89990
+      "date": "2026-06-25",
+      "price": 52995
     },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-05-01",
-      "price": 89990
+      "date": "2026-07-06",
+      "price": 55380
     },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-05-03",
-      "price": 89990
+      "date": "2026-07-14",
+      "price": 55380
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-07-14"
 }

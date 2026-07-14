@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:46",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 31877,
@@ -42,21 +42,40 @@
     {
       "product_id": 56242,
       "store_id": "centrale",
-      "price": 812050,
+      "price": 811180,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-video-asus-prime-rtx-5070-12gb-gddr7-pci-e-5-0-triple-slot/",
       "store_name": "Centrale",
-      "price_card": 856713,
+      "price_card": 855795,
       "price_specs": {
-        "Transferencia / Efectivo": "$812.050",
-        "Tarjetas de Crédito / Débito": "$856.713"
+        "Transferencia / Efectivo": "$811.180",
+        "Tarjetas de Crédito / Débito": "$855.795"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 59599,
+      "store_id": "spdigital",
+      "price": 842997,
+      "price_normal": 1099990,
+      "discount_pct": 23,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-prime-geforce-rtx-5070-oc-edition-12gb-gddr7-192-bit-1005-ai-tops",
+      "store_name": "SP Digital",
+      "price_card": 880932,
+      "price_specs": {
+        "Transferencia / Efectivo": "$842.997",
+        "Webpay / Tarjeta": "$880.932"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -83,7 +102,13 @@
       "store_name": "Winpy",
       "date": "2026-07-07",
       "price": 769728
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-14",
+      "price": 769728
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

@@ -10,15 +10,23 @@
   "specs": {
     "Núcleos": "6",
     "Hilos": "12",
-    "Frecuencia base": "5.4 GHz",
-    "TDP": "65W",
+    "Frecuencia base": "3,9 GHz",
+    "Frecuencia turbo": "5,4 GHz",
+    "Socket": "AM5",
     "Generación": "AMD Zen 5 (4nm)",
-    "Transferencia / Efectivo": "$224.190",
-    "Tarjeta crédito/débito": "$236.520"
+    "Gráficos integrados": "AMD Radeon",
+    "Familia": "AMD Ryzen™ 5",
+    "Litografía": "4 nm",
+    "Incluye cooler": "No",
+    "Caché L3": "38 MB",
+    "TDP": "65 W",
+    "Memoria soportada": "DDR5-SDRAM",
+    "Efectivo/Transferencia": "$277.965",
+    "Tarjeta crédito/débito": "$290.473"
   },
   "tags": [],
   "created_at": "2026-05-04 02:41:40",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 32921,
@@ -38,25 +46,6 @@
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
-    },
-    {
-      "product_id": 286,
-      "store_id": "centrale",
-      "price": 224190,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-9600x-6-cores-12-threads-3-9-a-5-4ghz-65w/",
-      "store_name": "Centrale",
-      "price_card": 236520,
-      "price_specs": {
-        "Transferencia / Efectivo": "$224.190",
-        "Tarjetas de Crédito / Débito": "$236.520"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 2812,
@@ -95,6 +84,63 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 286,
+      "store_id": "centrale",
+      "price": 256640,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-5-9600x-6-cores-12-threads-3-9-a-5-4ghz-65w/",
+      "store_name": "Centrale",
+      "price_card": 270755,
+      "price_specs": {
+        "Transferencia / Efectivo": "$256.640",
+        "Tarjetas de Crédito / Débito": "$270.755"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 1151,
+      "store_id": "cg",
+      "price": 275106,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/amd-ryzen-5-9600x-6-core-5-4ghz-38mb-am5-with-r/",
+      "store_name": "CentralGamer",
+      "price_card": 289577,
+      "price_specs": {
+        "Efectivo/Transferencia": "$275.106",
+        "Webpay / Tarjeta": "$289.577"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 9410,
+      "store_id": "spdigital",
+      "price": 277965,
+      "price_normal": 399990,
+      "discount_pct": 31,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/amd-ryzen-5-9600x-6-core-processor",
+      "store_name": "SP Digital",
+      "price_card": 290473,
+      "price_specs": {
+        "Transferencia / Efectivo": "$277.965",
+        "Webpay / Tarjeta": "$290.473"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -121,7 +167,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-07-07",
       "price": 219900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-07-14",
+      "price": 219900
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

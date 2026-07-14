@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Peso": "45 kg",
-    "Efectivo/Transferencia": "$2.424.990",
-    "Webpay / Tarjeta": "$2.552.544"
+    "Efectivo/Transferencia": "$2.199.990",
+    "Webpay / Tarjeta": "$2.315.709"
   },
   "tags": [],
   "created_at": "2026-04-28 02:02:35",
-  "updated_at": "2026-06-09 02:40:30",
+  "updated_at": "2026-07-14 19:07:33",
   "prices": [
     {
       "product_id": 7353,
       "store_id": "cg",
-      "price": 2424990,
+      "price": 2199990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/pc-high/pc-gamer-amd-ryzen-7-9700x-rtx-5070-32gb-ram-ddr5-1-tb-nvme/",
       "store_name": "CentralGamer",
-      "price_card": 2552544,
+      "price_card": 2315709,
       "price_specs": {
-        "Efectivo/Transferencia": "$2.424.990",
-        "Webpay / Tarjeta": "$2.552.544"
+        "Efectivo/Transferencia": "$2.199.990",
+        "Webpay / Tarjeta": "$2.315.709"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,15 +40,21 @@
     {
       "store_id": "cg",
       "store_name": "CentralGamer",
-      "date": "2026-06-08",
-      "price": 2424990
+      "date": "2026-06-25",
+      "price": 2199990
     },
     {
       "store_id": "cg",
       "store_name": "CentralGamer",
-      "date": "2026-06-09",
-      "price": 2424990
+      "date": "2026-07-06",
+      "price": 2199990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-07-14",
+      "price": 2199990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-07-14"
 }

@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1564,
@@ -38,38 +38,45 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 38920,
+      "product_id": 38919,
       "store_id": "mybox",
-      "price": 299315,
-      "price_normal": 306990,
-      "discount_pct": 3,
+      "price": 436991,
+      "price_normal": 459990,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://mybox.cl/almacenamiento/5960-almacenamiento-nvme-kingston-fury-renegade-g5-1tb-pcie-50.html",
+      "product_url": "https://mybox.cl/almacenamiento/6063-almacenamiento-nvme-kingston-fury-renegade-g5-2tb-pcie-50.html",
       "store_name": "MyBox",
-      "price_card": 308294,
+      "price_card": 450101,
       "price_specs": {
-        "Efectivo/Transferencia": "$299.315",
-        "Tarjeta crédito/débito": "$308.294"
+        "Efectivo/Transferencia": "$436.991",
+        "Tarjeta crédito/débito": "$450.101"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.mybox.cl",
       "full_url": "https://www.mybox.cl"
+    },
+    {
+      "product_id": 9546,
+      "store_id": "spdigital",
+      "price": 543498,
+      "price_normal": 611880,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/ssd-kingston-fury-renegade-g5-1tb-m2-pcie-50-nvme-14200mbs-lectura-11000mbs-escritura",
+      "store_name": "SP Digital",
+      "price_card": 567955,
+      "price_specs": {
+        "Transferencia / Efectivo": "$543.498",
+        "Webpay / Tarjeta": "$567.955"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-06-08",
-      "price": 239900
-    },
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-06-09",
-      "price": 239900
-    },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
@@ -87,7 +94,19 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 249900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 249900
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 249900
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-14"
 }

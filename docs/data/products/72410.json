@@ -9,50 +9,50 @@
   "description": null,
   "specs": {
     "Factor de forma": "Midi Tower",
-    "Efectivo/Transferencia": "$37.080",
-    "Tarjeta crédito/débito": "$38.749"
+    "Efectivo/Transferencia": "$37.750",
+    "Tarjeta crédito/débito": "$39.449"
   },
   "tags": [],
   "created_at": "2026-06-20 00:10:59",
-  "updated_at": "2026-06-25 17:59:49",
+  "updated_at": "2026-07-14 19:12:56",
   "prices": [
-    {
-      "product_id": 72410,
-      "store_id": "spdigital",
-      "price": 34644,
-      "price_normal": 42100,
-      "discount_pct": 18,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/xtech-xtq-209-torre-atx-600-vatios-negro-usbaudio",
-      "store_name": "SP Digital",
-      "price_card": 36203,
-      "price_specs": {
-        "Transferencia / Efectivo": "$34.644",
-        "Webpay / Tarjeta": "$36.203"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
     {
       "product_id": 32045,
       "store_id": "winpy",
-      "price": 34656,
+      "price": 35264,
       "price_normal": null,
-      "discount_pct": 30,
+      "discount_pct": 29,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/gabinete-xtech-xtq-209-con-fuente-600w-atx-usb-2-0-audio-mic-negro/",
       "store_name": "Winpy",
-      "price_card": 36493,
+      "price_card": 37133,
       "price_specs": {
-        "Transferencia o Depósito": "$34.656",
-        "Otros medios de pago": "$36.493"
+        "Transferencia o Depósito": "$35.264",
+        "Otros medios de pago": "$37.133"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 72410,
+      "store_id": "spdigital",
+      "price": 37750,
+      "price_normal": 42470,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/xtech-xtq-209-torre-atx-600-vatios-negro-usbaudio",
+      "store_name": "SP Digital",
+      "price_card": 39449,
+      "price_specs": {
+        "Transferencia / Efectivo": "$37.750",
+        "Webpay / Tarjeta": "$39.449"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -67,7 +67,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 34644
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 36244
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 37750
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

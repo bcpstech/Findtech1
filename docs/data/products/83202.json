@@ -15,7 +15,7 @@
   },
   "tags": [],
   "created_at": "2026-06-26 00:20:22",
-  "updated_at": "2026-07-07 00:45:38",
+  "updated_at": "2026-07-14 19:40:49",
   "prices": [
     {
       "product_id": 83202,
@@ -39,16 +39,16 @@
     {
       "product_id": 1609,
       "store_id": "centrale",
-      "price": 77590,
+      "price": 77580,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-cooler-master-masterliquid-core-nex-argb-360mm-blanca/",
       "store_name": "Centrale",
-      "price_card": 81857,
+      "price_card": 81847,
       "price_specs": {
-        "Transferencia / Efectivo": "$77.590",
-        "Tarjetas de Crédito / Débito": "$81.857"
+        "Transferencia / Efectivo": "$77.580",
+        "Tarjetas de Crédito / Débito": "$81.847"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -68,7 +68,13 @@
       "store_name": "ProGaming",
       "date": "2026-07-07",
       "price": 24990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-07-14",
+      "price": 24990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

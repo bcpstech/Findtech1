@@ -8,46 +8,53 @@
   "image_url": "https://images.findtech.cl/products/disipador-cpu-coler-noctua-nh-u12s-redux-am5-amp-lga-1700.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$62.980",
-    "Tarjeta crédito/débito": "$66.440"
+    "Transferencia / Efectivo": "$83.420",
+    "Tarjeta crédito/débito": "$88.010"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:48",
-  "updated_at": "2026-06-26 00:06:33",
+  "updated_at": "2026-07-14 19:29:10",
   "prices": [
     {
       "product_id": 1648,
       "store_id": "centrale",
-      "price": 62980,
+      "price": 83420,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disipador-cpu-coler-noctua-nh-u12s-redux-am5-lga-1700/",
       "store_name": "Centrale",
-      "price_card": 66444,
+      "price_card": 88008,
       "price_specs": {
-        "Transferencia / Efectivo": "$62.980",
-        "Tarjetas de Crédito / Débito": "$66.444"
+        "Transferencia / Efectivo": "$83.420",
+        "Tarjetas de Crédito / Débito": "$88.008"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 753,
+      "store_id": "n1g",
+      "price": 119000,
+      "price_normal": 125263,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/2499-noctua-nh-d12l-am5-lga-1700-cpu-cooler-baja-altura-marron.html",
+      "store_name": "N1G",
+      "price_card": 125307,
+      "price_specs": {
+        "Efectivo/Transferencia": "$119.000",
+        "Tarjeta crédito/débito": "$125.307"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-06-08",
-      "price": 62980
-    },
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-06-09",
-      "price": 62980
-    },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
@@ -65,7 +72,13 @@
       "store_name": "Centrale",
       "date": "2026-06-26",
       "price": 62980
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 83420
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-14"
 }

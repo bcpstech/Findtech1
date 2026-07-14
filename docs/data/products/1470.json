@@ -17,21 +17,21 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:39",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1470,
       "store_id": "centrale",
-      "price": 69890,
+      "price": 66490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/memoria-ram-para-notebook-8gb-ddr4-3200mt-s-cl22-kingston-valueram-sodimm/",
       "store_name": "Centrale",
-      "price_card": 73734,
+      "price_card": 70147,
       "price_specs": {
-        "Transferencia / Efectivo": "$69.890",
-        "Tarjetas de Crédito / Débito": "$73.734"
+        "Transferencia / Efectivo": "$66.490",
+        "Tarjetas de Crédito / Débito": "$70.147"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,7 +63,13 @@
       "store_name": "Centrale",
       "date": "2026-07-07",
       "price": 69890
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 66490
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

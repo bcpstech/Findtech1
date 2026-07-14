@@ -8,50 +8,96 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-asus-rog-thor-1600w-certificada-80-plus-titanium-atx-3-1-gaming-extremo.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$945.490",
-    "Tarjeta crédito/débito": "$988.030"
+    "Efectivo/Transferencia": "$823.692",
+    "Tarjeta crédito/débito": "$860.758"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:43",
-  "updated_at": "2026-05-01 13:11:11",
+  "updated_at": "2026-07-14 19:12:29",
   "prices": [
     {
       "product_id": 9715,
       "store_id": "spdigital",
-      "price": 945490,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 823692,
+      "price_normal": 973470,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/rog-thor-1600w-titanium-iii",
       "store_name": "SP Digital",
+      "price_card": 860758,
       "price_specs": {
-        "Transferencia / Efectivo": "$945.490"
+        "Transferencia / Efectivo": "$823.692",
+        "Webpay / Tarjeta": "$860.758"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 38964,
+      "store_id": "mybox",
+      "price": 867341,
+      "price_normal": 912990,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/fuentes-de-poder/6104-fuente-de-poder-asus-rog-thor-1600w-titanium-iii-4711636074421.html",
+      "store_name": "MyBox",
+      "price_card": 893361,
+      "price_specs": {
+        "Efectivo/Transferencia": "$867.341",
+        "Tarjeta crédito/débito": "$893.361"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
+    },
+    {
+      "product_id": 800,
+      "store_id": "n1g",
+      "price": 929002,
+      "price_normal": 977897,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3590-asus-rog-thor-1600w-titanium-iii-80-plus-titanium-certified-atx-31-gan-mosfet-magnetic-oled-display.html",
+      "store_name": "N1G",
+      "price_card": 978239,
+      "price_specs": {
+        "Efectivo/Transferencia": "$929.002",
+        "Tarjeta crédito/débito": "$978.239"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-28",
-      "price": 952310
+      "date": "2026-06-20",
+      "price": 761358
     },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-29",
-      "price": 954420
+      "date": "2026-06-25",
+      "price": 781504
     },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-05-01",
-      "price": 945490
+      "date": "2026-07-06",
+      "price": 817554
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 823692
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-07-14"
 }

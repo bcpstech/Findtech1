@@ -11,29 +11,29 @@
     "Capacidad": "16 GB",
     "Tipo": "DDR4",
     "Velocidad": "3600 MHz",
-    "Efectivo / Transferencia": "$184.990",
-    "Tarjeta crédito/débito": "$195.164",
+    "Efectivo / Transferencia": "$182.990",
+    "Tarjeta crédito/débito": "$193.054",
     "Garantía": "6 meses",
     "SKU": "32227",
     "Part Number": "KF436C18BB/16"
   },
   "tags": [],
   "created_at": "2026-06-08 20:50:30",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 60082,
       "store_id": "myshop",
-      "price": 184990,
-      "price_normal": 195164,
+      "price": 182990,
+      "price_normal": 193054,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/dimm-16-gb-kingston-fury-beast-black-intel-xmp-ddr4-3600mhz-kf436c18bb16-p32227",
       "store_name": "MyShop",
-      "price_card": 190540,
+      "price_card": 188480,
       "price_specs": {
-        "Efectivo/Transferencia": "$184.990",
-        "Tarjeta crédito/débito": "$190.540"
+        "Efectivo/Transferencia": "$182.990",
+        "Tarjeta crédito/débito": "$188.480"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,7 +59,13 @@
       "store_name": "MyShop",
       "date": "2026-07-07",
       "price": 184990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 182990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

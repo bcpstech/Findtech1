@@ -18,18 +18,18 @@
   },
   "tags": [],
   "created_at": "2026-04-26 15:49:01",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 43,
       "store_id": "n1g",
       "price": 1990000,
-      "price_card": 2095470,
       "price_normal": 2094737,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://n1g.cl/Home/computacion/3666-amd-ryzen-threadripper-pro-9955wx-serie-wx-shimada-16-nucleos-45-ghz-str5-350-w-100-100000725wof.html",
       "store_name": "N1G",
+      "price_card": 2095470,
       "price_specs": {
         "Efectivo/Transferencia": "$1.990.000",
         "Tarjeta crédito/débito": "$2.095.470"
@@ -38,27 +38,33 @@
       "review_count": 0,
       "store_url": "www.n1g.cl",
       "full_url": "https://www.n1g.cl"
-    },
-    {
-      "product_id": 297,
-      "store_id": "centrale",
-      "price": 2268780,
-      "price_card": 2393563,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-threadripper-9960x-24-cores-48-threads-4-2-5-4ghz/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$2.268.780",
-        "Tarjetas de Crédito / Débito": "$2.393.563"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-19",
+      "price": 1990000
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-06-25",
+      "price": 1990000
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-07-06",
+      "price": 1990000
+    },
+    {
+      "store_id": "n1g",
+      "store_name": "N1G",
+      "date": "2026-07-14",
+      "price": 1990000
+    }
+  ],
+  "scraped_at": "2026-07-14"
 }

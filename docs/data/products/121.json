@@ -17,12 +17,12 @@
     "Socket": "LGA1700",
     "Generación": "Intel 12ª Gen (Alder Lake)",
     "Gráficos integrados": "No",
-    "Efectivo / Transferencia": "$103.900",
-    "Tarjeta crédito/débito": "$107.017"
+    "Efectivo / Transferencia": "$139.900",
+    "Tarjeta crédito/débito": "$144.097"
   },
   "tags": [],
   "created_at": "2026-04-26 16:05:44",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 2,
@@ -44,18 +44,56 @@
       "full_url": "https://www.n1g.cl"
     },
     {
+      "product_id": 86467,
+      "store_id": "centrale",
+      "price": 107370,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/procesador-intel-core-i3-12100f-4-core-3-3-ghz-socket-lga-1700/",
+      "store_name": "Centrale",
+      "price_card": 113275,
+      "price_specs": {
+        "Transferencia / Efectivo": "$107.370",
+        "Tarjetas de Crédito / Débito": "$113.275"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 91490,
+      "store_id": "winpy",
+      "price": 107616,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i3-12100f-alder-lake-lga1700-4-cores-8-hilos-3-30-4-30-ghz-sin-video/",
+      "store_name": "Winpy",
+      "price_card": 113320,
+      "price_specs": {
+        "Transferencia o Depósito": "$107.616",
+        "Otros medios de pago": "$113.320"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
       "product_id": 121,
       "store_id": "alltec",
-      "price": 103900,
+      "price": 139900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/intel/1851-3ghz-intel-i3-12100f-43ghz-turbo-4c8t-12mb-cache-65w-lga1700-sin-video-12th-generacion.html",
       "store_name": "Alltec",
-      "price_card": 107017,
+      "price_card": 144097,
       "price_specs": {
-        "Efectivo/Transferencia": "$103.900",
-        "Tarjeta crédito/débito": "$107.017"
+        "Efectivo/Transferencia": "$139.900",
+        "Tarjeta crédito/débito": "$144.097"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -67,18 +105,6 @@
     {
       "store_id": "alltec",
       "store_name": "Alltec",
-      "date": "2026-06-08",
-      "price": 103900
-    },
-    {
-      "store_id": "alltec",
-      "store_name": "Alltec",
-      "date": "2026-06-09",
-      "price": 103900
-    },
-    {
-      "store_id": "alltec",
-      "store_name": "Alltec",
       "date": "2026-06-20",
       "price": 103900
     },
@@ -87,7 +113,19 @@
       "store_name": "Alltec",
       "date": "2026-06-25",
       "price": 103900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-07-07",
+      "price": 139900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-07-14",
+      "price": 139900
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

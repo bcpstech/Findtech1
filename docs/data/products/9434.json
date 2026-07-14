@@ -12,26 +12,26 @@
     "Factor de forma": "micro ATX",
     "Memoria": "DDR4",
     "Chipset": "AMD B550",
-    "Efectivo/Transferencia": "$149.990",
-    "Tarjeta crédito/débito": "$156.740"
+    "Efectivo/Transferencia": "$99.270",
+    "Tarjeta crédito/débito": "$103.737"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:13",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1412,
       "store_id": "centrale",
-      "price": 96760,
-      "price_card": 102082,
+      "price": 86880,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b550m-k-micro-atx-socket-am4-pcie-4-0/",
       "store_name": "Centrale",
+      "price_card": 91658,
       "price_specs": {
-        "Transferencia / Efectivo": "$96.760",
-        "Tarjetas de Crédito / Débito": "$102.082"
+        "Transferencia / Efectivo": "$86.880",
+        "Tarjetas de Crédito / Débito": "$91.658"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,18 +39,18 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 9434,
+      "product_id": 9456,
       "store_id": "spdigital",
-      "price": 149990,
-      "price_card": 156740,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 89865,
+      "price_normal": 149990,
+      "discount_pct": 40,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/b550m-k",
+      "product_url": "https://www.spdigital.cl/segunda-seleccion-placa-madre-gigabyte-b550m-k-socket-am4-4x-ddr4-sata-6gbs-pcie-40-micro-atx",
       "store_name": "SP Digital",
+      "price_card": 93909,
       "price_specs": {
-        "Transferencia / Efectivo": "$149.990",
-        "Webpay / Tarjeta": "$156.740"
+        "Transferencia / Efectivo": "$89.865",
+        "Webpay / Tarjeta": "$93.909"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,6 +58,31 @@
       "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 94995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 94995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 99270
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 99270
+    }
+  ],
+  "scraped_at": "2026-07-14"
 }

@@ -12,26 +12,26 @@
     "Tipo memoria": "GDDR6",
     "Bus de memoria": "128-bit",
     "TDP": "130 W",
-    "Efectivo/Transferencia": "$349.995",
-    "Tarjeta crédito/débito": "$365.745"
+    "Efectivo/Transferencia": "$365.745",
+    "Tarjeta crédito/débito": "$382.204"
   },
   "tags": [],
   "created_at": "2026-06-08 20:44:22",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 59594,
       "store_id": "spdigital",
-      "price": 349995,
+      "price": 365745,
       "price_normal": 499990,
-      "discount_pct": 30,
+      "discount_pct": 27,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/tarjeta-de-video-pny-rtx-5050-dual-fan-8gb-gddr6-128-bit-pci-e-50",
       "store_name": "SP Digital",
-      "price_card": 365745,
+      "price_card": 382204,
       "price_specs": {
-        "Transferencia / Efectivo": "$349.995",
-        "Webpay / Tarjeta": "$365.745"
+        "Transferencia / Efectivo": "$365.745",
+        "Webpay / Tarjeta": "$382.204"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,18 +43,6 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 334995
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 334995
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 349995
     },
@@ -63,7 +51,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 349995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 365745
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 365745
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

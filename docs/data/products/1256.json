@@ -13,26 +13,26 @@
     "Bus de memoria": "512-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Transferencia / Efectivo": "$4.535.880",
-    "Tarjeta crédito/débito": "$4.785.350"
+    "Transferencia / Efectivo": "$4.292.670",
+    "Tarjeta crédito/débito": "$4.528.770"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1256,
       "store_id": "centrale",
-      "price": 4535880,
+      "price": 4292670,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-asus-rog-astral-rtx5090-gaming-oc-32gb-gddr7-512-bit/",
       "store_name": "Centrale",
-      "price_card": 4785353,
+      "price_card": 4528767,
       "price_specs": {
-        "Transferencia / Efectivo": "$4.535.880",
-        "Tarjetas de Crédito / Débito": "$4.785.353"
+        "Transferencia / Efectivo": "$4.292.670",
+        "Tarjetas de Crédito / Débito": "$4.528.767"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -64,7 +64,13 @@
       "store_name": "Centrale",
       "date": "2026-07-07",
       "price": 4535880
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 4292670
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

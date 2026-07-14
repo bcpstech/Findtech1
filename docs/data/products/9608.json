@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "TDP": "130 W",
-    "Efectivo/Transferencia": "$19.990",
-    "Tarjeta crédito/débito": "$20.890"
+    "Efectivo/Transferencia": "$20.890",
+    "Tarjeta crédito/débito": "$21.830"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:47",
-  "updated_at": "2026-06-25 17:58:44",
+  "updated_at": "2026-07-14 19:11:41",
   "prices": [
     {
       "product_id": 9608,
       "store_id": "spdigital",
-      "price": 19990,
+      "price": 20890,
       "price_normal": 34990,
-      "discount_pct": 43,
+      "discount_pct": 40,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/cooler-cpu-be-quiet-pure-rock-slim-3-pwm-130w-compacto-silencioso-intel-amd",
       "store_name": "SP Digital",
-      "price_card": 20890,
+      "price_card": 21830,
       "price_specs": {
-        "Transferencia / Efectivo": "$19.990",
-        "Webpay / Tarjeta": "$20.890"
+        "Transferencia / Efectivo": "$20.890",
+        "Webpay / Tarjeta": "$21.830"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,18 +40,6 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 16990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 16990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 19990
     },
@@ -60,7 +48,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 19990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 20890
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 20890
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

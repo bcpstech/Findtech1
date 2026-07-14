@@ -10,13 +10,14 @@
   "specs": {
     "VRAM": "8 GB",
     "Tipo memoria": "GDDR7",
+    "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$419.520",
-    "Tarjeta crédito/débito": "$441.755"
+    "Transferencia / Efectivo": "$451.650",
+    "Tarjeta crédito/débito": "$476.490"
   },
   "tags": [],
   "created_at": "2026-05-04 01:20:04",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 31856,
@@ -36,6 +37,44 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 9566,
+      "store_id": "spdigital",
+      "price": 449345,
+      "price_normal": 569990,
+      "discount_pct": 21,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-nvidia-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-128-bit-pci-e-50",
+      "store_name": "SP Digital",
+      "price_card": 469566,
+      "price_specs": {
+        "Transferencia / Efectivo": "$449.345",
+        "Webpay / Tarjeta": "$469.566"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1234,
+      "store_id": "centrale",
+      "price": 451650,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7-128-bit/",
+      "store_name": "Centrale",
+      "price_card": 476491,
+      "price_specs": {
+        "Transferencia / Efectivo": "$451.650",
+        "Tarjetas de Crédito / Débito": "$476.491"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -62,7 +101,13 @@
       "store_name": "Winpy",
       "date": "2026-07-07",
       "price": 419520
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-14",
+      "price": 419520
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

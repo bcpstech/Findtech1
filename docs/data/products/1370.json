@@ -5,30 +5,32 @@
   "brand": "Asus",
   "name": "Placa Madre ASUS PRIME B860M-K (Micro ATX, 2x DDR5, Intel LGA 1851, PCIe 5.0)",
   "slug": "placa-madre-asus-prime-b860m-k-micro-atx-2x-ddr5-intel-lga-1851-pcie-5-0",
-  "image_url": "https://centrale.cl/wp-content/uploads/Placa-Madre-ASUS-PRIME-B860M-K-Micro-ATX-2x-DDR5-Intel-LGA-1851-PCIe-5.0.webp",
+  "image_url": "https://images.findtech.cl/products/placa-madre-asus-prime-b860m-k-micro-atx-2x-ddr5-intel-lga-1851-pcie-5-0.webp",
   "description": null,
   "specs": {
     "Socket": "LGA1851",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
-    "Transferencia / Efectivo": "$148.990",
-    "Tarjeta crédito/débito": "$157.180"
+    "Transferencia / Efectivo": "$129.490",
+    "Tarjeta crédito/débito": "$136.610"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-05-04 01:41:13",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1370,
       "store_id": "centrale",
-      "price": 148990,
+      "price": 129490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-prime-b860m-k-micro-atx-2x-ddr5-intel-lga-1851-pcie-5-0/",
       "store_name": "Centrale",
+      "price_card": 136612,
       "price_specs": {
-        "Transferencia / Efectivo": "$148.990"
+        "Transferencia / Efectivo": "$129.490",
+        "Tarjetas de Crédito / Débito": "$136.612"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,14 +40,16 @@
     {
       "product_id": 31953,
       "store_id": "winpy",
-      "price": 151392,
+      "price": 129504,
       "price_normal": null,
-      "discount_pct": null,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/placa-madre-asus-prime-b860m-k-lga1851-ddr5-pcie-5-0-2-5gb-lan-micro-atx/",
       "store_name": "Winpy",
+      "price_card": 136368,
       "price_specs": {
-        "Efectivo/Transferencia": "$151.392"
+        "Transferencia o Depósito": "$129.504",
+        "Otros medios de pago": "$136.368"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -53,54 +57,75 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 9462,
-      "store_id": "spdigital",
-      "price": 199990,
-      "price_normal": null,
-      "discount_pct": null,
+      "product_id": 71352,
+      "store_id": "bcpstech",
+      "price": 135990,
+      "price_normal": 147990,
+      "discount_pct": 8,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-b860m-k-socket-lga-1851-2x-ddr5-2x-m2-25gbe-micro-atx",
-      "store_name": "SP Digital",
+      "product_url": "https://bcpstech.cl/?p=1012",
+      "store_name": "BCPS Tech",
+      "price_card": 140070,
       "price_specs": {
-        "Transferencia / Efectivo": "$199.990"
+        "Efectivo/Transferencia": "$135.990",
+        "Tarjeta crédito/débito": "$140.070"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
+    },
+    {
+      "product_id": 38874,
+      "store_id": "mybox",
+      "price": 144391,
+      "price_normal": 151990,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/inicio/6105-placa-madre-asus-prime-b860m-k--4711387808498.html",
+      "store_name": "MyBox",
+      "price_card": 148723,
+      "price_specs": {
+        "Efectivo/Transferencia": "$144.391",
+        "Tarjeta crédito/débito": "$148.723"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
+      "date": "2026-06-20",
       "price": 148990
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
+      "date": "2026-06-25",
       "price": 148990
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-05-01",
-      "price": 1490
-    },
-    {
-      "store_id": "centrale",
-      "store_name": "Centrale",
-      "date": "2026-05-03",
+      "date": "2026-06-26",
       "price": 148990
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-05-04",
+      "date": "2026-07-07",
       "price": 148990
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 129490
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-07-14"
 }

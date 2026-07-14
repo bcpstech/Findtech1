@@ -8,25 +8,26 @@
   "image_url": "https://images.findtech.cl/products/gabinete-cooler-master-qube-500-flatpack-black.png",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$89.900",
-    "Tarjeta crédito/débito": "$92.597"
+    "Factor de forma": "Midi Tower",
+    "Efectivo/Transferencia": "$94.368",
+    "Tarjeta crédito/débito": "$98.615"
   },
   "tags": [],
   "created_at": "2026-05-04 02:58:37",
-  "updated_at": "2026-05-08 23:17:46",
+  "updated_at": "2026-07-14 20:05:33",
   "prices": [
     {
       "product_id": 33913,
       "store_id": "infor-ingen",
       "price": 89900,
-      "price_card": 92597,
       "price_normal": 95294,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/gabinete-cooler-master-qube-500-flatpack-black/",
       "store_name": "Infor-Ingen",
+      "price_card": 92597,
       "price_specs": {
-        "Efectivo/Transferencia": "$89.900",
+        "Efectivo / Transferencia": "$89.900",
         "Tarjeta crédito/débito": "$92.597"
       },
       "store_rating": 0,
@@ -37,23 +38,61 @@
     {
       "product_id": 1754,
       "store_id": "centrale",
-      "price": 100280,
-      "price_card": 105795,
+      "price": 94280,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/cooler-master-gabinete-qube-500-flatpack-atx-vidrio-templado-macaron-edition/",
       "store_name": "Centrale",
+      "price_card": 99465,
       "price_specs": {
-        "Transferencia / Efectivo": "$100.280",
-        "Tarjetas de Crédito / Débito": "$105.795"
+        "Transferencia / Efectivo": "$94.280",
+        "Tarjetas de Crédito / Débito": "$99.465"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9784,
+      "store_id": "spdigital",
+      "price": 94368,
+      "price_normal": 111440,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/qube-500-flatpack-macaron-edition",
+      "store_name": "SP Digital",
+      "price_card": 98615,
+      "price_specs": {
+        "Transferencia / Efectivo": "$94.368",
+        "Webpay / Tarjeta": "$98.615"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-25",
+      "price": 89900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-06-26",
+      "price": 89900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-07-14",
+      "price": 89900
+    }
+  ],
+  "scraped_at": "2026-07-14"
 }

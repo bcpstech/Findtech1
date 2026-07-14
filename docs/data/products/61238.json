@@ -9,33 +9,72 @@
   "description": null,
   "specs": {
     "Capacidad": "1 TB",
-    "Interfaz": "NVMe PCIe",
+    "Interfaz": "PCI Express 4.0",
     "Factor de forma": "M.2 2280",
-    "Efectivo / Transferencia": "$207.328",
-    "Tarjeta crédito/débito": "$218.316"
+    "Certificación": "CE, FCC, BSMI, KC, Morocco, EAC",
+    "Efectivo/Transferencia": "$292.590",
+    "Tarjeta crédito/débito": "$305.757"
   },
   "tags": [],
   "created_at": "2026-06-08 21:00:00",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 61238,
       "store_id": "winpy",
-      "price": 207328,
+      "price": 205504,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/unidad-de-estado-solido-xpg-gammix-s70-blade-de-1tb-nvme-m-2-pcie-4-0-hasta-7-400mb-s/",
       "store_name": "Winpy",
-      "price_card": 218316,
+      "price_card": 216396,
       "price_specs": {
-        "Transferencia o Depósito": "$207.328",
-        "Otros medios de pago": "$218.316"
+        "Transferencia o Depósito": "$205.504",
+        "Otros medios de pago": "$216.396"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 86720,
+      "store_id": "centrale",
+      "price": 226390,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/disco-ssd-1tb-nvme-a-data-xpg-gammix-s70-blade/",
+      "store_name": "Centrale",
+      "price_card": 238841,
+      "price_specs": {
+        "Transferencia / Efectivo": "$226.390",
+        "Tarjetas de Crédito / Débito": "$238.841"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9524,
+      "store_id": "spdigital",
+      "price": 292590,
+      "price_normal": 294990,
+      "discount_pct": 1,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/ssd-xpg-gammix-s70-blade-nvme-1tb-pci-express-40-m2",
+      "store_name": "SP Digital",
+      "price_card": 305757,
+      "price_specs": {
+        "Transferencia / Efectivo": "$292.590",
+        "Webpay / Tarjeta": "$305.757"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -62,7 +101,13 @@
       "store_name": "Winpy",
       "date": "2026-07-07",
       "price": 207328
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-14",
+      "price": 205504
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

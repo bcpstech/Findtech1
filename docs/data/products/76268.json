@@ -8,31 +8,50 @@
   "image_url": "https://images.findtech.cl/products/disipador-intel-rm2-original-para-procesadores-socket-lga1851-y-lga1700.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$9.995",
-    "Tarjeta crédito/débito": "$10.445"
+    "Efectivo/Transferencia": "$10.445",
+    "Tarjeta crédito/débito": "$10.915"
   },
   "tags": [],
   "created_at": "2026-06-25 17:58:44",
-  "updated_at": "2026-06-25 17:58:44",
+  "updated_at": "2026-07-14 19:11:40",
   "prices": [
     {
       "product_id": 76268,
       "store_id": "spdigital",
-      "price": 9995,
+      "price": 10445,
       "price_normal": 11990,
-      "discount_pct": 17,
+      "discount_pct": 13,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/disipador-intel-stock-rm2-lga1851",
       "store_name": "SP Digital",
-      "price_card": 10445,
+      "price_card": 10915,
       "price_specs": {
-        "Transferencia / Efectivo": "$9.995",
-        "Webpay / Tarjeta": "$10.445"
+        "Transferencia / Efectivo": "$10.445",
+        "Webpay / Tarjeta": "$10.915"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 6098,
+      "store_id": "n1g",
+      "price": 99000,
+      "price_normal": 104211,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3504-dynatron-q11-disipador-lga-1851-1700-para-server-4u-base-de-aluminiopilas-de-aletas-enfriador-para-intel-lga18511700-4u-server.html",
+      "store_name": "N1G",
+      "price_card": 104247,
+      "price_specs": {
+        "Efectivo/Transferencia": "$99.000",
+        "Tarjeta crédito/débito": "$104.247"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
     }
   ],
   "history": [
@@ -41,7 +60,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 9995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 10445
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 10445
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

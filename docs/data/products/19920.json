@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-05-01 13:20:26",
-  "updated_at": "2026-07-07 00:12:12",
+  "updated_at": "2026-07-14 19:22:49",
   "prices": [
     {
       "product_id": 19920,
@@ -55,6 +55,25 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 55638,
+      "store_id": "spdigital",
+      "price": 172420,
+      "price_normal": 249990,
+      "discount_pct": 31,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/gabinete-gamer-cougar-cfv235-vision-mid-tower-diseno-flotante-lcd-916-incluye-fan-240mm-negro",
+      "store_name": "SP Digital",
+      "price_card": 180179,
+      "price_specs": {
+        "Transferencia / Efectivo": "$172.420",
+        "Webpay / Tarjeta": "$180.179"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -75,7 +94,13 @@
       "store_name": "MyShop",
       "date": "2026-07-07",
       "price": 95990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 95990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

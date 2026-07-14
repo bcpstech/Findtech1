@@ -8,46 +8,53 @@
   "image_url": "https://images.findtech.cl/products/ventilador-para-pc-cougar-vortex-vx120-argb-pwm-hdb-120-mm.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$15.990",
-    "Tarjeta crédito/débito": "$16.710"
+    "Efectivo/Transferencia": "$16.710",
+    "Tarjeta crédito/débito": "$17.462"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:31",
-  "updated_at": "2026-06-25 17:59:14",
+  "updated_at": "2026-07-14 19:12:20",
   "prices": [
     {
       "product_id": 9693,
       "store_id": "spdigital",
-      "price": 15990,
+      "price": 16710,
       "price_normal": 24990,
-      "discount_pct": 36,
+      "discount_pct": 33,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ventilador-cougar-vortex-vx-120mm-argb",
       "store_name": "SP Digital",
-      "price_card": 16710,
+      "price_card": 17462,
       "price_specs": {
-        "Transferencia / Efectivo": "$15.990",
-        "Webpay / Tarjeta": "$16.710"
+        "Transferencia / Efectivo": "$16.710",
+        "Webpay / Tarjeta": "$17.462"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 91324,
+      "store_id": "centrale",
+      "price": 59540,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/kit-3-ventiladores-cougar-vortex-vx120-12cm-argb-pwm/",
+      "store_name": "Centrale",
+      "price_card": 62815,
+      "price_specs": {
+        "Transferencia / Efectivo": "$59.540",
+        "Tarjetas de Crédito / Débito": "$62.815"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 15990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 15990
-    },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
@@ -59,7 +66,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 15990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 16710
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 16710
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$460.641",
-    "Tarjeta crédito/débito": "$474.460"
+    "Efectivo / Transferencia": "$474.991",
+    "Tarjeta crédito/débito": "$489.241"
   },
   "tags": [],
   "created_at": "2026-05-04 23:53:00",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 38855,
       "store_id": "mybox",
-      "price": 460641,
-      "price_normal": 497990,
-      "discount_pct": 7,
+      "price": 474991,
+      "price_normal": 499990,
+      "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/tarjeta-de-video/5962-tarjeta-de-video-gigabyte-rtx-5060-gaming-oc-8g-4719331356408.html",
       "store_name": "MyBox",
-      "price_card": 474460,
+      "price_card": 489241,
       "price_specs": {
-        "Efectivo/Transferencia": "$460.641",
-        "Tarjeta crédito/débito": "$474.460"
+        "Efectivo/Transferencia": "$474.991",
+        "Tarjeta crédito/débito": "$489.241"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,21 +40,15 @@
     {
       "store_id": "mybox",
       "store_name": "MyBox",
-      "date": "2026-06-08",
-      "price": 460641
-    },
-    {
-      "store_id": "mybox",
-      "store_name": "MyBox",
-      "date": "2026-06-09",
-      "price": 460641
-    },
-    {
-      "store_id": "mybox",
-      "store_name": "MyBox",
       "date": "2026-06-20",
       "price": 460641
+    },
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-07-14",
+      "price": 474991
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-07-14"
 }

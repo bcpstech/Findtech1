@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Marca": "MSI",
-    "Efectivo/Transferencia": "$229.990",
-    "Webpay / Tarjeta": "$242.087"
+    "Efectivo/Transferencia": "$233.900",
+    "Webpay / Tarjeta": "$246.203"
   },
   "tags": [],
   "created_at": "2026-04-27 22:14:22",
-  "updated_at": "2026-05-08 22:13:32",
+  "updated_at": "2026-07-14 19:09:28",
   "prices": [
     {
       "product_id": 1607,
       "store_id": "centrale",
-      "price": 173200,
-      "price_card": 182726,
+      "price": 162630,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-liquida-msi-mpg-coreliquid-p13-360mm-argb-pantalla-2-1/",
       "store_name": "Centrale",
+      "price_card": 171575,
       "price_specs": {
-        "Transferencia / Efectivo": "$173.200",
-        "Tarjetas de Crédito / Débito": "$182.726"
+        "Transferencia / Efectivo": "$162.630",
+        "Tarjetas de Crédito / Débito": "$171.575"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,16 +38,16 @@
     {
       "product_id": 9662,
       "store_id": "spdigital",
-      "price": 184995,
-      "price_card": 193320,
+      "price": 177645,
       "price_normal": 249990,
-      "discount_pct": 26,
+      "discount_pct": 29,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/mpg-coreliquid-p13-360",
       "store_name": "SP Digital",
+      "price_card": 185639,
       "price_specs": {
-        "Transferencia / Efectivo": "$184.995",
-        "Webpay / Tarjeta": "$193.320"
+        "Transferencia / Efectivo": "$177.645",
+        "Webpay / Tarjeta": "$185.639"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -55,39 +55,18 @@
       "full_url": "https://www.spdigital.cl"
     },
     {
-      "product_id": 12111,
-      "store_id": "trulustore",
-      "price": 199990,
-      "price_card": 205990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/refrigeracion-liquida-msi-mpg-coreliquid-p13-360-argb-pantalla-ips-2-1-am4-am5-lga1700-lga1851/",
-      "store_name": "TruluStore",
-      "khipu_price": 203990,
-      "price_specs": {
-        "Efectivo / Transferencia": "$199.990",
-        "Khipu": "$203.990",
-        "Tarjeta crédito/débito": "$205.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
-    },
-    {
       "product_id": 4208,
       "store_id": "cg",
-      "price": 229990,
-      "price_card": 242087,
+      "price": 233900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/refrigeracion-pc/refrigeracion-liquida-cpu-msi-mpg-coreliquid-p13-360/",
       "store_name": "CentralGamer",
+      "price_card": 246203,
       "price_specs": {
-        "Efectivo/Transferencia": "$229.990",
-        "Webpay / Tarjeta": "$242.087"
+        "Efectivo/Transferencia": "$233.900",
+        "Webpay / Tarjeta": "$246.203"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -95,6 +74,25 @@
       "full_url": "https://www.centralgamer.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-06-25",
+      "price": 229990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-07-06",
+      "price": 229990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-07-14",
+      "price": 233900
+    }
+  ],
+  "scraped_at": "2026-07-14"
 }

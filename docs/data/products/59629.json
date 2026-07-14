@@ -14,32 +14,13 @@
     "Arquitectura": "RDNA 3",
     "Variante": "OC (Overclocked)",
     "Factor de forma": "Full-Height/Half-Length (FH/HL)",
-    "Efectivo/Transferencia": "$367.389",
-    "Tarjeta crédito/débito": "$383.922"
+    "Efectivo/Transferencia": "$387.175",
+    "Tarjeta crédito/débito": "$404.598"
   },
   "tags": [],
   "created_at": "2026-06-08 20:44:34",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
-    {
-      "product_id": 31852,
-      "store_id": "winpy",
-      "price": 338048,
-      "price_normal": null,
-      "discount_pct": 10,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-dual-radeon-rx-7600-evo-edicion-oc-de-8gb-gddr6/",
-      "store_name": "Winpy",
-      "price_card": 355965,
-      "price_specs": {
-        "Transferencia o Depósito": "$338.048",
-        "Otros medios de pago": "$355.965"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
     {
       "product_id": 5653,
       "store_id": "trulustore",
@@ -62,23 +43,42 @@
       "full_url": "https://www.trulustore.cl"
     },
     {
-      "product_id": 16405,
-      "store_id": "spdigital",
-      "price": 349995,
-      "price_normal": 449990,
-      "discount_pct": 22,
+      "product_id": 31852,
+      "store_id": "winpy",
+      "price": 341088,
+      "price_normal": null,
+      "discount_pct": 10,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-dual-radeon-rx-7600-evo-oc-edition-8gb-gddr6-128-bit-pci-e-40",
-      "store_name": "SP Digital",
-      "price_card": 365745,
+      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-asus-dual-radeon-rx-7600-evo-edicion-oc-de-8gb-gddr6/",
+      "store_name": "Winpy",
+      "price_card": 359166,
       "price_specs": {
-        "Transferencia / Efectivo": "$349.995",
-        "Webpay / Tarjeta": "$365.745"
+        "Transferencia o Depósito": "$341.088",
+        "Otros medios de pago": "$359.166"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 1248,
+      "store_id": "centrale",
+      "price": 359330,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-video-asus-dual-radeon-rx-7600-evo-oc-edition-8-gb-gddr6/",
+      "store_name": "Centrale",
+      "price_card": 379093,
+      "price_specs": {
+        "Transferencia / Efectivo": "$359.330",
+        "Tarjetas de Crédito / Débito": "$379.093"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
     },
     {
       "product_id": 23428,
@@ -100,38 +100,26 @@
       "full_url": "https://www.alltec.cl"
     },
     {
-      "product_id": 1248,
-      "store_id": "centrale",
-      "price": 364990,
-      "price_normal": null,
-      "discount_pct": null,
+      "product_id": 16405,
+      "store_id": "spdigital",
+      "price": 365745,
+      "price_normal": 449990,
+      "discount_pct": 19,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/tarjeta-video-asus-dual-radeon-rx-7600-evo-oc-edition-8-gb-gddr6/",
-      "store_name": "Centrale",
-      "price_card": 385064,
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-dual-radeon-rx-7600-evo-oc-edition-8gb-gddr6-128-bit-pci-e-40",
+      "store_name": "SP Digital",
+      "price_card": 382204,
       "price_specs": {
-        "Transferencia / Efectivo": "$364.990",
-        "Tarjetas de Crédito / Débito": "$385.064"
+        "Transferencia / Efectivo": "$365.745",
+        "Webpay / Tarjeta": "$382.204"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 345835
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 345835
-    },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
@@ -143,7 +131,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 367389
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 397889
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 387175
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

@@ -13,76 +13,49 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$719.990",
-    "Tarjeta crédito/débito": "$759.589",
+    "Efectivo / Transferencia": "$739.980",
+    "Tarjeta crédito/débito": "$780.679",
     "Garantía": "6 meses",
     "SKU": "40532",
     "Part Number": "912-V532-011"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:39",
-  "updated_at": "2026-06-20 01:08:48",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 19829,
       "store_id": "myshop",
-      "price": 719990,
-      "price_normal": 759589,
+      "price": 739980,
+      "price_normal": 780679,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/msi-geforce-rtx-5070-12g-shadow-2x-oc-p40532",
       "store_name": "MyShop",
-      "price_card": 741590,
+      "price_card": 762179,
       "price_specs": {
-        "Efectivo/Transferencia": "$719.990",
-        "Tarjeta crédito/débito": "$741.590"
+        "Efectivo/Transferencia": "$739.980",
+        "Tarjeta crédito/débito": "$762.179"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 2640,
-      "store_id": "trulustore",
-      "price": 789990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-rtx-5070-12gb-msi-shadow-2x-oc/",
-      "store_name": "TruluStore",
-      "price_card": 813690,
-      "khipu_price": 805790,
-      "price_specs": {
-        "Efectivo / Transferencia": "$789.990",
-        "Khipu": "$805.790",
-        "Tarjeta crédito/débito": "$813.690"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
     {
       "store_id": "myshop",
       "store_name": "MyShop",
-      "date": "2026-06-08",
-      "price": 699990
-    },
-    {
-      "store_id": "myshop",
-      "store_name": "MyShop",
-      "date": "2026-06-09",
-      "price": 699990
-    },
-    {
-      "store_id": "myshop",
-      "store_name": "MyShop",
       "date": "2026-06-20",
       "price": 719990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 739980
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-07-14"
 }

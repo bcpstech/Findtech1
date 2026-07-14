@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-cooler-master-masterliquid-360l-core-ii-argb-360mm-intel-amd-negro.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$73.567",
-    "Tarjeta crédito/débito": "$76.877"
+    "Efectivo/Transferencia": "$77.581",
+    "Tarjeta crédito/débito": "$81.072"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:07",
-  "updated_at": "2026-06-25 17:58:56",
+  "updated_at": "2026-07-14 19:11:56",
   "prices": [
     {
       "product_id": 9647,
       "store_id": "spdigital",
-      "price": 73567,
-      "price_normal": 90830,
-      "discount_pct": 19,
+      "price": 77581,
+      "price_normal": 91590,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/refrigeracion-liquida-masterliquid-360l-core-nex-argb-360mm-intelamd-negro",
       "store_name": "SP Digital",
-      "price_card": 76878,
+      "price_card": 81072,
       "price_specs": {
-        "Transferencia / Efectivo": "$73.567",
-        "Webpay / Tarjeta": "$76.878"
+        "Transferencia / Efectivo": "$77.581",
+        "Webpay / Tarjeta": "$81.072"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,16 +37,16 @@
     {
       "product_id": 77516,
       "store_id": "centrale",
-      "price": 77890,
+      "price": 93990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-cooler-master-masterliquid-240l-argb-socket-intel-amd/",
       "store_name": "Centrale",
-      "price_card": 82174,
+      "price_card": 99159,
       "price_specs": {
-        "Transferencia / Efectivo": "$77.890",
-        "Tarjetas de Crédito / Débito": "$82.174"
+        "Transferencia / Efectivo": "$93.990",
+        "Tarjetas de Crédito / Débito": "$99.159"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,18 +58,6 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 69995
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 69995
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 71684
     },
@@ -78,7 +66,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 73567
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 76995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 77581
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

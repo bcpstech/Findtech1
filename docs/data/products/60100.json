@@ -11,29 +11,29 @@
     "Capacidad": "1 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Efectivo / Transferencia": "$147.990",
-    "Tarjeta crédito/débito": "$156.129",
+    "Efectivo / Transferencia": "$149.990",
+    "Tarjeta crédito/débito": "$158.239",
     "Garantía": "6 meses",
     "SKU": "34899",
     "Part Number": "CT1000E100SSD8"
   },
   "tags": [],
   "created_at": "2026-06-08 20:50:42",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 60100,
       "store_id": "myshop",
-      "price": 147990,
-      "price_normal": 156129,
-      "discount_pct": 12,
+      "price": 149990,
+      "price_normal": 158239,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/ssd-m2-2280-1-tb-crucial-nvme-pcie-40-x4-ct1000e100ssd8-p34899",
       "store_name": "MyShop",
-      "price_card": 152430,
+      "price_card": 154490,
       "price_specs": {
-        "Efectivo/Transferencia": "$147.990",
-        "Tarjeta crédito/débito": "$152.430"
+        "Efectivo/Transferencia": "$149.990",
+        "Tarjeta crédito/débito": "$154.490"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,7 +59,13 @@
       "store_name": "MyShop",
       "date": "2026-07-07",
       "price": 147990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 149990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

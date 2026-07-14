@@ -1,0 +1,79 @@
+{
+  "id": 4203,
+  "external_id": "cg_refrigeracion-liquida-esgaming-cz-360b-bk-argb",
+  "category_id": "cooling",
+  "brand": "Genérico",
+  "name": "Refrigeración Líquida Esgaming CZ-360B-BK ARGB",
+  "slug": "refrigeracion-liquida-esgaming-cz-360b-bk-argb",
+  "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-esgaming-cz-360b-bk-argb.jpg",
+  "description": null,
+  "specs": {
+    "Marca": "ESGAMING",
+    "Efectivo/Transferencia": "$60.414",
+    "Webpay / Tarjeta": "$63.592"
+  },
+  "tags": [],
+  "created_at": "2026-04-27 22:14:18",
+  "updated_at": "2026-07-14 19:09:27",
+  "prices": [
+    {
+      "product_id": 4203,
+      "store_id": "cg",
+      "price": 60414,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/refrigeracion-pc/refrigeracion-liquida-esgaming-cz-360b-bk-argb/",
+      "store_name": "CentralGamer",
+      "price_card": 63592,
+      "price_specs": {
+        "Efectivo/Transferencia": "$60.414",
+        "Webpay / Tarjeta": "$63.592"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 71358,
+      "store_id": "bcpstech",
+      "price": 65990,
+      "price_normal": 86590,
+      "discount_pct": 24,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=1120",
+      "store_name": "BCPS Tech",
+      "price_card": 67970,
+      "price_specs": {
+        "Efectivo/Transferencia": "$65.990",
+        "Tarjeta crédito/débito": "$67.970"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-06-25",
+      "price": 60414
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-07-06",
+      "price": 60414
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-07-14",
+      "price": 60414
+    }
+  ],
+  "scraped_at": "2026-07-14"
+}

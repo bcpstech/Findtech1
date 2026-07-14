@@ -11,31 +11,50 @@
     "Capacidad": "500 GB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Transferencia / Efectivo": "$79.980",
-    "Tarjeta crédito/débito": "$84.380"
+    "Transferencia / Efectivo": "$84.890",
+    "Tarjeta crédito/débito": "$89.560"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1558,
       "store_id": "centrale",
-      "price": 79980,
+      "price": 84890,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-500gb-kingston-nv3-m-2-2230-nvme-pcie-4-0-x4-nand-3d/",
       "store_name": "Centrale",
-      "price_card": 84379,
+      "price_card": 89559,
       "price_specs": {
-        "Transferencia / Efectivo": "$79.980",
-        "Tarjetas de Crédito / Débito": "$84.379"
+        "Transferencia / Efectivo": "$84.890",
+        "Tarjetas de Crédito / Débito": "$89.559"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 72084,
+      "store_id": "spdigital",
+      "price": 177134,
+      "price_normal": 199350,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/unidad-ssd-500gb-m22230-nvme-pcie-40-x4-kingston-nv3-pcie-40-nand-3d-r5000w3000-mbs",
+      "store_name": "SP Digital",
+      "price_card": 185105,
+      "price_specs": {
+        "Transferencia / Efectivo": "$177.134",
+        "Webpay / Tarjeta": "$185.105"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -62,7 +81,13 @@
       "store_name": "Centrale",
       "date": "2026-07-07",
       "price": 79980
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 84890
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

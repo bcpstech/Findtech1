@@ -16,8 +16,27 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:26:19",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
+    {
+      "product_id": 689,
+      "store_id": "n1g",
+      "price": 199000,
+      "price_normal": 209474,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3463-kingspec-ssd-2tb-para-macbook-na900s-2tb-pcie-gen3-x4-r-3500mbs-w-3200mbs.html",
+      "store_name": "N1G",
+      "price_card": 209547,
+      "price_specs": {
+        "Efectivo/Transferencia": "$199.000",
+        "Tarjeta crédito/débito": "$209.547"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
     {
       "product_id": 32037,
       "store_id": "winpy",
@@ -62,7 +81,13 @@
       "store_name": "Winpy",
       "date": "2026-07-07",
       "price": 202464
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-14",
+      "price": 202464
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

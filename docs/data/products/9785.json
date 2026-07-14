@@ -9,65 +9,34 @@
   "description": null,
   "specs": {
     "Factor de forma": "Midi Tower",
-    "Efectivo/Transferencia": "$99.990",
-    "Tarjeta crédito/débito": "$104.490"
+    "Efectivo/Transferencia": "$151.510",
+    "Tarjeta crédito/débito": "$158.328"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:17",
-  "updated_at": "2026-06-25 17:59:41",
+  "updated_at": "2026-07-14 19:12:49",
   "prices": [
     {
       "product_id": 9785,
       "store_id": "spdigital",
-      "price": 99990,
-      "price_normal": 144990,
-      "discount_pct": 31,
+      "price": 151510,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/corsair-memory-corsair-3000d-rgb-airflow-blanco",
       "store_name": "SP Digital",
-      "price_card": 104490,
+      "price_card": 158328,
       "price_specs": {
-        "Transferencia / Efectivo": "$99.990",
-        "Webpay / Tarjeta": "$104.490"
+        "Transferencia / Efectivo": "$151.510",
+        "Webpay / Tarjeta": "$158.328"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 39002,
-      "store_id": "mybox",
-      "price": 104966,
-      "price_normal": 110490,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://mybox.cl/gabinetes/5762-gabinete-corsair-3000d-rgb-airflow-white.html",
-      "store_name": "MyBox",
-      "price_card": 108115,
-      "price_specs": {
-        "Efectivo/Transferencia": "$104.966",
-        "Tarjeta crédito/débito": "$108.115"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.mybox.cl",
-      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 99990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 99990
-    },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
@@ -79,7 +48,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 99990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 151510
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 151510
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

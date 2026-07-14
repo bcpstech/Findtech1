@@ -11,26 +11,26 @@
     "Capacidad": "240 GB",
     "Interfaz": "SATA III",
     "Factor de forma": "2.5\"",
-    "Transferencia / Efectivo": "$85.160",
-    "Tarjeta crédito/débito": "$89.840"
+    "Transferencia / Efectivo": "$87.060",
+    "Tarjeta crédito/débito": "$91.850"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1603,
       "store_id": "centrale",
-      "price": 85160,
+      "price": 87060,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-240gb-kingston-a400-2-5-sata3/",
       "store_name": "Centrale",
-      "price_card": 89844,
+      "price_card": 91848,
       "price_specs": {
-        "Transferencia / Efectivo": "$85.160",
-        "Tarjetas de Crédito / Débito": "$89.844"
+        "Transferencia / Efectivo": "$87.060",
+        "Tarjetas de Crédito / Débito": "$91.848"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -62,7 +62,13 @@
       "store_name": "Centrale",
       "date": "2026-07-07",
       "price": 85160
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 87060
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

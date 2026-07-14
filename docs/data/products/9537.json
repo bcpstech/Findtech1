@@ -9,55 +9,61 @@
   "description": null,
   "specs": {
     "Capacidad": "500 GB",
-    "Interfaz": "NVMe PCIe",
+    "Interfaz": "PCI Express 4.0",
     "Factor de forma": "M.2 2280",
-    "Marca": "ADATA",
-    "Efectivo / Transferencia": "$99.890",
-    "Tarjeta crédito/débito": "$102.890"
+    "Certificación": "morocco",
+    "Efectivo/Transferencia": "$114.945",
+    "Tarjeta crédito/débito": "$120.118"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:06",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 9537,
       "store_id": "spdigital",
-      "price": 89995,
-      "price_card": 94045,
+      "price": 114945,
       "price_normal": 149990,
-      "discount_pct": 40,
+      "discount_pct": 23,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/unidad-ssd-adata-legend-860-500gb-m2-2280-pcie-gen4-x4-nvme-20-3d-nand",
       "store_name": "SP Digital",
+      "price_card": 120118,
       "price_specs": {
-        "Transferencia / Efectivo": "$89.995",
-        "Webpay / Tarjeta": "$94.045"
+        "Transferencia / Efectivo": "$114.945",
+        "Webpay / Tarjeta": "$120.118"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 2091,
-      "store_id": "dust2",
-      "price": 99890,
-      "price_card": 102887,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/disco-duro-ssd-adata-legend-860-500-gb-m-2-pcie-gen4-x4/",
-      "store_name": "Dust2",
-      "price_specs": {
-        "Efectivo/Transferencia": "$99.890",
-        "Tarjeta crédito/débito": "$102.887"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 109995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 109995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 114945
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 114945
+    }
+  ],
+  "scraped_at": "2026-07-14"
 }

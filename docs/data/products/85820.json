@@ -17,14 +17,33 @@
   },
   "tags": [],
   "created_at": "2026-07-07 00:04:23",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
+    {
+      "product_id": 59381,
+      "store_id": "cg",
+      "price": 210990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-intel-core-i5-12400/",
+      "store_name": "CentralGamer",
+      "price_card": 222088,
+      "price_specs": {
+        "Efectivo/Transferencia": "$210.990",
+        "Webpay / Tarjeta": "$222.088"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
     {
       "product_id": 85820,
       "store_id": "myshop",
       "price": 249990,
       "price_normal": 263739,
-      "discount_pct": null,
+      "discount_pct": 30,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/kit-de-actualizacion-intel-core-i5-12400-asus-prime-h610m-k-p43882",
       "store_name": "MyShop",
@@ -45,7 +64,13 @@
       "store_name": "MyShop",
       "date": "2026-07-07",
       "price": 249990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 249990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

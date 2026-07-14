@@ -14,7 +14,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:47:41",
-  "updated_at": "2026-07-07 00:41:58",
+  "updated_at": "2026-07-14 19:38:34",
   "prices": [
     {
       "product_id": 2352,
@@ -53,6 +53,25 @@
       "review_count": 0,
       "store_url": "www.bcpstech.cl",
       "full_url": "https://bcpstech.cl"
+    },
+    {
+      "product_id": 9795,
+      "store_id": "spdigital",
+      "price": 57470,
+      "price_normal": 89990,
+      "discount_pct": 36,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/gabinete-gamer-y03-bk-4-fan-argb-e-atx-m-atx-esgaming",
+      "store_name": "SP Digital",
+      "price_card": 60056,
+      "price_specs": {
+        "Transferencia / Efectivo": "$57.470",
+        "Webpay / Tarjeta": "$60.056"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -79,7 +98,13 @@
       "store_name": "Dust2",
       "date": "2026-07-07",
       "price": 49990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-07-14",
+      "price": 49990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

@@ -18,45 +18,26 @@
     "Hilos": "16",
     "Caché L3": "20 MB",
     "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
-    "Efectivo/Transferencia": "$219.820",
-    "Tarjeta crédito/débito": "$229.712"
+    "Efectivo/Transferencia": "$218.654",
+    "Tarjeta crédito/débito": "$228.493"
   },
   "tags": [],
   "created_at": "2026-06-20 00:07:03",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
-    {
-      "product_id": 31895,
-      "store_id": "winpy",
-      "price": 196992,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i5-14400f-raptor-lake-lga1700-2-5-4-7-ghz-10-nucleos-16-hilos-20mb-cache-sin-video/",
-      "store_name": "Winpy",
-      "price_card": 207433,
-      "price_specs": {
-        "Transferencia o Depósito": "$196.992",
-        "Otros medios de pago": "$207.433"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
     {
       "product_id": 311,
       "store_id": "centrale",
-      "price": 212370,
+      "price": 206110,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i5-14400f-raptor-lake-lga1700-2-5-4-7-ghz-10-nucleos/",
       "store_name": "Centrale",
-      "price_card": 224050,
+      "price_card": 217446,
       "price_specs": {
-        "Transferencia / Efectivo": "$212.370",
-        "Tarjetas de Crédito / Débito": "$224.050"
+        "Transferencia / Efectivo": "$206.110",
+        "Tarjetas de Crédito / Débito": "$217.446"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -64,18 +45,56 @@
       "full_url": "https://www.centrale.cl"
     },
     {
+      "product_id": 1143,
+      "store_id": "cg",
+      "price": 214990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-intel-core-i5-14400f/",
+      "store_name": "CentralGamer",
+      "price_card": 226298,
+      "price_specs": {
+        "Efectivo/Transferencia": "$214.990",
+        "Webpay / Tarjeta": "$226.298"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 31895,
+      "store_id": "winpy",
+      "price": 215232,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i5-14400f-raptor-lake-lga1700-2-5-4-7-ghz-10-nucleos-16-hilos-20mb-cache-sin-video/",
+      "store_name": "Winpy",
+      "price_card": 226639,
+      "price_specs": {
+        "Transferencia o Depósito": "$215.232",
+        "Otros medios de pago": "$226.639"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
       "product_id": 71900,
       "store_id": "spdigital",
-      "price": 219820,
-      "price_normal": 271490,
-      "discount_pct": 19,
+      "price": 218654,
+      "price_normal": 258380,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/intel-core-i5-i5-14400f-25-ghz-10-nucleos-16-hilos-20-mb-cache-fclga1700-socket-caja",
       "store_name": "SP Digital",
-      "price_card": 229712,
+      "price_card": 228493,
       "price_specs": {
-        "Transferencia / Efectivo": "$219.820",
-        "Webpay / Tarjeta": "$229.712"
+        "Transferencia / Efectivo": "$218.654",
+        "Webpay / Tarjeta": "$228.493"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -95,7 +114,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 219820
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 227040
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 218654
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

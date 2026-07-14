@@ -11,29 +11,29 @@
     "Capacidad": "8 GB",
     "Tipo": "DDR4",
     "Velocidad": "3200 MHz",
-    "Efectivo / Transferencia": "$84.990",
-    "Tarjeta crédito/débito": "$89.664",
+    "Efectivo / Transferencia": "$84.900",
+    "Tarjeta crédito/débito": "$89.570",
     "Garantía": "6 meses",
     "SKU": "23615",
     "Part Number": "CMSX8GX4M1A3200C22"
   },
   "tags": [],
   "created_at": "2026-06-20 00:16:59",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 72643,
       "store_id": "myshop",
-      "price": 84990,
-      "price_normal": 89664,
+      "price": 84900,
+      "price_normal": 89570,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/sodimm-8-gb-corsair-vengeance-ddr4-3200-mhz-cmsx8gx4m1a3200c22-p23615",
       "store_name": "MyShop",
-      "price_card": 87540,
+      "price_card": 87447,
       "price_specs": {
-        "Efectivo/Transferencia": "$84.990",
-        "Tarjeta crédito/débito": "$87.540"
+        "Efectivo/Transferencia": "$84.900",
+        "Tarjeta crédito/débito": "$87.447"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,7 +59,13 @@
       "store_name": "MyShop",
       "date": "2026-07-07",
       "price": 84990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 84900
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

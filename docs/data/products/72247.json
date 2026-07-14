@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "TDP": "230 W",
-    "Efectivo/Transferencia": "$104.990",
-    "Tarjeta crédito/débito": "$109.715"
+    "Efectivo/Transferencia": "$109.715",
+    "Tarjeta crédito/débito": "$114.652"
   },
   "tags": [],
   "created_at": "2026-06-20 00:09:43",
-  "updated_at": "2026-06-25 17:58:58",
+  "updated_at": "2026-07-14 19:11:59",
   "prices": [
     {
       "product_id": 72247,
       "store_id": "spdigital",
-      "price": 104990,
+      "price": 109715,
       "price_normal": 134990,
-      "discount_pct": 22,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/cooler-master-mlx-d28m-a14pk-r1-water-c-ml280-mirror",
       "store_name": "SP Digital",
-      "price_card": 109715,
+      "price_card": 114652,
       "price_specs": {
-        "Transferencia / Efectivo": "$104.990",
-        "Webpay / Tarjeta": "$109.715"
+        "Transferencia / Efectivo": "$109.715",
+        "Webpay / Tarjeta": "$114.652"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -69,7 +69,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 104990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 109715
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 109715
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

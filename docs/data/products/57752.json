@@ -15,7 +15,7 @@
   },
   "tags": [],
   "created_at": "2026-05-08 23:01:23",
-  "updated_at": "2026-07-07 00:45:45",
+  "updated_at": "2026-07-14 19:40:51",
   "prices": [
     {
       "product_id": 57752,
@@ -56,23 +56,23 @@
       "full_url": "https://www.centrale.cl"
     },
     {
-      "product_id": 38928,
-      "store_id": "mybox",
-      "price": 36851,
-      "price_normal": 38790,
-      "discount_pct": 5,
+      "product_id": 9607,
+      "store_id": "spdigital",
+      "price": 36570,
+      "price_normal": 69990,
+      "discount_pct": 48,
       "stock": "in_stock",
-      "product_url": "https://mybox.cl/enfriamiento-refrigeracion/6129-refrigeracion-coolermaster-hyper-212-3dhp-black-argb-4719512158821.html",
-      "store_name": "MyBox",
-      "price_card": 37957,
+      "product_url": "https://www.spdigital.cl/disipador-de-cpu-hyper-212-3dhp-black-argb-120mm-intelamd",
+      "store_name": "SP Digital",
+      "price_card": 38216,
       "price_specs": {
-        "Efectivo/Transferencia": "$36.851",
-        "Tarjeta crédito/débito": "$37.957"
+        "Transferencia / Efectivo": "$36.570",
+        "Webpay / Tarjeta": "$38.216"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.mybox.cl",
-      "full_url": "https://www.mybox.cl"
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -99,7 +99,13 @@
       "store_name": "ProGaming",
       "date": "2026-07-07",
       "price": 30990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-07-14",
+      "price": 30990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

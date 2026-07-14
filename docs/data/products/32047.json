@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:26:49",
-  "updated_at": "2026-07-07 00:30:21",
+  "updated_at": "2026-07-14 19:32:47",
   "prices": [
     {
       "product_id": 32047,
@@ -33,6 +33,25 @@
       "review_count": 0,
       "store_url": "www.winpy.cl",
       "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 72409,
+      "store_id": "spdigital",
+      "price": 38993,
+      "price_normal": 49650,
+      "discount_pct": 21,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/gabinete-xtech-xtq-200-atxmicro-atx-600w-color-negro",
+      "store_name": "SP Digital",
+      "price_card": 40748,
+      "price_specs": {
+        "Transferencia / Efectivo": "$38.993",
+        "Webpay / Tarjeta": "$40.748"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -59,7 +78,13 @@
       "store_name": "Winpy",
       "date": "2026-07-07",
       "price": 35872
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-14",
+      "price": 35872
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

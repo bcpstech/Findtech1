@@ -12,29 +12,29 @@
     "Tipo": "DDR5",
     "Velocidad": "5600 MHz",
     "Kit": "2x16 GB",
-    "Efectivo / Transferencia": "$539.990",
-    "Tarjeta crédito/débito": "$569.689",
+    "Efectivo / Transferencia": "$569.990",
+    "Tarjeta crédito/débito": "$601.339",
     "Garantía": "6 meses",
     "SKU": "43250",
     "Part Number": "KF556C36BBEK2-32"
   },
   "tags": [],
   "created_at": "2026-06-08 20:50:08",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 60040,
       "store_id": "myshop",
-      "price": 539990,
-      "price_normal": 569689,
+      "price": 569990,
+      "price_normal": 601339,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/memoria-kingston-32gb-5600mts-ddr5-cl36-dimm-kit-p43250",
       "store_name": "MyShop",
-      "price_card": 556190,
+      "price_card": 587090,
       "price_specs": {
-        "Efectivo/Transferencia": "$539.990",
-        "Tarjeta crédito/débito": "$556.190"
+        "Efectivo/Transferencia": "$569.990",
+        "Tarjeta crédito/débito": "$587.090"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,7 +60,13 @@
       "store_name": "MyShop",
       "date": "2026-07-07",
       "price": 539990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 569990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

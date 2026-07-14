@@ -10,26 +10,26 @@
   "specs": {
     "Capacidad": "2 TB",
     "Interfaz": "NVMe PCIe",
-    "Transferencia / Efectivo": "$551.100",
-    "Tarjeta crédito/débito": "$581.410"
+    "Transferencia / Efectivo": "$551.770",
+    "Tarjeta crédito/débito": "$582.120"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:43",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1563,
       "store_id": "centrale",
-      "price": 551100,
+      "price": 551770,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/disco-ssd-2tb-nvme-pcie-4-0-wd-black-sn850x-con-heatsink-7300mb-s/",
       "store_name": "Centrale",
-      "price_card": 581411,
+      "price_card": 582117,
       "price_specs": {
-        "Transferencia / Efectivo": "$551.100",
-        "Tarjetas de Crédito / Débito": "$581.411"
+        "Transferencia / Efectivo": "$551.770",
+        "Tarjetas de Crédito / Débito": "$582.117"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -61,7 +61,13 @@
       "store_name": "Centrale",
       "date": "2026-07-07",
       "price": 551100
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 551770
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

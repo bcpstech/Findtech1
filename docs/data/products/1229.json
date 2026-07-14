@@ -5,31 +5,33 @@
   "brand": "MSI",
   "name": "Tarjeta Gráfica MSI Nvidia GeForce GT 1030 OC 4GB DDR4, 64-Bit, Low Profile",
   "slug": "tarjeta-grafica-msi-nvidia-geforce-gt-1030-oc-4gb-ddr4-64-bit-low-profile",
-  "image_url": "https://centrale.cl/wp-content/uploads/Msi-Tarjeta-De-Video-Nvidia-Geforce-GT-1030-4Gd4-Lp-Oc-4Gb-Ddr4-64-Bit-Low.webp",
+  "image_url": "https://images.findtech.cl/products/tarjeta-grafica-msi-nvidia-geforce-gt-1030-oc-4gb-ddr4-64-bit-low-profile.webp",
   "description": null,
   "specs": {
     "VRAM": "4 GB",
     "Bus de memoria": "64-bit",
     "Variante": "OC (Overclocked)",
     "Factor de forma": "Low Profile",
-    "Transferencia / Efectivo": "$142.410",
-    "Tarjeta crédito/débito": "$150.240"
+    "Transferencia / Efectivo": "$136.290",
+    "Tarjeta crédito/débito": "$143.790"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:32",
-  "updated_at": "2026-05-03 22:40:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1229,
       "store_id": "centrale",
-      "price": 142410,
+      "price": 136290,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-nvidia-geforce-gt-1030-oc-4gb-ddr4-64-bit-low-profile/",
       "store_name": "Centrale",
+      "price_card": 143786,
       "price_specs": {
-        "Transferencia / Efectivo": "$142.410"
+        "Transferencia / Efectivo": "$136.290",
+        "Tarjetas de Crédito / Débito": "$143.786"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,27 +43,33 @@
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-26",
-      "price": 132320
+      "date": "2026-06-20",
+      "price": 124230
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-04-27",
-      "price": 132320
+      "date": "2026-06-25",
+      "price": 127800
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-05-01",
-      "price": 1424
+      "date": "2026-06-26",
+      "price": 127800
     },
     {
       "store_id": "centrale",
       "store_name": "Centrale",
-      "date": "2026-05-03",
-      "price": 142410
+      "date": "2026-07-07",
+      "price": 135120
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 136290
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-07-14"
 }

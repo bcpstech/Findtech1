@@ -19,12 +19,12 @@
     "Caché L3": "33 MB",
     "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$437.524",
-    "Tarjeta crédito/débito": "$457.213"
+    "Efectivo/Transferencia": "$489.649",
+    "Tarjeta crédito/débito": "$511.683"
   },
   "tags": [],
   "created_at": "2026-06-20 00:07:07",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 31910,
@@ -46,42 +46,42 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 71909,
-      "store_id": "spdigital",
-      "price": 437524,
-      "price_normal": 540350,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/intel-core-i7-i7-14700f-21-ghz-20-core-lga1700-socket-8-gts",
-      "store_name": "SP Digital",
-      "price_card": 457213,
-      "price_specs": {
-        "Transferencia / Efectivo": "$437.524",
-        "Webpay / Tarjeta": "$457.213"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
       "product_id": 333,
       "store_id": "centrale",
-      "price": 455300,
+      "price": 429600,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-14700f-core-2-1ghz-33mb-lga1700-14th-gen-no-graphic/",
       "store_name": "Centrale",
-      "price_card": 480342,
+      "price_card": 453228,
       "price_specs": {
-        "Transferencia / Efectivo": "$455.300",
-        "Tarjetas de Crédito / Débito": "$480.342"
+        "Transferencia / Efectivo": "$429.600",
+        "Tarjetas de Crédito / Débito": "$453.228"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 71909,
+      "store_id": "spdigital",
+      "price": 489649,
+      "price_normal": 551180,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/intel-core-i7-i7-14700f-21-ghz-20-core-lga1700-socket-8-gts",
+      "store_name": "SP Digital",
+      "price_card": 511683,
+      "price_specs": {
+        "Transferencia / Efectivo": "$489.649",
+        "Webpay / Tarjeta": "$511.683"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -96,7 +96,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 437524
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 462897
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 489649
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

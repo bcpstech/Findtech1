@@ -12,50 +12,31 @@
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Efectivo/Transferencia": "$136.048",
-    "Tarjeta crédito/débito": "$142.170"
+    "Efectivo/Transferencia": "$140.256",
+    "Tarjeta crédito/débito": "$146.568"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:42",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1372,
       "store_id": "centrale",
-      "price": 133630,
+      "price": 127710,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-b840m-gaming-wifi6e-amd-am5-ddr5-pcie-4-0-wifi-6e/",
       "store_name": "Centrale",
-      "price_card": 140980,
+      "price_card": 134734,
       "price_specs": {
-        "Transferencia / Efectivo": "$133.630",
-        "Tarjetas de Crédito / Débito": "$140.980"
+        "Transferencia / Efectivo": "$127.710",
+        "Tarjetas de Crédito / Débito": "$134.734"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 59507,
-      "store_id": "spdigital",
-      "price": 136048,
-      "price_normal": 167980,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/placa-madre-msi-b840m-gaming-wifi6e-socket-am5-2x-ddr5-2x-m2-m-atx",
-      "store_name": "SP Digital",
-      "price_card": 142170,
-      "price_specs": {
-        "Transferencia / Efectivo": "$136.048",
-        "Webpay / Tarjeta": "$142.170"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 33143,
@@ -68,13 +49,32 @@
       "store_name": "Infor-Ingen",
       "price_card": 144097,
       "price_specs": {
-        "Efectivo/Transferencia": "$139.900",
+        "Efectivo / Transferencia": "$139.900",
         "Tarjeta crédito/débito": "$144.097"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
+    },
+    {
+      "product_id": 59507,
+      "store_id": "spdigital",
+      "price": 140256,
+      "price_normal": 165760,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/placa-madre-msi-b840m-gaming-wifi6e-socket-am5-2x-ddr5-2x-m2-m-atx",
+      "store_name": "SP Digital",
+      "price_card": 146568,
+      "price_specs": {
+        "Transferencia / Efectivo": "$140.256",
+        "Webpay / Tarjeta": "$146.568"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 23521,
@@ -119,18 +119,6 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 134410
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 134410
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 132577
     },
@@ -138,8 +126,20 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-06-25",
-      "price": 136048
+      "price": 129584
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 132580
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 140256
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

@@ -14,50 +14,50 @@
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
     "Marca": "ASUS",
-    "Efectivo/Transferencia": "$1.830.990",
-    "Webpay / Tarjeta": "$1.927.300"
+    "Efectivo/Transferencia": "$1.759.990",
+    "Webpay / Tarjeta": "$1.852.565"
   },
   "tags": [],
   "created_at": "2026-06-08 20:41:31",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
-    {
-      "product_id": 16381,
-      "store_id": "spdigital",
-      "price": 1699995,
-      "price_normal": 1999990,
-      "discount_pct": 15,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-prime-geforce-rtx-5080-oc-16gb-gddr7-256-bit-pcie-50",
-      "store_name": "SP Digital",
-      "price_card": 1776495,
-      "price_specs": {
-        "Transferencia / Efectivo": "$1.699.995",
-        "Webpay / Tarjeta": "$1.776.495"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
     {
       "product_id": 59356,
       "store_id": "cg",
-      "price": 1830990,
+      "price": 1759990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/tarjetas-de-video/tarjeta-de-video-asus-prime-geforce-rtx-5080-oc-16gb/",
       "store_name": "CentralGamer",
-      "price_card": 1927300,
+      "price_card": 1852565,
       "price_specs": {
-        "Efectivo/Transferencia": "$1.830.990",
-        "Webpay / Tarjeta": "$1.927.300"
+        "Efectivo/Transferencia": "$1.759.990",
+        "Webpay / Tarjeta": "$1.852.565"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 16381,
+      "store_id": "spdigital",
+      "price": 1828745,
+      "price_normal": 1999990,
+      "discount_pct": 9,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-asus-prime-geforce-rtx-5080-oc-16gb-gddr7-256-bit-pcie-50",
+      "store_name": "SP Digital",
+      "price_card": 1911039,
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.828.745",
+        "Webpay / Tarjeta": "$1.911.039"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 38865,
@@ -83,15 +83,21 @@
     {
       "store_id": "cg",
       "store_name": "CentralGamer",
-      "date": "2026-06-08",
+      "date": "2026-06-25",
       "price": 1830990
     },
     {
       "store_id": "cg",
       "store_name": "CentralGamer",
-      "date": "2026-06-09",
-      "price": 1830990
+      "date": "2026-07-06",
+      "price": 1759990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-07-14",
+      "price": 1759990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-07-14"
 }

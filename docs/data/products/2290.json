@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Marca": "Corsair",
-    "Efectivo / Transferencia": "$187.790",
-    "Tarjeta crédito/débito": "$193.420"
+    "Efectivo / Transferencia": "$175.990",
+    "Tarjeta crédito/débito": "$181.270"
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:49",
-  "updated_at": "2026-07-07 00:40:49",
+  "updated_at": "2026-07-14 19:38:04",
   "prices": [
     {
       "product_id": 2290,
       "store_id": "dust2",
-      "price": 187790,
+      "price": 175990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-rme-series-rm1000e-fully-modular-low-noise/",
       "store_name": "Dust2",
-      "price_card": 193424,
+      "price_card": 181270,
       "price_specs": {
-        "Efectivo/Transferencia": "$187.790",
-        "Tarjeta crédito/débito": "$193.424"
+        "Efectivo/Transferencia": "$175.990",
+        "Tarjeta crédito/débito": "$181.270"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,7 +60,13 @@
       "store_name": "Dust2",
       "date": "2026-07-07",
       "price": 187790
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-07-14",
+      "price": 175990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

@@ -17,12 +17,12 @@
     "Caché L3": "25 MB",
     "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
     "Gráficos integrados": "Intel UHD Graphics 770",
-    "Efectivo/Transferencia": "$394.213",
-    "Tarjeta crédito/débito": "$411.953"
+    "Efectivo/Transferencia": "$415.500",
+    "Tarjeta crédito/débito": "$434.197"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:22",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 16,
@@ -65,16 +65,16 @@
     {
       "product_id": 314,
       "store_id": "centrale",
-      "price": 384510,
+      "price": 387840,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-12700k-3-6-ghz-8-core-lga-1700/",
       "store_name": "Centrale",
-      "price_card": 405658,
+      "price_card": 409171,
       "price_specs": {
-        "Transferencia / Efectivo": "$384.510",
-        "Tarjetas de Crédito / Débito": "$405.658"
+        "Transferencia / Efectivo": "$387.840",
+        "Tarjetas de Crédito / Débito": "$409.171"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -84,36 +84,43 @@
     {
       "product_id": 59459,
       "store_id": "spdigital",
-      "price": 394213,
-      "price_normal": 486810,
-      "discount_pct": 19,
+      "price": 415500,
+      "price_normal": 490990,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-intel-core-i7-12700k-12o-gen-36ghz-hasta-50ghz-socket-lga1700-con-gráficas",
       "store_name": "SP Digital",
-      "price_card": 411953,
+      "price_card": 434197,
       "price_specs": {
-        "Transferencia / Efectivo": "$394.213",
-        "Webpay / Tarjeta": "$411.953"
+        "Transferencia / Efectivo": "$415.500",
+        "Webpay / Tarjeta": "$434.197"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 1140,
+      "store_id": "cg",
+      "price": 473084,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-i7-12700k-3-6-ghz-12-nucleos-20-hilos-25-mb-cache-lga1700-socket-caja-sin-refrigerante/",
+      "store_name": "CentralGamer",
+      "price_card": 497968,
+      "price_specs": {
+        "Efectivo/Transferencia": "$473.084",
+        "Webpay / Tarjeta": "$497.968"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 389565
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 389565
-    },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
@@ -125,7 +132,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 394213
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 412407
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 415500
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

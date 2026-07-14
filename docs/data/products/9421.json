@@ -17,25 +17,26 @@
     "Caché L3": "25 MB",
     "Memoria soportada": "DDR4-SDRAM,DDR5-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$431.730",
-    "Tarjeta crédito/débito": "$451.150"
+    "Efectivo/Transferencia": "$377.237",
+    "Tarjeta crédito/débito": "$394.213"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:04",
-  "updated_at": "2026-05-03 22:40:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 315,
       "store_id": "centrale",
-      "price": 288850,
-      "price_normal": 340240,
-      "discount_pct": 15,
+      "price": 343140,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i7-12700kf-3-6ghz-lga-1700/",
       "store_name": "Centrale",
+      "price_card": 362013,
       "price_specs": {
-        "Transferencia / Efectivo": "$288.850",
-        "Tarjetas de Crédito / Débito": "$340.240"
+        "Transferencia / Efectivo": "$343.140",
+        "Tarjetas de Crédito / Débito": "$362.013"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,48 +44,88 @@
       "full_url": "https://www.centrale.cl"
     },
     {
+      "product_id": 31899,
+      "store_id": "winpy",
+      "price": 354464,
+      "price_normal": null,
+      "discount_pct": 3,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/procesador-intel-core-i7-12700kf-alder-lake-lga1700-12-cores-20-hilos-3-6-5-0-ghz-sin-video/",
+      "store_name": "Winpy",
+      "price_card": 373251,
+      "price_specs": {
+        "Transferencia o Depósito": "$354.464",
+        "Otros medios de pago": "$373.251"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
       "product_id": 9421,
       "store_id": "spdigital",
-      "price": 431730,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 377237,
+      "price_normal": 445780,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/procesador-intel-core-i7-12700kf-12o-gen-36ghz-hasta-5ghz-socket-lga1700-sin-gráficas",
       "store_name": "SP Digital",
+      "price_card": 394213,
       "price_specs": {
-        "Transferencia / Efectivo": "$431.730"
+        "Transferencia / Efectivo": "$377.237",
+        "Webpay / Tarjeta": "$394.213"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
+    },
+    {
+      "product_id": 59371,
+      "store_id": "cg",
+      "price": 402505,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-i7-12700kf-3-6-ghz-12-nucleos-20-hilos-25-mb-cache-lga1700-socket-caja-sin-refrigerante/",
+      "store_name": "CentralGamer",
+      "price_card": 423677,
+      "price_specs": {
+        "Efectivo/Transferencia": "$402.505",
+        "Webpay / Tarjeta": "$423.677"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-28",
-      "price": 414440
+      "date": "2026-06-20",
+      "price": 348369
     },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-29",
-      "price": 415350
+      "date": "2026-06-25",
+      "price": 357539
     },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-05-01",
-      "price": 382440
+      "date": "2026-07-06",
+      "price": 374079
     },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-05-03",
-      "price": 431730
+      "date": "2026-07-14",
+      "price": 377237
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-07-14"
 }

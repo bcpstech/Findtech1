@@ -14,46 +14,59 @@
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
     "Marca": "MSI",
-    "Efectivo / Transferencia": "$749.890",
-    "Tarjeta crédito/débito": "$772.390"
+    "Efectivo / Transferencia": "$741.990",
+    "Tarjeta crédito/débito": "$764.250"
   },
   "tags": [],
   "created_at": "2026-04-26 20:40:39",
-  "updated_at": "2026-06-09 03:51:08",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1817,
       "store_id": "dust2",
-      "price": 749890,
+      "price": 741990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/tarjeta-de-video-msi-geforce-rtx-5070-12g-ventus-3x-oc/",
       "store_name": "Dust2",
-      "price_card": 772387,
+      "price_card": 764250,
       "price_specs": {
-        "Efectivo/Transferencia": "$749.890",
-        "Tarjeta crédito/débito": "$772.387"
+        "Efectivo/Transferencia": "$741.990",
+        "Tarjeta crédito/débito": "$764.250"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 92550,
+      "store_id": "mybox",
+      "price": 845491,
+      "price_normal": 889990,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/tarjeta-de-video/5913-tarjeta-de-video-msi-rtx-5070-ventus-3x-12g-oc-4711377308281.html",
+      "store_name": "MyBox",
+      "price_card": 870856,
+      "price_specs": {
+        "Efectivo/Transferencia": "$845.491",
+        "Tarjeta crédito/débito": "$870.856"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
     {
       "store_id": "dust2",
       "store_name": "Dust2",
-      "date": "2026-06-08",
-      "price": 749890
-    },
-    {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-06-09",
-      "price": 749890
+      "date": "2026-07-14",
+      "price": 741990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-07-14"
 }

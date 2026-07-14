@@ -1,0 +1,72 @@
+{
+  "id": 91488,
+  "external_id": "winpy_tarjeta-grafica-msi-geforce-rtx-5080-shadow-3x-oc-de-16gb-gddr7",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "Tarjeta gráfica MSI GeForce RTX 5080 SHADOW 3X OC de 16GB GDDR7",
+  "slug": "winpy-tarjeta-grafica-msi-geforce-rtx-5080-shadow-3x-oc-de-16gb-gddr7",
+  "image_url": "https://images.findtech.cl/products/tarjeta-grafica-msi-geforce-rtx-5080-shadow-3x-oc-de-16gb-gddr7.jpg",
+  "description": null,
+  "specs": {
+    "VRAM": "16 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "256-bit",
+    "Arquitectura": "Blackwell",
+    "Variante": "OC (Overclocked)",
+    "Factor de forma": "Full-Height/Full-Length (FH/FL)",
+    "Efectivo/Transferencia": "$1.890.060",
+    "Tarjeta crédito/débito": "$1.975.113"
+  },
+  "tags": [],
+  "created_at": "2026-07-14 19:31:45",
+  "updated_at": "2026-07-14 20:09:45",
+  "prices": [
+    {
+      "product_id": 91488,
+      "store_id": "winpy",
+      "price": 1594784,
+      "price_normal": null,
+      "discount_pct": 10,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5080-shadow-3x-oc-de-16gb-gddr7/",
+      "store_name": "Winpy",
+      "price_card": 1679308,
+      "price_specs": {
+        "Transferencia o Depósito": "$1.594.784",
+        "Otros medios de pago": "$1.679.308"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 76226,
+      "store_id": "spdigital",
+      "price": 1890060,
+      "price_normal": 2127850,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/msi-pci-express-nvidia-geforce-rtx-5080-16g-shadow-3x-oc",
+      "store_name": "SP Digital",
+      "price_card": 1975113,
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.890.060",
+        "Webpay / Tarjeta": "$1.975.113"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-14",
+      "price": 1594784
+    }
+  ],
+  "scraped_at": "2026-07-14"
+}

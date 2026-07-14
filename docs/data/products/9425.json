@@ -12,26 +12,26 @@
     "Factor de forma": "micro ATX",
     "Memoria": "DDR4",
     "Chipset": "AMD A520",
-    "Efectivo/Transferencia": "$54.995",
-    "Tarjeta crédito/débito": "$57.470"
+    "Efectivo/Transferencia": "$57.470",
+    "Tarjeta crédito/débito": "$60.056"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:08",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 9425,
       "store_id": "spdigital",
-      "price": 54995,
+      "price": 57470,
       "price_normal": 109990,
-      "discount_pct": 50,
+      "discount_pct": 48,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/a520m-k-v2",
       "store_name": "SP Digital",
-      "price_card": 57470,
+      "price_card": 60056,
       "price_specs": {
-        "Transferencia / Efectivo": "$54.995",
-        "Webpay / Tarjeta": "$57.470"
+        "Transferencia / Efectivo": "$57.470",
+        "Webpay / Tarjeta": "$60.056"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,18 +43,6 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 52995
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 52995
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 54995
     },
@@ -63,7 +51,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 54995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 57470
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 57470
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

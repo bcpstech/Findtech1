@@ -13,26 +13,26 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Chipset": "AMD X870",
-    "Efectivo/Transferencia": "$299.995",
-    "Tarjeta crédito/débito": "$313.495"
+    "Efectivo/Transferencia": "$313.495",
+    "Tarjeta crédito/débito": "$327.602"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:11",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 9431,
       "store_id": "spdigital",
-      "price": 299995,
+      "price": 313495,
       "price_normal": 399990,
-      "discount_pct": 25,
+      "discount_pct": 22,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-msi-x870-gaming-plus-wifi-socket-am5-4x-ddr5-hdmi-4x-pci-e-x16-3x-m2-wi-fi-7-atx",
       "store_name": "SP Digital",
-      "price_card": 313495,
+      "price_card": 327602,
       "price_specs": {
-        "Transferencia / Efectivo": "$299.995",
-        "Webpay / Tarjeta": "$313.495"
+        "Transferencia / Efectivo": "$313.495",
+        "Webpay / Tarjeta": "$327.602"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -52,7 +52,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 299995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 313495
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 313495
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

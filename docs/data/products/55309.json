@@ -13,26 +13,26 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Chipset": "AMD TRX50",
-    "Efectivo/Transferencia": "$779.995",
-    "Tarjeta crédito/débito": "$815.095"
+    "Efectivo/Transferencia": "$731.286",
+    "Tarjeta crédito/débito": "$764.194"
   },
   "tags": [],
   "created_at": "2026-05-08 22:14:09",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 55309,
       "store_id": "spdigital",
-      "price": 779995,
+      "price": 731286,
       "price_normal": 1099990,
-      "discount_pct": 29,
+      "discount_pct": 34,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-trx-trx50-aero-d",
       "store_name": "SP Digital",
-      "price_card": 815095,
+      "price_card": 764194,
       "price_specs": {
-        "Transferencia / Efectivo": "$779.995",
-        "Webpay / Tarjeta": "$815.095"
+        "Transferencia / Efectivo": "$731.286",
+        "Webpay / Tarjeta": "$764.194"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,18 +63,6 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 679995
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 679995
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 779995
     },
@@ -83,7 +71,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 779995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 815095
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 731286
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

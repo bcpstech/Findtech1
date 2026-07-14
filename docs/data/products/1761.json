@@ -10,26 +10,26 @@
   "specs": {
     "Marca": "Redragon",
     "Modelo": "CCW3000 Effect X",
-    "Efectivo / Transferencia": "$62.990",
-    "Tarjeta crédito/débito": "$64.880"
+    "Efectivo / Transferencia": "$53.990",
+    "Tarjeta crédito/débito": "$55.610"
   },
   "tags": [],
   "created_at": "2026-04-26 20:39:59",
-  "updated_at": "2026-07-07 00:45:46",
+  "updated_at": "2026-07-14 19:40:51",
   "prices": [
     {
       "product_id": 1761,
       "store_id": "progaming",
-      "price": 62990,
+      "price": 53990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://progaming.cl/producto/componentes/refrigeracion/refrigeracion-liquida-redragon-ccw3000-effect-x-negro/",
       "store_name": "ProGaming",
-      "price_card": 64880,
+      "price_card": 55610,
       "price_specs": {
-        "Efectivo/Transferencia": "$62.990",
-        "Tarjeta crédito/débito": "$64.880"
+        "Efectivo/Transferencia": "$53.990",
+        "Tarjeta crédito/débito": "$55.610"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -61,7 +61,13 @@
       "store_name": "ProGaming",
       "date": "2026-07-07",
       "price": 62990
+    },
+    {
+      "store_id": "progaming",
+      "store_name": "ProGaming",
+      "date": "2026-07-14",
+      "price": 53990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

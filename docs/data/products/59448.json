@@ -20,45 +20,45 @@
     "TDP": "65 W",
     "Memoria soportada": "DDR4-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$235.057",
-    "Tarjeta crédito/débito": "$245.635"
+    "Efectivo/Transferencia": "$246.093",
+    "Tarjeta crédito/débito": "$257.167"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:16",
-  "updated_at": "2026-06-25 17:56:40",
+  "updated_at": "2026-07-14 19:09:48",
   "prices": [
     {
-      "product_id": 32,
-      "store_id": "n1g",
-      "price": 208800,
-      "price_normal": 219789,
-      "discount_pct": 5,
+      "product_id": 2826,
+      "store_id": "alltec",
+      "price": 209900,
+      "price_normal": null,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/1672-amd-ryzen-7-5700x-ryzen-7-5000-series-8-core-socket-am4-65w-desktop-processor-100-100000926wof.html",
-      "store_name": "N1G",
-      "price_card": 219866,
+      "product_url": "https://www.alltec.cl/amd/1794-amd-ryzen-7-5700x-34ghz-46ghz-turbo-octa-core-tdp-65w-am4-730143314275.html",
+      "store_name": "Alltec",
+      "price_card": 216197,
       "price_specs": {
-        "Efectivo/Transferencia": "$208.800",
-        "Tarjeta crédito/débito": "$219.866"
+        "Efectivo/Transferencia": "$209.900",
+        "Tarjeta crédito/débito": "$216.197"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
     },
     {
       "product_id": 59936,
       "store_id": "myshop",
-      "price": 218990,
-      "price_normal": 231034,
+      "price": 216990,
+      "price_normal": 228924,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/cpu-sam4-amd-ryzen-7-5700x-460ghz-8-core-skt-36mb-65w-p12964",
       "store_name": "MyShop",
-      "price_card": 225560,
+      "price_card": 223500,
       "price_specs": {
-        "Efectivo/Transferencia": "$218.990",
-        "Tarjeta crédito/débito": "$225.560"
+        "Efectivo/Transferencia": "$216.990",
+        "Tarjeta crédito/débito": "$223.500"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -85,18 +85,37 @@
       "full_url": "https://www.winpy.cl"
     },
     {
+      "product_id": 59378,
+      "store_id": "cg",
+      "price": 230990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-amd-ryzen-7-5700x/",
+      "store_name": "CentralGamer",
+      "price_card": 243140,
+      "price_specs": {
+        "Efectivo/Transferencia": "$230.990",
+        "Webpay / Tarjeta": "$243.140"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
       "product_id": 276,
       "store_id": "centrale",
-      "price": 229470,
+      "price": 231440,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-7-5700x-3-4ghz-8-core-16-threads/",
       "store_name": "Centrale",
-      "price_card": 242091,
+      "price_card": 244169,
       "price_specs": {
-        "Transferencia / Efectivo": "$229.470",
-        "Tarjetas de Crédito / Débito": "$242.091"
+        "Transferencia / Efectivo": "$231.440",
+        "Tarjetas de Crédito / Débito": "$244.169"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -106,16 +125,16 @@
     {
       "product_id": 59448,
       "store_id": "spdigital",
-      "price": 235057,
-      "price_normal": 290230,
-      "discount_pct": 19,
+      "price": 246093,
+      "price_normal": 449990,
+      "discount_pct": 45,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/ryzen-7-5700x",
       "store_name": "SP Digital",
-      "price_card": 245635,
+      "price_card": 257167,
       "price_specs": {
-        "Transferencia / Efectivo": "$235.057",
-        "Webpay / Tarjeta": "$245.635"
+        "Transferencia / Efectivo": "$246.093",
+        "Webpay / Tarjeta": "$257.167"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -127,18 +146,6 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 232254
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 232261
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 228968
     },
@@ -146,8 +153,20 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-06-25",
-      "price": 235057
+      "price": 235073
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 355450
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 246093
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

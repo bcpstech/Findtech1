@@ -13,50 +13,50 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Chipset": "Intel B860",
-    "Efectivo/Transferencia": "$296.745",
-    "Tarjeta crédito/débito": "$310.099"
+    "Efectivo/Transferencia": "$328.368",
+    "Tarjeta crédito/débito": "$343.145"
   },
   "tags": [],
   "created_at": "2026-06-20 00:07:42",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
-    {
-      "product_id": 71986,
-      "store_id": "spdigital",
-      "price": 296745,
-      "price_normal": 366490,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/asus-motherboard-rog-strix-b860-f-gaming-wifi",
-      "store_name": "SP Digital",
-      "price_card": 310099,
-      "price_specs": {
-        "Transferencia / Efectivo": "$296.745",
-        "Webpay / Tarjeta": "$310.099"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
     {
       "product_id": 1388,
       "store_id": "centrale",
-      "price": 302710,
+      "price": 304660,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-asus-rog-strix-b860-f-gaming-wifi-lga-1851-ddr5-pcie-5-0-wifi-7/",
       "store_name": "Centrale",
-      "price_card": 319359,
+      "price_card": 321416,
       "price_specs": {
-        "Transferencia / Efectivo": "$302.710",
-        "Tarjetas de Crédito / Débito": "$319.359"
+        "Transferencia / Efectivo": "$304.660",
+        "Tarjetas de Crédito / Débito": "$321.416"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 71986,
+      "store_id": "spdigital",
+      "price": 328368,
+      "price_normal": 369640,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/asus-motherboard-rog-strix-b860-f-gaming-wifi",
+      "store_name": "SP Digital",
+      "price_card": 343145,
+      "price_specs": {
+        "Transferencia / Efectivo": "$328.368",
+        "Webpay / Tarjeta": "$343.145"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 624,
@@ -90,7 +90,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 296745
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 310431
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 328368
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

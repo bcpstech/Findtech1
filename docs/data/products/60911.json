@@ -8,31 +8,69 @@
   "image_url": "https://images.findtech.cl/products/refrigeracion-cooler-master-masterliquid-core-ii-360mm-argb.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$77.590",
-    "Tarjeta crédito/débito": "$81.860"
+    "Transferencia / Efectivo": "$77.580",
+    "Tarjeta crédito/débito": "$81.850"
   },
   "tags": [],
   "created_at": "2026-06-08 20:58:16",
-  "updated_at": "2026-07-07 00:24:18",
+  "updated_at": "2026-07-14 19:28:40",
   "prices": [
     {
       "product_id": 60911,
       "store_id": "centrale",
-      "price": 77590,
+      "price": 77580,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/refrigeracion-cooler-master-masterliquid-core-ii-360mm-argb/",
       "store_name": "Centrale",
-      "price_card": 81857,
+      "price_card": 81847,
       "price_specs": {
-        "Transferencia / Efectivo": "$77.590",
-        "Tarjetas de Crédito / Débito": "$81.857"
+        "Transferencia / Efectivo": "$77.580",
+        "Tarjetas de Crédito / Débito": "$81.847"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 33684,
+      "store_id": "infor-ingen",
+      "price": 105900,
+      "price_normal": 111194,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://store.infor-ingen.com/producto/watercooling-xpg-levante-ii-360mm-argb/",
+      "store_name": "Infor-Ingen",
+      "price_card": 109077,
+      "price_specs": {
+        "Efectivo / Transferencia": "$105.900",
+        "Tarjeta crédito/débito": "$109.077"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
+    },
+    {
+      "product_id": 9650,
+      "store_id": "spdigital",
+      "price": 177640,
+      "price_normal": 264990,
+      "discount_pct": 33,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/refrigeracion-liquida-cooler-master-masterliquid-atmos-ii-360mm-3-ventiladores-lcd-negro",
+      "store_name": "SP Digital",
+      "price_card": 185634,
+      "price_specs": {
+        "Transferencia / Efectivo": "$177.640",
+        "Webpay / Tarjeta": "$185.634"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -59,7 +97,13 @@
       "store_name": "Centrale",
       "date": "2026-07-07",
       "price": 77590
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 77580
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

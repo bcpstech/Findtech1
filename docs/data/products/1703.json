@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/fuente-esgaming-es-650w-80-bronze-ventilador-120mm-modular.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$54.020",
-    "Tarjeta crédito/débito": "$56.990"
+    "Transferencia / Efectivo": "$35.690",
+    "Tarjeta crédito/débito": "$37.650"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:52",
-  "updated_at": "2026-07-07 00:26:12",
+  "updated_at": "2026-07-14 19:30:29",
   "prices": [
     {
       "product_id": 1703,
       "store_id": "centrale",
-      "price": 54020,
-      "price_normal": null,
-      "discount_pct": null,
+      "price": 35690,
+      "price_normal": 51230,
+      "discount_pct": 30,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-esgaming-es-650w-80-bronze-ventilador-120mm-modular/",
       "store_name": "Centrale",
-      "price_card": 56991,
+      "price_card": 37653,
       "price_specs": {
-        "Transferencia / Efectivo": "$54.020",
-        "Tarjetas de Crédito / Débito": "$56.991"
+        "Transferencia / Efectivo": "$35.690",
+        "Tarjetas de Crédito / Débito": "$37.653"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,7 +59,13 @@
       "store_name": "Centrale",
       "date": "2026-07-07",
       "price": 54020
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 35690
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

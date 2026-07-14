@@ -8,27 +8,31 @@
   "image_url": "https://images.findtech.cl/products/ssd-kingston-ssdnow-a400-240-gb.webp",
   "description": null,
   "specs": {
-    "Capacidad": "480 GB",
-    "Efectivo/Transferencia": "$102.990",
-    "Tarjeta crédito/débito": "$106.080"
+    "Capacidad": "240 GB",
+    "Interfaz": "SATA III",
+    "Factor de forma": "2.5\"",
+    "Lectura": "500 MB/s",
+    "Certificación": "CE, FCC",
+    "Efectivo/Transferencia": "$84.922",
+    "Tarjeta crédito/débito": "$88.743"
   },
   "tags": [],
   "created_at": "2026-06-09 23:41:03",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 71318,
       "store_id": "myshop",
-      "price": 75990,
-      "price_normal": 80169,
+      "price": 76500,
+      "price_normal": 80708,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/ssd-25-240-gb-kingston-ssdnow-a400-sata-3-60-gbs-sa400s37240g-p2502",
       "store_name": "MyShop",
-      "price_card": 78270,
+      "price_card": 78795,
       "price_specs": {
-        "Efectivo/Transferencia": "$75.990",
-        "Tarjeta crédito/débito": "$78.270"
+        "Efectivo/Transferencia": "$76.500",
+        "Tarjeta crédito/débito": "$78.795"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -53,6 +57,25 @@
       "review_count": 0,
       "store_url": "www.bcpstech.cl",
       "full_url": "https://bcpstech.cl"
+    },
+    {
+      "product_id": 9528,
+      "store_id": "spdigital",
+      "price": 84922,
+      "price_normal": 116080,
+      "discount_pct": 27,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/unidad-ssd-kingston-ssdnow-a400-240gb-25-lectura-500mbs-escritura-350mbs",
+      "store_name": "SP Digital",
+      "price_card": 88743,
+      "price_specs": {
+        "Transferencia / Efectivo": "$84.922",
+        "Webpay / Tarjeta": "$88.743"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -97,7 +120,19 @@
       "store_name": "MyShop",
       "date": "2026-07-07",
       "price": 75990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-07-14",
+      "price": 77990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 76500
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

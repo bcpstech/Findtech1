@@ -13,64 +13,43 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$799.990",
-    "Tarjeta crédito/débito": "$843.989",
+    "Efectivo / Transferencia": "$843.990",
+    "Tarjeta crédito/débito": "$890.409",
     "Garantía": "6 meses",
     "SKU": "37385",
     "Part Number": "912-V532-019"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:44",
-  "updated_at": "2026-06-08 21:47:04",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 19835,
       "store_id": "myshop",
-      "price": 799990,
-      "price_card": 823990,
-      "price_normal": 843989,
-      "discount_pct": 16,
+      "price": 843990,
+      "price_normal": 890409,
+      "discount_pct": 12,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/geforce-rtx-5070-12g-gaming-trio-oc-p37385",
       "store_name": "MyShop",
+      "price_card": 869310,
       "price_specs": {
-        "Efectivo/Transferencia": "$799.990",
-        "Tarjeta crédito/débito": "$823.990"
+        "Efectivo/Transferencia": "$843.990",
+        "Tarjeta crédito/débito": "$869.310"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 2638,
-      "store_id": "trulustore",
-      "price": 859990,
-      "price_card": 885790,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-rtx-5070-12gb-msi-gaming-trio-oc/",
-      "store_name": "TruluStore",
-      "khipu_price": 877190,
-      "price_specs": {
-        "Efectivo / Transferencia": "$859.990",
-        "Khipu": "$877.190",
-        "Tarjeta crédito/débito": "$885.790"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
     {
       "store_id": "myshop",
       "store_name": "MyShop",
-      "date": "2026-06-08",
-      "price": 799990
+      "date": "2026-07-14",
+      "price": 843990
     }
   ],
-  "scraped_at": "2026-06-08"
+  "scraped_at": "2026-07-14"
 }

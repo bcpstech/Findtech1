@@ -11,29 +11,29 @@
     "Capacidad": "8 GB",
     "Tipo": "DDR4",
     "Velocidad": "3200 MHz",
-    "Efectivo / Transferencia": "$85.300",
-    "Tarjeta crédito/débito": "$89.992",
+    "Efectivo / Transferencia": "$85.700",
+    "Tarjeta crédito/débito": "$90.414",
     "Garantía": "6 meses",
     "SKU": "12245",
     "Part Number": "KF432S20IB/8"
   },
   "tags": [],
   "created_at": "2026-06-08 20:50:22",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 60062,
       "store_id": "myshop",
-      "price": 85300,
-      "price_normal": 89992,
+      "price": 85700,
+      "price_normal": 90414,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/sodimm-8-gb-kingston-fury-impact-ddr4-3200-mhz-kf432s20ib8-p12245",
       "store_name": "MyShop",
-      "price_card": 87859,
+      "price_card": 88271,
       "price_specs": {
-        "Efectivo/Transferencia": "$85.300",
-        "Tarjeta crédito/débito": "$87.859"
+        "Efectivo/Transferencia": "$85.700",
+        "Tarjeta crédito/débito": "$88.271"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,7 +59,13 @@
       "store_name": "MyShop",
       "date": "2026-07-07",
       "price": 85300
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 85700
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

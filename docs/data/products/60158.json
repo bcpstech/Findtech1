@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-06-08 20:52:05",
-  "updated_at": "2026-07-07 00:10:41",
+  "updated_at": "2026-07-14 19:21:53",
   "prices": [
     {
       "product_id": 60158,
@@ -36,25 +36,6 @@
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 77601,
-      "store_id": "centrale",
-      "price": 184100,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/xpg-fuente-de-poder-1200w-certificada-core-reactor-ii-1200g-80-plus-gold-atx/",
-      "store_name": "Centrale",
-      "price_card": 194226,
-      "price_specs": {
-        "Transferencia / Efectivo": "$184.100",
-        "Tarjetas de Crédito / Débito": "$194.226"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
@@ -75,7 +56,13 @@
       "store_name": "MyShop",
       "date": "2026-07-07",
       "price": 167990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 167990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

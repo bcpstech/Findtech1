@@ -11,31 +11,69 @@
     "Socket": "AM5",
     "Factor de forma": "Micro-ATX",
     "Memoria": "DDR5",
-    "Transferencia / Efectivo": "$122.820",
-    "Tarjeta crédito/débito": "$129.580"
+    "Transferencia / Efectivo": "$117.720",
+    "Tarjeta crédito/débito": "$124.190"
   },
   "tags": [],
   "created_at": "2026-04-26 20:37:37",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1336,
       "store_id": "centrale",
-      "price": 122820,
+      "price": 117720,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-msi-pro-b850m-b-am5-ddr5-8200-oc-pcie-5-0-2-5g-lan-matx/",
       "store_name": "Centrale",
-      "price_card": 129575,
+      "price_card": 124195,
       "price_specs": {
-        "Transferencia / Efectivo": "$122.820",
-        "Tarjetas de Crédito / Débito": "$129.575"
+        "Transferencia / Efectivo": "$117.720",
+        "Tarjetas de Crédito / Débito": "$124.195"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 91552,
+      "store_id": "winpy",
+      "price": 123424,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.winpy.cl/venta/placa-madre-msi-pro-b850m-b-gen-4-am5-ddr5-8200mhz-m-2-x2-micro-atx/",
+      "store_name": "Winpy",
+      "price_card": 129965,
+      "price_specs": {
+        "Transferencia o Depósito": "$123.424",
+        "Otros medios de pago": "$129.965"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
+    },
+    {
+      "product_id": 71972,
+      "store_id": "spdigital",
+      "price": 127251,
+      "price_normal": 143240,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/msi-motherboard-pro-b850m-b-gen4-2-dimm-ddr5-a",
+      "store_name": "SP Digital",
+      "price_card": 132977,
+      "price_specs": {
+        "Transferencia / Efectivo": "$127.251",
+        "Webpay / Tarjeta": "$132.977"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -62,7 +100,13 @@
       "store_name": "Centrale",
       "date": "2026-07-07",
       "price": 122820
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 117720
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

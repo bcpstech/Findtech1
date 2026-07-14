@@ -12,29 +12,29 @@
     "Tipo": "DDR5",
     "Velocidad": "6400 MHz",
     "Iluminación": "RGB",
-    "Efectivo / Transferencia": "$295.500",
-    "Tarjeta crédito/débito": "$311.753",
+    "Efectivo / Transferencia": "$299.990",
+    "Tarjeta crédito/débito": "$316.489",
     "Garantía": "6 meses",
     "SKU": "41207",
     "Part Number": "KF564C32BBEA-16"
   },
   "tags": [],
   "created_at": "2026-06-08 20:50:03",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 60027,
       "store_id": "myshop",
-      "price": 295500,
-      "price_normal": 311753,
+      "price": 299990,
+      "price_normal": 316489,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/dimm-16-gb-ddr5-6400-mts-kingston-kf564c32bbea-16-p41207",
       "store_name": "MyShop",
-      "price_card": 304365,
+      "price_card": 308990,
       "price_specs": {
-        "Efectivo/Transferencia": "$295.500",
-        "Tarjeta crédito/débito": "$304.365"
+        "Efectivo/Transferencia": "$299.990",
+        "Tarjeta crédito/débito": "$308.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,7 +60,13 @@
       "store_name": "MyShop",
       "date": "2026-07-07",
       "price": 295500
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 299990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

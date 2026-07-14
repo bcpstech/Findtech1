@@ -14,65 +14,72 @@
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
     "Factor de forma": "Full-Height/Half-Length (FH/HL)",
-    "Efectivo/Transferencia": "$769.995",
-    "Tarjeta crédito/débito": "$804.645"
+    "Efectivo/Transferencia": "$804.645",
+    "Tarjeta crédito/débito": "$840.854"
   },
   "tags": [],
   "created_at": "2026-06-08 20:44:26",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
-      "product_id": 59609,
-      "store_id": "spdigital",
-      "price": 769995,
-      "price_normal": 899990,
-      "discount_pct": 14,
+      "product_id": 31868,
+      "store_id": "winpy",
+      "price": 739936,
+      "price_normal": null,
+      "discount_pct": 13,
       "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/rtx-5070-12g-shadow-2x-oc",
-      "store_name": "SP Digital",
-      "price_card": 804645,
+      "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-msi-geforce-rtx-5070-shadow-2x-oc-de-12gb-gddr7/",
+      "store_name": "Winpy",
+      "price_card": 779153,
       "price_specs": {
-        "Transferencia / Efectivo": "$769.995",
-        "Webpay / Tarjeta": "$804.645"
+        "Transferencia o Depósito": "$739.936",
+        "Otros medios de pago": "$779.153"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
+      "store_url": "www.winpy.cl",
+      "full_url": "https://www.winpy.cl"
     },
     {
       "product_id": 1211,
       "store_id": "centrale",
-      "price": 799900,
+      "price": 785060,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-de-video-msi-geforce-rtx-5070-shadow-2x-oc-12gb-gddr7/",
       "store_name": "Centrale",
-      "price_card": 843895,
+      "price_card": 828238,
       "price_specs": {
-        "Transferencia / Efectivo": "$799.900",
-        "Tarjetas de Crédito / Débito": "$843.895"
+        "Transferencia / Efectivo": "$785.060",
+        "Tarjetas de Crédito / Débito": "$828.238"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 59609,
+      "store_id": "spdigital",
+      "price": 804645,
+      "price_normal": 899990,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/rtx-5070-12g-shadow-2x-oc",
+      "store_name": "SP Digital",
+      "price_card": 840854,
+      "price_specs": {
+        "Transferencia / Efectivo": "$804.645",
+        "Webpay / Tarjeta": "$840.854"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 709995
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 709995
-    },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
@@ -84,7 +91,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 769995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 804645
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 804645
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

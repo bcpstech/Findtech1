@@ -8,67 +8,34 @@
   "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-be-quiet-pure-loop-3-240mm-pwm-intel-amd.jpg",
   "description": null,
   "specs": {
-    "Marca": "be quiet!",
-    "Modelo": "BW020",
-    "Efectivo / Transferencia": "$79.990",
-    "Tarjeta crédito/débito": "$82.390"
+    "Efectivo/Transferencia": "$73.145",
+    "Tarjeta crédito/débito": "$76.437"
   },
   "tags": [],
   "created_at": "2026-04-28 20:56:04",
-  "updated_at": "2026-06-25 17:58:55",
+  "updated_at": "2026-07-14 19:11:55",
   "prices": [
     {
       "product_id": 9641,
       "store_id": "spdigital",
-      "price": 69995,
+      "price": 73145,
       "price_normal": 109990,
-      "discount_pct": 36,
+      "discount_pct": 33,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/refrigeracion-liquida-be-quiet-pure-loop-3-240mm-pwm-alto-rendimiento-cpu-intel-amd",
       "store_name": "SP Digital",
-      "price_card": 73145,
+      "price_card": 76437,
       "price_specs": {
-        "Transferencia / Efectivo": "$69.995",
-        "Webpay / Tarjeta": "$73.145"
+        "Transferencia / Efectivo": "$73.145",
+        "Webpay / Tarjeta": "$76.437"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.spdigital.cl",
       "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 1788,
-      "store_id": "progaming",
-      "price": 79990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://progaming.cl/producto/componentes/refrigeracion/preventa-refrigeracion-liquida-be-quiet-light-loop-240mm/",
-      "store_name": "ProGaming",
-      "price_card": 82390,
-      "price_specs": {
-        "Efectivo/Transferencia": "$79.990",
-        "Tarjeta crédito/débito": "$82.390"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.progaming.cl",
-      "full_url": "https://www.progaming.cl"
     }
   ],
   "history": [
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 64995
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 64995
-    },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
@@ -80,7 +47,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 69995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 73145
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 73145
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

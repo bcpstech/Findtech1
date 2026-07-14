@@ -10,26 +10,26 @@
   "specs": {
     "Peso": "45 kg",
     "Dimensiones": "45 cm",
-    "Efectivo/Transferencia": "$794.990",
-    "Webpay / Tarjeta": "$836.806"
+    "Efectivo/Transferencia": "$819.990",
+    "Webpay / Tarjeta": "$863.121"
   },
   "tags": [],
   "created_at": "2026-04-28 02:01:46",
-  "updated_at": "2026-06-09 02:39:38",
+  "updated_at": "2026-07-14 19:06:45",
   "prices": [
     {
       "product_id": 7333,
       "store_id": "cg",
-      "price": 794990,
+      "price": 819990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/pc-starter/pc-gamer-intel-i3-14100f-rtx-3050-16-ram-3200mhz-1tb-nvme-4-0/",
       "store_name": "CentralGamer",
-      "price_card": 836806,
+      "price_card": 863121,
       "price_specs": {
-        "Efectivo/Transferencia": "$794.990",
-        "Webpay / Tarjeta": "$836.806"
+        "Efectivo/Transferencia": "$819.990",
+        "Webpay / Tarjeta": "$863.121"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,15 +41,21 @@
     {
       "store_id": "cg",
       "store_name": "CentralGamer",
-      "date": "2026-06-08",
-      "price": 794990
+      "date": "2026-06-25",
+      "price": 819990
     },
     {
       "store_id": "cg",
       "store_name": "CentralGamer",
-      "date": "2026-06-09",
-      "price": 794990
+      "date": "2026-07-06",
+      "price": 819990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-07-14",
+      "price": 819990
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-07-14"
 }

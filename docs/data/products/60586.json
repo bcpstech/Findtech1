@@ -12,12 +12,12 @@
     "TDP": "170W",
     "Socket": "AM5",
     "Gráficos integrados": "Sí",
-    "Transferencia / Efectivo": "$832.500",
-    "Tarjeta crédito/débito": "$878.290"
+    "Transferencia / Efectivo": "$859.510",
+    "Tarjeta crédito/débito": "$906.780"
   },
   "tags": [],
   "created_at": "2026-06-08 20:56:43",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 2825,
@@ -41,16 +41,16 @@
     {
       "product_id": 60586,
       "store_id": "centrale",
-      "price": 832500,
+      "price": 859510,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-amd-ryzen-9-9950x3d-am5-4-3-5-7ghz-radeon-graphics-170w/",
       "store_name": "Centrale",
-      "price_card": 878288,
+      "price_card": 906783,
       "price_specs": {
-        "Transferencia / Efectivo": "$832.500",
-        "Tarjetas de Crédito / Débito": "$878.288"
+        "Transferencia / Efectivo": "$859.510",
+        "Tarjetas de Crédito / Débito": "$906.783"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -103,7 +103,13 @@
       "store_name": "Centrale",
       "date": "2026-07-07",
       "price": 832500
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 859510
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

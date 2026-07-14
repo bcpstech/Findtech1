@@ -13,26 +13,26 @@
     "Memoria": "DDR5",
     "WiFi": "Integrado",
     "Chipset": "AMD X870",
-    "Efectivo/Transferencia": "$324.995",
-    "Tarjeta crédito/débito": "$339.620"
+    "Efectivo/Transferencia": "$339.620",
+    "Tarjeta crédito/débito": "$354.903"
   },
   "tags": [],
   "created_at": "2026-04-28 20:54:20",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 1407,
       "store_id": "centrale",
-      "price": 318250,
+      "price": 335970,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/placa-madre-atx-asus-tuf-gaming-x870-plus-wifi-socket-amd-am5-ddr5-wifi-7/",
       "store_name": "Centrale",
-      "price_card": 335754,
+      "price_card": 354448,
       "price_specs": {
-        "Transferencia / Efectivo": "$318.250",
-        "Tarjetas de Crédito / Débito": "$335.754"
+        "Transferencia / Efectivo": "$335.970",
+        "Tarjetas de Crédito / Débito": "$354.448"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,16 +42,16 @@
     {
       "product_id": 9449,
       "store_id": "spdigital",
-      "price": 324995,
+      "price": 339620,
       "price_normal": 419990,
-      "discount_pct": 23,
+      "discount_pct": 19,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/placa-madre-asus-tuf-gaming-x870-plus-wifi-socket-am5-4-x-ddr5-hdmi-2xusb4-4-xm2-wi-fi7-atx",
       "store_name": "SP Digital",
-      "price_card": 339620,
+      "price_card": 354903,
       "price_specs": {
-        "Transferencia / Efectivo": "$324.995",
-        "Webpay / Tarjeta": "$339.620"
+        "Transferencia / Efectivo": "$339.620",
+        "Webpay / Tarjeta": "$354.903"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -63,18 +63,6 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 323502
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 323502
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 324995
     },
@@ -83,7 +71,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 324995
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 339620
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 339620
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

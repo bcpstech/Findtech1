@@ -18,7 +18,7 @@
   },
   "tags": [],
   "created_at": "2026-06-09 23:43:23",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 71367,
@@ -38,6 +38,25 @@
       "review_count": 0,
       "store_url": "www.bcpstech.cl",
       "full_url": "https://bcpstech.cl"
+    },
+    {
+      "product_id": 92556,
+      "store_id": "mybox",
+      "price": 850241,
+      "price_normal": 894990,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/tarjeta-de-video/5859-tarjeta-de-video-msi-rtx-5070-shadow-2x-12g-oc-4711377308175.html",
+      "store_name": "MyBox",
+      "price_card": 875748,
+      "price_specs": {
+        "Efectivo/Transferencia": "$850.241",
+        "Tarjeta crédito/débito": "$875.748"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -64,7 +83,13 @@
       "store_name": "BCPS Tech",
       "date": "2026-07-07",
       "price": 715990
+    },
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-07-14",
+      "price": 715990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

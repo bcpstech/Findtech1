@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Marca": "ESGAMING",
-    "Efectivo / Transferencia": "$45.990",
-    "Tarjeta crédito/débito": "$47.370"
+    "Efectivo / Transferencia": "$41.990",
+    "Tarjeta crédito/débito": "$43.250"
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:25",
-  "updated_at": "2026-07-07 00:40:18",
+  "updated_at": "2026-07-14 19:37:54",
   "prices": [
     {
       "product_id": 2257,
       "store_id": "dust2",
-      "price": 45990,
+      "price": 41990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-esgaming-es-rgb650w-80plus-bronze-atx/",
       "store_name": "Dust2",
-      "price_card": 47370,
+      "price_card": 43250,
       "price_specs": {
-        "Efectivo/Transferencia": "$45.990",
-        "Tarjeta crédito/débito": "$47.370"
+        "Efectivo/Transferencia": "$41.990",
+        "Tarjeta crédito/débito": "$43.250"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -53,6 +53,25 @@
       "review_count": 0,
       "store_url": "www.bcpstech.cl",
       "full_url": "https://bcpstech.cl"
+    },
+    {
+      "product_id": 59787,
+      "store_id": "spdigital",
+      "price": 73140,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/segunda-seleccion-fuente-de-poder-esgaming-es-rgb650w-cables-fijos-certificada-80-plus-bronze-atx",
+      "store_name": "SP Digital",
+      "price_card": 76431,
+      "price_specs": {
+        "Transferencia / Efectivo": "$73.140",
+        "Webpay / Tarjeta": "$76.431"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -79,7 +98,13 @@
       "store_name": "Dust2",
       "date": "2026-07-07",
       "price": 45990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-07-14",
+      "price": 41990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

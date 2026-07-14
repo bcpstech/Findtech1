@@ -1,0 +1,77 @@
+{
+  "id": 86428,
+  "external_id": "centrale_tarjeta-grafica-msi-geforce-rtx-5070-ti-shadow-3x-oc-16gb-gddr7-256-bit",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "Tarjeta Gráfica MSI GeForce RTX 5070 Ti SHADOW 3X OC 16GB GDDR7 256-bit",
+  "slug": "centrale-tarjeta-grafica-msi-geforce-rtx-5070-ti-shadow-3x-oc-16gb-gddr7-256-bit",
+  "image_url": "https://images.findtech.cl/products/tarjeta-grafica-msi-geforce-rtx-5070-ti-shadow-3x-oc-16gb-gddr7-256-bit.webp",
+  "description": null,
+  "specs": {
+    "VRAM": "16 GB",
+    "Tipo memoria": "GDDR7",
+    "Bus de memoria": "256-bit",
+    "Arquitectura": "Blackwell",
+    "Variante": "OC (Overclocked)",
+    "Efectivo/Transferencia": "$1.316.695",
+    "Tarjeta crédito/débito": "$1.375.946"
+  },
+  "tags": [],
+  "created_at": "2026-07-07 00:18:53",
+  "updated_at": "2026-07-14 20:09:45",
+  "prices": [
+    {
+      "product_id": 86428,
+      "store_id": "centrale",
+      "price": 1199790,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/tarjeta-grafica-msi-geforce-rtx-5070-ti-shadow-3x-oc-16gb-gddr7-256-bit/",
+      "store_name": "Centrale",
+      "price_card": 1265778,
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.199.790",
+        "Tarjetas de Crédito / Débito": "$1.265.778"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 59591,
+      "store_id": "spdigital",
+      "price": 1316695,
+      "price_normal": 1399990,
+      "discount_pct": 6,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-msi-nvidia-geforce-rtx-5070-ti-shadow-3x-oc-16gb-gddr7-256-bit-pci-e-50",
+      "store_name": "SP Digital",
+      "price_card": 1375946,
+      "price_specs": {
+        "Transferencia / Efectivo": "$1.316.695",
+        "Webpay / Tarjeta": "$1.375.946"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-07",
+      "price": 1199790
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 1199790
+    }
+  ],
+  "scraped_at": "2026-07-14"
+}

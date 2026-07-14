@@ -17,26 +17,26 @@
     "Caché L3": "36 MB",
     "Memoria soportada": "DDR4-SDRAM, DDR5-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$717.479",
-    "Tarjeta crédito/débito": "$749.766"
+    "Efectivo/Transferencia": "$802.383",
+    "Tarjeta crédito/débito": "$838.490"
   },
   "tags": [],
   "created_at": "2026-06-20 00:07:08",
-  "updated_at": "2026-06-25 17:56:58",
+  "updated_at": "2026-07-14 19:09:57",
   "prices": [
     {
       "product_id": 332,
       "store_id": "centrale",
-      "price": 711190,
+      "price": 685350,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-i9-14900f-lga1700-24-nucleos-5-8ghz-36mb/",
       "store_name": "Centrale",
-      "price_card": 750305,
+      "price_card": 723044,
       "price_specs": {
-        "Transferencia / Efectivo": "$711.190",
-        "Tarjetas de Crédito / Débito": "$750.305"
+        "Transferencia / Efectivo": "$685.350",
+        "Tarjetas de Crédito / Débito": "$723.044"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -46,16 +46,16 @@
     {
       "product_id": 71913,
       "store_id": "spdigital",
-      "price": 717479,
-      "price_normal": 886100,
-      "discount_pct": 19,
+      "price": 802383,
+      "price_normal": 903330,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/intel-core-i9-i9-14900f-2-ghz-24-nucleos-32-hilos-36-mb-cache-fclga1700-socket-caja",
       "store_name": "SP Digital",
-      "price_card": 749766,
+      "price_card": 838490,
       "price_specs": {
-        "Transferencia / Efectivo": "$717.479",
-        "Webpay / Tarjeta": "$749.766"
+        "Transferencia / Efectivo": "$802.383",
+        "Webpay / Tarjeta": "$838.490"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -75,7 +75,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 717479
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 758640
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 802383
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

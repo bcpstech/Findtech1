@@ -9,26 +9,29 @@
   "description": null,
   "specs": {
     "VRAM": "4 GB",
-    "Transferencia / Efectivo": "$110.550",
-    "Tarjeta crédito/débito": "$116.630"
+    "Tipo memoria": "GDDR3",
+    "Velocidad": "1600 MHz",
+    "Factor de forma": "LP",
+    "Efectivo/Transferencia": "$112.952",
+    "Tarjeta crédito/débito": "$118.035"
   },
   "tags": [],
   "created_at": "2026-05-04 01:19:34",
-  "updated_at": "2026-06-26 00:48:39",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 31841,
       "store_id": "winpy",
-      "price": 105792,
+      "price": 107008,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-zotac-geforce-gt-730-zone-edition-de-4gb-ddr3/",
       "store_name": "Winpy",
-      "price_card": 111399,
+      "price_card": 112679,
       "price_specs": {
-        "Transferencia o Depósito": "$105.792",
-        "Otros medios de pago": "$111.399"
+        "Transferencia o Depósito": "$107.008",
+        "Otros medios de pago": "$112.679"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -36,38 +39,45 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 1204,
+      "product_id": 90858,
       "store_id": "centrale",
-      "price": 110550,
+      "price": 111510,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/zotac-tarjeta-de-video-geforce-gt-730-4-gb-ddr3-pcie-2-0-x16-perfil-bajo-dvi/",
+      "product_url": "https://centrale.cl/producto/tarjeta-de-video-zotac-zone-edition-nvidia-geforce-gt-730-gddr3-64-bits-4gb/",
       "store_name": "Centrale",
-      "price_card": 116630,
+      "price_card": 117643,
       "price_specs": {
-        "Transferencia / Efectivo": "$110.550",
-        "Tarjetas de Crédito / Débito": "$116.630"
+        "Transferencia / Efectivo": "$111.510",
+        "Tarjetas de Crédito / Débito": "$117.643"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9586,
+      "store_id": "spdigital",
+      "price": 112952,
+      "price_normal": 118000,
+      "discount_pct": 4,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/tarjeta-de-video-zotac-geforce-gt730-4gb-ddr3-pcie-20-x16-perfil-bajo-dvi",
+      "store_name": "SP Digital",
+      "price_card": 118035,
+      "price_specs": {
+        "Transferencia / Efectivo": "$112.952",
+        "Webpay / Tarjeta": "$118.035"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
-    {
-      "store_id": "winpy",
-      "store_name": "Winpy",
-      "date": "2026-06-08",
-      "price": 113088
-    },
-    {
-      "store_id": "winpy",
-      "store_name": "Winpy",
-      "date": "2026-06-09",
-      "price": 113088
-    },
     {
       "store_id": "winpy",
       "store_name": "Winpy",
@@ -85,7 +95,19 @@
       "store_name": "Winpy",
       "date": "2026-06-26",
       "price": 105792
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-07",
+      "price": 105792
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-14",
+      "price": 107008
     }
   ],
-  "scraped_at": "2026-06-26"
+  "scraped_at": "2026-07-14"
 }

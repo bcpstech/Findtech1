@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:53:08",
-  "updated_at": "2026-07-07 00:03:41",
+  "updated_at": "2026-07-14 19:17:51",
   "prices": [
     {
       "product_id": 2660,
@@ -54,6 +54,25 @@
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 38970,
+      "store_id": "mybox",
+      "price": 116990,
+      "price_normal": 119990,
+      "discount_pct": 3,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/fuentes-de-poder/6084-fuente-de-poder-msi-mag-a850gl-pcie5-white-4711377115391.html",
+      "store_name": "MyBox",
+      "price_card": 120500,
+      "price_specs": {
+        "Efectivo/Transferencia": "$116.990",
+        "Tarjeta crédito/débito": "$120.500"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
@@ -74,7 +93,13 @@
       "store_name": "TruluStore",
       "date": "2026-07-07",
       "price": 84990
+    },
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-07-14",
+      "price": 84990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

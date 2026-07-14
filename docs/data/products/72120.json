@@ -8,29 +8,29 @@
   "image_url": "https://images.findtech.cl/products/disco-duro-de-videovigilancia-1tb-wd-purple-3-5-5400rpm-sata-6gb-s-cache-64mb.jpg",
   "description": null,
   "specs": {
-    "Capacidad": "2 TB",
+    "Capacidad": "1 TB",
+    "Interfaz": "Serial ATA III",
     "Factor de forma": "3.5\"",
-    "Interfaz": "SATA",
-    "Efectivo/Transferencia": "$129.655",
-    "Tarjeta crédito/débito": "$135.489"
+    "Efectivo/Transferencia": "$151.775",
+    "Tarjeta crédito/débito": "$158.605"
   },
   "tags": [],
   "created_at": "2026-06-20 00:08:43",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 72120,
       "store_id": "spdigital",
-      "price": 129428,
-      "price_normal": 159840,
-      "discount_pct": 19,
+      "price": 151775,
+      "price_normal": 170890,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/wd-purple-wd11purz-disco-duro-1-tb-interno-35-sata-6gbs-bufer-64-mb",
       "store_name": "SP Digital",
-      "price_card": 135252,
+      "price_card": 158605,
       "price_specs": {
-        "Transferencia / Efectivo": "$129.428",
-        "Webpay / Tarjeta": "$135.252"
+        "Transferencia / Efectivo": "$151.775",
+        "Webpay / Tarjeta": "$158.605"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -50,7 +50,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 129428
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 143449
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 151775
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

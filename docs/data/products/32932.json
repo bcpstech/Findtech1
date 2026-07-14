@@ -8,16 +8,24 @@
   "image_url": "https://images.findtech.cl/products/cpu-amd-ryzen-9-9950x-4-3-ghz.jpg",
   "description": null,
   "specs": {
+    "Familia": "AMD Ryzen™ 9",
     "Núcleos": "16",
+    "Socket": "AM5",
+    "Litografía": "4 nm",
+    "Incluye cooler": "No",
+    "Frecuencia base": "4,3 GHz",
     "Hilos": "32",
-    "Frecuencia base": "5.7 GHz",
-    "TDP": "170W",
-    "Transferencia / Efectivo": "$664.470",
-    "Tarjeta crédito/débito": "$701.020"
+    "Frecuencia turbo": "5,7 GHz",
+    "Caché L3": "80 MB",
+    "TDP": "170 W",
+    "Memoria soportada": "DDR5-SDRAM",
+    "Gráficos integrados": "AMD Radeon",
+    "Efectivo/Transferencia": "$770.610",
+    "Tarjeta crédito/débito": "$805.287"
   },
   "tags": [],
   "created_at": "2026-05-04 02:41:46",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 32932,
@@ -77,6 +85,44 @@
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 92526,
+      "store_id": "mybox",
+      "price": 770441,
+      "price_normal": 810990,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/procesador/5574-procesador-amd-ryzen-9-9950x.html",
+      "store_name": "MyBox",
+      "price_card": 793554,
+      "price_specs": {
+        "Efectivo/Transferencia": "$770.441",
+        "Tarjeta crédito/débito": "$793.554"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
+    },
+    {
+      "product_id": 9416,
+      "store_id": "spdigital",
+      "price": 770610,
+      "price_normal": 867560,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/ryzen-9-9950x-570ghz-16-core-skt-am5",
+      "store_name": "SP Digital",
+      "price_card": 805287,
+      "price_specs": {
+        "Transferencia / Efectivo": "$770.610",
+        "Webpay / Tarjeta": "$805.287"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
@@ -103,7 +149,13 @@
       "store_name": "Infor-Ingen",
       "date": "2026-07-07",
       "price": 629900
+    },
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-07-14",
+      "price": 629900
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

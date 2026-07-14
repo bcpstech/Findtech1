@@ -14,19 +14,21 @@
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:05",
-  "updated_at": "2026-05-04 14:26:11",
+  "updated_at": "2026-07-14 19:12:44",
   "prices": [
     {
       "product_id": 1739,
       "store_id": "centrale",
-      "price": 107190,
+      "price": 107200,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-gamer-antec-c5-curve-argb/",
       "store_name": "Centrale",
+      "price_card": 113096,
       "price_specs": {
-        "Transferencia / Efectivo": "$107.190"
+        "Transferencia / Efectivo": "$107.200",
+        "Tarjetas de Crédito / Débito": "$113.096"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,9 +44,10 @@
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/gabinete-gamer-antec-c5-curve-argb-doble-camara-vidrio-curvado-atx-m-atx-itx-negro",
       "store_name": "SP Digital",
+      "price_card": 114657,
       "price_specs": {
         "Transferencia / Efectivo": "$109.720",
-        "Webpay / Tarjeta": "$139.990"
+        "Webpay / Tarjeta": "$114.657"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -56,33 +59,27 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-28",
-      "price": 139990
+      "date": "2026-06-20",
+      "price": 109995
     },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-04-29",
-      "price": 139990
+      "date": "2026-06-25",
+      "price": 109995
     },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-05-01",
-      "price": 139990
+      "date": "2026-07-06",
+      "price": 114945
     },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-05-03",
-      "price": 139990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-05-04",
+      "date": "2026-07-14",
       "price": 114945
     }
   ],
-  "scraped_at": "2026-05-04"
+  "scraped_at": "2026-07-14"
 }

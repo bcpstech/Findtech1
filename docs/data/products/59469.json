@@ -18,12 +18,12 @@
     "Caché L3": "36 MB",
     "Memoria soportada": "DDR5-SDRAM",
     "Gráficos integrados": "Intel Graphics",
-    "Efectivo/Transferencia": "$748.829",
-    "Tarjeta crédito/débito": "$782.526"
+    "Efectivo/Transferencia": "$902.738",
+    "Tarjeta crédito/débito": "$943.361"
   },
   "tags": [],
   "created_at": "2026-06-08 20:43:26",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 324,
@@ -66,59 +66,21 @@
     {
       "product_id": 60302,
       "store_id": "alltec",
-      "price": 669900,
+      "price": 769900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/intel/2516-intel-core-ultra-9-285k-37ghz57ghz-turbo-24c24t-36mb-cache-125w250w-lga1851.html",
       "store_name": "Alltec",
-      "price_card": 689997,
+      "price_card": 792997,
       "price_specs": {
-        "Efectivo/Transferencia": "$669.900",
-        "Tarjeta crédito/débito": "$689.997"
+        "Efectivo/Transferencia": "$769.900",
+        "Tarjeta crédito/débito": "$792.997"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
-    },
-    {
-      "product_id": 1925,
-      "store_id": "dust2",
-      "price": 719990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/procesador-intel-core-ultra-9-285k-hasta-5-7ghz-lga1851/",
-      "store_name": "Dust2",
-      "price_card": 741590,
-      "price_specs": {
-        "Efectivo/Transferencia": "$719.990",
-        "Tarjeta crédito/débito": "$741.590"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 59469,
-      "store_id": "spdigital",
-      "price": 748829,
-      "price_normal": 924830,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/procesador-intel-core-ultra-9-285k-cache-de-36-mb-hasta-570-ghz-socket-lga1851-125w",
-      "store_name": "SP Digital",
-      "price_card": 782526,
-      "price_specs": {
-        "Transferencia / Efectivo": "$748.829",
-        "Webpay / Tarjeta": "$782.526"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 38833,
@@ -138,21 +100,47 @@
       "review_count": 0,
       "store_url": "www.mybox.cl",
       "full_url": "https://www.mybox.cl"
+    },
+    {
+      "product_id": 13796,
+      "store_id": "cg",
+      "price": 874392,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-9-285k-3-7-ghz-24-core-lga1851/",
+      "store_name": "CentralGamer",
+      "price_card": 920385,
+      "price_specs": {
+        "Efectivo/Transferencia": "$874.392",
+        "Webpay / Tarjeta": "$920.385"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
+      "product_id": 59469,
+      "store_id": "spdigital",
+      "price": 902738,
+      "price_normal": 1016430,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/procesador-intel-core-ultra-9-285k-cache-de-36-mb-hasta-570-ghz-socket-lga1851-125w",
+      "store_name": "SP Digital",
+      "price_card": 943361,
+      "price_specs": {
+        "Transferencia / Efectivo": "$902.738",
+        "Webpay / Tarjeta": "$943.361"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 644569
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 644569
-    },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
@@ -164,7 +152,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 748829
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 853626
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 902738
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

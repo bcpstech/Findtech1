@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Factor de forma": "Midi Tower",
-    "Efectivo/Transferencia": "$124.990",
-    "Tarjeta crédito/débito": "$130.615"
+    "Efectivo/Transferencia": "$125.390",
+    "Tarjeta crédito/débito": "$131.033"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:09",
-  "updated_at": "2026-06-25 17:59:38",
+  "updated_at": "2026-07-14 19:12:46",
   "prices": [
     {
       "product_id": 9766,
       "store_id": "spdigital",
-      "price": 124990,
+      "price": 125390,
       "price_normal": 204990,
       "discount_pct": 39,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/gabinete-gamer-be-quiet-light-base-600-dx-white-argb-77-led-2x360-mm-atx-color-blanco",
       "store_name": "SP Digital",
-      "price_card": 130615,
+      "price_card": 131033,
       "price_specs": {
-        "Transferencia / Efectivo": "$124.990",
-        "Webpay / Tarjeta": "$130.615"
+        "Transferencia / Efectivo": "$125.390",
+        "Webpay / Tarjeta": "$131.033"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,18 +40,6 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 114990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 114990
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
       "date": "2026-06-20",
       "price": 124990
     },
@@ -60,7 +48,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 124990
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 214210
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 125390
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

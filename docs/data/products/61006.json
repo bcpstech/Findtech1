@@ -8,31 +8,50 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-asus-rog-thor-1200w-platinum-iii-80-plus-modular.webp",
   "description": null,
   "specs": {
-    "Transferencia / Efectivo": "$404.150",
-    "Tarjeta crédito/débito": "$426.380"
+    "Transferencia / Efectivo": "$420.590",
+    "Tarjeta crédito/débito": "$443.720"
   },
   "tags": [],
   "created_at": "2026-06-08 20:58:46",
-  "updated_at": "2026-07-07 00:26:01",
+  "updated_at": "2026-07-14 19:30:17",
   "prices": [
     {
       "product_id": 61006,
       "store_id": "centrale",
-      "price": 404150,
+      "price": 420590,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/fuente-de-poder-asus-rog-thor-1200w-platinum-iii-80-plus-modular/",
       "store_name": "Centrale",
-      "price_card": 426378,
+      "price_card": 443722,
       "price_specs": {
-        "Transferencia / Efectivo": "$404.150",
-        "Tarjetas de Crédito / Débito": "$426.378"
+        "Transferencia / Efectivo": "$420.590",
+        "Tarjetas de Crédito / Débito": "$443.722"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9698,
+      "store_id": "spdigital",
+      "price": 457705,
+      "price_normal": 599990,
+      "discount_pct": 24,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/fuente-de-poder-asus-rog-thor-1200w-platinum-iii-pantalla-oled-full-modular-atx-31-aura-sync",
+      "store_name": "SP Digital",
+      "price_card": 478302,
+      "price_specs": {
+        "Transferencia / Efectivo": "$457.705",
+        "Webpay / Tarjeta": "$478.302"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 38965,
@@ -78,7 +97,13 @@
       "store_name": "Centrale",
       "date": "2026-07-07",
       "price": 404150
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 420590
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

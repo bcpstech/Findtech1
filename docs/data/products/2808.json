@@ -17,8 +17,27 @@
   },
   "tags": [],
   "created_at": "2026-04-27 00:31:38",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
+    {
+      "product_id": 24,
+      "store_id": "n1g",
+      "price": 94500,
+      "price_normal": 99474,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://n1g.cl/Home/computacion/3232-amd-ryzen-3-5300g-am4-8-hilos-up4200-mhz-4-core-100-100000253box.html",
+      "store_name": "N1G",
+      "price_card": 99509,
+      "price_specs": {
+        "Efectivo/Transferencia": "$94.500",
+        "Tarjeta crédito/débito": "$99.509"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.n1g.cl",
+      "full_url": "https://www.n1g.cl"
+    },
     {
       "product_id": 2808,
       "store_id": "alltec",
@@ -57,7 +76,13 @@
       "store_name": "Alltec",
       "date": "2026-07-07",
       "price": 99900
+    },
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-07-14",
+      "price": 99900
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

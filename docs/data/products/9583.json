@@ -12,12 +12,12 @@
     "Tipo memoria": "GDDR7",
     "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo/Transferencia": "$487.197",
-    "Tarjeta crédito/débito": "$509.121"
+    "Efectivo/Transferencia": "$508.297",
+    "Tarjeta crédito/débito": "$531.170"
   },
   "tags": [],
   "created_at": "2026-04-28 20:55:30",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 2601,
@@ -43,16 +43,16 @@
     {
       "product_id": 31859,
       "store_id": "winpy",
-      "price": 470592,
+      "price": 474848,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/tarjeta-grafica-zotac-geforce-rtx-5060-twin-edge-oc-de-8gb-gddr7/",
       "store_name": "Winpy",
-      "price_card": 495533,
+      "price_card": 500015,
       "price_specs": {
-        "Transferencia o Depósito": "$470.592",
-        "Otros medios de pago": "$495.533"
+        "Transferencia o Depósito": "$474.848",
+        "Otros medios de pago": "$500.015"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,57 +60,45 @@
       "full_url": "https://www.winpy.cl"
     },
     {
-      "product_id": 9583,
-      "store_id": "spdigital",
-      "price": 487197,
-      "price_normal": 601620,
-      "discount_pct": 19,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/zotac-gaming-geforce-rtx-5060-twin-edge",
-      "store_name": "SP Digital",
-      "price_card": 509121,
-      "price_specs": {
-        "Transferencia / Efectivo": "$487.197",
-        "Webpay / Tarjeta": "$509.121"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
       "product_id": 1237,
       "store_id": "centrale",
-      "price": 490560,
+      "price": 494790,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/tarjeta-grafica-zotac-gaming-nvidia-geforce-rtx-5060-twin-edge-oc-8gb-gddr7/",
       "store_name": "Centrale",
-      "price_card": 517541,
+      "price_card": 522003,
       "price_specs": {
-        "Transferencia / Efectivo": "$490.560",
-        "Tarjetas de Crédito / Débito": "$517.541"
+        "Transferencia / Efectivo": "$494.790",
+        "Tarjetas de Crédito / Débito": "$522.003"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centrale.cl",
       "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9583,
+      "store_id": "spdigital",
+      "price": 508297,
+      "price_normal": 600730,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/zotac-gaming-geforce-rtx-5060-twin-edge",
+      "store_name": "SP Digital",
+      "price_card": 531170,
+      "price_specs": {
+        "Transferencia / Efectivo": "$508.297",
+        "Webpay / Tarjeta": "$531.170"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 481448
-    },
-    {
-      "store_id": "spdigital",
-      "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 481448
-    },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
@@ -121,8 +109,20 @@
       "store_id": "spdigital",
       "store_name": "SP Digital",
       "date": "2026-06-25",
-      "price": 487197
+      "price": 482323
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 504454
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 508297
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }

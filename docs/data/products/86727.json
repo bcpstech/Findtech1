@@ -10,26 +10,26 @@
   "specs": {
     "Capacidad": "1 TB",
     "Interfaz": "NVMe PCIe",
-    "Transferencia / Efectivo": "$346.880",
-    "Tarjeta crédito/débito": "$365.960"
+    "Transferencia / Efectivo": "$328.490",
+    "Tarjeta crédito/débito": "$346.560"
   },
   "tags": [],
   "created_at": "2026-07-07 00:23:13",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 86727,
       "store_id": "centrale",
-      "price": 346880,
+      "price": 328490,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/seagate-expansion-ssd-1tb-para-xbox-series-x-s-nvme-4-0/",
       "store_name": "Centrale",
-      "price_card": 365958,
+      "price_card": 346557,
       "price_specs": {
-        "Transferencia / Efectivo": "$346.880",
-        "Tarjetas de Crédito / Débito": "$365.958"
+        "Transferencia / Efectivo": "$328.490",
+        "Tarjetas de Crédito / Débito": "$346.557"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,7 +43,13 @@
       "store_name": "Centrale",
       "date": "2026-07-07",
       "price": 346880
+    },
+    {
+      "store_id": "centrale",
+      "store_name": "Centrale",
+      "date": "2026-07-14",
+      "price": 328490
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Marca": "ASUS",
-    "Efectivo / Transferencia": "$93.990",
-    "Tarjeta crédito/débito": "$96.810"
+    "Efectivo / Transferencia": "$84.990",
+    "Tarjeta crédito/débito": "$87.540"
   },
   "tags": [],
   "created_at": "2026-04-26 20:46:09",
-  "updated_at": "2026-07-07 00:39:59",
+  "updated_at": "2026-07-14 19:37:46",
   "prices": [
     {
       "product_id": 2235,
       "store_id": "dust2",
-      "price": 93990,
+      "price": 84990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/fuente-de-poder-asus-prime-750w-gold-ap-750g/",
       "store_name": "Dust2",
-      "price_card": 96810,
+      "price_card": 87540,
       "price_specs": {
-        "Efectivo/Transferencia": "$93.990",
-        "Tarjeta crédito/débito": "$96.810"
+        "Efectivo/Transferencia": "$84.990",
+        "Tarjeta crédito/débito": "$87.540"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,7 +60,13 @@
       "store_name": "Dust2",
       "date": "2026-07-07",
       "price": 93990
+    },
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-07-14",
+      "price": 84990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

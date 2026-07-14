@@ -17,7 +17,7 @@
   },
   "tags": [],
   "created_at": "2026-05-04 01:22:56",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 31939,
@@ -58,6 +58,25 @@
       "full_url": "https://www.centrale.cl"
     },
     {
+      "product_id": 80370,
+      "store_id": "cg",
+      "price": 108990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/placas-madre/placa-madres-asus-prime-b550m-a-ac/",
+      "store_name": "CentralGamer",
+      "price_card": 114723,
+      "price_specs": {
+        "Efectivo/Transferencia": "$108.990",
+        "Webpay / Tarjeta": "$114.723"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    },
+    {
       "product_id": 23524,
       "store_id": "alltec",
       "price": 110900,
@@ -75,6 +94,25 @@
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 89456,
+      "store_id": "spdigital",
+      "price": 112737,
+      "price_normal": 133140,
+      "discount_pct": 15,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-b550m-a-ac-socket-am4-4x-ddr4-vga-dvi-d-hdmi-wi-fi-micro-atx",
+      "store_name": "SP Digital",
+      "price_card": 117810,
+      "price_specs": {
+        "Transferencia / Efectivo": "$112.737",
+        "Webpay / Tarjeta": "$117.810"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
     },
     {
       "product_id": 33119,
@@ -120,7 +158,13 @@
       "store_name": "Winpy",
       "date": "2026-07-07",
       "price": 97888
+    },
+    {
+      "store_id": "winpy",
+      "store_name": "Winpy",
+      "date": "2026-07-14",
+      "price": 97888
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

@@ -20,21 +20,21 @@
   },
   "tags": [],
   "created_at": "2026-06-20 00:17:19",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 60051,
       "store_id": "myshop",
-      "price": 73990,
-      "price_normal": 78059,
+      "price": 74990,
+      "price_normal": 79114,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/sodimm-8-gb-crucial-ddr4-3200-mhz-ct8g4sfra32a-p11416",
       "store_name": "MyShop",
-      "price_card": 76210,
+      "price_card": 77240,
       "price_specs": {
-        "Efectivo/Transferencia": "$73.990",
-        "Tarjeta crédito/débito": "$76.210"
+        "Efectivo/Transferencia": "$74.990",
+        "Tarjeta crédito/débito": "$77.240"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -60,7 +60,13 @@
       "store_name": "MyShop",
       "date": "2026-07-07",
       "price": 307990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-07-14",
+      "price": 307990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-07-14"
 }

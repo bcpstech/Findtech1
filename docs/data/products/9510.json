@@ -1,0 +1,90 @@
+{
+  "id": 9510,
+  "external_id": "spdigital_memoria-ram-ddr5-32gb-5600mt-s-kingston-fury-beast-rgb-cl36-dimm",
+  "category_id": "ram",
+  "brand": "Kingston",
+  "name": "Memoria RAM DDR5 32GB 5600MT/s Kingston FURY Beast RGB CL36 DIMM",
+  "slug": "memoria-ram-ddr5-32gb-5600mt-s-kingston-fury-beast-rgb-cl36-dimm",
+  "image_url": "https://images.findtech.cl/products/memoria-ram-ddr5-32gb-5600mt-s-kingston-fury-beast-rgb-cl36-dimm.jpg",
+  "description": null,
+  "specs": {
+    "Capacidad": "32 GB",
+    "Tipo": "DDR5",
+    "Velocidad": "2800 MHz",
+    "Latencia": "CL36",
+    "Iluminación": "RGB",
+    "Tipo de memoria": "DDR5",
+    "Efectivo/Transferencia": "$584.468",
+    "Tarjeta crédito/débito": "$610.769"
+  },
+  "tags": [],
+  "created_at": "2026-04-28 20:54:52",
+  "updated_at": "2026-07-14 20:09:45",
+  "prices": [
+    {
+      "product_id": 1446,
+      "store_id": "centrale",
+      "price": 149900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centrale.cl/producto/memoria-ram-8gb-ddr5-5600mt-s-cl36-kingston-fury-beast-rgb/",
+      "store_name": "Centrale",
+      "price_card": 158145,
+      "price_specs": {
+        "Transferencia / Efectivo": "$149.900",
+        "Tarjetas de Crédito / Débito": "$158.145"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centrale.cl",
+      "full_url": "https://www.centrale.cl"
+    },
+    {
+      "product_id": 9510,
+      "store_id": "spdigital",
+      "price": 584468,
+      "price_normal": 658000,
+      "discount_pct": 11,
+      "stock": "in_stock",
+      "product_url": "https://www.spdigital.cl/kingston-fury-beast-rgb-ddr5-modulo-32-gb-dimm-de-288-contactos-2800-mhz-pc5-44800-cl3",
+      "store_name": "SP Digital",
+      "price_card": 610769,
+      "price_specs": {
+        "Transferencia / Efectivo": "$584.468",
+        "Webpay / Tarjeta": "$610.769"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.spdigital.cl",
+      "full_url": "https://www.spdigital.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-20",
+      "price": 575199
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-06-25",
+      "price": 528250
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 552680
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 584468
+    }
+  ],
+  "scraped_at": "2026-07-14"
+}

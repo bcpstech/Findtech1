@@ -12,45 +12,26 @@
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
     "Marca": "KINGSTON",
-    "Efectivo/Transferencia": "$124.990",
-    "Webpay / Tarjeta": "$131.564"
+    "Efectivo/Transferencia": "$161.990",
+    "Webpay / Tarjeta": "$170.511"
   },
   "tags": [],
   "created_at": "2026-04-26 20:36:23",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
-    {
-      "product_id": 682,
-      "store_id": "n1g",
-      "price": 119000,
-      "price_card": 125307,
-      "price_normal": 125263,
-      "discount_pct": 5,
-      "stock": "in_stock",
-      "product_url": "https://n1g.cl/Home/computacion/3740-kingston-nv3-1tb-nvme-pcie-40-x4-ssd-6000-mbs-snv3s1000g.html",
-      "store_name": "N1G",
-      "price_specs": {
-        "Efectivo/Transferencia": "$119.000",
-        "Tarjeta crédito/débito": "$125.307"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.n1g.cl",
-      "full_url": "https://www.n1g.cl"
-    },
     {
       "product_id": 1187,
       "store_id": "cg",
-      "price": 124990,
-      "price_card": 131564,
+      "price": 161990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/almacenamiento/disco-ssd-kingston-nv3-1tb-m-2-nvme-pcie-4-0-6000mb-s/",
       "store_name": "CentralGamer",
+      "price_card": 170511,
       "price_specs": {
-        "Efectivo/Transferencia": "$124.990",
-        "Webpay / Tarjeta": "$131.564"
+        "Efectivo/Transferencia": "$161.990",
+        "Webpay / Tarjeta": "$170.511"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -58,6 +39,25 @@
       "full_url": "https://www.centralgamer.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-06-25",
+      "price": 161990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-07-06",
+      "price": 161990
+    },
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-07-14",
+      "price": 161990
+    }
+  ],
+  "scraped_at": "2026-07-14"
 }

@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Factor de forma": "Midi Tower",
-    "Efectivo/Transferencia": "$63.064",
-    "Tarjeta crédito/débito": "$65.902"
+    "Efectivo/Transferencia": "$67.295",
+    "Tarjeta crédito/débito": "$70.323"
   },
   "tags": [],
   "created_at": "2026-04-28 20:57:14",
-  "updated_at": "2026-06-09 02:45:55",
+  "updated_at": "2026-07-14 19:12:47",
   "prices": [
     {
       "product_id": 9776,
       "store_id": "spdigital",
-      "price": 63064,
-      "price_normal": 77870,
-      "discount_pct": 19,
+      "price": 67295,
+      "price_normal": 79480,
+      "discount_pct": 15,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/cm-case-gabinete-elite-520-bk-e502-kgnn-s00",
       "store_name": "SP Digital",
-      "price_card": 65902,
+      "price_card": 70323,
       "price_specs": {
-        "Transferencia / Efectivo": "$63.064",
-        "Webpay / Tarjeta": "$65.902"
+        "Transferencia / Efectivo": "$67.295",
+        "Webpay / Tarjeta": "$70.323"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,16 +38,16 @@
     {
       "product_id": 1730,
       "store_id": "centrale",
-      "price": 66890,
+      "price": 67390,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/gabinete-gamer-cooler-master-elite-502-e-atx-3-vent-argb-incluidos/",
       "store_name": "Centrale",
-      "price_card": 70569,
+      "price_card": 71096,
       "price_specs": {
-        "Transferencia / Efectivo": "$66.890",
-        "Tarjetas de Crédito / Débito": "$70.569"
+        "Transferencia / Efectivo": "$67.390",
+        "Tarjetas de Crédito / Débito": "$71.096"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -59,15 +59,27 @@
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-08",
-      "price": 63064
+      "date": "2026-06-20",
+      "price": 64995
     },
     {
       "store_id": "spdigital",
       "store_name": "SP Digital",
-      "date": "2026-06-09",
-      "price": 63064
+      "date": "2026-06-25",
+      "price": 67055
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 66760
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 67295
     }
   ],
-  "scraped_at": "2026-06-09"
+  "scraped_at": "2026-07-14"
 }

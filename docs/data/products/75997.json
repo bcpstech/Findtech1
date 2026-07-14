@@ -17,26 +17,26 @@
     "Caché L3": "30 MB",
     "Memoria soportada": "DDR5-SDRAM",
     "Gráficos integrados": "No disponible",
-    "Efectivo/Transferencia": "$253.046",
-    "Tarjeta crédito/débito": "$264.433"
+    "Efectivo/Transferencia": "$294.355",
+    "Tarjeta crédito/débito": "$307.601"
   },
   "tags": [],
   "created_at": "2026-06-25 17:57:03",
-  "updated_at": "2026-06-25 18:46:02",
+  "updated_at": "2026-07-14 20:09:45",
   "prices": [
     {
       "product_id": 21296,
       "store_id": "centrale",
-      "price": 241990,
+      "price": 264990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centrale.cl/producto/procesador-intel-core-ultra-5-250kf-plus-lga-1851-18-cores-4-2-a-5-3ghz/",
       "store_name": "Centrale",
-      "price_card": 255299,
+      "price_card": 279564,
       "price_specs": {
-        "Transferencia / Efectivo": "$241.990",
-        "Tarjetas de Crédito / Débito": "$255.299"
+        "Transferencia / Efectivo": "$264.990",
+        "Tarjetas de Crédito / Débito": "$279.564"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -46,16 +46,16 @@
     {
       "product_id": 73744,
       "store_id": "winpy",
-      "price": 243200,
+      "price": 266304,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.winpy.cl/venta/procesador-intel-core-ultra-5-250kf-plus-lga1851-4-2-5-3-ghz-18-cores-sin-video/",
       "store_name": "Winpy",
-      "price_card": 256090,
+      "price_card": 280418,
       "price_specs": {
-        "Transferencia o Depósito": "$243.200",
-        "Otros medios de pago": "$256.090"
+        "Transferencia o Depósito": "$266.304",
+        "Otros medios de pago": "$280.418"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -65,16 +65,16 @@
     {
       "product_id": 75997,
       "store_id": "spdigital",
-      "price": 253046,
-      "price_normal": 302650,
-      "discount_pct": 16,
+      "price": 294355,
+      "price_normal": 331390,
+      "discount_pct": 11,
       "stock": "in_stock",
       "product_url": "https://www.spdigital.cl/intel-core-ultra-5-250kf-plus-42-ghz-18-core-lga1851",
       "store_name": "SP Digital",
-      "price_card": 264433,
+      "price_card": 307601,
       "price_specs": {
-        "Transferencia / Efectivo": "$253.046",
-        "Webpay / Tarjeta": "$264.433"
+        "Transferencia / Efectivo": "$294.355",
+        "Webpay / Tarjeta": "$307.601"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -88,7 +88,19 @@
       "store_name": "SP Digital",
       "date": "2026-06-25",
       "price": 253046
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-06",
+      "price": 278344
+    },
+    {
+      "store_id": "spdigital",
+      "store_name": "SP Digital",
+      "date": "2026-07-14",
+      "price": 294355
     }
   ],
-  "scraped_at": "2026-06-25"
+  "scraped_at": "2026-07-14"
 }
