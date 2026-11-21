@@ -444,6 +444,7 @@ html{scroll-behavior:smooth}
 .page{display:none}
 .page.active{display:block;animation:slideUp .2s ease}
 </style>
+<link rel="stylesheet" href="assets/css/findtech-redesign.css">
 </head>
 <body>
 
@@ -2521,28 +2522,20 @@ window.addEventListener('resize', () => {
 function toggleTheme() {
   const html = document.documentElement;
   const btn = document.getElementById('theme-btn');
-  const isLight = html.getAttribute('data-theme') === 'light';
-  if (isLight) {
-    html.removeAttribute('data-theme');
-    if (btn) btn.textContent = '🌙';
-    localStorage.setItem('ft_theme', 'dark');
-  } else {
-    html.setAttribute('data-theme', 'light');
-    if (btn) btn.textContent = '☀️';
-    localStorage.setItem('ft_theme', 'light');
-  }
+  const isDark = html.getAttribute('data-theme') === 'dark';
+  html.setAttribute('data-theme', isDark ? 'light' : 'dark');
+  if (btn) btn.textContent = isDark ? '🌙' : '☀️';
+  localStorage.setItem('ft_theme', isDark ? 'light' : 'dark');
 }
 
 // Init theme on load
 (function initTheme() {
   const saved = localStorage.getItem('ft_theme');
-  if (saved === 'light') {
-    document.documentElement.setAttribute('data-theme', 'light');
-    document.addEventListener('DOMContentLoaded', () => {
-      const btn = document.getElementById('theme-btn');
-      if (btn) btn.textContent = '☀️';
-    });
-  }
+  document.documentElement.setAttribute('data-theme', saved === 'dark' ? 'dark' : 'light');
+  document.addEventListener('DOMContentLoaded', () => {
+    const btn = document.getElementById('theme-btn');
+    if (btn) btn.textContent = saved === 'dark' ? '☀️' : '🌙';
+  });
 })();
 
 // Aplicar tema guardado
