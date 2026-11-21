@@ -1,0 +1,42 @@
+/* Findtech · Rediseño claro 2027 · capa visual no destructiva */
+:root{--bg:#f5f7fb;--bg2:#fff;--bg3:#eef3fa;--surface:#fff;--border:rgba(24,46,82,.10);--border2:rgba(24,46,82,.17);--accent:#1959db;--accent2:#06a6c7;--green:#148447;--text:#17263f;--text2:#53637b;--text3:#74829a;--header-bg:rgba(255,255,255,.96);--shadow-sm:0 2px 9px rgba(25,47,80,.04);--shadow-md:0 12px 30px rgba(25,47,80,.10);--shadow-lg:0 18px 44px rgba(25,47,80,.14);--logo-dark:none;--logo-light:block}
+[data-theme="dark"]{--bg:#0f172a;--bg2:#161f38;--bg3:#1e2a47;--surface:#161f38;--border:rgba(255,255,255,.08);--border2:rgba(255,255,255,.14);--accent:#70a4ff;--green:#34d399;--text:#f8fafc;--text2:#b5c2d7;--text3:#91a2bd;--header-bg:rgba(15,23,42,.95);--logo-dark:block;--logo-light:none}
+body{background:var(--bg);color:var(--text)}
+.header{height:76px;box-shadow:0 2px 14px rgba(24,46,82,.035)}
+.header-inner,.main{max-width:1440px}
+.logo img{max-width:165px;object-fit:contain}
+.nav-item{font-weight:600}
+.search-input{background:var(--bg);border-radius:14px;padding-top:13px;padding-bottom:13px}
+.main{padding-top:32px}
+#page-home .home-hero{background:linear-gradient(116deg,#e9f1ff 0%,#f5f9ff 60%,#e9f7fc 100%);border:1px solid #dbe7f9;border-radius:24px;min-height:295px;padding:48px 54px;box-shadow:0 14px 42px rgba(25,89,219,.055);margin-bottom:38px}
+#page-home .home-hero:before{background:radial-gradient(circle,rgba(25,89,219,.10),transparent 70%)}
+#page-home .hero-title{font-size:clamp(30px,3.4vw,49px);color:#152849;max-width:660px;line-height:1.12}
+#page-home .hero-title em{color:#1959db}
+#page-home .hero-sub{color:#53637b;font-size:16px;max-width:500px;line-height:1.65;margin-top:16px}
+#page-home .hero-stats{background:rgba(255,255,255,.82);padding:23px 28px;border:1px solid #dbe7f9;border-radius:18px;box-shadow:0 8px 24px rgba(25,89,219,.05)}
+#page-home .stat-n{color:#1959db}
+#page-home .stat-l{color:#66758d}
+#page-home .featured-section{margin-bottom:42px}
+#page-home .featured-header{margin-bottom:19px!important}
+#page-home .featured-title{font-size:21px;letter-spacing:-.03em}
+#page-home .featured-card,#page-home .pc-card{border-radius:16px;box-shadow:0 3px 15px rgba(20,46,80,.045)}
+#page-home .featured-img,#page-home .pc-card-img{background:#f8fafd}
+#page-home .featured-body,#page-home .pc-card-body{padding:14px}
+#page-home .featured-name,#page-home .pc-card-name{font-size:12.5px;line-height:1.5}
+#page-home .featured-price,#page-home .pc-card-price{font-family:Inter,sans-serif;font-size:17px;color:#148447}
+#page-home .banners-row{gap:18px;margin-bottom:40px!important}
+#page-home .banner-slot{height:195px;border-radius:18px!important;background:linear-gradient(135deg,#f2f7ff,#e8f2ff)!important;border:1px solid #dce7f6!important;box-shadow:0 3px 16px rgba(24,46,82,.04)}
+#page-home .banner-slot:nth-child(2){background:linear-gradient(135deg,#fff6f0,#ffede8)!important;border-color:#f6dfd5!important}
+#page-home .banner-slot:nth-child(3){background:linear-gradient(135deg,#edf9f4,#e5f7f0)!important;border-color:#d3ebdf!important}
+#page-home .banner-slot div[style*="color:#93c5fd"],#page-home .banner-slot div[style*="color:#fca5a5"],#page-home .banner-slot div[style*="color:#86efac"]{color:#1b59bf!important;background:rgba(255,255,255,.7)!important;border-color:rgba(25,89,219,.15)!important}
+#page-home .slider-arrow{background:#fff;color:#1959db;border-color:#dbe5f4;box-shadow:0 3px 14px rgba(0,0,0,.07)}
+#page-home .featured-refresh{border-radius:9px;padding:8px 13px}
+[data-theme="dark"] #page-home .home-hero{background:linear-gradient(115deg,#182b4a,#17233a);border-color:#2a3b56}
+[data-theme="dark"] #page-home .hero-title,[data-theme="dark"] #page-home .hero-sub{color:var(--text)}
+[data-theme="dark"] #page-home .hero-stats{background:#1d2c46;border-color:#31425e}
+[data-theme="dark"] #page-home .banner-slot{background:#1d2d47!important;border-color:#31425e!important}
+[data-theme="dark"] #page-home .banner-slot:nth-child(2),[data-theme="dark"] #page-home .banner-slot:nth-child(3){background:#1d2d47!important;border-color:#31425e!important}
+[data-theme="dark"] #page-home .featured-img,[data-theme="dark"] #page-home .pc-card-img{background:var(--bg3)}
+@media(max-width:900px){#page-home .home-hero{padding:35px 28px;min-height:0}#page-home .hero-stats{padding:18px}}
+@media(max-width:768px){.header{height:68px}#page-home .home-hero{padding:36px 22px;gap:24px}#page-home .hero-title{font-size:32px}#page-home .featured-title{font-size:18px}#page-home .banners-row{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){#page-home .home-hero{padding:30px 18px}#page-home .hero-title{font-size:28px}#page-home .hero-stats{width:100%;justify-content:center}#page-home .banner
