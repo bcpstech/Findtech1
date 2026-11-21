@@ -3,9 +3,9 @@
   "external_id": "pn_dualrtx5070o12g",
   "category_id": "gpu",
   "brand": "Asus",
-  "name": "Tarjeta de Video Nvidia RTX 5070 12GB - ASUS Dual OC Edition - GDDR7, 192 bits - PCIe 5.0 - DisplayPort, HDMI",
+  "name": "Tarjeta de Video ASUS GeForce RTX 5070 Dual OC 12GB GDDR7",
   "slug": "tarjeta-de-video-asus-dual-nvidia-geforce-rtx-5070-12g-oc-edition-12-gb-gddr7-192-bits-pcie-5-0",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-rtx-5070-12gb-asus-dual-oc-edition-gddr7-192-bits-pcie-5-0-displayport-hdmi.jpg",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-asus-geforce-rtx-5070-dual-oc-12gb-gddr7.jpg",
   "description": null,
   "specs": {
     "VRAM": "12 GB",
@@ -13,36 +13,62 @@
     "Bus de memoria": "192-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$739.900",
-    "Tarjeta crédito/débito": "$780.595",
+    "Efectivo / Transferencia": "$1.075.990",
+    "Tarjeta crédito/débito": "$1.135.169",
     "Garantía": "6 meses",
     "SKU": "37152",
     "Part Number": "DUAL-RTX5070-O12G"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:40",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 19830,
       "store_id": "myshop",
-      "price": 739900,
-      "price_normal": 780595,
-      "discount_pct": 12,
+      "price": 1075990,
+      "price_normal": 1135169,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/asus-pci-express-50-nvidia-geforce-rtx-5070-gddr6-sdram-displayport-hdmi-p37152",
       "store_name": "MyShop",
-      "price_card": 762097,
+      "price_card": 1108270,
       "price_specs": {
-        "Efectivo/Transferencia": "$739.900",
-        "Tarjeta crédito/débito": "$762.097"
+        "Efectivo/Transferencia": "$1.075.990",
+        "Tarjeta crédito/débito": "$1.108.270"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 95692,
+      "store_id": "mybox",
+      "price": 1189490,
+      "price_normal": 1219990,
+      "discount_pct": 3,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/tarjeta-de-video/6196-tarjeta-de-video-asus-rtx-5070-dual-12gb-oc.html",
+      "store_name": "MyBox",
+      "price_card": 1225175,
+      "price_specs": {
+        "Efectivo/Transferencia": "$1.189.490",
+        "Tarjeta crédito/débito": "$1.225.175"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 1075990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

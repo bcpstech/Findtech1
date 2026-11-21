@@ -8,28 +8,28 @@
   "image_url": "https://images.findtech.cl/products/pc-gamer-intel-i7-14700kf-rx-9070-xt-32gb-ram-ddr5-1-tb-m-2-nvme.jpg",
   "description": null,
   "specs": {
-    "Peso": "45 kg",
+    "Peso": "48,5 kg",
     "Dimensiones": "45 cm",
-    "Efectivo/Transferencia": "$2.559.990",
-    "Webpay / Tarjeta": "$2.694.645"
+    "Efectivo/Transferencia": "$3.859.990",
+    "Webpay / Tarjeta": "$4.063.025"
   },
   "tags": [],
   "created_at": "2026-04-28 02:02:26",
-  "updated_at": "2026-07-14 19:07:24",
+  "updated_at": "2026-11-21 21:57:54",
   "prices": [
     {
       "product_id": 7349,
       "store_id": "cg",
-      "price": 2559990,
+      "price": 3859990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/pc-high/pc-gamer-intel-i7-14700kf-rx-9070-xt-32gb-ram-ddr5-1-tb-m-2-nvme/",
+      "product_url": "https://centralgamer.cl/pc-high/pcgamer-intel-i7-14700kf-amd-rx9070xt-ddr5-32gb-1tb/",
       "store_name": "CentralGamer",
-      "price_card": 2694645,
+      "price_card": 4063025,
       "price_specs": {
-        "Efectivo/Transferencia": "$2.559.990",
-        "Webpay / Tarjeta": "$2.694.645"
+        "Efectivo/Transferencia": "$3.859.990",
+        "Webpay / Tarjeta": "$4.063.025"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,6 +37,13 @@
       "full_url": "https://www.centralgamer.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-11-21",
+      "price": 3859990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

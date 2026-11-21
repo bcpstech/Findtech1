@@ -9,14 +9,13 @@
   "description": null,
   "specs": {
     "Socket": "LGA1700",
-    "Factor de forma": "Micro-ATX",
     "Memoria": "DDR4",
-    "Efectivo/Transferencia": "$129.990",
-    "Tarjeta crédito/débito": "$135.840"
+    "Efectivo / Transferencia": "$84.900",
+    "Tarjeta crédito/débito": "$87.447"
   },
   "tags": [],
   "created_at": "2026-05-03 04:33:06",
-  "updated_at": "2026-05-03 05:12:06",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 23544,
@@ -27,39 +26,24 @@
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/para-intel/2484-mb-asus-prime-h610m-f-d4-r20-lga1700-ddr4-intel-141312-generacion.html",
       "store_name": "Alltec",
+      "price_card": 87447,
       "price_specs": {
-        "Efectivo/Transferencia": "$84.900"
+        "Efectivo/Transferencia": "$84.900",
+        "Tarjeta crédito/débito": "$87.447"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
-    },
-    {
-      "product_id": 9463,
-      "store_id": "spdigital",
-      "price": 129990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/tarjeta-madre-asus-h610m-f-d4-ddr4-lga1700",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$129.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
     {
       "store_id": "alltec",
       "store_name": "Alltec",
-      "date": "2026-05-03",
+      "date": "2026-11-21",
       "price": 84900
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-11-21"
 }

@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "WiFi": "Integrado",
-    "Efectivo/Transferencia": "$615.990",
-    "Tarjeta crédito/débito": "$634.470"
+    "Efectivo/Transferencia": "$710.990",
+    "Tarjeta crédito/débito": "$732.320"
   },
   "tags": [],
   "created_at": "2026-06-09 23:42:22",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 71347,
       "store_id": "bcpstech",
-      "price": 615990,
-      "price_normal": 648990,
-      "discount_pct": 5,
+      "price": 710990,
+      "price_normal": 720990,
+      "discount_pct": 1,
       "stock": "in_stock",
       "product_url": "https://bcpstech.cl/?p=1055",
       "store_name": "BCPS Tech",
-      "price_card": 634470,
+      "price_card": 732320,
       "price_specs": {
-        "Efectivo/Transferencia": "$615.990",
-        "Tarjeta crédito/débito": "$634.470"
+        "Efectivo/Transferencia": "$710.990",
+        "Tarjeta crédito/débito": "$732.320"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -36,6 +36,13 @@
       "full_url": "https://bcpstech.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-11-21",
+      "price": 710990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

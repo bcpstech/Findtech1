@@ -11,29 +11,29 @@
     "Capacidad": "16 GB",
     "Tipo": "DDR5",
     "Velocidad": "6800 MHz",
-    "Efectivo / Transferencia": "$279.990",
-    "Tarjeta crédito/débito": "$295.389",
+    "Efectivo / Transferencia": "$399.990",
+    "Tarjeta crédito/débito": "$421.989",
     "Garantía": "6 meses",
     "SKU": "41205",
     "Part Number": "KF568C34BBE-16"
   },
   "tags": [],
   "created_at": "2026-06-08 20:49:59",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 60021,
       "store_id": "myshop",
-      "price": 279990,
-      "price_normal": 295389,
+      "price": 399990,
+      "price_normal": 421989,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/dimm-16-gb-ddr5-6800-mts-kingston-kf568c34bbe-16-p41205",
+      "product_url": "https://www.myshop.cl/producto/memoria-16gb-6800mts-ddr5-cl34-dimm-fury-beast-bl-p38815",
       "store_name": "MyShop",
-      "price_card": 288390,
+      "price_card": 411990,
       "price_specs": {
-        "Efectivo/Transferencia": "$279.990",
-        "Tarjeta crédito/débito": "$288.390"
+        "Efectivo/Transferencia": "$399.990",
+        "Tarjeta crédito/débito": "$411.990"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,6 +41,13 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 399990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

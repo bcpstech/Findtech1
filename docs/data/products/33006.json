@@ -1,32 +1,33 @@
 {
   "id": 33006,
   "external_id": "infor-ingen_m-b-asus-tuf-gaming-b760m-btf-wifi-hidden-connectors",
-  "category_id": "cpu",
+  "category_id": "mobo",
   "brand": "ASUS",
   "name": "M/B ASUS TUF GAMING B760M-BTF WIFI HIDDEN CONNECTORS",
   "slug": "infor-ingen-m-b-asus-tuf-gaming-b760m-btf-wifi-hidden-connectors",
   "image_url": "https://images.findtech.cl/products/m-b-asus-tuf-gaming-b760m-btf-wifi-hidden-connectors.jpg",
   "description": null,
   "specs": {
+    "WiFi": "Integrado",
     "Efectivo / Transferencia": "$269.900",
     "Tarjeta crédito/débito": "$277.997"
   },
   "tags": [],
   "created_at": "2026-05-04 02:43:08",
-  "updated_at": "2026-05-06 03:51:01",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 33006,
       "store_id": "infor-ingen",
       "price": 269900,
-      "price_card": 277997,
       "price_normal": 286094,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/m-b-asus-tuf-gaming-b760m-btf-wifi/",
       "store_name": "Infor-Ingen",
+      "price_card": 277997,
       "price_specs": {
-        "Efectivo/Transferencia": "$269.900",
+        "Efectivo / Transferencia": "$269.900",
         "Tarjeta crédito/débito": "$277.997"
       },
       "store_rating": 0,
@@ -39,21 +40,9 @@
     {
       "store_id": "infor-ingen",
       "store_name": "Infor-Ingen",
-      "date": "2026-05-04",
-      "price": 269900
-    },
-    {
-      "store_id": "infor-ingen",
-      "store_name": "Infor-Ingen",
-      "date": "2026-05-05",
-      "price": 269900
-    },
-    {
-      "store_id": "infor-ingen",
-      "store_name": "Infor-Ingen",
-      "date": "2026-05-06",
+      "date": "2026-11-21",
       "price": 269900
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-11-21"
 }

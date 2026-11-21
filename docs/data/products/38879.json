@@ -8,27 +8,24 @@
   "image_url": "https://images.findtech.cl/products/placa-madre-gigabyte-b840m-aorus-elite-wifi6e.jpg",
   "description": null,
   "specs": {
-    "Socket": "AM5",
-    "Memoria": "DDR5",
-    "Factor de forma": "ATX",
-    "Chipset": "AMD X870",
-    "Efectivo/Transferencia": "$361.471",
-    "Tarjeta crédito/débito": "$377.737"
+    "WiFi": "Integrado",
+    "Efectivo / Transferencia": "$243.760",
+    "Tarjeta crédito/débito": "$251.073"
   },
   "tags": [],
   "created_at": "2026-05-04 23:53:16",
-  "updated_at": "2026-05-08 23:18:23",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 38879,
       "store_id": "mybox",
       "price": 213551,
-      "price_card": 219958,
       "price_normal": 224790,
       "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/placa-madre/6030-placa-madre-b840m-aorus-elite-wifi6e-4719331867331.html",
       "store_name": "MyBox",
+      "price_card": 219958,
       "price_specs": {
         "Efectivo/Transferencia": "$213.551",
         "Tarjeta crédito/débito": "$219.958"
@@ -39,84 +36,32 @@
       "full_url": "https://www.mybox.cl"
     },
     {
-      "product_id": 44653,
-      "store_id": "winpy",
-      "price": 229824,
-      "price_card": 242005,
-      "price_normal": null,
-      "discount_pct": null,
+      "product_id": 96027,
+      "store_id": "infor-ingen",
+      "price": 276900,
+      "price_normal": 293514,
+      "discount_pct": 6,
       "stock": "in_stock",
-      "product_url": "https://www.winpy.cl/venta/placa-madre-gigabyte-b850m-aorus-elite-wifi6e-ice-am5-ddr5-pcie-5-0-wi-fi-6e-2x-m-2-micro-atx/",
-      "store_name": "Winpy",
+      "product_url": "https://store.infor-ingen.com/producto/m-b-gigabyte-b850m-aorus-elite-wifi6e-ice/",
+      "store_name": "Infor-Ingen",
+      "price_card": 285207,
       "price_specs": {
-        "Transferencia o Depósito": "$229.824",
-        "Otros medios de pago": "$242.005"
+        "Efectivo / Transferencia": "$276.900",
+        "Tarjeta crédito/débito": "$285.207"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.winpy.cl",
-      "full_url": "https://www.winpy.cl"
-    },
-    {
-      "product_id": 9427,
-      "store_id": "spdigital",
-      "price": 244995,
-      "price_card": 256020,
-      "price_normal": 349990,
-      "discount_pct": 30,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/placa-b850m-a-elite-wf7-ice-p",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$244.995",
-        "Webpay / Tarjeta": "$256.020"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 1373,
-      "store_id": "centrale",
-      "price": 247660,
-      "price_card": 261281,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-gigabyte-b850m-aorus-elite-wifi6e-ice-am5-ddr5-pcie-5-0-wi-fi-6e/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$247.660",
-        "Tarjetas de Crédito / Débito": "$261.281"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 2642,
-      "store_id": "trulustore",
-      "price": 299990,
-      "price_card": 308990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/placa-madre-gigabyte-b850m-aorus-elite-wifi7-ice-p-am5-wifi-7-bt-5-3-m-2-gen5-pcie-gen5-turbo-mode/",
-      "store_name": "TruluStore",
-      "khipu_price": 305990,
-      "price_specs": {
-        "Efectivo / Transferencia": "$299.990",
-        "Khipu": "$305.990",
-        "Tarjeta crédito/débito": "$308.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-11-21",
+      "price": 213551
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

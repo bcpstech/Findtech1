@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-07-14 19:43:26",
-  "updated_at": "2026-07-14 19:43:26",
+  "updated_at": "2026-11-21 22:40:34",
   "prices": [
     {
       "product_id": 92647,
@@ -33,46 +33,15 @@
       "review_count": 0,
       "store_url": "www.mybox.cl",
       "full_url": "https://www.mybox.cl"
-    },
-    {
-      "product_id": 1705,
-      "store_id": "centrale",
-      "price": 204400,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-1000w-asus-rog-strix-1000p-gaming-full-modular-80-platinum/",
-      "store_name": "Centrale",
-      "price_card": 215642,
-      "price_specs": {
-        "Transferencia / Efectivo": "$204.400",
-        "Tarjetas de Crédito / Débito": "$215.642"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9713,
-      "store_id": "spdigital",
-      "price": 210525,
-      "price_normal": 248750,
-      "discount_pct": 15,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/rog-strix-1000w-platinum",
-      "store_name": "SP Digital",
-      "price_card": 219999,
-      "price_specs": {
-        "Transferencia / Efectivo": "$210.525",
-        "Webpay / Tarjeta": "$219.999"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-11-21",
+      "price": 203890
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

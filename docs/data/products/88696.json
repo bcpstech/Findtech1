@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/monitor-msi-pro-mp243l-e14-24-144hz-4ms.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$86.990",
-    "Tarjeta crédito/débito": "$89.600"
+    "Efectivo/Transferencia": "$75.990",
+    "Tarjeta crédito/débito": "$78.270"
   },
   "tags": [],
   "created_at": "2026-07-07 01:09:12",
-  "updated_at": "2026-07-14 20:08:04",
+  "updated_at": "2026-11-21 23:05:25",
   "prices": [
     {
       "product_id": 88696,
       "store_id": "bcpstech",
-      "price": 86990,
+      "price": 75990,
       "price_normal": 97990,
-      "discount_pct": 11,
+      "discount_pct": 22,
       "stock": "in_stock",
       "product_url": "https://bcpstech.cl/?p=909",
       "store_name": "BCPS Tech",
-      "price_card": 89600,
+      "price_card": 78270,
       "price_specs": {
-        "Efectivo/Transferencia": "$86.990",
-        "Tarjeta crédito/débito": "$89.600"
+        "Efectivo/Transferencia": "$75.990",
+        "Tarjeta crédito/débito": "$78.270"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -35,6 +35,13 @@
       "full_url": "https://bcpstech.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-11-21",
+      "price": 75990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

@@ -12,29 +12,29 @@
     "Tipo": "DDR5",
     "Velocidad": "5600 MHz",
     "Iluminación": "RGB",
-    "Efectivo / Transferencia": "$157.990",
-    "Tarjeta crédito/débito": "$166.679",
+    "Efectivo / Transferencia": "$197.990",
+    "Tarjeta crédito/débito": "$208.879",
     "Garantía": "6 meses",
     "SKU": "32708",
     "Part Number": "KF556C36BBEA-8"
   },
   "tags": [],
   "created_at": "2026-06-08 20:49:46",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 59993,
       "store_id": "myshop",
-      "price": 157990,
-      "price_normal": 166679,
+      "price": 197990,
+      "price_normal": 208879,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/8gb-5600mts-ddr5-cl36-dimm-fury-beast-rgb-expo-p32708",
       "store_name": "MyShop",
-      "price_card": 162730,
+      "price_card": 203930,
       "price_specs": {
-        "Efectivo/Transferencia": "$157.990",
-        "Tarjeta crédito/débito": "$162.730"
+        "Efectivo/Transferencia": "$197.990",
+        "Tarjeta crédito/débito": "$203.930"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,6 +42,13 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 197990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

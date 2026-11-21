@@ -20,7 +20,7 @@
   },
   "tags": [],
   "created_at": "2026-04-26 16:05:40",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 119,
@@ -40,8 +40,34 @@
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 96740,
+      "store_id": "bcpstech",
+      "price": 125990,
+      "price_normal": 145990,
+      "discount_pct": 14,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=2109",
+      "store_name": "BCPS Tech",
+      "price_card": 129770,
+      "price_specs": {
+        "Efectivo/Transferencia": "$125.990",
+        "Tarjeta crédito/débito": "$129.770"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-11-21",
+      "price": 120900
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

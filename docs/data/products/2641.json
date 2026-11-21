@@ -5,7 +5,7 @@
   "brand": "AMD",
   "name": "PLACA MADRE MSI PRO A620AM-B EVO AMD AM5 / DDR5 / MATX",
   "slug": "placa-madre-msi-pro-a620am-b-evo-amd-am5-ddr5-matx",
-  "image_url": "https://trulustore.cl/wp-content/uploads/2023/07/gndo2hze_706a0a32_thumbnail_4096-300x300.png",
+  "image_url": "https://images.findtech.cl/products/placa-madre-msi-pro-a620am-b-evo-amd-am5-ddr5-matx.png",
   "description": null,
   "specs": {
     "Socket": "AM5",
@@ -16,25 +16,8 @@
   },
   "tags": [],
   "created_at": "2026-04-26 20:52:47",
-  "updated_at": "2026-05-03 05:12:06",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
-    {
-      "product_id": 1156,
-      "store_id": "cg",
-      "price": 89990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-msi-pro-a620am-b-evo/",
-      "store_name": "CentralGamer",
-      "price_specs": {
-        "Efectivo/Transferencia": "$89.990"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
-    },
     {
       "product_id": 2641,
       "store_id": "trulustore",
@@ -44,54 +27,45 @@
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/placa-madre-msi-pro-a620am-b-evo-amd-am5-ddr5-matx/",
       "store_name": "TruluStore",
+      "price_card": 97840,
       "khipu_price": 96890,
       "price_specs": {
         "Efectivo / Transferencia": "$94.990",
-        "Khipu": "$96.890"
+        "Khipu": "$96.890",
+        "Tarjeta crédito/débito": "$97.840"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.trulustore.cl",
       "full_url": "https://www.trulustore.cl"
+    },
+    {
+      "product_id": 1156,
+      "store_id": "cg",
+      "price": 120990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/placas-madre/placa-madre-msi-pro-a620am-b-evo/",
+      "store_name": "CentralGamer",
+      "price_card": 127354,
+      "price_specs": {
+        "Efectivo/Transferencia": "$120.990",
+        "Webpay / Tarjeta": "$127.354"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
   "history": [
     {
       "store_id": "trulustore",
       "store_name": "TruluStore",
-      "date": "2026-04-26",
-      "price": 94990
-    },
-    {
-      "store_id": "trulustore",
-      "store_name": "TruluStore",
-      "date": "2026-04-27",
-      "price": 94990
-    },
-    {
-      "store_id": "trulustore",
-      "store_name": "TruluStore",
-      "date": "2026-04-28",
-      "price": 94990
-    },
-    {
-      "store_id": "trulustore",
-      "store_name": "TruluStore",
-      "date": "2026-04-29",
-      "price": 94990
-    },
-    {
-      "store_id": "trulustore",
-      "store_name": "TruluStore",
-      "date": "2026-05-01",
-      "price": 94990
-    },
-    {
-      "store_id": "trulustore",
-      "store_name": "TruluStore",
-      "date": "2026-05-03",
+      "date": "2026-11-21",
       "price": 94990
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-11-21"
 }

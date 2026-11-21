@@ -11,29 +11,29 @@
     "Capacidad": "1 TB",
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
-    "Efectivo / Transferencia": "$159.990",
-    "Tarjeta crédito/débito": "$168.789",
+    "Efectivo / Transferencia": "$177.990",
+    "Tarjeta crédito/débito": "$187.779",
     "Garantía": "6 meses",
     "SKU": "33043",
     "Part Number": "824142304174"
   },
   "tags": [],
   "created_at": "2026-06-08 20:50:45",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 60101,
       "store_id": "myshop",
-      "price": 159990,
-      "price_normal": 168789,
-      "discount_pct": 20,
+      "price": 177990,
+      "price_normal": 187779,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/ssd-m2-2280-1tb-msi-spatium-m450-nvme-pcie-40-x4-spatium-m450-pcie-40-nvme-m2-p33043",
       "store_name": "MyShop",
-      "price_card": 164790,
+      "price_card": 183330,
       "price_specs": {
-        "Efectivo/Transferencia": "$159.990",
-        "Tarjeta crédito/débito": "$164.790"
+        "Efectivo/Transferencia": "$177.990",
+        "Tarjeta crédito/débito": "$183.330"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,6 +41,13 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 177990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

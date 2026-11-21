@@ -8,65 +8,27 @@
   "image_url": "https://images.findtech.cl/products/refrigeracion-liquida-msi-mpg-coreliquid-p13-360.jpg",
   "description": null,
   "specs": {
-    "Marca": "MSI",
-    "Efectivo/Transferencia": "$233.900",
-    "Webpay / Tarjeta": "$246.203"
+    "Peso": "2,75 kg",
+    "Efectivo/Transferencia": "$320.990",
+    "Webpay / Tarjeta": "$337.874"
   },
   "tags": [],
   "created_at": "2026-04-27 22:14:22",
-  "updated_at": "2026-07-14 19:09:28",
+  "updated_at": "2026-11-21 21:59:55",
   "prices": [
-    {
-      "product_id": 1607,
-      "store_id": "centrale",
-      "price": 162630,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/refrigeracion-liquida-msi-mpg-coreliquid-p13-360mm-argb-pantalla-2-1/",
-      "store_name": "Centrale",
-      "price_card": 171575,
-      "price_specs": {
-        "Transferencia / Efectivo": "$162.630",
-        "Tarjetas de Crédito / Débito": "$171.575"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9662,
-      "store_id": "spdigital",
-      "price": 177645,
-      "price_normal": 249990,
-      "discount_pct": 29,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/mpg-coreliquid-p13-360",
-      "store_name": "SP Digital",
-      "price_card": 185639,
-      "price_specs": {
-        "Transferencia / Efectivo": "$177.645",
-        "Webpay / Tarjeta": "$185.639"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
     {
       "product_id": 4208,
       "store_id": "cg",
-      "price": 233900,
+      "price": 320990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://centralgamer.cl/refrigeracion-pc/refrigeracion-liquida-cpu-msi-mpg-coreliquid-p13-360/",
       "store_name": "CentralGamer",
-      "price_card": 246203,
+      "price_card": 337874,
       "price_specs": {
-        "Efectivo/Transferencia": "$233.900",
-        "Webpay / Tarjeta": "$246.203"
+        "Efectivo/Transferencia": "$320.990",
+        "Webpay / Tarjeta": "$337.874"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -74,6 +36,13 @@
       "full_url": "https://www.centralgamer.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "cg",
+      "store_name": "CentralGamer",
+      "date": "2026-11-21",
+      "price": 320990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

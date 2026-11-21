@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/ventilador-arctic-s12038-8k.jpg",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$23.790",
-    "Tarjeta crédito/débito": "$24.504"
+    "Efectivo / Transferencia": "$24.990",
+    "Tarjeta crédito/débito": "$25.740"
   },
   "tags": [],
   "created_at": "2026-05-04 23:53:53",
-  "updated_at": "2026-07-14 19:43:08",
+  "updated_at": "2026-11-21 22:40:09",
   "prices": [
     {
       "product_id": 38932,
       "store_id": "mybox",
-      "price": 23790,
+      "price": 24990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://mybox.cl/ventiladores-fans/6119-ventilador-artic-s12038-8k-4895213704762.html",
+      "product_url": "https://mybox.cl/ventiladores-fans/6119-ventilador-arctic-s12038-8k-4895213704762.html",
       "store_name": "MyBox",
-      "price_card": 24504,
+      "price_card": 25740,
       "price_specs": {
-        "Efectivo/Transferencia": "$23.790",
-        "Tarjeta crédito/débito": "$24.504"
+        "Efectivo/Transferencia": "$24.990",
+        "Tarjeta crédito/débito": "$25.740"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -35,6 +35,13 @@
       "full_url": "https://www.mybox.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-11-21",
+      "price": 24990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

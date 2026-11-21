@@ -3,41 +3,67 @@
   "external_id": "pn_31aa075001p01",
   "category_id": "psu",
   "brand": "Cougar",
-  "name": "Fuente de Poder 750W (Certificada) - Cougar ATLAS 750 - 80 Plus Bronce - ATX - No modular (31AA075001P01)",
+  "name": "Fuente de Poder 750W - Cougar Atlas 750 - 80 Plus Bronze",
   "slug": "fuente-de-poder-750w-certificada-cougar-atlas-750-80-plus-bronce-atx-no-modular-31aa075001p01",
-  "image_url": "https://images.findtech.cl/products/fuente-de-poder-750w-certificada-cougar-atlas-750-80-plus-bronce-atx-no-modular-31aa075001p01.png",
+  "image_url": "https://images.findtech.cl/products/fuente-de-poder-750w-cougar-atlas-750-80-plus-bronze.png",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$57.990",
-    "Tarjeta crédito/débito": "$61.179",
+    "Efectivo / Transferencia": "$54.990",
+    "Tarjeta crédito/débito": "$58.014",
     "Garantía": "6 meses",
     "SKU": "41674",
     "Part Number": "31AA075001P01"
   },
   "tags": [],
   "created_at": "2026-05-05 12:33:15",
-  "updated_at": "2026-05-08 22:24:24",
+  "updated_at": "2026-11-21 22:16:51",
   "prices": [
     {
-      "product_id": 41324,
+      "product_id": 41323,
       "store_id": "myshop",
-      "price": 57990,
-      "price_card": 59730,
-      "price_normal": 61179,
-      "discount_pct": 20,
+      "price": 39990,
+      "price_normal": 42189,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/fuente-de-poder-750w-certificada-cougar-750-atx-31-80-plus-bronce-atx-31aa075001p01-p41674",
+      "product_url": "https://www.myshop.cl/producto/atlas-600-p40049",
       "store_name": "MyShop",
+      "price_card": 41190,
       "price_specs": {
-        "Efectivo/Transferencia": "$57.990",
-        "Tarjeta crédito/débito": "$59.730"
+        "Efectivo/Transferencia": "$39.990",
+        "Tarjeta crédito/débito": "$41.190"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 41323,
+      "store_id": "bcpstech",
+      "price": 53990,
+      "price_normal": 62990,
+      "discount_pct": 14,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=1903",
+      "store_name": "BCPS Tech",
+      "price_card": 55610,
+      "price_specs": {
+        "Efectivo/Transferencia": "$53.990",
+        "Tarjeta crédito/débito": "$55.610"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 54990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

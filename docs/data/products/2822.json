@@ -8,35 +8,101 @@
   "image_url": "https://images.findtech.cl/products/amd-ryzen-7-8700g-4-2ghz-5-1ghz-turbo-octa-core-tdp-65w-am5-amd-radeon-780m-graphics.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$259.900",
-    "Tarjeta crédito/débito": "$267.697"
+    "Frecuencia base": "4.2 GHz",
+    "Frecuencia turbo": "5.1 GHz",
+    "Socket": "AM5",
+    "Gráficos integrados": "Sí",
+    "Efectivo / Transferencia": "$265.900",
+    "Tarjeta crédito/débito": "$273.877"
   },
   "tags": [],
   "created_at": "2026-04-27 00:32:13",
-  "updated_at": "2026-04-27 00:32:13",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 2822,
       "store_id": "alltec",
-      "price": 259900,
+      "price": 265900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2459-amd-ryzen-7-8700g-42ghz-51ghz-turbo-octa-core-tdp-65w-am5-amd-radeon-780m-graphics.html",
       "store_name": "Alltec",
+      "price_card": 273877,
+      "price_specs": {
+        "Efectivo/Transferencia": "$265.900",
+        "Tarjeta crédito/débito": "$273.877"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 1935,
+      "store_id": "dust2",
+      "price": 287490,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://dust2.gg/producto/procesador-amd-ryzen-7-8700g-8-core-5-15ghz-24mb/",
+      "store_name": "Dust2",
+      "price_card": 296115,
+      "price_specs": {
+        "Efectivo/Transferencia": "$287.490",
+        "Tarjeta crédito/débito": "$296.115"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.dust2.gg",
+      "full_url": "https://www.dust2.gg"
+    },
+    {
+      "product_id": 32926,
+      "store_id": "infor-ingen",
+      "price": 299900,
+      "price_normal": 317894,
+      "discount_pct": 6,
+      "stock": "in_stock",
+      "product_url": "https://store.infor-ingen.com/producto/cpu-amd-ryzen-7-8700g-4-2ghz/",
+      "store_name": "Infor-Ingen",
+      "price_card": 308897,
+      "price_specs": {
+        "Efectivo / Transferencia": "$299.900",
+        "Tarjeta crédito/débito": "$308.897"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
+    },
+    {
+      "product_id": 38841,
+      "store_id": "mybox",
+      "price": 401004,
+      "price_normal": 458290,
+      "discount_pct": 12,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/procesador/5324-procesador-amd-ryzen-7-8700g.html",
+      "store_name": "MyBox",
+      "price_card": 413034,
+      "price_specs": {
+        "Efectivo/Transferencia": "$401.004",
+        "Tarjeta crédito/débito": "$413.034"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
     {
       "store_id": "alltec",
       "store_name": "Alltec",
-      "date": "2026-04-27",
-      "price": 259900
+      "date": "2026-11-21",
+      "price": 265900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-11-21"
 }

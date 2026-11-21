@@ -11,29 +11,29 @@
     "Capacidad": "32 GB",
     "Tipo": "DDR5",
     "Velocidad": "5600 MHz",
-    "Efectivo / Transferencia": "$449.990",
-    "Tarjeta crédito/débito": "$474.739",
-    "Garantía": "6 meses",
+    "Efectivo / Transferencia": "$717.990",
+    "Tarjeta crédito/débito": "$757.479",
+    "Garantía": "",
     "SKU": "40775",
     "Part Number": "KCP556SD8-32"
   },
   "tags": [],
   "created_at": "2026-06-08 20:50:03",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 60030,
       "store_id": "myshop",
-      "price": 449990,
-      "price_normal": 474739,
+      "price": 717990,
+      "price_normal": 757479,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/sodimm-32-gb-ddr5-5600-mts-kingston-kcp556sd8-32-p40775",
+      "product_url": "https://www.myshop.cl/producto/sodimm-32-gb-kingston-ddr5-5600-mhz-kcp556sd8-32-p22022",
       "store_name": "MyShop",
-      "price_card": 463490,
+      "price_card": 739530,
       "price_specs": {
-        "Efectivo/Transferencia": "$449.990",
-        "Tarjeta crédito/débito": "$463.490"
+        "Efectivo/Transferencia": "$717.990",
+        "Tarjeta crédito/débito": "$739.530"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,6 +41,13 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 717990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

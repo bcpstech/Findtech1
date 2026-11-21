@@ -8,25 +8,28 @@
   "image_url": "https://images.findtech.cl/products/procesador-intel-core-i5-14400f.jpg",
   "description": null,
   "specs": {
-    "Marca": "INTEL",
-    "Efectivo/Transferencia": "$228.563",
-    "Webpay / Tarjeta": "$240.585"
+    "Peso": "1 kg",
+    "Dimensiones": "6,5 × 10,5 × 13,5 cm",
+    "Efectivo/Transferencia": "$280.990",
+    "Webpay / Tarjeta": "$295.770"
   },
   "tags": [],
   "created_at": "2026-04-26 20:35:45",
-  "updated_at": "2026-05-01 13:08:20",
+  "updated_at": "2026-11-21 21:59:09",
   "prices": [
     {
       "product_id": 1143,
       "store_id": "cg",
-      "price": 228563,
+      "price": 280990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/intel-core-i5-i5-14400f-2-5-ghz-10-nucleos-16-hilos-20-mb-cache-fclga1700-socket-caja/",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-intel-core-i5-14400f/",
       "store_name": "CentralGamer",
+      "price_card": 295770,
       "price_specs": {
-        "Efectivo/Transferencia": "$228.563"
+        "Efectivo/Transferencia": "$280.990",
+        "Webpay / Tarjeta": "$295.770"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,33 +41,9 @@
     {
       "store_id": "cg",
       "store_name": "CentralGamer",
-      "date": "2026-04-26",
-      "price": 209680
-    },
-    {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-04-27",
-      "price": 210360
-    },
-    {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-04-28",
-      "price": 221202
-    },
-    {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-04-29",
-      "price": 227118
-    },
-    {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-05-01",
-      "price": 228563
+      "date": "2026-11-21",
+      "price": 280990
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-11-21"
 }

@@ -13,29 +13,29 @@
     "Velocidad": "6000 MHz",
     "Kit": "2x16 GB",
     "Iluminación": "RGB",
-    "Efectivo / Transferencia": "$649.990",
-    "Tarjeta crédito/débito": "$685.739",
+    "Efectivo / Transferencia": "$879.990",
+    "Tarjeta crédito/débito": "$928.389",
     "Garantía": "6 meses",
     "SKU": "43785",
     "Part Number": "KF560C36BBE2AK2-32"
   },
   "tags": [],
   "created_at": "2026-06-09 02:52:03",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 68329,
       "store_id": "myshop",
-      "price": 649990,
-      "price_normal": 685739,
+      "price": 879990,
+      "price_normal": 928389,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/memoria-ram-dimm-32gb-ddr5-6000mts-cl36-kit-of-2-fury-best-rgb-p43785",
       "store_name": "MyShop",
-      "price_card": 669490,
+      "price_card": 906390,
       "price_specs": {
-        "Efectivo/Transferencia": "$649.990",
-        "Tarjeta crédito/débito": "$669.490"
+        "Efectivo/Transferencia": "$879.990",
+        "Tarjeta crédito/débito": "$906.390"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,6 +43,13 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 879990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

@@ -16,7 +16,7 @@
   },
   "tags": [],
   "created_at": "2026-06-20 00:19:15",
-  "updated_at": "2026-07-14 19:21:16",
+  "updated_at": "2026-11-21 22:14:29",
   "prices": [
     {
       "product_id": 72724,
@@ -38,6 +38,13 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 79990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

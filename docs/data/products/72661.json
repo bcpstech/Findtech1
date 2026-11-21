@@ -12,29 +12,29 @@
     "Tipo": "DDR4",
     "Velocidad": "3200 MHz",
     "Kit": "1x16 GB",
-    "Efectivo / Transferencia": "$163.990",
-    "Tarjeta crédito/débito": "$173.009",
+    "Efectivo / Transferencia": "$167.990",
+    "Tarjeta crédito/débito": "$177.229",
     "Garantía": "6 meses",
     "SKU": "32288",
     "Part Number": "CMSX16GX4M1A3200C22"
   },
   "tags": [],
   "created_at": "2026-06-20 00:17:12",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
-      "product_id": 60052,
+      "product_id": 60079,
       "store_id": "myshop",
-      "price": 75990,
-      "price_normal": 80169,
+      "price": 139870,
+      "price_normal": 147563,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/sodimm-8-gb-kingston-valueram-ddr4-3200-mhz-kvr32s22s88-p38498",
+      "product_url": "https://www.myshop.cl/producto/sodimm-16-gb-adata-ddr4-3200-mhz-ad4s320016g22-sgn-p12092",
       "store_name": "MyShop",
-      "price_card": 78270,
+      "price_card": 144066,
       "price_specs": {
-        "Efectivo/Transferencia": "$75.990",
-        "Tarjeta crédito/débito": "$78.270"
+        "Efectivo/Transferencia": "$139.870",
+        "Tarjeta crédito/débito": "$144.066"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,6 +42,13 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 167990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/silla-gamer-vertagear-sl3800-carbon-black.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$252.990",
-    "Tarjeta crédito/débito": "$260.580"
+    "Efectivo/Transferencia": "$268.990",
+    "Tarjeta crédito/débito": "$277.060"
   },
   "tags": [],
   "created_at": "2026-07-07 01:10:51",
-  "updated_at": "2026-07-14 20:09:16",
+  "updated_at": "2026-11-21 23:07:03",
   "prices": [
     {
       "product_id": 88738,
       "store_id": "bcpstech",
-      "price": 252990,
+      "price": 268990,
       "price_normal": 279590,
-      "discount_pct": 10,
+      "discount_pct": 4,
       "stock": "in_stock",
       "product_url": "https://bcpstech.cl/?p=1459",
       "store_name": "BCPS Tech",
-      "price_card": 260580,
+      "price_card": 277060,
       "price_specs": {
-        "Efectivo/Transferencia": "$252.990",
-        "Tarjeta crédito/débito": "$260.580"
+        "Efectivo/Transferencia": "$268.990",
+        "Tarjeta crédito/débito": "$277.060"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -35,6 +35,13 @@
       "full_url": "https://bcpstech.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-11-21",
+      "price": 268990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

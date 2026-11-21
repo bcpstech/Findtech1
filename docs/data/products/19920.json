@@ -1,81 +1,50 @@
 {
   "id": 19920,
   "external_id": "pn_382da400001",
-  "category_id": "case",
+  "category_id": "cooling",
   "brand": "Cougar",
   "name": "Gabinete - Cougar CFV235 - S/Fuente - ATX - Negro - Incluye 1 FAN  240 ARGB PWM (Unity 2x120) + 120mm ARGB PWM Trasero + ARGB Strip en la estructura flotante",
   "slug": "gabinete-cougar-cfv235-s-fuente-atx-negro-incluye-1-fan-240-argb-pwm-unity-2x120-120mm-argb-pwm",
   "image_url": "https://images.findtech.cl/products/gabinete-cougar-cfv235-s-fuente-atx-negro-incluye-1-fan-240-argb-pwm-unity-2x120-120mm-argb-pwm-tras.png",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$95.990",
-    "Tarjeta crédito/débito": "$101.269",
+    "Efectivo / Transferencia": "$99.890",
+    "Tarjeta crédito/débito": "$105.384",
     "Garantía": "6 meses",
     "SKU": "41605",
     "Part Number": "382DA40.0001"
   },
   "tags": [],
   "created_at": "2026-05-01 13:20:26",
-  "updated_at": "2026-07-14 19:22:49",
+  "updated_at": "2026-11-21 22:15:14",
   "prices": [
     {
       "product_id": 19920,
       "store_id": "myshop",
-      "price": 95990,
-      "price_normal": 101269,
-      "discount_pct": 20,
+      "price": 99890,
+      "price_normal": 105384,
+      "discount_pct": 41,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/gabinete-cougar-cfv235-sfuente-atx-negro-incluye-1-fan-240-argb-pwm-unity-120mm-argb-pwm-trasero-p41605",
       "store_name": "MyShop",
-      "price_card": 98870,
+      "price_card": 102887,
       "price_specs": {
-        "Efectivo/Transferencia": "$95.990",
-        "Tarjeta crédito/débito": "$98.870"
+        "Efectivo/Transferencia": "$99.890",
+        "Tarjeta crédito/débito": "$102.887"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 73649,
-      "store_id": "centrale",
-      "price": 114220,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-gamer-cougar-cfv235-atx-vidrio-templado-3-ventiladores-negro/",
-      "store_name": "Centrale",
-      "price_card": 120502,
-      "price_specs": {
-        "Transferencia / Efectivo": "$114.220",
-        "Tarjetas de Crédito / Débito": "$120.502"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 55638,
-      "store_id": "spdigital",
-      "price": 172420,
-      "price_normal": 249990,
-      "discount_pct": 31,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/gabinete-gamer-cougar-cfv235-vision-mid-tower-diseno-flotante-lcd-916-incluye-fan-240mm-negro",
-      "store_name": "SP Digital",
-      "price_card": 180179,
-      "price_specs": {
-        "Transferencia / Efectivo": "$172.420",
-        "Webpay / Tarjeta": "$180.179"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 99890
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-gigabyte-ud-1000w-gold.jpg",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$132.991",
-    "Tarjeta crédito/débito": "$136.981"
+    "Efectivo / Transferencia": "$120.241",
+    "Tarjeta crédito/débito": "$123.848"
   },
   "tags": [],
   "created_at": "2026-05-04 23:54:22",
-  "updated_at": "2026-07-14 19:43:38",
+  "updated_at": "2026-11-21 22:40:48",
   "prices": [
     {
       "product_id": 38982,
       "store_id": "mybox",
-      "price": 132991,
-      "price_normal": 139990,
-      "discount_pct": 5,
+      "price": 120241,
+      "price_normal": 129990,
+      "discount_pct": 7,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/fuentes-de-poder/4968-fuente-de-poder-gigabyte-ud-1000w-gold.html",
       "store_name": "MyBox",
-      "price_card": 136981,
+      "price_card": 123848,
       "price_specs": {
-        "Efectivo/Transferencia": "$132.991",
-        "Tarjeta crédito/débito": "$136.981"
+        "Efectivo/Transferencia": "$120.241",
+        "Tarjeta crédito/débito": "$123.848"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -35,6 +35,13 @@
       "full_url": "https://www.mybox.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-11-21",
+      "price": 120241
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

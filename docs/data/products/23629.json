@@ -13,7 +13,7 @@
   },
   "tags": [],
   "created_at": "2026-05-03 04:34:48",
-  "updated_at": "2026-07-14 19:25:45",
+  "updated_at": "2026-11-21 22:21:57",
   "prices": [
     {
       "product_id": 23629,
@@ -35,6 +35,13 @@
       "full_url": "https://www.alltec.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-11-21",
+      "price": 59900
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

@@ -11,29 +11,29 @@
     "Capacidad": "16 GB",
     "Tipo": "DDR5",
     "Velocidad": "6400 MHz",
-    "Efectivo / Transferencia": "$297.990",
-    "Tarjeta crédito/débito": "$314.379",
-    "Garantía": "",
+    "Efectivo / Transferencia": "$397.990",
+    "Tarjeta crédito/débito": "$419.879",
+    "Garantía": "6 meses",
     "SKU": "41092",
     "Part Number": "KF564C32BBE-16"
   },
   "tags": [],
   "created_at": "2026-06-09 00:49:43",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 64105,
       "store_id": "myshop",
-      "price": 297990,
-      "price_normal": 314379,
+      "price": 397990,
+      "price_normal": 419879,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/kingston-fury-ddr5-sdram-dimm-288-pin-6400-mhz-cl32-generic-ecc-dimm-p41092",
+      "product_url": "https://www.myshop.cl/producto/kingston-fury-ddr5-sdram-dimm-288-pin-6400-mhz-cl32-generic-ecc-dimm-p32079",
       "store_name": "MyShop",
-      "price_card": 306930,
+      "price_card": 409930,
       "price_specs": {
-        "Efectivo/Transferencia": "$297.990",
-        "Tarjeta crédito/débito": "$306.930"
+        "Efectivo/Transferencia": "$397.990",
+        "Tarjeta crédito/débito": "$409.930"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,6 +41,13 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 397990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

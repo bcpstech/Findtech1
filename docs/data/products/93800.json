@@ -1,0 +1,74 @@
+{
+  "id": 93800,
+  "external_id": "pn_dualrtx3060o12gv2",
+  "category_id": "gpu",
+  "brand": "Asus",
+  "name": "Tarjeta de Video ASUS GeForce RTX 3060 Dual V2 OC 12GB GDDR6",
+  "slug": "tarjeta-de-video-asus-geforce-rtx-3060-dual-v2-oc-12gb-gddr6",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-asus-geforce-rtx-3060-dual-v2-oc-12gb-gddr6.png",
+  "description": null,
+  "specs": {
+    "VRAM": "12 GB",
+    "Tipo memoria": "GDDR6",
+    "Bus de memoria": "192-bit",
+    "Arquitectura": "Ampere",
+    "Variante": "OC (Overclocked)",
+    "Efectivo / Transferencia": "$459.990",
+    "Tarjeta crédito/débito": "$485.289",
+    "Garantía": "6 meses",
+    "SKU": "19019",
+    "Part Number": "DUAL-RTX3060-O12G-V2"
+  },
+  "tags": [],
+  "created_at": "2026-11-21 22:05:20",
+  "updated_at": "2026-11-21 23:07:48",
+  "prices": [
+    {
+      "product_id": 93800,
+      "store_id": "myshop",
+      "price": 459990,
+      "price_normal": 485289,
+      "discount_pct": 14,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/tarjeta-de-video-asus-dual-rtx3060-o12g-v2-12-gb-gddr6-192-bit-p19019",
+      "store_name": "MyShop",
+      "price_card": 473790,
+      "price_specs": {
+        "Efectivo/Transferencia": "$459.990",
+        "Tarjeta crédito/débito": "$473.790"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 96781,
+      "store_id": "bcpstech",
+      "price": 470990,
+      "price_normal": 520990,
+      "discount_pct": 10,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=2537",
+      "store_name": "BCPS Tech",
+      "price_card": 485120,
+      "price_specs": {
+        "Efectivo/Transferencia": "$470.990",
+        "Tarjeta crédito/débito": "$485.120"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 459990
+    }
+  ],
+  "scraped_at": "2026-11-21"
+}

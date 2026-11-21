@@ -3,32 +3,31 @@
   "external_id": "pn_e481whnns00",
   "category_id": "case",
   "brand": "Cooler Master",
-  "name": "Gabinete Cooler Master Elite 481 Wood - White",
+  "name": "Cooler Master Elite 481 Wood - White",
   "slug": "gabinete-cooler-master-elite-481-wood-s-fuente-m-atx-blanco-incluye-3-ventiladores-argb-de-120-",
-  "image_url": "https://images.findtech.cl/products/gabinete-cooler-master-elite-481-wood-white.webp",
+  "image_url": "https://images.findtech.cl/products/cooler-master-elite-481-wood-white.webp",
   "description": null,
   "specs": {
-    "Marca": "Cooler Master",
-    "Efectivo / Transferencia": "$59.990",
-    "Tarjeta crédito/débito": "$61.790"
+    "Efectivo/Transferencia": "$57.990",
+    "Tarjeta crédito/débito": "$59.730"
   },
   "tags": [],
   "created_at": "2026-05-01 13:18:20",
-  "updated_at": "2026-07-14 20:07:44",
+  "updated_at": "2026-11-21 23:05:01",
   "prices": [
     {
       "product_id": 19877,
       "store_id": "myshop",
-      "price": 54990,
-      "price_normal": 58014,
+      "price": 56800,
+      "price_normal": 59924,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/elite-481-wood-white-p40936",
       "store_name": "MyShop",
-      "price_card": 56640,
+      "price_card": 58504,
       "price_specs": {
-        "Efectivo/Transferencia": "$54.990",
-        "Tarjeta crédito/débito": "$56.640"
+        "Efectivo/Transferencia": "$56.800",
+        "Tarjeta crédito/débito": "$58.504"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -36,56 +35,18 @@
       "full_url": "https://www.myshop.cl"
     },
     {
-      "product_id": 2374,
-      "store_id": "dust2",
-      "price": 59990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/gabinete-cooler-master-elite-481-wood-m-atx-m-itx-blanco/",
-      "store_name": "Dust2",
-      "price_card": 61790,
-      "price_specs": {
-        "Efectivo/Transferencia": "$59.990",
-        "Tarjeta crédito/débito": "$61.790"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 61047,
-      "store_id": "centrale",
-      "price": 60970,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-cooler-master-elite-690-wood-atx-micro-atx-2xusb-3-0-3x120mm-argb/",
-      "store_name": "Centrale",
-      "price_card": 64323,
-      "price_specs": {
-        "Transferencia / Efectivo": "$60.970",
-        "Tarjetas de Crédito / Débito": "$64.323"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
       "product_id": 19877,
       "store_id": "bcpstech",
-      "price": 60990,
+      "price": 57990,
       "price_normal": 75990,
-      "discount_pct": 20,
+      "discount_pct": 24,
       "stock": "in_stock",
       "product_url": "https://bcpstech.cl/?p=1580",
       "store_name": "BCPS Tech",
-      "price_card": 62820,
+      "price_card": 59730,
       "price_specs": {
-        "Efectivo/Transferencia": "$60.990",
-        "Tarjeta crédito/débito": "$62.820"
+        "Efectivo/Transferencia": "$57.990",
+        "Tarjeta crédito/débito": "$59.730"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -93,6 +54,19 @@
       "full_url": "https://bcpstech.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-11-21",
+      "price": 57990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 56800
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

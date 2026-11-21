@@ -9,15 +9,13 @@
   "description": null,
   "specs": {
     "Socket": "AM4",
-    "Factor de forma": "Micro-ATX",
     "Memoria": "DDR4",
-    "Chipset": "AMD A520",
-    "Efectivo/Transferencia": "$79.990",
-    "Tarjeta crédito/débito": "$83.590"
+    "Efectivo / Transferencia": "$59.900",
+    "Tarjeta crédito/débito": "$61.697"
   },
   "tags": [],
   "created_at": "2026-05-03 04:32:48",
-  "updated_at": "2026-05-03 22:40:02",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 23522,
@@ -28,8 +26,10 @@
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/para-amd/1333-mb-asus-prime-a520m-k-am4-ddr4-ryzen-5000.html",
       "store_name": "Alltec",
+      "price_card": 61697,
       "price_specs": {
-        "Efectivo/Transferencia": "$59.900"
+        "Efectivo/Transferencia": "$59.900",
+        "Tarjeta crédito/débito": "$61.697"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,64 +37,53 @@
       "full_url": "https://www.alltec.cl"
     },
     {
-      "product_id": 1410,
-      "store_id": "centrale",
-      "price": 60990,
+      "product_id": 90165,
+      "store_id": "trulustore",
+      "price": 63990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/placa-madre-micro-atx-asus-prime-a520m-k-socket-amd-am4/",
-      "store_name": "Centrale",
+      "product_url": "https://trulustore.cl/producto/placa-madre-asus-prime-a520m-k-am4/",
+      "store_name": "TruluStore",
+      "price_card": 65910,
+      "khipu_price": 65270,
       "price_specs": {
-        "Transferencia / Efectivo": "$60.990"
+        "Efectivo / Transferencia": "$63.990",
+        "Khipu": "$65.270",
+        "Tarjeta crédito/débito": "$65.910"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     },
     {
-      "product_id": 1165,
-      "store_id": "cg",
-      "price": 66319,
-      "price_normal": null,
-      "discount_pct": null,
+      "product_id": 38912,
+      "store_id": "mybox",
+      "price": 64116,
+      "price_normal": 67490,
+      "discount_pct": 5,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/placas-madre/asus-prime-a520m-k-placa-base-micro-atx-socket-am4-amd-a520-chipset-usb-3-2-gen-1-gigabit-lan-tarjeta-grafica-cpu-necesaria-hd-audio-8-canales/",
-      "store_name": "CentralGamer",
+      "product_url": "https://mybox.cl/placa-madre/3863-prime-a520m-k-4718017826921.html",
+      "store_name": "MyBox",
+      "price_card": 66039,
       "price_specs": {
-        "Efectivo/Transferencia": "$66.319"
+        "Efectivo/Transferencia": "$64.116",
+        "Tarjeta crédito/débito": "$66.039"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
-    },
-    {
-      "product_id": 9438,
-      "store_id": "spdigital",
-      "price": 66590,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/placa-madre-asus-prime-a520m-k-socket-amd-am4-2xddr4-1x-m2-4x-sata-hdmi-vga-micro-atx",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$66.590"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
     {
       "store_id": "alltec",
       "store_name": "Alltec",
-      "date": "2026-05-03",
+      "date": "2026-11-21",
       "price": 59900
     }
   ],
-  "scraped_at": "2026-05-03"
+  "scraped_at": "2026-11-21"
 }

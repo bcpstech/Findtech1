@@ -3,66 +3,51 @@
   "external_id": "pn_ztb50610h10a",
   "category_id": "gpu",
   "brand": "Zotac",
-  "name": "Tarjeta de Video - Zotac Gaming Twin Edge  - Nvidia GeForce RTX 5060 Ti OC Edition - 8 GB, GDDR7, 128 bits - PCIe 5.0 - DisplayPort, HDMI",
+  "name": "Tarjeta de Video Zotac Gaming GeForce RTX 5060 Ti Twin Edge OC 8GB GDDR7",
   "slug": "tarjeta-de-video-zotac-gaming-twin-edge-nvidia-geforce-rtx-5060-ti-oc-edition-8-gb-gddr7-128-bi",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-zotac-gaming-twin-edge-nvidia-geforce-rtx-5060-ti-oc-edition-8-gb-gddr7-128-bits-pc.jpg",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-zotac-gaming-geforce-rtx-5060-ti-twin-edge-oc-8gb-gddr7.jpg",
   "description": null,
   "specs": {
     "VRAM": "8 GB",
     "Tipo memoria": "GDDR7",
-    "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$509.500",
-    "Tarjeta crédito/débito": "$537.523",
-    "Garantía": "",
+    "Efectivo / Transferencia": "$617.990",
+    "Tarjeta crédito/débito": "$651.979",
+    "Garantía": "6 meses",
     "SKU": "43847",
     "Part Number": "ZT-B50610H-10A"
   },
   "tags": [],
   "created_at": "2026-06-25 18:03:37",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 76578,
       "store_id": "myshop",
-      "price": 509500,
-      "price_normal": 537523,
-      "discount_pct": 21,
+      "price": 617990,
+      "price_normal": 651979,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/zotac-geforce-rtx5060ti-twin-edge-oc-p43847",
+      "product_url": "https://www.myshop.cl/producto/zotac-geforce-rtx5060ti-twin-edge-oc-p42177",
       "store_name": "MyShop",
-      "price_card": 524785,
+      "price_card": 636530,
       "price_specs": {
-        "Efectivo/Transferencia": "$509.500",
-        "Tarjeta crédito/débito": "$524.785"
+        "Efectivo/Transferencia": "$617.990",
+        "Tarjeta crédito/débito": "$636.530"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 2596,
-      "store_id": "trulustore",
-      "price": 519990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-geforce-rtx-5060-ti-16gb-twin-edge-oc-white-edition/",
-      "store_name": "TruluStore",
-      "price_card": 535590,
-      "khipu_price": 530390,
-      "price_specs": {
-        "Efectivo / Transferencia": "$519.990",
-        "Khipu": "$530.390",
-        "Tarjeta crédito/débito": "$535.590"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 617990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/gabinete-asus-a31-case-white.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$75.990",
-    "Tarjeta crédito/débito": "$78.270"
+    "Efectivo/Transferencia": "$57.990",
+    "Tarjeta crédito/débito": "$59.730"
   },
   "tags": [],
   "created_at": "2026-06-09 23:41:25",
-  "updated_at": "2026-07-14 20:07:35",
+  "updated_at": "2026-11-21 23:04:46",
   "prices": [
     {
       "product_id": 71326,
       "store_id": "bcpstech",
-      "price": 75990,
-      "price_normal": 95990,
-      "discount_pct": 21,
+      "price": 57990,
+      "price_normal": 80990,
+      "discount_pct": 28,
       "stock": "in_stock",
       "product_url": "https://bcpstech.cl/?p=1222",
       "store_name": "BCPS Tech",
-      "price_card": 78270,
+      "price_card": 59730,
       "price_specs": {
-        "Efectivo/Transferencia": "$75.990",
-        "Tarjeta crédito/débito": "$78.270"
+        "Efectivo/Transferencia": "$57.990",
+        "Tarjeta crédito/débito": "$59.730"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -35,6 +35,13 @@
       "full_url": "https://bcpstech.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-11-21",
+      "price": 57990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

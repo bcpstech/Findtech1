@@ -3,9 +3,9 @@
   "external_id": "pn_912v531628",
   "category_id": "gpu",
   "brand": "MSI",
-  "name": "Tarjeta de Video Nvidia RTX 5080 16GB - MSI SHADOW 3x OC Edition - GDDR7, 256 bits - PCIe 5.0 - DisplayPort, HDMI",
+  "name": "Tarjeta de Video MSI GeForce RTX 5080 Shadow 3X OC 16GB GDDR7",
   "slug": "tarjeta-de-video-msi-shadow-3x-nvidia-geforce-rtx-5080-16g-oc-edition-16-gb-gddr7-256-bits-pcie",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-rtx-5080-16gb-msi-shadow-3x-oc-edition-gddr7-256-bits-pcie-5-0-displayport-h.jpg",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-msi-geforce-rtx-5080-shadow-3x-oc-16gb-gddr7.jpg",
   "description": null,
   "specs": {
     "VRAM": "16 GB",
@@ -13,29 +13,29 @@
     "Bus de memoria": "256-bit",
     "Arquitectura": "Blackwell",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$1.677.990",
-    "Tarjeta crédito/débito": "$1.770.279",
+    "Efectivo / Transferencia": "$2.069.990",
+    "Tarjeta crédito/débito": "$2.183.839",
     "Garantía": "6 meses",
     "SKU": "42285",
     "Part Number": "912-V531-628"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:47",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 19843,
       "store_id": "myshop",
-      "price": 1677990,
-      "price_normal": 1770279,
-      "discount_pct": 16,
+      "price": 2069990,
+      "price_normal": 2183839,
+      "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/rtx-5080-16g-shadow-3x-oc-p42285",
+      "product_url": "https://www.myshop.cl/producto/tarjeta-de-video-msi-shadow-3x-nvidia-geforce-rtx-5080-16g-oc-edition-16-gb-gddr7-256-bits-pcie-50-displayport-hdmi-p42488",
       "store_name": "MyShop",
-      "price_card": 1728330,
+      "price_card": 2132090,
       "price_specs": {
-        "Efectivo/Transferencia": "$1.677.990",
-        "Tarjeta crédito/débito": "$1.728.330"
+        "Efectivo/Transferencia": "$2.069.990",
+        "Tarjeta crédito/débito": "$2.132.090"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,6 +43,13 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 2069990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

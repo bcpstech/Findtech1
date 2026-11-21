@@ -8,72 +8,41 @@
   "image_url": "https://images.findtech.cl/products/procesador-intel-core-ultra-5-245kf.jpg",
   "description": null,
   "specs": {
-    "Frecuencia base": "5.20 GHz",
-    "Frecuencia turbo": "5,2 GHz",
-    "TDP": "125W",
-    "Socket": "FCLGA1851",
-    "Gráficos integrados": "No disponible",
-    "Familia": "Intel Core Ultra 5",
-    "Núcleos": "14",
-    "Incluye cooler": "No",
-    "Caché L3": "24 MB",
-    "Memoria soportada": "DDR5-SDRAM",
-    "Efectivo/Transferencia": "$350.960",
-    "Tarjeta crédito/débito": "$366.750"
+    "Peso": "2 kg",
+    "Efectivo/Transferencia": "$408.990",
+    "Webpay / Tarjeta": "$430.503"
   },
   "tags": [],
   "created_at": "2026-04-29 03:31:37",
-  "updated_at": "2026-05-01 00:26:16",
+  "updated_at": "2026-11-21 21:58:40",
   "prices": [
     {
       "product_id": 13798,
       "store_id": "cg",
-      "price": 275116,
+      "price": 408990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/intel-core-ultra-5-245kf-4-2-ghz-14-core-lga1851/",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-intel-core-ultra-5-245kf/",
       "store_name": "CentralGamer",
+      "price_card": 430503,
       "price_specs": {
-        "Efectivo/Transferencia": "$275.116"
+        "Efectivo/Transferencia": "$408.990",
+        "Webpay / Tarjeta": "$430.503"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
-    },
-    {
-      "product_id": 9423,
-      "store_id": "spdigital",
-      "price": 350960,
-      "price_normal": 366750,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/procesador-intel-core-ultra-5-245kf-cache-de-24-m-hasta-520-ghz-socket-lga1851-125w-sin-video",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$350.960",
-        "Webpay / Tarjeta": "$366.750"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
     {
       "store_id": "cg",
       "store_name": "CentralGamer",
-      "date": "2026-04-29",
-      "price": 272059
-    },
-    {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-05-01",
-      "price": 275116
+      "date": "2026-11-21",
+      "price": 408990
     }
   ],
-  "scraped_at": "2026-05-01"
+  "scraped_at": "2026-11-21"
 }

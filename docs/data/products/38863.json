@@ -9,26 +9,26 @@
   "description": null,
   "specs": {
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$580.491",
-    "Tarjeta crédito/débito": "$597.906"
+    "Efectivo / Transferencia": "$674.491",
+    "Tarjeta crédito/débito": "$694.726"
   },
   "tags": [],
   "created_at": "2026-05-04 23:53:02",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 38863,
       "store_id": "mybox",
-      "price": 580491,
-      "price_normal": 644990,
-      "discount_pct": 10,
+      "price": 674491,
+      "price_normal": 709990,
+      "discount_pct": 5,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/tarjeta-de-video/5860-tarjeta-de-video-msi-rtx-5060-ti-ventus-2x-8g-oc-plus-4711377338882.html",
       "store_name": "MyBox",
-      "price_card": 597906,
+      "price_card": 694726,
       "price_specs": {
-        "Efectivo/Transferencia": "$580.491",
-        "Tarjeta crédito/débito": "$597.906"
+        "Efectivo/Transferencia": "$674.491",
+        "Tarjeta crédito/débito": "$694.726"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -36,6 +36,13 @@
       "full_url": "https://www.mybox.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "mybox",
+      "store_name": "MyBox",
+      "date": "2026-11-21",
+      "price": 674491
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

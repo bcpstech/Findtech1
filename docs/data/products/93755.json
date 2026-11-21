@@ -1,0 +1,53 @@
+{
+  "id": 93755,
+  "external_id": "trulustore_tarjeta-de-video-zotac-nvidia-geforce-rtx-3060-12gb-twin-edge",
+  "category_id": "gpu",
+  "brand": "NVIDIA",
+  "name": "TARJETA DE VIDEO ZOTAC NVIDIA GEFORCE RTX 3060 12GB TWIN EDGE",
+  "slug": "trulustore-tarjeta-de-video-zotac-nvidia-geforce-rtx-3060-12gb-twin-edge",
+  "image_url": "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20300'%3E%3C/svg%3E",
+  "description": null,
+  "specs": {
+    "VRAM": "12 GB",
+    "Tipo memoria": "GDDR6",
+    "Bus de memoria": "192-bit",
+    "Arquitectura": "Ampere",
+    "Efectivo / Transferencia": "$609.990",
+    "Khipu": "$622.190"
+  },
+  "tags": [],
+  "created_at": "2026-11-21 22:02:36",
+  "updated_at": "2026-11-21 23:07:48",
+  "prices": [
+    {
+      "product_id": 93755,
+      "store_id": "trulustore",
+      "price": 609990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-zotac-nvidia-geforce-rtx-3060-12gb-twin-edge/",
+      "store_name": "TruluStore",
+      "price_card": 628290,
+      "khipu_price": 622190,
+      "price_specs": {
+        "Efectivo / Transferencia": "$609.990",
+        "Khipu": "$622.190",
+        "Tarjeta crédito/débito": "$628.290"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-11-21",
+      "price": 609990
+    }
+  ],
+  "scraped_at": "2026-11-21"
+}

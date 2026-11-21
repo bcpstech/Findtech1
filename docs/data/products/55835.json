@@ -3,53 +3,34 @@
   "external_id": "pn_gpud850gm",
   "category_id": "psu",
   "brand": "Gigabyte",
-  "name": "Fuente de Poder 850W (Certificada) 80+ Gold - Gigabyte GP-UD850GM - ATX - Modular",
+  "name": "Fuente de Poder 850W - Gigabyte GP-UD850GM - 80 Plus Gold - Modular",
   "slug": "fuente-de-poder-850w-certificada-gigabyte-gp-ud850gm-80-plus-gold-atx-full-modular",
-  "image_url": "https://images.findtech.cl/products/fuente-de-poder-850w-certificada-80-gold-gigabyte-gp-ud850gm-atx-modular.jpg",
+  "image_url": "https://images.findtech.cl/products/fuente-de-poder-850w-gigabyte-gp-ud850gm-80-plus-gold-modular.jpg",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$94.990",
-    "Tarjeta crédito/débito": "$100.214",
+    "Efectivo / Transferencia": "$117.990",
+    "Tarjeta crédito/débito": "$124.479",
     "Garantía": "6 meses",
-    "SKU": "23047",
-    "Part Number": "GP-UD850GM"
+    "SKU": "39128",
+    "Part Number": "GP-UD850GM PG5W"
   },
   "tags": [],
   "created_at": "2026-05-08 22:23:55",
-  "updated_at": "2026-07-14 19:21:48",
+  "updated_at": "2026-11-21 22:16:20",
   "prices": [
-    {
-      "product_id": 61753,
-      "store_id": "dust2",
-      "price": 94990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/fuente-de-poder-gigabyte-gp-ud850gm-pg5-v2-850w-80-gold/",
-      "store_name": "Dust2",
-      "price_card": 97840,
-      "price_specs": {
-        "Efectivo/Transferencia": "$94.990",
-        "Tarjeta crédito/débito": "$97.840"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.dust2.gg",
-      "full_url": "https://www.dust2.gg"
-    },
     {
       "product_id": 55835,
       "store_id": "myshop",
-      "price": 94990,
-      "price_normal": 100214,
-      "discount_pct": 26,
+      "price": 113990,
+      "price_normal": 120259,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/fuente-de-poder-850w-gigabyte-gp-ud850gm-80plus-gold-estandar-atx-modular-gp-ud850gm-p23047",
       "store_name": "MyShop",
-      "price_card": 97840,
+      "price_card": 117410,
       "price_specs": {
-        "Efectivo/Transferencia": "$94.990",
-        "Tarjeta crédito/débito": "$97.840"
+        "Efectivo/Transferencia": "$113.990",
+        "Tarjeta crédito/débito": "$117.410"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -57,44 +38,32 @@
       "full_url": "https://www.myshop.cl"
     },
     {
-      "product_id": 73589,
-      "store_id": "centrale",
-      "price": 103160,
-      "price_normal": null,
-      "discount_pct": null,
+      "product_id": 95797,
+      "store_id": "mybox",
+      "price": 141365,
+      "price_normal": 144990,
+      "discount_pct": 3,
       "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-850w-gigabyte-ud850gm-pg5-80-plus-gold-full-modular/",
-      "store_name": "Centrale",
-      "price_card": 108834,
+      "product_url": "https://mybox.cl/fuentes-de-poder/5274-fuente-de-poder-gigabyte-ud850gm-gold-modular-850w-4719331553197.html",
+      "store_name": "MyBox",
+      "price_card": 145606,
       "price_specs": {
-        "Transferencia / Efectivo": "$103.160",
-        "Tarjetas de Crédito / Débito": "$108.834"
+        "Efectivo/Transferencia": "$141.365",
+        "Tarjeta crédito/débito": "$145.606"
       },
       "store_rating": 0,
       "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 9738,
-      "store_id": "spdigital",
-      "price": 130620,
-      "price_normal": 209990,
-      "discount_pct": 38,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/fuente-de-poder-gigabyte-ud850gm-pg5-850w-certificada-80-plus-gold-modular-pcie-50",
-      "store_name": "SP Digital",
-      "price_card": 136498,
-      "price_specs": {
-        "Transferencia / Efectivo": "$130.620",
-        "Webpay / Tarjeta": "$136.498"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 113990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

@@ -1,0 +1,88 @@
+{
+  "id": 33167,
+  "external_id": "infor-ingen_m-b-asus-prime-b840m-a",
+  "category_id": "mobo",
+  "brand": "ASUS",
+  "name": "M/B ASUS PRIME B840M-A",
+  "slug": "infor-ingen-m-b-asus-prime-b840m-a",
+  "image_url": "https://images.findtech.cl/products/m-b-asus-prime-b840m-a.png",
+  "description": null,
+  "specs": {
+    "Socket": "AM5",
+    "Memoria": "DDR5",
+    "WiFi": "Integrado",
+    "Efectivo / Transferencia": "$181.000",
+    "Tarjeta crédito/débito": "$186.430"
+  },
+  "tags": [],
+  "created_at": "2026-05-04 02:46:08",
+  "updated_at": "2026-11-21 22:44:57",
+  "prices": [
+    {
+      "product_id": 33167,
+      "store_id": "infor-ingen",
+      "price": 172900,
+      "price_normal": 183274,
+      "discount_pct": 6,
+      "stock": "in_stock",
+      "product_url": "https://store.infor-ingen.com/producto/m-b-asus-prime-b840m-a/",
+      "store_name": "Infor-Ingen",
+      "price_card": 178087,
+      "price_specs": {
+        "Efectivo / Transferencia": "$172.900",
+        "Tarjeta crédito/débito": "$178.087"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
+    },
+    {
+      "product_id": 38888,
+      "store_id": "mybox",
+      "price": 174991,
+      "price_normal": 199990,
+      "discount_pct": 13,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/5800-placa-madre-asus-prime-b840m-a-4711387797198.html",
+      "store_name": "MyBox",
+      "price_card": 180241,
+      "price_specs": {
+        "Efectivo/Transferencia": "$174.991",
+        "Tarjeta crédito/débito": "$180.241"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
+    },
+    {
+      "product_id": 23525,
+      "store_id": "alltec",
+      "price": 181000,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/asus/2423-mb-asus-prime-b840m-a-wifi-am5-ddr5-amd-ryzen-9000.html",
+      "store_name": "Alltec",
+      "price_card": 186430,
+      "price_specs": {
+        "Efectivo/Transferencia": "$181.000",
+        "Tarjeta crédito/débito": "$186.430"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-11-21",
+      "price": 172900
+    }
+  ],
+  "scraped_at": "2026-11-21"
+}

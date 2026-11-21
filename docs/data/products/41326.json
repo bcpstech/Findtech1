@@ -3,34 +3,34 @@
   "external_id": "pn_psspd0750nnfabu1",
   "category_id": "psu",
   "brand": "Thermaltake",
-  "name": "Fuente de Poder 750W (Certificada) - Thermaltake Smart BX1 - 80 Plus Bronce - ATX ",
+  "name": "Fuente de Poder 750W - Thermaltake Smart BX1 - 80 Plus Bronze",
   "slug": "fuente-de-poder-750w-certificada-thermaltake-smart-bx1-80-plus-bronce-atx",
-  "image_url": "https://images.findtech.cl/products/fuente-de-poder-750w-certificada-thermaltake-smart-bx1-80-plus-bronce-atx.webp",
+  "image_url": "https://images.findtech.cl/products/fuente-de-poder-750w-thermaltake-smart-bx1-80-plus-bronze.webp",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$69.990",
-    "Tarjeta crédito/débito": "$73.839",
+    "Efectivo / Transferencia": "$67.990",
+    "Tarjeta crédito/débito": "$71.729",
     "Garantía": "6 meses",
     "SKU": "40745",
     "Part Number": "PS-SPD-0750NNFABU-1"
   },
   "tags": [],
   "created_at": "2026-05-05 12:33:20",
-  "updated_at": "2026-05-08 22:24:30",
+  "updated_at": "2026-11-21 22:16:59",
   "prices": [
     {
       "product_id": 41326,
       "store_id": "myshop",
-      "price": 69990,
-      "price_card": 72090,
-      "price_normal": 73839,
-      "discount_pct": null,
+      "price": 67990,
+      "price_normal": 71729,
+      "discount_pct": 24,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/smart-bx1-750w-p40745",
       "store_name": "MyShop",
+      "price_card": 70030,
       "price_specs": {
-        "Efectivo/Transferencia": "$69.990",
-        "Tarjeta crédito/débito": "$72.090"
+        "Efectivo/Transferencia": "$67.990",
+        "Tarjeta crédito/débito": "$70.030"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,6 +38,13 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 67990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

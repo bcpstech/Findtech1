@@ -8,35 +8,64 @@
   "image_url": "https://images.findtech.cl/products/amd-ryzen-7-8700f-4-1ghz-5-0ghz-turbo-octa-core-tdp-65w-am5.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$329.900",
-    "Tarjeta crédito/débito": "$339.797"
+    "Núcleos": "8",
+    "Hilos": "16",
+    "Socket": "AM5",
+    "Efectivo / Transferencia": "$299.990",
+    "Khipu": "$305.990"
   },
   "tags": [],
   "created_at": "2026-04-27 00:31:56",
-  "updated_at": "2026-04-27 00:31:56",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 2814,
       "store_id": "alltec",
-      "price": 329900,
+      "price": 259900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2244-amd-ryzen-7-8700f-41ghz-50ghz-turbo-octa-core-tdp-65w-am5.html",
       "store_name": "Alltec",
+      "price_card": 267697,
+      "price_specs": {
+        "Efectivo/Transferencia": "$259.900",
+        "Tarjeta crédito/débito": "$267.697"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 2631,
+      "store_id": "trulustore",
+      "price": 299990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/procesador-amd-ryzen-7-8700f-ai-socket-am5-8-nucleos-16-hilos/",
+      "store_name": "TruluStore",
+      "price_card": 308990,
+      "khipu_price": 305990,
+      "price_specs": {
+        "Efectivo / Transferencia": "$299.990",
+        "Khipu": "$305.990",
+        "Tarjeta crédito/débito": "$308.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
     {
       "store_id": "alltec",
       "store_name": "Alltec",
-      "date": "2026-04-27",
-      "price": 329900
+      "date": "2026-11-21",
+      "price": 259900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-11-21"
 }

@@ -8,28 +8,28 @@
   "image_url": "https://images.findtech.cl/products/fuente-de-poder-asus-tuf-gaming-750g-de-750w-80-gold-full-modular-atx-3-1.png",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$109.890",
-    "Khipu": "$112.088"
+    "Efectivo / Transferencia": "$104.890",
+    "Khipu": "$106.988"
   },
   "tags": [],
   "created_at": "2026-04-26 20:53:08",
-  "updated_at": "2026-07-14 19:17:26",
+  "updated_at": "2026-11-21 22:03:28",
   "prices": [
     {
       "product_id": 2659,
       "store_id": "trulustore",
-      "price": 109890,
+      "price": 104890,
       "price_normal": 139990,
-      "discount_pct": 22,
+      "discount_pct": 25,
       "stock": "in_stock",
       "product_url": "https://trulustore.cl/producto/fuente-de-poder-asus-tuf-gaming-750g-de-750w-80-gold-full-modular-atx-3-1/",
       "store_name": "TruluStore",
-      "price_card": 113187,
-      "khipu_price": 112088,
+      "price_card": 108037,
+      "khipu_price": 106988,
       "price_specs": {
-        "Efectivo / Transferencia": "$109.890",
-        "Khipu": "$112.088",
-        "Tarjeta crédito/débito": "$113.187"
+        "Efectivo / Transferencia": "$104.890",
+        "Khipu": "$106.988",
+        "Tarjeta crédito/débito": "$108.037"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -37,6 +37,13 @@
       "full_url": "https://www.trulustore.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "trulustore",
+      "store_name": "TruluStore",
+      "date": "2026-11-21",
+      "price": 104890
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

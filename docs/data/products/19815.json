@@ -3,66 +3,51 @@
   "external_id": "pn_912v537038",
   "category_id": "gpu",
   "brand": "MSI",
-  "name": "Tarjeta de Video Nvidia RTX 5060 8GB - MSI SHADOW 2x OC Edition - GDDR7, 128 bits - PCIe 5.0 - DisplayPort, HDMI",
+  "name": "Tarjeta de Video MSI GeForce RTX 5060 Shadow 2X OC 8GB GDDR7",
   "slug": "tarjeta-de-video-msi-shadow-2x-nvidia-geforce-rtx-5060-8g-oc-edition-8-gb-gddr7-128-bits-pcie-5",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-rtx-5060-8gb-msi-shadow-2x-oc-edition-gddr7-128-bits-pcie-5-0-displayport-hd.png",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-msi-geforce-rtx-5060-shadow-2x-oc-8gb-gddr7.png",
   "description": null,
   "specs": {
     "VRAM": "8 GB",
     "Tipo memoria": "GDDR7",
-    "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$404.990",
-    "Tarjeta crédito/débito": "$427.264",
+    "Efectivo / Transferencia": "$559.500",
+    "Tarjeta crédito/débito": "$590.273",
     "Garantía": "6 meses",
     "SKU": "38536",
     "Part Number": "912-V537-038"
   },
   "tags": [],
   "created_at": "2026-05-01 13:16:32",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 19815,
       "store_id": "myshop",
-      "price": 404990,
-      "price_normal": 427264,
-      "discount_pct": 19,
+      "price": 559500,
+      "price_normal": 590273,
+      "discount_pct": 13,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/geforce-rtx-5060-8g-shadow-2x-oc-p38536",
       "store_name": "MyShop",
-      "price_card": 417140,
+      "price_card": 576285,
       "price_specs": {
-        "Efectivo/Transferencia": "$404.990",
-        "Tarjeta crédito/débito": "$417.140"
+        "Efectivo/Transferencia": "$559.500",
+        "Tarjeta crédito/débito": "$576.285"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 12129,
-      "store_id": "trulustore",
-      "price": 449990,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/tarjeta-de-video-nvidia-rtx-5060-8gb-msi-shadow-2x-oc/",
-      "store_name": "TruluStore",
-      "price_card": 463490,
-      "khipu_price": 458990,
-      "price_specs": {
-        "Efectivo / Transferencia": "$449.990",
-        "Khipu": "$458.990",
-        "Tarjeta crédito/débito": "$463.490"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 559500
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

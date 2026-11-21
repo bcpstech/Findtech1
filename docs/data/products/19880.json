@@ -1,62 +1,72 @@
 {
   "id": 19880,
   "external_id": "pn_3858m600002",
-  "category_id": "cooling",
+  "category_id": "case",
   "brand": "Cougar",
-  "name": "Gabinete - Cougar FV270 - S/Fuente - E-ATX - Blanco - 1 Ventilador inferior 120 mm ARGB PWM con aspas invertidas",
+  "name": "Gabinete Gamer COUGAR FV270 White",
   "slug": "gabinete-cougar-fv270-s-fuente-e-atx-blanco-1-ventilador-inferior-120-mm-argb-pwm-con-aspas-inv",
-  "image_url": "https://images.findtech.cl/products/gabinete-cougar-fv270-s-fuente-e-atx-blanco-1-ventilador-inferior-120-mm-argb-pwm-con-aspas-invertid.jpg",
+  "image_url": "https://images.findtech.cl/products/gabinete-gamer-cougar-fv270-white.webp",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$119.990",
-    "Tarjeta crédito/débito": "$126.589",
-    "Garantía": "6 meses",
-    "SKU": "40353",
-    "Part Number": "3858M60.0002"
+    "Efectivo/Transferencia": "$143.990",
+    "Tarjeta crédito/débito": "$148.310"
   },
   "tags": [],
   "created_at": "2026-05-01 13:18:27",
-  "updated_at": "2026-06-20 00:19:16",
+  "updated_at": "2026-11-21 23:04:53",
   "prices": [
     {
       "product_id": 19880,
       "store_id": "myshop",
-      "price": 119990,
-      "price_normal": 126589,
-      "discount_pct": 40,
+      "price": 129990,
+      "price_normal": 137139,
+      "discount_pct": 35,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/fv270-blanco-p40353",
       "store_name": "MyShop",
-      "price_card": 123590,
+      "price_card": 133890,
       "price_specs": {
-        "Efectivo/Transferencia": "$119.990",
-        "Tarjeta crédito/débito": "$123.590"
+        "Efectivo/Transferencia": "$129.990",
+        "Tarjeta crédito/débito": "$133.890"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 19880,
+      "store_id": "bcpstech",
+      "price": 143990,
+      "price_normal": 170990,
+      "discount_pct": 16,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=1913",
+      "store_name": "BCPS Tech",
+      "price_card": 148310,
+      "price_specs": {
+        "Efectivo/Transferencia": "$143.990",
+        "Tarjeta crédito/débito": "$148.310"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
     }
   ],
   "history": [
     {
-      "store_id": "myshop",
-      "store_name": "MyShop",
-      "date": "2026-06-08",
-      "price": 119990
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-11-21",
+      "price": 143990
     },
     {
       "store_id": "myshop",
       "store_name": "MyShop",
-      "date": "2026-06-09",
-      "price": 119990
-    },
-    {
-      "store_id": "myshop",
-      "store_name": "MyShop",
-      "date": "2026-06-20",
-      "price": 119990
+      "date": "2026-11-21",
+      "price": 129990
     }
   ],
-  "scraped_at": "2026-06-20"
+  "scraped_at": "2026-11-21"
 }

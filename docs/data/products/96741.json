@@ -1,0 +1,69 @@
+{
+  "id": 96741,
+  "external_id": "pn_bx8071514100f",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i3-14100F 4.70GHz Turbo 4 Cores LGA 1700",
+  "slug": "procesador-intel-core-i3-14100f-4-70ghz-turbo-4-cores-lga-1700",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i3-14100f-4-70ghz-turbo-4-cores-lga-1700.webp",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "4.70 GHz",
+    "Frecuencia turbo": "4.70 GHz",
+    "Socket": "LGA1700",
+    "Efectivo/Transferencia": "$119.990",
+    "Tarjeta crédito/débito": "$123.590"
+  },
+  "tags": [],
+  "created_at": "2026-11-21 23:06:29",
+  "updated_at": "2026-11-21 23:07:48",
+  "prices": [
+    {
+      "product_id": 96741,
+      "store_id": "bcpstech",
+      "price": 119990,
+      "price_normal": 132990,
+      "discount_pct": 10,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=2107",
+      "store_name": "BCPS Tech",
+      "price_card": 123590,
+      "price_specs": {
+        "Efectivo/Transferencia": "$119.990",
+        "Tarjeta crédito/débito": "$123.590"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
+    },
+    {
+      "product_id": 93644,
+      "store_id": "cg",
+      "price": 177990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-intel-core-i3-14100f/",
+      "store_name": "CentralGamer",
+      "price_card": 187352,
+      "price_specs": {
+        "Efectivo/Transferencia": "$177.990",
+        "Webpay / Tarjeta": "$187.352"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-11-21",
+      "price": 119990
+    }
+  ],
+  "scraped_at": "2026-11-21"
+}

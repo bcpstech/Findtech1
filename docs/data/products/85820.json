@@ -17,47 +17,73 @@
   },
   "tags": [],
   "created_at": "2026-07-07 00:04:23",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
-      "product_id": 59381,
-      "store_id": "cg",
-      "price": 210990,
-      "price_normal": null,
+      "product_id": 55753,
+      "store_id": "myshop",
+      "price": 193990,
+      "price_normal": 204659,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/procesador-intel-core-i5-12400/",
-      "store_name": "CentralGamer",
-      "price_card": 222088,
-      "price_specs": {
-        "Efectivo/Transferencia": "$210.990",
-        "Webpay / Tarjeta": "$222.088"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centralgamer.cl",
-      "full_url": "https://www.centralgamer.cl"
-    },
-    {
-      "product_id": 85820,
-      "store_id": "myshop",
-      "price": 249990,
-      "price_normal": 263739,
-      "discount_pct": 30,
-      "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/kit-de-actualizacion-intel-core-i5-12400-asus-prime-h610m-k-p43882",
+      "product_url": "https://www.myshop.cl/producto/cpu-intel-core-i5-12400-25-ghz-18-mb-s1700-bx8071512400-p12591",
       "store_name": "MyShop",
-      "price_card": 257490,
+      "price_card": 199810,
       "price_specs": {
-        "Efectivo/Transferencia": "$249.990",
-        "Tarjeta crédito/débito": "$257.490"
+        "Efectivo/Transferencia": "$193.990",
+        "Tarjeta crédito/débito": "$199.810"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 55753,
+      "store_id": "bcpstech",
+      "price": 199990,
+      "price_normal": 210990,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=2146",
+      "store_name": "BCPS Tech",
+      "price_card": 205990,
+      "price_specs": {
+        "Efectivo/Transferencia": "$199.990",
+        "Tarjeta crédito/débito": "$205.990"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
+    },
+    {
+      "product_id": 59381,
+      "store_id": "cg",
+      "price": 282990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/intel-core-i5-12400-2-5-ghz-6-nucleos-12-hilos-18-mb-cache-lga1700-socket-caja/",
+      "store_name": "CentralGamer",
+      "price_card": 297875,
+      "price_specs": {
+        "Efectivo/Transferencia": "$282.990",
+        "Webpay / Tarjeta": "$297.875"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 249990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

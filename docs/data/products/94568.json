@@ -1,0 +1,73 @@
+{
+  "id": 94568,
+  "external_id": "alltec_amd-ryzen-7-9850x3d-4-7ghz-5-6ghz-turbo-octa-core-tdp-120w-am5",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD RYZEN 7 9850X3D 4.7GHz (5.6GHz TURBO) OCTA CORE (TDP 120W) (AM5)",
+  "slug": "alltec-amd-ryzen-7-9850x3d-4-7ghz-5-6ghz-turbo-octa-core-tdp-120w-am5",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-7-9850x3d-4-7ghz-5-6ghz-turbo-octa-core-tdp-120w-am5.jpg",
+  "description": null,
+  "specs": {
+    "Núcleos": "8",
+    "Hilos": "16",
+    "Frecuencia base": "5.6 GHz",
+    "Caché L3": "96 MB",
+    "Socket": "AM5",
+    "Efectivo / Transferencia": "$659.990",
+    "Khipu": "$673.190"
+  },
+  "tags": [],
+  "created_at": "2026-11-21 22:19:23",
+  "updated_at": "2026-11-21 23:07:48",
+  "prices": [
+    {
+      "product_id": 94568,
+      "store_id": "alltec",
+      "price": 599000,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/2527-amd-ryzen-7-9850x3d-47ghz-56ghz-turbo-octa-core-tdp-120w-am5.html",
+      "store_name": "Alltec",
+      "price_card": 616970,
+      "price_specs": {
+        "Efectivo/Transferencia": "$599.000",
+        "Tarjeta crédito/débito": "$616.970"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 2616,
+      "store_id": "trulustore",
+      "price": 659990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://trulustore.cl/producto/procesador-amd-ryzen-7-9850x3d-am5-8c-16t-5-6ghz-96mb-cache/",
+      "store_name": "TruluStore",
+      "price_card": 679790,
+      "khipu_price": 673190,
+      "price_specs": {
+        "Efectivo / Transferencia": "$659.990",
+        "Khipu": "$673.190",
+        "Tarjeta crédito/débito": "$679.790"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.trulustore.cl",
+      "full_url": "https://www.trulustore.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-11-21",
+      "price": 599000
+    }
+  ],
+  "scraped_at": "2026-11-21"
+}

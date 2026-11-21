@@ -8,26 +8,26 @@
   "image_url": "https://images.findtech.cl/products/monitor-asus-vg249qe5a-24-144hz-1ms.webp",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$106.990",
-    "Tarjeta crédito/débito": "$110.200"
+    "Efectivo/Transferencia": "$110.990",
+    "Tarjeta crédito/débito": "$114.320"
   },
   "tags": [],
   "created_at": "2026-07-07 01:09:11",
-  "updated_at": "2026-07-14 20:08:04",
+  "updated_at": "2026-11-21 23:05:24",
   "prices": [
     {
       "product_id": 88695,
       "store_id": "bcpstech",
-      "price": 106990,
+      "price": 110990,
       "price_normal": 114990,
-      "discount_pct": 7,
+      "discount_pct": 3,
       "stock": "in_stock",
       "product_url": "https://bcpstech.cl/?p=916",
       "store_name": "BCPS Tech",
-      "price_card": 110200,
+      "price_card": 114320,
       "price_specs": {
-        "Efectivo/Transferencia": "$106.990",
-        "Tarjeta crédito/débito": "$110.200"
+        "Efectivo/Transferencia": "$110.990",
+        "Tarjeta crédito/débito": "$114.320"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -35,6 +35,13 @@
       "full_url": "https://bcpstech.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-11-21",
+      "price": 110990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

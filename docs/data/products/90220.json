@@ -1,0 +1,94 @@
+{
+  "id": 90220,
+  "external_id": "pn_bx8071512100f",
+  "category_id": "cpu",
+  "brand": "Intel",
+  "name": "Procesador Intel Core i3-12100F 4.30GHz Turbo 4 Cores LGA 1700",
+  "slug": "cpu-intel-socket-lga-1700-core-i3-12100f-3-3ghz-4-core-bx8071512100f",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i3-12100f-4-30ghz-turbo-4-cores-lga-1700.webp",
+  "description": null,
+  "specs": {
+    "Núcleos": "4",
+    "Hilos": "8",
+    "Frecuencia base": "3.3 GHz",
+    "Frecuencia turbo": "4.3 GHz",
+    "Caché L3": "12 MB",
+    "TDP": "65W",
+    "Socket": "LGA1700",
+    "Generación": "Intel 12ª Gen (Alder Lake)",
+    "Gráficos integrados": "No",
+    "Efectivo / Transferencia": "$139.900",
+    "Tarjeta crédito/débito": "$144.097"
+  },
+  "tags": [],
+  "created_at": "2026-07-14 19:18:10",
+  "updated_at": "2026-11-21 23:07:48",
+  "prices": [
+    {
+      "product_id": 90220,
+      "store_id": "bcpstech",
+      "price": 105990,
+      "price_normal": 120990,
+      "discount_pct": 12,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=2105",
+      "store_name": "BCPS Tech",
+      "price_card": 109170,
+      "price_specs": {
+        "Efectivo/Transferencia": "$105.990",
+        "Tarjeta crédito/débito": "$109.170"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
+    },
+    {
+      "product_id": 121,
+      "store_id": "alltec",
+      "price": 139900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/intel/1851-3ghz-intel-i3-12100f-43ghz-turbo-4c8t-12mb-cache-65w-lga1700-sin-video-12th-generacion.html",
+      "store_name": "Alltec",
+      "price_card": 144097,
+      "price_specs": {
+        "Efectivo/Transferencia": "$139.900",
+        "Tarjeta crédito/débito": "$144.097"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 93636,
+      "store_id": "cg",
+      "price": 157990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-intel-core-i3-12100f/",
+      "store_name": "CentralGamer",
+      "price_card": 166300,
+      "price_specs": {
+        "Efectivo/Transferencia": "$157.990",
+        "Webpay / Tarjeta": "$166.300"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-11-21",
+      "price": 105990
+    }
+  ],
+  "scraped_at": "2026-11-21"
+}

@@ -13,29 +13,29 @@
     "Velocidad": "6000 MHz",
     "Kit": "2x16 GB",
     "Iluminación": "RGB",
-    "Efectivo / Transferencia": "$649.990",
-    "Tarjeta crédito/débito": "$685.739",
+    "Efectivo / Transferencia": "$839.970",
+    "Tarjeta crédito/débito": "$886.168",
     "Garantía": "6 meses",
     "SKU": "41209",
     "Part Number": "KF560C30BBEAK2-32"
   },
   "tags": [],
   "created_at": "2026-06-08 20:50:10",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 60046,
       "store_id": "myshop",
-      "price": 649990,
-      "price_normal": 685739,
+      "price": 839970,
+      "price_normal": 886168,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/dimm-32-gb-2x16gb-ddr5-6000mts-kingston-kf560c30bbeak2-32-p41209",
       "store_name": "MyShop",
-      "price_card": 669490,
+      "price_card": 865169,
       "price_specs": {
-        "Efectivo/Transferencia": "$649.990",
-        "Tarjeta crédito/débito": "$669.490"
+        "Efectivo/Transferencia": "$839.970",
+        "Tarjeta crédito/débito": "$865.169"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -43,6 +43,13 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 839970
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

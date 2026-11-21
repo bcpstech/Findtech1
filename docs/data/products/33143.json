@@ -8,59 +8,81 @@
   "image_url": "https://images.findtech.cl/products/m-b-msi-b840m-gaming-wifi6e.jpg",
   "description": null,
   "specs": {
+    "Socket": "AM5",
+    "Memoria": "DDR5",
     "WiFi": "Integrado",
-    "Efectivo / Transferencia": "$139.900",
-    "Tarjeta crédito/débito": "$144.097"
+    "Efectivo / Transferencia": "$154.900",
+    "Tarjeta crédito/débito": "$159.547"
   },
   "tags": [],
   "created_at": "2026-05-04 02:45:41",
-  "updated_at": "2026-05-08 21:58:19",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 33143,
       "store_id": "infor-ingen",
       "price": 139900,
-      "price_card": 144097,
       "price_normal": 148294,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/m-b-msi-b840m-gaming-wifi6e/",
       "store_name": "Infor-Ingen",
+      "price_card": 144097,
       "price_specs": {
-        "Efectivo/Transferencia": "$139.900",
+        "Efectivo / Transferencia": "$139.900",
         "Tarjeta crédito/débito": "$144.097"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "store.infor-ingen.com",
       "full_url": "https://store.infor-ingen.com"
+    },
+    {
+      "product_id": 23521,
+      "store_id": "alltec",
+      "price": 154900,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/para-amd/2464-mb-msi-b840m-gaming-wifi6e-am5-ddr5-amd-ryzen-9000.html",
+      "store_name": "Alltec",
+      "price_card": 159547,
+      "price_specs": {
+        "Efectivo/Transferencia": "$154.900",
+        "Tarjeta crédito/débito": "$159.547"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 38880,
+      "store_id": "mybox",
+      "price": 161840,
+      "price_normal": 165990,
+      "discount_pct": 3,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/6013-placa-madre-msi-b840m-gaming-wifi6e-4711377358668.html",
+      "store_name": "MyBox",
+      "price_card": 166695,
+      "price_specs": {
+        "Efectivo/Transferencia": "$161.840",
+        "Tarjeta crédito/débito": "$166.695"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
     }
   ],
   "history": [
     {
       "store_id": "infor-ingen",
       "store_name": "Infor-Ingen",
-      "date": "2026-05-04",
-      "price": 139900
-    },
-    {
-      "store_id": "infor-ingen",
-      "store_name": "Infor-Ingen",
-      "date": "2026-05-05",
-      "price": 139900
-    },
-    {
-      "store_id": "infor-ingen",
-      "store_name": "Infor-Ingen",
-      "date": "2026-05-06",
-      "price": 139900
-    },
-    {
-      "store_id": "infor-ingen",
-      "store_name": "Infor-Ingen",
-      "date": "2026-05-08",
+      "date": "2026-11-21",
       "price": 139900
     }
   ],
-  "scraped_at": "2026-05-08"
+  "scraped_at": "2026-11-21"
 }

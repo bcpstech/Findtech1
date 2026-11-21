@@ -11,29 +11,29 @@
     "Capacidad": "16 GB",
     "Tipo": "DDR4",
     "Velocidad": "3200 MHz",
-    "Efectivo / Transferencia": "$119.990",
-    "Tarjeta crédito/débito": "$126.589",
+    "Efectivo / Transferencia": "$127.500",
+    "Tarjeta crédito/débito": "$134.513",
     "Garantía": "6 meses",
     "SKU": "38731",
     "Part Number": "KS3200D4P13516G"
   },
   "tags": [],
   "created_at": "2026-06-08 20:50:25",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 60071,
       "store_id": "myshop",
-      "price": 119990,
-      "price_normal": 126589,
-      "discount_pct": null,
+      "price": 127500,
+      "price_normal": 134513,
+      "discount_pct": 14,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/dimm-16-gb-ddr4-3200-mhz-kingspec-ks3200d4p13516g-p38731",
       "store_name": "MyShop",
-      "price_card": 123590,
+      "price_card": 131325,
       "price_specs": {
-        "Efectivo/Transferencia": "$119.990",
-        "Tarjeta crédito/débito": "$123.590"
+        "Efectivo/Transferencia": "$127.500",
+        "Tarjeta crédito/débito": "$131.325"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -41,6 +41,13 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 127500
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

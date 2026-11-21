@@ -3,34 +3,34 @@
   "external_id": "pn_824142258460",
   "category_id": "psu",
   "brand": "MSI",
-  "name": "Fuente de Poder 650W (Certificada) - MSI MAG A650BN - 80 Plus Bronce - Estandar ATX",
+  "name": "Fuente de Poder 650W - MSI MAG A650BN - 80 Plus Bronze",
   "slug": "fuente-de-poder-650w-certificada-msi-mag-a650bn-80-plus-bronce-estandar-atx",
-  "image_url": "https://images.findtech.cl/products/fuente-de-poder-650w-certificada-msi-mag-a650bn-80-plus-bronce-estandar-atx.png",
+  "image_url": "https://images.findtech.cl/products/fuente-de-poder-650w-msi-mag-a650bn-80-plus-bronze.png",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$49.990",
-    "Tarjeta crédito/débito": "$52.739",
+    "Efectivo / Transferencia": "$48.870",
+    "Tarjeta crédito/débito": "$51.558",
     "Garantía": "6 meses",
-    "SKU": "41664",
-    "Part Number": "306-7ZPTY23-HD8"
+    "SKU": "29204",
+    "Part Number": "824142258460"
   },
   "tags": [],
   "created_at": "2026-05-05 12:33:05",
-  "updated_at": "2026-05-08 22:24:15",
+  "updated_at": "2026-11-21 22:16:44",
   "prices": [
     {
       "product_id": 41316,
       "store_id": "myshop",
-      "price": 49500,
-      "price_card": 50985,
-      "price_normal": 52223,
-      "discount_pct": null,
+      "price": 48870,
+      "price_normal": 51558,
+      "discount_pct": 38,
       "stock": "in_stock",
-      "product_url": "https://www.myshop.cl/producto/fuente-de-poder-650w-certificada-msi-mag-a650bn-80plus-bronze-estandar-atx-p29204",
+      "product_url": "https://www.myshop.cl/producto/msi-power-supply-mag-a650bn-80-plus-bronce-p26884",
       "store_name": "MyShop",
+      "price_card": 50336,
       "price_specs": {
-        "Efectivo/Transferencia": "$49.500",
-        "Tarjeta crédito/débito": "$50.985"
+        "Efectivo/Transferencia": "$48.870",
+        "Tarjeta crédito/débito": "$50.336"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -38,53 +38,15 @@
       "full_url": "https://www.myshop.cl"
     },
     {
-      "product_id": 9694,
-      "store_id": "spdigital",
-      "price": 49995,
-      "price_card": 52245,
-      "price_normal": 79990,
-      "discount_pct": 37,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/fuente-de-poder-msi-mag-a650bn-650w-certificada-80-plus-bronze-atx-ventilador-120mm",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$49.995",
-        "Webpay / Tarjeta": "$52.245"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
-    },
-    {
-      "product_id": 1689,
-      "store_id": "centrale",
-      "price": 53620,
-      "price_card": 56569,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/fuente-de-poder-650w-msi-mag-a650bn-pcie-iii-80-plus-bronze-pcie-5-1-atx-3-1/",
-      "store_name": "Centrale",
-      "price_specs": {
-        "Transferencia / Efectivo": "$53.620",
-        "Tarjetas de Crédito / Débito": "$56.569"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
       "product_id": 38980,
       "store_id": "mybox",
       "price": 61461,
-      "price_card": 63305,
       "price_normal": 68290,
       "discount_pct": 10,
       "stock": "in_stock",
       "product_url": "https://mybox.cl/fuentes-de-poder/5568-fuente-de-poder-msi-mag-a650bn-bronce-650w.html",
       "store_name": "MyBox",
+      "price_card": 63305,
       "price_specs": {
         "Efectivo/Transferencia": "$61.461",
         "Tarjeta crédito/débito": "$63.305"
@@ -93,8 +55,34 @@
       "review_count": 0,
       "store_url": "www.mybox.cl",
       "full_url": "https://www.mybox.cl"
+    },
+    {
+      "product_id": 93697,
+      "store_id": "cg",
+      "price": 75990,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://centralgamer.cl/fuentes-de-poder/fuente-de-poder-msi-mag-a650bn-80-plus-bronze-2/",
+      "store_name": "CentralGamer",
+      "price_card": 79987,
+      "price_specs": {
+        "Efectivo/Transferencia": "$75.990",
+        "Webpay / Tarjeta": "$79.987"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.centralgamer.cl",
+      "full_url": "https://www.centralgamer.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-05-08"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 48870
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

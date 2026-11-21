@@ -5,78 +5,44 @@
   "brand": "Zona Intel",
   "name": "Procesador Intel Core i7-12700",
   "slug": "procesador-intel-core-i7-12700",
-  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i7-12700.jpg",
+  "image_url": "https://images.findtech.cl/products/procesador-intel-core-i7-12700.png",
   "description": null,
   "specs": {
-    "Marca": "INTEL",
-    "Efectivo/Transferencia": "$422.311",
-    "Webpay / Tarjeta": "$444.525"
+    "Peso": "5 kg",
+    "Efectivo/Transferencia": "$573.990",
+    "Webpay / Tarjeta": "$604.182"
   },
   "tags": [],
   "created_at": "2026-04-26 20:35:45",
-  "updated_at": "2026-04-29 03:31:38",
+  "updated_at": "2026-11-21 21:58:35",
   "prices": [
     {
       "product_id": 1141,
       "store_id": "cg",
-      "price": 422311,
+      "price": 573990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://centralgamer.cl/procesadores/intel-core-i7-12700-2-1-ghz-12-nucleos-20-hilos-25-mb-cache-lga1700-socket-caja/",
+      "product_url": "https://centralgamer.cl/procesadores/procesador-intel-core-i7-12700/",
       "store_name": "CentralGamer",
+      "price_card": 604182,
       "price_specs": {
-        "Efectivo/Transferencia": "$422.311"
+        "Efectivo/Transferencia": "$573.990",
+        "Webpay / Tarjeta": "$604.182"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.centralgamer.cl",
       "full_url": "https://www.centralgamer.cl"
-    },
-    {
-      "product_id": 9422,
-      "store_id": "spdigital",
-      "price": 451450,
-      "price_normal": 471760,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/core-i7-12700-210ghz-sktlga1700-2500mb",
-      "store_name": "SP Digital",
-      "price_specs": {
-        "Transferencia / Efectivo": "$451.450",
-        "Webpay / Tarjeta": "$471.760"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
   "history": [
     {
       "store_id": "cg",
       "store_name": "CentralGamer",
-      "date": "2026-04-26",
-      "price": 400320
-    },
-    {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-04-27",
-      "price": 401600
-    },
-    {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-04-28",
-      "price": 422311
-    },
-    {
-      "store_id": "cg",
-      "store_name": "CentralGamer",
-      "date": "2026-04-29",
-      "price": 422311
+      "date": "2026-11-21",
+      "price": 573990
     }
   ],
-  "scraped_at": "2026-04-29"
+  "scraped_at": "2026-11-21"
 }

@@ -9,52 +9,41 @@
   "description": null,
   "specs": {
     "Marca": "Corsair",
-    "Efectivo / Transferencia": "$179.990",
-    "Tarjeta crédito/débito": "$185.390"
+    "color": "Blanco",
+    "Efectivo / Transferencia": "$159.990",
+    "Tarjeta crédito/débito": "$164.790"
   },
   "tags": [],
   "created_at": "2026-04-26 20:48:50",
-  "updated_at": "2026-07-14 19:39:06",
+  "updated_at": "2026-11-21 22:35:05",
   "prices": [
     {
       "product_id": 2447,
       "store_id": "dust2",
-      "price": 179990,
+      "price": 159990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-corsair-icue-5000x-rgb-blanco/",
       "store_name": "Dust2",
-      "price_card": 185390,
+      "price_card": 164790,
       "price_specs": {
-        "Efectivo/Transferencia": "$179.990",
-        "Tarjeta crédito/débito": "$185.390"
+        "Efectivo/Transferencia": "$159.990",
+        "Tarjeta crédito/débito": "$164.790"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 39000,
-      "store_id": "mybox",
-      "price": 206173,
-      "price_normal": 222890,
-      "discount_pct": 8,
-      "stock": "in_stock",
-      "product_url": "https://mybox.cl/gabinetes/5901-gabinete-corsair-icue-5000x-rgb-white.html",
-      "store_name": "MyBox",
-      "price_card": 212358,
-      "price_specs": {
-        "Efectivo/Transferencia": "$206.173",
-        "Tarjeta crédito/débito": "$212.358"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.mybox.cl",
-      "full_url": "https://www.mybox.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "dust2",
+      "store_name": "Dust2",
+      "date": "2026-11-21",
+      "price": 159990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

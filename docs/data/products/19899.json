@@ -8,29 +8,29 @@
   "image_url": "https://images.findtech.cl/products/gabinete-cougar-fv150-mini-rgb-s-fuente-m-atx-negro-incluye-2-fan-120mm-rgb-costado-m-b-1-fan-120mm-.png",
   "description": null,
   "specs": {
-    "Efectivo / Transferencia": "$35.970",
-    "Tarjeta crédito/débito": "$37.948",
+    "Efectivo / Transferencia": "$49.990",
+    "Tarjeta crédito/débito": "$52.739",
     "Garantía": "6 meses",
     "SKU": "41608",
     "Part Number": "382QA60.0001"
   },
   "tags": [],
   "created_at": "2026-05-01 13:19:53",
-  "updated_at": "2026-07-14 19:22:17",
+  "updated_at": "2026-11-21 22:17:38",
   "prices": [
     {
       "product_id": 19899,
       "store_id": "myshop",
-      "price": 35970,
-      "price_normal": 37948,
-      "discount_pct": 48,
+      "price": 49990,
+      "price_normal": 52739,
+      "discount_pct": 28,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/gabinete-cougar-fv150-mini-rgb-sfuente-atx-negro-incluye-2-fan-120mm-rgb-costado-mb-1-fan-120mm-rgb-trasero-p41608",
       "store_name": "MyShop",
-      "price_card": 37049,
+      "price_card": 51490,
       "price_specs": {
-        "Efectivo/Transferencia": "$35.970",
-        "Tarjeta crédito/débito": "$37.049"
+        "Efectivo/Transferencia": "$49.990",
+        "Tarjeta crédito/débito": "$51.490"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -40,61 +40,30 @@
     {
       "product_id": 47844,
       "store_id": "dust2",
-      "price": 67890,
+      "price": 72690,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/gabinete-cougar-fv150-rgb-atx-white/",
       "store_name": "Dust2",
-      "price_card": 69927,
+      "price_card": 74871,
       "price_specs": {
-        "Efectivo/Transferencia": "$67.890",
-        "Tarjeta crédito/débito": "$69.927"
+        "Efectivo/Transferencia": "$72.690",
+        "Tarjeta crédito/débito": "$74.871"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 1751,
-      "store_id": "centrale",
-      "price": 77400,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/gabinete-cougar-fv150-rgb-atx-negro-incluye-4-fan-argb/",
-      "store_name": "Centrale",
-      "price_card": 81657,
-      "price_specs": {
-        "Transferencia / Efectivo": "$77.400",
-        "Tarjetas de Crédito / Débito": "$81.657"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
-    },
-    {
-      "product_id": 76443,
-      "store_id": "spdigital",
-      "price": 83595,
-      "price_normal": 99990,
-      "discount_pct": 16,
-      "stock": "in_stock",
-      "product_url": "https://www.spdigital.cl/gabinete-gamer-cougar-fv150-rgb-pink-mid-tower-4-ventiladores-argb-diseno-panoramico-rosado",
-      "store_name": "SP Digital",
-      "price_card": 87357,
-      "price_specs": {
-        "Transferencia / Efectivo": "$83.595",
-        "Webpay / Tarjeta": "$87.357"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.spdigital.cl",
-      "full_url": "https://www.spdigital.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 49990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

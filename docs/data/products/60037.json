@@ -13,55 +13,43 @@
     "Velocidad": "5600 MHz",
     "Kit": "2x16 GB",
     "Iluminación": "RGB",
-    "Efectivo / Transferencia": "$487.990",
-    "Tarjeta crédito/débito": "$514.829",
+    "Efectivo / Transferencia": "$637.990",
+    "Tarjeta crédito/débito": "$673.079",
     "Garantía": "6 meses",
     "SKU": "40602",
     "Part Number": "CMH32GX5M2B5600Z40"
   },
   "tags": [],
   "created_at": "2026-06-08 20:50:08",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 60009,
       "store_id": "myshop",
-      "price": 237990,
-      "price_normal": 251079,
+      "price": 299990,
+      "price_normal": 316489,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/dimm-16-gb-corsair-vengeance-ddr5-5600-mhz-cmk16gx5m1b5600c40-p29252",
       "store_name": "MyShop",
-      "price_card": 245130,
+      "price_card": 308990,
       "price_specs": {
-        "Efectivo/Transferencia": "$237.990",
-        "Tarjeta crédito/débito": "$245.130"
+        "Efectivo/Transferencia": "$299.990",
+        "Tarjeta crédito/débito": "$308.990"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.myshop.cl",
       "full_url": "https://www.myshop.cl"
-    },
-    {
-      "product_id": 73318,
-      "store_id": "centrale",
-      "price": 513310,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/ram-corsair-vengeance-32-gb-1x32-gb-ddr5-so-dimm-5-600-mt-s-cl48/",
-      "store_name": "Centrale",
-      "price_card": 541542,
-      "price_specs": {
-        "Transferencia / Efectivo": "$513.310",
-        "Tarjetas de Crédito / Débito": "$541.542"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 637990
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

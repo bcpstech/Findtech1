@@ -1,30 +1,41 @@
 {
   "id": 1891,
-  "external_id": "dust2_gabinete-cougar-mx360-rgb-negro",
-  "category_id": "case",
-  "brand": "Genérico",
-  "name": "Gabinete Cougar MX360 RGB Negro",
-  "slug": "gabinete-cougar-mx360-rgb-negro",
-  "image_url": "https://images.findtech.cl/products/gabinete-cougar-mx360-rgb-negro.jpg",
+  "external_id": "dust2_tarjeta-de-video-msi-geforce-rtx-3050-ventus-2x-6g-oc",
+  "category_id": "gpu",
+  "brand": "MSI",
+  "name": "Tarjeta de Video MSI GeForce RTX 3050 VENTUS 2X 6G OC",
+  "slug": "tarjeta-de-video-msi-geforce-rtx-3050-ventus-2x-6g-oc",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-msi-geforce-rtx-3050-ventus-2x-6g-oc.jpg",
   "description": null,
   "specs": {
-    "Marca": "Cougar",
-    "Transferencia/Efectivo": "$36.880",
-    "Webpay / Tarjeta crédito-débito": "$37.990"
+    "VRAM": "8 GB",
+    "Tipo memoria": "GDDR6",
+    "Bus de memoria": "128-bit",
+    "Arquitectura": "Ampere",
+    "Variante": "OC (Overclocked)",
+    "Marca": "MSI",
+    "color": "Negro",
+    "Efectivo / Transferencia": "$349.990",
+    "Tarjeta crédito/débito": "$360.490"
   },
   "tags": [],
-  "created_at": "2026-04-25 19:44:42",
-  "updated_at": "2026-04-25 19:44:42",
+  "created_at": "2026-04-26 20:41:31",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 1891,
       "store_id": "dust2",
-      "price": 36880,
+      "price": 349990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
-      "product_url": "https://dust2.gg/producto/gabinete-cougar-mx360-rgb-negro/",
+      "product_url": "https://dust2.gg/producto/tarjeta-de-video-msi-geforce-rtx-3050-ventus-2x-6g-oc/",
       "store_name": "Dust2",
+      "price_card": 360490,
+      "price_specs": {
+        "Efectivo/Transferencia": "$349.990",
+        "Tarjeta crédito/débito": "$360.490"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
@@ -35,9 +46,9 @@
     {
       "store_id": "dust2",
       "store_name": "Dust2",
-      "date": "2026-04-25",
-      "price": 36880
+      "date": "2026-11-21",
+      "price": 349990
     }
   ],
-  "scraped_at": "2026-04-25"
+  "scraped_at": "2026-11-21"
 }

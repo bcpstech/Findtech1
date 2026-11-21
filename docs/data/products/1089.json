@@ -8,12 +8,12 @@
   "image_url": "https://images.findtech.cl/products/kit-tornillos-pc-para-gabinete-30-pcs-aprox.jpg",
   "description": null,
   "specs": {
-    "Efectivo/Transferencia": "$3.900",
+    "Efectivo / Transferencia": "$3.900",
     "Tarjeta crédito/débito": "$4.017"
   },
   "tags": [],
   "created_at": "2026-04-26 20:33:58",
-  "updated_at": "2026-04-27 22:11:42",
+  "updated_at": "2026-11-21 22:22:16",
   "prices": [
     {
       "product_id": 1089,
@@ -24,6 +24,11 @@
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/gabinetes/1820-kit-tornillos-pc-para-gabinete-30-pcs-aprox.html",
       "store_name": "Alltec",
+      "price_card": 4017,
+      "price_specs": {
+        "Efectivo/Transferencia": "$3.900",
+        "Tarjeta crédito/débito": "$4.017"
+      },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
@@ -34,15 +39,9 @@
     {
       "store_id": "alltec",
       "store_name": "Alltec",
-      "date": "2026-04-26",
-      "price": 3900
-    },
-    {
-      "store_id": "alltec",
-      "store_name": "Alltec",
-      "date": "2026-04-27",
+      "date": "2026-11-21",
       "price": 3900
     }
   ],
-  "scraped_at": "2026-04-27"
+  "scraped_at": "2026-11-21"
 }

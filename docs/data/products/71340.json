@@ -1,0 +1,91 @@
+{
+  "id": 71340,
+  "external_id": "pn_a520mkv2",
+  "category_id": "mobo",
+  "brand": "Gigabyte",
+  "name": "Placa Madre Gigabyte A520M K V2",
+  "slug": "placa-madre-gigabyte-a520m-k-v2",
+  "image_url": "https://images.findtech.cl/products/placa-madre-gigabyte-a520m-k-v2.webp",
+  "description": null,
+  "specs": {
+    "Efectivo/Transferencia": "$54.990",
+    "Tarjeta crédito/débito": "$56.640"
+  },
+  "tags": [],
+  "created_at": "2026-06-09 23:41:58",
+  "updated_at": "2026-11-21 23:05:43",
+  "prices": [
+    {
+      "product_id": 71340,
+      "store_id": "myshop",
+      "price": 51250,
+      "price_normal": 54069,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.myshop.cl/producto/mb-sam4-amd-gigabyte-a520m-k-v2-2x-ddr4-micro-atx-p32967",
+      "store_name": "MyShop",
+      "price_card": 52788,
+      "price_specs": {
+        "Efectivo/Transferencia": "$51.250",
+        "Tarjeta crédito/débito": "$52.788"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.myshop.cl",
+      "full_url": "https://www.myshop.cl"
+    },
+    {
+      "product_id": 71340,
+      "store_id": "bcpstech",
+      "price": 54990,
+      "price_normal": 74990,
+      "discount_pct": 27,
+      "stock": "in_stock",
+      "product_url": "https://bcpstech.cl/?p=1338",
+      "store_name": "BCPS Tech",
+      "price_card": 56640,
+      "price_specs": {
+        "Efectivo/Transferencia": "$54.990",
+        "Tarjeta crédito/débito": "$56.640"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.bcpstech.cl",
+      "full_url": "https://bcpstech.cl"
+    },
+    {
+      "product_id": 38893,
+      "store_id": "mybox",
+      "price": 61741,
+      "price_normal": 64990,
+      "discount_pct": 5,
+      "stock": "in_stock",
+      "product_url": "https://mybox.cl/placa-madre/5725-placa-madre-gigabyte-a520m-k-v2--4719331852771.html",
+      "store_name": "MyBox",
+      "price_card": 63593,
+      "price_specs": {
+        "Efectivo/Transferencia": "$61.741",
+        "Tarjeta crédito/débito": "$63.593"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.mybox.cl",
+      "full_url": "https://www.mybox.cl"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "bcpstech",
+      "store_name": "BCPS Tech",
+      "date": "2026-11-21",
+      "price": 54990
+    },
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 51250
+    }
+  ],
+  "scraped_at": "2026-11-21"
+}

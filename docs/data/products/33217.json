@@ -14,20 +14,20 @@
   },
   "tags": [],
   "created_at": "2026-05-04 02:46:57",
-  "updated_at": "2026-05-08 21:58:19",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 33207,
       "store_id": "infor-ingen",
       "price": 208900,
-      "price_card": 215167,
       "price_normal": 221434,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/m-b-asrock-b850-pro-a/",
       "store_name": "Infor-Ingen",
+      "price_card": 215167,
       "price_specs": {
-        "Efectivo/Transferencia": "$208.900",
+        "Efectivo / Transferencia": "$208.900",
         "Tarjeta crédito/débito": "$215.167"
       },
       "store_rating": 0,
@@ -40,27 +40,9 @@
     {
       "store_id": "infor-ingen",
       "store_name": "Infor-Ingen",
-      "date": "2026-05-04",
-      "price": 217900
-    },
-    {
-      "store_id": "infor-ingen",
-      "store_name": "Infor-Ingen",
-      "date": "2026-05-05",
-      "price": 217900
-    },
-    {
-      "store_id": "infor-ingen",
-      "store_name": "Infor-Ingen",
-      "date": "2026-05-06",
-      "price": 217900
-    },
-    {
-      "store_id": "infor-ingen",
-      "store_name": "Infor-Ingen",
-      "date": "2026-05-08",
+      "date": "2026-11-21",
       "price": 217900
     }
   ],
-  "scraped_at": "2026-05-08"
+  "scraped_at": "2026-11-21"
 }

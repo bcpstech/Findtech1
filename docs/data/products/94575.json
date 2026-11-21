@@ -1,0 +1,70 @@
+{
+  "id": 94575,
+  "external_id": "alltec_amd-ryzen-5-7600-3-8ghz-5-1ghz-turbo-six-core-tdp-65w-am5",
+  "category_id": "cpu",
+  "brand": "AMD",
+  "name": "AMD RYZEN 5 7600 3.8GHz (5.1GHz TURBO) SIX CORE (TDP 65W) (AM5)",
+  "slug": "alltec-amd-ryzen-5-7600-3-8ghz-5-1ghz-turbo-six-core-tdp-65w-am5",
+  "image_url": "https://images.findtech.cl/products/amd-ryzen-5-7600-3-8ghz-5-1ghz-turbo-six-core-tdp-65w-am5.jpg",
+  "description": null,
+  "specs": {
+    "Frecuencia base": "3.8 GHz",
+    "Frecuencia turbo": "5.1 GHz",
+    "Socket": "AM5",
+    "Generación": "AMD Zen 5 (4nm)",
+    "Efectivo / Transferencia": "$233.500",
+    "Tarjeta crédito/débito": "$240.505"
+  },
+  "tags": [],
+  "created_at": "2026-11-21 22:19:27",
+  "updated_at": "2026-11-21 23:07:48",
+  "prices": [
+    {
+      "product_id": 94575,
+      "store_id": "alltec",
+      "price": 233500,
+      "price_normal": null,
+      "discount_pct": null,
+      "stock": "in_stock",
+      "product_url": "https://www.alltec.cl/amd/1948-amd-ryzen-5-7600-38ghz-51ghz-turbo-six-core-tdp-65w-am5-730143314572.html",
+      "store_name": "Alltec",
+      "price_card": 240505,
+      "price_specs": {
+        "Efectivo/Transferencia": "$233.500",
+        "Tarjeta crédito/débito": "$240.505"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "www.alltec.cl",
+      "full_url": "https://www.alltec.cl"
+    },
+    {
+      "product_id": 32922,
+      "store_id": "infor-ingen",
+      "price": 238900,
+      "price_normal": 253234,
+      "discount_pct": 6,
+      "stock": "in_stock",
+      "product_url": "https://store.infor-ingen.com/producto/cpu-amd-ryzen-5-7600-3-8ghz/",
+      "store_name": "Infor-Ingen",
+      "price_card": 246067,
+      "price_specs": {
+        "Efectivo / Transferencia": "$238.900",
+        "Tarjeta crédito/débito": "$246.067"
+      },
+      "store_rating": 0,
+      "review_count": 0,
+      "store_url": "store.infor-ingen.com",
+      "full_url": "https://store.infor-ingen.com"
+    }
+  ],
+  "history": [
+    {
+      "store_id": "alltec",
+      "store_name": "Alltec",
+      "date": "2026-11-21",
+      "price": 233500
+    }
+  ],
+  "scraped_at": "2026-11-21"
+}

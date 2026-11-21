@@ -12,77 +12,41 @@
     "Interfaz": "NVMe PCIe",
     "Factor de forma": "M.2 2280",
     "Marca": "ADATA",
-    "Efectivo / Transferencia": "$99.890",
-    "Tarjeta crédito/débito": "$102.890"
+    "color": "Negro",
+    "Efectivo / Transferencia": "$119.990",
+    "Tarjeta crédito/débito": "$123.590"
   },
   "tags": [],
   "created_at": "2026-04-26 20:44:14",
-  "updated_at": "2026-07-07 01:11:25",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 2091,
       "store_id": "dust2",
-      "price": 99890,
+      "price": 119990,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://dust2.gg/producto/disco-duro-ssd-adata-legend-860-500-gb-m-2-pcie-gen4-x4/",
       "store_name": "Dust2",
-      "price_card": 102887,
+      "price_card": 123590,
       "price_specs": {
-        "Efectivo/Transferencia": "$99.890",
-        "Tarjeta crédito/débito": "$102.887"
+        "Efectivo/Transferencia": "$119.990",
+        "Tarjeta crédito/débito": "$123.590"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.dust2.gg",
       "full_url": "https://www.dust2.gg"
-    },
-    {
-      "product_id": 86749,
-      "store_id": "centrale",
-      "price": 173610,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://centrale.cl/producto/disco-ssd-1tb-adata-legend-860-m2-nvme-gen4-x4-m-2-2280/",
-      "store_name": "Centrale",
-      "price_card": 183159,
-      "price_specs": {
-        "Transferencia / Efectivo": "$173.610",
-        "Tarjetas de Crédito / Débito": "$183.159"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.centrale.cl",
-      "full_url": "https://www.centrale.cl"
     }
   ],
   "history": [
     {
       "store_id": "dust2",
       "store_name": "Dust2",
-      "date": "2026-06-20",
-      "price": 99890
-    },
-    {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-06-25",
-      "price": 99890
-    },
-    {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-06-26",
-      "price": 99890
-    },
-    {
-      "store_id": "dust2",
-      "store_name": "Dust2",
-      "date": "2026-07-07",
-      "price": 99890
+      "date": "2026-11-21",
+      "price": 119990
     }
   ],
-  "scraped_at": "2026-07-07"
+  "scraped_at": "2026-11-21"
 }

@@ -12,26 +12,26 @@
     "Tipo": "DDR5",
     "Velocidad": "5200 MHz",
     "Kit": "2x16 GB",
-    "Efectivo / Transferencia": "$499.900",
-    "Tarjeta crédito/débito": "$514.897"
+    "Efectivo / Transferencia": "$579.900",
+    "Tarjeta crédito/débito": "$597.297"
   },
   "tags": [],
   "created_at": "2026-05-04 02:50:05",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 33403,
       "store_id": "infor-ingen",
-      "price": 499900,
-      "price_normal": 529894,
+      "price": 579900,
+      "price_normal": 614694,
       "discount_pct": 6,
       "stock": "in_stock",
       "product_url": "https://store.infor-ingen.com/producto/memoria-kit-corsair-dominator-platimun-32gb-2x16gb-5200mhz-ddr5/",
       "store_name": "Infor-Ingen",
-      "price_card": 514897,
+      "price_card": 597297,
       "price_specs": {
-        "Efectivo / Transferencia": "$499.900",
-        "Tarjeta crédito/débito": "$514.897"
+        "Efectivo / Transferencia": "$579.900",
+        "Tarjeta crédito/débito": "$597.297"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -39,6 +39,13 @@
       "full_url": "https://store.infor-ingen.com"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "infor-ingen",
+      "store_name": "Infor-Ingen",
+      "date": "2026-11-21",
+      "price": 579900
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }

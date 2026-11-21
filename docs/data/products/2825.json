@@ -8,88 +8,43 @@
   "image_url": "https://images.findtech.cl/products/amd-ryzen-9-9950x3d-4-3ghz-5-7ghz-turbo-sixteen-core-tdp-170w-am5.jpg",
   "description": null,
   "specs": {
-    "Núcleos": "16",
-    "Hilos": "32",
+    "Frecuencia base": "4.3 GHz",
+    "Frecuencia turbo": "5.7 GHz",
     "Socket": "AM5",
-    "Efectivo / Transferencia": "$869.990",
-    "Khipu": "$887.390"
+    "Efectivo / Transferencia": "$799.900",
+    "Tarjeta crédito/débito": "$823.897"
   },
   "tags": [],
   "created_at": "2026-04-27 00:32:19",
-  "updated_at": "2026-05-06 04:05:08",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 2825,
       "store_id": "alltec",
-      "price": 825900,
-      "price_card": 850677,
+      "price": 799900,
       "price_normal": null,
       "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.alltec.cl/amd/2376-amd-ryzen-9-9950x3d-43ghz57ghz-turbo-sixteen-core-tdp-170w-am5.html",
       "store_name": "Alltec",
+      "price_card": 823897,
       "price_specs": {
-        "Efectivo/Transferencia": "$825.900",
-        "Tarjeta crédito/débito": "$850.677"
+        "Efectivo/Transferencia": "$799.900",
+        "Tarjeta crédito/débito": "$823.897"
       },
       "store_rating": 0,
       "review_count": 0,
       "store_url": "www.alltec.cl",
       "full_url": "https://www.alltec.cl"
-    },
-    {
-      "product_id": 2627,
-      "store_id": "trulustore",
-      "price": 869990,
-      "price_card": 896090,
-      "price_normal": null,
-      "discount_pct": null,
-      "stock": "in_stock",
-      "product_url": "https://trulustore.cl/producto/procesador-amd-ryzen-9-9950x3d-am5-16c-32t-cache-l3-128mb/",
-      "store_name": "TruluStore",
-      "khipu_price": 887390,
-      "price_specs": {
-        "Efectivo / Transferencia": "$869.990",
-        "Khipu": "$887.390",
-        "Tarjeta crédito/débito": "$896.090"
-      },
-      "store_rating": 0,
-      "review_count": 0,
-      "store_url": "www.trulustore.cl",
-      "full_url": "https://www.trulustore.cl"
     }
   ],
   "history": [
     {
       "store_id": "alltec",
       "store_name": "Alltec",
-      "date": "2026-04-27",
-      "price": 825900
-    },
-    {
-      "store_id": "alltec",
-      "store_name": "Alltec",
-      "date": "2026-05-03",
-      "price": 825900
-    },
-    {
-      "store_id": "alltec",
-      "store_name": "Alltec",
-      "date": "2026-05-04",
-      "price": 825900
-    },
-    {
-      "store_id": "alltec",
-      "store_name": "Alltec",
-      "date": "2026-05-05",
-      "price": 825900
-    },
-    {
-      "store_id": "alltec",
-      "store_name": "Alltec",
-      "date": "2026-05-06",
-      "price": 825900
+      "date": "2026-11-21",
+      "price": 799900
     }
   ],
-  "scraped_at": "2026-05-06"
+  "scraped_at": "2026-11-21"
 }

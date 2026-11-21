@@ -3,38 +3,37 @@
   "external_id": "pn_824142420997",
   "category_id": "gpu",
   "brand": "MSI",
-  "name": "Tarjeta de Video Nvidia RTX 5060 Ti 8GB - MSI VENTUS 2x OC Plus - GDDR7, 128 bits - PCIe 5.0 - DisplayPort, HDMI",
+  "name": "Tarjeta de Video MSI GeForce RTX 5060 Ti Ventus 2X Plus OC 8GB GDDR7",
   "slug": "tarjeta-de-video-nvidia-rtx-5060-ti-8gb-msi-ventus-2x-oc-plus-gddr7-128-bits-pcie-5-0-displaypo",
-  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-nvidia-rtx-5060-ti-8gb-msi-ventus-2x-oc-plus-gddr7-128-bits-pcie-5-0-displayport-hd.webp",
+  "image_url": "https://images.findtech.cl/products/tarjeta-de-video-msi-geforce-rtx-5060-ti-ventus-2x-plus-oc-8gb-gddr7.webp",
   "description": null,
   "specs": {
     "VRAM": "8 GB",
     "Tipo memoria": "GDDR7",
-    "Bus de memoria": "128-bit",
     "Variante": "OC (Overclocked)",
-    "Efectivo / Transferencia": "$497.900",
-    "Tarjeta crédito/débito": "$525.285",
+    "Efectivo / Transferencia": "$636.900",
+    "Tarjeta crédito/débito": "$671.930",
     "Garantía": "6 meses",
     "SKU": "41089",
     "Part Number": "824142420997"
   },
   "tags": [],
   "created_at": "2026-06-08 20:49:23",
-  "updated_at": "2026-07-14 20:09:45",
+  "updated_at": "2026-11-21 23:07:48",
   "prices": [
     {
       "product_id": 59958,
       "store_id": "myshop",
-      "price": 497900,
-      "price_normal": 525285,
-      "discount_pct": 14,
+      "price": 636900,
+      "price_normal": 671930,
+      "discount_pct": null,
       "stock": "in_stock",
       "product_url": "https://www.myshop.cl/producto/geforce-rtx-5060-ti-8g-ventus-2x-oc-plus-p41089",
       "store_name": "MyShop",
-      "price_card": 512837,
+      "price_card": 656007,
       "price_specs": {
-        "Efectivo/Transferencia": "$497.900",
-        "Tarjeta crédito/débito": "$512.837"
+        "Efectivo/Transferencia": "$636.900",
+        "Tarjeta crédito/débito": "$656.007"
       },
       "store_rating": 0,
       "review_count": 0,
@@ -42,6 +41,13 @@
       "full_url": "https://www.myshop.cl"
     }
   ],
-  "history": [],
-  "scraped_at": "2026-07-14"
+  "history": [
+    {
+      "store_id": "myshop",
+      "store_name": "MyShop",
+      "date": "2026-11-21",
+      "price": 636900
+    }
+  ],
+  "scraped_at": "2026-11-21"
 }
